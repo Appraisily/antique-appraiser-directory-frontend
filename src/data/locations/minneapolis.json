@@ -1,0 +1,284 @@
+{
+  "appraisers": [
+    {
+      "name": "Alicia E Weaver",
+      "specialties": [
+        "Fine art (19th–20th century)",
+        "Americana",
+        "Furniture",
+        "Ceramics"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Estate tax appraisals",
+        "Insurance claims appraisals",
+        "Divorce settlement appraisals"
+      ],
+      "certifications": [
+        "ISA CAPP"
+      ],
+      "years_in_business": "Since 2009",
+      "city": "Minneapolis",
+      "state": "MN",
+      "phone": "(612) 555-1234",
+      "website": "prestigestateservices.com",
+      "notes": "Works at Prestige Estate Services; Hours: Mon–Fri 9 AM–5 PM.",
+      "id": "minneapolis-alicia-e-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-alicia-e-weaver_1741086840938_TAKw9ex6M.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5,
+      "address": "Minneapolis, MN"
+    },
+    {
+      "name": "Greg C. Brown",
+      "specialties": [
+        "Modern/contemporary art",
+        "Native American artifacts"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "General appraisal services"
+      ],
+      "certifications": [
+        "ISA M.S.",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "15+ years",
+      "city": "Minneapolis",
+      "state": "MN",
+      "phone": "(612) 555-1234",
+      "website": "prestigestateservices.com",
+      "notes": "Part of Prestige Estate Services; Contact details same as Alicia E Weaver.",
+      "id": "minneapolis-greg-c-brown",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-greg-c-brown_1740931474918_1TaQEYVYy.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-greg-c-brown_1740830037073_Vcnk7zcqs.jpg",
+      "rating": 4.8,
+      "address": "Minneapolis, MN"
+    },
+    {
+      "name": "AppraiseItNow",
+      "specialties": [
+        "Personal property",
+        "Machinery/equipment"
+      ],
+      "pricing": "Starts at $150 per item (online), $300+/hour (in-person)",
+      "services_offered": [
+        "Online appraisals",
+        "In-person appraisals"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Minneapolis",
+      "state": "MN",
+      "phone": "(651) 555-6789",
+      "website": "appraiseitnow.com",
+      "notes": "Service area covers Twin Cities metro and online; Appointments required.",
+      "id": "minneapolis-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-appraiseitnow_1740931482827_ZNA8SKhb7.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-appraiseitnow_1740830037073_Vgns4yh9j.jpg",
+      "rating": 4.6,
+      "address": "Minneapolis, MN"
+    },
+    {
+      "name": "Revere Auctions",
+      "specialties": [
+        "Regional artists (e.g., George Morrison)",
+        "Provenance research"
+      ],
+      "pricing": "Typically $200–$500 per report (varies by complexity)",
+      "services_offered": [
+        "Auctions",
+        "Valuations",
+        "Research services"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "St. Paul",
+      "state": "MN",
+      "phone": "(651) 555-4321",
+      "website": "revereauctions.com",
+      "notes": "Serves St. Paul/Minneapolis metro; Hours: Tue–Sat 10 AM–4 PM.",
+      "id": "minneapolis-revere-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-revere-auctions_1740931489781_vwZhJBQaBY.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-revere-auctions_1740830037073_Va12e9h1k.jpg",
+      "rating": 4.8,
+      "address": "St. Paul, MN"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.art-appraisals.net",
+      "notes": "Also known as AFAA.",
+      "id": "minneapolis-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-anderson-fine-art-appraisals_1740931497387_iSxTor4gG.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-anderson-fine-art-appraisals_1740830037073_V13tz2fcl.jpg",
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Expert witness services",
+        "Authentication",
+        "Litigation support"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases with LAPD.",
+      "id": "minneapolis-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-escher-associates_1740931504395_zCa3jT3Cwz.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-escher-associates_1740830037073_Vjdyz7a1v.jpg",
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donations appraisals",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate: $350, minimum for in-office consults: $500",
+      "services_offered": [
+        "In-office consultations",
+        "Valuations"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state.",
+      "id": "minneapolis-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-page-art-inc_1740931512612_UzvUgX_8z.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-page-art-inc_1740830037073_Vjf2snxoj.jpg",
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Appraisals for major museums"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA; likely high-end appraisal services.",
+      "id": "minneapolis-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-saylor-rice-appraisals_1740931521548__e_o8-_D2.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-saylor-rice-appraisals_1740830037073_V7b8mf7de.jpg",
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value art appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm managing over $10 billion annually.",
+      "id": "minneapolis-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-gurr-johns_1740931529268_-Pif7GChj.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-gurr-johns_1740830037073_V198ngtpv.jpg",
+      "rating": 5,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Valuations",
+        "Consignment-based sales"
+      ],
+      "pricing": [
+        "20% fee up to $500K",
+        "10% fee beyond $500K"
+      ],
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment art sales"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd; offers free valuations and consignment-based sales.",
+      "id": "minneapolis-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-mimesis-gallery_1740931537167_S1pVTJpRF.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-mimesis-gallery_1740830037073_Vs4n1ztrb.jpg",
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
+    }
+  ]
+}

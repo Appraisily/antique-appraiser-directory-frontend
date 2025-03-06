@@ -1,0 +1,257 @@
+{
+  "appraisers": [
+    {
+      "name": "Prestige Estate Services",
+      "specialties": [
+        "Paintings",
+        "Sculptures",
+        "Decorative Arts",
+        "Antique Furniture"
+      ],
+      "pricing": "Insurance appraisals ($200-$500/item)",
+      "services_offered": [
+        "Insurance appraisals",
+        "Estate valuations",
+        "Auction estimates"
+      ],
+      "certifications": [
+        "ISA Certified",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "Richmond",
+      "state": "VA",
+      "phone": "(804) 555-1234",
+      "website": "https://prestigeestateservices.com",
+      "notes": "Provides comprehensive art appraisal services including provenance research and market analysis.",
+      "id": "richmond-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-prestige-estate-services_1741088664467_KaZ5Oqd2an.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 5.1,
+      "address": "Richmond, VA"
+    },
+    {
+      "name": "Alicia E Weaver (ISA CAPP)",
+      "specialties": [
+        "19th-20th Century Art",
+        "Americana",
+        "Decorative Arts"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Estate evaluations",
+        "Damage claims",
+        "Expert witness"
+      ],
+      "certifications": [
+        "ISA Certified Appraiser of Personal Property (CAPP)"
+      ],
+      "years_in_business": "Established business",
+      "city": "Richmond",
+      "state": "VA",
+      "phone": "Contact via website",
+      "website": "https://www.isa-appraisers.org",
+      "notes": "Service area includes Virginia with Richmond accessible.",
+      "id": "richmond-alicia-e-weaver-isa-capp",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7,
+      "address": "Richmond, VA"
+    },
+    {
+      "name": "Green Donation Consultants",
+      "specialties": [
+        "Charitable Donation Appraisals"
+      ],
+      "pricing": "Tax-deductible gift valuations ($150-$300/item)",
+      "services_offered": [
+        "Donation appraisals",
+        "Tax evaluation services"
+      ],
+      "certifications": [
+        "Real estate appraisal experience since 2005"
+      ],
+      "years_in_business": "Since 2005",
+      "city": "Fredericksburg",
+      "state": "VA",
+      "phone": "(540) 555-6789",
+      "website": "https://greendonation.com",
+      "notes": "Serves the Fredericksburg/Richmond corridor.",
+      "id": "richmond-green-donation-consultants",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-green-donation-consultants_1741088710465_2t7_Aewbj.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7,
+      "address": "Fredericksburg, VA"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals (AFAA)",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Expert witness",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Decades of experience",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.art-appraisals.net",
+      "notes": "",
+      "id": "richmond-anderson-fine-art-appraisals-afaa",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Escher Associates (EA)",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Appraisals",
+        "Expert witness services",
+        "Art fraud investigations"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Established in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases with LAPD.",
+      "id": "richmond-escher-associates-ea",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-escher-associates-ea_1741088845215_PMNzPZJlN.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance Appraisals",
+        "Estate Valuations",
+        "Donation Appraisals",
+        "Litigation Appraisals"
+      ],
+      "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+      "services_offered": [
+        "Insurance appraisals",
+        "Estate valuations",
+        "Donation appraisals",
+        "Litigation appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.page-art.com",
+      "notes": "Serves multiple regions including Los Angeles, Bay Area, and Orange County.",
+      "id": "richmond-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-page-art-inc_1741088850478_rucweOoqy.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance Appraisals",
+        "Damage/Loss Appraisals"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA.",
+      "id": "richmond-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-saylor-rice-appraisals_1741088856768_iKE9kSYLH.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value Art Appraisals"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm with a Los Angeles presence. Manages over $10 billion annually.",
+      "id": "richmond-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-gurr-johns_1741088863939_Juz44fXpY.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Consignment-based art sales"
+      ],
+      "pricing": "Fees: 20% up to $500K, 10% beyond that",
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment-based sales"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, Los Angeles.",
+      "id": "richmond-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-mimesis-gallery_1741088869541_6jIMN7CY0.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
+    }
+  ]
+}

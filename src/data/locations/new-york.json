@@ -1,0 +1,99 @@
+{
+  "city": "New York",
+  "state": "New York",
+  "appraisers": [
+    {
+      "id": "manhattan-fine-art-appraisers",
+      "name": "Manhattan Fine Art Appraisers",
+      "rating": 4.8,
+      "reviewCount": 156,
+      "address": "350 5th Ave, New York, NY 10118",
+      "specialties": [
+        "Fine Art",
+        "Antique Paintings",
+        "Sculptures"
+      ],
+      "phone": "(212) 555-0123",
+      "email": "info@manhattanfineartappraisers.com",
+      "website": "https://manhattanfineartappraisers.com",
+      "about": "Manhattan Fine Art Appraisers brings decades of expertise to art valuation in New York City. Our team of certified appraisers specializes in both traditional and contemporary art forms.",
+      "businessHours": [
+        {
+          "day": "Monday",
+          "hours": "10:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:00 AM - 4:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "certifications": [
+        "Appraisers Association of America (AAA)",
+        "International Society of Appraisers (ISA)",
+        "USPAP Certified"
+      ],
+      "services": [
+        {
+          "name": "Fine Art Appraisal",
+          "description": "Complete valuation service for paintings, sculptures, and other fine art pieces.",
+          "price": "$400"
+        },
+        {
+          "name": "Estate Appraisal",
+          "description": "Comprehensive art collection valuation for estate planning or tax purposes.",
+          "price": "From $1,500"
+        },
+        {
+          "name": "Insurance Appraisal",
+          "description": "Detailed documentation and valuation for insurance coverage.",
+          "price": "From $600"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r1",
+          "author": "Michael R.",
+          "rating": 5,
+          "date": "March 18, 2024",
+          "content": "Incredible attention to detail and vast knowledge of the art market. Their appraisal helped me secure proper insurance for my collection."
+        },
+        {
+          "id": "r2",
+          "author": "Emily W.",
+          "rating": 4,
+          "date": "March 12, 2024",
+          "content": "Very professional service. They provided extensive documentation and market analysis for my estate planning needs."
+        }
+      ],
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_manhattan-fine-art-appraisers_1740931698148_1CE6WFo82.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_manhattan-fine-art-appraisers_1740830037074_Vk4hw5zzn.jpg",
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
+      "years_in_business": "Established business",
+      "pricing": "Contact for pricing information"
+    }
+  ]
+}

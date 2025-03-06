@@ -1,0 +1,25 @@
+{
+  "content": {
+    "city": "Arlington",
+    "state": "Texas",
+    "data": {
+      "type": "raw_response",
+      "content": "<think>\nOkay, let's tackle this query step by step. The user wants a detailed directory of antique appraisers in Arlington, Texas. First, I need to figure out what information is required and where to find it in the provided search results.\n\nStarting with the overview of antique appraisal services in Arlington. From the sources, Prestige Estate Services [2][6] mentions they offer comprehensive assessments including antiques, fine art, and collectibles. They also emphasize IRS compliance and USPAP standards. Tadlock Appraisal Company [4] focuses on real estate but mentions estate planning assistance which might overlap with personal property appraisals.\n\nNext is listing as many appraisers as possible. Looking through source [1], there are several appraisers listed in North Texas but not all are in Arlington specifically. For example, Joe F. Hutchinson is at 2208 Wilson Drive, Arlington [1]. Others like Cronin-Kennedy Appraisals and Brazeal Appraisals are nearby cities like Celina and The Colony—maybe service areas include Arlington? Need to check if they serve Arlington even if based elsewhere.\n\nSpecialties: Prestige Estate Services [2][6] lists specialties like antiques, fine art collections, furniture appraisals etc., which fits the antique focus needed here.\n\nContact info: From source [1], addresses and phone numbers are provided for some entries; for instance Joe F Hutchinson has (817) 996-5174[1]. Prestige's contact info isn't directly listed but their website (prestigeestateservices.com) can be inferred from URL[2].\n\nYears in business aren't explicitly mentioned except maybe Tadlock Appraisal Company[4], which doesn’t state years but emphasizes experience.\n\nCertifications: Prestige mentions IRS Qualified Estate Tax Appraisers[6], ISA CAPP certifications from source[3]. Rebecca L Hogge ISA CAPP Certified is based in Leander TX but part of ISA members list[3].\n\nService areas: Some may cover multiple regions; e.g., Tadlock serves Fort Worth Dallas area including North Texas counties[4]. Pricing details are scarce except general info from HomeAdvisor about costs for different appraisal types (drive-by vs full)[5].\n\nNeed to compile all relevant entries focusing on those located or serving Arlington TX while noting specialties related to antiques or personal property rather than just real estate where possible.\n</think>\n\nArlington offers specialized antique appraisal services through certified professionals experienced in diverse categories like furniture, collectibles, jewelry/coins ([9]), IRS-compliant estate valuations ([2][6]), and expert witness consultations ([4]). Below is a curated directory:\n\n---\n\n## **Antique Appraiser Directory**\n\n### **Prestige Estate Services**  \n- **Specialties**: Fine art collections | Antique furniture | Charitable donation compliance | Divorce/inheritance valuations  \n- **Certifications**: USPAP-compliant | IRS-qualified tax appraisers ([2][6])  \n- **Team**: Edward Kitson | Elizabeth Lovett | Stephanie Calman  \n- **Contact**: Via website form at prestigeestateservices.com  \n\n---\n\n### **Joe F. Hutchinson**  \n- **Address**: 2208 Wilson Drive, Arlington TX 76011  \n- **Phone**: (817) 996-5174  \n- Expertise: General residential property & personal effects  \n\n---\n\n### **Tadlock Appraisal Company** (*Primarily Real Estate*)  \n- Addresses Fort Worth/Arlington/North Texas counties ([4])   \n+ Specialty add-on services: Historic home valuation expertise   \n+ Contact: tadlockappraisal.com  \n\n---\n\n### Coin & Jewelry Specialists:\n#### Anything Goes Coins (**PCGS-Certified Dealer**)    \n",
+      "timestamp": "2025-03-06T11:34:59.131Z"
+    },
+    "timestamp": "2025-03-06T11:34:59.131Z",
+    "metadata": {
+      "type": "antique_appraiser_raw-response",
+      "city": "Arlington",
+      "state": "Texas"
+    }
+  },
+  "metadata": {
+    "timestamp": "2025-03-06T11:34:59.134Z",
+    "contentLength": 3866,
+    "storagePath": "antique-appraisers/cities/arlington/raw-response.json",
+    "type": "art_appraiser_raw-response",
+    "city": "Arlington",
+    "state": "Texas"
+  }
+}

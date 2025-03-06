@@ -1,0 +1,259 @@
+{
+  "appraisers": [
+    {
+      "id": "reilly-clark-fine-art-appraisals",
+      "name": "Reilly Clark Fine Art & Appraisals",
+      "specialties": [
+        "Fine Art",
+        "Contemporary",
+        "Antiquities",
+        "Insurance Appraisals",
+        "Tax Appraisals",
+        "Estate Liquidations"
+      ],
+      "pricing": "Not publicly listed; inquire directly",
+      "services_offered": [
+        "Insurance Appraisals",
+        "Tax Appraisals",
+        "Estate Liquidations"
+      ],
+      "certifications": [
+        "ISA",
+        "ASA",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "5+ years",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "phone": "(214) 799-7889",
+      "website": "https://www.artappraisers.org/",
+      "notes": "Based in Santa Barbara; serves San Jose/Silicon Valley, Southern California, and Texas. Art history M.A./Ph.D. candidate at UCSB.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_reilly-clark-fine-art-appraisals_1741089110700_oSYQta1BV.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5,
+      "address": "Santa Barbara, CA"
+    },
+    {
+      "name": "Clars Auctions",
+      "specialties": [
+        "Asian Art",
+        "Fine Art",
+        "Appraisal Services"
+      ],
+      "pricing": "Fee structure varies by item type/valuation purpose",
+      "services_offered": [
+        "Auction Services",
+        "Appraisals"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Decades of experience",
+      "city": "Oakland",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "https://clars.com",
+      "notes": "Serves the Bay Area including San Jose.",
+      "id": "san-jose-clars-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-clars-auctions_1741089116240_kpeYeqsx7Q.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.9,
+      "address": "Oakland, CA"
+    },
+    {
+      "name": "AppraiseItNow",
+      "specialties": [
+        "Online Appraisals",
+        "Fine Art",
+        "Antiques",
+        "Collectibles"
+      ],
+      "pricing": "Starts at $195; expedited fees apply",
+      "services_offered": [
+        "Online Art Appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA"
+      ],
+      "years_in_business": "Established business",
+      "city": "Online",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "https://www.appraiseitnow.com",
+      "notes": "Operates nationally with a California focus; serves San Jose.",
+      "id": "san-jose-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-appraiseitnow_1741089121883_l1x-_QMun.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7,
+      "address": "Online, CA"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-Century Works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert Witness",
+        "Litigation Support",
+        "Authentication Research"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.art-appraisals.net",
+      "notes": "",
+      "id": "san-jose-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-anderson-fine-art-appraisals_1741089127699_ALnIWTEfc.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art Appraisals",
+        "Expert Witness Services"
+      ],
+      "certifications": [
+        "ASA-certified"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases with LAPD; adheres to USPAP and ASA standards.",
+      "id": "san-jose-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-escher-associates_1741089133154_xx2memQpA.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance Appraisals",
+        "Estate Appraisals",
+        "Donations Appraisals",
+        "Litigation Appraisals"
+      ],
+      "pricing": "Hourly $350; minimum for in-office consults $500",
+      "services_offered": [
+        "Appraisals for Insurance, Estates, and Donations",
+        "Litigation Support"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state markets.",
+      "id": "san-jose-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-page-art-inc_1741089138532_elJ33YYrn.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance Appraisals",
+        "Damage/Loss Appraisals"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Insurance Appraisals",
+        "Damage/Loss Appraisals"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Offers high-end appraisals; clients include LACMA and MoMA.",
+      "id": "san-jose-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-saylor-rice-appraisals_1741089143939_P8_GvI3wY.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-Value Appraisals",
+        "Expert Witness Services"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Art Appraisals",
+        "Expert Witness Services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm managing over $10 billion in assets annually.",
+      "id": "san-jose-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-gurr-johns_1741089149620_TZE_U0Drz.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free Valuations",
+        "Consignment-Based Sales"
+      ],
+      "pricing": "20% fee up to $500K; 10% fee beyond $500K",
+      "services_offered": [
+        "Free Art Valuations",
+        "Consignment Sales"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.mimesisgallery.com",
+      "notes": "Offers same-day offers; consignment-based sales model.",
+      "id": "san-jose-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-mimesis-gallery_1741089156976_6JjXod-Sp.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
+    }
+  ]
+}

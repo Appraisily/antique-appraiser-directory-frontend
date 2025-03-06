@@ -1,0 +1,331 @@
+{
+  "appraisers": [
+    {
+      "id": "momaa-museum-modern-american-art",
+      "name": "MoMAA (Museum of Modern American Art)",
+      "specialties": [
+        "General fine art",
+        "Online appraisals (paintings, sculptures)"
+      ],
+      "pricing": "Fees undisclosed; PDF report provided within 3 business days",
+      "services_offered": [
+        "Art appraisals",
+        "Detailed PDF reports",
+        "Online service"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Miami",
+      "state": "FL",
+      "phone": "Contact via website",
+      "website": "https://momaa.org/art-appraisal-miami/",
+      "notes": "Offers high-resolution image based appraisals with a 3-day turnaround for South Florida.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_momaa-museum-modern-american-art_1740931352302_MUfZzsvdC.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_momaa-museum-modern-american-art_1740830037072_Vw5vwaq16.jpg",
+      "rating": 4.8,
+      "address": "Miami, FL"
+    },
+    {
+      "id": "juan-lluria-fine-arts",
+      "name": "Juan P. Lluria (Lluria Fine Arts)",
+      "specialties": [
+        "Antiques",
+        "Fine art",
+        "Decorative household items"
+      ],
+      "pricing": "Hourly or flat fees; specialist fees extra",
+      "services_offered": [
+        "Art appraisals",
+        "Referrals to specialists for jewelry and non-Western art"
+      ],
+      "certifications": [
+        "AAA-certified (Appraisers Association of America)"
+      ],
+      "years_in_business": "30+ years",
+      "city": "Miami",
+      "state": "FL",
+      "phone": "Contact via website",
+      "website": "https://lluriafinearts.com/about-us/appraisals/",
+      "notes": "Provides appraisal services with additional referrals as needed.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_juan-lluria-fine-arts_1740931361606_2jIcpMkix.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_juan-lluria-fine-arts_1740830037072_Vtel1issw.jpg",
+      "rating": 4.8,
+      "address": "Miami, FL"
+    },
+    {
+      "name": "Antique Art Buyers",
+      "specialties": [
+        "Antique paintings"
+      ],
+      "pricing": "Free verbal valuations",
+      "services_offered": [
+        "Free verbal appraisals"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Miami",
+      "state": "FL",
+      "phone": "Contact via website",
+      "website": "https://antiqueartbuyers.com",
+      "notes": "Focuses on free verbal valuations for sellers in Miami-Dade County.",
+      "id": "miami-antique-art-buyers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-antique-art-buyers_1740931370163_WjTq8fGq_.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-antique-art-buyers_1740830037072_Vhqqtbwbi.jpg",
+      "rating": 4.7,
+      "address": "Miami, FL"
+    },
+    {
+      "name": "Lisa Austin (LA&A)",
+      "specialties": [
+        "Contemporary art acquisitions",
+        "Art documentation"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Art appraisals",
+        "Art advisory",
+        "Documentation"
+      ],
+      "certifications": [
+        "Appraisers Association of America",
+        "M.A. in Art History (University of Miami)"
+      ],
+      "years_in_business": "Established business",
+      "city": "Miami Beach",
+      "state": "FL",
+      "phone": "+1 305-865-1800",
+      "website": "http://www.laanda.net",
+      "notes": "",
+      "id": "miami-lisa-austin-la-a",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-lisa-austin-la-a_1740931378883_1KbasWB_c.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-lisa-austin-la-a_1740830037072_Vulxof8bm.jpg",
+      "rating": 4.9,
+      "address": "Miami Beach, FL"
+    },
+    {
+      "name": "Myriam Nader-Salomon (Myriam Nader Haitian Art Gallery)",
+      "specialties": [
+        "Haitian art",
+        "Caribbean art"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Art appraisal",
+        "Gallery services"
+      ],
+      "certifications": [
+        "Fine art appraiser since 1989"
+      ],
+      "years_in_business": "35+ years",
+      "city": "Miami",
+      "state": "FL",
+      "phone": "Contact via website",
+      "website": "https://www.naderhaitianart.com",
+      "notes": "",
+      "id": "miami-myriam-nader-salomon-myriam-nader-haitian-art-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-myriam-nader-salomon-myriam-nader-haitian-art-gallery_1740931387300_9KRjktMaz.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-myriam-nader-salomon-myriam-nader-haitian-art-gallery_1740830037072_V5gr9xvj2.jpg",
+      "rating": 5,
+      "address": "Miami, FL"
+    },
+    {
+      "name": "The Fine Art Group",
+      "specialties": [
+        "High-value art investment advisory",
+        "Art appraisals"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Art advisory",
+        "Art appraisals",
+        "Investment advisory"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Miami",
+      "state": "FL",
+      "phone": "Contact via website",
+      "website": "https://www.fineartgroup.com",
+      "notes": "Operates globally with a local presence in Miami.",
+      "id": "miami-the-fine-art-group",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-the-fine-art-group_1740931395246_uwru3K_HA.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-the-fine-art-group_1740830037072_Vw63kcja0.jpg",
+      "rating": 4.5,
+      "address": "Miami, FL"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Decades of experience",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "http://www.art-appraisals.net",
+      "notes": "Specializes in a broad range of European and American art styles.",
+      "id": "miami-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-anderson-fine-art-appraisals_1740931402690_cKqPJd1YZa.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-anderson-fine-art-appraisals_1740830037072_Vc8zqq7q0.jpg",
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness services",
+        "Fraud case handling"
+      ],
+      "certifications": [
+        "ASA-certified"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "http://www.escher-associates.com",
+      "notes": "Handled art fraud cases with LAPD and adheres to USPAP and ASA standards.",
+      "id": "miami-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-escher-associates_1740931411217_8nIhBm8_O.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-escher-associates_1740830037072_V9de6rmay.jpg",
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donations appraisals",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate of $350; minimum for in-office consults: $500",
+      "services_offered": [
+        "Appraisals for insurance, estates, donations, and litigation"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "http://www.page-art.com",
+      "notes": "",
+      "id": "miami-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-page-art-inc_1740931420335_NSiXWnEfTE.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-page-art-inc_1740830037072_Vat96nkzx.jpg",
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Appraisals for insurance and damage/loss"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "http://www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA; caters to high-end appraisal needs.",
+      "id": "miami-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-saylor-rice-appraisals_1740931428526_yqCURtg1Y5.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-saylor-rice-appraisals_1740830037072_Vffhducux.jpg",
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value art appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "http://www.gurrjohns.com",
+      "notes": "Global firm managing over $10 billion annually.",
+      "id": "miami-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-gurr-johns_1740931436742_pNTLSahFW.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-gurr-johns_1740830037072_Virctwz34.jpg",
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free art valuations",
+        "Consignment-based sales"
+      ],
+      "pricing": "20% fee up to $500K; 10% fee for amounts above $500K",
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment services"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "http://www.mimesisgallery.com",
+      "notes": "Offers same-day offers and operates on a consignment-based sales model.",
+      "id": "miami-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-mimesis-gallery_1740931444103_IJlkg73bm.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-mimesis-gallery_1740830037072_V3oankjie.jpg",
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
+    }
+  ]
+}

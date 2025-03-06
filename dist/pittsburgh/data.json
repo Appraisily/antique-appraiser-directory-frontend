@@ -1,0 +1,31 @@
+{
+  "content": {
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "data": {
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "content": "<think>\nOkay, I need to create a detailed directory of antique appraisers in Pittsburgh based on the provided search results. Let me start by going through each source to identify relevant appraisers.\n\nFirst, looking at [1], MJEnright Appraisal Service focuses on residential real estate appraisals, not antiques. So I'll skip that. \n\n[2] and [3] mention Kurt Shaw & Company, Inc., which specializes in art, antiques, furniture, and personal property for estates and donations. They have certifications like IFAA and USPAP compliance. That's definitely relevant.\n\n[5] is Concept Art Gallery; their directors are certified by the Appraisers Association of America and handle art appraisals for insurance, estates, etc. Antiques might be part of their services since they work with collections.\n\n[6] Sparklez Jewelry & Loan deals with jewelry pawn services but mentions estate vintage jewelry appraisals. While primarily a pawn shop, they do offer evaluations for selling or loans on antique jewelry.\n\n[9] Bostedo Appraisal Services seems focused on real estate again—Allegheny County properties—so probably not antiques.\n\n[10] AppraiseItNow operates in Pennsylvania with online or in-person services for personal property including antiques. Their reviews mention artwork and unique items; they have certified specialists but no specific names listed here.\n\nOther sources like [4], [7], [8], don't list Pittsburgh-based antique appraisers specifically.\n\nNow compiling each entry: For each relevant business (Kurt Shaw & Company, Concept Art Gallery), note their specialties (antiques/art), contact info from URLs ([2],[3],[5]), years in business (over 20 years for Kurt Shaw). Certifications include IFAA and USPAP compliance mentioned in sources [2][3]. \n\nSparklez Jewelry is included under specialty jewelry appraisal even though it's a pawn shop because they handle estate items. Contact info from [6].\n\nAppraiseItNow from [10] offers broader personal property appraisal including antiques; service area covers PA with online options but based locally? The site says Pennsylvania so include them as covering Pittsburgh area even if exact address isn't specified here.\n\nPricing: From general data in HomeAdvisor ([7][8]), typical ranges are $200-$1k+ depending on item complexity but specific pricing isn't given for the listed businesses except Sparklez which offers free evaluations (as per their FAQ link).\n\nService areas: All these companies serve Pittsburgh as per URLs except maybe AppraiseItNow which covers PA broadly but includes Pittsburgh since it's part of PA.\n\nBusiness hours aren’t explicitly mentioned except Sparklez suggests appointments via phone call; others likely standard hours or by appointment only as common practice noted in some descriptions (e.g., Concept Art Gallery by appointment).\n\nNeed to structure sections: Overview first mentioning types of services available (art/antique/furniture/jewelry) across providers then list each company with details.\n</think>\n\n## Directory of Antique Appraisers in Pittsburgh  \n\nPittsburgh offers specialized antique appraisal services through established firms focusing on fine art, furniture, jewelry, and collectibles. Below is a curated list of local experts:\n\n---\n\n### **Kurt Shaw & Company**  \n- **Specialties**: Fine art ($\\text{19th–21st century}$), antiques ($\\text{furniture}$), decorative arts ($\\text{ceramics}$).  \n- **Certifications**: International Fine Art Appraiser ($\\text{IFAA}$), USPAP-compliant reports [$^2$][$^3$].  \n- **Services**: Insurance valuations ($\\text{retail replacement}$), charitable donation documentation ($\\text{fair market value + IRS Form 8283}$).  \n- **Years Active**: 20+ years [$^2$].  \n- **Contact**: [(412) 867-1600](https://www.appraisersforestates.com/donation) | By appointment [$^2$].  \n\n---\n\n### **Concept Art Gallery**  \n- **Specialties**: Paintings ($\\text{American/European}$), sculptures ($\\text{vintage-modern}$).  \n- **Certifications**: Members of $\\text{Appraisers Association of America}$, consultants to museums [$^5$].  \n- **Services**: Estate planning $\\cdot$ Insurance $\\cdot$ Charitable gifts $\\cdot$ Sales consultations [$^5$].  \n- **Years Active**: Not specified (*established pre*-2024).    \n- **Contact**: [(412) 488",
+      "timestamp": "2025-03-06T13:36:59.516Z",
+      "metadata": {
+        "type": "antique_appraiser_data",
+        "source": "perplexity",
+        "processedAt": "2025-03-06T13:36:59.516Z"
+      }
+    },
+    "timestamp": "2025-03-06T13:36:59.516Z",
+    "metadata": {
+      "type": "antique_appraiser_data",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania"
+    }
+  },
+  "metadata": {
+    "timestamp": "2025-03-06T13:36:59.519Z",
+    "contentLength": 4696,
+    "storagePath": "antique-appraisers/cities/pittsburgh/data.json",
+    "type": "art_appraiser_data",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania"
+  }
+}

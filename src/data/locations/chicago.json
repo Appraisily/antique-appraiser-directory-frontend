@@ -1,0 +1,167 @@
+{
+  "city": "Chicago",
+  "state": "Illinois",
+  "seo": {
+    "title": "Art Appraisers in Chicago | Expert Art Valuation Services",
+    "description": "Find certified art appraisers in Chicago, IL. Get expert art valuations, authentication services, and professional advice for your art collection. Compare ratings and read verified reviews.",
+    "keywords": [
+      "art appraisers chicago",
+      "chicago art valuation",
+      "art authentication chicago",
+      "fine art appraisal illinois"
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Art Appraisers in Chicago",
+      "description": "Find certified art appraisers in Chicago, Illinois. Professional art valuation and authentication services.",
+      "areaServed": {
+        "@type": "City",
+        "name": "Chicago",
+        "state": "Illinois"
+      }
+    }
+  },
+  "appraisers": [
+    {
+      "id": "metropolitan-art-appraisers-chicago",
+      "name": "Metropolitan Art Appraisers",
+      "rating": 4.9,
+      "reviewCount": 128,
+      "address": "219 S Dearborn St, Chicago, IL 60604",
+      "specialties": [
+        "Fine Art",
+        "Modern Art",
+        "Contemporary Art"
+      ],
+      "phone": "(312) 555-0123",
+      "email": "contact@metropolitanartappraisers.com",
+      "website": "https://metropolitanartappraisers.com",
+      "seo": {
+        "schema": {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Metropolitan Art Appraisers",
+          "image": "https://images.unsplash.com/photo-1594732832278-abd644401426?auto=format&fit=crop&q=80",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "219 S Dearborn St",
+            "addressLocality": "Chicago",
+            "addressRegion": "IL",
+            "postalCode": "60604",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 41.8789,
+            "longitude": -87.6291
+          },
+          "url": "https://metropolitanartappraisers.com",
+          "telephone": "(312) 555-0123",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "128"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "opens": "09:00",
+              "closes": "17:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Friday",
+              "opens": "09:00",
+              "closes": "16:00"
+            }
+          ]
+        }
+      },
+      "about": "With over 25 years of experience in the Chicago art scene, Metropolitan Art Appraisers provides expert valuation services for collectors, institutions, and insurance purposes.",
+      "businessHours": [
+        {
+          "day": "Monday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "9:00 AM - 4:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "By Appointment"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "certifications": [
+        "Accredited Senior Appraiser (ASA)",
+        "International Society of Appraisers (ISA)",
+        "Appraisers Association of America (AAA)"
+      ],
+      "services": [
+        {
+          "name": "Single Item Appraisal",
+          "description": "Detailed valuation report for a single artwork including authentication, condition assessment, and market analysis.",
+          "price": "$350"
+        },
+        {
+          "name": "Collection Appraisal",
+          "description": "Comprehensive evaluation of art collections with detailed documentation for insurance or estate purposes.",
+          "price": "From $1,200"
+        },
+        {
+          "name": "Expert Consultation",
+          "description": "Professional advice on art acquisition, collection management, and market trends.",
+          "price": "$200/hour"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r1",
+          "author": "Sarah M.",
+          "rating": 5,
+          "date": "March 15, 2024",
+          "content": "Exceptional service and incredibly knowledgeable. They provided detailed insights about my modern art collection that helped me make informed decisions about insurance coverage."
+        },
+        {
+          "id": "r2",
+          "author": "James P.",
+          "rating": 5,
+          "date": "March 10, 2024",
+          "content": "Professional, thorough, and efficient. Their expertise in contemporary art is outstanding, and their valuation report was comprehensive and well-documented."
+        }
+      ],
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_metropolitan-art-appraisers-chicago_1740930289044_TDGQ_I20F.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_metropolitan-art-appraisers-chicago_1740830037062_Vdzl98cql.jpg",
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
+      "years_in_business": "Established business",
+      "pricing": "Contact for pricing information"
+    }
+  ]
+}

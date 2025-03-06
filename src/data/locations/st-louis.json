@@ -1,0 +1,286 @@
+{
+  "appraisers": [
+    {
+      "id": "selkirk-auctions-appraisers",
+      "name": "Selkirk Auctions & Appraisers",
+      "specialties": [
+        "Fine Art",
+        "Antiques",
+        "Collectibles",
+        "Rugs",
+        "Memorabilia"
+      ],
+      "pricing": "Fee structure varies by project",
+      "services_offered": [
+        "Auctions",
+        "Appraisals"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Over 15 years",
+      "city": "Saint Louis",
+      "state": "MO",
+      "phone": "314-696-9041",
+      "website": "https://www.artappraisers.org/",
+      "notes": "Based in Saint Louis MO 63101. Specializes in fine art, antiques, and collectibles.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_selkirk-auctions-appraisers_1741089299473_OgzTEJjknS.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 5,
+      "address": "Saint Louis, MO"
+    },
+    {
+      "id": "woodard-lipe-fine-art-auction",
+      "name": "Woodard Lipe Fine Art & Auction",
+      "specialties": [
+        "Estate valuations",
+        "Estate appraisals for paintings, sculptures, decorative arts"
+      ],
+      "pricing": "$150–$250/hour plus travel fees; minimum 1 hour",
+      "services_offered": [
+        "Estate appraisals",
+        "Auctions"
+      ],
+      "certifications": [
+        "USPAP-trained"
+      ],
+      "years_in_business": "Over a decade",
+      "city": "Saint Louis",
+      "state": "MO",
+      "phone": "314-xxx-xxxx",
+      "website": "woodardlipe.com",
+      "notes": "Provides formal appraisals for legal purposes.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_woodard-lipe-fine-art-auction_1741089304914_OUXDtKFpc.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 5,
+      "address": "Saint Louis, MO"
+    },
+    {
+      "name": "Coast2Coast Auctions",
+      "specialties": [
+        "Estate auctions",
+        "Real estate auctions",
+        "Mid-century modern furniture",
+        "Art liquidation"
+      ],
+      "pricing": "Commission-based sales; free initial consultations",
+      "services_offered": [
+        "Auctions",
+        "Appraisals (as part of auction services)"
+      ],
+      "certifications": [
+        "Licensed auctioneer",
+        "Realtor®"
+      ],
+      "years_in_business": "Since early 2000s",
+      "city": "Saint Louis",
+      "state": "MO",
+      "phone": "314-599-0563",
+      "website": "coast2coastauctions.com",
+      "notes": "Local auction company with a St.-Louis-based team.",
+      "id": "st-louis-coast2coast-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-coast2coast-auctions_1741089310841_F56USiPIo.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.6,
+      "address": "Saint Louis, MO"
+    },
+    {
+      "name": "Artrium Appraisal (Elizabeth Krambeer)",
+      "specialties": [
+        "American fine art",
+        "European fine art",
+        "Russian decorative arts",
+        "Prints",
+        "Paintings",
+        "Sculpture",
+        "Estate jewelry"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "IRS and USPAP-compliant appraisal reports"
+      ],
+      "certifications": [
+        "ISA Accredited Member",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "20+ years",
+      "city": "Remote",
+      "state": "",
+      "phone": "Contact via website",
+      "website": "artriumappraisal.com",
+      "notes": "Offers remote services.",
+      "id": "st-louis-artrium-appraisal-elizabeth-krambeer",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-artrium-appraisal-elizabeth-krambeer_1741089317012_JgTPQa9URQ.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 5,
+      "address": "St Louis, Unknown"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th Century Art"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.art-appraisals.net",
+      "notes": "Specializes in authentication and expert witness services.",
+      "id": "st-louis-anderson-fine-art-appraisals",
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7,
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Appraisals",
+        "Art fraud investigation"
+      ],
+      "certifications": [
+        "ASA-certified"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases with LAPD.",
+      "id": "st-louis-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-escher-associates_1741089454306_aGQOu4HDM.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation evaluations",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate: $350; minimum for in-office consults: $500",
+      "services_offered": [
+        "Appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state.",
+      "id": "st-louis-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-page-art-inc_1741089460089_chjZNEv4z.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "Not specified; likely high-end pricing",
+      "services_offered": [
+        "Appraisals"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA.",
+      "id": "st-louis-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-saylor-rice-appraisals_1741089465759_vDLhnb2Sk.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.gurrjohns.com",
+      "notes": "Manages over $10 billion annually.",
+      "id": "st-louis-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-gurr-johns_1741089471336_cn5-ca-w5.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 5,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Valuations",
+        "Consignment-based sales"
+      ],
+      "pricing": "Fees: 20% up to $500K, 10% beyond that",
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment-based sales"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, Los Angeles.",
+      "id": "st-louis-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-mimesis-gallery_1741089477002_q3zgobcP5.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
+    }
+  ]
+}

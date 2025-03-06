@@ -1,0 +1,31 @@
+{
+  "content": {
+    "city": "Charleston",
+    "state": "South Carolina",
+    "data": {
+      "city": "Charleston",
+      "state": "South Carolina",
+      "content": "<think>\nOkay, I need to create a detailed directory of antique appraisers in Charleston, South Carolina based on the provided search results. Let me start by reviewing each source to identify relevant appraisers and their details.\n\nFirst, looking at source [1], Charleston Estate Services Ltd. is mentioned as an auction house with appraisal services. They have over four decades of experience and offer USPAP-compliant appraisals. Their specialties include fine art, jewelry, furniture, and decorative arts. Contact info: (843) 327-0651, located in Mt. Pleasant.\n\nSource [2] talks about DJR Authentication led by David J. Rose II. He has over a decade of experience and USPAP certification. Specializes in jewelry, art, coins, collectibles; contact via their website or phone (assuming from the URL but not explicitly listed here).\n\nSource [3] mentions Colucci's Jewelers who buy estate jewelry and offer appraisal services with certified gemologists on staff. They are located in Charleston but focus mainly on jewelry.\n\nSource [5] refers to Charleston Estate Auctions as another auction house providing appraisal services since they handle estates and collections; contact info is (843) 696-3335 in Mt. Pleasant.\n\nSource [9] lists Peter L Karlan based in Charlotte but serves nationwide with expertise in arms, militaria; however he's not located directly in Charleston so maybe include if he serves the area? The user asked for service areas so perhaps note that he travels there.\n\nSources like [6], Laster’s Fine Art & Antiques is based in Winston-Salem which isn't near Charleston so probably exclude unless they serve SC areas—unlikely given distance.\n\nNow compiling each entry:\n\nFor overview: Mention that Charleston has reputable firms offering USPAP-compliant appraisals for insurance/estates/sales across various categories like fine art & furniture (from sources 1&2).\n\nList each appraiser:\n\n1. **Charleston Estate Services Ltd.** - Details from source[1].\n2. **DJR Authentication** - From source[2].\n3.**Charleston Estate Auctions** - Source[5].\n4.**Colucci's Jewelers** - Source[3], though specialized.\n5.**Peter L Karlan** if applicable—checking his profile says \"I Travel Nationwide\" so include under service areas covering Charleston even if based elsewhere.\n\nCheck certifications: David J Rose II is USPAP compliant per source[2]. Peter Karlan ISA AM certified per source[9].\n\nService Areas: Most are Mt Pleasant/Charleston except Peter K who travels nationwide.\n\nPricing isn't detailed anywhere except maybe general notes like hourly rates or percentage-based fees common but specifics not found—so state typical pricing structures without exact figures since data isn't available.\n</think>\n\nCharleston offers a robust network of antique appraisal services through established firms specializing in fine art, furniture, jewelry, militaria, and more. Here’s a concise directory:\n\n---\n\n### **Overview of Antique Appraisal Services**\nAppraisal firms in Charleston provide USPAP-compliant evaluations for insurance claims, estate planning/resale purposes (common specialties include Southern antiques/furniture), Asian artifacts), silverware/jewelry authentication), military memorabilia). Many combine auction/expertise for market-driven valuations).\n\n---\n\n### **Antique Appraisers Directory**\n\n#### **1\\. DJR Authentication**\n- **Specialty**: Jewelry | Art | Coins | Collectibles  \n- **Expertise**: Over 10 years’ experience; Platinum CommunityVotes winner (2020–2024).  \n- **Certifications**: USPAP-compliant reports tailored for insurance/estates/donations.\n- *Contact*: Mount Pleasant | Website: djrpro.com | Phone: Not listed†  \n- *Years Active*: Since ~2014  \n\n#### **2\\. Charlston Estate Services Ltd.**  \n- **Specialty**: Fine/decorative arts | Furniture | Asian antiques | Sterling silver/clocks  \n- *Contact*: 498 Wando Park Blvd #1100 Mt Pleasant | Phone: [(843) 327-0651](tel:+18433270651)  \n- *Years Active*+: Over 40 years† ([Search Result](https://www.liveauctioneers.com/auctioneer/8708/charleston-estate-services-ltd/)).\n\n#### **3\\. Colucci’s Jewelers**  \n",
+      "timestamp": "2025-03-06T11:44:59.477Z",
+      "metadata": {
+        "type": "antique_appraiser_data",
+        "source": "perplexity",
+        "processedAt": "2025-03-06T11:44:59.477Z"
+      }
+    },
+    "timestamp": "2025-03-06T11:44:59.477Z",
+    "metadata": {
+      "type": "antique_appraiser_data",
+      "city": "Charleston",
+      "state": "South Carolina"
+    }
+  },
+  "metadata": {
+    "timestamp": "2025-03-06T11:44:59.481Z",
+    "contentLength": 4541,
+    "storagePath": "antique-appraisers/cities/charleston/data.json",
+    "type": "art_appraiser_data",
+    "city": "Charleston",
+    "state": "South Carolina"
+  }
+}

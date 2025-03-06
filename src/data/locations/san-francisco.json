@@ -1,0 +1,129 @@
+{
+  "appraisers": [
+    {
+      "id": "czudej-mcdonough",
+      "name": "Czudej McDonough",
+      "specialties": [
+        "Postwar Art",
+        "Contemporary",
+        "Impressionist",
+        "Modern Art",
+        "Photography",
+        "Prints",
+        "Litigation Support",
+        "Collateral Lending"
+      ],
+      "pricing": "Pricing based on appraisal scope; contact for rates",
+      "services_offered": [
+        "Art Appraisals",
+        "Litigation Support",
+        "Collateral Lending Assessments"
+      ],
+      "certifications": [
+        "AAA",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Decades of combined experience",
+      "city": "San Francisco",
+      "state": "CA",
+      "phone": "+1 415-309-7521",
+      "website": "http://www.czudejmcdonough.com",
+      "notes": "Has a dedicated San Francisco office; experienced in multiple categories of art.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_czudej-mcdonough_1741089086876_652mKcFty.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.9,
+      "address": "San Francisco, CA"
+    },
+    {
+      "name": "Reilly Clark Fine Art & Appraisals",
+      "specialties": [
+        "Contemporary Art",
+        "Antiquities",
+        "Insurance/Tax Appraisals",
+        "Estate Liquidation"
+      ],
+      "pricing": "Contact for fee details; rates may be hourly or project based",
+      "services_offered": [
+        "Insurance Appraisals",
+        "Tax Appraisals",
+        "Estate Liquidation"
+      ],
+      "certifications": [
+        "ISA",
+        "ASA",
+        "USPAP-trained"
+      ],
+      "years_in_business": "4+ years",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "https://reillyclark.com/appraisals",
+      "notes": "Based in Santa Barbara; serves the SF Bay Area and Silicon Valley. Led by a UCSB PhD candidate.",
+      "id": "san-francisco-reilly-clark-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-reilly-clark-fine-art-appraisals_1741089092675_Mn8rsfd0E.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7,
+      "address": "Santa Barbara, CA"
+    },
+    {
+      "name": "Newton Fine Art Appraisal",
+      "specialties": [
+        "Paintings",
+        "Prints",
+        "Sculpture",
+        "Digital Art",
+        "Insurance Appraisals",
+        "Estate Appraisals"
+      ],
+      "pricing": "Pricing varies by project; contact for details",
+      "services_offered": [
+        "Insurance Appraisals",
+        "Estate Appraisals"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "San Francisco",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "https://www.newtonfineartappraisal.com",
+      "notes": "Operates in the Bay Area with service coverage including Sonoma County, Tiburon, and San Francisco.",
+      "id": "san-francisco-newton-fine-art-appraisal",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-newton-fine-art-appraisal_1741089098425_Lq5kjR2-1Q.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8,
+      "address": "San Francisco, CA"
+    },
+    {
+      "name": "Mary Peck Art Advisory",
+      "specialties": [
+        "Modern Art",
+        "Contemporary Art",
+        "Charitable Donations",
+        "Copyright Infringement",
+        "IRS-Compliant Valuations"
+      ],
+      "pricing": "Project-based pricing; contact for details",
+      "services_offered": [
+        "Remote Art Advisory",
+        "Art Appraisals"
+      ],
+      "certifications": [
+        "AAA",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "27 years",
+      "city": "Denver",
+      "state": "CO",
+      "phone": "303-355-0050",
+      "website": "https://www.marypeckartadvisory.com",
+      "notes": "Based in Denver but serves San Francisco clients via remote services.",
+      "id": "san-francisco-mary-peck-art-advisory",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-mary-peck-art-advisory_1741089104979_-ZL1qvgTg.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.6,
+      "address": "Denver, CO"
+    }
+  ]
+}

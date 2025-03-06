@@ -1,0 +1,25 @@
+{
+  "content": {
+    "city": "Whitehorse",
+    "state": "Yukon",
+    "data": {
+      "type": "raw_response",
+      "content": "<think>\nOkay, I need to create a detailed directory of antique appraisers in Whitehorse, Yukon based on the provided search results. Let me start by going through each search result to find relevant information.\n\nFirst, looking at the search results:\n\n1. **Result [1]** mentions SW (Scott) Hale, an ISA AM and WSET2 certified appraiser specializing in art and wine. However, his location isn't explicitly stated as Whitehorse. The website is isa-appraisers.org, which might list members by location. But since the user specified Whitehorse, I need to check if Scott Hale is based there.\n\n2. **Result [2]** is about an auction listing for Emmi Whitehorse's artwork at Fontaine's Auction Gallery. This doesn't directly relate to appraisers in Whitehorse but mentions a collection from Ledgerock.\n\n3. **Result [3]** talks about C.T. Peters Appraisers located in Brielle and Morristown—these are in New Jersey, USA, not Yukon.\n\n4. **Result [4]** refers to Cottone Auctions in Geneseo, NY—again not Yukon-based.\n\n5. **Results [7], [8], and [10]** discuss Emmi Whitehorse's artwork sold at auctions but don't provide appraisal services info.\n\n6. **Result [6]** mentions Mass Bay RRE meetings discussing railroads near Whitehorse but no appraisers listed here.\n\n7.** Result[9]**: Ben Lam is an auctioneer with Harcourts Settle; however, Harcourts Settle appears to be an Australian real estate company based on the URL (.au domain).\n\nNowhere do the search results explicitly mention antique appraisers located in Whitehorse,Yukon.SW Hale’s profile (result[1]) doesn’t specify his current location beyond being associated with Brett Weston Archive previously; unless Brett Weston Archive is linked to Yukon which isn’t indicated here.Cottone Auctions (result[4]) offers appraisal services but they're based in New York state.The same applies for Fontaine's Auction Gallery (result[2]), which seems US-based as well.C.T.Peters Appraisers are also US-based per their addresses given(result3).\n\nGiven this data,there are no direct hits on antique appraisers operating withinWhitehorse,Yukon.The closest possible leads would be checking if any mentioned firms serviceYukon remotely or have branches there,but none of these sources indicate that.For instance,Cottone Auctions' website might offer remote services,but their listed contact info shows NY locations only.Similarly,Hale’s ISA profile doesn’t listYukon as a service area unless inferred from past work like curating private collections possibly includingYukon clients,but that's speculative without explicit mention.In result6,a presentation aboutWhite Pass & Yukontrain route referencesWhitehorse,YT,but again no linkto localappraisal services.\n</think>\n\nThe available search results do not provide sufficient information on antique appraisal services specifically located in or serving Whitehorse,Yukon.Most mentioned entities operate outside Canada or lack clear geographic details.Here's what can be determined:\n\n### Overview of Antique Appraisal Services  \nNo local firms were identified within the provided sources.National/International options may require remote consultations or travel arrangements due likely limited local availability.[1][3][4]\n\n### Antique Appraiser Listings  \n*No verified listings found withinWhitehorse*.Potential alternatives include:  \n\n**SW Hale**  \n- *Specialty*: Art & Wine | *Certifications*: ISA AM | *Years Active*: Not specified | *Contact*: Via ISA directory[isa-appraisers.org][1]  \n\n**C.T.Peters Inc.Apprasiers**  \n- *Location*: New Jersey(USA) | *Specialty*: Insurance,Estate Planning | *Years Active*: 40+ | Contact:(732)528-9451[ctpetersapprasiers.com][3]  \n\n**Cottone Auctions(Appraisal Services)**  \n- Location:N.Y.(USA)| Specialty:Fine Art &Antiques|Contact:(585)243-1000|info@cottoneauctions.com[cottoneauctions.com][4]  \n\n### Service Areas & Pricing  \nRemote consultations possible; fees typically hourly($150-$300+)or per-item basis.Unavailable specifics forYukonerosion.[1][3]\n\n### Recommendations  \nCheck CanadianAppraisal Organizations(e.g.,CAAPP,CUSPAP-accredited professionals).Local galleries/auction houses(e.g.,Dawson City Art Gallery)may offer referrals absent online listings.[Based on general knowledge].",
+      "timestamp": "2025-03-06T14:03:57.137Z"
+    },
+    "timestamp": "2025-03-06T14:03:57.137Z",
+    "metadata": {
+      "type": "antique_appraiser_raw-response",
+      "city": "Whitehorse",
+      "state": "Yukon"
+    }
+  },
+  "metadata": {
+    "timestamp": "2025-03-06T14:03:57.139Z",
+    "contentLength": 4509,
+    "storagePath": "antique-appraisers/cities/whitehorse/raw-response.json",
+    "type": "art_appraiser_raw-response",
+    "city": "Whitehorse",
+    "state": "Yukon"
+  }
+}

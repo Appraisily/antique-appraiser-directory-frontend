@@ -1,0 +1,281 @@
+{
+  "appraisers": [
+    {
+      "id": "prestige-estate-services-boston",
+      "name": "Prestige Estate Services",
+      "specialties": [
+        "Fine Art",
+        "Antiques",
+        "Estate Tax Valuations",
+        "Insurance Appraisals"
+      ],
+      "pricing": "Project-based with free photo-based assessments",
+      "services_offered": [
+        "Personal Property Appraisals",
+        "IRS-compliant appraisals",
+        "Estate Planning"
+      ],
+      "certifications": [
+        "USPAP-compliant",
+        "IRS-qualified"
+      ],
+      "years_in_business": "Decades",
+      "city": "Boston",
+      "state": "MA",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
+      "notes": "Serves greater Boston area including Cambridge, Somerville, Newton, Brookline, and Medford.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services-boston_1740929996482_B5H-4xTHG.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services-boston_1740830037059_V0zu629ya.jpg",
+      "rating": 4.5,
+      "address": "Boston, MA"
+    },
+    {
+      "id": "new-york-fine-art-appraisers-boston",
+      "name": "New York Fine Art Appraisers (Boston Office)",
+      "specialties": [
+        "Americana",
+        "Contemporary Art",
+        "Decorative Arts"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Fine Art Appraisals",
+        "Museum-grade Collection Valuations"
+      ],
+      "certifications": [
+        "Qualified under federal appraisal standards"
+      ],
+      "years_in_business": "Established 1980; Boston office opened in 2018",
+      "city": "Boston",
+      "state": "MA",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
+      "notes": "Located in the Back Bay district.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-york-fine-art-appraisers-boston_1740930004585_47YP4QuLrD.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-york-fine-art-appraisers-boston_1740830037059_V707gpxqq.jpg",
+      "rating": 4.5,
+      "address": "Boston, MA"
+    },
+    {
+      "name": "Manzi Appraisers & Restoration",
+      "specialties": [
+        "Art Restoration",
+        "Furniture Restoration",
+        "High-value Collections"
+      ],
+      "pricing": "Free consultation available; pricing varies by service",
+      "services_offered": [
+        "Art Appraisals",
+        "Restoration Services",
+        "Insurance Loss Assessments"
+      ],
+      "certifications": [
+        "Staff with 100+ years combined experience"
+      ],
+      "years_in_business": "Founded in 2021",
+      "city": "Boston",
+      "state": "MA",
+      "phone": "617-948-2577",
+      "website": "https://www.artappraisers.org/",
+      "notes": "Also has headquarters in Woburn; office hours: Mon-Fri (8 AM–6 PM), weekends by appointment.",
+      "id": "boston-manzi-appraisers-restoration",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-manzi-appraisers-restoration_1740930012540_zl_8E-4bW.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-manzi-appraisers-restoration_1740830037059_V0b0iqoyt.jpg",
+      "rating": 5,
+      "address": "Boston, MA"
+    },
+    {
+      "name": "Skinner Boston (Bonhams)",
+      "specialties": [
+        "Auction Estimates",
+        "Liquidation Valuations",
+        "Estate Sales"
+      ],
+      "pricing": "Free valuation services for auction estimates",
+      "services_offered": [
+        "Auction Estimates",
+        "Appraisals",
+        "Liquidation Services"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Since 2024",
+      "city": "Boston",
+      "state": "MA",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
+      "notes": "Part of Bonhams; accepts online submissions for appraisal.",
+      "id": "boston-skinner-boston-bonhams",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-skinner-boston-bonhams_1740930019976_EIFtJHyaZI.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-skinner-boston-bonhams_1740830037059_Vka8vjswg.jpg",
+      "rating": 4.8,
+      "address": "Boston, MA"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Expert Witness Services"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Authentication",
+        "Litigation Support"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.art-appraisals.net",
+      "notes": "",
+      "id": "boston-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-anderson-fine-art-appraisals_1740930027329_56mt841_W.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-anderson-fine-art-appraisals_1740830037059_Vzvns54fe.jpg",
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art Appraisals",
+        "Litigation Support",
+        "Handling Art Fraud Cases"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases in collaboration with the LAPD.",
+      "id": "boston-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-escher-associates_1740930035473_pceGthawu.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-escher-associates_1740830037059_Vr15lmj8r.jpg",
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance Appraisals",
+        "Estate and Donations Appraisals",
+        "Litigation Appraisals"
+      ],
+      "pricing": "Hourly rate of $350 with a minimum of $500 for in-office consultations",
+      "services_offered": [
+        "Appraisals for Insurance",
+        "Estate and Donations Evaluations",
+        "Litigation Support"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
+      "id": "boston-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-page-art-inc_1740930042736_3VPOOPvt7.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-page-art-inc_1740830037059_Ves16jywx.jpg",
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Damage/Loss Appraisals",
+        "Insurance Appraisals"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Insurance, Damage, and Loss Appraisals"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Serves prominent institutions such as LACMA and MoMA.",
+      "id": "boston-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-saylor-rice-appraisals_1740930052162__saEYKsHK.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-saylor-rice-appraisals_1740830037059_Vp2rktj2n.jpg",
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value Appraisals",
+        "Expert Witness Services"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Appraisals managing over $10 billion in assets",
+        "Expert Witness Services"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm with a significant presence in high-value art asset management.",
+      "id": "boston-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-gurr-johns_1740930059485_yIofQ0jxs.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-gurr-johns_1740830037059_Vwjgtm3qh.jpg",
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free Valuations",
+        "Consignment Sales"
+      ],
+      "pricing": "20% fee up to $500K, 10% fee beyond that",
+      "services_offered": [
+        "Same-day Valuations",
+        "Consignment-based Sales"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and same-day offers.",
+      "id": "boston-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-mimesis-gallery_1740930067044_lHElJm55G.jpg",
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-mimesis-gallery_1740830037059_Vv59haehi.jpg",
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
+    }
+  ]
+}

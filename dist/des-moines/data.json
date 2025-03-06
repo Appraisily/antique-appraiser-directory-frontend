@@ -1,0 +1,31 @@
+{
+  "content": {
+    "city": "Des Moines",
+    "state": "Iowa",
+    "data": {
+      "city": "Des Moines",
+      "state": "Iowa",
+      "content": "<think>\nOkay, let's tackle this query step by step. The user wants a detailed directory of antique appraisers in Des Moines, Iowa. They specified several points to include: an overview, list of appraisers with specific details, service areas and pricing, and contact info.\n\nFirst, I need to go through the provided search results to find relevant information about antique appraisers in Des Moines. Let me check each source.\n\nLooking at [1], Prestige Estate Services is mentioned as offering professional antique appraisals with certified appraisers from ISA and ASA. They have various appraisal methods (in-person, remote) but don't specify a location in Des Moines yet. Wait, [3] mentions Prestige Estate Services helping find local appraisers \"near me,\" which might include Iowa? Also [6] talks about Alicia Weaver from Prestige Estate Services based in Colorado but services any location. Hmm.\n\nIn [2], AppraiseItNow operates in Iowa and offers online or in-person services with certified professionals. They have positive reviews from users like Julia P., Austin S., etc., located in Iowa according to the URL (appraiseitnow.com/location/iowa). That's definitely relevant for Des Moines.\n\n[4] also refers to Prestige Estate Services again for furniture appraisals but doesn't specify locations beyond their general service area.\n\n[7] mentions Antiques Roadshow events at Living History Farms but not specific local businesses.\n\n[8] is Windham Brannon providing business valuations in Des Moines; they mention ABV and ASA certifications but focus on business rather than antiques. Not sure if they do personal property like antiques?\n\n[9] is Brass Armadillo Antique Mall which rents booths but doesn’t list appraisal services themselves—maybe dealers there could be a resource? But not directly an appraisal service.\n\nOther sources like [5], [10], etc., don't seem relevant here since they're PDFs or data dictionaries unrelated to antique appraising.\n\nSo compiling the main points:\n\nFrom search results:\n- AppraiseItNow ([2]) operates in Iowa with online/in-person options.\n- Prestige Estate Services ([1][3][4][6]) has Alicia Weaver who can work remotely anywhere; her team includes USPAP-certified members.\n- Windham Brannon ([8]) does business valuations; maybe not antiques specifically?\n\nWait need to confirm if Windham Brannon handles personal property like antiques or just businesses. Their page says \"business valuation\" so probably not applicable here unless stated otherwise—so maybe exclude them unless there's overlap I missed?\n\nBrass Armadillo ([9]) is an antique mall where dealers rent space; perhaps some dealers offer appraisal services indirectly? But no direct mention here—so might be speculative and thus shouldn’t include without evidence.\n\nSo primary candidates are AppraiseItNow (definitely serving Iowa) and Prestige via remote/any location including IA (since Alicia's team can service clients anywhere as per [6]).\n\nFor each entry:\n\nAppraiseItNow:\n- Name: AppraiseItNow\n- Business details: Offers compliant personal property & real estate appraisals.\n- Specialties: Various assets including unique items (like propulsion boats mentioned).\n- Contact info: Website https://www.appraiseitnow.com/location/iowa/, phone numbers from testimonials? Not listed explicitly except possibly 206 area code based on reviews—but better refer user to website for contact.\n- Years: Established enough given multiple testimonials dating 2025.\n- Certifications: Certified by leading organizations (implied), USPAP-compliant reports.\n",
+      "timestamp": "2025-03-06T11:53:38.284Z",
+      "metadata": {
+        "type": "antique_appraiser_data",
+        "source": "perplexity",
+        "processedAt": "2025-03-06T11:53:38.284Z"
+      }
+    },
+    "timestamp": "2025-03-06T11:53:38.285Z",
+    "metadata": {
+      "type": "antique_appraiser_data",
+      "city": "Des Moines",
+      "state": "Iowa"
+    }
+  },
+  "metadata": {
+    "timestamp": "2025-03-06T11:53:38.289Z",
+    "contentLength": 3952,
+    "storagePath": "antique-appraisers/cities/des-moines/data.json",
+    "type": "art_appraiser_data",
+    "city": "Des Moines",
+    "state": "Iowa"
+  }
+}

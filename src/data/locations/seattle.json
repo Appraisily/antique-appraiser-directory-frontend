@@ -1,0 +1,87 @@
+{
+  "appraisers": [
+    {
+      "id": "fruitcocktail-collectables",
+      "name": "Fruitcocktail Collectables",
+      "specialties": [
+        "Estate sales",
+        "Consignments",
+        "General appraisals"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Appraisals",
+        "Estate sales",
+        "Consignments"
+      ],
+      "certifications": [
+        "Accredited (details unspecified)"
+      ],
+      "years_in_business": "Established business",
+      "city": "Seattle",
+      "state": "WA",
+      "phone": "Contact via website",
+      "website": "https://fruitcocktailcollectables.com",
+      "notes": "Based in the Seattle/Bellevue area; hours not specified.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fruitcocktail-collectables_1741089282735_0KOZcGqUn.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8,
+      "address": "Seattle, WA"
+    },
+    {
+      "id": "ernie-kitsap-antique-show",
+      "name": "Ernie (Kitsap Antique Show)",
+      "specialties": [
+        "On-site oral appraisals",
+        "Antiques",
+        "Heirlooms"
+      ],
+      "pricing": "$5 per item during shows",
+      "services_offered": [
+        "On-site appraisals",
+        "Oral appraisals"
+      ],
+      "certifications": [
+        "ISA member"
+      ],
+      "years_in_business": "Established business",
+      "city": "Kitsap County",
+      "state": "WA",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
+      "notes": "Regular participant at Kitsap Antique Show; operational near Seattle.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_ernie-kitsap-antique-show_1741089288275_mW7ieVwpA.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5,
+      "address": "Kitsap County, WA"
+    },
+    {
+      "id": "prestige-estate-services-national",
+      "name": "Prestige Estate Services (National Network)",
+      "specialties": [
+        "Fine art appraisals",
+        "Insurance appraisals",
+        "Estate appraisals"
+      ],
+      "pricing": "Varies (online appraisals generally range from $75–$300+)",
+      "services_offered": [
+        "Online/remote appraisals",
+        "In-person appointments by appointment"
+      ],
+      "certifications": [
+        "ASA-accredited",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "",
+      "state": "",
+      "phone": "1-844-483-6825",
+      "website": "https://prestigeestateservices.com",
+      "notes": "Offers nationwide online appraisals with specialized expertise in 19th/20th-century American/European art.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services-national_1741089294073_q6JZwyfik.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 5,
+      "address": "Seattle, Unknown"
+    }
+  ]
+}

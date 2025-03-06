@@ -1,0 +1,78 @@
+# Netlify configuration for pre-built distribution
+
+[build]
+  # Since the files are already built, we don't need to run a build command
+  publish = "/"
+  command = "echo 'No build required, using pre-built files'"
+  
+  # Environment variables for the build
+  [build.environment]
+    # Set the site URL for sitemap generation
+    SITE_URL = "https://art-appraiser.appraisily.com"
+
+# Explicitly handle asset files with correct MIME types
+[[headers]]
+  for = "/assets/*.css"
+    [headers.values]
+    Content-Type = "text/css"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*.js"
+    [headers.values]
+    Content-Type = "application/javascript"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Make sure assets are served correctly
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/:splat"
+  status = 200
+
+# Don't redirect for static HTML pages that exist
+[[redirects]]
+  from = "/location/*"
+  to = "/location/:splat/index.html"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/appraiser/*"
+  to = "/appraiser/:splat/index.html"
+  status = 200
+  force = false
+
+# Redirect all remaining routes to index.html for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Additional header configurations
+[[headers]]
+  # Define headers for all assets
+  for = "/assets/*"
+    [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+  # Define headers for HTML files
+  for = "/*.html"
+    [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
+  # Define headers for the sitemap
+  for = "/sitemap.xml"
+    [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "application/xml"
+
+# Add security headers for all pages
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()" 

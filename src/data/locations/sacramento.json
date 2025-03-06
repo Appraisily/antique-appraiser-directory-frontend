@@ -1,0 +1,288 @@
+{
+  "appraisers": [
+    {
+      "name": "Janet L. Ross",
+      "specialties": [
+        "Fine art",
+        "Antique furniture",
+        "Decorative arts",
+        "Collectibles"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Art appraisal",
+        "Antiques evaluation"
+      ],
+      "certifications": [
+        "ISA Accredited Member (ISA AM)",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "30+ years",
+      "city": "Surf City",
+      "state": "NJ",
+      "phone": "Contact via website",
+      "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/1361/janet-l-ross",
+      "notes": "Based in New Jersey since 2019; previously served Sacramento (2012–2019) and offers remote consultations.",
+      "id": "sacramento-janet-l-ross",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5,
+      "address": "Surf City, NJ"
+    },
+    {
+      "name": "Appraisal Resources (ARAI)",
+      "specialties": [
+        "Fine art",
+        "Decorative arts",
+        "Antiques",
+        "Textiles"
+      ],
+      "pricing": "Hourly or flat rate, no percentage-based fees",
+      "services_offered": [
+        "Fine art appraisal",
+        "IRS-compliant reports"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "Sacramento",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
+      "notes": "Located at 3450 Sacramento St., Ste. #153.",
+      "id": "sacramento-appraisal-resources-arai",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-appraisal-resources-arai_1741088881410_7xch-IEKK.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.6,
+      "address": "Sacramento, CA"
+    },
+    {
+      "name": "Clars Auctions",
+      "specialties": [
+        "Fine art valuation",
+        "Asian art",
+        "Jewelry",
+        "Furniture"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Auction services",
+        "Art appraisal for estates"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Oakland",
+      "state": "CA",
+      "phone": "(510) 428-0100",
+      "website": "https://clars.com",
+      "notes": "Based in Oakland; serves Northern California including the Sacramento area.",
+      "id": "sacramento-clars-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-clars-auctions_1741088887508_5Vy_Wg0P9.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.6,
+      "address": "Oakland, CA"
+    },
+    {
+      "name": "AppraiseItNow",
+      "specialties": [
+        "Remote appraisals",
+        "Fine art",
+        "Collectibles"
+      ],
+      "pricing": "Starts at $195, expedited options available",
+      "services_offered": [
+        "Online art appraisal"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
+      "notes": "Online service available throughout California, including Sacramento.",
+      "id": "sacramento-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-appraiseitnow_1741088893053_5ocAo47Wn.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7,
+      "address": "Sacramento, Unknown"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.art-appraisals.net",
+      "notes": "",
+      "id": "sacramento-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisal",
+        "Expert witness services",
+        "Authentication research"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP",
+        "ASA standards"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.escher-associates.com",
+      "notes": "Founded by Nancy Escher and has handled art fraud cases with the LAPD.",
+      "id": "sacramento-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-escher-associates_1741088905725_JRw-hdzgg.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donations appraisal",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly $350; minimum $500 for in-office consults",
+      "services_offered": [
+        "Art appraisal for insurance, estates, donations, and litigation"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
+      "id": "sacramento-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-page-art-inc_1741088911458_WCpPL_oa6.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Appraisals for high-end clients including institutions like LACMA and MoMA"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Caters to high-end clients; likely focused on damage and loss evaluations.",
+      "id": "sacramento-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-saylor-rice-appraisals_1741088917019_jA5iQcDmT.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value art appraisal",
+        "Expert witness services"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Art appraisals for high-value collections",
+        "Management of over $10 billion in art",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm with a Los Angeles presence.",
+      "id": "sacramento-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-gurr-johns_1741088922727_Zf9lWtR9F.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Valuations",
+        "Art consignment"
+      ],
+      "pricing": [
+        "20% fee up to $500K",
+        "10% fee beyond $500K"
+      ],
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment-based art sales"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "Contact via website",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, offers free valuations and handles consignment sales.",
+      "id": "sacramento-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-mimesis-gallery_1741088928262_--HHygRCf.jpg",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
+    }
+  ]
+}

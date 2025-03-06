@@ -1,0 +1,58 @@
+# Main Netlify configuration file
+# Note: This configuration tells Netlify to use the pre-built files in the dist directory
+
+[build]
+  # The directory to publish
+  publish = "dist"
+  # No build command needed since files are already pre-built locally
+  command = "echo 'Using pre-built files from dist directory'"
+
+# Explicitly handle asset files with correct MIME types
+[[headers]]
+  for = "/assets/*.css"
+    [headers.values]
+    Content-Type = "text/css"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*.js"
+    [headers.values]
+    Content-Type = "application/javascript"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Make sure assets are served correctly
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/:splat"
+  status = 200
+
+# Don't redirect for static HTML pages that exist
+[[redirects]]
+  from = "/location/*"
+  to = "/location/:splat/index.html"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/appraiser/*"
+  to = "/appraiser/:splat/index.html"
+  status = 200
+  force = false
+
+# Redirect all remaining routes to index.html for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Additional header configurations
+[[headers]]
+  # Define headers for HTML files
+  for = "/*.html"
+    [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+  # Define headers for the sitemap
+  for = "/sitemap.xml"
+    [headers.values]
+    Cache-Control = "public, max-age=3600"
