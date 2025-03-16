@@ -32,11 +32,11 @@ export function generateSeoTitle({
   // Add relevant keywords based on context
   if (includeKeywords) {
     if (title.toLowerCase().includes('appraiser')) {
-      title = `${title} | Expert Art Valuation Services`;
-    } else if (title.toLowerCase().includes('art appraisers')) {
+      title = `${title} | Expert Antique Valuation Services`;
+    } else if (title.toLowerCase().includes('antique appraisers')) {
       title = `${title} | Find Certified Professionals`;
     } else {
-      title = `${title} | Fine Art Appraisal Services`;
+      title = `${title} | Fine Antique Appraisal Services`;
     }
   }
   
@@ -73,15 +73,15 @@ export function generateSeoDescription({
   // If no base description, generate one
   if (!description) {
     if (location) {
-      description = `Find certified art appraisers in ${location}. Get expert art valuations, authentication services, and professional advice for your art collection.`;
+      description = `Find certified antique appraisers in ${location}. Get expert antique valuations, authentication services, and professional advice for your antique collection.`;
     } else if (name && name.includes('Appraiser')) {
-      description = `Get professional art appraisal services from ${name}.`;
+      description = `Get professional antique appraisal services from ${name}.`;
       if (specialties) {
         description += ` Specializing in ${specialties}.`;
       }
       description += ` Certified expert providing accurate valuations for insurance, estate planning, donations, and sales.`;
     } else {
-      description = `Professional art appraisal services for insurance, estate planning, donations, and sales. Get accurate valuations from certified experts.`;
+      description = `Professional antique appraisal services for insurance, estate planning, donations, and sales. Get accurate valuations from certified experts.`;
     }
   }
   
@@ -109,12 +109,12 @@ export function generateKeywords({
   specialties = []
 }) {
   const baseKeywords = [
-    'art appraisal', 
-    'art appraiser', 
-    'artwork valuation', 
-    'fine art appraisal', 
-    'art authentication', 
-    'art valuation services'
+    'antique appraisal', 
+    'antique appraiser', 
+    'antique valuation', 
+    'fine antique appraisal', 
+    'antique authentication', 
+    'antique valuation services'
   ];
   
   let contextualKeywords = [];
@@ -122,23 +122,23 @@ export function generateKeywords({
   // Add type-specific keywords
   if (type === 'appraiser') {
     contextualKeywords = [
-      'certified art appraiser',
-      'professional art appraiser',
-      'art appraisal expert',
-      'art valuation specialist',
-      'art authentication services',
-      'antique appraisal',
-      'painting appraisal'
+      'certified antique appraiser',
+      'professional antique appraiser',
+      'antique appraisal expert',
+      'antique valuation specialist',
+      'antique authentication services',
+      'collectibles appraisal',
+      'furniture appraisal'
     ];
   } else if (type === 'location') {
     contextualKeywords = [
-      `art appraiser ${location}`,
-      `${location} art appraisal`,
-      `fine art appraisal ${location}`,
-      `art valuation services ${location}`,
-      `certified art appraiser ${location}`,
-      `find art appraiser ${location}`,
-      `local art appraisers`
+      `antique appraiser ${location}`,
+      `${location} antique appraisal`,
+      `fine antique appraisal ${location}`,
+      `antique valuation services ${location}`,
+      `certified antique appraiser ${location}`,
+      `find antique appraiser ${location}`,
+      `local antique appraisers`
     ];
   }
   
@@ -168,7 +168,7 @@ export function generateKeywords({
  * @returns {string} Canonical URL
  */
 export function generateCanonicalUrl({
-  baseUrl = 'https://art-appraiser.appraisily.com',
+  baseUrl = 'https://antique-appraiser.appraisily.com',
   path = '',
   id = '',
   type = ''
@@ -280,7 +280,7 @@ function enhanceSemanticHtml(content) {
   // Make sure images have alt text
   content = content.replace(/<img([^>]*)>/gi, (match, attrs) => {
     if (!attrs.includes('alt=')) {
-      return match.replace('<img', '<img alt="Art appraisal"');
+      return match.replace('<img', '<img alt="Antique appraisal"');
     }
     return match;
   });
@@ -323,9 +323,9 @@ export function generateSeoImageFilename(baseName, type = '', location = '') {
     filename = `${filename}-${locationSlug}`;
   }
   
-  // Add art-appraiser keyword for SEO
-  if (!filename.includes('art-appraiser')) {
-    filename = `art-appraiser-${filename}`;
+  // Add antique-appraiser keyword for SEO
+  if (!filename.includes('antique-appraiser')) {
+    filename = `antique-appraiser-${filename}`;
   }
   
   return `${filename}.jpg`;

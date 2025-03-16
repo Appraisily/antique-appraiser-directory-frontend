@@ -3,7 +3,7 @@
 /**
  * Build Standardized
  * 
- * Simplified build script that uses standardized data for the Art Appraiser Directory.
+ * Simplified build script that uses standardized data for the Antique Appraiser Directory.
  * This script handles the entire build process:
  * 1. Builds the React application
  * 2. Ensures standardized data is available
@@ -56,7 +56,7 @@ function runCommand(command, message) {
 }
 
 async function buildStandardized() {
-  log('🚀 Starting standardized build process for Art Appraiser Directory', 'success');
+  log('🚀 Starting standardized build process for Antique Appraiser Directory', 'success');
 
   try {
     // Step 1: Verify standardized data exists
