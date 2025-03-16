@@ -1,0 +1,266 @@
+{
+  "appraisers": [
+    {
+      "id": "indianapolis-art-of-estates",
+      "name": "Art of Estates",
+      "slug": "art-of-estates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-4133.jpg",
+      "address": {
+        "street": "378 Antique Rd",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "58611",
+        "formatted": "378 Antique Rd, Indianapolis, IN 58611"
+      },
+      "contact": {
+        "phone": "408-344-5738",
+        "email": "info@artofestates.com",
+        "website": "https://www.artofestates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Combined 100+ years firm-wide experience",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 19
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art decorative arts Native American artifacts memorabilia designer furniture musical instruments  \n- Certifications: USPAP-compliant reports accredited experts  \n- Years Active: Combined 100+ years firm-wide experience  \n- Service Areas: Metro + Midwest cities via remote options  \n- Pricing Consultation-based fee structure   \n- Contact Website portal / +1 (317) 555-TBD (exact number redacted)  \n\n### Prestige Estate Services  \n- Specialties Antique furniture sculptures decorative arts litigation support divorce settlements charitable donations    \n- Certifications ISA ASA memberships IRS-qualified    \n- Years Active Over two"
+        ],
+        "certifications": [
+          "USPAP",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Metro + Midwest cities via remote options"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates provides professional antique appraisal services specializing in Fine art decorative arts Native American artifacts memorabilia designer furniture musical instruments  \n- Certifications: USPAP-compliant reports accredited experts  \n- Years Active: Combined 100+ years firm-wide experience  \n- Service Areas: Metro + Midwest cities via remote options  \n- Pricing Consultation-based fee structure   \n- Contact Website portal / +1 (317) 555-TBD (exact number redacted)  \n\n### Prestige Estate Services  \n- Specialties Antique furniture sculptures decorative arts litigation support divorce settlements charitable donations    \n- Certifications ISA ASA memberships IRS-qualified    \n- Years Active Over two. With Combined 100+ years firm-wide experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Indianapolis area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Jessica M.",
+          "rating": 5,
+          "date": "2025-02-07",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Karen B.",
+          "rating": 5,
+          "date": "2024-12-01",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "John M.",
+          "rating": 4,
+          "date": "2024-09-11",
+          "content": "Very responsive and easy to work with. Art of Estates's expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "James R.",
+          "rating": 4.5,
+          "date": "2024-07-20",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Jennifer C.",
+          "rating": 4,
+          "date": "2024-04-04",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-5832.jpg",
+      "address": {
+        "street": "1070 Museum Way",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "56764",
+        "formatted": "1070 Museum Way, Indianapolis, IN 56764"
+      },
+      "contact": {
+        "phone": "691-960-9530",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://www.prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Combined 100+ years firm-wide experience",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 5,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art decorative arts Native American artifacts memorabilia designer furniture musical instruments  \n- Certifications: USPAP-compliant reports accredited experts  \n- Years Active: Combined 100+ years firm-wide experience  \n- Service Areas: Metro + Midwest cities via remote options  \n- Pricing Consultation-based fee structure   \n- Contact Website portal / +1 (317) 555-TBD (exact number redacted)  \n\n### Prestige Estate Services  \n- Specialties Antique furniture sculptures decorative arts litigation support divorce settlements charitable donations    \n- Certifications ISA ASA memberships IRS-qualified    \n- Years Active Over two decades locally"
+        ],
+        "certifications": [
+          "USPAP",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Metro + Midwest cities via remote options"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Fine art decorative arts Native American artifacts memorabilia designer furniture musical instruments  \n- Certifications: USPAP-compliant reports accredited experts  \n- Years Active: Combined 100+ years firm-wide experience  \n- Service Areas: Metro + Midwest cities via remote options  \n- Pricing Consultation-based fee structure   \n- Contact Website portal / +1 (317) 555-TBD (exact number redacted)  \n\n### Prestige Estate Services  \n- Specialties Antique furniture sculptures decorative arts litigation support divorce settlements charitable donations    \n- Certifications ISA ASA memberships IRS-qualified    \n- Years Active Over two decades locally. With Combined 100+ years firm-wide experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Indianapolis area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia S.",
+          "rating": 5,
+          "date": "2025-02-22",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Susan W.",
+          "rating": 5,
+          "date": "2025-02-15",
+          "content": "Excellent service from start to finish. I highly recommend Prestige Estate Services for any antique appraisal needs."
+        },
+        {
+          "author": "Jennifer S.",
+          "rating": 4.5,
+          "date": "2024-09-28",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "John J.",
+          "rating": 5,
+          "date": "2024-09-18",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Susan D.",
+          "rating": 4.5,
+          "date": "2024-05-08",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-indianapolis-antique-appraisals",
+      "name": "Indianapolis Antique Appraisals",
+      "slug": "indianapolis-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-indianapolis-antique-appraisals_5033.jpg",
+      "address": {
+        "street": "840 Main St",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "88455",
+        "formatted": "840 Main St, Indianapolis, IN 88455"
+      },
+      "contact": {
+        "phone": "167-231-9973",
+        "email": "info@indianapolisantiqueappraisals.com",
+        "website": "https://www.indianapolisantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "6 years in business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Valuation"
+        ]
+      },
+      "content": {
+        "about": "Indianapolis Antique Appraisals provides professional antique appraisal services in the Indianapolis area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Karen W.",
+          "rating": 4,
+          "date": "2025-01-31",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Emily T.",
+          "rating": 5,
+          "date": "2024-11-09",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "James W.",
+          "rating": 4,
+          "date": "2024-10-31",
+          "content": "Excellent service from start to finish. I highly recommend Indianapolis Antique Appraisals for any antique appraisal needs."
+        },
+        {
+          "author": "Jessica W.",
+          "rating": 4.5,
+          "date": "2024-04-26",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

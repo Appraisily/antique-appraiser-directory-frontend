@@ -1,0 +1,231 @@
+{
+  "appraisers": [
+    {
+      "id": "fort lauderdale-koosh-jewelers",
+      "name": "Koosh Jewelers",
+      "slug": "koosh-jewelers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort lauderdale-3045.jpg",
+      "address": {
+        "street": "652 Oak Ave",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "53631",
+        "formatted": "652 Oak Ave, Fort Lauderdale, FL 53631"
+      },
+      "contact": {
+        "phone": "954-568-1500",
+        "email": "info@kooshjewelers.com",
+        "website": "https://www.kooshjewelers.com"
+      },
+      "business": {
+        "yearsInBusiness": "30+",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 21
+      },
+      "expertise": {
+        "specialties": [
+          "Estate jewelry"
+        ],
+        "certifications": [
+          "Licensed gemologists/appraisers"
+        ],
+        "services": [
+          "Broward County + nationwide pickup via insured transport"
+        ]
+      },
+      "content": {
+        "about": "Koosh Jewelers provides professional antique appraisal services specializing in Estate jewelry. With 30+ experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Fort Lauderdale area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Jessica D.",
+          "rating": 4,
+          "date": "2024-10-23",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and Koosh Jewelers delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Nancy A.",
+          "rating": 4,
+          "date": "2024-06-24",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Nancy B.",
+          "rating": 4.5,
+          "date": "2024-04-29",
+          "content": "Koosh Jewelers's knowledge of antique furniture values was exceptional. The documentation Koosh Jewelers provided was detailed and perfect for my insurance needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "fort lauderdale-moecker-auctions-inc",
+      "name": "Moecker Auctions Inc.",
+      "slug": "moecker-auctions-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort lauderdale-3188.jpg",
+      "address": {
+        "street": "677 Maple Dr",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "42796",
+        "formatted": "677 Maple Dr, Fort Lauderdale, FL 42796"
+      },
+      "contact": {
+        "phone": "954-568-1500",
+        "email": "info@moeckerauctionsinc.com",
+        "website": "https://www.moeckerauctionsinc.com"
+      },
+      "business": {
+        "yearsInBusiness": "30+",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.1,
+        "reviewCount": 21
+      },
+      "expertise": {
+        "specialties": [
+          "Estate jewelry"
+        ],
+        "certifications": [
+          "Licensed gemologists/appraisers"
+        ],
+        "services": [
+          "Broward County + nationwide pickup via insured transport"
+        ]
+      },
+      "content": {
+        "about": "Moecker Auctions Inc. provides professional antique appraisal services specializing in Estate jewelry. With 30+ experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Fort Lauderdale area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Robert W.",
+          "rating": 4.5,
+          "date": "2024-10-26",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Sarah D.",
+          "rating": 4,
+          "date": "2024-10-10",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Robert T.",
+          "rating": 4,
+          "date": "2024-07-12",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Sarah R.",
+          "rating": 1,
+          "date": "2024-05-01",
+          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "fort lauderdale-fort-lauderdale-antique-appraisals",
+      "name": "Fort Lauderdale Antique Appraisals",
+      "slug": "fort-lauderdale-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort lauderdale-fort-lauderdale-antique-appraisals_3344.jpg",
+      "address": {
+        "street": "360 Museum Way",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "79226",
+        "formatted": "360 Museum Way, Fort Lauderdale, FL 79226"
+      },
+      "contact": {
+        "phone": "897-175-1875",
+        "email": "info@fortlauderdaleantiqueappraisals.com",
+        "website": "https://www.fortlauderdaleantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "27 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Valuation"
+        ]
+      },
+      "content": {
+        "about": "Fort Lauderdale Antique Appraisals provides professional antique appraisal services in the Fort Lauderdale area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "James W.",
+          "rating": 4.5,
+          "date": "2024-11-18",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Nancy T.",
+          "rating": 4,
+          "date": "2024-08-09",
+          "content": "Very responsive and easy to work with. Fort Lauderdale Antique Appraisals's expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "David W.",
+          "rating": 4.5,
+          "date": "2024-07-31",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

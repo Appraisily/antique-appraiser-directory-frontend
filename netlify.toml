@@ -1,16 +1,14 @@
-# Main Netlify configuration file
-# Updated configuration for SEO-optimized build
+# Netlify configuration for pre-built distribution
 
 [build]
-  # The directory to publish
+  # Since the files are already built, we don't need to run a build command
   publish = "dist"
-  # Use our dedicated Netlify build script
-  command = "npm run build:netlify"
+  command = "echo 'Using pre-built static files for Netlify deployment'"
   
   # Environment variables for the build
   [build.environment]
     # Set the site URL for sitemap generation
-    SITE_URL = "https://art-appraiser-directory.appraisily.com"
+    SITE_URL = "https://art-appraiser.appraisily.com"
     NODE_VERSION = "18"
 
 # Explicitly handle asset files with correct MIME types
@@ -20,10 +18,11 @@
     Content-Type = "text/css"
     Cache-Control = "public, max-age=31536000, immutable"
 
+# Make sure JavaScript modules are served correctly - CRITICAL FIX
 [[headers]]
   for = "/assets/*.js"
     [headers.values]
-    Content-Type = "application/javascript"
+    Content-Type = "text/javascript"
     Cache-Control = "public, max-age=31536000, immutable"
 
 # Make sure assets are served correctly
@@ -31,6 +30,19 @@
   from = "/assets/*"
   to = "/assets/:splat"
   status = 200
+
+# Fix for directory assets path issue
+[[redirects]]
+  from = "/directory/assets/*"
+  to = "/assets/:splat"
+  status = 200
+  
+# Alternate fix for asset paths to handle both formats
+[[redirects]]
+  from = "/assets/*"
+  to = "/directory/assets/:splat"
+  status = 200
+  force = false
 
 # Don't redirect for static HTML pages that exist
 [[redirects]]
@@ -53,6 +65,12 @@
 
 # Additional header configurations
 [[headers]]
+  # Define headers for all assets
+  for = "/assets/*"
+    [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
   # Define headers for HTML files
   for = "/*.html"
     [headers.values]
@@ -61,8 +79,8 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
-# Define headers for the sitemap
 [[headers]]
+  # Define headers for the sitemap
   for = "/sitemap.xml"
     [headers.values]
     Cache-Control = "public, max-age=3600"

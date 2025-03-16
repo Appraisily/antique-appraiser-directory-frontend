@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { MapPin, Star, Search, Palette, Award, Badge, Clock, Users } from 'lucide-react';
+import { MapPin, Star, Search, Palette, Award, Badge, Clock, Users, ArrowRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { CitySearch } from './components/CitySearch';
 import { SEO } from './components/SEO';
+import { cities } from './data/cities.json';
 
 function App() {
   const navigate = useNavigate();
@@ -11,18 +12,40 @@ function App() {
     e.preventDefault();
   };
 
+  // Group cities by region for better organization
+  const regions = {
+    'Northeast': cities.filter(city => 
+      ['New York', 'Massachusetts', 'Rhode Island', 'Connecticut', 'Pennsylvania', 'New Jersey'].includes(city.state)
+    ),
+    'Southeast': cities.filter(city => 
+      ['Florida', 'Georgia', 'North Carolina', 'South Carolina', 'Tennessee', 'Virginia'].includes(city.state)
+    ),
+    'Midwest': cities.filter(city => 
+      ['Illinois', 'Ohio', 'Michigan', 'Minnesota', 'Missouri', 'Indiana', 'Wisconsin'].includes(city.state)
+    ),
+    'Southwest': cities.filter(city => 
+      ['Texas', 'Arizona', 'New Mexico', 'Oklahoma'].includes(city.state)
+    ),
+    'West Coast': cities.filter(city => 
+      ['California', 'Washington', 'Oregon', 'Nevada'].includes(city.state)
+    ),
+    'Mountain': cities.filter(city => 
+      ['Colorado', 'Utah', 'Montana', 'Idaho', 'Wyoming'].includes(city.state)
+    )
+  };
+
   // Generate the home page schema
   const generateHomePageSchema = () => {
     return {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "@id": "https://art-appraiser.appraisily.com/#website",
-      "url": "https://art-appraiser.appraisily.com/",
+      "@id": "https://appraisily.com/#website",
+      "url": "https://appraisily.com/",
       "name": "Appraisily - Find Art Appraisers Near You",
       "description": "Connect with certified art appraisers, get expert valuations, and make informed decisions about your art collection.",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://art-appraiser.appraisily.com/search?q={search_term_string}",
+        "target": "https://appraisily.com/search?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     };
@@ -33,10 +56,10 @@ function App() {
     return {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
-      "@id": "https://art-appraiser.appraisily.com/#professional-service",
+      "@id": "https://appraisily.com/#professional-service",
       "name": "Appraisily Art Appraisal Directory",
       "description": "Find certified art appraisers near you for expert valuations, authentication services, and professional advice for your art collection.",
-      "url": "https://art-appraiser.appraisily.com/",
+      "url": "https://appraisily.com/",
       "serviceType": "Art Appraisal",
       "audience": {
         "@type": "Audience",
@@ -49,7 +72,7 @@ function App() {
       "provider": {
         "@type": "Organization",
         "name": "Appraisily",
-        "url": "https://art-appraiser.appraisily.com/"
+        "url": "https://appraisily.com/"
       }
     };
   };
@@ -76,7 +99,7 @@ function App() {
           generateHomePageSchema(),
           generateServiceSchema()
         ]}
-        canonicalUrl="https://art-appraiser.appraisily.com/"
+        canonicalUrl="https://appraisily.com/"
       />
       <div className="flex-1">
         {/* Hero Section with Gradient Background */}
@@ -148,12 +171,53 @@ function App() {
           </div>
         </div>
 
+        {/* Cities Directory Section */}
+        <div className="bg-gray-50 py-16">
+          <div className="container mx-auto px-6">
+            <h2 className="text-3xl font-bold mb-4 text-center">Art Appraiser Directory by City</h2>
+            <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+              Find certified art appraisers in your city. Our directory covers major metropolitan areas across the United States.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {Object.entries(regions).map(([region, regionCities]) => (
+                <div key={region} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300">
+                  <h3 className="text-xl font-semibold mb-4 text-blue-600 border-b pb-2">{region}</h3>
+                  <ul className="grid grid-cols-1 gap-2">
+                    {regionCities.map(city => (
+                      <li key={city.slug}>
+                        <a 
+                          href={`/location/${city.slug}`}
+                          className="flex items-center text-gray-700 hover:text-blue-600 py-1 transition-colors"
+                        >
+                          <MapPin className="w-4 h-4 mr-2 text-blue-500" />
+                          <span>{city.name}, {city.state}</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+            
+            <div className="mt-10 text-center">
+              <p className="text-gray-600 mb-4">Don't see your city? We may still have art appraisers available in your area.</p>
+              <a
+                href="https://appraisily.com/start"
+                className="inline-flex items-center justify-center text-white bg-blue-600 hover:bg-blue-700 py-3 px-6 rounded-lg shadow-md font-medium transition-all duration-300"
+              >
+                Request an Appraisal <ArrowRight className="ml-2 h-4 w-4" />
+              </a>
+            </div>
+          </div>
+        </div>
+        
         {/* Featured Appraisers Section */}
         <main className="container mx-auto px-6 py-16">
           <h2 className="text-3xl font-bold mb-10 text-center">Featured Art Appraisers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Example Appraiser Card 1 */}
-            <a href="/appraiser/metropolitan-art-appraisers-chicago" className="group">
+            <a href="https://art-appraiser-directory.appraisily.com/appraiser/metropolitan-art-appraisers-chicago" className="group">
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
@@ -185,7 +249,7 @@ function App() {
             </a>
             
             {/* Example Appraiser Card 2 */}
-            <a href="/appraiser/heritage-fine-art-appraisers" className="group">
+            <a href="https://art-appraiser-directory.appraisily.com/appraiser/heritage-fine-art-appraisers" className="group">
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
@@ -217,7 +281,7 @@ function App() {
             </a>
             
             {/* Example Appraiser Card 3 */}
-            <a href="/appraiser/blue-chip-art-valuation" className="group">
+            <a href="https://art-appraiser-directory.appraisily.com/appraiser/blue-chip-art-valuation" className="group">
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
@@ -247,110 +311,14 @@ function App() {
                 </div>
               </div>
             </a>
-
-            {/* New Appraiser Card 4 */}
-            <a href="/appraiser/renaissance-appraisal-group" className="group">
-              <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
-                <div className="relative">
-                  <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
-                    <div style={{ position: 'absolute', inset: 0 }}>
-                      <img
-                        src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&q=80"
-                        alt="Renaissance Appraisal Group"
-                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                  <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
-                    <Star className="w-4 h-4 fill-primary text-primary" /> 4.9
-                  </div>
-                </div>
-                <div className="p-5">
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Renaissance Appraisal Group</h3>
-                  <div className="flex items-center text-muted-foreground mb-3">
-                    <MapPin className="w-4 h-4 mr-1" /> Boston, MA
-                  </div>
-                  <p className="text-muted-foreground text-sm mb-4">Specialists in renaissance and baroque art with museum-quality consultation services.</p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Renaissance</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Baroque</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Old Masters</span>
-                  </div>
-                </div>
-              </div>
-            </a>
-
-            {/* New Appraiser Card 5 */}
-            <a href="/appraiser/modern-masterpiece-valuations" className="group">
-              <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
-                <div className="relative">
-                  <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
-                    <div style={{ position: 'absolute', inset: 0 }}>
-                      <img
-                        src="https://images.unsplash.com/photo-1576016770956-debb63d92058?auto=format&fit=crop&q=80"
-                        alt="Modern Masterpiece Valuations"
-                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                  <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
-                    <Star className="w-4 h-4 fill-primary text-primary" /> 4.8
-                  </div>
-                </div>
-                <div className="p-5">
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Modern Masterpiece Valuations</h3>
-                  <div className="flex items-center text-muted-foreground mb-3">
-                    <MapPin className="w-4 h-4 mr-1" /> San Francisco, CA
-                  </div>
-                  <p className="text-muted-foreground text-sm mb-4">Premium valuation services for modern masterpieces and contemporary works of significance.</p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Modern Art</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Masterpieces</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Museum Quality</span>
-                  </div>
-                </div>
-              </div>
-            </a>
-
-            {/* New Appraiser Card 6 */}
-            <a href="/appraiser/impressionist-valuations-expert" className="group">
-              <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
-                <div className="relative">
-                  <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
-                    <div style={{ position: 'absolute', inset: 0 }}>
-                      <img
-                        src="https://images.unsplash.com/photo-1577720643889-01ed9b648dee?auto=format&fit=crop&q=80"
-                        alt="Impressionist Valuations Expert"
-                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                  <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
-                    <Star className="w-4 h-4 fill-primary text-primary" /> 4.9
-                  </div>
-                </div>
-                <div className="p-5">
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Impressionist Valuations Expert</h3>
-                  <div className="flex items-center text-muted-foreground mb-3">
-                    <MapPin className="w-4 h-4 mr-1" /> Washington, DC
-                  </div>
-                  <p className="text-muted-foreground text-sm mb-4">Specialized in impressionist, post-impressionist, and early 20th century artworks.</p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Impressionist</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Post-Impressionist</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">European Art</span>
-                  </div>
-                </div>
-              </div>
-            </a>
           </div>
           
           <div className="mt-12 text-center">
-            <a href="/location/new-york" className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white mr-4">
+            <a 
+              href="/location/new-york" 
+              className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white mr-4"
+            >
               Browse All Appraisers
-            </a>
-            <a href="/directory" className="inline-flex items-center justify-center rounded-lg px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 h-12 bg-primary shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-300">
-              View Full Directory
             </a>
           </div>
         </main>

@@ -7,6 +7,7 @@
  * 1. Fixes React hydration issues
  * 2. Injects fallback image handler
  * 3. Rebuilds with correct paths
+ * 4. Generates static HTML files for all location pages
  */
 
 import fs from 'fs-extra';
@@ -19,6 +20,7 @@ import chalk from 'chalk';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
 const DIST_DIR = path.join(ROOT_DIR, 'dist');
+const CITIES_PATH = path.join(ROOT_DIR, 'src', 'data', 'cities.json');
 
 // Log with color and timestamp
 function log(message, type = 'info') {
@@ -127,6 +129,74 @@ async function fixAllHydrationIssues() {
 }
 
 /**
+ * Create HTML files for all location pages
+ */
+async function generateLocationPages() {
+  log('Generating static HTML files for all location pages...', 'info');
+  
+  try {
+    // Check if cities data exists
+    if (!fs.existsSync(CITIES_PATH)) {
+      log('⚠️ Cities data file not found!', 'warning');
+      return 0;
+    }
+
+    // Read cities data
+    const citiesData = JSON.parse(fs.readFileSync(CITIES_PATH, 'utf-8'));
+    const cities = citiesData.cities || [];
+
+    if (cities.length === 0) {
+      log('⚠️ No cities found in the data file!', 'warning');
+      return 0;
+    }
+
+    log(`📊 Found ${cities.length} cities to process`, 'info');
+    let generatedCount = 0;
+
+    // Create location directories and HTML files
+    for (const city of cities) {
+      const locationDir = path.join(DIST_DIR, 'location', city.slug);
+      
+      // Create directory if it doesn't exist
+      fs.ensureDirSync(locationDir);
+      
+      // Read the index.html content to use as template
+      const indexPath = path.join(DIST_DIR, 'index.html');
+      if (!fs.existsSync(indexPath)) {
+        log(`⚠️ Index file not found at ${indexPath}!`, 'warning');
+        continue;
+      }
+      
+      const indexHtml = fs.readFileSync(indexPath, 'utf-8');
+      
+      // Create city-specific meta tags
+      const title = `Art Appraisers in ${city.name}, ${city.state} | Expert Art Valuation Services`;
+      const description = `Find certified art appraisers in ${city.name}, ${city.state}. Get expert art valuations, authentication services, and professional advice for your art collection.`;
+      const canonicalUrl = `https://art-appraiser-directory.appraisily.com/location/${city.slug}`;
+      
+      // Update HTML with city-specific meta tags
+      const cityHtml = indexHtml
+        .replace(/<title>.*?<\/title>/, `<title>${title}</title>`)
+        .replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${description}"`)
+        .replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${canonicalUrl}"`);
+      
+      // Write the HTML file
+      const locationHtmlPath = path.join(locationDir, 'index.html');
+      fs.writeFileSync(locationHtmlPath, cityHtml);
+      
+      log(`✅ Generated page for ${city.name}, ${city.state}`, 'success');
+      generatedCount++;
+    }
+
+    log(`🎉 Successfully generated ${generatedCount} location pages!`, 'success');
+    return generatedCount;
+  } catch (error) {
+    log(`❌ Error generating location pages: ${error.message}`, 'error');
+    throw error;
+  }
+}
+
+/**
  * Main function
  */
 async function main() {
@@ -147,6 +217,9 @@ async function main() {
     // Step 3: Inject fallback image handler
     const fallbackOutput = await runScript('node', [path.join(__dirname, 'inject-fallback-image-handler.js')]);
     log(fallbackOutput, 'info');
+    
+    // Step 4: Generate static HTML files for all location pages
+    await generateLocationPages();
     
     log('\nAll pages fixed successfully!', 'success');
     log('Next steps:', 'info');

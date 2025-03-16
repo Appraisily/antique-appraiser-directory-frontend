@@ -8,6 +8,7 @@
 import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { execSync } from 'child_process';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.join(__dirname, '..');
@@ -34,7 +35,7 @@ try {
     console.log('📝 Creating robots.txt...');
     fs.writeFileSync(
       robotsPath,
-      'User-agent: *\nAllow: /\nSitemap: https://art-appraiser-directory.appraisily.com/sitemap.xml'
+      'User-agent: *\nAllow: /\nSitemap: https://art-appraiser.appraisily.com/sitemap.xml'
     );
   }
 
@@ -44,26 +45,23 @@ try {
     console.warn('⚠️ Warning: sitemap.xml not found. Run the sitemap generator script.');
   }
 
-  // Update the netlify.toml file to use the pre-built dist directory
+  // Update the netlify.toml file for module scripts
   console.log('📝 Updating Netlify configuration for static deployment...');
   
-  // Use the netlify-dist.toml as a template if it exists
-  if (fs.existsSync(NETLIFY_DIST_CONFIG)) {
-    fs.copyFileSync(NETLIFY_DIST_CONFIG, NETLIFY_CONFIG);
-  } else {
-    // Create a simplified netlify.toml that doesn't run build commands
-    const netlifyConfig = `
-# Netlify configuration for pre-built static site
+  // Create the improved netlify.toml
+  const netlifyConfig = `
+# Netlify configuration for pre-built distribution
+
 [build]
-  # The directory to publish
+  # Since the files are already built, we don't need to run a build command
   publish = "dist"
-  # Skip the build command since files are pre-built
   command = "echo 'Using pre-built static files for Netlify deployment'"
   
-  # Environment variables
+  # Environment variables for the build
   [build.environment]
+    # Set the site URL for sitemap generation
+    SITE_URL = "https://art-appraiser.appraisily.com"
     NODE_VERSION = "18"
-    SITE_URL = "https://art-appraiser-directory.appraisily.com"
 
 # Explicitly handle asset files with correct MIME types
 [[headers]]
@@ -72,47 +70,102 @@ try {
     Content-Type = "text/css"
     Cache-Control = "public, max-age=31536000, immutable"
 
+# Make sure JavaScript modules are served correctly - CRITICAL FIX
 [[headers]]
   for = "/assets/*.js"
     [headers.values]
-    Content-Type = "application/javascript"
+    Content-Type = "text/javascript"
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Handle routes properly for static site
+# Make sure assets are served correctly
 [[redirects]]
   from = "/assets/*"
   to = "/assets/:splat"
   status = 200
 
+# Fix for directory assets path issue
+[[redirects]]
+  from = "/directory/assets/*"
+  to = "/assets/:splat"
+  status = 200
+  
+# Alternate fix for asset paths to handle both formats
+[[redirects]]
+  from = "/assets/*"
+  to = "/directory/assets/:splat"
+  status = 200
+  force = false
+
+# Don't redirect for static HTML pages that exist
 [[redirects]]
   from = "/location/*"
   to = "/location/:splat/index.html"
   status = 200
+  force = false
 
 [[redirects]]
   from = "/appraiser/*"
   to = "/appraiser/:splat/index.html"
   status = 200
+  force = false
 
-# Fallback to index.html for client-side routing
+# Redirect all remaining routes to index.html for client-side routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-# Additional headers for security
+# Additional header configurations
 [[headers]]
-  for = "/*"
+  # Define headers for all assets
+  for = "/assets/*"
     [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  # Define headers for HTML files
+  for = "/*.html"
+    [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
+
+[[headers]]
+  # Define headers for the sitemap
+  for = "/sitemap.xml"
+    [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "application/xml"
+
+# Add security headers for all pages
+[[headers]]
+  for = "/*"
+    [headers.values]
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 `;
-    fs.writeFileSync(NETLIFY_CONFIG, netlifyConfig.trim());
-  }
+
+  // Write the netlify.toml file
+  fs.writeFileSync(NETLIFY_CONFIG, netlifyConfig.trim());
+  console.log('✅ Updated Netlify configuration with improved settings for modules');
+
+  // Create a _headers file in the dist directory
+  const headersPath = path.join(DIST_DIR, '_headers');
+  const headersContent = `
+# Netlify _headers file - ensures correct MIME types
+/assets/*.js
+  Content-Type: text/javascript
+
+/assets/*.css
+  Content-Type: text/css
+
+/*
+  X-Content-Type-Options: nosniff
+`;
+  fs.writeFileSync(headersPath, headersContent.trim());
+  console.log('✅ Created _headers file for proper MIME types');
 
   // Create a Netlify badge for the project
   const badgeContent = `
@@ -120,6 +173,12 @@ try {
 [![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://app.netlify.com/sites/your-site-name/deploys)
 
 This project is automatically deployed to Netlify whenever changes are pushed to the main branch.
+
+## Troubleshooting
+If you encounter module loading issues, check:
+1. Proper MIME types in netlify.toml
+2. Correct path resolution in HTML files
+3. Browser console for detailed errors
 `;
 
   const readmePath = path.join(ROOT_DIR, 'NETLIFY-DEPLOY.md');

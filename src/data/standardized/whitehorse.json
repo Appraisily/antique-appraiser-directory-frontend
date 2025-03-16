@@ -1,0 +1,178 @@
+{
+  "appraisers": [
+    {
+      "id": "whitehorse-whitehorse-antique-appraisals",
+      "name": "Whitehorse Antique Appraisals",
+      "slug": "whitehorse-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_whitehorse-whitehorse-antique-appraisals_7823.jpg",
+      "address": {
+        "street": "923 Oak Ave",
+        "city": "Whitehorse",
+        "state": "YU",
+        "zip": "36608",
+        "formatted": "923 Oak Ave, Whitehorse, YU 36608"
+      },
+      "contact": {
+        "phone": "625-249-4889",
+        "email": "info@whitehorseantiqueappraisals.com",
+        "website": "https://www.whitehorseantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "19 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Valuation"
+        ]
+      },
+      "content": {
+        "about": "Whitehorse Antique Appraisals provides professional antique appraisal services in the Whitehorse area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Jessica S.",
+          "rating": 2,
+          "date": "2024-11-13",
+          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
+        },
+        {
+          "author": "Patricia B.",
+          "rating": 4.5,
+          "date": "2024-04-24",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Elizabeth B.",
+          "rating": 4.5,
+          "date": "2024-04-05",
+          "content": "Whitehorse Antique Appraisals's knowledge of antique furniture values was exceptional. The documentation Whitehorse Antique Appraisals provided was detailed and perfect for my insurance needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "whitehorse-heritage-valuations-whitehorse",
+      "name": "Heritage Valuations Whitehorse",
+      "slug": "heritage-valuations-whitehorse",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_whitehorse-heritage-valuations-whitehorse_2907.jpg",
+      "address": {
+        "street": "224 Oak Ave",
+        "city": "Whitehorse",
+        "state": "YU",
+        "zip": "49860",
+        "formatted": "224 Oak Ave, Whitehorse, YU 49860"
+      },
+      "contact": {
+        "phone": "166-236-2035",
+        "email": "info@heritagevaluationswhitehorse.com",
+        "website": "https://www.heritagevaluationswhitehorse.com"
+      },
+      "business": {
+        "yearsInBusiness": "19 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 23
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Whitehorse provides professional antique appraisal services in the Whitehorse area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth J.",
+          "rating": 4,
+          "date": "2025-02-13",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Robert W.",
+          "rating": 4.5,
+          "date": "2024-07-22",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Karen J.",
+          "rating": 4.5,
+          "date": "2024-06-13",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Elizabeth R.",
+          "rating": 5,
+          "date": "2024-04-20",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Jessica J.",
+          "rating": 4.5,
+          "date": "2024-04-15",
+          "content": "Excellent service from start to finish. I highly recommend Heritage Valuations Whitehorse for any antique appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

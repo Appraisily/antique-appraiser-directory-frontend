@@ -1,0 +1,156 @@
+{
+  "appraisers": [
+    {
+      "id": "fresno-fresno-antique-appraisals",
+      "name": "Fresno Antique Appraisals",
+      "slug": "fresno-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fresno-fresno-antique-appraisals_2293.jpg",
+      "address": {
+        "street": "782 Oak Ave",
+        "city": "Fresno",
+        "state": "CA",
+        "zip": "62909",
+        "formatted": "782 Oak Ave, Fresno, CA 62909"
+      },
+      "contact": {
+        "phone": "598-522-8636",
+        "email": "info@fresnoantiqueappraisals.com",
+        "website": "https://www.fresnoantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "24 years in business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Fresno Antique Appraisals provides professional antique appraisal services in the Fresno area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Nancy T.",
+          "rating": 4.5,
+          "date": "2024-12-20",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Emily A.",
+          "rating": 4.5,
+          "date": "2024-07-31",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Susan J.",
+          "rating": 4.5,
+          "date": "2024-04-10",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "fresno-heritage-valuations-fresno",
+      "name": "Heritage Valuations Fresno",
+      "slug": "heritage-valuations-fresno",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fresno-heritage-valuations-fresno_1764.jpg",
+      "address": {
+        "street": "369 Main St",
+        "city": "Fresno",
+        "state": "CA",
+        "zip": "41637",
+        "formatted": "369 Main St, Fresno, CA 41637"
+      },
+      "contact": {
+        "phone": "159-309-8605",
+        "email": "info@heritagevaluationsfresno.com",
+        "website": "https://www.heritagevaluationsfresno.com"
+      },
+      "business": {
+        "yearsInBusiness": "29 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Fresno provides professional antique appraisal services in the Fresno area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia A.",
+          "rating": 2,
+          "date": "2024-08-17",
+          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
+        },
+        {
+          "author": "Nancy C.",
+          "rating": 4.5,
+          "date": "2024-07-28",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Michael T.",
+          "rating": 4.5,
+          "date": "2024-05-17",
+          "content": "Heritage Valuations Fresno's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

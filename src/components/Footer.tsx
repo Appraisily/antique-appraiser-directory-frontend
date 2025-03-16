@@ -2,17 +2,18 @@ import React, { useEffect, useState } from 'react';
 import { Facebook, Twitter, Instagram, Mail, ArrowRight, MapPin } from 'lucide-react';
 import citiesData from '../data/cities.json';
 
-// Define links similar to the main_page Footer
+// Define links pointing to the main domain
+const MAIN_DOMAIN = 'https://appraisily.com';
 const links = {
   quickLinks: [
-    { name: 'Services', href: '/services' },
-    { name: 'How It Works', href: '/how-it-works' },
-    { name: 'Free AI Art Analysis', href: '/screener' },
-    { name: 'Terms of Service', href: '/terms' }
+    { name: 'Services', href: `${MAIN_DOMAIN}/services` },
+    { name: 'How It Works', href: `${MAIN_DOMAIN}/how-it-works` },
+    { name: 'Free AI Art Analysis', href: `${MAIN_DOMAIN}/screener` },
+    { name: 'Terms of Service', href: `${MAIN_DOMAIN}/terms` }
   ],
   legal: [
-    { name: 'Privacy Policy', href: '/privacy' },
-    { name: 'Terms of Service', href: '/terms' }
+    { name: 'Privacy Policy', href: `${MAIN_DOMAIN}/privacy` },
+    { name: 'Terms of Service', href: `${MAIN_DOMAIN}/terms` }
   ],
   social: [
     { name: 'Facebook', icon: Facebook, href: '#' },

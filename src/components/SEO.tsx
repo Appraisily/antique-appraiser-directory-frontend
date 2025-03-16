@@ -137,7 +137,7 @@ export function SEO({
       <meta name="theme-color" content="#1a56db" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-      <meta name="apple-mobile-web-app-title" content="Appraisily" />
+      <meta name="apple-mobile-web-app-title" content="Appraisily - Antique Appraisers" />
       
       {/* Resource hints for performance */}
       {preconnect.map(url => (
@@ -173,6 +173,21 @@ export function SEO({
       <meta name="geo.region" content="US" />
       <meta name="geo.position" content="39.8283;-98.5795" />
       <meta name="ICBM" content="39.8283, -98.5795" />
+      
+      {/* SEO Keywords for Antique Appraisers */}
+      <meta name="keywords" content={keywords?.join(', ') || "antique appraiser near me, antique appraisers, antique valuation, antique evaluation, antique price guide, antique authentication, antique expert, find antique appraiser, antique appraisal services"} />
+      <meta name="subject" content="Antique Appraisal Services" />
+      <meta name="topic" content="Antique Appraisers" />
+      <meta name="classification" content="Antique Appraisal" />
+      
+      {/* Locality-specific meta tags */}
+      {pageUrl && pageUrl.includes('/location/') && (
+        <>
+          <meta name="directory" content="submission" />
+          <meta name="target" content="Antique Appraisers in a Specific Location" />
+          <meta name="HandheldFriendly" content="True" />
+        </>
+      )}
     </Helmet>
   );
 }

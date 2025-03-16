@@ -2,8 +2,8 @@
 
 [build]
   # Since the files are already built, we don't need to run a build command
-  publish = "/"
-  command = "echo 'No build required, using pre-built files'"
+  publish = "dist"
+  command = "echo 'Using pre-built static files for Netlify deployment'"
   
   # Environment variables for the build
   [build.environment]
@@ -55,6 +55,7 @@
     [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+[[headers]]
   # Define headers for HTML files
   for = "/*.html"
     [headers.values]
@@ -63,6 +64,7 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
+[[headers]]
   # Define headers for the sitemap
   for = "/sitemap.xml"
     [headers.values]

@@ -1,7 +1,7 @@
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import App from './App';
-import { LocationPage } from './pages/LocationPage';
-import { AppraiserPage } from './pages/AppraiserPage';
+import { StandardizedLocationPage } from './pages/StandardizedLocationPage';
+import { StandardizedAppraiserPage } from './pages/StandardizedAppraiserPage';
 import { RootLayout } from './layouts/RootLayout';
 import { AppraisersDirectory } from './components/AppraisersDirectory';
 
@@ -18,11 +18,11 @@ export const router = createBrowserRouter([
       },
       {
         path: 'location/:citySlug',
-        element: <LocationPage />
+        element: <StandardizedLocationPage />
       },
       {
         path: 'appraiser/:appraiserId',
-        element: <AppraiserPage />
+        element: <StandardizedAppraiserPage />
       },
       {
         path: '*',

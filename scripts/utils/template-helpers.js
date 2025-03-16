@@ -118,26 +118,26 @@ export function getEnhancedFooterHTML(jsPath) {
                  loading="lazy" />
             <h3 class="text-xl font-bold">Appraisily</h3>
             <p class="text-gray-400 text-sm mt-2">Professional online art and antique appraisals. Get accurate valuations from certified experts within 48 hours.</p>
-            <a href="/start-appraisal" class="mt-4 bg-primary hover:bg-primary/90 text-white py-2 px-4 rounded-md inline-block transition-colors">Start Appraisal</a>
+            <a href="https://appraisily.com/start" class="mt-4 bg-primary hover:bg-primary/90 text-white py-2 px-4 rounded-md inline-block transition-colors">Start Appraisal</a>
           </div>
           
           <div>
             <h3 class="text-xl font-bold mb-4">Quick Links</h3>
             <ul class="space-y-2 text-sm">
-              <li><a href="/directory" class="text-gray-400 hover:text-white transition">Directory</a></li>
-              <li><a href="/" class="text-gray-400 hover:text-white transition">Home</a></li>
-              <li><a href="/about" class="text-gray-400 hover:text-white transition">About Us</a></li>
-              <li><a href="/contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+              <li><a href="https://appraisily.com/directory" class="text-gray-400 hover:text-white transition">Directory</a></li>
+              <li><a href="https://appraisily.com/" class="text-gray-400 hover:text-white transition">Home</a></li>
+              <li><a href="https://appraisily.com/about" class="text-gray-400 hover:text-white transition">About Us</a></li>
+              <li><a href="https://appraisily.com/contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
             </ul>
           </div>
           
           <div>
             <h3 class="text-xl font-bold mb-4">Services</h3>
             <ul class="space-y-2 text-sm">
-              <li><a href="/services" class="text-gray-400 hover:text-white transition">Services</a></li>
-              <li><a href="/how-it-works" class="text-gray-400 hover:text-white transition">How It Works</a></li>
-              <li><a href="/free-ai-art-analysis" class="text-gray-400 hover:text-white transition">Free AI Art Analysis</a></li>
-              <li><a href="/terms" class="text-gray-400 hover:text-white transition">Terms of Service</a></li>
+              <li><a href="https://appraisily.com/services" class="text-gray-400 hover:text-white transition">Services</a></li>
+              <li><a href="https://appraisily.com/how-it-works" class="text-gray-400 hover:text-white transition">How It Works</a></li>
+              <li><a href="https://appraisily.com/screener" class="text-gray-400 hover:text-white transition">Free AI Art Analysis</a></li>
+              <li><a href="https://appraisily.com/terms" class="text-gray-400 hover:text-white transition">Terms of Service</a></li>
             </ul>
           </div>
           
@@ -151,8 +151,8 @@ export function getEnhancedFooterHTML(jsPath) {
         <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p class="text-gray-400 text-sm">&copy; ${currentYear} Appraisily. All rights reserved.</p>
           <div class="flex space-x-4 mt-4 md:mt-0 text-sm">
-            <a href="/privacy" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
-            <a href="/terms" class="text-gray-400 hover:text-white transition">Terms of Service</a>
+            <a href="https://appraisily.com/privacy" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
+            <a href="https://appraisily.com/terms" class="text-gray-400 hover:text-white transition">Terms of Service</a>
           </div>
         </div>
       </div>

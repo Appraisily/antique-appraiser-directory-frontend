@@ -1,0 +1,266 @@
+{
+  "appraisers": [
+    {
+      "id": "lexington-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_lexington-1790.jpg",
+      "address": {
+        "street": "924 Maple Dr",
+        "city": "Lexington",
+        "state": "KE",
+        "zip": "99725",
+        "formatted": "924 Maple Dr, Lexington, KE 99725"
+      },
+      "contact": {
+        "phone": "980-140-5753",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://www.prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 22
+      },
+      "expertise": {
+        "specialties": [
+          "fine art, historic artifacts, rare coins, machinery, jewelry/watch assessments. Most follow USPAP standards.\n\n---\n\n## Directory of Antique Appraisers\n\n### Prestige Estate Services\n- Focus: Historical artifacts"
+        ],
+        "certifications": [
+          "IRS",
+          "USPAP",
+          "ASA",
+          "ISA",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Central Kentucky (Lexington included)"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional antique appraisal services specializing in fine art, historic artifacts, rare coins, machinery, jewelry/watch assessments. Most follow USPAP standards.\n\n---\n\n## Directory of Antique Appraisers\n\n### Prestige Estate Services\n- Focus: Historical artifacts. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Lexington area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Jessica A.",
+          "rating": 4.5,
+          "date": "2025-01-15",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Susan S.",
+          "rating": 5,
+          "date": "2024-09-02",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and Prestige Estate Services delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Michael M.",
+          "rating": 4.5,
+          "date": "2024-06-14",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Nancy B.",
+          "rating": 4,
+          "date": "2024-04-27",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "lexington-lexington-antique-appraisals",
+      "name": "Lexington Antique Appraisals",
+      "slug": "lexington-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_lexington-lexington-antique-appraisals_9844.jpg",
+      "address": {
+        "street": "506 Oak Ave",
+        "city": "Lexington",
+        "state": "KE",
+        "zip": "53217",
+        "formatted": "506 Oak Ave, Lexington, KE 53217"
+      },
+      "contact": {
+        "phone": "443-702-7463",
+        "email": "info@lexingtonantiqueappraisals.com",
+        "website": "https://www.lexingtonantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "28 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.1,
+        "reviewCount": 20
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lexington Antique Appraisals provides professional antique appraisal services in the Lexington area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Linda W.",
+          "rating": 4,
+          "date": "2025-01-09",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Sarah T.",
+          "rating": 4.5,
+          "date": "2024-09-23",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Michael W.",
+          "rating": 4,
+          "date": "2024-08-20",
+          "content": "Lexington Antique Appraisals's knowledge of antique furniture values was exceptional. The documentation Lexington Antique Appraisals provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Jennifer D.",
+          "rating": 4,
+          "date": "2024-07-10",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Robert W.",
+          "rating": 4,
+          "date": "2024-04-24",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "lexington-heritage-valuations-lexington",
+      "name": "Heritage Valuations Lexington",
+      "slug": "heritage-valuations-lexington",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_lexington-heritage-valuations-lexington_7798.jpg",
+      "address": {
+        "street": "1021 Main St",
+        "city": "Lexington",
+        "state": "KE",
+        "zip": "43810",
+        "formatted": "1021 Main St, Lexington, KE 43810"
+      },
+      "contact": {
+        "phone": "830-254-1139",
+        "email": "info@heritagevaluationslexington.com",
+        "website": "https://www.heritagevaluationslexington.com"
+      },
+      "business": {
+        "yearsInBusiness": "14 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Lexington provides professional antique appraisal services in the Lexington area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia M.",
+          "rating": 4.5,
+          "date": "2025-01-18",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Jennifer T.",
+          "rating": 4,
+          "date": "2024-07-11",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Nancy W.",
+          "rating": 4.5,
+          "date": "2024-05-08",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

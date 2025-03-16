@@ -1,0 +1,87 @@
+{
+  "appraisers": [
+    {
+      "id": "washington-dc-fine-art-appraiser",
+      "name": "Washington Fine Art Appraisers",
+      "slug": "washington-fine-art-appraisers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-dc-fine-art-appraiser_1741089482744_aLCAXrh39.jpg",
+      "address": {
+        "street": "789 Park Ave",
+        "city": "123 Main St",
+        "state": "NY",
+        "zip": "10820",
+        "formatted": "789 Park Ave, 123 Main St, NY 10820"
+      },
+      "contact": {
+        "phone": "(555) 123-4567",
+        "email": "info@washingtondcartappraisers.com",
+        "website": "https://washingtondcartappraisers.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 125
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antique Paintings",
+          "Sculptures"
+        ],
+        "certifications": [
+          "Appraisers Association of America (AAA)",
+          "International Society of Appraisers (ISA)",
+          "USPAP Certified"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Valuations",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Our team of certified appraisers brings decades of expertise to art valuation. We specialize in both traditional and contemporary art forms.",
+        "notes": ""
+      },
+      "reviews": [
+        {
+          "author": "Emily R.",
+          "rating": 3,
+          "date": "2025-02-14",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation of the valuation methodology."
+        },
+        {
+          "author": "Jennifer T.",
+          "rating": 4.5,
+          "date": "2025-01-26",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Jessica W.",
+          "rating": 5,
+          "date": "2025-01-24",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

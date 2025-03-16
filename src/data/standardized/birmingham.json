@@ -1,0 +1,170 @@
+{
+  "appraisers": [
+    {
+      "id": "birmingham-birmingham-antique-appraisals",
+      "name": "Birmingham Antique Appraisals",
+      "slug": "birmingham-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_birmingham-birmingham-antique-appraisals_426.jpg",
+      "address": {
+        "street": "997 Maple Dr",
+        "city": "Birmingham",
+        "state": "AL",
+        "zip": "83355",
+        "formatted": "997 Maple Dr, Birmingham, AL 83355"
+      },
+      "contact": {
+        "phone": "403-757-3491",
+        "email": "info@birminghamantiqueappraisals.com",
+        "website": "https://www.birminghamantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "7 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 5,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Birmingham Antique Appraisals provides professional antique appraisal services in the Birmingham area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Nancy W.",
+          "rating": 4.5,
+          "date": "2024-10-20",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Michael W.",
+          "rating": 4.5,
+          "date": "2024-07-01",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "John M.",
+          "rating": 5,
+          "date": "2024-03-24",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "birmingham-heritage-valuations-birmingham",
+      "name": "Heritage Valuations Birmingham",
+      "slug": "heritage-valuations-birmingham",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_birmingham-heritage-valuations-birmingham_2631.jpg",
+      "address": {
+        "street": "991 Main St",
+        "city": "Birmingham",
+        "state": "AL",
+        "zip": "94879",
+        "formatted": "991 Main St, Birmingham, AL 94879"
+      },
+      "contact": {
+        "phone": "175-221-6479",
+        "email": "info@heritagevaluationsbirmingham.com",
+        "website": "https://www.heritagevaluationsbirmingham.com"
+      },
+      "business": {
+        "yearsInBusiness": "11 years in business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Birmingham provides professional antique appraisal services in the Birmingham area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Karen R.",
+          "rating": 4,
+          "date": "2024-08-12",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and Heritage Valuations Birmingham delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Emily S.",
+          "rating": 4,
+          "date": "2024-06-07",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Nancy J.",
+          "rating": 4.5,
+          "date": "2024-05-09",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "John R.",
+          "rating": 4.5,
+          "date": "2024-05-05",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

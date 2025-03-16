@@ -1,0 +1,162 @@
+{
+  "appraisers": [
+    {
+      "id": "moncton-moncton-antique-appraisals",
+      "name": "Moncton Antique Appraisals",
+      "slug": "moncton-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_moncton-moncton-antique-appraisals_8697.jpg",
+      "address": {
+        "street": "165 Museum Way",
+        "city": "Moncton",
+        "state": "NE",
+        "zip": "20607",
+        "formatted": "165 Museum Way, Moncton, NE 20607"
+      },
+      "contact": {
+        "phone": "471-718-4147",
+        "email": "info@monctonantiqueappraisals.com",
+        "website": "https://www.monctonantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "9 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Moncton Antique Appraisals provides professional antique appraisal services in the Moncton area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Nancy T.",
+          "rating": 5,
+          "date": "2025-03-12",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Sarah C.",
+          "rating": 3,
+          "date": "2024-12-10",
+          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
+        },
+        {
+          "author": "Patricia C.",
+          "rating": 4.5,
+          "date": "2024-07-31",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Michael C.",
+          "rating": 2,
+          "date": "2024-07-23",
+          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "moncton-heritage-valuations-moncton",
+      "name": "Heritage Valuations Moncton",
+      "slug": "heritage-valuations-moncton",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_moncton-heritage-valuations-moncton_1605.jpg",
+      "address": {
+        "street": "994 Main St",
+        "city": "Moncton",
+        "state": "NE",
+        "zip": "78068",
+        "formatted": "994 Main St, Moncton, NE 78068"
+      },
+      "contact": {
+        "phone": "167-799-8626",
+        "email": "info@heritagevaluationsmoncton.com",
+        "website": "https://www.heritagevaluationsmoncton.com"
+      },
+      "business": {
+        "yearsInBusiness": "15 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Moncton provides professional antique appraisal services in the Moncton area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Michael B.",
+          "rating": 1,
+          "date": "2025-02-11",
+          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
+        },
+        {
+          "author": "Robert M.",
+          "rating": 4.5,
+          "date": "2024-11-16",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Karen B.",
+          "rating": 5,
+          "date": "2024-10-20",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Sarah J.",
+          "rating": 4.5,
+          "date": "2024-08-31",
+          "content": "Very responsive and easy to work with. Heritage Valuations Moncton's expertise with my antique pocket watch collection was impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

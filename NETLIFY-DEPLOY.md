@@ -30,13 +30,17 @@ This project now primarily uses a pre-built deployment strategy for Netlify. Thi
    ```
    npm run build:netlify-ready
    ```
-3. Commit the changes to your Git repository (including the `dist` directory):
+3. Verify the build is complete and valid:
+   ```
+   npm run deploy:netlify-prebuilt
+   ```
+4. Commit the changes to your Git repository (including the `dist` directory):
    ```
    git add dist netlify.toml
    git commit -m "Update pre-built files for Netlify deployment"
    git push
    ```
-4. Netlify will deploy the pre-built files directly
+5. Netlify will deploy the pre-built files directly
 
 ### Strategy 2: Netlify Build Environment (Alternative)
 
@@ -82,10 +86,12 @@ If you encounter build issues on Netlify:
 ## Deployment Commands
 
 - **Build for Netlify**: `npm run build:netlify-ready`
+- **Verify Pre-built Files**: `npm run deploy:netlify-prebuilt`
 - **Full Build**: `npm run build:production`
 - **Deploy Directly**: `npm run deploy:direct`
 - **Test Build Locally**: `npm run build:seo-optimized`
 - **Validate Site**: `npm run site-check`
+- **Serve Built Files Locally**: `npm run serve:static`
 
 ## Environment Variables
 

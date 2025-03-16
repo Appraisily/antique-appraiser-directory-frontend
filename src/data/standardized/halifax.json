@@ -1,0 +1,331 @@
+{
+  "appraisers": [
+    {
+      "id": "halifax-finer-things-antiques-curios",
+      "name": "Finer Things Antiques & Curios",
+      "slug": "finer-things-antiques-curios",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_halifax-8796.jpg",
+      "address": {
+        "street": "491 Oak Ave",
+        "city": "Halifax",
+        "state": "NO",
+        "zip": "83266",
+        "formatted": "491 Oak Ave, Halifax, NO 83266"
+      },
+      "contact": {
+        "phone": "(902) 456-1412",
+        "email": "info@finerthingsantiquescurios.com",
+        "website": "https://finerthingsantiques.com/antiques/appraisal"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Furniture/decorative arts"
+        ],
+        "certifications": [
+          "CPPA"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Finer Things Antiques & Curios provides professional antique appraisal services specializing in Furniture/decorative arts. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Halifax area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Jessica T.",
+          "rating": 4,
+          "date": "2024-10-26",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "John T.",
+          "rating": 5,
+          "date": "2024-09-22",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "James W.",
+          "rating": 2,
+          "date": "2024-09-04",
+          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
+        },
+        {
+          "author": "Elizabeth S.",
+          "rating": 4.5,
+          "date": "2024-05-15",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "halifax-harringtons-auctioneers-appraisers",
+      "name": "Harrington’s Auctioneers & Appraisers",
+      "slug": "harringtons-auctioneers-appraisers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_halifax-8450.jpg",
+      "address": {
+        "street": "657 Antique Rd",
+        "city": "Halifax",
+        "state": "NO",
+        "zip": "12075",
+        "formatted": "657 Antique Rd, Halifax, NO 12075"
+      },
+      "contact": {
+        "phone": "(902) 456-1412",
+        "email": "info@harringtonsauctioneersappraisers.com",
+        "website": "https://finerthingsantiques.com/antiques/appraisal"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "Furniture/decorative arts"
+        ],
+        "certifications": [
+          "CPPA"
+        ],
+        "services": [
+          "Hosted events across NS; evaluations at Best Western Chocolate Lake Hotel (March 13–14, 10 AM–5 PM)"
+        ]
+      },
+      "content": {
+        "about": "Harrington’s Auctioneers & Appraisers provides professional antique appraisal services specializing in Furniture/decorative arts. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Halifax area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Emily W.",
+          "rating": 4,
+          "date": "2024-10-26",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "David D.",
+          "rating": 4.5,
+          "date": "2024-07-13",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Sarah A.",
+          "rating": 5,
+          "date": "2024-05-24",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "halifax-la-mine-dor-jewellers",
+      "name": "La Mine d’Or Jewellers",
+      "slug": "la-mine-dor-jewellers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_halifax-8060.jpg",
+      "address": {
+        "street": "200 Museum Way",
+        "city": "Halifax",
+        "state": "NO",
+        "zip": "67741",
+        "formatted": "200 Museum Way, Halifax, NO 67741"
+      },
+      "contact": {
+        "phone": "1238181406",
+        "email": "info@laminedorjewellers.com",
+        "website": "https://www.la-mine-dor-jewellers.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art/jewelry/coins"
+        ],
+        "certifications": [
+          "ISA",
+          "USPAP",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Hosted events across NS; evaluations at Best Western Chocolate Lake Hotel (March 13–14, 10 AM–5 PM)"
+        ]
+      },
+      "content": {
+        "about": "La Mine d’Or Jewellers provides professional antique appraisal services specializing in Fine art/jewelry/coins. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Halifax area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth S.",
+          "rating": 3,
+          "date": "2025-03-09",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
+        },
+        {
+          "author": "Patricia W.",
+          "rating": 4.5,
+          "date": "2024-10-09",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Emily C.",
+          "rating": 3,
+          "date": "2024-09-23",
+          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
+        },
+        {
+          "author": "Robert J.",
+          "rating": 4,
+          "date": "2024-09-06",
+          "content": "La Mine d’Or Jewellers's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "halifax-dorothe-rosen-designer-goldsmith",
+      "name": "Dorothée Rosen Designer Goldsmith",
+      "slug": "dorothe-rosen-designer-goldsmith",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_halifax-8978.jpg",
+      "address": {
+        "street": "288 Museum Way",
+        "city": "Halifax",
+        "state": "NO",
+        "zip": "90356",
+        "formatted": "288 Museum Way, Halifax, NO 90356"
+      },
+      "contact": {
+        "phone": "898-589-4682",
+        "email": "info@dorotherosendesignergoldsmith.com",
+        "website": "https://www.laminedor.com/pages/jewellery-appraisal-in-halifax-ns"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "GIA",
+          "CJA"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Dorothée Rosen Designer Goldsmith provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Halifax area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "James W.",
+          "rating": 4,
+          "date": "2025-01-19",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "David J.",
+          "rating": 4,
+          "date": "2024-12-04",
+          "content": "Dorothée Rosen Designer Goldsmith's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "David W.",
+          "rating": 4,
+          "date": "2024-08-22",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Karen T.",
+          "rating": 4.5,
+          "date": "2024-06-30",
+          "content": "Dorothée Rosen Designer Goldsmith's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Nancy M.",
+          "rating": 4.5,
+          "date": "2024-03-25",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

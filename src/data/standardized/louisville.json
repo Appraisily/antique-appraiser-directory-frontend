@@ -1,0 +1,267 @@
+{
+  "appraisers": [
+    {
+      "id": "louisville-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_louisville-1520.jpg",
+      "address": {
+        "street": "711 Museum Way",
+        "city": "Louisville",
+        "state": "KE",
+        "zip": "29867",
+        "formatted": "711 Museum Way, Louisville, KE 29867"
+      },
+      "contact": {
+        "phone": "812-178-9195",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://www.prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art (paintings, sculptures), period furniture (18th–20th century), decorative arts/jewelry collections  \n- Certifications: ISA (International Society of Appraisers)/ASA (American Society) accredited; IRS-qualified estate tax reports  \n- Services: In-person/remote valuations + photo-based assessments  \n- Service Area: Greater Louisville (Jeffersontown, Highlands, Fern Creek) + nationwide remote support  \n- Contact: 📍400 S 2nd St"
+        ],
+        "certifications": [
+          "ISA",
+          "ASA",
+          "IRS"
+        ],
+        "services": [
+          "In-person/remote valuations + photo-based assessments"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Fine art (paintings, sculptures), period furniture (18th–20th century), decorative arts/jewelry collections  \n- Certifications: ISA (International Society of Appraisers)/ASA (American Society) accredited; IRS-qualified estate tax reports  \n- Services: In-person/remote valuations + photo-based assessments  \n- Service Area: Greater Louisville (Jeffersontown, Highlands, Fern Creek) + nationwide remote support  \n- Contact: 📍400 S 2nd St. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Louisville area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Sarah S.",
+          "rating": 3.5,
+          "date": "2024-10-27",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
+        },
+        {
+          "author": "Karen W.",
+          "rating": 4,
+          "date": "2024-10-09",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Sarah M.",
+          "rating": 4,
+          "date": "2024-09-08",
+          "content": "Prestige Estate Services's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Linda M.",
+          "rating": 5,
+          "date": "2024-06-16",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "louisville-howard-thomas-auction-house",
+      "name": "Howard & Thomas Auction House",
+      "slug": "howard-thomas-auction-house",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_louisville-6687.jpg",
+      "address": {
+        "street": "347 Main St",
+        "city": "Louisville",
+        "state": "KE",
+        "zip": "85883",
+        "formatted": "347 Main St, Louisville, KE 85883"
+      },
+      "contact": {
+        "phone": "339-494-6726",
+        "email": "info@howardthomasauctionhouse.com",
+        "website": "https://www.howardthomasauctionhouse.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [
+          "ISA",
+          "ASA",
+          "IRS"
+        ],
+        "services": [
+          "In-person/remote valuations + photo-based assessments"
+        ]
+      },
+      "content": {
+        "about": "Howard & Thomas Auction House provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles, Estate Items. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Louisville area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Michael C.",
+          "rating": 4,
+          "date": "2025-03-11",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Emily A.",
+          "rating": 4,
+          "date": "2025-01-21",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Patricia B.",
+          "rating": 4,
+          "date": "2024-12-21",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Jennifer R.",
+          "rating": 4,
+          "date": "2024-10-23",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Robert B.",
+          "rating": 2,
+          "date": "2024-08-22",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "louisville-louisville-antique-appraisals",
+      "name": "Louisville Antique Appraisals",
+      "slug": "louisville-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_louisville-louisville-antique-appraisals_4673.jpg",
+      "address": {
+        "street": "801 Antique Rd",
+        "city": "Louisville",
+        "state": "KE",
+        "zip": "52407",
+        "formatted": "801 Antique Rd, Louisville, KE 52407"
+      },
+      "contact": {
+        "phone": "372-486-8685",
+        "email": "info@louisvilleantiqueappraisals.com",
+        "website": "https://www.louisvilleantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "28 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Louisville Antique Appraisals provides professional antique appraisal services in the Louisville area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Karen A.",
+          "rating": 4,
+          "date": "2025-03-09",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Jessica W.",
+          "rating": 4,
+          "date": "2025-02-22",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "David J.",
+          "rating": 4.5,
+          "date": "2024-10-19",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Nancy W.",
+          "rating": 4.5,
+          "date": "2024-06-28",
+          "content": "Very responsive and easy to work with. Louisville Antique Appraisals's expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Michael T.",
+          "rating": 4.5,
+          "date": "2024-04-23",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

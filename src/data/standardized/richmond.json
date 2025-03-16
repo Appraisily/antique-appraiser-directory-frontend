@@ -1,0 +1,156 @@
+{
+  "appraisers": [
+    {
+      "id": "richmond-richmond-antique-appraisals",
+      "name": "Richmond Antique Appraisals",
+      "slug": "richmond-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-richmond-antique-appraisals_2095.jpg",
+      "address": {
+        "street": "634 Antique Rd",
+        "city": "Richmond",
+        "state": "VI",
+        "zip": "51406",
+        "formatted": "634 Antique Rd, Richmond, VI 51406"
+      },
+      "contact": {
+        "phone": "111-311-3415",
+        "email": "info@richmondantiqueappraisals.com",
+        "website": "https://www.richmondantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "28 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Richmond Antique Appraisals provides professional antique appraisal services in the Richmond area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "John J.",
+          "rating": 4,
+          "date": "2024-11-02",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "John T.",
+          "rating": 4,
+          "date": "2024-10-22",
+          "content": "Richmond Antique Appraisals's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Emily W.",
+          "rating": 4.5,
+          "date": "2024-05-28",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Nancy J.",
+          "rating": 4.5,
+          "date": "2024-05-25",
+          "content": "Excellent service from start to finish. I highly recommend Richmond Antique Appraisals for any antique appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "richmond-heritage-valuations-richmond",
+      "name": "Heritage Valuations Richmond",
+      "slug": "heritage-valuations-richmond",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-heritage-valuations-richmond_3332.jpg",
+      "address": {
+        "street": "465 Main St",
+        "city": "Richmond",
+        "state": "VI",
+        "zip": "72775",
+        "formatted": "465 Main St, Richmond, VI 72775"
+      },
+      "contact": {
+        "phone": "635-407-3678",
+        "email": "info@heritagevaluationsrichmond.com",
+        "website": "https://www.heritagevaluationsrichmond.com"
+      },
+      "business": {
+        "yearsInBusiness": "17 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Richmond provides professional antique appraisal services in the Richmond area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Nancy A.",
+          "rating": 5,
+          "date": "2025-01-30",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Nancy D.",
+          "rating": 4.5,
+          "date": "2024-06-16",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Karen T.",
+          "rating": 5,
+          "date": "2024-03-17",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

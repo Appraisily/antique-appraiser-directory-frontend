@@ -1,46 +1,105 @@
 export function generateAppraiserSchema(appraiser: any) {
-  // Normalize business hours if available
-  const formattedHours = appraiser.businessHours?.map((hours: any) => ({
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": hours.day,
-    "opens": hours.hours.split(' - ')[0],
-    "closes": hours.hours.split(' - ')[1]
-  })) || [];
+  // Helper function to ensure we have a clean string
+  const cleanString = (str: any): string => {
+    if (!str) return '';
+    return typeof str === 'string' ? str : String(str);
+  };
 
-  // Generate price range indicator if exact prices aren't available
-  const priceRange = appraiser.priceRange || (
-    appraiser.services?.some((s: any) => 
-      (s.price && parseInt(s.price.replace(/[^0-9]/g, '')) > 500)
-    ) ? "$$$" : "$$"
-  );
+  // Handle standardized or legacy data format
+  const isStandardized = appraiser.expertise !== undefined;
+  
+  // Get proper address fields
+  const address = isStandardized 
+    ? appraiser.address 
+    : {
+        street: appraiser.address?.split(',')[0]?.trim() || "",
+        city: appraiser.city || appraiser.address?.split(',')[0]?.trim() || "",
+        state: appraiser.state || appraiser.address?.split(',')[1]?.trim() || "",
+        zip: appraiser.postalCode || "",
+        formatted: appraiser.address || ""
+      };
+  
+  // Get business hours
+  const businessHours = isStandardized 
+    ? appraiser.business?.hours 
+    : appraiser.businessHours;
+  
+  // Format hours if available
+  const formattedHours = businessHours?.map((hours: any) => {
+    // Handle different formats
+    let opens = '', closes = '';
+    if (typeof hours.hours === 'string' && hours.hours.includes(' - ')) {
+      [opens, closes] = hours.hours.split(' - ');
+    } else if (typeof hours.opens === 'string' && typeof hours.closes === 'string') {
+      opens = hours.opens;
+      closes = hours.closes;
+    }
+    
+    return {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": hours.day,
+      "opens": opens,
+      "closes": closes
+    };
+  }) || [];
+
+  // Generate price range indicator
+  const priceRange = isStandardized 
+    ? appraiser.business?.pricing || "$$$"
+    : (appraiser.pricing || appraiser.priceRange || "$$$");
+
+  // Get specialties
+  const specialties = isStandardized 
+    ? appraiser.expertise?.specialties || []
+    : appraiser.specialties || [];
+    
+  // Get services
+  const services = isStandardized 
+    ? appraiser.expertise?.services || []
+    : appraiser.services_offered || [];
+    
+  // Get certifications
+  const certifications = isStandardized 
+    ? appraiser.expertise?.certifications || []
+    : appraiser.certifications || [];
+  
+  // Get contact info
+  const contact = isStandardized 
+    ? appraiser.contact 
+    : {
+        phone: appraiser.phone || "",
+        email: appraiser.email || "",
+        website: appraiser.website || ""
+      };
 
   // Create safe schema with null checks for missing properties
   const schema: any = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": `https://art-appraiser.appraisily.com/appraiser/${appraiser.id}`,
+    "@id": `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.id}`,
     "name": appraiser.name,
-    "alternateName": appraiser.businessName || undefined,
+    "alternateName": appraiser.slug || undefined,
     "image": {
       "@type": "ImageObject",
-      "url": appraiser.image || appraiser.imageUrl || "",
+      "url": appraiser.imageUrl || appraiser.image || "https://ik.imagekit.io/appraisily/placeholder-image.jpg",
       "width": 800,
       "height": 600,
-      "caption": `${appraiser.name} - Art Appraiser`
+      "caption": `${appraiser.name} - Antique Appraiser`
     },
-    "description": appraiser.about || `${appraiser.name} provides professional art appraisal services.`,
-    "foundingDate": appraiser.yearEstablished,
+    "description": (isStandardized ? appraiser.content?.about : appraiser.about) || 
+      `${appraiser.name} provides professional antique appraisal services specializing in valuation, authentication, and identification of antiques and collectibles.`,
+    "foundingDate": isStandardized ? appraiser.business?.yearsInBusiness : appraiser.yearEstablished || appraiser.years_in_business,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": appraiser.address?.split(',')[0]?.trim() || "",
-      "addressLocality": appraiser.address?.split(',')[0]?.trim() || "",
-      "addressRegion": appraiser.address?.split(',')[1]?.trim() || appraiser.state || "",
-      "postalCode": appraiser.postalCode || "",
+      "streetAddress": address.street || "",
+      "addressLocality": address.city || "",
+      "addressRegion": address.state || "",
+      "postalCode": address.zip || "",
       "addressCountry": "US"
     },
-    "url": appraiser.website || "",
-    "telephone": appraiser.phone || "",
-    "email": appraiser.email || "",
+    "url": contact.website || "",
+    "telephone": contact.phone || "",
+    "email": contact.email || "",
     "sameAs": [
       appraiser.socialLinks?.facebook || "",
       appraiser.socialLinks?.instagram || "",
@@ -52,29 +111,25 @@ export function generateAppraiserSchema(appraiser: any) {
     "openingHoursSpecification": formattedHours
   };
 
-  // Only add geo if coordinates are available
-  if (appraiser.latitude && appraiser.longitude) {
-    schema.geo = {
-      "@type": "GeoCoordinates",
-      "latitude": appraiser.latitude,
-      "longitude": appraiser.longitude
-    };
-  }
-
-  // Only add rating information if rating and reviewCount exist
-  if (appraiser.rating !== undefined) {
+  // Add rating information
+  const rating = isStandardized ? appraiser.business?.rating : appraiser.rating;
+  const reviewCount = isStandardized ? appraiser.business?.reviewCount : appraiser.reviewCount;
+  
+  if (rating !== undefined) {
     schema.aggregateRating = {
       "@type": "AggregateRating",
-      "ratingValue": appraiser.rating.toString(),
-      "reviewCount": (appraiser.reviewCount || 0).toString(),
+      "ratingValue": rating.toString(),
+      "reviewCount": (reviewCount || 1).toString(),
       "bestRating": "5",
       "worstRating": "1"
     };
   }
 
-  // Only add reviews if they exist
-  if (Array.isArray(appraiser.reviews) && appraiser.reviews.length > 0) {
-    schema.review = appraiser.reviews.map((review: any) => ({
+  // Add reviews
+  const reviews = isStandardized ? appraiser.reviews : appraiser.reviews;
+  
+  if (Array.isArray(reviews) && reviews.length > 0) {
+    schema.review = reviews.map((review: any) => ({
       "@type": "Review",
       "reviewRating": {
         "@type": "Rating",
@@ -91,75 +146,110 @@ export function generateAppraiserSchema(appraiser: any) {
     }));
   }
 
-  // Only add services if they exist
-  if (Array.isArray(appraiser.services) && appraiser.services.length > 0) {
-    schema.makesOffer = appraiser.services.map((service: any) => ({
-      "@type": "Offer",
-      "name": service.name,
-      "description": service.description,
-      "price": service.price?.replace(/[^0-9]/g, '') || "",
-      "priceCurrency": "USD"
-    }));
+  // Add services
+  if (services.length > 0) {
+    if (Array.isArray(services) && typeof services[0] === 'object' && services[0].name) {
+      schema.makesOffer = services.map((service: any) => ({
+        "@type": "Offer",
+        "name": service.name,
+        "description": service.description,
+        "price": service.price?.replace(/[^0-9]/g, '') || "",
+        "priceCurrency": "USD"
+      }));
+    } else {
+      // Handle string array services
+      schema.makesOffer = services.map((service: string) => ({
+        "@type": "Offer",
+        "name": service,
+        "description": `Professional antique ${service} by ${appraiser.name}`,
+        "priceCurrency": "USD"
+      }));
+    }
   }
 
-  // Only add certifications if they exist
-  if (Array.isArray(appraiser.certifications) && appraiser.certifications.length > 0) {
-    schema.hasCredential = appraiser.certifications.map((certification: string) => ({
+  // Add certifications
+  if (certifications.length > 0) {
+    schema.hasCredential = certifications.map((certification: string) => ({
       "@type": "EducationalOccupationalCredential",
       "credentialCategory": "certification",
       "name": certification
     }));
   }
 
-  // Only add specialties if they exist
-  if (Array.isArray(appraiser.specialties) && appraiser.specialties.length > 0) {
-    schema.knowsAbout = appraiser.specialties.map((specialty: string) => specialty);
+  // Add specialties
+  if (specialties.length > 0) {
+    // Clean up specialties - sometimes they contain long descriptions
+    const cleanSpecialties = specialties.map((specialty: string) => {
+      // If specialty is too long, truncate it
+      if (specialty.length > 100) {
+        const firstSentence = specialty.split('.')[0];
+        return firstSentence.length < 100 ? firstSentence : specialty.substring(0, 100);
+      }
+      return specialty;
+    });
+    
+    schema.knowsAbout = cleanSpecialties;
   }
 
   // Add area served information
   schema.areaServed = {
     "@type": "City",
-    "name": appraiser.address?.split(',')[0]?.trim() || appraiser.city || "",
+    "name": address.city || "",
     "containedInPlace": {
       "@type": "State",
-      "name": appraiser.address?.split(',')[1]?.trim() || appraiser.state || ""
+      "name": address.state || ""
     }
   };
 
-  // Add services catalog if services exist
-  if (Array.isArray(appraiser.services) && appraiser.services.length > 0) {
-    schema.hasOfferCatalog = {
-      "@type": "OfferCatalog",
-      "name": "Art Appraisal Services",
-      "itemListElement": appraiser.services.map((service: any, index: number) => ({
+  // Add services catalog
+  schema.hasOfferCatalog = {
+    "@type": "OfferCatalog",
+    "name": "Antique Appraisal Services",
+    "itemListElement": [
+      {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": service.name,
-          "description": service.description
+          "name": "Antique Valuation",
+          "description": `Professional antique valuation services by ${appraiser.name}`
         },
-        "position": index + 1
-      }))
-    };
-  } else if (Array.isArray(appraiser.services_offered) && appraiser.services_offered.length > 0) {
-    // Fallback to services_offered if services array doesn't exist
-    schema.hasOfferCatalog = {
-      "@type": "OfferCatalog",
-      "name": "Art Appraisal Services",
-      "itemListElement": appraiser.services_offered.map((service: any, index: number) => ({
+        "position": 1
+      },
+      {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": service,
-          "description": `Professional ${service} by ${appraiser.name}`
+          "name": "Antique Authentication",
+          "description": `Expert antique authentication by ${appraiser.name}`
         },
-        "position": index + 1
-      }))
-    };
-  }
+        "position": 2
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Antique Identification",
+          "description": `Professional antique identification services by ${appraiser.name}`
+        },
+        "position": 3
+      }
+    ]
+  };
 
+  // Add more structured data for search engines
   schema.additionalType = "https://schema.org/ProfessionalService";
   schema.isAccessibleForFree = false;
+  schema.keywords = [
+    "antique appraiser", 
+    "antique valuation", 
+    "antique authentication", 
+    "antique identification",
+    `antique appraiser in ${address.city}`,
+    `antique appraiser near ${address.city}`,
+    "antique value determination",
+    "antique price guide",
+    "antique expert"
+  ].concat(specialties.slice(0, 5));
 
   return schema;
 }
@@ -171,18 +261,72 @@ export function generateLocationSchema(locationData: any) {
     return {};
   }
   
-  // Create a safe slug value
-  const safeCity = locationData.city || 'unknown-location';
-  const safeSlug = (locationData.slug || safeCity.toLowerCase().replace(/\s+/g, '-'));
-  const stateCode = locationData.state || 'USA';
+  // Determine if we're using standardized data format
+  const isStandardized = locationData.appraisers && 
+    locationData.appraisers[0] && 
+    locationData.appraisers[0].expertise !== undefined;
   
+  // Extract location information
+  let safeCity, safeSlug, stateCode;
+  
+  if (isStandardized) {
+    // Get city from the first appraiser's address
+    safeCity = locationData.appraisers[0]?.address?.city || 'unknown-location';
+    stateCode = locationData.appraisers[0]?.address?.state || 'USA';
+    safeSlug = safeCity.toLowerCase().replace(/\s+/g, '-');
+  } else {
+    safeCity = locationData.city || 'unknown-location';
+    safeSlug = (locationData.slug || safeCity.toLowerCase().replace(/\s+/g, '-'));
+    stateCode = locationData.state || 'USA';
+  }
+  
+  // Build provider data from appraisers
+  const providers = Array.isArray(locationData.appraisers) 
+    ? locationData.appraisers.map((appraiser: any) => {
+        if (isStandardized) {
+          return {
+            "@type": "LocalBusiness",
+            "name": appraiser?.name || 'Antique Appraiser',
+            "image": appraiser?.imageUrl || '',
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": appraiser?.address?.city || safeCity,
+              "addressRegion": appraiser?.address?.state || stateCode,
+              "addressCountry": "US"
+            },
+            "priceRange": appraiser?.business?.pricing || "$$-$$$",
+            "telephone": appraiser?.contact?.phone || "",
+            "url": `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser?.id || 'unknown'}`,
+            "sameAs": appraiser?.contact?.website || ""
+          };
+        } else {
+          return {
+            "@type": "LocalBusiness",
+            "name": appraiser?.name || 'Antique Appraiser',
+            "image": appraiser?.image || appraiser?.imageUrl || '',
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": safeCity,
+              "addressRegion": stateCode,
+              "addressCountry": "US"
+            },
+            "priceRange": appraiser?.pricing || "$$-$$$",
+            "telephone": appraiser?.phone || "",
+            "url": `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser?.id || 'unknown'}`,
+            "sameAs": appraiser?.website || ""
+          };
+        }
+      }) 
+    : [];
+  
+  // Create the schema object
   return {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": `https://art-appraiser.appraisily.com/location/${safeSlug}`,
-    "name": `Art Appraisal Services in ${safeCity}`,
-    "description": `Find top-rated art appraisers near you in ${safeCity}, ${stateCode}. Professional art valuation services for insurance, estate planning, donations, and more.`,
-    "serviceType": "Art Appraisal",
+    "@id": `https://antique-appraiser-directory.appraisily.com/location/${safeSlug}`,
+    "name": `Antique Appraisers in ${safeCity}`,
+    "description": `Find top-rated antique appraisers near you in ${safeCity}, ${stateCode}. Professional antique valuation services for insurance, estate planning, donations, and more.`,
+    "serviceType": "Antique Appraisal",
     "areaServed": {
       "@type": "City",
       "name": safeCity,
@@ -197,24 +341,10 @@ export function generateLocationSchema(locationData: any) {
         "name": stateCode
       }
     },
-    "provider": Array.isArray(locationData.appraisers) ? locationData.appraisers.map((appraiser: any) => ({
-      "@type": "LocalBusiness",
-      "name": appraiser?.name || 'Art Appraiser',
-      "image": appraiser?.image || '',
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": safeCity,
-        "addressRegion": stateCode,
-        "addressCountry": "US"
-      },
-      "priceRange": appraiser?.pricing || "$$-$$$",
-      "telephone": appraiser?.phone || "",
-      "url": `https://art-appraiser.appraisily.com/appraiser/${appraiser?.id || 'unknown'}`,
-      "sameAs": appraiser?.website || ""
-    })) : [],
+    "provider": providers,
     "offers": {
       "@type": "Offer",
-      "description": `Professional art appraisal services in ${safeCity}`,
+      "description": `Professional antique appraisal services in ${safeCity}`,
       "areaServed": {
         "@type": "City",
         "name": safeCity,
@@ -228,23 +358,65 @@ export function generateLocationSchema(locationData: any) {
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://art-appraiser.appraisily.com/location/${safeSlug}`
-    }
+      "@id": `https://antique-appraiser-directory.appraisily.com/location/${safeSlug}`
+    },
+    "keywords": [
+      `antique appraisers in ${safeCity}`,
+      `antique appraisers near ${safeCity}`,
+      `${safeCity} antique appraisers`,
+      `antique valuation ${safeCity}`,
+      `antique authentication ${safeCity}`,
+      `antique identification ${safeCity}`,
+      `find antique appraisers ${safeCity}`,
+      `antique evaluation ${safeCity}`,
+      `best antique appraisers ${safeCity}`
+    ]
   };
 }
 
 export function generateFAQSchema(appraiser: any) {
-  // Safely check if arrays exist and then join them or provide fallbacks
-  const services = Array.isArray(appraiser.services) 
-    ? appraiser.services.map((s: any) => s.name).join(', ') 
-    : (Array.isArray(appraiser.services_offered) ? appraiser.services_offered.join(', ') : '');
-    
-  const specialties = Array.isArray(appraiser.specialties) ? appraiser.specialties.join(', ') : '';
-  const certifications = Array.isArray(appraiser.certifications) ? appraiser.certifications.join(', ') : '';
+  // Determine if we're using standardized data format
+  const isStandardized = appraiser.expertise !== undefined;
   
-  // Safely extract city and state from address with fallbacks
-  const city = appraiser.address?.split(',')[0]?.trim() || appraiser.city || '';
-  const state = appraiser.address?.split(',')[1]?.trim() || appraiser.state || '';
+  // Extract services based on data format
+  let services = '';
+  if (isStandardized) {
+    services = Array.isArray(appraiser.expertise?.services) ? appraiser.expertise.services.join(', ') : '';
+  } else {
+    services = Array.isArray(appraiser.services) 
+      ? appraiser.services.map((s: any) => s.name).join(', ') 
+      : (Array.isArray(appraiser.services_offered) ? appraiser.services_offered.join(', ') : '');
+  }
+  
+  // Extract specialties
+  const specialties = isStandardized 
+    ? (Array.isArray(appraiser.expertise?.specialties) ? appraiser.expertise.specialties.join(', ') : '')
+    : (Array.isArray(appraiser.specialties) ? appraiser.specialties.join(', ') : '');
+    
+  // Extract certifications
+  const certifications = isStandardized
+    ? (Array.isArray(appraiser.expertise?.certifications) ? appraiser.expertise.certifications.join(', ') : '')
+    : (Array.isArray(appraiser.certifications) ? appraiser.certifications.join(', ') : '');
+  
+  // Extract contact information
+  const phone = isStandardized ? appraiser.contact?.phone : appraiser.phone;
+  const email = isStandardized ? appraiser.contact?.email : appraiser.email;
+  
+  // Extract location information
+  const city = isStandardized 
+    ? appraiser.address?.city
+    : (appraiser.address?.split(',')[0]?.trim() || appraiser.city || '');
+    
+  const state = isStandardized
+    ? appraiser.address?.state
+    : (appraiser.address?.split(',')[1]?.trim() || appraiser.state || '');
+  
+  // Extract rating information
+  const rating = isStandardized ? appraiser.business?.rating : appraiser.rating;
+  const reviewCount = isStandardized ? appraiser.business?.reviewCount : appraiser.reviewCount;
+  
+  // Extract pricing information
+  const pricing = isStandardized ? appraiser.business?.pricing : appraiser.pricing;
   
   return {
     "@context": "https://schema.org",
@@ -252,88 +424,102 @@ export function generateFAQSchema(appraiser: any) {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": `What services does ${appraiser.name} offer?`,
+        "name": `What antique appraisal services does ${appraiser.name} offer?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": services || `${appraiser.name} offers professional art appraisal services including valuations for insurance, estate planning, donations, and sales.`
+          "text": services || `${appraiser.name} offers professional antique appraisal services including valuations for insurance, estate planning, donations, and sales of antique items.`
         }
       },
       {
         "@type": "Question",
-        "name": `What are ${appraiser.name}'s specialties?`,
+        "name": `What types of antiques does ${appraiser.name} specialize in?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": specialties || `${appraiser.name} specializes in appraising various types of artwork and collectibles.`
+          "text": specialties || `${appraiser.name} specializes in appraising various types of antiques, vintage items, and collectibles.`
         }
       },
       {
         "@type": "Question",
-        "name": `What certifications does ${appraiser.name} have?`,
+        "name": `What credentials and certifications does ${appraiser.name} have for antique appraisal?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": certifications || `${appraiser.name} holds professional certifications in art appraisal.`
+          "text": certifications || `${appraiser.name} holds professional certifications and qualifications in antique appraisal.`
         }
       },
       {
         "@type": "Question",
-        "name": `How can I contact ${appraiser.name} for an art appraisal?`,
+        "name": `How can I contact ${appraiser.name} for an antique appraisal?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `You can contact ${appraiser.name} by phone at ${appraiser.phone || '[contact number on website]'} or by email at ${appraiser.email || '[email on website]'}.`
+          "text": `You can contact ${appraiser.name} by phone at ${phone || '[contact number on website]'} or by email at ${email || '[email on website]'} to schedule your antique appraisal.`
         }
       },
       {
         "@type": "Question",
-        "name": `Where is ${appraiser.name} located?`,
+        "name": `Where is ${appraiser.name} located for antique appraisals?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `${appraiser.name} is located in ${city || 'your area'} and provides art appraisal services to clients in the surrounding regions.`
+          "text": `${appraiser.name} is located in ${city || 'your area'} and provides antique appraisal services to clients in ${city} and surrounding regions.`
         }
       },
       {
         "@type": "Question",
-        "name": `How much does an art appraisal cost with ${appraiser.name}?`,
+        "name": `How much does an antique appraisal cost with ${appraiser.name}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": Array.isArray(appraiser.services) && appraiser.services.some((s: any) => s.price) 
-            ? `Art appraisal services with ${appraiser.name} start at ${appraiser.services.reduce((min: any, s: any) => 
-              (s.price && (!min || parseFloat(s.price.replace(/[^0-9.]/g, '')) < parseFloat(min.replace(/[^0-9.]/g, '')))) 
-                ? s.price : min, null) || 'competitive rates'}.` 
-            : (appraiser.pricing 
-              ? `${appraiser.name} offers art appraisal services with the following pricing: ${appraiser.pricing}.`
-              : `${appraiser.name} offers art appraisal services at competitive rates. Contact directly for a quote based on your specific needs.`)
+          "text": pricing 
+            ? `${appraiser.name} offers antique appraisal services with the following pricing: ${pricing}.`
+            : `${appraiser.name} offers antique appraisal services at competitive rates. Contact directly for a quote based on your specific needs and the items to be appraised.`
         }
       },
       {
         "@type": "Question",
-        "name": `How long does an art appraisal take with ${appraiser.name}?`,
+        "name": `How long does an antique appraisal take with ${appraiser.name}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `The time required for an art appraisal with ${appraiser.name} depends on the complexity and quantity of items being appraised. Please contact directly for an estimated timeline for your specific appraisal needs.`
+          "text": `The time required for an antique appraisal with ${appraiser.name} depends on the complexity, age, and quantity of items being appraised. Simple items may be appraised quickly, while rare or complex antiques may require more research. Please contact directly for an estimated timeline for your specific appraisal needs.`
         }
       },
       {
         "@type": "Question",
-        "name": `Is ${appraiser.name} the best art appraiser in ${city}?`,
+        "name": `Is ${appraiser.name} the best antique appraiser in ${city}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `${appraiser.name} is highly rated with ${appraiser.rating} stars and ${appraiser.reviewCount} reviews, making them one of the most respected art appraisers in ${city}${state ? ', ' + state : ''}. Their expertise in ${specialties || 'various art forms'} has earned them a strong reputation in the local community.`
+          "text": rating 
+            ? `${appraiser.name} is highly rated with ${rating} stars and ${reviewCount || 'numerous'} reviews, making them one of the most respected antique appraisers in ${city}${state ? ', ' + state : ''}. Their expertise in ${specialties || 'various antique categories'} has earned them a strong reputation in the local community.`
+            : `${appraiser.name} is a respected antique appraiser in ${city}${state ? ', ' + state : ''} with expertise in ${specialties || 'various antique categories'}, which has earned them a strong reputation in the local community.`
         }
       },
       {
         "@type": "Question",
-        "name": `Can I get an art appraisal near me in ${city}?`,
+        "name": `Can I find an antique appraiser near me in ${city}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `Yes, ${appraiser.name} provides art appraisal services to clients in ${city} and surrounding areas. They offer ${services || 'comprehensive appraisal services'} for residents looking for professional art valuation near them.`
+          "text": `Yes, ${appraiser.name} provides antique appraisal services to clients in ${city} and surrounding areas. They offer ${services || 'comprehensive antique appraisal services'} for residents looking for professional antique valuation near them.`
         }
       },
       {
         "@type": "Question",
-        "name": `What types of items can ${appraiser.name} appraise?`,
+        "name": `What types of antique items can ${appraiser.name} appraise?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `${appraiser.name} specializes in appraising ${specialties || 'a wide range of art and collectibles'}. Their expertise allows them to provide accurate valuations for various types of artwork and collectible items.`
+          "text": `${appraiser.name} specializes in appraising ${specialties || 'a wide range of antiques and collectibles including furniture, jewelry, artwork, porcelain, silver, clocks, rugs, and decorative arts'}. Their expertise allows them to provide accurate valuations for various types of antique and vintage items.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `Do I need an appointment for an antique appraisal with ${appraiser.name}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Yes, it's recommended to schedule an appointment with ${appraiser.name} for antique appraisals to ensure they can devote appropriate time to examining and researching your items. You can contact them at ${phone || 'the number listed on their website'} to schedule a consultation.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `What information should I prepare before an antique appraisal with ${appraiser.name}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Before your antique appraisal with ${appraiser.name}, it's helpful to gather any documentation about your items, such as receipts, certificates of authenticity, provenance information, family history, or previous appraisals. Clear photographs of markings, signatures, or damage can also be useful for the appraisal process.`
         }
       }
     ]

@@ -65,7 +65,7 @@ export function AppraiserPage() {
           "@type": "ListItem",
           "position": 3,
           "name": appraiser.name,
-          "item": `https://appraisily.com/appraiser/${appraiserId}`
+          "item": `https://art-appraiser-directory.appraisily.com/appraiser/${appraiserId}`
         }
       ]
     };
@@ -179,7 +179,7 @@ export function AppraiserPage() {
           generateBreadcrumbSchema(safeAppraiser),
           generateFAQSchema(safeAppraiser)
         ]}
-        canonicalUrl={`https://appraisily.com/appraiser/${appraiserId}`}
+        canonicalUrl={`https://art-appraiser-directory.appraisily.com/appraiser/${appraiserId}`}
       />
 
       <div className="flex-1">

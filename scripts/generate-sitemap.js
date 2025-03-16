@@ -4,10 +4,10 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = path.join(__dirname, '../dist');
-const LOCATIONS_DIR = path.join(__dirname, '../src/data/locations');
+const LOCATIONS_DIR = path.join(__dirname, '../src/data/standardized');
 
 // Configuration 
-const BASE_URL = process.env.SITE_URL || 'https://art-appraiser-directory.appraisily.com';
+const BASE_URL = process.env.SITE_URL || 'https://antique-appraiser-directory.appraisily.com';
 const SITEMAP_PATH = path.join(DIST_DIR, 'sitemap.xml');
 
 // Recursive function to find all HTML files
@@ -41,11 +41,12 @@ async function generateSitemap() {
     // 1. Add main routes with high priority
     const mainRoutes = [
       { url: '/', priority: '1.0', changefreq: 'daily' },
-      { url: '/start', priority: '0.9', changefreq: 'weekly' },
+      { url: '/find-antique-appraiser', priority: '0.9', changefreq: 'weekly' },
       { url: '/about', priority: '0.8', changefreq: 'weekly' },
-      { url: '/services', priority: '0.8', changefreq: 'weekly' },
-      { url: '/expertise', priority: '0.8', changefreq: 'weekly' },
-      { url: '/team', priority: '0.7', changefreq: 'monthly' }
+      { url: '/antique-appraisal-services', priority: '0.8', changefreq: 'weekly' },
+      { url: '/antique-appraiser-expertise', priority: '0.8', changefreq: 'weekly' },
+      { url: '/antique-appraisal-pricing', priority: '0.8', changefreq: 'weekly' },
+      { url: '/faq', priority: '0.8', changefreq: 'weekly' }
     ];
     
     mainRoutes.forEach(route => {

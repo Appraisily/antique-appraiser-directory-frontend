@@ -51,7 +51,7 @@ export function generateWebsiteSchema(options = {}) {
 export function generateBreadcrumbSchema(options = {}) {
   const {
     items = [],
-    baseUrl = 'https://art-appraiser.appraisily.com'
+    baseUrl = 'https://appraisily.com'
   } = options;
   
   if (!items || items.length === 0) return null;

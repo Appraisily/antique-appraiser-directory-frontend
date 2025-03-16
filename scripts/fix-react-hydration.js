@@ -286,11 +286,20 @@ async function main() {
     }
     
     log(`Completed! Fixed hydration issues in ${fixedCount} files.`, 'success');
+    return fixedCount;
   } catch (error) {
     log(`Error fixing hydration issues: ${error.message}`, 'error');
-    process.exit(1);
+    throw error;
   }
 }
 
-// Run the main function
-main();
+// Run the main function if this script is executed directly
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((error) => {
+    console.error(`Error in main function: ${error}`);
+    process.exit(1);
+  });
+}
+
+// Export for module usage
+export default main;

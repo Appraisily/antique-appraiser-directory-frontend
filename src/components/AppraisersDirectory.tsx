@@ -2,119 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { MapPin, Star, Clock, Award, Badge } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-// Import all location data
-import aspenData from '../data/locations/aspen.json';
-import atlantaData from '../data/locations/atlanta.json';
-import austinData from '../data/locations/austin.json';
-import bostonData from '../data/locations/boston.json';
-import buffaloData from '../data/locations/buffalo.json';
-import charlestonData from '../data/locations/charleston.json';
-import charlotteData from '../data/locations/charlotte.json';
-import chicagoData from '../data/locations/chicago.json';
-import cincinnatiData from '../data/locations/cincinnati.json';
-import clevelandData from '../data/locations/cleveland.json';
-import columbusData from '../data/locations/columbus.json';
-import dallasData from '../data/locations/dallas.json';
-import denverData from '../data/locations/denver.json';
-import fortWorthData from '../data/locations/fort-worth.json';
-import hartfordData from '../data/locations/hartford.json';
-import houstonData from '../data/locations/houston.json';
-import indianapolisData from '../data/locations/indianapolis.json';
-import jacksonvilleData from '../data/locations/jacksonville.json';
-import kansasCityData from '../data/locations/kansas-city.json';
-import lasVegasData from '../data/locations/las-vegas.json';
-import miamiData from '../data/locations/miami.json';
-import minneapolisData from '../data/locations/minneapolis.json';
-import nashvilleData from '../data/locations/nashville.json';
-import newOrleansData from '../data/locations/new-orleans.json';
-import newYorkData from '../data/locations/new-york.json';
-import palmBeachData from '../data/locations/palm-beach.json';
-import philadelphiaData from '../data/locations/philadelphia.json';
-import phoenixData from '../data/locations/phoenix.json';
-import pittsburghData from '../data/locations/pittsburgh.json';
-import portlandData from '../data/locations/portland.json';
-import providenceData from '../data/locations/providence.json';
-import raleighData from '../data/locations/raleigh.json';
-import richmondData from '../data/locations/richmond.json';
-import sacramentoData from '../data/locations/sacramento.json';
-import saltLakeCityData from '../data/locations/salt-lake-city.json';
-import sanAntonioData from '../data/locations/san-antonio.json';
-import sanDiegoData from '../data/locations/san-diego.json';
-import sanFranciscoData from '../data/locations/san-francisco.json';
-import sanJoseData from '../data/locations/san-jose.json';
-import santaFeData from '../data/locations/santa-fe.json';
-import savannahData from '../data/locations/savannah.json';
-import seattleData from '../data/locations/seattle.json';
-import stLouisData from '../data/locations/st-louis.json';
-import washingtonData from '../data/locations/washington.json';
-
-// Combine all appraiser data
-const allLocations = {
-  aspen: aspenData,
-  atlanta: atlantaData,
-  austin: austinData,
-  boston: bostonData,
-  buffalo: buffaloData,
-  charleston: charlestonData,
-  charlotte: charlotteData,
-  chicago: chicagoData,
-  cincinnati: cincinnatiData,
-  cleveland: clevelandData,
-  columbus: columbusData,
-  dallas: dallasData,
-  denver: denverData,
-  'fort-worth': fortWorthData,
-  hartford: hartfordData,
-  houston: houstonData,
-  indianapolis: indianapolisData,
-  jacksonville: jacksonvilleData,
-  'kansas-city': kansasCityData,
-  'las-vegas': lasVegasData,
-  miami: miamiData,
-  minneapolis: minneapolisData,
-  nashville: nashvilleData,
-  'new-orleans': newOrleansData,
-  'new-york': newYorkData,
-  'palm-beach': palmBeachData,
-  philadelphia: philadelphiaData,
-  phoenix: phoenixData,
-  pittsburgh: pittsburghData,
-  portland: portlandData,
-  providence: providenceData,
-  raleigh: raleighData,
-  richmond: richmondData,
-  sacramento: sacramentoData,
-  'salt-lake-city': saltLakeCityData,
-  'san-antonio': sanAntonioData,
-  'san-diego': sanDiegoData,
-  'san-francisco': sanFranciscoData,
-  'san-jose': sanJoseData,
-  'santa-fe': santaFeData,
-  savannah: savannahData,
-  seattle: seattleData,
-  'st-louis': stLouisData,
-  washington: washingtonData,
-};
+// Import standardized data utilities
+import { getAllStandardizedAppraisers, StandardizedAppraiser } from '../utils/standardizedData';
 
 // Type definitions
-interface Appraiser {
-  id?: string;
-  name: string;
-  specialties: string[];
-  pricing: string;
-  services_offered: string[];
-  certifications: string[];
-  years_in_business: string;
-  city: string;
-  state: string;
-  phone: string;
-  website: string;
-  notes: string;
-}
-
-interface LocationData {
-  appraisers: Appraiser[];
-}
+interface Appraiser extends StandardizedAppraiser {}
 
 export function AppraisersDirectory() {
   const [allAppraisers, setAllAppraisers] = useState<Appraiser[]>([]);
@@ -122,27 +14,24 @@ export function AppraisersDirectory() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedState, setSelectedState] = useState('');
   const [selectedSpecialty, setSelectedSpecialty] = useState('');
+  const [loading, setLoading] = useState(true);
 
-  // Extract all appraisers from all locations
+  // Load all appraisers from standardized data
   useEffect(() => {
-    const appraisers: Appraiser[] = [];
+    const loadAppraisers = async () => {
+      try {
+        setLoading(true);
+        const appraisers = await getAllStandardizedAppraisers();
+        setAllAppraisers(appraisers);
+        setFilteredAppraisers(appraisers);
+      } catch (error) {
+        console.error('Error loading appraisers:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
     
-    Object.entries(allLocations).forEach(([locationKey, locationData]) => {
-      const typedLocationData = locationData as unknown as LocationData;
-      
-      // Process each appraiser and add the locationKey for reference
-      typedLocationData.appraisers.forEach(appraiser => {
-        // Generate an ID if one doesn't exist
-        if (!appraiser.id) {
-          appraiser.id = appraiser.name.toLowerCase().replace(/\s+/g, '-');
-        }
-        
-        appraisers.push(appraiser);
-      });
-    });
-    
-    setAllAppraisers(appraisers);
-    setFilteredAppraisers(appraisers);
+    loadAppraisers();
   }, []);
 
   // Filter appraisers based on search and filters
@@ -154,18 +43,20 @@ export function AppraisersDirectory() {
       results = results.filter(
         appraiser => 
           appraiser.name.toLowerCase().includes(term) || 
-          appraiser.city.toLowerCase().includes(term) ||
-          appraiser.specialties.some(specialty => specialty.toLowerCase().includes(term))
+          appraiser.address.city.toLowerCase().includes(term) ||
+          (appraiser.expertise.specialties && appraiser.expertise.specialties.some(specialty => 
+            specialty.toLowerCase().includes(term)
+          ))
       );
     }
     
     if (selectedState) {
-      results = results.filter(appraiser => appraiser.state === selectedState);
+      results = results.filter(appraiser => appraiser.address.state === selectedState);
     }
     
     if (selectedSpecialty) {
       results = results.filter(
-        appraiser => appraiser.specialties.some(
+        appraiser => appraiser.expertise.specialties && appraiser.expertise.specialties.some(
           specialty => specialty.toLowerCase().includes(selectedSpecialty.toLowerCase())
         )
       );
@@ -175,11 +66,11 @@ export function AppraisersDirectory() {
   }, [searchTerm, selectedState, selectedSpecialty, allAppraisers]);
 
   // Get unique states for filter dropdown
-  const states = [...new Set(allAppraisers.map(appraiser => appraiser.state))].filter(Boolean).sort();
+  const states = [...new Set(allAppraisers.map(appraiser => appraiser.address.state))].filter(Boolean).sort();
   
   // Get unique specialties for filter dropdown
   const specialties = [...new Set(
-    allAppraisers.flatMap(appraiser => appraiser.specialties)
+    allAppraisers.flatMap(appraiser => appraiser.expertise.specialties || [])
   )].filter(Boolean).sort();
 
   return (
@@ -194,11 +85,11 @@ export function AppraisersDirectory() {
           </div>
           
           <h1 className="text-4xl font-bold text-foreground mb-6 text-center">
-            Art Appraiser Directory
+            Antique Appraiser Directory
           </h1>
           <p className="text-lg text-muted-foreground mb-8 text-center max-w-2xl mx-auto">
-            Browse our comprehensive list of art appraisers from across the country. 
-            Find experts specializing in various art forms to help with your appraisal needs.
+            Browse our comprehensive list of antique appraisers from across the country. 
+            Find experts specializing in various antique categories to help with your appraisal needs.
           </p>
           
           {/* Search and Filters */}
@@ -264,92 +155,124 @@ export function AppraisersDirectory() {
           </h2>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredAppraisers.map(appraiser => (
-            <div 
-              key={appraiser.id} 
-              className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden hover:shadow-xl transition-all duration-300"
-            >
-              <div className="p-5">
-                <h3 className="text-xl font-semibold mb-2 hover:text-primary transition-colors">
-                  {appraiser.name}
-                </h3>
-                <div className="flex items-center text-muted-foreground mb-3">
-                  <MapPin className="w-4 h-4 mr-1" /> 
-                  {appraiser.city}, {appraiser.state}
+        {loading ? (
+          <div className="text-center py-12">
+            <h3 className="text-xl font-medium text-gray-600 mb-2">Loading antique appraisers...</h3>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {filteredAppraisers.map(appraiser => (
+              <div 
+                key={appraiser.id} 
+                className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden hover:shadow-xl transition-all duration-300"
+              >
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src={appraiser.imageUrl || "https://ik.imagekit.io/appraisily/placeholder-image.jpg"} 
+                    alt={`${appraiser.name} - Antique Appraiser`}
+                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    loading="lazy"
+                  />
                 </div>
-                
-                {appraiser.years_in_business && (
-                  <div className="flex items-center text-sm text-muted-foreground mb-3">
-                    <Clock className="w-4 h-4 mr-1" /> 
-                    {appraiser.years_in_business} experience
+                <div className="p-5">
+                  <h3 className="text-xl font-semibold mb-2 hover:text-primary transition-colors">
+                    {appraiser.name}
+                  </h3>
+                  <div className="flex items-center text-muted-foreground mb-3">
+                    <MapPin className="w-4 h-4 mr-1" /> 
+                    {appraiser.address.city}, {appraiser.address.state}
                   </div>
-                )}
-                
-                {appraiser.notes && (
-                  <p className="text-muted-foreground text-sm mb-4">{appraiser.notes}</p>
-                )}
-                
-                {/* Specialties */}
-                {appraiser.specialties && appraiser.specialties.length > 0 && (
-                  <div className="mb-3">
-                    <h4 className="text-sm font-medium mb-2">Specialties:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {appraiser.specialties.slice(0, 5).map((specialty, index) => (
-                        <span key={index} className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">
-                          {specialty}
-                        </span>
-                      ))}
-                      {appraiser.specialties.length > 5 && (
-                        <span className="px-2 py-1 text-xs bg-gray-100 text-gray-600 rounded-full">
-                          +{appraiser.specialties.length - 5} more
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                )}
-                
-                {/* Certifications */}
-                {appraiser.certifications && appraiser.certifications.length > 0 && (
-                  <div className="mb-3">
-                    <h4 className="text-sm font-medium mb-2">Certifications:</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {appraiser.certifications.map((cert, index) => (
-                        <span key={index} className="px-2 py-1 text-xs bg-green-100 text-green-700 rounded-full flex items-center">
-                          <Badge className="w-3 h-3 mr-1" /> {cert}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                )}
-                
-                {/* Contact Info */}
-                <div className="mt-4 pt-4 border-t border-gray-100">
-                  {appraiser.phone && (
-                    <div className="text-sm mb-1">
-                      <strong className="text-gray-700">Phone:</strong> {appraiser.phone}
+                  
+                  {appraiser.business?.yearsInBusiness && (
+                    <div className="flex items-center text-sm text-muted-foreground mb-3">
+                      <Clock className="w-4 h-4 mr-1" /> 
+                      {appraiser.business.yearsInBusiness} experience
                     </div>
                   )}
-                  {appraiser.website && (
-                    <div className="text-sm mb-1">
-                      <strong className="text-gray-700">Website:</strong>{' '}
-                      <a 
-                        href={appraiser.website.startsWith('http') ? appraiser.website : `https://${appraiser.website}`} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-primary hover:underline"
+                  
+                  {appraiser.business?.rating && (
+                    <div className="flex items-center text-sm text-muted-foreground mb-3">
+                      <Star className="w-4 h-4 mr-1 text-yellow-500" /> 
+                      {appraiser.business.rating} ({appraiser.business.reviewCount} reviews)
+                    </div>
+                  )}
+                  
+                  {appraiser.content?.notes && (
+                    <p className="text-muted-foreground text-sm mb-4">{appraiser.content.notes}</p>
+                  )}
+                  
+                  {/* Specialties */}
+                  {appraiser.expertise?.specialties && appraiser.expertise.specialties.length > 0 && (
+                    <div className="mb-3">
+                      <h4 className="text-sm font-medium mb-2">Specialties:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {appraiser.expertise.specialties.slice(0, 3).map((specialty, index) => (
+                          <span key={index} className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">
+                            {specialty.length > 30 ? specialty.substring(0, 30) + '...' : specialty}
+                          </span>
+                        ))}
+                        {appraiser.expertise.specialties.length > 3 && (
+                          <span className="px-2 py-1 text-xs bg-gray-100 text-gray-600 rounded-full">
+                            +{appraiser.expertise.specialties.length - 3} more
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  )}
+                  
+                  {/* Certifications */}
+                  {appraiser.expertise?.certifications && appraiser.expertise.certifications.length > 0 && (
+                    <div className="mb-3">
+                      <h4 className="text-sm font-medium mb-2">Certifications:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {appraiser.expertise.certifications.map((cert, index) => (
+                          <span key={index} className="px-2 py-1 text-xs bg-green-100 text-green-700 rounded-full flex items-center">
+                            <Badge className="w-3 h-3 mr-1" /> {cert}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                  
+                  {/* Contact Info */}
+                  <div className="mt-4 pt-4 border-t border-gray-100">
+                    {appraiser.contact?.phone && (
+                      <div className="text-sm mb-1">
+                        <strong className="text-gray-700">Phone:</strong> {appraiser.contact.phone}
+                      </div>
+                    )}
+                    {appraiser.contact?.website && (
+                      <div className="text-sm mb-1">
+                        <strong className="text-gray-700">Website:</strong>{' '}
+                        <a 
+                          href={appraiser.contact.website.startsWith('http') ? appraiser.contact.website : `https://${appraiser.contact.website}`} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-primary hover:underline"
+                        >
+                          Visit Website
+                        </a>
+                      </div>
+                    )}
+                    <div className="mt-3">
+                      <Link 
+                        to={`/appraiser/${appraiser.id}`}
+                        className="inline-flex items-center text-sm font-medium text-primary hover:underline"
                       >
-                        Visit Website
-                      </a>
+                        View Details
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </Link>
                     </div>
-                  )}
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
         
-        {filteredAppraisers.length === 0 && (
+        {!loading && filteredAppraisers.length === 0 && (
           <div className="text-center py-12">
             <h3 className="text-xl font-medium text-gray-600 mb-2">No appraisers found</h3>
             <p className="text-gray-500">Try adjusting your search criteria or filters</p>

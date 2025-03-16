@@ -1,0 +1,258 @@
+{
+  "appraisers": [
+    {
+      "id": "saskatoon-transitions-estate-services-inc",
+      "name": "Transitions Estate Services Inc.",
+      "slug": "transitions-estate-services-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saskatoon-1372.jpg",
+      "address": {
+        "street": "952 Antique Rd",
+        "city": "Saskatoon",
+        "state": "SA",
+        "zip": "85468",
+        "formatted": "952 Antique Rd, Saskatoon, SA 85468"
+      },
+      "contact": {
+        "phone": "956-292-4794",
+        "email": "info@transitionsestateservicesinc.com",
+        "website": "https://www.transitionsestateservicesinc.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Estate inventories & valuations (antiques, art, jewelry), Form 16-14 compliance[1].  \n- Certifications: Member – Canadian Personal Property Appraisers Group[1].  \n- Pricing: $75/hour (~10–16 hours per inventory)[1].  \n- Service Area: Province-wide coverage within Saskatchewan[1].  \n- Contact: transitionsestateservices.com"
+        ],
+        "certifications": [
+          "Member – Canadian Personal Property Appraisers Group[1]."
+        ],
+        "services": [
+          "Province-wide coverage within Saskatchewan[1]."
+        ]
+      },
+      "content": {
+        "about": "Transitions Estate Services Inc. provides professional antique appraisal services specializing in Estate inventories & valuations (antiques, art, jewelry), Form 16-14 compliance[1].  \n- Certifications: Member – Canadian Personal Property Appraisers Group[1].  \n- Pricing: $75/hour (~10–16 hours per inventory)[1].  \n- Service Area: Province-wide coverage within Saskatchewan[1].  \n- Contact: transitionsestateservices.com. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Saskatoon area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Linda B.",
+          "rating": 4,
+          "date": "2025-01-16",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Nancy B.",
+          "rating": 4.5,
+          "date": "2024-10-30",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Susan W.",
+          "rating": 4,
+          "date": "2024-10-24",
+          "content": "Transitions Estate Services Inc.'s knowledge of antique furniture values was exceptional. The documentation Transitions Estate Services Inc. provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Michael M.",
+          "rating": 5,
+          "date": "2024-07-21",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "saskatoon-tm-appraisals-and-auctions",
+      "name": "TM Appraisals and Auctions",
+      "slug": "tm-appraisals-and-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saskatoon-287.jpg",
+      "address": {
+        "street": "1098 Antique Rd",
+        "city": "Saskatoon",
+        "state": "SA",
+        "zip": "94932",
+        "formatted": "1098 Antique Rd, Saskatoon, SA 94932"
+      },
+      "contact": {
+        "phone": "278-136-4170",
+        "email": "info@tmappraisalsandauctions.com",
+        "website": "https://www.tmappraisalsandauctions.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.1,
+        "reviewCount": 21
+      },
+      "expertise": {
+        "specialties": [
+          "Estate inventories & valuations (antiques, art, jewelry), Form 16-14 compliance[1].  \n- Certifications: Member – Canadian Personal Property Appraisers Group[1].  \n- Pricing: $75/hour (~10–16 hours per inventory)[1].  \n- Service Area: Province-wide coverage within Saskatchewan[1].  \n- Contact: transitionsestateservices.com"
+        ],
+        "certifications": [
+          "Member – Canadian Personal Property Appraisers Group[1]."
+        ],
+        "services": [
+          "Province-wide coverage within Saskatchewan[1]."
+        ]
+      },
+      "content": {
+        "about": "TM Appraisals and Auctions provides professional antique appraisal services specializing in Estate inventories & valuations (antiques, art, jewelry), Form 16-14 compliance[1].  \n- Certifications: Member – Canadian Personal Property Appraisers Group[1].  \n- Pricing: $75/hour (~10–16 hours per inventory)[1].  \n- Service Area: Province-wide coverage within Saskatchewan[1].  \n- Contact: transitionsestateservices.com. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Saskatoon area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer W.",
+          "rating": 4,
+          "date": "2025-02-25",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Michael J.",
+          "rating": 3.5,
+          "date": "2025-02-10",
+          "content": "Knowledgeable about antiques, though communication could have been better during the process."
+        },
+        {
+          "author": "Linda W.",
+          "rating": 4,
+          "date": "2024-08-07",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Nancy T.",
+          "rating": 4,
+          "date": "2024-04-15",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "saskatoon-saskatoon-antique-appraisals",
+      "name": "Saskatoon Antique Appraisals",
+      "slug": "saskatoon-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saskatoon-saskatoon-antique-appraisals_2364.jpg",
+      "address": {
+        "street": "386 Oak Ave",
+        "city": "Saskatoon",
+        "state": "SA",
+        "zip": "41644",
+        "formatted": "386 Oak Ave, Saskatoon, SA 41644"
+      },
+      "contact": {
+        "phone": "962-294-7389",
+        "email": "info@saskatoonantiqueappraisals.com",
+        "website": "https://www.saskatoonantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "31 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Saskatoon Antique Appraisals provides professional antique appraisal services in the Saskatoon area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "David S.",
+          "rating": 4,
+          "date": "2024-11-19",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and Saskatoon Antique Appraisals delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Patricia B.",
+          "rating": 4,
+          "date": "2024-10-22",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "James W.",
+          "rating": 4,
+          "date": "2024-09-29",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Patricia C.",
+          "rating": 4,
+          "date": "2024-07-23",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Sarah W.",
+          "rating": 4,
+          "date": "2024-06-17",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

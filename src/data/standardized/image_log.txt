@@ -1,0 +1,530 @@
+andres@DESKTOP-SB73SA6:/mnt/c/Users/Andres/Documents/Github/antique-appraiser-directory-frontend$ npm run generate:all-appraiser-images
+[2025-03-15T23:06:03.876Z] Starting image generation for all appraisers with batch size 10...eact-typescript-starter@0.0.0 generate:all-appraiser-images
+[2025-03-15T23:06:03.883Z] Found 102 city files to process.
+[2025-03-15T23:06:03.885Z] Processing 3 appraisers in albuquerque...
+[2025-03-15T23:06:03.888Z] Processing 3 appraisers in anchorage...
+[2025-03-15T23:06:03.890Z] Processing 3 appraisers in arlington...
+[2025-03-15T23:06:03.893Z] Processing 3 appraisers in aspen...
+[2025-03-15T23:06:03.895Z] Processing 2 appraisers in atlanta...
+[2025-03-15T23:06:03.898Z] Processing 2 appraisers in austin...
+[2025-03-15T23:06:03.900Z] Processing 3 appraisers in baltimore...
+[2025-03-15T23:06:03.903Z] Processing 3 appraisers in baton-rouge...
+[2025-03-15T23:06:03.905Z] Processing 2 appraisers in birmingham...
+[2025-03-15T23:06:03.908Z] Processing 2 appraisers in boise...
+[2025-03-15T23:06:03.910Z] Processing 3 appraisers in boston...
+[2025-03-15T23:06:03.912Z] Processing 3 appraisers in buffalo...
+[2025-03-15T23:06:03.915Z] Processing 3 appraisers in calgary...
+[2025-03-15T23:06:03.917Z] Processing 3 appraisers in charleston...
+[2025-03-15T23:06:03.920Z] Processing 3 appraisers in charlotte...
+[2025-03-15T23:06:03.923Z] Processing 3 appraisers in charlottetown...
+[2025-03-15T23:06:03.925Z] Processing 3 appraisers in chicago...
+[2025-03-15T23:06:03.927Z] Processing 3 appraisers in cincinnati...
+[2025-03-15T23:06:03.930Z] Processing 3 appraisers in cleveland...
+[2025-03-15T23:06:03.932Z] Processing 2 appraisers in colorado-springs...
+[2025-03-15T23:06:03.934Z] Processing 3 appraisers in columbus...
+[2025-03-15T23:06:03.937Z] Processing 3 appraisers in dallas...
+[2025-03-15T23:06:03.940Z] Processing 3 appraisers in denver...
+[2025-03-15T23:06:03.942Z] Processing 2 appraisers in des-moines...
+[2025-03-15T23:06:03.944Z] Processing 3 appraisers in detroit...
+[2025-03-15T23:06:03.946Z] Processing 3 appraisers in edmonton...
+[2025-03-15T23:06:03.949Z] Processing 2 appraisers in el-paso...
+[2025-03-15T23:06:03.952Z] Processing 3 appraisers in fort-lauderdale...
+[2025-03-15T23:06:03.954Z] Processing 3 appraisers in fort-worth...
+[2025-03-15T23:06:03.956Z] Processing 4 appraisers in fredericton...
+[2025-03-15T23:06:03.959Z] Processing 2 appraisers in fresno...
+[2025-03-15T23:06:03.961Z] Processing 4 appraisers in halifax...
+[2025-03-15T23:06:03.963Z] Processing 3 appraisers in hamilton...
+[2025-03-15T23:06:03.966Z] Processing 3 appraisers in hartford...
+[2025-03-15T23:06:03.968Z] Processing 3 appraisers in honolulu...
+[2025-03-15T23:06:03.970Z] Processing 3 appraisers in houston...
+[2025-03-15T23:06:03.973Z] Processing 3 appraisers in indianapolis...
+[2025-03-15T23:06:03.975Z] Processing 3 appraisers in jacksonville...
+[2025-03-15T23:06:03.977Z] Processing 2 appraisers in kansas-city...
+[2025-03-15T23:06:03.980Z] Processing 3 appraisers in kelowna...
+[2025-03-15T23:06:03.982Z] Processing 4 appraisers in kingston...
+[2025-03-15T23:06:03.985Z] Processing 2 appraisers in kitchener...
+[2025-03-15T23:06:03.987Z] Processing 5 appraisers in las-vegas...
+[2025-03-15T23:06:03.989Z] Processing 3 appraisers in lexington...
+[2025-03-15T23:06:03.992Z] Processing 2 appraisers in little-rock...
+[2025-03-15T23:06:03.994Z] Processing 2 appraisers in london...
+[2025-03-15T23:06:03.996Z] Processing 3 appraisers in long-beach...
+[2025-03-15T23:06:03.999Z] Processing 2 appraisers in los-angeles...
+[2025-03-15T23:06:04.002Z] Processing 3 appraisers in louisville...
+[2025-03-15T23:06:04.004Z] Processing 2 appraisers in memphis...
+[2025-03-15T23:06:04.007Z] Processing 2 appraisers in miami...
+[2025-03-15T23:06:04.009Z] Processing 3 appraisers in milwaukee...
+[2025-03-15T23:06:04.012Z] Processing 2 appraisers in minneapolis...
+[2025-03-15T23:06:04.014Z] Processing 2 appraisers in moncton...
+[2025-03-15T23:06:04.016Z] Processing 2 appraisers in montreal...
+[2025-03-15T23:06:04.019Z] Processing 2 appraisers in nashville...
+[2025-03-15T23:06:04.021Z] Processing 3 appraisers in new-orleans...
+[2025-03-15T23:06:04.024Z] Processing 3 appraisers in new-york...
+[2025-03-15T23:06:04.026Z] Processing 3 appraisers in norfolk...
+[2025-03-15T23:06:04.028Z] Processing 3 appraisers in oakland...
+[2025-03-15T23:06:04.031Z] Processing 3 appraisers in oklahoma-city...
+[2025-03-15T23:06:04.033Z] Processing 3 appraisers in omaha...
+[2025-03-15T23:06:04.035Z] Processing 2 appraisers in orlando...
+[2025-03-15T23:06:04.038Z] Processing 3 appraisers in ottawa...
+[2025-03-15T23:06:04.040Z] Processing 3 appraisers in palm-beach...
+[2025-03-15T23:06:04.043Z] Processing 3 appraisers in philadelphia...
+[2025-03-15T23:06:04.045Z] Processing 3 appraisers in phoenix...
+[2025-03-15T23:06:04.047Z] Processing 3 appraisers in pittsburgh...
+[2025-03-15T23:06:04.050Z] Processing 2 appraisers in portland...
+[2025-03-15T23:06:04.052Z] Processing 2 appraisers in providence...
+[2025-03-15T23:06:04.055Z] Processing 3 appraisers in quebec-city...
+[2025-03-15T23:06:04.057Z] Processing 3 appraisers in raleigh...
+[2025-03-15T23:06:04.060Z] Processing 3 appraisers in regina...
+[2025-03-15T23:06:04.062Z] Processing 2 appraisers in richmond...
+[2025-03-15T23:06:04.064Z] Processing 2 appraisers in rochester...
+[2025-03-15T23:06:04.067Z] Processing 2 appraisers in sacramento...
+[2025-03-15T23:06:04.069Z] Processing 2 appraisers in salt-lake-city...
+[2025-03-15T23:06:04.072Z] Processing 4 appraisers in san-antonio...
+[2025-03-15T23:06:04.074Z] Processing 3 appraisers in san-diego...
+[2025-03-15T23:06:04.077Z] Processing 3 appraisers in san-francisco...
+[2025-03-15T23:06:04.079Z] Processing 3 appraisers in san-jose...
+[2025-03-15T23:06:04.082Z] Processing 3 appraisers in santa-fe...
+[2025-03-15T23:06:04.084Z] Processing 3 appraisers in saskatoon...
+[2025-03-15T23:06:04.087Z] Processing 3 appraisers in savannah...
+[2025-03-15T23:06:04.089Z] Processing 3 appraisers in seattle...
+[2025-03-15T23:06:04.091Z] Processing 3 appraisers in st-john-s...
+[2025-03-15T23:06:04.094Z] Processing 3 appraisers in st-louis...
+[2025-03-15T23:06:04.096Z] Processing 3 appraisers in st-paul...
+[2025-03-15T23:06:04.099Z] Processing 3 appraisers in sudbury...
+[2025-03-15T23:06:04.102Z] Processing 2 appraisers in tampa...
+[2025-03-15T23:06:04.105Z] Processing 4 appraisers in thunder-bay...
+[2025-03-15T23:06:04.107Z] Processing 2 appraisers in toledo...
+[2025-03-15T23:06:04.110Z] Processing 3 appraisers in toronto...
+[2025-03-15T23:06:04.112Z] Processing 3 appraisers in tucson...
+[2025-03-15T23:06:04.114Z] Processing 2 appraisers in tulsa...
+[2025-03-15T23:06:04.117Z] Processing 3 appraisers in vancouver...
+[2025-03-15T23:06:04.119Z] Processing 3 appraisers in victoria...
+[2025-03-15T23:06:04.121Z] Processing 3 appraisers in virginia-beach...
+[2025-03-15T23:06:04.124Z] Processing 1 appraisers in washington-dc...
+[2025-03-15T23:06:04.127Z] Processing 3 appraisers in washington...
+[2025-03-15T23:06:04.129Z] Processing 2 appraisers in whitehorse...
+[2025-03-15T23:06:04.132Z] Processing 4 appraisers in wichita...
+[2025-03-15T23:06:04.133Z] Found 282 total appraisers.
+[2025-03-15T23:06:04.134Z] 282 appraisers left to process.
+[2025-03-15T23:06:04.134Z] Processing batch 1/29 with 10 appraisers...
+[2025-03-15T23:06:04.134Z] Appraiser Antique Appraisal Firms & Professionals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_albuquerque-8296.jpg
+[2025-03-15T23:06:04.134Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_albuquerque-4771.jpg
+[2025-03-15T23:06:04.134Z] Appraiser Albuquerque Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_albuquerque-albuquerque-antique-appraisals_633.jpg
+[2025-03-15T23:06:04.134Z] Appraiser List of Local Antique Appraisers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_anchorage-1336.jpg
+[2025-03-15T23:06:04.134Z] Appraiser (Statewide/Nationwide Providers Serving Anchorage) already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_anchorage-3932.jpg
+[2025-03-15T23:06:04.134Z] Appraiser Anchorage Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_anchorage-anchorage-antique-appraisals_3987.jpg
+[2025-03-15T23:06:04.134Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_arlington-9136.jpg
+[2025-03-15T23:06:04.134Z] Appraiser Tadlock Appraisal Company already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_arlington-4745.jpg
+[2025-03-15T23:06:04.134Z] Appraiser Arlington Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_arlington-arlington-antique-appraisals_5960.jpg
+[2025-03-15T23:06:04.134Z] Appraiser 2\. Antique Appraisers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-6250.jpg
+[2025-03-15T23:06:04.134Z] Batch 1/29 completed.
+[2025-03-15T23:06:04.134Z] Generated 0 images in this batch.
+[2025-03-15T23:06:04.134Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:04.134Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:06:09.344Z] Processing batch 2/29 with 10 appraisers...
+[2025-03-15T23:06:09.344Z] Appraiser Brady L\. Dreasher \(ISA CAPP\) – Art of Estates already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-2676.jpg
+[2025-03-15T23:06:09.344Z] Appraiser Aspen Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-aspen-antique-appraisals_1546.jpg
+[2025-03-15T23:06:09.344Z] Appraiser Atlanta Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-atlanta-antique-appraisals_2842.jpg
+[2025-03-15T23:06:09.344Z] Appraiser Heritage Valuations Atlanta already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-heritage-valuations-atlanta_6044.jpg
+[2025-03-15T23:06:09.344Z] Appraiser Austin Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-austin-antique-appraisals_3674.jpg
+[2025-03-15T23:06:09.345Z] Appraiser Heritage Valuations Austin already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-heritage-valuations-austin_4417.jpg
+[2025-03-15T23:06:09.345Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baltimore-1772.jpg
+[2025-03-15T23:06:09.345Z] Appraiser Mayflower Estate Buyers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baltimore-602.jpg
+[2025-03-15T23:06:09.345Z] Appraiser Baltimore Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baltimore-baltimore-antique-appraisals_2164.jpg
+[2025-03-15T23:06:09.345Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baton rouge-3350.jpg
+[2025-03-15T23:06:09.345Z] Batch 2/29 completed.
+[2025-03-15T23:06:09.345Z] Generated 0 images in this batch.
+[2025-03-15T23:06:09.345Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:09.345Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:06:13.153Z] Processing batch 3/29 with 10 appraisers...
+[2025-03-15T23:06:13.153Z] Appraiser Hannon Jewelers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baton rouge-6463.jpg
+[2025-03-15T23:06:13.153Z] Appraiser Baton Rouge Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baton rouge-baton-rouge-antique-appraisals_3474.jpg
+[2025-03-15T23:06:13.153Z] Appraiser Birmingham Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_birmingham-birmingham-antique-appraisals_426.jpg
+[2025-03-15T23:06:13.153Z] Appraiser Heritage Valuations Birmingham already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_birmingham-heritage-valuations-birmingham_2631.jpg
+[2025-03-15T23:06:13.153Z] Appraiser Boise Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boise-boise-antique-appraisals_996.jpg
+[2025-03-15T23:06:13.153Z] Appraiser Heritage Valuations Boise already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boise-heritage-valuations-boise_19.jpg
+[2025-03-15T23:06:13.153Z] Appraiser Doyle Auctions – New England/Boston Office already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-6228.jpg
+[2025-03-15T23:06:13.153Z] Appraiser Prestige Estate Services – Boston Office already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-1756.jpg
+[2025-03-15T23:06:13.153Z] Appraiser Boston Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-boston-antique-appraisals_9454.jpg
+[2025-03-15T23:06:13.153Z] Appraiser Key Features already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-7007.jpg
+[2025-03-15T23:06:13.153Z] Batch 3/29 completed.
+[2025-03-15T23:06:13.153Z] Generated 0 images in this batch.
+[2025-03-15T23:06:13.153Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:13.154Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:06:18.359Z] Processing batch 4/29 with 10 appraisers...
+[2025-03-15T23:06:18.359Z] Appraiser Buffalo Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-buffalo-antique-appraisals_3572.jpg
+[2025-03-15T23:06:18.359Z] Appraiser Heritage Valuations Buffalo already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-heritage-valuations-buffalo_7917.jpg
+[2025-03-15T23:06:18.359Z] Appraiser Brian Lehman Evaluations already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_calgary-699.jpg
+[2025-03-15T23:06:18.359Z] Appraiser Cowley Abbott Auctioneers & Appraisers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_calgary-5404.jpg
+[2025-03-15T23:06:18.359Z] Appraiser Calgary Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_calgary-calgary-antique-appraisals_6995.jpg
+[2025-03-15T23:06:18.359Z] Appraiser 2\. Charlston Estate Services Ltd. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-2708.jpg
+[2025-03-15T23:06:18.359Z] Appraiser Charleston Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-charleston-antique-appraisals_3875.jpg
+[2025-03-15T23:06:18.359Z] Appraiser Heritage Valuations Charleston already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-heritage-valuations-charleston_6052.jpg
+[2025-03-15T23:06:18.359Z] Appraiser List of Antique Appraisers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-6039.jpg
+[2025-03-15T23:06:18.359Z] Appraiser Prestige Estate Services Team already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-4265.jpg
+[2025-03-15T23:06:18.359Z] Batch 4/29 completed.
+[2025-03-15T23:06:18.359Z] Generated 0 images in this batch.
+[2025-03-15T23:06:18.359Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:18.359Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:06:23.397Z] Processing batch 5/29 with 10 appraisers...
+[2025-03-15T23:06:23.398Z] Appraiser Coinfully – Specialty Numismatic Appraiser already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-7206.jpg
+[2025-03-15T23:06:23.398Z] Appraiser Turner Drake & Partners Ltd. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlottetown-693.jpg[2025-03-15T23:06:23.398Z] Appraiser Jewellery Plus already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlottetown-7386.jpg
+[2025-03-15T23:06:23.398Z] Appraiser Charlottetown Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlottetown-charlottetown-antique-appraisals_4445.jpg
+[2025-03-15T23:06:23.398Z] Appraiser Adams Appraisal LLC already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_chicago-adams-appraisal-llc_1742079326595_NI13K4cjC.jpg
+[2025-03-15T23:06:23.398Z] Appraiser Kathleen Doyle / Antiquestor already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_chicago-2632.jpg
+[2025-03-15T23:06:23.398Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_chicago-7444.jpg
+[2025-03-15T23:06:23.398Z] Appraiser 2\. Appraiser Listings already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-6292.jpg
+[2025-03-15T23:06:23.398Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-2130.jpg
+[2025-03-15T23:06:23.398Z] Appraiser Caza Sikes already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-3978.jpg
+[2025-03-15T23:06:23.398Z] Batch 5/29 completed.
+[2025-03-15T23:06:23.398Z] Generated 0 images in this batch.
+[2025-03-15T23:06:23.398Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:23.398Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:06:28.610Z] Processing batch 6/29 with 10 appraisers...
+[2025-03-15T23:06:28.610Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-3550.jpg
+[2025-03-15T23:06:28.610Z] Appraiser Legacy Appraisal Group LLC already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-1182.jpg
+[2025-03-15T23:06:28.610Z] Appraiser AppraiseItNow - Online Service Covering Ohio already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-751.jpg
+[2025-03-15T23:06:28.610Z] Appraiser Colorado Springs Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_colorado springs-colorado-springs-antique-appraisals_8465.jpg
+[2025-03-15T23:06:28.610Z] Appraiser Heritage Valuations Colorado Springs already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_colorado springs-heritage-valuations-colorado-springs_2672.jpg
+[2025-03-15T23:06:28.610Z] Appraiser 1.Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-9055.jpg
+[2025-03-15T23:06:28.610Z] Appraiser 2.AmeliaJeffrs Auctions&Appraials already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-5386.jpg
+[2025-03-15T23:06:28.610Z] Appraiser Columbus Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-columbus-antique-appraisals_7171.jpg
+[2025-03-15T23:06:28.610Z] Appraiser 2 Antique Appraisers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-1144.jpg
+[2025-03-15T23:06:28.611Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-1458.jpg
+[2025-03-15T23:06:28.611Z] Batch 6/29 completed.
+[2025-03-15T23:06:28.611Z] Generated 0 images in this batch.
+[2025-03-15T23:06:28.611Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:28.611Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:06:33.650Z] Processing batch 7/29 with 10 appraisers...
+[2025-03-15T23:06:33.650Z] Appraiser Oriental Rug Cleaning Co. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-1517.jpg
+[2025-03-15T23:06:33.650Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-3925.jpg
+[2025-03-15T23:06:33.650Z] Appraiser American Gem Registry – Neil Beaty CGJA already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-3922.jpg
+[2025-03-15T23:06:33.650Z] Appraiser Ellen Amirkhan CRS ORRA CSA FCEA®️(Rug Specialist) already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-7924.jpg
+[2025-03-15T23:06:33.650Z] Appraiser Des Moines Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_des moines-des-moines-antique-appraisals_4815.jpg
+[2025-03-15T23:06:33.650Z] Appraiser Heritage Valuations Des Moines already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_des moines-heritage-valuations-des-moines_8049.jpg
+[2025-03-15T23:06:33.650Z] Appraiser Appraisal Firms & Professionals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_detroit-5137.jpg
+[2025-03-15T23:06:33.650Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_detroit-9087.jpg
+[2025-03-15T23:06:33.650Z] Appraiser Detroit Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_detroit-detroit-antique-appraisals_9450.jpg
+[2025-03-15T23:06:33.650Z] Appraiser Ultra Jewellers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_edmonton-4399.jpg
+[2025-03-15T23:06:33.650Z] Batch 7/29 completed.
+[2025-03-15T23:06:33.650Z] Generated 0 images in this batch.
+[2025-03-15T23:06:33.650Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:33.650Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:06:38.863Z] Processing batch 8/29 with 10 appraisers...
+[2025-03-15T23:06:38.863Z] Appraiser Design Jewellers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_edmonton-7199.jpg
+[2025-03-15T23:06:38.863Z] Appraiser Beck Antiques &amp;jewellery Inc. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_edmonton-8309.jpg
+[2025-03-15T23:06:38.863Z] Appraiser El Paso Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_el paso-el-paso-antique-appraisals_8070.jpg
+[2025-03-15T23:06:38.863Z] Appraiser Heritage Valuations El Paso already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_el paso-heritage-valuations-el-paso_6699.jpg
+[2025-03-15T23:06:38.863Z] Appraiser Koosh Jewelers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort lauderdale-3045.jpg
+[2025-03-15T23:06:38.863Z] Appraiser Moecker Auctions Inc. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort lauderdale-3188.jpg
+[2025-03-15T23:06:38.863Z] Appraiser Fort Lauderdale Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort lauderdale-fort-lauderdale-antique-appraisals_3344.jpg
+[2025-03-15T23:06:38.863Z] Appraiser Licensed Professionals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort worth-6999.jpg
+[2025-03-15T23:06:38.863Z] Appraiser Fort Worth Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort worth-fort-worth-antique-appraisals_5607.jpg
+[2025-03-15T23:06:38.863Z] Appraiser Heritage Valuations Fort Worth already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort worth-heritage-valuations-fort-worth_5875.jpg
+[2025-03-15T23:06:38.863Z] Batch 8/29 completed.
+[2025-03-15T23:06:38.863Z] Generated 0 images in this batch.
+[2025-03-15T23:06:38.863Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:38.864Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:06:44.031Z] Processing batch 9/29 with 10 appraisers...
+[2025-03-15T23:06:44.031Z] Appraiser Liz Isaac Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fredericton-9144.jpg
+[2025-03-15T23:06:44.031Z] Appraiser Mario Brideau Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fredericton-2407.jpg
+[2025-03-15T23:06:44.031Z] Appraiser Jardine Auctioneers Inc. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fredericton-8045.jpg
+[2025-03-15T23:06:44.031Z] Appraiser Kelly Juhasz（Fine Art Appraisal＆Services） already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fredericton-2607.jpg
+[2025-03-15T23:06:44.031Z] Appraiser Fresno Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fresno-fresno-antique-appraisals_2293.jpg
+[2025-03-15T23:06:44.031Z] Appraiser Heritage Valuations Fresno already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fresno-heritage-valuations-fresno_1764.jpg
+[2025-03-15T23:06:44.031Z] Appraiser Finer Things Antiques & Curios already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_halifax-8796.jpg
+[2025-03-15T23:06:44.031Z] Appraiser Harrington’s Auctioneers & Appraisers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_halifax-8450.jpg
+[2025-03-15T23:06:44.031Z] Appraiser La Mine d’Or Jewellers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_halifax-8060.jpg
+[2025-03-15T23:06:44.031Z] Appraiser Dorothée Rosen Designer Goldsmith already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_halifax-8978.jpg[2025-03-15T23:06:44.031Z] Batch 9/29 completed.
+[2025-03-15T23:06:44.031Z] Generated 0 images in this batch.
+[2025-03-15T23:06:44.031Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:44.031Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:06:47.880Z] Processing batch 10/29 with 10 appraisers...
+[2025-03-15T23:06:47.880Z] Appraiser Schinkel Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hamilton-7587.jpg
+[2025-03-15T23:06:47.880Z] Appraiser Stan Jugovic & Associates Ltd. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hamilton-6521.jpg
+[2025-03-15T23:06:47.880Z] Appraiser 4.Contact Details Summary Table already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hamilton-6395.jpg
+[2025-03-15T23:06:47.880Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-4969.jpg
+[2025-03-15T23:06:47.880Z] Appraiser Hartford Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-hartford-antique-appraisals_239.jpg
+[2025-03-15T23:06:47.880Z] Appraiser Heritage Valuations Hartford already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-heritage-valuations-hartford_8582.jpg
+[2025-03-15T23:06:47.880Z] Appraiser Antique Appraisal Professionals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_honolulu-8454.jpg
+[2025-03-15T23:06:47.880Z] Appraiser Aloha Estate Jewelry already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_honolulu-6942.jpg
+[2025-03-15T23:06:47.881Z] Appraiser Honolulu Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_honolulu-honolulu-antique-appraisals_3906.jpg
+[2025-03-15T23:06:47.881Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-3361.jpg
+[2025-03-15T23:06:47.881Z] Batch 10/29 completed.
+[2025-03-15T23:06:47.881Z] Generated 0 images in this batch.
+[2025-03-15T23:06:47.881Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:47.881Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:06:52.919Z] Processing batch 11/29 with 10 appraisers...
+[2025-03-15T23:06:52.919Z] Appraiser Houston Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-houston-antique-appraisals_9570.jpg
+[2025-03-15T23:06:52.919Z] Appraiser Heritage Valuations Houston already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-heritage-valuations-houston_5654.jpg
+[2025-03-15T23:06:52.919Z] Appraiser Art of Estates already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-4133.jpg
+[2025-03-15T23:06:52.919Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-5832.jpg
+[2025-03-15T23:06:52.919Z] Appraiser Indianapolis Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-indianapolis-antique-appraisals_5033.jpg
+[2025-03-15T23:06:52.919Z] Appraiser List of Antique Appraisers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-8498.jpg
+[2025-03-15T23:06:52.919Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-7702.jpg
+[2025-03-15T23:06:52.919Z] Appraiser Jacksonville Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-jacksonville-antique-appraisals_1616.jpg
+[2025-03-15T23:06:52.919Z] Appraiser Kansas City Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas city-kansas-city-antique-appraisals_9038.jpg
+[2025-03-15T23:06:52.919Z] Appraiser Heritage Valuations Kansas City already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas city-heritage-valuations-kansas-city_4817.jpg
+[2025-03-15T23:06:52.919Z] Batch 11/29 completed.
+[2025-03-15T23:06:52.920Z] Generated 0 images in this batch.
+[2025-03-15T23:06:52.920Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:52.920Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:06:58.046Z] Processing batch 12/29 with 10 appraisers...
+[2025-03-15T23:06:58.046Z] Appraiser Artista Art & Antiquités already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kelowna-3524.jpg
+[2025-03-15T23:06:58.046Z] Appraiser Taylor’s Fine Collectables Ltd. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kelowna-2951.jpg
+[2025-03-15T23:06:58.046Z] Appraiser Able Auctions – Asset Valuation Division already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kelowna-6860.jpg
+[2025-03-15T23:06:58.046Z] Appraiser Antique/Car/Valuation Professionals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kingston-4135.jpg
+[2025-03-15T23:06:58.046Z] Appraiser Pristine Appraisal Co. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kingston-4310.jpg
+[2025-03-15T23:06:58.046Z] Appraiser Paul Prince – Collector Vehicle Appraiser already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kingston-360.jpg
+[2025-03-15T23:06:58.046Z] Appraiser Kingston Fine Jewelry Ltd. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kingston-7334.jpg
+[2025-03-15T23:06:58.046Z] Appraiser Kitchener Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kitchener-kitchener-antique-appraisals_4547.jpg
+[2025-03-15T23:06:58.046Z] Appraiser Heritage Valuations Kitchener already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kitchener-heritage-valuations-kitchener_5189.jpg
+[2025-03-15T23:06:58.046Z] Appraiser Appraiser Listings already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las vegas-7196.jpg
+[2025-03-15T23:06:58.046Z] Batch 12/29 completed.
+[2025-03-15T23:06:58.046Z] Generated 0 images in this batch.
+[2025-03-15T23:06:58.047Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:06:58.047Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:03.089Z] Processing batch 13/29 with 10 appraisers...
+[2025-03-15T23:07:03.089Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las vegas-5166.jpg
+[2025-03-15T23:07:03.089Z] Appraiser Anthony Slayter-Ralph Fine Art already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las vegas-2209.jpg
+[2025-03-15T23:07:03.089Z] Appraiser Joel Bohy (Blackstone Valley Auctions) already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las vegas-7005.jpg
+[2025-03-15T23:07:03.090Z] Appraiser Richard Cervantes (Doyle New York) already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las vegas-1920.jpg
+[2025-03-15T23:07:03.090Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_lexington-1790.jpg
+[2025-03-15T23:07:03.090Z] Appraiser Lexington Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_lexington-lexington-antique-appraisals_9844.jpg
+[2025-03-15T23:07:03.090Z] Appraiser Heritage Valuations Lexington already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_lexington-heritage-valuations-lexington_7798.jpg
+[2025-03-15T23:07:03.090Z] Appraiser Little Rock Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_little rock-little-rock-antique-appraisals_3757.jpg
+[2025-03-15T23:07:03.090Z] Appraiser Heritage Valuations Little Rock already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_little rock-heritage-valuations-little-rock_8801.jpg
+[2025-03-15T23:07:03.090Z] Appraiser London Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_london-london-antique-appraisals_7931.jpg
+[2025-03-15T23:07:03.090Z] Batch 13/29 completed.
+[2025-03-15T23:07:03.090Z] Generated 0 images in this batch.
+[2025-03-15T23:07:03.090Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:03.090Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:08.320Z] Processing batch 14/29 with 10 appraisers...
+[2025-03-15T23:07:08.320Z] Appraiser Heritage Valuations London already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_london-heritage-valuations-london_1145.jpg
+[2025-03-15T23:07:08.320Z] Appraiser 1. Eagle Home Appraisal already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_long beach-2518.jpg
+[2025-03-15T23:07:08.320Z] Appraiser Long Beach Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_long beach-long-beach-antique-appraisals_7951.jpg
+[2025-03-15T23:07:08.320Z] Appraiser Heritage Valuations Long Beach already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_long beach-heritage-valuations-long-beach_4427.jpg
+[2025-03-15T23:07:08.321Z] Appraiser Los Angeles Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_los angeles-los-angeles-antique-appraisals_5321.jpg
+[2025-03-15T23:07:08.321Z] Appraiser Heritage Valuations Los Angeles already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_los angeles-heritage-valuations-los-angeles_7787.jpg
+[2025-03-15T23:07:08.321Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_louisville-1520.jpg
+[2025-03-15T23:07:08.321Z] Appraiser Howard & Thomas Auction House already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_louisville-6687.jpg
+[2025-03-15T23:07:08.321Z] Appraiser Louisville Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_louisville-louisville-antique-appraisals_4673.jpg
+[2025-03-15T23:07:08.321Z] Appraiser Memphis Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_memphis-memphis-antique-appraisals_5702.jpg
+[2025-03-15T23:07:08.321Z] Batch 14/29 completed.
+[2025-03-15T23:07:08.321Z] Generated 0 images in this batch.
+[2025-03-15T23:07:08.321Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:08.321Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:13.454Z] Processing batch 15/29 with 10 appraisers...
+[2025-03-15T23:07:13.454Z] Appraiser Heritage Valuations Memphis already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_memphis-heritage-valuations-memphis_4025.jpg
+[2025-03-15T23:07:13.454Z] Appraiser Miami Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-miami-antique-appraisals_5298.jpg
+[2025-03-15T23:07:13.454Z] Appraiser Heritage Valuations Miami already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-heritage-valuations-miami_2664.jpg
+[2025-03-15T23:07:13.454Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_milwaukee-8256.jpg
+[2025-03-15T23:07:13.454Z] Appraiser Cedarburg Auction & Appraisals LLC already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_milwaukee-855.jpg
+[2025-03-15T23:07:13.454Z] Appraiser Craig Husar Fine Diamonds already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_milwaukee-7803.jpg
+[2025-03-15T23:07:13.454Z] Appraiser Minneapolis Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-minneapolis-antique-appraisals_5614.jpg
+[2025-03-15T23:07:13.454Z] Appraiser Heritage Valuations Minneapolis already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-heritage-valuations-minneapolis_9601.jpg
+[2025-03-15T23:07:13.454Z] Appraiser Moncton Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_moncton-moncton-antique-appraisals_8697.jpg
+[2025-03-15T23:07:13.454Z] Appraiser Heritage Valuations Moncton already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_moncton-heritage-valuations-moncton_1605.jpg
+[2025-03-15T23:07:13.454Z] Batch 15/29 completed.
+[2025-03-15T23:07:13.454Z] Generated 0 images in this batch.
+[2025-03-15T23:07:13.454Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:13.454Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:17.291Z] Processing batch 16/29 with 10 appraisers...
+[2025-03-15T23:07:17.291Z] Appraiser Montreal Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_montreal-montreal-antique-appraisals_9975.jpg
+[2025-03-15T23:07:17.291Z] Appraiser Heritage Valuations Montreal already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_montreal-heritage-valuations-montreal_932.jpg
+[2025-03-15T23:07:17.291Z] Appraiser Nashville Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-nashville-antique-appraisals_1257.jpg
+[2025-03-15T23:07:17.291Z] Appraiser Heritage Valuations Nashville already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-heritage-valuations-nashville_4145.jpg
+[2025-03-15T23:07:17.291Z] Appraiser Kohlert Appraisal Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new orleans-9376.jpg
+[2025-03-15T23:07:17.291Z] Appraiser Le Garage Antiques & Clothing already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new orleans-7464.jpg[2025-03-15T23:07:17.291Z] Appraiser Prestige Estate Services Network already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new orleans-9547.jpg
+[2025-03-15T23:07:17.291Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new_york-prestige-estate-services_1742079322455_B8CCRPlQR.jpg
+[2025-03-15T23:07:17.292Z] Appraiser Great Estates Auctioneers & Appraisers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new york-9738.jpg
+[2025-03-15T23:07:17.292Z] Appraiser Antiquities Buy Near CT/NYC – W Smith Auctions already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new york-8119.jpg
+[2025-03-15T23:07:17.292Z] Batch 16/29 completed.
+[2025-03-15T23:07:17.292Z] Generated 0 images in this batch.
+[2025-03-15T23:07:17.292Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:17.292Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:22.331Z] Processing batch 17/29 with 10 appraisers...
+[2025-03-15T23:07:22.331Z] Appraiser Blue Box Auction Gallery already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_norfolk-6398.jpg
+[2025-03-15T23:07:22.331Z] Appraiser Norfolk Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_norfolk-norfolk-antique-appraisals_7352.jpg
+[2025-03-15T23:07:22.331Z] Appraiser Heritage Valuations Norfolk already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_norfolk-heritage-valuations-norfolk_3397.jpg
+[2025-03-15T23:07:22.331Z] Appraiser Clars Auction Gallery already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_oakland-714.jpg
+[2025-03-15T23:07:22.331Z] Appraiser Gurr Johns already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_oakland-2630.jpg
+[2025-03-15T23:07:22.331Z] Appraiser Oakland Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_oakland-oakland-antique-appraisals_8954.jpg
+[2025-03-15T23:07:22.331Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_oklahoma city-5302.jpg
+[2025-03-15T23:07:22.331Z] Appraiser Oklahoma City Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_oklahoma city-oklahoma-city-antique-appraisals_2500.jpg
+[2025-03-15T23:07:22.331Z] Appraiser Heritage Valuations Oklahoma City already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_oklahoma city-heritage-valuations-oklahoma-city_5299.jpg
+[2025-03-15T23:07:22.331Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_omaha-7145.jpg
+[2025-03-15T23:07:22.331Z] Batch 17/29 completed.
+[2025-03-15T23:07:22.331Z] Generated 0 images in this batch.
+[2025-03-15T23:07:22.331Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:22.331Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:27.539Z] Processing batch 18/29 with 10 appraisers...
+[2025-03-15T23:07:27.539Z] Appraiser Borsheims Fine Jewelry & Gifts already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_omaha-1826.jpg
+[2025-03-15T23:07:27.539Z] Appraiser Omaha Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_omaha-omaha-antique-appraisals_1326.jpg
+[2025-03-15T23:07:27.539Z] Appraiser Orlando Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_orlando-orlando-antique-appraisals_8453.jpg
+[2025-03-15T23:07:27.539Z] Appraiser Heritage Valuations Orlando already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_orlando-heritage-valuations-orlando_3394.jpg
+[2025-03-15T23:07:27.539Z] Appraiser Elizabeth Antique Appraisal Service already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_ottawa-6948.jpg
+[2025-03-15T23:07:27.539Z] Appraiser Ottawa Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_ottawa-ottawa-antique-appraisals_1994.jpg
+[2025-03-15T23:07:27.539Z] Appraiser Heritage Valuations Ottawa already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_ottawa-heritage-valuations-ottawa_4944.jpg
+[2025-03-15T23:07:27.540Z] Appraiser 1\. Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm beach-5972.jpg
+[2025-03-15T23:07:27.540Z] Appraiser 2\. Fontaine’s Auction Gallery already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm beach-9999.jpg[2025-03-15T23:07:27.540Z] Appraiser Palm Beach Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm beach-palm-beach-antique-appraisals_5424.jpg
+[2025-03-15T23:07:27.540Z] Batch 18/29 completed.
+[2025-03-15T23:07:27.540Z] Generated 0 images in this batch.
+[2025-03-15T23:07:27.540Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:27.540Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:32.581Z] Processing batch 19/29 with 10 appraisers...
+[2025-03-15T23:07:32.581Z] Appraiser 1\. Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-7702.jpg[2025-03-15T23:07:32.581Z] Appraiser 2\. William Bunch Auctions & Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-9529.jpg
+[2025-03-15T23:07:32.582Z] Appraiser Philadelphia Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-philadelphia-antique-appraisals_3293.jpg
+[2025-03-15T23:07:32.582Z] Appraiser [Baker Asian Art & Antique Specialists] already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_phoenix-4376.jpg
+[2025-03-15T23:07:32.582Z] Appraiser [PMR Jewelry Evaluations] already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_phoenix-2000.jpg
+[2025-03-15T23:07:32.582Z] Appraiser Phoenix Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_phoenix-phoenix-antique-appraisals_2736.jpg
+[2025-03-15T23:07:32.582Z] Appraiser Kurt Shaw & Company already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-4717.jpg
+[2025-03-15T23:07:32.582Z] Appraiser Concept Art Gallery already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-5558.jpg
+[2025-03-15T23:07:32.582Z] Appraiser Pittsburgh Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-pittsburgh-antique-appraisals_3024.jpg
+[2025-03-15T23:07:32.582Z] Appraiser Portland Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-portland-antique-appraisals_6825.jpg
+[2025-03-15T23:07:32.582Z] Batch 19/29 completed.
+[2025-03-15T23:07:32.582Z] Generated 0 images in this batch.
+[2025-03-15T23:07:32.582Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:32.582Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:37.792Z] Processing batch 20/29 with 10 appraisers...
+[2025-03-15T23:07:37.792Z] Appraiser Heritage Valuations Portland already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-heritage-valuations-portland_5983.jpg
+[2025-03-15T23:07:37.792Z] Appraiser Providence Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_providence-providence-antique-appraisals_555.jpg
+[2025-03-15T23:07:37.792Z] Appraiser Heritage Valuations Providence already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_providence-heritage-valuations-providence_921.jpg
+[2025-03-15T23:07:37.792Z] Appraiser Notable Antique Appraisal Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_quebec city-9395.jpg
+[2025-03-15T23:07:37.792Z] Appraiser Inuit Sculptures Art Gallery already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_quebec city-1754.jpg
+[2025-03-15T23:07:37.792Z] Appraiser Empire Appraisers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_quebec city-4666.jpg
+[2025-03-15T23:07:37.792Z] Appraiser 1. Look Appraisal LLC already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-7515.jpg
+[2025-03-15T23:07:37.792Z] Appraiser Raleigh Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-raleigh-antique-appraisals_9952.jpg
+[2025-03-15T23:07:37.792Z] Appraiser Heritage Valuations Raleigh already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-heritage-valuations-raleigh_1978.jpg
+[2025-03-15T23:07:37.792Z] Appraiser Listed Professionals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_regina-9850.jpg
+[2025-03-15T23:07:37.793Z] Batch 20/29 completed.
+[2025-03-15T23:07:37.793Z] Generated 0 images in this batch.
+[2025-03-15T23:07:37.793Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:37.793Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:42.912Z] Processing batch 21/29 with 10 appraisers...
+[2025-03-15T23:07:42.913Z] Appraiser TM Appraisals & Auctions already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_regina-9811.jpg
+[2025-03-15T23:07:42.913Z] Appraiser Brunsdon Lawrek & Associates already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_regina-1259.jpg
+[2025-03-15T23:07:42.913Z] Appraiser Richmond Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-richmond-antique-appraisals_2095.jpg
+[2025-03-15T23:07:42.913Z] Appraiser Heritage Valuations Richmond already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-heritage-valuations-richmond_3332.jpg
+[2025-03-15T23:07:42.913Z] Appraiser Rochester Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_rochester-rochester-antique-appraisals_3370.jpg
+[2025-03-15T23:07:42.913Z] Appraiser Heritage Valuations Rochester already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_rochester-heritage-valuations-rochester_4719.jpg
+[2025-03-15T23:07:42.913Z] Appraiser Sacramento Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-sacramento-antique-appraisals_6038.jpg
+[2025-03-15T23:07:42.913Z] Appraiser Heritage Valuations Sacramento already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-heritage-valuations-sacramento_4373.jpg
+[2025-03-15T23:07:42.913Z] Appraiser Salt Lake City Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt lake city-salt-lake-city-antique-appraisals_3448.jpg
+[2025-03-15T23:07:42.913Z] Appraiser Heritage Valuations Salt Lake City already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt lake city-heritage-valuations-salt-lake-city_8383.jpg
+[2025-03-15T23:07:42.913Z] Batch 21/29 completed.
+[2025-03-15T23:07:42.913Z] Generated 0 images in this batch.
+[2025-03-15T23:07:42.913Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:42.913Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:46.725Z] Processing batch 22/29 with 10 appraisers...
+[2025-03-15T23:07:46.725Z] Appraiser Prestige Estate Services – San Antonio Team already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san antonio-5118.jpg
+[2025-03-15T23:07:46.725Z] Appraiser AppraiseItNow – Remote & In-Person Options already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san antonio-5627.jpg
+[2025-03-15T23:07:46.725Z] Appraiser Left Behind Antiques – Local Shop Expertise already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san antonio-847.jpg
+[2025-03-15T23:07:46.725Z] Appraiser Ellen Amirkhan – Oriental Rug Specialist already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san antonio-8608.jpg
+[2025-03-15T23:07:46.726Z] Appraiser 1. Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san diego-5010.jpg
+[2025-03-15T23:07:46.726Z] Appraiser 2. Paul Golubovs already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san diego-5805.jpg
+[2025-03-15T23:07:46.726Z] Appraiser San Diego Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san diego-san-diego-antique-appraisals_5659.jpg
+[2025-03-15T23:07:46.726Z] Appraiser 1\. Turner Auctions + Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_francisco-1-turner-auctions-appraisals_1742079329924_eIV6H2sWp.jpg
+[2025-03-15T23:07:46.726Z] Appraiser 2\. CLARS Auction Gallery – Asian Art Department already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san francisco-1401.jpg
+[2025-03-15T23:07:46.726Z] Appraiser San Francisco Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san francisco-san-francisco-antique-appraisals_2371.jpg
+[2025-03-15T23:07:46.726Z] Batch 22/29 completed.
+[2025-03-15T23:07:46.726Z] Generated 0 images in this batch.
+[2025-03-15T23:07:46.726Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:46.726Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:51.765Z] Processing batch 23/29 with 10 appraisers...
+[2025-03-15T23:07:51.765Z] Appraiser Mountain View US & Foreign Coins already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san jose-7296.jpg[2025-03-15T23:07:51.765Z] Appraiser Clars Auctions already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san jose-2395.jpg
+[2025-03-15T23:07:51.765Z] Appraiser San Jose Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san jose-san-jose-antique-appraisals_5136.jpg
+[2025-03-15T23:07:51.765Z] Appraiser Ellen Amirkhan – Rug Care Specialists Association already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa fe-7989.jpg
+[2025-03-15T23:07:51.766Z] Appraiser Sandbar Trading Co. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa fe-7962.jpg
+[2025-03-15T23:07:51.766Z] Appraiser Santa Fe Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa fe-santa-fe-antique-appraisals_8773.jpg
+[2025-03-15T23:07:51.766Z] Appraiser Transitions Estate Services Inc. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saskatoon-1372.jpg
+[2025-03-15T23:07:51.766Z] Appraiser TM Appraisals and Auctions already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saskatoon-287.jpg
+[2025-03-15T23:07:51.766Z] Appraiser Saskatoon Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saskatoon-saskatoon-antique-appraisals_2364.jpg
+[2025-03-15T23:07:51.766Z] Appraiser Jewelry Consignment Network (JCN) already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-4284.jpg
+[2025-03-15T23:07:51.766Z] Batch 23/29 completed.
+[2025-03-15T23:07:51.766Z] Generated 0 images in this batch.
+[2025-03-15T23:07:51.766Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:51.766Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:07:56.927Z] Processing batch 24/29 with 10 appraisers...
+[2025-03-15T23:07:56.927Z] Appraiser Savannah Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-savannah-antique-appraisals_4811.jpg
+[2025-03-15T23:07:56.927Z] Appraiser Heritage Valuations Savannah already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-heritage-valuations-savannah_2887.jpg
+[2025-03-15T23:07:56.927Z] Appraiser Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_seattle-6791.jpg
+[2025-03-15T23:07:56.927Z] Appraiser Seattle Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_seattle-seattle-antique-appraisals_4083.jpg
+[2025-03-15T23:07:56.927Z] Appraiser Heritage Valuations Seattle already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_seattle-heritage-valuations-seattle_5966.jpg
+[2025-03-15T23:07:56.927Z] Appraiser Turner Drake & Partners Ltd. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st. john's-9815.jpg
+[2025-03-15T23:07:56.927Z] Appraiser Gurr Johns already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st. john's-8491.jpg
+[2025-03-15T23:07:56.927Z] Appraiser St. John's Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st. john's-st-johns-antique-appraisals_4628.jpg
+[2025-03-15T23:07:56.927Z] Appraiser Artrium Fine Art & Estate Appraisal already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st. louis-5916.jpg
+[2025-03-15T23:07:56.927Z] Appraiser St. Louis Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st. louis-st-louis-antique-appraisals_7089.jpg
+[2025-03-15T23:07:56.927Z] Batch 24/29 completed.
+[2025-03-15T23:07:56.928Z] Generated 0 images in this batch.
+[2025-03-15T23:07:56.928Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:07:56.928Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:08:01.966Z] Processing batch 25/29 with 10 appraisers...
+[2025-03-15T23:08:01.966Z] Appraiser Heritage Valuations St. Louis already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st. louis-heritage-valuations-st-louis_5808.jpg
+[2025-03-15T23:08:01.966Z] Appraiser 1\. Redtail Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st. paul-9633.jpg
+[2025-03-15T23:08:01.966Z] Appraiser 2\. Revere Auctions already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st. paul-8900.jpg
+[2025-03-15T23:08:01.966Z] Appraiser 3\. Anoka Area Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st. paul-8481.jpg
+[2025-03-15T23:08:01.967Z] Appraiser Appraiser Listings already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sudbury-5078.jpg
+[2025-03-15T23:08:01.967Z] Appraiser Charles Bell Real Estate Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sudbury-5045.jpg
+[2025-03-15T23:08:01.967Z] Appraiser David Dinan – Collector Vehicle Specialist already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sudbury-794.jpg
+[2025-03-15T23:08:01.967Z] Appraiser Tampa Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_tampa-tampa-antique-appraisals_8893.jpg
+[2025-03-15T23:08:01.967Z] Appraiser Heritage Valuations Tampa already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_tampa-heritage-valuations-tampa_5741.jpg
+[2025-03-15T23:08:01.967Z] Appraiser 1\. Powell Appraisals Inc. already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_thunder bay-3771.jpg
+[2025-03-15T23:08:01.967Z] Batch 25/29 completed.
+[2025-03-15T23:08:01.967Z] Generated 0 images in this batch.
+[2025-03-15T23:08:01.967Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:08:01.967Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:08:07.177Z] Processing batch 26/29 with 10 appraisers...
+[2025-03-15T23:08:07.177Z] Appraiser 2\. Provincial/Niche Specialists Serving Region already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_thunder bay-5746.jpg
+[2025-03-15T23:08:07.177Z] Appraiser (A) Collector Vehicles already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_thunder bay-996.jpg
+[2025-03-15T23:08:07.177Z] Appraiser (B) Art & Memorabilia already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_thunder bay-8760.jpg
+[2025-03-15T23:08:07.177Z] Appraiser Toledo Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_toledo-toledo-antique-appraisals_3368.jpg
+[2025-03-15T23:08:07.177Z] Appraiser Heritage Valuations Toledo already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_toledo-heritage-valuations-toledo_4201.jpg
+[2025-03-15T23:08:07.177Z] Appraiser Fine Art & Archives already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_toronto-24.jpg
+[2025-03-15T23:08:07.177Z] Appraiser Asian/Persian Decorative Arts already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_toronto-4852.jpg
+[2025-03-15T23:08:07.177Z] Appraiser Canadian Indigenous & Historical Works already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_toronto-3283.jpg
+[2025-03-15T23:08:07.177Z] Appraiser 1\. Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_tucson-7372.jpg
+[2025-03-15T23:08:07.177Z] Appraiser 2\. Bear & Raven Appraisal & Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_tucson-1446.jpg
+[2025-03-15T23:08:07.177Z] Batch 26/29 completed.
+[2025-03-15T23:08:07.177Z] Generated 0 images in this batch.
+[2025-03-15T23:08:07.177Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:08:07.177Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:08:12.272Z] Processing batch 27/29 with 10 appraisers...
+[2025-03-15T23:08:12.272Z] Appraiser Tucson Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_tucson-tucson-antique-appraisals_4847.jpg
+[2025-03-15T23:08:12.272Z] Appraiser Tulsa Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_tulsa-tulsa-antique-appraisals_3432.jpg
+[2025-03-15T23:08:12.272Z] Appraiser Heritage Valuations Tulsa already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_tulsa-heritage-valuations-tulsa_5632.jpg
+[2025-03-15T23:08:12.272Z] Appraiser Shenasi Carpet already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_vancouver-6176.jpg
+[2025-03-15T23:08:12.272Z] Appraiser Vancouver Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_vancouver-vancouver-antique-appraisals_2387.jpg
+[2025-03-15T23:08:12.272Z] Appraiser Heritage Valuations Vancouver already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_vancouver-heritage-valuations-vancouver_1317.jpg
+[2025-03-15T23:08:12.272Z] Appraiser List of Antique Appraisal Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_victoria-3947.jpg
+[2025-03-15T23:08:12.272Z] Appraiser Coast Wide Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_victoria-4912.jpg
+[2025-03-15T23:08:12.272Z] Appraiser Berchard Apraisal Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_victoria-9775.jpg
+[2025-03-15T23:08:12.273Z] Appraiser Appraisal Professionals & Businesses already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_virginia beach-803.jpg
+[2025-03-15T23:08:12.273Z] Batch 27/29 completed.
+[2025-03-15T23:08:12.273Z] Generated 0 images in this batch.
+[2025-03-15T23:08:12.273Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:08:12.273Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:08:17.481Z] Processing batch 28/29 with 10 appraisers...
+[2025-03-15T23:08:17.481Z] Appraiser *Barrett Street Auction Center & Antique Mall already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_virginia beach-2680.jpg
+[2025-03-15T23:08:17.482Z] Appraiser Virginia Beach Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_virginia beach-virginia-beach-antique-appraisals_6241.jpg
+[2025-03-15T23:08:17.482Z] Appraiser Washington Fine Art Appraisers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-dc-fine-art-appraiser_1741089482744_aLCAXrh39.jpg
+[2025-03-15T23:08:17.482Z] Appraiser List of Appraisers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-1282.jpg
+[2025-03-15T23:08:17.482Z] Appraiser 1. Prestige Estate Services already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-9838.jpg
+[2025-03-15T23:08:17.482Z] Appraiser 2 DOYLE – DC / Mid Atlantic Auctions & Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-9172.jpg
+[2025-03-15T23:08:17.482Z] Appraiser Whitehorse Antique Appraisals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_whitehorse-whitehorse-antique-appraisals_7823.jpg
+[2025-03-15T23:08:17.482Z] Appraiser Heritage Valuations Whitehorse already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_whitehorse-heritage-valuations-whitehorse_2907.jpg
+[2025-03-15T23:08:17.482Z] Appraiser Licensed Appraisal Professionals already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_wichita-8805.jpg
+[2025-03-15T23:08:17.482Z] Appraiser Art of Estates already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_wichita-3428.jpg
+[2025-03-15T23:08:17.482Z] Batch 28/29 completed.
+[2025-03-15T23:08:17.482Z] Generated 0 images in this batch.
+[2025-03-15T23:08:17.482Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:08:17.482Z] Waiting for 5 seconds before processing the next batch...
+[2025-03-15T23:08:21.261Z] Processing batch 29/29 with 2 appraisers...
+[2025-03-15T23:08:21.261Z] Appraiser Jewelery Savers already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_wichita-5746.jpg
+[2025-03-15T23:08:21.261Z] Appraiser Golden Rule Jewlery LLC already has an image: https://ik.imagekit.io/appraisily/appraiser-images/appraiser_wichita-1405.jpg
+[2025-03-15T23:08:21.261Z] Batch 29/29 completed.
+[2025-03-15T23:08:21.261Z] Generated 0 images in this batch.
+[2025-03-15T23:08:21.261Z] Total progress: 0/282 appraisers processed.
+[2025-03-15T23:08:21.261Z] Image generation complete.
+[2025-03-15T23:08:21.261Z] Successfully generated images for 0 appraisers.
+[2025-03-15T23:08:21.261Z] Total processed: 0/282
