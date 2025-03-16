@@ -41,8 +41,8 @@ function App() {
       "@type": "WebSite",
       "@id": "https://appraisily.com/#website",
       "url": "https://appraisily.com/",
-      "name": "Appraisily - Find Art Appraisers Near You",
-      "description": "Connect with certified art appraisers, get expert valuations, and make informed decisions about your art collection.",
+      "name": "Appraisily - Find Antique Appraisers Near You",
+      "description": "Connect with certified antique appraisers, get expert valuations, and make informed decisions about your antique collection.",
       "potentialAction": {
         "@type": "SearchAction",
         "target": "https://appraisily.com/search?q={search_term_string}",
@@ -57,8 +57,8 @@ function App() {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "@id": "https://appraisily.com/#professional-service",
-      "name": "Appraisily Art Appraisal Directory",
-      "description": "Find certified art appraisers near you for expert valuations, authentication services, and professional advice for your art collection.",
+      "name": "Appraisily Antique Appraisal Directory",
+      "description": "Find certified antique appraisers near you for expert valuations, authentication services, and professional advice for your antique collection.",
       "url": "https://appraisily.com/",
       "serviceType": "Art Appraisal",
       "audience": {
@@ -80,20 +80,20 @@ function App() {
   return (
     <>
       <SEO
-        title="Find Art Appraisers Near Me | Expert Art Valuation Services | Appraisily"
-        description="Connect with certified art appraisers near you. Get expert art valuations, authentication services, and professional advice for your art collection. Find local art appraisers today!"
+        title="Find Antique Appraisers Near Me | Expert Antique Valuation Services | Appraisily"
+        description="Connect with certified antique appraisers near you. Get expert antique valuations, authentication services, and professional advice for your antique collection. Find local antique appraisers today!"
         keywords={[
-          'art appraiser near me',
-          'find art appraisers',
-          'local art appraisers',
-          'art valuation services',
-          'art authentication services',
-          'certified art appraisers',
-          'professional art valuation',
-          'fine art appraisal',
-          'art appraisal for insurance',
-          'art appraisal for estate',
-          'art appraisal for donation'
+          'antique appraiser near me',
+          'find antique appraisers',
+          'local antique appraisers',
+          'antique valuation services',
+          'antique authentication services',
+          'certified antique appraisers',
+          'professional antique valuation',
+          'fine antique appraisal',
+          'antique appraisal for insurance',
+          'antique appraisal for estate',
+          'antique appraisal for donation'
         ]}
         schema={[
           generateHomePageSchema(),
@@ -111,10 +111,10 @@ function App() {
             <div className="absolute top-3/4 left-1/3 w-8 h-8 bg-primary/30 rounded-full blur-lg"></div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-center leading-tight">
-              Find <span className="text-primary">Art Appraisers</span> Near You
+              Find <span className="text-primary">Antique Appraisers</span> Near You
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto text-center">
-              Connect with certified art appraisers, get expert valuations, and make informed decisions about your art collection.
+              Connect with certified antique appraisers, get expert valuations, and make informed decisions about your antique collection.
             </p>
             
             <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto relative z-10 bg-white p-2 rounded-lg shadow-lg">
@@ -174,9 +174,9 @@ function App() {
         {/* Cities Directory Section */}
         <div className="bg-gray-50 py-16">
           <div className="container mx-auto px-6">
-            <h2 className="text-3xl font-bold mb-4 text-center">Art Appraiser Directory by City</h2>
+            <h2 className="text-3xl font-bold mb-4 text-center">Antique Appraiser Directory by City</h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              Find certified art appraisers in your city. Our directory covers major metropolitan areas across the United States.
+              Find certified antique appraisers in your city. Our directory covers major metropolitan areas across the United States.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -214,10 +214,10 @@ function App() {
         
         {/* Featured Appraisers Section */}
         <main className="container mx-auto px-6 py-16">
-          <h2 className="text-3xl font-bold mb-10 text-center">Featured Art Appraisers</h2>
+          <h2 className="text-3xl font-bold mb-10 text-center">Featured Antique Appraisers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Example Appraiser Card 1 */}
-            <a href="https://art-appraiser-directory.appraisily.com/appraiser/metropolitan-art-appraisers-chicago" className="group">
+            <a href="https://antique-appraiser-directory.appraisily.com/appraiser/metropolitan-art-appraisers-chicago" className="group">
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
@@ -249,7 +249,7 @@ function App() {
             </a>
             
             {/* Example Appraiser Card 2 */}
-            <a href="https://art-appraiser-directory.appraisily.com/appraiser/heritage-fine-art-appraisers" className="group">
+            <a href="https://antique-appraiser-directory.appraisily.com/appraiser/heritage-fine-art-appraisers" className="group">
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
@@ -281,7 +281,7 @@ function App() {
             </a>
             
             {/* Example Appraiser Card 3 */}
-            <a href="https://art-appraiser-directory.appraisily.com/appraiser/blue-chip-art-valuation" className="group">
+            <a href="https://antique-appraiser-directory.appraisily.com/appraiser/blue-chip-art-valuation" className="group">
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>

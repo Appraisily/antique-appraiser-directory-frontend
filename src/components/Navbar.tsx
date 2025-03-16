@@ -55,7 +55,7 @@ export default function Navbar() {
               />
               <div className="flex flex-col leading-tight">
                 <span className="text-xl font-semibold text-gray-900">Appraisily</span>
-                <span className="text-xs text-gray-600 -mt-1">Art Appraiser Directory</span>
+                <span className="text-xs text-gray-600 -mt-1">Antique Appraiser Directory</span>
               </div>
             </Link>
           </div>

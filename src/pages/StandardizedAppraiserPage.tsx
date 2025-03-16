@@ -56,14 +56,14 @@ export function StandardizedAppraiserPage() {
         {
           "@type": "ListItem",
           "position": 2,
-          "name": `Art Appraisers in ${appraiser.address.city}`,
+          "name": `Antique Appraisers in ${appraiser.address.city}`,
           "item": `https://appraisily.com/location/${citySlug}`
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": appraiser.name,
-          "item": `https://art-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`
+          "item": `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`
         }
       ]
     };
@@ -86,7 +86,7 @@ export function StandardizedAppraiserPage() {
         "postalCode": appraiser.address.zip,
         "addressCountry": "US"
       },
-      "url": `https://art-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`,
+      "url": `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`,
       "telephone": appraiser.contact.phone,
       "email": appraiser.contact.email,
       "priceRange": appraiser.business.pricing,
@@ -177,14 +177,14 @@ export function StandardizedAppraiserPage() {
     return (
       <div className="container mx-auto px-4 py-8 mt-16">
         <SEO 
-          title="Appraiser Not Found | Art Appraisers Directory"
-          description="We couldn't find the requested art appraiser. Browse our directory for other art appraisers."
+          title="Appraiser Not Found | Antique Appraisers Directory"
+          description="We couldn't find the requested antique appraiser. Browse our directory for other antique appraisers."
           canonicalUrl="https://appraisily.com/appraiser-not-found"
         />
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-3xl font-bold mb-4">Art Appraiser Not Found</h1>
+          <h1 className="text-3xl font-bold mb-4">Antique Appraiser Not Found</h1>
           <div className="bg-blue-50 border border-blue-200 text-blue-700 px-6 py-4 rounded-lg mb-6">
-            <p className="font-medium">We couldn't find the requested art appraiser.</p>
+            <p className="font-medium">We couldn't find the requested antique appraiser.</p>
             <p className="mt-2">Please check back or explore other appraisers in our directory.</p>
           </div>
           <a href="https://appraisily.com" className="text-blue-600 hover:underline font-medium">
@@ -195,8 +195,8 @@ export function StandardizedAppraiserPage() {
     );
   }
 
-  const seoTitle = `${appraiser.name} - Art Appraiser in ${appraiser.address.city} | Expert Art Valuation Services`;
-  const seoDescription = `Get professional art appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
+  const seoTitle = `${appraiser.name} - Antique Appraiser in ${appraiser.address.city} | Expert Antique Valuation Services`;
+  const seoDescription = `Get professional antique appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
   const citySlug = appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
 
   return (
@@ -209,7 +209,7 @@ export function StandardizedAppraiserPage() {
           generateBreadcrumbSchema(),
           generateFAQSchema()
         ]}
-        canonicalUrl={`https://art-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`}
+        canonicalUrl={`https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`}
       />
       
       <nav className="flex mb-6" aria-label="Breadcrumb">
@@ -238,7 +238,7 @@ export function StandardizedAppraiserPage() {
           <div className="rounded-lg overflow-hidden shadow-md mb-6">
             <img 
               src={appraiser.imageUrl} 
-              alt={`${appraiser.name} - Art Appraiser in ${appraiser.address.city}`}
+              alt={`${appraiser.name} - Antique Appraiser in ${appraiser.address.city}`}
               className="w-full h-auto"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
@@ -424,7 +424,7 @@ export function StandardizedAppraiserPage() {
             )}
             
             <div className="mt-8 pt-6 border-t border-gray-100">
-              <h3 className="font-medium text-gray-900 mb-3">Need Art Appraisal Services?</h3>
+              <h3 className="font-medium text-gray-900 mb-3">Need Antique Appraisal Services?</h3>
               <p className="text-gray-600 mb-4">
                 Contact {appraiser.name} directly or use our platform to request an appraisal.
               </p>

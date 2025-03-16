@@ -1,8 +1,12 @@
 {
-  "totalAppraisers": 282,
-  "processedAppraisers": 0,
+  "totalAppraisers": 313,
+  "processedAppraisers": 3,
   "cities": {},
-  "lastProcessed": "2025-03-15T23:06:04.132Z",
+  "lastProcessed": "2025-03-16T19:56:29.895Z",
   "startTime": "2025-03-15T23:06:03.878Z",
-  "completedAppraisers": []
+  "completedAppraisers": [
+    "richard-raymond-j-alasko-8905",
+    "gretchen-burch-8538",
+    "pamela-pierrepont-bardo-374"
+  ]
 }
