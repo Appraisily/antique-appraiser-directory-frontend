@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Sitemap: https://antique-appraiser-directory.appraisily.com/sitemap.xml
+
+# Block access to admin and system files
+User-agent: *
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
