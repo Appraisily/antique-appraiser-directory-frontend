@@ -8,7 +8,7 @@
   # Environment variables for the build
   [build.environment]
     # Set the site URL for sitemap generation
-    SITE_URL = "https://antique-appraiser-directory.appraisily.com"
+    SITE_URL = "https://art-appraiser.appraisily.com"
     NODE_VERSION = "18"
 
 # Explicitly handle asset files with correct MIME types
@@ -31,13 +31,13 @@
   to = "/assets/:splat"
   status = 200
 
-# Fix for directory assets path issue - critical fix
+# Fix for directory assets path issue
 [[redirects]]
   from = "/directory/assets/*"
   to = "/assets/:splat"
   status = 200
   
-# Remove the reverse redirect that could cause conflicts
+# Removed conflicting redirect that was causing issues
 # [[redirects]]
 #   from = "/assets/*"
 #   to = "/directory/assets/:splat"
@@ -62,6 +62,7 @@
   from = "/*"
   to = "/index.html"
   status = 200
+  force = false
 
 # Additional header configurations
 [[headers]]
