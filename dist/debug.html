@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netlify Debug Page</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 2rem; max-width: 800px; margin: 0 auto; }
+    pre { background: #f5f5f5; padding: 1rem; overflow-x: auto; }
+    .debug-info { margin-bottom: 2rem; }
+    h2 { color: #333; border-bottom: 1px solid #eee; padding-bottom: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>Netlify Debug Information</h1>
+  
+  <div class="debug-info">
+    <h2>Request Information</h2>
+    <pre id="request-info">Loading...</pre>
+  </div>
+
+  <div class="debug-info">
+    <h2>Netlify Environment</h2>
+    <pre id="netlify-env">Loading...</pre>
+  </div>
+
+  <div class="debug-info">
+    <h2>Available Files</h2>
+    <pre id="file-list">Loading...</pre>
+  </div>
+
+  <div class="debug-info">
+    <h2>Redirects Configuration</h2>
+    <pre id="redirects-config">Loading...</pre>
+  </div>
+
+  <script>
+    // Display current URL and path information
+    const requestInfo = document.getElementById('request-info');
+    requestInfo.textContent = JSON.stringify({
+      location: window.location,
+      href: window.location.href,
+      pathname: window.location.pathname,
+      search: window.location.search,
+      hash: window.location.hash,
+      origin: window.location.origin,
+      host: window.location.host
+    }, null, 2);
+
+    // Add user agent and referrer
+    requestInfo.textContent += '\n\nUserAgent: ' + navigator.userAgent;
+    requestInfo.textContent += '\nReferrer: ' + document.referrer;
+
+    // Show Netlify information
+    document.getElementById('netlify-env').textContent = 'Running on Netlify: ' + 
+      (window.location.hostname.includes('netlify.app') ? 'Yes' : 'No');
+
+    // Mock file list - we can't actually read the filesystem from the browser
+    document.getElementById('file-list').textContent = 
+      "This page can only show client-side information.\nFor server-side debugging, check Netlify logs.";
+
+    // Show redirect info from localStorage if available
+    const redirectsConfig = document.getElementById('redirects-config');
+    redirectsConfig.textContent = "From _redirects file:\n/appraiser/* /appraiser/:splat/index.html 200!\n\nFrom netlify.toml:\n[[redirects]]\n  from = \"/appraiser/*\"\n  to = \"/appraiser/:splat/index.html\"\n  status = 200\n  force = true";
+  </script>
+</body>
+</html>

@@ -46,7 +46,20 @@
 #   status = 200
 #   force = false
 
-# Ensure appraiser pages take absolute priority
+# Specific problematic appraiser URLs
+[[redirects]]
+  from = "/appraiser/appraiseitnow---online-service-covering-ohio"
+  to = "/appraiser/appraiseitnow---online-service-covering-ohio/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/appraiser/appraiseitnow---online-service-covering-ohio/*"
+  to = "/appraiser/appraiseitnow---online-service-covering-ohio/index.html"
+  status = 200
+  force = true
+
+# Ensure appraiser pages take absolute priority  
 [[redirects]]
   from = "/appraiser/*"
   to = "/appraiser/:splat/index.html"
