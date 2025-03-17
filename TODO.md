@@ -1,4 +1,4 @@
-# Todo List for Art Appraisers Directory Frontend
+# Todo List for Antique Appraisers Directory Frontend
 
 ## Build & Deployment Improvements
 

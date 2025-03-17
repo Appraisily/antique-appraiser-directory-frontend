@@ -15,7 +15,7 @@ import chalk from 'chalk';
 
 // Configuration
 const MAIN_DOMAIN = 'https://appraisily.com';
-const SUBDOMAIN = 'https://art-appraiser-directory.appraisily.com';
+const SUBDOMAIN = 'https://antique-appraiser-directory.appraisily.com';
 
 // Get the project root directory
 const __dirname = path.dirname(fileURLToPath(import.meta.url));

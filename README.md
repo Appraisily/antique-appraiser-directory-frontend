@@ -1,6 +1,6 @@
-# Art Appraiser Directory Frontend
+# Antique Appraiser Directory Frontend
 
-This repository contains a React/TypeScript frontend for the Art Appraiser Directory website. It uses Vite for building, with a focus on generating static HTML files for improved SEO and performance.
+This repository contains a React/TypeScript frontend for the Antique Appraiser Directory website. It uses Vite for building, with a focus on generating static HTML files for improved SEO and performance.
 
 ## Features
 
@@ -102,7 +102,7 @@ This directory frontend implements comprehensive SEO features to maximize Google
 
 ### Content Optimization
 
-- **Keyword-rich Content**: Pages are structured for relevant art appraisal keywords
+- **Keyword-rich Content**: Pages are structured for relevant antique appraisal keywords
 - **Structured Content**: Clear content hierarchy with proper heading structure
 - **Local SEO**: Location-specific pages optimized for local search queries
 - **FAQ Schema**: Structured FAQ content for potential featured snippets

@@ -247,7 +247,13 @@ async function getAllAppraisers() {
 async function checkAppraisersNeedingImages() {
   try {
     const allAppraisers = await getAllAppraisers();
+    const forceRegenerateAll = process.argv.includes('--all');
+
     const needsImage = allAppraisers.filter(appraiser => {
+      if (forceRegenerateAll) {
+        return true; // Force regenerate all images
+      }
+      
       // If the image URL contains a placeholder path like "appraiser_chicago-" 
       // or is from our ImageKit folder, it's a generated image
       const hasPlaceholder = appraiser.existing && 
