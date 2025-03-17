@@ -50,7 +50,7 @@ export function Footer() {
       <div className="relative border-b border-gray-200">
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <h3 className="text-lg font-semibold text-gray-900 mb-6">
-            Find Art Appraisers Near You
+            Find Antique Appraisers Near You
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
             {cities.map((city) => (
