@@ -73,6 +73,13 @@
   status = 200
   force = false
 
+# Redirect from old domain to new domain
+[[redirects]]
+  from = "https://art-appraiser-directory.appraisily.com/*"
+  to = "https://antique-appraiser-directory.appraisily.com/:splat"
+  status = 301
+  force = true
+
 # Redirect all remaining routes to index.html for client-side routing
 [[redirects]]
   from = "/*"

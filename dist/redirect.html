@@ -2,25 +2,30 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/svg+xml" href="/vite.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find Antique Appraisers Near You | Expert Antique Valuation Services | Appraisily</title>
-    <meta name="description" content="Connect with certified antique appraisers in your area. Get expert valuations, authentication services, and professional advice for your antique collection. Compare ratings and read verified reviews.">
-    <!-- Domain redirect fix -->
+    <title>Redirecting to Antique Appraiser Directory</title>
+    <meta name="description" content="Redirecting to the correct domain for the Antique Appraiser Directory">
+    <meta http-equiv="refresh" content="0;URL='https://antique-appraiser-directory.appraisily.com'" />
     <script>
-      // Critical fix for domain redirection issues
-      if (window.location.href.includes('art-appraiser-directory.appraisily.com')) {
-        console.log('Redirecting to correct domain');
-        window.location.href = window.location.href.replace('art-appraiser-directory.appraisily.com', 'antique-appraiser-directory.appraisily.com');
-      }
+      // Immediate redirect
+      window.location.href = window.location.href.replace('art-appraiser-directory.appraisily.com', 'antique-appraiser-directory.appraisily.com');
       
       // Debug logs
-      console.log('Debug: Loading home page', window.location.pathname);
-      if (window.location.pathname.includes('/appraiser/')) {
-        console.log('Debug: Appraiser page request', window.location.pathname);
-        const appraiserPath = window.location.pathname.split('/appraiser/')[1];
-        console.log('Debug: Appraiser path:', appraiserPath);
+      console.log('Domain redirect page');
+      console.log('Current URL:', window.location.href);
+      
+      // Attempt to preserve path when redirecting
+      const path = window.location.pathname;
+      const targetDomain = 'https://antique-appraiser-directory.appraisily.com';
+      
+      if (path && path !== '/') {
+        console.log('Redirecting with path:', path);
+        window.location.href = targetDomain + path;
+      } else {
+        console.log('Redirecting to home');
+        window.location.href = targetDomain;
       }
     </script>
-    <!-- Preload critical assets -->
+    <!-- No assets needed for redirect page -->
     <link rel="preload" href="/assets/index-D2nxN4aO.css" as="style" crossorigin="">
     <link rel="preload" href="/assets/index-DXJ7oq4J.js" as="script" crossorigin="">
     <!-- Meta tag to prevent duplicate script injection -->
