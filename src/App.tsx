@@ -216,79 +216,15 @@ function App() {
         <main className="container mx-auto px-6 py-16">
           <h2 className="text-3xl font-bold mb-10 text-center">Featured Antique Appraisers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Example Appraiser Card 1 */}
-            <a href="https://antique-appraiser-directory.appraisily.com/appraiser/metropolitan-art-appraisers-chicago" className="group">
+            {/* Appraiser Card 1 - Sotheby's New York */}
+            <a href="/appraiser/sothebys-new-york" className="group">
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
                     <div style={{ position: 'absolute', inset: 0 }}>
                       <img
-                        src="https://images.unsplash.com/photo-1594732832278-abd644401426?auto=format&fit=crop&q=80"
-                        alt="Metropolitan Art Appraisers"
-                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                  <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
-                    <Star className="w-4 h-4 fill-primary text-primary" /> 4.9
-                  </div>
-                </div>
-                <div className="p-5">
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Metropolitan Art Appraisers</h3>
-                  <div className="flex items-center text-muted-foreground mb-3">
-                    <MapPin className="w-4 h-4 mr-1" /> New York, NY
-                  </div>
-                  <p className="text-muted-foreground text-sm mb-4">Expert appraisers specializing in modern and contemporary artwork with over 20 years of experience.</p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Modern Art</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Contemporary</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Sculptures</span>
-                  </div>
-                </div>
-              </div>
-            </a>
-            
-            {/* Example Appraiser Card 2 */}
-            <a href="https://antique-appraiser-directory.appraisily.com/appraiser/heritage-fine-art-appraisers" className="group">
-              <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
-                <div className="relative">
-                  <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
-                    <div style={{ position: 'absolute', inset: 0 }}>
-                      <img
-                        src="https://images.unsplash.com/photo-1580543736471-c548332fe5b8?auto=format&fit=crop&q=80"
-                        alt="Heritage Fine Art Appraisers"
-                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                  <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
-                    <Star className="w-4 h-4 fill-primary text-primary" /> 4.8
-                  </div>
-                </div>
-                <div className="p-5">
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Heritage Fine Art Appraisers</h3>
-                  <div className="flex items-center text-muted-foreground mb-3">
-                    <MapPin className="w-4 h-4 mr-1" /> Los Angeles, CA
-                  </div>
-                  <p className="text-muted-foreground text-sm mb-4">Specialized in European classical art, antiques, and collectibles with extensive auction experience.</p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Classical Art</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Antiques</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Valuation</span>
-                  </div>
-                </div>
-              </div>
-            </a>
-            
-            {/* Example Appraiser Card 3 */}
-            <a href="https://antique-appraiser-directory.appraisily.com/appraiser/blue-chip-art-valuation" className="group">
-              <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
-                <div className="relative">
-                  <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
-                    <div style={{ position: 'absolute', inset: 0 }}>
-                      <img
-                        src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80"
-                        alt="Blue Chip Art Valuation"
+                        src="https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sothebys-new-york-7070_1742166258599_OtNJ5gopN.jpg"
+                        alt="Sotheby's New York"
                         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
@@ -298,15 +234,79 @@ function App() {
                   </div>
                 </div>
                 <div className="p-5">
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Blue Chip Art Valuation</h3>
+                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Sotheby's New York</h3>
                   <div className="flex items-center text-muted-foreground mb-3">
-                    <MapPin className="w-4 h-4 mr-1" /> Chicago, IL
+                    <MapPin className="w-4 h-4 mr-1" /> New York, NY
                   </div>
-                  <p className="text-muted-foreground text-sm mb-4">Experts in contemporary and investment-grade artwork with international market expertise.</p>
+                  <p className="text-muted-foreground text-sm mb-4">Prestigious auction house offering comprehensive valuations of fine art and luxury items since 1744.</p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Contemporary</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Investment Art</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Digital Art</span>
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Fine Art</span>
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Luxury Items</span>
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Valuations</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            {/* Appraiser Card 2 - Heritage Auctions */}
+            <a href="/appraiser/heritage-auctions" className="group">
+              <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
+                <div className="relative">
+                  <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
+                    <div style={{ position: 'absolute', inset: 0 }}>
+                      <img
+                        src="https://ik.imagekit.io/appraisily/appraiser-images/appraiser_heritage-auctions-9336_1742166295247_Te5aZW192.jpg"
+                        alt="Heritage Auctions"
+                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                  </div>
+                  <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
+                    <Star className="w-4 h-4 fill-primary text-primary" /> 4.6
+                  </div>
+                </div>
+                <div className="p-5">
+                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Heritage Auctions</h3>
+                  <div className="flex items-center text-muted-foreground mb-3">
+                    <MapPin className="w-4 h-4 mr-1" /> New York, NY
+                  </div>
+                  <p className="text-muted-foreground text-sm mb-4">Leading collectibles auctioneer specializing in fine art and rare collectibles since 1976.</p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Collectibles</span>
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Fine Art</span>
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Auctions</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            {/* Appraiser Card 3 - Clars Auction Gallery */}
+            <a href="/appraiser/clars-auction-gallery" className="group">
+              <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
+                <div className="relative">
+                  <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
+                    <div style={{ position: 'absolute', inset: 0 }}>
+                      <img
+                        src="https://ik.imagekit.io/appraisily/appraiser-images/appraiser_oakland-clars-auction-gallery_1742202839449_GkygjFg5F.jpg"
+                        alt="Clars Auction Gallery"
+                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                  </div>
+                  <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
+                    <Star className="w-4 h-4 fill-primary text-primary" /> 5.0
+                  </div>
+                </div>
+                <div className="p-5">
+                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Clars Auction Gallery</h3>
+                  <div className="flex items-center text-muted-foreground mb-3">
+                    <MapPin className="w-4 h-4 mr-1" /> Oakland, CA
+                  </div>
+                  <p className="text-muted-foreground text-sm mb-4">Specialists in antique furniture, Asian art, mid-century design, and fine jewelry since 1972.</p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Antique Furniture</span>
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Asian Art</span>
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Jewelry</span>
                   </div>
                 </div>
               </div>
