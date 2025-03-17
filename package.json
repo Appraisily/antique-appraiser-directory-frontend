@@ -9,7 +9,7 @@
         "build:legacy": "node scripts/build-simple.js",
         "build:simple": "node scripts/build-simple.js",
         "build:standardized": "node scripts/build-standardized.js",
-        "build:netlify-ready": "node scripts/fix-appraiser-links.js && node scripts/build-standardized.js && node scripts/fix-html-paths.js && node scripts/fix-subdomain-links.js && node scripts/fix-js-urls.js && node scripts/prepare-for-netlify.js",
+        "build:netlify-ready": "node scripts/fix-appraiser-links.js && node scripts/build-standardized.js && node scripts/fix-html-paths.js && node scripts/fix-subdomain-links.js && node scripts/fix-js-urls.js && node scripts/fix-asset-paths.js && node scripts/prepare-for-netlify.js",
         "preview": "vite preview",
         "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "test:html": "node ./scripts/test-html.js",
@@ -43,7 +43,8 @@
         "generate:antique-images-batch": "node ./scripts/generate-antique-appraiser-images-batch.js",
         "generate:all-appraiser-images": "node ./scripts/generate-all-appraiser-images.js",
         "count:appraisers": "node ./scripts/count-appraisers.js",
-        "generate:appraiser-pages": "node ./scripts/generate-appraiser-pages.js"
+        "generate:appraiser-pages": "node ./scripts/generate-appraiser-pages.js",
+        "fix:asset-paths": "node ./scripts/fix-asset-paths.js"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",
