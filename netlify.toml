@@ -30,14 +30,12 @@
   from = "/assets/*"
   to = "/assets/:splat"
   status = 200
-  force = true
 
 # Fix for directory assets path issue
 [[redirects]]
   from = "/directory/assets/*"
   to = "/assets/:splat"
   status = 200
-  force = true
   
 # Removed conflicting redirect that was causing issues
 # [[redirects]]
@@ -46,38 +44,17 @@
 #   status = 200
 #   force = false
 
-# Specific problematic appraiser URLs
-[[redirects]]
-  from = "/appraiser/appraiseitnow---online-service-covering-ohio"
-  to = "/appraiser/appraiseitnow---online-service-covering-ohio/index.html"
-  status = 200
-  force = true
-
-[[redirects]]
-  from = "/appraiser/appraiseitnow---online-service-covering-ohio/*"
-  to = "/appraiser/appraiseitnow---online-service-covering-ohio/index.html"
-  status = 200
-  force = true
-
-# Ensure appraiser pages take absolute priority  
-[[redirects]]
-  from = "/appraiser/*"
-  to = "/appraiser/:splat/index.html"
-  status = 200
-  force = true
-
-# Locations should be lower priority than appraisers
+# Don't redirect for static HTML pages that exist
 [[redirects]]
   from = "/location/*"
   to = "/location/:splat/index.html"
   status = 200
   force = false
 
-# Redirect from old domain to new domain
 [[redirects]]
-  from = "https://antique-appraiser-directory.appraisily.com/*"
-  to = "https://antique-appraiser-directory.appraisily.com/:splat"
-  status = 301
+  from = "/appraiser/*"
+  to = "/appraiser/:splat/index.html"
+  status = 200
   force = true
 
 # Redirect all remaining routes to index.html for client-side routing

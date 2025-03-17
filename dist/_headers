@@ -1,0 +1,9 @@
+# Netlify _headers file - ensures correct MIME types
+/assets/*.js
+  Content-Type: text/javascript
+
+/assets/*.css
+  Content-Type: text/css
+
+/*
+  X-Content-Type-Options: nosniff
