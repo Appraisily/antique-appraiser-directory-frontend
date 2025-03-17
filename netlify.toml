@@ -55,7 +55,7 @@
   from = "/appraiser/*"
   to = "/appraiser/:splat/index.html"
   status = 200
-  force = false
+  force = true
 
 # Redirect all remaining routes to index.html for client-side routing
 [[redirects]]
