@@ -30,7 +30,7 @@ import {
 } from './schema-generator.js';
 
 // Constants
-const BASE_URL = 'https://art-appraiser.appraisily.com';
+const BASE_URL = 'https://antique-appraiser-directory.appraisily.com';
 const DEFAULT_META_TITLE = 'Art Appraiser Directory | Find Qualified Art Appraisers';
 const DEFAULT_META_DESCRIPTION = 'Find professional art appraisers for insurance, estate, donation, and fair market value appraisals. Get accurate valuations for your artwork.';
 

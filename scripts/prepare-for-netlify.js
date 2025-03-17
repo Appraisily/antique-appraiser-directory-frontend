@@ -35,7 +35,7 @@ try {
     console.log('📝 Creating robots.txt...');
     fs.writeFileSync(
       robotsPath,
-      'User-agent: *\nAllow: /\nSitemap: https://art-appraiser.appraisily.com/sitemap.xml'
+      'User-agent: *\nAllow: /\nSitemap: https://antique-appraiser-directory.appraisily.com/sitemap.xml'
     );
   }
 
@@ -60,7 +60,7 @@ try {
   # Environment variables for the build
   [build.environment]
     # Set the site URL for sitemap generation
-    SITE_URL = "https://art-appraiser.appraisily.com"
+    SITE_URL = "https://antique-appraiser-directory.appraisily.com"
     NODE_VERSION = "18"
 
 # Explicitly handle asset files with correct MIME types

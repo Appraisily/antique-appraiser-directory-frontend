@@ -21,9 +21,9 @@ export function createSchemaScript(schema) {
 export function generateWebsiteSchema(options = {}) {
   const {
     name = 'Art Appraiser Directory',
-    url = 'https://art-appraiser.appraisily.com',
-    description = 'Find qualified art appraisers for insurance, estate, donation, and fair market value appraisals.',
-    searchUrl = 'https://art-appraiser.appraisily.com/search'
+    url = 'https://antique-appraiser-directory.appraisily.com',
+    description = 'Find qualified antique appraisers for insurance, estate, donation, and fair market value appraisals.',
+    searchUrl = 'https://antique-appraiser-directory.appraisily.com/search'
   } = options;
   
   return {
@@ -79,7 +79,7 @@ export function generateAppraiserSchema(appraiser) {
   if (!appraiser || !appraiser.name) return null;
   
   // Base URL for all appraiser pages
-  const baseUrl = 'https://art-appraiser.appraisily.com';
+  const baseUrl = 'https://antique-appraiser-directory.appraisily.com';
   
   // Generate slug if not provided
   const slug = appraiser.slug || appraiser.id || appraiser.name.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
@@ -272,7 +272,7 @@ export function generateLocalBusinessListSchema(options) {
   const {
     businesses = [],
     cityName = '',
-    baseUrl = 'https://art-appraiser.appraisily.com'
+    baseUrl = 'https://antique-appraiser-directory.appraisily.com'
   } = options;
   
   if (!businesses || businesses.length === 0) return null;
@@ -363,7 +363,7 @@ export function generateServiceSchema(service, provider) {
     
     // Add provider URL if available
     if (provider.slug || provider.id) {
-      const baseUrl = 'https://art-appraiser.appraisily.com';
+      const baseUrl = 'https://antique-appraiser-directory.appraisily.com';
       const slug = provider.slug || provider.id;
       schema.provider.url = `${baseUrl}/appraiser/${slug}`;
     }
@@ -482,7 +482,7 @@ export function generateLocationPageSchemas(locationData, appraisers = []) {
     'provider': appraisers.map(appraiser => ({
       '@type': 'ProfessionalService',
       'name': appraiser.name,
-      'url': `https://art-appraiser.appraisily.com/appraiser/${appraiser.slug || appraiser.id}`
+      'url': `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug || appraiser.id}`
     }))
   };
   schemas.push(serviceSchema);
