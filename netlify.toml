@@ -30,12 +30,14 @@
   from = "/assets/*"
   to = "/assets/:splat"
   status = 200
+  force = true
 
 # Fix for directory assets path issue
 [[redirects]]
   from = "/directory/assets/*"
   to = "/assets/:splat"
   status = 200
+  force = true
   
 # Removed conflicting redirect that was causing issues
 # [[redirects]]
@@ -44,18 +46,19 @@
 #   status = 200
 #   force = false
 
-# Don't redirect for static HTML pages that exist
-[[redirects]]
-  from = "/location/*"
-  to = "/location/:splat/index.html"
-  status = 200
-  force = false
-
+# Ensure appraiser pages take absolute priority
 [[redirects]]
   from = "/appraiser/*"
   to = "/appraiser/:splat/index.html"
   status = 200
   force = true
+
+# Locations should be lower priority than appraisers
+[[redirects]]
+  from = "/location/*"
+  to = "/location/:splat/index.html"
+  status = 200
+  force = false
 
 # Redirect all remaining routes to index.html for client-side routing
 [[redirects]]

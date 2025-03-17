@@ -73,8 +73,10 @@ async function generateSitemap() {
         
         locationData.appraisers?.forEach(appraiser => {
           if (appraiser.id) {
+            // Make sure appraiser ID is URL-safe by removing spaces and special characters
+            const safeId = encodeURIComponent(appraiser.id).replace(/%20/g, '-');
             routesWithMetadata.push({
-              url: `/appraiser/${appraiser.id}`,
+              url: `/appraiser/${safeId}`,
               priority: '0.6',
               changefreq: 'weekly'
             });
