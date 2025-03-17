@@ -1,0 +1,746 @@
+{
+  "summary": {
+    "total": 313,
+    "valid": 309,
+    "invalid": 4,
+    "percentage": 98.72,
+    "reportDate": "2025-03-17T09:33:03.803Z"
+  },
+  "cityDetails": [
+    {
+      "city": "new-york",
+      "total": 3,
+      "valid": 1,
+      "invalid": 2,
+      "percentage": 33.33
+    },
+    {
+      "city": "san-francisco",
+      "total": 3,
+      "valid": 1,
+      "invalid": 2,
+      "percentage": 33.33
+    },
+    {
+      "city": "albuquerque",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "anchorage",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "arlington",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "aspen",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "atlanta",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "austin",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "baltimore",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "baton-rouge",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "birmingham",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "boise",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "boston",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "buffalo",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "calgary",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "charleston",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "charlotte",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "charlottetown",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "chicago copy",
+      "total": 8,
+      "valid": 8,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "chicago",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "cincinnati",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "cleveland",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "colorado-springs",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "columbus",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "dallas",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "denver",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "des-moines",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "detroit",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "edmonton",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "el-paso",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "fort-lauderdale",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "fort-worth",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "fredericton",
+      "total": 4,
+      "valid": 4,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "fresno",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "halifax",
+      "total": 4,
+      "valid": 4,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "hamilton",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "hartford",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "honolulu",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "houston",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "indianapolis",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "jacksonville",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "kansas-city",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "kelowna",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "kingston",
+      "total": 4,
+      "valid": 4,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "kitchener",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "las-vegas",
+      "total": 5,
+      "valid": 5,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "lexington",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "little-rock",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "london",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "long-beach",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "los-angeles",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "louisville",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "memphis",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "miami",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "milwaukee",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "minneapolis",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "moncton",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "montreal",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "nashville",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "new-orleans",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "new-york copy",
+      "total": 13,
+      "valid": 13,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "norfolk",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "oakland",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "oklahoma-city",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "omaha",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "orlando",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "ottawa",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "palm-beach",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "philadelphia",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "phoenix copy",
+      "total": 10,
+      "valid": 10,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "phoenix",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "pittsburgh",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "portland",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "providence",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "quebec-city",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "raleigh",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "regina",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "richmond",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "rochester",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "sacramento",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "salt-lake-city",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "san-antonio",
+      "total": 4,
+      "valid": 4,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "san-diego",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "san-jose",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "santa-fe",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "saskatoon",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "savannah",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "seattle",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "st-john-s",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "st-louis",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "st-paul",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "sudbury",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "tampa",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "thunder-bay",
+      "total": 4,
+      "valid": 4,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "toledo",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "toronto",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "tucson",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "tulsa",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "vancouver",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "victoria",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "virginia-beach",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "washington-dc",
+      "total": 1,
+      "valid": 1,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "washington",
+      "total": 3,
+      "valid": 3,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "whitehorse",
+      "total": 2,
+      "valid": 2,
+      "invalid": 0,
+      "percentage": 100
+    },
+    {
+      "city": "wichita",
+      "total": 4,
+      "valid": 4,
+      "invalid": 0,
+      "percentage": 100
+    }
+  ]
+}
