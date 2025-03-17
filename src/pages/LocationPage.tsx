@@ -136,7 +136,7 @@ export function LocationPage() {
         <main className="container mx-auto px-6 py-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {locationData.appraisers && locationData.appraisers.map((appraiser, index) => (
-                <a key={`appraiser-${appraiser?.id || appraiser?.name || index}-${index}`} href={`https://art-appraiser-directory.appraisily.com/appraiser/${appraiser?.id || ''}`}>
+                <a key={`appraiser-${appraiser?.id || appraiser?.name || index}-${index}`} href={`https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser?.id || ''}`}>
                   <div className="rounded-lg border bg-white text-foreground shadow-sm group overflow-hidden hover:shadow-lg transition-all duration-300">
                     <div className="relative">
                       <div style={{ position: 'relative', width: '100%', paddingBottom: '75%' }}>

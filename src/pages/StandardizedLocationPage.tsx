@@ -140,7 +140,7 @@ export function StandardizedLocationPage() {
           {locationData.appraisers.map((appraiser) => (
             <div key={appraiser.id} className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <a 
-                href={`https://art-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`} 
+                href={`https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`} 
                 className="block"
               >
                 <div className="h-48 bg-gray-200 overflow-hidden">

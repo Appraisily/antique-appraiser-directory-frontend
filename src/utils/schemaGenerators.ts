@@ -592,7 +592,7 @@ export function generateWebPageSchema(title: string, description: string, url: s
     "isPartOf": {
       "@type": "WebSite",
       "name": "Appraisily",
-      "url": "https://art-appraiser.appraisily.com/"
+      "url": "https://antique-appraiser-directory.appraisily.com/"
     },
     "about": {
       "@type": "Thing",
@@ -685,7 +685,7 @@ export function generateHowToSchema(title: string = 'How to Get an Art Appraisal
         "name": "Find a qualified appraiser",
         "text": "Search our directory to find a certified art appraiser who specializes in your type of artwork.",
         "image": "https://ik.imagekit.io/appraisily/how-to/find-appraiser.jpg",
-        "url": "https://art-appraiser.appraisily.com"
+        "url": "https://antique-appraiser-directory.appraisily.com"
       },
       {
         "@type": "HowToStep",
