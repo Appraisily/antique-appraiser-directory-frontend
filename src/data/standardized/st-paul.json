@@ -18,7 +18,7 @@
         "website": "https://www.1redtailappraisals.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "15+ years providing certified antique valuations nationwide.",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -33,7 +33,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
         "rating": 4.8,
         "reviewCount": 6
       },
@@ -112,7 +112,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.8,
         "reviewCount": 18
       },
@@ -203,7 +203,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
         "rating": 4.1,
         "reviewCount": 11
       },

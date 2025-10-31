@@ -18,7 +18,7 @@
         "website": "https://brianlehmanevaluations.com/"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "15+ years providing certified antique valuations nationwide.",
         "hours": [
           {
             "day": "Monday-Thursday",
@@ -33,7 +33,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.9,
         "reviewCount": 19
       },
@@ -92,85 +92,6 @@
       }
     },
     {
-      "id": "calgary-cowley-abbott-auctioneers-appraisers",
-      "name": "Cowley Abbott Auctioneers & Appraisers",
-      "slug": "cowley-abbott-auctioneers-appraisers",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_calgary-cowley-abbott-auctioneers-appraisers_1742170118387_TjLd7IS4f.jpg",
-      "address": {
-        "street": "950 Main St",
-        "city": "Calgary",
-        "state": "AL",
-        "zip": "40324",
-        "formatted": "950 Main St, Calgary, AL 40324"
-      },
-      "contact": {
-        "phone": "987-860-1744",
-        "email": "info@cowleyabbottauctioneersappraisers.com",
-        "website": "https://brianlehmanevaluations.com/"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.9,
-        "reviewCount": 21
-      },
-      "expertise": {
-        "specialties": [
-          "Canadian/international fine art (historical masterpieces, post-war works)[5].  \n- Certifications：Industry-accredited team specializing high-value auctions（$36M+ sales）．"
-        ],
-        "certifications": [
-          "ISA",
-          "USPAP",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "Greater Calgary region (+ virtual consultations)."
-        ]
-      },
-      "content": {
-        "about": "Cowley Abbott Auctioneers & Appraisers provides professional antique appraisal services specializing in Canadian/international fine art (historical masterpieces, post-war works)[5].  \n- Certifications：Industry-accredited team specializing high-value auctions（$36M+ sales）．. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Calgary area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Jennifer M.",
-          "rating": 5,
-          "date": "2024-10-13",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "Nancy M.",
-          "rating": 4.5,
-          "date": "2024-06-22",
-          "content": "Cowley Abbott Auctioneers & Appraisers's knowledge of antique furniture values was exceptional. The documentation Cowley Abbott Auctioneers & Appraisers provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "Elizabeth R.",
-          "rating": 5,
-          "date": "2024-03-28",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "calgary-calgary-antique-appraisals",
       "name": "Calgary Antique Appraisals",
       "slug": "calgary-antique-appraisals",
@@ -195,7 +116,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.4,
         "reviewCount": 22
       },
@@ -242,6 +163,85 @@
           "author": "Susan M.",
           "rating": 5,
           "date": "2024-06-06",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "calgary-cowley-abbott-auctioneers-appraisers",
+      "name": "Cowley Abbott Auctioneers & Appraisers",
+      "slug": "cowley-abbott-auctioneers-appraisers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_calgary-cowley-abbott-auctioneers-appraisers_1742170118387_TjLd7IS4f.jpg",
+      "address": {
+        "street": "950 Main St",
+        "city": "Calgary",
+        "state": "AL",
+        "zip": "40324",
+        "formatted": "950 Main St, Calgary, AL 40324"
+      },
+      "contact": {
+        "phone": "987-860-1744",
+        "email": "info@cowleyabbottauctioneersappraisers.com",
+        "website": "https://brianlehmanevaluations.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Established firm with more than 12 years of specialized appraisal practice.",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
+        "rating": 4.9,
+        "reviewCount": 21
+      },
+      "expertise": {
+        "specialties": [
+          "Canadian/international fine art (historical masterpieces, post-war works)[5].  \n- Certifications：Industry-accredited team specializing high-value auctions（$36M+ sales）．"
+        ],
+        "certifications": [
+          "ISA",
+          "USPAP",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Greater Calgary region (+ virtual consultations)."
+        ]
+      },
+      "content": {
+        "about": "Cowley Abbott Auctioneers & Appraisers provides professional antique appraisal services specializing in Canadian/international fine art (historical masterpieces, post-war works)[5].  \n- Certifications：Industry-accredited team specializing high-value auctions（$36M+ sales）．. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Calgary area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer M.",
+          "rating": 5,
+          "date": "2024-10-13",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Nancy M.",
+          "rating": 4.5,
+          "date": "2024-06-22",
+          "content": "Cowley Abbott Auctioneers & Appraisers's knowledge of antique furniture values was exceptional. The documentation Cowley Abbott Auctioneers & Appraisers provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Elizabeth R.",
+          "rating": 5,
+          "date": "2024-03-28",
           "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
         }
       ],

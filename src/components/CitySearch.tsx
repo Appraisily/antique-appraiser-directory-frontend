@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { MapPin, Locate, Search } from 'lucide-react';
-import { cities } from '../utils/staticData';
+import { MapPin, Locate } from 'lucide-react';
+import { cities } from '../utils/standardizedData';
+import { trackEvent } from '../utils/analytics';
 
 export function CitySearch() {
   const [query, setQuery] = useState('');
@@ -50,10 +51,17 @@ export function CitySearch() {
 
   const handleLocationClick = () => {
     setIsLocating(true);
+    trackEvent('search_geolocate_request', {
+      source: 'hero_directory'
+    });
     // Simulate geolocation with a timeout for demonstration
     setTimeout(() => {
       setQuery('New York, NY');
       setIsLocating(false);
+      trackEvent('search_geolocate_complete', {
+        source: 'hero_directory',
+        resolved_city: 'new-york'
+      });
       // Typically you would use the browser's geolocation API here
       // navigator.geolocation.getCurrentPosition((position) => {
       //   // Use position.coords.latitude and position.coords.longitude
@@ -65,7 +73,35 @@ export function CitySearch() {
   const handleSelect = (city: typeof cities[0]) => {
     setQuery(`${city.name}, ${city.state}`);
     setIsOpen(false);
+    trackEvent('location_search_select', {
+      source: 'hero_directory',
+      city_slug: city.slug,
+      city_name: city.name,
+      state: city.state
+    });
     navigate(`/location/${city.slug}`);
+  };
+
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key !== 'Enter') {
+      return;
+    }
+
+    event.preventDefault();
+
+    if (suggestions.length > 0) {
+      handleSelect(suggestions[0]);
+      return;
+    }
+
+    if (query.trim().length === 0) {
+      return;
+    }
+
+    trackEvent('search_no_results', {
+      source: 'hero_directory',
+      query: query.trim()
+    });
   };
 
   const highlightMatch = (text: string, query: string) => {
@@ -94,7 +130,12 @@ export function CitySearch() {
           placeholder="Enter city or ZIP code"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          onFocus={() => query && setSuggestions.length > 0 && setIsOpen(true)}
+          onFocus={() => {
+            if (query && suggestions.length > 0) {
+              setIsOpen(true);
+            }
+          }}
+          onKeyDown={handleKeyDown}
         />
         <button
           type="button"

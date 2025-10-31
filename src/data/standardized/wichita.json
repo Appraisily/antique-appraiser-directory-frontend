@@ -1,97 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "wichita-licensed-appraisal-professionals",
-      "name": "Licensed Appraisal Professionals",
-      "slug": "licensed-appraisal-professionals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_wichita-licensed-appraisal-professionals_1742201708049_Dm9IAulo3.jpg",
-      "address": {
-        "street": "170 Antique Rd",
-        "city": "Wichita",
-        "state": "KA",
-        "zip": "77956",
-        "formatted": "170 Antique Rd, Wichita, KA 77956"
-      },
-      "contact": {
-        "phone": "(316)6839215",
-        "email": "info@licensedappraisalprofessionals.com",
-        "website": "https://www.licensedappraisalprofessionals.com"
-      },
-      "business": {
-        "yearsInBusiness": "Since 1971",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 5
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art • Native American artifacts • Decorative arts • Luxury fashion • Musical instruments  \nCertifications: ISA CAPP • GPPA • CES • ASA  \nExperience: National network founded >20 yrs ago ([1])  \nLocations: Mobile service throughout KS + remote options  \nContact: Visit artofestate.com"
-        ],
-        "certifications": [
-          "ISA",
-          "CAPP",
-          "GPPA",
-          "CES",
-          "ASA"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Licensed Appraisal Professionals provides professional antique appraisal services specializing in Fine art • Native American artifacts • Decorative arts • Luxury fashion • Musical instruments  \nCertifications: ISA CAPP • GPPA • CES • ASA  \nExperience: National network founded >20 yrs ago ([1])  \nLocations: Mobile service throughout KS + remote options  \nContact: Visit artofestate.com. With Since 1971 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Wichita area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "John S.",
-          "rating": 4.5,
-          "date": "2024-11-08",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "Linda W.",
-          "rating": 5,
-          "date": "2024-09-24",
-          "content": "Very responsive and easy to work with. Licensed Appraisal Professionals's expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "David M.",
-          "rating": 4.5,
-          "date": "2024-06-18",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Emily W.",
-          "rating": 4,
-          "date": "2024-05-27",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        },
-        {
-          "author": "John S.",
-          "rating": 4.5,
-          "date": "2024-04-23",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "wichita-art-of-estates",
       "name": "Art of Estates",
       "slug": "art-of-estates",
@@ -116,7 +25,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
         "rating": 4.1,
         "reviewCount": 8
       },
@@ -179,80 +88,6 @@
       }
     },
     {
-      "id": "wichita-jewelery-savers",
-      "name": "Jewelery Savers",
-      "slug": "jewelery-savers",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_wichita-jewelery-savers_1742201718633_HLQCWccX9.jpg",
-      "address": {
-        "street": "274 Main St",
-        "city": "Wichita",
-        "state": "KA",
-        "zip": "60373",
-        "formatted": "274 Main St, Wichita, KA 60373"
-      },
-      "contact": {
-        "phone": "(316)6839215",
-        "email": "info@jewelerysavers.com",
-        "website": "https://www.jewelerysavers.com"
-      },
-      "business": {
-        "yearsInBusiness": "Since 1971",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.1,
-        "reviewCount": 10
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art • Native American artifacts • Decorative arts • Luxury fashion • Musical instruments  \nCertifications: ISA CAPP • GPPA • CES • ASA  \nExperience: National network founded >20 yrs ago ([1])  \nLocations: Mobile service throughout KS + remote options  \nContact: Visit artofestate.com"
-        ],
-        "certifications": [
-          "ISA",
-          "CAPP",
-          "GPPA",
-          "CES",
-          "ASA"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Jewelery Savers provides professional antique appraisal services specializing in Fine art • Native American artifacts • Decorative arts • Luxury fashion • Musical instruments  \nCertifications: ISA CAPP • GPPA • CES • ASA  \nExperience: National network founded >20 yrs ago ([1])  \nLocations: Mobile service throughout KS + remote options  \nContact: Visit artofestate.com. With Since 1971 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Wichita area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Elizabeth D.",
-          "rating": 4.5,
-          "date": "2025-01-20",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Linda C.",
-          "rating": 4,
-          "date": "2024-09-02",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "James T.",
-          "rating": 3.5,
-          "date": "2024-08-17",
-          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "wichita-golden-rule-jewlery-llc",
       "name": "Golden Rule Jewlery LLC",
       "slug": "golden-rule-jewlery-llc",
@@ -285,7 +120,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.7,
         "reviewCount": 20
       },
@@ -337,6 +172,171 @@
           "rating": 4.5,
           "date": "2024-05-06",
           "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "wichita-jewelery-savers",
+      "name": "Jewelery Savers",
+      "slug": "jewelery-savers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_wichita-jewelery-savers_1742201718633_HLQCWccX9.jpg",
+      "address": {
+        "street": "274 Main St",
+        "city": "Wichita",
+        "state": "KA",
+        "zip": "60373",
+        "formatted": "274 Main St, Wichita, KA 60373"
+      },
+      "contact": {
+        "phone": "(316)6839215",
+        "email": "info@jewelerysavers.com",
+        "website": "https://www.jewelerysavers.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1971",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
+        "rating": 4.1,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art • Native American artifacts • Decorative arts • Luxury fashion • Musical instruments  \nCertifications: ISA CAPP • GPPA • CES • ASA  \nExperience: National network founded >20 yrs ago ([1])  \nLocations: Mobile service throughout KS + remote options  \nContact: Visit artofestate.com"
+        ],
+        "certifications": [
+          "ISA",
+          "CAPP",
+          "GPPA",
+          "CES",
+          "ASA"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Jewelery Savers provides professional antique appraisal services specializing in Fine art • Native American artifacts • Decorative arts • Luxury fashion • Musical instruments  \nCertifications: ISA CAPP • GPPA • CES • ASA  \nExperience: National network founded >20 yrs ago ([1])  \nLocations: Mobile service throughout KS + remote options  \nContact: Visit artofestate.com. With Since 1971 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Wichita area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth D.",
+          "rating": 4.5,
+          "date": "2025-01-20",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Linda C.",
+          "rating": 4,
+          "date": "2024-09-02",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "James T.",
+          "rating": 3.5,
+          "date": "2024-08-17",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "wichita-licensed-appraisal-professionals",
+      "name": "Licensed Appraisal Professionals",
+      "slug": "licensed-appraisal-professionals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_wichita-licensed-appraisal-professionals_1742201708049_Dm9IAulo3.jpg",
+      "address": {
+        "street": "170 Antique Rd",
+        "city": "Wichita",
+        "state": "KA",
+        "zip": "77956",
+        "formatted": "170 Antique Rd, Wichita, KA 77956"
+      },
+      "contact": {
+        "phone": "(316)6839215",
+        "email": "info@licensedappraisalprofessionals.com",
+        "website": "https://www.licensedappraisalprofessionals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1971",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
+        "rating": 4.5,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art • Native American artifacts • Decorative arts • Luxury fashion • Musical instruments  \nCertifications: ISA CAPP • GPPA • CES • ASA  \nExperience: National network founded >20 yrs ago ([1])  \nLocations: Mobile service throughout KS + remote options  \nContact: Visit artofestate.com"
+        ],
+        "certifications": [
+          "ISA",
+          "CAPP",
+          "GPPA",
+          "CES",
+          "ASA"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Licensed Appraisal Professionals provides professional antique appraisal services specializing in Fine art • Native American artifacts • Decorative arts • Luxury fashion • Musical instruments  \nCertifications: ISA CAPP • GPPA • CES • ASA  \nExperience: National network founded >20 yrs ago ([1])  \nLocations: Mobile service throughout KS + remote options  \nContact: Visit artofestate.com. With Since 1971 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Wichita area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "John S.",
+          "rating": 4.5,
+          "date": "2024-11-08",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Linda W.",
+          "rating": 5,
+          "date": "2024-09-24",
+          "content": "Very responsive and easy to work with. Licensed Appraisal Professionals's expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "David M.",
+          "rating": 4.5,
+          "date": "2024-06-18",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Emily W.",
+          "rating": 4,
+          "date": "2024-05-27",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "John S.",
+          "rating": 4.5,
+          "date": "2024-04-23",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
         }
       ],
       "metadata": {

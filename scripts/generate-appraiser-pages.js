@@ -109,6 +109,17 @@ function loadAllAppraisers() {
   return appraisers;
 }
 
+function renderGtmAttributes(attrs = {}) {
+  return Object.entries(attrs)
+    .filter(([, value]) => value !== undefined && value !== null && value !== '')
+    .map(([key, value]) => {
+      const attrName = `data-gtm-${key.replace(/[A-Z]/g, '-$&').toLowerCase()}`;
+      const attrValue = String(value).replace(/"/g, '&quot;');
+      return ` ${attrName}="${attrValue}"`;
+    })
+    .join('');
+}
+
 /**
  * Generate HTML for an appraiser page
  * @param {Object} appraiser - The appraiser data
@@ -328,21 +339,33 @@ function generateAppraiserHtml(appraiser) {
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                   </svg>
-                  <a href="tel:${appraiser.contact.phone}" class="text-gray-700 hover:text-blue-600">
+                  <a href="tel:${appraiser.contact.phone}" class="text-gray-700 hover:text-blue-600"${renderGtmAttributes({
+                    event: 'directory_cta',
+                    cta: 'call',
+                    surface: 'contact_card',
+                    appraiserId: appraiser.slug,
+                    appraiserName: appraiser.name
+                  })}>
                     ${appraiser.contact.phone}
                   </a>
                 </div>
-                
+
                 <div class="flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                     <polyline points="22,6 12,13 2,6"></polyline>
                   </svg>
-                  <a href="mailto:${appraiser.contact.email}" class="text-gray-700 hover:text-blue-600">
+                  <a href="mailto:${appraiser.contact.email}" class="text-gray-700 hover:text-blue-600"${renderGtmAttributes({
+                    event: 'directory_cta',
+                    cta: 'email',
+                    surface: 'contact_card',
+                    appraiserId: appraiser.slug,
+                    appraiserName: appraiser.name
+                  })}>
                     ${appraiser.contact.email}
                   </a>
                 </div>
-                
+
                 ${appraiser.contact.website ? `
                 <div class="flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -355,6 +378,13 @@ function generateAppraiserHtml(appraiser) {
                     class="text-gray-700 hover:text-blue-600"
                     target="_blank"
                     rel="noopener noreferrer"
+                    ${renderGtmAttributes({
+                      event: 'directory_cta',
+                      cta: 'website',
+                      surface: 'contact_card',
+                      appraiserId: appraiser.slug,
+                      appraiserName: appraiser.name
+                    })}
                   >
                     Visit Website
                   </a>
@@ -380,6 +410,13 @@ function generateAppraiserHtml(appraiser) {
                 <a
                   href="https://appraisily.com/start"
                   class="inline-flex items-center justify-center w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-4 py-2 font-medium transition-all duration-300"
+                  ${renderGtmAttributes({
+                    event: 'directory_cta',
+                    cta: 'request_appraisal',
+                    surface: 'contact_sidebar',
+                    appraiserId: appraiser.slug,
+                    appraiserName: appraiser.name
+                  })}
                 >
                   Request an Appraisal
                 </a>
@@ -472,6 +509,13 @@ function generateAppraiserHtml(appraiser) {
                   <a 
                     href="tel:${appraiser.contact.phone}"
                     class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                    ${renderGtmAttributes({
+                      event: 'directory_cta',
+                      cta: 'call',
+                      surface: 'cta_block',
+                      appraiserId: appraiser.slug,
+                      appraiserName: appraiser.name
+                    })}
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
@@ -481,6 +525,13 @@ function generateAppraiserHtml(appraiser) {
                   <a 
                     href="mailto:${appraiser.contact.email}"
                     class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                    ${renderGtmAttributes({
+                      event: 'directory_cta',
+                      cta: 'email',
+                      surface: 'cta_block',
+                      appraiserId: appraiser.slug,
+                      appraiserName: appraiser.name
+                    })}
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -491,6 +542,13 @@ function generateAppraiserHtml(appraiser) {
                   <a 
                     href="https://appraisily.com/start"
                     class="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                    ${renderGtmAttributes({
+                      event: 'directory_cta',
+                      cta: 'request_appraisal',
+                      surface: 'cta_block',
+                      appraiserId: appraiser.slug,
+                      appraiserName: appraiser.name
+                    })}
                   >
                     Request Appraisal
                   </a>
@@ -603,6 +661,43 @@ async function main() {
         // Write HTML file
         const htmlPath = path.join(appraiserDirPath, 'index.html');
         fs.writeFileSync(htmlPath, pageHtml);
+
+        // Generate legacy alias if ID differs from slug for backwards compatibility
+        if (appraiser.id) {
+          const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`;
+          const legacySlugs = new Set([
+            appraiser.id,
+            appraiser.id.replace(/\s+/g, '-'),
+            appraiser.id.replace(/\s+/g, '_'),
+            appraiser.slug // ensure canonical included for de-dupe
+          ]);
+
+          legacySlugs.delete(appraiser.slug);
+
+          const legacyHtml = `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${appraiser.name} | Antique Appraiser Directory</title>
+    <link rel="canonical" href="${canonicalUrl}" />
+    <meta http-equiv="refresh" content="0;url=${canonicalUrl}" />
+    <script>
+      window.location.replace('${canonicalUrl}');
+    </script>
+  </head>
+  <body>
+    <p>If you are not redirected automatically, follow this <a href="${canonicalUrl}">link to ${appraiser.name}</a>.</p>
+  </body>
+</html>`;
+
+          legacySlugs.forEach(legacySlug => {
+            const legacyDirPath = path.join(APPRAISER_DIR, legacySlug);
+            fs.ensureDirSync(legacyDirPath);
+            const legacyHtmlPath = path.join(legacyDirPath, 'index.html');
+            fs.writeFileSync(legacyHtmlPath, legacyHtml);
+          });
+        }
         
         log(`Generated page for ${appraiser.name} (${appraiser.slug})`, 'success');
         processedCount++;

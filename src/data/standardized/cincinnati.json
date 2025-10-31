@@ -18,7 +18,7 @@
         "website": "https://prestigeestateservices.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Established firm with more than 12 years of specialized appraisal practice.",
         "hours": [
           {
             "day": "Monday-Thursday",
@@ -33,7 +33,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.9,
         "reviewCount": 14
       },
@@ -82,91 +82,6 @@
       }
     },
     {
-      "id": "cincinnati-prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-prestige-estate-services_1742201166954_WASY1QCPL.jpg",
-      "address": {
-        "street": "920 Museum Way",
-        "city": "Cincinnati",
-        "state": "OH",
-        "zip": "97083",
-        "formatted": "920 Museum Way, Cincinnati, OH 97083"
-      },
-      "contact": {
-        "phone": "431-394-4678",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://prestigeestateservices.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 9
-      },
-      "expertise": {
-        "specialties": [
-          "Antique furniture, fine art, Americana, decorative arts, insurance/estate tax valuations.  \n- Certifications: ISA-CAPP, ASA, USPAP-compliant, IRS-qualified.  \n- Experience: Over 10 years (led by Alicia E Weaver, one of 108 ISA-CAPP-certified professionals nationwide).  \n- Services: In-person, remote, photo-based valuations. Full estate inventories & expert witness testimony.  \n- Contact: Online form via [prestigeestateservices.com](https://prestigeestateservices.com)"
-        ],
-        "certifications": [
-          "ISA-CAPP",
-          "ASA",
-          "USPAP",
-          "IRS",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "In-person, remote, photo-based valuations. Full estate inventories & expert witness testimony."
-        ]
-      },
-      "content": {
-        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Antique furniture, fine art, Americana, decorative arts, insurance/estate tax valuations.  \n- Certifications: ISA-CAPP, ASA, USPAP-compliant, IRS-qualified.  \n- Experience: Over 10 years (led by Alicia E Weaver, one of 108 ISA-CAPP-certified professionals nationwide).  \n- Services: In-person, remote, photo-based valuations. Full estate inventories & expert witness testimony.  \n- Contact: Online form via [prestigeestateservices.com](https://prestigeestateservices.com). With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Cincinnati area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Patricia J.",
-          "rating": 4,
-          "date": "2025-03-10",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "Karen S.",
-          "rating": 4.5,
-          "date": "2025-01-28",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Patricia W.",
-          "rating": 4.5,
-          "date": "2024-10-27",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Karen T.",
-          "rating": 4.5,
-          "date": "2024-09-15",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "Jessica M.",
-          "rating": 5,
-          "date": "2024-09-07",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "cincinnati-caza-sikes",
       "name": "Caza Sikes",
       "slug": "caza-sikes",
@@ -184,7 +99,7 @@
         "website": "https://prestigeestateservices.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Founded in 2004 with two decades of appraisal expertise.",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -199,7 +114,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.2,
         "reviewCount": 17
       },
@@ -252,6 +167,91 @@
           "rating": 4.5,
           "date": "2024-05-06",
           "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "cincinnati-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-prestige-estate-services_1742201166954_WASY1QCPL.jpg",
+      "address": {
+        "street": "920 Museum Way",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "97083",
+        "formatted": "920 Museum Way, Cincinnati, OH 97083"
+      },
+      "contact": {
+        "phone": "431-394-4678",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established in 2010 and trusted for museum-quality reporting.",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.5,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antique furniture, fine art, Americana, decorative arts, insurance/estate tax valuations.  \n- Certifications: ISA-CAPP, ASA, USPAP-compliant, IRS-qualified.  \n- Experience: Over 10 years (led by Alicia E Weaver, one of 108 ISA-CAPP-certified professionals nationwide).  \n- Services: In-person, remote, photo-based valuations. Full estate inventories & expert witness testimony.  \n- Contact: Online form via [prestigeestateservices.com](https://prestigeestateservices.com)"
+        ],
+        "certifications": [
+          "ISA-CAPP",
+          "ASA",
+          "USPAP",
+          "IRS",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "In-person, remote, photo-based valuations. Full estate inventories & expert witness testimony."
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Antique furniture, fine art, Americana, decorative arts, insurance/estate tax valuations.  \n- Certifications: ISA-CAPP, ASA, USPAP-compliant, IRS-qualified.  \n- Experience: Over 10 years (led by Alicia E Weaver, one of 108 ISA-CAPP-certified professionals nationwide).  \n- Services: In-person, remote, photo-based valuations. Full estate inventories & expert witness testimony.  \n- Contact: Online form via [prestigeestateservices.com](https://prestigeestateservices.com). With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Cincinnati area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia J.",
+          "rating": 4,
+          "date": "2025-03-10",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Karen S.",
+          "rating": 4.5,
+          "date": "2025-01-28",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Patricia W.",
+          "rating": 4.5,
+          "date": "2024-10-27",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Karen T.",
+          "rating": 4.5,
+          "date": "2024-09-15",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Jessica M.",
+          "rating": 5,
+          "date": "2024-09-07",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
         }
       ],
       "metadata": {

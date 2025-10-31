@@ -3,7 +3,6 @@ import App from './App';
 import { StandardizedLocationPage } from './pages/StandardizedLocationPage';
 import { StandardizedAppraiserPage } from './pages/StandardizedAppraiserPage';
 import { RootLayout } from './layouts/RootLayout';
-import { AppraisersDirectory } from './components/AppraisersDirectory';
 
 // The key is to ensure the router handles all paths correctly in a production environment
 export const router = createBrowserRouter([

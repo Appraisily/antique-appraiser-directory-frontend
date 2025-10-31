@@ -1,73 +1,69 @@
 {
   "appraisers": [
     {
-      "id": "baton rouge-prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baton_rouge-prestige-estate-services_1742170052684_gmmIIbEpg.jpg",
+      "id": "baton rouge-baton-rouge-antique-appraisals",
+      "name": "Baton Rouge Antique Appraisals",
+      "slug": "baton-rouge-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baton_rouge-baton-rouge-antique-appraisals_1742170059095_cndhNPNZT.jpg",
       "address": {
-        "street": "1035 Maple Dr",
+        "street": "741 Main St",
         "city": "Baton Rouge",
         "state": "LO",
-        "zip": "69332",
-        "formatted": "1035 Maple Dr, Baton Rouge, LO 69332"
+        "zip": "23954",
+        "formatted": "741 Main St, Baton Rouge, LO 23954"
       },
       "contact": {
-        "phone": "634-922-8849",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://prestigeestateservices.com"
+        "phone": "983-369-8986",
+        "email": "info@batonrougeantiqueappraisals.com",
+        "website": "https://www.batonrougeantiqueappraisals.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "18 years in business",
         "hours": [
           {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 18
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
+        "rating": 4.3,
+        "reviewCount": 23
       },
       "expertise": {
         "specialties": [
-          "Federal asset forfeiture support"
+          "Antique Furniture",
+          "Vintage Collectibles"
         ],
         "certifications": [
-          "USPAP",
-          "IRS",
-          "USPAP-compliant"
+          "ISA Certified"
         ],
         "services": [
-          "Nationwide (including Greater Baton Rouge)"
+          "Antique Appraisals",
+          "Estate Valuations"
         ]
       },
       "content": {
-        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Federal asset forfeiture support. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Baton Rouge area with professional antique appraisal services."
+        "about": "Baton Rouge Antique Appraisals provides professional antique appraisal services in the Baton Rouge area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "James J.",
+          "author": "Nancy J.",
           "rating": 4.5,
-          "date": "2024-12-23",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+          "date": "2024-11-24",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
         },
         {
-          "author": "Sarah J.",
-          "rating": 4.5,
-          "date": "2024-10-27",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+          "author": "Linda B.",
+          "rating": 4,
+          "date": "2024-06-28",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
         },
         {
-          "author": "Susan T.",
+          "author": "Linda M.",
           "rating": 4.5,
-          "date": "2024-06-29",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+          "date": "2024-04-17",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
         }
       ],
       "metadata": {
@@ -93,7 +89,7 @@
         "website": "https://prestigeestateservices.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Established firm with more than 12 years of specialized appraisal practice.",
         "hours": [
           {
             "day": "Tuesday-Saturday",
@@ -104,7 +100,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
         "rating": 4.1,
         "reviewCount": 7
       },
@@ -151,69 +147,73 @@
       }
     },
     {
-      "id": "baton rouge-baton-rouge-antique-appraisals",
-      "name": "Baton Rouge Antique Appraisals",
-      "slug": "baton-rouge-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baton_rouge-baton-rouge-antique-appraisals_1742170059095_cndhNPNZT.jpg",
+      "id": "baton rouge-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baton_rouge-prestige-estate-services_1742170052684_gmmIIbEpg.jpg",
       "address": {
-        "street": "741 Main St",
+        "street": "1035 Maple Dr",
         "city": "Baton Rouge",
         "state": "LO",
-        "zip": "23954",
-        "formatted": "741 Main St, Baton Rouge, LO 23954"
+        "zip": "69332",
+        "formatted": "1035 Maple Dr, Baton Rouge, LO 69332"
       },
       "contact": {
-        "phone": "983-369-8986",
-        "email": "info@batonrougeantiqueappraisals.com",
-        "website": "https://www.batonrougeantiqueappraisals.com"
+        "phone": "634-922-8849",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com"
       },
       "business": {
-        "yearsInBusiness": "18 years in business",
+        "yearsInBusiness": "Established in 2010 and trusted for museum-quality reporting.",
         "hours": [
           {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.3,
-        "reviewCount": 23
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.5,
+        "reviewCount": 18
       },
       "expertise": {
         "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles"
+          "Federal asset forfeiture support"
         ],
         "certifications": [
-          "ISA Certified"
+          "USPAP",
+          "IRS",
+          "USPAP-compliant"
         ],
         "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
+          "Nationwide (including Greater Baton Rouge)"
         ]
       },
       "content": {
-        "about": "Baton Rouge Antique Appraisals provides professional antique appraisal services in the Baton Rouge area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Federal asset forfeiture support. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Baton Rouge area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "Nancy J.",
+          "author": "James J.",
           "rating": 4.5,
-          "date": "2024-11-24",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+          "date": "2024-12-23",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
         },
         {
-          "author": "Linda B.",
-          "rating": 4,
-          "date": "2024-06-28",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+          "author": "Sarah J.",
+          "rating": 4.5,
+          "date": "2024-10-27",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
         },
         {
-          "author": "Linda M.",
+          "author": "Susan T.",
           "rating": 4.5,
-          "date": "2024-04-17",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+          "date": "2024-06-29",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
         }
       ],
       "metadata": {

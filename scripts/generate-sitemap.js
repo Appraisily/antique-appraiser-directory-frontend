@@ -72,11 +72,12 @@ async function generateSitemap() {
         const locationData = JSON.parse(fs.readFileSync(path.join(LOCATIONS_DIR, file)));
         
         locationData.appraisers?.forEach(appraiser => {
-          if (appraiser.id) {
-            // Make sure appraiser ID is URL-safe by removing spaces and special characters
-            const safeId = encodeURIComponent(appraiser.id).replace(/%20/g, '-');
+          const targetSlug = appraiser.slug || appraiser.id;
+          if (targetSlug) {
+            // Make sure slug is URL-safe by removing spaces and special characters
+            const safeSlug = encodeURIComponent(targetSlug).replace(/%20/g, '-');
             routesWithMetadata.push({
-              url: `/appraiser/${safeId}`,
+              url: `/appraiser/${safeSlug}`,
               priority: '0.6',
               changefreq: 'weekly'
             });
@@ -112,14 +113,9 @@ async function generateSitemap() {
     // Generate robots.txt
     const robotsContent = `User-agent: *
 Allow: /
-Sitemap: ${BASE_URL}/sitemap.xml
-
-# Block access to admin and system files
-User-agent: *
 Disallow: /admin/
-Disallow: /*.json$
-Disallow: /*.js$
-Disallow: /*.css$
+
+Sitemap: ${BASE_URL}/sitemap.xml
 `;
     
     fs.writeFileSync(path.join(DIST_DIR, 'robots.txt'), robotsContent);

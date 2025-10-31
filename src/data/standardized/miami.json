@@ -1,6 +1,85 @@
 {
   "appraisers": [
     {
+      "id": "miami-heritage-valuations-miami",
+      "name": "Heritage Valuations Miami",
+      "slug": "heritage-valuations-miami",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-heritage-valuations-miami_1742203663478_uvkDPY_aS.jpg",
+      "address": {
+        "street": "627 Main St",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "67399",
+        "formatted": "627 Main St, Miami, FL 67399"
+      },
+      "contact": {
+        "phone": "386-684-7792",
+        "email": "info@heritagevaluationsmiami.com",
+        "website": "https://www.heritagevaluationsmiami.com"
+      },
+      "business": {
+        "yearsInBusiness": "33 years in business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
+        "rating": 4.9,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Miami provides professional antique appraisal services in the Miami area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Michael D.",
+          "rating": 4.5,
+          "date": "2024-09-03",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Michael S.",
+          "rating": 4.5,
+          "date": "2024-08-24",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Michael T.",
+          "rating": 4.5,
+          "date": "2024-05-08",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "miami-miami-antique-appraisals",
       "name": "Miami Antique Appraisals",
       "slug": "miami-antique-appraisals",
@@ -33,7 +112,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
         "rating": 4.4,
         "reviewCount": 23
       },
@@ -86,85 +165,6 @@
           "rating": 4.5,
           "date": "2024-05-21",
           "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "miami-heritage-valuations-miami",
-      "name": "Heritage Valuations Miami",
-      "slug": "heritage-valuations-miami",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-heritage-valuations-miami_1742203663478_uvkDPY_aS.jpg",
-      "address": {
-        "street": "627 Main St",
-        "city": "Miami",
-        "state": "FL",
-        "zip": "67399",
-        "formatted": "627 Main St, Miami, FL 67399"
-      },
-      "contact": {
-        "phone": "386-684-7792",
-        "email": "info@heritagevaluationsmiami.com",
-        "website": "https://www.heritagevaluationsmiami.com"
-      },
-      "business": {
-        "yearsInBusiness": "33 years in business",
-        "hours": [
-          {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.9,
-        "reviewCount": 6
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles"
-        ],
-        "certifications": [
-          "ISA Certified"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Heritage Valuations Miami provides professional antique appraisal services in the Miami area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Michael D.",
-          "rating": 4.5,
-          "date": "2024-09-03",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Michael S.",
-          "rating": 4.5,
-          "date": "2024-08-24",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        },
-        {
-          "author": "Michael T.",
-          "rating": 4.5,
-          "date": "2024-05-08",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
         }
       ],
       "metadata": {

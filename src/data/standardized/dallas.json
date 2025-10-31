@@ -25,7 +25,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
         "rating": 4.8,
         "reviewCount": 9
       },
@@ -77,6 +77,80 @@
       }
     },
     {
+      "id": "dallas-oriental-rug-cleaning-co",
+      "name": "Oriental Rug Cleaning Co.",
+      "slug": "oriental-rug-cleaning-co",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-oriental-rug-cleaning-co_1742201359292_u1lPLktgk.jpg",
+      "address": {
+        "street": "391 Museum Way",
+        "city": "Dallas",
+        "state": "TE",
+        "zip": "34994",
+        "formatted": "391 Museum Way, Dallas, TE 34994"
+      },
+      "contact": {
+        "phone": "(214)937-5012",
+        "email": "info@orientalrugcleaningco.com",
+        "website": "https://www.orientalrugcleaningco.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since ~2010 [3][6]",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
+        "rating": 4,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Oriental rugs"
+        ],
+        "certifications": [
+          "ISA",
+          "CAPP",
+          "USPAP",
+          "IRS",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Free evaluations",
+          "No-obligation quotes[4]"
+        ]
+      },
+      "content": {
+        "about": "Oriental Rug Cleaning Co. provides professional antique appraisal services specializing in Oriental rugs. With Since ~2010 [3][6] experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Dallas area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Susan W.",
+          "rating": 3.5,
+          "date": "2024-11-05",
+          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
+        },
+        {
+          "author": "Robert J.",
+          "rating": 3.5,
+          "date": "2024-06-09",
+          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
+        },
+        {
+          "author": "Susan W.",
+          "rating": 4,
+          "date": "2024-03-25",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "dallas-prestige-estate-services",
       "name": "Prestige Estate Services",
       "slug": "prestige-estate-services",
@@ -105,7 +179,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.7,
         "reviewCount": 15
       },
@@ -153,80 +227,6 @@
           "author": "John M.",
           "rating": 5,
           "date": "2024-05-18",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "dallas-oriental-rug-cleaning-co",
-      "name": "Oriental Rug Cleaning Co.",
-      "slug": "oriental-rug-cleaning-co",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-oriental-rug-cleaning-co_1742201359292_u1lPLktgk.jpg",
-      "address": {
-        "street": "391 Museum Way",
-        "city": "Dallas",
-        "state": "TE",
-        "zip": "34994",
-        "formatted": "391 Museum Way, Dallas, TE 34994"
-      },
-      "contact": {
-        "phone": "(214)937-5012",
-        "email": "info@orientalrugcleaningco.com",
-        "website": "https://www.orientalrugcleaningco.com"
-      },
-      "business": {
-        "yearsInBusiness": "Since ~2010 [3][6]",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4,
-        "reviewCount": 5
-      },
-      "expertise": {
-        "specialties": [
-          "Oriental rugs"
-        ],
-        "certifications": [
-          "ISA",
-          "CAPP",
-          "USPAP",
-          "IRS",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "Free evaluations",
-          "No-obligation quotes[4]"
-        ]
-      },
-      "content": {
-        "about": "Oriental Rug Cleaning Co. provides professional antique appraisal services specializing in Oriental rugs. With Since ~2010 [3][6] experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Dallas area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Susan W.",
-          "rating": 3.5,
-          "date": "2024-11-05",
-          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
-        },
-        {
-          "author": "Robert J.",
-          "rating": 3.5,
-          "date": "2024-06-09",
-          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
-        },
-        {
-          "author": "Susan W.",
-          "rating": 4,
-          "date": "2024-03-25",
           "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
         }
       ],

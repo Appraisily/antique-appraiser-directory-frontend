@@ -1,76 +1,91 @@
 {
   "appraisers": [
     {
-      "id": "houston-prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-prestige-estate-services_1742202574764_8xNOq398E.jpg",
+      "id": "houston-heritage-valuations-houston",
+      "name": "Heritage Valuations Houston",
+      "slug": "heritage-valuations-houston",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-heritage-valuations-houston_1742202584435_XGYfBwN3Z.jpg",
       "address": {
-        "street": "162 Maple Dr",
+        "street": "548 Oak Ave",
         "city": "Houston",
         "state": "TE",
-        "zip": "73174",
-        "formatted": "162 Maple Dr, Houston, TE 73174"
+        "zip": "77275",
+        "formatted": "548 Oak Ave, Houston, TE 77275"
       },
       "contact": {
-        "phone": "(713)429-0309",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://www.prestigeestateservices.com"
+        "phone": "693-952-6945",
+        "email": "info@heritagevaluationshouston.com",
+        "website": "https://www.heritagevaluationshouston.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "21 years in business",
         "hours": [
           {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
           },
           {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4,
-        "reviewCount": 22
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.1,
+        "reviewCount": 17
       },
       "expertise": {
         "specialties": [
-          "Furniture fine art jewelry vintage items Americana decorative arts silver militaria wine [2][6]  \n- Certifications: ISA CAPP ASA IRS-qualified USPAP-compliant [3][6]  \n- Service Areas: Greater Houston Remote assessments nationwide via photo/video consultations [6]  \n- Pricing: Transparent quotes starting ~$250/item In-person bulk discounts available No hidden fees [6][7]   \n- Contact: 📞(713)429-0309"
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
         ],
         "certifications": [
-          "ISA",
-          "CAPP",
-          "ASA",
-          "IRS",
-          "USPAP",
-          "USPAP-compliant"
+          "ISA Certified",
+          "USPAP Compliant"
         ],
         "services": [
-          "Greater Houston Remote assessments nationwide via photo/video consultations [6]"
+          "Antique Appraisals",
+          "Estate Valuations"
         ]
       },
       "content": {
-        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Furniture fine art jewelry vintage items Americana decorative arts silver militaria wine [2][6]  \n- Certifications: ISA CAPP ASA IRS-qualified USPAP-compliant [3][6]  \n- Service Areas: Greater Houston Remote assessments nationwide via photo/video consultations [6]  \n- Pricing: Transparent quotes starting ~$250/item In-person bulk discounts available No hidden fees [6][7]   \n- Contact: 📞(713)429-0309. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Houston area with professional antique appraisal services."
+        "about": "Heritage Valuations Houston provides professional antique appraisal services in the Houston area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "Jennifer W.",
-          "rating": 4,
-          "date": "2024-09-15",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+          "author": "Karen D.",
+          "rating": 4.5,
+          "date": "2025-02-21",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
         },
         {
-          "author": "Robert J.",
+          "author": "Jennifer M.",
+          "rating": 4.5,
+          "date": "2025-02-13",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Elizabeth W.",
           "rating": 4,
-          "date": "2024-08-26",
+          "date": "2024-11-11",
           "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
         },
         {
-          "author": "Michael R.",
-          "rating": 3.5,
-          "date": "2024-05-19",
-          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
+          "author": "Nancy J.",
+          "rating": 4,
+          "date": "2024-07-09",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Michael M.",
+          "rating": 4,
+          "date": "2024-04-03",
+          "content": "Heritage Valuations Houston's knowledge of antique furniture values was exceptional. The documentation Heritage Valuations Houston provided was detailed and perfect for my insurance needs."
         }
       ],
       "metadata": {
@@ -111,7 +126,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
         "rating": 4.5,
         "reviewCount": 22
       },
@@ -172,91 +187,76 @@
       }
     },
     {
-      "id": "houston-heritage-valuations-houston",
-      "name": "Heritage Valuations Houston",
-      "slug": "heritage-valuations-houston",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-heritage-valuations-houston_1742202584435_XGYfBwN3Z.jpg",
+      "id": "houston-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-prestige-estate-services_1742202574764_8xNOq398E.jpg",
       "address": {
-        "street": "548 Oak Ave",
+        "street": "162 Maple Dr",
         "city": "Houston",
         "state": "TE",
-        "zip": "77275",
-        "formatted": "548 Oak Ave, Houston, TE 77275"
+        "zip": "73174",
+        "formatted": "162 Maple Dr, Houston, TE 73174"
       },
       "contact": {
-        "phone": "693-952-6945",
-        "email": "info@heritagevaluationshouston.com",
-        "website": "https://www.heritagevaluationshouston.com"
+        "phone": "(713)429-0309",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://www.prestigeestateservices.com"
       },
       "business": {
-        "yearsInBusiness": "21 years in business",
+        "yearsInBusiness": "Established in 2010 and trusted for museum-quality reporting.",
         "hours": [
           {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
           },
           {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
+            "day": "Sunday-Monday",
+            "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.1,
-        "reviewCount": 17
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4,
+        "reviewCount": 22
       },
       "expertise": {
         "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry"
+          "Furniture fine art jewelry vintage items Americana decorative arts silver militaria wine [2][6]  \n- Certifications: ISA CAPP ASA IRS-qualified USPAP-compliant [3][6]  \n- Service Areas: Greater Houston Remote assessments nationwide via photo/video consultations [6]  \n- Pricing: Transparent quotes starting ~$250/item In-person bulk discounts available No hidden fees [6][7]   \n- Contact: 📞(713)429-0309"
         ],
         "certifications": [
-          "ISA Certified",
-          "USPAP Compliant"
+          "ISA",
+          "CAPP",
+          "ASA",
+          "IRS",
+          "USPAP",
+          "USPAP-compliant"
         ],
         "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
+          "Greater Houston Remote assessments nationwide via photo/video consultations [6]"
         ]
       },
       "content": {
-        "about": "Heritage Valuations Houston provides professional antique appraisal services in the Houston area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Furniture fine art jewelry vintage items Americana decorative arts silver militaria wine [2][6]  \n- Certifications: ISA CAPP ASA IRS-qualified USPAP-compliant [3][6]  \n- Service Areas: Greater Houston Remote assessments nationwide via photo/video consultations [6]  \n- Pricing: Transparent quotes starting ~$250/item In-person bulk discounts available No hidden fees [6][7]   \n- Contact: 📞(713)429-0309. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Houston area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "Karen D.",
-          "rating": 4.5,
-          "date": "2025-02-21",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "Jennifer M.",
-          "rating": 4.5,
-          "date": "2025-02-13",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Elizabeth W.",
+          "author": "Jennifer W.",
           "rating": 4,
-          "date": "2024-11-11",
+          "date": "2024-09-15",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Robert J.",
+          "rating": 4,
+          "date": "2024-08-26",
           "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
         },
         {
-          "author": "Nancy J.",
-          "rating": 4,
-          "date": "2024-07-09",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        },
-        {
-          "author": "Michael M.",
-          "rating": 4,
-          "date": "2024-04-03",
-          "content": "Heritage Valuations Houston's knowledge of antique furniture values was exceptional. The documentation Heritage Valuations Houston provided was detailed and perfect for my insurance needs."
+          "author": "Michael R.",
+          "rating": 3.5,
+          "date": "2024-05-19",
+          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
         }
       ],
       "metadata": {

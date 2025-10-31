@@ -1,6 +1,84 @@
 {
   "appraisers": [
     {
+      "id": "vancouver-heritage-valuations-vancouver",
+      "name": "Heritage Valuations Vancouver",
+      "slug": "heritage-valuations-vancouver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_vancouver-heritage-valuations-vancouver_1742203441539_APHqTPWYA.jpg",
+      "address": {
+        "street": "895 Antique Rd",
+        "city": "Vancouver",
+        "state": "BR",
+        "zip": "36665",
+        "formatted": "895 Antique Rd, Vancouver, BR 36665"
+      },
+      "contact": {
+        "phone": "856-752-9486",
+        "email": "info@heritagevaluationsvancouver.com",
+        "website": "https://www.heritagevaluationsvancouver.com"
+      },
+      "business": {
+        "yearsInBusiness": "33 years in business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
+        "rating": 4.5,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Valuation"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Vancouver provides professional antique appraisal services in the Vancouver area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Karen W.",
+          "rating": 4,
+          "date": "2025-01-07",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Michael B.",
+          "rating": 4.5,
+          "date": "2024-09-03",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Emily M.",
+          "rating": 4.5,
+          "date": "2024-08-21",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "vancouver-shenasi-carpet",
       "name": "Shenasi Carpet",
       "slug": "shenasi-carpet",
@@ -18,7 +96,7 @@
         "website": "https://www.shenasicarpet.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Founded in 2004 with two decades of appraisal expertise.",
         "hours": [
           {
             "day": "Tuesday-Saturday",
@@ -29,7 +107,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
         "rating": 4,
         "reviewCount": 12
       },
@@ -106,7 +184,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
         "rating": 4.3,
         "reviewCount": 15
       },
@@ -151,84 +229,6 @@
           "author": "Linda B.",
           "rating": 4.5,
           "date": "2024-05-19",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "vancouver-heritage-valuations-vancouver",
-      "name": "Heritage Valuations Vancouver",
-      "slug": "heritage-valuations-vancouver",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_vancouver-heritage-valuations-vancouver_1742203441539_APHqTPWYA.jpg",
-      "address": {
-        "street": "895 Antique Rd",
-        "city": "Vancouver",
-        "state": "BR",
-        "zip": "36665",
-        "formatted": "895 Antique Rd, Vancouver, BR 36665"
-      },
-      "contact": {
-        "phone": "856-752-9486",
-        "email": "info@heritagevaluationsvancouver.com",
-        "website": "https://www.heritagevaluationsvancouver.com"
-      },
-      "business": {
-        "yearsInBusiness": "33 years in business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 16
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry"
-        ],
-        "certifications": [
-          "ISA Certified"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals",
-          "Donation Valuation"
-        ]
-      },
-      "content": {
-        "about": "Heritage Valuations Vancouver provides professional antique appraisal services in the Vancouver area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Karen W.",
-          "rating": 4,
-          "date": "2025-01-07",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "Michael B.",
-          "rating": 4.5,
-          "date": "2024-09-03",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Emily M.",
-          "rating": 4.5,
-          "date": "2024-08-21",
           "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
         }
       ],

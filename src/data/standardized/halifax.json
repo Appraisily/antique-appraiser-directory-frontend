@@ -1,6 +1,95 @@
 {
   "appraisers": [
     {
+      "id": "halifax-dorothe-rosen-designer-goldsmith",
+      "name": "Dorothée Rosen Designer Goldsmith",
+      "slug": "dorothe-rosen-designer-goldsmith",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_halifax-dorothe-rosen-designer-goldsmith_1742201604309_VmairVJ8G.jpg",
+      "address": {
+        "street": "288 Museum Way",
+        "city": "Halifax",
+        "state": "NO",
+        "zip": "90356",
+        "formatted": "288 Museum Way, Halifax, NO 90356"
+      },
+      "contact": {
+        "phone": "898-589-4682",
+        "email": "info@dorotherosendesignergoldsmith.com",
+        "website": "https://www.laminedor.com/pages/jewellery-appraisal-in-halifax-ns"
+      },
+      "business": {
+        "yearsInBusiness": "Founded in 2004 with two decades of appraisal expertise.",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "GIA",
+          "CJA"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Dorothée Rosen Designer Goldsmith provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Halifax area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "James W.",
+          "rating": 4,
+          "date": "2025-01-19",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "David J.",
+          "rating": 4,
+          "date": "2024-12-04",
+          "content": "Dorothée Rosen Designer Goldsmith's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "David W.",
+          "rating": 4,
+          "date": "2024-08-22",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Karen T.",
+          "rating": 4.5,
+          "date": "2024-06-30",
+          "content": "Dorothée Rosen Designer Goldsmith's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Nancy M.",
+          "rating": 4.5,
+          "date": "2024-03-25",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "halifax-finer-things-antiques-curios",
       "name": "Finer Things Antiques & Curios",
       "slug": "finer-things-antiques-curios",
@@ -25,7 +114,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
         "rating": 4.3,
         "reviewCount": 9
       },
@@ -109,7 +198,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.5,
         "reviewCount": 15
       },
@@ -171,7 +260,7 @@
         "website": "https://www.la-mine-dor-jewellers.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Founded in 2004 with two decades of appraisal expertise.",
         "hours": [
           {
             "day": "Monday-Thursday",
@@ -186,7 +275,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.3,
         "reviewCount": 8
       },
@@ -231,95 +320,6 @@
           "rating": 4,
           "date": "2024-09-06",
           "content": "La Mine d’Or Jewellers's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "halifax-dorothe-rosen-designer-goldsmith",
-      "name": "Dorothée Rosen Designer Goldsmith",
-      "slug": "dorothe-rosen-designer-goldsmith",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_halifax-dorothe-rosen-designer-goldsmith_1742201604309_VmairVJ8G.jpg",
-      "address": {
-        "street": "288 Museum Way",
-        "city": "Halifax",
-        "state": "NO",
-        "zip": "90356",
-        "formatted": "288 Museum Way, Halifax, NO 90356"
-      },
-      "contact": {
-        "phone": "898-589-4682",
-        "email": "info@dorotherosendesignergoldsmith.com",
-        "website": "https://www.laminedor.com/pages/jewellery-appraisal-in-halifax-ns"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 13
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles"
-        ],
-        "certifications": [
-          "GIA",
-          "CJA"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Dorothée Rosen Designer Goldsmith provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Halifax area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "James W.",
-          "rating": 4,
-          "date": "2025-01-19",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "David J.",
-          "rating": 4,
-          "date": "2024-12-04",
-          "content": "Dorothée Rosen Designer Goldsmith's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "David W.",
-          "rating": 4,
-          "date": "2024-08-22",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        },
-        {
-          "author": "Karen T.",
-          "rating": 4.5,
-          "date": "2024-06-30",
-          "content": "Dorothée Rosen Designer Goldsmith's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Nancy M.",
-          "rating": 4.5,
-          "date": "2024-03-25",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
         }
       ],
       "metadata": {

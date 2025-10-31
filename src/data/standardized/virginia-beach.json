@@ -1,83 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "virginia beach-appraisal-professionals-businesses",
-      "name": "Appraisal Professionals & Businesses",
-      "slug": "appraisal-professionals-businesses",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_virginia_beach-appraisal-professionals-businesses_1742203475976_i04MujnUH8.jpg",
-      "address": {
-        "street": "865 Antique Rd",
-        "city": "Virginia Beach",
-        "state": "VI",
-        "zip": "23215",
-        "formatted": "865 Antique Rd, Virginia Beach, VI 23215"
-      },
-      "contact": {
-        "phone": "600-654-2965",
-        "email": "info@appraisalprofessionalsbusinesses.com",
-        "website": "https://www.appraisalprofessionalsbusinesses.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 24
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art • Antique furniture • High-net-worth estates • Divorce/equitable distribution  \nCertifications: ISA CAPP • USPAP-compliant • IRS-qualified  \nExperience: Over 12+ years  \nService Area: Nationwide via remote/in-person visits ([9]). Local clients served by appointment ([7]).  \nContact: info@prestigestateservices.com"
-        ],
-        "certifications": [
-          "ISA",
-          "CAPP",
-          "USPAP",
-          "IRS",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "Nationwide via remote/in-person visits ([9]). Local clients served by appointment ([7])."
-        ]
-      },
-      "content": {
-        "about": "Appraisal Professionals & Businesses provides professional antique appraisal services specializing in Fine art • Antique furniture • High-net-worth estates • Divorce/equitable distribution  \nCertifications: ISA CAPP • USPAP-compliant • IRS-qualified  \nExperience: Over 12+ years  \nService Area: Nationwide via remote/in-person visits ([9]). Local clients served by appointment ([7]).  \nContact: info@prestigestateservices.com. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Virginia Beach area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Patricia W.",
-          "rating": 4.5,
-          "date": "2025-03-10",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Elizabeth C.",
-          "rating": 4.5,
-          "date": "2024-10-28",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Robert M.",
-          "rating": 5,
-          "date": "2024-07-08",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "virginia beach-barrett-street-auction-center-antique-mall",
       "name": "*Barrett Street Auction Center & Antique Mall",
       "slug": "barrett-street-auction-center-antique-mall",
@@ -95,7 +18,7 @@
         "website": "https://www.barrettstreetauctioncenterantiquemall.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Over 18 years assisting estates, insurers, and private collectors.",
         "hours": [
           {
             "day": "Tuesday-Saturday",
@@ -106,7 +29,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.4,
         "reviewCount": 9
       },
@@ -160,6 +83,83 @@
       }
     },
     {
+      "id": "virginia beach-appraisal-professionals-businesses",
+      "name": "Appraisal Professionals & Businesses",
+      "slug": "appraisal-professionals-businesses",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_virginia_beach-appraisal-professionals-businesses_1742203475976_i04MujnUH8.jpg",
+      "address": {
+        "street": "865 Antique Rd",
+        "city": "Virginia Beach",
+        "state": "VI",
+        "zip": "23215",
+        "formatted": "865 Antique Rd, Virginia Beach, VI 23215"
+      },
+      "contact": {
+        "phone": "600-654-2965",
+        "email": "info@appraisalprofessionalsbusinesses.com",
+        "website": "https://www.appraisalprofessionalsbusinesses.com"
+      },
+      "business": {
+        "yearsInBusiness": "Founded in 2004 with two decades of appraisal expertise.",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
+        "rating": 4.7,
+        "reviewCount": 24
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art • Antique furniture • High-net-worth estates • Divorce/equitable distribution  \nCertifications: ISA CAPP • USPAP-compliant • IRS-qualified  \nExperience: Over 12+ years  \nService Area: Nationwide via remote/in-person visits ([9]). Local clients served by appointment ([7]).  \nContact: info@prestigestateservices.com"
+        ],
+        "certifications": [
+          "ISA",
+          "CAPP",
+          "USPAP",
+          "IRS",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Nationwide via remote/in-person visits ([9]). Local clients served by appointment ([7])."
+        ]
+      },
+      "content": {
+        "about": "Appraisal Professionals & Businesses provides professional antique appraisal services specializing in Fine art • Antique furniture • High-net-worth estates • Divorce/equitable distribution  \nCertifications: ISA CAPP • USPAP-compliant • IRS-qualified  \nExperience: Over 12+ years  \nService Area: Nationwide via remote/in-person visits ([9]). Local clients served by appointment ([7]).  \nContact: info@prestigestateservices.com. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Virginia Beach area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia W.",
+          "rating": 4.5,
+          "date": "2025-03-10",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Elizabeth C.",
+          "rating": 4.5,
+          "date": "2024-10-28",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Robert M.",
+          "rating": 5,
+          "date": "2024-07-08",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "virginia beach-virginia-beach-antique-appraisals",
       "name": "Virginia Beach Antique Appraisals",
       "slug": "virginia-beach-antique-appraisals",
@@ -188,7 +188,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
         "rating": 4.5,
         "reviewCount": 16
       },

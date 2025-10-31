@@ -1,6 +1,89 @@
 {
   "appraisers": [
     {
+      "id": "minneapolis-heritage-valuations-minneapolis",
+      "name": "Heritage Valuations Minneapolis",
+      "slug": "heritage-valuations-minneapolis",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-heritage-valuations-minneapolis_1742203678978_ERTChejgB.jpg",
+      "address": {
+        "street": "362 Main St",
+        "city": "Minneapolis",
+        "state": "MI",
+        "zip": "15984",
+        "formatted": "362 Main St, Minneapolis, MI 15984"
+      },
+      "contact": {
+        "phone": "507-748-2302",
+        "email": "info@heritagevaluationsminneapolis.com",
+        "website": "https://www.heritagevaluationsminneapolis.com"
+      },
+      "business": {
+        "yearsInBusiness": "16 years in business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Minneapolis provides professional antique appraisal services in the Minneapolis area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer W.",
+          "rating": 4.5,
+          "date": "2025-01-28",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "James S.",
+          "rating": 4,
+          "date": "2024-12-14",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Elizabeth B.",
+          "rating": 4.5,
+          "date": "2024-09-27",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Elizabeth B.",
+          "rating": 3,
+          "date": "2024-04-30",
+          "content": "Knowledgeable about antiques, though communication could have been better during the process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "minneapolis-minneapolis-antique-appraisals",
       "name": "Minneapolis Antique Appraisals",
       "slug": "minneapolis-antique-appraisals",
@@ -29,7 +112,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
         "rating": 4.7,
         "reviewCount": 7
       },
@@ -77,89 +160,6 @@
           "rating": 5,
           "date": "2024-03-25",
           "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "minneapolis-heritage-valuations-minneapolis",
-      "name": "Heritage Valuations Minneapolis",
-      "slug": "heritage-valuations-minneapolis",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-heritage-valuations-minneapolis_1742203678978_ERTChejgB.jpg",
-      "address": {
-        "street": "362 Main St",
-        "city": "Minneapolis",
-        "state": "MI",
-        "zip": "15984",
-        "formatted": "362 Main St, Minneapolis, MI 15984"
-      },
-      "contact": {
-        "phone": "507-748-2302",
-        "email": "info@heritagevaluationsminneapolis.com",
-        "website": "https://www.heritagevaluationsminneapolis.com"
-      },
-      "business": {
-        "yearsInBusiness": "16 years in business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 13
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles"
-        ],
-        "certifications": [
-          "ISA Certified",
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Heritage Valuations Minneapolis provides professional antique appraisal services in the Minneapolis area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Jennifer W.",
-          "rating": 4.5,
-          "date": "2025-01-28",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "James S.",
-          "rating": 4,
-          "date": "2024-12-14",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Elizabeth B.",
-          "rating": 4.5,
-          "date": "2024-09-27",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "Elizabeth B.",
-          "rating": 3,
-          "date": "2024-04-30",
-          "content": "Knowledgeable about antiques, though communication could have been better during the process."
         }
       ],
       "metadata": {

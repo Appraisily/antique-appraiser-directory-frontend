@@ -1,6 +1,82 @@
 {
   "appraisers": [
     {
+      "id": "rochester-heritage-valuations-rochester",
+      "name": "Heritage Valuations Rochester",
+      "slug": "heritage-valuations-rochester",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_rochester-heritage-valuations-rochester_1742203815258_MTjoE0tMj.jpg",
+      "address": {
+        "street": "813 Antique Rd",
+        "city": "Rochester",
+        "state": "NE",
+        "zip": "11805",
+        "formatted": "813 Antique Rd, Rochester, NE 11805"
+      },
+      "contact": {
+        "phone": "413-442-7051",
+        "email": "info@heritagevaluationsrochester.com",
+        "website": "https://www.heritagevaluationsrochester.com"
+      },
+      "business": {
+        "yearsInBusiness": "5 years in business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
+        "rating": 4.1,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Rochester provides professional antique appraisal services in the Rochester area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Susan C.",
+          "rating": 4,
+          "date": "2024-11-15",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Robert B.",
+          "rating": 4,
+          "date": "2024-09-22",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "James R.",
+          "rating": 4,
+          "date": "2024-07-24",
+          "content": "Excellent service from start to finish. I highly recommend Heritage Valuations Rochester for any antique appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "rochester-rochester-antique-appraisals",
       "name": "Rochester Antique Appraisals",
       "slug": "rochester-antique-appraisals",
@@ -33,7 +109,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.6,
         "reviewCount": 15
       },
@@ -81,82 +157,6 @@
           "rating": 5,
           "date": "2024-05-09",
           "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "rochester-heritage-valuations-rochester",
-      "name": "Heritage Valuations Rochester",
-      "slug": "heritage-valuations-rochester",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_rochester-heritage-valuations-rochester_1742203815258_MTjoE0tMj.jpg",
-      "address": {
-        "street": "813 Antique Rd",
-        "city": "Rochester",
-        "state": "NE",
-        "zip": "11805",
-        "formatted": "813 Antique Rd, Rochester, NE 11805"
-      },
-      "contact": {
-        "phone": "413-442-7051",
-        "email": "info@heritagevaluationsrochester.com",
-        "website": "https://www.heritagevaluationsrochester.com"
-      },
-      "business": {
-        "yearsInBusiness": "5 years in business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.1,
-        "reviewCount": 6
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry"
-        ],
-        "certifications": [
-          "ISA Certified"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Heritage Valuations Rochester provides professional antique appraisal services in the Rochester area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Susan C.",
-          "rating": 4,
-          "date": "2024-11-15",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Robert B.",
-          "rating": 4,
-          "date": "2024-09-22",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "James R.",
-          "rating": 4,
-          "date": "2024-07-24",
-          "content": "Excellent service from start to finish. I highly recommend Heritage Valuations Rochester for any antique appraisal needs."
         }
       ],
       "metadata": {

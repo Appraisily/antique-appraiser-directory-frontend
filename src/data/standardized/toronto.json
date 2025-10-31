@@ -1,83 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "toronto-fine-art-archives",
-      "name": "Fine Art & Archives",
-      "slug": "fine-art-archives",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_toronto-fine-art-archives_1742203385521_bq4hJiQnVU.jpg",
-      "address": {
-        "street": "935 Main St",
-        "city": "Toronto",
-        "state": "ON",
-        "zip": "68716",
-        "formatted": "935 Main St, Toronto, ON 68716"
-      },
-      "contact": {
-        "phone": "843-925-3049",
-        "email": "info@fineartarchives.com",
-        "website": "https://www.fineartarchives.com"
-      },
-      "business": {
-        "yearsInBusiness": "~15+ years[2]",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.9,
-        "reviewCount": 20
-      },
-      "expertise": {
-        "specialties": [
-          "European/American paintings (15th–20th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master’s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com"
-        ],
-        "certifications": [
-          "ISA",
-          "AM",
-          "USPAP",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Fine Art & Archives provides professional antique appraisal services specializing in European/American paintings (15th–20th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master’s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com. With ~15+ years[2] experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Toronto area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Patricia D.",
-          "rating": 5,
-          "date": "2024-12-26",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and Fine Art & Archives delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Robert J.",
-          "rating": 2,
-          "date": "2024-10-19",
-          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
-        },
-        {
-          "author": "David M.",
-          "rating": 5,
-          "date": "2024-04-26",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "toronto-asianpersian-decorative-arts",
       "name": "Asian/Persian Decorative Arts",
       "slug": "asianpersian-decorative-arts",
@@ -102,7 +25,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.7,
         "reviewCount": 10
       },
@@ -186,7 +109,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.5,
         "reviewCount": 12
       },
@@ -235,6 +158,83 @@
           "rating": 4.5,
           "date": "2024-04-14",
           "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "toronto-fine-art-archives",
+      "name": "Fine Art & Archives",
+      "slug": "fine-art-archives",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_toronto-fine-art-archives_1742203385521_bq4hJiQnVU.jpg",
+      "address": {
+        "street": "935 Main St",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "68716",
+        "formatted": "935 Main St, Toronto, ON 68716"
+      },
+      "contact": {
+        "phone": "843-925-3049",
+        "email": "info@fineartarchives.com",
+        "website": "https://www.fineartarchives.com"
+      },
+      "business": {
+        "yearsInBusiness": "~15+ years[2]",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
+        "rating": 4.9,
+        "reviewCount": 20
+      },
+      "expertise": {
+        "specialties": [
+          "European/American paintings (15th–20th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master’s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com"
+        ],
+        "certifications": [
+          "ISA",
+          "AM",
+          "USPAP",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Fine Art & Archives provides professional antique appraisal services specializing in European/American paintings (15th–20th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master’s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com. With ~15+ years[2] experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Toronto area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia D.",
+          "rating": 5,
+          "date": "2024-12-26",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and Fine Art & Archives delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Robert J.",
+          "rating": 2,
+          "date": "2024-10-19",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
+        },
+        {
+          "author": "David M.",
+          "rating": 5,
+          "date": "2024-04-26",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
         }
       ],
       "metadata": {

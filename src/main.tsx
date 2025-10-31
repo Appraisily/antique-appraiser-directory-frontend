@@ -3,11 +3,34 @@ import { createRoot, hydrateRoot } from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { router } from './router';
+import { SITE_URL } from './config/site';
 import './index.css';
 import './styles/animations.css';
 
+// Ensure we always serve the canonical origin (no stray ports)
+if (typeof window !== 'undefined') {
+  try {
+    const canonicalOrigin = new URL(SITE_URL);
+    const isSameHost = window.location.hostname === canonicalOrigin.hostname;
+    const hasUnexpectedPort =
+      window.location.port &&
+      window.location.port !== canonicalOrigin.port &&
+      window.location.port !== '443' &&
+      window.location.port !== '80';
+
+    if (isSameHost && hasUnexpectedPort) {
+      const target = `${canonicalOrigin.protocol}//${canonicalOrigin.hostname}${
+        canonicalOrigin.port ? `:${canonicalOrigin.port}` : ''
+      }${window.location.pathname}${window.location.search}${window.location.hash}`;
+      window.location.replace(target);
+    }
+  } catch (error) {
+    console.error('Failed to enforce canonical origin', error);
+  }
+}
+
 // Add debug logging to help diagnose issues
-console.log('🔍 Art Appraiser Directory initializing...');
+console.log('🔍 Antique Appraiser Directory initializing...');
 
 // Log environment info
 console.log('📊 Environment info:', {
@@ -24,7 +47,16 @@ if (!rootElement) {
 } else {
   try {
     // Check if the page was pre-rendered (has child nodes)
-    const hasPreRenderedContent = rootElement.childNodes.length > 0;
+    // Treat only actual DOM content (not comments/whitespace placeholders) as pre-rendered output.
+    const hasPreRenderedContent = Array.from(rootElement.childNodes).some(node => {
+      if (node.nodeType === Node.ELEMENT_NODE) {
+        return (node as HTMLElement).outerHTML.trim().length > 0;
+      }
+      if (node.nodeType === Node.TEXT_NODE) {
+        return (node.textContent || '').trim().length > 0;
+      }
+      return false;
+    });
     console.log('🧩 Content status:', { hasPreRenderedContent, childNodes: rootElement.childNodes.length });
 
     if (hasPreRenderedContent) {

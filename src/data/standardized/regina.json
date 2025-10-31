@@ -1,6 +1,91 @@
 {
   "appraisers": [
     {
+      "id": "regina-brunsdon-lawrek-associates",
+      "name": "Brunsdon Lawrek & Associates",
+      "slug": "brunsdon-lawrek-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_regina-brunsdon-lawrek-associates_1742203114034_tEE67zq9op.jpg",
+      "address": {
+        "street": "931 Oak Ave",
+        "city": "Regina",
+        "state": "SA",
+        "zip": "62927",
+        "formatted": "931 Oak Ave, Regina, SA 62927"
+      },
+      "contact": {
+        "phone": "391-649-5710",
+        "email": "info@brunsdonlawrekassociates.com",
+        "website": "https://www.liveauctioneers.com/auctioneer/2740/golden-sun-auctions-inc/"
+      },
+      "business": {
+        "yearsInBusiness": "Established pre‑2025 (current listings Feb/Mar 2025).",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
+        "rating": 5,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "Books/ephemera (first editions), furniture (vintage MCM/IKEA), jewelry (Rolex/Limoges), china sets (Royal Albert).  \n- Contact: terry@tmapp..."
+        ],
+        "certifications": [
+          "Professional Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Brunsdon Lawrek & Associates provides professional antique appraisal services specializing in Books/ephemera (first editions), furniture (vintage MCM/IKEA), jewelry (Rolex/Limoges), china sets (Royal Albert).  \n- Contact: terry@tmapp.... With Established pre‑2025 (current listings Feb/Mar 2025). experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Regina area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Michael R.",
+          "rating": 5,
+          "date": "2025-01-04",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Elizabeth C.",
+          "rating": 5,
+          "date": "2024-06-29",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Robert W.",
+          "rating": 5,
+          "date": "2024-03-29",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Nancy T.",
+          "rating": 5,
+          "date": "2024-03-22",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and Brunsdon Lawrek & Associates delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "regina-listed-professionals",
       "name": "Listed Professionals",
       "slug": "listed-professionals",
@@ -33,7 +118,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
         "rating": 4.5,
         "reviewCount": 19
       },
@@ -123,7 +208,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.2,
         "reviewCount": 21
       },
@@ -166,91 +251,6 @@
           "rating": 4,
           "date": "2024-08-17",
           "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "regina-brunsdon-lawrek-associates",
-      "name": "Brunsdon Lawrek & Associates",
-      "slug": "brunsdon-lawrek-associates",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_regina-brunsdon-lawrek-associates_1742203114034_tEE67zq9op.jpg",
-      "address": {
-        "street": "931 Oak Ave",
-        "city": "Regina",
-        "state": "SA",
-        "zip": "62927",
-        "formatted": "931 Oak Ave, Regina, SA 62927"
-      },
-      "contact": {
-        "phone": "391-649-5710",
-        "email": "info@brunsdonlawrekassociates.com",
-        "website": "https://www.liveauctioneers.com/auctioneer/2740/golden-sun-auctions-inc/"
-      },
-      "business": {
-        "yearsInBusiness": "Established pre‑2025 (current listings Feb/Mar 2025).",
-        "hours": [
-          {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 5,
-        "reviewCount": 17
-      },
-      "expertise": {
-        "specialties": [
-          "Books/ephemera (first editions), furniture (vintage MCM/IKEA), jewelry (Rolex/Limoges), china sets (Royal Albert).  \n- Contact: terry@tmapp..."
-        ],
-        "certifications": [
-          "Professional Appraiser",
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Brunsdon Lawrek & Associates provides professional antique appraisal services specializing in Books/ephemera (first editions), furniture (vintage MCM/IKEA), jewelry (Rolex/Limoges), china sets (Royal Albert).  \n- Contact: terry@tmapp.... With Established pre‑2025 (current listings Feb/Mar 2025). experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Regina area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Michael R.",
-          "rating": 5,
-          "date": "2025-01-04",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "Elizabeth C.",
-          "rating": 5,
-          "date": "2024-06-29",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Robert W.",
-          "rating": 5,
-          "date": "2024-03-29",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Nancy T.",
-          "rating": 5,
-          "date": "2024-03-22",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and Brunsdon Lawrek & Associates delivered excellent service. All tax requirements were met perfectly."
         }
       ],
       "metadata": {

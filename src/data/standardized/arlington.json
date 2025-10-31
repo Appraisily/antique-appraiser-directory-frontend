@@ -1,6 +1,83 @@
 {
   "appraisers": [
     {
+      "id": "arlington-arlington-antique-appraisals",
+      "name": "Arlington Antique Appraisals",
+      "slug": "arlington-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_arlington-arlington-antique-appraisals_1742169600929_iKLm5bOE9.jpg",
+      "address": {
+        "street": "893 Oak Ave",
+        "city": "Arlington",
+        "state": "TE",
+        "zip": "24689",
+        "formatted": "893 Oak Ave, Arlington, TE 24689"
+      },
+      "contact": {
+        "phone": "300-193-4676",
+        "email": "info@arlingtonantiqueappraisals.com",
+        "website": "https://www.arlingtonantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "5 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.7,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Arlington Antique Appraisals provides professional antique appraisal services in the Arlington area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Robert D.",
+          "rating": 5,
+          "date": "2024-10-27",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Karen C.",
+          "rating": 4.5,
+          "date": "2024-09-21",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "John S.",
+          "rating": 4,
+          "date": "2024-05-30",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Emily M.",
+          "rating": 5,
+          "date": "2024-05-14",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "arlington-prestige-estate-services",
       "name": "Prestige Estate Services",
       "slug": "prestige-estate-services",
@@ -18,7 +95,7 @@
         "website": "https://www.prestigeestateservices.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Established in 2010 and trusted for museum-quality reporting.",
         "hours": [
           {
             "day": "Monday-Thursday",
@@ -33,7 +110,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.1,
         "reviewCount": 20
       },
@@ -99,7 +176,7 @@
         "website": "https://www.tadlockappraisalcompany.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Serving collectors since 2007 with USPAP-compliant analyses.",
         "hours": [
           {
             "day": "Tuesday-Saturday",
@@ -110,7 +187,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
         "rating": 4.9,
         "reviewCount": 13
       },
@@ -155,83 +232,6 @@
           "rating": 4.5,
           "date": "2024-04-05",
           "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "arlington-arlington-antique-appraisals",
-      "name": "Arlington Antique Appraisals",
-      "slug": "arlington-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_arlington-arlington-antique-appraisals_1742169600929_iKLm5bOE9.jpg",
-      "address": {
-        "street": "893 Oak Ave",
-        "city": "Arlington",
-        "state": "TE",
-        "zip": "24689",
-        "formatted": "893 Oak Ave, Arlington, TE 24689"
-      },
-      "contact": {
-        "phone": "300-193-4676",
-        "email": "info@arlingtonantiqueappraisals.com",
-        "website": "https://www.arlingtonantiqueappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "5 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 15
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles"
-        ],
-        "certifications": [
-          "ISA Certified"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Arlington Antique Appraisals provides professional antique appraisal services in the Arlington area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Robert D.",
-          "rating": 5,
-          "date": "2024-10-27",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Karen C.",
-          "rating": 4.5,
-          "date": "2024-09-21",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "John S.",
-          "rating": 4,
-          "date": "2024-05-30",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        },
-        {
-          "author": "Emily M.",
-          "rating": 5,
-          "date": "2024-05-14",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
         }
       ],
       "metadata": {

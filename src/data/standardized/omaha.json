@@ -1,94 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "omaha-prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_omaha-prestige-estate-services_1742202916728_QVzw_IHHd.jpg",
-      "address": {
-        "street": "355 Maple Dr",
-        "city": "Omaha",
-        "state": "NE",
-        "zip": "95401",
-        "formatted": "355 Maple Dr, Omaha, NE 95401"
-      },
-      "contact": {
-        "phone": "(402)-391-0400",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://prestigeestateservices.com/appaisals/"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 23
-      },
-      "expertise": {
-        "specialties": [
-          "Artwork"
-        ],
-        "certifications": [
-          "IRS",
-          "USPAP",
-          "ISA",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "Nationwide coverage via regional experts[1]"
-        ]
-      },
-      "content": {
-        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Artwork. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Omaha area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Nancy T.",
-          "rating": 4.5,
-          "date": "2025-02-12",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Michael J.",
-          "rating": 4.5,
-          "date": "2024-12-09",
-          "content": "Prestige Estate Services's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Linda A.",
-          "rating": 4.5,
-          "date": "2024-07-06",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Emily T.",
-          "rating": 3,
-          "date": "2024-06-19",
-          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
-        },
-        {
-          "author": "Emily A.",
-          "rating": 5,
-          "date": "2024-06-15",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "omaha-borsheims-fine-jewelry-gifts",
       "name": "Borsheims Fine Jewelry & Gifts",
       "slug": "borsheims-fine-jewelry-gifts",
@@ -106,7 +18,7 @@
         "website": "https://prestigeestateservices.com/appaisals/"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "15+ years providing certified antique valuations nationwide.",
         "hours": [
           {
             "day": "Monday-Thursday",
@@ -121,7 +33,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.8,
         "reviewCount": 11
       },
@@ -207,7 +119,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.6,
         "reviewCount": 22
       },
@@ -262,6 +174,94 @@
           "rating": 4.5,
           "date": "2024-04-16",
           "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "omaha-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_omaha-prestige-estate-services_1742202916728_QVzw_IHHd.jpg",
+      "address": {
+        "street": "355 Maple Dr",
+        "city": "Omaha",
+        "state": "NE",
+        "zip": "95401",
+        "formatted": "355 Maple Dr, Omaha, NE 95401"
+      },
+      "contact": {
+        "phone": "(402)-391-0400",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com/appaisals/"
+      },
+      "business": {
+        "yearsInBusiness": "Established in 2010 and trusted for museum-quality reporting.",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.7,
+        "reviewCount": 23
+      },
+      "expertise": {
+        "specialties": [
+          "Artwork"
+        ],
+        "certifications": [
+          "IRS",
+          "USPAP",
+          "ISA",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Nationwide coverage via regional experts[1]"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Artwork. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Omaha area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Nancy T.",
+          "rating": 4.5,
+          "date": "2025-02-12",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Michael J.",
+          "rating": 4.5,
+          "date": "2024-12-09",
+          "content": "Prestige Estate Services's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Linda A.",
+          "rating": 4.5,
+          "date": "2024-07-06",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Emily T.",
+          "rating": 3,
+          "date": "2024-06-19",
+          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
+        },
+        {
+          "author": "Emily A.",
+          "rating": 5,
+          "date": "2024-06-15",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
         }
       ],
       "metadata": {

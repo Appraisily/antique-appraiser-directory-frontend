@@ -1,91 +1,77 @@
 {
   "appraisers": [
     {
-      "id": "cleveland-prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-prestige-estate-services_1742201178212_45-fPhvFV.jpg",
+      "id": "cleveland-appraiseitnow---online-service-covering-ohio",
+      "name": "AppraiseItNow - Online Service Covering Ohio",
+      "slug": "appraiseitnow---online-service-covering-ohio",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-appraiseitnow---online-service-covering-ohio_1742201188684_57UgpxkzU.jpg",
       "address": {
-        "street": "776 Antique Rd",
+        "street": "650 Maple Dr",
         "city": "Cleveland",
         "state": "OH",
-        "zip": "96474",
-        "formatted": "776 Antique Rd, Cleveland, OH 96474"
+        "zip": "63566",
+        "formatted": "650 Maple Dr, Cleveland, OH 63566"
       },
       "contact": {
-        "phone": "(216) 377-4777",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://www.legacy-appraisa"
+        "phone": "592-925-9048",
+        "email": "info@appraiseitnowonlineservicecoveringohio.com",
+        "website": "https://www.legacy-appraisal-group.com/about"
       },
       "business": {
-        "yearsInBusiness": "Over two decades | Team combines >100 years’ expertise[5]",
+        "yearsInBusiness": "Established firm with more than 12 years of specialized appraisal practice.",
         "hours": [
           {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
           },
           {
-            "day": "Saturday",
-            "hours": "By appointment"
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
           },
           {
-            "day": "Sunday",
-            "hours": "Closed"
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.3,
-        "reviewCount": 19
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
+        "rating": 5,
+        "reviewCount": 23
       },
       "expertise": {
         "specialties": [
-          "Antique furniture • Fine art • Insurance/donation/tax valuations • Mid-century modern • Ephemera[1][6]  \nCertifications: ISA CAPP • ASA • USPAP-compliant reports[6]  \nYears Active: Over two decades"
+          "Mid-century furnishings • Art Deco items • Military memorabilia • Vintage collectibles[9]    \nKey Staff:   \n- Tammy Weiss: Founder (CAGA-certified, textiles/art history focus). \n- Jeffery Munshower: Mid-century art/graphics expert.\n- Hannah Pempus: Lead curator for vintage interiors (architectural design background)[9].  \n\n---\n\n### AppraiseItNow - Online Service Covering Ohio\nWebsite: [appraiseitnow.com](https://www.appraiseitnow.com/location/ohio)    \nSpecialties: Personal property machinery/business assets retroactive valuations digital-only options ($150–$500+)[10].   \nCertifications: USPAP-compliant IRS-qualified team members nationwide network supporting complex cases expedited timelines (~72hr rush)[10].  \n\n---\n\n## Service Areas & Pricing"
         ],
         "certifications": [
-          "ISA",
-          "CAPP",
-          "ASA",
           "USPAP",
+          "IRS",
           "USPAP-compliant"
         ],
         "services": [
-          "Northeast Ohio + nationwide projects[1]"
+          "Greater Cleveland + virtual consultations[9]"
         ]
       },
       "content": {
-        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Antique furniture • Fine art • Insurance/donation/tax valuations • Mid-century modern • Ephemera[1][6]  \nCertifications: ISA CAPP • ASA • USPAP-compliant reports[6]  \nYears Active: Over two decades. With Over two decades | Team combines >100 years’ expertise[5] experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "about": "AppraiseItNow - Online Service Covering Ohio provides professional antique appraisal services specializing in Mid-century furnishings • Art Deco items • Military memorabilia • Vintage collectibles[9]    \nKey Staff:   \n- Tammy Weiss: Founder (CAGA-certified, textiles/art history focus). \n- Jeffery Munshower: Mid-century art/graphics expert.\n- Hannah Pempus: Lead curator for vintage interiors (architectural design background)[9].  \n\n---\n\n### AppraiseItNow - Online Service Covering Ohio\nWebsite: [appraiseitnow.com](https://www.appraiseitnow.com/location/ohio)    \nSpecialties: Personal property machinery/business assets retroactive valuations digital-only options ($150–$500+)[10].   \nCertifications: USPAP-compliant IRS-qualified team members nationwide network supporting complex cases expedited timelines (~72hr rush)[10].  \n\n---\n\n## Service Areas & Pricing. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "notes": "Serving the Cleveland area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "James T.",
-          "rating": 4.5,
-          "date": "2025-01-19",
+          "author": "David S.",
+          "rating": 5,
+          "date": "2024-10-24",
           "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
         },
         {
+          "author": "Michael A.",
+          "rating": 4.5,
+          "date": "2024-06-07",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
           "author": "Robert M.",
-          "rating": 4,
-          "date": "2024-11-03",
+          "rating": 5,
+          "date": "2024-04-30",
           "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Robert M.",
-          "rating": 4.5,
-          "date": "2024-10-07",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Linda B.",
-          "rating": 4.5,
-          "date": "2024-05-13",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "Elizabeth W.",
-          "rating": 4.5,
-          "date": "2024-04-21",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
         }
       ],
       "metadata": {
@@ -126,7 +112,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.9,
         "reviewCount": 24
       },
@@ -187,77 +173,91 @@
       }
     },
     {
-      "id": "cleveland-appraiseitnow---online-service-covering-ohio",
-      "name": "AppraiseItNow - Online Service Covering Ohio",
-      "slug": "appraiseitnow---online-service-covering-ohio",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-appraiseitnow---online-service-covering-ohio_1742201188684_57UgpxkzU.jpg",
+      "id": "cleveland-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-prestige-estate-services_1742201178212_45-fPhvFV.jpg",
       "address": {
-        "street": "650 Maple Dr",
+        "street": "776 Antique Rd",
         "city": "Cleveland",
         "state": "OH",
-        "zip": "63566",
-        "formatted": "650 Maple Dr, Cleveland, OH 63566"
+        "zip": "96474",
+        "formatted": "776 Antique Rd, Cleveland, OH 96474"
       },
       "contact": {
-        "phone": "592-925-9048",
-        "email": "info@appraiseitnowonlineservicecoveringohio.com",
-        "website": "https://www.legacy-appraisal-group.com/about"
+        "phone": "(216) 377-4777",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://www.legacy-appraisa"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Over two decades | Team combines >100 years’ expertise[5]",
         "hours": [
           {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
           },
           {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
+            "day": "Saturday",
+            "hours": "By appointment"
           },
           {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
+            "day": "Sunday",
+            "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 5,
-        "reviewCount": 23
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.3,
+        "reviewCount": 19
       },
       "expertise": {
         "specialties": [
-          "Mid-century furnishings • Art Deco items • Military memorabilia • Vintage collectibles[9]    \nKey Staff:   \n- Tammy Weiss: Founder (CAGA-certified, textiles/art history focus). \n- Jeffery Munshower: Mid-century art/graphics expert.\n- Hannah Pempus: Lead curator for vintage interiors (architectural design background)[9].  \n\n---\n\n### AppraiseItNow - Online Service Covering Ohio\nWebsite: [appraiseitnow.com](https://www.appraiseitnow.com/location/ohio)    \nSpecialties: Personal property machinery/business assets retroactive valuations digital-only options ($150–$500+)[10].   \nCertifications: USPAP-compliant IRS-qualified team members nationwide network supporting complex cases expedited timelines (~72hr rush)[10].  \n\n---\n\n## Service Areas & Pricing"
+          "Antique furniture • Fine art • Insurance/donation/tax valuations • Mid-century modern • Ephemera[1][6]  \nCertifications: ISA CAPP • ASA • USPAP-compliant reports[6]  \nYears Active: Over two decades"
         ],
         "certifications": [
+          "ISA",
+          "CAPP",
+          "ASA",
           "USPAP",
-          "IRS",
           "USPAP-compliant"
         ],
         "services": [
-          "Greater Cleveland + virtual consultations[9]"
+          "Northeast Ohio + nationwide projects[1]"
         ]
       },
       "content": {
-        "about": "AppraiseItNow - Online Service Covering Ohio provides professional antique appraisal services specializing in Mid-century furnishings • Art Deco items • Military memorabilia • Vintage collectibles[9]    \nKey Staff:   \n- Tammy Weiss: Founder (CAGA-certified, textiles/art history focus). \n- Jeffery Munshower: Mid-century art/graphics expert.\n- Hannah Pempus: Lead curator for vintage interiors (architectural design background)[9].  \n\n---\n\n### AppraiseItNow - Online Service Covering Ohio\nWebsite: [appraiseitnow.com](https://www.appraiseitnow.com/location/ohio)    \nSpecialties: Personal property machinery/business assets retroactive valuations digital-only options ($150–$500+)[10].   \nCertifications: USPAP-compliant IRS-qualified team members nationwide network supporting complex cases expedited timelines (~72hr rush)[10].  \n\n---\n\n## Service Areas & Pricing. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Antique furniture • Fine art • Insurance/donation/tax valuations • Mid-century modern • Ephemera[1][6]  \nCertifications: ISA CAPP • ASA • USPAP-compliant reports[6]  \nYears Active: Over two decades. With Over two decades | Team combines >100 years’ expertise[5] experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "notes": "Serving the Cleveland area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "David S.",
-          "rating": 5,
-          "date": "2024-10-24",
+          "author": "James T.",
+          "rating": 4.5,
+          "date": "2025-01-19",
           "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
         },
         {
-          "author": "Michael A.",
-          "rating": 4.5,
-          "date": "2024-06-07",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+          "author": "Robert M.",
+          "rating": 4,
+          "date": "2024-11-03",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
         },
         {
           "author": "Robert M.",
-          "rating": 5,
-          "date": "2024-04-30",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+          "rating": 4.5,
+          "date": "2024-10-07",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Linda B.",
+          "rating": 4.5,
+          "date": "2024-05-13",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Elizabeth W.",
+          "rating": 4.5,
+          "date": "2024-04-21",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
         }
       ],
       "metadata": {

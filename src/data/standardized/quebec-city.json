@@ -1,21 +1,21 @@
 {
   "appraisers": [
     {
-      "id": "quebec city-notable-antique-appraisal-services",
-      "name": "Notable Antique Appraisal Services",
-      "slug": "notable-antique-appraisal-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_quebec_city-notable-antique-appraisal-services_1742203051888_FG8im5HcW5.jpg",
+      "id": "quebec city-empire-appraisers",
+      "name": "Empire Appraisers",
+      "slug": "empire-appraisers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_quebec_city-empire-appraisers_1742203064665_FUJM_Rrk8U.jpg",
       "address": {
-        "street": "1059 Museum Way",
+        "street": "449 Museum Way",
         "city": "Quebec City",
         "state": "QU",
-        "zip": "48063",
-        "formatted": "1059 Museum Way, Quebec City, QU 48063"
+        "zip": "52507",
+        "formatted": "449 Museum Way, Quebec City, QU 52507"
       },
       "contact": {
-        "phone": "620-696-7656",
-        "email": "info@notableantiqueappraisalservices.com",
-        "website": "https://www.notableantiqueappraisalservices.com"
+        "phone": "950-869-7388",
+        "email": "info@empireappraisers.com",
+        "website": "https://www.empireappraisers.com"
       },
       "business": {
         "yearsInBusiness": "Since 2007",
@@ -25,49 +25,44 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 18
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
+        "rating": 4.6,
+        "reviewCount": 13
       },
       "expertise": {
         "specialties": [
-          "Residential content inventories, antiques, fine arts, estate planning  \n- Certifications: Certified by Canadian Association of Personal Property Appraisers (CAPPA)  \n- Service Area: Greater Montréal region (travel to Québec City possible)  \n- Pricing: Variable depending on item count/location (starting ~$300+)  \n- Contact: 514-647-[redacted]; By appointment only  \n\n#### Inuit Sculptures Art Gallery  \n- Specialties: Inuit carvings/sculptures (insurance, donations, resale)  \n- Years Active: Since 2007  \n- Pricing: Flat fee ($340 per apprais"
+          "Inuit carvings/sculptures (insurance, donations, resale)  \n- Years Active: Since 2007  \n- Pricing: Flat fee ($340 per appraisal) includes artist bios/documentation    \n- Remote service available: Submit photos/dimensions via email ([info@inuitsculptures.com](mailto:info@inuitsculptures.com))  \n\n#### Empire Appraisers"
         ],
         "certifications": [
-          "CAPPA"
+          "Professional Appraiser",
+          "USPAP Compliant"
         ],
         "services": [
-          "Greater Montréal region (travel to Québec City possible)"
+          "Submit photos/dimensions via email ([info@inuitsculptures.com](mailto:info@inuitsculptures.com))"
         ]
       },
       "content": {
-        "about": "Notable Antique Appraisal Services provides professional antique appraisal services specializing in Residential content inventories, antiques, fine arts, estate planning  \n- Certifications: Certified by Canadian Association of Personal Property Appraisers (CAPPA)  \n- Service Area: Greater Montréal region (travel to Québec City possible)  \n- Pricing: Variable depending on item count/location (starting ~$300+)  \n- Contact: 514-647-[redacted]; By appointment only  \n\n#### Inuit Sculptures Art Gallery  \n- Specialties: Inuit carvings/sculptures (insurance, donations, resale)  \n- Years Active: Since 2007  \n- Pricing: Flat fee ($340 per apprais. With Since 2007 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "about": "Empire Appraisers provides professional antique appraisal services specializing in Inuit carvings/sculptures (insurance, donations, resale)  \n- Years Active: Since 2007  \n- Pricing: Flat fee ($340 per appraisal) includes artist bios/documentation    \n- Remote service available: Submit photos/dimensions via email ([info@inuitsculptures.com](mailto:info@inuitsculptures.com))  \n\n#### Empire Appraisers. With Since 2007 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "notes": "Serving the Quebec City area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "Nancy A.",
-          "rating": 4.5,
-          "date": "2024-10-16",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Michael D.",
+          "author": "James M.",
           "rating": 5,
-          "date": "2024-06-18",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+          "date": "2025-02-06",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
         },
         {
-          "author": "Nancy J.",
+          "author": "Emily A.",
           "rating": 4.5,
-          "date": "2024-06-12",
+          "date": "2024-09-25",
+          "content": "Excellent service from start to finish. I highly recommend Empire Appraisers for any antique appraisal needs."
+        },
+        {
+          "author": "Linda M.",
+          "rating": 4.5,
+          "date": "2024-09-02",
           "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Susan W.",
-          "rating": 4.5,
-          "date": "2024-04-28",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
         }
       ],
       "metadata": {
@@ -108,7 +103,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.2,
         "reviewCount": 23
       },
@@ -159,21 +154,21 @@
       }
     },
     {
-      "id": "quebec city-empire-appraisers",
-      "name": "Empire Appraisers",
-      "slug": "empire-appraisers",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_quebec_city-empire-appraisers_1742203064665_FUJM_Rrk8U.jpg",
+      "id": "quebec city-notable-antique-appraisal-services",
+      "name": "Notable Antique Appraisal Services",
+      "slug": "notable-antique-appraisal-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_quebec_city-notable-antique-appraisal-services_1742203051888_FG8im5HcW5.jpg",
       "address": {
-        "street": "449 Museum Way",
+        "street": "1059 Museum Way",
         "city": "Quebec City",
         "state": "QU",
-        "zip": "52507",
-        "formatted": "449 Museum Way, Quebec City, QU 52507"
+        "zip": "48063",
+        "formatted": "1059 Museum Way, Quebec City, QU 48063"
       },
       "contact": {
-        "phone": "950-869-7388",
-        "email": "info@empireappraisers.com",
-        "website": "https://www.empireappraisers.com"
+        "phone": "620-696-7656",
+        "email": "info@notableantiqueappraisalservices.com",
+        "website": "https://www.notableantiqueappraisalservices.com"
       },
       "business": {
         "yearsInBusiness": "Since 2007",
@@ -183,44 +178,49 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 13
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
+        "rating": 4.7,
+        "reviewCount": 18
       },
       "expertise": {
         "specialties": [
-          "Inuit carvings/sculptures (insurance, donations, resale)  \n- Years Active: Since 2007  \n- Pricing: Flat fee ($340 per appraisal) includes artist bios/documentation    \n- Remote service available: Submit photos/dimensions via email ([info@inuitsculptures.com](mailto:info@inuitsculptures.com))  \n\n#### Empire Appraisers"
+          "Residential content inventories, antiques, fine arts, estate planning  \n- Certifications: Certified by Canadian Association of Personal Property Appraisers (CAPPA)  \n- Service Area: Greater Montréal region (travel to Québec City possible)  \n- Pricing: Variable depending on item count/location (starting ~$300+)  \n- Contact: 514-647-[redacted]; By appointment only  \n\n#### Inuit Sculptures Art Gallery  \n- Specialties: Inuit carvings/sculptures (insurance, donations, resale)  \n- Years Active: Since 2007  \n- Pricing: Flat fee ($340 per apprais"
         ],
         "certifications": [
-          "Professional Appraiser",
-          "USPAP Compliant"
+          "CAPPA"
         ],
         "services": [
-          "Submit photos/dimensions via email ([info@inuitsculptures.com](mailto:info@inuitsculptures.com))"
+          "Greater Montréal region (travel to Québec City possible)"
         ]
       },
       "content": {
-        "about": "Empire Appraisers provides professional antique appraisal services specializing in Inuit carvings/sculptures (insurance, donations, resale)  \n- Years Active: Since 2007  \n- Pricing: Flat fee ($340 per appraisal) includes artist bios/documentation    \n- Remote service available: Submit photos/dimensions via email ([info@inuitsculptures.com](mailto:info@inuitsculptures.com))  \n\n#### Empire Appraisers. With Since 2007 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "about": "Notable Antique Appraisal Services provides professional antique appraisal services specializing in Residential content inventories, antiques, fine arts, estate planning  \n- Certifications: Certified by Canadian Association of Personal Property Appraisers (CAPPA)  \n- Service Area: Greater Montréal region (travel to Québec City possible)  \n- Pricing: Variable depending on item count/location (starting ~$300+)  \n- Contact: 514-647-[redacted]; By appointment only  \n\n#### Inuit Sculptures Art Gallery  \n- Specialties: Inuit carvings/sculptures (insurance, donations, resale)  \n- Years Active: Since 2007  \n- Pricing: Flat fee ($340 per apprais. With Since 2007 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "notes": "Serving the Quebec City area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "James M.",
-          "rating": 5,
-          "date": "2025-02-06",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "Emily A.",
+          "author": "Nancy A.",
           "rating": 4.5,
-          "date": "2024-09-25",
-          "content": "Excellent service from start to finish. I highly recommend Empire Appraisers for any antique appraisal needs."
-        },
-        {
-          "author": "Linda M.",
-          "rating": 4.5,
-          "date": "2024-09-02",
+          "date": "2024-10-16",
           "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Michael D.",
+          "rating": 5,
+          "date": "2024-06-18",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Nancy J.",
+          "rating": 4.5,
+          "date": "2024-06-12",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Susan W.",
+          "rating": 4.5,
+          "date": "2024-04-28",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
         }
       ],
       "metadata": {

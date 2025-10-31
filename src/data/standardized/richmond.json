@@ -1,6 +1,79 @@
 {
   "appraisers": [
     {
+      "id": "richmond-heritage-valuations-richmond",
+      "name": "Heritage Valuations Richmond",
+      "slug": "heritage-valuations-richmond",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-heritage-valuations-richmond_1742203799595_PT9O-GkBrS.jpg",
+      "address": {
+        "street": "465 Main St",
+        "city": "Richmond",
+        "state": "VI",
+        "zip": "72775",
+        "formatted": "465 Main St, Richmond, VI 72775"
+      },
+      "contact": {
+        "phone": "635-407-3678",
+        "email": "info@heritagevaluationsrichmond.com",
+        "website": "https://www.heritagevaluationsrichmond.com"
+      },
+      "business": {
+        "yearsInBusiness": "17 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.8,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Richmond provides professional antique appraisal services in the Richmond area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Nancy A.",
+          "rating": 5,
+          "date": "2025-01-30",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Nancy D.",
+          "rating": 4.5,
+          "date": "2024-06-16",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Karen T.",
+          "rating": 5,
+          "date": "2024-03-17",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "richmond-richmond-antique-appraisals",
       "name": "Richmond Antique Appraisals",
       "slug": "richmond-antique-appraisals",
@@ -25,7 +98,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
         "rating": 4.2,
         "reviewCount": 10
       },
@@ -72,79 +145,6 @@
           "rating": 4.5,
           "date": "2024-05-25",
           "content": "Excellent service from start to finish. I highly recommend Richmond Antique Appraisals for any antique appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "richmond-heritage-valuations-richmond",
-      "name": "Heritage Valuations Richmond",
-      "slug": "heritage-valuations-richmond",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-heritage-valuations-richmond_1742203799595_PT9O-GkBrS.jpg",
-      "address": {
-        "street": "465 Main St",
-        "city": "Richmond",
-        "state": "VI",
-        "zip": "72775",
-        "formatted": "465 Main St, Richmond, VI 72775"
-      },
-      "contact": {
-        "phone": "635-407-3678",
-        "email": "info@heritagevaluationsrichmond.com",
-        "website": "https://www.heritagevaluationsrichmond.com"
-      },
-      "business": {
-        "yearsInBusiness": "17 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.8,
-        "reviewCount": 15
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry"
-        ],
-        "certifications": [
-          "ISA Certified"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Heritage Valuations Richmond provides professional antique appraisal services in the Richmond area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Nancy A.",
-          "rating": 5,
-          "date": "2025-01-30",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Nancy D.",
-          "rating": 4.5,
-          "date": "2024-06-16",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        },
-        {
-          "author": "Karen T.",
-          "rating": 5,
-          "date": "2024-03-17",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
         }
       ],
       "metadata": {

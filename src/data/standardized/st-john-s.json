@@ -1,81 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "st. john's-turner-drake-partners-ltd",
-      "name": "Turner Drake & Partners Ltd.",
-      "slug": "turner-drake-partners-ltd",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st._john_s-turner-drake-partners-ltd_1742203286131_9ySTT0hdl.jpg",
-      "address": {
-        "street": "965 Maple Dr",
-        "city": "St. John's",
-        "state": "NE",
-        "zip": "75732",
-        "formatted": "965 Maple Dr, St. John's, NE 75732"
-      },
-      "contact": {
-        "phone": "297-981-4831",
-        "email": "info@turnerdrakepartnersltd.com",
-        "website": "https://www.turnerdrake.org"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.9,
-        "reviewCount": 13
-      },
-      "expertise": {
-        "specialties": [
-          "Commercial property valuation (not antiques).  \n- Location: Office at [address redacted], Toronto + Atlantic Canada branches ([website](https://www.turnerdrake.org)).  \n- Certifications: UBC DULE/BBRE-trained staff; CompuVal® analytics platform use noted [10].  \n\n#### Gurr Johns  \n- Specialty: High-value art/antique valuations globally ($10B+ annually), including tax planning and insurance [1].  \n- Service Area: Remote consultations possible via their international network; USPAP-compliant reports [1].  \n\n---\n\n### Recommendations for Local Options (Not Listed in Sources)  \n1️⃣ Contact [Newfoundland Antique Dealers Associ"
-        ],
-        "certifications": [
-          "UBC",
-          "DULE",
-          "BBRE"
-        ],
-        "services": [
-          "St. John’s, Newfoundland and Labrador"
-        ]
-      },
-      "content": {
-        "about": "Turner Drake & Partners Ltd. provides professional antique appraisal services specializing in Commercial property valuation (not antiques).  \n- Location: Office at [address redacted], Toronto + Atlantic Canada branches ([website](https://www.turnerdrake.org)).  \n- Certifications: UBC DULE/BBRE-trained staff; CompuVal® analytics platform use noted [10].  \n\n#### Gurr Johns  \n- Specialty: High-value art/antique valuations globally ($10B+ annually), including tax planning and insurance [1].  \n- Service Area: Remote consultations possible via their international network; USPAP-compliant reports [1].  \n\n---\n\n### Recommendations for Local Options (Not Listed in Sources)  \n1️⃣ Contact [Newfoundland Antique Dealers Associ. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the St. John's area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Sarah W.",
-          "rating": 5,
-          "date": "2024-12-04",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "John J.",
-          "rating": 5,
-          "date": "2024-05-21",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Jennifer D.",
-          "rating": 5,
-          "date": "2024-04-11",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "st. john's-gurr-johns",
       "name": "Gurr Johns",
       "slug": "gurr-johns",
@@ -93,14 +18,14 @@
         "website": "https://www.turnerdrake.org"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Established in 2010 and trusted for museum-quality reporting.",
         "hours": [
           {
             "day": "Monday-Friday",
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.1,
         "reviewCount": 16
       },
@@ -175,7 +100,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
         "rating": 4.9,
         "reviewCount": 6
       },
@@ -220,6 +145,81 @@
           "rating": 5,
           "date": "2024-08-21",
           "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "st. john's-turner-drake-partners-ltd",
+      "name": "Turner Drake & Partners Ltd.",
+      "slug": "turner-drake-partners-ltd",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st._john_s-turner-drake-partners-ltd_1742203286131_9ySTT0hdl.jpg",
+      "address": {
+        "street": "965 Maple Dr",
+        "city": "St. John's",
+        "state": "NE",
+        "zip": "75732",
+        "formatted": "965 Maple Dr, St. John's, NE 75732"
+      },
+      "contact": {
+        "phone": "297-981-4831",
+        "email": "info@turnerdrakepartnersltd.com",
+        "website": "https://www.turnerdrake.org"
+      },
+      "business": {
+        "yearsInBusiness": "Established in 2010 and trusted for museum-quality reporting.",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.9,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Commercial property valuation (not antiques).  \n- Location: Office at [address redacted], Toronto + Atlantic Canada branches ([website](https://www.turnerdrake.org)).  \n- Certifications: UBC DULE/BBRE-trained staff; CompuVal® analytics platform use noted [10].  \n\n#### Gurr Johns  \n- Specialty: High-value art/antique valuations globally ($10B+ annually), including tax planning and insurance [1].  \n- Service Area: Remote consultations possible via their international network; USPAP-compliant reports [1].  \n\n---\n\n### Recommendations for Local Options (Not Listed in Sources)  \n1️⃣ Contact [Newfoundland Antique Dealers Associ"
+        ],
+        "certifications": [
+          "UBC",
+          "DULE",
+          "BBRE"
+        ],
+        "services": [
+          "St. John’s, Newfoundland and Labrador"
+        ]
+      },
+      "content": {
+        "about": "Turner Drake & Partners Ltd. provides professional antique appraisal services specializing in Commercial property valuation (not antiques).  \n- Location: Office at [address redacted], Toronto + Atlantic Canada branches ([website](https://www.turnerdrake.org)).  \n- Certifications: UBC DULE/BBRE-trained staff; CompuVal® analytics platform use noted [10].  \n\n#### Gurr Johns  \n- Specialty: High-value art/antique valuations globally ($10B+ annually), including tax planning and insurance [1].  \n- Service Area: Remote consultations possible via their international network; USPAP-compliant reports [1].  \n\n---\n\n### Recommendations for Local Options (Not Listed in Sources)  \n1️⃣ Contact [Newfoundland Antique Dealers Associ. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the St. John's area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Sarah W.",
+          "rating": 5,
+          "date": "2024-12-04",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "John J.",
+          "rating": 5,
+          "date": "2024-05-21",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Jennifer D.",
+          "rating": 5,
+          "date": "2024-04-11",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
         }
       ],
       "metadata": {

@@ -1,99 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "buffalo-key-features",
-      "name": "Key Features",
-      "slug": "key-features",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-key-features_1742170104600_dKntJ-9OD.jpg",
-      "address": {
-        "street": "482 Antique Rd",
-        "city": "Buffalo",
-        "state": "NE",
-        "zip": "67998",
-        "formatted": "482 Antique Rd, Buffalo, NE 67998"
-      },
-      "contact": {
-        "phone": "131-412-6494",
-        "email": "info@keyfeatures.com",
-        "website": "https://schultzauctioneers.net"
-      },
-      "business": {
-        "yearsInBusiness": "Since 2002",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.2,
-        "reviewCount": 9
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Items"
-        ],
-        "certifications": [
-          "Professional Appraiser",
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Key Features provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles, Estate Items. With Since 2002 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Buffalo area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Patricia C.",
-          "rating": 4.5,
-          "date": "2025-01-05",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "Karen W.",
-          "rating": 4.5,
-          "date": "2024-09-17",
-          "content": "Key Features's knowledge of antique furniture values was exceptional. The documentation Key Features provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "David A.",
-          "rating": 4,
-          "date": "2024-07-21",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Patricia W.",
-          "rating": 4,
-          "date": "2024-07-07",
-          "content": "Key Features's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Linda R.",
-          "rating": 4,
-          "date": "2024-06-08",
-          "content": "Key Features's knowledge of antique furniture values was exceptional. The documentation Key Features provided was detailed and perfect for my insurance needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "buffalo-buffalo-antique-appraisals",
       "name": "Buffalo Antique Appraisals",
       "slug": "buffalo-antique-appraisals",
@@ -118,7 +25,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
         "rating": 4.8,
         "reviewCount": 17
       },
@@ -206,7 +113,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
         "rating": 4.5,
         "reviewCount": 14
       },
@@ -249,6 +156,99 @@
           "rating": 4.5,
           "date": "2024-04-09",
           "content": "Heritage Valuations Buffalo's knowledge of antique furniture values was exceptional. The documentation Heritage Valuations Buffalo provided was detailed and perfect for my insurance needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "buffalo-key-features",
+      "name": "Key Features",
+      "slug": "key-features",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-key-features_1742170104600_dKntJ-9OD.jpg",
+      "address": {
+        "street": "482 Antique Rd",
+        "city": "Buffalo",
+        "state": "NE",
+        "zip": "67998",
+        "formatted": "482 Antique Rd, Buffalo, NE 67998"
+      },
+      "contact": {
+        "phone": "131-412-6494",
+        "email": "info@keyfeatures.com",
+        "website": "https://schultzauctioneers.net"
+      },
+      "business": {
+        "yearsInBusiness": "Since 2002",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
+        "rating": 4.2,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [
+          "Professional Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Key Features provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles, Estate Items. With Since 2002 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Buffalo area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia C.",
+          "rating": 4.5,
+          "date": "2025-01-05",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Karen W.",
+          "rating": 4.5,
+          "date": "2024-09-17",
+          "content": "Key Features's knowledge of antique furniture values was exceptional. The documentation Key Features provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "David A.",
+          "rating": 4,
+          "date": "2024-07-21",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Patricia W.",
+          "rating": 4,
+          "date": "2024-07-07",
+          "content": "Key Features's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Linda R.",
+          "rating": 4,
+          "date": "2024-06-08",
+          "content": "Key Features's knowledge of antique furniture values was exceptional. The documentation Key Features provided was detailed and perfect for my insurance needs."
         }
       ],
       "metadata": {

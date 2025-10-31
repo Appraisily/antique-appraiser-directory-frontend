@@ -33,7 +33,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
         "rating": 4.7,
         "reviewCount": 21
       },
@@ -87,89 +87,6 @@
       }
     },
     {
-      "id": "ottawa-ottawa-antique-appraisals",
-      "name": "Ottawa Antique Appraisals",
-      "slug": "ottawa-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_ottawa-ottawa-antique-appraisals_1742202946918_NKAMgTnKs.jpg",
-      "address": {
-        "street": "637 Main St",
-        "city": "Ottawa",
-        "state": "ON",
-        "zip": "93754",
-        "formatted": "637 Main St, Ottawa, ON 93754"
-      },
-      "contact": {
-        "phone": "561-277-2016",
-        "email": "info@ottawaantiqueappraisals.com",
-        "website": "https://www.ottawaantiqueappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "5 years in business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.8,
-        "reviewCount": 9
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles"
-        ],
-        "certifications": [
-          "ISA Certified"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals",
-          "Donation Valuation"
-        ]
-      },
-      "content": {
-        "about": "Ottawa Antique Appraisals provides professional antique appraisal services in the Ottawa area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Elizabeth M.",
-          "rating": 4.5,
-          "date": "2025-03-08",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and Ottawa Antique Appraisals delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Robert M.",
-          "rating": 4.5,
-          "date": "2024-11-26",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Jessica M.",
-          "rating": 4.5,
-          "date": "2024-11-05",
-          "content": "Very responsive and easy to work with. Ottawa Antique Appraisals's expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Karen R.",
-          "rating": 4.5,
-          "date": "2024-07-28",
-          "content": "Ottawa Antique Appraisals's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "ottawa-heritage-valuations-ottawa",
       "name": "Heritage Valuations Ottawa",
       "slug": "heritage-valuations-ottawa",
@@ -202,7 +119,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
         "rating": 4.3,
         "reviewCount": 9
       },
@@ -255,6 +172,89 @@
           "rating": 5,
           "date": "2024-04-21",
           "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "ottawa-ottawa-antique-appraisals",
+      "name": "Ottawa Antique Appraisals",
+      "slug": "ottawa-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_ottawa-ottawa-antique-appraisals_1742202946918_NKAMgTnKs.jpg",
+      "address": {
+        "street": "637 Main St",
+        "city": "Ottawa",
+        "state": "ON",
+        "zip": "93754",
+        "formatted": "637 Main St, Ottawa, ON 93754"
+      },
+      "contact": {
+        "phone": "561-277-2016",
+        "email": "info@ottawaantiqueappraisals.com",
+        "website": "https://www.ottawaantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "5 years in business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.8,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Valuation"
+        ]
+      },
+      "content": {
+        "about": "Ottawa Antique Appraisals provides professional antique appraisal services in the Ottawa area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth M.",
+          "rating": 4.5,
+          "date": "2025-03-08",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and Ottawa Antique Appraisals delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Robert M.",
+          "rating": 4.5,
+          "date": "2024-11-26",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Jessica M.",
+          "rating": 4.5,
+          "date": "2024-11-05",
+          "content": "Very responsive and easy to work with. Ottawa Antique Appraisals's expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Karen R.",
+          "rating": 4.5,
+          "date": "2024-07-28",
+          "content": "Ottawa Antique Appraisals's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
         }
       ],
       "metadata": {

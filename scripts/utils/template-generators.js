@@ -28,11 +28,23 @@ import {
   generateAppraiserPageSchemas,
   generateSchemaMarkup
 } from './schema-generator.js';
+import { getGtmBodySnippet, getGtmHeadSnippet } from './gtm.js';
 
 // Constants
 const BASE_URL = 'https://antique-appraiser-directory.appraisily.com';
 const DEFAULT_META_TITLE = 'Art Appraiser Directory | Find Qualified Art Appraisers';
 const DEFAULT_META_DESCRIPTION = 'Find professional art appraisers for insurance, estate, donation, and fair market value appraisals. Get accurate valuations for your artwork.';
+
+function renderGtmAttributes(attrs = {}) {
+  return Object.entries(attrs)
+    .filter(([, value]) => value !== undefined && value !== null && value !== '')
+    .map(([key, value]) => {
+      const attrName = `data-gtm-${key.replace(/[A-Z]/g, '-$&').toLowerCase()}`;
+      const attrValue = String(value).replace(/"/g, '&quot;');
+      return ` ${attrName}="${attrValue}"`;
+    })
+    .join('');
+}
 
 /**
  * Generates meta tags for SEO
@@ -124,18 +136,25 @@ async function generateAppraiserCardHtml(appraiser, options = {}) {
     .replace(/\s+/g, '-');
   
   const profileUrl = `${BASE_URL}/appraiser/${slug}`;
+  const gtmLinkAttributes = linkToProfile ? renderGtmAttributes({
+    event: 'appraiser_directory_click',
+    appraiserId: slug,
+    appraiserName: appraiser.name,
+    city: appraiser.city || appraiser.location || '',
+    surface: 'directory_card'
+  }) : '';
   
   // Generate the card HTML
   return `
     <div class="${cardClass}">
       <div class="card-image">
-        ${linkToProfile ? `<a href="${profileUrl}">` : ''}
+        ${linkToProfile ? `<a href="${profileUrl}"${gtmLinkAttributes}>` : ''}
           ${imageHtml}
         ${linkToProfile ? '</a>' : ''}
       </div>
       <div class="card-content">
         <h3 class="card-title">
-          ${linkToProfile ? `<a href="${profileUrl}">` : ''}
+          ${linkToProfile ? `<a href="${profileUrl}"${gtmLinkAttributes}>` : ''}
             ${appraiser.name}
           ${linkToProfile ? '</a>' : ''}
         </h3>
@@ -150,7 +169,7 @@ async function generateAppraiserCardHtml(appraiser, options = {}) {
             ${appraiser.reviewCount ? `<span class="review-count">(${appraiser.reviewCount} reviews)</span>` : ''}
           </div>` : ''
         }
-        ${linkToProfile ? `<a href="${profileUrl}" class="view-profile-btn">View Profile</a>` : ''}
+        ${linkToProfile ? `<a href="${profileUrl}" class="view-profile-btn"${gtmLinkAttributes}>View Profile</a>` : ''}
       </div>
     </div>
   `;
@@ -239,25 +258,16 @@ export async function generateLocationPageHTML({
     <!DOCTYPE html>
     <html lang="en">
     <head>
-      <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-PSLHDGM');</script>
-      <!-- End Google Tag Manager -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       ${resourceHints}
       ${generateMetaTags(mergedSeoData)}
       <link rel="stylesheet" href="/css/styles.css">
       ${schemaMarkup}
+      ${getGtmHeadSnippet()}
     </head>
     <body>
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSLHDGM"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
+      ${getGtmBodySnippet()}
       <header>
         <div class="container">
           <a href="/" class="logo">Art Appraiser Directory</a>
@@ -494,29 +504,26 @@ export async function generateAppraiserPageHTML(appraiser) {
     `;
   }
   
+  const gtmContactBase = {
+    appraiserId: slug,
+    appraiserName: appraiser.name,
+    city: appraiser.city || location || ''
+  };
+
   // Generate the complete HTML
   let html = `
     <!DOCTYPE html>
     <html lang="en">
     <head>
-      <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-PSLHDGM');</script>
-      <!-- End Google Tag Manager -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       ${generateMetaTags(seoData)}
       <link rel="stylesheet" href="/css/styles.css">
       ${schemaMarkup}
+      ${getGtmHeadSnippet()}
     </head>
     <body>
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSLHDGM"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
+      ${getGtmBodySnippet()}
       <header>
         <div class="container">
           <a href="/" class="logo">Art Appraiser Directory</a>
@@ -549,9 +556,24 @@ export async function generateAppraiserPageHTML(appraiser) {
                 <h1>${appraiser.name}</h1>
                 ${appraiser.businessName ? `<p class="business-name">${appraiser.businessName}</p>` : ''}
                 ${location ? `<p class="location">${location}</p>` : ''}
-                ${appraiser.phone ? `<p class="phone"><a href="tel:${appraiser.phone.replace(/[^0-9]/g, '')}">${appraiser.phone}</a></p>` : ''}
-                ${appraiser.email ? `<p class="email"><a href="mailto:${appraiser.email}">${appraiser.email}</a></p>` : ''}
-                ${appraiser.website ? `<p class="website"><a href="${appraiser.website}" target="_blank" rel="noopener">Visit Website</a></p>` : ''}
+                ${appraiser.phone ? `<p class="phone"><a href="tel:${appraiser.phone.replace(/[^0-9]/g, '')}"${renderGtmAttributes({
+                  ...gtmContactBase,
+                  event: 'directory_cta',
+                  cta: 'call',
+                  surface: 'profile_contact_info'
+                })}>${appraiser.phone}</a></p>` : ''}
+                ${appraiser.email ? `<p class="email"><a href="mailto:${appraiser.email}"${renderGtmAttributes({
+                  ...gtmContactBase,
+                  event: 'directory_cta',
+                  cta: 'email',
+                  surface: 'profile_contact_info'
+                })}>${appraiser.email}</a></p>` : ''}
+                ${appraiser.website ? `<p class="website"><a href="${appraiser.website}" target="_blank" rel="noopener"${renderGtmAttributes({
+                  ...gtmContactBase,
+                  event: 'directory_cta',
+                  cta: 'website',
+                  surface: 'profile_contact_info'
+                })}>Visit Website</a></p>` : ''}
                 
                 ${appraiser.specialties && appraiser.specialties.length > 0 ?
                   `<div class="specialties">
@@ -609,10 +631,25 @@ export async function generateAppraiserPageHTML(appraiser) {
                 <h2>Request an Appraisal</h2>
                 <p>Need an art appraisal? Contact ${appraiser.name} today to schedule a consultation.</p>
                 ${appraiser.phone ? 
-                  `<a href="tel:${appraiser.phone.replace(/[^0-9]/g, '')}" class="cta-button">Call ${appraiser.phone}</a>` : 
+                  `<a href="tel:${appraiser.phone.replace(/[^0-9]/g, '')}" class="cta-button"${renderGtmAttributes({
+                    ...gtmContactBase,
+                    event: 'directory_cta',
+                    cta: 'call',
+                    surface: 'profile_cta_section'
+                  })}>Call ${appraiser.phone}</a>` : 
                   appraiser.email ? 
-                  `<a href="mailto:${appraiser.email}" class="cta-button">Email ${appraiser.name}</a>` :
-                  `<a href="/contact" class="cta-button">Contact Us</a>`
+                  `<a href="mailto:${appraiser.email}" class="cta-button"${renderGtmAttributes({
+                    ...gtmContactBase,
+                    event: 'directory_cta',
+                    cta: 'email',
+                    surface: 'profile_cta_section'
+                  })}>Email ${appraiser.name}</a>` :
+                  `<a href="/contact" class="cta-button"${renderGtmAttributes({
+                    ...gtmContactBase,
+                    event: 'directory_cta',
+                    cta: 'contact_us',
+                    surface: 'profile_cta_section'
+                  })}>Contact Us</a>`
                 }
               </div>
             </div>

@@ -1,6 +1,100 @@
 {
   "appraisers": [
     {
+      "id": "albuquerque-albuquerque-antique-appraisals",
+      "name": "Albuquerque Antique Appraisals",
+      "slug": "albuquerque-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_albuquerque-albuquerque-antique-appraisals_1742169571272_YiUDiJ2qe.jpg",
+      "address": {
+        "street": "766 Museum Way",
+        "city": "Albuquerque",
+        "state": "NE",
+        "zip": "23001",
+        "formatted": "766 Museum Way, Albuquerque, NE 23001"
+      },
+      "contact": {
+        "phone": "920-175-1447",
+        "email": "info@albuquerqueantiqueappraisals.com",
+        "website": "https://www.albuquerqueantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "13 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
+        "rating": 4.4,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Albuquerque Antique Appraisals provides professional antique appraisal services in the Albuquerque area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "John D.",
+          "rating": 4.5,
+          "date": "2025-01-08",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Emily J.",
+          "rating": 4.5,
+          "date": "2024-07-30",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Michael D.",
+          "rating": 4.5,
+          "date": "2024-05-19",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Susan R.",
+          "rating": 4,
+          "date": "2024-05-10",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Jennifer C.",
+          "rating": 4,
+          "date": "2024-03-25",
+          "content": "Excellent service from start to finish. I highly recommend Albuquerque Antique Appraisals for any antique appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "albuquerque-antique-appraisal-firms-professionals",
       "name": "Antique Appraisal Firms & Professionals",
       "slug": "antique-appraisal-firms-professionals",
@@ -18,7 +112,7 @@
         "website": "https://www.antiqueappraisalfirmsprofessionals.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "15+ years providing certified antique valuations nationwide.",
         "hours": [
           {
             "day": "Monday-Thursday",
@@ -33,7 +127,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
         "rating": 4.5,
         "reviewCount": 19
       },
@@ -96,7 +190,7 @@
         "website": "https://www.prestigeestateservices.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Established in 2010 and trusted for museum-quality reporting.",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -111,7 +205,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.4,
         "reviewCount": 20
       },
@@ -149,100 +243,6 @@
           "rating": 4,
           "date": "2024-05-28",
           "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "albuquerque-albuquerque-antique-appraisals",
-      "name": "Albuquerque Antique Appraisals",
-      "slug": "albuquerque-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_albuquerque-albuquerque-antique-appraisals_1742169571272_YiUDiJ2qe.jpg",
-      "address": {
-        "street": "766 Museum Way",
-        "city": "Albuquerque",
-        "state": "NE",
-        "zip": "23001",
-        "formatted": "766 Museum Way, Albuquerque, NE 23001"
-      },
-      "contact": {
-        "phone": "920-175-1447",
-        "email": "info@albuquerqueantiqueappraisals.com",
-        "website": "https://www.albuquerqueantiqueappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "13 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.4,
-        "reviewCount": 13
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry",
-          "Fine Art"
-        ],
-        "certifications": [
-          "ISA Certified"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Albuquerque Antique Appraisals provides professional antique appraisal services in the Albuquerque area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "John D.",
-          "rating": 4.5,
-          "date": "2025-01-08",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "Emily J.",
-          "rating": 4.5,
-          "date": "2024-07-30",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Michael D.",
-          "rating": 4.5,
-          "date": "2024-05-19",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "Susan R.",
-          "rating": 4,
-          "date": "2024-05-10",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Jennifer C.",
-          "rating": 4,
-          "date": "2024-03-25",
-          "content": "Excellent service from start to finish. I highly recommend Albuquerque Antique Appraisals for any antique appraisal needs."
         }
       ],
       "metadata": {

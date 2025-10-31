@@ -1,9 +1,30 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { PARENT_SITE_URL, SITE_NAME, SITE_URL, buildSiteUrl } from '../config/site';
+
+const buildProfileUrl = (path: string) => {
+  try {
+    if (path.startsWith('http://') || path.startsWith('https://')) {
+      return path;
+    }
+  } catch {
+    // ignore malformed inputs and fall back to SITE_URL
+  }
+  return buildSiteUrl(path);
+};
+
+const sanitizeYearsInBusiness = (value?: string) => {
+  if (!value) return undefined;
+  const numericMatch = value.match(/\d{4}/);
+  if (numericMatch) {
+    return numericMatch[0];
+  }
+  if (/^\d+\+?\s+years?/i.test(value)) {
+    return value;
+  }
+  return undefined;
+};
+
 export function generateAppraiserSchema(appraiser: any) {
-  // Helper function to ensure we have a clean string
-  const cleanString = (str: any): string => {
-    if (!str) return '';
-    return typeof str === 'string' ? str : String(str);
-  };
 
   // Handle standardized or legacy data format
   const isStandardized = appraiser.expertise !== undefined;
@@ -73,10 +94,13 @@ export function generateAppraiserSchema(appraiser: any) {
       };
 
   // Create safe schema with null checks for missing properties
+  const profilePath = `appraiser/${appraiser.slug || appraiser.id}`;
+  const profileUrl = buildProfileUrl(profilePath);
+
   const schema: any = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.id}`,
+    "@id": profileUrl,
     "name": appraiser.name,
     "alternateName": appraiser.slug || undefined,
     "image": {
@@ -86,9 +110,9 @@ export function generateAppraiserSchema(appraiser: any) {
       "height": 600,
       "caption": `${appraiser.name} - Antique Appraiser`
     },
-    "description": (isStandardized ? appraiser.content?.about : appraiser.about) || 
+    "description": (isStandardized ? appraiser.content?.about : appraiser.about) ||
       `${appraiser.name} provides professional antique appraisal services specializing in valuation, authentication, and identification of antiques and collectibles.`,
-    "foundingDate": isStandardized ? appraiser.business?.yearsInBusiness : appraiser.yearEstablished || appraiser.years_in_business,
+    "foundingDate": sanitizeYearsInBusiness(isStandardized ? appraiser.business?.yearsInBusiness : appraiser.yearEstablished || appraiser.years_in_business),
     "address": {
       "@type": "PostalAddress",
       "streetAddress": address.street || "",
@@ -97,18 +121,29 @@ export function generateAppraiserSchema(appraiser: any) {
       "postalCode": address.zip || "",
       "addressCountry": "US"
     },
-    "url": contact.website || "",
+    "url": profileUrl,
     "telephone": contact.phone || "",
     "email": contact.email || "",
     "sameAs": [
       appraiser.socialLinks?.facebook || "",
       appraiser.socialLinks?.instagram || "",
       appraiser.socialLinks?.linkedin || "",
-      appraiser.socialLinks?.twitter || ""
+      appraiser.socialLinks?.twitter || "",
+      contact.website || ""
     ].filter(url => url !== ""),
     "priceRange": priceRange,
     "paymentAccepted": appraiser.paymentMethods || "Cash, Credit Card",
-    "openingHoursSpecification": formattedHours
+    "openingHoursSpecification": formattedHours,
+    "mainEntityOfPage": profileUrl,
+    "publisher": {
+      "@type": "Organization",
+      "name": SITE_NAME,
+      "url": SITE_URL,
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg"
+      }
+    }
   };
 
   // Add rating information
@@ -211,7 +246,7 @@ export function generateAppraiserSchema(appraiser: any) {
         "itemOffered": {
           "@type": "Service",
           "name": "Antique Valuation",
-          "description": `Professional antique valuation services by ${appraiser.name}`
+        "description": `Professional antique valuation services by ${appraiser.name}`
         },
         "position": 1
       },
@@ -254,7 +289,7 @@ export function generateAppraiserSchema(appraiser: any) {
   return schema;
 }
 
-export function generateLocationSchema(locationData: any) {
+export function generateLocationSchema(locationData: any, cityName: string, slug: string) {
   // Add safety check for locationData
   if (!locationData) {
     console.error('Cannot generate location schema: locationData is undefined');
@@ -279,6 +314,9 @@ export function generateLocationSchema(locationData: any) {
     safeSlug = (locationData.slug || safeCity.toLowerCase().replace(/\s+/g, '-'));
     stateCode = locationData.state || 'USA';
   }
+
+  const resolvedCity = cityName || safeCity;
+  const resolvedSlug = slug || safeSlug;
   
   // Build provider data from appraisers
   const providers = Array.isArray(locationData.appraisers) 
@@ -290,13 +328,13 @@ export function generateLocationSchema(locationData: any) {
             "image": appraiser?.imageUrl || '',
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": appraiser?.address?.city || safeCity,
+              "addressLocality": appraiser?.address?.city || resolvedCity,
               "addressRegion": appraiser?.address?.state || stateCode,
               "addressCountry": "US"
             },
             "priceRange": appraiser?.business?.pricing || "$$-$$$",
             "telephone": appraiser?.contact?.phone || "",
-            "url": `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser?.id || 'unknown'}`,
+            "url": buildProfileUrl(`appraiser/${appraiser?.id || 'unknown'}`),
             "sameAs": appraiser?.contact?.website || ""
           };
         } else {
@@ -306,13 +344,13 @@ export function generateLocationSchema(locationData: any) {
             "image": appraiser?.image || appraiser?.imageUrl || '',
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": safeCity,
+              "addressLocality": resolvedCity,
               "addressRegion": stateCode,
               "addressCountry": "US"
             },
             "priceRange": appraiser?.pricing || "$$-$$$",
             "telephone": appraiser?.phone || "",
-            "url": `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser?.id || 'unknown'}`,
+            "url": buildProfileUrl(`appraiser/${appraiser?.id || 'unknown'}`),
             "sameAs": appraiser?.website || ""
           };
         }
@@ -320,19 +358,22 @@ export function generateLocationSchema(locationData: any) {
     : [];
   
   // Create the schema object
+  const pagePath = `location/${resolvedSlug}`;
+  const pageUrl = buildProfileUrl(pagePath);
+
   return {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": `https://antique-appraiser-directory.appraisily.com/location/${safeSlug}`,
-    "name": `Antique Appraisers in ${safeCity}`,
-    "description": `Find top-rated antique appraisers near you in ${safeCity}, ${stateCode}. Professional antique valuation services for insurance, estate planning, donations, and more.`,
+    "@id": pageUrl,
+    "name": `Antique Appraisers in ${resolvedCity}`,
+    "description": `Find top-rated antique appraisers near you in ${resolvedCity}, ${stateCode}. Professional antique valuation services for insurance, estate planning, donations, and more.`,
     "serviceType": "Antique Appraisal",
     "areaServed": {
       "@type": "City",
-      "name": safeCity,
+      "name": resolvedCity,
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": safeCity,
+        "addressLocality": resolvedCity,
         "addressRegion": stateCode,
         "addressCountry": "US"
       },
@@ -344,10 +385,10 @@ export function generateLocationSchema(locationData: any) {
     "provider": providers,
     "offers": {
       "@type": "Offer",
-      "description": `Professional antique appraisal services in ${safeCity}`,
+      "description": `Professional antique appraisal services in ${resolvedCity}`,
       "areaServed": {
         "@type": "City",
-        "name": safeCity,
+        "name": resolvedCity,
         "address": {
           "@type": "PostalAddress",
           "addressLocality": safeCity,
@@ -358,18 +399,18 @@ export function generateLocationSchema(locationData: any) {
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://antique-appraiser-directory.appraisily.com/location/${safeSlug}`
+      "@id": pageUrl
     },
     "keywords": [
-      `antique appraisers in ${safeCity}`,
-      `antique appraisers near ${safeCity}`,
-      `${safeCity} antique appraisers`,
-      `antique valuation ${safeCity}`,
-      `antique authentication ${safeCity}`,
-      `antique identification ${safeCity}`,
-      `find antique appraisers ${safeCity}`,
-      `antique evaluation ${safeCity}`,
-      `best antique appraisers ${safeCity}`
+      `antique appraisers in ${resolvedCity}`,
+      `antique appraisers near ${resolvedCity}`,
+      `${resolvedCity} antique appraisers`,
+      `antique valuation ${resolvedCity}`,
+      `antique authentication ${resolvedCity}`,
+      `antique identification ${resolvedCity}`,
+      `find antique appraisers ${resolvedCity}`,
+      `antique evaluation ${resolvedCity}`,
+      `best antique appraisers ${resolvedCity}`
     ]
   };
 }
@@ -540,15 +581,15 @@ export function generateArticleSchema(pageTitle: string, pageDescription: string
     "image": imageUrl || "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg",
     "author": {
       "@type": "Organization",
-      "name": author || "Appraisily",
-      "url": "https://appraisily.com"
+      "name": author || SITE_NAME,
+      "url": PARENT_SITE_URL
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Appraisily",
+      "name": SITE_NAME,
       "logo": {
         "@type": "ImageObject",
-        "url": "https://appraisily.com/logo.png",
+        "url": "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg",
         "width": 600,
         "height": 60
       }
@@ -591,8 +632,8 @@ export function generateWebPageSchema(title: string, description: string, url: s
     "inLanguage": "en-US",
     "isPartOf": {
       "@type": "WebSite",
-      "name": "Appraisily",
-      "url": "https://antique-appraiser-directory.appraisily.com/"
+      "name": SITE_NAME,
+      "url": SITE_URL
     },
     "about": {
       "@type": "Thing",
@@ -617,13 +658,13 @@ export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "@id": "https://appraisily.com",
-    "name": "Appraisily",
+    "@id": PARENT_SITE_URL,
+    "name": SITE_NAME,
     "alternateName": "Art Appraisal Services",
-    "url": "https://appraisily.com",
+    "url": PARENT_SITE_URL,
     "logo": {
       "@type": "ImageObject",
-      "url": "https://appraisily.com/logo.png",
+      "url": "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg",
       "width": 600,
       "height": 60
     },
@@ -671,21 +712,21 @@ export function generateHowToSchema(title: string = 'How to Get an Art Appraisal
         "name": "Document your artwork",
         "text": "Take clear, high-resolution photographs of your artwork from multiple angles, including any signatures, markings, or damage.",
         "image": "https://ik.imagekit.io/appraisily/how-to/document-artwork.jpg",
-        "url": "https://appraisily.com/how-to-document-artwork"
+        "url": `${PARENT_SITE_URL}/how-to-document-artwork`
       },
       {
         "@type": "HowToStep",
         "name": "Gather documentation",
         "text": "Collect any existing documentation about your artwork, including receipts, certificates of authenticity, provenance documents, and restoration records.",
         "image": "https://ik.imagekit.io/appraisily/how-to/gather-documentation.jpg",
-        "url": "https://appraisily.com/artwork-documentation"
+        "url": `${PARENT_SITE_URL}/artwork-documentation`
       },
       {
         "@type": "HowToStep",
         "name": "Find a qualified appraiser",
         "text": "Search our directory to find a certified art appraiser who specializes in your type of artwork.",
         "image": "https://ik.imagekit.io/appraisily/how-to/find-appraiser.jpg",
-        "url": "https://antique-appraiser-directory.appraisily.com"
+        "url": SITE_URL
       },
       {
         "@type": "HowToStep",

@@ -1,88 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "montreal-montreal-antique-appraisals",
-      "name": "Montreal Antique Appraisals",
-      "slug": "montreal-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_montreal-montreal-antique-appraisals_1742203706096_Pnlj3rjjr.jpg",
-      "address": {
-        "street": "880 Main St",
-        "city": "Montreal",
-        "state": "QU",
-        "zip": "27647",
-        "formatted": "880 Main St, Montreal, QU 27647"
-      },
-      "contact": {
-        "phone": "273-863-1421",
-        "email": "info@montrealantiqueappraisals.com",
-        "website": "https://www.montrealantiqueappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "7 years in business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.4,
-        "reviewCount": 5
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry"
-        ],
-        "certifications": [
-          "ISA Certified"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Montreal Antique Appraisals provides professional antique appraisal services in the Montreal area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Nancy J.",
-          "rating": 4,
-          "date": "2025-02-05",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Jennifer A.",
-          "rating": 4,
-          "date": "2024-11-04",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Linda C.",
-          "rating": 4.5,
-          "date": "2024-08-27",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Jessica M.",
-          "rating": 4.5,
-          "date": "2024-08-21",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "montreal-heritage-valuations-montreal",
       "name": "Heritage Valuations Montreal",
       "slug": "heritage-valuations-montreal",
@@ -115,7 +33,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
         "rating": 4.1,
         "reviewCount": 10
       },
@@ -167,6 +85,88 @@
           "rating": 1,
           "date": "2024-04-24",
           "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "montreal-montreal-antique-appraisals",
+      "name": "Montreal Antique Appraisals",
+      "slug": "montreal-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_montreal-montreal-antique-appraisals_1742203706096_Pnlj3rjjr.jpg",
+      "address": {
+        "street": "880 Main St",
+        "city": "Montreal",
+        "state": "QU",
+        "zip": "27647",
+        "formatted": "880 Main St, Montreal, QU 27647"
+      },
+      "contact": {
+        "phone": "273-863-1421",
+        "email": "info@montrealantiqueappraisals.com",
+        "website": "https://www.montrealantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "7 years in business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
+        "rating": 4.4,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Montreal Antique Appraisals provides professional antique appraisal services in the Montreal area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Nancy J.",
+          "rating": 4,
+          "date": "2025-02-05",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Jennifer A.",
+          "rating": 4,
+          "date": "2024-11-04",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Linda C.",
+          "rating": 4.5,
+          "date": "2024-08-27",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Jessica M.",
+          "rating": 4.5,
+          "date": "2024-08-21",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
         }
       ],
       "metadata": {

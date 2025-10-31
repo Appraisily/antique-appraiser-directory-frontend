@@ -1,6 +1,156 @@
 {
   "appraisers": [
     {
+      "id": "fredericton-jardine-auctioneers-inc",
+      "name": "Jardine Auctioneers Inc.",
+      "slug": "jardine-auctioneers-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fredericton-jardine-auctioneers-inc_1742201566029_Z3JuxWwf_.jpg",
+      "address": {
+        "street": "629 Museum Way",
+        "city": "Fredericton",
+        "state": "NE",
+        "zip": "35439",
+        "formatted": "629 Museum Way, Fredericton, NE 35439"
+      },
+      "contact": {
+        "phone": "(506)333-1058",
+        "email": "info@jardineauctioneersinc.com",
+        "website": "https://www.jardineauctioneersinc.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 18 years assisting estates, insurers, and private collectors.",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
+        "rating": 4.2,
+        "reviewCount": 21
+      },
+      "expertise": {
+        "specialties": [
+          "Art (Canadian/NB artists), period furniture[1], sterling silver/jewelry[1].  \n- Certification: Canadian Professional Appraiser (CPA)[1].  \n- Contact: lizisaacappraisals@gmail.com"
+        ],
+        "certifications": [
+          "CPA"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Jardine Auctioneers Inc. provides professional antique appraisal services specializing in Art (Canadian/NB artists), period furniture[1], sterling silver/jewelry[1].  \n- Certification: Canadian Professional Appraiser (CPA)[1].  \n- Contact: lizisaacappraisals@gmail.com. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Fredericton area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Susan D.",
+          "rating": 4.5,
+          "date": "2025-02-04",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Nancy M.",
+          "rating": 4,
+          "date": "2024-12-23",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Emily W.",
+          "rating": 2,
+          "date": "2024-04-06",
+          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "fredericton-kelly-juhaszfine-art-appraisalservices",
+      "name": "Kelly Juhasz（Fine Art Appraisal＆Services）",
+      "slug": "kelly-juhaszfine-art-appraisalservices",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fredericton-kelly-juhaszfine-art-appraisalservices_1742201575858_GHcJw_zoz.jpg",
+      "address": {
+        "street": "240 Oak Ave",
+        "city": "Fredericton",
+        "state": "NE",
+        "zip": "18636",
+        "formatted": "240 Oak Ave, Fredericton, NE 18636"
+      },
+      "contact": {
+        "phone": "671-395-1908",
+        "email": "info@kellyjuhaszfineartappraisalservices.com",
+        "website": "https://www.kellyjuhaszfineartappraisalservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Founded in 2004 with two decades of appraisal expertise.",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
+        "rating": 4.9,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "Professional Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Valuation"
+        ]
+      },
+      "content": {
+        "about": "Kelly Juhasz（Fine Art Appraisal＆Services） provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Fredericton area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia R.",
+          "rating": 5,
+          "date": "2025-03-05",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Michael M.",
+          "rating": 5,
+          "date": "2024-12-02",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Elizabeth M.",
+          "rating": 4.5,
+          "date": "2024-09-12",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Karen B.",
+          "rating": 4.5,
+          "date": "2024-08-10",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "fredericton-liz-isaac-appraisals",
       "name": "Liz Isaac Appraisals",
       "slug": "liz-isaac-appraisals",
@@ -18,7 +168,7 @@
         "website": "https://www.lizisaacappraisals.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Serving collectors since 2007 with USPAP-compliant analyses.",
         "hours": [
           {
             "day": "Monday-Thursday",
@@ -33,7 +183,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.9,
         "reviewCount": 23
       },
@@ -109,14 +259,14 @@
         "website": "https://www.mariobrideauappraisals.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Serving collectors since 2007 with USPAP-compliant analyses.",
         "hours": [
           {
             "day": "Monday-Friday",
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.2,
         "reviewCount": 20
       },
@@ -167,156 +317,6 @@
           "rating": 4.5,
           "date": "2024-06-02",
           "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "fredericton-jardine-auctioneers-inc",
-      "name": "Jardine Auctioneers Inc.",
-      "slug": "jardine-auctioneers-inc",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fredericton-jardine-auctioneers-inc_1742201566029_Z3JuxWwf_.jpg",
-      "address": {
-        "street": "629 Museum Way",
-        "city": "Fredericton",
-        "state": "NE",
-        "zip": "35439",
-        "formatted": "629 Museum Way, Fredericton, NE 35439"
-      },
-      "contact": {
-        "phone": "(506)333-1058",
-        "email": "info@jardineauctioneersinc.com",
-        "website": "https://www.jardineauctioneersinc.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.2,
-        "reviewCount": 21
-      },
-      "expertise": {
-        "specialties": [
-          "Art (Canadian/NB artists), period furniture[1], sterling silver/jewelry[1].  \n- Certification: Canadian Professional Appraiser (CPA)[1].  \n- Contact: lizisaacappraisals@gmail.com"
-        ],
-        "certifications": [
-          "CPA"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Jardine Auctioneers Inc. provides professional antique appraisal services specializing in Art (Canadian/NB artists), period furniture[1], sterling silver/jewelry[1].  \n- Certification: Canadian Professional Appraiser (CPA)[1].  \n- Contact: lizisaacappraisals@gmail.com. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Fredericton area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Susan D.",
-          "rating": 4.5,
-          "date": "2025-02-04",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Nancy M.",
-          "rating": 4,
-          "date": "2024-12-23",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        },
-        {
-          "author": "Emily W.",
-          "rating": 2,
-          "date": "2024-04-06",
-          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "fredericton-kelly-juhaszfine-art-appraisalservices",
-      "name": "Kelly Juhasz（Fine Art Appraisal＆Services）",
-      "slug": "kelly-juhaszfine-art-appraisalservices",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fredericton-kelly-juhaszfine-art-appraisalservices_1742201575858_GHcJw_zoz.jpg",
-      "address": {
-        "street": "240 Oak Ave",
-        "city": "Fredericton",
-        "state": "NE",
-        "zip": "18636",
-        "formatted": "240 Oak Ave, Fredericton, NE 18636"
-      },
-      "contact": {
-        "phone": "671-395-1908",
-        "email": "info@kellyjuhaszfineartappraisalservices.com",
-        "website": "https://www.kellyjuhaszfineartappraisalservices.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.9,
-        "reviewCount": 14
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles"
-        ],
-        "certifications": [
-          "Professional Appraiser",
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals",
-          "Donation Valuation"
-        ]
-      },
-      "content": {
-        "about": "Kelly Juhasz（Fine Art Appraisal＆Services） provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Fredericton area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Patricia R.",
-          "rating": 5,
-          "date": "2025-03-05",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Michael M.",
-          "rating": 5,
-          "date": "2024-12-02",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Elizabeth M.",
-          "rating": 4.5,
-          "date": "2024-09-12",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Karen B.",
-          "rating": 4.5,
-          "date": "2024-08-10",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
         }
       ],
       "metadata": {

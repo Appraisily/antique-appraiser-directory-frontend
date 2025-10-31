@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { MapPin, Star, Clock, Award, Badge } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { MapPin, Star, Clock } from 'lucide-react';
+import { buildSiteUrl } from '../config/site';
 
 // Import standardized data utilities
 import { getAllStandardizedAppraisers, StandardizedAppraiser } from '../utils/standardizedData';
 
 // Type definitions
-interface Appraiser extends StandardizedAppraiser {}
+type Appraiser = StandardizedAppraiser;
 
 export function AppraisersDirectory() {
   const [allAppraisers, setAllAppraisers] = useState<Appraiser[]>([]);
@@ -78,10 +78,10 @@ export function AppraisersDirectory() {
       <div className="bg-gradient-to-br from-primary/20 via-primary/10 to-blue-50 py-12">
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-center mb-6">
-            <a href="/" className="flex items-center text-foreground hover:text-primary transition-colors">
+            <a href={buildSiteUrl('/')} className="flex items-center text-foreground hover:text-primary transition-colors">
               <span className="font-bold text-2xl tracking-tight bg-gradient-to-r from-primary to-blue-600 text-transparent bg-clip-text">Appraisily</span>
             </a>
-            <a href="/" className="text-primary hover:underline">← Back to Main Site</a>
+            <a href={buildSiteUrl('/')} className="text-primary hover:underline">← Back to Main Site</a>
           </div>
           
           <h1 className="text-4xl font-bold text-foreground mb-6 text-center">
@@ -249,6 +249,11 @@ export function AppraisersDirectory() {
                           target="_blank" 
                           rel="noopener noreferrer"
                           className="text-primary hover:underline"
+                          data-gtm-event="directory_cta"
+                          data-gtm-cta="website"
+                          data-gtm-surface="directory_card"
+                          data-gtm-appraiser-id={appraiser.id || appraiser.slug || appraiser.name}
+                          data-gtm-appraiser-name={appraiser.name}
                         >
                           Visit Website
                         </a>

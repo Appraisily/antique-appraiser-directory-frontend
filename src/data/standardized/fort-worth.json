@@ -1,99 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "fort worth-licensed-professionals",
-      "name": "Licensed Professionals",
-      "slug": "licensed-professionals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth-licensed-professionals_1742202488680_w-WiDT2mz.jpg",
-      "address": {
-        "street": "344 Antique Rd",
-        "city": "Fort Worth",
-        "state": "TE",
-        "zip": "12083",
-        "formatted": "344 Antique Rd, Fort Worth, TE 12083"
-      },
-      "contact": {
-        "phone": "143-793-1140",
-        "email": "info@licensedprofessionals.com",
-        "website": "https://www.licensedprofessionals.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4,
-        "reviewCount": 12
-      },
-      "expertise": {
-        "specialties": [
-          "- Insurance coverage  \n- Estate planning & IRS compliance  \n- Divorce settlements  \n- Charitable donations\n\n---\n\n### Licensed Professionals\n\n#### Alicia E Weaver"
-        ],
-        "certifications": [
-          "Professional Appraiser",
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals",
-          "Donation Valuation"
-        ]
-      },
-      "content": {
-        "about": "Licensed Professionals provides professional antique appraisal services specializing in - Insurance coverage  \n- Estate planning & IRS compliance  \n- Divorce settlements  \n- Charitable donations\n\n---\n\n### Licensed Professionals\n\n#### Alicia E Weaver. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Fort Worth area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Robert T.",
-          "rating": 4,
-          "date": "2025-03-08",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        },
-        {
-          "author": "Emily B.",
-          "rating": 4.5,
-          "date": "2025-02-25",
-          "content": "Licensed Professionals's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Karen M.",
-          "rating": 3.5,
-          "date": "2024-10-20",
-          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
-        },
-        {
-          "author": "Jennifer J.",
-          "rating": 3.5,
-          "date": "2024-10-10",
-          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
-        },
-        {
-          "author": "Karen S.",
-          "rating": 4,
-          "date": "2024-04-29",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "fort worth-fort-worth-antique-appraisals",
       "name": "Fort Worth Antique Appraisals",
       "slug": "fort-worth-antique-appraisals",
@@ -122,7 +29,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
         "rating": 4.2,
         "reviewCount": 15
       },
@@ -210,7 +117,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.7,
         "reviewCount": 18
       },
@@ -250,6 +157,99 @@
           "rating": 4.5,
           "date": "2024-05-25",
           "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "fort worth-licensed-professionals",
+      "name": "Licensed Professionals",
+      "slug": "licensed-professionals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth-licensed-professionals_1742202488680_w-WiDT2mz.jpg",
+      "address": {
+        "street": "344 Antique Rd",
+        "city": "Fort Worth",
+        "state": "TE",
+        "zip": "12083",
+        "formatted": "344 Antique Rd, Fort Worth, TE 12083"
+      },
+      "contact": {
+        "phone": "143-793-1140",
+        "email": "info@licensedprofessionals.com",
+        "website": "https://www.licensedprofessionals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Serving collectors since 2007 with USPAP-compliant analyses.",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
+        "rating": 4,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "- Insurance coverage  \n- Estate planning & IRS compliance  \n- Divorce settlements  \n- Charitable donations\n\n---\n\n### Licensed Professionals\n\n#### Alicia E Weaver"
+        ],
+        "certifications": [
+          "Professional Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Valuation"
+        ]
+      },
+      "content": {
+        "about": "Licensed Professionals provides professional antique appraisal services specializing in - Insurance coverage  \n- Estate planning & IRS compliance  \n- Divorce settlements  \n- Charitable donations\n\n---\n\n### Licensed Professionals\n\n#### Alicia E Weaver. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Fort Worth area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Robert T.",
+          "rating": 4,
+          "date": "2025-03-08",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Emily B.",
+          "rating": 4.5,
+          "date": "2025-02-25",
+          "content": "Licensed Professionals's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Karen M.",
+          "rating": 3.5,
+          "date": "2024-10-20",
+          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
+        },
+        {
+          "author": "Jennifer J.",
+          "rating": 3.5,
+          "date": "2024-10-10",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
+        },
+        {
+          "author": "Karen S.",
+          "rating": 4,
+          "date": "2024-04-29",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
         }
       ],
       "metadata": {

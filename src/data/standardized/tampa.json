@@ -1,79 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "tampa-tampa-antique-appraisals",
-      "name": "Tampa Antique Appraisals",
-      "slug": "tampa-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_tampa-tampa-antique-appraisals_1742203857225_YJSXSsjD4.jpg",
-      "address": {
-        "street": "125 Oak Ave",
-        "city": "Tampa",
-        "state": "FL",
-        "zip": "82796",
-        "formatted": "125 Oak Ave, Tampa, FL 82796"
-      },
-      "contact": {
-        "phone": "378-317-1898",
-        "email": "info@tampaantiqueappraisals.com",
-        "website": "https://www.tampaantiqueappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "25 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.8,
-        "reviewCount": 12
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles"
-        ],
-        "certifications": [
-          "ISA Certified"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals",
-          "Donation Valuation"
-        ]
-      },
-      "content": {
-        "about": "Tampa Antique Appraisals provides professional antique appraisal services in the Tampa area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Linda J.",
-          "rating": 2,
-          "date": "2024-10-21",
-          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
-        },
-        {
-          "author": "Nancy R.",
-          "rating": 5,
-          "date": "2024-06-20",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Elizabeth W.",
-          "rating": 4.5,
-          "date": "2024-06-11",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "tampa-heritage-valuations-tampa",
       "name": "Heritage Valuations Tampa",
       "slug": "heritage-valuations-tampa",
@@ -106,7 +33,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.1,
         "reviewCount": 14
       },
@@ -154,6 +81,79 @@
           "rating": 4,
           "date": "2024-04-01",
           "content": "I needed an appraisal for a charitable donation of my antique collection, and Heritage Valuations Tampa delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "tampa-tampa-antique-appraisals",
+      "name": "Tampa Antique Appraisals",
+      "slug": "tampa-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_tampa-tampa-antique-appraisals_1742203857225_YJSXSsjD4.jpg",
+      "address": {
+        "street": "125 Oak Ave",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "82796",
+        "formatted": "125 Oak Ave, Tampa, FL 82796"
+      },
+      "contact": {
+        "phone": "378-317-1898",
+        "email": "info@tampaantiqueappraisals.com",
+        "website": "https://www.tampaantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "25 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
+        "rating": 4.8,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Valuation"
+        ]
+      },
+      "content": {
+        "about": "Tampa Antique Appraisals provides professional antique appraisal services in the Tampa area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Linda J.",
+          "rating": 2,
+          "date": "2024-10-21",
+          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
+        },
+        {
+          "author": "Nancy R.",
+          "rating": 5,
+          "date": "2024-06-20",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Elizabeth W.",
+          "rating": 4.5,
+          "date": "2024-06-11",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
         }
       ],
       "metadata": {

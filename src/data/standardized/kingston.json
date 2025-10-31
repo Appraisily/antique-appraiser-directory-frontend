@@ -33,7 +33,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
         "rating": 4.3,
         "reviewCount": 5
       },
@@ -80,91 +80,72 @@
       }
     },
     {
-      "id": "kingston-pristine-appraisal-co",
-      "name": "Pristine Appraisal Co.",
-      "slug": "pristine-appraisal-co",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kingston-pristine-appraisal-co_1742201632020_STn2eyDWDo.jpg",
+      "id": "kingston-kingston-fine-jewelry-ltd",
+      "name": "Kingston Fine Jewelry Ltd.",
+      "slug": "kingston-fine-jewelry-ltd",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kingston-kingston-fine-jewelry-ltd_1742201642024_Z_6g2v-I4.jpg",
       "address": {
-        "street": "613 Oak Ave",
+        "street": "598 Museum Way",
         "city": "Kingston",
         "state": "ON",
-        "zip": "62646",
-        "formatted": "613 Oak Ave, Kingston, ON 62646"
+        "zip": "37022",
+        "formatted": "598 Museum Way, Kingston, ON 37022"
       },
       "contact": {
-        "phone": "355-352-6635",
-        "email": "info@pristineappraisalco.com",
-        "website": "https://www.pristineappraisalco.com"
+        "phone": "379-658-8281",
+        "email": "info@kingstonfinejewelryltd.com",
+        "website": "https://www.gogordons.com/contents-appraisal"
       },
       "business": {
         "yearsInBusiness": "Since 1987",
         "hours": [
           {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
           },
           {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
+            "day": "Sunday-Monday",
+            "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.9,
-        "reviewCount": 17
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
+        "rating": 4.7,
+        "reviewCount": 9
       },
       "expertise": {
         "specialties": [
           "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Items"
+          "Vintage Collectibles"
         ],
         "certifications": [
           "Professional Appraiser"
         ],
         "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals"
+          "Probate valuations for estates (antique furniture, art collections). Offers virtual walkthroughs ($499+) or full-household reports ($799+). Specialists coordinate certified gemologists/jewelers when needed ([Source](https://www.gogordons.com/contents-appraisal))."
         ]
       },
       "content": {
-        "about": "Pristine Appraisal Co. provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles, Estate Items. With Since 1987 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "about": "Kingston Fine Jewelry Ltd. provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles. With Since 1987 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "notes": "Serving the Kingston area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "Robert W.",
-          "rating": 5,
-          "date": "2025-01-13",
-          "content": "Pristine Appraisal Co.'s knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "James T.",
-          "rating": 5,
-          "date": "2024-11-25",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Susan A.",
-          "rating": 5,
-          "date": "2024-08-20",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "James W.",
+          "author": "Sarah R.",
           "rating": 4.5,
-          "date": "2024-08-10",
+          "date": "2024-06-30",
           "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
         },
         {
           "author": "Jessica W.",
-          "rating": 5,
+          "rating": 4.5,
+          "date": "2024-04-26",
+          "content": "Kingston Fine Jewelry Ltd.'s knowledge of antique furniture values was exceptional. The documentation Kingston Fine Jewelry Ltd. provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Jennifer M.",
+          "rating": 1,
           "date": "2024-04-17",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
         }
       ],
       "metadata": {
@@ -201,7 +182,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
         "rating": 4.8,
         "reviewCount": 20
       },
@@ -259,72 +240,91 @@
       }
     },
     {
-      "id": "kingston-kingston-fine-jewelry-ltd",
-      "name": "Kingston Fine Jewelry Ltd.",
-      "slug": "kingston-fine-jewelry-ltd",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kingston-kingston-fine-jewelry-ltd_1742201642024_Z_6g2v-I4.jpg",
+      "id": "kingston-pristine-appraisal-co",
+      "name": "Pristine Appraisal Co.",
+      "slug": "pristine-appraisal-co",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kingston-pristine-appraisal-co_1742201632020_STn2eyDWDo.jpg",
       "address": {
-        "street": "598 Museum Way",
+        "street": "613 Oak Ave",
         "city": "Kingston",
         "state": "ON",
-        "zip": "37022",
-        "formatted": "598 Museum Way, Kingston, ON 37022"
+        "zip": "62646",
+        "formatted": "613 Oak Ave, Kingston, ON 62646"
       },
       "contact": {
-        "phone": "379-658-8281",
-        "email": "info@kingstonfinejewelryltd.com",
-        "website": "https://www.gogordons.com/contents-appraisal"
+        "phone": "355-352-6635",
+        "email": "info@pristineappraisalco.com",
+        "website": "https://www.pristineappraisalco.com"
       },
       "business": {
         "yearsInBusiness": "Since 1987",
         "hours": [
           {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
           },
           {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 9
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
+        "rating": 4.9,
+        "reviewCount": 17
       },
       "expertise": {
         "specialties": [
           "Antique Furniture",
-          "Vintage Collectibles"
+          "Vintage Collectibles",
+          "Estate Items"
         ],
         "certifications": [
           "Professional Appraiser"
         ],
         "services": [
-          "Probate valuations for estates (antique furniture, art collections). Offers virtual walkthroughs ($499+) or full-household reports ($799+). Specialists coordinate certified gemologists/jewelers when needed ([Source](https://www.gogordons.com/contents-appraisal))."
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
         ]
       },
       "content": {
-        "about": "Kingston Fine Jewelry Ltd. provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles. With Since 1987 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "about": "Pristine Appraisal Co. provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles, Estate Items. With Since 1987 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "notes": "Serving the Kingston area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "Sarah R.",
+          "author": "Robert W.",
+          "rating": 5,
+          "date": "2025-01-13",
+          "content": "Pristine Appraisal Co.'s knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "James T.",
+          "rating": 5,
+          "date": "2024-11-25",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Susan A.",
+          "rating": 5,
+          "date": "2024-08-20",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "James W.",
           "rating": 4.5,
-          "date": "2024-06-30",
+          "date": "2024-08-10",
           "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
         },
         {
           "author": "Jessica W.",
-          "rating": 4.5,
-          "date": "2024-04-26",
-          "content": "Kingston Fine Jewelry Ltd.'s knowledge of antique furniture values was exceptional. The documentation Kingston Fine Jewelry Ltd. provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "Jennifer M.",
-          "rating": 1,
+          "rating": 5,
           "date": "2024-04-17",
-          "content": "The antique appraisal was thorough, but I found their pricing a bit high compared to others."
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
         }
       ],
       "metadata": {

@@ -1,6 +1,79 @@
 {
   "appraisers": [
     {
+      "id": "boston-boston-antique-appraisals",
+      "name": "Boston Antique Appraisals",
+      "slug": "boston-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-boston-antique-appraisals_1742170081377_9bn92c2hU.jpg",
+      "address": {
+        "street": "713 Main St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "50396",
+        "formatted": "713 Main St, Boston, MA 50396"
+      },
+      "contact": {
+        "phone": "123-424-9397",
+        "email": "info@bostonantiqueappraisals.com",
+        "website": "https://www.bostonantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "22 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
+        "rating": 4.6,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Boston Antique Appraisals provides professional antique appraisal services in the Boston area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia T.",
+          "rating": 5,
+          "date": "2024-10-18",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Linda T.",
+          "rating": 4.5,
+          "date": "2024-10-02",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Patricia B.",
+          "rating": 1,
+          "date": "2024-07-18",
+          "content": "Knowledgeable about antiques, though communication could have been better during the process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "boston-doyle-auctions-new-englandboston-office",
       "name": "Doyle Auctions – New England/Boston Office",
       "slug": "doyle-auctions-new-englandboston-office",
@@ -33,7 +106,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
         "rating": 4.6,
         "reviewCount": 12
       },
@@ -113,7 +186,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
         "rating": 4.9,
         "reviewCount": 11
       },
@@ -163,79 +236,6 @@
           "rating": 5,
           "date": "2024-06-23",
           "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "boston-boston-antique-appraisals",
-      "name": "Boston Antique Appraisals",
-      "slug": "boston-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-boston-antique-appraisals_1742170081377_9bn92c2hU.jpg",
-      "address": {
-        "street": "713 Main St",
-        "city": "Boston",
-        "state": "MA",
-        "zip": "50396",
-        "formatted": "713 Main St, Boston, MA 50396"
-      },
-      "contact": {
-        "phone": "123-424-9397",
-        "email": "info@bostonantiqueappraisals.com",
-        "website": "https://www.bostonantiqueappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "22 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 17
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry"
-        ],
-        "certifications": [
-          "ISA Certified",
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Boston Antique Appraisals provides professional antique appraisal services in the Boston area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Patricia T.",
-          "rating": 5,
-          "date": "2024-10-18",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "Linda T.",
-          "rating": 4.5,
-          "date": "2024-10-02",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Patricia B.",
-          "rating": 1,
-          "date": "2024-07-18",
-          "content": "Knowledgeable about antiques, though communication could have been better during the process."
         }
       ],
       "metadata": {

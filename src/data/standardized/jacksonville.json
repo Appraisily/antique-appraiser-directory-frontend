@@ -1,6 +1,92 @@
 {
   "appraisers": [
     {
+      "id": "jacksonville-jacksonville-antique-appraisals",
+      "name": "Jacksonville Antique Appraisals",
+      "slug": "jacksonville-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-jacksonville-antique-appraisals_1742202670202_HgulXDPRj.jpg",
+      "address": {
+        "street": "623 Museum Way",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "80468",
+        "formatted": "623 Museum Way, Jacksonville, FL 80468"
+      },
+      "contact": {
+        "phone": "194-825-7657",
+        "email": "info@jacksonvilleantiqueappraisals.com",
+        "website": "https://www.jacksonvilleantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "6 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
+        "rating": 4.3,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Jacksonville Antique Appraisals provides professional antique appraisal services in the Jacksonville area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Nancy T.",
+          "rating": 4,
+          "date": "2025-01-21",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Emily C.",
+          "rating": 4.5,
+          "date": "2024-12-19",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "David D.",
+          "rating": 2,
+          "date": "2024-09-14",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
+        },
+        {
+          "author": "Emily W.",
+          "rating": 4.5,
+          "date": "2024-08-03",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "jacksonville-list-of-antique-appraisers",
       "name": "List of Antique Appraisers",
       "slug": "list-of-antique-appraisers",
@@ -29,7 +115,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.8,
         "reviewCount": 8
       },
@@ -116,7 +202,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.8,
         "reviewCount": 6
       },
@@ -170,92 +256,6 @@
           "rating": 5,
           "date": "2024-04-07",
           "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "jacksonville-jacksonville-antique-appraisals",
-      "name": "Jacksonville Antique Appraisals",
-      "slug": "jacksonville-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-jacksonville-antique-appraisals_1742202670202_HgulXDPRj.jpg",
-      "address": {
-        "street": "623 Museum Way",
-        "city": "Jacksonville",
-        "state": "FL",
-        "zip": "80468",
-        "formatted": "623 Museum Way, Jacksonville, FL 80468"
-      },
-      "contact": {
-        "phone": "194-825-7657",
-        "email": "info@jacksonvilleantiqueappraisals.com",
-        "website": "https://www.jacksonvilleantiqueappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "6 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.3,
-        "reviewCount": 11
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry"
-        ],
-        "certifications": [
-          "ISA Certified"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Jacksonville Antique Appraisals provides professional antique appraisal services in the Jacksonville area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Nancy T.",
-          "rating": 4,
-          "date": "2025-01-21",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Emily C.",
-          "rating": 4.5,
-          "date": "2024-12-19",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "David D.",
-          "rating": 2,
-          "date": "2024-09-14",
-          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
-        },
-        {
-          "author": "Emily W.",
-          "rating": 4.5,
-          "date": "2024-08-03",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
         }
       ],
       "metadata": {

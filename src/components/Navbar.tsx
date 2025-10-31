@@ -8,6 +8,10 @@ import {
 } from "./ui/navigation-menu"
 import { cn } from '../lib/utils';
 import { cities } from '../data/cities.json';
+import { CTA_URL, PARENT_SITE_URL, SITE_NAME, buildSiteUrl } from '../config/site';
+import { trackEvent } from '../utils/analytics';
+
+type NavCity = (typeof cities)[number];
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,11 +35,34 @@ export default function Navbar() {
   }, [location.pathname]);
 
   const navItems = [
-    { name: 'About', href: 'https://appraisily.com/about' },
-    { name: 'Services', href: 'https://appraisily.com/services' },
-    { name: 'Expertise', href: 'https://appraisily.com/expertise' },
-    { name: 'Team', href: 'https://appraisily.com/team' }
+    { name: 'About', href: `${PARENT_SITE_URL}/about` },
+    { name: 'Services', href: `${PARENT_SITE_URL}/services` },
+    { name: 'Expertise', href: `${PARENT_SITE_URL}/expertise` },
+    { name: 'Team', href: `${PARENT_SITE_URL}/team` }
   ];
+
+  const handleCtaClick = (placement: 'desktop' | 'mobile') => {
+    trackEvent('cta_click', {
+      placement: `nav_${placement}`,
+      destination: CTA_URL
+    });
+  };
+
+  const handleNavLinkClick = (name: string, placement: 'desktop' | 'mobile') => {
+    trackEvent('nav_link_click', {
+      placement: `nav_${placement}`,
+      link_text: name
+    });
+  };
+
+  const handleNavLocationClick = (city: NavCity, placement: 'desktop' | 'mobile') => {
+    trackEvent('nav_location_click', {
+      placement: `nav_${placement}`,
+      city_slug: city.slug,
+      city_name: city.name,
+      state: city.state
+    });
+  };
 
   return (
     <nav className={cn(
@@ -54,7 +81,7 @@ export default function Navbar() {
                 loading="eager"
               />
               <div className="flex flex-col leading-tight">
-                <span className="text-xl font-semibold text-gray-900">Appraisily</span>
+                <span className="text-xl font-semibold text-gray-900">{SITE_NAME}</span>
                 <span className="text-xs text-gray-600 -mt-1">Antique Appraiser Directory</span>
               </div>
             </Link>
@@ -78,8 +105,13 @@ export default function Navbar() {
                         {cities.map((city) => (
                           <a
                             key={city.slug}
-                            href={`/location/${city.slug}`}
+                            href={buildSiteUrl(`/location/${city.slug}`)}
                             className="text-sm text-gray-700 hover:text-blue-600 py-1"
+                            data-gtm-event="nav_location_click"
+                            data-gtm-city={city.slug}
+                            data-gtm-state={city.state}
+                            data-gtm-placement="nav_desktop"
+                            onClick={() => handleNavLocationClick(city, 'desktop')}
                           >
                             {city.name}
                           </a>
@@ -94,6 +126,10 @@ export default function Navbar() {
                     <a
                       href={item.href}
                       className="px-3 py-2 text-sm font-medium rounded-md transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                      data-gtm-event="nav_link_click"
+                      data-gtm-label={item.name}
+                      data-gtm-placement="nav_desktop"
+                      onClick={() => handleNavLinkClick(item.name, 'desktop')}
                     >
                       {item.name}
                     </a>
@@ -103,9 +139,12 @@ export default function Navbar() {
             </NavigationMenu>
 
             <a
-              href="https://appraisily.com/start"
+              href={CTA_URL}
               id="start-appraisal-nav"
               className="inline-flex items-center justify-center px-4 py-2 ml-4 border border-transparent text-sm font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 transition-colors gap-1.5 shadow-sm hover:shadow-md"
+              data-gtm-event="cta_click"
+              data-gtm-placement="nav_desktop"
+              onClick={() => handleCtaClick('desktop')}
             >
               Start Appraisal <ArrowRight className="h-4 w-4" />
             </a>
@@ -114,9 +153,12 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-4">
             <a
-              href="https://appraisily.com/start"
+              href={CTA_URL}
               id="start-appraisal-nav-mobile"
               className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 transition-colors shadow-sm"
+              data-gtm-event="cta_click"
+              data-gtm-placement="nav_mobile"
+              onClick={() => handleCtaClick('mobile')}
             >
               Start
             </a>
@@ -145,8 +187,13 @@ export default function Navbar() {
               {cities.map((city) => (
                 <a
                   key={city.slug}
-                  href={`/location/${city.slug}`}
+                  href={buildSiteUrl(`/location/${city.slug}`)}
                   className="text-sm text-gray-700 hover:text-blue-600 py-1"
+                  data-gtm-event="nav_location_click"
+                  data-gtm-city={city.slug}
+                  data-gtm-state={city.state}
+                  data-gtm-placement="nav_mobile"
+                  onClick={() => handleNavLocationClick(city, 'mobile')}
                 >
                   {city.name}
                 </a>
@@ -158,6 +205,10 @@ export default function Navbar() {
                 key={item.name}
                 href={item.href}
                 className="block px-3 py-2 rounded-md text-base font-medium transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                data-gtm-event="nav_link_click"
+                data-gtm-label={item.name}
+                data-gtm-placement="nav_mobile"
+                onClick={() => handleNavLinkClick(item.name, 'mobile')}
               >
                 {item.name}
               </a>

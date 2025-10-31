@@ -1,41 +1,41 @@
 {
   "appraisers": [
     {
-      "id": "victoria-list-of-antique-appraisal-services",
-      "name": "List of Antique Appraisal Services",
-      "slug": "list-of-antique-appraisal-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_victoria-list-of-antique-appraisal-services_1742203453270_KbtJcAFhTv.jpg",
+      "id": "victoria-berchard-apraisal-services",
+      "name": "Berchard Apraisal Services",
+      "slug": "berchard-apraisal-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_victoria-berchard-apraisal-services_1742203464828_845H4PKRM.jpg",
       "address": {
-        "street": "739 Antique Rd",
+        "street": "739 Main St",
         "city": "Victoria",
         "state": "BR",
-        "zip": "33136",
-        "formatted": "739 Antique Rd, Victoria, BR 33136"
+        "zip": "23561",
+        "formatted": "739 Main St, Victoria, BR 23561"
       },
       "contact": {
         "phone": "250-388-9151",
-        "email": "info@listofantiqueappraisalservices.com",
-        "website": "https://www.listofantiqueappraisalservices.com"
+        "email": "info@berchardapraisalservices.com",
+        "website": "https://www.berchardapraisalservices.com"
       },
       "business": {
         "yearsInBusiness": "Established pre–2024 ([1])",
         "hours": [
           {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
           },
           {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
+            "day": "Saturday",
+            "hours": "By appointment"
           },
           {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
+            "day": "Sunday",
+            "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.2,
-        "reviewCount": 19
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
+        "rating": 4.6,
+        "reviewCount": 9
       },
       "expertise": {
         "specialties": [
@@ -47,33 +47,31 @@
         ],
         "services": [
           "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals",
-          "Donation Valuation"
+          "Estate Valuations"
         ]
       },
       "content": {
-        "about": "List of Antique Appraisal Services provides professional antique appraisal services specializing in Residential/commercial property valuations; some decorative arts  \n- Contact: 250-388-9151. With Established pre–2024 ([1]) experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "about": "Berchard Apraisal Services provides professional antique appraisal services specializing in Residential/commercial property valuations; some decorative arts  \n- Contact: 250-388-9151. With Established pre–2024 ([1]) experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "notes": "Serving the Victoria area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "Linda T.",
-          "rating": 4,
-          "date": "2025-02-04",
+          "author": "Susan J.",
+          "rating": 4.5,
+          "date": "2025-02-16",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        },
+        {
+          "author": "Linda M.",
+          "rating": 5,
+          "date": "2025-01-05",
           "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
         },
         {
-          "author": "Patricia W.",
-          "rating": 4,
-          "date": "2024-10-01",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Karen B.",
-          "rating": 3.5,
-          "date": "2024-08-13",
-          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
+          "author": "Jessica J.",
+          "rating": 4.5,
+          "date": "2024-07-28",
+          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
         }
       ],
       "metadata": {
@@ -114,7 +112,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
         "rating": 4.2,
         "reviewCount": 8
       },
@@ -174,41 +172,41 @@
       }
     },
     {
-      "id": "victoria-berchard-apraisal-services",
-      "name": "Berchard Apraisal Services",
-      "slug": "berchard-apraisal-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_victoria-berchard-apraisal-services_1742203464828_845H4PKRM.jpg",
+      "id": "victoria-list-of-antique-appraisal-services",
+      "name": "List of Antique Appraisal Services",
+      "slug": "list-of-antique-appraisal-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_victoria-list-of-antique-appraisal-services_1742203453270_KbtJcAFhTv.jpg",
       "address": {
-        "street": "739 Main St",
+        "street": "739 Antique Rd",
         "city": "Victoria",
         "state": "BR",
-        "zip": "23561",
-        "formatted": "739 Main St, Victoria, BR 23561"
+        "zip": "33136",
+        "formatted": "739 Antique Rd, Victoria, BR 33136"
       },
       "contact": {
         "phone": "250-388-9151",
-        "email": "info@berchardapraisalservices.com",
-        "website": "https://www.berchardapraisalservices.com"
+        "email": "info@listofantiqueappraisalservices.com",
+        "website": "https://www.listofantiqueappraisalservices.com"
       },
       "business": {
         "yearsInBusiness": "Established pre–2024 ([1])",
         "hours": [
           {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
           },
           {
-            "day": "Saturday",
-            "hours": "By appointment"
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
           },
           {
-            "day": "Sunday",
-            "hours": "Closed"
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 9
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
+        "rating": 4.2,
+        "reviewCount": 19
       },
       "expertise": {
         "specialties": [
@@ -220,31 +218,33 @@
         ],
         "services": [
           "Antique Appraisals",
-          "Estate Valuations"
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Valuation"
         ]
       },
       "content": {
-        "about": "Berchard Apraisal Services provides professional antique appraisal services specializing in Residential/commercial property valuations; some decorative arts  \n- Contact: 250-388-9151. With Established pre–2024 ([1]) experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "about": "List of Antique Appraisal Services provides professional antique appraisal services specializing in Residential/commercial property valuations; some decorative arts  \n- Contact: 250-388-9151. With Established pre–2024 ([1]) experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "notes": "Serving the Victoria area with professional antique appraisal services."
       },
       "reviews": [
         {
-          "author": "Susan J.",
-          "rating": 4.5,
-          "date": "2025-02-16",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "Linda M.",
-          "rating": 5,
-          "date": "2025-01-05",
+          "author": "Linda T.",
+          "rating": 4,
+          "date": "2025-02-04",
           "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
         },
         {
-          "author": "Jessica J.",
-          "rating": 4.5,
-          "date": "2024-07-28",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+          "author": "Patricia W.",
+          "rating": 4,
+          "date": "2024-10-01",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Karen B.",
+          "rating": 3.5,
+          "date": "2024-08-13",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
         }
       ],
       "metadata": {

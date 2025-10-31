@@ -1,6 +1,80 @@
 {
   "appraisers": [
     {
+      "id": "savannah-heritage-valuations-savannah",
+      "name": "Heritage Valuations Savannah",
+      "slug": "heritage-valuations-savannah",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-heritage-valuations-savannah_1742203246753_1z4AE28yz.jpg",
+      "address": {
+        "street": "659 Maple Dr",
+        "city": "Savannah",
+        "state": "GE",
+        "zip": "27039",
+        "formatted": "659 Maple Dr, Savannah, GE 27039"
+      },
+      "contact": {
+        "phone": "787-801-8105",
+        "email": "info@heritagevaluationssavannah.com",
+        "website": "https://www.heritagevaluationssavannah.com"
+      },
+      "business": {
+        "yearsInBusiness": "22 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.6,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Heritage Valuations Savannah provides professional antique appraisal services in the Savannah area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Linda B.",
+          "rating": 5,
+          "date": "2024-11-29",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Linda C.",
+          "rating": 4.5,
+          "date": "2024-06-27",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Emily A.",
+          "rating": 4.5,
+          "date": "2024-03-29",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "savannah-jewelry-consignment-network-jcn",
       "name": "Jewelry Consignment Network (JCN)",
       "slug": "jewelry-consignment-network-jcn",
@@ -33,7 +107,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.7,
         "reviewCount": 24
       },
@@ -115,7 +189,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
         "rating": 4.3,
         "reviewCount": 5
       },
@@ -156,80 +230,6 @@
           "author": "Elizabeth C.",
           "rating": 4.5,
           "date": "2024-11-17",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "savannah-heritage-valuations-savannah",
-      "name": "Heritage Valuations Savannah",
-      "slug": "heritage-valuations-savannah",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-heritage-valuations-savannah_1742203246753_1z4AE28yz.jpg",
-      "address": {
-        "street": "659 Maple Dr",
-        "city": "Savannah",
-        "state": "GE",
-        "zip": "27039",
-        "formatted": "659 Maple Dr, Savannah, GE 27039"
-      },
-      "contact": {
-        "phone": "787-801-8105",
-        "email": "info@heritagevaluationssavannah.com",
-        "website": "https://www.heritagevaluationssavannah.com"
-      },
-      "business": {
-        "yearsInBusiness": "22 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 17
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry",
-          "Fine Art"
-        ],
-        "certifications": [
-          "ISA Certified",
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Heritage Valuations Savannah provides professional antique appraisal services in the Savannah area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Linda B.",
-          "rating": 5,
-          "date": "2024-11-29",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Linda C.",
-          "rating": 4.5,
-          "date": "2024-06-27",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Emily A.",
-          "rating": 4.5,
-          "date": "2024-03-29",
           "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
         }
       ],

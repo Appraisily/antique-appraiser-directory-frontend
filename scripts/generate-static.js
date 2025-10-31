@@ -12,6 +12,7 @@ import {
   getEnhancedFooterHTML, 
   createEnhancedImageMarkup 
 } from './utils/template-helpers.js';
+import { getGtmBodySnippet, getGtmHeadSnippet } from './utils/gtm.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = path.join(__dirname, '../dist');
@@ -152,7 +153,7 @@ function generateHomePageHTML(cssPath, jsPath) {
   const citiesGridHTML = `
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
     ${popularCities.map(city => `
-      <a href="/location/${city.slug}" class="group">
+      <a href="/location/${city.slug}" class="group" data-gtm-event="city_directory_click" data-gtm-city="${city.slug}">
         <div class="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
           <div class="relative h-48">
             <img 
@@ -448,19 +449,10 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
       ${JSON.stringify(faqSchema)}
     </script>
     
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PSLHDGM');</script>
-    <!-- End Google Tag Manager -->
+    ${getGtmHeadSnippet()}
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSLHDGM"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    ${getGtmBodySnippet()}
     
     <div id="root">
       <!-- SSR content will be injected here during build -->
@@ -474,7 +466,7 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
             <div class="appraiser-card" data-appraiser-id="${appraiser.id}">
               <h3>${appraiser.name}</h3>
               <p>${appraiser.specialties?.join(', ')}</p>
-              <a href="/appraiser/${appraiser.id}">View Details</a>
+              <a href="/appraiser/${appraiser.id}" data-gtm-event="appraiser_directory_click" data-gtm-appraiser="${appraiser.id}" data-gtm-city="${cityName}">View Details</a>
             </div>
           `).join('') || ''}
         </section>
@@ -649,19 +641,10 @@ function generateAppraiserHTML(appraiser, cityName, cssPath, jsPath) {
       ${JSON.stringify(faqSchema)}
     </script>
     
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PSLHDGM');</script>
-    <!-- End Google Tag Manager -->
+    ${getGtmHeadSnippet()}
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSLHDGM"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    ${getGtmBodySnippet()}
 
     <div id="root">
       <!-- This content will be replaced by client-side React when JS loads -->

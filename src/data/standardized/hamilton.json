@@ -1,6 +1,93 @@
 {
   "appraisers": [
     {
+      "id": "hamilton-4contact-details-summary-table",
+      "name": "4.Contact Details Summary Table",
+      "slug": "4contact-details-summary-table",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hamilton-4contact-details-summary-table_1742202520331_t4ndjdgrR.jpg",
+      "address": {
+        "street": "430 Museum Way",
+        "city": "Hamilton",
+        "state": "ON",
+        "zip": "19472",
+        "formatted": "430 Museum Way, Hamilton, ON 19472"
+      },
+      "contact": {
+        "phone": "528-737-5129",
+        "email": "info@4contactdetailssummarytable.com",
+        "website": "https://www.4contactdetailssummarytable.com"
+      },
+      "business": {
+        "yearsInBusiness": "Founded in 2004 with two decades of appraisal expertise.",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
+        "rating": 4.3,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "4.Contact Details Summary Table provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Hamilton area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia R.",
+          "rating": 4.5,
+          "date": "2025-03-12",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Emily M.",
+          "rating": 4,
+          "date": "2024-12-18",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Jessica J.",
+          "rating": 4,
+          "date": "2024-12-12",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "John T.",
+          "rating": 4,
+          "date": "2024-11-02",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Linda M.",
+          "rating": 1,
+          "date": "2024-05-13",
+          "content": "Knowledgeable about antiques, though communication could have been better during the process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "hamilton-schinkel-appraisals",
       "name": "Schinkel Appraisals",
       "slug": "schinkel-appraisals",
@@ -33,7 +120,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.7,
         "reviewCount": 6
       },
@@ -119,7 +206,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.5,
         "reviewCount": 19
       },
@@ -160,93 +247,6 @@
           "rating": 4.5,
           "date": "2024-07-09",
           "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "hamilton-4contact-details-summary-table",
-      "name": "4.Contact Details Summary Table",
-      "slug": "4contact-details-summary-table",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hamilton-4contact-details-summary-table_1742202520331_t4ndjdgrR.jpg",
-      "address": {
-        "street": "430 Museum Way",
-        "city": "Hamilton",
-        "state": "ON",
-        "zip": "19472",
-        "formatted": "430 Museum Way, Hamilton, ON 19472"
-      },
-      "contact": {
-        "phone": "528-737-5129",
-        "email": "info@4contactdetailssummarytable.com",
-        "website": "https://www.4contactdetailssummarytable.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.3,
-        "reviewCount": 8
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "4.Contact Details Summary Table provides professional antique appraisal services specializing in Antique Furniture, Vintage Collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Hamilton area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Patricia R.",
-          "rating": 4.5,
-          "date": "2025-03-12",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Emily M.",
-          "rating": 4,
-          "date": "2024-12-18",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Jessica J.",
-          "rating": 4,
-          "date": "2024-12-12",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "John T.",
-          "rating": 4,
-          "date": "2024-11-02",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Linda M.",
-          "rating": 1,
-          "date": "2024-05-13",
-          "content": "Knowledgeable about antiques, though communication could have been better during the process."
         }
       ],
       "metadata": {

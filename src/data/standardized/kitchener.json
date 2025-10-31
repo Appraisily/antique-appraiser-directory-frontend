@@ -1,85 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "kitchener-kitchener-antique-appraisals",
-      "name": "Kitchener Antique Appraisals",
-      "slug": "kitchener-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kitchener-kitchener-antique-appraisals_1742203569554_cmV8a6dgI.jpg",
-      "address": {
-        "street": "762 Antique Rd",
-        "city": "Kitchener",
-        "state": "ON",
-        "zip": "11980",
-        "formatted": "762 Antique Rd, Kitchener, ON 11980"
-      },
-      "contact": {
-        "phone": "517-778-2926",
-        "email": "info@kitchenerantiqueappraisals.com",
-        "website": "https://www.kitchenerantiqueappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "25 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.4,
-        "reviewCount": 14
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles"
-        ],
-        "certifications": [
-          "ISA Certified",
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Kitchener Antique Appraisals provides professional antique appraisal services in the Kitchener area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Patricia M.",
-          "rating": 4.5,
-          "date": "2025-03-05",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Michael J.",
-          "rating": 1,
-          "date": "2024-12-18",
-          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
-        },
-        {
-          "author": "James R.",
-          "rating": 4.5,
-          "date": "2024-08-20",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        },
-        {
-          "author": "Elizabeth M.",
-          "rating": 4,
-          "date": "2024-05-13",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "kitchener-heritage-valuations-kitchener",
       "name": "Heritage Valuations Kitchener",
       "slug": "heritage-valuations-kitchener",
@@ -104,7 +25,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
         "rating": 4.7,
         "reviewCount": 10
       },
@@ -159,6 +80,85 @@
           "rating": 5,
           "date": "2024-03-19",
           "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "kitchener-kitchener-antique-appraisals",
+      "name": "Kitchener Antique Appraisals",
+      "slug": "kitchener-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kitchener-kitchener-antique-appraisals_1742203569554_cmV8a6dgI.jpg",
+      "address": {
+        "street": "762 Antique Rd",
+        "city": "Kitchener",
+        "state": "ON",
+        "zip": "11980",
+        "formatted": "762 Antique Rd, Kitchener, ON 11980"
+      },
+      "contact": {
+        "phone": "517-778-2926",
+        "email": "info@kitchenerantiqueappraisals.com",
+        "website": "https://www.kitchenerantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "25 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
+        "rating": 4.4,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Kitchener Antique Appraisals provides professional antique appraisal services in the Kitchener area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia M.",
+          "rating": 4.5,
+          "date": "2025-03-05",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Michael J.",
+          "rating": 1,
+          "date": "2024-12-18",
+          "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
+        },
+        {
+          "author": "James R.",
+          "rating": 4.5,
+          "date": "2024-08-20",
+          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
+        },
+        {
+          "author": "Elizabeth M.",
+          "rating": 4,
+          "date": "2024-05-13",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
         }
       ],
       "metadata": {

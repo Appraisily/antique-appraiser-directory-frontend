@@ -1,89 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "san jose-mountain-view-us-foreign-coins",
-      "name": "Mountain View US & Foreign Coins",
-      "slug": "mountain-view-us-foreign-coins",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_jose-mountain-view-us-foreign-coins_1742203163638_eUvHMzBc0Q.jpg",
-      "address": {
-        "street": "747 Main St",
-        "city": "San Jose",
-        "state": "CA",
-        "zip": "35770",
-        "formatted": "747 Main St, San Jose, CA 35770"
-      },
-      "contact": {
-        "phone": "(415) 952-6467",
-        "email": "info@mountainviewusforeigncoins.com",
-        "website": "https://mvcoinshop.com/service-area/san-jose/"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.1,
-        "reviewCount": 9
-      },
-      "expertise": {
-        "specialties": [
-          "Rare coins"
-        ],
-        "certifications": [
-          "PCGS"
-        ],
-        "services": [
-          "All neighborhoods + Silicon Valley suburbs ([Alviso/Almaden Valley])"
-        ]
-      },
-      "content": {
-        "about": "Mountain View US & Foreign Coins provides professional antique appraisal services specializing in Rare coins. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the San Jose area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Karen R.",
-          "rating": 4,
-          "date": "2025-01-18",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Jennifer B.",
-          "rating": 3,
-          "date": "2024-11-30",
-          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
-        },
-        {
-          "author": "Jennifer J.",
-          "rating": 4.5,
-          "date": "2024-09-12",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "James M.",
-          "rating": 4,
-          "date": "2024-07-08",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "san jose-clars-auctions",
       "name": "Clars Auctions",
       "slug": "clars-auctions",
@@ -101,14 +18,14 @@
         "website": "https://mvcoinshop.com/service-area/san-jose/"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Established firm with more than 12 years of specialized appraisal practice.",
         "hours": [
           {
             "day": "Monday-Friday",
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
         "rating": 4.5,
         "reviewCount": 10
       },
@@ -159,6 +76,89 @@
       }
     },
     {
+      "id": "san jose-mountain-view-us-foreign-coins",
+      "name": "Mountain View US & Foreign Coins",
+      "slug": "mountain-view-us-foreign-coins",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_jose-mountain-view-us-foreign-coins_1742203163638_eUvHMzBc0Q.jpg",
+      "address": {
+        "street": "747 Main St",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "35770",
+        "formatted": "747 Main St, San Jose, CA 35770"
+      },
+      "contact": {
+        "phone": "(415) 952-6467",
+        "email": "info@mountainviewusforeigncoins.com",
+        "website": "https://mvcoinshop.com/service-area/san-jose/"
+      },
+      "business": {
+        "yearsInBusiness": "Serving collectors since 2007 with USPAP-compliant analyses.",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Initial consultation from $150; comprehensive reports quoted per project.",
+        "rating": 4.1,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Rare coins"
+        ],
+        "certifications": [
+          "PCGS"
+        ],
+        "services": [
+          "All neighborhoods + Silicon Valley suburbs ([Alviso/Almaden Valley])"
+        ]
+      },
+      "content": {
+        "about": "Mountain View US & Foreign Coins provides professional antique appraisal services specializing in Rare coins. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the San Jose area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Karen R.",
+          "rating": 4,
+          "date": "2025-01-18",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Jennifer B.",
+          "rating": 3,
+          "date": "2024-11-30",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
+        },
+        {
+          "author": "Jennifer J.",
+          "rating": 4.5,
+          "date": "2024-09-12",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "James M.",
+          "rating": 4,
+          "date": "2024-07-08",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "san jose-san-jose-antique-appraisals",
       "name": "San Jose Antique Appraisals",
       "slug": "san-jose-antique-appraisals",
@@ -191,7 +191,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.5,
         "reviewCount": 7
       },

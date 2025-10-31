@@ -1,6 +1,81 @@
 {
   "appraisers": [
     {
+      "id": "fort lauderdale-fort-lauderdale-antique-appraisals",
+      "name": "Fort Lauderdale Antique Appraisals",
+      "slug": "fort-lauderdale-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_lauderdale-fort-lauderdale-antique-appraisals_1742201745791_DGtdney4X.jpg",
+      "address": {
+        "street": "360 Museum Way",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "79226",
+        "formatted": "360 Museum Way, Fort Lauderdale, FL 79226"
+      },
+      "contact": {
+        "phone": "897-175-1875",
+        "email": "info@fortlauderdaleantiqueappraisals.com",
+        "website": "https://www.fortlauderdaleantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "27 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
+        "rating": 4.4,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Valuation"
+        ]
+      },
+      "content": {
+        "about": "Fort Lauderdale Antique Appraisals provides professional antique appraisal services in the Fort Lauderdale area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "James W.",
+          "rating": 4.5,
+          "date": "2024-11-18",
+          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "Nancy T.",
+          "rating": 4,
+          "date": "2024-08-09",
+          "content": "Very responsive and easy to work with. Fort Lauderdale Antique Appraisals's expertise with my antique pocket watch collection was impressive."
+        },
+        {
+          "author": "David W.",
+          "rating": 4.5,
+          "date": "2024-07-31",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "fort lauderdale-koosh-jewelers",
       "name": "Koosh Jewelers",
       "slug": "koosh-jewelers",
@@ -33,7 +108,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
         "rating": 4.2,
         "reviewCount": 21
       },
@@ -102,7 +177,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.1,
         "reviewCount": 21
       },
@@ -145,81 +220,6 @@
           "rating": 1,
           "date": "2024-05-01",
           "content": "Good service overall, though the turnaround time for my antique appraisal was longer than expected."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "fort lauderdale-fort-lauderdale-antique-appraisals",
-      "name": "Fort Lauderdale Antique Appraisals",
-      "slug": "fort-lauderdale-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_lauderdale-fort-lauderdale-antique-appraisals_1742201745791_DGtdney4X.jpg",
-      "address": {
-        "street": "360 Museum Way",
-        "city": "Fort Lauderdale",
-        "state": "FL",
-        "zip": "79226",
-        "formatted": "360 Museum Way, Fort Lauderdale, FL 79226"
-      },
-      "contact": {
-        "phone": "897-175-1875",
-        "email": "info@fortlauderdaleantiqueappraisals.com",
-        "website": "https://www.fortlauderdaleantiqueappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "27 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.4,
-        "reviewCount": 14
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry",
-          "Fine Art"
-        ],
-        "certifications": [
-          "ISA Certified"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals",
-          "Donation Valuation"
-        ]
-      },
-      "content": {
-        "about": "Fort Lauderdale Antique Appraisals provides professional antique appraisal services in the Fort Lauderdale area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "James W.",
-          "rating": 4.5,
-          "date": "2024-11-18",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Nancy T.",
-          "rating": 4,
-          "date": "2024-08-09",
-          "content": "Very responsive and easy to work with. Fort Lauderdale Antique Appraisals's expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "David W.",
-          "rating": 4.5,
-          "date": "2024-07-31",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
         }
       ],
       "metadata": {

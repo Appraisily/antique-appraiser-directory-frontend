@@ -25,7 +25,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Single-item opinions from $125; multi-piece engagements receive tailored pricing.",
         "rating": 4.6,
         "reviewCount": 20
       },
@@ -86,83 +86,6 @@
       }
     },
     {
-      "id": "aspen-brady-l-dreasher-isa-capp-art-of-estates",
-      "name": "Brady L\\. Dreasher \\(ISA CAPP\\) – Art of Estates",
-      "slug": "brady-l-dreasher-isa-capp-art-of-estates",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-brady-l-dreasher-isa-capp-art-of-estates_1742170019183_HqDZC8tQD.jpg",
-      "address": {
-        "street": "136 Maple Dr",
-        "city": "Aspen",
-        "state": "CO",
-        "zip": "52794",
-        "formatted": "136 Maple Dr, Aspen, CO 52794"
-      },
-      "contact": {
-        "phone": "808-683-2610",
-        "email": "info@bradyldreasherisacappartofestates.com",
-        "website": "https://www.bradyldreasherisacappartofestates.com"
-      },
-      "business": {
-        "yearsInBusiness": "Since 2010.",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 7
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art (19th–20th century), antique furniture, Americana, silver, collectibles, wine.  \n- Certifications: ISA Certified Appraiser (CAPP), USPAP-compliant. IRS-qualified.  \n- Years Active: Since 2010.  \n- Contact: \\(719\\) 225\\-1080; \\(844\\) ITEM\\-VAL; Appraisals@PrestigeEstateServices\\.com.  \n- Service Areas: Onsite evaluations across Aspen, remote photo valuations nationwide.  \n\n#### Brady L\\. Dreasher \\(ISA CAPP\\) – Art of Estates  \n- Specialties: Antiquities, carpets & rugs, musical instruments, decorative arts.  \n- Certifications: ISA Certified Member\\(,\\) USPAP\\-compliant\\(.\\) IRS\\-qualified\\(.\\)  \n- Years Active\\\\:\\ Not specified\\\\:\\ Part of multi\\-state firm with \\>100 years collective experience\\\\:.    \n-Contact\\\\: \\(316\\) 613\\-9686\\\\:\\ Info@ArtOfEstatesAppraisal\\.com\\\\:.    \n-Service Areas\\\\: In-person appointments across Colorado mountain towns\\, including Vail\\, Boulder\\, Denver\\, etc\\.\n\n#### \\Prestige Estate Services Team    \n-Specialists Include Holly Nelson\\, Lennie Rose\\,\\+ Others    \n-Collective Specialties"
-        ],
-        "certifications": [
-          "ISA",
-          "CAPP",
-          "USPAP",
-          "IRS",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "Onsite evaluations across Aspen, remote photo valuations nationwide."
-        ]
-      },
-      "content": {
-        "about": "Brady L\\. Dreasher \\(ISA CAPP\\) – Art of Estates provides professional antique appraisal services specializing in Fine art (19th–20th century), antique furniture, Americana, silver, collectibles, wine.  \n- Certifications: ISA Certified Appraiser (CAPP), USPAP-compliant. IRS-qualified.  \n- Years Active: Since 2010.  \n- Contact: \\(719\\) 225\\-1080; \\(844\\) ITEM\\-VAL; Appraisals@PrestigeEstateServices\\.com.  \n- Service Areas: Onsite evaluations across Aspen, remote photo valuations nationwide.  \n\n#### Brady L\\. Dreasher \\(ISA CAPP\\) – Art of Estates  \n- Specialties: Antiquities, carpets & rugs, musical instruments, decorative arts.  \n- Certifications: ISA Certified Member\\(,\\) USPAP\\-compliant\\(.\\) IRS\\-qualified\\(.\\)  \n- Years Active\\\\:\\ Not specified\\\\:\\ Part of multi\\-state firm with \\>100 years collective experience\\\\:.    \n-Contact\\\\: \\(316\\) 613\\-9686\\\\:\\ Info@ArtOfEstatesAppraisal\\.com\\\\:.    \n-Service Areas\\\\: In-person appointments across Colorado mountain towns\\, including Vail\\, Boulder\\, Denver\\, etc\\.\n\n#### \\Prestige Estate Services Team    \n-Specialists Include Holly Nelson\\, Lennie Rose\\,\\+ Others    \n-Collective Specialties. With Since 2010. experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Aspen area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Nancy J.",
-          "rating": 5,
-          "date": "2025-02-06",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "James C.",
-          "rating": 5,
-          "date": "2024-07-09",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "Susan C.",
-          "rating": 2,
-          "date": "2024-05-06",
-          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "aspen-aspen-antique-appraisals",
       "name": "Aspen Antique Appraisals",
       "slug": "aspen-antique-appraisals",
@@ -195,7 +118,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Estate packages begin at $450 and include research, inspection, and documentation.",
         "rating": 4.6,
         "reviewCount": 15
       },
@@ -242,6 +165,83 @@
           "rating": 4,
           "date": "2024-03-26",
           "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "aspen-brady-l-dreasher-isa-capp-art-of-estates",
+      "name": "Brady L\\. Dreasher \\(ISA CAPP\\) – Art of Estates",
+      "slug": "brady-l-dreasher-isa-capp-art-of-estates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-brady-l-dreasher-isa-capp-art-of-estates_1742170019183_HqDZC8tQD.jpg",
+      "address": {
+        "street": "136 Maple Dr",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "52794",
+        "formatted": "136 Maple Dr, Aspen, CO 52794"
+      },
+      "contact": {
+        "phone": "808-683-2610",
+        "email": "info@bradyldreasherisacappartofestates.com",
+        "website": "https://www.bradyldreasherisacappartofestates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 2010.",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.6,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art (19th–20th century), antique furniture, Americana, silver, collectibles, wine.  \n- Certifications: ISA Certified Appraiser (CAPP), USPAP-compliant. IRS-qualified.  \n- Years Active: Since 2010.  \n- Contact: \\(719\\) 225\\-1080; \\(844\\) ITEM\\-VAL; Appraisals@PrestigeEstateServices\\.com.  \n- Service Areas: Onsite evaluations across Aspen, remote photo valuations nationwide.  \n\n#### Brady L\\. Dreasher \\(ISA CAPP\\) – Art of Estates  \n- Specialties: Antiquities, carpets & rugs, musical instruments, decorative arts.  \n- Certifications: ISA Certified Member\\(,\\) USPAP\\-compliant\\(.\\) IRS\\-qualified\\(.\\)  \n- Years Active\\\\:\\ Not specified\\\\:\\ Part of multi\\-state firm with \\>100 years collective experience\\\\:.    \n-Contact\\\\: \\(316\\) 613\\-9686\\\\:\\ Info@ArtOfEstatesAppraisal\\.com\\\\:.    \n-Service Areas\\\\: In-person appointments across Colorado mountain towns\\, including Vail\\, Boulder\\, Denver\\, etc\\.\n\n#### \\Prestige Estate Services Team    \n-Specialists Include Holly Nelson\\, Lennie Rose\\,\\+ Others    \n-Collective Specialties"
+        ],
+        "certifications": [
+          "ISA",
+          "CAPP",
+          "USPAP",
+          "IRS",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Onsite evaluations across Aspen, remote photo valuations nationwide."
+        ]
+      },
+      "content": {
+        "about": "Brady L\\. Dreasher \\(ISA CAPP\\) – Art of Estates provides professional antique appraisal services specializing in Fine art (19th–20th century), antique furniture, Americana, silver, collectibles, wine.  \n- Certifications: ISA Certified Appraiser (CAPP), USPAP-compliant. IRS-qualified.  \n- Years Active: Since 2010.  \n- Contact: \\(719\\) 225\\-1080; \\(844\\) ITEM\\-VAL; Appraisals@PrestigeEstateServices\\.com.  \n- Service Areas: Onsite evaluations across Aspen, remote photo valuations nationwide.  \n\n#### Brady L\\. Dreasher \\(ISA CAPP\\) – Art of Estates  \n- Specialties: Antiquities, carpets & rugs, musical instruments, decorative arts.  \n- Certifications: ISA Certified Member\\(,\\) USPAP\\-compliant\\(.\\) IRS\\-qualified\\(.\\)  \n- Years Active\\\\:\\ Not specified\\\\:\\ Part of multi\\-state firm with \\>100 years collective experience\\\\:.    \n-Contact\\\\: \\(316\\) 613\\-9686\\\\:\\ Info@ArtOfEstatesAppraisal\\.com\\\\:.    \n-Service Areas\\\\: In-person appointments across Colorado mountain towns\\, including Vail\\, Boulder\\, Denver\\, etc\\.\n\n#### \\Prestige Estate Services Team    \n-Specialists Include Holly Nelson\\, Lennie Rose\\,\\+ Others    \n-Collective Specialties. With Since 2010. experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Aspen area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Nancy J.",
+          "rating": 5,
+          "date": "2025-02-06",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "James C.",
+          "rating": 5,
+          "date": "2024-07-09",
+          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
+        },
+        {
+          "author": "Susan C.",
+          "rating": 2,
+          "date": "2024-05-06",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
         }
       ],
       "metadata": {

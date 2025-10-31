@@ -17,6 +17,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { exec } from 'child_process';
 import chalk from 'chalk';
+import { getGtmBodySnippet, getGtmHeadSnippet } from './utils/gtm.js';
 
 // Get the project root directory
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -177,10 +178,30 @@ async function generateLocationPages() {
       const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/location/${city.slug}`;
       
       // Update HTML with city-specific meta tags
-      const cityHtml = indexHtml
+      const canonicalTag = `<link rel="canonical" href="${canonicalUrl}" />`;
+      const canonicalRegex = /<link rel="canonical" href=".*?"\s*\/?>/;
+
+      let cityHtml = indexHtml
         .replace(/<title>.*?<\/title>/, `<title>${title}</title>`)
-        .replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${description}"`)
-        .replace(/<link rel="canonical" href=".*?"/, `<link rel="canonical" href="${canonicalUrl}"`);
+        .replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${description}"`);
+
+      if (canonicalRegex.test(cityHtml)) {
+        cityHtml = cityHtml.replace(canonicalRegex, canonicalTag);
+      } else {
+        cityHtml = cityHtml.replace('</head>', `    ${canonicalTag}\n  </head>`);
+      }
+
+      const hasGtmHead = cityHtml.includes('https://www.googletagmanager.com/gtm.js');
+      if (!hasGtmHead) {
+        const headSnippet = getGtmHeadSnippet().trim().split('\n').map(line => `    ${line}`).join('\n');
+        cityHtml = cityHtml.replace('</head>', `${headSnippet}\n  </head>`);
+      }
+
+      const hasGtmNoscript = cityHtml.includes('https://www.googletagmanager.com/ns.html');
+      if (!hasGtmNoscript) {
+        const bodySnippet = getGtmBodySnippet().trim().split('\n').map(line => `    ${line}`).join('\n');
+        cityHtml = cityHtml.replace('<body>', `<body>\n${bodySnippet}`);
+      }
       
       // Write the HTML file
       const locationHtmlPath = path.join(locationDir, 'index.html');
@@ -334,7 +355,7 @@ async function main() {
     log('Next steps:', 'info');
     log('1. Run `npm run serve:static` to test the site locally', 'info');
     log('2. Commit and push the changes', 'info');
-    log('3. Deploy to Netlify', 'info');
+    log('3. Promote the build through the Appraisily VPS pipeline (image build + compose redeploy)', 'info');
   } catch (error) {
     log(`Error fixing pages: ${error.message}`, 'error');
     process.exit(1);

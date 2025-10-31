@@ -1,12 +1,11 @@
 /**
  * Standardized Data Utilities
- * 
- * This module provides access to the standardized appraiser data
- * stored in src/data/standardized/*.json
+ *
+ * Helpers for loading the standardized appraiser data that lives in
+ * src/data/standardized/*.json. Files are discovered via import.meta.glob so
+ * that routes only load the JSON they need.
  */
 
-import fs from 'fs';
-import path from 'path';
 import citiesData from '../data/cities.json';
 
 // Define types for standardized data
@@ -62,38 +61,19 @@ export interface StandardizedLocation {
   appraisers: StandardizedAppraiser[];
 }
 
-// Function to load standardized data
-function loadStandardizedData(): Record<string, StandardizedLocation> {
-  const standardizedDir = path.join(process.cwd(), 'src', 'data', 'standardized');
-  const standardizedData: Record<string, StandardizedLocation> = {};
-  
-  try {
-    // Check if directory exists during SSR
-    if (typeof window === 'undefined' && fs.existsSync(standardizedDir)) {
-      const files = fs.readdirSync(standardizedDir);
-      
-      files.forEach(file => {
-        if (file.endsWith('.json')) {
-          const locationName = file.replace('.json', '');
-          const data = JSON.parse(fs.readFileSync(path.join(standardizedDir, file), 'utf8'));
-          standardizedData[locationName] = data;
-        }
-      });
-    } else {
-      // In browser environment, we'll need to import these dynamically
-      console.warn('StandardizedData: Running in browser mode, dynamic imports not supported');
-    }
-    
-    return standardizedData;
-  } catch (error) {
-    console.error('Error loading standardized data:', error);
-    return {};
-  }
-}
+type LocationModule = () => Promise<{ default: StandardizedLocation }>;
 
-// Load standardized locations - this is a dummy for static import
-// We'll use dynamic imports in the actual implementation
-const standardizedLocations: Record<string, StandardizedLocation> = {};
+const locationModules = import.meta.glob('../data/standardized/*.json') as Record<string, LocationModule>;
+
+const locationLoaders: Record<string, LocationModule> = Object.fromEntries(
+  Object.entries(locationModules).map(([modulePath, loader]) => {
+    const match = modulePath.match(/standardized\/([^/]+)\.json$/);
+    const slug = match ? match[1] : modulePath;
+    return [slug, loader];
+  })
+);
+
+const locationCache = new Map<string, Promise<StandardizedLocation>>();
 
 // Export cities from cities.json
 export const cities = citiesData.cities;
@@ -101,28 +81,35 @@ export const cities = citiesData.cities;
 /**
  * Get standardized location data by city slug
  * @param {string} citySlug - The slug of the city to find
- * @returns {StandardizedLocation|null} - The location data or null if not found
+ * @returns {Promise<StandardizedLocation|null>} - The location data or null if not found
  */
-export function getStandardizedLocation(citySlug: string): StandardizedLocation | null {
+export function getStandardizedLocation(citySlug: string): Promise<StandardizedLocation | null> {
   if (!citySlug) {
     console.error('getStandardizedLocation called with undefined or null citySlug');
-    return null;
+    return Promise.resolve(null);
   }
-  
+
   try {
     // Normalize the slug - replace spaces with dashes, remove periods, ensure lowercase
     const normalizedSlug = citySlug.toLowerCase().replace(/\s+/g, '-').replace(/\./g, '');
-    
-    // Dynamic import of the city file
-    return import(`../data/standardized/${normalizedSlug}.json`)
-      .then(module => module.default)
-      .catch(error => {
-        console.error(`Error loading location data for ${normalizedSlug}:`, error);
-        return null;
-      });
+
+    const loader = locationLoaders[normalizedSlug];
+    if (!loader) {
+      console.error(`No standardized data found for slug: ${normalizedSlug}`);
+      return Promise.resolve(null);
+    }
+
+    if (!locationCache.has(normalizedSlug)) {
+      locationCache.set(
+        normalizedSlug,
+        loader().then(module => module.default)
+      );
+    }
+
+    return locationCache.get(normalizedSlug)!;
   } catch (error) {
     console.error(`Error in getStandardizedLocation for ${citySlug}:`, error);
-    return null;
+    return Promise.resolve(null);
   }
 }
 
@@ -136,29 +123,22 @@ export async function getStandardizedAppraiser(appraiserId: string): Promise<Sta
     console.error('getStandardizedAppraiser called with undefined or null appraiserId');
     return null;
   }
-  
-  // If we're in a browser environment, we need to fetch all locations
-  // and search through them for the appraiser
+
   try {
-    // In a browser environment, we need to load all location files
     const allLocations = await Promise.all(
-      cities.map(city => {
-        const citySlug = city.name.toLowerCase().replace(/\s+/g, '-').replace(/\./g, '');
-        return getStandardizedLocation(citySlug);
-      })
+      Object.keys(locationLoaders).map(slug => getStandardizedLocation(slug))
     );
-    
-    // Search through all locations for the appraiser
+
     for (const location of allLocations) {
       if (!location?.appraisers) continue;
-      
-      const appraiser = location.appraisers.find(a => 
-        a.id === appraiserId || a.slug === appraiserId
+
+      const appraiser = location.appraisers.find(app =>
+        app.id === appraiserId || app.slug === appraiserId
       );
-      
+
       if (appraiser) return appraiser;
     }
-    
+
     console.error(`No appraiser found with ID: ${appraiserId}`);
     return null;
   } catch (error) {
@@ -174,20 +154,17 @@ export async function getStandardizedAppraiser(appraiserId: string): Promise<Sta
 export async function getAllStandardizedAppraisers(): Promise<StandardizedAppraiser[]> {
   try {
     const allLocations = await Promise.all(
-      cities.map(city => {
-        const citySlug = city.name.toLowerCase().replace(/\s+/g, '-').replace(/\./g, '');
-        return getStandardizedLocation(citySlug);
-      })
+      Object.keys(locationLoaders).map(slug => getStandardizedLocation(slug))
     );
-    
+
     const allAppraisers: StandardizedAppraiser[] = [];
-    
+
     allLocations.forEach(location => {
       if (location?.appraisers?.length) {
         allAppraisers.push(...location.appraisers);
       }
     });
-    
+
     return allAppraisers;
   } catch (error) {
     console.error('Error in getAllStandardizedAppraisers:', error);

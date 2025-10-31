@@ -1,34 +1,66 @@
 import React, { useEffect, useState } from 'react';
 import { Facebook, Twitter, Instagram, Mail, ArrowRight, MapPin } from 'lucide-react';
 import citiesData from '../data/cities.json';
+import { CTA_URL, PARENT_SITE_URL, SITE_NAME, buildSiteUrl } from '../config/site';
+import { trackEvent } from '../utils/analytics';
 
-// Define links pointing to the main domain
-const MAIN_DOMAIN = 'https://appraisily.com';
 const links = {
   quickLinks: [
-    { name: 'Services', href: `${MAIN_DOMAIN}/services` },
-    { name: 'How It Works', href: `${MAIN_DOMAIN}/how-it-works` },
-    { name: 'Free AI Art Analysis', href: `${MAIN_DOMAIN}/screener` },
-    { name: 'Terms of Service', href: `${MAIN_DOMAIN}/terms` }
+    { name: 'Services', href: `${PARENT_SITE_URL}/services` },
+    { name: 'How It Works', href: `${PARENT_SITE_URL}/how-it-works` },
+    { name: 'Free AI Art Analysis', href: `${PARENT_SITE_URL}/screener` },
+    { name: 'Terms of Service', href: `${PARENT_SITE_URL}/terms` }
   ],
   legal: [
-    { name: 'Privacy Policy', href: `${MAIN_DOMAIN}/privacy` },
-    { name: 'Terms of Service', href: `${MAIN_DOMAIN}/terms` }
+    { name: 'Privacy Policy', href: `${PARENT_SITE_URL}/privacy` },
+    { name: 'Terms of Service', href: `${PARENT_SITE_URL}/terms` }
   ],
   social: [
-    { name: 'Facebook', icon: Facebook, href: '#' },
-    { name: 'Twitter', icon: Twitter, href: '#' },
-    { name: 'Instagram', icon: Instagram, href: '#' }
+    { name: 'Facebook', icon: Facebook, href: 'https://www.facebook.com/appraisily' },
+    { name: 'Twitter', icon: Twitter, href: 'https://twitter.com/appraisily' },
+    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/appraisily/' }
   ]
 };
 
+type FooterCity = typeof citiesData.cities[number];
+
 export function Footer() {
-  const [cities, setCities] = useState<Array<{name: string, state: string, slug: string}>>([]);
+  const [cities, setCities] = useState<FooterCity[]>([]);
   
   useEffect(() => {
     // Load cities from the imported data
     setCities(citiesData.cities);
   }, []);
+
+  const handleFooterCtaClick = () => {
+    trackEvent('cta_click', {
+      placement: 'footer_primary',
+      destination: CTA_URL
+    });
+    window.location.assign(CTA_URL);
+  };
+
+  const handleFooterCityClick = (city: FooterCity) => {
+    trackEvent('footer_city_click', {
+      city_slug: city.slug,
+      city_name: city.name,
+      state: city.state
+    });
+  };
+
+  const handleFooterLinkClick = (name: string, section: 'quick' | 'legal') => {
+    trackEvent('footer_link_click', {
+      section,
+      link_text: name
+    });
+  };
+
+  const handleSocialLinkClick = (network: string) => {
+    trackEvent('social_link_click', {
+      network,
+      placement: 'footer'
+    });
+  };
 
   return (
     <footer className="relative overflow-hidden bg-white">
@@ -56,8 +88,12 @@ export function Footer() {
             {cities.map((city) => (
               <a 
                 key={city.slug}
-                href={`/location/${city.slug}`}
+                href={buildSiteUrl(`/location/${city.slug}`)}
                 className="text-gray-600 hover:text-gray-900 transition-colors text-sm flex items-center gap-1"
+                data-gtm-event="footer_city_click"
+                data-gtm-city={city.slug}
+                data-gtm-state={city.state}
+                onClick={() => handleFooterCityClick(city)}
               >
                 <MapPin className="h-3 w-3" /> {city.name}, {city.state}
               </a>
@@ -78,14 +114,17 @@ export function Footer() {
                 className="h-8 w-auto mr-3"
                 loading="lazy"
               />
-              <span className="text-2xl font-bold text-gray-900">Appraisily</span>
+              <span className="text-2xl font-bold text-gray-900">{SITE_NAME}</span>
             </div>
             <p className="text-gray-600 max-w-md">
               Professional online art and antique appraisals. Get accurate valuations from certified experts within 48 hours.
             </p>
             <button 
+              type="button"
               className="bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-md flex items-center"
-              onClick={() => window.location.href = "https://services.appraisily.com"}
+              data-gtm-event="cta_click"
+              data-gtm-placement="footer_primary"
+              onClick={handleFooterCtaClick}
             >
               Start Appraisal <ArrowRight className="ml-2 h-4 w-4" />
             </button>
@@ -102,6 +141,10 @@ export function Footer() {
                   <a 
                     href={link.href}
                     className="text-gray-600 hover:text-gray-900 transition-colors text-sm"
+                    data-gtm-event="footer_link_click"
+                    data-gtm-section="quick"
+                    data-gtm-label={link.name}
+                    onClick={() => handleFooterLinkClick(link.name, 'quick')}
                   >
                     {link.name}
                   </a>
@@ -124,19 +167,22 @@ export function Footer() {
                 info@appraisily.com
               </a>
               <div className="flex space-x-4">
-                {links.social.map((social) => {
-                  const Icon = social.icon;
-                  return (
-                    <a
-                      key={social.name}
-                      href={social.href}
-                      className="text-gray-600 hover:text-gray-900 transition-colors"
-                      aria-label={`Visit our ${social.name} page`}
-                    >
-                      <Icon className="h-5 w-5" />
-                    </a>
-                  );
-                })}
+              {links.social.map((social) => {
+                const Icon = social.icon;
+                return (
+                  <a
+                    key={social.name}
+                    href={social.href}
+                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    aria-label={`Visit our ${social.name} page`}
+                    data-gtm-event="social_link_click"
+                    data-gtm-network={social.name}
+                    onClick={() => handleSocialLinkClick(social.name)}
+                  >
+                    <Icon className="h-5 w-5" />
+                  </a>
+                );
+              })}
               </div>
             </div>
           </div>
@@ -156,6 +202,10 @@ export function Footer() {
                   key={link.name}
                   href={link.href}
                   className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+                  data-gtm-event="footer_link_click"
+                  data-gtm-section="legal"
+                  data-gtm-label={link.name}
+                  onClick={() => handleFooterLinkClick(link.name, 'legal')}
                 >
                   {link.name}
                 </a>

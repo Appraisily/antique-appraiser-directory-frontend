@@ -1,16 +1,76 @@
-import React, { useState } from 'react';
-import { MapPin, Star, Search, Palette, Award, Badge, Clock, Users, ArrowRight } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import React from 'react';
+import { MapPin, Star, Search, ArrowRight } from 'lucide-react';
 import { CitySearch } from './components/CitySearch';
 import { SEO } from './components/SEO';
 import { cities } from './data/cities.json';
+import { CTA_URL, SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl } from './config/site';
+import { trackEvent } from './utils/analytics';
+import heroIllustrationPrimary from '../images/hero-antique-parlor.png';
+import heroIllustrationSecondary from '../images/hero-antique-gallery.png';
+import patternScrollwork from '../images/pattern-antique-scrollwork.png';
+import iconFurniture from '../images/icon-antique-furniture.png';
+import iconFineArt from '../images/icon-antique-fine-art.png';
+import iconJewelry from '../images/icon-antique-jewelry.png';
+
+type DirectoryCity = (typeof cities)[number];
 
 function App() {
-  const navigate = useNavigate();
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
   };
+
+  const totalCities = cities.length;
+  const totalStates = new Set(cities.map(city => city.state)).size;
+
+  const statsHighlights = [
+    { value: `${totalCities}+`, label: 'Cities covered nationwide' },
+    { value: `${totalStates}`, label: 'States with certified experts' },
+    { value: '48 hrs', label: 'Average appraisal turnaround' }
+  ];
+  const handleCtaClick = (placement: string) => {
+    trackEvent('cta_click', {
+      placement,
+      destination: CTA_URL
+    });
+  };
+
+  const handleCityDirectoryClick = (city: DirectoryCity, placement: string) => {
+    trackEvent('city_directory_click', {
+      placement,
+      city_slug: city.slug,
+      city_name: city.name,
+      state: city.state
+    });
+  };
+
+  const handleFeaturedAppraiserClick = (slug: string, name: string, placement: string) => {
+    trackEvent('featured_appraiser_click', {
+      placement,
+      appraiser_slug: slug,
+      appraiser_name: name
+    });
+  };
+
+  const specialtyHighlights = [
+    {
+      title: 'Furniture & Décor',
+      description: 'Victorian, Art Deco, mid-century and bespoke furnishings evaluated by specialists.',
+      image: iconFurniture,
+      alt: 'Antique furniture icon'
+    },
+    {
+      title: 'Fine Art & Paintings',
+      description: 'Museum-quality canvases, sculptures and works on paper reviewed for provenance.',
+      image: iconFineArt,
+      alt: 'Antique fine art icon'
+    },
+    {
+      title: 'Jewelry & Timepieces',
+      description: 'Estate jewelry, gemstones and horology assessed with gemological expertise.',
+      image: iconJewelry,
+      alt: 'Antique jewelry icon'
+    }
+  ];
 
   // Group cities by region for better organization
   const regions = {
@@ -39,13 +99,22 @@ function App() {
     return {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "@id": "https://appraisily.com/#website",
-      "url": "https://appraisily.com/",
-      "name": "Appraisily - Find Antique Appraisers Near You",
-      "description": "Connect with certified antique appraisers, get expert valuations, and make informed decisions about your antique collection.",
+      "@id": `${SITE_URL}#website`,
+      "url": SITE_URL,
+      "name": SITE_NAME,
+      "description": SITE_DESCRIPTION,
+      "publisher": {
+        "@type": "Organization",
+        "name": SITE_NAME,
+        "url": SITE_URL,
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg"
+        }
+      },
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://appraisily.com/search?q={search_term_string}",
+        "target": `${SITE_URL}/?q={search_term_string}`,
         "query-input": "required name=search_term_string"
       }
     };
@@ -56,10 +125,10 @@ function App() {
     return {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
-      "@id": "https://appraisily.com/#professional-service",
-      "name": "Appraisily Antique Appraisal Directory",
-      "description": "Find certified antique appraisers near you for expert valuations, authentication services, and professional advice for your antique collection.",
-      "url": "https://appraisily.com/",
+      "@id": `${SITE_URL}#professional-service`,
+      "name": SITE_NAME,
+      "description": SITE_DESCRIPTION,
+      "url": SITE_URL,
       "serviceType": "Art Appraisal",
       "audience": {
         "@type": "Audience",
@@ -71,105 +140,174 @@ function App() {
       },
       "provider": {
         "@type": "Organization",
-        "name": "Appraisily",
-        "url": "https://appraisily.com/"
+        "name": SITE_NAME,
+        "url": SITE_URL
       }
+    };
+  };
+
+  const generateOrganizationSchema = () => ({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE_URL}#organization`,
+    "name": SITE_NAME,
+    "url": SITE_URL,
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg"
+    },
+    "sameAs": [
+      "https://twitter.com/appraisily",
+      "https://www.linkedin.com/company/appraisily"
+    ],
+    "description": SITE_DESCRIPTION,
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "support@appraisily.com",
+        "url": SITE_URL
+      }
+    ]
+  });
+
+  const generateCityItemList = () => {
+    const topCities = cities.slice(0, 12);
+    return {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Featured Antique Appraiser Cities",
+      "itemListElement": topCities.map((city, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": `${city.name}, ${city.state}`,
+        "url": buildSiteUrl(`/location/${city.slug}`)
+      }))
     };
   };
 
   return (
     <>
       <SEO
-        title="Find Antique Appraisers Near Me | Expert Antique Valuation Services | Appraisily"
-        description="Connect with certified antique appraisers near you. Get expert antique valuations, authentication services, and professional advice for your antique collection. Find local antique appraisers today!"
-        keywords={[
-          'antique appraiser near me',
-          'find antique appraisers',
-          'local antique appraisers',
-          'antique valuation services',
-          'antique authentication services',
-          'certified antique appraisers',
-          'professional antique valuation',
-          'fine antique appraisal',
-          'antique appraisal for insurance',
-          'antique appraisal for estate',
-          'antique appraisal for donation'
-        ]}
+        title={`${SITE_NAME} | Find Antique Appraisers Near You`}
+        description={SITE_DESCRIPTION}
         schema={[
           generateHomePageSchema(),
-          generateServiceSchema()
+          generateServiceSchema(),
+          generateOrganizationSchema(),
+          generateCityItemList()
         ]}
-        canonicalUrl="https://appraisily.com/"
+        path="/"
       />
       <div className="flex-1">
-        {/* Hero Section with Gradient Background */}
-        <div className="bg-gradient-to-br from-primary/20 via-primary/10 to-blue-50 py-20 md:py-28">
-          <div className="container mx-auto px-6 relative">
-            {/* Decorative Elements */}
-            <div className="absolute top-1/4 left-10 w-12 h-12 bg-primary/20 rounded-full blur-xl"></div>
-            <div className="absolute bottom-1/4 right-10 w-16 h-16 bg-blue-400/20 rounded-full blur-xl"></div>
-            <div className="absolute top-3/4 left-1/3 w-8 h-8 bg-primary/30 rounded-full blur-lg"></div>
-            
-            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-center leading-tight">
-              Find <span className="text-primary">Antique Appraisers</span> Near You
-            </h1>
-            <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto text-center">
-              Connect with certified antique appraisers, get expert valuations, and make informed decisions about your antique collection.
-            </p>
-            
-            <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto relative z-10 bg-white p-2 rounded-lg shadow-lg">
-              <CitySearch />
-              <button
-                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-12 px-8 py-2 bg-primary md:w-auto w-full shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-300"
-                type="submit"
-              >
-                <Search className="w-4 h-4" />
-                Find Appraisers
-              </button>
-            </form>
-          </div>
-        </div>
+        {/* Hero Section */}
+        <section className="relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/25 via-primary/10 to-blue-50" />
+          <div
+            className="absolute inset-0 opacity-20"
+            style={{
+              backgroundImage: `url(${patternScrollwork})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center'
+            }}
+          />
 
-        {/* Features Section */}
-        <div className="bg-white py-16">
-          <div className="container mx-auto px-6">
-            <h2 className="text-3xl font-bold text-center mb-12">Why Choose Appraisily?</h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="flex flex-col items-center text-center p-6 rounded-lg hover:shadow-lg transition-all duration-300">
-                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Palette className="w-7 h-7 text-primary" />
+          <div className="relative container mx-auto px-6 py-20 md:py-24">
+            <div className="grid items-center gap-12 md:grid-cols-2">
+              <div className="order-2 space-y-6 text-center md:order-1 md:text-left">
+                <span className="inline-flex items-center justify-center rounded-full bg-white/80 px-3 py-1 text-sm font-medium text-primary shadow-sm">
+                  Trusted antique valuation network
+                </span>
+                <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
+                  Find <span className="text-primary">certified antique appraisers</span> near you
+                </h1>
+                <p className="text-lg md:text-xl text-muted-foreground max-w-2xl md:max-w-xl mx-auto md:mx-0">
+                  Connect with vetted specialists for heirloom furniture, fine art, jewelry, and historically significant collections.
+                </p>
+
+                <form
+                  onSubmit={handleSubmit}
+                  className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto md:mx-0 bg-white/90 p-2 rounded-lg shadow-lg backdrop-blur-lg"
+                >
+                  <CitySearch />
+                  <button
+                    className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-12 px-8 py-2 bg-primary md:w-auto w-full shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-300"
+                    type="submit"
+                  >
+                    <Search className="w-4 h-4" />
+                    Find Appraisers
+                  </button>
+                </form>
+
+                <div className="grid gap-6 pt-8 sm:grid-cols-3">
+                  {statsHighlights.map(stat => (
+                    <div key={stat.label} className="rounded-2xl border border-white/40 bg-white/70 p-4 shadow-sm backdrop-blur-md">
+                      <p className="text-2xl font-bold text-primary">{stat.value}</p>
+                      <p className="text-sm text-muted-foreground">{stat.label}</p>
+                    </div>
+                  ))}
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Expert Appraisers</h3>
-                <p className="text-muted-foreground">Access to certified art professionals with years of experience.</p>
               </div>
-              
-              <div className="flex flex-col items-center text-center p-6 rounded-lg hover:shadow-lg transition-all duration-300">
-                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Award className="w-7 h-7 text-primary" />
+
+              <div className="order-1 md:order-2">
+                <div className="relative mx-auto max-w-sm md:max-w-md">
+                  <div className="overflow-hidden rounded-[32px] border border-white/60 bg-white/80 shadow-2xl backdrop-blur-md">
+                    <img
+                      src={heroIllustrationPrimary}
+                      alt="Antique appraisal consultation illustration"
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="hidden lg:block">
+                    <div className="absolute -bottom-12 -left-12 w-40 overflow-hidden rounded-3xl border border-white/60 bg-white/90 shadow-xl backdrop-blur-md">
+                      <img
+                        src={heroIllustrationSecondary}
+                        alt="Gallery of antique heirlooms on display"
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
+                    </div>
+                  </div>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Accurate Valuations</h3>
-                <p className="text-muted-foreground">Precise art valuations based on current market trends.</p>
-              </div>
-              
-              <div className="flex flex-col items-center text-center p-6 rounded-lg hover:shadow-lg transition-all duration-300">
-                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Clock className="w-7 h-7 text-primary" />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Quick Turnaround</h3>
-                <p className="text-muted-foreground">Fast appraisal services to meet your timeline needs.</p>
-              </div>
-              
-              <div className="flex flex-col items-center text-center p-6 rounded-lg hover:shadow-lg transition-all duration-300">
-                <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                  <Badge className="w-7 h-7 text-primary" />
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Verified Reviews</h3>
-                <p className="text-muted-foreground">Read authentic feedback from clients who've used our services.</p>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+
+        {/* Features Section */}
+        <section className="bg-white py-16">
+          <div className="container mx-auto px-6">
+            <div className="max-w-2xl mx-auto text-center mb-12 space-y-4">
+              <span className="uppercase tracking-[0.3em] text-xs text-primary/80">What we appraise</span>
+              <h2 className="text-3xl font-bold">Specialty categories handled with care</h2>
+              <p className="text-muted-foreground">
+                Every submission is matched with a certified specialist who understands the historical context and market value of your antiques.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+              {specialtyHighlights.map(item => (
+                <div
+                  key={item.title}
+                  className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+                >
+                  <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-primary/5 blur-2xl transition-opacity group-hover:opacity-0" />
+                  <div className="relative mb-6 flex items-center justify-center">
+                    <img
+                      src={item.image}
+                      alt={item.alt}
+                      loading="lazy"
+                      className="h-16 w-16 object-contain drop-shadow-lg"
+                    />
+                  </div>
+                  <h3 className="text-xl font-semibold text-foreground mb-3">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
         {/* Cities Directory Section */}
         <div className="bg-gray-50 py-16">
@@ -187,8 +325,13 @@ function App() {
                     {regionCities.map(city => (
                       <li key={city.slug}>
                         <a 
-                          href={`/location/${city.slug}`}
+                          href={buildSiteUrl(`/location/${city.slug}`)}
                           className="flex items-center text-gray-700 hover:text-blue-600 py-1 transition-colors"
+                          data-gtm-event="city_directory_click"
+                          data-gtm-city={city.slug}
+                          data-gtm-state={city.state}
+                          data-gtm-placement={`home_${region.toLowerCase().replace(/\s+/g, '-')}`}
+                          onClick={() => handleCityDirectoryClick(city, `home_${region.toLowerCase().replace(/\s+/g, '-')}`)}
                         >
                           <MapPin className="w-4 h-4 mr-2 text-blue-500" />
                           <span>{city.name}, {city.state}</span>
@@ -203,8 +346,11 @@ function App() {
             <div className="mt-10 text-center">
               <p className="text-gray-600 mb-4">Don't see your city? We may still have art appraisers available in your area.</p>
               <a
-                href="https://appraisily.com/start"
+                href={CTA_URL}
                 className="inline-flex items-center justify-center text-white bg-blue-600 hover:bg-blue-700 py-3 px-6 rounded-lg shadow-md font-medium transition-all duration-300"
+                data-gtm-event="cta_click"
+                data-gtm-placement="home_directory"
+                onClick={() => handleCtaClick('home_directory')}
               >
                 Request an Appraisal <ArrowRight className="ml-2 h-4 w-4" />
               </a>
@@ -217,7 +363,14 @@ function App() {
           <h2 className="text-3xl font-bold mb-10 text-center">Featured Antique Appraisers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Appraiser Card 1 - Sotheby's New York */}
-            <a href="/appraiser/sothebys-new-york" className="group">
+            <a
+              href={buildSiteUrl('/appraiser/sothebys-new-york')}
+              className="group"
+              data-gtm-event="featured_appraiser_click"
+              data-gtm-appraiser="sothebys-new-york"
+              data-gtm-placement="home_featured"
+              onClick={() => handleFeaturedAppraiserClick('sothebys-new-york', "Sotheby's New York", 'home_featured')}
+            >
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
@@ -249,7 +402,14 @@ function App() {
             </a>
             
             {/* Appraiser Card 2 - Heritage Auctions */}
-            <a href="/appraiser/heritage-auctions" className="group">
+            <a
+              href={buildSiteUrl('/appraiser/heritage-auctions')}
+              className="group"
+              data-gtm-event="featured_appraiser_click"
+              data-gtm-appraiser="heritage-auctions"
+              data-gtm-placement="home_featured"
+              onClick={() => handleFeaturedAppraiserClick('heritage-auctions', 'Heritage Auctions', 'home_featured')}
+            >
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
@@ -281,7 +441,14 @@ function App() {
             </a>
             
             {/* Appraiser Card 3 - Clars Auction Gallery */}
-            <a href="/appraiser/clars-auction-gallery" className="group">
+            <a
+              href={buildSiteUrl('/appraiser/clars-auction-gallery')}
+              className="group"
+              data-gtm-event="featured_appraiser_click"
+              data-gtm-appraiser="clars-auction-gallery"
+              data-gtm-placement="home_featured"
+              onClick={() => handleFeaturedAppraiserClick('clars-auction-gallery', 'Clars Auction Gallery', 'home_featured')}
+            >
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
@@ -315,7 +482,7 @@ function App() {
           
           <div className="mt-12 text-center">
             <a 
-              href="/location/new-york" 
+              href={buildSiteUrl('/location/new-york')} 
               className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white mr-4"
             >
               Browse All Appraisers

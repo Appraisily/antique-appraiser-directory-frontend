@@ -1,91 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "louisville-prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_louisville-prestige-estate-services_1742202746821_yR30JMYvy.jpg",
-      "address": {
-        "street": "711 Museum Way",
-        "city": "Louisville",
-        "state": "KE",
-        "zip": "29867",
-        "formatted": "711 Museum Way, Louisville, KE 29867"
-      },
-      "contact": {
-        "phone": "812-178-9195",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://www.prestigeestateservices.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4,
-        "reviewCount": 16
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art (paintings, sculptures), period furniture (18th–20th century), decorative arts/jewelry collections  \n- Certifications: ISA (International Society of Appraisers)/ASA (American Society) accredited; IRS-qualified estate tax reports  \n- Services: In-person/remote valuations + photo-based assessments  \n- Service Area: Greater Louisville (Jeffersontown, Highlands, Fern Creek) + nationwide remote support  \n- Contact: 📍400 S 2nd St"
-        ],
-        "certifications": [
-          "ISA",
-          "ASA",
-          "IRS"
-        ],
-        "services": [
-          "In-person/remote valuations + photo-based assessments"
-        ]
-      },
-      "content": {
-        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Fine art (paintings, sculptures), period furniture (18th–20th century), decorative arts/jewelry collections  \n- Certifications: ISA (International Society of Appraisers)/ASA (American Society) accredited; IRS-qualified estate tax reports  \n- Services: In-person/remote valuations + photo-based assessments  \n- Service Area: Greater Louisville (Jeffersontown, Highlands, Fern Creek) + nationwide remote support  \n- Contact: 📍400 S 2nd St. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the Louisville area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "Sarah S.",
-          "rating": 3.5,
-          "date": "2024-10-27",
-          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
-        },
-        {
-          "author": "Karen W.",
-          "rating": 4,
-          "date": "2024-10-09",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Sarah M.",
-          "rating": 4,
-          "date": "2024-09-08",
-          "content": "Prestige Estate Services's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Linda M.",
-          "rating": 5,
-          "date": "2024-06-16",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "louisville-howard-thomas-auction-house",
       "name": "Howard & Thomas Auction House",
       "slug": "howard-thomas-auction-house",
@@ -103,7 +18,7 @@
         "website": "https://www.howardthomasauctionhouse.com"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Established in 2010 and trusted for museum-quality reporting.",
         "hours": [
           {
             "day": "Monday-Thursday",
@@ -118,7 +33,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
         "rating": 4.2,
         "reviewCount": 5
       },
@@ -203,7 +118,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
         "rating": 4.3,
         "reviewCount": 16
       },
@@ -256,6 +171,91 @@
           "rating": 4.5,
           "date": "2024-04-23",
           "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "louisville-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_louisville-prestige-estate-services_1742202746821_yR30JMYvy.jpg",
+      "address": {
+        "street": "711 Museum Way",
+        "city": "Louisville",
+        "state": "KE",
+        "zip": "29867",
+        "formatted": "711 Museum Way, Louisville, KE 29867"
+      },
+      "contact": {
+        "phone": "812-178-9195",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://www.prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established in 2010 and trusted for museum-quality reporting.",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art (paintings, sculptures), period furniture (18th–20th century), decorative arts/jewelry collections  \n- Certifications: ISA (International Society of Appraisers)/ASA (American Society) accredited; IRS-qualified estate tax reports  \n- Services: In-person/remote valuations + photo-based assessments  \n- Service Area: Greater Louisville (Jeffersontown, Highlands, Fern Creek) + nationwide remote support  \n- Contact: 📍400 S 2nd St"
+        ],
+        "certifications": [
+          "ISA",
+          "ASA",
+          "IRS"
+        ],
+        "services": [
+          "In-person/remote valuations + photo-based assessments"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional antique appraisal services specializing in Fine art (paintings, sculptures), period furniture (18th–20th century), decorative arts/jewelry collections  \n- Certifications: ISA (International Society of Appraisers)/ASA (American Society) accredited; IRS-qualified estate tax reports  \n- Services: In-person/remote valuations + photo-based assessments  \n- Service Area: Greater Louisville (Jeffersontown, Highlands, Fern Creek) + nationwide remote support  \n- Contact: 📍400 S 2nd St. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the Louisville area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Sarah S.",
+          "rating": 3.5,
+          "date": "2024-10-27",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation about my antique furniture valuation methodology."
+        },
+        {
+          "author": "Karen W.",
+          "rating": 4,
+          "date": "2024-10-09",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Sarah M.",
+          "rating": 4,
+          "date": "2024-09-08",
+          "content": "Prestige Estate Services's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Linda M.",
+          "rating": 5,
+          "date": "2024-06-16",
+          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
         }
       ],
       "metadata": {

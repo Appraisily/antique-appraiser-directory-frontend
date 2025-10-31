@@ -29,7 +29,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Museum-grade reports from $325; collection reviews offered with custom estimates.",
         "rating": 4.9,
         "reviewCount": 13
       },
@@ -81,89 +81,6 @@
       }
     },
     {
-      "id": "st. louis-st-louis-antique-appraisals",
-      "name": "St. Louis Antique Appraisals",
-      "slug": "st-louis-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st._louis-st-louis-antique-appraisals_1742203317161_xGcHoNA1E.jpg",
-      "address": {
-        "street": "1098 Antique Rd",
-        "city": "St. Louis",
-        "state": "MI",
-        "zip": "74967",
-        "formatted": "1098 Antique Rd, St. Louis, MI 74967"
-      },
-      "contact": {
-        "phone": "134-211-6219",
-        "email": "info@stlouisantiqueappraisals.com",
-        "website": "https://www.stlouisantiqueappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "11 years in business",
-        "hours": [
-          {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 7
-      },
-      "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry",
-          "Fine Art"
-        ],
-        "certifications": [
-          "ISA Certified",
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals"
-        ]
-      },
-      "content": {
-        "about": "St. Louis Antique Appraisals provides professional antique appraisal services in the St. Louis area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
-      },
-      "reviews": [
-        {
-          "author": "James D.",
-          "rating": 4.5,
-          "date": "2025-01-15",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "John T.",
-          "rating": 4.5,
-          "date": "2024-12-23",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Robert C.",
-          "rating": 4.5,
-          "date": "2024-04-17",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "st. louis-heritage-valuations-st-louis",
       "name": "Heritage Valuations St. Louis",
       "slug": "heritage-valuations-st-louis",
@@ -192,7 +109,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Desktop valuations start at $95 per item; onsite work billed hourly.",
         "rating": 4.1,
         "reviewCount": 15
       },
@@ -246,6 +163,89 @@
           "rating": 5,
           "date": "2024-05-06",
           "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "st. louis-st-louis-antique-appraisals",
+      "name": "St. Louis Antique Appraisals",
+      "slug": "st-louis-antique-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st._louis-st-louis-antique-appraisals_1742203317161_xGcHoNA1E.jpg",
+      "address": {
+        "street": "1098 Antique Rd",
+        "city": "St. Louis",
+        "state": "MI",
+        "zip": "74967",
+        "formatted": "1098 Antique Rd, St. Louis, MI 74967"
+      },
+      "contact": {
+        "phone": "134-211-6219",
+        "email": "info@stlouisantiqueappraisals.com",
+        "website": "https://www.stlouisantiqueappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "11 years in business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Express photo appraisal $175; full USPAP-compliant documentation priced individually.",
+        "rating": 4.5,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Estate Jewelry",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "St. Louis Antique Appraisals provides professional antique appraisal services in the St. Louis area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving the greater metropolitan area with professional antique appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "James D.",
+          "rating": 4.5,
+          "date": "2025-01-15",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "John T.",
+          "rating": 4.5,
+          "date": "2024-12-23",
+          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
+        },
+        {
+          "author": "Robert C.",
+          "rating": 4.5,
+          "date": "2024-04-17",
+          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
         }
       ],
       "metadata": {
