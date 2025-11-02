@@ -563,12 +563,14 @@ function generateAppraiserHtml(appraiser) {
 
   const seoTitle = `${appraiser.name} - Art Appraiser in ${appraiser.address.city} | Expert Art Valuation Services`;
   const seoDescription = `Get professional art appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
+  const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`;
 
   return {
     title: seoTitle,
     description: seoDescription,
     schema: [appraiserSchema, breadcrumbSchema, faqSchema],
-    content: mainContent
+    content: mainContent,
+    canonicalUrl
   };
 }
 
@@ -597,6 +599,17 @@ function generatePageHtml(templateHtml, appraiserPage) {
   schemaScript.setAttribute('type', 'application/ld+json');
   schemaScript.textContent = JSON.stringify(appraiserPage.schema);
   head.appendChild(schemaScript);
+
+  // Ensure canonical tag points to the appraiser profile
+  if (appraiserPage.canonicalUrl) {
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', appraiserPage.canonicalUrl);
+  }
   
   // Update the content
   const root = document.getElementById('root');

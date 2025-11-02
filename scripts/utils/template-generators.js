@@ -34,6 +34,11 @@ import { getGtmBodySnippet, getGtmHeadSnippet } from './gtm.js';
 const BASE_URL = 'https://antique-appraiser-directory.appraisily.com';
 const DEFAULT_META_TITLE = 'Art Appraiser Directory | Find Qualified Art Appraisers';
 const DEFAULT_META_DESCRIPTION = 'Find professional art appraisers for insurance, estate, donation, and fair market value appraisals. Get accurate valuations for your artwork.';
+const MAIN_SITE_URL = 'https://appraisily.com';
+const MAIN_ABOUT_URL = `${MAIN_SITE_URL}/about`;
+const MAIN_SERVICES_URL = `${MAIN_SITE_URL}/services`;
+const MAIN_DIRECTORY_URL = `${MAIN_SITE_URL}/directory`;
+const MAIN_CONTACT_URL = `${MAIN_SITE_URL}/contact`;
 
 function renderGtmAttributes(attrs = {}) {
   return Object.entries(attrs)
@@ -274,9 +279,9 @@ export async function generateLocationPageHTML({
           <nav>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/directory">Directory</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a href="${MAIN_DIRECTORY_URL}">Directory</a></li>
+              <li><a href="${MAIN_ABOUT_URL}">About</a></li>
+              <li><a href="${MAIN_CONTACT_URL}">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -294,7 +299,7 @@ export async function generateLocationPageHTML({
           <div class="container">
             <div class="breadcrumbs">
               <a href="/">Home</a> &gt;
-              <a href="/directory">Directory</a> &gt;
+              <a href="${MAIN_DIRECTORY_URL}">Directory</a> &gt;
               <span>${locationDisplay}</span>
             </div>
             
@@ -307,7 +312,7 @@ export async function generateLocationPageHTML({
               <h2>${locationAppraisers.length} Art Appraisers in ${locationDisplay}</h2>
               ${locationAppraisers.length > 0 
                 ? `<div class="appraiser-grid">${appraiserCardsHtml.join('')}</div>`
-                : `<p class="no-results">No appraisers found in ${locationDisplay}. Please check nearby locations or <a href="/contact">contact us</a> for assistance.</p>`
+                : `<p class="no-results">No appraisers found in ${locationDisplay}. Please check nearby locations or <a href="${MAIN_CONTACT_URL}">contact us</a> for assistance.</p>`
               }
             </div>
             
@@ -355,9 +360,9 @@ export async function generateLocationPageHTML({
               <h3>Quick Links</h3>
               <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/directory">Directory</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="${MAIN_DIRECTORY_URL}">Directory</a></li>
+                <li><a href="${MAIN_ABOUT_URL}">About</a></li>
+                <li><a href="${MAIN_CONTACT_URL}">Contact</a></li>
               </ul>
             </div>
             <div class="footer-section">
@@ -530,9 +535,9 @@ export async function generateAppraiserPageHTML(appraiser) {
           <nav>
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/directory">Directory</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a href="${MAIN_DIRECTORY_URL}">Directory</a></li>
+              <li><a href="${MAIN_ABOUT_URL}">About</a></li>
+              <li><a href="${MAIN_CONTACT_URL}">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -542,7 +547,7 @@ export async function generateAppraiserPageHTML(appraiser) {
         <div class="container">
           <div class="breadcrumbs">
             <a href="/">Home</a> &gt;
-            <a href="/directory">Directory</a> &gt;
+            <a href="${MAIN_DIRECTORY_URL}">Directory</a> &gt;
             ${appraiser.city ? `<a href="/location/${appraiser.city.toLowerCase().replace(/\s+/g, '-')}">Art Appraisers in ${appraiser.city}</a> &gt;` : ''}
             <span>${appraiser.name}</span>
           </div>
@@ -668,9 +673,9 @@ export async function generateAppraiserPageHTML(appraiser) {
               <h3>Quick Links</h3>
               <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/directory">Directory</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="${MAIN_DIRECTORY_URL}">Directory</a></li>
+                <li><a href="${MAIN_ABOUT_URL}">About</a></li>
+                <li><a href="${MAIN_CONTACT_URL}">Contact</a></li>
               </ul>
             </div>
             <div class="footer-section">

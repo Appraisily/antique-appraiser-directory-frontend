@@ -21,6 +21,12 @@ const LOCATIONS_DIR = path.join(__dirname, '../src/data/locations');
 // Default placeholder image for missing images
 const DEFAULT_PLACEHOLDER_IMAGE = 'https://ik.imagekit.io/appraisily/placeholder-art-image.jpg';
 
+const MAIN_SITE_URL = 'https://appraisily.com';
+const MAIN_ABOUT_URL = `${MAIN_SITE_URL}/about`;
+const MAIN_SERVICES_URL = `${MAIN_SITE_URL}/services`;
+const MAIN_DIRECTORY_URL = `${MAIN_SITE_URL}/directory`;
+const MAIN_CONTACT_URL = `${MAIN_SITE_URL}/contact`;
+
 // Update the error handling script - MOVED UP to avoid reference issues
 const imageErrorHandlingScript = `
     <!-- Image error handling script -->
@@ -194,8 +200,8 @@ function generateHomePageHTML(cssPath, jsPath) {
           <a href="/" class="text-2xl font-bold text-primary">Art Appraiser Directory</a>
           <nav class="hidden md:flex space-x-8">
             <a href="/" class="text-gray-700 hover:text-primary transition-colors">Home</a>
-            <a href="/about" class="text-gray-700 hover:text-primary transition-colors">About</a>
-            <a href="/services" class="text-gray-700 hover:text-primary transition-colors">Services</a>
+            <a href="${MAIN_ABOUT_URL}" class="text-gray-700 hover:text-primary transition-colors">About</a>
+            <a href="${MAIN_SERVICES_URL}" class="text-gray-700 hover:text-primary transition-colors">Services</a>
           </nav>
         </div>
       </header>
@@ -651,8 +657,8 @@ function generateAppraiserHTML(appraiser, cityName, cssPath, jsPath) {
       <header>
         <nav>
           <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/services">Services</a>
+          <a href="${MAIN_ABOUT_URL}">About</a>
+          <a href="${MAIN_SERVICES_URL}">Services</a>
         </nav>
       </header>
       

@@ -47,7 +47,7 @@
         "fix:asset-paths": "node ./scripts/fix-asset-paths.js",
         "clean:standardized-data": "node ./scripts/clean-standardized-data.js",
         "report:standardized-data": "node ./scripts/report-standardized-data.js",
-        "env:check": "node ../../env-governance/run-check.mjs --schema frontends/antique-appraiser-directory-frontend"
+        "env:check": "node ./scripts/env-check.mjs"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",

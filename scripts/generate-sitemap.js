@@ -40,13 +40,7 @@ async function generateSitemap() {
     
     // 1. Add main routes with high priority
     const mainRoutes = [
-      { url: '/', priority: '1.0', changefreq: 'daily' },
-      { url: '/find-antique-appraiser', priority: '0.9', changefreq: 'weekly' },
-      { url: '/about', priority: '0.8', changefreq: 'weekly' },
-      { url: '/antique-appraisal-services', priority: '0.8', changefreq: 'weekly' },
-      { url: '/antique-appraiser-expertise', priority: '0.8', changefreq: 'weekly' },
-      { url: '/antique-appraisal-pricing', priority: '0.8', changefreq: 'weekly' },
-      { url: '/faq', priority: '0.8', changefreq: 'weekly' }
+      { url: '/', priority: '1.0', changefreq: 'daily' }
     ];
     
     mainRoutes.forEach(route => {
