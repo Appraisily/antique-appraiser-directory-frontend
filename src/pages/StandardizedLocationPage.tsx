@@ -4,7 +4,7 @@ import { MapPin, Star } from 'lucide-react';
 import { getStandardizedLocation, StandardizedAppraiser, StandardizedLocation } from '../utils/standardizedData';
 import { SEO } from '../components/SEO';
 import { generateLocationSchema } from '../utils/schemaGenerators';
-import { CTA_URL, SITE_URL, buildSiteUrl } from '../config/site';
+import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
 import {
   hasPlaceholderName,
   isPlaceholderAbout,
@@ -20,6 +20,7 @@ export function StandardizedLocationPage() {
   const [locationData, setLocationData] = useState<StandardizedLocation | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const primaryCtaUrl = getPrimaryCtaUrl();
 
   const validCitySlug = typeof citySlug === 'string' ? citySlug : '';
   const cityMeta = useMemo(
@@ -134,7 +135,7 @@ export function StandardizedLocationPage() {
   const handleLocationCtaClick = () => {
     trackEvent('cta_click', {
       placement: 'location_footer',
-      destination: CTA_URL,
+      destination: primaryCtaUrl,
       city_slug: validCitySlug
     });
   };
@@ -312,7 +313,7 @@ export function StandardizedLocationPage() {
             certified professionals in {cityName}.
           </p>
           <a
-            href={CTA_URL}
+            href={primaryCtaUrl}
             className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
             data-gtm-event="cta_click"
             data-gtm-placement="location_footer"

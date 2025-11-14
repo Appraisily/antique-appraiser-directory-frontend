@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Facebook, Twitter, Instagram, Mail, ArrowRight, MapPin } from 'lucide-react';
 import citiesData from '../data/cities.json';
-import { CTA_URL, PARENT_SITE_URL, SITE_NAME, buildSiteUrl } from '../config/site';
+import { PARENT_SITE_URL, SITE_NAME, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
 import { trackEvent } from '../utils/analytics';
 
 const links = {
@@ -26,6 +26,7 @@ type FooterCity = typeof citiesData.cities[number];
 
 export function Footer() {
   const [cities, setCities] = useState<FooterCity[]>([]);
+  const primaryCtaUrl = getPrimaryCtaUrl();
   
   useEffect(() => {
     // Load cities from the imported data
@@ -35,9 +36,9 @@ export function Footer() {
   const handleFooterCtaClick = () => {
     trackEvent('cta_click', {
       placement: 'footer_primary',
-      destination: CTA_URL
+      destination: primaryCtaUrl
     });
-    window.location.assign(CTA_URL);
+    window.location.assign(primaryCtaUrl);
   };
 
   const handleFooterCityClick = (city: FooterCity) => {

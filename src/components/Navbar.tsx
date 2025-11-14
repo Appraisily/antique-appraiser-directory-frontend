@@ -8,7 +8,7 @@ import {
 } from "./ui/navigation-menu"
 import { cn } from '../lib/utils';
 import { cities } from '../data/cities.json';
-import { CTA_URL, PARENT_SITE_URL, SITE_NAME, buildSiteUrl } from '../config/site';
+import { PARENT_SITE_URL, SITE_NAME, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
 import { trackEvent } from '../utils/analytics';
 
 type NavCity = (typeof cities)[number];
@@ -18,6 +18,7 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [citiesDropdownOpen, setCitiesDropdownOpen] = useState(false);
   const location = useLocation();
+  const primaryCtaUrl = getPrimaryCtaUrl();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,7 +45,7 @@ export default function Navbar() {
   const handleCtaClick = (placement: 'desktop' | 'mobile') => {
     trackEvent('cta_click', {
       placement: `nav_${placement}`,
-      destination: CTA_URL
+      destination: primaryCtaUrl
     });
   };
 
@@ -139,7 +140,7 @@ export default function Navbar() {
             </NavigationMenu>
 
             <a
-              href={CTA_URL}
+              href={primaryCtaUrl}
               id="start-appraisal-nav"
               className="inline-flex items-center justify-center px-4 py-2 ml-4 border border-transparent text-sm font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 transition-colors gap-1.5 shadow-sm hover:shadow-md"
               data-gtm-event="cta_click"
@@ -153,7 +154,7 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-4">
             <a
-              href={CTA_URL}
+              href={primaryCtaUrl}
               id="start-appraisal-nav-mobile"
               className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 transition-colors shadow-sm"
               data-gtm-event="cta_click"

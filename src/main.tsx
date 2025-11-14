@@ -6,6 +6,7 @@ import { router } from './router';
 import { SITE_URL } from './config/site';
 import './index.css';
 import './styles/animations.css';
+import { tagAiAssistantReferrer } from './utils/aiAttribution';
 
 // Ensure we always serve the canonical origin (no stray ports)
 if (typeof window !== 'undefined') {
@@ -38,6 +39,9 @@ console.log('📊 Environment info:', {
   base: import.meta.env.BASE_URL,
   timestamp: new Date().toISOString(),
 });
+
+// Ensure AI referrals are tagged before hydration/render
+tagAiAssistantReferrer();
 
 // Determine if we should hydrate or create a new root
 const rootElement = document.getElementById('root');
