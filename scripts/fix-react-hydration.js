@@ -171,16 +171,29 @@ async function fixReactHydration(filePath) {
       }
     }
     
-    // 7. Fix asset paths if needed
-    const assetPaths = Array.from(document.querySelectorAll('link[href^="/assets/"], script[src^="/assets/"], img[src^="/assets/"]'));
+    // 7. Normalise asset paths so they always resolve from the site root.
+    const assetPaths = Array.from(
+      document.querySelectorAll(
+        'link[href^="/assets/"], link[href^="/directory/assets/"], script[src^="/assets/"], script[src^="/directory/assets/"], img[src^="/assets/"], img[src^="/directory/assets/"]'
+      )
+    );
     for (const element of assetPaths) {
       const attrName = element.hasAttribute('href') ? 'href' : 'src';
       const oldPath = element.getAttribute(attrName);
-      if (oldPath && oldPath.startsWith('/assets/')) {
-        const newPath = oldPath.replace('/assets/', '/directory/assets/');
-        element.setAttribute(attrName, newPath);
-        log(`Fixed asset path: ${oldPath} -> ${newPath}`, 'warning');
-        modified = true;
+      if (!oldPath) {
+        continue;
+      }
+
+      if (oldPath.startsWith('/directory/assets/')) {
+        const newPath = oldPath.replace('/directory/assets/', '/assets/');
+        if (newPath !== oldPath) {
+          element.setAttribute(attrName, newPath);
+          log(`Normalised asset path: ${oldPath} -> ${newPath}`, 'warning');
+          modified = true;
+        }
+      } else if (oldPath.startsWith('/assets/')) {
+        // Already in the correct format for our deployments; nothing to do.
+        continue;
       }
     }
     
