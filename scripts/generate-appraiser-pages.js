@@ -17,6 +17,10 @@ const DIST_DIR = path.join(ROOT_DIR, 'dist');
 const APPRAISER_DIR = path.join(DIST_DIR, 'appraiser');
 const STANDARDIZED_DIR = path.join(ROOT_DIR, 'src', 'data', 'standardized');
 const TEMPLATE_FILE = path.join(DIST_DIR, 'index.html');
+const GOOGLE_TAG_MANAGER_ID =
+  process.env.VITE_GTM_ID ||
+  process.env.GTM_CONTAINER_ID ||
+  'GTM-PSLHDGM';
 
 // ImageKit fallback images
 const FALLBACK_IMAGES = [
@@ -118,6 +122,69 @@ function renderGtmAttributes(attrs = {}) {
       return ` ${attrName}="${attrValue}"`;
     })
     .join('');
+}
+
+function escapeHtml(value = '') {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function buildLegacyRedirectHtml(appraiser, canonicalUrl, legacySlug) {
+  const dataLayerPayload = {
+    event: 'legacy_redirect_page_view',
+    canonicalSlug: appraiser.slug,
+    legacyId: appraiser.id ?? null,
+    canonicalUrl,
+    pagePath: `/appraiser/${legacySlug ?? appraiser.id ?? appraiser.slug}`,
+  };
+
+  const gtmHeadSnippet = GOOGLE_TAG_MANAGER_ID
+    ? `
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push(${JSON.stringify(dataLayerPayload)});
+    </script>
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','${GOOGLE_TAG_MANAGER_ID}');
+    </script>`
+    : '';
+
+  const gtmBodySnippet = GOOGLE_TAG_MANAGER_ID
+    ? `
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=${GOOGLE_TAG_MANAGER_ID}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>`
+    : '';
+
+  return `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${escapeHtml(appraiser.name)} | Antique Appraiser Directory</title>
+    <link rel="canonical" href="${escapeHtml(canonicalUrl)}" />
+    ${gtmHeadSnippet}
+    <meta http-equiv="refresh" content="1;url=${escapeHtml(canonicalUrl)}" />
+    <script>
+      setTimeout(() => {
+        window.location.replace('${canonicalUrl}');
+      }, 250);
+    </script>
+  </head>
+  <body>
+    ${gtmBodySnippet}
+    <p>If you are not redirected automatically, follow this <a href="${escapeHtml(canonicalUrl)}">link to ${escapeHtml(appraiser.name)}</a>.</p>
+  </body>
+</html>`;
 }
 
 /**
@@ -687,24 +754,8 @@ async function main() {
 
           legacySlugs.delete(appraiser.slug);
 
-          const legacyHtml = `<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>${appraiser.name} | Antique Appraiser Directory</title>
-    <link rel="canonical" href="${canonicalUrl}" />
-    <meta http-equiv="refresh" content="0;url=${canonicalUrl}" />
-    <script>
-      window.location.replace('${canonicalUrl}');
-    </script>
-  </head>
-  <body>
-    <p>If you are not redirected automatically, follow this <a href="${canonicalUrl}">link to ${appraiser.name}</a>.</p>
-  </body>
-</html>`;
-
           legacySlugs.forEach(legacySlug => {
+            const legacyHtml = buildLegacyRedirectHtml(appraiser, canonicalUrl, legacySlug);
             const legacyDirPath = path.join(APPRAISER_DIR, legacySlug);
             fs.ensureDirSync(legacyDirPath);
             const legacyHtmlPath = path.join(legacyDirPath, 'index.html');
