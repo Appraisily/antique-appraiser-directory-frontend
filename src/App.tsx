@@ -166,7 +166,7 @@ function App() {
       {
         "@type": "ContactPoint",
         "contactType": "customer support",
-        "email": "support@appraisily.com",
+        "email": "info@appraisily.com",
         "url": SITE_URL
       }
     ]

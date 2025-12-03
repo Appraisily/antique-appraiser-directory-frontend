@@ -211,8 +211,8 @@ export function StandardizedLocationPage() {
             <p>
               {flaggedAppraisers.length} of {locationData.appraisers.length} listings still use templated copy for pricing or experience.
               We&rsquo;re working with our research team to swap in verified details. If you spot something off, let us know at{' '}
-              <a className="underline" href="mailto:support@appraisily.com">
-                support@appraisily.com
+              <a className="underline" href="mailto:info@appraisily.com">
+                info@appraisily.com
               </a>
               .
             </p>
