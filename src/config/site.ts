@@ -28,6 +28,24 @@ export function getPrimaryCtaUrl(extraParams: Record<string, string> = {}): stri
 
   try {
     const url = new URL(tagged);
+    // Add lightweight SEO attribution params for the main funnel (safe, non-PII).
+    if (typeof window !== 'undefined') {
+      const pathname = window.location.pathname || '/';
+      const segments = pathname.split('/').filter(Boolean);
+      const [first, second] = segments;
+      url.searchParams.set('entrypoint', 'antique_directory');
+      url.searchParams.set('seo_site', 'antique_directory');
+      url.searchParams.set('ref_path', pathname);
+      if (first === 'location' && second) {
+        url.searchParams.set('seo_page_type', 'directory_location');
+        url.searchParams.set('city_slug', second);
+      } else if (first === 'appraiser' && second) {
+        url.searchParams.set('seo_page_type', 'directory_profile');
+        url.searchParams.set('appraiser_slug', second);
+      } else {
+        url.searchParams.set('seo_page_type', 'directory_home');
+      }
+    }
     for (const [key, value] of Object.entries(extraParams)) {
       if (typeof value === 'undefined') continue;
       url.searchParams.set(key, value);
