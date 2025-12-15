@@ -5,6 +5,22 @@ const CONSENT_COOKIE = 'cookieConsent';
 const ATTRIB_COOKIE = 'appraisily_attrib';
 const CLICK_ID_KEYS = ['gclid', 'wbraid', 'gbraid', 'fbclid', 'twclid', 'msclkid', 'ttclid'];
 
+type RuntimeEnv = Partial<Record<string, unknown>> & {
+  POSTHOG_API_KEY?: string;
+  POSTHOG_HOST?: string;
+  POSTHOG_DEBUG?: string | boolean;
+  POSTHOG_AUTOCAPTURE?: string | boolean;
+  POSTHOG_CAPTURE_PAGEVIEW?: string | boolean;
+  POSTHOG_REPLAY_ENABLED?: string | boolean;
+  POSTHOG_REPLAY_SAMPLE_RATE?: string | number;
+  POSTHOG_IMPLICIT_CONSENT?: string | boolean;
+};
+
+function readRuntimeEnv(): RuntimeEnv | undefined {
+  if (typeof window === 'undefined') return undefined;
+  return (window as any).__ENV__ as RuntimeEnv | undefined;
+}
+
 function toBoolean(value: unknown, fallback: boolean) {
   if (value === undefined || value === null || value === '') return fallback;
   if (typeof value === 'boolean') return value;
@@ -60,25 +76,51 @@ function readClickIds(): Record<string, string> {
   }
 }
 
+const runtimeEnv = readRuntimeEnv();
+
 const apiKey =
   import.meta.env.VITE_POSTHOG_API_KEY ||
   import.meta.env.POSTHOG_API_KEY ||
   import.meta.env.VITE_POSTHOG_KEY ||
-  import.meta.env.POSTHOG_KEY;
-const host = import.meta.env.VITE_POSTHOG_HOST || import.meta.env.POSTHOG_HOST || DEFAULT_HOST;
+  import.meta.env.POSTHOG_KEY ||
+  runtimeEnv?.POSTHOG_API_KEY;
+const host =
+  import.meta.env.VITE_POSTHOG_HOST ||
+  import.meta.env.POSTHOG_HOST ||
+  runtimeEnv?.POSTHOG_HOST ||
+  DEFAULT_HOST;
 const implicitConsentEnabled = toBoolean(
-  import.meta.env.VITE_POSTHOG_IMPLICIT_CONSENT ?? import.meta.env.POSTHOG_IMPLICIT_CONSENT,
+  import.meta.env.VITE_POSTHOG_IMPLICIT_CONSENT ??
+    import.meta.env.POSTHOG_IMPLICIT_CONSENT ??
+    runtimeEnv?.POSTHOG_IMPLICIT_CONSENT,
   true,
 );
 const replayEnabled = toBoolean(
-  import.meta.env.VITE_POSTHOG_REPLAY_ENABLED ?? import.meta.env.POSTHOG_REPLAY_ENABLED,
+  import.meta.env.VITE_POSTHOG_REPLAY_ENABLED ??
+    import.meta.env.POSTHOG_REPLAY_ENABLED ??
+    runtimeEnv?.POSTHOG_REPLAY_ENABLED,
   true
 );
 const replaySampleRate = Math.min(
-  Math.max(toNumber(import.meta.env.VITE_POSTHOG_REPLAY_SAMPLE_RATE ?? import.meta.env.POSTHOG_REPLAY_SAMPLE_RATE, 1), 0),
+  Math.max(
+    toNumber(
+      import.meta.env.VITE_POSTHOG_REPLAY_SAMPLE_RATE ??
+        import.meta.env.POSTHOG_REPLAY_SAMPLE_RATE ??
+        runtimeEnv?.POSTHOG_REPLAY_SAMPLE_RATE,
+      1,
+    ),
+    0,
+  ),
   1
 );
-const debug = toBoolean(import.meta.env.VITE_POSTHOG_DEBUG ?? import.meta.env.POSTHOG_DEBUG, false);
+const debug = toBoolean(
+  import.meta.env.VITE_POSTHOG_DEBUG ?? import.meta.env.POSTHOG_DEBUG ?? runtimeEnv?.POSTHOG_DEBUG,
+  false,
+);
+const autocapture = toBoolean(
+  import.meta.env.VITE_POSTHOG_AUTOCAPTURE ?? import.meta.env.POSTHOG_AUTOCAPTURE ?? runtimeEnv?.POSTHOG_AUTOCAPTURE,
+  true,
+);
 
 let initialized = false;
 let replaySampledIn: boolean | null = null;
@@ -165,7 +207,7 @@ export function initPosthog() {
 
   posthog.init(apiKey, {
     api_host: host || DEFAULT_HOST,
-    autocapture: true,
+    autocapture,
     capture_pageview: false, // manual SPA tracking
     capture_pageleave: false,
     cross_subdomain_cookie: true,
