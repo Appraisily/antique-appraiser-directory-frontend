@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+Sitemap: https://antique-appraiser-directory.appraisily.com/sitemap.xml

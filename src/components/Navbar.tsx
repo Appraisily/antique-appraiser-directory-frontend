@@ -9,6 +9,7 @@ import {
 import { cn } from '../lib/utils';
 import { cities } from '../data/cities.json';
 import { PARENT_SITE_URL, SITE_NAME, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
+import { BRAND_LOGO_URL } from '../config/assets';
 import { trackEvent } from '../utils/analytics';
 
 type NavCity = (typeof cities)[number];
@@ -76,7 +77,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-2">
               <img
-                src="https://ik.imagekit.io/appraisily/WebPage/logo_new.png?updatedAt=1731919266638"
+                src={BRAND_LOGO_URL}
                 alt="Appraisily Logo"
                 className="h-8 w-auto"
                 loading="eager"

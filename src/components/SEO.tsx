@@ -42,7 +42,7 @@ export function SEO({
   keywords, 
   schema, 
   canonicalUrl,
-  ogImage = 'https://ik.imagekit.io/appraisily/appraisily-og-image.jpg',
+  ogImage = DEFAULT_OG_IMAGE,
   ogType = 'website',
   twitterCard = 'summary_large_image',
   author = 'Appraisily',
@@ -58,8 +58,8 @@ export function SEO({
   articleTags,
   videoUrl,
   preload = [],
-  preconnect = ['https://ik.imagekit.io', 'https://fonts.googleapis.com', 'https://www.googletagmanager.com'],
-  dnsPrefetch = ['https://ik.imagekit.io', 'https://www.google-analytics.com', 'https://fonts.gstatic.com']
+  preconnect = ['https://assets.appraisily.com', 'https://fonts.googleapis.com', 'https://www.googletagmanager.com'],
+  dnsPrefetch = ['https://assets.appraisily.com', 'https://www.google-analytics.com', 'https://fonts.gstatic.com']
 }: SEOProps) {
   const finalKeywords = keywords ?? [
     'antique appraiser near me',

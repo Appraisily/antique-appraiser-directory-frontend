@@ -47,7 +47,8 @@
         "fix:asset-paths": "node ./scripts/fix-asset-paths.js",
         "clean:standardized-data": "node ./scripts/clean-standardized-data.js",
         "report:standardized-data": "node ./scripts/report-standardized-data.js",
-        "env:check": "node ./scripts/env-check.mjs"
+        "env:check": "node ./scripts/env-check.mjs",
+        "publish": "node ./scripts/publish.mjs"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",

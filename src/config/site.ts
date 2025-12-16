@@ -1,11 +1,12 @@
 import { withAiAssistantParams } from '../utils/aiAttribution';
+import { BRAND_LOGO_URL } from './assets';
 
 export const SITE_NAME = 'Antique Appraiser Directory';
 export const SITE_URL = 'https://antique-appraiser-directory.appraisily.com';
 export const SITE_DESCRIPTION =
   'Discover certified antique appraisers near you. Compare expertise, pricing models, and verified reviews for valuations, authentication, and estate services.';
 export const SITE_TWITTER_HANDLE = '@appraisily';
-export const DEFAULT_OG_IMAGE = 'https://ik.imagekit.io/appraisily/appraisily-og-image.jpg';
+export const DEFAULT_OG_IMAGE = BRAND_LOGO_URL;
 export const PARENT_SITE_URL = 'https://appraisily.com';
 const BASE_CTA_URL = `${PARENT_SITE_URL}/start`;
 const DEFAULT_CTA_PARAMS = {
@@ -14,7 +15,7 @@ const DEFAULT_CTA_PARAMS = {
   utm_campaign: 'directory_to_start',
   utm_content: 'primary_cta',
 } as const;
-export const SITE_FAVICON = 'https://ik.imagekit.io/appraisily/WebPage/logo_new.png?updatedAt=1731919266638';
+export const SITE_FAVICON = BRAND_LOGO_URL;
 export const GOOGLE_SITE_VERIFICATION =
   import.meta.env.VITE_GOOGLE_SITE_VERIFICATION || '';
 export const GOOGLE_TAG_MANAGER_ID =

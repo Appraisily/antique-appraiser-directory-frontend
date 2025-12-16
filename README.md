@@ -74,6 +74,14 @@ npm run clean
 2. The `netlify.toml` file is configured to use these pre-built static files
 3. When you push to your repository, Netlify will deploy these files without running any build commands
 
+## VPS Static Publish (recommended)
+
+The VPS deployment serves plain HTML from an nginx container, with content bind-mounted from a release directory (articles-style).
+
+- Canonical editable surface: `public_site/`
+- Publish (creates a release under `/mnt/srv-storage/antique-appraiser-directory/releases`, flips `current`, restarts the container):
+  - `npm run publish`
+
 ## Project Structure
 
 - `/src` - React TypeScript source code

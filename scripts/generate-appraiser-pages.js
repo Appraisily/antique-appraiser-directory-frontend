@@ -22,16 +22,23 @@ const GOOGLE_TAG_MANAGER_ID =
   process.env.GTM_CONTAINER_ID ||
   'GTM-PSLHDGM';
 
-// ImageKit fallback images
+const ASSETS_BASE_URL = 'https://assets.appraisily.com/assets/directory';
+const PLACEHOLDER_IMAGE = `${ASSETS_BASE_URL}/placeholder.jpg`;
+
+function normalizeImageUrl(input = '') {
+  const url = String(input || '').trim();
+  if (!url) return PLACEHOLDER_IMAGE;
+  if (url.startsWith(ASSETS_BASE_URL)) return url;
+  if (url.startsWith('https://ik.imagekit.io/appraisily/')) {
+    return `${ASSETS_BASE_URL}/${url.slice('https://ik.imagekit.io/appraisily/'.length)}`;
+  }
+  if (url.startsWith('https://placehold.co')) return PLACEHOLDER_IMAGE;
+  return url;
+}
+
 const FALLBACK_IMAGES = [
-  'https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-prestige-estate-services_1740929869203_mv3LleVuy.jpg',
-  'https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-the-perfect-piece-atlanta_1740929877248_cEVEBZIw6.jpg',
-  'https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-anderson-fine-art-appraisals_1740929884342_oDGUAyji1.jpg',
-  'https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-escher-associates_1740929892166_76KgXEW3X.jpg',
-  'https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-page-art-inc_1740929899476_ieuuLPZv5.jpg',
-  'https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-saylor-rice-appraisals_1740929906368_onMg-Dm4r.jpg',
-  'https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-gurr-johns_1740929913340_qzTKV87zo.jpg',
-  'https://ik.imagekit.io/appraisily/placeholder-image.jpg',
+  PLACEHOLDER_IMAGE,
+  `${ASSETS_BASE_URL}/WebPage/logo_new.png`,
 ];
 
 // Log with color and timestamp
@@ -198,7 +205,7 @@ function generateAppraiserHtml(appraiser) {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": appraiser.name,
-    "image": appraiser.imageUrl,
+    "image": normalizeImageUrl(appraiser.imageUrl),
     "description": appraiser.content.about,
     "address": {
       "@type": "PostalAddress",
@@ -381,10 +388,10 @@ function generateAppraiserHtml(appraiser) {
           <div class="md:col-span-1">
             <div class="rounded-lg overflow-hidden shadow-md mb-6">
               <img 
-                src="${appraiser.imageUrl}" 
+                src="${normalizeImageUrl(appraiser.imageUrl)}" 
                 alt="${appraiser.name} - Art Appraiser in ${appraiser.address.city}"
                 class="w-full h-auto object-cover"
-                onerror="this.onerror=null; this.src='https://ik.imagekit.io/appraisily/placeholder-image.jpg';"
+                onerror="this.onerror=null; this.src='${PLACEHOLDER_IMAGE}';"
               />
             </div>
             
@@ -721,7 +728,7 @@ async function main() {
     for (const appraiser of appraisers) {
       try {
         // Verify the image URL is accessible
-        const imageUrl = appraiser.imageUrl;
+        const imageUrl = normalizeImageUrl(appraiser.imageUrl);
         const isImageValid = await isImageAccessible(imageUrl);
         
         // If image is not valid, use a random fallback

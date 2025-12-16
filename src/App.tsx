@@ -3,8 +3,9 @@ import { MapPin, Star, Search, ArrowRight } from 'lucide-react';
 import { CitySearch } from './components/CitySearch';
 import { SEO } from './components/SEO';
 import { cities } from './data/cities.json';
-import { SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from './config/site';
+import { DEFAULT_OG_IMAGE, SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from './config/site';
 import { trackEvent } from './utils/analytics';
+import { normalizeAssetUrl } from './utils/assetUrls';
 import heroIllustrationPrimary from '../images/hero-antique-parlor.png';
 import heroIllustrationSecondary from '../images/hero-antique-gallery.png';
 import patternScrollwork from '../images/pattern-antique-scrollwork.png';
@@ -110,7 +111,7 @@ function App() {
         "url": SITE_URL,
         "logo": {
           "@type": "ImageObject",
-          "url": "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg"
+          "url": DEFAULT_OG_IMAGE
         }
       },
       "potentialAction": {
@@ -155,7 +156,7 @@ function App() {
     "url": SITE_URL,
     "logo": {
       "@type": "ImageObject",
-      "url": "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg"
+      "url": DEFAULT_OG_IMAGE
     },
     "sameAs": [
       "https://twitter.com/appraisily",
@@ -377,7 +378,7 @@ function App() {
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
                     <div style={{ position: 'absolute', inset: 0 }}>
                       <img
-                        src="https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sothebys-new-york-7070_1742166258599_OtNJ5gopN.jpg"
+                        src={normalizeAssetUrl('https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sothebys-new-york-7070_1742166258599_OtNJ5gopN.jpg')}
                         alt="Sotheby's New York"
                         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                       />
@@ -416,7 +417,7 @@ function App() {
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
                     <div style={{ position: 'absolute', inset: 0 }}>
                       <img
-                        src="https://ik.imagekit.io/appraisily/appraiser-images/appraiser_heritage-auctions-9336_1742166295247_Te5aZW192.jpg"
+                        src={normalizeAssetUrl('https://ik.imagekit.io/appraisily/appraiser-images/appraiser_heritage-auctions-9336_1742166295247_Te5aZW192.jpg')}
                         alt="Heritage Auctions"
                         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                       />
@@ -455,7 +456,7 @@ function App() {
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
                     <div style={{ position: 'absolute', inset: 0 }}>
                       <img
-                        src="https://ik.imagekit.io/appraisily/appraiser-images/appraiser_oakland-clars-auction-gallery_1742202839449_GkygjFg5F.jpg"
+                        src={normalizeAssetUrl('https://ik.imagekit.io/appraisily/appraiser-images/appraiser_oakland-clars-auction-gallery_1742202839449_GkygjFg5F.jpg')}
                         alt="Clars Auction Gallery"
                         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                       />

@@ -70,7 +70,7 @@ async function injectFallbackImageHandler() {
     // Fallback image handler
     (function() {
       // Default fallback image URL
-      const DEFAULT_FALLBACK = 'https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable';
+      const DEFAULT_FALLBACK = 'https://assets.appraisily.com/assets/directory/placeholder.jpg';
       
       // Function to handle image errors
       function setupImageErrorHandling() {

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Facebook, Twitter, Instagram, Mail, ArrowRight, MapPin } from 'lucide-react';
 import citiesData from '../data/cities.json';
 import { PARENT_SITE_URL, SITE_NAME, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
+import { BRAND_LOGO_URL } from '../config/assets';
 import { trackEvent } from '../utils/analytics';
 
 const links = {
@@ -110,7 +111,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2 space-y-6">
             <div className="flex items-center">
               <img 
-                src="https://ik.imagekit.io/appraisily/WebPage/logo_new.png?updatedAt=1731919266638"
+                src={BRAND_LOGO_URL}
                 alt="Appraisily Logo"
                 className="h-8 w-auto mr-3"
                 loading="lazy"

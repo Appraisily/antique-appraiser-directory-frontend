@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { DEFAULT_PLACEHOLDER_IMAGE } from '../../config/assets';
 
 interface FallbackImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   fallbackSrc?: string;
@@ -10,7 +11,7 @@ interface FallbackImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 export function FallbackImage({
   src,
   alt,
-  fallbackSrc = 'https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable',
+  fallbackSrc = DEFAULT_PLACEHOLDER_IMAGE,
   className,
   ...props
 }: FallbackImageProps) {

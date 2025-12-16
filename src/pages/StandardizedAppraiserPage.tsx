@@ -12,6 +12,8 @@ import {
 } from '../utils/dataQuality';
 import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
 import { trackEvent } from '../utils/analytics';
+import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
+import { normalizeAssetUrl } from '../utils/assetUrls';
 
 export function StandardizedAppraiserPage() {
   const { appraiserId } = useParams<{ appraiserId: string }>();
@@ -306,12 +308,12 @@ export function StandardizedAppraiserPage() {
         <div className="md:col-span-1">
           <div className="rounded-lg overflow-hidden shadow-md mb-6">
             <img 
-              src={appraiser.imageUrl} 
+              src={normalizeAssetUrl(appraiser.imageUrl)} 
               alt={`${appraiser.name} - Antique Appraiser in ${appraiser.address.city}`}
               className="w-full h-auto"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
-                target.src = 'https://ik.imagekit.io/appraisily/placeholder-image.jpg';
+                target.src = DEFAULT_PLACEHOLDER_IMAGE;
               }}
             />
           </div>

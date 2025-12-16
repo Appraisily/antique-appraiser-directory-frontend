@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MapPin, Star, Clock } from 'lucide-react';
 import { buildSiteUrl } from '../config/site';
+import { normalizeAssetUrl } from '../utils/assetUrls';
 
 // Import standardized data utilities
 import { getAllStandardizedAppraisers, StandardizedAppraiser } from '../utils/standardizedData';
@@ -168,7 +169,7 @@ export function AppraisersDirectory() {
               >
                 <div className="relative h-48 overflow-hidden">
                   <img 
-                    src={appraiser.imageUrl || "https://ik.imagekit.io/appraisily/placeholder-image.jpg"} 
+                    src={normalizeAssetUrl(appraiser.imageUrl)} 
                     alt={`${appraiser.name} - Antique Appraiser`}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     loading="lazy"
