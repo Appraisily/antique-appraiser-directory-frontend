@@ -1,10 +1,15 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useImperativeHandle, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MapPin, Locate } from 'lucide-react';
 import { cities } from '../utils/standardizedData';
 import { trackEvent } from '../utils/analytics';
 
-export function CitySearch() {
+export type CitySearchHandle = {
+  submitSearch: () => boolean;
+  getQuery: () => string;
+};
+
+export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [isLocating, setIsLocating] = useState(false);
@@ -70,7 +75,7 @@ export function CitySearch() {
     }, 1500);
   };
 
-  const handleSelect = (city: typeof cities[0]) => {
+  const handleSelect = useCallback((city: typeof cities[0]) => {
     setQuery(`${city.name}, ${city.state}`);
     setIsOpen(false);
     trackEvent('location_search_select', {
@@ -80,7 +85,23 @@ export function CitySearch() {
       state: city.state
     });
     navigate(`/location/${city.slug}`);
-  };
+  }, [navigate]);
+
+  const submitSearch = useCallback(() => {
+    if (suggestions.length > 0) {
+      handleSelect(suggestions[0]);
+      return true;
+    }
+
+    if (query.trim().length > 0) {
+      trackEvent('search_no_results', {
+        source: 'hero_directory',
+        query: query.trim()
+      });
+    }
+
+    return false;
+  }, [handleSelect, query, suggestions]);
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key !== 'Enter') {
@@ -88,20 +109,7 @@ export function CitySearch() {
     }
 
     event.preventDefault();
-
-    if (suggestions.length > 0) {
-      handleSelect(suggestions[0]);
-      return;
-    }
-
-    if (query.trim().length === 0) {
-      return;
-    }
-
-    trackEvent('search_no_results', {
-      source: 'hero_directory',
-      query: query.trim()
-    });
+    submitSearch();
   };
 
   const highlightMatch = (text: string, query: string) => {
@@ -116,6 +124,11 @@ export function CitySearch() {
         <span key={index}>{part}</span>
     );
   };
+
+  useImperativeHandle(ref, () => ({
+    submitSearch,
+    getQuery: () => query
+  }), [submitSearch, query]);
 
   return (
     <div ref={wrapperRef} className="relative flex-1">
@@ -176,4 +189,6 @@ export function CitySearch() {
       )}
     </div>
   );
-}
+});
+
+CitySearch.displayName = 'CitySearch';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapPin, Star, Search, ArrowRight } from 'lucide-react';
-import { CitySearch } from './components/CitySearch';
+import { CitySearch, type CitySearchHandle } from './components/CitySearch';
 import { SEO } from './components/SEO';
 import { cities } from './data/cities.json';
 import { DEFAULT_OG_IMAGE, SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from './config/site';
@@ -16,8 +16,33 @@ import iconJewelry from '../images/icon-antique-jewelry.png';
 type DirectoryCity = (typeof cities)[number];
 
 function App() {
+  const citySearchRef = React.useRef<CitySearchHandle>(null);
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    const didNavigate = citySearchRef.current?.submitSearch();
+    if (didNavigate) {
+      return;
+    }
+
+    const query = citySearchRef.current?.getQuery().trim() ?? '';
+    if (query) {
+      trackEvent('location_search_submit_no_match', {
+        source: 'hero_directory',
+        query
+      });
+    }
+
+    if (typeof document !== 'undefined') {
+      const directorySection = document.getElementById('city-directory');
+      if (directorySection) {
+        directorySection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+    }
+
+    if (typeof window !== 'undefined') {
+      window.location.href = buildSiteUrl('/location/new-york');
+    }
   };
   const primaryCtaUrl = getPrimaryCtaUrl();
 
@@ -231,7 +256,7 @@ function App() {
                   onSubmit={handleSubmit}
                   className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto md:mx-0 bg-white/90 p-2 rounded-lg shadow-lg backdrop-blur-lg"
                 >
-                  <CitySearch />
+                  <CitySearch ref={citySearchRef} />
                   <button
                     className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-12 px-8 py-2 bg-primary md:w-auto w-full shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-300"
                     type="submit"
@@ -312,7 +337,7 @@ function App() {
         </section>
 
         {/* Cities Directory Section */}
-        <div className="bg-gray-50 py-16">
+        <div id="city-directory" className="bg-gray-50 py-16">
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold mb-4 text-center">Antique Appraiser Directory by City</h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
