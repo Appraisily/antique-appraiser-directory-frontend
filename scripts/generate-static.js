@@ -66,7 +66,9 @@ fs.ensureDirSync(DIST_DIR);
 const assetsDir = path.join(DIST_DIR, 'assets');
 const assetFiles = fs.readdirSync(assetsDir);
 const cssFile = assetFiles.find(file => file.endsWith('.css'));
-const jsFile = assetFiles.find(file => file.endsWith('.js'));
+const jsFile =
+  assetFiles.find(file => file.startsWith('index-') && file.endsWith('.js')) ||
+  assetFiles.find(file => file.endsWith('.js'));
 
 // Construct the ABSOLUTE asset paths
 // This is important - let's use absolute URLs to avoid path issues

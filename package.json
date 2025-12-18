@@ -48,8 +48,8 @@
         "clean:standardized-data": "node ./scripts/clean-standardized-data.js",
         "report:standardized-data": "node ./scripts/report-standardized-data.js",
         "env:check": "node ./scripts/env-check.mjs",
-        "publish": "node ./scripts/publish.mjs"
-    },
+    "publish": "node ./scripts/publish.mjs --public-dir dist"
+  },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",
         "axios": "^1.8.1",

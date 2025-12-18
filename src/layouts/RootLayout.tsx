@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import { AnalyticsTracker } from '../components/AnalyticsTracker';
 import { CanonicalLinkUpdater } from '../components/CanonicalLinkUpdater';
 import { PosthogTracker } from '../components/PosthogTracker';
+import { ContentFeedback } from '../components/ContentFeedback';
 
 export function RootLayout() {
   return (
@@ -16,6 +17,7 @@ export function RootLayout() {
       <div className="flex-1 pt-16">
         <Outlet />
       </div>
+      <ContentFeedback />
       <Footer />
     </div>
   );
