@@ -1,0 +1,653 @@
+{
+  "summary": {
+    "generatedAt": "2025-12-22T10:00:13.472Z",
+    "reportGeneratedAt": "2025-11-01T16:09:18.677Z",
+    "totalUrls": 380,
+    "coverageCounts": [
+      [
+        "Submitted and indexed",
+        243
+      ],
+      [
+        "Crawled - currently not indexed",
+        77
+      ],
+      [
+        "Server error (5xx)",
+        20
+      ],
+      [
+        "Discovered - currently not indexed",
+        3
+      ],
+      [
+        "Page with redirect",
+        34
+      ],
+      [
+        "Duplicate, Google chose different canonical than user",
+        3
+      ]
+    ],
+    "crawledNotIndexedSampleSize": 50,
+    "crawledNotIndexedWarnings": 48,
+    "crawledNotIndexedMissingAppraisers": 0,
+    "crawledNotIndexedLocationsMissingData": 0
+  },
+  "audit": [
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/about",
+      "type": "other"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/antique-appraisal-pricing",
+      "type": "other"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/1-look-appraisal-llc",
+      "type": "appraiser",
+      "slug": "1-look-appraisal-llc",
+      "name": "1. Look Appraisal LLC",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Raleigh",
+      "state": "NO"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/1-turner-auctions-appraisals",
+      "type": "appraiser",
+      "slug": "1-turner-auctions-appraisals",
+      "name": "1\\. Turner Auctions + Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "San Francisco",
+      "state": "CA"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/2-appraiser-listings",
+      "type": "appraiser",
+      "slug": "2-appraiser-listings",
+      "name": "2\\. Appraiser Listings",
+      "warnings": [
+        "templated_pricing",
+        "templated_experience",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Cincinnati",
+      "state": "OH"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/2-charlston-estate-services-ltd",
+      "type": "appraiser",
+      "slug": "2-charlston-estate-services-ltd",
+      "name": "2\\. Charlston Estate Services Ltd.",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Charleston",
+      "state": "SO"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/2-provincialniche-specialists-serving-region",
+      "type": "appraiser",
+      "slug": "2-provincialniche-specialists-serving-region",
+      "name": "2\\. Provincial/Niche Specialists Serving Region",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Thunder Bay",
+      "state": "ON"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/2ameliajeffrs-auctionsappraials",
+      "type": "appraiser",
+      "slug": "2ameliajeffrs-auctionsappraials",
+      "name": "2.AmeliaJeffrs Auctions&Appraials",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Columbus",
+      "state": "OH"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/3-anoka-area-antique-appraisals",
+      "type": "appraiser",
+      "slug": "3-anoka-area-antique-appraisals",
+      "name": "3\\. Anoka Area Antique Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "St. Paul",
+      "state": "MI"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/4contact-details-summary-table",
+      "type": "appraiser",
+      "slug": "4contact-details-summary-table",
+      "name": "4.Contact Details Summary Table",
+      "warnings": [
+        "templated_pricing",
+        "templated_experience",
+        "templated_notes"
+      ],
+      "city": "Hamilton",
+      "state": "ON"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/able-auctions-asset-valuation-division",
+      "type": "appraiser",
+      "slug": "able-auctions-asset-valuation-division",
+      "name": "Able Auctions – Asset Valuation Division",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Kelowna",
+      "state": "BR"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antique-appraisal-firms-professionals",
+      "type": "appraiser",
+      "slug": "antique-appraisal-firms-professionals",
+      "name": "Antique Appraisal Firms & Professionals",
+      "warnings": [
+        "templated_pricing",
+        "templated_experience",
+        "templated_notes"
+      ],
+      "city": "Albuquerque",
+      "state": "NE"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antiquities-buy-near-ctnyc-w-smith-auctions",
+      "type": "appraiser",
+      "slug": "antiquities-buy-near-ctnyc-w-smith-auctions",
+      "name": "Antiquities Buy Near CT/NYC – W Smith Auctions",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "New York",
+      "state": "NE"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/appraisal-professionals-businesses",
+      "type": "appraiser",
+      "slug": "appraisal-professionals-businesses",
+      "name": "Appraisal Professionals & Businesses",
+      "warnings": [
+        "templated_pricing",
+        "templated_experience",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Virginia Beach",
+      "state": "VI"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/appraiseitnow---online-service-covering-ohio",
+      "type": "appraiser",
+      "slug": "appraiseitnow---online-service-covering-ohio",
+      "name": "AppraiseItNow - Online Service Covering Ohio",
+      "warnings": [
+        "templated_pricing",
+        "templated_experience",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Cleveland",
+      "state": "OH"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/arlington-antique-appraisals",
+      "type": "appraiser",
+      "slug": "arlington-antique-appraisals",
+      "name": "Arlington Antique Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Arlington",
+      "state": "TE"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/baton-rouge-antique-appraisals",
+      "type": "appraiser",
+      "slug": "baton-rouge-antique-appraisals",
+      "name": "Baton Rouge Antique Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Baton Rouge",
+      "state": "LO"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/blue-box-auction-gallery",
+      "type": "appraiser",
+      "slug": "blue-box-auction-gallery",
+      "name": "Blue Box Auction Gallery",
+      "warnings": [
+        "templated_pricing",
+        "templated_experience",
+        "templated_notes"
+      ],
+      "city": "Norfolk",
+      "state": "VI"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/boston-antique-appraisals",
+      "type": "appraiser",
+      "slug": "boston-antique-appraisals",
+      "name": "Boston Antique Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Boston",
+      "state": "MA"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/brady-l-dreasher-isa-capp-art-of-estates",
+      "type": "appraiser",
+      "slug": "brady-l-dreasher-isa-capp-art-of-estates",
+      "name": "Brady L\\. Dreasher \\(ISA CAPP\\) – Art of Estates",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Aspen",
+      "state": "CO"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/brian-lehman-evaluations",
+      "type": "appraiser",
+      "slug": "brian-lehman-evaluations",
+      "name": "Brian Lehman Evaluations",
+      "warnings": [
+        "templated_pricing",
+        "templated_experience",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Calgary",
+      "state": "AL"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/buffalo-antique-appraisals",
+      "type": "appraiser",
+      "slug": "buffalo-antique-appraisals",
+      "name": "Buffalo Antique Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Buffalo",
+      "state": "NE"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/charlottetown-antique-appraisals",
+      "type": "appraiser",
+      "slug": "charlottetown-antique-appraisals",
+      "name": "Charlottetown Antique Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Charlottetown",
+      "state": "PR"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/coast-wide-appraisals",
+      "type": "appraiser",
+      "slug": "coast-wide-appraisals",
+      "name": "Coast Wide Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Victoria",
+      "state": "BR"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/columbus-antique-appraisals",
+      "type": "appraiser",
+      "slug": "columbus-antique-appraisals",
+      "name": "Columbus Antique Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Columbus",
+      "state": "OH"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/concept-art-gallery",
+      "type": "appraiser",
+      "slug": "concept-art-gallery",
+      "name": "Concept Art Gallery",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Pittsburgh",
+      "state": "PE"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/doyle-auctions-new-englandboston-office",
+      "type": "appraiser",
+      "slug": "doyle-auctions-new-englandboston-office",
+      "name": "Doyle Auctions – New England/Boston Office",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Boston",
+      "state": "MA"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/elizabeth-antique-appraisal-service",
+      "type": "appraiser",
+      "slug": "elizabeth-antique-appraisal-service",
+      "name": "Elizabeth Antique Appraisal Service",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Ottawa",
+      "state": "ON"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/empire-appraisers",
+      "type": "appraiser",
+      "slug": "empire-appraisers",
+      "name": "Empire Appraisers",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Quebec City",
+      "state": "QU"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/fine-art-archives",
+      "type": "appraiser",
+      "slug": "fine-art-archives",
+      "name": "Fine Art & Archives",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Toronto",
+      "state": "ON"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/gurr-johns",
+      "type": "appraiser",
+      "slug": "gurr-johns",
+      "name": "Gurr Johns",
+      "warnings": [
+        "templated_pricing",
+        "templated_experience",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "St. John's",
+      "state": "NE"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/hannon-jewelers",
+      "type": "appraiser",
+      "slug": "hannon-jewelers",
+      "name": "Hannon Jewelers",
+      "warnings": [
+        "templated_pricing",
+        "templated_experience",
+        "templated_notes"
+      ],
+      "city": "Baton Rouge",
+      "state": "LO"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/harringtons-auctioneers-appraisers",
+      "type": "appraiser",
+      "slug": "harringtons-auctioneers-appraisers",
+      "name": "Harrington’s Auctioneers & Appraisers",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Halifax",
+      "state": "NO"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/hartford-antique-appraisals",
+      "type": "appraiser",
+      "slug": "hartford-antique-appraisals",
+      "name": "Hartford Antique Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Hartford",
+      "state": "CO"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-hartford",
+      "type": "appraiser",
+      "slug": "heritage-valuations-hartford",
+      "name": "Heritage Valuations Hartford",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Hartford",
+      "state": "CO"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-minneapolis",
+      "type": "appraiser",
+      "slug": "heritage-valuations-minneapolis",
+      "name": "Heritage Valuations Minneapolis",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Minneapolis",
+      "state": "MI"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-norfolk",
+      "type": "appraiser",
+      "slug": "heritage-valuations-norfolk",
+      "name": "Heritage Valuations Norfolk",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Norfolk",
+      "state": "VI"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-oklahoma-city",
+      "type": "appraiser",
+      "slug": "heritage-valuations-oklahoma-city",
+      "name": "Heritage Valuations Oklahoma City",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-st-louis",
+      "type": "appraiser",
+      "slug": "heritage-valuations-st-louis",
+      "name": "Heritage Valuations St. Louis",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "St. Louis",
+      "state": "MI"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-whitehorse",
+      "type": "appraiser",
+      "slug": "heritage-valuations-whitehorse",
+      "name": "Heritage Valuations Whitehorse",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Whitehorse",
+      "state": "YU"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/houston-antique-appraisals",
+      "type": "appraiser",
+      "slug": "houston-antique-appraisals",
+      "name": "Houston Antique Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Houston",
+      "state": "TE"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/howard-thomas-auction-house",
+      "type": "appraiser",
+      "slug": "howard-thomas-auction-house",
+      "name": "Howard & Thomas Auction House",
+      "warnings": [
+        "templated_pricing",
+        "templated_experience",
+        "templated_notes"
+      ],
+      "city": "Louisville",
+      "state": "KE"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jewelry-consignment-network-jcn",
+      "type": "appraiser",
+      "slug": "jewelry-consignment-network-jcn",
+      "name": "Jewelry Consignment Network (JCN)",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Savannah",
+      "state": "GE"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/kohlert-appraisal-services",
+      "type": "appraiser",
+      "slug": "kohlert-appraisal-services",
+      "name": "Kohlert Appraisal Services",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "New Orleans",
+      "state": "LO"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/kurt-shaw-company",
+      "type": "appraiser",
+      "slug": "kurt-shaw-company",
+      "name": "Kurt Shaw & Company",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Pittsburgh",
+      "state": "PE"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/le-garage-antiques-clothing",
+      "type": "appraiser",
+      "slug": "le-garage-antiques-clothing",
+      "name": "Le Garage Antiques & Clothing",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "New Orleans",
+      "state": "LO"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/legacy-appraisal-group-llc",
+      "type": "appraiser",
+      "slug": "legacy-appraisal-group-llc",
+      "name": "Legacy Appraisal Group LLC",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Cleveland",
+      "state": "OH"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/list-of-antique-appraisal-services",
+      "type": "appraiser",
+      "slug": "list-of-antique-appraisal-services",
+      "name": "List of Antique Appraisal Services",
+      "warnings": [
+        "templated_pricing",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Victoria",
+      "state": "BR"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/little-rock-antique-appraisals",
+      "type": "appraiser",
+      "slug": "little-rock-antique-appraisals",
+      "name": "Little Rock Antique Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_notes"
+      ],
+      "city": "Little Rock",
+      "state": "AR"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/liz-isaac-appraisals",
+      "type": "appraiser",
+      "slug": "liz-isaac-appraisals",
+      "name": "Liz Isaac Appraisals",
+      "warnings": [
+        "templated_pricing",
+        "templated_experience",
+        "placeholder_about",
+        "templated_notes"
+      ],
+      "city": "Fredericton",
+      "state": "NE"
+    }
+  ]
+}

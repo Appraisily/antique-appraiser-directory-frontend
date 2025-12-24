@@ -242,6 +242,31 @@ export function StandardizedAppraiserPage() {
   const seoTitle = `${appraiser.name} - Antique Appraiser in ${appraiser.address.city} | Expert Antique Valuation Services`;
   const seoDescription = `Get professional antique appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
   const citySlug = appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
+  const fallbackAbout = (() => {
+    const parts = [
+      `${appraiser.name} provides antique appraisal services in ${appraiser.address.city}, ${appraiser.address.state}.`
+    ];
+    if (appraiser.expertise.specialties.length > 0) {
+      parts.push(`Specialties include ${appraiser.expertise.specialties.join(', ')}.`);
+    }
+    if (appraiser.expertise.services.length > 0) {
+      parts.push(`Services include ${appraiser.expertise.services.join(', ')}.`);
+    }
+    if (appraiser.expertise.certifications.length > 0) {
+      parts.push(`Certifications include ${appraiser.expertise.certifications.join(', ')}.`);
+    }
+    return parts.join(' ');
+  })();
+  const aboutContent =
+    appraiser.content?.about && !isPlaceholderAbout(appraiser.content.about)
+      ? appraiser.content.about
+      : fallbackAbout;
+  const pricingContent = isTemplatedPricing(appraiser.business?.pricing)
+    ? 'Pricing depends on the item type, complexity, and scope. Contact the appraiser for a tailored quote.'
+    : appraiser.business.pricing;
+  const notesContent = isTemplatedNotes(appraiser.content?.notes, appraiser.address.city)
+    ? null
+    : appraiser.content.notes;
 
   const dataWarnings: string[] = [];
   if (isTemplatedPricing(appraiser.business?.pricing)) {
@@ -455,12 +480,12 @@ export function StandardizedAppraiserPage() {
             
             <h2 className="text-xl font-semibold text-gray-900 mb-3">About</h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
-              {appraiser.content.about}
+              {aboutContent}
             </p>
             
-            {appraiser.content.notes && (
+            {notesContent && (
               <div className="bg-blue-50 text-blue-700 p-4 rounded-md mb-6">
-                <p>{appraiser.content.notes}</p>
+                <p>{notesContent}</p>
               </div>
             )}
             
@@ -490,7 +515,7 @@ export function StandardizedAppraiserPage() {
             
             <h2 className="text-xl font-semibold text-gray-900 mb-3">Pricing</h2>
             <p className="text-gray-700 mb-6">
-              {appraiser.business.pricing}
+              {pricingContent}
             </p>
           </div>
           

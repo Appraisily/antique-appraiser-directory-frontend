@@ -31,7 +31,8 @@ const PRICING_TEMPLATES = [
   'Museum-grade reports from $325; collection reviews offered with custom estimates.',
   'Express photo appraisal $175; full USPAP-compliant documentation priced individually.',
   'Estate packages begin at $450 and include research, inspection, and documentation.',
-  'Single-item opinions from $125; multi-piece engagements receive tailored pricing.'
+  'Single-item opinions from $125; multi-piece engagements receive tailored pricing.',
+  'Project-based'
 ];
 
 const EXPERIENCE_TEMPLATES = [
@@ -40,7 +41,8 @@ const EXPERIENCE_TEMPLATES = [
   'Established in 2010 and trusted for museum-quality reporting.',
   'Serving collectors since 2007 with USPAP-compliant analyses.',
   'Over 18 years assisting estates, insurers, and private collectors.',
-  'Established firm with more than 12 years of specialized appraisal practice.'
+  'Established firm with more than 12 years of specialized appraisal practice.',
+  'Established business'
 ];
 
 function scoreRecord(record) {
@@ -81,6 +83,71 @@ function pickTemplate(key, templates) {
     hash = (hash * 31 + source.charCodeAt(i)) >>> 0;
   }
   return templates[hash % templates.length];
+}
+
+function pickVariant(key, variants) {
+  return pickTemplate(key, variants);
+}
+
+function buildSpecialtyList(specialties = []) {
+  const trimmed = specialties.filter(Boolean).map(item => item.trim()).filter(Boolean);
+  if (trimmed.length === 0) return 'antiques, heirlooms, and estate items';
+  return trimmed.slice(0, 3).join(', ');
+}
+
+function buildServiceList(services = []) {
+  const trimmed = services.filter(Boolean).map(item => item.trim()).filter(Boolean);
+  if (trimmed.length === 0) return '';
+  return trimmed.slice(0, 3).join(', ');
+}
+
+function createPricing(appraiser, city, state) {
+  const name = appraiser?.name || 'This appraiser';
+  const location = city && state ? `${city}, ${state}` : city || 'the local area';
+  const variants = [
+    `Pricing depends on item type and research scope. ${name} provides written estimates for antique appraisals in ${location}.`,
+    `Appraisal fees vary by collection size and complexity. Contact ${name} in ${location} for a tailored quote.`,
+    `Rates are quoted after a brief intake call. ${name} supports antique appraisal needs across ${location}.`
+  ];
+  return pickVariant(appraiser?.slug || appraiser?.id || name, variants);
+}
+
+function createExperience(appraiser, city, state) {
+  const name = appraiser?.name || 'This appraiser';
+  const location = city && state ? `${city}, ${state}` : city || 'the local area';
+  const variants = [
+    `${name} supports collectors, estates, and insurers with antique valuation work in ${location}.`,
+    `${name} provides professional antique appraisal services for clients throughout ${location}.`,
+    `${name} delivers research-backed antique valuations for clients in ${location}.`
+  ];
+  return pickVariant(`${appraiser?.slug || appraiser?.id || name}-experience`, variants);
+}
+
+function createNotes(appraiser, city, state) {
+  const name = appraiser?.name || 'This appraiser';
+  const specialties = buildSpecialtyList(appraiser?.expertise?.specialties);
+  const location = city && state ? `${city}, ${state}` : city || 'the surrounding area';
+  const variants = [
+    `${name} serves ${location} with antique appraisal support focused on ${specialties}.`,
+    `Serving ${location} clients who need antique valuations in ${specialties}.`,
+    `Helping ${location} collectors with appraisals for ${specialties}.`
+  ];
+  return pickVariant(`${appraiser?.slug || appraiser?.id || name}-notes`, variants);
+}
+
+function createAbout(appraiser, city, state) {
+  const name = appraiser?.name || 'This appraiser';
+  const specialties = buildSpecialtyList(appraiser?.expertise?.specialties);
+  const services = buildServiceList(appraiser?.expertise?.services);
+  const location = city && state ? `${city}, ${state}` : city || 'the local area';
+  const parts = [
+    `${name} offers antique appraisal services in ${location}.`,
+    `Primary specialties include ${specialties}.`
+  ];
+  if (services) {
+    parts.push(`Services include ${services}.`);
+  }
+  return parts.join(' ');
 }
 
 async function mergePair(targetSlug, sourceSlug) {
@@ -136,18 +203,50 @@ async function normalizeCityData() {
 
       if (updated.business) {
         const businessUpdates = { ...updated.business };
+        const city = updated.address?.city;
+        const state = updated.address?.state;
 
-        if (!businessUpdates.pricing || businessUpdates.pricing.trim().toLowerCase() === 'contact for pricing information') {
-          businessUpdates.pricing = pickTemplate(key, PRICING_TEMPLATES);
+        if (
+          !businessUpdates.pricing ||
+          PRICING_TEMPLATES.includes(businessUpdates.pricing.trim())
+        ) {
+          businessUpdates.pricing = createPricing(updated, city, state);
           touched = true;
         }
 
-        if (!businessUpdates.yearsInBusiness || businessUpdates.yearsInBusiness.trim().toLowerCase() === 'established business') {
-          businessUpdates.yearsInBusiness = pickTemplate(`${key}-experience`, EXPERIENCE_TEMPLATES);
+        if (
+          !businessUpdates.yearsInBusiness ||
+          EXPERIENCE_TEMPLATES.includes(businessUpdates.yearsInBusiness.trim())
+        ) {
+          businessUpdates.yearsInBusiness = createExperience(updated, city, state);
           touched = true;
         }
 
         updated.business = businessUpdates;
+      }
+
+      const about = updated.content?.about;
+      const notes = updated.content?.notes;
+      const city = updated.address?.city;
+      const state = updated.address?.state;
+      const aboutMissing = !about || (about.includes('[') && about.includes(']'));
+      const notesTemplated =
+        notes &&
+        notes.includes('Serving the') &&
+        notes.includes('area with professional antique appraisal services.');
+
+      if (aboutMissing || notesTemplated) {
+        updated.content = { ...updated.content };
+      }
+
+      if (aboutMissing) {
+        updated.content.about = createAbout(updated, city, state);
+        touched = true;
+      }
+
+      if (notesTemplated) {
+        updated.content.notes = createNotes(updated, city, state);
+        touched = true;
       }
 
       return updated;

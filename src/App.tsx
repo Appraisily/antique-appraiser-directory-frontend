@@ -147,7 +147,7 @@ function App() {
     };
   };
 
-  // Generate Professional Service schema for art appraisal services
+  // Generate Professional Service schema for antique appraisal services
   const generateServiceSchema = () => {
     return {
       "@context": "https://schema.org",
@@ -156,10 +156,10 @@ function App() {
       "name": SITE_NAME,
       "description": SITE_DESCRIPTION,
       "url": SITE_URL,
-      "serviceType": "Art Appraisal",
+      "serviceType": "Antique Appraisal",
       "audience": {
         "@type": "Audience",
-        "audienceType": "Art Collectors, Insurance Companies, Estates, Donors"
+        "audienceType": "Antique Collectors, Insurance Companies, Estates, Donors"
       },
       "serviceArea": {
         "@type": "Country",
@@ -371,7 +371,7 @@ function App() {
             </div>
             
             <div className="mt-10 text-center">
-              <p className="text-gray-600 mb-4">Don't see your city? We may still have art appraisers available in your area.</p>
+              <p className="text-gray-600 mb-4">Don't see your city? We may still have antique appraisers available in your area.</p>
               <a
                   href={primaryCtaUrl}
                 className="inline-flex items-center justify-center text-white bg-blue-600 hover:bg-blue-700 py-3 px-6 rounded-lg shadow-md font-medium transition-all duration-300"

@@ -1,0 +1,277 @@
+{
+  "generatedAt": "2025-12-22T10:01:50.785Z",
+  "sourceReport": "2025-11-01T16:09:18.677Z",
+  "total": 54,
+  "results": [
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/antique-appraisal-services",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/antique-appraiser-expertise",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/aloha-estate-jewelry",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/appraiser/aloha-estate-jewelry/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/atlanta-antique-appraisals",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/appraiser/atlanta-antique-appraisals/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/cowley-abbott-auctioneers-appraisers",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/appraiser/cowley-abbott-auctioneers-appraisers/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-auctions",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/appraiser/heritage-auctions/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-vancouver",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/appraiser/heritage-valuations-vancouver/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/joel-bohy-blackstone-valley-auctions",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/appraiser/joel-bohy-blackstone-valley-auctions/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/koosh-jewelers",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/appraiser/koosh-jewelers/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma-city-antique-appraisals",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/appraiser/oklahoma-city-antique-appraisals/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/ottawa-antique-appraisals",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/appraiser/ottawa-antique-appraisals/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/faq",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/find-antique-appraiser",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/albuquerque",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/albuquerque/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/aspen",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/aspen/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/atlanta",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/atlanta/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/austin",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/austin/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/birmingham",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/birmingham/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/boise",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/boise/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/boston",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/boston/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/calgary",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/calgary/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/charlotte",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/charlotte/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/charlottetown",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/charlottetown/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/colorado-springs",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/colorado-springs/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/el-paso",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/el-paso/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/fort-lauderdale",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/fort-lauderdale/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/fort-worth",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/fort-worth/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/fresno",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/fresno/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/houston",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/houston/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/jacksonville",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/jacksonville/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/kansas-city",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/kansas-city/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/kingston",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/kingston/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/kitchener",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/kitchener/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/lexington",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/lexington/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/little-rock",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/little-rock/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/milwaukee",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/milwaukee/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/montreal",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/montreal/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/new-orleans",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/new-orleans/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/omaha",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/omaha/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/orlando",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/orlando/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/philadelphia",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/philadelphia/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/phoenix",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/phoenix/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/raleigh",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/raleigh/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/regina",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/regina/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/richmond",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/richmond/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/salt-lake-city",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/salt-lake-city/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/san-diego",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/san-diego/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/san-francisco",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/san-francisco/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/san-jose",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/san-jose/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/thunder-bay",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/thunder-bay/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/vancouver",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/vancouver/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/victoria",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/victoria/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/washington-dc",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/washington-dc/"
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/whitehorse",
+      "status": 301,
+      "location": "http://antique-appraiser-directory.appraisily.com:8080/location/whitehorse/"
+    }
+  ]
+}
