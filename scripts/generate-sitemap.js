@@ -53,7 +53,7 @@ async function generateSitemap() {
     
     locationFiles.forEach(file => {
       const citySlug = file.replace('.json', '');
-      const url = `/location/${citySlug}`;
+      const url = `/location/${citySlug}/`;
       
       routesWithMetadata.push({
         url,
@@ -71,7 +71,7 @@ async function generateSitemap() {
             // Make sure slug is URL-safe by removing spaces and special characters
             const safeSlug = encodeURIComponent(targetSlug).replace(/%20/g, '-');
             routesWithMetadata.push({
-              url: `/appraiser/${safeSlug}`,
+              url: `/appraiser/${safeSlug}/`,
               priority: '0.6',
               changefreq: 'weekly'
             });

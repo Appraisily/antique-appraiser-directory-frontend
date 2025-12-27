@@ -321,7 +321,7 @@ function getFooterHTML(jsPath) {
 function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath) {
   const title = `Antique Appraisers in ${cityName} | Expert Antique Valuation Services | Appraisily`;
   const description = `Find certified antique appraisers in ${cityName}. Get expert antique valuations, authentication services, and professional advice for your antique collection.`;
-  const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/location/${citySlug}`;
+  const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/location/${citySlug}/`;
   const locationImage = locationData.imageUrl || 'https://ik.imagekit.io/appraisily/location-images/default-city.jpg';
   
   // Create schema data

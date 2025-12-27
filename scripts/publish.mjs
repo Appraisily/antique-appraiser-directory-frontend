@@ -119,6 +119,7 @@ async function walkHtml(publicDir, relativeDir, bucket, options) {
     if (options.skipFiles.has(entry.name)) continue;
 
     const absolutePath = path.join(publicDir, childRel);
+    if (options.shouldInclude && !(await options.shouldInclude(absolutePath, childRel))) continue;
     const stat = await fs.stat(absolutePath);
     bucket.push({
       loc: buildLoc(childRel, options.baseUrl),
@@ -138,6 +139,13 @@ function renderUrl(entry) {
   </url>`;
 }
 
+async function shouldIncludeInSitemap(htmlPath) {
+  const content = await fs.readFile(htmlPath, 'utf8');
+  if (/<meta\s+http-equiv=(['"])refresh\1/i.test(content)) return false;
+  if (/<meta\s+name=(['"])robots\1[^>]*content=(['"])\s*[^"']*noindex/i.test(content)) return false;
+  return true;
+}
+
 async function regenerateSitemap({ publicDir, baseUrl }) {
   const outputPath = path.join(publicDir, 'sitemap.xml');
   const options = {
@@ -145,6 +153,7 @@ async function regenerateSitemap({ publicDir, baseUrl }) {
     changefreq: 'weekly',
     skipDirs: new Set(['css', 'js', 'fonts', 'images', 'assets', '_templates', 'tmp', 'temp', 'node_modules']),
     skipFiles: new Set(['404.html', 'sitemap.xml']),
+    shouldInclude: async (absolutePath) => shouldIncludeInSitemap(absolutePath),
   };
 
   const urls = [];
@@ -202,6 +211,22 @@ async function main() {
   const releaseDir = path.join(options.releaseRoot, timestamp);
   const currentSymlink = path.join(options.releaseRoot, 'current');
 
+  run(process.execPath, [path.join(__dirname, 'generate-location-pages.mjs'), '--public-dir', options.publicDir], {
+    cwd: REPO_ROOT,
+  });
+
+  run(
+    process.execPath,
+    [path.join(__dirname, 'enrich-location-pages.mjs'), '--public-dir', options.publicDir],
+    {
+      cwd: REPO_ROOT,
+    },
+  );
+
+  run(process.execPath, [path.join(__dirname, 'apply-indexing-rules.mjs'), '--public-dir', options.publicDir], {
+    cwd: REPO_ROOT,
+  });
+
   const sitemap = await regenerateSitemap({
     publicDir: options.publicDir,
     baseUrl: options.baseUrl,
@@ -254,4 +279,3 @@ main().catch((error) => {
   console.error('[publish] Failed:', error?.stack || error?.message || error);
   process.exit(1);
 });
-

@@ -637,7 +637,7 @@ function generateAppraiserHtml(appraiser) {
 
   const seoTitle = `${appraiser.name} - Art Appraiser in ${appraiser.address.city} | Expert Art Valuation Services`;
   const seoDescription = `Get professional art appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
-  const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`;
+  const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}/`;
 
   return {
     title: seoTitle,
@@ -751,7 +751,7 @@ async function main() {
 
         // Generate legacy alias if ID differs from slug for backwards compatibility
         if (appraiser.id) {
-          const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`;
+          const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}/`;
           const legacySlugs = new Set([
             appraiser.id,
             appraiser.id.replace(/\s+/g, '-'),
