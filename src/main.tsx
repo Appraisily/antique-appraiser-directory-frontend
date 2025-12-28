@@ -1,5 +1,5 @@
 import { StrictMode } from 'react';
-import { createRoot, hydrateRoot } from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { router } from './router';
@@ -63,30 +63,20 @@ if (!rootElement) {
     });
     console.log('🧩 Content status:', { hasPreRenderedContent, childNodes: rootElement.childNodes.length });
 
-    if (hasPreRenderedContent) {
-      // Use hydration for server-rendered content
-      console.log('💧 Hydrating pre-rendered content');
-      hydrateRoot(
-        rootElement,
-        <StrictMode>
-          <HelmetProvider>
-            <RouterProvider router={router} />
-          </HelmetProvider>
-        </StrictMode>
-      );
-      console.log('✅ Hydration complete');
-    } else {
-      // Use regular rendering for client-only rendering
-      console.log('🌱 Creating new React root (client-only rendering)');
-      createRoot(rootElement).render(
-        <StrictMode>
-          <HelmetProvider>
-            <RouterProvider router={router} />
-          </HelmetProvider>
-        </StrictMode>
-      );
-      console.log('✅ Rendering complete');
-    }
+    console.log(
+      hasPreRenderedContent
+        ? '🧯 Pre-rendered HTML detected; skipping hydration (client render only)'
+        : '🌱 No pre-rendered HTML; client render only'
+    );
+
+    createRoot(rootElement).render(
+      <StrictMode>
+        <HelmetProvider>
+          <RouterProvider router={router} />
+        </HelmetProvider>
+      </StrictMode>
+    );
+    console.log('✅ Rendering complete');
   } catch (error) {
     console.error('❌ Application initialization failed:', error);
     console.log('📑 Error details:', { 

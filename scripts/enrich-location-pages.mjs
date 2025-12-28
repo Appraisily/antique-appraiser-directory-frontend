@@ -69,6 +69,67 @@ function buildUrl(relativePath) {
   return `${BASE_URL}${normalized}`;
 }
 
+function safeJsonParse(value) {
+  try {
+    return JSON.parse(value);
+  } catch {
+    return null;
+  }
+}
+
+function normalizeSchemaTypes(typeValue) {
+  if (!typeValue) return [];
+  if (Array.isArray(typeValue)) return typeValue.map((entry) => String(entry));
+  return [String(typeValue)];
+}
+
+function schemaObjectHasType(candidate, typesToMatch) {
+  if (!candidate || typeof candidate !== 'object') return false;
+  const schemaTypes = normalizeSchemaTypes(candidate['@type']);
+  return schemaTypes.some((type) => typesToMatch.has(type));
+}
+
+function stripTopLevelJsonLdTypes(payload, typesToStrip) {
+  if (Array.isArray(payload)) {
+    const filtered = payload.filter((entry) => !schemaObjectHasType(entry, typesToStrip));
+    return filtered.length ? filtered : null;
+  }
+
+  if (payload && typeof payload === 'object') {
+    if (schemaObjectHasType(payload, typesToStrip)) return null;
+
+    const graph = payload['@graph'];
+    if (Array.isArray(graph)) {
+      const filteredGraph = graph.filter((entry) => !schemaObjectHasType(entry, typesToStrip));
+      return { ...payload, '@graph': filteredGraph };
+    }
+
+    return payload;
+  }
+
+  return payload;
+}
+
+function stripJsonLdTypesFromHead(head, typesToStrip, protectedKeys = new Set()) {
+  const scripts = Array.from(head.querySelectorAll('script[type="application/ld+json"]'));
+  for (const script of scripts) {
+    const key = script.getAttribute('data-appraisily-schema') || '';
+    if (key && protectedKeys.has(key)) continue;
+    if (!script.textContent) continue;
+
+    const parsed = safeJsonParse(script.textContent);
+    if (!parsed) continue;
+
+    const nextPayload = stripTopLevelJsonLdTypes(parsed, typesToStrip);
+    if (nextPayload === null) {
+      script.remove();
+      continue;
+    }
+
+    script.textContent = JSON.stringify(nextPayload);
+  }
+}
+
 function upsertJsonLd(head, key, payload) {
   const selector = `script[type="application/ld+json"][data-appraisily-schema="${key}"]`;
   let script = head.querySelector(selector);
@@ -317,6 +378,8 @@ async function main() {
     const document = dom.window.document;
     const head = document.querySelector('head');
     if (!head) continue;
+
+    stripJsonLdTypesFromHead(head, new Set(['BreadcrumbList', 'FAQPage']), new Set(['location', 'breadcrumbs', 'faq']));
 
     upsertJsonLd(head, 'location', locationSchema);
     upsertJsonLd(head, 'breadcrumbs', breadcrumbSchema);

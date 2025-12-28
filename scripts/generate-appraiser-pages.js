@@ -22,8 +22,25 @@ const GOOGLE_TAG_MANAGER_ID =
   process.env.GTM_CONTAINER_ID ||
   'GTM-PSLHDGM';
 
+const DIRECTORY_BASE_URL =
+  process.env.SITE_URL || 'https://antique-appraiser-directory.appraisily.com';
+
 const ASSETS_BASE_URL = 'https://assets.appraisily.com/assets/directory';
 const PLACEHOLDER_IMAGE = `${ASSETS_BASE_URL}/placeholder.jpg`;
+
+function buildDirectoryUrl(inputPath = '/') {
+  try {
+    if (!inputPath) return DIRECTORY_BASE_URL;
+    const base = DIRECTORY_BASE_URL.endsWith('/') ? DIRECTORY_BASE_URL : `${DIRECTORY_BASE_URL}/`;
+    const normalized = String(inputPath);
+    if (normalized.startsWith('http://') || normalized.startsWith('https://')) {
+      return normalized;
+    }
+    return new URL(normalized.replace(/^\//, ''), base).toString();
+  } catch {
+    return DIRECTORY_BASE_URL.endsWith('/') ? DIRECTORY_BASE_URL : `${DIRECTORY_BASE_URL}/`;
+  }
+}
 
 function normalizeImageUrl(input = '') {
   const url = String(input || '').trim();
@@ -120,6 +137,48 @@ function loadAllAppraisers() {
   return appraisers;
 }
 
+function parseArgs(argv) {
+  const options = {
+    slug: null,
+    limit: null,
+    skipImageCheck: false,
+  };
+
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+
+    if (arg === '--skip-image-check') {
+      options.skipImageCheck = true;
+      continue;
+    }
+
+    if (arg === '--slug') {
+      options.slug = argv[i + 1] || null;
+      i++;
+      continue;
+    }
+
+    if (arg.startsWith('--slug=')) {
+      options.slug = arg.slice('--slug='.length) || null;
+      continue;
+    }
+
+    if (arg === '--limit') {
+      const value = Number(argv[i + 1]);
+      if (!Number.isNaN(value)) options.limit = value;
+      i++;
+      continue;
+    }
+
+    if (arg.startsWith('--limit=')) {
+      const value = Number(arg.slice('--limit='.length));
+      if (!Number.isNaN(value)) options.limit = value;
+    }
+  }
+
+  return options;
+}
+
 function renderGtmAttributes(attrs = {}) {
   return Object.entries(attrs)
     .filter(([, value]) => value !== undefined && value !== null && value !== '')
@@ -200,6 +259,11 @@ function buildLegacyRedirectHtml(appraiser, canonicalUrl, legacySlug) {
  * @returns {string} - The HTML content
  */
 function generateAppraiserHtml(appraiser) {
+  const appraiserUrl = buildDirectoryUrl(`/appraiser/${appraiser.slug}/`);
+  const locationSlug = appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
+  const locationUrl = buildDirectoryUrl(`/location/${locationSlug}/`);
+  const homeUrl = buildDirectoryUrl('/');
+
   // Generate schema.org JSON-LD
   const appraiserSchema = {
     "@context": "https://schema.org",
@@ -215,7 +279,7 @@ function generateAppraiserHtml(appraiser) {
       "postalCode": appraiser.address.zip,
       "addressCountry": "US"
     },
-    "url": `/appraiser/${appraiser.slug}`,
+    "url": appraiserUrl,
     "telephone": appraiser.contact.phone,
     "email": appraiser.contact.email,
     "priceRange": appraiser.business.pricing,
@@ -252,19 +316,19 @@ function generateAppraiserHtml(appraiser) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "/"
+        "item": homeUrl
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": `Art Appraisers in ${appraiser.address.city}`,
-        "item": `/location/${appraiser.address.city.toLowerCase().replace(/\s+/g, '-')}`
+        "item": locationUrl
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": appraiser.name,
-        "item": `/appraiser/${appraiser.slug}`
+        "item": appraiserUrl
       }
     ]
   };
@@ -357,7 +421,6 @@ function generateAppraiserHtml(appraiser) {
 
   // Main appraiser page content
   const mainContent = `
-    <div id="root">
       <div class="container mx-auto px-4 py-8 mt-16">
         <nav class="flex mb-6" aria-label="Breadcrumb">
           <ol class="flex items-center space-x-2">
@@ -632,12 +695,11 @@ function generateAppraiserHtml(appraiser) {
           </div>
         </div>
       </div>
-    </div>
   `;
 
   const seoTitle = `${appraiser.name} - Art Appraiser in ${appraiser.address.city} | Expert Art Valuation Services`;
   const seoDescription = `Get professional art appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
-  const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}/`;
+  const canonicalUrl = appraiserUrl;
 
   return {
     title: seoTitle,
@@ -699,6 +761,8 @@ function generatePageHtml(templateHtml, appraiserPage) {
  */
 async function main() {
   try {
+    const options = parseArgs(process.argv.slice(2));
+
     // Check if dist directory exists
     if (!fs.existsSync(DIST_DIR)) {
       log('Dist directory not found. Please run a build first.', 'error');
@@ -718,8 +782,25 @@ async function main() {
     const templateHtml = fs.readFileSync(TEMPLATE_FILE, 'utf8');
     
     // Load all appraisers
-    const appraisers = loadAllAppraisers();
-    log(`Found ${appraisers.length} appraisers`, 'info');
+    let appraisers = loadAllAppraisers();
+
+    if (options.slug) {
+      const target = String(options.slug).trim().toLowerCase();
+      appraisers = appraisers.filter(appraiser => {
+        const slug = String(appraiser.slug || '').toLowerCase();
+        const id = String(appraiser.id || '').toLowerCase();
+        return slug === target || id === target;
+      });
+    }
+
+    if (typeof options.limit === 'number' && options.limit > 0) {
+      appraisers = appraisers.slice(0, options.limit);
+    }
+
+    log(
+      `Found ${appraisers.length} appraisers${options.slug ? ` (filtered by --slug=${options.slug})` : ''}`,
+      'info'
+    );
     
     // Generate pages for each appraiser
     let processedCount = 0;
@@ -727,14 +808,16 @@ async function main() {
     
     for (const appraiser of appraisers) {
       try {
-        // Verify the image URL is accessible
-        const imageUrl = normalizeImageUrl(appraiser.imageUrl);
-        const isImageValid = await isImageAccessible(imageUrl);
-        
-        // If image is not valid, use a random fallback
-        if (!isImageValid) {
-          log(`Image for ${appraiser.name} is not accessible: ${imageUrl}`, 'warning');
-          appraiser.imageUrl = getRandomFallbackImage();
+        if (!options.skipImageCheck) {
+          // Verify the image URL is accessible
+          const imageUrl = normalizeImageUrl(appraiser.imageUrl);
+          const isImageValid = await isImageAccessible(imageUrl);
+
+          // If image is not valid, use a random fallback
+          if (!isImageValid) {
+            log(`Image for ${appraiser.name} is not accessible: ${imageUrl}`, 'warning');
+            appraiser.imageUrl = getRandomFallbackImage();
+          }
         }
         
         // Create appraiser directory if it doesn't exist
@@ -751,7 +834,7 @@ async function main() {
 
         // Generate legacy alias if ID differs from slug for backwards compatibility
         if (appraiser.id) {
-          const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}/`;
+          const canonicalUrl = buildDirectoryUrl(`/appraiser/${appraiser.slug}/`);
           const legacySlugs = new Set([
             appraiser.id,
             appraiser.id.replace(/\s+/g, '-'),
