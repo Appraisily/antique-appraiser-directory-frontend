@@ -21,6 +21,32 @@ export const GOOGLE_SITE_VERIFICATION =
 export const GOOGLE_TAG_MANAGER_ID =
   import.meta.env.VITE_GTM_ID || 'GTM-PSLHDGM';
 
+export function normalizeCanonicalUrl(input: URL): URL {
+  const url = new URL(input.toString());
+  url.protocol = 'https:';
+  url.port = '';
+  url.hash = '';
+  url.pathname = url.pathname.replace(/\/{2,}/g, '/');
+
+  if (!url.pathname) {
+    url.pathname = '/';
+  }
+
+  if (url.pathname === '/location' || url.pathname.startsWith('/location/')) {
+    if (!url.pathname.endsWith('/')) {
+      url.pathname += '/';
+    }
+  }
+
+  if (url.pathname === '/appraiser' || url.pathname.startsWith('/appraiser/')) {
+    if (!url.pathname.endsWith('/')) {
+      url.pathname += '/';
+    }
+  }
+
+  return url;
+}
+
 export function getPrimaryCtaUrl(extraParams: Record<string, string> = {}): string {
   const tagged = withAiAssistantParams(BASE_CTA_URL, {
     defaultParams: DEFAULT_CTA_PARAMS,
@@ -68,11 +94,15 @@ export const CTA_URL = BASE_CTA_URL;
 export function buildSiteUrl(path = ''): string {
   try {
     const base = SITE_URL.endsWith('/') ? SITE_URL : `${SITE_URL}/`;
-    return new URL(path, base).toString();
+    return normalizeCanonicalUrl(new URL(path, base)).toString();
   } catch (error) {
     console.error('Failed to build site URL', { path, error });
     const normalizedBase = SITE_URL.replace(/\/$/, '');
     const normalizedPath = path ? `/${path.replace(/^\/+/, '')}` : '';
-    return `${normalizedBase}${normalizedPath}`;
+    try {
+      return normalizeCanonicalUrl(new URL(`${normalizedBase}${normalizedPath}`)).toString();
+    } catch {
+      return `${normalizedBase}${normalizedPath}`;
+    }
   }
 }

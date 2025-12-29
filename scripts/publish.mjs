@@ -152,7 +152,7 @@ async function regenerateSitemap({ publicDir, baseUrl }) {
     baseUrl,
     changefreq: 'weekly',
     skipDirs: new Set(['css', 'js', 'fonts', 'images', 'assets', '_templates', 'tmp', 'temp', 'node_modules']),
-    skipFiles: new Set(['404.html', 'sitemap.xml']),
+    skipFiles: new Set(['404.html', '50x.html', 'sitemap.xml']),
     shouldInclude: async (absolutePath) => shouldIncludeInSitemap(absolutePath),
   };
 

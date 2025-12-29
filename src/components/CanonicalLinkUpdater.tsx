@@ -1,13 +1,11 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { SITE_URL } from '../config/site';
+import { normalizeCanonicalUrl, SITE_URL } from '../config/site';
 
 function canonicalizeHref(rawHref: string): string {
   try {
     const url = new URL(rawHref, SITE_URL);
-    url.protocol = 'https:';
-    url.port = '';
-    return url.toString();
+    return normalizeCanonicalUrl(url).toString();
   } catch (error) {
     console.error('Failed to canonicalize link', { href: rawHref, error });
     return rawHref;
