@@ -9,8 +9,22 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const BASE_URL = 'https://antique-appraiser-directory.appraisily.com';
+const ASSETS_BASE_URL = 'https://assets.appraisily.com/assets/directory';
+const IMAGEKIT_PREFIX = 'https://ik.imagekit.io/appraisily/';
+const FALLBACK_IMAGE = `${ASSETS_BASE_URL}/placeholder.jpg`;
 
 const DEFAULT_SLUGS = [];
+
+function normalizeImageUrl(input = '') {
+  const url = String(input || '').trim();
+  if (!url) return FALLBACK_IMAGE;
+  if (url.startsWith(ASSETS_BASE_URL)) return url;
+  if (url.startsWith(IMAGEKIT_PREFIX)) {
+    return `${ASSETS_BASE_URL}/${url.slice(IMAGEKIT_PREFIX.length)}`;
+  }
+  if (url.startsWith('https://placehold.co')) return FALLBACK_IMAGE;
+  return url;
+}
 
 function parseArgs(argv) {
   const args = [...argv];
@@ -205,7 +219,7 @@ function buildLocationSchemas({ slug, cityName, stateCode, appraisers }) {
     ? appraisers.slice(0, 50).map((appraiser) => ({
         '@type': 'LocalBusiness',
         name: appraiser?.name || 'Antique Appraiser',
-        image: appraiser?.imageUrl || '',
+        image: normalizeImageUrl(appraiser?.imageUrl),
         address: {
           '@type': 'PostalAddress',
           addressLocality: appraiser?.address?.city || cityLocality,

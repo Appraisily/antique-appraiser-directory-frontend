@@ -282,7 +282,7 @@ export function StandardizedAppraiserPage() {
     dataWarnings.push('Location notes are still using boilerplate text.');
   }
   const showDataWarning = dataWarnings.length > 0;
-  const gtmAppraiserId = appraiser.slug || (appraiser as any).id || appraiserId || '';
+  const gtmAppraiserId = appraiser.slug || appraiser.id || appraiserId || '';
   const gtmAppraiserName = appraiser.name;
 
   return (

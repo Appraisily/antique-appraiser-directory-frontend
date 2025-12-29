@@ -128,8 +128,9 @@ export function PosthogTracker() {
       });
     };
 
-    window.addEventListener('click', onClick, { capture: true });
-    return () => window.removeEventListener('click', onClick, { capture: true } as any);
+    const capture = true;
+    window.addEventListener('click', onClick, capture);
+    return () => window.removeEventListener('click', onClick, capture);
   }, []);
 
   return null;

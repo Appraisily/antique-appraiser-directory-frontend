@@ -18,7 +18,7 @@ type RuntimeEnv = Partial<Record<string, unknown>> & {
 
 function readRuntimeEnv(): RuntimeEnv | undefined {
   if (typeof window === 'undefined') return undefined;
-  return (window as any).__ENV__ as RuntimeEnv | undefined;
+  return (window as unknown as { __ENV__?: RuntimeEnv }).__ENV__;
 }
 
 function toBoolean(value: unknown, fallback: boolean) {
@@ -46,7 +46,9 @@ function readCookie(name: string): string | null {
         return decodeURIComponent(trimmed.slice(prefix.length));
       }
     }
-  } catch {}
+  } catch (error) {
+    void error;
+  }
   return null;
 }
 
@@ -134,7 +136,7 @@ function shouldStartReplay() {
 
 function registerBaseProperties() {
   if (!initialized) return;
-  if (typeof (posthog as any).is_capturing === 'function' && !(posthog as any).is_capturing()) return;
+  if (!isCapturing()) return;
   try {
     const ids = readClickIds();
     const props: Record<string, unknown> = {};
@@ -147,7 +149,29 @@ function registerBaseProperties() {
     if (Object.keys(props).length) {
       posthog.register(props);
     }
-  } catch {}
+  } catch (error) {
+    void error;
+  }
+}
+
+type PosthogCaptureState = {
+  is_capturing?: () => boolean;
+};
+
+type PosthogRecordingControl = {
+  startSessionRecording?: (force?: boolean) => void;
+  stopSessionRecording?: () => void;
+};
+
+function isCapturing(): boolean {
+  const maybe = posthog as unknown as PosthogCaptureState;
+  if (typeof maybe.is_capturing !== 'function') return true;
+  try {
+    return Boolean(maybe.is_capturing());
+  } catch (error) {
+    void error;
+    return true;
+  }
 }
 
 function optIn(reason: string) {
@@ -156,11 +180,12 @@ function optIn(reason: string) {
   registerBaseProperties();
   if (replayEnabled && shouldStartReplay()) {
     try {
-      posthog.startSessionRecording(true);
-    } catch {}
+      (posthog as unknown as PosthogRecordingControl).startSessionRecording?.(true);
+    } catch (error) {
+      void error;
+    }
   }
   if (debug) {
-    // eslint-disable-next-line no-console
     console.debug('[posthog] opt-in', { reason });
   }
 }
@@ -169,10 +194,11 @@ function optOut(reason: string) {
   if (!initialized) return;
   posthog.opt_out_capturing({ captureEventName: false });
   try {
-    posthog.stopSessionRecording?.();
-  } catch {}
+    (posthog as unknown as PosthogRecordingControl).stopSessionRecording?.();
+  } catch (error) {
+    void error;
+  }
   if (debug) {
-    // eslint-disable-next-line no-console
     console.debug('[posthog] opt-out', { reason });
   }
 }
@@ -199,7 +225,6 @@ export function initPosthog() {
   if (initialized || typeof window === 'undefined') return;
   if (!apiKey) {
     if (import.meta.env.DEV) {
-      // eslint-disable-next-line no-console
       console.debug('[posthog] api key missing; skipping init');
     }
     return;
@@ -230,7 +255,7 @@ export function initPosthog() {
 
 export function capturePosthogPageview(pathname: string, properties?: Record<string, unknown>) {
   if (!initialized) return;
-  if (typeof (posthog as any).is_capturing === 'function' && !(posthog as any).is_capturing()) return;
+  if (!isCapturing()) return;
   posthog.capture('$pageview', {
     $current_url: typeof window !== 'undefined' ? window.location.href : pathname,
     $pathname: pathname,
@@ -241,6 +266,6 @@ export function capturePosthogPageview(pathname: string, properties?: Record<str
 
 export function capturePosthogEvent(event: string, properties?: Record<string, unknown>) {
   if (!initialized) return;
-  if (typeof (posthog as any).is_capturing === 'function' && !(posthog as any).is_capturing()) return;
+  if (!isCapturing()) return;
   posthog.capture(event, properties);
 }

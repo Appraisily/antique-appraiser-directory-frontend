@@ -69,61 +69,70 @@ async function injectFallbackImageHandler() {
   <script>
     // Fallback image handler
     (function() {
-      // Default fallback image URL
-      const DEFAULT_FALLBACK = 'https://assets.appraisily.com/assets/directory/placeholder.jpg';
-      
-      // Function to handle image errors
-      function setupImageErrorHandling() {
-        const images = document.querySelectorAll('img');
-        images.forEach(img => {
-          // Skip if already handled
-          if (img.hasAttribute('data-fallback-applied')) return;
-          
-          // Mark as handled
-          img.setAttribute('data-fallback-applied', 'true');
-          
-          // Set up error handler
-          img.onerror = function() {
-            console.log('Image load error, applying fallback:', this.src);
-            this.onerror = null; // Prevent infinite loops
-            this.src = DEFAULT_FALLBACK;
-            this.classList.add('fallback-image');
-          };
-          
-          // Force check for already broken images
-          if (img.complete) {
-            if (!img.naturalWidth) {
-              img.onerror();
-            }
-          }
-        });
-      }
-      
-      // Set up mutation observer to handle dynamically added images
-      function setupMutationObserver() {
-        const observer = new MutationObserver(mutations => {
-          mutations.forEach(mutation => {
-            if (mutation.addedNodes.length) {
-              setupImageErrorHandling();
+      try {
+        // Default fallback image URL
+        const DEFAULT_FALLBACK = 'https://assets.appraisily.com/assets/directory/placeholder.jpg';
+
+        function setupImageErrorHandling() {
+          const images = document.querySelectorAll('img');
+          images.forEach(img => {
+            try {
+              // Skip if already handled
+              if (img.hasAttribute('data-fallback-applied')) return;
+
+              // Mark as handled
+              img.setAttribute('data-fallback-applied', 'true');
+
+              // Set up error handler
+              img.onerror = function() {
+                try {
+                  this.onerror = null; // Prevent infinite loops
+                  this.src = DEFAULT_FALLBACK;
+                  this.classList?.add?.('fallback-image');
+                } catch (_) {
+                  // ignore
+                }
+              };
+
+              // Force check for already broken images (can happen with cached 404s)
+              if (img.complete && !img.naturalWidth && typeof img.onerror === 'function') {
+                img.onerror();
+              }
+            } catch (_) {
+              // ignore individual image errors
             }
           });
-        });
-        
-        observer.observe(document.body, {
-          childList: true,
-          subtree: true
-        });
-      }
-      
-      // Initial setup
-      if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', function() {
+        }
+
+        function setupMutationObserver() {
+          if (typeof MutationObserver === 'undefined') return;
+          if (!document.body) return;
+
+          const observer = new MutationObserver(mutations => {
+            for (const mutation of mutations) {
+              if (mutation.addedNodes && mutation.addedNodes.length) {
+                setupImageErrorHandling();
+                break;
+              }
+            }
+          });
+
+          observer.observe(document.body, { childList: true, subtree: true });
+        }
+
+        // Initial setup
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', function() {
+            setupImageErrorHandling();
+            setupMutationObserver();
+          });
+        } else {
           setupImageErrorHandling();
           setupMutationObserver();
-        });
-      } else {
-        setupImageErrorHandling();
-        setupMutationObserver();
+        }
+      } catch (error) {
+        // Do not let fallback logic trigger global script errors / Clarity noise.
+        try { console.error('[fallback-image-handler] failed', error); } catch (_) {}
       }
     })();
   </script>

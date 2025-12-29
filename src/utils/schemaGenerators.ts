@@ -327,7 +327,7 @@ export function generateLocationSchema(locationData: any, cityName: string, slug
           return {
             "@type": "LocalBusiness",
             "name": appraiser?.name || 'Antique Appraiser',
-            "image": appraiser?.imageUrl || '',
+            "image": normalizeAssetUrl(appraiser?.imageUrl || appraiser?.image),
             "address": {
               "@type": "PostalAddress",
               "addressLocality": appraiser?.address?.city || resolvedCity,
@@ -343,7 +343,7 @@ export function generateLocationSchema(locationData: any, cityName: string, slug
           return {
             "@type": "LocalBusiness",
             "name": appraiser?.name || 'Antique Appraiser',
-            "image": appraiser?.image || appraiser?.imageUrl || '',
+            "image": normalizeAssetUrl(appraiser?.image || appraiser?.imageUrl),
             "address": {
               "@type": "PostalAddress",
               "addressLocality": resolvedCity,

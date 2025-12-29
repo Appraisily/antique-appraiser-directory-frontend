@@ -41,7 +41,11 @@ console.log('📊 Environment info:', {
 });
 
 // Ensure AI referrals are tagged before hydration/render
-tagAiAssistantReferrer();
+try {
+  tagAiAssistantReferrer();
+} catch (error) {
+  console.error('Failed to tag AI assistant referrer', error);
+}
 
 // Determine if we should hydrate or create a new root
 const rootElement = document.getElementById('root');
