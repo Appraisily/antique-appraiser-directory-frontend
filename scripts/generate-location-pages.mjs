@@ -125,15 +125,22 @@ function buildAbsoluteUrl(pathname = '') {
   return `${DIRECTORY_DOMAIN}${normalized}`;
 }
 
-function buildTitle(cityDisplayName) {
-  return `Antique Appraisers in ${cityDisplayName} | Expert Antique Valuation Services`;
+function titleCaseFromSlug(slug) {
+  return String(slug || '')
+    .split('-')
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ');
 }
 
-function buildDescription(cityDisplayName, count) {
-  if (!count) {
-    return `Find antique appraisal help in ${cityDisplayName}. Request a fast online appraisal from Appraisily or browse local antique appraisers as we add more verified providers.`;
-  }
-  return `Discover ${count} certified antique appraisers in ${cityDisplayName}. Compare specialties, ratings, and contact details to book an antique valuation or request an online appraisal.`;
+function buildTitle(cityDisplayName) {
+  const safeCity = String(cityDisplayName || '').trim() || 'Your City';
+  return `Antique Appraisers in ${safeCity} — Local Appraisal Services | Appraisily`;
+}
+
+function buildDescription(cityDisplayName) {
+  const safeCity = String(cityDisplayName || '').trim() || 'your city';
+  return `Find antique appraisers in ${safeCity} for antiques, art, jewelry & estate items. Compare local appraisal services, or request a fast online appraisal from Appraisily.`;
 }
 
 function buildFaq(cityDisplayName) {
@@ -415,10 +422,12 @@ async function main() {
     }
 
     const cityMeta = cities.get(slug);
-    const cityDisplayName = cityMeta ? `${cityMeta.name}, ${cityMeta.state}` : slug;
+    const cityName = String(cityMeta?.name || '').trim() || titleCaseFromSlug(slug) || 'Location';
+    const stateName = String(cityMeta?.state || '').trim();
+    const cityDisplayName = stateName ? `${cityName}, ${stateName}` : cityName;
     const canonicalUrl = buildAbsoluteUrl(`/location/${slug}/`);
-    const title = buildTitle(cityDisplayName);
-    const description = buildDescription(cityDisplayName, appraisers.length);
+    const title = buildTitle(cityName);
+    const description = buildDescription(cityName);
 
     const dom = new JSDOM(html);
     const document = dom.window.document;
@@ -476,4 +485,3 @@ main().catch((error) => {
   console.error('[generate-location-pages] Failed:', error?.stack || error?.message || error);
   process.exit(1);
 });
-
