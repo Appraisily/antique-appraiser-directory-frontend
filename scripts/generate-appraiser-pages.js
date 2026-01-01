@@ -260,8 +260,11 @@ function buildLegacyRedirectHtml(appraiser, canonicalUrl, legacySlug) {
  */
 function generateAppraiserHtml(appraiser) {
   const appraiserUrl = buildDirectoryUrl(`/appraiser/${appraiser.slug}/`);
-  const locationSlug = appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
+  const locationSlug =
+    appraiser.location ||
+    appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
   const locationUrl = buildDirectoryUrl(`/location/${locationSlug}/`);
+  const locationPath = `/location/${encodeURIComponent(locationSlug)}/`;
   const homeUrl = buildDirectoryUrl('/');
 
   // Generate schema.org JSON-LD
@@ -283,30 +286,37 @@ function generateAppraiserHtml(appraiser) {
     "telephone": appraiser.contact.phone,
     "email": appraiser.contact.email,
     "priceRange": appraiser.business.pricing,
-    "openingHours": appraiser.business.hours.map(h => `${h.day} ${h.hours}`).join(', '),
-    "aggregateRating": {
+    "openingHours": appraiser.business.hours.map(h => `${h.day} ${h.hours}`).join(', ')
+  };
+
+  const hasAggregateRating = appraiser.business.reviewCount > 0 && appraiser.business.rating > 0;
+  if (hasAggregateRating) {
+    appraiserSchema.aggregateRating = {
       "@type": "AggregateRating",
       "ratingValue": appraiser.business.rating.toString(),
       "reviewCount": appraiser.business.reviewCount.toString(),
       "bestRating": "5",
       "worstRating": "1"
-    },
-    "review": appraiser.reviews.map(review => ({
-      "@type": "Review",
-      "author": {
-        "@type": "Person",
-        "name": review.author
-      },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": review.rating.toString(),
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "datePublished": review.date,
-      "reviewBody": review.content
-    }))
-  };
+    };
+
+    if (Array.isArray(appraiser.reviews) && appraiser.reviews.length > 0) {
+      appraiserSchema.review = appraiser.reviews.map(review => ({
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": review.author
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": review.rating.toString(),
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "datePublished": review.date,
+        "reviewBody": review.content
+      }));
+    }
+  }
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -321,7 +331,7 @@ function generateAppraiserHtml(appraiser) {
       {
         "@type": "ListItem",
         "position": 2,
-        "name": `Art Appraisers in ${appraiser.address.city}`,
+        "name": `Antique Appraisers in ${appraiser.address.city}`,
         "item": locationUrl
       },
       {
@@ -432,7 +442,7 @@ function generateAppraiserHtml(appraiser) {
                 <polyline points="9 18 15 12 9 6"></polyline>
               </svg>
               <a 
-                href="/location/${appraiser.address.city.toLowerCase().replace(/\s+/g, '-')}"
+                href="${locationPath}"
                 class="ml-2 text-gray-500 hover:text-gray-700"
               >
                 ${appraiser.address.city}
@@ -452,7 +462,7 @@ function generateAppraiserHtml(appraiser) {
             <div class="rounded-lg overflow-hidden shadow-md mb-6">
               <img 
                 src="${normalizeImageUrl(appraiser.imageUrl)}" 
-                alt="${appraiser.name} - Art Appraiser in ${appraiser.address.city}"
+                alt="${appraiser.name} - Antique Appraiser in ${appraiser.address.city}"
                 class="w-full h-auto object-cover"
                 onerror="this.onerror=null; this.src='${PLACEHOLDER_IMAGE}';"
               />
@@ -697,8 +707,8 @@ function generateAppraiserHtml(appraiser) {
       </div>
   `;
 
-  const seoTitle = `${appraiser.name} - Art Appraiser in ${appraiser.address.city} | Expert Art Valuation Services`;
-  const seoDescription = `Get professional art appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
+  const seoTitle = `${appraiser.name} - Antique Appraiser in ${appraiser.address.city} | Local Appraisal Services`;
+  const seoDescription = `Get professional antique appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Verified expert with client reviews.`;
   const canonicalUrl = appraiserUrl;
 
   return {

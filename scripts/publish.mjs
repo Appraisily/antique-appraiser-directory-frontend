@@ -80,6 +80,215 @@ function escapeXml(value = '') {
     .replace(/'/g, '&apos;');
 }
 
+function stripHtml(value = '') {
+  return String(value).replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function extractAppraiserLabel(html, slug) {
+  const h1 = html.match(/<h1[^>]*>(.*?)<\/h1>/i);
+  if (h1?.[1]) return stripHtml(h1[1]);
+
+  const title = html.match(/<title[^>]*>(.*?)<\/title>/i);
+  if (title?.[1]) {
+    const rawTitle = stripHtml(title[1]);
+    const trimmed = rawTitle.split('|')[0]?.split(' - ')[0]?.trim();
+    if (trimmed) return trimmed;
+    return rawTitle;
+  }
+
+  return slug;
+}
+
+function extractLocationLabel(html, slug) {
+  const h1 = html.match(/<h1[^>]*>(.*?)<\/h1>/i);
+  if (h1?.[1]) return stripHtml(h1[1]);
+
+  const title = html.match(/<title[^>]*>(.*?)<\/title>/i);
+  if (title?.[1]) {
+    const rawTitle = stripHtml(title[1]);
+    const trimmed = rawTitle.split('|')[0]?.split(' - ')[0]?.trim();
+    if (trimmed) return trimmed;
+    return rawTitle;
+  }
+
+  return slug;
+}
+
+async function generateAppraiserHub({ publicDir, baseUrl }) {
+  const appraiserRoot = path.join(publicDir, 'appraiser');
+  const outputPath = path.join(appraiserRoot, 'index.html');
+
+  let entries = [];
+  try {
+    entries = await fs.readdir(appraiserRoot, { withFileTypes: true });
+  } catch (error) {
+    console.warn('[publish] Unable to read appraiser directory:', error.message);
+    return { outputPath, count: 0 };
+  }
+
+  const slugs = entries
+    .filter((entry) => entry.isDirectory() && !entry.name.startsWith('.'))
+    .map((entry) => entry.name)
+    .sort((a, b) => a.localeCompare(b));
+
+  const items = [];
+  for (const slug of slugs) {
+    const pagePath = path.join(appraiserRoot, slug, 'index.html');
+    try {
+      const html = await fs.readFile(pagePath, 'utf8');
+      const label = extractAppraiserLabel(html, slug);
+      items.push({ slug, label });
+    } catch {
+      items.push({ slug, label: slug });
+    }
+  }
+
+  const hubHtml = `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>All Antique Appraisers | Appraisily Directory</title>
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="${escapeXml(`${baseUrl}/appraiser/`)}" />
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; color: #111827; background: #f9fafb; }
+      header, main { max-width: 960px; margin: 0 auto; padding: 16px; }
+      header { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; }
+      a { color: #2563eb; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; }
+      ul { columns: 2; column-gap: 24px; margin: 0; padding-left: 18px; }
+      li { break-inside: avoid; padding: 4px 0; }
+      @media (max-width: 720px) { ul { columns: 1; } }
+      .meta { color: #6b7280; font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 style="margin: 0; font-size: 20px;">All Antique Appraisers</h1>
+        <div class="meta">${items.length} profiles</div>
+      </div>
+      <nav class="meta">
+        <a href="/">Home</a> · <a href="/location/">Locations</a> · <a href="/sitemap.xml">Sitemap</a>
+      </nav>
+    </header>
+    <main>
+      <div class="card">
+        <ul>
+${items
+  .map((item) => `          <li><a href="/appraiser/${escapeXml(item.slug)}/">${escapeXml(item.label)}</a></li>`)
+  .join('\n')}
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
+`;
+
+  await fs.writeFile(outputPath, hubHtml, 'utf8');
+  return { outputPath, count: items.length };
+}
+
+async function generateLocationHub({ publicDir, baseUrl }) {
+  const locationRoot = path.join(publicDir, 'location');
+  const outputPath = path.join(locationRoot, 'index.html');
+
+  let entries = [];
+  try {
+    entries = await fs.readdir(locationRoot, { withFileTypes: true });
+  } catch (error) {
+    console.warn('[publish] Unable to read location directory:', error.message);
+    return { outputPath, count: 0 };
+  }
+
+  const slugs = entries
+    .filter((entry) => entry.isDirectory() && !entry.name.startsWith('.'))
+    .map((entry) => entry.name)
+    .sort((a, b) => a.localeCompare(b));
+
+  const items = [];
+  for (const slug of slugs) {
+    const pagePath = path.join(locationRoot, slug, 'index.html');
+    try {
+      const html = await fs.readFile(pagePath, 'utf8');
+      const label = extractLocationLabel(html, slug);
+      items.push({ slug, label });
+    } catch {
+      items.push({ slug, label: slug });
+    }
+  }
+
+  const hubHtml = `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Antique Appraiser Locations | Appraisily Directory</title>
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="${escapeXml(`${baseUrl}/location/`)}" />
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; color: #111827; background: #f9fafb; }
+      header, main { max-width: 960px; margin: 0 auto; padding: 16px; }
+      header { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; }
+      a { color: #2563eb; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px; }
+      ul { columns: 2; column-gap: 24px; margin: 0; padding-left: 18px; }
+      li { break-inside: avoid; padding: 4px 0; }
+      @media (max-width: 720px) { ul { columns: 1; } }
+      .meta { color: #6b7280; font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 style="margin: 0; font-size: 20px;">Browse Locations</h1>
+        <div class="meta">${items.length} locations</div>
+      </div>
+      <nav class="meta">
+        <a href="/">Home</a> · <a href="/appraiser/">Appraisers</a> · <a href="/sitemap.xml">Sitemap</a>
+      </nav>
+    </header>
+    <main>
+      <div class="card">
+        <ul>
+${items
+  .map((item) => `          <li><a href="/location/${escapeXml(item.slug)}/">${escapeXml(item.label)}</a></li>`)
+  .join('\n')}
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
+`;
+
+  await fs.writeFile(outputPath, hubHtml, 'utf8');
+  return { outputPath, count: items.length };
+}
+
+async function ensureHomeCrawlLinks({ publicDir }) {
+  const homePath = path.join(publicDir, 'index.html');
+  const marker = 'data-appraisily-crawl-links';
+  const injection = `\n<div ${marker} style="max-width:960px;margin:0 auto;padding:12px 16px;font:14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#6b7280;">\n  <a href=\"/appraiser/\">Browse all appraisers</a> · <a href=\"/location/\">Browse locations</a> · <a href=\"/sitemap.xml\">Sitemap</a>\n</div>\n`;
+
+  let html = '';
+  try {
+    html = await fs.readFile(homePath, 'utf8');
+  } catch (error) {
+    console.warn('[publish] Unable to read home page for crawl links:', error.message);
+    return { updated: false };
+  }
+
+  if (html.includes(marker)) return { updated: false };
+  if (!html.includes('</body>')) return { updated: false };
+
+  const updatedHtml = html.replace('</body>', `${injection}</body>`);
+  await fs.writeFile(homePath, updatedHtml, 'utf8');
+  return { updated: true };
+}
+
 function buildLoc(relativePath, baseUrl) {
   let normalized = relativePath.replace(/\\/g, '/').replace(/^\/+/, '');
   if (!normalized || normalized === '.' || normalized === 'index.html') {
@@ -227,6 +436,10 @@ async function main() {
     cwd: REPO_ROOT,
   });
 
+  const locationHub = await generateLocationHub({ publicDir: options.publicDir, baseUrl: options.baseUrl });
+  const appraiserHub = await generateAppraiserHub({ publicDir: options.publicDir, baseUrl: options.baseUrl });
+  const crawlLinks = await ensureHomeCrawlLinks({ publicDir: options.publicDir });
+
   const sitemap = await regenerateSitemap({
     publicDir: options.publicDir,
     baseUrl: options.baseUrl,
@@ -237,6 +450,9 @@ async function main() {
       JSON.stringify(
         {
           action: 'dry-run',
+          locationHub,
+          appraiserHub,
+          crawlLinks,
           sitemap,
           releaseDir,
           currentSymlink,
@@ -264,6 +480,9 @@ async function main() {
     JSON.stringify(
       {
         action: 'published',
+        locationHub,
+        appraiserHub,
+        crawlLinks,
         sitemap,
         releaseDir,
         currentSymlink,

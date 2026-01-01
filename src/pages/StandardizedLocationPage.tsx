@@ -415,15 +415,19 @@ export function StandardizedLocationPage() {
                     <span className="truncate">{appraiser.address.formatted}</span>
                   </div>
 
-                  <div className="flex items-center mb-3">
-                    <div className="flex items-center">
-                      <Star className="h-4 w-4 text-yellow-500" />
-                      <span className="ml-1 text-gray-700">{appraiser.business.rating.toFixed(1)}</span>
+                  {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
+                    <div className="flex items-center mb-3">
+                      <div className="flex items-center">
+                        <Star className="h-4 w-4 text-yellow-500" />
+                        <span className="ml-1 text-gray-700">{appraiser.business.rating.toFixed(1)}</span>
+                      </div>
+                      <span className="text-sm text-gray-500 ml-2">
+                        ({appraiser.business.reviewCount} reviews)
+                      </span>
                     </div>
-                    <span className="text-sm text-gray-500 ml-2">
-                      ({appraiser.business.reviewCount} reviews)
-                    </span>
-                  </div>
+                  ) : (
+                    <div className="text-sm text-gray-500 mb-3">Reviews not available</div>
+                  )}
 
                   <div className="space-y-2 mb-4">
                     <div className="flex flex-wrap gap-1">

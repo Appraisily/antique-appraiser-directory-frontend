@@ -12,6 +12,21 @@ declare global {
 
 const isBrowser = typeof window !== 'undefined';
 
+function isLikelyBot(): boolean {
+  if (!isBrowser) return false;
+  try {
+    type NavigatorWithWebdriver = Navigator & { webdriver?: boolean };
+    const nav = window.navigator as NavigatorWithWebdriver;
+    const ua = String(nav.userAgent || '');
+    if (!ua) return false;
+    if (nav.webdriver) return true;
+    if (/HeadlessChrome|PhantomJS|Nightmare|Playwright|Puppeteer/i.test(ua)) return true;
+    return /(bot|crawler|spider|crawling|slurp|bingpreview|facebookexternalhit|twitterbot|linkedinbot|embedly|quora link preview|slackbot|discordbot|telegrambot|whatsapp|pinterest|yandex|baiduspider|duckduckbot|googlebot)/i.test(ua);
+  } catch {
+    return false;
+  }
+}
+
 export function AnalyticsTracker() {
   const location = useLocation();
 
@@ -21,6 +36,10 @@ export function AnalyticsTracker() {
 
   useEffect(() => {
     if (!isBrowser || !GOOGLE_TAG_MANAGER_ID) {
+      return;
+    }
+
+    if (isLikelyBot()) {
       return;
     }
 
@@ -55,6 +74,10 @@ export function AnalyticsTracker() {
   }, [location]);
 
   if (!GOOGLE_TAG_MANAGER_ID) {
+    return null;
+  }
+
+  if (isLikelyBot()) {
     return null;
   }
 

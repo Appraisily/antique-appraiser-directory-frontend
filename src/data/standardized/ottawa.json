@@ -6,83 +6,111 @@
       "slug": "elizabeth-antique-appraisal-service",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_ottawa-elizabeth-antique-appraisal-service_1742202941276_gIwlE99b5.jpg",
       "address": {
-        "street": "864 Antique Rd",
+        "street": "68 Pineglen Cres",
         "city": "Ottawa",
         "state": "ON",
-        "zip": "13258",
-        "formatted": "864 Antique Rd, Ottawa, ON 13258"
+        "zip": "K2G 0G8",
+        "formatted": "68 Pineglen Cres, Ottawa, ON K2G 0G8"
       },
       "contact": {
-        "phone": "(613) 366-6150",
-        "email": "info@elizabethantiqueappraisalservice.com",
-        "website": "https://www.elizabethantiqueappraisalservice.com"
+        "phone": "(613) 226-5915",
+        "email": "kent@appraisalottawa.com",
+        "website": "https://www.appraisalottawa.com"
       },
       "business": {
-        "yearsInBusiness": "Established in 2011[1].",
+        "yearsInBusiness": "Appraising since 1965",
         "hours": [
           {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
+            "day": "Monday-Sunday",
+            "hours": "By appointment"
           }
         ],
-        "pricing": "Pricing depends on item type and research scope. Elizabeth Antique Appraisal Service provides written estimates for antique appraisals in Ottawa, ON.",
+        "pricing": "Fees vary by item type and scope. Contact Elizabeth Antique Appraisal Service to confirm pricing and scheduling.",
+        "rating": 0,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine art",
+          "Collectibles",
+          "Household goods",
+          "Hand-woven carpets (e.g., Persian)",
+          "Militaria",
+          "Lighting",
+          "Furniture",
+          "Ceramics",
+          "Jewelry",
+          "Silverware"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Online Evaluation Service"
+        ]
+      },
+      "content": {
+        "about": "Elizabeth Antique Appraisal Service provides appraisals for fine art, antiques, collectibles, and household goods in Ottawa, Ontario. Services include in-home visits (by appointment), written appraisal reports, and an online evaluation option.",
+        "notes": "Contact is sourced from appraisalottawa.com (phone/email/address) to ensure this listing reflects Elizabeth Antique Appraisal Service and not any other Ottawa auction house."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2025-12-31",
+        "inService": true
+      }
+    },
+    {
+      "id": "ottawa-pridhams-auctions-appraisals",
+      "name": "Pridham's Auctions & Appraisals",
+      "slug": "pridhams-auctions-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "440 Laurier Ave W Suite 200",
+        "city": "Ottawa",
+        "state": "ON",
+        "zip": "K1R 7X6",
+        "formatted": "440 Laurier Ave W Suite 200, Ottawa, ON K1R 7X6"
+      },
+      "contact": {
+        "phone": "613-366-6150",
+        "email": "josee@pridhams.ca",
+        "website": "https://www.pridhams.ca"
+      },
+      "business": {
+        "yearsInBusiness": "Established in 2011",
+        "hours": [
+          {
+            "day": "Monday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Appraisal and consignment fees vary by item type and scope. Contact Pridham’s to confirm rates and scheduling.",
         "rating": 4.7,
         "reviewCount": 21
       },
       "expertise": {
         "specialties": [
-          "Fine art (Canadian, Asian), decorative arts (silver, furniture)[1][6].  \n- Years Active: Established in 2011[1].  \n- Certifications: USPAP-compliant reports[6].  \n- Contact: By appointment at 440 Laurier Ave W #200. Phone: (613) 366-6150. Hours vary per auction schedule[1][6].  \n\n#### Elizabeth Antique Appraisal Service  \n- Specialties: Insurance/replacement value assessments (antiques, collectibles)[2][7].  \n- Years Active: Operating since 1965."
+          "Fine art",
+          "Decorative arts",
+          "Auction appraisals"
         ],
-        "certifications": [
-          "USPAP",
-          "USPAP-compliant"
-        ],
+        "certifications": [],
         "services": [
-          "Antique Appraisals",
-          "Estate Valuations",
-          "Insurance Appraisals"
+          "Appraisals",
+          "Auction Consignments",
+          "Fine Art Appraisals",
+          "Decorative Arts Appraisals"
         ]
       },
       "content": {
-        "about": "Elizabeth Antique Appraisal Service offers antique appraisal services in Ottawa, ON. Primary specialties include Fine art (Canadian, Asian), decorative arts (silver, furniture)[1][6].  \n- Years Active: Established in 2011[1].  \n- Certifications: USPAP-compliant reports[6].  \n- Contact: By appointment at 440 Laurier Ave W #200. Phone: (613) 366-6150. Hours vary per auction schedule[1][6].  \n\n#### Elizabeth Antique Appraisal Service  \n- Specialties: Insurance/replacement value assessments (antiques, collectibles)[2][7].  \n- Years Active: Operating since 1965.. Services include Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "notes": "Helping Ottawa, ON collectors with appraisals for Fine art (Canadian, Asian), decorative arts (silver, furniture)[1][6].  \n- Years Active: Established in 2011[1].  \n- Certifications: USPAP-compliant reports[6].  \n- Contact: By appointment at 440 Laurier Ave W #200. Phone: (613) 366-6150. Hours vary per auction schedule[1][6].  \n\n#### Elizabeth Antique Appraisal Service  \n- Specialties: Insurance/replacement value assessments (antiques, collectibles)[2][7].  \n- Years Active: Operating since 1965.."
+        "about": "Pridham’s Auctions & Appraisals is an Ottawa–Montreal auction house offering appraisal services for fine and decorative arts, with appointments available in Ottawa.",
+        "notes": "This listing contains Pridham’s official Ottawa contact details to prevent misattribution to other businesses."
       },
-      "reviews": [
-        {
-          "author": "James J.",
-          "rating": 4,
-          "date": "2025-02-27",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Emily T.",
-          "rating": 5,
-          "date": "2024-10-23",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        },
-        {
-          "author": "Susan S.",
-          "rating": 5,
-          "date": "2024-08-15",
-          "content": "Very responsive and easy to work with. Elizabeth Antique Appraisal Service's expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "Robert C.",
-          "rating": 5,
-          "date": "2024-05-13",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
+        "lastUpdated": "2025-12-31",
         "inService": true
       }
     },

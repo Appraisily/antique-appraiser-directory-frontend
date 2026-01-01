@@ -115,6 +115,8 @@ export function StandardizedAppraiserPage() {
 
   const generateAppraiserSchema = () => {
     if (!appraiser) return null;
+
+    const hasAggregateRating = appraiser.business.reviewCount > 0 && appraiser.business.rating > 0;
     
     return {
       "@context": "https://schema.org",
@@ -135,28 +137,32 @@ export function StandardizedAppraiserPage() {
       "email": appraiser.contact.email,
       "priceRange": appraiser.business.pricing,
       "openingHours": appraiser.business.hours.map(h => `${h.day} ${h.hours}`).join(', '),
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": appraiser.business.rating.toString(),
-        "reviewCount": appraiser.business.reviewCount.toString(),
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "review": appraiser.reviews.map(review => ({
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": review.author
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": review.rating.toString(),
-          "bestRating": "5",
-          "worstRating": "1"
-        },
-        "datePublished": review.date,
-        "reviewBody": review.content
-      }))
+      ...(hasAggregateRating
+        ? {
+            aggregateRating: {
+              "@type": "AggregateRating",
+              "ratingValue": appraiser.business.rating.toString(),
+              "reviewCount": appraiser.business.reviewCount.toString(),
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            review: appraiser.reviews.map(review => ({
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": review.author
+              },
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": review.rating.toString(),
+                "bestRating": "5",
+                "worstRating": "1"
+              },
+              "datePublished": review.date,
+              "reviewBody": review.content
+            }))
+          }
+        : {})
     };
   };
 
@@ -454,13 +460,17 @@ export function StandardizedAppraiserPage() {
               <h1 className="text-3xl font-bold text-gray-900">{appraiser.name}</h1>
               
               <div className="flex items-center">
-                <div className="flex items-center bg-blue-50 text-blue-700 rounded-full px-3 py-1">
-                  <Star className="h-4 w-4 text-yellow-500 mr-1" />
-                  <span className="font-semibold">{appraiser.business.rating.toFixed(1)}</span>
-                  <span className="text-sm text-gray-500 ml-1">
-                    ({appraiser.business.reviewCount})
-                  </span>
-                </div>
+                {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
+                  <div className="flex items-center bg-blue-50 text-blue-700 rounded-full px-3 py-1">
+                    <Star className="h-4 w-4 text-yellow-500 mr-1" />
+                    <span className="font-semibold">{appraiser.business.rating.toFixed(1)}</span>
+                    <span className="text-sm text-gray-500 ml-1">
+                      ({appraiser.business.reviewCount})
+                    </span>
+                  </div>
+                ) : (
+                  <div className="text-sm text-gray-500">Reviews not available</div>
+                )}
               </div>
             </div>
             

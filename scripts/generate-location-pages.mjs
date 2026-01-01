@@ -135,12 +135,12 @@ function titleCaseFromSlug(slug) {
 
 function buildTitle(cityDisplayName) {
   const safeCity = String(cityDisplayName || '').trim() || 'Your City';
-  return `Antique Appraisers in ${safeCity} — Local Appraisal Services | Appraisily`;
+  return `Antique Appraisers Near ${safeCity} — Local Appraisal Services | Appraisily`;
 }
 
 function buildDescription(cityDisplayName) {
   const safeCity = String(cityDisplayName || '').trim() || 'your city';
-  return `Find antique appraisers in ${safeCity} for antiques, art, jewelry & estate items. Compare local appraisal services, or request a fast online appraisal from Appraisily.`;
+  return `Find antique appraisers near you in ${safeCity} for antiques, art, jewelry & estate items. Compare local appraisal services, or request a fast online appraisal from Appraisily.`;
 }
 
 function buildFaq(cityDisplayName) {
