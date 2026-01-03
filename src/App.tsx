@@ -353,7 +353,7 @@ function App() {
                       <li key={city.slug}>
                         <a 
                           href={buildSiteUrl(`/location/${city.slug}`)}
-                          className="flex items-center text-gray-700 hover:text-blue-600 py-1 transition-colors"
+                          className="flex w-full items-center text-gray-700 hover:text-blue-600 py-3 transition-colors"
                           data-gtm-event="city_directory_click"
                           data-gtm-city={city.slug}
                           data-gtm-state={city.state}
