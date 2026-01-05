@@ -4,17 +4,52 @@ import path from 'node:path';
 import process from 'node:process';
 import { fileURLToPath } from 'node:url';
 import { JSDOM } from 'jsdom';
+import {
+  extractKeywordPhrases,
+  normalizeRegionCode,
+  sanitizePlainText,
+  truncateText,
+} from './utils/text-sanitize.js';
+import { INDEXABLE_LOCATION_SLUG_SET, POPULAR_LOCATION_SLUGS } from './utils/indexable-locations.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
 const DEFAULT_PUBLIC_DIR = path.join(REPO_ROOT, 'public_site');
 const STANDARDIZED_DIR = path.join(REPO_ROOT, 'src', 'data', 'standardized');
+const STANDARDIZED_VERIFIED_DIR = path.join(REPO_ROOT, 'src', 'data', 'standardized_verified');
 const CITIES_FILE = path.join(REPO_ROOT, 'src', 'data', 'cities.json');
 
 const DIRECTORY_DOMAIN = 'https://antique-appraiser-directory.appraisily.com';
 const CTA_URL = 'https://appraisily.com/start';
 const ASSETS_BASE_URL = 'https://assets.appraisily.com/assets/directory';
 const FALLBACK_IMAGE = `${ASSETS_BASE_URL}/placeholder.jpg`;
+const SERVICE_LABEL = 'Antique & Art Appraisers';
+const SERVICE_LABEL_LOWER = 'antique and art appraisers';
+const SERVICE_TYPE_LABEL = 'Art & Antique Appraisal';
+
+const TRUST_FIRST_LOCATION_SLUGS = new Set(['kelowna', 'calgary', 'san-antonio']);
+const TRUST_FIRST_MIN_VERIFIED = 3;
+
+function filterAppraisersForLocation(slug, appraisers) {
+  const list = Array.isArray(appraisers) ? [...appraisers] : [];
+
+  list.sort((a, b) => {
+    const aRank = a?.verified === true ? 2 : a?.listed === true ? 1 : 0;
+    const bRank = b?.verified === true ? 2 : b?.listed === true ? 1 : 0;
+    if (aRank !== bRank) return bRank - aRank;
+    return String(a?.name || '').localeCompare(String(b?.name || ''), undefined, { sensitivity: 'base' });
+  });
+
+  const verified = list.filter((entry) => entry?.verified === true);
+  const listed = list.filter((entry) => entry?.verified !== true && entry?.listed === true);
+
+  const trustFirst = TRUST_FIRST_LOCATION_SLUGS.has(slug) || verified.length >= TRUST_FIRST_MIN_VERIFIED;
+  if (trustFirst && verified.length) return verified;
+
+  if (verified.length) return [...verified, ...listed];
+  if (listed.length >= 2) return listed;
+  return list;
+}
 
 function parseArgs(argv) {
   const args = [...argv];
@@ -134,27 +169,30 @@ function titleCaseFromSlug(slug) {
 }
 
 function buildTitle(cityDisplayName) {
-  const safeCity = String(cityDisplayName || '').trim() || 'Your City';
-  return `Antique Appraisers Near ${safeCity} — Local Appraisal Services | Appraisily`;
+  const safeCity = sanitizePlainText(cityDisplayName) || 'Your City';
+  return `${SERVICE_LABEL} in ${safeCity} | Appraisily`;
 }
 
 function buildDescription(cityDisplayName) {
-  const safeCity = String(cityDisplayName || '').trim() || 'your city';
-  return `Find antique appraisers near you in ${safeCity} for antiques, art, jewelry & estate items. Compare local appraisal services, or request a fast online appraisal from Appraisily.`;
+  const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
+  return truncateText(
+    `Compare ${SERVICE_LABEL_LOWER} in ${safeCity} for insurance, estates, donations, and resale. Or get a fast online appraisal from Appraisily.`,
+    155,
+  );
 }
 
 function buildFaq(cityDisplayName) {
   const qs = [
     {
-      q: `How do antique appraisals work in ${cityDisplayName}?`,
-      a: `Most antique appraisers in ${cityDisplayName} review condition, age, maker marks, materials, and comparable sales to estimate fair market value. A written report is often used for insurance, estates, donations, or resale.`,
+      q: `How do antique and art appraisals work in ${cityDisplayName}?`,
+      a: `Most ${SERVICE_LABEL_LOWER} in ${cityDisplayName} review condition, age, maker marks/materials, artist or provenance details, and comparable sales to estimate value. A written report is often used for insurance, estates, donations, or resale.`,
     },
     {
       q: 'What should I prepare before contacting an appraiser?',
       a: 'Bring clear photos (front/back/details/marks), measurements, condition notes, and any provenance (receipts, family history, restoration notes).',
     },
     {
-      q: `How much does an antique appraisal cost in ${cityDisplayName}?`,
+      q: `How much does an appraisal cost in ${cityDisplayName}?`,
       a: `Pricing varies by item type and scope (single item vs. estate). Many providers quote a flat fee or hourly rate; ask whether the fee includes a written report and research/comparables.`,
     },
     {
@@ -193,20 +231,164 @@ function buildFaq(cityDisplayName) {
   };
 }
 
+function normalizeCityMeta(meta) {
+  if (!meta) return { cityName: '', stateName: '', cityDisplayName: '' };
+  const cityName = String(meta?.name || '').trim();
+  const stateName = String(meta?.state || '').trim();
+  const cityDisplayName = cityName && stateName ? `${cityName}, ${stateName}` : cityName || stateName;
+  return { cityName, stateName, cityDisplayName };
+}
+
+function buildKeywordCounts(appraisers, fieldAccessor) {
+  const counts = new Map();
+  for (const appraiser of appraisers) {
+    const phrases = extractKeywordPhrases(fieldAccessor(appraiser), 8);
+    for (const phrase of phrases) {
+      const cleaned = sanitizePlainText(phrase);
+      if (!cleaned) continue;
+      const key = cleaned.toLowerCase();
+      const entry = counts.get(key) || { label: cleaned, count: 0 };
+      entry.count += 1;
+      counts.set(key, entry);
+    }
+  }
+  return [...counts.values()]
+    .sort((a, b) => (b.count - a.count ? b.count - a.count : a.label.localeCompare(b.label)))
+    .map((entry) => entry.label);
+}
+
+function buildRelatedLocationLinks({ slug, stateName, citiesBySlug, slugsInBuild }) {
+  const stateCode = normalizeRegionCode(stateName);
+  if (!stateCode) return [];
+
+  const candidates = [];
+  for (const otherSlug of slugsInBuild) {
+    if (otherSlug === slug) continue;
+    if (!INDEXABLE_LOCATION_SLUG_SET.has(otherSlug)) continue;
+    const otherMeta = citiesBySlug.get(otherSlug);
+    if (!otherMeta) continue;
+    const otherStateCode = normalizeRegionCode(String(otherMeta?.state || '').trim());
+    if (!otherStateCode || otherStateCode !== stateCode) continue;
+    candidates.push(otherSlug);
+  }
+
+  candidates.sort((a, b) => a.localeCompare(b));
+  return candidates.slice(0, 6);
+}
+
+function buildFallbackLocationLinks({ slug, slugsInBuild }) {
+  const candidates = POPULAR_LOCATION_SLUGS.filter(
+    (candidate) => candidate !== slug && INDEXABLE_LOCATION_SLUG_SET.has(candidate) && slugsInBuild.includes(candidate),
+  );
+  return candidates.slice(0, 6);
+}
+
+function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appraisers, relatedSlugs, labelForSlug }) {
+  const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
+  const safeState = sanitizePlainText(stateName);
+
+  const specialties = buildKeywordCounts(appraisers, (entry) => entry?.expertise?.specialties).slice(0, 8);
+  const services = buildKeywordCounts(appraisers, (entry) => entry?.expertise?.services).slice(0, 8);
+
+  const intro = `Hiring the right ${SERVICE_LABEL_LOWER} in ${safeCity} depends on your goal (insurance, estate settlement, donation, or resale). Look for clear fees, a written report when needed, and evidence of recent comparable research for your item type.`;
+  const checklist = `When you reach out, ask about turnaround time, what photos/details they need, and whether the valuation is for fair market value or replacement value. If you prefer a faster path, Appraisily can deliver a written online appraisal from photos and measurements.`;
+
+  const regionLabel = safeState ? `in ${safeState}` : '';
+
+  return `
+    <section class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm space-y-5">
+      <div class="space-y-2">
+        <h2 class="text-2xl font-semibold text-gray-900">How to choose an art or antique appraiser ${escapeHtml(
+          regionLabel,
+        )}</h2>
+        <p class="text-gray-700 leading-relaxed">${escapeHtml(intro)}</p>
+        <p class="text-gray-700 leading-relaxed">${escapeHtml(checklist)}</p>
+      </div>
+
+      ${
+        specialties.length
+          ? `<div>
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Common specialties you’ll see ${escapeHtml(
+          regionLabel,
+        )}</h3>
+        <ul class="list-disc pl-5 space-y-1 text-gray-700">
+          ${specialties.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}
+        </ul>
+      </div>`
+          : ''
+      }
+
+      ${
+        services.length
+          ? `<div>
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Typical appraisal services</h3>
+        <ul class="list-disc pl-5 space-y-1 text-gray-700">
+          ${services.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}
+        </ul>
+      </div>`
+          : ''
+      }
+
+      <div class="flex flex-wrap gap-3">
+        <a class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" href="${escapeHtml(
+          `${CTA_URL}?utm_source=directory&utm_medium=guide&utm_campaign=${encodeURIComponent(citySlug)}`,
+        )}">Start an online appraisal</a>
+        <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/">Browse all locations</a>
+      </div>
+
+      <div class="text-sm text-gray-600 flex flex-wrap gap-3">
+        <a class="underline hover:text-blue-700" href="/methodology/" data-gtm-event="directory_cta" data-gtm-cta="methodology_link">How we build this directory</a>
+        <a class="underline hover:text-blue-700" href="/get-listed/" data-gtm-event="directory_cta" data-gtm-cta="get_listed_link">Are you an appraiser? Get listed</a>
+      </div>
+
+      ${
+        relatedSlugs.length
+          ? `<div class="pt-2 border-t border-gray-100">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Related locations</h3>
+        <div class="flex flex-wrap gap-2">
+          ${relatedSlugs
+            .map((related) => {
+              const label = labelForSlug(related);
+              return `<a class="text-blue-700 hover:underline" href="/location/${escapeHtml(
+                related,
+              )}/">${escapeHtml(label)}</a>`;
+            })
+            .join('<span class="text-gray-300">·</span>')}
+        </div>
+      </div>`
+          : ''
+      }
+    </section>
+  `;
+}
+
+function buildAppraiserSummary(appraiser, cityPlain) {
+  const name = sanitizePlainText(appraiser?.name) || 'This provider';
+  const specialties = extractKeywordPhrases(appraiser?.expertise?.specialties, 4);
+  const services = extractKeywordPhrases(appraiser?.expertise?.services, 3);
+
+  const parts = [`${name} offers antique and art appraisal support in ${cityPlain}.`];
+  if (specialties.length) parts.push(`Specialties: ${specialties.join(', ')}.`);
+  if (services.length) parts.push(`Services: ${services.join(', ')}.`);
+
+  return truncateText(parts.join(' '), 220);
+}
+
 function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
+  const cityPlain = sanitizePlainText(cityDisplayName);
   const listItems = appraisers.slice(0, Math.min(appraisers.length, 15)).map((appraiser, index) => ({
     '@type': 'ListItem',
     position: index + 1,
-    name: appraiser.name,
+    name: sanitizePlainText(appraiser.name),
     url: buildAbsoluteUrl(`/appraiser/${encodeURIComponent(appraiser.slug || appraiser.id || '')}/`),
     image: normalizeImageUrl(appraiser.imageUrl || FALLBACK_IMAGE),
-    description: appraiser.content?.about || '',
+    description: buildAppraiserSummary(appraiser, cityPlain),
   }));
 
   const itemList = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: `Antique appraisers in ${cityDisplayName}`,
+    name: `${SERVICE_LABEL} in ${cityDisplayName}`,
     url: canonicalUrl,
     numberOfItems: appraisers.length,
     itemListElement: listItems,
@@ -217,7 +399,7 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: `${DIRECTORY_DOMAIN}/` },
-      { '@type': 'ListItem', position: 2, name: `Antique appraisers in ${cityDisplayName}`, item: canonicalUrl },
+      { '@type': 'ListItem', position: 2, name: `${SERVICE_LABEL} in ${cityDisplayName}`, item: canonicalUrl },
     ],
   };
 
@@ -226,31 +408,44 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
   return schemas;
 }
 
-function buildAppraiserCard(appraiser, citySlug) {
+function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
   const slug = appraiser.slug || appraiser.id || '';
   const profilePath = `/appraiser/${encodeURIComponent(slug)}/`;
   const imageUrl = normalizeImageUrl(appraiser.imageUrl || FALLBACK_IMAGE);
-  const rating = Number(appraiser.business?.rating);
-  const reviewCount = Number(appraiser.business?.reviewCount) || 0;
-  const hasRating = Number.isFinite(rating) && rating > 0;
-  const ratingText = hasRating ? rating.toFixed(1) : '';
-  const address =
-    String(appraiser.address?.formatted || '').trim() ||
-    `${appraiser.address?.city || ''}, ${appraiser.address?.state || ''}`.trim();
-  const phone = String(appraiser.contact?.phone || '').trim();
-  const phoneHref = normalizePhoneHref(phone);
-  const website = normalizeWebsite(appraiser.contact?.website);
-  const about = String(appraiser.content?.about || '').trim();
-  const aboutText = about.length > 260 ? `${about.slice(0, 257).trimEnd()}…` : about;
+  const address = sanitizePlainText(cityDisplayName) || sanitizePlainText(appraiser.address?.city) || '';
+  const aboutText = buildAppraiserSummary(appraiser, sanitizePlainText(cityDisplayName));
   const ctaHref = `${CTA_URL}?utm_source=directory&utm_medium=organic&utm_campaign=${encodeURIComponent(
     citySlug,
   )}&utm_content=${encodeURIComponent(slug)}`;
+  const website = appraiser.verified || appraiser.listed ? String(appraiser.website || '').trim() : '';
+  const sourceUrl = String(appraiser?.verification?.sourceUrl || '').trim();
+  const sourceLabel = (() => {
+    const explicit = String(appraiser?.verification?.sourceType || '').trim();
+    if (explicit) return explicit;
+    if (!sourceUrl) return 'public listing';
+    if (sourceUrl.includes('isa-appraisers.org')) return 'ISA directory';
+    if (sourceUrl.includes('yellowpages.ca')) return 'YellowPages.ca';
+    if (sourceUrl.includes('bbb.org')) return 'BBB';
+    return 'public listing';
+  })();
+  const badge = appraiser.verified
+    ? 'Verified'
+    : appraiser.listed
+      ? 'Listed'
+      : '';
+  const badgeClass = appraiser.verified
+    ? 'text-green-700 bg-green-50 border-green-100'
+    : appraiser.listed
+      ? 'text-amber-800 bg-amber-50 border-amber-100'
+      : '';
+  const phone = appraiser.verified ? String(appraiser.phone || appraiser.contact?.phone || '').trim() : '';
+  const phoneHref = phone ? normalizePhoneHref(phone) : '';
 
   return `
     <article class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white">
       <div class="h-48 bg-gray-200 overflow-hidden">
         <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(
-    `${appraiser.name} - Antique appraiser in ${appraiser.address?.city || ''}`,
+    `${appraiser.name} - Art & Antique appraiser in ${appraiser.address?.city || ''}`,
   )}" class="w-full h-full object-cover" loading="lazy">
       </div>
       <div class="p-5">
@@ -264,15 +459,8 @@ function buildAppraiserCard(appraiser, citySlug) {
             ${address ? `<p class="text-sm text-gray-600 mt-2">${escapeHtml(address)}</p>` : ''}
           </div>
           ${
-            hasRating
-              ? `
-            <div class="flex flex-col items-end">
-              <div class="flex items-center bg-blue-50 text-blue-700 rounded-full px-3 py-1">
-                <span class="font-semibold">${escapeHtml(ratingText)}</span>
-              </div>
-              ${reviewCount ? `<span class="text-xs text-gray-500 mt-1">${escapeHtml(`${reviewCount} review${reviewCount === 1 ? '' : 's'}`)}</span>` : ''}
-            </div>
-          `
+            badge
+              ? `<span class="text-xs font-semibold uppercase tracking-wide ${badgeClass} border px-2 py-1 rounded">${badge}</span>`
               : ''
           }
         </div>
@@ -282,29 +470,49 @@ function buildAppraiserCard(appraiser, citySlug) {
             View Profile
           </a>
           ${
-            phoneHref && phone
-              ? `<a href="${escapeHtml(phoneHref)}" class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors">${escapeHtml(phone)}</a>`
+            website
+              ? `<a href="${escapeHtml(website)}" rel="nofollow noopener" target="_blank" class="inline-flex items-center px-4 py-2 text-gray-700 border border-gray-200 rounded-lg bg-white hover:bg-gray-50 transition-colors">
+            Website
+          </a>`
               : ''
           }
           ${
-            website
-              ? `<a href="${escapeHtml(website)}" class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors" target="_blank" rel="nofollow noopener">Website</a>`
+            phoneHref
+              ? `<a href="${escapeHtml(phoneHref)}" class="inline-flex items-center px-4 py-2 text-gray-700 border border-gray-200 rounded-lg bg-white hover:bg-gray-50 transition-colors">
+            Call
+          </a>`
               : ''
           }
           <a href="${escapeHtml(ctaHref)}" class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors">
             Request Online Appraisal
           </a>
         </div>
+        ${
+          sourceUrl
+            ? `<p class="text-xs text-gray-500 mt-4">Source: <a href="${escapeHtml(
+                sourceUrl,
+              )}" target="_blank" rel="nofollow noopener" class="text-blue-600 hover:underline">${escapeHtml(sourceLabel)}</a></p>`
+            : ''
+        }
       </div>
     </article>
   `;
 }
 
-function renderLocationBody({ cityDisplayName, citySlug, canonicalUrl, description, appraisers }) {
+function renderLocationBody({
+  cityDisplayName,
+  stateName,
+  citySlug,
+  canonicalUrl,
+  description,
+  appraisers,
+  relatedSlugs,
+  labelForSlug,
+}) {
   const hero = `
     <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white rounded-xl shadow-lg p-8">
       <div class="space-y-4">
-        <h1 class="text-3xl md:text-4xl font-bold">${escapeHtml(cityDisplayName)} Antique Appraisers</h1>
+        <h1 class="text-3xl md:text-4xl font-bold">${escapeHtml(SERVICE_LABEL)} in ${escapeHtml(cityDisplayName)}</h1>
         <p class="text-lg text-blue-50/90 leading-relaxed">${escapeHtml(description)}</p>
         <div class="flex flex-wrap gap-3 pt-2">
           <a href="${escapeHtml(
@@ -316,6 +524,11 @@ function renderLocationBody({ cityDisplayName, citySlug, canonicalUrl, descripti
             Browse local providers
           </a>
         </div>
+        <p class="text-sm text-blue-50/80">
+          <a class="underline hover:no-underline" href="/methodology/">How this directory is built</a>
+          ·
+          <a class="underline hover:no-underline" href="/get-listed/">Get listed</a>
+        </p>
       </div>
     </section>
   `;
@@ -325,12 +538,14 @@ function renderLocationBody({ cityDisplayName, citySlug, canonicalUrl, descripti
       <section class="space-y-6">
         <div class="space-y-3">
           <h2 class="text-2xl font-semibold text-gray-900">Directory profiles (${appraisers.length})</h2>
-          <p class="text-gray-700 leading-relaxed">Compare specialties, ratings, and contact options for antique appraisers serving ${escapeHtml(
+          <p class="text-gray-700 leading-relaxed">Compare specialties and services for ${escapeHtml(
+            SERVICE_LABEL_LOWER,
+          )} serving ${escapeHtml(
             cityDisplayName,
           )}.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          ${appraisers.map((appraiser) => buildAppraiserCard(appraiser, citySlug)).join('\n')}
+          ${appraisers.map((appraiser) => buildAppraiserCard(appraiser, { citySlug, cityDisplayName })).join('\n')}
         </div>
       </section>
     `
@@ -345,17 +560,21 @@ function renderLocationBody({ cityDisplayName, citySlug, canonicalUrl, descripti
     `;
 
   const { html: faqHtml } = buildFaq(cityDisplayName);
+  const guide = renderLocationGuideSection({
+    cityDisplayName,
+    stateName,
+    citySlug,
+    appraisers,
+    relatedSlugs,
+    labelForSlug,
+  });
 
   return `
     <div class="container mx-auto px-4 py-8 mt-16 space-y-10">
       ${hero}
       ${cards}
+      ${guide}
       ${faqHtml}
-      <section class="border-t border-gray-200 pt-8 text-sm text-gray-500">
-        <p>Canonical URL: <a class="text-blue-600 hover:underline" href="${escapeHtml(canonicalUrl)}">${escapeHtml(
-    canonicalUrl,
-  )}</a></p>
-      </section>
     </div>
   `;
 }
@@ -381,10 +600,22 @@ async function listLocationSlugs(publicDir) {
 }
 
 async function loadLocationData(slug) {
-  const dataPath = path.join(STANDARDIZED_DIR, `${slug}.json`);
-  const raw = await fs.readFile(dataPath, 'utf8');
-  const parsed = JSON.parse(raw);
-  return Array.isArray(parsed?.appraisers) ? parsed.appraisers : [];
+  const candidates = [
+    path.join(STANDARDIZED_VERIFIED_DIR, `${slug}.json`),
+    path.join(STANDARDIZED_DIR, `${slug}.json`),
+  ];
+
+  for (const dataPath of candidates) {
+    try {
+      const raw = await fs.readFile(dataPath, 'utf8');
+      const parsed = JSON.parse(raw);
+      return Array.isArray(parsed?.appraisers) ? parsed.appraisers : [];
+    } catch {
+      continue;
+    }
+  }
+
+  throw new Error(`Missing standardized data for slug ${slug}`);
 }
 
 async function main() {
@@ -421,13 +652,33 @@ async function main() {
       continue;
     }
 
+    appraisers = filterAppraisersForLocation(slug, appraisers);
+
     const cityMeta = cities.get(slug);
-    const cityName = String(cityMeta?.name || '').trim() || titleCaseFromSlug(slug) || 'Location';
-    const stateName = String(cityMeta?.state || '').trim();
-    const cityDisplayName = stateName ? `${cityName}, ${stateName}` : cityName;
+    const normalizedCity = normalizeCityMeta(cityMeta);
+    const cityName = normalizedCity.cityName || titleCaseFromSlug(slug) || 'Location';
+    const stateName = normalizedCity.stateName;
+    const cityDisplayName = normalizedCity.cityDisplayName || (stateName ? `${cityName}, ${stateName}` : cityName);
     const canonicalUrl = buildAbsoluteUrl(`/location/${slug}/`);
-    const title = buildTitle(cityName);
-    const description = buildDescription(cityName);
+    const regionCode = normalizeRegionCode(stateName);
+    const titleDisplay = regionCode ? `${cityName}, ${regionCode}` : cityName;
+  const descriptionDisplay = stateName ? `${cityName}, ${stateName}` : cityName;
+  const title = buildTitle(titleDisplay);
+  const description = buildDescription(descriptionDisplay);
+
+  const labelForSlug = (candidateSlug) => {
+      const meta = normalizeCityMeta(cities.get(candidateSlug));
+      const fallbackCityName = meta.cityName || titleCaseFromSlug(candidateSlug) || candidateSlug;
+      const fallbackState = meta.stateName;
+      const fallbackCode = normalizeRegionCode(fallbackState);
+      const display = fallbackCode ? `${fallbackCityName}, ${fallbackCode}` : fallbackCityName;
+      return `${SERVICE_LABEL} in ${display}`;
+    };
+
+    const regionRelated = buildRelatedLocationLinks({ slug, stateName, citiesBySlug: cities, slugsInBuild: slugs });
+    const relatedSlugs = regionRelated.length
+      ? regionRelated
+      : buildFallbackLocationLinks({ slug, slugsInBuild: slugs });
 
     const dom = new JSDOM(html);
     const document = dom.window.document;
@@ -440,10 +691,13 @@ async function main() {
 
     const bodyMarkup = renderLocationBody({
       cityDisplayName,
+      stateName,
       citySlug: slug,
       canonicalUrl,
       description,
       appraisers,
+      relatedSlugs,
+      labelForSlug,
     });
     root.innerHTML = bodyMarkup;
 

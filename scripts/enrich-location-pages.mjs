@@ -4,6 +4,13 @@ import path from 'node:path';
 import process from 'node:process';
 import { fileURLToPath } from 'node:url';
 import { JSDOM } from 'jsdom';
+import {
+  isLikelyPlaceholderUrl,
+  normalizeRegionCode,
+  normalizeWebsiteUrl,
+  sanitizePlainText,
+  truncateText,
+} from './utils/text-sanitize.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
@@ -14,6 +21,30 @@ const IMAGEKIT_PREFIX = 'https://ik.imagekit.io/appraisily/';
 const FALLBACK_IMAGE = `${ASSETS_BASE_URL}/placeholder.jpg`;
 
 const DEFAULT_SLUGS = [];
+
+const TRUST_FIRST_LOCATION_SLUGS = new Set(['kelowna', 'calgary', 'san-antonio']);
+const TRUST_FIRST_MIN_VERIFIED = 3;
+
+function filterAppraisersForLocation(slug, appraisers) {
+  const list = Array.isArray(appraisers) ? [...appraisers] : [];
+
+  list.sort((a, b) => {
+    const aRank = a?.verified === true ? 2 : a?.listed === true ? 1 : 0;
+    const bRank = b?.verified === true ? 2 : b?.listed === true ? 1 : 0;
+    if (aRank !== bRank) return bRank - aRank;
+    return String(a?.name || '').localeCompare(String(b?.name || ''), undefined, { sensitivity: 'base' });
+  });
+
+  const verified = list.filter((entry) => entry?.verified === true);
+  const listed = list.filter((entry) => entry?.verified !== true && entry?.listed === true);
+
+  const trustFirst = TRUST_FIRST_LOCATION_SLUGS.has(slug) || verified.length >= TRUST_FIRST_MIN_VERIFIED;
+  if (trustFirst && verified.length) return verified;
+
+  if (verified.length) return [...verified, ...listed];
+  if (listed.length >= 2) return listed;
+  return list;
+}
 
 function normalizeImageUrl(input = '') {
   const url = String(input || '').trim();
@@ -209,59 +240,66 @@ function detectCountry({ stateCode = '', stateName = '' } = {}) {
 
 function buildLocationSchemas({ slug, cityName, stateCode, appraisers }) {
   const firstAddress = appraisers?.[0]?.address ?? {};
-  const safeState = stateCode || firstAddress?.state || 'USA';
-  const country = detectCountry({ stateCode: firstAddress?.state, stateName: safeState });
-  const cityLocality = firstAddress?.city || String(cityName || '').split(',')[0]?.trim() || titleCaseFromSlug(slug);
+  const safeStateName = sanitizePlainText(stateCode || firstAddress?.state || '').trim();
+  const stateCodeNormalized = normalizeRegionCode(safeStateName || firstAddress?.state);
+  const addressRegion = stateCodeNormalized || safeStateName || firstAddress?.state || '';
+  const country = detectCountry({ stateCode: stateCodeNormalized || firstAddress?.state, stateName: safeStateName });
+  const cityLocality = sanitizePlainText(
+    firstAddress?.city || String(cityName || '').split(',')[0]?.trim() || titleCaseFromSlug(slug),
+  );
   const locationPath = `/location/${slug}/`;
   const locationUrl = buildUrl(locationPath);
 
   const providers = Array.isArray(appraisers)
-    ? appraisers.slice(0, 50).map((appraiser) => ({
-        '@type': 'LocalBusiness',
-        name: appraiser?.name || 'Antique Appraiser',
-        image: normalizeImageUrl(appraiser?.imageUrl),
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: appraiser?.address?.city || cityLocality,
-          addressRegion: appraiser?.address?.state || safeState,
-          addressCountry: country,
-        },
-        priceRange: appraiser?.business?.pricing || '$$-$$$',
-        telephone: appraiser?.contact?.phone || '',
-        url: buildUrl(`/appraiser/${appraiser?.slug || appraiser?.id || ''}/`),
-        sameAs: appraiser?.contact?.website || '',
-        aggregateRating:
-          typeof appraiser?.business?.rating === 'number' && typeof appraiser?.business?.reviewCount === 'number'
-            ? {
-                '@type': 'AggregateRating',
-                ratingValue: String(appraiser.business.rating),
-                reviewCount: String(appraiser.business.reviewCount),
-                bestRating: '5',
-                worstRating: '1',
-              }
-            : undefined,
-      }))
+    ? appraisers.slice(0, 50).map((appraiser) => {
+        const verified = Boolean(appraiser?.verified);
+        const website = normalizeWebsiteUrl(appraiser?.website || appraiser?.contact?.website);
+        const sameAs = verified && website && !isLikelyPlaceholderUrl(website) ? [website] : undefined;
+
+        const email = verified ? String(appraiser?.email || appraiser?.contact?.email || '').trim() : '';
+        const telephone = verified ? String(appraiser?.phone || appraiser?.contact?.phone || '').trim() : '';
+        const url = verified && website ? website : buildUrl(`/appraiser/${appraiser?.slug || appraiser?.id || ''}/`);
+
+        return {
+          '@type': 'LocalBusiness',
+          name: sanitizePlainText(appraiser?.name) || 'Art & Antique Appraiser',
+          image: normalizeImageUrl(appraiser?.imageUrl),
+          address: {
+            '@type': 'PostalAddress',
+            addressLocality: cityLocality,
+            addressRegion,
+            addressCountry: country,
+          },
+          url,
+          sameAs,
+          email: email || undefined,
+          telephone: telephone || undefined,
+        };
+      })
     : [];
 
   const locationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
     '@id': locationUrl,
-    name: `Antique Appraisers in ${cityName}`,
-    description: `Find top-rated antique appraisers near you in ${cityName}. Compare local providers and request a fast online appraisal from Appraisily.`,
-    serviceType: 'Antique Appraisal',
+    name: `Antique & Art Appraisers in ${cityName}`,
+    description: truncateText(
+      `Compare antique and art appraisers in ${cityName} and request a fast online appraisal from Appraisily.`,
+      200,
+    ),
+    serviceType: 'Art & Antique Appraisal',
     areaServed: {
       '@type': 'City',
       name: cityLocality,
       address: {
         '@type': 'PostalAddress',
         addressLocality: cityLocality,
-        addressRegion: safeState,
+        addressRegion: addressRegion || safeStateName,
         addressCountry: country,
       },
       containedInPlace: {
         '@type': 'State',
-        name: safeState,
+        name: safeStateName || addressRegion,
       },
     },
     provider: providers,
@@ -284,7 +322,7 @@ function buildLocationSchemas({ slug, cityName, stateCode, appraisers }) {
       {
         '@type': 'ListItem',
         position: 2,
-        name: `Antique Appraisers in ${cityName}`,
+        name: `Antique & Art Appraisers in ${cityName}`,
         item: locationUrl,
       },
     ],
@@ -358,7 +396,8 @@ async function main() {
 
   for (const slug of options.slugs) {
     const htmlPath = path.join(options.publicDir, 'location', slug, 'index.html');
-    const dataPath = path.join(REPO_ROOT, 'src', 'data', 'standardized', `${slug}.json`);
+    const dataPathPrimary = path.join(REPO_ROOT, 'src', 'data', 'standardized_verified', `${slug}.json`);
+    const dataPathFallback = path.join(REPO_ROOT, 'src', 'data', 'standardized', `${slug}.json`);
 
     let html;
     try {
@@ -370,16 +409,23 @@ async function main() {
 
     let locationData;
     try {
-      locationData = await loadJson(dataPath);
+      locationData = await loadJson(dataPathPrimary);
     } catch {
-      stats.missingData += 1;
-      continue;
+      try {
+        locationData = await loadJson(dataPathFallback);
+      } catch {
+        stats.missingData += 1;
+        continue;
+      }
     }
 
     const meta = cityBySlug.get(slug);
     const cityName = meta ? `${meta.name}, ${meta.state}` : titleCaseFromSlug(slug);
     const stateCode = meta?.state || locationData?.appraisers?.[0]?.address?.state || '';
-    const appraisers = Array.isArray(locationData?.appraisers) ? locationData.appraisers : [];
+    const appraisers = filterAppraisersForLocation(
+      slug,
+      Array.isArray(locationData?.appraisers) ? locationData.appraisers : [],
+    );
 
     const { locationSchema, breadcrumbSchema, faqSchema } = buildLocationSchemas({
       slug,

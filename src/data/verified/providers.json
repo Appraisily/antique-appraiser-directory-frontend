@@ -1,0 +1,151 @@
+[
+  {
+    "locationSlug": "kelowna",
+    "slug": "artista-art-antiquits",
+    "name": "Artista Antiques",
+    "website": "https://artistaantiques.ca/",
+    "email": "antiqueskelowna@gmail.com",
+    "phone": "+1 250 763 4667",
+    "address": { "city": "Kelowna", "region": "BC", "country": "CA" },
+    "specialties": ["antiques", "vintage", "collectibles", "jewelry", "coins"],
+    "services": ["appraisals", "consignment"],
+    "verification": {
+      "sourceUrl": "https://artistaantiques.ca/contact/",
+      "verifiedAt": "2026-01-04",
+      "notes": "Contact page lists phone/email/location and mentions on-site appraisal availability."
+    }
+  },
+  {
+    "locationSlug": "kelowna",
+    "slug": "hambleton-galleries",
+    "name": "Hambleton Galleries",
+    "website": "https://www.hambletongalleries.com/",
+    "email": "info@hambletongalleries.com",
+    "phone": "+1 250 860 2498",
+    "address": { "city": "Kelowna", "region": "BC", "country": "CA" },
+    "specialties": ["fine art", "canadian art"],
+    "services": ["fine art appraisals"],
+    "verification": {
+      "sourceUrl": "https://www.hambletongalleries.com/services/",
+      "verifiedAt": "2026-01-04",
+      "notes": "Services page includes Fine Art Appraisals section and contact details in page footer."
+    }
+  },
+  {
+    "locationSlug": "kelowna",
+    "slug": "resale-vintage",
+    "name": "Resale Vintage",
+    "phone": "+1 250 768 7303",
+    "address": { "city": "Kelowna", "region": "BC", "country": "CA" },
+    "specialties": ["vintage", "consignment", "antiques"],
+    "services": ["appraisals"],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/British-Columbia/Resale-Vintage/7844448.html",
+      "verifiedAt": "2026-01-04",
+      "notes": "YellowPages lists category Appraisers and service offered “Appraiser”, with phone number."
+    }
+  },
+  {
+    "locationSlug": "calgary",
+    "slug": "brian-lehman-evaluations",
+    "name": "Brian Lehman Evaluations and Estate Sale Pros",
+    "website": "https://brianlehmanevaluations.com/",
+    "phone": "+1 403 249 7333",
+    "address": { "city": "Calgary", "region": "AB", "country": "CA" },
+    "specialties": ["estate appraisals", "collectibles", "art", "coins", "stamps"],
+    "services": ["appraisals", "estate sales"],
+    "verification": {
+      "sourceUrl": "https://brianlehmanevaluations.com/contact-us/",
+      "verifiedAt": "2026-01-04",
+      "notes": "Contact page shows phone number; site describes appraisal services in Calgary/Alberta."
+    }
+  },
+  {
+    "locationSlug": "calgary",
+    "slug": "levis-fine-art-auctions-appraisals",
+    "name": "Levis Fine Art Auctions & Appraisals Inc",
+    "website": "http://www.levisauctions.com/",
+    "phone": "+1 403 541 0909",
+    "address": { "city": "Calgary", "region": "AB", "country": "CA" },
+    "specialties": ["fine art"],
+    "services": ["auctions", "appraisals"],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Alberta/Calgary/Levis-Fine-Art-Auctions-Appraisals-Inc/3995953.html",
+      "verifiedAt": "2026-01-04",
+      "notes": "YellowPages entry includes phone number, address in Calgary, and business name including Appraisals."
+    }
+  },
+  {
+    "locationSlug": "calgary",
+    "slug": "ricks-auction-galleries",
+    "name": "Rick's Auction Galleries",
+    "website": "http://www.ricksauctions.ca/",
+    "phone": "+1 587 316 8935",
+    "address": { "city": "Calgary", "region": "AB", "country": "CA" },
+    "specialties": ["antiques", "estate items", "furniture"],
+    "services": ["antique appraisals", "auctions", "estate appraisals"],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Alberta/Calgary/Rick-s-Auction-Galleries/1338693.html",
+      "verifiedAt": "2026-01-04",
+      "notes": "YellowPages entry lists service offered “Antique Appraisal” and provides phone/address."
+    }
+  },
+  {
+    "locationSlug": "calgary",
+    "slug": "aga-jewellery-appraisals",
+    "name": "A G A Jewellery Appraisals Ltd",
+    "website": "http://www.agajewelleryappraisals.com/",
+    "phone": "+1 403 252 3900",
+    "address": { "city": "Calgary", "region": "AB", "country": "CA" },
+    "specialties": ["jewelry"],
+    "services": ["jewellery appraisals"],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Alberta/Calgary/A-G-A-Jewellery-Appraisals-Ltd/2066627.html",
+      "verifiedAt": "2026-01-04",
+      "notes": "YellowPages entry lists Jewellery Appraisals and includes phone/address."
+    }
+  },
+  {
+    "locationSlug": "san-antonio",
+    "slug": "prestige-estate-services-san-antonio-team",
+    "name": "Prestige Estate Services – San Antonio",
+    "website": "https://prestigeestateservices.com/",
+    "phone": "+1 512 489 1717",
+    "address": { "city": "San Antonio", "region": "TX", "country": "US" },
+    "specialties": ["personal property", "estate", "insurance", "charitable donation"],
+    "services": ["personal property appraisals", "estate tax appraisals"],
+    "verification": {
+      "sourceUrl": "https://prestigeestateservices.com/locations/san-antonio-personal-property-appraisers-estate-tax-appraisers/",
+      "verifiedAt": "2026-01-04",
+      "notes": "Location page includes San Antonio address, phone, and describes certified appraisal services."
+    }
+  },
+  {
+    "locationSlug": "san-antonio",
+    "slug": "avalon-antiques-appraisals-estate-sales",
+    "name": "Avalon Antiques, Appraisals & Estate Sales",
+    "phone": "+1 210 222 0265",
+    "address": { "city": "San Antonio", "region": "TX", "country": "US" },
+    "specialties": ["antiques", "estate sales"],
+    "services": ["appraisals", "estate liquidation"],
+    "verification": {
+      "sourceUrl": "https://www.bbb.org/us/tx/san-antonio/profile/estate-liquidators/avalon-antiques-appraisals-estate-sales-0825-90015988",
+      "verifiedAt": "2026-01-04",
+      "notes": "BBB business profile provides phone, San Antonio address, and categories including estate appraisal."
+    }
+  },
+  {
+    "locationSlug": "san-antonio",
+    "slug": "marcia-harris-antiques-estate-sales",
+    "name": "Marcia Harris Antiques & Estate Sales, LLC",
+    "phone": "+1 210 240 6400",
+    "address": { "city": "San Antonio", "region": "TX", "country": "US" },
+    "specialties": ["antiques", "estate sales"],
+    "services": ["estate appraisal"],
+    "verification": {
+      "sourceUrl": "https://www.bbb.org/us/tx/san-antonio/profile/estate-appraisal/marcia-harris-antiques-estate-sales-llc-0825-1000106514",
+      "verifiedAt": "2026-01-04",
+      "notes": "BBB business profile includes phone and categories including Estate Appraisal."
+    }
+  }
+]

@@ -236,7 +236,7 @@ function buildLegacyRedirectHtml(appraiser, canonicalUrl, legacySlug) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>${escapeHtml(appraiser.name)} | Antique Appraiser Directory</title>
+    <title>${escapeHtml(appraiser.name)} | Art &amp; Antique Appraiser Directory</title>
     <link rel="canonical" href="${escapeHtml(canonicalUrl)}" />
     ${gtmHeadSnippet}
     <meta http-equiv="refresh" content="1;url=${escapeHtml(canonicalUrl)}" />
@@ -331,7 +331,7 @@ function generateAppraiserHtml(appraiser) {
       {
         "@type": "ListItem",
         "position": 2,
-        "name": `Antique Appraisers in ${appraiser.address.city}`,
+        "name": `Antique & Art Appraisers in ${appraiser.address.city}`,
         "item": locationUrl
       },
       {
@@ -462,7 +462,7 @@ function generateAppraiserHtml(appraiser) {
             <div class="rounded-lg overflow-hidden shadow-md mb-6">
               <img 
                 src="${normalizeImageUrl(appraiser.imageUrl)}" 
-                alt="${appraiser.name} - Antique Appraiser in ${appraiser.address.city}"
+                alt="${appraiser.name} - Art & Antique Appraiser in ${appraiser.address.city}"
                 class="w-full h-auto object-cover"
                 onerror="this.onerror=null; this.src='${PLACEHOLDER_IMAGE}';"
               />
@@ -707,8 +707,8 @@ function generateAppraiserHtml(appraiser) {
       </div>
   `;
 
-  const seoTitle = `${appraiser.name} - Antique Appraiser in ${appraiser.address.city} | Local Appraisal Services`;
-  const seoDescription = `Get professional antique appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Verified expert with client reviews.`;
+  const seoTitle = `${appraiser.name} - Art & Antique Appraiser in ${appraiser.address.city} | Local Appraisal Services`;
+  const seoDescription = `Get professional art and antique appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Verified expert with client reviews.`;
   const canonicalUrl = appraiserUrl;
 
   return {

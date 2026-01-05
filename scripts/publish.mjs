@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 import { fileURLToPath } from 'node:url';
+import { POPULAR_LOCATION_SLUGS } from './utils/indexable-locations.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
@@ -80,6 +81,18 @@ function escapeXml(value = '') {
     .replace(/'/g, '&apos;');
 }
 
+function escapeAttr(value = '') {
+  return escapeXml(String(value || ''));
+}
+
+function buildMailto({ to, subject, body }) {
+  const params = new URLSearchParams();
+  if (subject) params.set('subject', subject);
+  if (body) params.set('body', body);
+  const query = params.toString();
+  return `mailto:${to}${query ? `?${query}` : ''}`;
+}
+
 function stripHtml(value = '') {
   return String(value).replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
 }
@@ -148,8 +161,8 @@ async function generateAppraiserHub({ publicDir, baseUrl }) {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>All Antique Appraisers | Appraisily Directory</title>
-    <meta name="robots" content="index, follow" />
+    <title>All Art &amp; Antique Appraisers | Appraisily Directory</title>
+    <meta name="robots" content="noindex, follow" />
     <link rel="canonical" href="${escapeXml(`${baseUrl}/appraiser/`)}" />
     <style>
       body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; color: #111827; background: #f9fafb; }
@@ -167,7 +180,7 @@ async function generateAppraiserHub({ publicDir, baseUrl }) {
   <body>
     <header>
       <div>
-        <h1 style="margin: 0; font-size: 20px;">All Antique Appraisers</h1>
+        <h1 style="margin: 0; font-size: 20px;">All Art &amp; Antique Appraisers</h1>
         <div class="meta">${items.length} profiles</div>
       </div>
       <nav class="meta">
@@ -209,16 +222,23 @@ async function generateLocationHub({ publicDir, baseUrl }) {
     .sort((a, b) => a.localeCompare(b));
 
   const items = [];
+  const labelBySlug = new Map();
   for (const slug of slugs) {
     const pagePath = path.join(locationRoot, slug, 'index.html');
     try {
       const html = await fs.readFile(pagePath, 'utf8');
       const label = extractLocationLabel(html, slug);
       items.push({ slug, label });
+      labelBySlug.set(slug, label);
     } catch {
       items.push({ slug, label: slug });
+      labelBySlug.set(slug, slug);
     }
   }
+
+  // Lightweight internal-link boost for the pages that currently drive clicks/impressions.
+  // Keep this list short; the full index remains below.
+  const popularSlugs = POPULAR_LOCATION_SLUGS.filter((slug) => labelBySlug.has(slug));
 
   const hubHtml = `<!doctype html>
 <html lang="en">
@@ -248,11 +268,18 @@ async function generateLocationHub({ publicDir, baseUrl }) {
         <div class="meta">${items.length} locations</div>
       </div>
       <nav class="meta">
-        <a href="/">Home</a> · <a href="/appraiser/">Appraisers</a> · <a href="/sitemap.xml">Sitemap</a>
+        <a href="/">Home</a> · <a href="/methodology/">Methodology</a> · <a href="/get-listed/">Get listed</a> · <a href="/sitemap.xml">Sitemap</a>
       </nav>
     </header>
     <main>
       <div class="card">
+        ${popularSlugs.length ? `<h2 style="margin:0 0 10px;font-size:16px;">Popular locations</h2>
+        <ul style="columns:2;column-gap:24px;margin:0 0 18px;padding-left:18px;">
+${popularSlugs
+  .map((slug) => `          <li><a href="/location/${escapeXml(slug)}/">${escapeXml(labelBySlug.get(slug) || slug)}</a></li>`)
+  .join('\n')}
+        </ul>
+        <hr style="border:none;border-top:1px solid #e5e7eb;margin:14px 0;">` : ''}
         <ul>
 ${items
   .map((item) => `          <li><a href="/location/${escapeXml(item.slug)}/">${escapeXml(item.label)}</a></li>`)
@@ -268,10 +295,171 @@ ${items
   return { outputPath, count: items.length };
 }
 
+async function generateMethodologyPage({ publicDir, baseUrl }) {
+  const outDir = path.join(publicDir, 'methodology');
+  const outputPath = path.join(outDir, 'index.html');
+  await fs.mkdir(outDir, { recursive: true });
+
+  const contactMailto = buildMailto({
+    to: 'info@appraisily.com',
+    subject: 'Directory: question / correction',
+    body: 'Hi Appraisily team,\n\nPage URL:\n\nWhat needs updating:\n\nSource link(s) (optional):\n',
+  });
+
+  const html = `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Directory Methodology | Appraisily</title>
+    <meta name="description" content="How Appraisily builds and maintains the Antique Appraiser Directory: sources, updates, and quality checks." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="${escapeAttr(`${baseUrl}/methodology/`)}" />
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; color: #111827; background: #f9fafb; }
+      header, main { max-width: 960px; margin: 0 auto; padding: 16px; }
+      header { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; }
+      a { color: #2563eb; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 18px; }
+      .meta { color: #6b7280; font-size: 14px; }
+      ul { margin: 10px 0 0; padding-left: 18px; }
+      li { padding: 4px 0; }
+      h1 { margin: 0; font-size: 20px; }
+      h2 { margin: 18px 0 8px; font-size: 16px; }
+      p { margin: 8px 0; line-height: 1.6; color: #374151; }
+      .cta { display: inline-block; margin-top: 12px; padding: 10px 12px; border-radius: 10px; border: 1px solid #dbeafe; background: #eff6ff; color: #1d4ed8; font-weight: 600; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>How We Build This Directory</h1>
+        <div class="meta">Antique Appraiser Directory by Appraisily</div>
+      </div>
+      <nav class="meta">
+        <a href="/">Home</a> · <a href="/location/">Locations</a> · <a href="/get-listed/">Get listed</a> · <a href="/sitemap.xml">Sitemap</a>
+      </nav>
+    </header>
+    <main>
+      <div class="card">
+        <p>This directory helps people find antique appraisal providers by location and provides an online alternative via Appraisily when a local option isn’t available.</p>
+
+        <h2>What you’ll find here</h2>
+        <ul>
+          <li>Location pages that summarize appraisal needs (insurance, estates, donations, resale) and list local providers where available.</li>
+          <li>A consistent FAQ so users understand what info to prepare and what reports are typically required.</li>
+          <li>Links for business owners to request inclusion or corrections.</li>
+        </ul>
+
+        <h2>Quality & trust</h2>
+        <ul>
+          <li>We avoid publishing unverified review counts or ratings in structured data.</li>
+          <li>We prioritize updates for locations with real search demand (Search Console impressions/clicks).</li>
+          <li>Users should verify details directly with the provider (fees, turnaround, service area, report type).</li>
+        </ul>
+
+        <h2>Report an issue</h2>
+        <p>If a listing looks incorrect or you’re the owner and want changes, email us with the page URL and the correction.</p>
+        <p><a class="cta" href="${escapeAttr(contactMailto)}" data-gtm-event="directory_cta" data-gtm-cta="directory_contact">Email the directory team</a></p>
+      </div>
+    </main>
+  </body>
+</html>
+`;
+
+  await fs.writeFile(outputPath, html, 'utf8');
+  return { outputPath };
+}
+
+async function generateGetListedPage({ publicDir, baseUrl }) {
+  const outDir = path.join(publicDir, 'get-listed');
+  const outputPath = path.join(outDir, 'index.html');
+  await fs.mkdir(outDir, { recursive: true });
+
+  const mailto = buildMailto({
+    to: 'info@appraisily.com',
+    subject: 'Directory: request to get listed',
+    body: [
+      'Hi Appraisily team,',
+      '',
+      'Please add/update my appraisal business listing in the Antique Appraiser Directory.',
+      '',
+      'Business name:',
+      'City / State (or Province):',
+      'Website:',
+      'Email:',
+      'Phone (optional):',
+      'Services (insurance/estate/donation/resale/etc):',
+      'Specialties (e.g., jewelry, furniture, art, coins):',
+      'Service area (travel radius / remote?):',
+      '',
+      'Thanks!',
+    ].join('\n'),
+  });
+
+  const html = `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Get Listed | Appraisily Directory</title>
+    <meta name="description" content="Are you an antique appraiser? Request a listing or correction in the Appraisily Antique Appraiser Directory." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="${escapeAttr(`${baseUrl}/get-listed/`)}" />
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; color: #111827; background: #f9fafb; }
+      header, main { max-width: 960px; margin: 0 auto; padding: 16px; }
+      header { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; }
+      a { color: #2563eb; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 18px; }
+      .meta { color: #6b7280; font-size: 14px; }
+      h1 { margin: 0; font-size: 20px; }
+      p { margin: 8px 0; line-height: 1.6; color: #374151; }
+      ul { margin: 8px 0 0; padding-left: 18px; }
+      li { padding: 4px 0; }
+      .cta { display: inline-block; margin-top: 12px; padding: 10px 12px; border-radius: 10px; border: 1px solid #dbeafe; background: #eff6ff; color: #1d4ed8; font-weight: 600; }
+      code { background: #f3f4f6; padding: 2px 6px; border-radius: 8px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Get Listed</h1>
+        <div class="meta">Antique Appraiser Directory by Appraisily</div>
+      </div>
+      <nav class="meta">
+        <a href="/">Home</a> · <a href="/location/">Locations</a> · <a href="/methodology/">Methodology</a> · <a href="/sitemap.xml">Sitemap</a>
+      </nav>
+    </header>
+    <main>
+      <div class="card">
+        <p>If you’re an antique appraiser (or you manage a valuation team) you can request inclusion or correction in this directory.</p>
+        <p><a class="cta" href="${escapeAttr(mailto)}" data-gtm-event="directory_cta" data-gtm-cta="get_listed_email">Email to request a listing</a></p>
+        <p class="meta">Email: <code>info@appraisily.com</code></p>
+
+        <p style="margin-top: 14px;">To speed up processing, include:</p>
+        <ul>
+          <li>Business name + website</li>
+          <li>City/state (or province) + service area</li>
+          <li>Specialties + services (insurance/estate/donation/resale)</li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
+`;
+
+  await fs.writeFile(outputPath, html, 'utf8');
+  return { outputPath };
+}
+
 async function ensureHomeCrawlLinks({ publicDir }) {
   const homePath = path.join(publicDir, 'index.html');
   const marker = 'data-appraisily-crawl-links';
-  const injection = `\n<div ${marker} style="max-width:960px;margin:0 auto;padding:12px 16px;font:14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#6b7280;">\n  <a href=\"/appraiser/\">Browse all appraisers</a> · <a href=\"/location/\">Browse locations</a> · <a href=\"/sitemap.xml\">Sitemap</a>\n</div>\n`;
+  const injection = `\n<div ${marker} style="max-width:960px;margin:0 auto;padding:12px 16px;font:14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#6b7280;">\n  <a href=\"/location/\">Browse locations</a> · <a href=\"/methodology/\">Methodology</a> · <a href=\"/get-listed/\">Get listed</a> · <a href=\"/sitemap.xml\">Sitemap</a>\n</div>\n`;
+  const markerBlockRe = /<div[^>]*\bdata-appraisily-crawl-links\b[^>]*>[\s\S]*?<\/div>/i;
 
   let html = '';
   try {
@@ -281,7 +469,12 @@ async function ensureHomeCrawlLinks({ publicDir }) {
     return { updated: false };
   }
 
-  if (html.includes(marker)) return { updated: false };
+  if (html.includes(marker)) {
+    const updatedHtml = html.replace(markerBlockRe, injection.trim());
+    if (updatedHtml === html) return { updated: false };
+    await fs.writeFile(homePath, updatedHtml, 'utf8');
+    return { updated: true };
+  }
   if (!html.includes('</body>')) return { updated: false };
 
   const updatedHtml = html.replace('</body>', `${injection}</body>`);
@@ -420,6 +613,14 @@ async function main() {
   const releaseDir = path.join(options.releaseRoot, timestamp);
   const currentSymlink = path.join(options.releaseRoot, 'current');
 
+  run(process.execPath, [path.join(__dirname, 'validate-verified-providers.mjs')], {
+    cwd: REPO_ROOT,
+  });
+
+  run(process.execPath, [path.join(__dirname, 'build-standardized-with-verified.mjs')], {
+    cwd: REPO_ROOT,
+  });
+
   run(process.execPath, [path.join(__dirname, 'generate-location-pages.mjs'), '--public-dir', options.publicDir], {
     cwd: REPO_ROOT,
   });
@@ -438,6 +639,8 @@ async function main() {
 
   const locationHub = await generateLocationHub({ publicDir: options.publicDir, baseUrl: options.baseUrl });
   const appraiserHub = await generateAppraiserHub({ publicDir: options.publicDir, baseUrl: options.baseUrl });
+  const methodology = await generateMethodologyPage({ publicDir: options.publicDir, baseUrl: options.baseUrl });
+  const getListed = await generateGetListedPage({ publicDir: options.publicDir, baseUrl: options.baseUrl });
   const crawlLinks = await ensureHomeCrawlLinks({ publicDir: options.publicDir });
 
   const sitemap = await regenerateSitemap({
@@ -452,6 +655,8 @@ async function main() {
           action: 'dry-run',
           locationHub,
           appraiserHub,
+          methodology,
+          getListed,
           crawlLinks,
           sitemap,
           releaseDir,
@@ -482,6 +687,8 @@ async function main() {
         action: 'published',
         locationHub,
         appraiserHub,
+        methodology,
+        getListed,
         crawlLinks,
         sitemap,
         releaseDir,

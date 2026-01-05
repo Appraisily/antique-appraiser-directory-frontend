@@ -2,103 +2,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
-
-// Data-driven allowlist (top /location/* pages by GSC impressions over 90 days).
-// Source snapshot: /srv/manager/seo/antique-directory-pages-90d.csv (generated 2025-12-26).
-const INDEXABLE_LOCATION_SLUGS = new Set([
-  'kansas-city',
-  'des-moines',
-  'seattle',
-  'philadelphia',
-  'columbus',
-  'denver',
-  'milwaukee',
-  'tucson',
-  'cincinnati',
-  'cleveland',
-  'baltimore',
-  'chicago',
-  'honolulu',
-  'oklahoma-city',
-  'tampa',
-  'ottawa',
-  'san-antonio',
-  'pittsburgh',
-  'las-vegas',
-  'richmond',
-  'toledo',
-  'indianapolis',
-  'new-york',
-  'tulsa',
-  'louisville',
-  'minneapolis',
-  'detroit',
-  'fort-worth',
-  'calgary',
-  'austin',
-  'nashville',
-  'atlanta',
-  'hamilton',
-  'kelowna',
-  'palm-beach',
-  'st-louis',
-  'orlando',
-  'aspen',
-  'portland',
-  'st-paul',
-  'edmonton',
-  'washington-dc',
-  'omaha',
-  'toronto',
-  'sacramento',
-  'virginia-beach',
-  'saskatoon',
-  'los-angeles',
-  'buffalo',
-  'lexington',
-  'memphis',
-  'jacksonville',
-  'san-francisco',
-  'vancouver',
-  'baton-rouge',
-  'halifax',
-  'wichita',
-  'charleston',
-  'providence',
-  'rochester',
-  'little-rock',
-  'san-diego',
-  'san-jose',
-  'st-john-s',
-  'kitchener',
-  'sudbury',
-  'colorado-springs',
-  'victoria',
-  'albuquerque',
-  'miami',
-  'anchorage',
-  'birmingham',
-  'fredericton',
-  'long-beach',
-  'santa-fe',
-  'quebec-city',
-  'raleigh',
-  'oakland',
-  'montreal',
-  'moncton',
-  'norfolk',
-  'savannah',
-  'charlottetown',
-  'fort-lauderdale',
-  'arlington',
-  'whitehorse',
-  'el-paso',
-  'boston',
-  'thunder-bay',
-  'salt-lake-city',
-  'london',
-  'new-orleans',
-]);
+import { looksLikeAiJunk } from './utils/text-sanitize.js';
+import { INDEXABLE_LOCATION_SLUG_SET } from './utils/indexable-locations.js';
 
 function parseArgs(argv) {
   const args = [...argv];
@@ -170,6 +75,7 @@ function toArray(value) {
 function analyzeAppraiserJsonLd(html) {
   const blocks = extractJsonLdBlocks(html);
   for (const block of blocks) {
+    const suspicious = looksLikeAiJunk(block);
     try {
       const parsed = JSON.parse(block);
       const items = toArray(parsed).flatMap((entry) => toArray(entry));
@@ -181,13 +87,16 @@ function analyzeAppraiserJsonLd(html) {
 
         const reviewCountRaw = item.aggregateRating?.reviewCount ?? item.aggregateRating?.ratingCount;
         const reviewCount = Number.parseInt(String(reviewCountRaw ?? '').trim(), 10);
-        const hasReviews = Number.isFinite(reviewCount) && reviewCount > 0;
+        const hasReviews = !suspicious && Number.isFinite(reviewCount) && reviewCount > 0 && reviewCount < 5000;
 
         const telephone = String(item.telephone ?? '').trim();
         const email = String(item.email ?? '').trim();
-        const hasContact = Boolean(telephone || email);
+        const digits = telephone.replace(/[^\d+]/g, '');
+        const telephoneOk = digits.length >= 10 && digits.length <= 15;
+        const emailOk = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email) && !/example/i.test(email);
+        const hasContact = !suspicious && Boolean((telephone && telephoneOk) || (email && emailOk));
 
-        return { hasReviews, hasContact };
+        return { hasReviews, hasContact, suspicious };
       }
     } catch {
       continue;
@@ -261,7 +170,10 @@ async function main() {
 
     if (isLocationPage) {
       const slug = rel.split('/')[1] || '';
-      if (INDEXABLE_LOCATION_SLUGS.has(slug)) {
+      if (slug === 'index.html') {
+        robots = 'index, follow';
+        stats.indexableLocation += 1;
+      } else if (INDEXABLE_LOCATION_SLUG_SET.has(slug)) {
         robots = 'index, follow';
         stats.indexableLocation += 1;
       } else {
@@ -273,14 +185,10 @@ async function main() {
         robots = 'noindex, follow';
         stats.noindexLegacyRedirect += 1;
       } else {
-        const signals = analyzeAppraiserJsonLd(updated);
-        if (signals && !signals.hasContact && !signals.hasReviews) {
-          robots = 'noindex, follow';
-          stats.noindexAppraiserLowValue += 1;
-        } else {
-          robots = 'index, follow';
-          stats.indexableAppraiser += 1;
-        }
+        // Appraiser detail pages frequently contain low-confidence or auto-generated fields.
+        // Concentrate crawl budget on indexable location pages until appraiser profiles are verified.
+        robots = 'noindex, follow';
+        stats.noindexAppraiserLowValue += 1;
       }
 
       const branded = applyAntiqueBrandingFixes(updated);

@@ -30,3 +30,6 @@ dist-ssr
 # Search Console inspector secrets
 tools/search-console-inspector/.env
 tools/search-console-inspector/tokens/
+
+# Generated merged dataset (do not commit)
+src/data/standardized_verified/

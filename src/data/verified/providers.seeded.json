@@ -1,0 +1,178 @@
+[
+  {
+    "locationSlug": "calgary",
+    "slug": "calgary-antiques-calgary-ltd",
+    "name": "Antiques Calgary Ltd",
+    "website": "http://www.antiquescalgary.com/",
+    "phone": "+1 403 301 4822",
+    "address": {
+      "city": "Calgary",
+      "region": "AB",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Alberta/Calgary/Antiques-Calgary-Ltd/1870678.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“antique appraisal”, Calgary AB)."
+    }
+  },
+  {
+    "locationSlug": "halifax",
+    "slug": "halifax-zwicker-s-gallery",
+    "name": "Zwicker's Gallery",
+    "website": "http://www.zwickersgallery.ca/",
+    "phone": "+1 902 703 3943",
+    "address": {
+      "city": "Halifax",
+      "region": "NS",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Nova-Scotia/Halifax/Zwicker-s-Gallery/1751602.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“antique appraisal”, Halifax NS)."
+    }
+  },
+  {
+    "locationSlug": "kelowna",
+    "slug": "kelowna-diamond-gallery-inc",
+    "name": "Diamond Gallery Inc",
+    "website": "http://www.kelownadiamond.ca/",
+    "phone": "+1 778 484 5533",
+    "address": {
+      "city": "Kelowna",
+      "region": "BC",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/British-Columbia/Kelowna/Diamond-Gallery-Inc/7900134.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Kelowna BC)."
+    }
+  },
+  {
+    "locationSlug": "kelowna",
+    "slug": "kelowna-european-goldsmith-fine-jewellery",
+    "name": "European Goldsmith Fine Jewellery",
+    "website": "http://www.europeangoldsmith.com/",
+    "phone": "+1 250 860 6657",
+    "address": {
+      "city": "Kelowna",
+      "region": "BC",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/British-Columbia/Kelowna/European-Goldsmith-Fine-Jewellery/2257833.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Kelowna BC)."
+    }
+  },
+  {
+    "locationSlug": "thunder-bay",
+    "slug": "thunder-bay-black-cat-antiques-and-appraisals",
+    "name": "Black Cat Antiques & Appraisals",
+    "website": "http://www.blackcatantiques.net/",
+    "phone": "+1 807 623 5502",
+    "address": {
+      "city": "Thunder Bay",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/Thunder-Bay/Black-Cat-Antiques-Appraisals/2126697.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“antique appraisal”, Thunder Bay ON)."
+    }
+  },
+  {
+    "locationSlug": "vancouver",
+    "slug": "vancouver-edward-tokarek-appraisals",
+    "name": "Edward Tokarek Appraisals",
+    "website": "http://www.edward-tokarek.com/",
+    "phone": "+1 604 614 6252",
+    "address": {
+      "city": "Vancouver",
+      "region": "BC",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/British-Columbia/Vancouver/Edward-Tokarek-Appraisals/101711004.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“antique appraisal”, Vancouver BC)."
+    }
+  },
+  {
+    "locationSlug": "vancouver",
+    "slug": "vancouver-antique-appraisals-ca",
+    "name": "Antique Appraisals.ca",
+    "website": "",
+    "phone": "+1 604 312 6981",
+    "address": {
+      "city": "Vancouver",
+      "region": "BC",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/British-Columbia/Antique-Appraisals-ca/101851869.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“antique appraisal”, Vancouver BC)."
+    }
+  },
+  {
+    "locationSlug": "victoria",
+    "slug": "victoria-thompson-art-and-antique-appraisals",
+    "name": "Thompson Art and Antique Appraisals",
+    "website": "http://www.facebook.com/253036215166756",
+    "phone": "+1 250 516 9885",
+    "address": {
+      "city": "Victoria",
+      "region": "BC",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/British-Columbia/Victoria/Thompson-Art-and-Antique-Appraisals/101046174.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“antique appraisal”, Victoria BC)."
+    }
+  }
+]
