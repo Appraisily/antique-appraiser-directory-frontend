@@ -285,6 +285,15 @@ export function StandardizedLocationPage() {
                 className="inline-flex items-center justify-center rounded-md border border-blue-200 px-5 py-3 text-blue-700 font-semibold hover:bg-blue-50 transition-colors"
                 data-gtm-event="cta_click"
                 data-gtm-placement="location_hero_secondary"
+                onClick={(event) => {
+                  event.preventDefault();
+                  document.getElementById('local-appraisers')?.scrollIntoView({ behavior: 'smooth' });
+                  window.history.replaceState(
+                    null,
+                    '',
+                    `${window.location.pathname}${window.location.search}#local-appraisers`
+                  );
+                }}
               >
                 See local appraisers
               </a>

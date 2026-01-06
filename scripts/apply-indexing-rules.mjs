@@ -106,13 +106,11 @@ function analyzeAppraiserJsonLd(html) {
   return null;
 }
 
-function applyAntiqueBrandingFixes(html) {
+function applyDirectoryBrandingFixes(html) {
+  // Keep changes narrow: avoid broad "Art" -> "Antique" replacements, because the directory now
+  // intentionally targets both art + antique appraisal queries.
   let updated = html;
-  updated = updated.replaceAll('Expert Art Valuation Services', 'Expert Antique Valuation Services');
-  updated = updated.replaceAll('Art Appraiser', 'Antique Appraiser');
-  updated = updated.replaceAll('art appraisal services', 'antique appraisal services');
-  updated = updated.replaceAll('Need Art Appraisal Services?', 'Need Antique Appraisal Services?');
-  updated = updated.replaceAll('Art Appraisers in ', 'Antique Appraisers in ');
+  updated = updated.replaceAll('Art Appraiser Directory', 'Antique & Art Appraiser Directory');
   return updated;
 }
 
@@ -191,7 +189,7 @@ async function main() {
         stats.noindexAppraiserLowValue += 1;
       }
 
-      const branded = applyAntiqueBrandingFixes(updated);
+      const branded = applyDirectoryBrandingFixes(updated);
       if (branded !== updated) {
         updated = branded;
         stats.brandingFixes += 1;

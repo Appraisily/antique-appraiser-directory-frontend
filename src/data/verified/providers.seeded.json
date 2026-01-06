@@ -174,5 +174,423 @@
       "sourceType": "YellowPages.ca",
       "notes": "Seeded from YellowPages.ca (“antique appraisal”, Victoria BC)."
     }
+  },
+  {
+    "locationSlug": "charlottetown",
+    "slug": "charlottetown-frank-the-jeweler",
+    "name": "Frank The Jeweler",
+    "website": "",
+    "phone": "+1 902 367 2661",
+    "address": {
+      "city": "Charlottetown",
+      "region": "PE",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Prince-Edward-Island/Charlottetown/Frank-The-Jeweler/100863705.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Charlottetown PE)."
+    }
+  },
+  {
+    "locationSlug": "charlottetown",
+    "slug": "charlottetown-charm-diamond-centres",
+    "name": "Charm Diamond Centres",
+    "website": "https://charmdiamondcentres.com/",
+    "phone": "+1 902 368 3797",
+    "address": {
+      "city": "Charlottetown",
+      "region": "PE",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Prince-Edward-Island/Charm-Diamond-Centres/348969.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Charlottetown PE)."
+    }
+  },
+  {
+    "locationSlug": "edmonton",
+    "slug": "edmonton-aestim-art-appraisals-inc",
+    "name": "Aestim Art Appraisals Inc",
+    "website": "",
+    "phone": "+1 780 991 2913",
+    "address": {
+      "city": "Edmonton",
+      "region": "AB",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "art appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Alberta/Edmonton/Aestim-Art-Appraisals-Inc/102894441.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“art appraisals”, Edmonton AB)."
+    }
+  },
+  {
+    "locationSlug": "fredericton",
+    "slug": "fredericton-peppers-house-antiques-and-appraisal",
+    "name": "Peppers' House Antiques & Appraisal",
+    "website": "",
+    "phone": "+1 800 590 6422",
+    "address": {
+      "city": "Fredericton",
+      "region": "NB",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/New-Brunswick/Fredericton/Peppers-House-Antiques-Appraisal/102500549.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“antique appraisal”, Fredericton NB)."
+    }
+  },
+  {
+    "locationSlug": "hamilton",
+    "slug": "hamilton-h-williams-jewellery",
+    "name": "H Williams Jewellery",
+    "website": "http://www.hwilliamsjewellery.com/",
+    "phone": "+1 905 387 8484",
+    "address": {
+      "city": "Hamilton",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/Hamilton/H-Williams-Jewellery/8100761.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Hamilton ON)."
+    }
+  },
+  {
+    "locationSlug": "hamilton",
+    "slug": "hamilton-charm-diamond-centres",
+    "name": "Charm Diamond Centres",
+    "website": "https://charmdiamondcentres.com/",
+    "phone": "+1 905 578 2882",
+    "address": {
+      "city": "Hamilton",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/Hamilton/Charm-Diamond-Centres/5944110.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Hamilton ON)."
+    }
+  },
+  {
+    "locationSlug": "kingston",
+    "slug": "kingston-cobico-jewellers",
+    "name": "Cobico Jewellers",
+    "website": "https://www.cobicojewellers.com/",
+    "phone": "+1 343 302 0263",
+    "address": {
+      "city": "Kingston",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/Kingston/Cobico-Jewellers/8094622.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Kingston ON)."
+    }
+  },
+  {
+    "locationSlug": "kingston",
+    "slug": "kingston-kimberley-jewellery-appraisal",
+    "name": "Kimberley Jewellery Appraisal",
+    "website": "http://www.kimberleyappraisal.com/",
+    "phone": "+1 613 546 2261",
+    "address": {
+      "city": "Kingston",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/Kingston/Kimberley-Jewellery-Appraisal/3150034.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Kingston ON)."
+    }
+  },
+  {
+    "locationSlug": "kitchener",
+    "slug": "kitchener-northern-gold-exchange",
+    "name": "Northern Gold Exchange",
+    "website": "http://www.northerncash.com/",
+    "phone": "+1 226 444 9050",
+    "address": {
+      "city": "Kitchener",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/Kitchener/Northern-Gold-Exchange/8164939.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Kitchener ON)."
+    }
+  },
+  {
+    "locationSlug": "kitchener",
+    "slug": "kitchener-northern-cash",
+    "name": "Northern Cash",
+    "website": "http://northerncash.com/",
+    "phone": "+1 519 579 1500",
+    "address": {
+      "city": "Kitchener",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/Kitchener/Northern-Cash/6275284.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Kitchener ON)."
+    }
+  },
+  {
+    "locationSlug": "london",
+    "slug": "london-gordon-s-gold-jewellers",
+    "name": "Gordon's Gold Jewellers",
+    "website": "http://www.gordonsgold.ca/",
+    "phone": "+1 226 777 6793",
+    "address": {
+      "city": "London",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/London/Gordon-s-Gold-Jewellers/3438941.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, London ON)."
+    }
+  },
+  {
+    "locationSlug": "london",
+    "slug": "london-sumner-jewellers",
+    "name": "Sumner Jewellers",
+    "website": "http://sumnerjewellers.com/",
+    "phone": "+1 519 432 1131",
+    "address": {
+      "city": "London",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/London/Sumner-Jewellers/1525504.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, London ON)."
+    }
+  },
+  {
+    "locationSlug": "moncton",
+    "slug": "moncton-jagoes-fine-jewellery-ltd",
+    "name": "Jagoes' Fine Jewellery Ltd",
+    "website": "https://jagoesfinejewellery.com/",
+    "phone": "+1 506 383 4653",
+    "address": {
+      "city": "Moncton",
+      "region": "NB",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/New-Brunswick/Moncton/Jagoes-Fine-Jewellery-Ltd/6508695.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Moncton NB)."
+    }
+  },
+  {
+    "locationSlug": "ottawa",
+    "slug": "ottawa-goldform-manufacturing-jewellers-ltd",
+    "name": "Goldform Manufacturing Jewellers Ltd",
+    "website": "http://www.goldform.ca/",
+    "phone": "+1 613 604 0287",
+    "address": {
+      "city": "Ottawa",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/Ottawa/Goldform-Manufacturing-Jewellers-Ltd/2293857.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Ottawa ON)."
+    }
+  },
+  {
+    "locationSlug": "regina",
+    "slug": "regina-susan-whitney-art-appraisals-inc",
+    "name": "Susan Whitney Art Appraisals Inc",
+    "website": "http://susanwhitneyappraisals.com/",
+    "phone": "+1 306 569 9010",
+    "address": {
+      "city": "Regina",
+      "region": "SK",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "art appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Saskatchewan/Susan-Whitney-Art-Appraisals-Inc/7730840.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“art appraisals”, Regina SK)."
+    }
+  },
+  {
+    "locationSlug": "saskatoon",
+    "slug": "saskatoon-king-ling-jewellery-appraisal",
+    "name": "King Ling Jewellery Appraisal",
+    "website": "",
+    "phone": "+1 306 881 0086",
+    "address": {
+      "city": "Saskatoon",
+      "region": "SK",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Saskatchewan/Saskatoon/King-Ling-Jewellery-Appraisal/102530047.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Saskatoon SK)."
+    }
+  },
+  {
+    "locationSlug": "sudbury",
+    "slug": "sudbury-charm-diamond-centres",
+    "name": "Charm Diamond Centres",
+    "website": "https://charmdiamondcentres.com/",
+    "phone": "+1 705 521 1600",
+    "address": {
+      "city": "Sudbury",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/Sudbury/Charm-Diamond-Centres/7983107.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Sudbury ON)."
+    }
+  },
+  {
+    "locationSlug": "toronto",
+    "slug": "toronto-sewell-john-antique-and-fine-art-appraisals",
+    "name": "Sewell John Antique & Fine Art Appraisals",
+    "website": "",
+    "phone": "+1 519 273 6200",
+    "address": {
+      "city": "Toronto",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "art appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/Sewell-John-Antique-Fine-Art-Appraisals/3937059.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“art appraisals”, Toronto ON)."
+    }
+  },
+  {
+    "locationSlug": "toronto",
+    "slug": "toronto-quality-jewellers-ltd",
+    "name": "Quality Jewellers Ltd",
+    "website": "https://www.facebook.com/pages/Quality-Jewellers-Ltd/210671942810126",
+    "phone": "+1 647 558 3042",
+    "address": {
+      "city": "Toronto",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "jewellery appraisals"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.yellowpages.ca/bus/Ontario/Toronto/Quality-Jewellers-Ltd/2484008.html",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "YellowPages.ca",
+      "notes": "Seeded from YellowPages.ca (“jewellery appraisals”, Toronto ON)."
+    }
   }
 ]

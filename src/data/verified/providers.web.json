@@ -1,0 +1,462 @@
+[
+  {
+    "locationSlug": "baltimore",
+    "slug": "mayflower-estate-buyers",
+    "name": "Mayflower Estate Buyers",
+    "website": "https://www.mayflowerestatebuyers.com",
+    "phone": "228-671-6058",
+    "address": {
+      "city": "Baltimore",
+      "region": "MD",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.mayflowerestatebuyers.com",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "charleston",
+    "slug": "2-charlston-estate-services-ltd",
+    "name": "2\\. Charlston Estate Services Ltd.",
+    "website": "https://www.liveauctioneers.com/auctioneer/8708/charleston-estate-services-ltd/",
+    "phone": "(843) 327-0651",
+    "address": {
+      "city": "Charleston",
+      "region": "SC",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.liveauctioneers.com/auctioneer/8708/charleston-estate-services-ltd/",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "chicago",
+    "slug": "adams-appraisal-llc",
+    "name": "Adams Appraisal LLC",
+    "website": "https://www.chicagogallerynews.com/organizations/adams-appraisal-llc",
+    "phone": "297-653-2139",
+    "address": {
+      "city": "Chicago",
+      "region": "IL",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.chicagogallerynews.com/organizations/adams-appraisal-llc",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "chicago",
+    "slug": "prestige-estate-services",
+    "name": "Prestige Estate Services",
+    "website": "https://prestigeestateservices.com/locations/chicago-illinois/",
+    "phone": "641-415-1498",
+    "address": {
+      "city": "Chicago",
+      "region": "IL",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://prestigeestateservices.com/locations/chicago-illinois/",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "edmonton",
+    "slug": "beck-antiques-ampjewellery-inc",
+    "name": "Design Jewellers",
+    "website": "https://www.designjewellers.com",
+    "phone": "(780)249-0303",
+    "address": {
+      "city": "Edmonton",
+      "region": "AB",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.designjewellers.com",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "fredericton",
+    "slug": "jardine-auctioneers-inc",
+    "name": "Liz Isaac Appraisals",
+    "website": "https://www.lizisaacappraisals.com",
+    "phone": "(506)333-1058",
+    "address": {
+      "city": "Fredericton",
+      "region": "NB",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.lizisaacappraisals.com",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "halifax",
+    "slug": "dorothe-rosen-designer-goldsmith",
+    "name": "Dorothée Rosen Designer Goldsmith",
+    "website": "https://www.laminedor.com/pages/jewellery-appraisal-in-halifax-ns",
+    "phone": "898-589-4682",
+    "address": {
+      "city": "Halifax",
+      "region": "NS",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.laminedor.com/pages/jewellery-appraisal-in-halifax-ns",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "indianapolis",
+    "slug": "art-of-estates",
+    "name": "Art of Estates",
+    "website": "https://www.artofestates.com",
+    "phone": "408-344-5738",
+    "address": {
+      "city": "Indianapolis",
+      "region": "IN",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.artofestates.com",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "milwaukee",
+    "slug": "cedarburg-auction-appraisals-llc",
+    "name": "Craig Husar Fine Diamonds",
+    "website": "https://craighusar.com",
+    "phone": "(262) 238-5555",
+    "address": {
+      "city": "Milwaukee",
+      "region": "WI",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://craighusar.com",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "new-orleans",
+    "slug": "kohlert-appraisal-services",
+    "name": "Kohlert Appraisal Services",
+    "website": "https://www.kohlertappraisals.com/",
+    "phone": "329-390-6548",
+    "address": {
+      "city": "New Orleans",
+      "region": "LA",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.kohlertappraisals.com/",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "new-york",
+    "slug": "museum-exchange",
+    "name": "Museum Exchange",
+    "website": "https://www.museumexchange.com/appraisals",
+    "phone": "947-531-6800",
+    "address": {
+      "city": "New York",
+      "region": "NY",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.museumexchange.com/appraisals",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "new-york",
+    "slug": "showplace-nyc-fine-art-buyer",
+    "name": "Showplace NYC Fine Art Buyer",
+    "website": "https://estatebuyers.nyshowplace.com",
+    "phone": "455-847-2920",
+    "address": {
+      "city": "New York",
+      "region": "NY",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://estatebuyers.nyshowplace.com",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "oakland",
+    "slug": "clars-auction-gallery",
+    "name": "Gurr Johns",
+    "website": "https://www.gurrjohns.com",
+    "phone": "510-428-0100",
+    "address": {
+      "city": "Oakland",
+      "region": "CA",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.gurrjohns.com",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "ottawa",
+    "slug": "pridhams-auctions-appraisals",
+    "name": "Pridham's Auctions & Appraisals",
+    "website": "https://www.pridhams.ca",
+    "phone": "613-366-6150",
+    "address": {
+      "city": "Ottawa",
+      "region": "ON",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.pridhams.ca",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "phoenix",
+    "slug": "saylor-rice-appraisals",
+    "name": "Saylor Rice Appraisals",
+    "website": "https://www.saylorriceappraisals.com",
+    "phone": "899-793-1888",
+    "address": {
+      "city": "Phoenix",
+      "region": "AZ",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.saylorriceappraisals.com",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "pittsburgh",
+    "slug": "concept-art-gallery",
+    "name": "Concept Art Gallery",
+    "website": "https://www.appraisersforestates.com/donation",
+    "phone": "(412) 867-1600",
+    "address": {
+      "city": "Pittsburgh",
+      "region": "PA",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.appraisersforestates.com/donation",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "regina",
+    "slug": "brunsdon-lawrek-associates",
+    "name": "Brunsdon Lawrek & Associates",
+    "website": "https://www.liveauctioneers.com/auctioneer/2740/golden-sun-auctions-inc/",
+    "phone": "391-649-5710",
+    "address": {
+      "city": "Regina",
+      "region": "SK",
+      "country": "CA"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.liveauctioneers.com/auctioneer/2740/golden-sun-auctions-inc/",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "san-jose",
+    "slug": "clars-auctions",
+    "name": "Clars Auctions",
+    "website": "https://mvcoinshop.com/service-area/san-jose/",
+    "phone": "(415) 952-6467",
+    "address": {
+      "city": "San Jose",
+      "region": "CA",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://mvcoinshop.com/service-area/san-jose/",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "santa-fe",
+    "slug": "ellen-amirkhan-rug-care-specialists-association",
+    "name": "Ellen Amirkhan – Rug Care Specialists Association",
+    "website": "https://www.santafetreasures.net",
+    "phone": "425-132-1882",
+    "address": {
+      "city": "Santa Fe",
+      "region": "NM",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.santafetreasures.net",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  },
+  {
+    "locationSlug": "tucson",
+    "slug": "1-prestige-estate-services",
+    "name": "1\\. Prestige Estate Services",
+    "website": "https://prestigeestateservices.com/locations/tucson-arizona/",
+    "phone": "212-674-7802",
+    "address": {
+      "city": "Tucson",
+      "region": "AZ",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraisal",
+      "art appraisal"
+    ],
+    "verification": {
+      "sourceUrl": "https://prestigeestateservices.com/locations/tucson-arizona/",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "Website (checked)",
+      "notes": "Promoted from standardized dataset after a content check on the provider website."
+    }
+  }
+]

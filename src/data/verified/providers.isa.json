@@ -1077,5 +1077,623 @@
       "sourceType": "ISA directory",
       "notes": "Imported from ISA Find an Appraiser directory (Santa Fe NM)."
     }
+  },
+  {
+    "locationSlug": "albuquerque",
+    "slug": "albuquerque-linda-matthews",
+    "name": "Linda Matthews",
+    "website": "",
+    "phone": "(505) 920-6942",
+    "address": {
+      "city": "Santa Fe",
+      "region": "NM",
+      "country": "US"
+    },
+    "specialties": [
+      "Art",
+      "Auction Company/Gallery",
+      "Drawings",
+      "Paintings",
+      "Prints",
+      "Bronzes"
+    ],
+    "services": [
+      "Auction",
+      "Donations",
+      "Estate Tax",
+      "Insurance Claims",
+      "Non-Cash Charitable Donations"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3120/linda-matthews",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Albuquerque NM)."
+    }
+  },
+  {
+    "locationSlug": "albuquerque",
+    "slug": "albuquerque-kent-w-mcdonald",
+    "name": "Kent W McDonald",
+    "website": "",
+    "phone": "(505) 265-2842",
+    "address": {
+      "city": "Albuquerque",
+      "region": "NM",
+      "country": "US"
+    },
+    "specialties": [
+      "American Indigenous Art",
+      "Art - Asian",
+      "Art - Impressionist & Modern",
+      "Paintings",
+      "Pottery",
+      "American Indigenous Artifacts",
+      "Arts & Crafts",
+      "Prints"
+    ],
+    "services": [
+      "Broker",
+      "Consultant",
+      "Damage Claims",
+      "Divorce Settlements",
+      "Donations",
+      "Estate Probate",
+      "Insurance Claims",
+      "Retail - Art"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/289/kent-w-mcdonald",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Albuquerque NM)."
+    }
+  },
+  {
+    "locationSlug": "arlington",
+    "slug": "arlington-beverly-j-morris",
+    "name": "Beverly J. Morris",
+    "website": "",
+    "phone": "(972) 418-9092",
+    "address": {
+      "city": "Dallas",
+      "region": "TX",
+      "country": "US"
+    },
+    "specialties": [
+      "Ceramics",
+      "Collectibles",
+      "Porcelain",
+      "Silver",
+      "Crystal",
+      "Jewelry - Costume"
+    ],
+    "services": [
+      "Divorce Settlements",
+      "Equitable Distribution",
+      "Estate Probate"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1643/beverly-j-morris",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Arlington TX)."
+    }
+  },
+  {
+    "locationSlug": "arlington",
+    "slug": "arlington-marigold-a-lamb",
+    "name": "Marigold A. Lamb",
+    "website": "",
+    "phone": "(972) 771-9664",
+    "address": {
+      "city": "Rockwall",
+      "region": "TX",
+      "country": "US"
+    },
+    "specialties": [
+      "Decorative Arts & Accessories",
+      "Furniture - British",
+      "Furniture - European",
+      "Silver",
+      "Furniture - 15th-18th Century",
+      "Furniture - 19th Century",
+      "Silver - 19th Century"
+    ],
+    "services": [
+      "Consultant",
+      "Expert Witness"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/57/marigold-a-lamb",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Arlington TX)."
+    }
+  },
+  {
+    "locationSlug": "aspen",
+    "slug": "aspen-brady-l-dreasher",
+    "name": "Brady L. Dreasher",
+    "website": "",
+    "phone": "(970) 922-9068",
+    "address": {
+      "city": "Denver",
+      "region": "CO",
+      "country": "US"
+    },
+    "specialties": [
+      "Antiquities",
+      "Art",
+      "Carpets & Rugs",
+      "Decorative Arts & Accessories",
+      "Music - Instruments",
+      "Alaskan Inuit Art",
+      "Alaskan Inuit Artifacts",
+      "American Indigenous Art",
+      "American Indigenous Artifacts",
+      "Americana",
+      "Arms & Armor - Firearms",
+      "Art - 15th-18th Century",
+      "Art - 19th Century",
+      "Art - 20th Century",
+      "Art - African",
+      "Art - American",
+      "Art - Animation",
+      "Art - British",
+      "Art - Canadian",
+      "Art - Deco & Nouveau",
+      "Art - European",
+      "Art - Folk",
+      "Art - Impressionist & Modern",
+      "Art - Latin American"
+    ],
+    "services": [
+      "Adjuster",
+      "Appraisal Review",
+      "Arbitrator",
+      "Auction",
+      "Authentication",
+      "Broker",
+      "Conservation",
+      "Consultant",
+      "Damage Claims",
+      "Divorce Settlements",
+      "Donations",
+      "Equitable Distribution",
+      "Estate Evaluations",
+      "Estate Probate",
+      "Estate Sales",
+      "Estate Tax",
+      "Expert Witness",
+      "Insurance Claims",
+      "Investment Evaluation",
+      "Investment Evaluations",
+      "Non-Cash Charitable Donations",
+      "Speaker",
+      "Tax Deductible Gifts"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2849/brady-l-dreasher",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Aspen CO)."
+    }
+  },
+  {
+    "locationSlug": "atlanta",
+    "slug": "atlanta-charles-pharr",
+    "name": "Charles Pharr",
+    "website": "",
+    "phone": "(770) 534-6611",
+    "address": {
+      "city": "Oakwood",
+      "region": "GA",
+      "country": "US"
+    },
+    "specialties": [
+      "Art",
+      "Carpets & Rugs",
+      "Collectibles",
+      "Furniture",
+      "Memorabilia",
+      "Militaria",
+      "Paintings",
+      "Photography & Photographs",
+      "Sculpture",
+      "Silver - American",
+      "Transportation - Cars"
+    ],
+    "services": [
+      "Appraisal Review",
+      "Broker",
+      "Damage Claims",
+      "Divorce Settlements",
+      "Donations",
+      "Equitable Distribution",
+      "Estate Evaluations",
+      "Estate Sales",
+      "Estate Tax",
+      "Insurance Claims",
+      "Liquidator",
+      "Non-Cash Charitable Donations",
+      "Retail - Antique",
+      "Retail - Art",
+      "Retail Antique",
+      "Retail Art",
+      "Speaker",
+      "Tax Deductible Gifts"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1076/charles-pharr",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Atlanta GA)."
+    }
+  },
+  {
+    "locationSlug": "atlanta",
+    "slug": "atlanta-courtney-ahlstrom-christy",
+    "name": "Courtney Ahlstrom Christy",
+    "website": "",
+    "phone": "(404) 219-9705",
+    "address": {
+      "city": "Atlanta",
+      "region": "GA",
+      "country": "US"
+    },
+    "specialties": [
+      "Books",
+      "Decorative Arts & Accessories",
+      "Documents",
+      "Ephemera",
+      "Objet d'art & De Vertu",
+      "Art"
+    ],
+    "services": [
+      "Consultant",
+      "Donations",
+      "Equitable Distribution",
+      "Estate Probate",
+      "Estate Tax",
+      "Non-Cash Charitable Donations"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2818/courtney-ahlstrom-christy",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Atlanta GA)."
+    }
+  },
+  {
+    "locationSlug": "pittsburgh",
+    "slug": "pittsburgh-noralen-m-curl",
+    "name": "Noralen M Curl",
+    "website": "",
+    "phone": "(412) 345-3735",
+    "address": {
+      "city": "Jamestown",
+      "region": "PA",
+      "country": "US"
+    },
+    "specialties": [
+      "Art",
+      "Books",
+      "Collectibles",
+      "Decorative Arts & Accessories",
+      "Furniture"
+    ],
+    "services": [
+      "Estate Evaluations",
+      "Estate Tax",
+      "Tax Deductible Gifts"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8493/noralen-m-curl",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Pittsburgh PA)."
+    }
+  },
+  {
+    "locationSlug": "pittsburgh",
+    "slug": "pittsburgh-joshua-m-stearns",
+    "name": "Joshua M Stearns",
+    "website": "",
+    "phone": "(814) 250-2188",
+    "address": {
+      "city": "Edinboro",
+      "region": "PA",
+      "country": "US"
+    },
+    "specialties": [
+      "Americana",
+      "Collectibles",
+      "Collectibles - Toys",
+      "Furniture - American",
+      "Memorabilia",
+      "Decorative Arts & Accessories",
+      "Furniture"
+    ],
+    "services": [
+      "Divorce Settlements",
+      "Equitable Distribution",
+      "Estate Evaluations",
+      "Estate Sales",
+      "Non-Cash Charitable Donations"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/17158/joshua-m-stearns",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Pittsburgh PA)."
+    }
+  },
+  {
+    "locationSlug": "portland",
+    "slug": "portland-shelley-d-hall",
+    "name": "Shelley D Hall",
+    "website": "",
+    "phone": "(971) 217-8441",
+    "address": {
+      "city": "Lake Oswego",
+      "region": "OR",
+      "country": "US"
+    },
+    "specialties": [
+      "Art - 20th Century",
+      "Art - Impressionist & Modern",
+      "Paintings",
+      "Prints",
+      "Sculpture",
+      "Art",
+      "Art - American",
+      "Art - Deco & Nouveau",
+      "Art - European",
+      "Art - NW Coast Indigenous",
+      "Bronzes",
+      "Drawings",
+      "Paintings - 20th Century",
+      "Paintings - Contemporary American",
+      "Paintings - Impressionist & Modern",
+      "Photography & Photographs",
+      "Photography - 20th Century",
+      "Prints - 19th Century",
+      "Prints - 20th Century",
+      "Prints - 20th Century Limited Edition",
+      "Prints - Modern & Contemporary",
+      "Sculpture - Contemporary",
+      "Sculpture - Modern",
+      "Watercolors"
+    ],
+    "services": [
+      "Broker",
+      "Consultant",
+      "Damage Claims",
+      "Divorce Settlements",
+      "Donations",
+      "Equitable Distribution",
+      "Estate Evaluations",
+      "Estate Probate",
+      "Estate Tax",
+      "Expert Witness",
+      "Insurance Claims",
+      "Investment Evaluation",
+      "Non-Cash Charitable Donations",
+      "Retail - Art",
+      "Speaker",
+      "Tax Deductible Gifts"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/136/shelley-d-hall",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Portland OR)."
+    }
+  },
+  {
+    "locationSlug": "portland",
+    "slug": "portland-stephen-m-braitman",
+    "name": "Stephen M Braitman",
+    "website": "",
+    "phone": "(415) 897-6999",
+    "address": {
+      "city": "HIllsboro",
+      "region": "OR",
+      "country": "US"
+    },
+    "specialties": [
+      "Memorabilia - Entertainment",
+      "Music - Albums & Records",
+      "Collectibles",
+      "Ephemera",
+      "Posters"
+    ],
+    "services": [
+      "Divorce Settlements",
+      "Donations",
+      "Estate Probate",
+      "Insurance Claims",
+      "Non-Cash Charitable Donations"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/11336/stephen-m-braitman",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Portland OR)."
+    }
+  },
+  {
+    "locationSlug": "san-diego",
+    "slug": "san-diego-wendy-m-gerdau",
+    "name": "Wendy M. Gerdau",
+    "website": "",
+    "phone": "(310) 418-8203",
+    "address": {
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "US"
+    },
+    "specialties": [
+      "Antiquities",
+      "Art",
+      "Paintings",
+      "Prints",
+      "Sculpture",
+      "Business Contents/Inventories",
+      "Decorative Arts & Accessories",
+      "Furniture"
+    ],
+    "services": [
+      "Equitable Distribution",
+      "Estate Evaluations",
+      "Estate Tax",
+      "Insurance Claims",
+      "Non-Cash Charitable Donations"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1190/wendy-m-gerdau",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (San Diego CA)."
+    }
+  },
+  {
+    "locationSlug": "savannah",
+    "slug": "savannah-david-levy",
+    "name": "David Levy",
+    "website": "",
+    "phone": "(912) 616-5350",
+    "address": {
+      "city": "Savannah",
+      "region": "GA",
+      "country": "US"
+    },
+    "specialties": [
+      "Americana",
+      "Art",
+      "Collectibles",
+      "Decorative Arts & Accessories",
+      "Documents",
+      "Documents - Maps",
+      "Ephemera",
+      "Memorabilia",
+      "Paintings",
+      "Photography & Photographs"
+    ],
+    "services": [],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13185/david-levy",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Savannah GA)."
+    }
+  },
+  {
+    "locationSlug": "seattle",
+    "slug": "seattle-pamela-jaynes",
+    "name": "Pamela Jaynes",
+    "website": "",
+    "phone": "(425) 298-6455",
+    "address": {
+      "city": "Seattle",
+      "region": "WA",
+      "country": "US"
+    },
+    "specialties": [
+      "Art",
+      "Drawings",
+      "Glass",
+      "Paintings",
+      "Prints",
+      "Art - Asian",
+      "Prints - Japanese"
+    ],
+    "services": [
+      "Donations",
+      "Equitable Distribution",
+      "Insurance Claims",
+      "Non-Cash Charitable Donations",
+      "Tax Deductible Gifts"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1552/pamela-jaynes",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Seattle WA)."
+    }
+  },
+  {
+    "locationSlug": "seattle",
+    "slug": "seattle-scott-g-zema",
+    "name": "Scott G. Zema",
+    "website": "",
+    "phone": "(206) 327-9643",
+    "address": {
+      "city": "Seattle",
+      "region": "WA",
+      "country": "US"
+    },
+    "specialties": [
+      "Arts & Crafts",
+      "Ceramics",
+      "Collectibles",
+      "Furniture",
+      "Orientalia",
+      "American Indigenous Artifacts",
+      "Antiquities",
+      "Art",
+      "Ceramics - Contemporary"
+    ],
+    "services": [
+      "Appraisal Review",
+      "Divorce Settlements",
+      "Donations",
+      "Estate Tax",
+      "Insurance Claims"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/186/scott-g-zema",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Seattle WA)."
+    }
+  },
+  {
+    "locationSlug": "st-louis",
+    "slug": "st-louis-sylvia-fraley",
+    "name": "Sylvia Fraley",
+    "website": "",
+    "phone": "(314) 852-2002",
+    "address": {
+      "city": "St. Louis",
+      "region": "MO",
+      "country": "US"
+    },
+    "specialties": [
+      "Art - 19th Century",
+      "Art - 20th Century",
+      "Art - American",
+      "Art - European",
+      "Prints - Modern & Contemporary",
+      "Art",
+      "Documents - Autographs",
+      "Paintings",
+      "Prints",
+      "Sculpture"
+    ],
+    "services": [
+      "Consultant",
+      "Equitable Distribution",
+      "Estate Evaluations",
+      "Insurance Claims",
+      "Non-Cash Charitable Donations"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1578/sylvia-fraley",
+      "verifiedAt": "2026-01-05",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (St. Louis MO)."
+    }
   }
 ]

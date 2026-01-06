@@ -47,7 +47,7 @@ function filterAppraisersForLocation(slug, appraisers) {
   if (trustFirst && verified.length) return verified;
 
   if (verified.length) return [...verified, ...listed];
-  if (listed.length >= 2) return listed;
+  if (listed.length) return listed;
   return list;
 }
 
@@ -438,7 +438,8 @@ function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
     : appraiser.listed
       ? 'text-amber-800 bg-amber-50 border-amber-100'
       : '';
-  const phone = appraiser.verified ? String(appraiser.phone || appraiser.contact?.phone || '').trim() : '';
+  const phone =
+    appraiser.verified || appraiser.listed ? String(appraiser.phone || appraiser.contact?.phone || '').trim() : '';
   const phoneHref = phone ? normalizePhoneHref(phone) : '';
 
   return `
@@ -509,6 +510,7 @@ function renderLocationBody({
   relatedSlugs,
   labelForSlug,
 }) {
+  const localAppraisersId = 'local-appraisers';
   const hero = `
     <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white rounded-xl shadow-lg p-8">
       <div class="space-y-4">
@@ -520,7 +522,7 @@ function renderLocationBody({
           )}" class="inline-flex items-center px-5 py-3 bg-white text-blue-700 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
             Get an online appraisal
           </a>
-          <a href="${escapeHtml(canonicalUrl)}" class="inline-flex items-center px-5 py-3 border border-white/50 text-white rounded-lg hover:bg-white/10 transition-colors">
+          <a href="#${localAppraisersId}" onclick="event.preventDefault();var el=document.getElementById('${localAppraisersId}');if(el){el.scrollIntoView({behavior:'smooth'});}history.replaceState(null,'',window.location.pathname+window.location.search+'#${localAppraisersId}');" class="inline-flex items-center px-5 py-3 border border-white/50 text-white rounded-lg hover:bg-white/10 transition-colors">
             Browse local providers
           </a>
         </div>
@@ -535,7 +537,7 @@ function renderLocationBody({
 
   const cards = appraisers.length
     ? `
-      <section class="space-y-6">
+      <section id="${localAppraisersId}" class="space-y-6 scroll-mt-20">
         <div class="space-y-3">
           <h2 class="text-2xl font-semibold text-gray-900">Directory profiles (${appraisers.length})</h2>
           <p class="text-gray-700 leading-relaxed">Compare specialties and services for ${escapeHtml(

@@ -42,7 +42,7 @@ function filterAppraisersForLocation(slug, appraisers) {
   if (trustFirst && verified.length) return verified;
 
   if (verified.length) return [...verified, ...listed];
-  if (listed.length >= 2) return listed;
+  if (listed.length) return listed;
   return list;
 }
 

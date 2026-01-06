@@ -314,7 +314,7 @@ async function main() {
     stats.attemptedCities += 1;
 
     const searchLocation = `${cityName} ${regionCode}`.trim();
-    const searchUrl = `https://www.isa-appraisers.org/find-an-appraiser/results/List?searchLocation=${encodeURIComponent(searchLocation)}&distance=50`;
+    const searchUrl = `https://www.isa-appraisers.org/find-an-appraiser/results/List?searchLocation=${encodeURIComponent(searchLocation)}&distance=100`;
 
     let searchHtml;
     try {
@@ -327,7 +327,7 @@ async function main() {
 
     await sleep(options.delayMs);
 
-    const profileLinks = parseIsaProfileLinks(searchHtml).slice(0, 12);
+    const profileLinks = parseIsaProfileLinks(searchHtml).slice(0, 20);
     const discovered = [];
 
     for (const profileUrl of profileLinks) {

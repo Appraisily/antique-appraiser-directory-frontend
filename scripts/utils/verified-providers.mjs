@@ -19,6 +19,10 @@ const PROVIDER_SOURCES = [
     path: path.join(REPO_ROOT, 'src', 'data', 'verified', 'providers.seeded.json'),
     trust: 'listed',
   },
+  {
+    path: path.join(REPO_ROOT, 'src', 'data', 'verified', 'providers.web.json'),
+    trust: 'listed',
+  },
 ];
 
 function normalizeTrust(value, fallback) {
