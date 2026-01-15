@@ -253,6 +253,8 @@ export function initPosthog() {
     capture_pageview: false, // manual SPA tracking
     capture_pageleave: false,
     cross_subdomain_cookie: true,
+    cookie_domain: '.appraisily.com',
+    secure_cookie: true,
     disable_session_recording: !replayEnabled,
     session_recording: replayEnabled
       ? {
