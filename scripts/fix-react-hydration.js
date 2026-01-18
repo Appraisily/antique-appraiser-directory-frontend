@@ -73,6 +73,29 @@ async function fixReactHydration(filePath) {
         modified = true;
       }
     }
+
+    // 1b. Unwrap any nested root containers.
+    // Some generated pages accidentally contain `<div id="root"><div id="root">...</div></div>`,
+    // which is invalid HTML (duplicate IDs) and can trigger React hydration/runtime issues.
+    // If we find a direct child root, move its children up and remove the nested container.
+    if (rootElement) {
+      const nestedRootChildren = Array.from(rootElement.children).filter(
+        child => child instanceof dom.window.HTMLElement && child.id === 'root'
+      );
+
+      if (nestedRootChildren.length > 0) {
+        log(`Unwrapping nested root element(s) in ${filePath.replace(DIST_DIR, '')}`, 'warning');
+
+        for (const nestedRoot of nestedRootChildren) {
+          while (nestedRoot.firstChild) {
+            rootElement.insertBefore(nestedRoot.firstChild, nestedRoot);
+          }
+          nestedRoot.parentNode?.removeChild(nestedRoot);
+        }
+
+        modified = true;
+      }
+    }
     
     // 2. Move content containers inside root if they're not already
     const locationContent = document.getElementById('location-content');
