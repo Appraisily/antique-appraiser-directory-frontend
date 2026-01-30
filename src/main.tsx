@@ -69,9 +69,17 @@ if (!rootElement) {
 
     console.log(
       hasPreRenderedContent
-        ? '🧯 Pre-rendered HTML detected; skipping hydration (client render only)'
+        ? '🧯 Pre-rendered HTML detected; clearing container to avoid React hydration mismatch (client render only)'
         : '🌱 No pre-rendered HTML; client render only'
     );
+
+    // This site serves pre-rendered (static) HTML for SEO. Our client app does not currently
+    // receive a matching serialized data snapshot, so attempting to "take over" the existing
+    // DOM can trigger React recoverable hydration mismatch errors (#418/#423).
+    // Clear the container first to ensure a clean client render.
+    if (hasPreRenderedContent) {
+      rootElement.replaceChildren();
+    }
 
     createRoot(rootElement).render(
       <StrictMode>
