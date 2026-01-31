@@ -8,6 +8,12 @@ import './index.css';
 import './styles/animations.css';
 import { tagAiAssistantReferrer } from './utils/aiAttribution';
 
+declare global {
+  interface Window {
+    __APPRAISILY_CLIENT_RENDER_ONLY__?: boolean;
+  }
+}
+
 // Ensure we always serve the canonical origin (no stray ports)
 if (typeof window !== 'undefined') {
   try {
@@ -39,6 +45,9 @@ console.log('📊 Environment info:', {
   base: import.meta.env.BASE_URL,
   timestamp: new Date().toISOString(),
 });
+
+// Marker used by publish/build checks to ensure we're not accidentally shipping a hydration build.
+window.__APPRAISILY_CLIENT_RENDER_ONLY__ = true;
 
 // Ensure AI referrals are tagged before hydration/render
 try {
