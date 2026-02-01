@@ -45,9 +45,10 @@
         "generate:all-appraiser-images": "node ./scripts/generate-all-appraiser-images.js",
         "count:appraisers": "node ./scripts/count-appraisers.js",
         "generate:appraiser-pages": "node ./scripts/generate-appraiser-pages.js",
-        "fix:asset-paths": "node ./scripts/fix-asset-paths.js",
-        "clean:standardized-data": "node ./scripts/clean-standardized-data.js",
-        "report:standardized-data": "node ./scripts/report-standardized-data.js",
+    "fix:asset-paths": "node ./scripts/fix-asset-paths.js",
+    "fix:client-hydration-mode": "node ./scripts/fix-client-entry-hydration-mode.mjs --public-dir=public_site",
+    "clean:standardized-data": "node ./scripts/clean-standardized-data.js",
+    "report:standardized-data": "node ./scripts/report-standardized-data.js",
     "env:check": "node ./scripts/env-check.mjs",
     "publish": "node ./scripts/publish.mjs --public-dir dist"
   },

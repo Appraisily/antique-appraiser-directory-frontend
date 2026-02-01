@@ -86,8 +86,9 @@ if (!rootElement) {
     // receive a matching serialized data snapshot, so attempting to "take over" the existing
     // DOM can trigger React recoverable hydration mismatch errors (#418/#423).
     // Clear the container first to ensure a clean client render.
+    // Use `innerHTML` instead of `replaceChildren()` for wider browser compatibility (older Safari/iOS).
     if (hasPreRenderedContent) {
-      rootElement.replaceChildren();
+      rootElement.innerHTML = '';
     }
 
     createRoot(rootElement).render(
