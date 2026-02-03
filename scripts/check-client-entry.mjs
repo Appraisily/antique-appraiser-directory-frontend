@@ -12,6 +12,7 @@ function parseArgs(argv) {
   const options = {
     publicDir: path.join(REPO_ROOT, 'dist'),
     marker: '__APPRAISILY_CLIENT_RENDER_ONLY__',
+    requireMarker: false,
   };
 
   while (args.length) {
@@ -27,6 +28,9 @@ function parseArgs(argv) {
         break;
       case '--marker':
         options.marker = String(readValue() || '').trim();
+        break;
+      case '--require-marker':
+        options.requireMarker = String(readValue() || '').trim() === '1';
         break;
       default:
         throw new Error(`Unknown flag: ${flag}`);
@@ -70,7 +74,14 @@ async function main() {
   }
 
   const js = await fs.readFile(modulePath, 'utf8');
-  if (!js.includes(options.marker)) {
+  if (js.includes('Hydrating pre-rendered content') || js.includes('💧 Hydrating pre-rendered content')) {
+    throw new Error(
+      `[check-client-entry] Detected hydration-mode client entry in ${path.relative(REPO_ROOT, modulePath)}.\n` +
+        'This directory is expected to be client-render-only; hydration causes recoverable React errors (#418) on pre-rendered pages.'
+    );
+  }
+
+  if (options.requireMarker && !js.includes(options.marker)) {
     throw new Error(
       `[check-client-entry] Missing marker "${options.marker}" in ${path.relative(REPO_ROOT, modulePath)}.\n` +
         'This usually means the build output is stale or the entrypoint is not the expected client-render-only version.'
@@ -78,7 +89,9 @@ async function main() {
   }
 
   process.stdout.write(
-    `[check-client-entry] OK: ${path.relative(REPO_ROOT, modulePath)} contains marker "${options.marker}".\n`
+    `[check-client-entry] OK: ${path.relative(REPO_ROOT, modulePath)} looks client-render-only` +
+      (options.requireMarker ? ` and contains marker "${options.marker}"` : '') +
+      '.\n'
   );
 }
 
@@ -86,4 +99,3 @@ main().catch((error) => {
   process.stderr.write(`${error?.stack || error?.message || String(error)}\n`);
   process.exit(1);
 });
-

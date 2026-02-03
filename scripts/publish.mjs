@@ -637,6 +637,12 @@ async function main() {
     cwd: REPO_ROOT,
   });
 
+  // Guardrail: this directory's pre-rendered HTML is not shipped with a serialized React snapshot,
+  // so publishing a hydration client entry will trigger repeated recoverable errors (#418) in production.
+  run(process.execPath, [path.join(__dirname, 'check-client-entry.mjs'), '--public-dir', options.publicDir], {
+    cwd: REPO_ROOT,
+  });
+
   const locationHub = await generateLocationHub({ publicDir: options.publicDir, baseUrl: options.baseUrl });
   const appraiserHub = await generateAppraiserHub({ publicDir: options.publicDir, baseUrl: options.baseUrl });
   const methodology = await generateMethodologyPage({ publicDir: options.publicDir, baseUrl: options.baseUrl });
