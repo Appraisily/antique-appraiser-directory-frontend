@@ -100,23 +100,34 @@ async function buildStandardized() {
 
     // Step 7: Generate static location pages
     runCommand('node scripts/fix-all-pages.js', '📄 Generating static location pages');
+
+    // Step 8: Populate location pages with indexable, content-rich HTML (beyond just meta tags)
+    runCommand('node scripts/generate-location-pages.mjs --public-dir dist', '🧩 Rendering indexable location page content');
     
-    // Step 8: Generate static appraiser pages
+    // Step 9: Generate static appraiser pages
     runCommand('node scripts/generate-appraiser-pages.js', '📄 Generating static appraiser pages');
     
-    // Step 9: Fix HTML paths for deployment (fix for module loading issue)
+    // Step 10: Fix HTML paths for deployment (fix for module loading issue)
     runCommand('node scripts/fix-html-paths.js', '🔧 Fixing HTML paths for module loading');
 
-    // Step 10: Fix React hydration issues
+    // Step 11: Fix React hydration issues
     runCommand('node scripts/fix-react-hydration.js', '🔄 Fixing React hydration issues');
+
+    // Step 11b: Ensure the client bundle does NOT attempt to hydrate pre-rendered HTML.
+    // The directory pages are generated without a serialized state snapshot, so hydrateRoot
+    // can trigger React recoverable hydration mismatch errors (#418/#423) on real traffic.
+    runCommand(
+      'node scripts/fix-client-entry-hydration-mode.mjs --public-dir dist',
+      '🧯 Disabling client hydration (client render only)'
+    );
     
-    // Step 11: Fix preloaded asset references
+    // Step 12: Fix preloaded asset references
     runCommand('node scripts/fix-preload-refs.js', '🔄 Fixing preloaded asset references');
 
-    // Step 12: Fix location links to be relative
+    // Step 13: Fix location links to be relative
     runCommand('node scripts/fix-relative-links.js', '🔄 Fixing location links to be relative');
 
-    // Step 13: Prepare for Netlify deployment
+    // Step 14: Prepare for Netlify deployment
     runCommand('node scripts/prepare-for-netlify.js', '🚀 Preparing for Netlify deployment');
 
     log('✅ Build completed successfully!', 'success');

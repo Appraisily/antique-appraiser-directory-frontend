@@ -23,9 +23,9 @@ const DIRECTORY_DOMAIN = 'https://antique-appraiser-directory.appraisily.com';
 const CTA_URL = 'https://appraisily.com/start';
 const ASSETS_BASE_URL = 'https://assets.appraisily.com/assets/directory';
 const FALLBACK_IMAGE = `${ASSETS_BASE_URL}/placeholder.jpg`;
-const SERVICE_LABEL = 'Antique & Art Appraisers';
-const SERVICE_LABEL_LOWER = 'antique and art appraisers';
-const SERVICE_TYPE_LABEL = 'Art & Antique Appraisal';
+const SERVICE_LABEL = 'Antique Appraisers';
+const SERVICE_LABEL_LOWER = 'antique appraisers';
+const SERVICE_TYPE_LABEL = 'Antique Appraisal';
 
 const TRUST_FIRST_LOCATION_SLUGS = new Set(['kelowna', 'calgary', 'san-antonio']);
 const TRUST_FIRST_MIN_VERIFIED = 3;
@@ -184,8 +184,8 @@ function buildDescription(cityDisplayName) {
 function buildFaq(cityDisplayName) {
   const qs = [
     {
-      q: `How do antique and art appraisals work in ${cityDisplayName}?`,
-      a: `Most ${SERVICE_LABEL_LOWER} in ${cityDisplayName} review condition, age, maker marks/materials, artist or provenance details, and comparable sales to estimate value. A written report is often used for insurance, estates, donations, or resale.`,
+      q: `How do antique appraisals work in ${cityDisplayName}?`,
+      a: `Most ${SERVICE_LABEL_LOWER} in ${cityDisplayName} review condition, age, maker marks/materials, provenance details, and comparable sales to estimate value. A written report is often used for insurance, estates, donations, or resale.`,
     },
     {
       q: 'What should I prepare before contacting an appraiser?',
@@ -295,15 +295,15 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
 
   const regionLabel = safeState ? `in ${safeState}` : '';
 
-  return `
-    <section class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm space-y-5">
-      <div class="space-y-2">
-        <h2 class="text-2xl font-semibold text-gray-900">How to choose an art or antique appraiser ${escapeHtml(
-          regionLabel,
-        )}</h2>
-        <p class="text-gray-700 leading-relaxed">${escapeHtml(intro)}</p>
-        <p class="text-gray-700 leading-relaxed">${escapeHtml(checklist)}</p>
-      </div>
+	  return `
+	    <section class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm space-y-5">
+	      <div class="space-y-2">
+	        <h2 class="text-2xl font-semibold text-gray-900">How to choose an antique appraiser ${escapeHtml(
+	          regionLabel,
+	        )}</h2>
+	        <p class="text-gray-700 leading-relaxed">${escapeHtml(intro)}</p>
+	        <p class="text-gray-700 leading-relaxed">${escapeHtml(checklist)}</p>
+	      </div>
 
       ${
         specialties.length
@@ -367,7 +367,7 @@ function buildAppraiserSummary(appraiser, cityPlain) {
   const specialties = extractKeywordPhrases(appraiser?.expertise?.specialties, 4);
   const services = extractKeywordPhrases(appraiser?.expertise?.services, 3);
 
-  const parts = [`${name} offers antique and art appraisal support in ${cityPlain}.`];
+  const parts = [`${name} offers antique appraisal support in ${cityPlain}.`];
   if (specialties.length) parts.push(`Specialties: ${specialties.join(', ')}.`);
   if (services.length) parts.push(`Services: ${services.join(', ')}.`);
 
@@ -442,13 +442,13 @@ function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
     appraiser.verified || appraiser.listed ? String(appraiser.phone || appraiser.contact?.phone || '').trim() : '';
   const phoneHref = phone ? normalizePhoneHref(phone) : '';
 
-  return `
-    <article class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white">
-      <div class="h-48 bg-gray-200 overflow-hidden">
-        <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(
-    `${appraiser.name} - Art & Antique appraiser in ${appraiser.address?.city || ''}`,
-  )}" class="w-full h-full object-cover" loading="lazy">
-      </div>
+	  return `
+	    <article class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white">
+	      <div class="h-48 bg-gray-200 overflow-hidden">
+	        <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(
+	    `${appraiser.name} - Antique appraiser in ${appraiser.address?.city || ''}`,
+	  )}" class="w-full h-full object-cover" loading="lazy">
+	      </div>
       <div class="p-5">
         <div class="flex items-start justify-between gap-4 mb-3">
           <div>

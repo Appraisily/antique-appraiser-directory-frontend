@@ -175,7 +175,7 @@ async function generateLocationPages() {
       // Create city-specific meta tags
       const title = `Antique Appraisers in ${city.name}, ${city.state} | Expert Antique Valuation Services`;
       const description = `Find certified antique appraisers in ${city.name}, ${city.state}. Get expert antique valuations, authentication services, and professional advice for your antique collection.`;
-      const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/location/${city.slug}`;
+      const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/location/${city.slug}/`;
       
       // Update HTML with city-specific meta tags
       const canonicalTag = `<link rel="canonical" href="${canonicalUrl}" />`;

@@ -92,6 +92,14 @@ async function buildDirectory() {
     // Step 9: Fix domain links to point to main domain
     runCommand('node scripts/fix-domain-links.js', '🔗 Updating links to point to main domain');
 
+    // Step 9b: Ensure the client bundle does NOT attempt to hydrate pre-rendered HTML.
+    // Static pages do not ship a matching serialized state snapshot, so hydration can
+    // trigger React recoverable hydration mismatch errors (#418/#423).
+    runCommand(
+      'node scripts/fix-client-entry-hydration-mode.mjs --public-dir dist',
+      '🧯 Disabling client hydration (client render only)'
+    );
+
     // Step 10: Prepare for Netlify deployment
     runCommand('node scripts/prepare-for-netlify.js', '🚀 Preparing for Netlify deployment');
 

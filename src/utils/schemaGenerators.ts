@@ -678,7 +678,6 @@ export function generateOrganizationSchema() {
     ],
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+1-800-555-5555",
       "contactType": "customer service",
       "email": "info@appraisily.com",
       "availableLanguage": "English"
