@@ -100,6 +100,12 @@ async function buildDirectory() {
       '🧯 Disabling client hydration (client render only)'
     );
 
+    // Step 9c: Validate we did not ship a hydration-mode bundle.
+    runCommand(
+      'node scripts/check-client-entry.mjs --public-dir dist --require-marker=1',
+      '🔎 Verifying client entry is client-render-only'
+    );
+
     // Step 10: Prepare for Netlify deployment
     runCommand('node scripts/prepare-for-netlify.js', '🚀 Preparing for Netlify deployment');
 

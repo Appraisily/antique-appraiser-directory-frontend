@@ -10,13 +10,23 @@ function parseArgs(argv) {
     verbose: false,
   };
 
-  for (const token of argv) {
+  for (let i = 0; i < argv.length; i += 1) {
+    const token = argv[i];
     if (!token) continue;
     if (token === '--dry-run') options.dryRun = true;
     else if (token === '--verbose') options.verbose = true;
+    else if (token === '--public-dir' || token === '--publicDir') {
+      const next = argv[i + 1];
+      if (!next) throw new Error(`Missing value for ${token}`);
+      options.publicDir = path.resolve(process.cwd(), next);
+      i += 1;
+    }
     else if (token.startsWith('--public-dir=')) options.publicDir = path.resolve(process.cwd(), token.slice(13));
+    else if (token.startsWith('--publicDir=')) options.publicDir = path.resolve(process.cwd(), token.slice(12));
     else if (token === '--help' || token === '-h') {
-      console.log(`Usage: fix-client-entry-hydration-mode.mjs [--public-dir=public_site] [--dry-run] [--verbose]`);
+      console.log(
+        'Usage: fix-client-entry-hydration-mode.mjs [--public-dir public_site | --public-dir=public_site] [--dry-run] [--verbose]'
+      );
       process.exit(0);
     } else {
       throw new Error(`Unknown arg: ${token}`);
@@ -42,7 +52,7 @@ function patchBundle(source, { rootVar, hydrateFn, createRootFn, verbose }) {
   const before = source;
   let modified = source;
 
-  if (!modified.includes('💧 Hydrating pre-rendered content')) {
+  if (!modified.includes('Hydrating pre-rendered content')) {
     return { changed: false, output: source, reason: 'no hydration branch marker' };
   }
 
@@ -51,7 +61,7 @@ function patchBundle(source, { rootVar, hydrateFn, createRootFn, verbose }) {
   }
 
   modified = modified.replace(
-    'console.log("💧 Hydrating pre-rendered content"),',
+    /console\.log\("(?:💧\s*)?Hydrating pre-rendered content"\),/g,
     `console.log("🧯 Pre-rendered HTML detected; skipping hydration (client render only)"),${rootVar}.innerHTML="",`
   );
 
@@ -97,7 +107,7 @@ async function main() {
     const createRootFn = createRootMatch[1];
 
     const hydrateMatch = source.match(
-      new RegExp(`console\\.log\\("💧 Hydrating pre-rendered content"\\),([A-Za-z_$][\\w$]*)\\(${rootVar},`)
+      new RegExp(`console\\.log\\("(?:💧\\s*)?Hydrating pre-rendered content"\\),([A-Za-z_$][\\w$]*)\\(${rootVar},`)
     );
     if (!hydrateMatch) {
       console.log(`[fix-client-entry-hydration-mode] Skipping ${path.basename(bundlePath)}: could not find hydrate function name`);

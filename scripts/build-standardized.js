@@ -120,6 +120,13 @@ async function buildStandardized() {
       'node scripts/fix-client-entry-hydration-mode.mjs --public-dir dist',
       '🧯 Disabling client hydration (client render only)'
     );
+
+    // Step 11c: Validate we did not ship a hydration-mode bundle.
+    // This is a hard guard because hydration mismatch errors surface as Clarity ScriptErrorCount spikes.
+    runCommand(
+      'node scripts/check-client-entry.mjs --public-dir dist --require-marker=1',
+      '🔎 Verifying client entry is client-render-only'
+    );
     
     // Step 12: Fix preloaded asset references
     runCommand('node scripts/fix-preload-refs.js', '🔄 Fixing preloaded asset references');
