@@ -10,6 +10,9 @@ const links = {
     { name: 'Services', href: `${PARENT_SITE_URL}/services` },
     { name: 'How It Works', href: `${PARENT_SITE_URL}/how-it-works` },
     { name: 'Free AI Art Analysis', href: `${PARENT_SITE_URL}/screener` },
+    { name: 'Priority Appraisal Guides', href: 'https://articles.appraisily.com/priority-guides/' },
+    { name: 'IRS Qualified Appraiser Guide', href: 'https://articles.appraisily.com/irs-qualified-appraiser-near-me/' },
+    { name: 'Antique Furniture Value Guide', href: 'https://articles.appraisily.com/how-to-determine-value-of-antique-furniture/' },
     { name: 'Terms of Service', href: `${PARENT_SITE_URL}/terms` }
   ],
   legal: [

@@ -78,6 +78,29 @@ function App() {
     });
   };
 
+  const handleRegionCardFallbackClick = (
+    event: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>,
+    city: DirectoryCity | undefined,
+    placement: string
+  ) => {
+    if (!city) return;
+    const target = (event.target as HTMLElement | null);
+    if (target && typeof target.closest === 'function') {
+      const interactive = target.closest('a[href], button, input, select, textarea, summary, [role="button"], [role="link"]');
+      if (interactive && interactive !== event.currentTarget) return;
+    }
+
+    if ('key' in event) {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+    }
+
+    handleCityDirectoryClick(city, `${placement}_card`);
+    if (typeof window !== 'undefined') {
+      window.location.href = buildSiteUrl(`/location/${city.slug}`);
+    }
+  };
+
   const specialtyHighlights = [
     {
       title: 'Furniture & Décor',
@@ -317,9 +340,9 @@ function App() {
               {specialtyHighlights.map(item => (
                 <div
                   key={item.title}
-                  className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+                  className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-8 shadow-sm transition-colors duration-300"
                 >
-                  <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-primary/5 blur-2xl transition-opacity group-hover:opacity-0" />
+                  <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-primary/5 blur-2xl" />
                   <div className="relative mb-6 flex items-center justify-center">
                     <img
                       src={item.image}
@@ -345,29 +368,42 @@ function App() {
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {Object.entries(regions).map(([region, regionCities]) => (
-                <div key={region} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300">
-                  <h3 className="text-xl font-semibold mb-4 text-blue-600 border-b pb-2">{region}</h3>
-                  <ul className="grid grid-cols-1 gap-2">
-                    {regionCities.map(city => (
-                      <li key={city.slug}>
-                        <a 
-                          href={buildSiteUrl(`/location/${city.slug}`)}
-                          className="flex w-full items-center text-gray-700 hover:text-blue-600 py-3 transition-colors"
-                          data-gtm-event="city_directory_click"
-                          data-gtm-city={city.slug}
-                          data-gtm-state={city.state}
-                          data-gtm-placement={`home_${region.toLowerCase().replace(/\s+/g, '-')}`}
-                          onClick={() => handleCityDirectoryClick(city, `home_${region.toLowerCase().replace(/\s+/g, '-')}`)}
-                        >
-                          <MapPin className="w-4 h-4 mr-2 text-blue-500" />
-                          <span>{city.name}, {city.state}</span>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+              {Object.entries(regions).map(([region, regionCities]) => {
+                const placement = `home_${region.toLowerCase().replace(/\s+/g, '-')}`;
+                const primaryCity = regionCities[0];
+                return (
+                  <div
+                    key={region}
+                    className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 cursor-pointer"
+                    role={primaryCity ? 'link' : undefined}
+                    tabIndex={primaryCity ? 0 : undefined}
+                    onClick={(event) => handleRegionCardFallbackClick(event, primaryCity, placement)}
+                    onKeyDown={(event) => handleRegionCardFallbackClick(event, primaryCity, placement)}
+                    data-gtm-event="city_directory_card_click"
+                    data-gtm-placement={`${placement}_card`}
+                  >
+                    <h3 className="text-xl font-semibold mb-4 text-blue-600 border-b pb-2">{region}</h3>
+                    <ul className="grid grid-cols-1 gap-2">
+                      {regionCities.map(city => (
+                        <li key={city.slug}>
+                          <a
+                            href={buildSiteUrl(`/location/${city.slug}`)}
+                            className="flex w-full items-center text-gray-700 hover:text-blue-600 py-3 transition-colors"
+                            data-gtm-event="city_directory_click"
+                            data-gtm-city={city.slug}
+                            data-gtm-state={city.state}
+                            data-gtm-placement={placement}
+                            onClick={() => handleCityDirectoryClick(city, placement)}
+                          >
+                            <MapPin className="w-4 h-4 mr-2 text-blue-500" />
+                            <span>{city.name}, {city.state}</span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              })}
             </div>
             
             <div className="mt-10 text-center">

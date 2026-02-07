@@ -74,6 +74,24 @@ export function AppraisersDirectory() {
     allAppraisers.flatMap(appraiser => appraiser.expertise.specialties || [])
   )].filter(Boolean).sort();
 
+  const handleCardNavigation = (
+    event: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>,
+    appraiser: Appraiser
+  ) => {
+    const target = event.target as HTMLElement | null;
+    if (target && typeof target.closest === 'function') {
+      const interactive = target.closest('a[href], button, input, select, textarea, summary, [role="button"], [role="link"]');
+      if (interactive && interactive !== event.currentTarget) return;
+    }
+
+    if ('key' in event) {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+    }
+
+    window.location.href = buildSiteUrl(`/appraiser/${appraiser.slug}`);
+  };
+
   return (
     <div className="bg-background min-h-screen">
       <div className="bg-gradient-to-br from-primary/20 via-primary/10 to-blue-50 py-12">
@@ -165,7 +183,11 @@ export function AppraisersDirectory() {
             {filteredAppraisers.map(appraiser => (
               <div 
                 key={appraiser.id} 
-                className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden hover:shadow-xl transition-all duration-300"
+                className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer focus-within:ring-2 focus-within:ring-primary/40"
+                role="link"
+                tabIndex={0}
+                onClick={(event) => handleCardNavigation(event, appraiser)}
+                onKeyDown={(event) => handleCardNavigation(event, appraiser)}
               >
                 <div className="relative h-48 overflow-hidden">
                   <img 

@@ -8,6 +8,8 @@ import { POPULAR_LOCATION_SLUGS } from './utils/indexable-locations.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
+const LEGACY_CHAT_EMBED_SRC = 'https://www.appraisily.com/widgets/chat-embed.js';
+const CANONICAL_CHAT_EMBED_SRC = 'https://appraisily.com/widgets/chat-embed.js';
 
 function formatTimestamp(date = new Date()) {
   const pad = (value) => String(value).padStart(2, '0');
@@ -458,7 +460,7 @@ async function generateGetListedPage({ publicDir, baseUrl }) {
 async function ensureHomeCrawlLinks({ publicDir }) {
   const homePath = path.join(publicDir, 'index.html');
   const marker = 'data-appraisily-crawl-links';
-  const injection = `\n<div ${marker} style="max-width:960px;margin:0 auto;padding:12px 16px;font:14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#6b7280;">\n  <a href=\"/location/\">Browse locations</a> · <a href=\"/methodology/\">Methodology</a> · <a href=\"/get-listed/\">Get listed</a> · <a href=\"/sitemap.xml\">Sitemap</a>\n</div>\n`;
+  const injection = `\n<div ${marker} style="max-width:960px;margin:0 auto;padding:12px 16px;font:14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#6b7280;">\n  <a href=\"/location/\">Browse locations</a> · <a href=\"/methodology/\">Methodology</a> · <a href=\"/get-listed/\">Get listed</a> · <a href=\"/sitemap.xml\">Sitemap</a> · <a href=\"https://articles.appraisily.com/priority-guides/\">Top 100 guides</a> · <a href=\"https://articles.appraisily.com/irs-qualified-appraiser-near-me/\">IRS appraisal guide</a>\n</div>\n`;
   const markerBlockRe = /<div[^>]*\bdata-appraisily-crawl-links\b[^>]*>[\s\S]*?<\/div>/i;
 
   let html = '';
@@ -596,6 +598,59 @@ async function regenerateSitemap({ publicDir, baseUrl }) {
   return { outputPath, count: urls.length };
 }
 
+async function walkHtmlFiles(rootDir, relativeDir, bucket) {
+  const currentDir = path.join(rootDir, relativeDir);
+  const entries = await fs.readdir(currentDir, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const childRel = relativeDir ? path.join(relativeDir, entry.name) : entry.name;
+    if (entry.isDirectory()) {
+      if (entry.name.startsWith('.')) continue;
+      await walkHtmlFiles(rootDir, childRel, bucket);
+      continue;
+    }
+    if (!entry.isFile() || !entry.name.endsWith('.html')) continue;
+    bucket.push(path.join(rootDir, childRel));
+  }
+}
+
+async function normalizeChatEmbedHost(releaseDir) {
+  const candidates = [];
+  await walkHtmlFiles(releaseDir, '', candidates);
+  let touchedCount = 0;
+
+  for (const file of candidates) {
+    const input = await fs.readFile(file, 'utf8');
+    const next = input.replaceAll(LEGACY_CHAT_EMBED_SRC, CANONICAL_CHAT_EMBED_SRC);
+    if (next !== input) {
+      await fs.writeFile(file, next, 'utf8');
+      touchedCount += 1;
+    }
+  }
+
+  return { touchedCount };
+}
+
+async function assertNoLegacyChatEmbedHost(releaseDir) {
+  const candidates = [];
+  await walkHtmlFiles(releaseDir, '', candidates);
+  const offenders = [];
+
+  for (const file of candidates) {
+    const input = await fs.readFile(file, 'utf8');
+    if (input.includes(LEGACY_CHAT_EMBED_SRC)) {
+      offenders.push(path.relative(releaseDir, file));
+      if (offenders.length >= 10) break;
+    }
+  }
+
+  if (offenders.length) {
+    throw new Error(
+      `Legacy chat embed host detected in release HTML (${LEGACY_CHAT_EMBED_SRC}). Example files: ${offenders.join(', ')}`,
+    );
+  }
+}
+
 function run(command, args, options = {}) {
   const result = spawnSync(command, args, {
     stdio: 'inherit',
@@ -677,6 +732,8 @@ async function main() {
 
   await fs.mkdir(releaseDir, { recursive: true });
   run('rsync', ['-a', '--delete', '--no-perms', '--no-owner', '--no-group', `${options.publicDir}/`, `${releaseDir}/`]);
+  const chatHostNormalization = await normalizeChatEmbedHost(releaseDir);
+  await assertNoLegacyChatEmbedHost(releaseDir);
   run('ln', ['-sfn', releaseDir, currentSymlink]);
 
   if (options.restartContainer && options.containerName) {
@@ -697,6 +754,7 @@ async function main() {
         getListed,
         crawlLinks,
         sitemap,
+        chatHostNormalization,
         releaseDir,
         currentSymlink,
         containerRestarted: Boolean(options.restartContainer && options.containerName),
