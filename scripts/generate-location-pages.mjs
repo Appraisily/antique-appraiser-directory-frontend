@@ -170,13 +170,14 @@ function titleCaseFromSlug(slug) {
 
 function buildTitle(cityDisplayName) {
   const safeCity = sanitizePlainText(cityDisplayName) || 'Your City';
-  return `${SERVICE_LABEL} in ${safeCity} | Appraisily`;
+  // CTR-focused: action verb + city/state visible early.
+  return `Compare ${SERVICE_LABEL} in ${safeCity} | Appraisily`;
 }
 
 function buildDescription(cityDisplayName) {
   const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
   return truncateText(
-    `Compare ${SERVICE_LABEL_LOWER} in ${safeCity} for insurance, estates, donations, and resale. Or get a fast online appraisal from Appraisily.`,
+    `Compare ${SERVICE_LABEL_LOWER} in ${safeCity} for insurance, estates, donations, and resale. See specialties, fees, and contact info. Or get a fast online appraisal from photos.`,
     155,
   );
 }

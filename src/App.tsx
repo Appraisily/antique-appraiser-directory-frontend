@@ -61,6 +61,32 @@ function App() {
     });
   };
 
+  const handleSpecialtyCardClick = (
+    event: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>,
+    specialty: string
+  ) => {
+    const target = (event.target as HTMLElement | null);
+    if (target && typeof target.closest === 'function') {
+      const interactive = target.closest('a[href], button, input, select, textarea, summary, [role="button"], [role="link"]');
+      if (interactive && interactive !== event.currentTarget) return;
+    }
+
+    if ('key' in event) {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+    }
+
+    trackEvent('specialty_card_click', {
+      placement: 'home_specialties',
+      specialty,
+      destination: primaryCtaUrl
+    });
+
+    if (typeof window !== 'undefined') {
+      window.location.href = primaryCtaUrl;
+    }
+  };
+
   const handleCityDirectoryClick = (city: DirectoryCity, placement: string) => {
     trackEvent('city_directory_click', {
       placement,
@@ -340,7 +366,14 @@ function App() {
               {specialtyHighlights.map(item => (
                 <div
                   key={item.title}
-                  className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-8 shadow-sm transition-colors duration-300"
+                  className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-8 shadow-sm transition-colors duration-300 cursor-pointer hover:border-primary/40"
+                  role="link"
+                  tabIndex={0}
+                  onClick={(event) => handleSpecialtyCardClick(event, item.title)}
+                  onKeyDown={(event) => handleSpecialtyCardClick(event, item.title)}
+                  data-gtm-event="specialty_card_click"
+                  data-gtm-placement="home_specialties"
+                  data-gtm-specialty={item.title}
                 >
                   <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-primary/5 blur-2xl" />
                   <div className="relative mb-6 flex items-center justify-center">
@@ -353,6 +386,7 @@ function App() {
                   </div>
                   <h3 className="text-xl font-semibold text-foreground mb-3">{item.title}</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">{item.description}</p>
+                  <p className="mt-5 text-xs font-semibold uppercase tracking-[0.18em] text-primary">Start an appraisal</p>
                 </div>
               ))}
             </div>
