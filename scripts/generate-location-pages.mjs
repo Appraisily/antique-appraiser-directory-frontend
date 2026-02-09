@@ -20,11 +20,17 @@ const STANDARDIZED_VERIFIED_DIR = path.join(REPO_ROOT, 'src', 'data', 'standardi
 const CITIES_FILE = path.join(REPO_ROOT, 'src', 'data', 'cities.json');
 
 const DIRECTORY_DOMAIN = 'https://antique-appraiser-directory.appraisily.com';
-const CTA_URL = 'https://appraisily.com/start';
+// Primary CTA should maximize signups/engagement from SEO landers.
+// Keep a secondary "paid start" link for users ready to buy immediately.
+const PRIMARY_CTA_URL = 'https://appraisily.com/screener';
+const SECONDARY_CTA_URL = 'https://appraisily.com/start';
 const ASSETS_BASE_URL = 'https://assets.appraisily.com/assets/directory';
 const FALLBACK_IMAGE = `${ASSETS_BASE_URL}/placeholder.jpg`;
 const SERVICE_LABEL = 'Antique Appraisers';
 const SERVICE_LABEL_LOWER = 'antique appraisers';
+// Display label used in page titles / headings to capture both "antique" and "art" intent.
+const SERVICE_LABEL_DISPLAY = 'Antique & Art Appraisers';
+const SERVICE_LABEL_DISPLAY_LOWER = 'antique and art appraisers';
 const SERVICE_TYPE_LABEL = 'Antique Appraisal';
 
 const TRUST_FIRST_LOCATION_SLUGS = new Set(['kelowna', 'calgary', 'san-antonio']);
@@ -170,14 +176,15 @@ function titleCaseFromSlug(slug) {
 
 function buildTitle(cityDisplayName) {
   const safeCity = sanitizePlainText(cityDisplayName) || 'Your City';
-  // CTR-focused: action verb + city/state visible early.
-  return `Compare ${SERVICE_LABEL} in ${safeCity} | Appraisily`;
+  // CTR-focused: make it obvious this is a local "near you" comparison page, with fees.
+  // Keep this short enough for SERPs.
+  return `${SERVICE_LABEL_DISPLAY} in ${safeCity} | Compare Fees & Experts | Appraisily`;
 }
 
 function buildDescription(cityDisplayName) {
   const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
   return truncateText(
-    `Compare ${SERVICE_LABEL_LOWER} in ${safeCity} for insurance, estates, donations, and resale. See specialties, fees, and contact info. Or get a fast online appraisal from photos.`,
+    `Compare ${SERVICE_LABEL_DISPLAY_LOWER} near ${safeCity}. See specialties, typical fees, and contact info. Or try Appraisily's free screener first, then upgrade to a written appraisal when you need it.`,
     155,
   );
 }
@@ -185,8 +192,8 @@ function buildDescription(cityDisplayName) {
 function buildFaq(cityDisplayName) {
   const qs = [
     {
-      q: `How do antique appraisals work in ${cityDisplayName}?`,
-      a: `Most ${SERVICE_LABEL_LOWER} in ${cityDisplayName} review condition, age, maker marks/materials, provenance details, and comparable sales to estimate value. A written report is often used for insurance, estates, donations, or resale.`,
+      q: `How do antique and art appraisals work in ${cityDisplayName}?`,
+      a: `Most ${SERVICE_LABEL_DISPLAY_LOWER} in ${cityDisplayName} review condition, age, maker marks/materials, provenance details, and comparable sales to estimate value. A written report is often used for insurance, estates, donations, or resale.`,
     },
     {
       q: 'What should I prepare before contacting an appraiser?',
@@ -230,6 +237,65 @@ function buildFaq(cityDisplayName) {
       })),
     },
   };
+}
+
+function buildLearnMoreSection(cityDisplayName, citySlug) {
+  const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
+  const utm = `utm_source=directory&utm_medium=learn_more&utm_campaign=${encodeURIComponent(citySlug)}`;
+  const links = [
+    {
+      title: 'Free antique identification app (how it works)',
+      href: `https://articles.appraisily.com/free-antique-identification-app/?${utm}`,
+      description: 'What photos to take, what details matter, and how to get a fast value range.',
+    },
+    {
+      title: 'Antique furniture value (what affects pricing)',
+      href: `https://articles.appraisily.com/how-to-determine-value-of-antique-furniture/?${utm}`,
+      description: 'How condition, materials, and comps affect value (plus a photo checklist).',
+    },
+    {
+      title: 'How to identify antiques (quick checklist)',
+      href: `https://articles.appraisily.com/5-expert-tips-on-how-to-identify-antiques-uncover-the-value-of-your-vintage-finds/?${utm}`,
+      description: 'A practical checklist for maker marks, materials, condition, and provenance.',
+    },
+    {
+      title: 'When you need a qualified appraisal (IRS / donation)',
+      href: `https://articles.appraisily.com/5-reasons-why-an-irs-qualified-appraisal-is-important/?${utm}`,
+      description: 'When documentation matters for taxes, donations, estates, or insurance.',
+    },
+  ];
+
+	  return `
+	    <section class="py-10 border-t border-gray-200">
+	      <h2 class="text-2xl font-semibold text-gray-900 mb-2">Learn more before you contact an appraiser</h2>
+      <p class="text-gray-700 leading-relaxed mb-6">
+        If you are in ${escapeHtml(safeCity)} and you want to move faster, use this short checklist and examples before you reach out.
+      </p>
+	      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+	        ${links
+          .map(
+            (link) => `
+          <a class="block rounded-lg border border-gray-200 bg-white p-5 shadow-sm hover:shadow-md transition-shadow" href="${escapeHtml(
+            link.href,
+          )}" target="_blank" rel="noopener noreferrer">
+            <div class="text-sm font-semibold text-gray-900">${escapeHtml(link.title)}</div>
+            <div class="mt-2 text-sm text-gray-700 leading-relaxed">${escapeHtml(link.description)}</div>
+            <div class="mt-3 text-sm font-semibold text-blue-700">Read article →</div>
+          </a>
+        `,
+          )
+          .join('')}
+      </div>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a class="inline-flex items-center px-5 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors" href="${escapeHtml(
+          `${PRIMARY_CTA_URL}?utm_source=directory&utm_medium=learn_more_cta&utm_campaign=${encodeURIComponent(citySlug)}`,
+        )}">Try the free screener</a>
+        <a class="inline-flex items-center px-5 py-3 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
+          `${SECONDARY_CTA_URL}?utm_source=directory&utm_medium=learn_more_paid&utm_campaign=${encodeURIComponent(citySlug)}`,
+        )}">Start a paid appraisal</a>
+      </div>
+    </section>
+  `;
 }
 
 function normalizeCityMeta(meta) {
@@ -291,25 +357,40 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
   const specialties = buildKeywordCounts(appraisers, (entry) => entry?.expertise?.specialties).slice(0, 8);
   const services = buildKeywordCounts(appraisers, (entry) => entry?.expertise?.services).slice(0, 8);
 
-  const intro = `Hiring the right ${SERVICE_LABEL_LOWER} in ${safeCity} depends on your goal (insurance, estate settlement, donation, or resale). Look for clear fees, a written report when needed, and evidence of recent comparable research for your item type.`;
-  const checklist = `When you reach out, ask about turnaround time, what photos/details they need, and whether the valuation is for fair market value or replacement value. If you prefer a faster path, Appraisily can deliver a written online appraisal from photos and measurements.`;
+  const verifiedCount = appraisers.filter((entry) => entry?.verified === true).length;
+  const listedCount = appraisers.filter((entry) => entry?.verified !== true && entry?.listed === true).length;
+  const providerCount = appraisers.length;
+
+  const intro = `Hiring the right ${SERVICE_LABEL_DISPLAY_LOWER} in ${safeCity} depends on your goal (insurance, estate settlement, donation, or resale). Look for clear fees, a written report when needed, and evidence of comparable research for your item type.`;
+  const checklist = `Before you contact a provider, gather photos, measurements, and any provenance. Ask about turnaround time, what kind of value the report uses (fair market vs replacement), and whether the fee includes a written report.`;
+  const supplyNote =
+    providerCount > 0
+      ? `This page lists ${providerCount} provider${providerCount === 1 ? '' : 's'} (${verifiedCount} verified, ${listedCount} listed).`
+      : `This page is being updated as we add more local coverage.`;
 
   const regionLabel = safeState ? `in ${safeState}` : '';
+  const hubHref = `https://appraisily.com/antique-appraiser-near-me?utm_source=directory&utm_medium=guide&utm_campaign=${encodeURIComponent(
+    citySlug,
+  )}&utm_content=how_to_choose`;
+  const artDirectoryHref = `https://art-appraisers-directory.appraisily.com/?utm_source=directory&utm_medium=guide&utm_campaign=${encodeURIComponent(
+    citySlug,
+  )}&utm_content=art_directory`;
 
 	  return `
 	    <section class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm space-y-5">
 	      <div class="space-y-2">
-	        <h2 class="text-2xl font-semibold text-gray-900">How to choose an antique appraiser ${escapeHtml(
+	        <h2 class="text-2xl font-semibold text-gray-900">How to choose an appraiser ${escapeHtml(
 	          regionLabel,
 	        )}</h2>
 	        <p class="text-gray-700 leading-relaxed">${escapeHtml(intro)}</p>
 	        <p class="text-gray-700 leading-relaxed">${escapeHtml(checklist)}</p>
+          <p class="text-sm text-gray-600">${escapeHtml(supplyNote)}</p>
 	      </div>
 
       ${
         specialties.length
           ? `<div>
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Common specialties you’ll see ${escapeHtml(
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Common specialties you will see ${escapeHtml(
           regionLabel,
         )}</h3>
         <ul class="list-disc pl-5 space-y-1 text-gray-700">
@@ -332,14 +413,20 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
 
       <div class="flex flex-wrap gap-3">
         <a class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" href="${escapeHtml(
-          `${CTA_URL}?utm_source=directory&utm_medium=guide&utm_campaign=${encodeURIComponent(citySlug)}`,
-        )}">Start an online appraisal</a>
+          `${PRIMARY_CTA_URL}?utm_source=directory&utm_medium=guide&utm_campaign=${encodeURIComponent(citySlug)}`,
+        )}">Start free screener</a>
+        <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
+          hubHref,
+        )}" target="_blank" rel="noopener noreferrer">How to choose</a>
         <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/">Browse all locations</a>
       </div>
 
       <div class="text-sm text-gray-600 flex flex-wrap gap-3">
         <a class="underline hover:text-blue-700" href="/methodology/" data-gtm-event="directory_cta" data-gtm-cta="methodology_link">How we build this directory</a>
         <a class="underline hover:text-blue-700" href="/get-listed/" data-gtm-event="directory_cta" data-gtm-cta="get_listed_link">Are you an appraiser? Get listed</a>
+        <a class="underline hover:text-blue-700" href="${escapeHtml(
+          artDirectoryHref,
+        )}" target="_blank" rel="noopener noreferrer" data-gtm-event="directory_cta" data-gtm-cta="art_directory_link">Need art-only providers?</a>
       </div>
 
       ${
@@ -389,7 +476,7 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
   const itemList = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: `${SERVICE_LABEL} in ${cityDisplayName}`,
+    name: `${SERVICE_LABEL_DISPLAY} in ${cityDisplayName}`,
     url: canonicalUrl,
     numberOfItems: appraisers.length,
     itemListElement: listItems,
@@ -400,7 +487,7 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: `${DIRECTORY_DOMAIN}/` },
-      { '@type': 'ListItem', position: 2, name: `${SERVICE_LABEL} in ${cityDisplayName}`, item: canonicalUrl },
+      { '@type': 'ListItem', position: 2, name: `${SERVICE_LABEL_DISPLAY} in ${cityDisplayName}`, item: canonicalUrl },
     ],
   };
 
@@ -415,7 +502,7 @@ function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
   const imageUrl = normalizeImageUrl(appraiser.imageUrl || FALLBACK_IMAGE);
   const address = sanitizePlainText(cityDisplayName) || sanitizePlainText(appraiser.address?.city) || '';
   const aboutText = buildAppraiserSummary(appraiser, sanitizePlainText(cityDisplayName));
-  const ctaHref = `${CTA_URL}?utm_source=directory&utm_medium=organic&utm_campaign=${encodeURIComponent(
+  const ctaHref = `${PRIMARY_CTA_URL}?utm_source=directory&utm_medium=card&utm_campaign=${encodeURIComponent(
     citySlug,
   )}&utm_content=${encodeURIComponent(slug)}`;
   const website = appraiser.verified || appraiser.listed ? String(appraiser.website || '').trim() : '';
@@ -486,7 +573,7 @@ function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
               : ''
           }
           <a href="${escapeHtml(ctaHref)}" class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors">
-            Request Online Appraisal
+            Try free screener
           </a>
         </div>
         ${
@@ -512,41 +599,52 @@ function renderLocationBody({
   labelForSlug,
 }) {
   const localAppraisersId = 'local-appraisers';
-  const hero = `
-    <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white rounded-xl shadow-lg p-8">
-      <div class="space-y-4">
-        <h1 class="text-3xl md:text-4xl font-bold">${escapeHtml(SERVICE_LABEL)} in ${escapeHtml(cityDisplayName)}</h1>
-        <p class="text-lg text-blue-50/90 leading-relaxed">${escapeHtml(description)}</p>
-        <div class="flex flex-wrap gap-3 pt-2">
-          <a href="${escapeHtml(
-            `${CTA_URL}?utm_source=directory&utm_medium=hero&utm_campaign=${encodeURIComponent(citySlug)}`,
+	  const hero = `
+	    <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white rounded-xl shadow-lg p-8">
+	      <div class="space-y-4">
+	        <h1 class="text-3xl md:text-4xl font-bold">${escapeHtml(SERVICE_LABEL_DISPLAY)} in ${escapeHtml(
+	          cityDisplayName,
+	        )}</h1>
+	        <p class="text-lg text-blue-50/90 leading-relaxed">${escapeHtml(description)}</p>
+	        <div class="flex flex-wrap gap-3 pt-2">
+	          <a href="${escapeHtml(
+	            `${PRIMARY_CTA_URL}?utm_source=directory&utm_medium=hero&utm_campaign=${encodeURIComponent(citySlug)}`,
           )}" class="inline-flex items-center px-5 py-3 bg-white text-blue-700 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
-            Get an online appraisal
+            Try the free screener
           </a>
           <a href="#${localAppraisersId}" onclick="event.preventDefault();var el=document.getElementById('${localAppraisersId}');if(el){el.scrollIntoView({behavior:'smooth'});}history.replaceState(null,'',window.location.pathname+window.location.search+'#${localAppraisersId}');" class="inline-flex items-center px-5 py-3 border border-white/50 text-white rounded-lg hover:bg-white/10 transition-colors">
             Browse local providers
           </a>
         </div>
-        <p class="text-sm text-blue-50/80">
-          <a class="underline hover:no-underline" href="/methodology/">How this directory is built</a>
-          ·
-          <a class="underline hover:no-underline" href="/get-listed/">Get listed</a>
+        <p class="text-sm text-blue-50/85">
+          Ready to buy? <a class="underline hover:no-underline" href="${escapeHtml(
+            `${SECONDARY_CTA_URL}?utm_source=directory&utm_medium=hero_text&utm_campaign=${encodeURIComponent(citySlug)}`,
+          )}">Start a paid appraisal</a>
         </p>
-      </div>
-    </section>
-  `;
+	        <p class="text-sm text-blue-50/80">
+	          <a class="underline hover:no-underline" href="/methodology/">How this directory is built</a>
+	          ·
+	          <a class="underline hover:no-underline" href="/get-listed/">Get listed</a>
+	          ·
+	          <a class="underline hover:no-underline" href="https://appraisily.com/antique-appraiser-near-me?utm_source=directory&utm_medium=hero&utm_campaign=${encodeURIComponent(
+	            citySlug,
+	          )}&utm_content=hub" target="_blank" rel="noopener noreferrer">How to choose an appraiser</a>
+	        </p>
+	      </div>
+	    </section>
+	  `;
 
   const cards = appraisers.length
     ? `
       <section id="${localAppraisersId}" class="space-y-6 scroll-mt-20">
-        <div class="space-y-3">
-          <h2 class="text-2xl font-semibold text-gray-900">Directory profiles (${appraisers.length})</h2>
-          <p class="text-gray-700 leading-relaxed">Compare specialties and services for ${escapeHtml(
-            SERVICE_LABEL_LOWER,
-          )} serving ${escapeHtml(
-            cityDisplayName,
-          )}.</p>
-        </div>
+	        <div class="space-y-3">
+	          <h2 class="text-2xl font-semibold text-gray-900">Directory profiles (${appraisers.length})</h2>
+	          <p class="text-gray-700 leading-relaxed">Compare specialties and services for ${escapeHtml(
+	            SERVICE_LABEL_DISPLAY_LOWER,
+	          )} serving ${escapeHtml(
+	            cityDisplayName,
+	          )}.</p>
+	        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           ${appraisers.map((appraiser) => buildAppraiserCard(appraiser, { citySlug, cityDisplayName })).join('\n')}
         </div>
@@ -555,14 +653,20 @@ function renderLocationBody({
     : `
       <section class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
         <h2 class="text-2xl font-semibold text-gray-900 mb-2">Need help valuing an antique today?</h2>
-        <p class="text-gray-700 leading-relaxed">Request a fast online appraisal from Appraisily. You’ll get a written valuation based on photos, measurements, and recent market comparables.</p>
-        <a class="inline-flex items-center px-5 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors mt-5" href="${escapeHtml(
-          `${CTA_URL}?utm_source=directory&utm_medium=empty_state&utm_campaign=${encodeURIComponent(citySlug)}`,
-        )}">Start an online appraisal</a>
+        <p class="text-gray-700 leading-relaxed">Try the free screener to see what kind of appraisal you need, then upgrade if you want a written valuation.</p>
+        <div class="flex flex-wrap gap-3 mt-5">
+          <a class="inline-flex items-center px-5 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors" href="${escapeHtml(
+            `${PRIMARY_CTA_URL}?utm_source=directory&utm_medium=empty_state&utm_campaign=${encodeURIComponent(citySlug)}`,
+          )}">Start free screener</a>
+          <a class="inline-flex items-center px-5 py-3 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
+            `${SECONDARY_CTA_URL}?utm_source=directory&utm_medium=empty_state_paid&utm_campaign=${encodeURIComponent(citySlug)}`,
+          )}">Start paid appraisal</a>
+        </div>
       </section>
     `;
 
   const { html: faqHtml } = buildFaq(cityDisplayName);
+  const learnMoreHtml = buildLearnMoreSection(cityDisplayName, citySlug);
   const guide = renderLocationGuideSection({
     cityDisplayName,
     stateName,
@@ -577,6 +681,7 @@ function renderLocationBody({
       ${hero}
       ${cards}
       ${guide}
+      ${learnMoreHtml}
       ${faqHtml}
     </div>
   `;
@@ -675,7 +780,7 @@ async function main() {
       const fallbackState = meta.stateName;
       const fallbackCode = normalizeRegionCode(fallbackState);
       const display = fallbackCode ? `${fallbackCityName}, ${fallbackCode}` : fallbackCityName;
-      return `${SERVICE_LABEL} in ${display}`;
+      return `${SERVICE_LABEL_DISPLAY} in ${display}`;
     };
 
     const regionRelated = buildRelatedLocationLinks({ slug, stateName, citiesBySlug: cities, slugsInBuild: slugs });
