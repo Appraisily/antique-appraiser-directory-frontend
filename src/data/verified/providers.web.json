@@ -458,5 +458,49 @@
       "sourceType": "Website (checked)",
       "notes": "Promoted from standardized dataset after a content check on the provider website."
     }
+  },
+  {
+    "locationSlug": "des-moines",
+    "slug": "des-moines-jon-thompson-appraisals",
+    "name": "Jon Thompson Appraisals",
+    "website": "https://www.jonthompsonappraisals.com",
+    "phone": "319-360-7949",
+    "address": {
+      "city": "Des Moines",
+      "region": "IA",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraiser Des Moines IA"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.jonthompsonappraisals.com/",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "Website",
+      "notes": "Discovered via DuckDuckGo (“antique appraiser Des Moines IA”)."
+    }
+  },
+  {
+    "locationSlug": "kansas-city",
+    "slug": "kansas-city-kc-auction-home",
+    "name": "KC Auction Home",
+    "website": "https://www.kcauctioncompany.com",
+    "phone": "816-283-3633",
+    "address": {
+      "city": "Kansas City",
+      "region": "MO",
+      "country": "US"
+    },
+    "specialties": [],
+    "services": [
+      "antique appraiser Kansas City MO"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.kcauctioncompany.com/",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "Website",
+      "notes": "Discovered via DuckDuckGo (“antique appraiser Kansas City MO”)."
+    }
   }
 ]

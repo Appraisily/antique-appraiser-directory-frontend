@@ -1695,5 +1695,429 @@
       "sourceType": "ISA directory",
       "notes": "Imported from ISA Find an Appraiser directory (St. Louis MO)."
     }
+  },
+  {
+    "locationSlug": "des-moines",
+    "slug": "des-moines-elizabeth-r-krambeer",
+    "name": "Elizabeth R Krambeer",
+    "website": "",
+    "phone": "(563) 203-0298",
+    "address": {
+      "city": "Cedar Falls",
+      "region": "IA",
+      "country": "US"
+    },
+    "specialties": [
+      "Art",
+      "Collectibles",
+      "Decorative Arts & Accessories",
+      "Furniture, Fixtures & Equipment (FF&E)",
+      "Religious Items/Artifacts",
+      "Antiquities",
+      "Books"
+    ],
+    "services": [
+      "Donations",
+      "Equitable Distribution",
+      "Estate Evaluations",
+      "Expert Witness",
+      "Insurance Claims"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13712/elizabeth-r-krambeer",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Des Moines IA)."
+    }
+  },
+  {
+    "locationSlug": "des-moines",
+    "slug": "des-moines-ashley-a-stokke",
+    "name": "Ashley A Stokke",
+    "website": "",
+    "phone": "(515) 218-1611",
+    "address": {
+      "city": "Des Moines",
+      "region": "IA",
+      "country": "US"
+    },
+    "specialties": [
+      "Antiquities",
+      "Collectibles",
+      "Decorative Arts & Accessories",
+      "Furniture",
+      "Memorabilia"
+    ],
+    "services": [
+      "Equitable Distribution",
+      "Estate Evaluations",
+      "Estate Tax",
+      "Insurance Claims",
+      "Non-Cash Charitable Donations"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/26562/ashley-a-stokke",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Des Moines IA)."
+    }
+  },
+  {
+    "locationSlug": "kansas-city",
+    "slug": "kansas-city-charles-r-keller",
+    "name": "Charles R. Keller",
+    "website": "",
+    "phone": "(816) 289-5400",
+    "address": {
+      "city": "Lee's Summit",
+      "region": "MO",
+      "country": "US"
+    },
+    "specialties": [
+      "Art",
+      "Artifacts & Archeological Items",
+      "Books",
+      "Decorative Arts & Accessories",
+      "Documents"
+    ],
+    "services": [
+      "Authentication",
+      "Conservation",
+      "Insurance Claims",
+      "Non-Cash Charitable Donations"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/893/charles-r-keller",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Kansas City MO)."
+    }
+  },
+  {
+    "locationSlug": "kansas-city",
+    "slug": "kansas-city-richard-l-pence",
+    "name": "Richard L. Pence",
+    "website": "",
+    "phone": "(816) 820-3175",
+    "address": {
+      "city": "Liberty",
+      "region": "MO",
+      "country": "US"
+    },
+    "specialties": [
+      "Americana",
+      "Ceramics",
+      "Collectibles",
+      "Decorative Arts & Accessories",
+      "Furniture"
+    ],
+    "services": [
+      "Auction",
+      "Estate Evaluations",
+      "Estate Probate",
+      "Estate Sales",
+      "Estate Tax"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1975/richard-l-pence",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Kansas City MO)."
+    }
+  },
+  {
+    "locationSlug": "columbus",
+    "slug": "columbus-pamela-m-slack",
+    "name": "Pamela M Slack",
+    "website": "",
+    "phone": "(614) 706-4258",
+    "address": {
+      "city": "Columbus",
+      "region": "OH",
+      "country": "US"
+    },
+    "specialties": [
+      "Collectibles",
+      "Decorative Arts & Accessories",
+      "Furniture",
+      "Silver",
+      "Art"
+    ],
+    "services": [
+      "Consultant",
+      "Equitable Distribution",
+      "Estate Sales",
+      "Estate Tax",
+      "Non-Cash Charitable Donations"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/17463/pamela-m-slack",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Columbus OH)."
+    }
+  },
+  {
+    "locationSlug": "columbus",
+    "slug": "columbus-allyssa-b-hixenbaugh",
+    "name": "Allyssa B Hixenbaugh",
+    "website": "",
+    "phone": "(614) 706-4258",
+    "address": {
+      "city": "Columbus",
+      "region": "OH",
+      "country": "US"
+    },
+    "specialties": [
+      "Art",
+      "Books",
+      "Collectibles",
+      "Furniture",
+      "Silver"
+    ],
+    "services": [
+      "Donations",
+      "Equitable Distribution",
+      "Estate Probate",
+      "Estate Sales",
+      "Insurance Claims"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2783/allyssa-b-hixenbaugh",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Columbus OH)."
+    }
+  },
+  {
+    "locationSlug": "denver",
+    "slug": "denver-candace-a-hill",
+    "name": "Candace A Hill",
+    "website": "",
+    "phone": "(720) 771-1211",
+    "address": {
+      "city": "Arvada",
+      "region": "CO",
+      "country": "US"
+    },
+    "specialties": [
+      "American Indigenous Art",
+      "Antiquities",
+      "Art",
+      "Decorative Arts & Accessories",
+      "Furniture",
+      "Alaskan Inuit Art",
+      "Alaskan Inuit Artifacts",
+      "American Indigenous Artifacts",
+      "Art - 19th Century",
+      "Art - 20th Century",
+      "Art - American",
+      "Art - Animation",
+      "Art - British",
+      "Art - Canadian",
+      "Art - Deco & Nouveau",
+      "Art - European",
+      "Art - Folk",
+      "Art - Impressionist & Modern",
+      "Art - Latin American",
+      "Art - Middle Eastern",
+      "Art - NW Coast Indigenous",
+      "Art - Oceanic Ethnic & Tribal",
+      "Art - Pre-Columbian",
+      "Art Deco & Art Nouveau"
+    ],
+    "services": [
+      "Divorce Settlements",
+      "Donations",
+      "Equitable Distribution",
+      "Estate Tax",
+      "Insurance Claims"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3284/candace-a-hill",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Denver CO)."
+    }
+  },
+  {
+    "locationSlug": "denver",
+    "slug": "denver-brady-l-dreasher",
+    "name": "Brady L. Dreasher",
+    "website": "",
+    "phone": "(970) 922-9068",
+    "address": {
+      "city": "Denver",
+      "region": "CO",
+      "country": "US"
+    },
+    "specialties": [
+      "Antiquities",
+      "Art",
+      "Carpets & Rugs",
+      "Decorative Arts & Accessories",
+      "Music - Instruments",
+      "Alaskan Inuit Art",
+      "Alaskan Inuit Artifacts",
+      "American Indigenous Art",
+      "American Indigenous Artifacts",
+      "Americana",
+      "Arms & Armor - Firearms",
+      "Art - 15th-18th Century",
+      "Art - 19th Century",
+      "Art - 20th Century",
+      "Art - African",
+      "Art - American",
+      "Art - Animation",
+      "Art - British",
+      "Art - Canadian",
+      "Art - Deco & Nouveau",
+      "Art - European",
+      "Art - Folk",
+      "Art - Impressionist & Modern",
+      "Art - Latin American"
+    ],
+    "services": [
+      "Adjuster",
+      "Appraisal Review",
+      "Arbitrator",
+      "Auction",
+      "Authentication",
+      "Broker",
+      "Conservation",
+      "Consultant",
+      "Damage Claims",
+      "Divorce Settlements",
+      "Donations",
+      "Equitable Distribution",
+      "Estate Evaluations",
+      "Estate Probate",
+      "Estate Sales",
+      "Estate Tax",
+      "Expert Witness",
+      "Insurance Claims",
+      "Investment Evaluation",
+      "Investment Evaluations",
+      "Non-Cash Charitable Donations",
+      "Speaker",
+      "Tax Deductible Gifts"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2849/brady-l-dreasher",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Denver CO)."
+    }
+  },
+  {
+    "locationSlug": "louisville",
+    "slug": "louisville-charles-g-bartman",
+    "name": "Charles G. Bartman",
+    "website": "",
+    "phone": "(502) 432-0809",
+    "address": {
+      "city": "Louisville",
+      "region": "KY",
+      "country": "US"
+    },
+    "specialties": [
+      "Books",
+      "Collectibles - Paper",
+      "Documents - Maps",
+      "Ephemera",
+      "Documents",
+      "Photography & Photographs"
+    ],
+    "services": [
+      "Broker",
+      "Consultant",
+      "Investment Evaluation",
+      "Non-Cash Charitable Donations",
+      "Speaker"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/409/charles-g-bartman",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Louisville KY)."
+    }
+  },
+  {
+    "locationSlug": "orlando",
+    "slug": "orlando-daphne-l-rosenzweig",
+    "name": "Daphne L. Rosenzweig",
+    "website": "",
+    "phone": "(941) 371-4643",
+    "address": {
+      "city": "Sarasota",
+      "region": "FL",
+      "country": "US"
+    },
+    "specialties": [
+      "Ceramics - Asian",
+      "Natural Resources - Jade",
+      "Netsuke Inro & Ojime",
+      "Paintings - Asian",
+      "Prints - Japanese",
+      "Art - Asian"
+    ],
+    "services": [
+      "Consultant",
+      "Donations",
+      "Equitable Distribution",
+      "Insurance Claims"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1907/daphne-l-rosenzweig",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Orlando FL)."
+    }
+  },
+  {
+    "locationSlug": "orlando",
+    "slug": "orlando-lorena-allen-isa-capp-aaa",
+    "name": "Lorena Allen, ISA CAPP, AAA",
+    "website": "",
+    "phone": "(407) 671-1139",
+    "address": {
+      "city": "ORLANDO",
+      "region": "FL",
+      "country": "US"
+    },
+    "specialties": [
+      "Art - Asian",
+      "Art - Impressionist & Modern",
+      "Paintings - Old Masters",
+      "Prints - Modern & Contemporary",
+      "Bronzes",
+      "Ceramics - Asian",
+      "Furniture - Asian",
+      "Furniture - Contemporary",
+      "Glass",
+      "Jade",
+      "Jewelry",
+      "Jewelry - Antique & Period",
+      "Music - Instruments",
+      "Objet d'art & De Vertu",
+      "Paintings - 20th Century",
+      "Silver - Sterling",
+      "Textiles - Asian"
+    ],
+    "services": [
+      "Broker",
+      "Consultant",
+      "Estate Probate",
+      "Instructor",
+      "Insurance Claims",
+      "Non-Cash Charitable Donations",
+      "Retail - Art"
+    ],
+    "verification": {
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/62/lorena-allen-isa-capp-aaa",
+      "verifiedAt": "2026-02-11",
+      "sourceType": "ISA directory",
+      "notes": "Imported from ISA Find an Appraiser directory (Orlando FL)."
+    }
   }
 ]

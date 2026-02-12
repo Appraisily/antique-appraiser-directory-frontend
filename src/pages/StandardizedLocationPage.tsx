@@ -17,6 +17,50 @@ import { cities as directoryCities } from '../data/cities.json';
 import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
 import { normalizeAssetUrl } from '../utils/assetUrls';
 
+type DirectoryCity = {
+  name: string;
+  state: string;
+  slug: string;
+  latitude?: number;
+  longitude?: number;
+};
+
+const STRIKING_DISTANCE_CITY_SLUGS = [
+  'des-moines',
+  'kansas-city',
+  'chicago',
+  'columbus',
+  'tucson',
+  'denver',
+  'milwaukee',
+  'cleveland',
+  'baltimore',
+  'louisville'
+] as const;
+
+function estimateDistanceKm(fromCity: DirectoryCity, toCity: DirectoryCity): number {
+  if (
+    typeof fromCity.latitude !== 'number' ||
+    typeof fromCity.longitude !== 'number' ||
+    typeof toCity.latitude !== 'number' ||
+    typeof toCity.longitude !== 'number'
+  ) {
+    return Number.POSITIVE_INFINITY;
+  }
+
+  const toRad = (degrees: number) => (degrees * Math.PI) / 180;
+  const earthRadiusKm = 6371;
+  const dLat = toRad(toCity.latitude - fromCity.latitude);
+  const dLon = toRad(toCity.longitude - fromCity.longitude);
+  const lat1 = toRad(fromCity.latitude);
+  const lat2 = toRad(toCity.latitude);
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return earthRadiusKm * c;
+}
+
 export function StandardizedLocationPage() {
   const { citySlug } = useParams<{ citySlug: string }>();
   const [locationData, setLocationData] = useState<StandardizedLocation | null>(null);
@@ -105,6 +149,77 @@ export function StandardizedLocationPage() {
       .slice(0, 3)
       .map(([specialty]) => specialty);
   }, [locationData]);
+  const citySearchName = useMemo(() => {
+    if (cityMeta?.name) return cityMeta.name;
+    return cityName.split(',')[0]?.trim() || cityName;
+  }, [cityMeta, cityName]);
+  const locationPath = `/location/${validCitySlug}`;
+  const locationCanonicalUrl = useMemo(() => buildSiteUrl(locationPath), [locationPath]);
+  const relatedCities = useMemo(() => {
+    const typedCities = directoryCities as DirectoryCity[];
+    const fallback = typedCities
+      .filter(city => city.slug !== validCitySlug)
+      .slice(0, 6);
+
+    if (!cityMeta?.state) {
+      return fallback;
+    }
+
+    const sameStateCities = typedCities.filter(
+      city => city.slug !== validCitySlug && city.state === cityMeta.state
+    );
+
+    if (sameStateCities.length === 0) {
+      return fallback;
+    }
+
+    const origin = cityMeta as DirectoryCity;
+    return sameStateCities
+      .map(city => ({
+        city,
+        distanceKm: estimateDistanceKm(origin, city),
+      }))
+      .sort((a, b) => {
+        if (a.distanceKm !== b.distanceKm) {
+          return a.distanceKm - b.distanceKm;
+        }
+        return a.city.name.localeCompare(b.city.name);
+      })
+      .slice(0, 6)
+      .map(item => item.city);
+  }, [cityMeta, validCitySlug]);
+  const popularOpportunityCities = useMemo(() => {
+    const typedCities = directoryCities as DirectoryCity[];
+    return STRIKING_DISTANCE_CITY_SLUGS
+      .map((slug) => typedCities.find(city => city.slug === slug))
+      .filter((city): city is DirectoryCity => Boolean(city) && city.slug !== validCitySlug)
+      .slice(0, 8);
+  }, [validCitySlug]);
+  const topReviewedAppraisers = useMemo(() => {
+    if (!locationData?.appraisers?.length) return [];
+    return [...locationData.appraisers]
+      .filter(appraiser => appraiser.business.reviewCount > 0)
+      .sort((a, b) => {
+        if (b.business.reviewCount !== a.business.reviewCount) {
+          return b.business.reviewCount - a.business.reviewCount;
+        }
+        return b.business.rating - a.business.rating;
+      })
+      .slice(0, 5);
+  }, [locationData]);
+  const seoKeywords = useMemo(
+    () => [
+      `antique appraisers in ${citySearchName}`,
+      `${citySearchName} antique appraisers`,
+      `${citySearchName} antique appraisals`,
+      `antique appraisal ${citySearchName}`,
+      `antique appraiser near ${citySearchName}`,
+      'antique appraisers near me',
+      'antique appraisal near me',
+      'online antique appraisal',
+    ],
+    [citySearchName]
+  );
 
   const generateBreadcrumbSchema = () => ({
     '@context': 'https://schema.org',
@@ -125,8 +240,12 @@ export function StandardizedLocationPage() {
     ]
   });
 
-  const seoTitle = `Antique Appraisers in ${cityName} + Online Appraisal | Appraisily`;
-  const seoDescription = `Looking for in-person antique appraisers in ${cityName}? Compare trusted local professionals and get a fast online appraisal from Appraisily without the appointment.`;
+  const seoTitle = locationData?.appraisers?.length
+    ? `${citySearchName} Antique Appraisers Near You | Compare ${locationData.appraisers.length} Local Experts`
+    : `Antique Appraisers in ${cityName} | Local & Online Options`;
+  const seoDescription = locationData?.appraisers?.length
+    ? `Compare ${locationData.appraisers.length} antique appraisers in ${cityName}. See verified specialties, ratings, and pricing style, then choose local in-person service or start a faster online appraisal.`
+    : `Find antique appraisers in ${cityName}. Compare local in-person providers and start an online appraisal with Appraisily when you need a faster option.`;
 
   const generateLocationFaqSchema = () => ({
     '@context': 'https://schema.org',
@@ -174,6 +293,35 @@ export function StandardizedLocationPage() {
       }
     ]
   });
+  const generateLocationCollectionSchema = () => ({
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': locationCanonicalUrl,
+    url: locationCanonicalUrl,
+    name: seoTitle,
+    description: seoDescription,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Antique Appraiser Directory',
+      url: SITE_URL
+    },
+    about: {
+      '@type': 'Thing',
+      name: `Antique appraisal services in ${cityName}`
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      name: `Top antique appraisers in ${cityName}`,
+      numberOfItems: locationData?.appraisers?.length ?? 0,
+      itemListOrder: 'https://schema.org/ItemListOrderDescending',
+      itemListElement: (locationData?.appraisers ?? []).slice(0, 20).map((appraiser, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        url: buildSiteUrl(`/appraiser/${appraiser.slug}`),
+        name: appraiser.name
+      }))
+    }
+  });
 
   const flaggedAppraisers = (locationData?.appraisers ?? []).filter(appraiser =>
     isTemplatedPricing(appraiser.business?.pricing) ||
@@ -183,6 +331,31 @@ export function StandardizedLocationPage() {
     isPlaceholderAbout(appraiser.content?.about)
   );
   const showLocationWarning = flaggedAppraisers.length > 0;
+
+  useEffect(() => {
+    if (!locationData || locationData.appraisers.length === 0) {
+      return;
+    }
+
+    trackEvent('location_page_summary', {
+      city_slug: validCitySlug,
+      city_name: citySearchName,
+      state: cityMeta?.state,
+      appraiser_count: locationData.appraisers.length,
+      flagged_profile_count: flaggedAppraisers.length,
+      related_city_count: relatedCities.length,
+      top_specialties: topSpecialties.slice(0, 3),
+      seo_variant: 'location_near_you_v2'
+    });
+  }, [
+    cityMeta?.state,
+    citySearchName,
+    flaggedAppraisers.length,
+    locationData,
+    relatedCities.length,
+    topSpecialties,
+    validCitySlug
+  ]);
 
   const handleAppraiserCardClick = (appraiser: StandardizedAppraiser, placement: string) => {
     trackEvent('appraiser_card_click', {
@@ -199,6 +372,16 @@ export function StandardizedLocationPage() {
       placement,
       destination: primaryCtaUrl,
       city_slug: validCitySlug
+    });
+  };
+  const handleRelatedCityClick = (relatedCity: DirectoryCity, placement: string) => {
+    trackEvent('related_city_click', {
+      placement,
+      city_slug: validCitySlug,
+      city_name: citySearchName,
+      related_city_slug: relatedCity.slug,
+      related_city_name: relatedCity.name,
+      related_city_state: relatedCity.state,
     });
   };
 
@@ -230,7 +413,8 @@ export function StandardizedLocationPage() {
           title={`Antique Appraisers in ${cityName} | Find Local Antique Appraisal Services`}
           description={`We're currently updating our list of antique appraisers in ${cityName}. Browse our directory for other locations or check back soon.`}
           schema={[generateBreadcrumbSchema()]}
-          path={`/location/${validCitySlug}`}
+          path={locationPath}
+          pageUrl={locationCanonicalUrl}
         />
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-3xl font-bold mb-4">Antique Appraisers in {cityName}</h1>
@@ -251,12 +435,15 @@ export function StandardizedLocationPage() {
       <SEO
         title={seoTitle}
         description={seoDescription}
+        keywords={seoKeywords}
         schema={[
           generateLocationSchema(locationData, cityName, validCitySlug),
           generateBreadcrumbSchema(),
+          generateLocationCollectionSchema(),
           generateLocationFaqSchema()
         ]}
-        path={`/location/${validCitySlug}`}
+        path={locationPath}
+        pageUrl={locationCanonicalUrl}
       />
 
       <div className="max-w-6xl mx-auto">
@@ -286,6 +473,11 @@ export function StandardizedLocationPage() {
                 data-gtm-event="cta_click"
                 data-gtm-placement="location_hero_secondary"
                 onClick={(event) => {
+                  trackEvent('cta_click', {
+                    placement: 'location_hero_secondary',
+                    destination: '#local-appraisers',
+                    city_slug: validCitySlug
+                  });
                   event.preventDefault();
                   document.getElementById('local-appraisers')?.scrollIntoView({ behavior: 'smooth' });
                   window.history.replaceState(
@@ -322,6 +514,56 @@ export function StandardizedLocationPage() {
               We currently list {locationData.appraisers.length} antique appraisers in {cityName}.
               {topSpecialties.length > 0 && ` Most common specialties include ${topSpecialties.join(', ')}.`}
             </p>
+          </div>
+        )}
+
+        {relatedCities.length > 0 && (
+          <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6">
+            <h2 className="text-xl font-semibold mb-2">
+              More antique appraisal directories near {cityMeta?.state || citySearchName}
+            </h2>
+            <p className="text-gray-600">
+              Build your shortlist faster by checking nearby city directories and comparing additional specialists.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {relatedCities.map(city => (
+                <a
+                  key={city.slug}
+                  href={buildSiteUrl(`/location/${city.slug}`)}
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  data-gtm-event="related_city_click"
+                  data-gtm-placement="location_related_cities"
+                  data-gtm-city={city.slug}
+                  onClick={() => handleRelatedCityClick(city, 'location_related_cities')}
+                >
+                  {city.name}, {city.state}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {popularOpportunityCities.length > 0 && (
+          <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6">
+            <h2 className="text-xl font-semibold mb-2">Popular antique appraisal city guides</h2>
+            <p className="text-gray-600">
+              Compare nearby options with other high-demand appraisal cities collectors search most often.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {popularOpportunityCities.map(city => (
+                <a
+                  key={city.slug}
+                  href={buildSiteUrl(`/location/${city.slug}`)}
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  data-gtm-event="related_city_click"
+                  data-gtm-placement="location_popular_cities"
+                  data-gtm-city={city.slug}
+                  onClick={() => handleRelatedCityClick(city, 'location_popular_cities')}
+                >
+                  {city.name}, {city.state}
+                </a>
+              ))}
+            </div>
           </div>
         )}
 
@@ -386,6 +628,30 @@ export function StandardizedLocationPage() {
             Use this list to contact in-person providers or compare them with Appraisily&rsquo;s online option.
           </p>
         </div>
+
+        {topReviewedAppraisers.length > 0 && (
+          <div className="mb-6 rounded-lg border border-gray-200 bg-white p-6">
+            <h2 className="text-xl font-semibold mb-2">Top-reviewed appraisers in {cityName}</h2>
+            <p className="text-gray-600">
+              Start with the highest-reviewed profiles, then compare specialties and service fit.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {topReviewedAppraisers.map((appraiser) => (
+                <a
+                  key={appraiser.id}
+                  href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  data-gtm-event="appraiser_card_click"
+                  data-gtm-placement="location_top_reviewed"
+                  data-gtm-appraiser={appraiser.slug}
+                  onClick={() => handleAppraiserCardClick(appraiser, 'location_top_reviewed')}
+                >
+                  {appraiser.name} ({appraiser.business.reviewCount} reviews)
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {locationData.appraisers.map(appraiser => (
