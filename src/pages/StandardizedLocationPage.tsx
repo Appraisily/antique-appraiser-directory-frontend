@@ -38,6 +38,98 @@ const STRIKING_DISTANCE_CITY_SLUGS = [
   'louisville'
 ] as const;
 
+type LocationSeoOverride = {
+  title: string;
+  description: string;
+  h1: string;
+  heroDescription: string;
+};
+
+const LOCATION_SEO_OVERRIDES: Partial<
+  Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], LocationSeoOverride>
+> = {
+  'des-moines': {
+    title: 'Des Moines Antique Appraisers | Art, Donation & Estate Values',
+    description:
+      'Compare antique and art appraisers in Des Moines for donation, estate, insurance, and personal property valuations. Review specialties, then choose local or online appraisal.',
+    h1: 'Des Moines Antique & Art Appraisers',
+    heroDescription:
+      'Compare local antique and art appraisal specialists in Des Moines, then choose the best fit for donation, estate, or insurance needs.'
+  },
+  'kansas-city': {
+    title: 'Kansas City Art & Antique Appraisers | Local Valuation Experts',
+    description:
+      'Looking for an art appraiser in Kansas City? Compare local antique and art appraisal specialists, review credentials, and choose in-person or faster online service.',
+    h1: 'Kansas City Art & Antique Appraisers',
+    heroDescription:
+      'Review Kansas City appraisers for art, antiques, and collections, then pick local in-person help or a faster online appraisal.'
+  },
+  chicago: {
+    title: 'Chicago Antique Appraisers | Art Appraisal & Estate Experts',
+    description:
+      'Compare Chicago antique and art appraisers for estate, donation, insurance, and resale needs. See specialties and select local or online appraisal support.',
+    h1: 'Chicago Antique & Art Appraisers',
+    heroDescription:
+      'Find Chicago appraisers for antiques, art, and collections, then choose local in-person service or a faster online appraisal route.'
+  },
+  tucson: {
+    title: 'Tucson Antique Appraisers | Donation, Art & Estate Values',
+    description:
+      'Compare Tucson antique and art appraisers for donation, estate, and personal property valuation. Check specialties and choose local or online appraisal.',
+    h1: 'Tucson Antique & Art Appraisers',
+    heroDescription:
+      'Compare Tucson specialists for antique, art, and donation valuations, then pick the local or online path that matches your timeline.'
+  },
+  columbus: {
+    title: 'Columbus Antique Appraisers | Art, Donation & Tax Appraisals',
+    description:
+      'Find and compare Columbus appraisers for antiques, art, donation, and tax-related valuations. Review credentials and choose local or online appraisal.',
+    h1: 'Columbus Antique & Art Appraisers',
+    heroDescription:
+      'Compare Columbus appraisal experts for donation, tax, estate, and insurance needs before choosing local in-person or online service.'
+  },
+  denver: {
+    title: 'Denver Antique Appraisers | Art Appraisal Near You',
+    description:
+      'Compare Denver antique and art appraisers, including specialists for insurance, estate, and resale valuation. Choose local in-person or online appraisal.',
+    h1: 'Denver Antique & Art Appraisers',
+    heroDescription:
+      'Find Denver appraisers for antiques and art, compare specialties, and choose between local appointments or faster online appraisal.'
+  },
+  milwaukee: {
+    title: 'Milwaukee Antique Appraisers | Estate & Art Appraisal Experts',
+    description:
+      'Compare Milwaukee antique appraisers for estate items, collections, and art valuation. Review specialties and choose in-person or online appraisal support.',
+    h1: 'Milwaukee Antique Appraisers',
+    heroDescription:
+      'Compare Milwaukee appraisal options for antiques, estate items, and art, then choose local in-person service or online turnaround.'
+  },
+  cleveland: {
+    title: 'Cleveland Antique Appraisers | Donation & Personal Property',
+    description:
+      'Find Cleveland appraisers for antiques, art, charitable donation, and personal property valuation. Compare local providers and online alternatives.',
+    h1: 'Cleveland Antique & Art Appraisers',
+    heroDescription:
+      'Compare Cleveland appraisers for donation, personal property, and antique valuation needs, then choose local or online service.'
+  },
+  louisville: {
+    title: 'Louisville Antique Appraisers | Art, Tax & Estate Valuation',
+    description:
+      'Compare Louisville appraisers for antiques, art, tax donation, and estate valuation. Review local specialists and choose in-person or online appraisal.',
+    h1: 'Louisville Antique & Art Appraisers',
+    heroDescription:
+      'Find Louisville specialists for antique, art, and tax-related valuations, then choose local in-person or faster online appraisal.'
+  },
+  baltimore: {
+    title: 'Baltimore Antique Appraisers | Furniture & Art Valuation',
+    description:
+      'Compare Baltimore antique appraisers for furniture, art, estate, and insurance valuations. Check specialties and choose local or online appraisal service.',
+    h1: 'Baltimore Antique & Art Appraisers',
+    heroDescription:
+      'Compare Baltimore specialists for antique furniture, art, and collection valuation, then choose local in-person or online appraisal.'
+  }
+};
+
 function estimateDistanceKm(fromCity: DirectoryCity, toCity: DirectoryCity): number {
   if (
     typeof fromCity.latitude !== 'number' ||
@@ -240,12 +332,19 @@ export function StandardizedLocationPage() {
     ]
   });
 
-  const seoTitle = locationData?.appraisers?.length
+  const seoOverride = LOCATION_SEO_OVERRIDES[validCitySlug as (typeof STRIKING_DISTANCE_CITY_SLUGS)[number]];
+  const fallbackSeoTitle = locationData?.appraisers?.length
     ? `${citySearchName} Antique Appraisers Near You | Compare ${locationData.appraisers.length} Local Experts`
     : `Antique Appraisers in ${cityName} | Local & Online Options`;
-  const seoDescription = locationData?.appraisers?.length
+  const fallbackSeoDescription = locationData?.appraisers?.length
     ? `Compare ${locationData.appraisers.length} antique appraisers in ${cityName}. See verified specialties, ratings, and pricing style, then choose local in-person service or start a faster online appraisal.`
     : `Find antique appraisers in ${cityName}. Compare local in-person providers and start an online appraisal with Appraisily when you need a faster option.`;
+  const seoTitle = seoOverride?.title ?? fallbackSeoTitle;
+  const seoDescription = seoOverride?.description ?? fallbackSeoDescription;
+  const heroHeading = seoOverride?.h1 ?? `Antique Appraisers in ${cityName}`;
+  const heroDescription =
+    seoOverride?.heroDescription ??
+    `Compare local professionals in ${cityName}, then choose the option that fits your timeline. If you want a faster path, Appraisily provides online appraisals without the appointment.`;
 
   const generateLocationFaqSchema = () => ({
     '@context': 'https://schema.org',
@@ -345,7 +444,7 @@ export function StandardizedLocationPage() {
       flagged_profile_count: flaggedAppraisers.length,
       related_city_count: relatedCities.length,
       top_specialties: topSpecialties.slice(0, 3),
-      seo_variant: 'location_near_you_v2'
+      seo_variant: seoOverride ? 'location_near_you_v3_city_override' : 'location_near_you_v2'
     });
   }, [
     cityMeta?.state,
@@ -353,6 +452,7 @@ export function StandardizedLocationPage() {
     flaggedAppraisers.length,
     locationData,
     relatedCities.length,
+    seoOverride,
     topSpecialties,
     validCitySlug
   ]);
@@ -451,11 +551,8 @@ export function StandardizedLocationPage() {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             <div className="max-w-3xl">
               <p className="text-sm font-semibold text-blue-700 mb-2">Searching for in-person appraisers?</p>
-              <h1 className="text-3xl font-bold mb-3">Antique Appraisers in {cityName}</h1>
-              <p className="text-gray-600">
-                Compare local professionals in {cityName}, then choose the option that fits your timeline.
-                If you want a faster path, Appraisily provides online appraisals without the appointment.
-              </p>
+              <h1 className="text-3xl font-bold mb-3">{heroHeading}</h1>
+              <p className="text-gray-600">{heroDescription}</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3">
               <a
