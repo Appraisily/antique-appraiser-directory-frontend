@@ -32,6 +32,89 @@ const SERVICE_LABEL_LOWER = 'antique appraisers';
 const SERVICE_LABEL_DISPLAY = 'Antique & Art Appraisers';
 const SERVICE_LABEL_DISPLAY_LOWER = 'antique and art appraisers';
 const SERVICE_TYPE_LABEL = 'Antique Appraisal';
+const LOCATION_SEO_OVERRIDES = {
+  'des-moines': {
+    title: 'Des Moines Antique Appraisers | Art, Donation & Estate Values',
+    description:
+      'Compare antique and art appraisers in Des Moines for donation, estate, insurance, and personal property valuations. Review specialties, then choose local or online appraisal.',
+    h1: 'Des Moines Antique & Art Appraisers',
+    heroDescription:
+      'Compare local antique and art appraisal specialists in Des Moines, then choose the best fit for donation, estate, or insurance needs.',
+  },
+  'kansas-city': {
+    title: 'Kansas City Art & Antique Appraisers | Local Valuation Experts',
+    description:
+      'Looking for an art appraiser in Kansas City? Compare local antique and art appraisal specialists, review credentials, and choose in-person or faster online service.',
+    h1: 'Kansas City Art & Antique Appraisers',
+    heroDescription:
+      'Review Kansas City appraisers for art, antiques, and collections, then pick local in-person help or a faster online appraisal.',
+  },
+  chicago: {
+    title: 'Chicago Antique Appraisers | Art Appraisal & Estate Experts',
+    description:
+      'Compare Chicago antique and art appraisers for estate, donation, insurance, and resale needs. See specialties and select local or online appraisal support.',
+    h1: 'Chicago Antique & Art Appraisers',
+    heroDescription:
+      'Find Chicago appraisers for antiques, art, and collections, then choose local in-person service or a faster online appraisal route.',
+  },
+  tucson: {
+    title: 'Tucson Antique Appraisers | Donation, Art & Estate Values',
+    description:
+      'Compare Tucson antique and art appraisers for donation, estate, and personal property valuation. Check specialties and choose local or online appraisal.',
+    h1: 'Tucson Antique & Art Appraisers',
+    heroDescription:
+      'Compare Tucson specialists for antique, art, and donation valuations, then pick the local or online path that matches your timeline.',
+  },
+  columbus: {
+    title: 'Columbus Antique Appraisers | Art, Donation & Tax Appraisals',
+    description:
+      'Find and compare Columbus appraisers for antiques, art, donation, and tax-related valuations. Review credentials and choose local or online appraisal.',
+    h1: 'Columbus Antique & Art Appraisers',
+    heroDescription:
+      'Compare Columbus appraisal experts for donation, tax, estate, and insurance needs before choosing local in-person or online service.',
+  },
+  denver: {
+    title: 'Denver Antique Appraisers | Art Appraisal Near You',
+    description:
+      'Compare Denver antique and art appraisers, including specialists for insurance, estate, and resale valuation. Choose local in-person or online appraisal.',
+    h1: 'Denver Antique & Art Appraisers',
+    heroDescription:
+      'Find Denver appraisers for antiques and art, compare specialties, and choose between local appointments or faster online appraisal.',
+  },
+  milwaukee: {
+    title: 'Milwaukee Antique Appraisers | Estate & Art Appraisal Experts',
+    description:
+      'Compare Milwaukee antique appraisers for estate items, collections, and art valuation. Review specialties and choose in-person or online appraisal support.',
+    h1: 'Milwaukee Antique Appraisers',
+    heroDescription:
+      'Compare Milwaukee appraisal options for antiques, estate items, and art, then choose local in-person service or online turnaround.',
+  },
+  cleveland: {
+    title: 'Cleveland Antique Appraisers | Donation & Personal Property',
+    description:
+      'Find Cleveland appraisers for antiques, art, charitable donation, and personal property valuation. Compare local providers and online alternatives.',
+    h1: 'Cleveland Antique & Art Appraisers',
+    heroDescription:
+      'Compare Cleveland appraisers for donation, personal property, and antique valuation needs, then choose local or online service.',
+  },
+  louisville: {
+    title: 'Louisville Antique Appraisers | Art, Tax & Estate Valuation',
+    description:
+      'Compare Louisville appraisers for antiques, art, tax donation, and estate valuation. Review local specialists and choose in-person or online appraisal.',
+    h1: 'Louisville Antique & Art Appraisers',
+    heroDescription:
+      'Find Louisville specialists for antique, art, and tax-related valuations, then choose local in-person or faster online appraisal.',
+  },
+  baltimore: {
+    title: 'Baltimore Antique Appraisers | Furniture & Art Valuation',
+    description:
+      'Compare Baltimore antique appraisers for furniture, art, estate, and insurance valuations. Check specialties and choose local or online appraisal service.',
+    h1: 'Baltimore Antique & Art Appraisers',
+    heroDescription:
+      'Compare Baltimore specialists for antique furniture, art, and collection valuation, then choose local in-person or online appraisal.',
+  },
+};
+
 
 const TRUST_FIRST_LOCATION_SLUGS = new Set(['kelowna', 'calgary', 'san-antonio']);
 const TRUST_FIRST_MIN_VERIFIED = 3;
@@ -594,6 +677,8 @@ function renderLocationBody({
   citySlug,
   canonicalUrl,
   description,
+  heroHeading,
+  heroDescription,
   appraisers,
   relatedSlugs,
   labelForSlug,
@@ -602,10 +687,8 @@ function renderLocationBody({
 	  const hero = `
 	    <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white rounded-xl shadow-lg p-8">
 	      <div class="space-y-4">
-	        <h1 class="text-3xl md:text-4xl font-bold">${escapeHtml(SERVICE_LABEL_DISPLAY)} in ${escapeHtml(
-	          cityDisplayName,
-	        )}</h1>
-	        <p class="text-lg text-blue-50/90 leading-relaxed">${escapeHtml(description)}</p>
+	        <h1 class="text-3xl md:text-4xl font-bold">${escapeHtml(heroHeading)}</h1>
+	        <p class="text-lg text-blue-50/90 leading-relaxed">${escapeHtml(heroDescription)}</p>
 	        <div class="flex flex-wrap gap-3 pt-2">
 	          <a href="${escapeHtml(
 	            `${PRIMARY_CTA_URL}?utm_source=directory&utm_medium=hero&utm_campaign=${encodeURIComponent(citySlug)}`,
@@ -770,9 +853,12 @@ async function main() {
     const canonicalUrl = buildAbsoluteUrl(`/location/${slug}/`);
     const regionCode = normalizeRegionCode(stateName);
     const titleDisplay = regionCode ? `${cityName}, ${regionCode}` : cityName;
-  const descriptionDisplay = stateName ? `${cityName}, ${stateName}` : cityName;
-  const title = buildTitle(titleDisplay);
-  const description = buildDescription(descriptionDisplay);
+    const descriptionDisplay = stateName ? `${cityName}, ${stateName}` : cityName;
+    const seoOverride = LOCATION_SEO_OVERRIDES[slug];
+    const title = seoOverride?.title || buildTitle(titleDisplay);
+    const description = seoOverride?.description || buildDescription(descriptionDisplay);
+    const heroHeading = seoOverride?.h1 || `${SERVICE_LABEL_DISPLAY} in ${cityDisplayName}`;
+    const heroDescription = seoOverride?.heroDescription || description;
 
   const labelForSlug = (candidateSlug) => {
       const meta = normalizeCityMeta(cities.get(candidateSlug));
@@ -803,6 +889,8 @@ async function main() {
       citySlug: slug,
       canonicalUrl,
       description,
+      heroHeading,
+      heroDescription,
       appraisers,
       relatedSlugs,
       labelForSlug,
