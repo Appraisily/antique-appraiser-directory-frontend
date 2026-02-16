@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { capturePosthogEvent } from '../lib/posthog';
 import { derivePageContext } from '../utils/analytics';
@@ -23,6 +23,8 @@ export function ContentFeedback() {
   const [helpful, setHelpful] = useState<boolean | null>(null);
   const [comment, setComment] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [validationError, setValidationError] = useState<string | null>(null);
+  const yesButtonRef = useRef<HTMLButtonElement | null>(null);
 
   const context = useMemo(() => derivePageContext(location.pathname), [location.pathname]);
 
@@ -41,6 +43,7 @@ export function ContentFeedback() {
   const onVote = (value: boolean) => {
     if (submitted) return;
     setHelpful(value);
+    setValidationError(null);
 
     capturePosthogEvent('seo_content_feedback_vote', {
       ...commonProps,
@@ -51,7 +54,15 @@ export function ContentFeedback() {
   const onSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     if (submitted) return;
-    if (helpful === null) return;
+    if (helpful === null) {
+      setValidationError('Choose Yes or No to submit feedback.');
+      try {
+        yesButtonRef.current?.focus();
+      } catch {
+        // ignore
+      }
+      return;
+    }
 
     const redacted = redactFeedbackText(comment).slice(0, 800);
 
@@ -79,6 +90,7 @@ export function ContentFeedback() {
               type="button"
               onClick={() => onVote(true)}
               disabled={submitted}
+              ref={yesButtonRef}
               className={[
                 'rounded-full border px-4 py-2 text-sm font-semibold transition',
                 helpful === true
@@ -111,22 +123,23 @@ export function ContentFeedback() {
             </p>
           ) : (
             <form onSubmit={onSubmit} className="mt-4">
+              {validationError ? (
+                <p className="mb-3 text-sm font-medium text-red-700" role="alert">
+                  {validationError}
+                </p>
+              ) : null}
               <textarea
                 className="w-full min-h-24 resize-y rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500/40"
                 placeholder="What could we improve on this page?"
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
-                disabled={helpful === null}
               />
               <div className="mt-3 flex items-center gap-3">
                 <button
                   type="submit"
-                  disabled={helpful === null}
                   className={[
                     'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition',
-                    helpful === null
-                      ? 'opacity-50 cursor-not-allowed'
-                      : 'hover:bg-gray-800 cursor-pointer',
+                    'hover:bg-gray-800 cursor-pointer',
                   ].join(' ')}
                 >
                   Send feedback
@@ -140,4 +153,3 @@ export function ContentFeedback() {
     </section>
   );
 }
-
