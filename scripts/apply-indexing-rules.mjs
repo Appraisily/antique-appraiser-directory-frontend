@@ -3,13 +3,15 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 import { looksLikeAiJunk } from './utils/text-sanitize.js';
-import { INDEXABLE_LOCATION_SLUG_SET } from './utils/indexable-locations.js';
+import { INDEXABLE_LOCATION_SLUG_SET, POPULAR_LOCATION_SLUGS } from './utils/indexable-locations.js';
+import { loadVerifiedProviders } from './utils/verified-providers.mjs';
 
 function parseArgs(argv) {
   const args = [...argv];
   const options = {
     publicDir: path.resolve(process.cwd(), 'public_site'),
     dryRun: false,
+    maxIndexableAppraisers: 120,
   };
 
   while (args.length) {
@@ -24,6 +26,12 @@ function parseArgs(argv) {
         break;
       case '--dry-run':
         options.dryRun = true;
+        break;
+      case '--max-indexable-appraisers':
+        {
+          const value = Number.parseInt(String(readValue() || '').trim(), 10);
+          if (Number.isFinite(value) && value >= 0) options.maxIndexableAppraisers = value;
+        }
         break;
       default:
         throw new Error(`Unknown flag ${flag}`);
@@ -135,13 +143,64 @@ function toPosix(p) {
   return p.replace(/\\\\/g, '/');
 }
 
+async function buildTrustedAppraiserSlugSet(maxCount) {
+  const loaded = await loadVerifiedProviders();
+  const providers = Array.isArray(loaded?.providers) ? loaded.providers : [];
+  if (!providers.length || maxCount <= 0) return new Set();
+
+  const popularityRank = new Map(
+    POPULAR_LOCATION_SLUGS.map((slug, index) => [slug, index + 1]),
+  );
+
+  const ranked = providers
+    .filter((provider) => provider?.slug)
+    .map((provider) => {
+      const trustScore = provider.verified ? 3 : provider.listed ? 1 : 0;
+      const hasWebsite = provider.website ? 1 : 0;
+      const hasPhone = provider.phone ? 1 : 0;
+      const hasEmail = provider.email ? 1 : 0;
+      const specialtiesCount = Array.isArray(provider.specialties) ? provider.specialties.length : 0;
+      const servicesCount = Array.isArray(provider.services) ? provider.services.length : 0;
+      const locationRank = popularityRank.get(String(provider.locationSlug || '').trim()) ?? 9999;
+      const verifiedAt = String(provider?.verification?.verifiedAt || '1900-01-01');
+      return {
+        slug: String(provider.slug).trim(),
+        trustScore,
+        hasWebsite,
+        hasPhone,
+        hasEmail,
+        specialtiesCount,
+        servicesCount,
+        locationRank,
+        verifiedAt,
+      };
+    })
+    .sort((a, b) => {
+      if (b.trustScore !== a.trustScore) return b.trustScore - a.trustScore;
+      if (a.locationRank !== b.locationRank) return a.locationRank - b.locationRank;
+      if (b.hasWebsite !== a.hasWebsite) return b.hasWebsite - a.hasWebsite;
+      if (b.hasPhone !== a.hasPhone) return b.hasPhone - a.hasPhone;
+      if (b.hasEmail !== a.hasEmail) return b.hasEmail - a.hasEmail;
+      if (b.specialtiesCount !== a.specialtiesCount) return b.specialtiesCount - a.specialtiesCount;
+      if (b.servicesCount !== a.servicesCount) return b.servicesCount - a.servicesCount;
+      if (b.verifiedAt !== a.verifiedAt) return b.verifiedAt.localeCompare(a.verifiedAt);
+      return a.slug.localeCompare(b.slug);
+    });
+
+  const selected = ranked.slice(0, maxCount).map((entry) => entry.slug);
+  return new Set(selected);
+}
+
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   const publicDir = options.publicDir;
+  const trustedAppraiserSlugSet = await buildTrustedAppraiserSlugSet(options.maxIndexableAppraisers);
 
   const stats = {
     publicDir,
     dryRun: options.dryRun,
+    maxIndexableAppraisers: options.maxIndexableAppraisers,
+    trustedAppraiserCandidates: trustedAppraiserSlugSet.size,
     scanned: 0,
     changed: 0,
     noindexLocation: 0,
@@ -183,10 +242,14 @@ async function main() {
         robots = 'noindex, follow';
         stats.noindexLegacyRedirect += 1;
       } else {
-        // Appraiser detail pages frequently contain low-confidence or auto-generated fields.
-        // Concentrate crawl budget on indexable location pages until appraiser profiles are verified.
-        robots = 'noindex, follow';
-        stats.noindexAppraiserLowValue += 1;
+        const appraiserSlug = rel.split('/')[1] || '';
+        if (trustedAppraiserSlugSet.has(appraiserSlug)) {
+          robots = 'index, follow';
+          stats.indexableAppraiser += 1;
+        } else {
+          robots = 'noindex, follow';
+          stats.noindexAppraiserLowValue += 1;
+        }
       }
 
       const branded = applyDirectoryBrandingFixes(updated);

@@ -35,7 +35,18 @@ const STRIKING_DISTANCE_CITY_SLUGS = [
   'milwaukee',
   'cleveland',
   'baltimore',
-  'louisville'
+  'louisville',
+  'ottawa',
+  'orlando',
+  'san-antonio',
+  'calgary',
+  'austin',
+  'honolulu',
+  'minneapolis',
+  'indianapolis',
+  'edmonton',
+  'seattle',
+  'sacramento'
 ] as const;
 
 type LocationSeoOverride = {
@@ -45,88 +56,202 @@ type LocationSeoOverride = {
   heroDescription: string;
 };
 
+const LOCATION_INTERNAL_LINK_TARGETS: Partial<
+  Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], readonly string[]>
+> = {
+  'des-moines': ['kansas-city', 'chicago', 'columbus'],
+  'kansas-city': ['des-moines', 'st-louis', 'chicago'],
+  chicago: ['milwaukee', 'columbus', 'cleveland'],
+  tucson: ['phoenix', 'denver', 'albuquerque'],
+  columbus: ['cleveland', 'cincinnati', 'louisville'],
+  denver: ['colorado-springs', 'aspen', 'kansas-city'],
+  milwaukee: ['chicago', 'minneapolis', 'cleveland'],
+  cleveland: ['columbus', 'cincinnati', 'pittsburgh'],
+  baltimore: ['washington-dc', 'philadelphia', 'columbus'],
+  louisville: ['lexington', 'cincinnati', 'columbus'],
+  ottawa: ['toronto', 'hamilton', 'london'],
+  orlando: ['tampa', 'miami', 'jacksonville'],
+  'san-antonio': ['austin', 'houston', 'dallas'],
+  calgary: ['edmonton', 'vancouver', 'seattle'],
+  austin: ['san-antonio', 'houston', 'dallas'],
+  honolulu: ['los-angeles', 'san-francisco', 'seattle'],
+  minneapolis: ['st-paul', 'milwaukee', 'chicago'],
+  indianapolis: ['louisville', 'columbus', 'chicago'],
+  edmonton: ['calgary', 'vancouver', 'seattle'],
+  seattle: ['portland', 'vancouver', 'san-francisco'],
+  sacramento: ['san-francisco', 'san-jose', 'los-angeles']
+};
+
 const LOCATION_SEO_OVERRIDES: Partial<
   Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], LocationSeoOverride>
 > = {
   'des-moines': {
-    title: 'Des Moines Antique Appraisers | Art, Donation & Estate Values',
+    title: 'Des Moines Art & Antique Appraisers | Donation, Estate & Insurance',
     description:
-      'Compare antique and art appraisers in Des Moines for donation, estate, insurance, and personal property valuations. Review specialties, then choose local or online appraisal.',
+      'Compare Des Moines art and antique appraisers for donation, estate, insurance, and personal property reports. Review specialists and choose local or online appraisal.',
     h1: 'Des Moines Antique & Art Appraisers',
     heroDescription:
       'Compare local antique and art appraisal specialists in Des Moines, then choose the best fit for donation, estate, or insurance needs.'
   },
   'kansas-city': {
-    title: 'Kansas City Art & Antique Appraisers | Local Valuation Experts',
+    title: 'Kansas City Art & Antique Appraisers | Compare Local Valuation Experts',
     description:
-      'Looking for an art appraiser in Kansas City? Compare local antique and art appraisal specialists, review credentials, and choose in-person or faster online service.',
+      'Find Kansas City art and antique appraisers for estate, donation, insurance, and resale valuation. Compare local experts and online appraisal options.',
     h1: 'Kansas City Art & Antique Appraisers',
     heroDescription:
       'Review Kansas City appraisers for art, antiques, and collections, then pick local in-person help or a faster online appraisal.'
   },
   chicago: {
-    title: 'Chicago Antique Appraisers | Art Appraisal & Estate Experts',
+    title: 'Chicago Art & Antique Appraisers | Estate, Donation & Insurance Values',
     description:
-      'Compare Chicago antique and art appraisers for estate, donation, insurance, and resale needs. See specialties and select local or online appraisal support.',
+      'Compare Chicago art and antique appraisers for estate planning, charitable donation, insurance, and resale needs. Review specialties and choose local or online.',
     h1: 'Chicago Antique & Art Appraisers',
     heroDescription:
       'Find Chicago appraisers for antiques, art, and collections, then choose local in-person service or a faster online appraisal route.'
   },
   tucson: {
-    title: 'Tucson Antique Appraisers | Donation, Art & Estate Values',
+    title: 'Tucson Art & Antique Appraisers | Donation, Estate & Personal Property',
     description:
-      'Compare Tucson antique and art appraisers for donation, estate, and personal property valuation. Check specialties and choose local or online appraisal.',
+      'Compare Tucson art and antique appraisers for donation, estate, and personal property valuation reports. Choose local in-person or faster online appraisal.',
     h1: 'Tucson Antique & Art Appraisers',
     heroDescription:
       'Compare Tucson specialists for antique, art, and donation valuations, then pick the local or online path that matches your timeline.'
   },
   columbus: {
-    title: 'Columbus Antique Appraisers | Art, Donation & Tax Appraisals',
+    title: 'Columbus Art & Antique Appraisers | Tax Donation, Estate & Insurance',
     description:
-      'Find and compare Columbus appraisers for antiques, art, donation, and tax-related valuations. Review credentials and choose local or online appraisal.',
+      'Find Columbus art and antique appraisers for tax-donation, estate, insurance, and personal property valuations. Compare local specialists and online options.',
     h1: 'Columbus Antique & Art Appraisers',
     heroDescription:
       'Compare Columbus appraisal experts for donation, tax, estate, and insurance needs before choosing local in-person or online service.'
   },
   denver: {
-    title: 'Denver Antique Appraisers | Art Appraisal Near You',
+    title: 'Denver Art & Antique Appraisers | Insurance, Estate & Donation Reports',
     description:
-      'Compare Denver antique and art appraisers, including specialists for insurance, estate, and resale valuation. Choose local in-person or online appraisal.',
+      'Compare Denver art and antique appraisers for insurance, estate, donation, and resale valuation. Review credentials and choose local or online appraisal.',
     h1: 'Denver Antique & Art Appraisers',
     heroDescription:
       'Find Denver appraisers for antiques and art, compare specialties, and choose between local appointments or faster online appraisal.'
   },
   milwaukee: {
-    title: 'Milwaukee Antique Appraisers | Estate & Art Appraisal Experts',
+    title: 'Milwaukee Art & Antique Appraisers | Estate, Insurance & Donation Values',
     description:
-      'Compare Milwaukee antique appraisers for estate items, collections, and art valuation. Review specialties and choose in-person or online appraisal support.',
+      'Compare Milwaukee art and antique appraisers for estate, insurance, donation, and personal property needs. Review local experts and online alternatives.',
     h1: 'Milwaukee Antique Appraisers',
     heroDescription:
       'Compare Milwaukee appraisal options for antiques, estate items, and art, then choose local in-person service or online turnaround.'
   },
   cleveland: {
-    title: 'Cleveland Antique Appraisers | Donation & Personal Property',
+    title: 'Cleveland Art & Antique Appraisers | Donation & Personal Property Values',
     description:
-      'Find Cleveland appraisers for antiques, art, charitable donation, and personal property valuation. Compare local providers and online alternatives.',
+      'Find Cleveland art and antique appraisers for charitable donation, personal property, estate, and insurance valuation. Compare local providers and online options.',
     h1: 'Cleveland Antique & Art Appraisers',
     heroDescription:
       'Compare Cleveland appraisers for donation, personal property, and antique valuation needs, then choose local or online service.'
   },
   louisville: {
-    title: 'Louisville Antique Appraisers | Art, Tax & Estate Valuation',
+    title: 'Louisville Art & Antique Appraisers | Tax Donation & Estate Valuation',
     description:
-      'Compare Louisville appraisers for antiques, art, tax donation, and estate valuation. Review local specialists and choose in-person or online appraisal.',
+      'Compare Louisville art and antique appraisers for tax-donation, estate, insurance, and personal property reports. Choose local specialists or online appraisal.',
     h1: 'Louisville Antique & Art Appraisers',
     heroDescription:
       'Find Louisville specialists for antique, art, and tax-related valuations, then choose local in-person or faster online appraisal.'
   },
   baltimore: {
-    title: 'Baltimore Antique Appraisers | Furniture & Art Valuation',
+    title: 'Baltimore Art & Antique Appraisers | Furniture, Estate & Insurance',
     description:
-      'Compare Baltimore antique appraisers for furniture, art, estate, and insurance valuations. Check specialties and choose local or online appraisal service.',
+      'Compare Baltimore art and antique appraisers for furniture, estate, insurance, and donation valuation. Review specialties and choose local or online support.',
     h1: 'Baltimore Antique & Art Appraisers',
     heroDescription:
       'Compare Baltimore specialists for antique furniture, art, and collection valuation, then choose local in-person or online appraisal.'
+  },
+  ottawa: {
+    title: 'Ottawa Antique & Art Appraisers | ON Estate, Insurance & Donation',
+    description:
+      'Compare Ottawa antique and art appraisers for estate, insurance, donation, and personal property valuation. Review Ontario specialists and online options.',
+    h1: 'Ottawa Antique & Art Appraisers',
+    heroDescription:
+      'Compare Ottawa specialists for antique and art valuation, then choose local in-person service or faster online appraisal support.'
+  },
+  orlando: {
+    title: 'Orlando Antique Appraisers | Art, Estate & Insurance Values',
+    description:
+      'Compare Orlando antique and art appraisers for estate, donation, insurance, and resale valuation. Review specialties and choose local or online appraisal.',
+    h1: 'Orlando Antique & Art Appraisers',
+    heroDescription:
+      'Compare Orlando specialists for antiques, art, and collection valuation, then choose a local visit or faster online appraisal.'
+  },
+  'san-antonio': {
+    title: 'San Antonio Antique Appraisers | Art & Estate Value Experts',
+    description:
+      'Find San Antonio antique and art appraisers for estate, donation, insurance, and personal property valuation. Compare local providers and online options.',
+    h1: 'San Antonio Antique & Art Appraisers',
+    heroDescription:
+      'Review San Antonio appraisal options for art, antiques, and estate items before choosing local in-person or online service.'
+  },
+  calgary: {
+    title: 'Calgary Antique Appraisers | Art, Estate & Donation Values',
+    description:
+      'Compare Calgary antique and art appraisers for donation, estate, insurance, and personal property valuation. Choose trusted local or online support.',
+    h1: 'Calgary Antique & Art Appraisers',
+    heroDescription:
+      'Compare Calgary appraisal specialists for antiques, art, and collections before selecting local in-person or online service.'
+  },
+  austin: {
+    title: 'Austin Antique Appraisers | Art, Tax & Donation Valuations',
+    description:
+      'Compare Austin antique and art appraisers for tax donation, estate, insurance, and resale valuation. Review specialties, fees, and local coverage.',
+    h1: 'Austin Antique & Art Appraisers',
+    heroDescription:
+      'Find Austin appraisers for antiques, art, and personal property valuation, then choose local appointments or online turnaround.'
+  },
+  honolulu: {
+    title: 'Honolulu Antique Appraisers | Art, Estate & Insurance Help',
+    description:
+      'Find Honolulu antique and art appraisers for estate, insurance, donation, and resale valuation. Compare specialties and select local or online service.',
+    h1: 'Honolulu Antique & Art Appraisers',
+    heroDescription:
+      'Review Honolulu appraisal options for antiques, art, and estate items to pick the right local or online valuation path.'
+  },
+  minneapolis: {
+    title: 'Minneapolis Antique Appraisers | Art & Estate Value Experts',
+    description:
+      'Compare Minneapolis antique and art appraisers for estate, donation, insurance, and personal property valuation. Review credentials and specialties.',
+    h1: 'Minneapolis Antique & Art Appraisers',
+    heroDescription:
+      'Find Minneapolis specialists for antique and art valuation, then choose local in-person appointments or online support.'
+  },
+  indianapolis: {
+    title: 'Indianapolis Antique Appraisers | Art, Donation & Estate Values',
+    description:
+      'Find Indianapolis antique and art appraisers for donation, estate, insurance, and resale valuation. Compare local providers and online appraisal options.',
+    h1: 'Indianapolis Antique & Art Appraisers',
+    heroDescription:
+      'Review Indianapolis appraisers for art and antiques, then choose the best local or online valuation route for your timeline.'
+  },
+  edmonton: {
+    title: 'Edmonton Antique Appraisers | Art, Insurance & Estate Values',
+    description:
+      'Compare Edmonton antique and art appraisers for estate, donation, insurance, and collection valuation. Review local specialties and online alternatives.',
+    h1: 'Edmonton Antique & Art Appraisers',
+    heroDescription:
+      'Compare Edmonton appraisal providers for antiques, art, and personal property to choose local or online valuation.'
+  },
+  seattle: {
+    title: 'Seattle Antique Appraisers | Art, Estate & Insurance Experts',
+    description:
+      'Compare Seattle antique and art appraisers for estate planning, insurance, donation, and resale valuation. Check specialties and request support.',
+    h1: 'Seattle Antique & Art Appraisers',
+    heroDescription:
+      'Find Seattle appraisal specialists for antiques, art, and collections, then choose local in-person or online valuation support.'
+  },
+  sacramento: {
+    title: 'Sacramento Antique Appraisers | Art, Tax & Estate Valuation',
+    description:
+      'Compare Sacramento antique and art appraisers for tax donation, estate, insurance, and personal property valuation. Review local and online options.',
+    h1: 'Sacramento Antique & Art Appraisers',
+    heroDescription:
+      'Compare Sacramento appraisers for antiques and art valuation, then choose local appointments or faster online appraisal.'
   }
 };
 
@@ -280,12 +405,21 @@ export function StandardizedLocationPage() {
       .slice(0, 6)
       .map(item => item.city);
   }, [cityMeta, validCitySlug]);
+  const prioritizedInternalLinkCities = useMemo(() => {
+    const typedCities = directoryCities as DirectoryCity[];
+    const linkSlugs = LOCATION_INTERNAL_LINK_TARGETS[
+      validCitySlug as (typeof STRIKING_DISTANCE_CITY_SLUGS)[number]
+    ];
+    if (!linkSlugs?.length) return [];
+    return linkSlugs
+      .map((slug) => typedCities.find(city => city.slug === slug))
+      .filter((city): city is DirectoryCity => Boolean(city) && city.slug !== validCitySlug);
+  }, [validCitySlug]);
   const popularOpportunityCities = useMemo(() => {
     const typedCities = directoryCities as DirectoryCity[];
     return STRIKING_DISTANCE_CITY_SLUGS
       .map((slug) => typedCities.find(city => city.slug === slug))
-      .filter((city): city is DirectoryCity => Boolean(city) && city.slug !== validCitySlug)
-      .slice(0, 8);
+      .filter((city): city is DirectoryCity => Boolean(city) && city.slug !== validCitySlug);
   }, [validCitySlug]);
   const topReviewedAppraisers = useMemo(() => {
     if (!locationData?.appraisers?.length) return [];
@@ -301,6 +435,9 @@ export function StandardizedLocationPage() {
   }, [locationData]);
   const seoKeywords = useMemo(
     () => [
+      `art appraisers in ${citySearchName}`,
+      `${citySearchName} art appraiser`,
+      `art appraisal ${citySearchName}`,
       `antique appraisers in ${citySearchName}`,
       `${citySearchName} antique appraisers`,
       `${citySearchName} antique appraisals`,
@@ -632,6 +769,30 @@ export function StandardizedLocationPage() {
                   data-gtm-placement="location_related_cities"
                   data-gtm-city={city.slug}
                   onClick={() => handleRelatedCityClick(city, 'location_related_cities')}
+                >
+                  {city.name}, {city.state}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {prioritizedInternalLinkCities.length > 0 && (
+          <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6">
+            <h2 className="text-xl font-semibold mb-2">Compare appraiser guides people also check from {citySearchName}</h2>
+            <p className="text-gray-600">
+              Use these city pages to compare provider options, specialties, and availability before choosing local or online appraisal support.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {prioritizedInternalLinkCities.map(city => (
+                <a
+                  key={city.slug}
+                  href={buildSiteUrl(`/location/${city.slug}`)}
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  data-gtm-event="related_city_click"
+                  data-gtm-placement="location_priority_links"
+                  data-gtm-city={city.slug}
+                  onClick={() => handleRelatedCityClick(city, 'location_priority_links')}
                 >
                   {city.name}, {city.state}
                 </a>

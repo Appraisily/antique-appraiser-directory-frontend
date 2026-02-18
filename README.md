@@ -115,3 +115,9 @@ This directory frontend implements comprehensive SEO features to maximize Google
 - **Local SEO**: Location-specific pages optimized for local search queries
 - **FAQ Schema**: Structured FAQ content for potential featured snippets
 - **Breadcrumbs**: Clear navigation paths with breadcrumb structured data
+
+### Revenue-Focused SEO Ops (Current)
+
+- **Selective appraiser indexing**: `scripts/apply-indexing-rules.mjs` now indexes only a curated, high-trust subset of appraiser profiles (verified/listed provider sources) while keeping low-confidence profile pages noindex.
+- **High-intent city templates**: `scripts/generate-location-pages.mjs` now generates `/location/<city>/estate-appraisal/`, `/insurance-appraisal/`, and `/donation-appraisal/` pages for the top ROI city set.
+- **Weekly title tuning loop**: run `npm run seo:title-tuning` (or `node scripts/gsc-weekly-title-tuning.mjs --days 28`) to generate data-driven title/description recommendations from Search Console into `/srv/manager/seo/<date>-location-title-tuning/`.

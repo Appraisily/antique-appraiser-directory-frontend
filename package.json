@@ -50,7 +50,8 @@
     "clean:standardized-data": "node ./scripts/clean-standardized-data.js",
     "report:standardized-data": "node ./scripts/report-standardized-data.js",
     "env:check": "node ./scripts/env-check.mjs",
-    "publish": "node ./scripts/publish.mjs --public-dir dist"
+    "publish": "node ./scripts/publish.mjs --public-dir dist",
+    "seo:title-tuning": "node ./scripts/gsc-weekly-title-tuning.mjs --days 28"
   },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",

@@ -58,9 +58,9 @@ const LOCATION_SEO_OVERRIDES = {
       'Find Chicago appraisers for antiques, art, and collections, then choose local in-person service or a faster online appraisal route.',
   },
   tucson: {
-    title: 'Tucson Antique Appraisers | Donation, Art & Estate Values',
+    title: 'Tucson Art & Antique Appraisers | Donation, Estate & Personal Property',
     description:
-      'Compare Tucson antique and art appraisers for donation, estate, and personal property valuation. Check specialties and choose local or online appraisal.',
+      'Compare Tucson art and antique appraisers for donation, estate, and personal property valuation reports. Choose local in-person or faster online appraisal.',
     h1: 'Tucson Antique & Art Appraisers',
     heroDescription:
       'Compare Tucson specialists for antique, art, and donation valuations, then pick the local or online path that matches your timeline.',
@@ -113,7 +113,165 @@ const LOCATION_SEO_OVERRIDES = {
     heroDescription:
       'Compare Baltimore specialists for antique furniture, art, and collection valuation, then choose local in-person or online appraisal.',
   },
+  orlando: {
+    title: 'Orlando Antique Appraisers | Art, Estate & Insurance Values',
+    description:
+      'Compare Orlando antique and art appraisers for estate, donation, insurance, and resale valuation. Review specialties and choose local or online appraisal.',
+    h1: 'Orlando Antique & Art Appraisers',
+    heroDescription:
+      'Compare Orlando specialists for antiques, art, and collection valuation, then choose a local visit or faster online appraisal.',
+  },
+  'san-antonio': {
+    title: 'San Antonio Antique Appraisers | Art & Estate Value Experts',
+    description:
+      'Find San Antonio antique and art appraisers for estate, donation, insurance, and personal property valuation. Compare local providers and online options.',
+    h1: 'San Antonio Antique & Art Appraisers',
+    heroDescription:
+      'Review San Antonio appraisal options for art, antiques, and estate items before choosing local in-person or online service.',
+  },
+  austin: {
+    title: 'Austin Antique Appraisers | Art, Tax & Donation Valuations',
+    description:
+      'Compare Austin antique and art appraisers for tax donation, estate, insurance, and resale valuation. Review specialties, fees, and local coverage.',
+    h1: 'Austin Antique & Art Appraisers',
+    heroDescription:
+      'Find Austin appraisers for antiques, art, and personal property valuation, then choose local appointments or online turnaround.',
+  },
+  calgary: {
+    title: 'Calgary Antique Appraisers | Art, Estate & Donation Values',
+    description:
+      'Compare Calgary antique and art appraisers for donation, estate, insurance, and personal property valuation. Choose trusted local or online support.',
+    h1: 'Calgary Antique & Art Appraisers',
+    heroDescription:
+      'Compare Calgary appraisal specialists for antiques, art, and collections before selecting local in-person or online service.',
+  },
+  honolulu: {
+    title: 'Honolulu Antique Appraisers | Art, Estate & Insurance Help',
+    description:
+      'Find Honolulu antique and art appraisers for estate, insurance, donation, and resale valuation. Compare specialties and select local or online service.',
+    h1: 'Honolulu Antique & Art Appraisers',
+    heroDescription:
+      'Review Honolulu appraisal options for antiques, art, and estate items to pick the right local or online valuation path.',
+  },
+  minneapolis: {
+    title: 'Minneapolis Antique Appraisers | Art & Estate Value Experts',
+    description:
+      'Compare Minneapolis antique and art appraisers for estate, donation, insurance, and personal property valuation. Review credentials and specialties.',
+    h1: 'Minneapolis Antique & Art Appraisers',
+    heroDescription:
+      'Find Minneapolis specialists for antique and art valuation, then choose local in-person appointments or online support.',
+  },
+  edmonton: {
+    title: 'Edmonton Antique Appraisers | Art, Insurance & Estate Values',
+    description:
+      'Compare Edmonton antique and art appraisers for estate, donation, insurance, and collection valuation. Review local specialties and online alternatives.',
+    h1: 'Edmonton Antique & Art Appraisers',
+    heroDescription:
+      'Compare Edmonton appraisal providers for antiques, art, and personal property to choose local or online valuation.',
+  },
+  indianapolis: {
+    title: 'Indianapolis Antique Appraisers | Art, Donation & Estate Values',
+    description:
+      'Find Indianapolis antique and art appraisers for donation, estate, insurance, and resale valuation. Compare local providers and online appraisal options.',
+    h1: 'Indianapolis Antique & Art Appraisers',
+    heroDescription:
+      'Review Indianapolis appraisers for art and antiques, then choose the best local or online valuation route for your timeline.',
+  },
+  seattle: {
+    title: 'Seattle Antique Appraisers | Art, Estate & Insurance Experts',
+    description:
+      'Compare Seattle antique and art appraisers for estate planning, insurance, donation, and resale valuation. Check specialties and request support.',
+    h1: 'Seattle Antique & Art Appraisers',
+    heroDescription:
+      'Find Seattle appraisal specialists for antiques, art, and collections, then choose local in-person or online valuation support.',
+  },
+  sacramento: {
+    title: 'Sacramento Antique Appraisers | Art, Tax & Estate Valuation',
+    description:
+      'Compare Sacramento antique and art appraisers for tax donation, estate, insurance, and personal property valuation. Review local and online options.',
+    h1: 'Sacramento Antique & Art Appraisers',
+    heroDescription:
+      'Compare Sacramento appraisers for antiques and art valuation, then choose local appointments or faster online appraisal.',
+  },
+  ottawa: {
+    title: 'Ottawa Antique & Art Appraisers | ON Estate, Insurance & Donation',
+    description:
+      'Compare Ottawa antique and art appraisers for estate, insurance, donation, and personal property valuation. Review Ontario specialists and online options.',
+    h1: 'Ottawa Antique & Art Appraisers',
+    heroDescription:
+      'Compare Ottawa specialists for antique and art valuation, then choose local in-person service or faster online appraisal support.',
+  },
 };
+
+const LOCATION_INTERNAL_LINK_TARGETS = {
+  'des-moines': ['kansas-city', 'chicago', 'columbus'],
+  'kansas-city': ['des-moines', 'st-louis', 'chicago'],
+  chicago: ['milwaukee', 'columbus', 'cleveland'],
+  tucson: ['phoenix', 'denver', 'albuquerque'],
+  columbus: ['cleveland', 'cincinnati', 'louisville'],
+  denver: ['colorado-springs', 'aspen', 'kansas-city'],
+  milwaukee: ['chicago', 'minneapolis', 'cleveland'],
+  cleveland: ['columbus', 'cincinnati', 'pittsburgh'],
+  baltimore: ['washington-dc', 'philadelphia', 'columbus'],
+  louisville: ['lexington', 'cincinnati', 'columbus'],
+  ottawa: ['toronto', 'hamilton', 'london'],
+  orlando: ['tampa', 'miami', 'jacksonville'],
+  'san-antonio': ['austin', 'houston', 'dallas'],
+  calgary: ['edmonton', 'vancouver', 'seattle'],
+  austin: ['san-antonio', 'houston', 'dallas'],
+  honolulu: ['los-angeles', 'san-francisco', 'seattle'],
+  minneapolis: ['st-paul', 'milwaukee', 'chicago'],
+  indianapolis: ['louisville', 'columbus', 'chicago'],
+  edmonton: ['calgary', 'vancouver', 'seattle'],
+  seattle: ['portland', 'vancouver', 'san-francisco'],
+  sacramento: ['san-francisco', 'san-jose', 'los-angeles'],
+};
+
+const HIGH_ROI_CITY_SLUG_SET = new Set(Object.keys(LOCATION_SEO_OVERRIDES));
+const LOCATION_INTENT_PAGE_SLUGS = ['estate-appraisal', 'insurance-appraisal', 'donation-appraisal'];
+const LOCATION_INTENT_PAGE_META = {
+  'estate-appraisal': {
+    shortLabel: 'Estate',
+    h1Label: 'Estate Appraisal',
+    titleSuffix: 'Estate Appraisal Guide',
+    descriptionLead: 'Compare local estate appraisal options and prepare the right documentation',
+  },
+  'insurance-appraisal': {
+    shortLabel: 'Insurance',
+    h1Label: 'Insurance Appraisal',
+    titleSuffix: 'Insurance Appraisal Guide',
+    descriptionLead: 'Get an insurance-ready appraisal plan with photo prep and report checklist',
+  },
+  'donation-appraisal': {
+    shortLabel: 'Donation',
+    h1Label: 'Donation Appraisal',
+    titleSuffix: 'Donation Appraisal Guide',
+    descriptionLead: 'Plan a donation appraisal that matches IRS and charity documentation expectations',
+  },
+};
+
+const CANADIAN_REGION_NAMES = new Set([
+  'alberta',
+  'british columbia',
+  'manitoba',
+  'new brunswick',
+  'newfoundland and labrador',
+  'nova scotia',
+  'ontario',
+  'prince edward island',
+  'quebec',
+  'saskatchewan',
+  'northwest territories',
+  'nunavut',
+  'yukon',
+]);
+
+const CITY_AUCTION_HUB_SLUGS = new Map([
+  ['new-york', 'auction-calendar-new-york-march-2026'],
+  ['los-angeles', 'auction-calendar-los-angeles-march-2026'],
+  ['chicago', 'auction-calendar-chicago-march-2026'],
+  ['london', 'auction-calendar-london-march-2026'],
+]);
 
 
 const TRUST_FIRST_LOCATION_SLUGS = new Set(['kelowna', 'calgary', 'san-antonio']);
@@ -381,12 +539,59 @@ function buildLearnMoreSection(cityDisplayName, citySlug) {
   `;
 }
 
+function inferCountryFromRegion(stateName) {
+  const normalized = String(stateName || '').trim().toLowerCase();
+  if (!normalized) return '';
+  if (CANADIAN_REGION_NAMES.has(normalized)) return 'CA';
+  return 'US';
+}
+
 function normalizeCityMeta(meta) {
-  if (!meta) return { cityName: '', stateName: '', cityDisplayName: '' };
+  if (!meta) {
+    return {
+      cityName: '',
+      stateName: '',
+      cityDisplayName: '',
+      stateCode: '',
+      countryCode: '',
+      latitude: null,
+      longitude: null,
+    };
+  }
+
   const cityName = String(meta?.name || '').trim();
   const stateName = String(meta?.state || '').trim();
   const cityDisplayName = cityName && stateName ? `${cityName}, ${stateName}` : cityName || stateName;
-  return { cityName, stateName, cityDisplayName };
+  const stateCode = normalizeRegionCode(stateName);
+  const countryCode = inferCountryFromRegion(stateName);
+  const latitude = Number.isFinite(Number(meta?.latitude)) ? Number(meta.latitude) : null;
+  const longitude = Number.isFinite(Number(meta?.longitude)) ? Number(meta.longitude) : null;
+
+  return { cityName, stateName, cityDisplayName, stateCode, countryCode, latitude, longitude };
+}
+
+function estimateDistanceKm(fromMeta, toMeta) {
+  if (
+    !Number.isFinite(fromMeta?.latitude) ||
+    !Number.isFinite(fromMeta?.longitude) ||
+    !Number.isFinite(toMeta?.latitude) ||
+    !Number.isFinite(toMeta?.longitude)
+  ) {
+    return Number.POSITIVE_INFINITY;
+  }
+
+  const toRad = (degrees) => (degrees * Math.PI) / 180;
+  const earthRadiusKm = 6371;
+  const dLat = toRad(toMeta.latitude - fromMeta.latitude);
+  const dLon = toRad(toMeta.longitude - fromMeta.longitude);
+  const lat1 = toRad(fromMeta.latitude);
+  const lat2 = toRad(toMeta.latitude);
+
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) * Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  return earthRadiusKm * c;
 }
 
 function buildKeywordCounts(appraisers, fieldAccessor) {
@@ -407,23 +612,34 @@ function buildKeywordCounts(appraisers, fieldAccessor) {
     .map((entry) => entry.label);
 }
 
-function buildRelatedLocationLinks({ slug, stateName, citiesBySlug, slugsInBuild }) {
-  const stateCode = normalizeRegionCode(stateName);
-  if (!stateCode) return [];
+function buildRelatedLocationLinks({ slug, citiesBySlug, slugsInBuild }) {
+  const origin = normalizeCityMeta(citiesBySlug.get(slug));
+  if (!origin.cityName) return [];
 
   const candidates = [];
   for (const otherSlug of slugsInBuild) {
     if (otherSlug === slug) continue;
     if (!INDEXABLE_LOCATION_SLUG_SET.has(otherSlug)) continue;
-    const otherMeta = citiesBySlug.get(otherSlug);
-    if (!otherMeta) continue;
-    const otherStateCode = normalizeRegionCode(String(otherMeta?.state || '').trim());
-    if (!otherStateCode || otherStateCode !== stateCode) continue;
-    candidates.push(otherSlug);
+
+    const meta = normalizeCityMeta(citiesBySlug.get(otherSlug));
+    if (!meta.cityName) continue;
+    if (origin.countryCode && meta.countryCode && origin.countryCode !== meta.countryCode) continue;
+
+    candidates.push({
+      slug: otherSlug,
+      sameState: Boolean(origin.stateCode && meta.stateCode && origin.stateCode === meta.stateCode),
+      distanceKm: estimateDistanceKm(origin, meta),
+      cityName: meta.cityName,
+    });
   }
 
-  candidates.sort((a, b) => a.localeCompare(b));
-  return candidates.slice(0, 6);
+  candidates.sort((a, b) => {
+    if (a.sameState !== b.sameState) return a.sameState ? -1 : 1;
+    if (a.distanceKm !== b.distanceKm) return a.distanceKm - b.distanceKm;
+    return a.cityName.localeCompare(b.cityName);
+  });
+
+  return candidates.slice(0, 6).map((entry) => entry.slug);
 }
 
 function buildFallbackLocationLinks({ slug, slugsInBuild }) {
@@ -433,9 +649,21 @@ function buildFallbackLocationLinks({ slug, slugsInBuild }) {
   return candidates.slice(0, 6);
 }
 
+function buildPriorityLocationLinks({ slug, slugsInBuild }) {
+  const targets = LOCATION_INTERNAL_LINK_TARGETS[slug];
+  if (!Array.isArray(targets) || !targets.length) return [];
+  return targets
+    .filter(
+      (candidate) =>
+        candidate !== slug && INDEXABLE_LOCATION_SLUG_SET.has(candidate) && slugsInBuild.includes(candidate),
+    )
+    .slice(0, 6);
+}
+
 function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appraisers, relatedSlugs, labelForSlug }) {
   const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
   const safeState = sanitizePlainText(stateName);
+  const showIntentLinks = HIGH_ROI_CITY_SLUG_SET.has(citySlug);
 
   const specialties = buildKeywordCounts(appraisers, (entry) => entry?.expertise?.specialties).slice(0, 8);
   const services = buildKeywordCounts(appraisers, (entry) => entry?.expertise?.services).slice(0, 8);
@@ -458,6 +686,9 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
   const artDirectoryHref = `https://art-appraisers-directory.appraisily.com/?utm_source=directory&utm_medium=guide&utm_campaign=${encodeURIComponent(
     citySlug,
   )}&utm_content=art_directory`;
+  const supportGuideHref = `/location/${citySlug}/appraisal-guide/`;
+  const auctionHubSlug = CITY_AUCTION_HUB_SLUGS.get(citySlug);
+  const auctionHubHref = auctionHubSlug ? `https://articles.appraisily.com/auction-hub/${auctionHubSlug}/` : '';
 
 	  return `
 	    <section class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm space-y-5">
@@ -501,6 +732,29 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
         <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
           hubHref,
         )}" target="_blank" rel="noopener noreferrer">How to choose</a>
+        <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
+          supportGuideHref,
+        )}">City appraisal guide</a>
+        ${
+          showIntentLinks
+            ? `<a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/${escapeHtml(
+                citySlug,
+              )}/estate-appraisal/">Estate appraisal guide</a>
+        <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/${escapeHtml(
+          citySlug,
+        )}/insurance-appraisal/">Insurance appraisal guide</a>
+        <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/${escapeHtml(
+          citySlug,
+        )}/donation-appraisal/">Donation appraisal guide</a>`
+            : ''
+        }
+        ${
+          auctionHubHref
+            ? `<a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
+                auctionHubHref,
+              )}" target="_blank" rel="noopener noreferrer">City auction calendar</a>`
+            : ''
+        }
         <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/">Browse all locations</a>
       </div>
 
@@ -531,6 +785,328 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
       }
     </section>
   `;
+}
+
+function buildSupportPageTitle(cityDisplayName) {
+  const safeCity = sanitizePlainText(cityDisplayName) || 'Your City';
+  return `How to Get an Antique Appraisal in ${safeCity} | Appraisily`;
+}
+
+function buildSupportPageDescription(cityDisplayName) {
+  const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
+  return truncateText(
+    `Step-by-step guide to getting an antique or art appraisal in ${safeCity}: what photos to prepare, how to compare appraisers, and how to use market comps before you request a written report.`,
+    155,
+  );
+}
+
+function renderSupportPage({
+  citySlug,
+  cityDisplayName,
+  stateName,
+  appraisers,
+  relatedSlugs,
+  labelForSlug,
+}) {
+  const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
+  const safeState = sanitizePlainText(stateName);
+  const canonicalUrl = buildAbsoluteUrl(`/location/${citySlug}/appraisal-guide/`);
+  const locationUrl = buildAbsoluteUrl(`/location/${citySlug}/`);
+  const title = buildSupportPageTitle(cityDisplayName);
+  const description = buildSupportPageDescription(cityDisplayName);
+  const updatedOn = new Date().toISOString().slice(0, 10);
+  const providerCount = appraisers.length;
+  const verifiedCount = appraisers.filter((entry) => entry?.verified === true).length;
+  const auctionHubSlug = CITY_AUCTION_HUB_SLUGS.get(citySlug);
+  const auctionHubHref = auctionHubSlug ? `https://articles.appraisily.com/auction-hub/${auctionHubSlug}/` : '';
+  const freeAppHref = `https://articles.appraisily.com/free-antique-identification-app/?utm_source=directory&utm_medium=support_page&utm_campaign=${encodeURIComponent(
+    citySlug,
+  )}`;
+
+  const breadcrumbs = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${DIRECTORY_DOMAIN}/` },
+      { '@type': 'ListItem', position: 2, name: `${SERVICE_LABEL_DISPLAY} in ${safeCity}`, item: locationUrl },
+      { '@type': 'ListItem', position: 3, name: `Appraisal Guide ${safeCity}`, item: canonicalUrl },
+    ],
+  };
+
+  const faq = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What should I prepare before an antique appraisal in ${safeCity}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Prepare clear photos (front, back, marks, damage), dimensions, provenance details, and any receipts. This helps appraisers compare better market comps quickly.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'When should I request a written appraisal report?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Request a written report when documentation is needed for insurance, estates, donations, tax filings, or legal requirements.',
+        },
+      },
+    ],
+  };
+
+  return `<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>${escapeHtml(title)}</title>
+    <meta name="description" content="${escapeHtml(description)}">
+    <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
+    <meta property="og:title" content="${escapeHtml(title)}">
+    <meta property="og:description" content="${escapeHtml(description)}">
+    <meta property="og:url" content="${escapeHtml(canonicalUrl)}">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://assets.appraisily.com/site/logo_new.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${escapeHtml(title)}">
+    <meta name="twitter:description" content="${escapeHtml(description)}">
+    <meta name="twitter:image" content="https://assets.appraisily.com/site/logo_new.png">
+    <script type="application/ld+json">${JSON.stringify(breadcrumbs)}</script>
+    <script type="application/ld+json">${JSON.stringify(faq)}</script>
+    <script src="/assets/main.js" defer></script>
+  </head>
+  <body>
+    <div id="root">
+      <main class="min-h-screen bg-gray-50 text-gray-900">
+        <div class="container mx-auto px-4 py-10 max-w-4xl space-y-8">
+          <header class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+            <p class="text-sm text-gray-500">Updated ${escapeHtml(updatedOn)}</p>
+            <h1 class="text-3xl font-bold mt-2">How to get an antique appraisal in ${escapeHtml(safeCity)}</h1>
+            <p class="mt-3 text-gray-700 leading-relaxed">Use this quick local checklist before contacting an appraiser. It helps you get better quotes and faster, more accurate value guidance.</p>
+            <div class="mt-5 flex flex-wrap gap-3">
+              <a class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" href="${escapeHtml(
+                locationUrl,
+              )}">Back to directory</a>
+              <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
+                `${PRIMARY_CTA_URL}?utm_source=directory&utm_medium=support_page&utm_campaign=${encodeURIComponent(citySlug)}`,
+              )}">Start free screener</a>
+            </div>
+          </header>
+
+          <section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-4">
+            <h2 class="text-2xl font-semibold">1) Prepare item details first</h2>
+            <ul class="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Take clear photos: full item, signatures/marks, any damage, and close-ups.</li>
+              <li>Record dimensions, materials, and restoration history if known.</li>
+              <li>Gather provenance, receipts, or family history notes before outreach.</li>
+            </ul>
+          </section>
+
+          <section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-4">
+            <h2 class="text-2xl font-semibold">2) Compare providers in ${escapeHtml(safeCity)}</h2>
+            <p class="text-gray-700 leading-relaxed">This location currently lists ${providerCount} provider${providerCount === 1 ? '' : 's'}${verifiedCount ? ` with ${verifiedCount} verified profile${verifiedCount === 1 ? '' : 's'}` : ''}. Ask each provider about turnaround time, report format, and fee structure before booking.</p>
+            <p class="text-gray-700 leading-relaxed">${safeState ? `If you are in ${escapeHtml(safeState)}, ` : ''}choose an appraiser whose specialty matches your item category (fine art, furniture, silver, decorative arts, etc.).</p>
+          </section>
+
+          <section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-4">
+            <h2 class="text-2xl font-semibold">3) Validate with comps before final decisions</h2>
+            <p class="text-gray-700 leading-relaxed">Use market comps to sanity-check ranges before you accept insurance, estate, donation, or resale valuations.</p>
+            <div class="flex flex-wrap gap-3">
+              <a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(freeAppHref)}" target="_blank" rel="noopener noreferrer">Read the free identification guide</a>
+              ${
+                auctionHubHref
+                  ? `<a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(
+                      auctionHubHref,
+                    )}" target="_blank" rel="noopener noreferrer">View ${escapeHtml(safeCity)} auction calendar</a>`
+                  : ''
+              }
+            </div>
+          </section>
+
+          ${
+            relatedSlugs.length
+              ? `<section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+            <h2 class="text-2xl font-semibold mb-3">Related city guides</h2>
+            <div class="flex flex-wrap gap-x-3 gap-y-2">
+              ${relatedSlugs
+                .map((related) => `<a class="text-blue-700 hover:underline" href="/location/${escapeHtml(
+                  related,
+                )}/appraisal-guide/">${escapeHtml(labelForSlug(related))}</a>`)
+                .join('<span class="text-gray-300">·</span>')}
+            </div>
+          </section>`
+              : ''
+          }
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
+`;
+}
+
+function buildIntentPageTitle(cityDisplayName, intentSlug) {
+  const safeCity = sanitizePlainText(cityDisplayName) || 'Your City';
+  const intentMeta = LOCATION_INTENT_PAGE_META[intentSlug];
+  const suffix = intentMeta?.titleSuffix || 'Appraisal Guide';
+  return `${safeCity} ${suffix} | Appraisily`;
+}
+
+function buildIntentPageDescription(cityDisplayName, intentSlug) {
+  const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
+  const intentMeta = LOCATION_INTENT_PAGE_META[intentSlug];
+  const lead = intentMeta?.descriptionLead || 'Plan your local appraisal workflow';
+  return truncateText(
+    `${lead} in ${safeCity}. Use this page to compare local providers, prep your documentation, and choose the right report format before booking.`,
+    155,
+  );
+}
+
+function renderIntentPage({
+  citySlug,
+  cityDisplayName,
+  stateName,
+  intentSlug,
+  appraisers,
+  relatedSlugs,
+  labelForSlug,
+}) {
+  const intentMeta = LOCATION_INTENT_PAGE_META[intentSlug];
+  if (!intentMeta) return '';
+
+  const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
+  const safeState = sanitizePlainText(stateName);
+  const canonicalUrl = buildAbsoluteUrl(`/location/${citySlug}/${intentSlug}/`);
+  const locationUrl = buildAbsoluteUrl(`/location/${citySlug}/`);
+  const supportGuideUrl = buildAbsoluteUrl(`/location/${citySlug}/appraisal-guide/`);
+  const title = buildIntentPageTitle(cityDisplayName, intentSlug);
+  const description = buildIntentPageDescription(cityDisplayName, intentSlug);
+  const updatedOn = new Date().toISOString().slice(0, 10);
+  const providerCount = appraisers.length;
+  const verifiedCount = appraisers.filter((entry) => entry?.verified === true).length;
+  const intentLabel = intentMeta.h1Label;
+
+  const faq = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What documents should I prepare for a ${intentMeta.shortLabel.toLowerCase()} appraisal in ${safeCity}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Prepare clear photos, dimensions, condition notes, provenance, and any prior appraisals or receipts. Ask each provider what report format they deliver for your use case.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I start online before booking locally?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Many owners start with an online screener to organize photos and item details, then decide whether local in-person follow-up is needed.',
+        },
+      },
+    ],
+  };
+
+  const breadcrumbs = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${DIRECTORY_DOMAIN}/` },
+      { '@type': 'ListItem', position: 2, name: `${SERVICE_LABEL_DISPLAY} in ${safeCity}`, item: locationUrl },
+      { '@type': 'ListItem', position: 3, name: `${intentLabel} in ${safeCity}`, item: canonicalUrl },
+    ],
+  };
+
+  return `<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>${escapeHtml(title)}</title>
+    <meta name="description" content="${escapeHtml(description)}">
+    <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
+    <meta property="og:title" content="${escapeHtml(title)}">
+    <meta property="og:description" content="${escapeHtml(description)}">
+    <meta property="og:url" content="${escapeHtml(canonicalUrl)}">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://assets.appraisily.com/site/logo_new.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${escapeHtml(title)}">
+    <meta name="twitter:description" content="${escapeHtml(description)}">
+    <meta name="twitter:image" content="https://assets.appraisily.com/site/logo_new.png">
+    <script type="application/ld+json">${JSON.stringify(breadcrumbs)}</script>
+    <script type="application/ld+json">${JSON.stringify(faq)}</script>
+    <script src="/assets/main.js" defer></script>
+  </head>
+  <body>
+    <div id="root">
+      <main class="min-h-screen bg-gray-50 text-gray-900">
+        <div class="container mx-auto px-4 py-10 max-w-4xl space-y-8">
+          <header class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+            <p class="text-sm text-gray-500">Updated ${escapeHtml(updatedOn)}</p>
+            <h1 class="text-3xl font-bold mt-2">${escapeHtml(intentLabel)} in ${escapeHtml(safeCity)}</h1>
+            <p class="mt-3 text-gray-700 leading-relaxed">Use this ${escapeHtml(intentMeta.shortLabel.toLowerCase())} checklist to compare local options in ${escapeHtml(
+    safeCity,
+  )}, prepare required details, and choose the report format you need.</p>
+            <div class="mt-5 flex flex-wrap gap-3">
+              <a class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" href="${escapeHtml(
+                locationUrl,
+              )}">Back to city directory</a>
+              <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
+                `${PRIMARY_CTA_URL}?utm_source=directory&utm_medium=intent_page&utm_campaign=${encodeURIComponent(
+                  citySlug,
+                )}&utm_content=${encodeURIComponent(intentSlug)}`,
+              )}">Start free screener</a>
+            </div>
+          </header>
+
+          <section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-4">
+            <h2 class="text-2xl font-semibold">1) Define your ${escapeHtml(intentMeta.shortLabel.toLowerCase())} objective</h2>
+            <p class="text-gray-700 leading-relaxed">State your exact use case before outreach. This helps providers quote correctly and recommend the right report scope.</p>
+            <ul class="list-disc pl-6 text-gray-700 space-y-2">
+              <li>List each item with photos, dimensions, and condition notes.</li>
+              <li>Write down deadline, report purpose, and any required valuation standard.</li>
+              <li>Keep receipts, provenance, and prior valuation documents ready.</li>
+            </ul>
+          </section>
+
+          <section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-4">
+            <h2 class="text-2xl font-semibold">2) Compare provider fit in ${escapeHtml(safeCity)}</h2>
+            <p class="text-gray-700 leading-relaxed">This location currently lists ${providerCount} provider${providerCount === 1 ? '' : 's'}${verifiedCount ? ` with ${verifiedCount} verified profile${verifiedCount === 1 ? '' : 's'}` : ''}.</p>
+            <p class="text-gray-700 leading-relaxed">${safeState ? `If you are in ${escapeHtml(safeState)}, ` : ''}prioritize specialists in your item category and confirm turnaround before booking.</p>
+            <div class="flex flex-wrap gap-3">
+              <a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(locationUrl)}">View local profiles</a>
+              <a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(supportGuideUrl)}">Read the city appraisal guide</a>
+            </div>
+          </section>
+
+          ${
+            relatedSlugs.length
+              ? `<section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
+            <h2 class="text-2xl font-semibold mb-3">Related ${escapeHtml(intentMeta.shortLabel.toLowerCase())} guides</h2>
+            <div class="flex flex-wrap gap-x-3 gap-y-2">
+              ${relatedSlugs
+                .map(
+                  (related) =>
+                    `<a class="text-blue-700 hover:underline" href="/location/${escapeHtml(related)}/${escapeHtml(
+                      intentSlug,
+                    )}/">${escapeHtml(labelForSlug(related))}</a>`,
+                )
+                .join('<span class="text-gray-300">·</span>')}
+            </div>
+          </section>`
+              : ''
+          }
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
+`;
 }
 
 function buildAppraiserSummary(appraiser, cityPlain) {
@@ -821,6 +1397,8 @@ async function main() {
     discovered: slugs.length,
     processed: 0,
     updated: 0,
+    supportPagesUpdated: 0,
+    intentPagesUpdated: 0,
     missingHtml: 0,
     missingData: 0,
   };
@@ -869,10 +1447,10 @@ async function main() {
       return `${SERVICE_LABEL_DISPLAY} in ${display}`;
     };
 
-    const regionRelated = buildRelatedLocationLinks({ slug, stateName, citiesBySlug: cities, slugsInBuild: slugs });
-    const relatedSlugs = regionRelated.length
-      ? regionRelated
-      : buildFallbackLocationLinks({ slug, slugsInBuild: slugs });
+    const priorityRelated = buildPriorityLocationLinks({ slug, slugsInBuild: slugs });
+    const regionRelated = buildRelatedLocationLinks({ slug, citiesBySlug: cities, slugsInBuild: slugs });
+    const fallbackRelated = buildFallbackLocationLinks({ slug, slugsInBuild: slugs });
+    const relatedSlugs = [...new Set([...priorityRelated, ...regionRelated, ...fallbackRelated])].slice(0, 6);
 
     const dom = new JSDOM(html);
     const document = dom.window.document;
@@ -925,6 +1503,40 @@ async function main() {
     if (!options.dryRun) {
       await fs.writeFile(htmlPath, output, 'utf8');
       stats.updated += 1;
+
+      const supportDir = path.join(options.publicDir, 'location', slug, 'appraisal-guide');
+      const supportPath = path.join(supportDir, 'index.html');
+      const supportHtml = renderSupportPage({
+        citySlug: slug,
+        cityDisplayName,
+        stateName,
+        appraisers,
+        relatedSlugs,
+        labelForSlug,
+      });
+      await fs.mkdir(supportDir, { recursive: true });
+      await fs.writeFile(supportPath, supportHtml, 'utf8');
+      stats.supportPagesUpdated += 1;
+
+      if (HIGH_ROI_CITY_SLUG_SET.has(slug)) {
+        for (const intentSlug of LOCATION_INTENT_PAGE_SLUGS) {
+          const intentDir = path.join(options.publicDir, 'location', slug, intentSlug);
+          const intentPath = path.join(intentDir, 'index.html');
+          const intentHtml = renderIntentPage({
+            citySlug: slug,
+            cityDisplayName,
+            stateName,
+            intentSlug,
+            appraisers,
+            relatedSlugs,
+            labelForSlug,
+          });
+          if (!intentHtml) continue;
+          await fs.mkdir(intentDir, { recursive: true });
+          await fs.writeFile(intentPath, intentHtml, 'utf8');
+          stats.intentPagesUpdated += 1;
+        }
+      }
     }
   }
 
