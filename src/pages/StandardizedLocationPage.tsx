@@ -86,9 +86,9 @@ const LOCATION_SEO_OVERRIDES: Partial<
   Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], LocationSeoOverride>
 > = {
   'des-moines': {
-    title: 'Des Moines Art & Antique Appraisers | Donation, Estate & Insurance',
+    title: 'Des Moines Antique & Art Appraisers Near You | Donation, Estate & Insurance',
     description:
-      'Compare Des Moines art and antique appraisers for donation, estate, insurance, and personal property reports. Review specialists and choose local or online appraisal.',
+      'Need an appraisal in Des Moines? Compare local antique and art appraisers for donation, estate, insurance, and personal-property reports. Choose in-person or online.',
     h1: 'Des Moines Antique & Art Appraisers',
     heroDescription:
       'Compare local antique and art appraisal specialists in Des Moines, then choose the best fit for donation, estate, or insurance needs.'
@@ -118,9 +118,9 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Tucson specialists for antique, art, and donation valuations, then pick the local or online path that matches your timeline.'
   },
   columbus: {
-    title: 'Columbus Art & Antique Appraisers | Tax Donation, Estate & Insurance',
+    title: 'Columbus Antique & Art Appraisers Near You | Donation, Estate & Insurance',
     description:
-      'Find Columbus art and antique appraisers for tax-donation, estate, insurance, and personal property valuations. Compare local specialists and online options.',
+      'Need an appraisal in Columbus? Compare local antique and art appraisers for donation, estate, insurance, and personal-property reports. Choose in-person or online.',
     h1: 'Columbus Antique & Art Appraisers',
     heroDescription:
       'Compare Columbus appraisal experts for donation, tax, estate, and insurance needs before choosing local in-person or online service.'
@@ -150,9 +150,9 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Cleveland appraisers for donation, personal property, and antique valuation needs, then choose local or online service.'
   },
   louisville: {
-    title: 'Louisville Art & Antique Appraisers | Tax Donation & Estate Valuation',
+    title: 'Louisville Antique & Art Appraisers Near You | Donation, Estate & Insurance',
     description:
-      'Compare Louisville art and antique appraisers for tax-donation, estate, insurance, and personal property reports. Choose local specialists or online appraisal.',
+      'Need an appraisal in Louisville? Compare local antique and art appraisers for donation, estate, insurance, and personal-property reports. Choose in-person or online.',
     h1: 'Louisville Antique & Art Appraisers',
     heroDescription:
       'Find Louisville specialists for antique, art, and tax-related valuations, then choose local in-person or faster online appraisal.'
