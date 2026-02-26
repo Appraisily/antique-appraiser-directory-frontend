@@ -34,6 +34,7 @@ const STRIKING_DISTANCE_CITY_SLUGS = [
   'denver',
   'milwaukee',
   'cleveland',
+  'cincinnati',
   'baltimore',
   'louisville',
   'ottawa',
@@ -67,6 +68,7 @@ const LOCATION_INTERNAL_LINK_TARGETS: Partial<
   denver: ['colorado-springs', 'aspen', 'kansas-city'],
   milwaukee: ['chicago', 'minneapolis', 'cleveland'],
   cleveland: ['columbus', 'cincinnati', 'pittsburgh'],
+  cincinnati: ['columbus', 'louisville', 'indianapolis'],
   baltimore: ['washington-dc', 'philadelphia', 'columbus'],
   louisville: ['lexington', 'cincinnati', 'columbus'],
   ottawa: ['toronto', 'hamilton', 'london'],
@@ -86,68 +88,76 @@ const LOCATION_SEO_OVERRIDES: Partial<
   Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], LocationSeoOverride>
 > = {
   'des-moines': {
-    title: 'Des Moines Antique & Art Appraisers Near You | Donation, Estate & Insurance',
+    title: 'Des Moines Art Appraisers & Antique Appraisals | Donation, Estate, Insurance',
     description:
-      'Need an appraisal in Des Moines? Compare local antique and art appraisers for donation, estate, insurance, and personal-property reports. Choose in-person or online.',
-    h1: 'Des Moines Antique & Art Appraisers',
+      'Compare Des Moines art and antique appraisers for donation, estate, insurance, and personal property valuations. Review local experts and online options.',
+    h1: 'Des Moines Art Appraisers & Antique Appraisals',
     heroDescription:
-      'Compare local antique and art appraisal specialists in Des Moines, then choose the best fit for donation, estate, or insurance needs.'
+      'Compare Des Moines specialists for art and antique appraisals, then choose the right fit for donation, estate, insurance, and personal property needs.'
   },
   'kansas-city': {
-    title: 'Kansas City Art & Antique Appraisers | Compare Local Valuation Experts',
+    title: 'Kansas City Art Appraiser & Antique Appraisers | Local Valuation Experts',
     description:
-      'Find Kansas City art and antique appraisers for estate, donation, insurance, and resale valuation. Compare local experts and online appraisal options.',
-    h1: 'Kansas City Art & Antique Appraisers',
+      'Compare Kansas City art and antique appraisers for estate, donation, insurance, and personal property valuation reports.',
+    h1: 'Kansas City Art Appraiser & Antique Appraisers',
     heroDescription:
-      'Review Kansas City appraisers for art, antiques, and collections, then pick local in-person help or a faster online appraisal.'
+      'Review Kansas City appraisal options for art, antiques, and collections, then choose local in-person help or faster online turnaround.'
   },
   chicago: {
-    title: 'Chicago Art & Antique Appraisers | Estate, Donation & Insurance Values',
+    title: 'Chicago Antique Appraisers & Art Appraisers | Estate, Donation, Insurance',
     description:
-      'Compare Chicago art and antique appraisers for estate planning, charitable donation, insurance, and resale needs. Review specialties and choose local or online.',
+      'Find Chicago antique and art appraisers for estate planning, charitable donation, insurance, and resale valuations. Compare local and online appraisal options.',
     h1: 'Chicago Antique & Art Appraisers',
     heroDescription:
-      'Find Chicago appraisers for antiques, art, and collections, then choose local in-person service or a faster online appraisal route.'
+      'Compare Chicago appraisers for antiques, art, and collections, then choose local in-person service or a faster online appraisal route.'
   },
   tucson: {
-    title: 'Tucson Art & Antique Appraisers | Donation, Estate & Personal Property',
+    title: 'Tucson Antique Appraisers & Art Appraisers | Donation and Personal Property',
     description:
-      'Compare Tucson art and antique appraisers for donation, estate, and personal property valuation reports. Choose local in-person or faster online appraisal.',
+      'Compare Tucson antique and art appraisers for donation, estate, and personal property valuation reports. Choose local or online service.',
     h1: 'Tucson Antique & Art Appraisers',
     heroDescription:
       'Compare Tucson specialists for antique, art, and donation valuations, then pick the local or online path that matches your timeline.'
   },
   columbus: {
-    title: 'Columbus Antique & Art Appraisers Near You | Donation, Estate & Insurance',
+    title: 'Columbus Art Appraiser & Antique Appraisers | Donation, Estate, Insurance',
     description:
-      'Need an appraisal in Columbus? Compare local antique and art appraisers for donation, estate, insurance, and personal-property reports. Choose in-person or online.',
-    h1: 'Columbus Antique & Art Appraisers',
+      'Need a Columbus art or antique appraiser? Compare specialists for donation, tax, estate, and insurance valuations.',
+    h1: 'Columbus Art Appraiser & Antique Appraisers',
     heroDescription:
       'Compare Columbus appraisal experts for donation, tax, estate, and insurance needs before choosing local in-person or online service.'
   },
   denver: {
-    title: 'Denver Art & Antique Appraisers | Insurance, Estate & Donation Reports',
+    title: 'Denver Art Appraisers & Antique Appraisal Denver | Estate and Insurance',
     description:
-      'Compare Denver art and antique appraisers for insurance, estate, donation, and resale valuation. Review credentials and choose local or online appraisal.',
+      'Compare Denver art and antique appraisers for insurance, estate, donation, and resale valuation. Review credentials and turnaround options.',
     h1: 'Denver Antique & Art Appraisers',
     heroDescription:
       'Find Denver appraisers for antiques and art, compare specialties, and choose between local appointments or faster online appraisal.'
   },
   milwaukee: {
-    title: 'Milwaukee Art & Antique Appraisers | Estate, Insurance & Donation Values',
+    title: 'Antique Appraisal Milwaukee | Milwaukee Antique and Art Appraisers',
     description:
-      'Compare Milwaukee art and antique appraisers for estate, insurance, donation, and personal property needs. Review local experts and online alternatives.',
-    h1: 'Milwaukee Antique Appraisers',
+      'Compare Milwaukee antique and art appraisers for estate items, donation, insurance, and personal property valuation.',
+    h1: 'Milwaukee Antique & Art Appraisers',
     heroDescription:
       'Compare Milwaukee appraisal options for antiques, estate items, and art, then choose local in-person service or online turnaround.'
   },
   cleveland: {
-    title: 'Cleveland Art & Antique Appraisers | Donation & Personal Property Values',
+    title: 'Cleveland Antique Appraiser & Art Appraisers | Donation, Estate, Personal Property',
     description:
-      'Find Cleveland art and antique appraisers for charitable donation, personal property, estate, and insurance valuation. Compare local providers and online options.',
-    h1: 'Cleveland Antique & Art Appraisers',
+      'Find Cleveland antique and art appraisers for charitable donation, estate, insurance, and personal property valuation services.',
+    h1: 'Cleveland Antique Appraiser & Art Appraisers',
     heroDescription:
       'Compare Cleveland appraisers for donation, personal property, and antique valuation needs, then choose local or online service.'
+  },
+  cincinnati: {
+    title: 'Cincinnati Personal Property Appraisers | Antique and Art Appraisal',
+    description:
+      'Compare Cincinnati antique and art appraisers for personal property, tax donation, estate, and insurance valuation needs.',
+    h1: 'Cincinnati Personal Property Appraisers',
+    heroDescription:
+      'Review Cincinnati appraisal options for antiques, art, and personal property, then choose local in-person service or online appraisal support.'
   },
   louisville: {
     title: 'Louisville Antique & Art Appraisers Near You | Donation, Estate & Insurance',
@@ -158,9 +168,9 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Find Louisville specialists for antique, art, and tax-related valuations, then choose local in-person or faster online appraisal.'
   },
   baltimore: {
-    title: 'Baltimore Art & Antique Appraisers | Furniture, Estate & Insurance',
+    title: 'Baltimore, Maryland Antique Appraisers & Art Appraisers | Furniture and Estate',
     description:
-      'Compare Baltimore art and antique appraisers for furniture, estate, insurance, and donation valuation. Review specialties and choose local or online support.',
+      'Compare antique and art appraisers in Baltimore, Maryland for furniture, estate, insurance, and donation valuation reports.',
     h1: 'Baltimore Antique & Art Appraisers',
     heroDescription:
       'Compare Baltimore specialists for antique furniture, art, and collection valuation, then choose local in-person or online appraisal.'
@@ -497,6 +507,14 @@ export function StandardizedLocationPage() {
       },
       {
         '@type': 'Question',
+        name: `Where can I find ${citySearchName} antique and art appraisers for donation or personal-property needs?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Use this ${cityName} directory to compare local antique and art appraisers for donation, estate, insurance, and personal-property valuation reports.`
+        }
+      },
+      {
+        '@type': 'Question',
         name: 'How does an online appraisal work?',
         acceptedAnswer: {
           '@type': 'Answer',
@@ -794,7 +812,7 @@ export function StandardizedLocationPage() {
                   data-gtm-city={city.slug}
                   onClick={() => handleRelatedCityClick(city, 'location_priority_links')}
                 >
-                  {city.name}, {city.state}
+                  {city.name} appraisers ({city.state})
                 </a>
               ))}
             </div>
