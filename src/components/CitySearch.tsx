@@ -7,6 +7,7 @@ import { trackEvent } from '../utils/analytics';
 export type CitySearchHandle = {
   submitSearch: () => boolean;
   getQuery: () => string;
+  focusInput: () => void;
 };
 
 export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
@@ -17,6 +18,30 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
   const wrapperRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const navigate = useNavigate();
+
+  const getNearestCitySlug = (latitude: number, longitude: number): (typeof cities)[number] | null => {
+    const rad = (deg: number) => (deg * Math.PI) / 180;
+    const earthRadiusKm = 6371;
+
+    let best: (typeof cities)[number] | null = null;
+    let bestDistance = Number.POSITIVE_INFINITY;
+
+    for (const city of cities) {
+      const dLat = rad(city.latitude - latitude);
+      const dLon = rad(city.longitude - longitude);
+      const a =
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(rad(latitude)) * Math.cos(rad(city.latitude)) * Math.sin(dLon / 2) * Math.sin(dLon / 2);
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      const distance = earthRadiusKm * c;
+      if (distance < bestDistance) {
+        bestDistance = distance;
+        best = city;
+      }
+    }
+
+    return best;
+  };
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -55,24 +80,49 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
   }, [query]);
 
   const handleLocationClick = () => {
+    if (isLocating) return;
     setIsLocating(true);
     trackEvent('search_geolocate_request', {
       source: 'hero_directory'
     });
-    // Simulate geolocation with a timeout for demonstration
-    setTimeout(() => {
-      setQuery('New York, NY');
+
+    const fallbackCity = cities.find((city) => city.slug === 'new-york') || cities[0];
+    const complete = (city: (typeof cities)[number] | null, meta: Record<string, unknown> = {}) => {
+      const resolved = city || fallbackCity;
+      setQuery(`${resolved.name}, ${resolved.state}`);
       setIsLocating(false);
       trackEvent('search_geolocate_complete', {
         source: 'hero_directory',
-        resolved_city: 'new-york'
+        resolved_city: resolved.slug,
+        ...meta
       });
-      // Typically you would use the browser's geolocation API here
-      // navigator.geolocation.getCurrentPosition((position) => {
-      //   // Use position.coords.latitude and position.coords.longitude
-      //   // to find the nearest city
-      // });
-    }, 1500);
+      navigate(`/location/${resolved.slug}`);
+    };
+
+    if (typeof navigator === 'undefined' || !navigator.geolocation) {
+      complete(fallbackCity, { reason: 'geolocation_unavailable' });
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const nearest = getNearestCitySlug(position.coords.latitude, position.coords.longitude);
+        complete(nearest, { reason: 'geolocation_ok' });
+      },
+      (error) => {
+        trackEvent('search_geolocate_error', {
+          source: 'hero_directory',
+          code: error?.code,
+          message: error?.message
+        });
+        complete(fallbackCity, { reason: 'geolocation_error' });
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 8000,
+        maximumAge: 60_000
+      }
+    );
   };
 
   const handleSelect = useCallback((city: typeof cities[0]) => {
@@ -127,7 +177,10 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
 
   useImperativeHandle(ref, () => ({
     submitSearch,
-    getQuery: () => query
+    getQuery: () => query,
+    focusInput: () => {
+      inputRef.current?.focus();
+    }
   }), [submitSearch, query]);
 
   return (
@@ -155,6 +208,7 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
           onClick={handleLocationClick}
           disabled={isLocating}
           className="absolute inset-y-0 right-0 flex items-center pr-3 text-muted-foreground hover:text-primary transition-colors"
+          aria-label="Use my location"
         >
           {isLocating ? (
             <div className="h-5 w-5 border-2 border-primary border-t-transparent rounded-full animate-spin" />

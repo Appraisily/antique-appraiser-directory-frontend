@@ -17,6 +17,37 @@ type DirectoryCity = (typeof cities)[number];
 
 function App() {
   const citySearchRef = React.useRef<CitySearchHandle>(null);
+
+  const scrollToCityDirectory = () => {
+    if (typeof document === 'undefined') return false;
+
+    const byId = document.getElementById('city-directory');
+    if (byId) {
+      byId.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return true;
+    }
+
+    const byData = document.querySelector('[data-city-directory]');
+    if (byData instanceof HTMLElement) {
+      byData.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return true;
+    }
+
+    const headingText = 'Antique Appraiser Directory by City';
+    const h2 = Array.from(document.querySelectorAll('h2')).find((node) => (node.textContent || '').trim() === headingText);
+    if (h2 instanceof HTMLElement) {
+      const container = h2.closest('section, div');
+      if (container instanceof HTMLElement) {
+        container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return true;
+      }
+      h2.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return true;
+    }
+
+    return false;
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const didNavigate = citySearchRef.current?.submitSearch();
@@ -32,16 +63,10 @@ function App() {
       });
     }
 
-    if (typeof document !== 'undefined') {
-      const directorySection = document.getElementById('city-directory');
-      if (directorySection) {
-        directorySection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        return;
-      }
-    }
+    if (scrollToCityDirectory()) return;
 
     if (typeof window !== 'undefined') {
-      window.location.href = buildSiteUrl('/location/new-york');
+      window.location.href = buildSiteUrl('/location/');
     }
   };
   const primaryCtaUrl = getPrimaryCtaUrl();
@@ -54,6 +79,14 @@ function App() {
     { value: `${totalStates}`, label: 'States with certified experts' },
     { value: '48 hrs', label: 'Average appraisal turnaround' }
   ];
+
+  const handleStatHighlightClick = (label: string) => {
+    trackEvent('stat_highlight_click', {
+      placement: 'home_hero_stats',
+      label
+    });
+    citySearchRef.current?.focusInput?.();
+  };
   const handleCtaClick = (placement: string) => {
     trackEvent('cta_click', {
       placement,
@@ -317,10 +350,16 @@ function App() {
 
                 <div className="grid gap-6 pt-8 sm:grid-cols-3">
                   {statsHighlights.map(stat => (
-                    <div key={stat.label} className="rounded-2xl border border-white/40 bg-white/70 p-4 shadow-sm backdrop-blur-md">
+                    <button
+                      key={stat.label}
+                      type="button"
+                      className="rounded-2xl border border-white/40 bg-white/70 p-4 shadow-sm backdrop-blur-md text-left transition-colors hover:border-primary/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
+                      aria-label={`Search antique appraisers near you (${stat.label})`}
+                      onClick={() => handleStatHighlightClick(stat.label)}
+                    >
                       <p className="text-2xl font-bold text-primary">{stat.value}</p>
                       <p className="text-sm text-muted-foreground">{stat.label}</p>
-                    </div>
+                    </button>
                   ))}
                 </div>
               </div>
@@ -394,7 +433,7 @@ function App() {
         </section>
 
         {/* Cities Directory Section */}
-        <div id="city-directory" className="bg-gray-50 py-16">
+        <div id="city-directory" data-city-directory className="bg-gray-50 py-16">
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold mb-4 text-center">Antique Appraiser Directory by City</h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
