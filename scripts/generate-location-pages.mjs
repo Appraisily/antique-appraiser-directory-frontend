@@ -204,6 +204,7 @@ const LOCATION_SEO_OVERRIDES = {
 };
 
 const LOW_CTR_PRIORITY_CITY_SLUGS = new Set([
+  'chicago',
   'des-moines',
   'philadelphia',
   'columbus',
@@ -213,7 +214,57 @@ const LOW_CTR_PRIORITY_CITY_SLUGS = new Set([
   'denver',
   'cleveland',
   'baltimore',
+  'orlando',
 ]);
+
+function localExpertLabel(count) {
+  return count === 1 ? 'Local Expert' : 'Local Experts';
+}
+
+function appraiserLabel(count) {
+  return count === 1 ? 'appraiser' : 'appraisers';
+}
+
+function buildTier1KeywordTitle(slug, cityName, expertPhrase) {
+  switch (slug) {
+    case 'des-moines':
+      return `${cityName} Antique Appraisals & Antique Appraisers | Compare ${expertPhrase}`;
+    case 'tucson':
+      return `${cityName} Antique Appraisers | Compare ${expertPhrase}`;
+    case 'orlando':
+      return `${cityName} Antique Appraisers | Compare ${expertPhrase}`;
+    case 'baltimore':
+      return `Antique Appraisers in Baltimore Maryland | Compare ${expertPhrase}`;
+    case 'philadelphia':
+      return `${cityName} Antique Appraisers | Compare ${expertPhrase}`;
+    case 'cleveland':
+      return `${cityName} Antique Appraiser | Compare ${expertPhrase}`;
+    case 'columbus':
+      return `${cityName} Art Appraiser | Compare ${expertPhrase}`;
+    case 'chicago':
+      return `${cityName} Antique Appraisers | Compare ${expertPhrase}`;
+    case 'milwaukee':
+      return `Antique Appraisal Milwaukee | Compare ${expertPhrase}`;
+    default:
+      return null;
+  }
+}
+
+function buildTier1KeywordDescription(slug, cityName, count) {
+  const countPrefix = count > 0 ? `Compare ${count} ${cityName} antique and art ${appraiserLabel(count)}` : `Find ${cityName} antique and art appraisers`;
+  switch (slug) {
+    case 'columbus':
+      return `${countPrefix}, including options for a Columbus art appraiser, donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+    case 'milwaukee':
+      return `${countPrefix} for antique appraisal Milwaukee searches, plus donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+    case 'baltimore':
+      return `${countPrefix} in Baltimore, Maryland for donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+    case 'des-moines':
+      return `${countPrefix} for Des Moines antique appraisals, donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+    default:
+      return `${countPrefix} for donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+  }
+}
 
 const LOCATION_INTERNAL_LINK_TARGETS = {
   'des-moines': ['kansas-city', 'chicago', 'columbus'],
@@ -1446,13 +1497,14 @@ async function main() {
     const descriptionDisplay = stateName ? `${cityName}, ${stateName}` : cityName;
     const seoOverride = LOCATION_SEO_OVERRIDES[slug];
     const appraiserCount = appraisers.length;
-    const expertLabel = appraiserCount === 1 ? 'Local Expert' : 'Local Experts';
-    const appraiserLabel = appraiserCount === 1 ? 'appraiser' : 'appraisers';
+    const expertLabel = localExpertLabel(appraiserCount);
+    const keywordTitle = buildTier1KeywordTitle(slug, cityName, `${appraiserCount} ${expertLabel}`);
+    const keywordDescription = buildTier1KeywordDescription(slug, cityName, appraiserCount);
     const lowCtrTitle = appraiserCount > 0
-      ? `${cityName} Antique Appraisers Near You | Compare ${appraiserCount} ${expertLabel}`
+      ? (keywordTitle || `${cityName} Antique Appraisers Near You | Compare ${appraiserCount} ${expertLabel}`)
       : `${cityName} Antique Appraisers Near You | Local & Online Options`;
     const lowCtrDescription = appraiserCount > 0
-      ? `Compare ${appraiserCount} ${cityName} antique and art ${appraiserLabel} for donation, estate, insurance, and personal-property reports. Review local experts and online options.`
+      ? keywordDescription
       : `Find ${cityName} antique and art appraisers for donation, estate, insurance, and personal-property reports. Compare local and online options.`;
     const useLowCtrPattern = LOW_CTR_PRIORITY_CITY_SLUGS.has(slug);
     const title = useLowCtrPattern ? lowCtrTitle : (seoOverride?.title || buildTitle(titleDisplay));

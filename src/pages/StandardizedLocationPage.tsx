@@ -51,6 +51,7 @@ const STRIKING_DISTANCE_CITY_SLUGS = [
 ] as const;
 
 const LOW_CTR_PRIORITY_CITY_SLUGS = [
+  'chicago',
   'des-moines',
   'philadelphia',
   'columbus',
@@ -59,7 +60,8 @@ const LOW_CTR_PRIORITY_CITY_SLUGS = [
   'milwaukee',
   'denver',
   'cleveland',
-  'baltimore'
+  'baltimore',
+  'orlando'
 ] as const;
 
 type LocationSeoOverride = {
@@ -498,6 +500,48 @@ export function StandardizedLocationPage() {
   const appraiserCount = locationData?.appraisers?.length ?? 0;
   const expertLabel = appraiserCount === 1 ? 'Local Expert' : 'Local Experts';
   const appraiserLabel = appraiserCount === 1 ? 'appraiser' : 'appraisers';
+  const tier1Title = (() => {
+    const expertPhrase = `${appraiserCount} ${expertLabel}`;
+    switch (validCitySlug) {
+      case 'des-moines':
+        return `${citySearchName} Antique Appraisals & Antique Appraisers | Compare ${expertPhrase}`;
+      case 'tucson':
+        return `${citySearchName} Antique Appraisers | Compare ${expertPhrase}`;
+      case 'orlando':
+        return `${citySearchName} Antique Appraisers | Compare ${expertPhrase}`;
+      case 'baltimore':
+        return `Antique Appraisers in Baltimore Maryland | Compare ${expertPhrase}`;
+      case 'philadelphia':
+        return `${citySearchName} Antique Appraisers | Compare ${expertPhrase}`;
+      case 'cleveland':
+        return `${citySearchName} Antique Appraiser | Compare ${expertPhrase}`;
+      case 'columbus':
+        return `${citySearchName} Art Appraiser | Compare ${expertPhrase}`;
+      case 'chicago':
+        return `${citySearchName} Antique Appraisers | Compare ${expertPhrase}`;
+      case 'milwaukee':
+        return `Antique Appraisal Milwaukee | Compare ${expertPhrase}`;
+      default:
+        return '';
+    }
+  })();
+  const tier1Description = (() => {
+    const countPrefix = appraiserCount > 0
+      ? `Compare ${appraiserCount} ${citySearchName} antique and art ${appraiserLabel}`
+      : `Find ${citySearchName} antique and art appraisers`;
+    switch (validCitySlug) {
+      case 'columbus':
+        return `${countPrefix}, including options for a Columbus art appraiser, donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+      case 'milwaukee':
+        return `${countPrefix} for antique appraisal Milwaukee searches, plus donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+      case 'baltimore':
+        return `${countPrefix} in Baltimore, Maryland for donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+      case 'des-moines':
+        return `${countPrefix} for Des Moines antique appraisals, donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+      default:
+        return `${countPrefix} for donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+    }
+  })();
   const fallbackSeoTitle = locationData?.appraisers?.length
     ? `${citySearchName} Antique Appraisers Near You | Compare ${locationData.appraisers.length} Local Experts`
     : `Antique Appraisers in ${cityName} | Local & Online Options`;
@@ -505,10 +549,10 @@ export function StandardizedLocationPage() {
     ? `Compare ${locationData.appraisers.length} antique appraisers in ${cityName}. See verified specialties, ratings, and pricing style, then choose local in-person service or start a faster online appraisal.`
     : `Find antique appraisers in ${cityName}. Compare local in-person providers and start an online appraisal with Appraisily when you need a faster option.`;
   const prioritySeoTitle = appraiserCount > 0
-    ? `${citySearchName} Antique Appraisers Near You | Compare ${appraiserCount} ${expertLabel}`
+    ? (tier1Title || `${citySearchName} Antique Appraisers Near You | Compare ${appraiserCount} ${expertLabel}`)
     : `${citySearchName} Antique Appraisers Near You | Local & Online Options`;
   const prioritySeoDescription = appraiserCount > 0
-    ? `Compare ${appraiserCount} ${citySearchName} antique and art ${appraiserLabel} for donation, estate, insurance, and personal-property reports. Review local experts and online options.`
+    ? tier1Description
     : `Find ${citySearchName} antique and art appraisers for donation, estate, insurance, and personal-property reports. Compare local and online options.`;
   const seoTitle = isLowCtrPriorityCity ? prioritySeoTitle : (seoOverride?.title ?? fallbackSeoTitle);
   const seoDescription = isLowCtrPriorityCity ? prioritySeoDescription : (seoOverride?.description ?? fallbackSeoDescription);
