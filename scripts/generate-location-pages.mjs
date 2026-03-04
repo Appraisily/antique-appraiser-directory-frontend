@@ -204,17 +204,23 @@ const LOCATION_SEO_OVERRIDES = {
 };
 
 const LOW_CTR_PRIORITY_CITY_SLUGS = new Set([
+  'aspen',
   'chicago',
-  'des-moines',
-  'philadelphia',
+  'cleveland',
   'columbus',
+  'des-moines',
+  'honolulu',
+  'indianapolis',
+  'jacksonville',
   'kansas-city',
+  'orlando',
+  'philadelphia',
+  'richmond',
+  'seattle',
   'tucson',
   'milwaukee',
   'denver',
-  'cleveland',
   'baltimore',
-  'orlando',
 ]);
 
 function localExpertLabel(count) {
@@ -227,8 +233,20 @@ function appraiserLabel(count) {
 
 function buildTier1KeywordTitle(slug, cityName, expertPhrase) {
   switch (slug) {
+    case 'aspen':
+      return `${cityName} Art Appraisers & Antique Appraisers | Compare ${expertPhrase}`;
+    case 'seattle':
+      return `${cityName} Art Appraisal Services | Compare ${expertPhrase}`;
     case 'des-moines':
       return `${cityName} Antique Appraisals & Antique Appraisers | Compare ${expertPhrase}`;
+    case 'indianapolis':
+      return `${cityName} Art Appraisers | Compare ${expertPhrase}`;
+    case 'richmond':
+      return `${cityName} Antique Appraisers | Compare ${expertPhrase}`;
+    case 'jacksonville':
+      return `${cityName} Art Appraisers | Compare ${expertPhrase}`;
+    case 'honolulu':
+      return `Oahu Antique Appraiser | Compare ${expertPhrase}`;
     case 'tucson':
       return `${cityName} Antique Appraisers | Compare ${expertPhrase}`;
     case 'orlando':
@@ -253,6 +271,18 @@ function buildTier1KeywordTitle(slug, cityName, expertPhrase) {
 function buildTier1KeywordDescription(slug, cityName, count) {
   const countPrefix = count > 0 ? `Compare ${count} ${cityName} antique and art ${appraiserLabel(count)}` : `Find ${cityName} antique and art appraisers`;
   switch (slug) {
+    case 'aspen':
+      return `${countPrefix} for Aspen art appraisers and antique appraisers, including donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+    case 'seattle':
+      return `${countPrefix} for Seattle art appraisal services, donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+    case 'indianapolis':
+      return `${countPrefix}, including Indianapolis art appraisers for donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+    case 'richmond':
+      return `${countPrefix} for Richmond antique appraisers, donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+    case 'jacksonville':
+      return `${countPrefix}, including Jacksonville art appraisers for donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+    case 'honolulu':
+      return `${countPrefix} for Oahu antique appraiser and Honolulu valuation searches, plus donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
     case 'columbus':
       return `${countPrefix}, including options for a Columbus art appraiser, donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
     case 'milwaukee':
@@ -260,7 +290,7 @@ function buildTier1KeywordDescription(slug, cityName, count) {
     case 'baltimore':
       return `${countPrefix} in Baltimore, Maryland for donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
     case 'des-moines':
-      return `${countPrefix} for Des Moines antique appraisals, donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
+      return `${countPrefix} for Des Moines antique appraisals and Des Moines art appraisers, including donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
     default:
       return `${countPrefix} for donation, estate, insurance, and personal-property reports. Review local experts and online options.`;
   }
