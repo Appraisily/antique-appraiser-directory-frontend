@@ -50,6 +50,18 @@ const STRIKING_DISTANCE_CITY_SLUGS = [
   'sacramento'
 ] as const;
 
+const LOW_CTR_PRIORITY_CITY_SLUGS = [
+  'des-moines',
+  'philadelphia',
+  'columbus',
+  'kansas-city',
+  'tucson',
+  'milwaukee',
+  'denver',
+  'cleveland',
+  'baltimore'
+] as const;
+
 type LocationSeoOverride = {
   title: string;
   description: string;
@@ -480,14 +492,26 @@ export function StandardizedLocationPage() {
   });
 
   const seoOverride = LOCATION_SEO_OVERRIDES[validCitySlug as (typeof STRIKING_DISTANCE_CITY_SLUGS)[number]];
+  const isLowCtrPriorityCity = LOW_CTR_PRIORITY_CITY_SLUGS.includes(
+    validCitySlug as (typeof LOW_CTR_PRIORITY_CITY_SLUGS)[number]
+  );
+  const appraiserCount = locationData?.appraisers?.length ?? 0;
+  const expertLabel = appraiserCount === 1 ? 'Local Expert' : 'Local Experts';
+  const appraiserLabel = appraiserCount === 1 ? 'appraiser' : 'appraisers';
   const fallbackSeoTitle = locationData?.appraisers?.length
     ? `${citySearchName} Antique Appraisers Near You | Compare ${locationData.appraisers.length} Local Experts`
     : `Antique Appraisers in ${cityName} | Local & Online Options`;
   const fallbackSeoDescription = locationData?.appraisers?.length
     ? `Compare ${locationData.appraisers.length} antique appraisers in ${cityName}. See verified specialties, ratings, and pricing style, then choose local in-person service or start a faster online appraisal.`
     : `Find antique appraisers in ${cityName}. Compare local in-person providers and start an online appraisal with Appraisily when you need a faster option.`;
-  const seoTitle = seoOverride?.title ?? fallbackSeoTitle;
-  const seoDescription = seoOverride?.description ?? fallbackSeoDescription;
+  const prioritySeoTitle = appraiserCount > 0
+    ? `${citySearchName} Antique Appraisers Near You | Compare ${appraiserCount} ${expertLabel}`
+    : `${citySearchName} Antique Appraisers Near You | Local & Online Options`;
+  const prioritySeoDescription = appraiserCount > 0
+    ? `Compare ${appraiserCount} ${citySearchName} antique and art ${appraiserLabel} for donation, estate, insurance, and personal-property reports. Review local experts and online options.`
+    : `Find ${citySearchName} antique and art appraisers for donation, estate, insurance, and personal-property reports. Compare local and online options.`;
+  const seoTitle = isLowCtrPriorityCity ? prioritySeoTitle : (seoOverride?.title ?? fallbackSeoTitle);
+  const seoDescription = isLowCtrPriorityCity ? prioritySeoDescription : (seoOverride?.description ?? fallbackSeoDescription);
   const heroHeading = seoOverride?.h1 ?? `Antique Appraisers in ${cityName}`;
   const heroDescription =
     seoOverride?.heroDescription ??

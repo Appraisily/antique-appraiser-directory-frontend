@@ -203,6 +203,18 @@ const LOCATION_SEO_OVERRIDES = {
   },
 };
 
+const LOW_CTR_PRIORITY_CITY_SLUGS = new Set([
+  'des-moines',
+  'philadelphia',
+  'columbus',
+  'kansas-city',
+  'tucson',
+  'milwaukee',
+  'denver',
+  'cleveland',
+  'baltimore',
+]);
+
 const LOCATION_INTERNAL_LINK_TARGETS = {
   'des-moines': ['kansas-city', 'chicago', 'columbus'],
   'kansas-city': ['des-moines', 'st-louis', 'chicago'],
@@ -1433,8 +1445,20 @@ async function main() {
     const titleDisplay = regionCode ? `${cityName}, ${regionCode}` : cityName;
     const descriptionDisplay = stateName ? `${cityName}, ${stateName}` : cityName;
     const seoOverride = LOCATION_SEO_OVERRIDES[slug];
-    const title = seoOverride?.title || buildTitle(titleDisplay);
-    const description = seoOverride?.description || buildDescription(descriptionDisplay);
+    const appraiserCount = appraisers.length;
+    const expertLabel = appraiserCount === 1 ? 'Local Expert' : 'Local Experts';
+    const appraiserLabel = appraiserCount === 1 ? 'appraiser' : 'appraisers';
+    const lowCtrTitle = appraiserCount > 0
+      ? `${cityName} Antique Appraisers Near You | Compare ${appraiserCount} ${expertLabel}`
+      : `${cityName} Antique Appraisers Near You | Local & Online Options`;
+    const lowCtrDescription = appraiserCount > 0
+      ? `Compare ${appraiserCount} ${cityName} antique and art ${appraiserLabel} for donation, estate, insurance, and personal-property reports. Review local experts and online options.`
+      : `Find ${cityName} antique and art appraisers for donation, estate, insurance, and personal-property reports. Compare local and online options.`;
+    const useLowCtrPattern = LOW_CTR_PRIORITY_CITY_SLUGS.has(slug);
+    const title = useLowCtrPattern ? lowCtrTitle : (seoOverride?.title || buildTitle(titleDisplay));
+    const description = useLowCtrPattern
+      ? lowCtrDescription
+      : (seoOverride?.description || buildDescription(descriptionDisplay));
     const heroHeading = seoOverride?.h1 || `${SERVICE_LABEL_DISPLAY} in ${cityDisplayName}`;
     const heroDescription = seoOverride?.heroDescription || description;
 
