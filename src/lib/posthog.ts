@@ -1,9 +1,8 @@
 import posthog from 'posthog-js';
+import { getClickIdsFromRuntime } from '../utils/startAttribution';
 
 const DEFAULT_HOST = 'https://us.i.posthog.com';
 const CONSENT_COOKIE = 'cookieConsent';
-const ATTRIB_COOKIE = 'appraisily_attrib';
-const CLICK_ID_KEYS = ['gclid', 'wbraid', 'gbraid', 'fbclid', 'twclid', 'msclkid', 'ttclid'];
 
 type RuntimeEnv = Partial<Record<string, unknown>> & {
   POSTHOG_API_KEY?: string;
@@ -78,20 +77,7 @@ function readConsent(): 'granted' | 'declined' | 'dismissed' | undefined {
 }
 
 function readClickIds(): Record<string, string> {
-  const raw = readCookie(ATTRIB_COOKIE);
-  if (!raw) return {};
-  try {
-    const parsed = JSON.parse(raw);
-    if (!parsed || typeof parsed !== 'object') return {};
-    const out: Record<string, string> = {};
-    for (const key of CLICK_ID_KEYS) {
-      const value = (parsed as Record<string, unknown>)[key];
-      if (typeof value === 'string' && value.trim()) out[key] = value.trim();
-    }
-    return out;
-  } catch {
-    return {};
-  }
+  return getClickIdsFromRuntime();
 }
 
 const runtimeEnv = readRuntimeEnv();

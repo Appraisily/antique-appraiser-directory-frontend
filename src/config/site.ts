@@ -1,4 +1,5 @@
 import { withAiAssistantParams } from '../utils/aiAttribution';
+import { appendStartAttributionParams } from '../utils/startAttribution';
 import { BRAND_LOGO_URL } from './assets';
 
 export const SITE_NAME = 'Antique Appraiser Directory';
@@ -54,7 +55,7 @@ export function getPrimaryCtaUrl(extraParams: Record<string, string> = {}): stri
   });
 
   try {
-    const url = new URL(tagged);
+    const url = appendStartAttributionParams(new URL(tagged));
     // Add lightweight SEO attribution params for the main funnel (safe, non-PII).
     if (typeof window !== 'undefined') {
       const pathname = window.location.pathname || '/';

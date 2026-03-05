@@ -7,6 +7,7 @@ import { SITE_URL } from './config/site';
 import './index.css';
 import './styles/animations.css';
 import { tagAiAssistantReferrer } from './utils/aiAttribution';
+import { captureAttributionFromQueryToCookie } from './utils/startAttribution';
 
 declare global {
   interface Window {
@@ -52,6 +53,7 @@ window.__APPRAISILY_CLIENT_RENDER_ONLY__ = true;
 // Ensure AI referrals are tagged before hydration/render
 try {
   tagAiAssistantReferrer();
+  captureAttributionFromQueryToCookie();
 } catch (error) {
   console.error('Failed to tag AI assistant referrer', error);
 }
