@@ -51,7 +51,7 @@ export function normalizeCanonicalUrl(input: URL): URL {
 export function getPrimaryCtaUrl(extraParams: Record<string, string> = {}): string {
   const tagged = withAiAssistantParams(BASE_CTA_URL, {
     defaultParams: DEFAULT_CTA_PARAMS,
-    skipIfSourceExists: false,
+    skipIfSourceExists: true,
   });
 
   try {
