@@ -24,9 +24,31 @@ const DEFAULT_SLUGS = [];
 
 const TRUST_FIRST_LOCATION_SLUGS = new Set(['kelowna', 'calgary', 'san-antonio']);
 const TRUST_FIRST_MIN_VERIFIED = 3;
+const RETIRED_APPRAISER_PROFILE_SLUGS = new Set([
+  'des-moines-antique-appraisals',
+  'heritage-valuations-kansas-city',
+  'kansas-city-antique-appraisals',
+  'columbus-antique-appraisals',
+  'denver-candace-a-hill',
+  'denver-brady-l-dreasher',
+  'indianapolis-antique-appraisals',
+  'heritage-valuations-orlando',
+  'orlando-antique-appraisals',
+  'palm-beach-antique-appraisals',
+  'tampa-antique-appraisals',
+]);
+const LOCATION_SPECIFIC_RETIRED_SLUGS = new Map([
+  ['indianapolis', new Set(['art-of-estates'])],
+]);
 
 function filterAppraisersForLocation(slug, appraisers) {
-  const list = Array.isArray(appraisers) ? [...appraisers] : [];
+  const retiredForLocation = LOCATION_SPECIFIC_RETIRED_SLUGS.get(slug) || new Set();
+  const list = Array.isArray(appraisers)
+    ? appraisers.filter((entry) => {
+        const appraiserSlug = String(entry?.slug || '').trim();
+        return !RETIRED_APPRAISER_PROFILE_SLUGS.has(appraiserSlug) && !retiredForLocation.has(appraiserSlug);
+      })
+    : [];
 
   list.sort((a, b) => {
     const aRank = a?.verified === true ? 2 : a?.listed === true ? 1 : 0;
@@ -245,7 +267,7 @@ function buildLocationSchemas({ slug, cityName, stateCode, appraisers }) {
   const addressRegion = stateCodeNormalized || safeStateName || firstAddress?.state || '';
   const country = detectCountry({ stateCode: stateCodeNormalized || firstAddress?.state, stateName: safeStateName });
   const cityLocality = sanitizePlainText(
-    firstAddress?.city || String(cityName || '').split(',')[0]?.trim() || titleCaseFromSlug(slug),
+    String(cityName || '').split(',')[0]?.trim() || titleCaseFromSlug(slug),
   );
   const locationPath = `/location/${slug}/`;
   const locationUrl = buildUrl(locationPath);

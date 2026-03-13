@@ -203,6 +203,149 @@ const LOCATION_SEO_OVERRIDES = {
   },
 };
 
+const LOCATION_KEYWORD_BRIEFS = {
+  'des-moines': {
+    primaryKeyword: 'des moines antique appraisals',
+    title: 'Des Moines Antique Appraisals | Compare Local Experts & Online Options',
+    description:
+      'Compare Des Moines antique appraisal services and local art appraisers for donation, estate, insurance, and personal-property reports. Review specialties, fees, and online options.',
+    h1: 'Des Moines Antique Appraisals & Art Appraisers',
+    heroDescription:
+      'Compare Des Moines antique appraisal services, art appraisers, and furniture valuation options, then choose local in-person help or faster online appraisal.',
+    faqQuestion: 'How do Des Moines antique appraisal services compare?',
+    faqAnswer:
+      'Compare report type, fee structure, specialties such as furniture or fine art, and whether the appraiser can support donation, estate, or insurance documentation.',
+    guideIntro:
+      'People searching for Des Moines antique appraisals usually need a local expert for furniture, art, estate, or donation value questions. Start by comparing report type, turnaround time, and whether written documentation is included.',
+  },
+  tucson: {
+    primaryKeyword: 'tucson antique appraisers',
+    title: 'Tucson Antique Appraisers | Compare Local Experts & Online Options',
+    description:
+      'Compare Tucson antique appraisers and art appraisal options for donation, estate, insurance, and personal-property reports. Review local experts, specialties, and online alternatives.',
+    h1: 'Tucson Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Tucson antique appraisers for donation, estate, insurance, and personal-property reports, then choose the best local or online appraisal path.',
+    faqQuestion: 'What should I compare when choosing Tucson antique appraisers?',
+    faqAnswer:
+      'Look at specialties, report type, fees, turnaround time, and whether the appraiser handles donation, estate, insurance, or personal-property documentation.',
+    guideIntro:
+      'People searching for Tucson antique appraisers usually need help with donation, estate, insurance, or personal-property valuation. Start by comparing specialties, written-report availability, and turnaround time.',
+  },
+  aspen: {
+    primaryKeyword: 'aspen art appraisers',
+    title: 'Aspen Art Appraisers & Antique Appraisers | Compare Local Experts',
+    description:
+      'Compare Aspen art appraisers and antique appraisal specialists for estate, insurance, donation, and resale valuation. Review local experts and online options before you book.',
+    h1: 'Aspen Art Appraisers & Antique Appraisers',
+    heroDescription:
+      'Compare Aspen art appraisers, antique specialists, and written-report options for estate, insurance, donation, and resale valuation.',
+    faqQuestion: 'How do I compare Aspen art appraisers for a written valuation?',
+    faqAnswer:
+      'Check whether the appraiser handles the type of artwork or collection you own, what report format is included, how comps are documented, and whether travel or research fees apply.',
+    guideIntro:
+      'People searching for Aspen art appraisers usually need a written report for insurance, estate, donation, or resale decisions. Compare specialties, comparable-research depth, and fee structure before you book.',
+  },
+  honolulu: {
+    primaryKeyword: 'oahu antique appraiser',
+    title: 'Oahu Antique Appraiser | Compare Honolulu Experts & Online Options',
+    description:
+      'Compare Oahu antique appraiser and Honolulu valuation options for antiques, art, estate, insurance, and donation reports. Review local experts and online alternatives.',
+    h1: 'Oahu Antique Appraiser & Honolulu Art Appraisal Options',
+    heroDescription:
+      'Compare Oahu antique appraiser options and Honolulu valuation support for antiques, art, estate, insurance, and donation reports.',
+    faqQuestion: 'How should I compare an Oahu antique appraiser with online appraisal options?',
+    faqAnswer:
+      'Compare local availability, written-report scope, specialties, travel requirements, and whether an online appraisal will meet your insurance, estate, donation, or resale goal.',
+    guideIntro:
+      'People searching for an Oahu antique appraiser often need to compare island-based availability with faster online appraisal options. Start by confirming report scope, travel expectations, and item-type fit.',
+  },
+  denver: {
+    primaryKeyword: 'denver art appraisers',
+    title: 'Denver Art Appraisers | Compare Local Experts & Online Options',
+    description:
+      'Compare Denver art appraisers and antique valuation specialists for estate, insurance, donation, and personal-property reports. Review local experts, specialties, and online options.',
+    h1: 'Denver Art Appraisers & Antique Valuation Experts',
+    heroDescription:
+      'Compare Denver art appraisers for estate, insurance, donation, and personal-property reports, then choose local appointments or faster online appraisal.',
+    faqQuestion: 'What should I look for when comparing Denver art appraisers?',
+    faqAnswer:
+      'Check art-market specialty, report type, comparable-sales research, fee structure, and whether the appraiser can support insurance, estate, donation, or personal-property needs.',
+    guideIntro:
+      'People searching for Denver art appraisers usually need a written valuation for insurance, estate, donation, or personal-property planning. Compare specialties, comparable-research depth, and turnaround time before you book.',
+  },
+  indianapolis: {
+    primaryKeyword: 'indianapolis art appraisers',
+    title: 'Indianapolis Art Appraisers | Compare Local Experts & Online Options',
+    description:
+      'Compare Indianapolis art appraisers and antique valuation specialists for donation, estate, insurance, and personal-property reports. Review local experts, fees, and online options.',
+    h1: 'Indianapolis Art Appraisers & Antique Valuation Experts',
+    heroDescription:
+      'Compare Indianapolis art appraisers for donation, estate, insurance, and personal-property reports, then choose local or online valuation support.',
+    faqQuestion: 'How do I choose between Indianapolis art appraisers?',
+    faqAnswer:
+      'Compare item-type specialty, report scope, fee structure, and whether the appraiser supports donation, estate, insurance, or personal-property documentation.',
+    guideIntro:
+      'People searching for Indianapolis art appraisers usually need help comparing fee structures, specialties, and written-report scope. Start there before deciding on local or online valuation.',
+  },
+  philadelphia: {
+    primaryKeyword: 'philadelphia antique appraisers',
+    title: 'Philadelphia Antique Appraisers | Compare Local Experts & Online Options',
+    description:
+      'Compare Philadelphia antique appraisers and art valuation options for estate, insurance, donation, and personal-property reports. Review local experts, specialties, and online alternatives.',
+    h1: 'Philadelphia Antique Appraisers & Art Valuation Experts',
+    heroDescription:
+      'Compare Philadelphia antique appraisers for estate, insurance, donation, and personal-property reports, then choose local or online appraisal support.',
+    faqQuestion: 'What should I compare when reviewing Philadelphia antique appraisers?',
+    faqAnswer:
+      'Look at item-type specialty, written-report scope, fee model, turnaround time, and whether the appraiser supports estate, insurance, donation, or resale decisions.',
+    guideIntro:
+      'People searching for Philadelphia antique appraisers usually need a written valuation for estate, insurance, donation, or resale decisions. Compare specialties, report type, and timeline before you book.',
+  },
+  minneapolis: {
+    primaryKeyword: 'minneapolis antique appraisers',
+    title: 'Minneapolis Antique Appraisers | Compare Local Experts & Online Options',
+    description:
+      'Compare Minneapolis antique appraisers and art valuation specialists for estate, insurance, donation, and personal-property reports. Review local experts, specialties, and online options.',
+    h1: 'Minneapolis Antique Appraisers & Art Valuation Experts',
+    heroDescription:
+      'Compare Minneapolis antique appraisers for estate, insurance, donation, and personal-property reports, then choose local or online appraisal support.',
+    faqQuestion: 'How do Minneapolis antique appraisers differ for written valuation work?',
+    faqAnswer:
+      'The biggest differences are specialty coverage, report depth, turnaround time, and whether the appraiser supports insurance, estate, donation, or resale documentation.',
+    guideIntro:
+      'People searching for Minneapolis antique appraisers usually need to compare specialty fit, report depth, and timing for estate, insurance, donation, or resale needs. Start there before you book.',
+  },
+  chicago: {
+    primaryKeyword: 'chicago antique appraisers',
+    title: 'Chicago Antique Appraisers | Compare Local Experts & Online Options',
+    description:
+      'Compare Chicago antique appraisers and art valuation specialists for estate, insurance, donation, and personal-property reports. Review local experts, specialties, and online alternatives.',
+    h1: 'Chicago Antique Appraisers & Art Valuation Experts',
+    heroDescription:
+      'Compare Chicago antique appraisers for estate, insurance, donation, and personal-property reports, then choose local or online appraisal support.',
+    faqQuestion: 'What should I compare when choosing Chicago antique appraisers?',
+    faqAnswer:
+      'Compare item-type specialty, report type, fee structure, turnaround time, and whether the appraiser supports estate, insurance, donation, or resale valuation.',
+    guideIntro:
+      'People searching for Chicago antique appraisers usually need a specialist for estate, insurance, donation, or personal-property valuation. Compare report type, fee structure, and specialties before you book.',
+  },
+  austin: {
+    primaryKeyword: 'austin antique appraisers',
+    title: 'Austin Antique Appraisers | Compare Local Experts & Online Options',
+    description:
+      'Compare Austin antique appraisers and art valuation options for tax donation, estate, insurance, and personal-property reports. Review local experts, specialties, and online alternatives.',
+    h1: 'Austin Antique Appraisers & Art Valuation Experts',
+    heroDescription:
+      'Compare Austin antique appraisers for tax donation, estate, insurance, and personal-property reports, then choose local or online appraisal support.',
+    faqQuestion: 'How do I compare Austin antique appraisers for donation or estate work?',
+    faqAnswer:
+      'Check whether the appraiser handles donation, estate, insurance, or personal-property reports, what item types they specialize in, and whether fees include written documentation.',
+    guideIntro:
+      'People searching for Austin antique appraisers often need support for donation, estate, insurance, or personal-property valuation. Compare specialties, written-report scope, and turnaround time before you book.',
+  },
+};
+
 const LOW_CTR_PRIORITY_CITY_SLUGS = new Set([
   'aspen',
   'chicago',
@@ -322,6 +465,39 @@ const LOCATION_INTERNAL_LINK_TARGETS = {
 
 const HIGH_ROI_CITY_SLUG_SET = new Set(Object.keys(LOCATION_SEO_OVERRIDES));
 const LOCATION_INTENT_PAGE_SLUGS = ['estate-appraisal', 'insurance-appraisal', 'donation-appraisal'];
+const CONSOLIDATED_SUPPORT_GUIDE_CITY_SLUGS = new Set([
+  'des-moines',
+  'kansas-city',
+  'columbus',
+  'denver',
+  'orlando',
+  'tampa',
+  'indianapolis',
+  'palm-beach',
+]);
+const CONSOLIDATED_LOCATION_INTENTS = new Map([
+  ['des-moines', new Set(['estate-appraisal'])],
+  ['kansas-city', new Set(['estate-appraisal', 'insurance-appraisal', 'donation-appraisal'])],
+  ['columbus', new Set(['estate-appraisal', 'insurance-appraisal'])],
+  ['denver', new Set(['estate-appraisal'])],
+  ['indianapolis', new Set(['estate-appraisal', 'insurance-appraisal'])],
+]);
+const RETIRED_APPRAISER_PROFILE_SLUGS = new Set([
+  'des-moines-antique-appraisals',
+  'heritage-valuations-kansas-city',
+  'kansas-city-antique-appraisals',
+  'columbus-antique-appraisals',
+  'denver-candace-a-hill',
+  'denver-brady-l-dreasher',
+  'indianapolis-antique-appraisals',
+  'heritage-valuations-orlando',
+  'orlando-antique-appraisals',
+  'palm-beach-antique-appraisals',
+  'tampa-antique-appraisals',
+]);
+const LOCATION_SPECIFIC_RETIRED_SLUGS = new Map([
+  ['indianapolis', new Set(['art-of-estates'])],
+]);
 const LOCATION_INTENT_PAGE_META = {
   'estate-appraisal': {
     shortLabel: 'Estate',
@@ -342,6 +518,16 @@ const LOCATION_INTENT_PAGE_META = {
     descriptionLead: 'Plan a donation appraisal that matches IRS and charity documentation expectations',
   },
 };
+
+function shouldGenerateSupportGuide(citySlug) {
+  return !CONSOLIDATED_SUPPORT_GUIDE_CITY_SLUGS.has(citySlug);
+}
+
+function shouldGenerateIntentPage(citySlug, intentSlug) {
+  if (!HIGH_ROI_CITY_SLUG_SET.has(citySlug)) return false;
+  const consolidated = CONSOLIDATED_LOCATION_INTENTS.get(citySlug);
+  return !consolidated?.has(intentSlug);
+}
 
 const CANADIAN_REGION_NAMES = new Set([
   'alberta',
@@ -371,7 +557,13 @@ const TRUST_FIRST_LOCATION_SLUGS = new Set(['kelowna', 'calgary', 'san-antonio']
 const TRUST_FIRST_MIN_VERIFIED = 3;
 
 function filterAppraisersForLocation(slug, appraisers) {
-  const list = Array.isArray(appraisers) ? [...appraisers] : [];
+  const retiredForLocation = LOCATION_SPECIFIC_RETIRED_SLUGS.get(slug) || new Set();
+  const list = Array.isArray(appraisers)
+    ? appraisers.filter((entry) => {
+        const appraiserSlug = String(entry?.slug || '').trim();
+        return !RETIRED_APPRAISER_PROFILE_SLUGS.has(appraiserSlug) && !retiredForLocation.has(appraiserSlug);
+      })
+    : [];
 
   list.sort((a, b) => {
     const aRank = a?.verified === true ? 2 : a?.listed === true ? 1 : 0;
@@ -523,11 +715,16 @@ function buildDescription(cityDisplayName) {
   );
 }
 
-function buildFaq(cityDisplayName) {
+function buildFaq(cityDisplayName, keywordBrief = null) {
+  const firstQuestion = keywordBrief?.faqQuestion || `How do antique and art appraisals work in ${cityDisplayName}?`;
+  const firstAnswer =
+    keywordBrief?.faqAnswer ||
+    `Most ${SERVICE_LABEL_DISPLAY_LOWER} in ${cityDisplayName} review condition, age, maker marks/materials, provenance details, and comparable sales to estimate value. A written report is often used for insurance, estates, donations, or resale.`;
+
   const qs = [
     {
-      q: `How do antique and art appraisals work in ${cityDisplayName}?`,
-      a: `Most ${SERVICE_LABEL_DISPLAY_LOWER} in ${cityDisplayName} review condition, age, maker marks/materials, provenance details, and comparable sales to estimate value. A written report is often used for insurance, estates, donations, or resale.`,
+      q: firstQuestion,
+      a: firstAnswer,
     },
     {
       q: 'What should I prepare before contacting an appraiser?',
@@ -753,10 +950,13 @@ function buildPriorityLocationLinks({ slug, slugsInBuild }) {
     .slice(0, 6);
 }
 
-function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appraisers, relatedSlugs, labelForSlug }) {
+function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appraisers, relatedSlugs, labelForSlug, keywordBrief }) {
   const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
   const safeState = sanitizePlainText(stateName);
-  const showIntentLinks = HIGH_ROI_CITY_SLUG_SET.has(citySlug);
+  const showSupportGuide = shouldGenerateSupportGuide(citySlug);
+  const availableIntentSlugs = LOCATION_INTENT_PAGE_SLUGS.filter((intentSlug) =>
+    shouldGenerateIntentPage(citySlug, intentSlug),
+  );
 
   const specialties = buildKeywordCounts(appraisers, (entry) => entry?.expertise?.specialties).slice(0, 8);
   const services = buildKeywordCounts(appraisers, (entry) => entry?.expertise?.services).slice(0, 8);
@@ -765,7 +965,9 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
   const listedCount = appraisers.filter((entry) => entry?.verified !== true && entry?.listed === true).length;
   const providerCount = appraisers.length;
 
-  const intro = `Hiring the right ${SERVICE_LABEL_DISPLAY_LOWER} in ${safeCity} depends on your goal (insurance, estate settlement, donation, or resale). Look for clear fees, a written report when needed, and evidence of comparable research for your item type.`;
+  const intro =
+    keywordBrief?.guideIntro ||
+    `Hiring the right ${SERVICE_LABEL_DISPLAY_LOWER} in ${safeCity} depends on your goal (insurance, estate settlement, donation, or resale). Look for clear fees, a written report when needed, and evidence of comparable research for your item type.`;
   const checklist = `Before you contact a provider, gather photos, measurements, and any provenance. Ask about turnaround time, what kind of value the report uses (fair market vs replacement), and whether the fee includes a written report.`;
   const supplyNote =
     providerCount > 0
@@ -779,7 +981,6 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
   const artDirectoryHref = `https://art-appraisers-directory.appraisily.com/?utm_source=directory&utm_medium=guide&utm_campaign=${encodeURIComponent(
     citySlug,
   )}&utm_content=art_directory`;
-  const supportGuideHref = `/location/${citySlug}/appraisal-guide/`;
   const auctionHubSlug = CITY_AUCTION_HUB_SLUGS.get(citySlug);
   const auctionHubHref = auctionHubSlug ? `https://articles.appraisily.com/auction-hub/${auctionHubSlug}/` : '';
 
@@ -825,22 +1026,22 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
         <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
           hubHref,
         )}" target="_blank" rel="noopener noreferrer">How to choose</a>
-        <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
-          supportGuideHref,
-        )}">City appraisal guide</a>
         ${
-          showIntentLinks
+          showSupportGuide
             ? `<a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/${escapeHtml(
                 citySlug,
-              )}/estate-appraisal/">Estate appraisal guide</a>
-        <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/${escapeHtml(
-          citySlug,
-        )}/insurance-appraisal/">Insurance appraisal guide</a>
-        <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/${escapeHtml(
-          citySlug,
-        )}/donation-appraisal/">Donation appraisal guide</a>`
+              )}/appraisal-guide/">City appraisal guide</a>`
             : ''
         }
+        ${availableIntentSlugs
+          .map((intentSlug) => {
+            const meta = LOCATION_INTENT_PAGE_META[intentSlug];
+            if (!meta) return '';
+            return `<a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/${escapeHtml(
+              citySlug,
+            )}/${escapeHtml(intentSlug)}/">${escapeHtml(meta.shortLabel)} appraisal guide</a>`;
+          })
+          .join('')}
         ${
           auctionHubHref
             ? `<a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
@@ -912,6 +1113,7 @@ function renderSupportPage({
   const verifiedCount = appraisers.filter((entry) => entry?.verified === true).length;
   const auctionHubSlug = CITY_AUCTION_HUB_SLUGS.get(citySlug);
   const auctionHubHref = auctionHubSlug ? `https://articles.appraisily.com/auction-hub/${auctionHubSlug}/` : '';
+  const guideRelatedSlugs = relatedSlugs.filter((related) => shouldGenerateSupportGuide(related));
   const freeAppHref = `https://articles.appraisily.com/free-antique-identification-app/?utm_source=directory&utm_medium=support_page&utm_campaign=${encodeURIComponent(
     citySlug,
   )}`;
@@ -1019,11 +1221,11 @@ function renderSupportPage({
           </section>
 
           ${
-            relatedSlugs.length
+            guideRelatedSlugs.length
               ? `<section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
             <h2 class="text-2xl font-semibold mb-3">Related city guides</h2>
             <div class="flex flex-wrap gap-x-3 gap-y-2">
-              ${relatedSlugs
+              ${guideRelatedSlugs
                 .map((related) => `<a class="text-blue-700 hover:underline" href="/location/${escapeHtml(
                   related,
                 )}/appraisal-guide/">${escapeHtml(labelForSlug(related))}</a>`)
@@ -1073,7 +1275,8 @@ function renderIntentPage({
   const safeState = sanitizePlainText(stateName);
   const canonicalUrl = buildAbsoluteUrl(`/location/${citySlug}/${intentSlug}/`);
   const locationUrl = buildAbsoluteUrl(`/location/${citySlug}/`);
-  const supportGuideUrl = buildAbsoluteUrl(`/location/${citySlug}/appraisal-guide/`);
+  const showSupportGuide = shouldGenerateSupportGuide(citySlug);
+  const relatedIntentSlugs = relatedSlugs.filter((related) => shouldGenerateIntentPage(related, intentSlug));
   const title = buildIntentPageTitle(cityDisplayName, intentSlug);
   const description = buildIntentPageDescription(cityDisplayName, intentSlug);
   const updatedOn = new Date().toISOString().slice(0, 10);
@@ -1173,16 +1376,22 @@ function renderIntentPage({
             <p class="text-gray-700 leading-relaxed">${safeState ? `If you are in ${escapeHtml(safeState)}, ` : ''}prioritize specialists in your item category and confirm turnaround before booking.</p>
             <div class="flex flex-wrap gap-3">
               <a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(locationUrl)}">View local profiles</a>
-              <a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(supportGuideUrl)}">Read the city appraisal guide</a>
+              ${
+                showSupportGuide
+                  ? `<a class="text-blue-700 underline hover:no-underline" href="/location/${escapeHtml(
+                      citySlug,
+                    )}/appraisal-guide/">Read the city appraisal guide</a>`
+                  : ''
+              }
             </div>
           </section>
 
           ${
-            relatedSlugs.length
+            relatedIntentSlugs.length
               ? `<section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
             <h2 class="text-2xl font-semibold mb-3">Related ${escapeHtml(intentMeta.shortLabel.toLowerCase())} guides</h2>
             <div class="flex flex-wrap gap-x-3 gap-y-2">
-              ${relatedSlugs
+              ${relatedIntentSlugs
                 .map(
                   (related) =>
                     `<a class="text-blue-700 hover:underline" href="/location/${escapeHtml(related)}/${escapeHtml(
@@ -1351,6 +1560,7 @@ function renderLocationBody({
   appraisers,
   relatedSlugs,
   labelForSlug,
+  keywordBrief,
 }) {
   const localAppraisersId = 'local-appraisers';
 	  const hero = `
@@ -1417,7 +1627,7 @@ function renderLocationBody({
       </section>
     `;
 
-  const { html: faqHtml } = buildFaq(cityDisplayName);
+  const { html: faqHtml } = buildFaq(cityDisplayName, keywordBrief);
   const learnMoreHtml = buildLearnMoreSection(cityDisplayName, citySlug);
   const guide = renderLocationGuideSection({
     cityDisplayName,
@@ -1426,6 +1636,7 @@ function renderLocationBody({
     appraisers,
     relatedSlugs,
     labelForSlug,
+    keywordBrief,
   });
 
   return `
@@ -1526,6 +1737,7 @@ async function main() {
     const titleDisplay = regionCode ? `${cityName}, ${regionCode}` : cityName;
     const descriptionDisplay = stateName ? `${cityName}, ${stateName}` : cityName;
     const seoOverride = LOCATION_SEO_OVERRIDES[slug];
+    const keywordBrief = LOCATION_KEYWORD_BRIEFS[slug];
     const appraiserCount = appraisers.length;
     const expertLabel = localExpertLabel(appraiserCount);
     const keywordTitle = buildTier1KeywordTitle(slug, cityName, `${appraiserCount} ${expertLabel}`);
@@ -1537,12 +1749,14 @@ async function main() {
       ? keywordDescription
       : `Find ${cityName} antique and art appraisers for donation, estate, insurance, and personal-property reports. Compare local and online options.`;
     const useLowCtrPattern = LOW_CTR_PRIORITY_CITY_SLUGS.has(slug);
-    const title = useLowCtrPattern ? lowCtrTitle : (seoOverride?.title || buildTitle(titleDisplay));
-    const description = useLowCtrPattern
-      ? lowCtrDescription
-      : (seoOverride?.description || buildDescription(descriptionDisplay));
-    const heroHeading = seoOverride?.h1 || `${SERVICE_LABEL_DISPLAY} in ${cityDisplayName}`;
-    const heroDescription = seoOverride?.heroDescription || description;
+    const title = keywordBrief?.title || (useLowCtrPattern ? lowCtrTitle : (seoOverride?.title || buildTitle(titleDisplay)));
+    const description = keywordBrief?.description || (
+      useLowCtrPattern
+        ? lowCtrDescription
+        : (seoOverride?.description || buildDescription(descriptionDisplay))
+    );
+    const heroHeading = keywordBrief?.h1 || seoOverride?.h1 || `${SERVICE_LABEL_DISPLAY} in ${cityDisplayName}`;
+    const heroDescription = keywordBrief?.heroDescription || seoOverride?.heroDescription || description;
 
   const labelForSlug = (candidateSlug) => {
       const meta = normalizeCityMeta(cities.get(candidateSlug));
@@ -1578,6 +1792,7 @@ async function main() {
       appraisers,
       relatedSlugs,
       labelForSlug,
+      keywordBrief,
     });
     root.innerHTML = bodyMarkup;
 
@@ -1599,7 +1814,7 @@ async function main() {
     upsertMeta(head, 'meta[name="twitter:image"]', { name: 'twitter:image', content: imageForSocial });
     upsertMeta(head, 'meta[name="twitter:url"]', { name: 'twitter:url', content: canonicalUrl });
 
-    const { schema: faqSchema } = buildFaq(cityDisplayName);
+    const { schema: faqSchema } = buildFaq(cityDisplayName, keywordBrief);
     const schemas = buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema);
     upsertJsonLd(head, 'schemas', schemas);
 
@@ -1611,22 +1826,30 @@ async function main() {
       stats.updated += 1;
 
       const supportDir = path.join(options.publicDir, 'location', slug, 'appraisal-guide');
-      const supportPath = path.join(supportDir, 'index.html');
-      const supportHtml = renderSupportPage({
-        citySlug: slug,
-        cityDisplayName,
-        stateName,
-        appraisers,
-        relatedSlugs,
-        labelForSlug,
-      });
-      await fs.mkdir(supportDir, { recursive: true });
-      await fs.writeFile(supportPath, supportHtml, 'utf8');
-      stats.supportPagesUpdated += 1;
+      if (shouldGenerateSupportGuide(slug)) {
+        const supportPath = path.join(supportDir, 'index.html');
+        const supportHtml = renderSupportPage({
+          citySlug: slug,
+          cityDisplayName,
+          stateName,
+          appraisers,
+          relatedSlugs,
+          labelForSlug,
+        });
+        await fs.mkdir(supportDir, { recursive: true });
+        await fs.writeFile(supportPath, supportHtml, 'utf8');
+        stats.supportPagesUpdated += 1;
+      } else {
+        await fs.rm(supportDir, { recursive: true, force: true });
+      }
 
       if (HIGH_ROI_CITY_SLUG_SET.has(slug)) {
         for (const intentSlug of LOCATION_INTENT_PAGE_SLUGS) {
           const intentDir = path.join(options.publicDir, 'location', slug, intentSlug);
+          if (!shouldGenerateIntentPage(slug, intentSlug)) {
+            await fs.rm(intentDir, { recursive: true, force: true });
+            continue;
+          }
           const intentPath = path.join(intentDir, 'index.html');
           const intentHtml = renderIntentPage({
             citySlug: slug,

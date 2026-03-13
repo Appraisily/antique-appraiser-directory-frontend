@@ -4,6 +4,7 @@ import path from 'node:path';
 import process from 'node:process';
 import { looksLikeAiJunk } from './utils/text-sanitize.js';
 import { INDEXABLE_LOCATION_SLUG_SET, POPULAR_LOCATION_SLUGS } from './utils/indexable-locations.js';
+import { PRIORITY_INDEXABLE_APPRAISER_SLUGS } from './utils/priority-indexable-appraisers.mjs';
 import { loadVerifiedProviders } from './utils/verified-providers.mjs';
 
 function parseArgs(argv) {
@@ -195,12 +196,16 @@ async function main() {
   const options = parseArgs(process.argv.slice(2));
   const publicDir = options.publicDir;
   const trustedAppraiserSlugSet = await buildTrustedAppraiserSlugSet(options.maxIndexableAppraisers);
+  for (const slug of PRIORITY_INDEXABLE_APPRAISER_SLUGS) {
+    trustedAppraiserSlugSet.add(slug);
+  }
 
   const stats = {
     publicDir,
     dryRun: options.dryRun,
     maxIndexableAppraisers: options.maxIndexableAppraisers,
     trustedAppraiserCandidates: trustedAppraiserSlugSet.size,
+    priorityIndexableAppraisers: PRIORITY_INDEXABLE_APPRAISER_SLUGS.length,
     scanned: 0,
     changed: 0,
     noindexLocation: 0,

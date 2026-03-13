@@ -10,6 +10,28 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
 const LEGACY_CHAT_EMBED_SRC = 'https://www.appraisily.com/widgets/chat-embed.js';
 const CANONICAL_CHAT_EMBED_SRC = 'https://appraisily.com/widgets/chat-embed.js';
+const RETIRED_APPRAISER_PROFILE_SLUGS = new Set([
+  // Des Moines family audit (2026-03-11): let the verified-heavy city hub own the broad city query.
+  'des-moines-antique-appraisals',
+  // Kansas City family audit (2026-03-12): retire synthetic overlap profiles so the hub owns city intent.
+  'heritage-valuations-kansas-city',
+  'kansas-city-antique-appraisals',
+  // Columbus family audit (2026-03-12): retire the synthetic generic profile and keep verified providers.
+  'columbus-antique-appraisals',
+  // Denver family audit (2026-03-12): retire broken provider profile URLs from hub ownership.
+  'denver-candace-a-hill',
+  'denver-brady-l-dreasher',
+  // Indianapolis family audit (2026-03-12): retire the synthetic generic city-intent profile.
+  'indianapolis-antique-appraisals',
+  // Orlando family audit (2026-03-11): retire the remaining synthetic overlap profile now that the hub is verified-led.
+  'heritage-valuations-orlando',
+  // Orlando family audit (2026-03-11): city hub should own the generic city-intent query.
+  'orlando-antique-appraisals',
+  // Palm Beach family audit (2026-03-11): retire the generic city-intent profile in favor of the hub.
+  'palm-beach-antique-appraisals',
+  // Tampa family audit (2026-03-11): retire the generic city-intent profile in favor of the hub.
+  'tampa-antique-appraisals',
+]);
 
 function formatTimestamp(date = new Date()) {
   const pad = (value) => String(value).padStart(2, '0');
@@ -129,6 +151,10 @@ function extractLocationLabel(html, slug) {
   return slug;
 }
 
+function isRedirectStubHtml(html = '') {
+  return /<meta\s+http-equiv=(['"])refresh\1/i.test(html);
+}
+
 async function generateAppraiserHub({ publicDir, baseUrl }) {
   const appraiserRoot = path.join(publicDir, 'appraiser');
   const outputPath = path.join(appraiserRoot, 'index.html');
@@ -148,9 +174,11 @@ async function generateAppraiserHub({ publicDir, baseUrl }) {
 
   const items = [];
   for (const slug of slugs) {
+    if (RETIRED_APPRAISER_PROFILE_SLUGS.has(slug)) continue;
     const pagePath = path.join(appraiserRoot, slug, 'index.html');
     try {
       const html = await fs.readFile(pagePath, 'utf8');
+      if (isRedirectStubHtml(html)) continue;
       const label = extractAppraiserLabel(html, slug);
       items.push({ slug, label });
     } catch {
