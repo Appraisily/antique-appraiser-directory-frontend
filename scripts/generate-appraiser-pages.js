@@ -473,56 +473,56 @@ function generateAppraiserHtml(appraiser) {
               
               <div class="space-y-3">
                 <div class="flex items-start">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                    <circle cx="12" cy="10" r="3"></circle>
-                  </svg>
-                  <div>
-                    <p class="text-gray-700">${appraiser.address.formatted}</p>
-                  </div>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(appraiser.address.formatted)}"
+                    class="flex items-start text-gray-700 hover:text-blue-600"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <span>${appraiser.address.formatted}</span>
+                  </a>
                 </div>
                 
                 <div class="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                  </svg>
-                  <a href="tel:${appraiser.contact.phone}" class="text-gray-700 hover:text-blue-600"${renderGtmAttributes({
+                  <a href="tel:${appraiser.contact.phone}" class="flex items-center text-gray-700 hover:text-blue-600"${renderGtmAttributes({
                     event: 'directory_cta',
                     cta: 'call',
                     surface: 'contact_card',
                     appraiserId: appraiser.slug,
                     appraiserName: appraiser.name
                   })}>
-                    ${appraiser.contact.phone}
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    <span>${appraiser.contact.phone}</span>
                   </a>
                 </div>
 
                 <div class="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                  </svg>
-                  <a href="mailto:${appraiser.contact.email}" class="text-gray-700 hover:text-blue-600"${renderGtmAttributes({
+                  <a href="mailto:${appraiser.contact.email}" class="flex items-center text-gray-700 hover:text-blue-600"${renderGtmAttributes({
                     event: 'directory_cta',
                     cta: 'email',
                     surface: 'contact_card',
                     appraiserId: appraiser.slug,
                     appraiserName: appraiser.name
                   })}>
-                    ${appraiser.contact.email}
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span>${appraiser.contact.email}</span>
                   </a>
                 </div>
 
                 ${appraiser.contact.website ? `
                 <div class="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <line x1="2" y1="12" x2="22" y2="12"></line>
-                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                  </svg>
                   <a 
                     href="${appraiser.contact.website.startsWith('http') ? appraiser.contact.website : `https://${appraiser.contact.website}`}" 
-                    class="text-gray-700 hover:text-blue-600"
+                    class="flex items-center text-gray-700 hover:text-blue-600"
                     target="_blank"
                     rel="noopener noreferrer"
                     ${renderGtmAttributes({
@@ -533,7 +533,12 @@ function generateAppraiserHtml(appraiser) {
                       appraiserName: appraiser.name
                     })}
                   >
-                    Visit Website
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="2" y1="12" x2="22" y2="12"></line>
+                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                    <span>Visit Website</span>
                   </a>
                 </div>
                 ` : ''}
@@ -576,17 +581,23 @@ function generateAppraiserHtml(appraiser) {
               <div class="flex items-center justify-between mb-4">
                 <h1 class="text-3xl font-bold text-gray-900">${appraiser.name}</h1>
                 
+                ${hasAggregateRating ? `
                 <div class="flex items-center">
-                  <div class="flex items-center bg-blue-50 text-blue-700 rounded-full px-3 py-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-500 mr-1" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                    </svg>
-                    <span class="font-semibold">${appraiser.business.rating.toFixed(1)}</span>
-                    <span class="text-sm text-gray-500 ml-1">
-                      (${appraiser.business.reviewCount})
-                    </span>
-                  </div>
+                  <a href="#reviews" class="flex items-center" aria-label="Jump to reviews">
+                    <div class="flex items-center bg-blue-50 text-blue-700 rounded-full px-3 py-1">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-500 mr-1" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                      </svg>
+                      <span class="font-semibold">${appraiser.business.rating.toFixed(1)}</span>
+                      <span class="text-sm text-gray-500 ml-1">
+                        (${appraiser.business.reviewCount})
+                      </span>
+                    </div>
+                  </a>
                 </div>
+                ` : `
+                <div class="text-sm text-gray-500">Reviews not available</div>
+                `}
               </div>
               
               <div class="mb-6">
@@ -636,7 +647,7 @@ function generateAppraiserHtml(appraiser) {
               </p>
             </div>
             
-            <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="bg-white rounded-lg shadow-md p-6" id="reviews">
               <h2 class="text-xl font-semibold text-gray-900 mb-4">Reviews</h2>
               
               ${appraiser.reviews.length > 0 ? `

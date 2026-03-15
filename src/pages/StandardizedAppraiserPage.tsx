@@ -37,6 +37,14 @@ export function StandardizedAppraiserPage() {
       appraiser_slug: appraiser?.slug || appraiserId || ''
     });
   };
+
+  const handleReviewsJump = () => {
+    trackEvent('reviews_jump_click', {
+      placement: 'profile_rating',
+      appraiser_slug: appraiser?.slug || appraiserId || '',
+      appraiser_name: appraiser?.name
+    });
+  };
   
   // Fetch appraiser data when component mounts or appraiserId changes
   useEffect(() => {
@@ -354,17 +362,21 @@ export function StandardizedAppraiserPage() {
             
             <div className="space-y-3">
               <div className="flex items-start">
-                <MapPin className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                <div>
-                  <p className="text-gray-700">{appraiser.address.formatted}</p>
-                </div>
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(appraiser.address.formatted)}`}
+                  className="flex items-start text-gray-700 hover:text-blue-600"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <MapPin className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+                  <span>{appraiser.address.formatted}</span>
+                </a>
               </div>
-              
+
               <div className="flex items-center">
-                <Phone className="h-5 w-5 text-blue-600 mr-3" />
                 <a
                   href={`tel:${appraiser.contact.phone}`}
-                  className="text-gray-700 hover:text-blue-600"
+                  className="flex items-center text-gray-700 hover:text-blue-600"
                   data-gtm-event="directory_cta"
                   data-gtm-cta="call"
                   data-gtm-surface="profile_contact_info"
@@ -372,15 +384,15 @@ export function StandardizedAppraiserPage() {
                   data-gtm-appraiser-name={gtmAppraiserName}
                   onClick={() => handleContactClick('phone', 'profile_contact_info')}
                 >
-                  {appraiser.contact.phone}
+                  <Phone className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>{appraiser.contact.phone}</span>
                 </a>
               </div>
-              
+
               <div className="flex items-center">
-                <Mail className="h-5 w-5 text-blue-600 mr-3" />
                 <a
                   href={`mailto:${appraiser.contact.email}`}
-                  className="text-gray-700 hover:text-blue-600"
+                  className="flex items-center text-gray-700 hover:text-blue-600"
                   data-gtm-event="directory_cta"
                   data-gtm-cta="email"
                   data-gtm-surface="profile_contact_info"
@@ -388,16 +400,16 @@ export function StandardizedAppraiserPage() {
                   data-gtm-appraiser-name={gtmAppraiserName}
                   onClick={() => handleContactClick('email', 'profile_contact_info')}
                 >
-                  {appraiser.contact.email}
+                  <Mail className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>{appraiser.contact.email}</span>
                 </a>
               </div>
-              
+
               {appraiser.contact.website && (
                 <div className="flex items-center">
-                  <Globe className="h-5 w-5 text-blue-600 mr-3" />
                   <a
                     href={appraiser.contact.website.startsWith('http') ? appraiser.contact.website : `https://${appraiser.contact.website}`}
-                    className="text-gray-700 hover:text-blue-600"
+                    className="flex items-center text-gray-700 hover:text-blue-600"
                     target="_blank"
                     rel="noopener noreferrer"
                     data-gtm-event="directory_cta"
@@ -407,7 +419,8 @@ export function StandardizedAppraiserPage() {
                     data-gtm-appraiser-name={gtmAppraiserName}
                     onClick={() => handleContactClick('website', 'profile_contact_info')}
                   >
-                    Visit Website
+                    <Globe className="h-5 w-5 text-blue-600 mr-3" />
+                    <span>Visit Website</span>
                   </a>
                 </div>
               )}
@@ -461,13 +474,18 @@ export function StandardizedAppraiserPage() {
               
               <div className="flex items-center">
                 {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
-                  <div className="flex items-center bg-blue-50 text-blue-700 rounded-full px-3 py-1">
+                  <a
+                    href="#reviews"
+                    className="flex items-center bg-blue-50 text-blue-700 rounded-full px-3 py-1 transition-colors hover:bg-blue-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-200"
+                    onClick={handleReviewsJump}
+                    aria-label="Jump to reviews"
+                  >
                     <Star className="h-4 w-4 text-yellow-500 mr-1" />
                     <span className="font-semibold">{appraiser.business.rating.toFixed(1)}</span>
                     <span className="text-sm text-gray-500 ml-1">
                       ({appraiser.business.reviewCount})
                     </span>
-                  </div>
+                  </a>
                 ) : (
                   <div className="text-sm text-gray-500">Reviews not available</div>
                 )}
@@ -529,7 +547,7 @@ export function StandardizedAppraiserPage() {
             </p>
           </div>
           
-          <div className="bg-white rounded-lg shadow-md p-6">
+          <div className="bg-white rounded-lg shadow-md p-6" id="reviews">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Reviews</h2>
             
             {appraiser.reviews.length > 0 ? (
