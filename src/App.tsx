@@ -17,6 +17,8 @@ type DirectoryCity = (typeof cities)[number];
 
 function App() {
   const citySearchRef = React.useRef<CitySearchHandle>(null);
+  const [isSearchHighlighting, setIsSearchHighlighting] = React.useState(false);
+  const searchHighlightTimeoutRef = React.useRef<number | null>(null);
 
   const scrollToCityDirectory = () => {
     if (typeof document === 'undefined') return false;
@@ -69,6 +71,28 @@ function App() {
       window.location.href = buildSiteUrl('/location/');
     }
   };
+
+  const triggerSearchHighlight = () => {
+    if (searchHighlightTimeoutRef.current !== null && typeof window !== 'undefined') {
+      window.clearTimeout(searchHighlightTimeoutRef.current);
+    }
+
+    setIsSearchHighlighting(true);
+
+    if (typeof window !== 'undefined') {
+      searchHighlightTimeoutRef.current = window.setTimeout(() => {
+        setIsSearchHighlighting(false);
+      }, 1200);
+    }
+  };
+
+  React.useEffect(() => {
+    return () => {
+      if (searchHighlightTimeoutRef.current !== null && typeof window !== 'undefined') {
+        window.clearTimeout(searchHighlightTimeoutRef.current);
+      }
+    };
+  }, []);
   const primaryCtaUrl = getPrimaryCtaUrl();
 
   const totalCities = cities.length;
@@ -85,6 +109,7 @@ function App() {
       placement: 'home_hero_stats',
       label
     });
+    triggerSearchHighlight();
     citySearchRef.current?.focusInput?.();
   };
   const handleCtaClick = (placement: string) => {
@@ -336,7 +361,7 @@ function App() {
 
                 <form
                   onSubmit={handleSubmit}
-                  className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto md:mx-0 bg-white/90 p-2 rounded-lg shadow-lg backdrop-blur-lg"
+                  className={`flex flex-col md:flex-row gap-4 max-w-xl mx-auto md:mx-0 bg-white/90 p-2 rounded-lg shadow-lg backdrop-blur-lg transition-all duration-300 ${isSearchHighlighting ? 'ring-2 ring-primary/40 shadow-xl' : ''}`}
                 >
                   <CitySearch ref={citySearchRef} />
                   <button
