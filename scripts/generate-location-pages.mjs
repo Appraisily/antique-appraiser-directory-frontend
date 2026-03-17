@@ -1460,6 +1460,8 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
 function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
   const slug = appraiser.slug || appraiser.id || '';
   const profilePath = `/appraiser/${encodeURIComponent(slug)}/`;
+  const cardClickHandler = `if(event.target.closest('a')) return; window.location.href='${profilePath}';`;
+  const cardKeyHandler = `if(event.target.closest('a')) return; if(event.key==='Enter'||event.key===' '){event.preventDefault(); window.location.href='${profilePath}';}`;
   const imageUrl = normalizeImageUrl(appraiser.imageUrl || FALLBACK_IMAGE);
   const address = sanitizePlainText(cityDisplayName) || sanitizePlainText(appraiser.address?.city) || '';
   const aboutText = buildAppraiserSummary(appraiser, sanitizePlainText(cityDisplayName));
@@ -1492,7 +1494,11 @@ function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
   const phoneHref = phone ? normalizePhoneHref(phone) : '';
 
 	  return `
-	    <article class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white">
+	    <article class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white cursor-pointer" role="link" tabindex="0" onclick="${escapeHtml(
+	      cardClickHandler,
+	    )}" onkeydown="${escapeHtml(cardKeyHandler)}" aria-label="${escapeHtml(
+	      `View ${appraiser.name} profile`,
+	    )}">
 	      <div class="h-48 bg-gray-200 overflow-hidden">
 	        <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(
 	    `${appraiser.name} - Antique appraiser in ${appraiser.address?.city || ''}`,
