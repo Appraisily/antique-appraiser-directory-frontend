@@ -1028,19 +1028,19 @@ export function StandardizedLocationPage() {
         )}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {locationData.appraisers.map(appraiser => (
-            <div
+          {locationData.appraisers.map(appraiser => {
+            const appraiserUrl = buildSiteUrl(`/appraiser/${appraiser.slug}`);
+            return (
+            <a
               key={appraiser.id}
-              className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              href={appraiserUrl}
+              className="block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300"
+              data-gtm-event="appraiser_card_click"
+              data-gtm-appraiser={appraiser.slug}
+              data-gtm-placement="location_results"
+              onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
+              aria-label={`View ${appraiser.name} profile`}
             >
-              <a
-                href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
-                className="block"
-                data-gtm-event="appraiser_card_click"
-                data-gtm-appraiser={appraiser.slug}
-                data-gtm-placement="location_results"
-                onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
-              >
                 <div className="h-48 bg-gray-200 overflow-hidden">
                   <img
                     src={normalizeAssetUrl(appraiser.imageUrl)}
@@ -1106,9 +1106,9 @@ export function StandardizedLocationPage() {
                     </span>
                   </div>
                 </div>
-              </a>
-            </div>
-          ))}
+            </a>
+          );
+          })}
         </div>
 
         {locationData.appraisers.length === 0 && (
