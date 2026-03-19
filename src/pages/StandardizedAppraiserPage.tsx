@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { MapPin, Star, Mail, Phone, Globe, Clock, ChevronRight, Shield } from 'lucide-react';
 import { getStandardizedAppraiser, StandardizedAppraiser } from '../utils/standardizedData';
@@ -20,7 +20,20 @@ export function StandardizedAppraiserPage() {
   const [appraiser, setAppraiser] = useState<StandardizedAppraiser | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [contactFeedback, setContactFeedback] = useState<string | null>(null);
+  const contactFeedbackTimeoutRef = useRef<number | null>(null);
   const primaryCtaUrl = getPrimaryCtaUrl();
+  const showContactFeedback = (message: string) => {
+    setContactFeedback(message);
+    if (contactFeedbackTimeoutRef.current && typeof window !== 'undefined') {
+      window.clearTimeout(contactFeedbackTimeoutRef.current);
+    }
+    if (typeof window !== 'undefined') {
+      contactFeedbackTimeoutRef.current = window.setTimeout(() => {
+        setContactFeedback(null);
+      }, 2500);
+    }
+  };
   const handleContactClick = (channel: 'phone' | 'email' | 'website', placement: string) => {
     trackEvent('appraiser_contact_click', {
       channel,
@@ -28,6 +41,30 @@ export function StandardizedAppraiserPage() {
       appraiser_slug: appraiser?.slug || appraiserId || '',
       appraiser_name: appraiser?.name
     });
+    if (!appraiser) {
+      return;
+    }
+    const fallbackMessage =
+      channel === 'website'
+        ? 'Opening website...'
+        : channel === 'phone'
+        ? 'Opening phone dialer...'
+        : 'Opening email...';
+    if ((channel === 'phone' || channel === 'email') && typeof navigator !== 'undefined') {
+      const value = channel === 'phone' ? appraiser.contact.phone : appraiser.contact.email;
+      if (value && navigator.clipboard?.writeText) {
+        navigator.clipboard
+          .writeText(value)
+          .then(() => {
+            showContactFeedback(`${channel === 'phone' ? 'Phone number' : 'Email'} copied to clipboard.`);
+          })
+          .catch(() => {
+            showContactFeedback(fallbackMessage);
+          });
+        return;
+      }
+    }
+    showContactFeedback(fallbackMessage);
   };
 
   const handleCtaClick = (placement: string) => {
@@ -89,6 +126,14 @@ export function StandardizedAppraiserPage() {
       specialties: appraiser.expertise.specialties
     });
   }, [appraiser]);
+
+  useEffect(() => {
+    return () => {
+      if (contactFeedbackTimeoutRef.current && typeof window !== 'undefined') {
+        window.clearTimeout(contactFeedbackTimeoutRef.current);
+      }
+    };
+  }, []);
 
   const generateBreadcrumbSchema = () => {
     if (!appraiser) return null;
@@ -425,6 +470,11 @@ export function StandardizedAppraiserPage() {
                 </div>
               )}
             </div>
+            {contactFeedback && (
+              <p className="mt-3 text-xs text-gray-500" role="status" aria-live="polite">
+                {contactFeedback}
+              </p>
+            )}
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-5 mb-6">
