@@ -20,11 +20,11 @@ export function StandardizedAppraiserPage() {
   const [appraiser, setAppraiser] = useState<StandardizedAppraiser | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [contactFeedback, setContactFeedback] = useState<string | null>(null);
+  const [contactFeedback, setContactFeedback] = useState<{ message: string; placement: string } | null>(null);
   const contactFeedbackTimeoutRef = useRef<number | null>(null);
   const primaryCtaUrl = getPrimaryCtaUrl();
-  const showContactFeedback = (message: string) => {
-    setContactFeedback(message);
+  const showContactFeedback = (message: string, placement: string) => {
+    setContactFeedback({ message, placement });
     if (contactFeedbackTimeoutRef.current && typeof window !== 'undefined') {
       window.clearTimeout(contactFeedbackTimeoutRef.current);
     }
@@ -56,15 +56,18 @@ export function StandardizedAppraiserPage() {
         navigator.clipboard
           .writeText(value)
           .then(() => {
-            showContactFeedback(`${channel === 'phone' ? 'Phone number' : 'Email'} copied to clipboard.`);
+            showContactFeedback(
+              `${channel === 'phone' ? 'Phone number' : 'Email'} copied to clipboard.`,
+              placement
+            );
           })
           .catch(() => {
-            showContactFeedback(fallbackMessage);
+            showContactFeedback(fallbackMessage, placement);
           });
         return;
       }
     }
-    showContactFeedback(fallbackMessage);
+    showContactFeedback(fallbackMessage, placement);
   };
 
   const handleCtaClick = (placement: string) => {
@@ -470,9 +473,9 @@ export function StandardizedAppraiserPage() {
                 </div>
               )}
             </div>
-            {contactFeedback && (
+            {contactFeedback?.placement === 'profile_contact_info' && (
               <p className="mt-3 text-xs text-gray-500" role="status" aria-live="polite">
-                {contactFeedback}
+                {contactFeedback.message}
               </p>
             )}
           </div>
@@ -672,6 +675,11 @@ export function StandardizedAppraiserPage() {
                   Request Appraisal
                 </a>
               </div>
+              {contactFeedback?.placement === 'profile_cta_section' && (
+                <p className="mt-3 text-xs text-gray-500" role="status" aria-live="polite">
+                  {contactFeedback.message}
+                </p>
+              )}
             </div>
           </div>
         </div>
