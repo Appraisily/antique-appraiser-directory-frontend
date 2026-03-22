@@ -1279,6 +1279,29 @@ export function StandardizedLocationPage() {
           </div>
         )}
 
+        <div className="mt-10 rounded-lg border border-purple-100 bg-purple-50/60 p-6">
+          <h2 className="text-xl font-semibold mb-2">Looking for art-specific appraisers in {cityName}?</h2>
+          <p className="text-gray-600 mb-4">
+            Our Art Appraisers Directory focuses on fine art, paintings, prints, and sculpture valuations.
+            Browse art specialists in {cityName} for donation, estate, and insurance appraisals.
+          </p>
+          <a
+            href={`https://art-appraisers-directory.appraisily.com/location/${validCitySlug}/`}
+            className="inline-flex items-center text-purple-700 hover:text-purple-900 font-medium"
+          >
+            View {citySearchName} art appraisers
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4 ml-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </div>
+
         <div className="mt-12 bg-gray-50 p-6 rounded-lg">
           <h2 className="text-xl font-semibold mb-3">Need an appraisal without the wait?</h2>
           <p className="text-gray-600 mb-4">

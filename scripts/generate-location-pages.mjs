@@ -563,13 +563,9 @@ const CONSOLIDATED_SUPPORT_GUIDE_CITY_SLUGS = new Set([
   'indianapolis',
   'palm-beach',
 ]);
-const CONSOLIDATED_LOCATION_INTENTS = new Map([
-  ['des-moines', new Set(['estate-appraisal'])],
-  ['kansas-city', new Set(['estate-appraisal', 'insurance-appraisal', 'donation-appraisal'])],
-  ['columbus', new Set(['estate-appraisal', 'insurance-appraisal'])],
-  ['denver', new Set(['estate-appraisal'])],
-  ['indianapolis', new Set(['estate-appraisal', 'insurance-appraisal'])],
-]);
+// 2026-03-21 cleanup: retire estate/insurance/donation intent pages globally and let
+// the city hub own those URL families behind server-side 301s.
+const RETIRED_LOCATION_INTENT_PAGE_SLUGS = new Set(LOCATION_INTENT_PAGE_SLUGS);
 const RETIRED_APPRAISER_PROFILE_SLUGS = new Set([
   'des-moines-antique-appraisals',
   'heritage-valuations-kansas-city',
@@ -613,8 +609,7 @@ function shouldGenerateSupportGuide(citySlug) {
 
 function shouldGenerateIntentPage(citySlug, intentSlug) {
   if (!HIGH_ROI_CITY_SLUG_SET.has(citySlug)) return false;
-  const consolidated = CONSOLIDATED_LOCATION_INTENTS.get(citySlug);
-  return !consolidated?.has(intentSlug);
+  return !RETIRED_LOCATION_INTENT_PAGE_SLUGS.has(intentSlug);
 }
 
 const CANADIAN_REGION_NAMES = new Set([
@@ -1546,25 +1541,9 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
 function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
   const slug = appraiser.slug || appraiser.id || '';
   const profilePath = `/appraiser/${encodeURIComponent(slug)}/`;
-  const cardClickHandler = `if(event.target.closest('a')) return; window.location.href='${profilePath}';`;
-  const cardKeyHandler = `if(event.target.closest('a')) return; if(event.key==='Enter'||event.key===' '){event.preventDefault(); window.location.href='${profilePath}';}`;
   const imageUrl = normalizeImageUrl(appraiser.imageUrl || FALLBACK_IMAGE);
   const address = sanitizePlainText(cityDisplayName) || sanitizePlainText(appraiser.address?.city) || '';
   const aboutText = buildAppraiserSummary(appraiser, sanitizePlainText(cityDisplayName));
-  const ctaHref = `${PRIMARY_CTA_URL}?utm_source=directory&utm_medium=card&utm_campaign=${encodeURIComponent(
-    citySlug,
-  )}&utm_content=${encodeURIComponent(slug)}`;
-  const website = appraiser.verified || appraiser.listed ? String(appraiser.website || '').trim() : '';
-  const sourceUrl = String(appraiser?.verification?.sourceUrl || '').trim();
-  const sourceLabel = (() => {
-    const explicit = String(appraiser?.verification?.sourceType || '').trim();
-    if (explicit) return explicit;
-    if (!sourceUrl) return 'public listing';
-    if (sourceUrl.includes('isa-appraisers.org')) return 'ISA directory';
-    if (sourceUrl.includes('yellowpages.ca')) return 'YellowPages.ca';
-    if (sourceUrl.includes('bbb.org')) return 'BBB';
-    return 'public listing';
-  })();
   const badge = appraiser.verified
     ? 'Verified'
     : appraiser.listed
@@ -1575,28 +1554,21 @@ function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
     : appraiser.listed
       ? 'text-amber-800 bg-amber-50 border-amber-100'
       : '';
-  const phone =
-    appraiser.verified || appraiser.listed ? String(appraiser.phone || appraiser.contact?.phone || '').trim() : '';
-  const phoneHref = phone ? normalizePhoneHref(phone) : '';
 
 	  return `
-	    <article class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white cursor-pointer" role="link" tabindex="0" onclick="${escapeHtml(
-	      cardClickHandler,
-	    )}" onkeydown="${escapeHtml(cardKeyHandler)}" aria-label="${escapeHtml(
-	      `View ${appraiser.name} profile`,
-	    )}">
+	    <a class="block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300" href="${escapeHtml(
+        profilePath,
+      )}" aria-label="${escapeHtml(`View ${appraiser.name} profile`)}">
 	      <div class="h-48 bg-gray-200 overflow-hidden">
 	        <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(
-	    `${appraiser.name} - Antique appraiser in ${appraiser.address?.city || ''}`,
-	  )}" class="w-full h-full object-cover" loading="lazy">
+    `${appraiser.name} - Antique appraiser in ${appraiser.address?.city || ''}`,
+  )}" class="w-full h-full object-cover" loading="lazy">
 	      </div>
       <div class="p-5">
         <div class="flex items-start justify-between gap-4 mb-3">
           <div>
-            <h3 class="text-xl font-semibold text-gray-900">
-              <a href="${escapeHtml(profilePath)}" class="hover:text-blue-600 transition-colors">${escapeHtml(
-    appraiser.name,
-  )}</a>
+            <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+              ${escapeHtml(appraiser.name)}
             </h3>
             ${address ? `<p class="text-sm text-gray-600 mt-2">${escapeHtml(address)}</p>` : ''}
           </div>
@@ -1607,37 +1579,16 @@ function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
           }
         </div>
         ${aboutText ? `<p class="text-gray-700 leading-relaxed mb-4">${escapeHtml(aboutText)}</p>` : ''}
-        <div class="flex flex-wrap gap-2 mt-5">
-          <a href="${escapeHtml(profilePath)}" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+        <div class="mt-4 pt-3 border-t border-gray-100 flex justify-end">
+          <span class="text-blue-600 hover:text-blue-800 text-sm font-medium inline-flex items-center">
             View Profile
-          </a>
-          ${
-            website
-              ? `<a href="${escapeHtml(website)}" rel="nofollow noopener" target="_blank" class="inline-flex items-center px-4 py-2 text-gray-700 border border-gray-200 rounded-lg bg-white hover:bg-gray-50 transition-colors">
-            Website
-          </a>`
-              : ''
-          }
-          ${
-            phoneHref
-              ? `<a href="${escapeHtml(phoneHref)}" class="inline-flex items-center px-4 py-2 text-gray-700 border border-gray-200 rounded-lg bg-white hover:bg-gray-50 transition-colors">
-            Call
-          </a>`
-              : ''
-          }
-          <a href="${escapeHtml(ctaHref)}" class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors">
-            Try free screener
-          </a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </span>
         </div>
-        ${
-          sourceUrl
-            ? `<p class="text-xs text-gray-500 mt-4">Source: <a href="${escapeHtml(
-                sourceUrl,
-              )}" target="_blank" rel="nofollow noopener" class="text-blue-600 hover:underline">${escapeHtml(sourceLabel)}</a></p>`
-            : ''
-        }
       </div>
-    </article>
+    </a>
   `;
 }
 
