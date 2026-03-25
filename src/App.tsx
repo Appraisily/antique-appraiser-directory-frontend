@@ -84,7 +84,7 @@ function App() {
     return false;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.SyntheticEvent) => {
     e.preventDefault();
     const didNavigate = citySearchRef.current?.submitSearch();
     if (didNavigate) {
@@ -410,6 +410,7 @@ function App() {
                   <button
                     className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-12 px-8 py-2 bg-primary md:w-auto w-full shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-300"
                     type="submit"
+                    onClick={handleSubmit}
                   >
                     <Search className="w-4 h-4" />
                     Find Appraisers

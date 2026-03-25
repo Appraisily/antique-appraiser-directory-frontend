@@ -158,8 +158,10 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
       return;
     }
 
-    event.preventDefault();
-    submitSearch();
+    const didNavigate = submitSearch();
+    if (didNavigate) {
+      event.preventDefault();
+    }
   };
 
   const highlightMatch = (text: string, query: string) => {
