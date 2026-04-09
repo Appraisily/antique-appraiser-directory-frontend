@@ -24,6 +24,189 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
 const DIST_DIR = path.join(ROOT_DIR, 'dist');
 const CITIES_PATH = path.join(ROOT_DIR, 'src', 'data', 'cities.json');
+const STANDARDIZED_DATA_DIR = path.join(ROOT_DIR, 'src', 'data', 'standardized');
+
+// US state abbreviation to full name mapping for geo.region
+const STATE_ABBR_TO_FULL = {
+  'AL': 'US-AL', 'AK': 'US-AK', 'AZ': 'US-AZ', 'AR': 'US-AR', 'CA': 'US-CA',
+  'CO': 'US-CO', 'CT': 'US-CT', 'DE': 'US-DE', 'FL': 'US-FL', 'GA': 'US-GA',
+  'HI': 'US-HI', 'ID': 'US-ID', 'IL': 'US-IL', 'IN': 'US-IN', 'IA': 'US-IA',
+  'KS': 'US-KS', 'KY': 'US-KY', 'LA': 'US-LA', 'ME': 'US-ME', 'MD': 'US-MD',
+  'MA': 'US-MA', 'MI': 'US-MI', 'MN': 'US-MN', 'MS': 'US-MS', 'MO': 'US-MO',
+  'MT': 'US-MT', 'NE': 'US-NE', 'NV': 'US-NV', 'NH': 'US-NH', 'NJ': 'US-NJ',
+  'NM': 'US-NM', 'NY': 'US-NY', 'NC': 'US-NC', 'ND': 'US-ND', 'OH': 'US-OH',
+  'OK': 'US-OK', 'OR': 'US-OR', 'PA': 'US-PA', 'RI': 'US-RI', 'SC': 'US-SC',
+  'SD': 'US-SD', 'TN': 'US-TN', 'TX': 'US-TX', 'UT': 'US-UT', 'VT': 'US-VT',
+  'VA': 'US-VA', 'WA': 'US-WA', 'WV': 'US-WV', 'WI': 'US-WI', 'WY': 'US-WY',
+  'DC': 'US-DC', 'ON': 'CA-ON', 'AB': 'CA-AB', 'BC': 'CA-BC', 'QC': 'CA-QC'
+};
+
+/**
+ * Load standardized location data for a city slug
+ */
+function loadLocationData(citySlug) {
+  const locationPath = path.join(STANDARDIZED_DATA_DIR, `${citySlug}.json`);
+  if (fs.existsSync(locationPath)) {
+    return JSON.parse(fs.readFileSync(locationPath, 'utf-8'));
+  }
+  return null;
+}
+
+/**
+ * Generate JSON-LD schema for a location page
+ */
+function generateLocationSchemaJson(locationData, cityName, stateCode, citySlug) {
+  if (!locationData || !locationData.appraisers || locationData.appraisers.length === 0) {
+    return null;
+  }
+
+  const appraisers = locationData.appraisers;
+  const providers = appraisers.map((a, index) => ({
+    "@type": "LocalBusiness",
+    "name": a.name || 'Antique Appraiser',
+    "image": a.imageUrl || 'https://assets.appraisily.com/assets/directory/placeholder.jpg',
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": a.address?.city || cityName,
+      "addressRegion": a.address?.state || stateCode,
+      "addressCountry": "US"
+    },
+    "priceRange": a.business?.pricing || "$$-$$$",
+    "telephone": a.contact?.phone || "",
+    "url": `https://antique-appraiser-directory.appraisily.com/appraiser/${a.slug}/`,
+    "aggregateRating": a.business?.rating ? {
+      "@type": "AggregateRating",
+      "ratingValue": a.business.rating.toString(),
+      "reviewCount": (a.business.reviewCount || 1).toString(),
+      "bestRating": "5",
+      "worstRating": "1"
+    } : undefined
+  })).filter(p => p);
+
+  // Calculate aggregate rating across all appraisers
+  const ratedAppraisers = appraisers.filter(a => a.business?.rating > 0);
+  let aggregateRating = undefined;
+  if (ratedAppraisers.length > 0) {
+    const totalRating = ratedAppraisers.reduce((sum, a) => sum + (a.business?.rating || 0), 0);
+    const totalReviews = ratedAppraisers.reduce((sum, a) => sum + (a.business?.reviewCount || 0), 0);
+    const avgRating = totalRating / ratedAppraisers.length;
+    aggregateRating = {
+      "@type": "AggregateRating",
+      "ratingValue": avgRating.toFixed(1),
+      "reviewCount": totalReviews.toString(),
+      "bestRating": "5",
+      "worstRating": "1"
+    };
+  }
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": `https://antique-appraiser-directory.appraisily.com/location/${citySlug}/`,
+    "name": `Antique Appraisers in ${cityName}, ${stateCode}`,
+    "description": `Compare ${appraisers.length} antique appraisers in ${cityName}, ${stateCode} for estate, insurance, donation, and personal-property valuations. Review local experts and online options.`,
+    "numberOfItems": appraisers.length,
+    "itemListElement": providers.map((p, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "item": p
+    })),
+    ...(aggregateRating ? { aggregateRating } : {}),
+    "areaServed": {
+      "@type": "City",
+      "name": cityName,
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": cityName,
+        "addressRegion": stateCode,
+        "addressCountry": "US"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://antique-appraiser-directory.appraisily.com/location/${citySlug}/`
+    },
+    "keywords": [
+      `antique appraisers in ${cityName}`,
+      `antique appraisers near ${cityName}`,
+      `antique appraisers near me ${cityName}`,
+      `${cityName} antique appraisers`,
+      `antique valuation ${cityName}`,
+      `antique authentication ${cityName}`,
+      `antique appraiser near me`
+    ]
+  };
+
+  return schema;
+}
+
+/**
+ * Generate FAQ schema for a location page
+ */
+function generateLocationFaqSchemaJson(cityName) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `Where can I find antique appraisers near me in ${cityName}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `This directory lists antique appraisers serving ${cityName}. You can contact local providers directly or use Appraisily for a fast online antique appraisal alternative.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `How much does an antique appraisal cost in ${cityName}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Antique appraisal costs in ${cityName} vary by provider and item complexity. Browse the appraisers above to compare pricing, or start an online appraisal with Appraisily for transparent upfront pricing.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `What should I look for in an antique appraiser near ${cityName}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Look for certified appraisers with expertise in your specific item type (furniture, jewelry, artwork, etc.), transparent pricing, and experience with your appraisal purpose (insurance, estate, donation, or resale).`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does an online antique appraisal work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Submit clear photos, measurements, and any provenance. Our experts review the item and deliver a written valuation report online."
+        }
+      }
+    ]
+  };
+}
+
+/**
+ * Generate BreadcrumbList schema for a location page
+ */
+function generateBreadcrumbSchemaJson(cityName, citySlug) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://antique-appraiser-directory.appraisily.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": `Antique Appraisers in ${cityName}`,
+        "item": `https://antique-appraiser-directory.appraisily.com/location/${citySlug}/`
+      }
+    ]
+  };
+}
 
 // Log with color and timestamp
 function log(message, type = 'info') {
@@ -172,9 +355,18 @@ async function generateLocationPages() {
       
       const indexHtml = fs.readFileSync(indexPath, 'utf-8');
       
-      // Create city-specific meta tags
-      const title = `Antique Appraisers in ${city.name}, ${city.state} | Expert Antique Valuation Services`;
-      const description = `Find certified antique appraisers in ${city.name}, ${city.state}. Get expert antique valuations, authentication services, and professional advice for your antique collection.`;
+      // Load location data for structured data
+      const locationData = loadLocationData(city.slug);
+      const appraiserCount = locationData?.appraisers?.length || 0;
+      
+      // Create optimized city-specific meta tags with "near me" intent
+      const expertLabel = appraiserCount === 1 ? 'Local Expert' : 'Local Experts';
+      const title = appraiserCount > 0
+        ? `${city.name} Antique Appraisers | Compare ${appraiserCount} ${expertLabel}`
+        : `${city.name} Antique Appraisers | Local & Online Options`;
+      const description = appraiserCount > 0
+        ? `Compare ${appraiserCount} antique appraisers in ${city.name}, ${city.state} for estate, insurance, donation, and personal-property valuations. Review local experts and online options.`
+        : `Find antique appraisers in ${city.name}, ${city.state} for estate, insurance, donation, and personal-property needs. Compare local providers and online appraisal options.`;
       const canonicalUrl = `https://antique-appraiser-directory.appraisily.com/location/${city.slug}/`;
       
       // Update HTML with city-specific meta tags
@@ -189,6 +381,35 @@ async function generateLocationPages() {
         cityHtml = cityHtml.replace(canonicalRegex, canonicalTag);
       } else {
         cityHtml = cityHtml.replace('</head>', `    ${canonicalTag}\n  </head>`);
+      }
+
+      // Add geo meta tags for local SEO
+      const geoRegion = STATE_ABBR_TO_FULL[city.state] || `US-${city.state}`;
+      const geoMetaTags = `<meta name="geo.placename" content="${city.name}, ${city.state}" />
+    <meta name="geo.region" content="${geoRegion}" />`;
+      
+      if (typeof city.latitude === 'number' && typeof city.longitude === 'number') {
+        const geoPosition = `${city.latitude};${city.longitude}`;
+        cityHtml = cityHtml.replace('</head>', `    <meta name="ICBM" content="${geoPosition}" />
+    ${geoMetaTags}
+  </head>`);
+      } else {
+        cityHtml = cityHtml.replace('</head>', `    ${geoMetaTags}
+  </head>`);
+      }
+
+      // Inject JSON-LD structured data
+      const schemas = [];
+      const locationSchema = generateLocationSchemaJson(locationData, city.name, city.state, city.slug);
+      if (locationSchema) schemas.push(locationSchema);
+      schemas.push(generateBreadcrumbSchemaJson(city.name, city.slug));
+      schemas.push(generateLocationFaqSchemaJson(`${city.name}, ${city.state}`));
+      
+      if (schemas.length > 0) {
+        const schemaJson = JSON.stringify(schemas);
+        const schemaTag = `<script type="application/ld+json" data-appraisily-schema="schemas">${schemaJson}</script>`;
+        cityHtml = cityHtml.replace('</head>', `    ${schemaTag}
+  </head>`);
       }
 
       const hasGtmHead = cityHtml.includes('https://www.googletagmanager.com/gtm.js');
@@ -207,11 +428,11 @@ async function generateLocationPages() {
       const locationHtmlPath = path.join(locationDir, 'index.html');
       fs.writeFileSync(locationHtmlPath, cityHtml);
       
-      log(`✅ Generated page for ${city.name}, ${city.state}`, 'success');
+      log(`✅ Generated page for ${city.name}, ${city.state} (${appraiserCount} appraisers)`, 'success');
       generatedCount++;
     }
 
-    log(`🎉 Successfully generated ${generatedCount} location pages!`, 'success');
+    log(`🎉 Successfully generated ${generatedCount} location pages with structured data!`, 'success');
     return generatedCount;
   } catch (error) {
     log(`❌ Error generating location pages: ${error.message}`, 'error');

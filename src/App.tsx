@@ -15,8 +15,44 @@ import iconJewelry from '../images/icon-antique-jewelry.png';
 
 type DirectoryCity = (typeof cities)[number];
 
+type FeaturedCitySpotlight = {
+  slug: string;
+  query: string;
+  blurb: string;
+};
+
+const FEATURED_CITY_SPOTLIGHTS: readonly FeaturedCitySpotlight[] = [
+  {
+    slug: 'des-moines',
+    query: 'Des Moines art appraisals',
+    blurb: 'Good fit for donation, estate, and insurance appraisal searches in Iowa.'
+  },
+  {
+    slug: 'chicago',
+    query: 'Chicago antique appraisers',
+    blurb: 'Strong page to compare metro-area antique and art appraisal providers.'
+  },
+  {
+    slug: 'milwaukee',
+    query: 'Antique appraisal Milwaukee',
+    blurb: 'Targets local appraisal intent for estate items, collections, and insurance work.'
+  },
+  {
+    slug: 'columbus',
+    query: 'Columbus art appraiser',
+    blurb: 'Useful for donation, estate, and personal-property valuation comparisons.'
+  },
+  {
+    slug: 'seattle',
+    query: 'Seattle art appraisal services',
+    blurb: 'Covers Seattle-area antique and art valuation intent with local and online options.'
+  }
+] as const;
+
 function App() {
   const citySearchRef = React.useRef<CitySearchHandle>(null);
+  const [isSearchHighlighting, setIsSearchHighlighting] = React.useState(false);
+  const searchHighlightTimeoutRef = React.useRef<number | null>(null);
 
   const scrollToCityDirectory = () => {
     if (typeof document === 'undefined') return false;
@@ -48,7 +84,7 @@ function App() {
     return false;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.SyntheticEvent) => {
     e.preventDefault();
     const didNavigate = citySearchRef.current?.submitSearch();
     if (didNavigate) {
@@ -69,10 +105,39 @@ function App() {
       window.location.href = buildSiteUrl('/location/');
     }
   };
+
+  const triggerSearchHighlight = () => {
+    if (searchHighlightTimeoutRef.current !== null && typeof window !== 'undefined') {
+      window.clearTimeout(searchHighlightTimeoutRef.current);
+    }
+
+    setIsSearchHighlighting(true);
+
+    if (typeof window !== 'undefined') {
+      searchHighlightTimeoutRef.current = window.setTimeout(() => {
+        setIsSearchHighlighting(false);
+      }, 1200);
+    }
+  };
+
+  React.useEffect(() => {
+    return () => {
+      if (searchHighlightTimeoutRef.current !== null && typeof window !== 'undefined') {
+        window.clearTimeout(searchHighlightTimeoutRef.current);
+      }
+    };
+  }, []);
   const primaryCtaUrl = getPrimaryCtaUrl();
 
   const totalCities = cities.length;
   const totalStates = new Set(cities.map(city => city.state)).size;
+  const featuredCitySpotlights = React.useMemo(() => {
+    return FEATURED_CITY_SPOTLIGHTS.map((spotlight) => {
+      const city = cities.find((candidate) => candidate.slug === spotlight.slug);
+      if (!city) return null;
+      return { ...spotlight, city };
+    }).filter((spotlight): spotlight is FeaturedCitySpotlight & { city: DirectoryCity } => Boolean(spotlight));
+  }, []);
 
   const statsHighlights = [
     { value: `${totalCities}+`, label: 'Cities covered nationwide' },
@@ -85,6 +150,7 @@ function App() {
       placement: 'home_hero_stats',
       label
     });
+    triggerSearchHighlight();
     citySearchRef.current?.focusInput?.();
   };
   const handleCtaClick = (placement: string) => {
@@ -281,7 +347,9 @@ function App() {
   });
 
   const generateCityItemList = () => {
-    const topCities = cities.slice(0, 12);
+    const topCities = featuredCitySpotlights.length > 0
+      ? featuredCitySpotlights.map(({ city }) => city)
+      : cities.slice(0, 12);
     return {
       "@context": "https://schema.org",
       "@type": "ItemList",
@@ -298,8 +366,8 @@ function App() {
   return (
     <>
       <SEO
-        title={`${SITE_NAME} | Find Antique Appraisers Near You`}
-        description={SITE_DESCRIPTION}
+        title="Antique Appraisers Near Me — Compare Local Experts by City"
+        description="Search antique appraisers near me — compare local specialists for estate, insurance, donation, and personal-property valuations. Browse city pages or get an online appraisal in 24–48 hours."
         schema={[
           generateHomePageSchema(),
           generateServiceSchema(),
@@ -328,20 +396,21 @@ function App() {
                   Trusted antique valuation network
                 </span>
                 <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-                  Find <span className="text-primary">certified antique appraisers</span> near you
+                  Find <span className="text-primary">certified antique appraisers</span> and art valuation experts near you
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl md:max-w-xl mx-auto md:mx-0">
-                  Connect with vetted specialists for heirloom furniture, fine art, jewelry, and historically significant collections.
+                  Browse city guides for donation, estate, insurance, and resale valuations, then compare local experts or start an online appraisal.
                 </p>
 
                 <form
                   onSubmit={handleSubmit}
-                  className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto md:mx-0 bg-white/90 p-2 rounded-lg shadow-lg backdrop-blur-lg"
+                  className={`flex flex-col md:flex-row gap-4 max-w-xl mx-auto md:mx-0 bg-white/90 p-2 rounded-lg shadow-lg backdrop-blur-lg transition-all duration-300 ${isSearchHighlighting ? 'ring-2 ring-primary/40 shadow-xl' : ''}`}
                 >
                   <CitySearch ref={citySearchRef} />
                   <button
                     className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-12 px-8 py-2 bg-primary md:w-auto w-full shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-300"
                     type="submit"
+                    onClick={handleSubmit}
                   >
                     <Search className="w-4 h-4" />
                     Find Appraisers
@@ -437,8 +506,40 @@ function App() {
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold mb-4 text-center">Antique Appraiser Directory by City</h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              Find certified antique appraisers in your city. Our directory covers major metropolitan areas across the United States.
+              Find antique appraisers and art appraisal services in your city. Start with the highest-demand city guides below, then compare broader regional options across the United States.
             </p>
+
+            {featuredCitySpotlights.length > 0 && (
+              <div className="mb-10 rounded-3xl border border-blue-100 bg-white p-6 shadow-sm">
+                <div className="max-w-3xl">
+                  <h3 className="text-2xl font-semibold text-gray-900">Most searched antique appraisal cities</h3>
+                  <p className="mt-2 text-gray-600">
+                    These city pages align with the strongest &quot;near me&quot; and city-level searches currently gaining traction, so they are the best starting point if you want local antique or art appraisal options fast.
+                  </p>
+                </div>
+                <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-5">
+                  {featuredCitySpotlights.map(({ city, query, blurb }) => (
+                    <a
+                      key={city.slug}
+                      href={buildSiteUrl(`/location/${city.slug}`)}
+                      className="rounded-2xl border border-slate-200 bg-slate-50 p-4 text-left transition-colors hover:border-blue-300 hover:bg-blue-50"
+                      data-gtm-event="city_directory_click"
+                      data-gtm-city={city.slug}
+                      data-gtm-state={city.state}
+                      data-gtm-placement="home_featured_cities"
+                      onClick={() => handleCityDirectoryClick(city, 'home_featured_cities')}
+                    >
+                      <div className="flex items-center gap-2 text-sm font-medium text-blue-700">
+                        <MapPin className="h-4 w-4" />
+                        <span>{city.name}, {city.state}</span>
+                      </div>
+                      <p className="mt-3 text-sm font-semibold text-gray-900">{query}</p>
+                      <p className="mt-2 text-sm text-gray-600">{blurb}</p>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {Object.entries(regions).map(([region, regionCities]) => {

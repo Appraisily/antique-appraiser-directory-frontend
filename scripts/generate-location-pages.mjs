@@ -34,28 +34,28 @@ const SERVICE_LABEL_DISPLAY_LOWER = 'antique and art appraisers';
 const SERVICE_TYPE_LABEL = 'Antique Appraisal';
 const LOCATION_SEO_OVERRIDES = {
   'des-moines': {
-    title: 'Des Moines Antique & Art Appraisers Near You | Donation, Estate & Insurance',
+    title: 'Des Moines Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
     description:
-      'Need an appraisal in Des Moines? Compare local antique and art appraisers for donation, estate, insurance, and personal-property reports. Choose in-person or online.',
-    h1: 'Des Moines Antique & Art Appraisers',
+      'Compare Des Moines antique appraisers and art appraisal services for donation, estate, insurance, and personal-property valuations. Review local experts and online options.',
+    h1: 'Des Moines Antique Appraisers & Art Appraisal Services',
     heroDescription:
-      'Compare local antique and art appraisal specialists in Des Moines, then choose the best fit for donation, estate, or insurance needs.',
+      'Compare Des Moines specialists for antique and art appraisals, then choose the right fit for donation, estate, insurance, and personal-property needs.',
   },
   'kansas-city': {
-    title: 'Kansas City Art & Antique Appraisers | Local Valuation Experts',
+    title: 'Kansas City Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
     description:
-      'Looking for an art appraiser in Kansas City? Compare local antique and art appraisal specialists, review credentials, and choose in-person or faster online service.',
-    h1: 'Kansas City Art & Antique Appraisers',
+      'Compare Kansas City antique appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
+    h1: 'Kansas City Antique Appraisers & Art Appraisal Services',
     heroDescription:
-      'Review Kansas City appraisers for art, antiques, and collections, then pick local in-person help or a faster online appraisal.',
+      'Compare Kansas City specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.',
   },
   chicago: {
-    title: 'Chicago Antique Appraisers | Art Appraisal & Estate Experts',
+    title: 'Chicago Antique Appraisers & Art Appraisal Services | Compare Local Experts',
     description:
-      'Compare Chicago antique and art appraisers for estate, donation, insurance, and resale needs. See specialties and select local or online appraisal support.',
-    h1: 'Chicago Antique & Art Appraisers',
+      'Compare Chicago antique appraisers and art appraisal services for estate planning, charitable donation, insurance, and resale valuations.',
+    h1: 'Chicago Antique Appraisers & Art Appraisal Services',
     heroDescription:
-      'Find Chicago appraisers for antiques, art, and collections, then choose local in-person service or a faster online appraisal route.',
+      'Compare Chicago appraisers for antiques, art, and collections, then choose local in-person service or a faster online appraisal route.',
   },
   tucson: {
     title: 'Tucson Art & Antique Appraisers | Donation, Estate & Personal Property',
@@ -66,36 +66,36 @@ const LOCATION_SEO_OVERRIDES = {
       'Compare Tucson specialists for antique, art, and donation valuations, then pick the local or online path that matches your timeline.',
   },
   columbus: {
-    title: 'Columbus Antique & Art Appraisers Near You | Donation, Estate & Insurance',
+    title: 'Columbus Art Appraiser & Antique Appraisers | Estate, Donation, Insurance',
     description:
-      'Need an appraisal in Columbus? Compare local antique and art appraisers for donation, estate, insurance, and personal-property reports. Choose in-person or online.',
-    h1: 'Columbus Antique & Art Appraisers',
+      'Compare Columbus art and antique appraisers for donation, estate, insurance, and personal-property valuation reports.',
+    h1: 'Columbus Art Appraiser & Antique Appraisers',
     heroDescription:
-      'Compare Columbus appraisal experts for donation, tax, estate, and insurance needs before choosing local in-person or online service.',
+      'Compare Columbus appraisal experts for donation, estate, insurance, and personal-property needs before choosing local in-person or online service.',
   },
   denver: {
-    title: 'Denver Antique Appraisers | Art Appraisal Near You',
+    title: 'Denver Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
     description:
-      'Compare Denver antique and art appraisers, including specialists for insurance, estate, and resale valuation. Choose local in-person or online appraisal.',
-    h1: 'Denver Antique & Art Appraisers',
+      'Compare Denver antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
+    h1: 'Denver Antique Appraisers & Art Appraisal Services',
     heroDescription:
-      'Find Denver appraisers for antiques and art, compare specialties, and choose between local appointments or faster online appraisal.',
+      'Compare Denver specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.',
   },
   milwaukee: {
-    title: 'Milwaukee Antique Appraisers | Estate & Art Appraisal Experts',
+    title: 'Milwaukee Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
     description:
-      'Compare Milwaukee antique appraisers for estate items, collections, and art valuation. Review specialties and choose in-person or online appraisal support.',
-    h1: 'Milwaukee Antique Appraisers',
+      'Compare Milwaukee antique appraisers and art appraisal services for estate items, donation, insurance, and personal-property valuation.',
+    h1: 'Milwaukee Antique Appraisers & Art Appraisal Services',
     heroDescription:
       'Compare Milwaukee appraisal options for antiques, estate items, and art, then choose local in-person service or online turnaround.',
   },
   cleveland: {
-    title: 'Cleveland Antique Appraisers | Donation & Personal Property',
+    title: 'Cleveland Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
     description:
-      'Find Cleveland appraisers for antiques, art, charitable donation, and personal property valuation. Compare local providers and online alternatives.',
-    h1: 'Cleveland Antique & Art Appraisers',
+      'Compare Cleveland antique appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
+    h1: 'Cleveland Antique Appraisers & Art Appraisal Services',
     heroDescription:
-      'Compare Cleveland appraisers for donation, personal property, and antique valuation needs, then choose local or online service.',
+      'Compare Cleveland specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.',
   },
   louisville: {
     title: 'Louisville Antique & Art Appraisers Near You | Donation, Estate & Insurance',
@@ -106,12 +106,12 @@ const LOCATION_SEO_OVERRIDES = {
       'Find Louisville specialists for antique, art, and tax-related valuations, then choose local in-person or faster online appraisal.',
   },
   baltimore: {
-    title: 'Baltimore Antique Appraisers | Furniture & Art Valuation',
+    title: 'Baltimore Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
     description:
-      'Compare Baltimore antique appraisers for furniture, art, estate, and insurance valuations. Check specialties and choose local or online appraisal service.',
-    h1: 'Baltimore Antique & Art Appraisers',
+      'Compare Baltimore antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Maryland experts and online options.',
+    h1: 'Baltimore Antique Appraisers & Art Appraisal Services',
     heroDescription:
-      'Compare Baltimore specialists for antique furniture, art, and collection valuation, then choose local in-person or online appraisal.',
+      'Compare Baltimore specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.',
   },
   orlando: {
     title: 'Orlando Antique Appraisers | Art, Estate & Insurance Values',
@@ -178,10 +178,10 @@ const LOCATION_SEO_OVERRIDES = {
       'Review Indianapolis appraisers for art and antiques, then choose the best local or online valuation route for your timeline.',
   },
   seattle: {
-    title: 'Seattle Antique Appraisers | Art, Estate & Insurance Experts',
+    title: 'Seattle Art Appraisal Services & Antique Appraisers | Estate, Insurance, Donation',
     description:
-      'Compare Seattle antique and art appraisers for estate planning, insurance, donation, and resale valuation. Check specialties and request support.',
-    h1: 'Seattle Antique & Art Appraisers',
+      'Compare Seattle art appraisal services and antique appraisers for estate planning, insurance, donation, and resale valuation. Check specialties and request support.',
+    h1: 'Seattle Art Appraisal Services & Antique Appraisers',
     heroDescription:
       'Find Seattle appraisal specialists for antiques, art, and collections, then choose local in-person or online valuation support.',
   },
@@ -200,6 +200,237 @@ const LOCATION_SEO_OVERRIDES = {
     h1: 'Ottawa Antique & Art Appraisers',
     heroDescription:
       'Compare Ottawa specialists for antique and art valuation, then choose local in-person service or faster online appraisal support.',
+  },
+  philadelphia: {
+    title: 'Philadelphia Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Philadelphia antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
+    h1: 'Philadelphia Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Philadelphia specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.',
+  },
+  'oklahoma-city': {
+    title: 'Oklahoma City Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    description:
+      'Compare Oklahoma City antique appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
+    h1: 'Oklahoma City Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Oklahoma City specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.',
+  },
+  'new-york': {
+    title: 'New York Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare New York antique appraisers and art appraisal services for estate planning, insurance, donation, and resale valuations. Review local NYC experts and online options.',
+    h1: 'New York Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare New York City appraisers for antiques, fine art, and collections, then choose local in-person service or online turnaround.',
+  },
+  toronto: {
+    title: 'Toronto Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Toronto antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review Ontario experts and online options.',
+    h1: 'Toronto Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Toronto specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.',
+  },
+  wichita: {
+    title: 'Wichita Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    description:
+      'Compare Wichita antique appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local Kansas experts and online options.',
+    h1: 'Wichita Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Wichita specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.',
+  },
+  'las-vegas': {
+    title: 'Las Vegas Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Las Vegas antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Nevada experts and online options.',
+    h1: 'Las Vegas Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Las Vegas specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.',
+  },
+  jacksonville: {
+    title: 'Jacksonville Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    description:
+      'Compare Jacksonville antique appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local Florida experts and online options.',
+    h1: 'Jacksonville Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Jacksonville specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.',
+  },
+  pittsburgh: {
+    title: 'Pittsburgh Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    description:
+      'Compare Pittsburgh antique appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
+    h1: 'Pittsburgh Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Pittsburgh specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.',
+  },
+  tampa: {
+    title: 'Tampa Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Tampa antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Florida experts and online options.',
+    h1: 'Tampa Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Tampa specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.',
+  },
+  richmond: {
+    title: 'Richmond Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    description:
+      'Compare Richmond antique appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local Virginia experts and online options.',
+    h1: 'Richmond Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Richmond specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.',
+  },
+  'new-orleans': {
+    title: 'New Orleans Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare New Orleans antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Louisiana experts and online options.',
+    h1: 'New Orleans Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare New Orleans specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.',
+  },
+};
+
+const LOCATION_KEYWORD_BRIEFS = {
+  'des-moines': {
+    primaryKeyword: 'des moines antique appraisals',
+    title: 'Des Moines Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    description:
+      'Compare Des Moines antique appraisers and art appraisal services for donation, estate, insurance, and personal-property valuations. Review local experts and online options.',
+    h1: 'Des Moines Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Des Moines specialists for antique and art appraisals, then choose the right fit for donation, estate, insurance, and personal-property needs.',
+    faqQuestion: 'How do Des Moines antique appraisal services compare?',
+    faqAnswer:
+      'Compare report type, fee structure, specialties such as furniture or fine art, and whether the appraiser can support donation, estate, or insurance documentation.',
+    guideIntro:
+      'People searching for Des Moines antique appraisers or art appraisal services usually need a local expert for furniture, art, estate, donation, or insurance questions. Start by comparing report type, turnaround time, and whether written documentation is included.',
+  },
+  tucson: {
+    primaryKeyword: 'tucson antique appraisers',
+    title: 'Tucson Antique Appraisers | Compare Local Experts & Online Options',
+    description:
+      'Compare Tucson antique appraisers and art appraisal options for donation, estate, insurance, and personal-property reports. Review local experts, specialties, and online alternatives.',
+    h1: 'Tucson Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Tucson antique appraisers for donation, estate, insurance, and personal-property reports, then choose the best local or online appraisal path.',
+    faqQuestion: 'What should I compare when choosing Tucson antique appraisers?',
+    faqAnswer:
+      'Look at specialties, report type, fees, turnaround time, and whether the appraiser handles donation, estate, insurance, or personal-property documentation.',
+    guideIntro:
+      'People searching for Tucson antique appraisers usually need help with donation, estate, insurance, or personal-property valuation. Start by comparing specialties, written-report availability, and turnaround time.',
+  },
+  aspen: {
+    primaryKeyword: 'aspen art appraisers',
+    title: 'Aspen Art Appraisers & Antique Appraisers | Compare Local Experts',
+    description:
+      'Compare Aspen art appraisers and antique appraisal specialists for estate, insurance, donation, and resale valuation. Review local experts and online options before you book.',
+    h1: 'Aspen Art Appraisers & Antique Appraisers',
+    heroDescription:
+      'Compare Aspen art appraisers, antique specialists, and written-report options for estate, insurance, donation, and resale valuation.',
+    faqQuestion: 'How do I compare Aspen art appraisers for a written valuation?',
+    faqAnswer:
+      'Check whether the appraiser handles the type of artwork or collection you own, what report format is included, how comps are documented, and whether travel or research fees apply.',
+    guideIntro:
+      'People searching for Aspen art appraisers usually need a written report for insurance, estate, donation, or resale decisions. Compare specialties, comparable-research depth, and fee structure before you book.',
+  },
+  honolulu: {
+    primaryKeyword: 'oahu antique appraiser',
+    title: 'Oahu Antique Appraiser | Compare Honolulu Experts & Online Options',
+    description:
+      'Compare Oahu antique appraiser and Honolulu valuation options for antiques, art, estate, insurance, and donation reports. Review local experts and online alternatives.',
+    h1: 'Oahu Antique Appraiser & Honolulu Art Appraisal Options',
+    heroDescription:
+      'Compare Oahu antique appraiser options and Honolulu valuation support for antiques, art, estate, insurance, and donation reports.',
+    faqQuestion: 'How should I compare an Oahu antique appraiser with online appraisal options?',
+    faqAnswer:
+      'Compare local availability, written-report scope, specialties, travel requirements, and whether an online appraisal will meet your insurance, estate, donation, or resale goal.',
+    guideIntro:
+      'People searching for an Oahu antique appraiser often need to compare island-based availability with faster online appraisal options. Start by confirming report scope, travel expectations, and item-type fit.',
+  },
+  denver: {
+    primaryKeyword: 'denver antique appraisers',
+    title: 'Denver Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Denver antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
+    h1: 'Denver Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Denver specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.',
+    faqQuestion: 'What should I look for when comparing Denver art appraisers?',
+    faqAnswer:
+      'Check art-market specialty, report type, comparable-sales research, fee structure, and whether the appraiser can support insurance, estate, donation, or personal-property needs.',
+    guideIntro:
+      'People searching for Denver art appraisers usually need a written valuation for insurance, estate, donation, or personal-property planning. Compare specialties, comparable-research depth, and turnaround time before you book.',
+  },
+  indianapolis: {
+    primaryKeyword: 'indianapolis art appraisers',
+    title: 'Indianapolis Art Appraisers | Compare Local Experts & Online Options',
+    description:
+      'Compare Indianapolis art appraisers and antique valuation specialists for donation, estate, insurance, and personal-property reports. Review local experts, fees, and online options.',
+    h1: 'Indianapolis Art Appraisers & Antique Valuation Experts',
+    heroDescription:
+      'Compare Indianapolis art appraisers for donation, estate, insurance, and personal-property reports, then choose local or online valuation support.',
+    faqQuestion: 'How do I choose between Indianapolis art appraisers?',
+    faqAnswer:
+      'Compare item-type specialty, report scope, fee structure, and whether the appraiser supports donation, estate, insurance, or personal-property documentation.',
+    guideIntro:
+      'People searching for Indianapolis art appraisers usually need help comparing fee structures, specialties, and written-report scope. Start there before deciding on local or online valuation.',
+  },
+  philadelphia: {
+    primaryKeyword: 'philadelphia antique appraisers',
+    title: 'Philadelphia Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Philadelphia antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
+    h1: 'Philadelphia Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Philadelphia specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.',
+    faqQuestion: 'What should I compare when reviewing Philadelphia antique appraisers?',
+    faqAnswer:
+      'Look at item-type specialty, written-report scope, fee model, turnaround time, and whether the appraiser supports estate, insurance, donation, or resale decisions.',
+    guideIntro:
+      'People searching for Philadelphia antique appraisers usually need a written valuation for estate, insurance, donation, or resale decisions. Compare specialties, report type, and timeline before you book.',
+  },
+  minneapolis: {
+    primaryKeyword: 'minneapolis antique appraisers',
+    title: 'Minneapolis Antique Appraisers | Compare Local Experts & Online Options',
+    description:
+      'Compare Minneapolis antique appraisers and art valuation specialists for estate, insurance, donation, and personal-property reports. Review local experts, specialties, and online options.',
+    h1: 'Minneapolis Antique Appraisers & Art Valuation Experts',
+    heroDescription:
+      'Compare Minneapolis antique appraisers for estate, insurance, donation, and personal-property reports, then choose local or online appraisal support.',
+    faqQuestion: 'How do Minneapolis antique appraisers differ for written valuation work?',
+    faqAnswer:
+      'The biggest differences are specialty coverage, report depth, turnaround time, and whether the appraiser supports insurance, estate, donation, or resale documentation.',
+    guideIntro:
+      'People searching for Minneapolis antique appraisers usually need to compare specialty fit, report depth, and timing for estate, insurance, donation, or resale needs. Start there before you book.',
+  },
+  chicago: {
+    primaryKeyword: 'chicago antique appraisers',
+    title: 'Chicago Antique Appraisers & Art Appraisal Services | Compare Local Experts',
+    description:
+      'Compare Chicago antique appraisers and art appraisal services for estate planning, charitable donation, insurance, and resale valuations.',
+    h1: 'Chicago Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Chicago appraisers for antiques, art, and collections, then choose local in-person service or a faster online appraisal route.',
+    faqQuestion: 'What should I compare when choosing Chicago antique appraisers?',
+    faqAnswer:
+      'Compare item-type specialty, report type, fee structure, turnaround time, and whether the appraiser supports estate, insurance, donation, or resale valuation.',
+    guideIntro:
+      'People searching for Chicago antique appraisers or art appraisal services usually need a specialist for estate, insurance, donation, resale, or personal-property valuation. Compare report type, fee structure, and specialties before you book.',
+  },
+  austin: {
+    primaryKeyword: 'austin antique appraisers',
+    title: 'Austin Antique Appraisers | Compare Local Experts & Online Options',
+    description:
+      'Compare Austin antique appraisers and art valuation options for tax donation, estate, insurance, and personal-property reports. Review local experts, specialties, and online alternatives.',
+    h1: 'Austin Antique Appraisers & Art Valuation Experts',
+    heroDescription:
+      'Compare Austin antique appraisers for tax donation, estate, insurance, and personal-property reports, then choose local or online appraisal support.',
+    faqQuestion: 'How do I compare Austin antique appraisers for donation or estate work?',
+    faqAnswer:
+      'Check whether the appraiser handles donation, estate, insurance, or personal-property reports, what item types they specialize in, and whether fees include written documentation.',
+    guideIntro:
+      'People searching for Austin antique appraisers often need support for donation, estate, insurance, or personal-property valuation. Compare specialties, written-report scope, and turnaround time before you book.',
   },
 };
 
@@ -322,6 +553,35 @@ const LOCATION_INTERNAL_LINK_TARGETS = {
 
 const HIGH_ROI_CITY_SLUG_SET = new Set(Object.keys(LOCATION_SEO_OVERRIDES));
 const LOCATION_INTENT_PAGE_SLUGS = ['estate-appraisal', 'insurance-appraisal', 'donation-appraisal'];
+const CONSOLIDATED_SUPPORT_GUIDE_CITY_SLUGS = new Set([
+  'des-moines',
+  'kansas-city',
+  'columbus',
+  'denver',
+  'orlando',
+  'tampa',
+  'indianapolis',
+  'palm-beach',
+]);
+// 2026-03-21 cleanup: retire estate/insurance/donation intent pages globally and let
+// the city hub own those URL families behind server-side 301s.
+const RETIRED_LOCATION_INTENT_PAGE_SLUGS = new Set(LOCATION_INTENT_PAGE_SLUGS);
+const RETIRED_APPRAISER_PROFILE_SLUGS = new Set([
+  'des-moines-antique-appraisals',
+  'heritage-valuations-kansas-city',
+  'kansas-city-antique-appraisals',
+  'columbus-antique-appraisals',
+  'denver-candace-a-hill',
+  'denver-brady-l-dreasher',
+  'indianapolis-antique-appraisals',
+  'heritage-valuations-orlando',
+  'orlando-antique-appraisals',
+  'palm-beach-antique-appraisals',
+  'tampa-antique-appraisals',
+]);
+const LOCATION_SPECIFIC_RETIRED_SLUGS = new Map([
+  ['indianapolis', new Set(['art-of-estates'])],
+]);
 const LOCATION_INTENT_PAGE_META = {
   'estate-appraisal': {
     shortLabel: 'Estate',
@@ -342,6 +602,15 @@ const LOCATION_INTENT_PAGE_META = {
     descriptionLead: 'Plan a donation appraisal that matches IRS and charity documentation expectations',
   },
 };
+
+function shouldGenerateSupportGuide(citySlug) {
+  return !CONSOLIDATED_SUPPORT_GUIDE_CITY_SLUGS.has(citySlug);
+}
+
+function shouldGenerateIntentPage(citySlug, intentSlug) {
+  if (!HIGH_ROI_CITY_SLUG_SET.has(citySlug)) return false;
+  return !RETIRED_LOCATION_INTENT_PAGE_SLUGS.has(intentSlug);
+}
 
 const CANADIAN_REGION_NAMES = new Set([
   'alberta',
@@ -371,7 +640,13 @@ const TRUST_FIRST_LOCATION_SLUGS = new Set(['kelowna', 'calgary', 'san-antonio']
 const TRUST_FIRST_MIN_VERIFIED = 3;
 
 function filterAppraisersForLocation(slug, appraisers) {
-  const list = Array.isArray(appraisers) ? [...appraisers] : [];
+  const retiredForLocation = LOCATION_SPECIFIC_RETIRED_SLUGS.get(slug) || new Set();
+  const list = Array.isArray(appraisers)
+    ? appraisers.filter((entry) => {
+        const appraiserSlug = String(entry?.slug || '').trim();
+        return !RETIRED_APPRAISER_PROFILE_SLUGS.has(appraiserSlug) && !retiredForLocation.has(appraiserSlug);
+      })
+    : [];
 
   list.sort((a, b) => {
     const aRank = a?.verified === true ? 2 : a?.listed === true ? 1 : 0;
@@ -523,11 +798,16 @@ function buildDescription(cityDisplayName) {
   );
 }
 
-function buildFaq(cityDisplayName) {
+function buildFaq(cityDisplayName, keywordBrief = null) {
+  const firstQuestion = keywordBrief?.faqQuestion || `How do antique and art appraisals work in ${cityDisplayName}?`;
+  const firstAnswer =
+    keywordBrief?.faqAnswer ||
+    `Most ${SERVICE_LABEL_DISPLAY_LOWER} in ${cityDisplayName} review condition, age, maker marks/materials, provenance details, and comparable sales to estimate value. A written report is often used for insurance, estates, donations, or resale.`;
+
   const qs = [
     {
-      q: `How do antique and art appraisals work in ${cityDisplayName}?`,
-      a: `Most ${SERVICE_LABEL_DISPLAY_LOWER} in ${cityDisplayName} review condition, age, maker marks/materials, provenance details, and comparable sales to estimate value. A written report is often used for insurance, estates, donations, or resale.`,
+      q: firstQuestion,
+      a: firstAnswer,
     },
     {
       q: 'What should I prepare before contacting an appraiser?',
@@ -753,10 +1033,13 @@ function buildPriorityLocationLinks({ slug, slugsInBuild }) {
     .slice(0, 6);
 }
 
-function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appraisers, relatedSlugs, labelForSlug }) {
+function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appraisers, relatedSlugs, labelForSlug, keywordBrief }) {
   const safeCity = sanitizePlainText(cityDisplayName) || 'your city';
   const safeState = sanitizePlainText(stateName);
-  const showIntentLinks = HIGH_ROI_CITY_SLUG_SET.has(citySlug);
+  const showSupportGuide = shouldGenerateSupportGuide(citySlug);
+  const availableIntentSlugs = LOCATION_INTENT_PAGE_SLUGS.filter((intentSlug) =>
+    shouldGenerateIntentPage(citySlug, intentSlug),
+  );
 
   const specialties = buildKeywordCounts(appraisers, (entry) => entry?.expertise?.specialties).slice(0, 8);
   const services = buildKeywordCounts(appraisers, (entry) => entry?.expertise?.services).slice(0, 8);
@@ -765,7 +1048,9 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
   const listedCount = appraisers.filter((entry) => entry?.verified !== true && entry?.listed === true).length;
   const providerCount = appraisers.length;
 
-  const intro = `Hiring the right ${SERVICE_LABEL_DISPLAY_LOWER} in ${safeCity} depends on your goal (insurance, estate settlement, donation, or resale). Look for clear fees, a written report when needed, and evidence of comparable research for your item type.`;
+  const intro =
+    keywordBrief?.guideIntro ||
+    `Hiring the right ${SERVICE_LABEL_DISPLAY_LOWER} in ${safeCity} depends on your goal (insurance, estate settlement, donation, or resale). Look for clear fees, a written report when needed, and evidence of comparable research for your item type.`;
   const checklist = `Before you contact a provider, gather photos, measurements, and any provenance. Ask about turnaround time, what kind of value the report uses (fair market vs replacement), and whether the fee includes a written report.`;
   const supplyNote =
     providerCount > 0
@@ -779,7 +1064,6 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
   const artDirectoryHref = `https://art-appraisers-directory.appraisily.com/?utm_source=directory&utm_medium=guide&utm_campaign=${encodeURIComponent(
     citySlug,
   )}&utm_content=art_directory`;
-  const supportGuideHref = `/location/${citySlug}/appraisal-guide/`;
   const auctionHubSlug = CITY_AUCTION_HUB_SLUGS.get(citySlug);
   const auctionHubHref = auctionHubSlug ? `https://articles.appraisily.com/auction-hub/${auctionHubSlug}/` : '';
 
@@ -825,22 +1109,22 @@ function renderLocationGuideSection({ cityDisplayName, stateName, citySlug, appr
         <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
           hubHref,
         )}" target="_blank" rel="noopener noreferrer">How to choose</a>
-        <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
-          supportGuideHref,
-        )}">City appraisal guide</a>
         ${
-          showIntentLinks
+          showSupportGuide
             ? `<a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/${escapeHtml(
                 citySlug,
-              )}/estate-appraisal/">Estate appraisal guide</a>
-        <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/${escapeHtml(
-          citySlug,
-        )}/insurance-appraisal/">Insurance appraisal guide</a>
-        <a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/${escapeHtml(
-          citySlug,
-        )}/donation-appraisal/">Donation appraisal guide</a>`
+              )}/appraisal-guide/">City appraisal guide</a>`
             : ''
         }
+        ${availableIntentSlugs
+          .map((intentSlug) => {
+            const meta = LOCATION_INTENT_PAGE_META[intentSlug];
+            if (!meta) return '';
+            return `<a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="/location/${escapeHtml(
+              citySlug,
+            )}/${escapeHtml(intentSlug)}/">${escapeHtml(meta.shortLabel)} appraisal guide</a>`;
+          })
+          .join('')}
         ${
           auctionHubHref
             ? `<a class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors" href="${escapeHtml(
@@ -912,9 +1196,15 @@ function renderSupportPage({
   const verifiedCount = appraisers.filter((entry) => entry?.verified === true).length;
   const auctionHubSlug = CITY_AUCTION_HUB_SLUGS.get(citySlug);
   const auctionHubHref = auctionHubSlug ? `https://articles.appraisily.com/auction-hub/${auctionHubSlug}/` : '';
+  const guideRelatedSlugs = relatedSlugs.filter((related) => shouldGenerateSupportGuide(related));
   const freeAppHref = `https://articles.appraisily.com/free-antique-identification-app/?utm_source=directory&utm_medium=support_page&utm_campaign=${encodeURIComponent(
     citySlug,
   )}`;
+  const providerCountLabel = `${providerCount} provider${providerCount === 1 ? '' : 's'}`;
+  const verifiedLabel = verifiedCount ? ` with ${verifiedCount} verified profile${verifiedCount === 1 ? '' : 's'}` : '';
+  const providerCountLink = `<a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(
+    locationUrl,
+  )}">${escapeHtml(providerCountLabel)}</a>`;
 
   const breadcrumbs = {
     '@context': 'https://schema.org',
@@ -968,7 +1258,6 @@ function renderSupportPage({
     <meta name="twitter:image" content="https://assets.appraisily.com/site/logo_new.png">
     <script type="application/ld+json">${JSON.stringify(breadcrumbs)}</script>
     <script type="application/ld+json">${JSON.stringify(faq)}</script>
-    <script src="/assets/main.js" defer></script>
   </head>
   <body>
     <div id="root">
@@ -999,7 +1288,9 @@ function renderSupportPage({
 
           <section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-4">
             <h2 class="text-2xl font-semibold">2) Compare providers in ${escapeHtml(safeCity)}</h2>
-            <p class="text-gray-700 leading-relaxed">This location currently lists ${providerCount} provider${providerCount === 1 ? '' : 's'}${verifiedCount ? ` with ${verifiedCount} verified profile${verifiedCount === 1 ? '' : 's'}` : ''}. Ask each provider about turnaround time, report format, and fee structure before booking.</p>
+            <p class="text-gray-700 leading-relaxed">This location currently lists ${providerCountLink}${escapeHtml(
+    verifiedLabel,
+  )}. Ask each provider about turnaround time, report format, and fee structure before booking.</p>
             <p class="text-gray-700 leading-relaxed">${safeState ? `If you are in ${escapeHtml(safeState)}, ` : ''}choose an appraiser whose specialty matches your item category (fine art, furniture, silver, decorative arts, etc.).</p>
           </section>
 
@@ -1007,23 +1298,23 @@ function renderSupportPage({
             <h2 class="text-2xl font-semibold">3) Validate with comps before final decisions</h2>
             <p class="text-gray-700 leading-relaxed">Use market comps to sanity-check ranges before you accept insurance, estate, donation, or resale valuations.</p>
             <div class="flex flex-wrap gap-3">
-              <a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(freeAppHref)}" target="_blank" rel="noopener noreferrer">Read the free identification guide</a>
+              <a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(freeAppHref)}">Read the free identification guide</a>
               ${
                 auctionHubHref
                   ? `<a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(
                       auctionHubHref,
-                    )}" target="_blank" rel="noopener noreferrer">View ${escapeHtml(safeCity)} auction calendar</a>`
+                    )}">View ${escapeHtml(safeCity)} auction calendar</a>`
                   : ''
               }
             </div>
           </section>
 
           ${
-            relatedSlugs.length
+            guideRelatedSlugs.length
               ? `<section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
             <h2 class="text-2xl font-semibold mb-3">Related city guides</h2>
             <div class="flex flex-wrap gap-x-3 gap-y-2">
-              ${relatedSlugs
+              ${guideRelatedSlugs
                 .map((related) => `<a class="text-blue-700 hover:underline" href="/location/${escapeHtml(
                   related,
                 )}/appraisal-guide/">${escapeHtml(labelForSlug(related))}</a>`)
@@ -1073,7 +1364,8 @@ function renderIntentPage({
   const safeState = sanitizePlainText(stateName);
   const canonicalUrl = buildAbsoluteUrl(`/location/${citySlug}/${intentSlug}/`);
   const locationUrl = buildAbsoluteUrl(`/location/${citySlug}/`);
-  const supportGuideUrl = buildAbsoluteUrl(`/location/${citySlug}/appraisal-guide/`);
+  const showSupportGuide = shouldGenerateSupportGuide(citySlug);
+  const relatedIntentSlugs = relatedSlugs.filter((related) => shouldGenerateIntentPage(related, intentSlug));
   const title = buildIntentPageTitle(cityDisplayName, intentSlug);
   const description = buildIntentPageDescription(cityDisplayName, intentSlug);
   const updatedOn = new Date().toISOString().slice(0, 10);
@@ -1133,7 +1425,6 @@ function renderIntentPage({
     <meta name="twitter:image" content="https://assets.appraisily.com/site/logo_new.png">
     <script type="application/ld+json">${JSON.stringify(breadcrumbs)}</script>
     <script type="application/ld+json">${JSON.stringify(faq)}</script>
-    <script src="/assets/main.js" defer></script>
   </head>
   <body>
     <div id="root">
@@ -1173,16 +1464,22 @@ function renderIntentPage({
             <p class="text-gray-700 leading-relaxed">${safeState ? `If you are in ${escapeHtml(safeState)}, ` : ''}prioritize specialists in your item category and confirm turnaround before booking.</p>
             <div class="flex flex-wrap gap-3">
               <a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(locationUrl)}">View local profiles</a>
-              <a class="text-blue-700 underline hover:no-underline" href="${escapeHtml(supportGuideUrl)}">Read the city appraisal guide</a>
+              ${
+                showSupportGuide
+                  ? `<a class="text-blue-700 underline hover:no-underline" href="/location/${escapeHtml(
+                      citySlug,
+                    )}/appraisal-guide/">Read the city appraisal guide</a>`
+                  : ''
+              }
             </div>
           </section>
 
           ${
-            relatedSlugs.length
+            relatedIntentSlugs.length
               ? `<section class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
             <h2 class="text-2xl font-semibold mb-3">Related ${escapeHtml(intentMeta.shortLabel.toLowerCase())} guides</h2>
             <div class="flex flex-wrap gap-x-3 gap-y-2">
-              ${relatedSlugs
+              ${relatedIntentSlugs
                 .map(
                   (related) =>
                     `<a class="text-blue-700 hover:underline" href="/location/${escapeHtml(related)}/${escapeHtml(
@@ -1225,6 +1522,34 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
     description: buildAppraiserSummary(appraiser, cityPlain),
   }));
 
+  // Calculate aggregate rating across all appraisers
+  const ratedAppraisers = appraisers.filter(a => a.business?.rating > 0 || a.rating > 0);
+  let aggregateRating = undefined;
+  if (ratedAppraisers.length > 0) {
+    const totalRating = ratedAppraisers.reduce((sum, a) => sum + (a.business?.rating || a.rating || 0), 0);
+    const totalReviews = ratedAppraisers.reduce((sum, a) => sum + (a.business?.reviewCount || a.reviewCount || 0), 0);
+    const avgRating = totalRating / ratedAppraisers.length;
+    aggregateRating = {
+      '@type': 'AggregateRating',
+      ratingValue: avgRating.toFixed(1),
+      reviewCount: totalReviews.toString(),
+      bestRating: '5',
+      worstRating: '1',
+    };
+  }
+
+  // Build keyword list for SEO from city name and common search intents
+  // Use cityName (without state) for more natural search query patterns
+  const cityNameOnly = cityPlain.split(',')[0].trim();
+  const keywords = [
+    `${cityNameOnly} antique appraisers`,
+    `antique appraisers near me ${cityNameOnly}`,
+    `${cityNameOnly} art appraisal`,
+    `antique appraisal ${cityNameOnly}`,
+    `estate appraisers ${cityNameOnly}`,
+    `certified antique appraisers ${cityNameOnly}`,
+  ];
+
   const itemList = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -1232,6 +1557,8 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
     url: canonicalUrl,
     numberOfItems: appraisers.length,
     itemListElement: listItems,
+    ...(aggregateRating ? { aggregateRating } : {}),
+    keywords,
   };
 
   const breadcrumb = {
@@ -1254,20 +1581,6 @@ function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
   const imageUrl = normalizeImageUrl(appraiser.imageUrl || FALLBACK_IMAGE);
   const address = sanitizePlainText(cityDisplayName) || sanitizePlainText(appraiser.address?.city) || '';
   const aboutText = buildAppraiserSummary(appraiser, sanitizePlainText(cityDisplayName));
-  const ctaHref = `${PRIMARY_CTA_URL}?utm_source=directory&utm_medium=card&utm_campaign=${encodeURIComponent(
-    citySlug,
-  )}&utm_content=${encodeURIComponent(slug)}`;
-  const website = appraiser.verified || appraiser.listed ? String(appraiser.website || '').trim() : '';
-  const sourceUrl = String(appraiser?.verification?.sourceUrl || '').trim();
-  const sourceLabel = (() => {
-    const explicit = String(appraiser?.verification?.sourceType || '').trim();
-    if (explicit) return explicit;
-    if (!sourceUrl) return 'public listing';
-    if (sourceUrl.includes('isa-appraisers.org')) return 'ISA directory';
-    if (sourceUrl.includes('yellowpages.ca')) return 'YellowPages.ca';
-    if (sourceUrl.includes('bbb.org')) return 'BBB';
-    return 'public listing';
-  })();
   const badge = appraiser.verified
     ? 'Verified'
     : appraiser.listed
@@ -1278,24 +1591,21 @@ function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
     : appraiser.listed
       ? 'text-amber-800 bg-amber-50 border-amber-100'
       : '';
-  const phone =
-    appraiser.verified || appraiser.listed ? String(appraiser.phone || appraiser.contact?.phone || '').trim() : '';
-  const phoneHref = phone ? normalizePhoneHref(phone) : '';
 
 	  return `
-	    <article class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white">
+	    <a class="block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300" href="${escapeHtml(
+        profilePath,
+      )}" aria-label="${escapeHtml(`View ${appraiser.name} profile`)}">
 	      <div class="h-48 bg-gray-200 overflow-hidden">
 	        <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(
-	    `${appraiser.name} - Antique appraiser in ${appraiser.address?.city || ''}`,
-	  )}" class="w-full h-full object-cover" loading="lazy">
+    `${appraiser.name} - Antique appraiser in ${appraiser.address?.city || ''}`,
+  )}" class="w-full h-full object-cover" loading="lazy">
 	      </div>
       <div class="p-5">
         <div class="flex items-start justify-between gap-4 mb-3">
           <div>
-            <h3 class="text-xl font-semibold text-gray-900">
-              <a href="${escapeHtml(profilePath)}" class="hover:text-blue-600 transition-colors">${escapeHtml(
-    appraiser.name,
-  )}</a>
+            <h3 class="text-xl font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+              ${escapeHtml(appraiser.name)}
             </h3>
             ${address ? `<p class="text-sm text-gray-600 mt-2">${escapeHtml(address)}</p>` : ''}
           </div>
@@ -1306,37 +1616,16 @@ function buildAppraiserCard(appraiser, { citySlug, cityDisplayName }) {
           }
         </div>
         ${aboutText ? `<p class="text-gray-700 leading-relaxed mb-4">${escapeHtml(aboutText)}</p>` : ''}
-        <div class="flex flex-wrap gap-2 mt-5">
-          <a href="${escapeHtml(profilePath)}" class="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+        <div class="mt-4 pt-3 border-t border-gray-100 flex justify-end">
+          <span class="text-blue-600 hover:text-blue-800 text-sm font-medium inline-flex items-center">
             View Profile
-          </a>
-          ${
-            website
-              ? `<a href="${escapeHtml(website)}" rel="nofollow noopener" target="_blank" class="inline-flex items-center px-4 py-2 text-gray-700 border border-gray-200 rounded-lg bg-white hover:bg-gray-50 transition-colors">
-            Website
-          </a>`
-              : ''
-          }
-          ${
-            phoneHref
-              ? `<a href="${escapeHtml(phoneHref)}" class="inline-flex items-center px-4 py-2 text-gray-700 border border-gray-200 rounded-lg bg-white hover:bg-gray-50 transition-colors">
-            Call
-          </a>`
-              : ''
-          }
-          <a href="${escapeHtml(ctaHref)}" class="inline-flex items-center px-4 py-2 text-blue-700 border border-blue-200 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors">
-            Try free screener
-          </a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </span>
         </div>
-        ${
-          sourceUrl
-            ? `<p class="text-xs text-gray-500 mt-4">Source: <a href="${escapeHtml(
-                sourceUrl,
-              )}" target="_blank" rel="nofollow noopener" class="text-blue-600 hover:underline">${escapeHtml(sourceLabel)}</a></p>`
-            : ''
-        }
       </div>
-    </article>
+    </a>
   `;
 }
 
@@ -1351,6 +1640,7 @@ function renderLocationBody({
   appraisers,
   relatedSlugs,
   labelForSlug,
+  keywordBrief,
 }) {
   const localAppraisersId = 'local-appraisers';
 	  const hero = `
@@ -1364,7 +1654,7 @@ function renderLocationBody({
           )}" class="inline-flex items-center px-5 py-3 bg-white text-blue-700 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
             Try the free screener
           </a>
-          <a href="#${localAppraisersId}" onclick="event.preventDefault();var el=document.getElementById('${localAppraisersId}');if(el){el.scrollIntoView({behavior:'smooth'});}history.replaceState(null,'',window.location.pathname+window.location.search+'#${localAppraisersId}');" class="inline-flex items-center px-5 py-3 border border-white/50 text-white rounded-lg hover:bg-white/10 transition-colors">
+          <a href="#${localAppraisersId}" onclick="var anchor=this.getAttribute('href');if(!anchor||anchor.charAt(0)!=='#'){return true;}var el=document.querySelector(anchor);if(!el){return false;}var nav=document.querySelector('nav');var offset=(nav&&nav.offsetHeight?nav.offsetHeight:0)+16;var top=el.getBoundingClientRect().top+window.scrollY-offset;window.scrollTo({behavior:'smooth',top:Math.max(0,top)});history.replaceState(null,'',window.location.pathname+window.location.search+anchor);return false;" class="inline-flex items-center px-5 py-3 border border-white/50 text-white rounded-lg hover:bg-white/10 transition-colors">
             Browse local providers
           </a>
         </div>
@@ -1417,7 +1707,7 @@ function renderLocationBody({
       </section>
     `;
 
-  const { html: faqHtml } = buildFaq(cityDisplayName);
+  const { html: faqHtml } = buildFaq(cityDisplayName, keywordBrief);
   const learnMoreHtml = buildLearnMoreSection(cityDisplayName, citySlug);
   const guide = renderLocationGuideSection({
     cityDisplayName,
@@ -1426,6 +1716,7 @@ function renderLocationBody({
     appraisers,
     relatedSlugs,
     labelForSlug,
+    keywordBrief,
   });
 
   return `
@@ -1526,6 +1817,7 @@ async function main() {
     const titleDisplay = regionCode ? `${cityName}, ${regionCode}` : cityName;
     const descriptionDisplay = stateName ? `${cityName}, ${stateName}` : cityName;
     const seoOverride = LOCATION_SEO_OVERRIDES[slug];
+    const keywordBrief = LOCATION_KEYWORD_BRIEFS[slug];
     const appraiserCount = appraisers.length;
     const expertLabel = localExpertLabel(appraiserCount);
     const keywordTitle = buildTier1KeywordTitle(slug, cityName, `${appraiserCount} ${expertLabel}`);
@@ -1537,12 +1829,14 @@ async function main() {
       ? keywordDescription
       : `Find ${cityName} antique and art appraisers for donation, estate, insurance, and personal-property reports. Compare local and online options.`;
     const useLowCtrPattern = LOW_CTR_PRIORITY_CITY_SLUGS.has(slug);
-    const title = useLowCtrPattern ? lowCtrTitle : (seoOverride?.title || buildTitle(titleDisplay));
-    const description = useLowCtrPattern
-      ? lowCtrDescription
-      : (seoOverride?.description || buildDescription(descriptionDisplay));
-    const heroHeading = seoOverride?.h1 || `${SERVICE_LABEL_DISPLAY} in ${cityDisplayName}`;
-    const heroDescription = seoOverride?.heroDescription || description;
+    const title = keywordBrief?.title || seoOverride?.title || (useLowCtrPattern ? lowCtrTitle : buildTitle(titleDisplay));
+    const description = keywordBrief?.description || seoOverride?.description || (
+      useLowCtrPattern
+        ? lowCtrDescription
+        : buildDescription(descriptionDisplay)
+    );
+    const heroHeading = keywordBrief?.h1 || seoOverride?.h1 || `${SERVICE_LABEL_DISPLAY} in ${cityDisplayName}`;
+    const heroDescription = keywordBrief?.heroDescription || seoOverride?.heroDescription || description;
 
   const labelForSlug = (candidateSlug) => {
       const meta = normalizeCityMeta(cities.get(candidateSlug));
@@ -1578,6 +1872,7 @@ async function main() {
       appraisers,
       relatedSlugs,
       labelForSlug,
+      keywordBrief,
     });
     root.innerHTML = bodyMarkup;
 
@@ -1599,7 +1894,15 @@ async function main() {
     upsertMeta(head, 'meta[name="twitter:image"]', { name: 'twitter:image', content: imageForSocial });
     upsertMeta(head, 'meta[name="twitter:url"]', { name: 'twitter:url', content: canonicalUrl });
 
-    const { schema: faqSchema } = buildFaq(cityDisplayName);
+    // Add geo meta tags for local SEO
+    if (normalizedCity.latitude && normalizedCity.longitude) {
+      const geoRegion = regionCode ? `US-${regionCode}` : 'US';
+      upsertMeta(head, 'meta[name="geo.placename"]', { name: 'geo.placename', content: `${cityName}, ${stateName}` });
+      upsertMeta(head, 'meta[name="geo.region"]', { name: 'geo.region', content: geoRegion });
+      upsertMeta(head, 'meta[name="ICBM"]', { name: 'ICBM', content: `${normalizedCity.latitude};${normalizedCity.longitude}` });
+    }
+
+    const { schema: faqSchema } = buildFaq(cityDisplayName, keywordBrief);
     const schemas = buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema);
     upsertJsonLd(head, 'schemas', schemas);
 
@@ -1611,22 +1914,30 @@ async function main() {
       stats.updated += 1;
 
       const supportDir = path.join(options.publicDir, 'location', slug, 'appraisal-guide');
-      const supportPath = path.join(supportDir, 'index.html');
-      const supportHtml = renderSupportPage({
-        citySlug: slug,
-        cityDisplayName,
-        stateName,
-        appraisers,
-        relatedSlugs,
-        labelForSlug,
-      });
-      await fs.mkdir(supportDir, { recursive: true });
-      await fs.writeFile(supportPath, supportHtml, 'utf8');
-      stats.supportPagesUpdated += 1;
+      if (shouldGenerateSupportGuide(slug)) {
+        const supportPath = path.join(supportDir, 'index.html');
+        const supportHtml = renderSupportPage({
+          citySlug: slug,
+          cityDisplayName,
+          stateName,
+          appraisers,
+          relatedSlugs,
+          labelForSlug,
+        });
+        await fs.mkdir(supportDir, { recursive: true });
+        await fs.writeFile(supportPath, supportHtml, 'utf8');
+        stats.supportPagesUpdated += 1;
+      } else {
+        await fs.rm(supportDir, { recursive: true, force: true });
+      }
 
       if (HIGH_ROI_CITY_SLUG_SET.has(slug)) {
         for (const intentSlug of LOCATION_INTENT_PAGE_SLUGS) {
           const intentDir = path.join(options.publicDir, 'location', slug, intentSlug);
+          if (!shouldGenerateIntentPage(slug, intentSlug)) {
+            await fs.rm(intentDir, { recursive: true, force: true });
+            continue;
+          }
           const intentPath = path.join(intentDir, 'index.html');
           const intentHtml = renderIntentPage({
             citySlug: slug,
