@@ -931,6 +931,7 @@ export function StandardizedLocationPage() {
   const [locationData, setLocationData] = useState<StandardizedLocation | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [selectedSpecialty, setSelectedSpecialty] = useState<string | null>(null);
   const primaryCtaUrl = getPrimaryCtaUrl();
 
   const validCitySlug = typeof citySlug === 'string' ? citySlug : '';
@@ -1474,6 +1475,18 @@ export function StandardizedLocationPage() {
     );
   };
 
+  const handleSpecialtyTagClick = (specialty: string) => {
+    const next = selectedSpecialty === specialty ? null : specialty;
+    setSelectedSpecialty(next);
+    trackEvent('specialty_tag_click', {
+      placement: 'location_appraiser_card',
+      city_slug: validCitySlug,
+      city_name: citySearchName,
+      specialty,
+      active: next !== null
+    });
+  };
+
   if (isLoading) {
     return (
       <div className="container mx-auto px-4 py-8 mt-16">
@@ -1643,7 +1656,7 @@ export function StandardizedLocationPage() {
                 <button
                   type="button"
                   key={theme}
-                  className="inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-100 transition-colors"
+                  className="inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-100 transition-colors relative z-0 cursor-pointer"
                   onClick={() => handleSearchThemeClick(theme)}
                   aria-label={`Jump to ${citySearchName} appraisers for ${theme}`}
                 >
@@ -1667,7 +1680,7 @@ export function StandardizedLocationPage() {
                 <a
                   key={city.slug}
                   href={buildSiteUrl(`/location/${city.slug}`)}
-                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50 relative z-0"
                   data-gtm-event="related_city_click"
                   data-gtm-placement="location_related_cities"
                   data-gtm-city={city.slug}
@@ -1691,7 +1704,7 @@ export function StandardizedLocationPage() {
                 <a
                   key={city.slug}
                   href={buildSiteUrl(`/location/${city.slug}`)}
-                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50 relative z-0"
                   data-gtm-event="related_city_click"
                   data-gtm-placement="location_priority_links"
                   data-gtm-city={city.slug}
@@ -1715,7 +1728,7 @@ export function StandardizedLocationPage() {
                 <a
                   key={city.slug}
                   href={buildSiteUrl(`/location/${city.slug}`)}
-                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50 relative z-0"
                   data-gtm-event="related_city_click"
                   data-gtm-placement="location_popular_cities"
                   data-gtm-city={city.slug}
@@ -1801,7 +1814,7 @@ export function StandardizedLocationPage() {
                 <a
                   key={appraiser.id}
                   href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
-                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50 relative z-0"
                   data-gtm-event="appraiser_card_click"
                   data-gtm-placement="location_top_reviewed"
                   data-gtm-appraiser={appraiser.slug}
@@ -1814,8 +1827,30 @@ export function StandardizedLocationPage() {
           </div>
         )}
 
+        {selectedSpecialty && (
+          <div className="mb-4 flex items-center gap-2 text-sm">
+            <span className="text-gray-600">Showing appraisers for:</span>
+            <span className="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 font-medium text-blue-800">
+              {selectedSpecialty}
+              <button
+                type="button"
+                className="ml-1 text-blue-600 hover:text-blue-800 focus:outline-none"
+                onClick={() => setSelectedSpecialty(null)}
+                aria-label="Clear specialty filter"
+              >
+                &times;
+              </button>
+            </span>
+          </div>
+        )}
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {locationData.appraisers.map(appraiser => {
+          {locationData.appraisers
+            .filter(appraiser => {
+              if (!selectedSpecialty) return true;
+              return appraiser.expertise.specialties.includes(selectedSpecialty);
+            })
+            .map(appraiser => {
             const appraiserUrl = buildSiteUrl(`/appraiser/${appraiser.slug}`);
             return (
             <a
@@ -1842,7 +1877,7 @@ export function StandardizedLocationPage() {
                 </div>
 
                 <div className="p-4">
-                  <h2 className="text-xl font-semibold mb-2 text-gray-900 hover:text-blue-600 transition-colors">
+                  <h2 className="text-xl font-semibold mb-2 text-gray-900">
                     {appraiser.name}
                   </h2>
 
@@ -1867,19 +1902,34 @@ export function StandardizedLocationPage() {
 
                   <div className="space-y-2 mb-4">
                     <div className="flex flex-wrap gap-1">
-                      {appraiser.expertise.specialties.slice(0, 3).map((specialty) => (
-                        <span
-                          key={specialty}
-                          className="inline-block bg-blue-50 text-blue-700 rounded-full px-2 py-0.5 text-xs mb-1"
-                        >
-                          {specialty}
-                        </span>
-                      ))}
+                      {appraiser.expertise.specialties.slice(0, 3).map((specialty) => {
+                        const isActive = selectedSpecialty === specialty;
+                        return (
+                          <button
+                            key={specialty}
+                            type="button"
+                            className={[
+                              'inline-block rounded-full px-2 py-0.5 text-xs mb-1 transition-colors',
+                              'cursor-pointer hover:bg-blue-100 focus:outline-none focus:ring-1 focus:ring-blue-300',
+                              isActive ? 'bg-blue-600 text-white' : 'bg-blue-50 text-blue-700'
+                            ].join(' ')}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              handleSpecialtyTagClick(specialty);
+                            }}
+                            aria-pressed={isActive}
+                            aria-label={`Filter by ${specialty}${isActive ? ' (active)' : ''}`}
+                          >
+                            {specialty}
+                          </button>
+                        );
+                      })}
                     </div>
                   </div>
 
                   <div className="mt-4 pt-3 border-t border-gray-100 flex justify-end">
-                    <span className="text-blue-600 hover:text-blue-800 text-sm font-medium inline-flex items-center">
+                    <span className="text-blue-600 text-sm font-medium inline-flex items-center">
                       View Profile
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -1898,9 +1948,25 @@ export function StandardizedLocationPage() {
           })}
         </div>
 
-        {locationData.appraisers.length === 0 && (
+        {locationData.appraisers.filter(appraiser => {
+          if (!selectedSpecialty) return true;
+          return appraiser.expertise.specialties.includes(selectedSpecialty);
+        }).length === 0 && (
           <div className="text-center py-8">
-            <p className="text-gray-600">No antique appraisers found in {cityName} yet. Check back soon!</p>
+            {selectedSpecialty ? (
+              <>
+                <p className="text-gray-600">No appraisers found for &ldquo;{selectedSpecialty}&rdquo; in {cityName}.</p>
+                <button
+                  type="button"
+                  className="mt-3 text-blue-600 hover:underline text-sm font-medium"
+                  onClick={() => setSelectedSpecialty(null)}
+                >
+                  Clear filter to see all appraisers
+                </button>
+              </>
+            ) : (
+              <p className="text-gray-600">No antique appraisers found in {cityName} yet. Check back soon!</p>
+            )}
           </div>
         )}
 

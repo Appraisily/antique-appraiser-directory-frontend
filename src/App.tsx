@@ -422,7 +422,7 @@ function App() {
                     <button
                       key={stat.label}
                       type="button"
-                      className="rounded-2xl border border-white/40 bg-white/70 p-4 shadow-sm backdrop-blur-md text-left transition-colors hover:border-primary/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
+                      className="rounded-2xl border border-white/40 bg-white/70 p-4 shadow-sm backdrop-blur-md text-left transition-colors hover:border-primary/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 relative z-0"
                       aria-label={`Search antique appraisers near you (${stat.label})`}
                       onClick={() => handleStatHighlightClick(stat.label)}
                     >
@@ -474,7 +474,7 @@ function App() {
               {specialtyHighlights.map(item => (
                 <div
                   key={item.title}
-                  className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-8 shadow-sm transition-colors duration-300 cursor-pointer hover:border-primary/40"
+                  className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-8 shadow-sm transition-colors duration-300 cursor-pointer hover:border-primary/40 relative z-0"
                   role="link"
                   tabIndex={0}
                   onClick={(event) => handleSpecialtyCardClick(event, item.title)}
@@ -522,7 +522,7 @@ function App() {
                     <a
                       key={city.slug}
                       href={buildSiteUrl(`/location/${city.slug}`)}
-                      className="rounded-2xl border border-slate-200 bg-slate-50 p-4 text-left transition-colors hover:border-blue-300 hover:bg-blue-50"
+                      className="rounded-2xl border border-slate-200 bg-slate-50 p-4 text-left transition-colors hover:border-blue-300 hover:bg-blue-50 relative z-0"
                       data-gtm-event="city_directory_click"
                       data-gtm-city={city.slug}
                       data-gtm-state={city.state}
@@ -548,13 +548,7 @@ function App() {
                 return (
                   <div
                     key={region}
-                    className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 cursor-pointer"
-                    role={primaryCity ? 'link' : undefined}
-                    tabIndex={primaryCity ? 0 : undefined}
-                    onClick={(event) => handleRegionCardFallbackClick(event, primaryCity, placement)}
-                    onKeyDown={(event) => handleRegionCardFallbackClick(event, primaryCity, placement)}
-                    data-gtm-event="city_directory_card_click"
-                    data-gtm-placement={`${placement}_card`}
+                    className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300"
                   >
                     <h3 className="text-xl font-semibold mb-4 text-blue-600 border-b pb-2">{region}</h3>
                     <ul className="grid grid-cols-1 gap-2">
@@ -562,19 +556,36 @@ function App() {
                         <li key={city.slug}>
                           <a
                             href={buildSiteUrl(`/location/${city.slug}`)}
-                            className="flex w-full items-center text-gray-700 hover:text-blue-600 py-3 transition-colors"
+                            className="flex w-full items-center text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md px-2 py-2 -mx-2 transition-colors cursor-pointer"
                             data-gtm-event="city_directory_click"
                             data-gtm-city={city.slug}
                             data-gtm-state={city.state}
                             data-gtm-placement={placement}
                             onClick={() => handleCityDirectoryClick(city, placement)}
                           >
-                            <MapPin className="w-4 h-4 mr-2 text-blue-500" />
+                            <MapPin className="w-4 h-4 mr-2 text-blue-500 flex-shrink-0" />
                             <span>{city.name}, {city.state}</span>
                           </a>
                         </li>
                       ))}
                     </ul>
+                    {primaryCity && (
+                      <div className="mt-4 pt-3 border-t border-gray-100">
+                        <a
+                          href={buildSiteUrl(`/location/${primaryCity.slug}`)}
+                          className="text-sm text-blue-600 hover:text-blue-800 hover:underline font-medium inline-flex items-center transition-colors cursor-pointer"
+                          data-gtm-event="region_view_all"
+                          data-gtm-region={region.toLowerCase()}
+                          data-gtm-placement={`${placement}_card`}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleCityDirectoryClick(primaryCity, placement);
+                          }}
+                        >
+                          View all {region} appraisers &rarr;
+                        </a>
+                      </div>
+                    )}
                   </div>
                 );
               })}
