@@ -97,12 +97,34 @@ function App() {
         source: 'hero_directory',
         query
       });
+
+      // Fallback: try to find a matching city by slug or name
+      const lowerQuery = query.toLowerCase();
+      const match = cities.find(city =>
+        city.slug.toLowerCase().includes(lowerQuery) ||
+        city.name.toLowerCase().includes(lowerQuery) ||
+        city.state.toLowerCase().includes(lowerQuery) ||
+        `${city.name}, ${city.state}`.toLowerCase().includes(lowerQuery)
+      );
+
+      if (match) {
+        trackEvent('location_search_fuzzy_match', {
+          source: 'hero_directory',
+          query,
+          city_slug: match.slug
+        });
+        if (typeof window !== 'undefined') {
+          window.location.href = buildSiteUrl(`/location/${match.slug}`);
+        }
+        return;
+      }
     }
 
     if (scrollToCityDirectory()) return;
 
     if (typeof window !== 'undefined') {
-      window.location.href = buildSiteUrl('/location/');
+      // Last resort: navigate to the closest matching city or home
+      window.location.href = buildSiteUrl('/');
     }
   };
 
@@ -150,8 +172,7 @@ function App() {
       placement: 'home_hero_stats',
       label
     });
-    triggerSearchHighlight();
-    citySearchRef.current?.focusInput?.();
+    scrollToCityDirectory();
   };
   const handleCtaClick = (placement: string) => {
     trackEvent('cta_click', {
@@ -175,14 +196,17 @@ function App() {
       event.preventDefault();
     }
 
+    // Build CTA URL with specialty context so the start page can pre-select the category
+    const ctaWithSpecialty = getPrimaryCtaUrl({ specialty_category: specialty });
+
     trackEvent('specialty_card_click', {
       placement: 'home_specialties',
       specialty,
-      destination: primaryCtaUrl
+      destination: ctaWithSpecialty
     });
 
     if (typeof window !== 'undefined') {
-      window.location.href = primaryCtaUrl;
+      window.location.href = ctaWithSpecialty;
     }
   };
 
@@ -381,7 +405,7 @@ function App() {
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/25 via-primary/10 to-blue-50" />
           <div
-            className="absolute inset-0 opacity-20"
+            className="absolute inset-0 opacity-20 pointer-events-none"
             style={{
               backgroundImage: `url(${patternScrollwork})`,
               backgroundSize: 'cover',
@@ -419,16 +443,19 @@ function App() {
 
                 <div className="grid gap-6 pt-8 sm:grid-cols-3">
                   {statsHighlights.map(stat => (
-                    <button
+                    <a
                       key={stat.label}
-                      type="button"
-                      className="rounded-2xl border border-white/40 bg-white/70 p-4 shadow-sm backdrop-blur-md text-left transition-colors hover:border-primary/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 relative z-0"
-                      aria-label={`Search antique appraisers near you (${stat.label})`}
+                      href={buildSiteUrl('/location/')}
+                      className="rounded-2xl border border-white/40 bg-white/70 p-4 shadow-sm backdrop-blur-md text-left transition-colors hover:border-primary/30 hover:bg-white/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 relative z-0 cursor-pointer"
+                      aria-label={`Browse antique appraisers: ${stat.label}`}
+                      data-gtm-event="stat_highlight_click"
+                      data-gtm-placement="home_hero_stats"
+                      data-gtm-stat-label={stat.label}
                       onClick={() => handleStatHighlightClick(stat.label)}
                     >
                       <p className="text-2xl font-bold text-primary">{stat.value}</p>
                       <p className="text-sm text-muted-foreground">{stat.label}</p>
-                    </button>
+                    </a>
                   ))}
                 </div>
               </div>
@@ -474,7 +501,7 @@ function App() {
               {specialtyHighlights.map(item => (
                 <div
                   key={item.title}
-                  className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-8 shadow-sm transition-colors duration-300 cursor-pointer hover:border-primary/40 relative z-0"
+                  className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-8 shadow-sm transition-colors duration-300 cursor-pointer hover:border-primary/40 z-0"
                   role="link"
                   tabIndex={0}
                   onClick={(event) => handleSpecialtyCardClick(event, item.title)}
