@@ -221,7 +221,7 @@
       },
       "expertise": {
         "specialties": [
-          "Furniture fine art jewelry vintage items Americana decorative arts silver militaria wine [2][6]  \n- Certifications: ISA CAPP ASA IRS-qualified USPAP-compliant [3][6]  \n- Service Areas: Greater Houston Remote assessments nationwide via photo/video consultations [6]  \n- Pricing: Transparent quotes starting ~$250/item In-person bulk discounts available No hidden fees [6][7]   \n- Contact: 📞(713)429-0309"
+          "Furniture fine art jewelry vintage items Americana decorative arts silver militaria wine [2][6]  \n- Certifications: ISA CAPP ASA IRS-qualified USPAP-compliant [3][6]  \n- Service Areas: Greater Houston Remote assessments nationwide via photo/video consultations [6]  \n- Pricing: Transparent quotes starting ~$250/item In-person bulk discounts available No hidden fees [6][7]   \n- Contact: \ud83d\udcde(713)429-0309"
         ],
         "certifications": [
           "ISA",
@@ -236,8 +236,8 @@
         ]
       },
       "content": {
-        "about": "Prestige Estate Services offers antique appraisal services in Houston, TE. Primary specialties include Furniture fine art jewelry vintage items Americana decorative arts silver militaria wine [2][6]  \n- Certifications: ISA CAPP ASA IRS-qualified USPAP-compliant [3][6]  \n- Service Areas: Greater Houston Remote assessments nationwide via photo/video consultations [6]  \n- Pricing: Transparent quotes starting ~$250/item In-person bulk discounts available No hidden fees [6][7]   \n- Contact: 📞(713)429-0309. Services include Greater Houston Remote assessments nationwide via photo/video consultations [6].",
-        "notes": "Serving Houston, TE clients who need antique valuations in Furniture fine art jewelry vintage items Americana decorative arts silver militaria wine [2][6]  \n- Certifications: ISA CAPP ASA IRS-qualified USPAP-compliant [3][6]  \n- Service Areas: Greater Houston Remote assessments nationwide via photo/video consultations [6]  \n- Pricing: Transparent quotes starting ~$250/item In-person bulk discounts available No hidden fees [6][7]   \n- Contact: 📞(713)429-0309."
+        "about": "Prestige Estate Services offers antique appraisal services in Houston, TE. Primary specialties include Furniture fine art jewelry vintage items Americana decorative arts silver militaria wine [2][6]  \n- Certifications: ISA CAPP ASA IRS-qualified USPAP-compliant [3][6]  \n- Service Areas: Greater Houston Remote assessments nationwide via photo/video consultations [6]  \n- Pricing: Transparent quotes starting ~$250/item In-person bulk discounts available No hidden fees [6][7]   \n- Contact: \ud83d\udcde(713)429-0309. Services include Greater Houston Remote assessments nationwide via photo/video consultations [6].",
+        "notes": "Serving Houston, TE clients who need antique valuations in Furniture fine art jewelry vintage items Americana decorative arts silver militaria wine [2][6]  \n- Certifications: ISA CAPP ASA IRS-qualified USPAP-compliant [3][6]  \n- Service Areas: Greater Houston Remote assessments nationwide via photo/video consultations [6]  \n- Pricing: Transparent quotes starting ~$250/item In-person bulk discounts available No hidden fees [6][7]   \n- Contact: \ud83d\udcde(713)429-0309."
       },
       "reviews": [
         {
@@ -261,6 +261,509 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "houston-antique-mall-houston-tx",
+      "name": "Houston Antique Mall",
+      "slug": "houston-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "812 Westheimer Rd",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77006",
+        "formatted": "812 Westheimer Rd, Houston, TX 77006"
+      },
+      "contact": {
+        "phone": "(713) 528-2929",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Houston Antique Mall offers a wide selection of antiques and collectibles with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "heights-antiques-houston-tx",
+      "name": "Heights Antiques",
+      "slug": "heights-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "318 W 19th St",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77008",
+        "formatted": "318 W 19th St, Houston, TX 77008"
+      },
+      "contact": {
+        "phone": "(713) 880-2600",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop in the Heights",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Vintage Items",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Heights Antiques offers a curated selection of antiques with professional appraisal services in the Houston Heights neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "bayou-city-antiques-houston-tx",
+      "name": "Bayou City Antiques & Estate Sales",
+      "slug": "bayou-city-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "2727 Kirby Dr",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77098",
+        "formatted": "2727 Kirby Dr, Houston, TX 77098"
+      },
+      "contact": {
+        "phone": "(713) 522-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Bayou City Antiques & Estate Sales provides comprehensive antique and estate appraisal services throughout Houston.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "houston-kuehnert-appraisals",
+      "name": "Kuehnert Appraisals & Consulting",
+      "slug": "kuehnert-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "2925 Richmond Ave Ste 1200",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77098",
+        "formatted": "2925 Richmond Ave Ste 1200, Houston, TX 77098"
+      },
+      "contact": {
+        "phone": "(281) 352-6191",
+        "email": "tricia@kuehnertappraisals.com",
+        "website": "https://kuehnertappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "25+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Collectibles",
+          "Silver",
+          "Porcelain",
+          "Residential Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Divorce Appraisals",
+          "Charitable Donations",
+          "Insurance Coverage",
+          "Bankruptcy Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Kuehnert Appraisals & Consulting provides 25+ years of experience in antique and estate appraisals in Houston. Tricia Kuehnert specializes in fine art, antiques, furniture, silver, porcelain, and residential contents.",
+        "notes": "Serving Houston, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "houston-alexander-appraisal",
+      "name": "Alexander Appraisal & Estate Services",
+      "slug": "alexander-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Items",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Personal Property Appraisals",
+          "Antique Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Alexander Appraisal & Estate Services is an industry leader in comprehensive personal property appraisal services in Houston, offering complete estate evaluations for antiques, art, and collectibles.",
+        "notes": "Serving Houston, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "houston-premier-appraisals",
+      "name": "Premier Appraisals Inc",
+      "slug": "premier-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "4635 Wild Indigo",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77096",
+        "formatted": "4635 Wild Indigo, Houston, TX 77096"
+      },
+      "contact": {
+        "phone": "(281) 855-4575",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Decorative Arts",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Premier Appraisals provides professional antique and estate appraisal services throughout the Houston area with expertise in fine art and decorative arts.",
+        "notes": "Serving Houston, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "houston-houston-antique-estate-appraisers",
+      "name": "Houston Antique Estate Appraisers",
+      "slug": "houston-antique-estate-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Items",
+          "Furniture",
+          "Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Settlements",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Houston Antique Estate Appraisers offers professional valuations for antiques, estate contents, and collectibles. Serving Houston clients with accurate appraisals for insurance, estate planning, and donation purposes.",
+        "notes": "Serving Houston, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "houston-clark-associates-appraisals",
+      "name": "Clark & Associates Appraisals",
+      "slug": "clark-associates-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "5 Greenway Plaza Ste 430",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77046",
+        "formatted": "5 Greenway Plaza Ste 430, Houston, TX 77046"
+      },
+      "contact": {
+        "phone": "(713) 953-1774",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "18+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Jewelry",
+          "Estate Contents",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Clark & Associates provides antique and personal property appraisals in Houston with expertise across multiple categories including fine art, jewelry, and estate contents.",
+        "notes": "Serving Houston, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

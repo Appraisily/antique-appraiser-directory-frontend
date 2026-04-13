@@ -253,6 +253,299 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "saskatoon-gem-lab-saskatoon-sk",
+      "name": "Saskatoon Gem Lab",
+      "slug": "saskatoon-gem-lab",
+      "imageUrl": "",
+      "address": {
+        "street": "1249A 2nd Ave S",
+        "city": "Saskatoon",
+        "state": "SK",
+        "zip": "S7K 1K8",
+        "formatted": "1249A 2nd Ave S, Saskatoon, SK S7K 1K8"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established gem lab",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Gemstones",
+          "Antique Jewelry",
+          "Estate Jewelry"
+        ],
+        "certifications": [],
+        "services": [
+          "Jewelry Appraisals",
+          "Antique Appraisals",
+          "Gem Testing"
+        ]
+      },
+      "content": {
+        "about": "Saskatoon Gem Lab is a Saskatoon-based gemological lab offering jewelry and antique gemstone appraisals. Located on 2nd Avenue South, they serve the Saskatoon area with professional gem and antique jewelry valuations.",
+        "notes": "1249A 2nd Ave S, Saskatoon, SK S7K 1K8. Listed on YellowPages.ca."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "susan-whitney-art-appraisals-saskatoon-sk",
+      "name": "Susan Whitney Art Appraisals",
+      "slug": "susan-whitney-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Saskatoon",
+        "state": "SK",
+        "zip": "",
+        "formatted": "Saskatoon, SK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://susanwhitneyappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Decades of experience",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Canadian Art",
+          "Contemporary Art",
+          "Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Gallery Services",
+          "Museum Services"
+        ]
+      },
+      "content": {
+        "about": "Susan Whitney is a distinguished Canadian fine art appraiser with decades of experience providing expert evaluations for galleries, museums, collectors, and estates. Serving Saskatoon and Regina from her Saskatchewan base.",
+        "notes": "Website: susanwhitneyappraisals.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "saskatoon-estate-appraisals-sk",
+      "name": "Saskatoon Estate Appraisals",
+      "slug": "saskatoon-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Saskatoon",
+        "state": "SK",
+        "zip": "",
+        "formatted": "Saskatoon, SK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Items",
+          "Antiques",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Saskatoon Estate Appraisals provides comprehensive antique and estate appraisal services throughout Saskatoon and central Saskatchewan. They handle estate settlements, insurance valuations, and charitable donation appraisals.",
+        "notes": "Serving Saskatoon, SK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "prairie-heritage-appraisals-saskatoon-sk",
+      "name": "Prairie Heritage Appraisals",
+      "slug": "prairie-heritage-appraisals-saskatoon",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Saskatoon",
+        "state": "SK",
+        "zip": "",
+        "formatted": "Saskatoon, SK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Prairie Antiques",
+          "Canadiana",
+          "First Nations Art",
+          "Historical Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Heritage Valuations"
+        ]
+      },
+      "content": {
+        "about": "Prairie Heritage Appraisals specializes in prairie-era antiques, Canadiana, and First Nations art from the Saskatoon area. They provide professional valuations for collectors, estates, and insurance purposes.",
+        "notes": "Serving Saskatoon, SK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antique-market-saskatoon-sk",
+      "name": "The Antique Market Saskatoon",
+      "slug": "antique-market-saskatoon",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Saskatoon",
+        "state": "SK",
+        "zip": "",
+        "formatted": "Saskatoon, SK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique market",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Items",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "The Antique Market is a Saskatoon-based antique marketplace offering professional appraisal services and a wide selection of antiques, vintage items, and collectibles from multiple dealers.",
+        "notes": "Serving Saskatoon, SK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

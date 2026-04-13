@@ -226,6 +226,294 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "garage-606-st-johns-nl",
+      "name": "Garage 606",
+      "slug": "garage-606",
+      "imageUrl": "",
+      "address": {
+        "street": "606 Water St",
+        "city": "St. John's",
+        "state": "NL",
+        "zip": "A1E 1B9",
+        "formatted": "606 Water St, St. John's, NL A1E 1B9"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Garage 606 is a quaint St. John's establishment specializing in the evaluation and sale of unique collectibles and vintage items. Located on historic Water Street, they offer antique appraisal services in Newfoundland's capital.",
+        "notes": "606 Water St, St. John's, NL A1E 1B9."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "appraisal-services-nl-st-johns-nl",
+      "name": "Appraisal Services NL",
+      "slug": "appraisal-services-nl",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. John's",
+        "state": "NL",
+        "zip": "",
+        "formatted": "St. John's, NL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.appraisalservicesnl.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 40 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Contents",
+          "Personal Property"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Appraisal Services NL has been providing fair, unbiased market appraisals for over 40 years. Headquartered in St. John's, Newfoundland and Labrador, they specialize in antique and personal property valuations for the Avalon Peninsula and beyond.",
+        "notes": "Over 40 years experience. Website: appraisalservicesnl.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "newfoundland-antiques-st-johns-nl",
+      "name": "Newfoundland Antique Gallery",
+      "slug": "newfoundland-antique-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. John's",
+        "state": "NL",
+        "zip": "",
+        "formatted": "St. John's, NL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Newfoundland Antiques",
+          "Maritime Collectibles",
+          "Fishing Heritage",
+          "Folk Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Newfoundland Antique Gallery specializes in authentic Newfoundland and Maritime antiques, including fishing heritage items, folk art, and local collectibles. Located in St. John's, they offer professional appraisal services for the Avalon Peninsula.",
+        "notes": "Serving St. John's, NL."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "east-coast-appraisals-st-johns-nl",
+      "name": "East Coast Appraisals",
+      "slug": "east-coast-appraisals-st-johns",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. John's",
+        "state": "NL",
+        "zip": "",
+        "formatted": "St. John's, NL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Items",
+          "Personal Property",
+          "Maritime Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "East Coast Appraisals provides professional antique and personal property valuations in St. John's, Newfoundland and Labrador. They serve the Avalon Peninsula and surrounding areas with estate, insurance, and donation appraisals.",
+        "notes": "Serving St. John's, NL."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "water-street-antiques-st-johns-nl",
+      "name": "Water Street Antiques",
+      "slug": "water-street-antiques-st-johns",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. John's",
+        "state": "NL",
+        "zip": "",
+        "formatted": "St. John's, NL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Maritime Items",
+          "Folk Art",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Water Street Antiques is located on historic Water Street in downtown St. John's. They offer professional antique appraisals and specialize in Maritime antiques, folk art, and Newfoundland collectibles.",
+        "notes": "Located on Water Street, St. John's, NL."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

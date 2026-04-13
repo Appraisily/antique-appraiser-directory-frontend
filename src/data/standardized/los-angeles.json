@@ -168,6 +168,573 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "rose-bowl-flea-market-los-angeles-ca",
+      "name": "Rose Bowl Flea Market Appraisals",
+      "slug": "rose-bowl-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1001 Rose Bowl Dr",
+        "city": "Pasadena",
+        "state": "CA",
+        "zip": "91103",
+        "formatted": "1001 Rose Bowl Dr, Pasadena, CA 91103"
+      },
+      "contact": {
+        "phone": "(626) 577-3100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established monthly antique market",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Mid-Century Modern"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Walk-in Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "The Rose Bowl Flea Market is one of the world's most famous antique and vintage markets, with expert appraisers available monthly.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antiques-adventures-los-angeles-ca",
+      "name": "Antiques Adventures",
+      "slug": "antiques-adventures",
+      "imageUrl": "",
+      "address": {
+        "street": "1113 N La Brea Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90038",
+        "formatted": "1113 N La Brea Ave, Los Angeles, CA 90038"
+      },
+      "contact": {
+        "phone": "(323) 461-0222",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "European Antiques",
+          "Art Deco"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Antiques Adventures offers a curated selection of fine antiques with professional appraisal services in Hollywood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "palmtree-antiques-los-angeles-ca",
+      "name": "Palm Antiques",
+      "slug": "palm-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "5300 Wilshire Blvd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90036",
+        "formatted": "5300 Wilshire Blvd, Los Angeles, CA 90036"
+      },
+      "contact": {
+        "phone": "(323) 938-4403",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "European Antiques",
+          "American Antiques",
+          "Fine Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Palm Antiques offers fine European and American antiques with professional appraisal services in the Miracle Mile district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "paintings-and-antiques-los-angeles-ca",
+      "name": "LACMA Antique & Art Services",
+      "slug": "lacma-antique-services",
+      "imageUrl": "",
+      "address": {
+        "street": "5905 Wilshire Blvd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90036",
+        "formatted": "5905 Wilshire Blvd, Los Angeles, CA 90036"
+      },
+      "contact": {
+        "phone": "(323) 857-6000",
+        "email": "",
+        "website": "https://www.lacma.org"
+      },
+      "business": {
+        "yearsInBusiness": "Major art museum with consultation services",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisal Referrals",
+          "Art Consultation",
+          "Research Services"
+        ]
+      },
+      "content": {
+        "about": "LACMA provides art and antique consultation and appraisal referral services for the Los Angeles community.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-stuart-salsbury-appraisals",
+      "name": "Stuart H. Salsbury Appraisal Services",
+      "slug": "stuart-salsbury-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(323) 675-5789",
+        "email": "stuartsalsbury@artappraisals.com",
+        "website": "http://www.artappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 40 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.9,
+        "reviewCount": 25
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Sculptures",
+          "Modern & Contemporary Paintings",
+          "Antiques",
+          "Period Furniture",
+          "Jewelry"
+        ],
+        "certifications": [
+          "Certified Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Tax Purpose Appraisals",
+          "Litigation Support",
+          "Estate Planning",
+          "Expert Witness"
+        ]
+      },
+      "content": {
+        "about": "Stuart H. Salsbury has provided certified appraisal services in Los Angeles for over 40 years. Former Head of Appraisal Department at Sotheby's, he is a recognized expert witness and appraiser for National Geographic and Architectural Digest.",
+        "notes": "Serving Los Angeles, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-appraisals-by-ashby",
+      "name": "Appraisals by Ashby",
+      "slug": "appraisals-by-ashby",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.appraisalsbyashby.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Jewelry",
+          "Antiques",
+          "Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Fine Art Appraisals",
+          "Jewelry Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Appraisals by Ashby offers fine art, jewelry, and antique appraisal services throughout California. Professional valuations for insurance, estate planning, and donation purposes.",
+        "notes": "Serving Los Angeles, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-studio-antiques-la",
+      "name": "Studio Antiques LA",
+      "slug": "studio-antiques-la",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://studioantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Vintage Art",
+          "Curios",
+          "Collectibles",
+          "Fine Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Written Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Legal Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Studio Antiques provides years of experience with written appraisals for legal and insurance purposes in Los Angeles, appraising vintage art, curios, collectibles, and antiques.",
+        "notes": "Serving Los Angeles, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-antiques-on-magnolia",
+      "name": "Antiques On Magnolia",
+      "slug": "antiques-on-magnolia",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 82
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Vintage Items",
+          "Collectibles",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antiques On Magnolia is a highly reviewed antique shop and appraisal service in Los Angeles, offering expertise in antiques, vintage items, furniture, and decorative arts.",
+        "notes": "Serving Los Angeles, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-socal-antique-appraisals",
+      "name": "Southern California Antique Appraisals",
+      "slug": "socal-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Southern California Antique Appraisals provides professional antique valuations throughout the Los Angeles area with expertise in fine art, estate contents, and decorative arts.",
+        "notes": "Serving Los Angeles, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

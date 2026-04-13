@@ -343,6 +343,452 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "wichita-stubbs-estates",
+      "name": "Stubbs Estates",
+      "slug": "stubbs-estates",
+      "imageUrl": "",
+      "address": {
+        "street": "3901 Pine Knot Ct",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "67208",
+        "formatted": "3901 Pine Knot Ct, Wichita, KS 67208"
+      },
+      "contact": {
+        "phone": "(316) 212-0110",
+        "email": "",
+        "website": "https://www.stubbestates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sales and appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antique Jewelry",
+          "Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [
+          "BBB A+ Rated"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Estate Sales",
+          "Consignment Sales",
+          "Antique Valuations"
+        ]
+      },
+      "content": {
+        "about": "Stubbs Estates specializes in the consignment and sale of fine objects, including art, jewelry, antiques, and collectible items in Wichita, KS. They are a BBB A+ rated business providing estate appraisal and estate sales services throughout the Wichita metro area.",
+        "notes": "BBB A+ rated. Active in the Wichita community with regular estate sales and fine art appraisals."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "wichita-estate-chics",
+      "name": "Estate Chics",
+      "slug": "estate-chics",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "67205",
+        "formatted": "Wichita, KS 67205"
+      },
+      "contact": {
+        "phone": "(316) 648-4545",
+        "email": "",
+        "website": "https://www.estatechics.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Jewelry Appraisal",
+          "Collectibles"
+        ],
+        "certifications": [
+          "BBB A Rated"
+        ],
+        "services": [
+          "Estate Sales",
+          "Antique Appraisals",
+          "Jewelry Appraisals",
+          "Estate Liquidation"
+        ]
+      },
+      "content": {
+        "about": "Estate Chics is a Wichita-based estate sale and antique company offering professional antique appraisals, jewelry appraisals, and estate liquidation services. They are a BBB A rated business serving Butler, Harvey, Kingman, Reno, Sedgwick, and Sumner Counties in Kansas.",
+        "notes": "Serves multiple counties across central Kansas. BBB A rated."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "wichita-poehler-mercantile-antique",
+      "name": "Poehler Mercantile Antique",
+      "slug": "poehler-mercantile-antique",
+      "imageUrl": "",
+      "address": {
+        "street": "301 Commercial St",
+        "city": "Emporia",
+        "state": "KS",
+        "zip": "66801",
+        "formatted": "301 Commercial St, Emporia, KS 66801 (Serves Wichita Area)"
+      },
+      "contact": {
+        "phone": "(620) 341-9092",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [
+          "BBB A+ Rated"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Poehler Mercantile Antique is a BBB A+ rated antique dealer and appraiser serving the Wichita area from their Emporia, KS location. They offer professional antique appraisals and sales of quality antiques and collectibles.",
+        "notes": "BBB A+ rated. Located in Emporia, KS but serves the greater Wichita area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "denice-morris-appraisals-wichita-ks",
+      "name": "Denice S. Morris - Art of Estates Appraiser",
+      "slug": "denice-morris-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "6222 E 21st St N, Ste 120",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "67208",
+        "formatted": "6222 E 21st St N, Ste 120, Wichita, KS 67208"
+      },
+      "contact": {
+        "phone": "(316) 613-9686",
+        "email": "",
+        "website": "https://artofestates.com/wichita-appraiser/"
+      },
+      "business": {
+        "yearsInBusiness": "ASA member since 1996",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Native American Antiquities",
+          "Pottery",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ASA Accredited Senior Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Native American Art Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Denice S. Morris is an Accredited Senior Appraiser with the American Society of Appraisers (ASA), having joined in 1996. Based in Wichita, KS, she specializes in fine art, antiques, Native American antiquities, and pottery. She has been featured as an appraiser at PBS Antiques Fairs. Denice provides USPAP-compliant appraisal reports for insurance, estate planning, charitable donations, and equitable distribution.",
+        "notes": "Featured PBS Antiques Fair appraiser. ASA member since 1996. Specializes in Native American art and pottery."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-wichita-ks",
+      "name": "ValuePros Appraisal Services - Wichita",
+      "slug": "valuepros-appraisal-wichita",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "",
+        "formatted": "Wichita, KS"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Personal Property",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Wichita, KS area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers with no personal interest in clients' items, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Wichita KS and surrounding areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "kansas-auction-estate-services-wichita-ks",
+      "name": "Kansas Auction & Estate Services",
+      "slug": "kansas-auction-estate-services",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "67205",
+        "formatted": "Wichita, KS 67205"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established auction and estate firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Collectibles",
+          "Personal Property",
+          "Auction Services"
+        ],
+        "certifications": [
+          "Licensed Auctioneers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Personal Property Appraisals",
+          "Auction Services"
+        ]
+      },
+      "content": {
+        "about": "Kansas Auction & Estate Services provides professional antique appraisals, estate sales, and liquidation services in the Wichita area. They handle everything from single-item antique valuations to full estate liquidations, serving families and individuals throughout south-central Kansas.",
+        "notes": "Serves Wichita KS and south-central Kansas. Full-service estate and auction firm."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "allied-estate-services-wichita-ks",
+      "name": "Allied Estate Services",
+      "slug": "allied-estate-services-wichita",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "67206",
+        "formatted": "Wichita, KS 67206"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Vintage Collectibles",
+          "Furniture",
+          "Personal Property"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Cleanouts",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Allied Estate Services provides antique appraisal and estate sale services in the Wichita, KS area. They offer comprehensive estate consulting, including personal property valuations, antique appraisals, estate sales, and cleanout services for families throughout the Wichita metro area.",
+        "notes": "Serves Wichita KS and surrounding communities. Full-service estate consulting."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

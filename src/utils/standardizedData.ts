@@ -75,6 +75,29 @@ const locationLoaders: Record<string, LocationModule> = Object.fromEntries(
 
 const locationCache = new Map<string, Promise<StandardizedLocation>>();
 
+// Lazy-built reverse index: appraiser id/slug → location slug
+let appraiserIndex: Map<string, string> | null = null;
+
+async function buildAppraiserIndex(): Promise<Map<string, string>> {
+  if (appraiserIndex) return appraiserIndex;
+  appraiserIndex = new Map();
+  const slugs = Object.keys(locationLoaders);
+  const locations = await Promise.all(
+    slugs.map(async (slug) => {
+      const loc = await getStandardizedLocation(slug);
+      return { slug, loc };
+    })
+  );
+  for (const { slug, loc } of locations) {
+    if (!loc?.appraisers) continue;
+    for (const appraiser of loc.appraisers) {
+      if (appraiser.id) appraiserIndex.set(appraiser.id, slug);
+      if (appraiser.slug) appraiserIndex.set(appraiser.slug, slug);
+    }
+  }
+  return appraiserIndex;
+}
+
 // Export cities from cities.json
 export const cities = citiesData.cities;
 
@@ -125,6 +148,20 @@ export async function getStandardizedAppraiser(appraiserId: string): Promise<Sta
   }
 
   try {
+    // First attempt: use the reverse index to find the location slug directly
+    const index = await buildAppraiserIndex();
+    const locationSlug = index.get(appraiserId);
+    if (locationSlug) {
+      const location = await getStandardizedLocation(locationSlug);
+      if (location?.appraisers) {
+        const appraiser = location.appraisers.find(
+          app => app.id === appraiserId || app.slug === appraiserId
+        );
+        if (appraiser) return appraiser;
+      }
+    }
+
+    // Fallback: full scan (needed on first call before index is built)
     const allLocations = await Promise.all(
       Object.keys(locationLoaders).map(slug => getStandardizedLocation(slug))
     );

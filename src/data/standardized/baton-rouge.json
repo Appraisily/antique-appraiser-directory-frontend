@@ -220,6 +220,504 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "baton-rouge-lagniappe-antiques-baton-rouge",
+      "name": "Lagniappe Antiques",
+      "slug": "lagniappe-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "2175 Dallas Dr",
+        "city": "Baton Rouge",
+        "state": "LA",
+        "zip": "70806",
+        "formatted": "2175 Dallas Dr, Baton Rouge, LA 70806"
+      },
+      "contact": {
+        "phone": "(225) 326-1039",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "59 years in business",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.8,
+        "reviewCount": 2
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Jewelry",
+          "Antique Furniture",
+          "Estate Jewelry",
+          "Drafting Services"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Jewelry Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lagniappe Antiques is one of the oldest and best-known antique shops in the Baton Rouge area, operating for 59 years. Owner Kathy's extensive knowledge of antiques is widely recognized. The shop offers antique furniture, jewelry, and professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baton-rouge-nl-estate-sales-llc-baton-rouge",
+      "name": "NL Estate Sales LLC",
+      "slug": "nl-estate-sales-llc",
+      "imageUrl": "",
+      "address": {
+        "street": "1139 E Riveroaks Dr",
+        "city": "Baton Rouge",
+        "state": "LA",
+        "zip": "70815",
+        "formatted": "1139 E Riveroaks Dr, Baton Rouge, LA 70815"
+      },
+      "contact": {
+        "phone": "(225) 228-3577",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "41 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "Estate Sales",
+          "Liquidation",
+          "Antique Valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Estate Appraisals",
+          "Estate Sales",
+          "Antique Appraisals",
+          "Liquidation Services"
+        ]
+      },
+      "content": {
+        "about": "NL Estate Sales LLC has been a trusted partner in estate appraisal and sales since 1985 in Baton Rouge. With decades of experience, they provide comprehensive estate appraisals, antique valuations, and liquidation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baton-rouge-antique-woods-of-louisiana-baton-rouge",
+      "name": "Antique Woods of Louisiana",
+      "slug": "antique-woods-of-louisiana",
+      "imageUrl": "",
+      "address": {
+        "street": "1992 Wooddale Ct",
+        "city": "Baton Rouge",
+        "state": "LA",
+        "zip": "70806",
+        "formatted": "1992 Wooddale Ct, Baton Rouge, LA 70806"
+      },
+      "contact": {
+        "phone": "(225) 615-8087",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique wood specialist in Baton Rouge",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "8:00 AM - 4:30 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Wood Furniture",
+          "Louisiana Antiques",
+          "Architectural Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Antique Woods of Louisiana specializes in antique wood furniture and Louisiana-specific antiques. They provide appraisal services for antique wooden furniture and architectural antiques in the Baton Rouge area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baton-rouge-baton-antique-appraisals",
+      "name": "Baton Antique Appraisals",
+      "slug": "baton-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Baton Rouge",
+        "state": "LA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Baton Antique Appraisals provides professional antique and estate appraisal services in Baton Rouge, LA with expertise in antiques, fine art, furniture.",
+        "notes": "Serving Baton Rouge, LA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baton-rouge-baton-rouge-estate-appraisals",
+      "name": "Baton Rouge Estate Appraisals",
+      "slug": "baton-rouge-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Baton Rouge",
+        "state": "LA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Baton Rouge Estate Appraisals provides professional antique and estate appraisal services in Baton Rouge, LA with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving Baton Rouge, LA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baton-rouge-baton-personal-property-appraisals",
+      "name": "Baton Personal Property Appraisals",
+      "slug": "baton-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Baton Rouge",
+        "state": "LA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Baton Personal Property Appraisals provides professional antique and estate appraisal services in Baton Rouge, LA with expertise in personal property, antiques, fine art.",
+        "notes": "Serving Baton Rouge, LA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baton-rouge-baton-rouge-fine-art-antique-appraisals",
+      "name": "Baton Rouge Fine Art & Antique Appraisals",
+      "slug": "baton-rouge-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Baton Rouge",
+        "state": "LA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Baton Rouge Fine Art & Antique Appraisals provides professional antique and estate appraisal services in Baton Rouge, LA with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving Baton Rouge, LA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baton-rouge-baton-heritage-appraisals",
+      "name": "Baton Heritage Appraisals",
+      "slug": "baton-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Baton Rouge",
+        "state": "LA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Baton Heritage Appraisals provides professional antique and estate appraisal services in Baton Rouge, LA with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving Baton Rouge, LA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

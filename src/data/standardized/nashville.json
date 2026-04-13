@@ -169,6 +169,509 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "nashville-antique-gallery-nashville-tn",
+      "name": "Nashville Antique Gallery",
+      "slug": "nashville-antique-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "1608 Clinton St",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37203",
+        "formatted": "1608 Clinton St, Nashville, TN 37203"
+      },
+      "contact": {
+        "phone": "(615) 750-5550",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Southern Antiques",
+          "Music Memorabilia"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Nashville Antique Gallery offers a wide selection of fine antiques with professional appraisal services in the Wedgewood-Houston area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "gas-lamp-antiques-nashville-tn",
+      "name": "Gas Lamp Antiques",
+      "slug": "gas-lamp-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "4024 Hillsboro Pike",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37215",
+        "formatted": "4024 Hillsboro Pike, Nashville, TN 37215"
+      },
+      "contact": {
+        "phone": "(615) 292-2250",
+        "email": "",
+        "website": "https://www.gaslampantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Lighting",
+          "Fine Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Lighting Restoration"
+        ]
+      },
+      "content": {
+        "about": "Gas Lamp Antiques offers fine antiques and lighting with professional appraisal services in Green Hills.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "eighth-avenue-antiques-nashville-tn",
+      "name": "Eighth Avenue Antique District",
+      "slug": "eighth-avenue-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "2100 8th Ave S",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37204",
+        "formatted": "2100 8th Ave S, Nashville, TN 37204"
+      },
+      "contact": {
+        "phone": "(615) 383-1810",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Historic antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Southern Antiques",
+          "Vintage Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "The Eighth Avenue Antique District is Nashville's premier antique destination, with multiple dealers offering expert appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nashville-michael-hall-antiques",
+      "name": "Michael Hall Antiques",
+      "slug": "michael-hall-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.michaelhallantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "18th-20th Century American Furniture",
+          "Southern Furniture",
+          "Antiques",
+          "Fine Art"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Michael Hall is an antiques dealer and appraiser based in Nashville, specializing in 18th, 19th and 20th century American and Southern Furniture.",
+        "notes": "Serving Nashville, TN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nashville-case-antiques-auction",
+      "name": "Case Antiques Auction",
+      "slug": "case-antiques-auction",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://caseantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Jewelry",
+          "Estate Contents",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Professional Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Case Antiques provides appraisal and auction services in Nashville for fine art, antiques, jewelry, and entire estates.",
+        "notes": "Serving Nashville, TN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nashville-music-city-antique-appraisals",
+      "name": "Music City Antique Appraisals",
+      "slug": "music-city-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Southern Antiques",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Music City Antique Appraisals offers professional antique valuations throughout Nashville with expertise in Southern antiques, furniture, and fine art.",
+        "notes": "Serving Nashville, TN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nashville-tennessee-estate-appraisals",
+      "name": "Tennessee Estate Appraisals",
+      "slug": "tennessee-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Collectibles",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Probate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Tennessee Estate Appraisals provides comprehensive antique and estate valuations throughout Nashville and Middle Tennessee.",
+        "notes": "Serving Nashville, TN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nashville-nashville-antique-art-appraisals",
+      "name": "Nashville Antique & Art Appraisals",
+      "slug": "nashville-antique-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Decorative Arts",
+          "Estate Items",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Nashville Antique & Art Appraisals offers professional valuations for antiques, fine art, and decorative arts throughout the Nashville area.",
+        "notes": "Serving Nashville, TN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

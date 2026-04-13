@@ -75,7 +75,7 @@
     },
     {
       "id": "boston-doyle-auctions-new-englandboston-office",
-      "name": "Doyle Auctions – New England/Boston Office",
+      "name": "Doyle Auctions \u2013 New England/Boston Office",
       "slug": "doyle-auctions-new-englandboston-office",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-doyle-auctions-new-englandboston-office_1742170074753_cwtXjI4DL.jpg",
       "address": {
@@ -106,7 +106,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Rates are quoted after a brief intake call. Doyle Auctions – New England/Boston Office supports antique appraisal needs across Boston, MA.",
+        "pricing": "Rates are quoted after a brief intake call. Doyle Auctions \u2013 New England/Boston Office supports antique appraisal needs across Boston, MA.",
         "rating": 4.6,
         "reviewCount": 12
       },
@@ -125,8 +125,8 @@
         ]
       },
       "content": {
-        "about": "Doyle Auctions – New England/Boston Office offers antique appraisal services in Boston, MA. Primary specialties include Fine art. Services include Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "notes": "Doyle Auctions – New England/Boston Office serves Boston, MA with antique appraisal support focused on Fine art."
+        "about": "Doyle Auctions \u2013 New England/Boston Office offers antique appraisal services in Boston, MA. Primary specialties include Fine art. Services include Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "notes": "Doyle Auctions \u2013 New England/Boston Office serves Boston, MA with antique appraisal support focused on Fine art."
       },
       "reviews": [
         {
@@ -155,7 +155,7 @@
     },
     {
       "id": "boston-prestige-estate-services-boston-office",
-      "name": "Prestige Estate Services – Boston Office",
+      "name": "Prestige Estate Services \u2013 Boston Office",
       "slug": "prestige-estate-services-boston-office",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-prestige-estate-services-boston-office_1742170077833_W2idSQ0d5.jpg",
       "address": {
@@ -186,7 +186,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Pricing depends on item type and research scope. Prestige Estate Services – Boston Office provides written estimates for antique appraisals in Boston, MA.",
+        "pricing": "Pricing depends on item type and research scope. Prestige Estate Services \u2013 Boston Office provides written estimates for antique appraisals in Boston, MA.",
         "rating": 4.9,
         "reviewCount": 11
       },
@@ -203,7 +203,7 @@
         ]
       },
       "content": {
-        "about": "Prestige Estate Services – Boston Office offers antique appraisal services in Boston, MA. Primary specialties include Fine art. Services include Antique Appraisals, Estate Valuations.",
+        "about": "Prestige Estate Services \u2013 Boston Office offers antique appraisal services in Boston, MA. Primary specialties include Fine art. Services include Antique Appraisals, Estate Valuations.",
         "notes": "Helping Boston, MA collectors with appraisals for Fine art."
       },
       "reviews": [
@@ -240,6 +240,488 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "boston-freemans-auction-boston",
+      "name": "Freeman's Auction",
+      "slug": "freemans-auction",
+      "imageUrl": "",
+      "address": {
+        "street": "45 School St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02108",
+        "formatted": "45 School St, Boston, MA 02108"
+      },
+      "contact": {
+        "phone": "(617) 367-3400",
+        "email": "",
+        "website": "https://www.freemansauction.com"
+      },
+      "business": {
+        "yearsInBusiness": "221 years in business (founded 1805)",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.7,
+        "reviewCount": 2
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Rare Books",
+          "Antique Furniture",
+          "Jewelry",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Freeman's Auction is America's oldest auction house, founded in 1805. Their Boston office at 45 School St provides expert antique appraisals, auction services, and estate valuations for fine art, rare books, antique furniture, jewelry, and collectibles.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "boston-clower-fine-art-boston",
+      "name": "Clower Fine Art",
+      "slug": "clower-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "261 Perham St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02132",
+        "formatted": "261 Perham St, Boston, MA 02132"
+      },
+      "contact": {
+        "phone": "(617) 849-3585",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art Appraisals",
+          "Charitable Donation Valuations",
+          "Estate Tax Appraisals",
+          "Insurance Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Fine Art Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Charitable Donation Valuations"
+        ]
+      },
+      "content": {
+        "about": "Clower Fine Art appraises fine art for resale, charitable donation, estate and gift tax, equitable distribution, and insurance. They serve clients throughout New England with over 16 years of professional appraisal experience.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "boston-elegant-findings-antiques-boston",
+      "name": "Elegant Findings Antiques",
+      "slug": "elegant-findings-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "89 Charles St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02114",
+        "formatted": "89 Charles St, Boston, MA 02114"
+      },
+      "contact": {
+        "phone": "(617) 973-4844",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "37 years in business",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12:00 PM - 5:00 PM"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Porcelain",
+          "Stemware",
+          "Paintings",
+          "Rare Antiques",
+          "Decorative Accessories"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Elegant Findings Antiques on Boston's Charles Street offers an extensive selection of antiques including antique porcelain, stemware, paintings, rare antiques, and decorative accessories. With 37 years of experience, they provide expert antique appraisals.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "boston-a-art-collector-boston",
+      "name": "A Art Collector",
+      "slug": "a-art-collector",
+      "imageUrl": "",
+      "address": {
+        "street": "382 Commonwealth Ave",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02215",
+        "formatted": "382 Commonwealth Ave, Boston, MA 02215"
+      },
+      "contact": {
+        "phone": "(617) 564-1278",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "55 years in business (est. 1970)",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "19th & 20th Century American Fine Art",
+          "European Fine Art",
+          "Art Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Estate Valuations",
+          "Art Purchasing & Sales"
+        ]
+      },
+      "content": {
+        "about": "A Art Collector is an art dealer in Boston established in 1970, specializing in 19th and 20th century American and European fine art. They purchase and appraise fine art, working closely and confidentially with clients for over 55 years.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "elegant-findings-antiques-boston-ma",
+      "name": "Elegant Findings Antiques",
+      "slug": "elegant-findings-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "89 Charles St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02114",
+        "formatted": "89 Charles St, Boston, MA 02114"
+      },
+      "contact": {
+        "phone": "(617) 973-4844",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "37 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Porcelain",
+          "Paintings",
+          "Rare Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "An extensive selection of antiques including antique porcelain, stemware, paintings, rare antiques and decorative accessories. Expert appraisal services available.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "a-art-collector-boston-ma",
+      "name": "A Art Collector",
+      "slug": "a-art-collector",
+      "imageUrl": "",
+      "address": {
+        "street": "382 Commonwealth Ave",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02215",
+        "formatted": "382 Commonwealth Ave, Boston, MA 02215"
+      },
+      "contact": {
+        "phone": "(617) 564-1278",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "55 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American Fine Art",
+          "European Fine Art",
+          "19th-20th Century Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "A Art Collector is an art dealer in Boston, est. 1970. We purchase 19th and 20th century American and European fine art. Expert antique and art appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "devonia-antiques-boston-ma",
+      "name": "Devonia Antiques",
+      "slug": "devonia-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "15 Charles St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02114",
+        "formatted": "15 Charles St, Boston, MA 02114"
+      },
+      "contact": {
+        "phone": "(617) 523-8313",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established Beacon Hill antiques dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Decorative Arts",
+          "Silver"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Silver Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Devonia Antiques offers fine antiques and decorative arts on Beacon Hill with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cambridge-antique-market-boston-ma",
+      "name": "Cambridge Antique Market",
+      "slug": "cambridge-antique-market",
+      "imageUrl": "",
+      "address": {
+        "street": "201 Monsignor Obrien Hwy",
+        "city": "Cambridge",
+        "state": "MA",
+        "zip": "02141",
+        "formatted": "201 Monsignor Obrien Hwy, Cambridge, MA 02141"
+      },
+      "contact": {
+        "phone": "(617) 868-9655",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "35 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 31
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Furniture",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Buyouts",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Cambridge Antique Market is a multi-dealer antique emporium offering a wide range of antiques with expert appraisal services available.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

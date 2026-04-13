@@ -249,6 +249,183 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "frank-hall-appraisals-calgary-ab",
+      "name": "Frank Hall Appraisals",
+      "slug": "frank-hall-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "5240 1A Street SW",
+        "city": "Calgary",
+        "state": "AB",
+        "zip": "",
+        "formatted": "5240 1A Street SW, Calgary, AB"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.frankhallappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1979 (45+ years)",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Furniture",
+          "Art",
+          "Estate Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Furniture Appraisals",
+          "Art Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Frank Hall Appraisals has been Calgary's trusted appraiser since 1979, with over 40 years of experience as a qualified appraiser of antiques, fine furniture, and art. Serving Calgary and surrounding areas with professional antique valuations.",
+        "notes": "Since 1979. Over 40 years experience. Website: frankhallappraisals.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "canadian-art-appraisals-calgary-ab",
+      "name": "Canadian Art Appraisals",
+      "slug": "canadian-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Calgary",
+        "state": "AB",
+        "zip": "",
+        "formatted": "Calgary, AB"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://canadianartappraisals.ca"
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Canadian Art",
+          "Fine Art",
+          "Antiques",
+          "Probate Valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Probate Appraisals",
+          "Cultural Properties Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Canadian Art Appraisals is a Calgary-based fine art appraiser specializing in Canadian art, offering appraisals for insurance, sale (Fair Market Value), probate, and Cultural Properties. Experienced in both antique and contemporary art valuations.",
+        "notes": "Website: canadianartappraisals.ca"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "masters-gallery-calgary-ab",
+      "name": "Masters Gallery",
+      "slug": "masters-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Calgary",
+        "state": "AB",
+        "zip": "",
+        "formatted": "Calgary, AB"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established art gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Canadian Art",
+          "Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Gallery Services"
+        ]
+      },
+      "content": {
+        "about": "Masters Gallery is a Calgary-based art gallery offering professional antique and fine art appraisal services. Recognized as one of the top antique appraisal services in Calgary on Yelp.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Calgary, AB."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

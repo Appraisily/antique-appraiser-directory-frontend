@@ -168,6 +168,512 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "orlando-antique-mall-orlando-fl",
+      "name": "Orlando Antique Mall",
+      "slug": "orlando-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "4835 International Dr",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32819",
+        "formatted": "4835 International Dr, Orlando, FL 32819"
+      },
+      "contact": {
+        "phone": "(407) 352-6676",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Theme Park Memorabilia"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Orlando Antique Mall offers a wide selection of antiques from multiple dealers with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "winter-park-antiques-orlando-fl",
+      "name": "Winter Park Antiques",
+      "slug": "winter-park-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "320 S Park Ave",
+        "city": "Winter Park",
+        "state": "FL",
+        "zip": "32789",
+        "formatted": "320 S Park Ave, Winter Park, FL 32789"
+      },
+      "contact": {
+        "phone": "(407) 647-2788",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Art",
+          "Tiffany & Co. Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Winter Park Antiques offers fine antiques and art with professional appraisal services in the upscale Park Avenue district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "central-florida-estate-sales-orlando-fl",
+      "name": "Central Florida Estate Sales & Appraisals",
+      "slug": "central-florida-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "450 S Orange Ave",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "32801",
+        "formatted": "450 S Orange Ave, Orlando, FL 32801"
+      },
+      "contact": {
+        "phone": "(407) 422-2323",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "Antique Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Central Florida Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the Orlando metro area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "orlando-heritage-sales-appraisals",
+      "name": "Heritage Sales & Appraisals",
+      "slug": "heritage-sales-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Heritage Sales & Appraisals provides antique and estate appraisal services in Orlando with expertise in fine art, furniture, and collectibles.",
+        "notes": "Serving Orlando, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "orlando-personal-property-appraisal-group",
+      "name": "Personal Property Appraisal Group",
+      "slug": "personal-property-appraisal-group",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://ppappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Consulting",
+          "Estimates",
+          "Valuation Services",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Personal Property Appraisal Group offers consulting, estimates, and valuation services across Central Florida with expertise in antiques, fine art, and collectibles.",
+        "notes": "Serving Orlando, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "orlando-central-florida-appraisal-consultants",
+      "name": "Central Florida Appraisal Consultants",
+      "slug": "central-florida-appraisal-consultants",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Items",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Central Florida Appraisal Consultants provides professional antique and estate valuations throughout the Orlando metro area.",
+        "notes": "Serving Orlando, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "orlando-florida-personal-property-appraisal",
+      "name": "Florida Personal Property Appraisal",
+      "slug": "florida-personal-property-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Estate Items",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "ISA CAPP"
+        ],
+        "services": [
+          "Onsite Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Florida Personal Property Appraisal provides insured and bonded antique appraisal services throughout Central Florida with ISA CAPP-certified appraisers.",
+        "notes": "Serving Orlando, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "orlando-orange-tree-antique-appraisals",
+      "name": "Orange Tree Antique Appraisals",
+      "slug": "orange-tree-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Vintage Items",
+          "Collectibles",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Orange Tree Antique Appraisals offers professional antique valuations in Orlando with expertise in vintage items, furniture, and decorative arts.",
+        "notes": "Serving Orlando, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

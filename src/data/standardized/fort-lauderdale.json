@@ -226,6 +226,459 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "fort-lauderdale-kerwick-appraisals",
+      "name": "Kerwick Appraisals",
+      "slug": "kerwick-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Fort Lauderdale, FL"
+      },
+      "contact": {
+        "phone": "(954) 565-9031",
+        "email": "sharon@kerwick.com",
+        "website": "https://www.kerwick.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Residential Contents",
+          "Oriental Rugs",
+          "Silver",
+          "Personal Property"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA CAPP",
+          "CRA"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Insurance Valuations",
+          "Estate Tax Appraisals",
+          "Equitable Distribution",
+          "Donation Valuations",
+          "Expert Witness Testimony",
+          "Litigation Support"
+        ]
+      },
+      "content": {
+        "about": "Kerwick Appraisals provides accurate, objective, and uniform valuations of personal property in the South Florida area. Operated by Sharon Kerwick, who has been appraising since 1976, the firm works with insurance companies, trust departments, attorneys, private individuals, and government agencies including U.S. Customs to establish reliable property records for financial, legal, and protective purposes. Specializes in antiques, residential contents, oriental rugs, and silver.",
+        "notes": "Serving South Florida since 1976. ASA, ISA CAPP, and CRA certified. Works with U.S. Customs and insurance companies."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "fort-lauderdale-lion-and-unicorn",
+      "name": "Lion and Unicorn",
+      "slug": "lion-and-unicorn",
+      "imageUrl": "",
+      "address": {
+        "street": "200 Oakwood Ln, Ste 200",
+        "city": "Hollywood",
+        "state": "FL",
+        "zip": "33020",
+        "formatted": "200 Oakwood Ln, Ste 200, Hollywood, FL 33020 (Fort Lauderdale Area)"
+      },
+      "contact": {
+        "phone": "(954) 866-8044",
+        "email": "sales@lionandunicorn.com",
+        "website": "https://lionandunicorn.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique auction firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Fee-based valuations, sometimes waived with consignment",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiquities",
+          "Fine Art",
+          "Bronzes and Sculptures",
+          "Crystal and Glass",
+          "Porcelain and Ceramics",
+          "Fine Jewelry and Timepieces",
+          "Asian Antiques",
+          "Historical and Sports Memorabilia"
+        ],
+        "certifications": [
+          "Florida License AB3859",
+          "Accredited Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Auction Consignment",
+          "Market Valuation",
+          "Professional Packing and Item Removal",
+          "Published Price Guide Catalogs"
+        ]
+      },
+      "content": {
+        "about": "Lion and Unicorn is a South Florida-based appraisal and antique auction firm that leverages industry expertise, proprietary data, and a global buyer network to accurately value and sell collectibles and fine art. They provide transparent, research-driven valuations and manage the entire sales process from initial assessment and cataloging to secure packing, auction execution, and final settlement.",
+        "notes": "Located in Hollywood, FL minutes from Fort Lauderdale. Florida License AB3859. Global buyer network."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "fort-lauderdale-bf-estate-sales",
+      "name": "B & F Estate Sales",
+      "slug": "bf-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Plantation",
+        "state": "FL",
+        "zip": "33324",
+        "formatted": "Plantation, FL 33324 (Fort Lauderdale Area)"
+      },
+      "contact": {
+        "phone": "(954) 401-2222",
+        "email": "bonnie@estatesalesfl.net",
+        "website": "https://estatesalesfl.net"
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 8:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antique Sales",
+          "Estate Liquidation",
+          "Antique Dealers"
+        ],
+        "certifications": [
+          "Licensed and Insured"
+        ],
+        "services": [
+          "Estate Sales",
+          "Antique Appraisals",
+          "Estate Liquidation",
+          "Property Cleanout"
+        ]
+      },
+      "content": {
+        "about": "B & F Estate Sales provides South Florida with estate liquidation and real estate services. They are one of the most experienced antique dealers in South Florida, offering professional estate sales, antique appraisal, and liquidation services throughout Fort Lauderdale, Plantation, and the greater South Florida region.",
+        "notes": "Licensed and insured. Based in Plantation, FL serving all of South Florida including Fort Lauderdale."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lion-and-unicorn-fort-lauderdale-fl",
+      "name": "Lion and Unicorn - Art & Antiques Appraisal",
+      "slug": "lion-and-unicorn-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "200 Oakwood Ln, Suite 200",
+        "city": "Hollywood",
+        "state": "FL",
+        "zip": "33020",
+        "formatted": "200 Oakwood Ln, Suite 200, Hollywood, FL 33020 (Serves Fort Lauderdale)"
+      },
+      "contact": {
+        "phone": "(954) 866-8044",
+        "email": "info@lionandunicorn.com",
+        "website": "https://lionandunicorn.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established art and antique appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [
+          "Certified Appraisers",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lion and Unicorn provides expert antique and art appraisals in the Fort Lauderdale area. As a multilingual firm, they offer trusted valuations for art, estates, and collectibles throughout South Florida. They serve collectors, estates, and institutions with professional appraisal reports meeting USPAP standards.",
+        "notes": "Multilingual service. Serves Fort Lauderdale and South Florida area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-fort-lauderdale-fl",
+      "name": "ValuePros Appraisal Services - Fort Lauderdale",
+      "slug": "valuepros-appraisal-fort-lauderdale",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Fort Lauderdale, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/ft-lauderdale/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Jewelry",
+          "Coins",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a team of experienced, accredited personal property appraisers serving Fort Lauderdale and surrounding areas since 1976. They provide unbiased, independent valuations for antiques, collectibles, fine art, and personal property with USPAP-compliant reports.",
+        "notes": "Family owned since 1976. Serves Fort Lauderdale FL and South Florida area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "kerwick-appraisals-fort-lauderdale-fl",
+      "name": "Kerwick Appraisals",
+      "slug": "kerwick-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Fort Lauderdale, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.kerwick.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Residential Contents",
+          "Oriental Rugs",
+          "Silver",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "Certified Appraisers",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Personal Property Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Kerwick Appraisals specializes in accurate valuations of antiques and residential contents, oriental rugs, silver, fine art, and decorative arts in the Fort Lauderdale, Florida area. They provide USPAP-compliant appraisal reports for insurance, estate planning, charitable donations, and equitable distribution.",
+        "notes": "Located in the Fort Lauderdale, Florida area. Specializes in oriental rugs and silver."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nugent-appraisal-services-fort-lauderdale-fl",
+      "name": "Nugent Appraisal Services",
+      "slug": "nugent-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Fort Lauderdale",
+        "state": "FL",
+        "zip": "33308",
+        "formatted": "Fort Lauderdale, FL 33308"
+      },
+      "contact": {
+        "phone": "(954) 606-6401",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Decorative Art",
+          "Collectibles",
+          "Personal Property"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Nugent Appraisal Services provides professional antique and personal property appraisals in the Fort Lauderdale, FL area. They offer comprehensive valuation services for antiques, fine art, decorative art, and collectibles for insurance, estate planning, and donation purposes.",
+        "notes": "Highly rated on Yelp for Antique Appraisal in Fort Lauderdale, FL."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

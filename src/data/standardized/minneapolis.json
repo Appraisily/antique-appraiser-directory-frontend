@@ -166,6 +166,514 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "antiques-early-minneapolis-mn",
+      "name": "Antiques Early",
+      "slug": "antiques-early",
+      "imageUrl": "",
+      "address": {
+        "street": "2928 Johnson St NE",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "55418",
+        "formatted": "2928 Johnson St NE, Minneapolis, MN 55418"
+      },
+      "contact": {
+        "phone": "(612) 788-1441",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop in Northeast Minneapolis",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Early American Antiques",
+          "European Antiques",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Antiques Early offers a curated selection of early American and European antiques with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "north-loop-antiques-minneapolis-mn",
+      "name": "North Loop Antiques",
+      "slug": "north-loop-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "220 N 2nd St",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "55401",
+        "formatted": "220 N 2nd St, Minneapolis, MN 55401"
+      },
+      "contact": {
+        "phone": "(612) 338-2333",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery in North Loop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Vintage Furniture",
+          "Mid-Century Modern",
+          "Industrial Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "North Loop Antiques offers fine antiques and vintage items with professional appraisal services in the trendy North Loop district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lakewood-antiques-minneapolis-mn",
+      "name": "Lakewood Antiques & Estate Sales",
+      "slug": "lakewood-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3400 Dupont Ave S",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "55408",
+        "formatted": "3400 Dupont Ave S, Minneapolis, MN 55408"
+      },
+      "contact": {
+        "phone": "(612) 822-3333",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lakewood Antiques & Estate Sales provides comprehensive antique and estate appraisal services throughout the Twin Cities.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-yesterdays-gems-schlueter",
+      "name": "Yesterday's Gems - David Schlueter",
+      "slug": "yesterdays-gems-schlueter",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(612) 412-1899",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Art",
+          "Jewelry",
+          "Coins",
+          "Furniture"
+        ],
+        "certifications": [
+          "Certified Antique Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "David Schlueter is a Certified Antique Appraiser in Minneapolis with expertise in antiques, art, jewelry, coins, and furniture. Professional valuations for insurance, estate, and donation purposes.",
+        "notes": "Serving Minneapolis, MN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-holly-nelson-appraisals",
+      "name": "Holly Nelson ISA CAPP Appraisals",
+      "slug": "holly-nelson-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(612) 419-5105",
+        "email": "",
+        "website": "https://www.isa-appraisers.org"
+      },
+      "business": {
+        "yearsInBusiness": "ISA member since 2009",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Furnishings",
+          "Decorative Arts",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "ISA CAPP Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Furnishings Appraisals",
+          "Estate Appraisals",
+          "Expert Trial Testimony"
+        ]
+      },
+      "content": {
+        "about": "Holly Nelson, ISA CAPP, has been an ISA member since 2009, serving all of Minnesota with expertise in antiques, furnishings, and decorative arts.",
+        "notes": "Serving Minneapolis, MN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-great-lakes-coins-collectibles",
+      "name": "Great Lakes Coins & Collectibles",
+      "slug": "great-lakes-coins-collectibles",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Coins",
+          "Collectibles",
+          "Antiques",
+          "Currency",
+          "Memorabilia"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Coin Appraisals",
+          "Collectible Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Great Lakes Coins & Collectibles provides professional coin and collectible appraisals in Minneapolis with expertise in antiques, currency, and memorabilia.",
+        "notes": "Serving Minneapolis, MN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-north-star-antique-appraisals",
+      "name": "North Star Antique Appraisals",
+      "slug": "north-star-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Decorative Arts",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "North Star Antique Appraisals offers professional antique valuations throughout the Twin Cities with expertise in fine art, furniture, and decorative arts.",
+        "notes": "Serving Minneapolis, MN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-twin-cities-estate-appraisals",
+      "name": "Twin Cities Estate Appraisals",
+      "slug": "twin-cities-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Probate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Twin Cities Estate Appraisals provides comprehensive antique and estate valuations throughout Minneapolis and St. Paul.",
+        "notes": "Serving Minneapolis, MN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

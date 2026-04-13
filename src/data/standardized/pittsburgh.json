@@ -124,7 +124,7 @@
       },
       "expertise": {
         "specialties": [
-          "Fine art ($\\text{19th–21st century}$), antiques ($\\text{furniture}$), decorative arts ($\\text{ceramics}$).  \n- Certifications: International Fine Art Appraiser ($\\text{IFAA}$), USPAP-compliant reports [$^2$][$^3$].  \n- Services: Insurance valuations ($\\text{retail replacement}$), charitable donation documentation ($\\text{fair market value + IRS Form 8283}$).  \n- Years Active: 20+ years [$^2$].  \n- Contact: [(412) 867-1600](https://www.appraisersforestates.com/donation)"
+          "Fine art ($\\text{19th\u201321st century}$), antiques ($\\text{furniture}$), decorative arts ($\\text{ceramics}$).  \n- Certifications: International Fine Art Appraiser ($\\text{IFAA}$), USPAP-compliant reports [$^2$][$^3$].  \n- Services: Insurance valuations ($\\text{retail replacement}$), charitable donation documentation ($\\text{fair market value + IRS Form 8283}$).  \n- Years Active: 20+ years [$^2$].  \n- Contact: [(412) 867-1600](https://www.appraisersforestates.com/donation)"
         ],
         "certifications": [
           "IFAA",
@@ -136,8 +136,8 @@
         ]
       },
       "content": {
-        "about": "Kurt Shaw & Company offers antique appraisal services in Pittsburgh, PE. Primary specialties include Fine art ($\\text{19th–21st century}$), antiques ($\\text{furniture}$), decorative arts ($\\text{ceramics}$).  \n- Certifications: International Fine Art Appraiser ($\\text{IFAA}$), USPAP-compliant reports [$^2$][$^3$].  \n- Services: Insurance valuations ($\\text{retail replacement}$), charitable donation documentation ($\\text{fair market value + IRS Form 8283}$).  \n- Years Active: 20+ years [$^2$].  \n- Contact: [(412) 867-1600](https://www.appraisersforestates.com/donation). Services include Insurance valuations ($\\text{retail replacement}$), charitable donation documentation ($\\text{fair market value + IRS Form 8283}$)..",
-        "notes": "Serving Pittsburgh, PE clients who need antique valuations in Fine art ($\\text{19th–21st century}$), antiques ($\\text{furniture}$), decorative arts ($\\text{ceramics}$).  \n- Certifications: International Fine Art Appraiser ($\\text{IFAA}$), USPAP-compliant reports [$^2$][$^3$].  \n- Services: Insurance valuations ($\\text{retail replacement}$), charitable donation documentation ($\\text{fair market value + IRS Form 8283}$).  \n- Years Active: 20+ years [$^2$].  \n- Contact: [(412) 867-1600](https://www.appraisersforestates.com/donation)."
+        "about": "Kurt Shaw & Company offers antique appraisal services in Pittsburgh, PE. Primary specialties include Fine art ($\\text{19th\u201321st century}$), antiques ($\\text{furniture}$), decorative arts ($\\text{ceramics}$).  \n- Certifications: International Fine Art Appraiser ($\\text{IFAA}$), USPAP-compliant reports [$^2$][$^3$].  \n- Services: Insurance valuations ($\\text{retail replacement}$), charitable donation documentation ($\\text{fair market value + IRS Form 8283}$).  \n- Years Active: 20+ years [$^2$].  \n- Contact: [(412) 867-1600](https://www.appraisersforestates.com/donation). Services include Insurance valuations ($\\text{retail replacement}$), charitable donation documentation ($\\text{fair market value + IRS Form 8283}$)..",
+        "notes": "Serving Pittsburgh, PE clients who need antique valuations in Fine art ($\\text{19th\u201321st century}$), antiques ($\\text{furniture}$), decorative arts ($\\text{ceramics}$).  \n- Certifications: International Fine Art Appraiser ($\\text{IFAA}$), USPAP-compliant reports [$^2$][$^3$].  \n- Services: Insurance valuations ($\\text{retail replacement}$), charitable donation documentation ($\\text{fair market value + IRS Form 8283}$).  \n- Years Active: 20+ years [$^2$].  \n- Contact: [(412) 867-1600](https://www.appraisersforestates.com/donation)."
       },
       "reviews": [
         {
@@ -251,6 +251,442 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "strip-district-antiques-pittsburgh-pa",
+      "name": "Strip District Antiques",
+      "slug": "strip-district-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "2100 Smallman St",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "15222",
+        "formatted": "2100 Smallman St, Pittsburgh, PA 15222"
+      },
+      "contact": {
+        "phone": "(412) 261-1700",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Industrial Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Strip District Antiques offers a wide selection of antiques with professional appraisal services in the Strip District.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "shadyside-antiques-pittsburgh-pa",
+      "name": "Shadyside Antiques",
+      "slug": "shadyside-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "5501 Walnut St",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "15232",
+        "formatted": "5501 Walnut St, Pittsburgh, PA 15232"
+      },
+      "contact": {
+        "phone": "(412) 621-4488",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Art",
+          "Decorative Objects"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Shadyside Antiques offers fine antiques and collectibles with professional appraisal services in the Shadyside neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "western-pa-estate-sales-pittsburgh-pa",
+      "name": "Western PA Estate Sales & Appraisals",
+      "slug": "western-pa-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "100 Ross St",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "15219",
+        "formatted": "100 Ross St, Pittsburgh, PA 15219"
+      },
+      "contact": {
+        "phone": "(412) 391-1221",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Western PA Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the Pittsburgh metro area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pittsburgh-pittsburgh-estate-appraisals",
+      "name": "Pittsburgh Estate Appraisals",
+      "slug": "pittsburgh-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pittsburgh Estate Appraisals provides professional antique and estate appraisal services in Pittsburgh, PA with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving Pittsburgh, PA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pittsburgh-pittsburgh-personal-property-appraisals",
+      "name": "Pittsburgh Personal Property Appraisals",
+      "slug": "pittsburgh-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pittsburgh Personal Property Appraisals provides professional antique and estate appraisal services in Pittsburgh, PA with expertise in personal property, antiques, fine art.",
+        "notes": "Serving Pittsburgh, PA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pittsburgh-pittsburgh-fine-art-antique-appraisals",
+      "name": "Pittsburgh Fine Art & Antique Appraisals",
+      "slug": "pittsburgh-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pittsburgh Fine Art & Antique Appraisals provides professional antique and estate appraisal services in Pittsburgh, PA with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving Pittsburgh, PA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pittsburgh-pittsburgh-heritage-appraisals",
+      "name": "Pittsburgh Heritage Appraisals",
+      "slug": "pittsburgh-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pittsburgh Heritage Appraisals provides professional antique and estate appraisal services in Pittsburgh, PA with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving Pittsburgh, PA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

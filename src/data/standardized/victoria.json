@@ -251,6 +251,237 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "lunds-auctioneers-victoria-bc",
+      "name": "Lunds Auctioneers & Appraisers Ltd",
+      "slug": "lunds-auctioneers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Victoria",
+        "state": "BC",
+        "zip": "",
+        "formatted": "Victoria, BC"
+      },
+      "contact": {
+        "phone": "(250) 386-3308",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established auction house",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Estate Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Lunds Auctioneers & Appraisers Ltd is a Victoria-based auction house providing professional antique and fine art appraisal services. Listed on the BBB with 13 results for Antique Appraisals near Victoria, BC.",
+        "notes": "BBB listed. (250) 386-3308"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "alison-ross-appraisals-victoria-bc",
+      "name": "Alison Ross Appraisals",
+      "slug": "alison-ross-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Victoria",
+        "state": "BC",
+        "zip": "",
+        "formatted": "Victoria, BC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Personal Property"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Alison Ross Appraisals is a Victoria-based antique and personal property appraisal service, recognized as one of the top antique appraisal services in Victoria, BC.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Victoria, BC."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "roshan-vickery-appraisals-victoria-bc",
+      "name": "Roshan Vickery Art Appraisals & Auctioneering",
+      "slug": "roshan-vickery-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Victoria",
+        "state": "BC",
+        "zip": "",
+        "formatted": "Victoria, BC"
+      },
+      "contact": {
+        "phone": "(250) 507-6423",
+        "email": "",
+        "website": "https://www.roshanvickery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established art appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Market Value Appraisals",
+          "Insurance Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Auctioneering",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Roshan Vickery provides professional art and antique appraisal services based in Victoria, BC, serving Greater British Columbia and Canada. Specializing in market value and insurance appraisals for art and antiques.",
+        "notes": "Serving Greater BC and Canada. Call/text (250) 507-6423. Website: roshanvickery.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "thompson-art-antique-appraisals-victoria-bc",
+      "name": "Thompson Art and Antique Appraisals",
+      "slug": "thompson-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "160 Beechwood Ave",
+        "city": "Victoria",
+        "state": "BC",
+        "zip": "V8S 3W5",
+        "formatted": "160 Beechwood Ave, Victoria, BC V8S 3W5"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Thompson Art and Antique Appraisals is a Victoria-based appraisal service specializing in art and antique valuations from their Beechwood Avenue location.",
+        "notes": "Listed on YellowPages.ca for Victoria, BC."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

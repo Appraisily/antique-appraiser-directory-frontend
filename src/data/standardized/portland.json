@@ -164,6 +164,513 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "portland-antique-mall-portland-or",
+      "name": "Portland Antique Mall",
+      "slug": "portland-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "600 NW 23rd Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97210",
+        "formatted": "600 NW 23rd Ave, Portland, OR 97210"
+      },
+      "contact": {
+        "phone": "(503) 227-2776",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Mid-Century Modern",
+          "Vintage Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Portland Antique Mall offers a wide selection of antiques and vintage items with professional appraisal services in the Nob Hill area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "sellwood-antiques-portland-or",
+      "name": "Sellwood Antiques",
+      "slug": "sellwood-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "7925 SE 13th Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97202",
+        "formatted": "7925 SE 13th Ave, Portland, OR 97202"
+      },
+      "contact": {
+        "phone": "(503) 234-2686",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop in Sellwood district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Pacific Northwest Art",
+          "Vintage Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Sellwood Antiques offers fine antiques and collectibles with professional appraisal services in Portland's historic Sellwood district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "hawthorne-antiques-portland-or",
+      "name": "Hawthorne Antiques & Collectibles",
+      "slug": "hawthorne-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3424 SE Hawthorne Blvd",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97214",
+        "formatted": "3424 SE Hawthorne Blvd, Portland, OR 97214"
+      },
+      "contact": {
+        "phone": "(503) 236-2880",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop on Hawthorne",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Vintage Collectibles",
+          "Eclectic Antiques",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Hawthorne Antiques & Collectibles offers a diverse selection with professional appraisal services on the popular Hawthorne Boulevard.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-baggenstoss-appraisal",
+      "name": "Baggenstoss Appraisal",
+      "slug": "baggenstoss-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://baggenstossappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles"
+        ],
+        "certifications": [
+          "ISA Accredited Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Sales",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Baggenstoss Appraisal provides professional antique and personal property appraisals in Portland. Brooke Baggenstoss, ISA AM, is a USPAP-compliant appraiser with expertise in antiques and estate contents.",
+        "notes": "Serving Portland, OR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-dobesh-appraisal",
+      "name": "Dobesh Appraisal - Jerry L. Dobesh ASA",
+      "slug": "dobesh-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://dobeshappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Items",
+          "Trust Contents",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ASA Accredited Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Trust Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jerry L. Dobesh, ASA, is a Portland-based antiques appraiser specializing in appraisals for estates and trusts, insurance, and donations.",
+        "notes": "Serving Portland, OR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-gary-germer-appraisals",
+      "name": "Gary Germer Appraisals & Estate Sales",
+      "slug": "gary-germer-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.garygermer.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 30 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Personal Property Appraisals",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Gary Germer is one of Portland's most respected antique and personal property appraisers. ISA certified with over 30 years in the business.",
+        "notes": "Serving Portland, OR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-rose-city-antique-appraisals",
+      "name": "Rose City Antique Appraisals",
+      "slug": "rose-city-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Mid-Century Modern",
+          "Furniture",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Rose City Antique Appraisals serves Portland with expertise in mid-century modern, traditional antiques, furniture, and fine art.",
+        "notes": "Serving Portland, OR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-pacific-northwest-antique-appraisals",
+      "name": "Pacific Northwest Antique Appraisals",
+      "slug": "pacific-northwest-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Native American Art",
+          "Fine Art",
+          "Decorative Arts",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pacific Northwest Antique Appraisals specializes in regional art, Native American pieces, and traditional antiques throughout the Portland area.",
+        "notes": "Serving Portland, OR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

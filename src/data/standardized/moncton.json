@@ -157,6 +157,233 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "allens-auction-centre-moncton-nb",
+      "name": "Allen's Auction Centre",
+      "slug": "allens-auction-centre",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Moncton",
+        "state": "NB",
+        "zip": "",
+        "formatted": "Moncton, NB"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established auction house",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Allen's Auction Centre is a Moncton-based auction house offering professional antique appraisal and auction services. Recognized as one of the top antique appraisal services in Moncton on Yelp.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Moncton, NB."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "babineau-appraisals-moncton-nb",
+      "name": "Babineau Appraisals Ltd.",
+      "slug": "babineau-appraisals-moncton",
+      "imageUrl": "",
+      "address": {
+        "street": "345 St George St",
+        "city": "Moncton",
+        "state": "NB",
+        "zip": "E1C 1W8",
+        "formatted": "345 St George St, Moncton, NB E1C 1W8"
+      },
+      "contact": {
+        "phone": "(506) 856-8686",
+        "email": "",
+        "website": "https://babineauappraisals.ca"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "8:30 AM - 4:30 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Property Appraisals",
+          "Antiques",
+          "Estate Items",
+          "Real Estate"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Property Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Babineau Appraisals Ltd. provides complete real estate valuation and consulting services in Moncton, New Brunswick. Located on St George Street, they are listed among the top antique appraisal services in Moncton.",
+        "notes": "(506) 856-8686. 345 St George St, Moncton, NB E1C 1W8."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlantic-jewellery-appraisals-moncton-nb",
+      "name": "Atlantic Jewellery Appraisals",
+      "slug": "atlantic-jewellery-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Moncton",
+        "state": "NB",
+        "zip": "",
+        "formatted": "Moncton, NB"
+      },
+      "contact": {
+        "phone": "(902) 718-9624",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established jewelry appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Jewelry",
+          "Estate Jewelry",
+          "Gemstones",
+          "Watches"
+        ],
+        "certifications": [],
+        "services": [
+          "Jewelry Appraisals",
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Atlantic Jewellery Appraisals serves the Greater Moncton area with professional jewelry and antique valuations. BBB A+ rated for antique dealers and jewelry appraisal services in the Moncton region.",
+        "notes": "BBB A+ rated. (902) 718-9624. Serving Moncton, NB."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "mari-tech-appraisal-moncton-nb",
+      "name": "Mari-Tech Appraisal & Inspection",
+      "slug": "mari-tech-appraisal-moncton",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Moncton",
+        "state": "NB",
+        "zip": "",
+        "formatted": "Moncton, NB"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal and inspection",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Property Appraisals",
+          "Estate Items",
+          "Antiques",
+          "Inspection Services"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Property Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Mari-Tech Appraisal & Inspection NB Ltd. provides professional appraisal and inspection services in Moncton, New Brunswick. They handle estate valuations including antique contents and property assessments.",
+        "notes": "Listed on YellowPages.ca for Moncton, NB."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

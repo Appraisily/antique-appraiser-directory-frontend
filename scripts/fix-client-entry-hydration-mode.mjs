@@ -62,7 +62,7 @@ function patchBundle(source, { rootVar, hydrateFn, createRootFn, verbose }) {
 
   modified = modified.replace(
     /console\.log\("(?:💧\s*)?Hydrating pre-rendered content"\),/g,
-    `console.log("🧯 Pre-rendered HTML detected; skipping hydration (client render only)"),${rootVar}.innerHTML="",`
+    `console.log("🧯 Pre-rendered HTML detected; preserving until SPA mounts"),`
   );
 
   modified = modified.replace(/console\.log\("✅ Hydration complete"\)/g, 'console.log("✅ Rendering complete")');

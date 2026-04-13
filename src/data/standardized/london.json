@@ -170,6 +170,291 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "da-langeman-appraisal-london-on",
+      "name": "D A Langeman Appraisal Service",
+      "slug": "da-langeman-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "London",
+        "state": "ON",
+        "zip": "",
+        "formatted": "London, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Estate Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "D A Langeman Appraisal Service is a London, Ontario-based appraisal service recognized on Yelp as one of the top antique appraisal services in the area. Professional valuations for antiques and personal property.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in London, ON."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "funky-find-london-on",
+      "name": "Funky Find",
+      "slug": "funky-find-london",
+      "imageUrl": "",
+      "address": {
+        "street": "636 Dundas St",
+        "city": "London",
+        "state": "ON",
+        "zip": "N5W 2Y8",
+        "formatted": "636 Dundas St, London, ON N5W 2Y8"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Items",
+          "Collectibles",
+          "Unique Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Funky Find is a unique antique and vintage shop on Dundas Street in London, Ontario. Known for being one of the most unique stores in the area, they offer antique appraisals and a wide selection of antiques and collectibles.",
+        "notes": "636 Dundas St, London, ON."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "root-cellar-estate-sale-london-on",
+      "name": "The Root Cellar Estate Sale Co.",
+      "slug": "root-cellar-estate-sale-london",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "London",
+        "state": "ON",
+        "zip": "",
+        "formatted": "London, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Items",
+          "Antiques",
+          "House Contents",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Valuations",
+          "Estate Liquidation"
+        ]
+      },
+      "content": {
+        "about": "The Root Cellar Estate Sale Co. provides comprehensive estate sale, liquidation, and appraisal services in London and southwestern Ontario. They handle estates packed with antiques, vintage items, and collectibles.",
+        "notes": "Top-rated on Yelp for Estate Liquidation near London, ON."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valco-appraisals-london-on",
+      "name": "Valco Appraisal Services",
+      "slug": "valco-appraisals-london",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "London",
+        "state": "ON",
+        "zip": "",
+        "formatted": "London, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Estate Items",
+          "Real Estate"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Valco Appraisal Services is a London, Ontario-based appraisal firm providing professional antique and personal property valuations. They are listed among the top antique appraisal services in London.",
+        "notes": "Listed on Yelp for Antique Appraisal in London, ON."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "interstate-antique-mall-london-on",
+      "name": "Interstate Antique Mall",
+      "slug": "interstate-antique-mall-london",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "London",
+        "state": "ON",
+        "zip": "",
+        "formatted": "London, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12:00 PM - 4:00 PM"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Items",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Interstate Antique Mall is a large antique mall serving the London, Ontario area. They offer professional antique appraisals and have a wide selection of antiques, vintage items, and collectibles from multiple dealers.",
+        "notes": "Top-rated on Yelp for Antique Mall near London, ON."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

@@ -53,6 +53,21 @@ function normalizeImageUrl(input = '') {
   return url;
 }
 
+function buildTelHref(value = '') {
+  const trimmed = String(value || '').trim();
+  if (!trimmed) return null;
+  const hasPlus = trimmed.startsWith('+');
+  const digits = trimmed.replace(/[^\d]/g, '');
+  if (!digits) return null;
+  return `tel:${hasPlus ? '+' : ''}${digits}`;
+}
+
+function buildMailtoHref(value = '') {
+  const trimmed = String(value || '').trim();
+  if (!trimmed) return null;
+  return `mailto:${trimmed}`;
+}
+
 const FALLBACK_IMAGES = [
   PLACEHOLDER_IMAGE,
   `${ASSETS_BASE_URL}/WebPage/logo_new.png`,
@@ -429,6 +444,86 @@ function generateAppraiserHtml(appraiser) {
     </div>
   `).join('');
 
+  const phoneHref = buildTelHref(appraiser.contact.phone);
+  const emailHref = buildMailtoHref(appraiser.contact.email);
+
+  const contactPhoneMarkup = phoneHref
+    ? `<a href="${phoneHref}" class="flex items-center text-gray-700 hover:text-blue-600"${renderGtmAttributes({
+        event: 'directory_cta',
+        cta: 'call',
+        surface: 'contact_card',
+        appraiserId: appraiser.slug,
+        appraiserName: appraiser.name
+      })}>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span>${appraiser.contact.phone}</span>
+        </a>`
+    : `<div class="flex items-center text-gray-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span>Phone not available</span>
+        </div>`;
+
+  const contactEmailMarkup = emailHref
+    ? `<a href="${emailHref}" class="flex items-center text-gray-700 hover:text-blue-600"${renderGtmAttributes({
+        event: 'directory_cta',
+        cta: 'email',
+        surface: 'contact_card',
+        appraiserId: appraiser.slug,
+        appraiserName: appraiser.name
+      })}>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <span>${appraiser.contact.email}</span>
+        </a>`
+    : `<div class="flex items-center text-gray-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+          <span>Email not available</span>
+        </div>`;
+
+  const ctaPhoneMarkup = phoneHref
+    ? `<a 
+        href="${phoneHref}"
+        class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"${renderGtmAttributes({
+          event: 'directory_cta',
+          cta: 'call',
+          surface: 'cta_block',
+          appraiserId: appraiser.slug,
+          appraiserName: appraiser.name
+        })}>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+        Call Now
+      </a>`
+    : '';
+
+  const ctaEmailMarkup = emailHref
+    ? `<a 
+        href="${emailHref}"
+        class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"${renderGtmAttributes({
+          event: 'directory_cta',
+          cta: 'email',
+          surface: 'cta_block',
+          appraiserId: appraiser.slug,
+          appraiserName: appraiser.name
+        })}>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        Send Email
+      </a>`
+    : '';
+
   // Main appraiser page content
   const mainContent = `
       <div class="container mx-auto px-4 py-8 mt-16">
@@ -487,36 +582,9 @@ function generateAppraiserHtml(appraiser) {
                   </a>
                 </div>
                 
-                <div class="flex items-center">
-                  <a href="tel:${appraiser.contact.phone}" class="flex items-center text-gray-700 hover:text-blue-600"${renderGtmAttributes({
-                    event: 'directory_cta',
-                    cta: 'call',
-                    surface: 'contact_card',
-                    appraiserId: appraiser.slug,
-                    appraiserName: appraiser.name
-                  })}>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                    </svg>
-                    <span>${appraiser.contact.phone}</span>
-                  </a>
-                </div>
+                ${contactPhoneMarkup}
 
-                <div class="flex items-center">
-                  <a href="mailto:${appraiser.contact.email}" class="flex items-center text-gray-700 hover:text-blue-600"${renderGtmAttributes({
-                    event: 'directory_cta',
-                    cta: 'email',
-                    surface: 'contact_card',
-                    appraiserId: appraiser.slug,
-                    appraiserName: appraiser.name
-                  })}>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                      <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                    <span>${appraiser.contact.email}</span>
-                  </a>
-                </div>
+                ${contactEmailMarkup}
 
                 ${appraiser.contact.website ? `
                 <div class="flex items-center">
@@ -664,39 +732,8 @@ function generateAppraiserHtml(appraiser) {
                   Contact ${appraiser.name} directly or use our platform to request an appraisal.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-3">
-                  <a 
-                    href="tel:${appraiser.contact.phone}"
-                    class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
-                    ${renderGtmAttributes({
-                      event: 'directory_cta',
-                      cta: 'call',
-                      surface: 'cta_block',
-                      appraiserId: appraiser.slug,
-                      appraiserName: appraiser.name
-                    })}
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                    </svg>
-                    Call Now
-                  </a>
-                  <a 
-                    href="mailto:${appraiser.contact.email}"
-                    class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
-                    ${renderGtmAttributes({
-                      event: 'directory_cta',
-                      cta: 'email',
-                      surface: 'cta_block',
-                      appraiserId: appraiser.slug,
-                      appraiserName: appraiser.name
-                    })}
-                  >
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                      <polyline points="22,6 12,13 2,6"></polyline>
-                    </svg>
-                    Send Email
-                  </a>
+                  ${ctaPhoneMarkup}
+                  ${ctaEmailMarkup}
                   <a 
                     href="https://appraisily.com/start"
                     class="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"

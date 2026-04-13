@@ -1,3 +1,686 @@
 {
-  "appraisers": []
+  "appraisers": [
+    {
+      "id": "river-market-antiques-kansas-city-mo",
+      "name": "River Market Antiques",
+      "slug": "river-market-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "115 W 5th St",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64111",
+        "formatted": "115 W 5th St, Kansas City, MO 64111"
+      },
+      "contact": {
+        "phone": "(816) 842-6622",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall in River Market",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "River Market Antiques is a multi-dealer antique emporium offering a wide range of antiques and professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "i-70-antique-mall-kansas-city-mo",
+      "name": "I-70 Antique Mall",
+      "slug": "i-70-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "8235 E US Highway 40",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64129",
+        "formatted": "8235 E US Highway 40, Kansas City, MO 64129"
+      },
+      "contact": {
+        "phone": "(816) 861-0400",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Buyouts",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "I-70 Antique Mall is one of Kansas City's largest antique destinations, offering professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "west-bottoms-antiques-kansas-city-mo",
+      "name": "West Bottoms Antique District",
+      "slug": "west-bottoms-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1300-1400 W 12th St",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64101",
+        "formatted": "1300-1400 W 12th St, Kansas City, MO 64101"
+      },
+      "contact": {
+        "phone": "(816) 421-4594",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Historic antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Architectural Salvage",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "The West Bottoms Antique District is Kansas City's premier antique destination, with multiple dealers offering expert appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "a-great-find-antiques-kansas-city-mo",
+      "name": "A Great Find Antiques",
+      "slug": "a-great-find-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "4140 Broadway Blvd",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64111",
+        "formatted": "4140 Broadway Blvd, Kansas City, MO 64111"
+      },
+      "contact": {
+        "phone": "(816) 931-3303",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Collectibles",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "A Great Find Antiques offers curated antiques and collectibles with professional appraisal services in the Westport area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "sharp-associates-auctions-kansas-city-mo",
+      "name": "Sharp & Associates Auctions",
+      "slug": "sharp-associates-auctions",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64137",
+        "formatted": "Kansas City, MO 64137"
+      },
+      "contact": {
+        "phone": "(816) 876-1560",
+        "email": "sharpauctioneers@aol.com",
+        "website": "https://www.sharpauctions.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established auction and appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Items",
+          "Collectibles",
+          "Personal Property"
+        ],
+        "certifications": [
+          "Licensed Auctioneers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Auction Services",
+          "Estate Liquidation"
+        ]
+      },
+      "content": {
+        "about": "Sharp & Associates Auctions is a Kansas City-based auction and appraisal firm providing professional antique and estate valuations. They offer diversified auction and appraisal services throughout the Kansas City metro area with expertise in antiques, collectibles, and estate items.",
+        "notes": "Full-service auction house with appraisal capabilities. Serves Kansas City MO and surrounding areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "art-of-estates-kansas-city-mo",
+      "name": "Art of Estates - Art Appraisal & Consulting",
+      "slug": "art-of-estates-consulting",
+      "imageUrl": "",
+      "address": {
+        "street": "4741 Central St, Ste 552",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64112",
+        "formatted": "4741 Central St, Ste 552, Kansas City, MO 64112"
+      },
+      "contact": {
+        "phone": "(913) 642-1477",
+        "email": "",
+        "website": "https://www.artofestates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Items",
+          "Jewelry Appraisal"
+        ],
+        "certifications": [
+          "Certified Appraisers",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Valuations",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates is a reputable appraisal firm based in Kansas City, MO providing accredited, unbiased personal property appraisals. Their expert appraisers cover a wide range of categories including fine art, antiques, jewelry, and estate items. They serve clients throughout the Kansas City metro area and beyond.",
+        "notes": "Listed with BBB as an accredited business. Also serves as antique dealers and jewelry appraisers."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "sentimental-journey-marketplace-kansas-city-mo",
+      "name": "Sentimental Journey Marketplace",
+      "slug": "sentimental-journey-marketplace",
+      "imageUrl": "",
+      "address": {
+        "street": "907 S Chestnut St",
+        "city": "Olathe",
+        "state": "KS",
+        "zip": "66061",
+        "formatted": "907 S Chestnut St, Olathe, KS 66061 (Kansas City Metro)"
+      },
+      "contact": {
+        "phone": "(913) 768-8088",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique marketplace",
+        "hours": [
+          {
+            "day": "Monday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12:00 PM - 4:00 PM"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Consignment",
+          "Antique Sales"
+        ]
+      },
+      "content": {
+        "about": "Sentimental Journey Marketplace is a well-regarded antique store in the Kansas City metro area offering a curated selection of antiques, vintage collectibles, and decorative arts. They provide professional antique appraisal services alongside their retail operations.",
+        "notes": "Located in Olathe, KS serving the greater Kansas City metro area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "kc-auction-appraisal-company-kansas-city-mo",
+      "name": "KC Auction & Appraisal Company",
+      "slug": "kc-auction-appraisal-company",
+      "imageUrl": "",
+      "address": {
+        "street": "1301 E 12th St",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64106",
+        "formatted": "1301 E 12th St, Kansas City, MO 64106"
+      },
+      "contact": {
+        "phone": "(816) 283-3633",
+        "email": "info@kcauctioncompany.com",
+        "website": "https://www.kcauctioncompany.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established auction and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Items",
+          "Collectibles",
+          "Personal Property",
+          "Fine Art"
+        ],
+        "certifications": [
+          "Licensed Auctioneers",
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Auctions",
+          "Estate Valuations",
+          "Estate Liquidation",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "KC Auction & Appraisal Company offers expert estate auction and appraisal services in Kansas City, MO. Located at 1301 E 12th St in the heart of Kansas City, they provide professional antique appraisals, estate liquidation, and auction services for residential and commercial clients throughout the Kansas City metro area.",
+        "notes": "Located in Kansas City, MO. By appointment only. Also featured on Kansas City PBS Antique Appraisal Fair."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charles-r-keller-appraisals-kansas-city-mo",
+      "name": "Charles R. Keller - Personal Property Appraiser",
+      "slug": "charles-r-keller-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "",
+        "formatted": "Kansas City, MO"
+      },
+      "contact": {
+        "phone": "(816) 289-5400",
+        "email": "charlesrkeller@gmail.com",
+        "website": "https://charleskeller.net"
+      },
+      "business": {
+        "yearsInBusiness": "Established personal property appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Historical Artifacts",
+          "Antiques",
+          "Fine Art",
+          "Militaria",
+          "Ethnographic Objects",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ISA Accredited Member (AM)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Historical Artifact Appraisals",
+          "Consultation Services",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Charles R. Keller is an ISA Accredited Member and professional researcher, authenticator, and appraiser in the Kansas City area specializing in historical artifacts, art, and antiques. He has worked with historical pieces spanning millennia, from ancient Egyptian artifacts to significant historical items. Charles provides USPAP-compliant appraisal reports and consultation services for collectors, estates, and institutions.",
+        "notes": "ISA Accredited Member. Also partners with Kahle Appraisals in Overland Park, KS. Serves Kansas City and surrounding areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-kansas-city-mo",
+      "name": "ValuePros Appraisal Services - Kansas City",
+      "slug": "valuepros-appraisal-kansas-city",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "",
+        "formatted": "Kansas City, MO"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/kansas-city/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Personal Property",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services has provided onsite appraisal services throughout Kansas City and the surrounding area since 1976. The family-owned and managed firm produces USPAP-compliant appraisal reports as required by insurers, government agencies, and courts. They offer unbiased, independent valuations for antiques, collectibles, fine art, and personal property.",
+        "notes": "Family owned since 1976. Serves Kansas City MO and surrounding areas. Independent appraisers providing certified reports."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "brown-button-estate-sales-kansas-city-mo",
+      "name": "Brown Button Estate Sale Services",
+      "slug": "brown-button-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "",
+        "formatted": "Kansas City, MO"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://brownbutton.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 500 estate sales conducted",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Personal Property",
+          "Designer Items"
+        ],
+        "certifications": [
+          "Certified Personal Property Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Personal Property Appraisals",
+          "Insurance Appraisals",
+          "Estate Division Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Brown Button Estate Sales has conducted over 500 estate sales in Kansas City and the surrounding areas, serving families from architect's estates full of unique art and design to everyday household contents. They provide certified personal property appraisals for insurance, equitable estate division, and charitable donations, in addition to their full-service estate sale operations.",
+        "notes": "Serves Kansas City MO and surrounding areas including St. Louis. Over 500 estate sales conducted."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    }
+  ]
 }

@@ -325,6 +325,391 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "peggy-calhoun-appraisals-san-antonio-tx",
+      "name": "Peggy Calhoun Appraisals",
+      "slug": "peggy-calhoun-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "",
+        "formatted": "San Antonio, TX"
+      },
+      "contact": {
+        "phone": "(210) 826-7653",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established ISA-certified appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Silver",
+          "Stemware",
+          "Art",
+          "Antiques",
+          "Personal Property"
+        ],
+        "certifications": [
+          "ISA Certified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Peggy Calhoun is an ISA-certified appraiser in San Antonio, Texas, highly recommended for her expertise in silver, stemware, art, and antiques. She provides fair market value appraisals and is known for her thorough, competent evaluations.",
+        "notes": "ISA-certified. (210) 826-7653. Highly recommended on Yelp for antique appraisal in San Antonio."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "appraisals-estates-june-hayes-san-antonio-tx",
+      "name": "Appraisals & Estates by June Hayes & Associates",
+      "slug": "appraisals-estates-june-hayes",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "",
+        "formatted": "San Antonio, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.appraisalcompanysanantonio.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established estate and appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Appraisals & Estates by June Hayes & Associates is an experienced San Antonio firm providing antique appraisal and estate services. They offer comprehensive valuations for insurance, estate planning, and charitable donation purposes.",
+        "notes": "Website: appraisalcompanysanantonio.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "georgia-jobes-appraisals-san-antonio-tx",
+      "name": "Georgia Jobes Appraisals & Estate Sales",
+      "slug": "georgia-jobes-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "",
+        "formatted": "San Antonio, TX"
+      },
+      "contact": {
+        "phone": "(210) 394-3654",
+        "email": "georgia@georgiajobes.com",
+        "website": "https://georgiajobes.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 2008",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Tangible Personal Property",
+          "Antiques",
+          "Collectibles",
+          "Classic Automobiles",
+          "Family Heirlooms",
+          "Art",
+          "Gold and Silver",
+          "Firearms"
+        ],
+        "certifications": [
+          "ISA Accredited Member (AM)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Sales",
+          "Insurance Coverage Appraisals",
+          "Estate Planning Appraisals",
+          "Divorce Appraisals",
+          "Charitable Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Georgia Jobes Appraisals & Estate Sales has operated in San Antonio since 2008, helping residents value and liquidate personal assets through major life events like estate planning, downsizing, divorce, relocation, or the loss of a loved one. Georgia is an ISA Accredited Member who delivers USPAP-compliant personal property appraisals and professionally staged, turnkey estate sales tailored to each client's unique needs.",
+        "notes": "ISA Accredited Member since 2008. Serves San Antonio and surrounding areas. Full-service appraisals and estate sales."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-san-antonio-tx",
+      "name": "ValuePros Appraisal Services - San Antonio",
+      "slug": "valuepros-appraisal-san-antonio",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "",
+        "formatted": "San Antonio, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Jewelry",
+          "Coins",
+          "Furniture",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the San Antonio, TX area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers with no personal interest in clients' items, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving San Antonio TX and surrounding areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "appraisal-experts-san-antonio-tx",
+      "name": "Appraisal Experts",
+      "slug": "appraisal-experts-san-antonio",
+      "imageUrl": "",
+      "address": {
+        "street": "407 Robinhood Pl",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78209",
+        "formatted": "407 Robinhood Pl, San Antonio, TX 78209"
+      },
+      "contact": {
+        "phone": "(210) 201-0000",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Estate Items",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Appraisal Experts is a San Antonio-based appraisal firm providing professional antique and personal property valuations. Located on Robinhood Place in the Olmos Park area, they offer comprehensive appraisal services for antiques, estate items, collectibles, and personal property throughout the San Antonio metro area.",
+        "notes": "Located in San Antonio, TX. Highly rated on Yelp for antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "left-behind-antiques-san-antonio-tx",
+      "name": "Left Behind Antiques",
+      "slug": "left-behind-antiques-san-antonio",
+      "imageUrl": "",
+      "address": {
+        "street": "10211 Ironside Dr",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78230",
+        "formatted": "10211 Ironside Dr, San Antonio, TX 78230"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Music-Related Antiques",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Consignment",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Left Behind Antiques is a San Antonio-based antique shop offering a curated selection of antiques, vintage collectibles, and music-related items. Located on Ironside Drive, they provide professional antique appraisal services alongside their retail operations, serving collectors and estate clients throughout the San Antonio area.",
+        "notes": "Located at 10211 Ironside Dr, San Antonio, TX. Also operates as Timeless Tunes."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

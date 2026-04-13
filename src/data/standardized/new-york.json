@@ -93,7 +93,7 @@
       },
       "contact": {
         "phone": "258-329-2091",
-        "email": "info@www.art-appraisals.net",
+        "email": "info@art-appraisals.net",
         "website": "http://www.art-appraisals.net"
       },
       "business": {
@@ -247,7 +247,7 @@
       },
       "contact": {
         "phone": "595-690-5735",
-        "email": "info@www.escher-associates.com",
+        "email": "info@escher-associates.com",
         "website": "http://www.escher-associates.com"
       },
       "business": {
@@ -407,7 +407,7 @@
       },
       "contact": {
         "phone": "287-398-2954",
-        "email": "info@www.gurrjohns.com",
+        "email": "info@gurrjohns.com",
         "website": "http://www.gurrjohns.com"
       },
       "business": {
@@ -479,14 +479,14 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_heritage-auctions-9336_1742166295247_Te5aZW192.jpg",
       "address": {
         "street": "123 Cedar Blvd",
-        "city": "New York copy",
+        "city": "New York",
         "state": "NY",
         "zip": "10234",
-        "formatted": "123 Cedar Blvd, New York copy, NY 10234"
+        "formatted": "123 Cedar Blvd, New York, NY 10234"
       },
       "contact": {
         "phone": "137-328-2168",
-        "email": "info@www.ha.com",
+        "email": "info@ha.com",
         "website": "https://www.ha.com"
       },
       "business": {
@@ -550,18 +550,18 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_juliette-yuan-associates-2567_1742166298792_BFUex4DQZ.jpg",
       "address": {
         "street": "1234 Cedar Blvd",
-        "city": "New York copy",
+        "city": "New York",
         "state": "NY",
         "zip": "10188",
-        "formatted": "1234 Cedar Blvd, New York copy, NY 10188"
+        "formatted": "1234 Cedar Blvd, New York, NY 10188"
       },
       "contact": {
         "phone": "392-959-5821",
-        "email": "info@www.jyuanassociates.com",
+        "email": "info@jyuanassociates.com",
         "website": "https://www.jyuanassociates.com"
       },
       "business": {
-        "yearsInBusiness": "Juliette Yuan & Associates supports collectors, estates, and insurers with antique valuation work in New York copy, NY.",
+        "yearsInBusiness": "Juliette Yuan & Associates supports collectors, estates, and insurers with antique valuation work in New York, NY.",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -628,7 +628,7 @@
       },
       "contact": {
         "phone": "303-355-0050",
-        "email": "info@www.marypeckartadvisory.com",
+        "email": "info@marypeckartadvisory.com",
         "website": "https://www.marypeckartadvisory.com"
       },
       "business": {
@@ -701,7 +701,7 @@
       },
       "contact": {
         "phone": "141-217-6329",
-        "email": "info@www.mimesisgallery.com",
+        "email": "info@mimesisgallery.com",
         "website": "http://www.mimesisgallery.com"
       },
       "business": {
@@ -780,7 +780,7 @@
       },
       "contact": {
         "phone": "947-531-6800",
-        "email": "info@www.museumexchange.com",
+        "email": "info@museumexchange.com",
         "website": "https://www.museumexchange.com/appraisals"
       },
       "business": {
@@ -848,18 +848,18 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_page-art-inc-9983_1742166308315_3g11VV1iu.jpg",
       "address": {
         "street": "555 Oak Ave",
-        "city": "New York copy",
+        "city": "New York",
         "state": "NY",
         "zip": "10780",
-        "formatted": "555 Oak Ave, New York copy, NY 10780"
+        "formatted": "555 Oak Ave, New York, NY 10780"
       },
       "contact": {
         "phone": "340-617-3201",
-        "email": "info@www.page-art.com",
+        "email": "info@page-art.com",
         "website": "http://www.page-art.com"
       },
       "business": {
-        "yearsInBusiness": "Page Art, Inc. provides professional antique appraisal services for clients throughout New York copy, NY.",
+        "yearsInBusiness": "Page Art, Inc. provides professional antique appraisal services for clients throughout New York, NY.",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -999,25 +999,25 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saylor-rice-appraisals-2616_1742166316743_w3xaEiygn.jpg",
       "address": {
         "street": "2020 Oak Ave",
-        "city": "New York copy",
+        "city": "New York",
         "state": "NY",
         "zip": "10129",
-        "formatted": "2020 Oak Ave, New York copy, NY 10129"
+        "formatted": "2020 Oak Ave, New York, NY 10129"
       },
       "contact": {
         "phone": "278-173-9148",
-        "email": "info@www.saylorriceappraisals.com",
+        "email": "info@saylorriceappraisals.com",
         "website": "http://www.saylorriceappraisals.com"
       },
       "business": {
-        "yearsInBusiness": "Saylor Rice Appraisals supports collectors, estates, and insurers with antique valuation work in New York copy, NY.",
+        "yearsInBusiness": "Saylor Rice Appraisals supports collectors, estates, and insurers with antique valuation work in New York, NY.",
         "hours": [
           {
             "day": "Monday-Friday",
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Rates are quoted after a brief intake call. Saylor Rice Appraisals supports antique appraisal needs across New York copy, NY.",
+        "pricing": "Rates are quoted after a brief intake call. Saylor Rice Appraisals supports antique appraisal needs across New York, NY.",
         "rating": 4.5,
         "reviewCount": 18
       },
@@ -1147,7 +1147,7 @@
       },
       "contact": {
         "phone": "+1 212 606 7000",
-        "email": "info@www.sothebys.com",
+        "email": "info@sothebys.com",
         "website": "https://www.sothebys.com"
       },
       "business": {

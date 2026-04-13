@@ -237,6 +237,440 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "d-levy-antiques-appraisals-savannah-ga",
+      "name": "D Levy Antiques & Appraisals",
+      "slug": "d-levy-antiques-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "PO Box 22116",
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "31403",
+        "formatted": "PO Box 22116, Savannah, GA 31403"
+      },
+      "contact": {
+        "phone": "(912) 616-5350",
+        "email": "",
+        "website": "https://www.dlevyantiquesandappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "ISA member since 2019",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Decorative Arts",
+          "Folk Art",
+          "Americana",
+          "Photography",
+          "Historical Items",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA Member"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Dealer Services"
+        ]
+      },
+      "content": {
+        "about": "David Levy of D Levy Antiques & Appraisals is an ISA member since 2019 based in historic Savannah, Georgia. He offers quality antique and vintage furniture, decorative arts, folk art, Americana, photography, historical items, and fine art from all periods as both dealer and appraiser.",
+        "notes": "ISA member since Jul 10, 2019. PO Box 22116 Savannah, GA 31403. (912) 616-5350."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "everard-auctions-appraisals-savannah-ga",
+      "name": "Everard Auctions & Appraisals",
+      "slug": "everard-auctions-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Savannah, GA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established auction house",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Collections",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Everard Auctions & Appraisals is a Savannah-based fine art and antique auction house offering professional appraisal services for single items to entire estates or collections. They serve the Savannah area with expert antique valuations.",
+        "notes": "Fine Art and Antique Auction House in Savannah, GA."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "picker-joes-savannah-ga",
+      "name": "Picker Joe's Antique Mall",
+      "slug": "picker-joes",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Savannah, GA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Vintage Items",
+          "Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Vendor Space"
+        ]
+      },
+      "content": {
+        "about": "Picker Joe's Antique Mall is a Savannah antique mall hosting multiple vendors including David Levy of D Levy Antiques & Appraisals. A go-to location for antique appraisal recommendations in the Savannah community.",
+        "notes": "Community-recommended location for finding antique appraisers in Savannah."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "d-levy-antiques-appraisals-savannah-ga",
+      "name": "D Levy Antiques & Appraisals - David Levy",
+      "slug": "d-levy-antiques-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Savannah, GA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.dlevyantiquesandappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established dealer and appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Vintage Collectibles",
+          "Paintings",
+          "Prints",
+          "Personal Property"
+        ],
+        "certifications": [
+          "Personal Property Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Downsizing",
+          "Estate Valuations",
+          "Antique Sales",
+          "Consultation"
+        ]
+      },
+      "content": {
+        "about": "David Levy is a dealer and personal property appraiser in Savannah, GA offering antiques, vintage collectibles, paintings, and prints plus appraisals, estate downsizing, and related services. He provides professional antique valuations for insurance, estate planning, and sale purposes throughout the Savannah area.",
+        "notes": "Savannah-based. Full-service dealer and appraiser with estate downsizing expertise."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-savannah-ga",
+      "name": "ValuePros Appraisal Services - Savannah",
+      "slug": "valuepros-appraisal-savannah",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Savannah, GA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Personal Property",
+          "Southern Antiques"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Savannah, GA area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Savannah GA and coastal Georgia."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "peterson-personal-property-appraisals-savannah-ga",
+      "name": "Peterson Personal Property Appraisals",
+      "slug": "peterson-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Savannah, GA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Since 2020",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Estate Items",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Peterson Personal Property Appraisals provides professional antique and personal property appraisals in the Savannah, GA area. They offer comprehensive valuation services for antiques, collectibles, estate items, and personal property for insurance, estate planning, and charitable donation purposes.",
+        "notes": "Serves Savannah GA and coastal Georgia. In business since 2020."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "avalon-appraisals-savannah-ga",
+      "name": "Avalon Appraisals",
+      "slug": "avalon-appraisals-savannah",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Savannah, GA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Coins",
+          "Collectibles",
+          "Estate Items",
+          "Personal Property"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Coin Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Avalon Appraisals is a Savannah-based appraisal firm providing professional antique and collectible valuations. They specialize in antiques, coins, collectibles, and estate items, offering expert appraisal services for insurance, estate planning, and charitable donation purposes throughout the Savannah area.",
+        "notes": "Listed on Yelp for Antique Appraisal in Savannah, GA."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

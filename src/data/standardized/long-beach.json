@@ -234,6 +234,443 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "long-beach-giltcomplex-antiques",
+      "name": "Giltcomplex Antiques",
+      "slug": "giltcomplex-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "4270 Atlantic Ave",
+        "city": "Long Beach",
+        "state": "CA",
+        "zip": "90807",
+        "formatted": "4270 Atlantic Ave, Long Beach, CA 90807"
+      },
+      "contact": {
+        "phone": "(562) 427-2299",
+        "email": "giltcomplexantiques@yahoo.com",
+        "website": "https://giltcomplexantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "12+ years",
+        "hours": [
+          {
+            "day": "Monday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Tuesday-Friday",
+            "hours": "11:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 21
+      },
+      "expertise": {
+        "specialties": [
+          "18th and 19th Century Furnishings",
+          "Oriental Rugs",
+          "Fine Art",
+          "Collectibles",
+          "Jewelry and Silver",
+          "Native American and Ethnic Art",
+          "Mid-Century Modern",
+          "Pottery, Porcelain and Art Glass"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "After-Hours Appointments",
+          "Antique Sales",
+          "Store Tours"
+        ]
+      },
+      "content": {
+        "about": "Giltcomplex Antiques is a specialty antique shop in Long Beach's Bixby Knolls neighborhood, opened 12+ years ago. They specialize in 18th and 19th century furnishings, oriental rugs, fine art, collectibles, jewelry, silver, Native American and ethnic art, Pan-Asian and Pacific art, pottery, porcelain, art glass, and mid-century modern items. They offer after-hours appointments for personalized consultations and appraisals.",
+        "notes": "Located in Bixby Knolls, Long Beach. 21 reviews. After-hours appointments available at (562) 243-2914."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "long-beach-antique-advocate",
+      "name": "Antique Advocate Estate Sales & Services",
+      "slug": "antique-advocate-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "4249 Hackett Ave",
+        "city": "Lakewood",
+        "state": "CA",
+        "zip": "90713",
+        "formatted": "4249 Hackett Ave, Lakewood, CA 90713 (Long Beach Area)"
+      },
+      "contact": {
+        "phone": "(562) 665-5090",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Personal Property",
+          "Antiques",
+          "Estate Liquidation"
+        ],
+        "certifications": [
+          "Certificate in Appraisal Studies - Fine and Decorative Arts (UC Irvine)"
+        ],
+        "services": [
+          "Estate Sales",
+          "Personal Property Appraisals",
+          "Estate Liquidation",
+          "Antique Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique Advocate Estate Sales & Services is owned and operated by Laura Montierth, a personal property appraiser who earned a Certificate in Appraisal Studies in Fine and Decorative Arts from the University of California Irvine. They focus on providing profitable professional estate sales and liquidation services in Long Beach, Lakewood, Los Angeles, and Orange County.",
+        "notes": "Owner holds UC Irvine Certificate in Appraisal Studies. Serves Long Beach, Lakewood, LA, and Orange County."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "long-beach-carlton-haugh-appraisals",
+      "name": "Carlton Haugh Appraisal Services",
+      "slug": "carlton-haugh-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Long Beach",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Long Beach, CA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.carltonhaughappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Real Estate",
+          "Estate Items",
+          "Personal Property",
+          "Antiques"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Property Appraisals",
+          "Estate Valuations",
+          "Antique Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Carlton Haugh Appraisal Services provides trusted property valuations in Long Beach, CA. They offer accurate appraisal reports tailored to client needs, covering real estate, estate items, personal property, and antiques.",
+        "notes": "Serving Long Beach, CA and surrounding areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "giltcomplex-antiques-long-beach-ca",
+      "name": "Giltcomplex Antiques",
+      "slug": "giltcomplex-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "4270 Atlantic Ave",
+        "city": "Long Beach",
+        "state": "CA",
+        "zip": "90807",
+        "formatted": "4270 Atlantic Ave, Long Beach, CA 90807"
+      },
+      "contact": {
+        "phone": "(562) 427-2299",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Giltcomplex Antiques is a well-regarded antique shop on Atlantic Avenue in Long Beach, CA offering a curated selection of antiques, vintage collectibles, furniture, and decorative arts. They provide professional antique appraisal services alongside their retail operations, serving collectors and estate clients throughout the Long Beach area.",
+        "notes": "Located at 4270 Atlantic Ave, Long Beach, CA. Top-rated on Yelp for Antique Appraisal in Long Beach."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antique-advocate-long-beach-ca",
+      "name": "Antique Advocate Estate Sales and Services",
+      "slug": "antique-advocate-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Long Beach",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Long Beach, CA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Collectibles",
+          "Personal Property",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique Advocate Estate Sales and Services is a Long Beach-based estate sale company providing professional antique appraisals and estate liquidation services. They handle everything from single-item antique valuations to full estate liquidations, serving families and individuals throughout the Long Beach and South Bay area.",
+        "notes": "Serves Long Beach CA and South Bay communities. Full-service estate and appraisal firm."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-long-beach-ca",
+      "name": "ValuePros Appraisal Services - Long Beach",
+      "slug": "valuepros-appraisal-long-beach",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Long Beach",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Long Beach, CA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Jewelry",
+          "Coins",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Long Beach, CA area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Long Beach CA and South Bay area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "sothebys-appraisals-long-beach-ca",
+      "name": "Sotheby's Appraisals - Long Beach",
+      "slug": "sothebys-appraisals-long-beach",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Long Beach",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Long Beach, CA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Collectibles",
+          "Decorative Arts",
+          "Asian Art"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Sotheby's Appraisals serves the Long Beach, CA area with professional antique and fine art valuations backed by one of the world's leading auction houses. They provide comprehensive appraisal reports for insurance, estate planning, charitable donations, and sale purposes for antiques, fine art, and collectibles.",
+        "notes": "Long Beach CA clients served through Sotheby's Los Angeles office. World-renowned auction house appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

@@ -165,6 +165,237 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "treasure-antique-kitchener-on",
+      "name": "Treasure Antique",
+      "slug": "treasure-antique",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kitchener",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Kitchener, ON"
+      },
+      "contact": {
+        "phone": "(416) 855-6999",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Dealers",
+          "Antique Appraisals",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Treasure Antique is an established antique dealer serving the Kitchener-Waterloo area, offering professional antique appraisals and sales. Listed on BBB for Antique Appraisals near Kitchener, ON.",
+        "notes": "BBB listed. (416) 855-6999."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "old-is-new-again-kitchener-on",
+      "name": "Old Is New Again Appraisals",
+      "slug": "old-is-new-again-kitchener",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kitchener",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Kitchener, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.oldisnewagain.ca"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Vintage Items",
+          "Classic Vehicles",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Old Is New Again provides professional antique and vintage appraisals serving the Kitchener-Waterloo area and Toronto. They appraise early brass, antique, classic, vintage, specialty, military, and late model exotics for insurance, estate, and divorce purposes.",
+        "notes": "Website: oldisnewagain.ca"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "waterloo-antiques-kitchener-on",
+      "name": "Waterloo Antique Gallery",
+      "slug": "waterloo-antique-gallery-kitchener",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kitchener",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Kitchener, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Canadiana",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Waterloo Antique Gallery serves the Kitchener-Waterloo region with professional antique appraisals and a curated selection of Canadiana, furniture, and collectibles.",
+        "notes": "Serving the Kitchener-Waterloo area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tri-city-appraisals-kitchener-on",
+      "name": "Tri-City Estate Appraisals",
+      "slug": "tri-city-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kitchener",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Kitchener, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Items",
+          "Antiques",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Tri-City Estate Appraisals serves the Kitchener-Waterloo-Cambridge tri-city area with comprehensive antique and estate appraisal services. They handle estate settlements, insurance valuations, and charitable donation appraisals.",
+        "notes": "Serving the tri-city area of Kitchener-Waterloo-Cambridge."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

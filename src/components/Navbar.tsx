@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ArrowRight, ChevronDown } from 'lucide-react';  
 import {
@@ -20,6 +20,7 @@ export default function Navbar() {
   const [citiesDropdownOpen, setCitiesDropdownOpen] = useState(false);
   const location = useLocation();
   const primaryCtaUrl = getPrimaryCtaUrl();
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,6 +36,18 @@ export default function Navbar() {
     setIsOpen(false);
     setCitiesDropdownOpen(false);
   }, [location.pathname]);
+
+  // Close the cities dropdown when clicking outside
+  useEffect(() => {
+    if (!citiesDropdownOpen) return;
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setCitiesDropdownOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [citiesDropdownOpen]);
 
   const navItems = [
     { name: 'About', href: `${PARENT_SITE_URL}/about` },
@@ -93,7 +106,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-4">
             <NavigationMenu>
               <NavigationMenuList>
-                <NavigationMenuItem className="relative">
+                <NavigationMenuItem className="relative" ref={dropdownRef}>
                   <button
                     onClick={() => setCitiesDropdownOpen(!citiesDropdownOpen)}
                     className="flex items-center px-3 py-2 text-sm font-medium rounded-md transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50"
@@ -190,7 +203,7 @@ export default function Navbar() {
                 <a
                   key={city.slug}
                   href={buildSiteUrl(`/location/${city.slug}`)}
-                  className="text-sm text-gray-700 hover:text-blue-600 py-1"
+                  className="text-sm text-gray-700 hover:text-blue-600 min-h-[44px] flex items-center px-2 py-2 rounded-md hover:bg-gray-50"
                   data-gtm-event="nav_location_click"
                   data-gtm-city={city.slug}
                   data-gtm-state={city.state}

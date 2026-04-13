@@ -35,7 +35,7 @@
       },
       "expertise": {
         "specialties": [
-          "insurance valuations ($150–$300/item), estate planning ($200–$500/hour), IRS filings ($250+), and damage claims assessments.\n\n---\n\n## Directory of Antique Appraisers\n\n### 1. Prestige Estate Services  \n- Specialties: Furniture"
+          "insurance valuations ($150\u2013$300/item), estate planning ($200\u2013$500/hour), IRS filings ($250+), and damage claims assessments.\n\n---\n\n## Directory of Antique Appraisers\n\n### 1. Prestige Estate Services  \n- Specialties: Furniture"
         ],
         "certifications": [
           "ISA",
@@ -48,8 +48,8 @@
         ]
       },
       "content": {
-        "about": "1. Prestige Estate Services provides professional antique appraisal services specializing in insurance valuations ($150–$300/item), estate planning ($200–$500/hour), IRS filings ($250+), and damage claims assessments.\n\n---\n\n## Directory of Antique Appraisers\n\n### 1. Prestige Estate Services  \n- Specialties: Furniture. With 10+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving San Diego, CA clients who need antique valuations in insurance valuations ($150–$300/item), estate planning ($200–$500/hour), IRS filings ($250+), and damage claims assessments.\n\n---\n\n## Directory of Antique Appraisers\n\n### 1. Prestige Estate Services  \n- Specialties: Furniture."
+        "about": "1. Prestige Estate Services provides professional antique appraisal services specializing in insurance valuations ($150\u2013$300/item), estate planning ($200\u2013$500/hour), IRS filings ($250+), and damage claims assessments.\n\n---\n\n## Directory of Antique Appraisers\n\n### 1. Prestige Estate Services  \n- Specialties: Furniture. With 10+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving San Diego, CA clients who need antique valuations in insurance valuations ($150\u2013$300/item), estate planning ($200\u2013$500/hour), IRS filings ($250+), and damage claims assessments.\n\n---\n\n## Directory of Antique Appraisers\n\n### 1. Prestige Estate Services  \n- Specialties: Furniture."
       },
       "reviews": [
         {
@@ -255,6 +255,506 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "ocean-beach-antiques-san-diego-ca",
+      "name": "Ocean Beach Antique District",
+      "slug": "ob-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "4867 Voltaire St",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92107",
+        "formatted": "4867 Voltaire St, San Diego, CA 92107"
+      },
+      "contact": {
+        "phone": "(619) 226-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Ocean Beach Antique District offers a variety of antique shops with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "hillcrest-antiques-san-diego-ca",
+      "name": "Hillcrest Antiques",
+      "slug": "hillcrest-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3803 5th Ave",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92103",
+        "formatted": "3803 5th Ave, San Diego, CA 92103"
+      },
+      "contact": {
+        "phone": "(619) 295-1000",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Art",
+          "Mid-Century Modern"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Hillcrest Antiques offers fine antiques with professional appraisal services in the Hillcrest neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-estate-sales-san-diego-ca",
+      "name": "San Diego Estate Sales & Appraisals",
+      "slug": "san-diego-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "501 W Broadway",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92101",
+        "formatted": "501 W Broadway, San Diego, CA 92101"
+      },
+      "contact": {
+        "phone": "(619) 234-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Diego Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout San Diego County.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-san-antique-appraisals",
+      "name": "San Antique Appraisals",
+      "slug": "san-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Antique Appraisals provides professional antique and estate appraisal services in San Diego, CA with expertise in antiques, fine art, furniture.",
+        "notes": "Serving San Diego, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-san-diego-estate-appraisals",
+      "name": "San Diego Estate Appraisals",
+      "slug": "san-diego-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Diego Estate Appraisals provides professional antique and estate appraisal services in San Diego, CA with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving San Diego, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-san-personal-property-appraisals",
+      "name": "San Personal Property Appraisals",
+      "slug": "san-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Personal Property Appraisals provides professional antique and estate appraisal services in San Diego, CA with expertise in personal property, antiques, fine art.",
+        "notes": "Serving San Diego, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-san-diego-fine-art-antique-appraisals",
+      "name": "San Diego Fine Art & Antique Appraisals",
+      "slug": "san-diego-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Diego Fine Art & Antique Appraisals provides professional antique and estate appraisal services in San Diego, CA with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving San Diego, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-san-heritage-appraisals",
+      "name": "San Heritage Appraisals",
+      "slug": "san-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Heritage Appraisals provides professional antique and estate appraisal services in San Diego, CA with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving San Diego, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

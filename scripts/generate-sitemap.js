@@ -4,28 +4,56 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = path.join(__dirname, '../dist');
-const LOCATIONS_DIR = path.join(__dirname, '../src/data/standardized');
 
 // Configuration 
 const BASE_URL = process.env.SITE_URL || 'https://antique-appraiser-directory.appraisily.com';
 const SITEMAP_PATH = path.join(DIST_DIR, 'sitemap.xml');
 
-// Recursive function to find all HTML files
-function findAllHtmlFiles(dir, fileList = []) {
-  const files = fs.readdirSync(dir);
-  
-  files.forEach(file => {
-    const filePath = path.join(dir, file);
-    const stat = fs.statSync(filePath);
-    
-    if (stat.isDirectory()) {
-      fileList = findAllHtmlFiles(filePath, fileList);
-    } else if (file === 'index.html') {
-      fileList.push(filePath);
+function toPosix(value) {
+  return String(value || '').replace(/\\/g, '/');
+}
+
+function findAllHtmlFiles(dir, relativeDir = '', fileList = []) {
+  const currentDir = path.join(dir, relativeDir);
+  const entries = fs.readdirSync(currentDir, { withFileTypes: true });
+
+  entries.forEach((entry) => {
+    if (entry.name.startsWith('.')) return;
+    const childRel = relativeDir ? path.join(relativeDir, entry.name) : entry.name;
+    const childPath = path.join(dir, childRel);
+
+    if (entry.isDirectory()) {
+      findAllHtmlFiles(dir, childRel, fileList);
+      return;
+    }
+
+    if (entry.isFile() && entry.name.endsWith('.html') && entry.name !== 'sitemap.xml') {
+      fileList.push(childPath);
     }
   });
-  
+
   return fileList;
+}
+
+function shouldIncludeInSitemap(filePath) {
+  const content = fs.readFileSync(filePath, 'utf8');
+  if (/<meta\s+http-equiv=(['"])refresh\1/i.test(content)) return false;
+  if (/<meta\s+name=(['"])robots\1[^>]*content=(['"])\s*[^"']*noindex/i.test(content)) return false;
+  return true;
+}
+
+function resolveUrlFromHtmlPath(filePath) {
+  const relative = toPosix(path.relative(DIST_DIR, filePath));
+  const withoutIndex = relative.replace(/\/index\.html$/i, '/').replace(/index\.html$/i, '');
+  if (!withoutIndex) return '/';
+  return `/${withoutIndex}`.replace(/\/{2,}/g, '/');
+}
+
+function getRouteMetadata(url) {
+  if (url === '/') return { priority: '1.0', changefreq: 'daily' };
+  if (url.startsWith('/location/')) return { priority: '0.7', changefreq: 'weekly' };
+  if (url.startsWith('/appraiser/')) return { priority: '0.6', changefreq: 'weekly' };
+  return { priority: '0.5', changefreq: 'monthly' };
 }
 
 async function generateSitemap() {
@@ -35,51 +63,26 @@ async function generateSitemap() {
     // Ensure dist directory exists
     fs.ensureDirSync(DIST_DIR);
 
-    // Track routes with their metadata
-    const routesWithMetadata = [];
-    
-    // 1. Add main routes with high priority
-    const mainRoutes = [
-      { url: '/', priority: '1.0', changefreq: 'daily' }
-    ];
-    
-    mainRoutes.forEach(route => {
-      routesWithMetadata.push(route);
+    const htmlFiles = findAllHtmlFiles(DIST_DIR).filter((filePath) => shouldIncludeInSitemap(filePath));
+    const routeMap = new Map();
+
+    htmlFiles.forEach((filePath) => {
+      const url = resolveUrlFromHtmlPath(filePath);
+      if (!url) return;
+      routeMap.set(url, {
+        url,
+        ...getRouteMetadata(url),
+      });
     });
 
-    // 2. Add location pages
-    const locationFiles = fs.readdirSync(LOCATIONS_DIR)
-      .filter(file => file.endsWith('.json') && !file.includes('copy') && !file.includes('lifecycle'));
-    
-    locationFiles.forEach(file => {
-      const citySlug = file.replace('.json', '');
-      const url = `/location/${citySlug}/`;
-      
-      routesWithMetadata.push({
-        url,
-        priority: '0.7',
-        changefreq: 'weekly'
-      });
-      
-      // Add appraiser pages for each location
-      try {
-        const locationData = JSON.parse(fs.readFileSync(path.join(LOCATIONS_DIR, file)));
-        
-        locationData.appraisers?.forEach(appraiser => {
-          const targetSlug = appraiser.slug || appraiser.id;
-          if (targetSlug) {
-            // Make sure slug is URL-safe by removing spaces and special characters
-            const safeSlug = encodeURIComponent(targetSlug).replace(/%20/g, '-');
-            routesWithMetadata.push({
-              url: `/appraiser/${safeSlug}/`,
-              priority: '0.6',
-              changefreq: 'weekly'
-            });
-          }
-        });
-      } catch (err) {
-        console.error(`Error processing location file ${file}:`, err);
-      }
+    if (!routeMap.has('/')) {
+      routeMap.set('/', { url: '/', priority: '1.0', changefreq: 'daily' });
+    }
+
+    const routesWithMetadata = [...routeMap.values()].sort((a, b) => {
+      if (a.url === '/') return -1;
+      if (b.url === '/') return 1;
+      return a.url.localeCompare(b.url);
     });
     
     // Generate XML content

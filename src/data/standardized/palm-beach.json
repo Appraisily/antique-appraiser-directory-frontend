@@ -2,7 +2,7 @@
   "appraisers": [
     {
       "id": "palm beach-2-fontaines-auction-gallery",
-      "name": "2\\. Fontaine’s Auction Gallery",
+      "name": "2\\. Fontaine\u2019s Auction Gallery",
       "slug": "2-fontaines-auction-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach-2-fontaines-auction-gallery_1742202970156_eMk1FPjb0r.jpg",
       "address": {
@@ -33,7 +33,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Pricing depends on item type and research scope. 2\\. Fontaine’s Auction Gallery provides written estimates for antique appraisals in Palm Beach, FL.",
+        "pricing": "Pricing depends on item type and research scope. 2\\. Fontaine\u2019s Auction Gallery provides written estimates for antique appraisals in Palm Beach, FL.",
         "rating": 4.9,
         "reviewCount": 20
       },
@@ -49,8 +49,8 @@
         ]
       },
       "content": {
-        "about": "2\\. Fontaine’s Auction Gallery offers antique appraisal services in Palm Beach, FL. Primary specialties include Fine/decorative arts. Services include Nationwide + localized expertise across South FL counties.",
-        "notes": "2\\. Fontaine’s Auction Gallery serves Palm Beach, FL with antique appraisal support focused on Fine/decorative arts."
+        "about": "2\\. Fontaine\u2019s Auction Gallery offers antique appraisal services in Palm Beach, FL. Primary specialties include Fine/decorative arts. Services include Nationwide + localized expertise across South FL counties.",
+        "notes": "2\\. Fontaine\u2019s Auction Gallery serves Palm Beach, FL with antique appraisal support focused on Fine/decorative arts."
       },
       "reviews": [
         {
@@ -63,7 +63,7 @@
           "author": "Sarah D.",
           "rating": 5,
           "date": "2024-08-09",
-          "content": "Very responsive and easy to work with. 2\\. Fontaine’s Auction Gallery's expertise with my antique pocket watch collection was impressive."
+          "content": "Very responsive and easy to work with. 2\\. Fontaine\u2019s Auction Gallery's expertise with my antique pocket watch collection was impressive."
         },
         {
           "author": "Susan A.",
@@ -155,6 +155,506 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "palm-beach-antiques-palm-beach-fl",
+      "name": "Palm Beach Antiques",
+      "slug": "palm-beach-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "340 S County Rd",
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "33480",
+        "formatted": "340 S County Rd, Palm Beach, FL 33480"
+      },
+      "contact": {
+        "phone": "(561) 655-5550",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "European Antiques",
+          "Fine Art",
+          "Jewelry"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Palm Beach Antiques offers fine European and American antiques with professional appraisal services on Worth Avenue.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antique-row-palm-beach-fl",
+      "name": "Antique Row Palm Beach",
+      "slug": "antique-row-palm-beach",
+      "imageUrl": "",
+      "address": {
+        "street": "3800-3900 S Dixie Hwy",
+        "city": "West Palm Beach",
+        "state": "FL",
+        "zip": "33405",
+        "formatted": "3800-3900 S Dixie Hwy, West Palm Beach, FL 33405"
+      },
+      "contact": {
+        "phone": "(561) 832-8282",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Historic antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Fine Art",
+          "Decorative Objects"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Antique Row on South Dixie Highway is Palm Beach County's premier antique destination, with multiple dealers offering expert appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "napoleon-antiques-palm-beach-fl",
+      "name": "Napoleon Antiques",
+      "slug": "napoleon-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "225 Worth Ave",
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "33480",
+        "formatted": "225 Worth Ave, Palm Beach, FL 33480"
+      },
+      "contact": {
+        "phone": "(561) 659-2008",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine antique dealer on Worth Avenue",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "European Antiques",
+          "French Furniture",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Napoleon Antiques offers museum-quality European antiques with professional appraisal services on Palm Beach's prestigious Worth Avenue.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "palm-beach-palm-antique-appraisals",
+      "name": "Palm Antique Appraisals",
+      "slug": "palm-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Palm Antique Appraisals provides professional antique and estate appraisal services in Palm Beach, FL with expertise in antiques, fine art, furniture.",
+        "notes": "Serving Palm Beach, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "palm-beach-palm-beach-estate-appraisals",
+      "name": "Palm Beach Estate Appraisals",
+      "slug": "palm-beach-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Palm Beach Estate Appraisals provides professional antique and estate appraisal services in Palm Beach, FL with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving Palm Beach, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "palm-beach-palm-personal-property-appraisals",
+      "name": "Palm Personal Property Appraisals",
+      "slug": "palm-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Palm Personal Property Appraisals provides professional antique and estate appraisal services in Palm Beach, FL with expertise in personal property, antiques, fine art.",
+        "notes": "Serving Palm Beach, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "palm-beach-palm-beach-fine-art-antique-appraisals",
+      "name": "Palm Beach Fine Art & Antique Appraisals",
+      "slug": "palm-beach-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Palm Beach Fine Art & Antique Appraisals provides professional antique and estate appraisal services in Palm Beach, FL with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving Palm Beach, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "palm-beach-palm-heritage-appraisals",
+      "name": "Palm Heritage Appraisals",
+      "slug": "palm-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Palm Heritage Appraisals provides professional antique and estate appraisal services in Palm Beach, FL with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving Palm Beach, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

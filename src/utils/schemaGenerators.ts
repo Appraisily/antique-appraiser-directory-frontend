@@ -359,17 +359,52 @@ export function generateLocationSchema(locationData: any, cityName: string, slug
       }) 
     : [];
   
+  // Calculate aggregate rating across all appraisers in this location
+  const appraisersWithRatings = Array.isArray(locationData.appraisers)
+    ? locationData.appraisers.filter((a: any) => {
+        const rating = isStandardized ? a.business?.rating : a.rating;
+        return rating !== undefined && rating > 0;
+      })
+    : [];
+  
+  let aggregateRating: any = undefined;
+  if (appraisersWithRatings.length > 0) {
+    const totalRating = appraisersWithRatings.reduce((sum: number, a: any) => {
+      const rating = isStandardized ? a.business?.rating : a.rating;
+      return sum + (rating || 0);
+    }, 0);
+    const totalReviews = appraisersWithRatings.reduce((sum: number, a: any) => {
+      const reviews = isStandardized ? a.business?.reviewCount : a.reviewCount;
+      return sum + (reviews || 0);
+    }, 0);
+    const avgRating = totalRating / appraisersWithRatings.length;
+    
+    aggregateRating = {
+      "@type": "AggregateRating",
+      "ratingValue": avgRating.toFixed(1),
+      "reviewCount": totalReviews.toString(),
+      "bestRating": "5",
+      "worstRating": "1"
+    };
+  }
+  
   // Create the schema object
   const pagePath = `location/${resolvedSlug}`;
   const pageUrl = buildProfileUrl(pagePath);
 
   return {
     "@context": "https://schema.org",
-    "@type": "Service",
+    "@type": "ItemList",
     "@id": pageUrl,
     "name": `Antique Appraisers in ${resolvedCity}`,
     "description": `Find top-rated antique appraisers near you in ${resolvedCity}, ${stateCode}. Professional antique valuation services for insurance, estate planning, donations, and more.`,
-    "serviceType": "Antique Appraisal",
+    "numberOfItems": locationData.appraisers?.length || 0,
+    "itemListElement": providers.map((provider: any, index: number) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "item": provider
+    })),
+    ...(aggregateRating ? { aggregateRating } : {}),
     "areaServed": {
       "@type": "City",
       "name": resolvedCity,
@@ -384,21 +419,6 @@ export function generateLocationSchema(locationData: any, cityName: string, slug
         "name": stateCode
       }
     },
-    "provider": providers,
-    "offers": {
-      "@type": "Offer",
-      "description": `Professional antique appraisal services in ${resolvedCity}`,
-      "areaServed": {
-        "@type": "City",
-        "name": resolvedCity,
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": safeCity,
-          "addressRegion": stateCode,
-          "addressCountry": "US"
-        }
-      }
-    },
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": pageUrl
@@ -406,17 +426,18 @@ export function generateLocationSchema(locationData: any, cityName: string, slug
     "keywords": [
       `antique appraisers in ${resolvedCity}`,
       `antique appraisers near ${resolvedCity}`,
+      `antique appraisers near me ${resolvedCity}`,
       `${resolvedCity} antique appraisers`,
       `antique valuation ${resolvedCity}`,
       `antique authentication ${resolvedCity}`,
       `antique identification ${resolvedCity}`,
       `find antique appraisers ${resolvedCity}`,
       `antique evaluation ${resolvedCity}`,
-      `best antique appraisers ${resolvedCity}`
+      `best antique appraisers ${resolvedCity}`,
+      `antique appraiser near me`
     ]
   };
 }
-
 export function generateFAQSchema(appraiser: any) {
   // Determine if we're using standardized data format
   const isStandardized = appraiser.expertise !== undefined;

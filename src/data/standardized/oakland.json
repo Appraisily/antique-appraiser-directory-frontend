@@ -244,6 +244,433 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "oakland-talisman-antiques",
+      "name": "Talisman Antiques",
+      "slug": "talisman-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "6007 College Ave",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "94618",
+        "formatted": "6007 College Ave, Oakland, CA 94618"
+      },
+      "contact": {
+        "phone": "(510) 653-7998",
+        "email": "",
+        "website": "https://www.visitoakland.com/listing/talisman-antiques/933/"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop in Rockridge",
+        "hours": [
+          {
+            "day": "Monday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "12:00 PM - 6:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12:00 PM - 5:00 PM"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Decorative Arts",
+          "Vintage Collectibles",
+          "Fine Art",
+          "Mid-Century Modern"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Consignment",
+          "Restoration Consultation"
+        ]
+      },
+      "content": {
+        "about": "Talisman Antiques is a well-established antique shop in Oakland's Rockridge neighborhood offering a curated selection of antique furniture, decorative arts, and vintage collectibles. They provide professional antique appraisals and restoration consultation services to the Oakland community.",
+        "notes": "Located in the Rockridge neighborhood of Oakland. 18 reviews with strong ratings."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "oakland-rick-levine-antiques",
+      "name": "Rick Levine Antiques",
+      "slug": "rick-levine-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Oakland, CA"
+      },
+      "contact": {
+        "phone": "(510) 653-7998",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Decorative Arts",
+          "Fine Art",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Antique Sales"
+        ]
+      },
+      "content": {
+        "about": "Rick Levine Antiques is an Oakland-based antique dealer and appraiser specializing in antique furniture, decorative arts, and fine art. They provide professional antique appraisal services and estate valuations throughout the San Francisco Bay Area.",
+        "notes": "Located in Oakland, CA serving the Bay Area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "oakland-mission-group-appraisal",
+      "name": "Mission Group Appraisal",
+      "slug": "mission-group-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Oakland, CA"
+      },
+      "contact": {
+        "phone": "(415) 648-0648",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisal",
+          "Antiques",
+          "Personal Property",
+          "Real Estate"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Personal Property Valuations"
+        ]
+      },
+      "content": {
+        "about": "Mission Group Appraisal provides professional estate and antique appraisal services in Oakland, CA. They specialize in estate appraisal, antiques, and personal property valuations with certified appraisers serving the Bay Area.",
+        "notes": "Serves Oakland and the broader San Francisco Bay Area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "talisman-antiques-oakland-ca",
+      "name": "Talisman Antiques",
+      "slug": "talisman-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "6007 College Ave",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "94618",
+        "formatted": "6007 College Ave, Oakland, CA 94618"
+      },
+      "contact": {
+        "phone": "(510) 653-7998",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Talisman Antiques is a well-regarded antique shop on College Avenue in Oakland, CA offering a curated selection of antiques, vintage collectibles, furniture, and decorative arts. They provide professional antique appraisal services alongside their retail operations, serving collectors and estate clients throughout the Oakland and East Bay area.",
+        "notes": "Located at 6007 College Ave, Oakland, CA. Top-rated on Yelp for Antique Appraisal in Oakland."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-oakland-ca",
+      "name": "ValuePros Appraisal Services - Oakland",
+      "slug": "valuepros-appraisal-oakland",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Oakland, CA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Jewelry",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Oakland, CA area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Oakland CA and the Bay Area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "sorted-estates-oakland-ca",
+      "name": "Sorted Estates",
+      "slug": "sorted-estates-oakland",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Oakland, CA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Collectibles",
+          "Personal Property",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Sorted Estates provides professional antique appraisals and estate sale services in the Oakland, CA area. They handle everything from single-item antique valuations to full estate liquidations, serving families and individuals throughout the East Bay area with comprehensive estate consulting.",
+        "notes": "Serves Oakland CA and the East Bay. Full-service estate and appraisal firm."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "berkeley-personal-property-appraisers-oakland-ca",
+      "name": "Berkeley Personal Property Appraisers",
+      "slug": "berkeley-personal-property-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Berkeley",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Berkeley, CA (Serves Oakland)"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Decorative Arts",
+          "Personal Property",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "IRS Qualified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Berkeley Personal Property Appraisers provides IRS-qualified antique and personal property appraisals serving Oakland and the broader East Bay area. They specialize in valuations for estate tax, insurance, charitable donation, and personal property needs with thorough, USPAP-compliant reports.",
+        "notes": "IRS-qualified, USPAP-compliant. Serves Oakland CA and the East Bay from Berkeley."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

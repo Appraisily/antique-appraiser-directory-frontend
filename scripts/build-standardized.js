@@ -92,28 +92,25 @@ async function buildStandardized() {
     // Step 4: Build the React app
     runCommand('npx vite build', '🔨 Building React app');
 
-    // Step 5: Generate SEO files
-    runCommand('node scripts/generate-sitemap.js', '🗺️ Generating sitemap');
-
-    // Step 6: Fix links to point to main domain
+    // Step 5: Fix links to point to main domain
     runCommand('node scripts/fix-domain-links.js', '🔗 Updating links to point to main domain');
 
-    // Step 7: Generate static location pages
+    // Step 6: Generate static location pages
     runCommand('node scripts/fix-all-pages.js', '📄 Generating static location pages');
 
-    // Step 8: Populate location pages with indexable, content-rich HTML (beyond just meta tags)
+    // Step 7: Populate location pages with indexable, content-rich HTML (beyond just meta tags)
     runCommand('node scripts/generate-location-pages.mjs --public-dir dist', '🧩 Rendering indexable location page content');
     
-    // Step 9: Generate static appraiser pages
+    // Step 8: Generate static appraiser pages
     runCommand('node scripts/generate-appraiser-pages.js', '📄 Generating static appraiser pages');
     
-    // Step 10: Fix HTML paths for deployment (fix for module loading issue)
+    // Step 9: Fix HTML paths for deployment (fix for module loading issue)
     runCommand('node scripts/fix-html-paths.js', '🔧 Fixing HTML paths for module loading');
 
-    // Step 11: Fix React hydration issues
+    // Step 10: Fix React hydration issues
     runCommand('node scripts/fix-react-hydration.js', '🔄 Fixing React hydration issues');
 
-    // Step 11b: Ensure the client bundle does NOT attempt to hydrate pre-rendered HTML.
+    // Step 10b: Ensure the client bundle does NOT attempt to hydrate pre-rendered HTML.
     // The directory pages are generated without a serialized state snapshot, so hydrateRoot
     // can trigger React recoverable hydration mismatch errors (#418/#423) on real traffic.
     runCommand(
@@ -121,20 +118,26 @@ async function buildStandardized() {
       '🧯 Disabling client hydration (client render only)'
     );
 
-    // Step 11c: Validate we did not ship a hydration-mode bundle.
+    // Step 10c: Validate we did not ship a hydration-mode bundle.
     // This is a hard guard because hydration mismatch errors surface as Clarity ScriptErrorCount spikes.
     runCommand(
       'node scripts/check-client-entry.mjs --public-dir dist --require-marker=1',
       '🔎 Verifying client entry is client-render-only'
     );
     
-    // Step 12: Fix preloaded asset references
+    // Step 11: Fix preloaded asset references
     runCommand('node scripts/fix-preload-refs.js', '🔄 Fixing preloaded asset references');
 
-    // Step 13: Fix location links to be relative
+    // Step 12: Fix location links to be relative
     runCommand('node scripts/fix-relative-links.js', '🔄 Fixing location links to be relative');
 
-    // Step 14: Prepare for Netlify deployment
+    // Step 13: Apply indexability rules before regenerating the sitemap.
+    runCommand('node scripts/apply-indexing-rules.mjs --public-dir dist', '🧭 Applying robots/indexing rules');
+
+    // Step 14: Generate sitemap from the final HTML output so noindex pages are excluded.
+    runCommand('node scripts/generate-sitemap.js', '🗺️ Generating final sitemap from built HTML');
+
+    // Step 15: Prepare for Netlify deployment
     runCommand('node scripts/prepare-for-netlify.js', '🚀 Preparing for Netlify deployment');
 
     log('✅ Build completed successfully!', 'success');

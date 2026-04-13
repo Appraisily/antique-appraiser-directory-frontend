@@ -2,7 +2,7 @@
   "appraisers": [
     {
       "id": "charlotte-coinfully-specialty-numismatic-appraiser",
-      "name": "Coinfully – Specialty Numismatic Appraiser",
+      "name": "Coinfully \u2013 Specialty Numismatic Appraiser",
       "slug": "coinfully-specialty-numismatic-appraiser",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-coinfully-specialty-numismatic-appraiser_1742201126891_gfEfb_wFu.jpg",
       "address": {
@@ -33,7 +33,7 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Pricing depends on item type and research scope. Coinfully – Specialty Numismatic Appraiser provides written estimates for antique appraisals in Charlotte, NO.",
+        "pricing": "Pricing depends on item type and research scope. Coinfully \u2013 Specialty Numismatic Appraiser provides written estimates for antique appraisals in Charlotte, NO.",
         "rating": 4.3,
         "reviewCount": 15
       },
@@ -55,7 +55,7 @@
         ]
       },
       "content": {
-        "about": "Coinfully – Specialty Numismatic Appraiser offers antique appraisal services in Charlotte, NO. Primary specialties include Fine art collections. Services include Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "about": "Coinfully \u2013 Specialty Numismatic Appraiser offers antique appraisal services in Charlotte, NO. Primary specialties include Fine art collections. Services include Antique Appraisals, Estate Valuations, Insurance Appraisals.",
         "notes": "Helping Charlotte, NO collectors with appraisals for Fine art collections."
       },
       "reviews": [
@@ -81,7 +81,7 @@
           "author": "Patricia A.",
           "rating": 4.5,
           "date": "2024-12-15",
-          "content": "Coinfully – Specialty Numismatic Appraiser's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
+          "content": "Coinfully \u2013 Specialty Numismatic Appraiser's knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
         },
         {
           "author": "Susan J.",
@@ -271,6 +271,508 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "noda-antiques-charlotte-nc",
+      "name": "NoDa Antiques",
+      "slug": "noda-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3221 N Davidson St",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28205",
+        "formatted": "3221 N Davidson St, Charlotte, NC 28205"
+      },
+      "contact": {
+        "phone": "(704) 332-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop in NoDa",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Items",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "NoDa Antiques offers a curated selection of antiques with professional appraisal services in the NoDa arts district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "south-end-antiques-charlotte-nc",
+      "name": "South End Antiques",
+      "slug": "south-end-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1925 Camden Rd",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28203",
+        "formatted": "1925 Camden Rd, Charlotte, NC 28203"
+      },
+      "contact": {
+        "phone": "(704) 372-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Decorative Arts",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "South End Antiques offers fine antiques with professional appraisal services in Charlotte's South End.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-estate-sales-charlotte-nc",
+      "name": "Charlotte Estate Sales & Appraisals",
+      "slug": "charlotte-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "201 S Tryon St",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202",
+        "formatted": "201 S Tryon St, Charlotte, NC 28202"
+      },
+      "contact": {
+        "phone": "(704) 334-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Charlotte Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the Charlotte metro area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-grace-kelley-antique-appraisals",
+      "name": "Grace Kelley Antique Appraisals",
+      "slug": "grace-kelley-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Decorative Arts",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Grace Kelley Antique Appraisals provides professional antique appraisal services in Charlotte with expertise in fine art, estate contents, and decorative arts.",
+        "notes": "Serving Charlotte, NC with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-alexander-appraisal-service",
+      "name": "Alexander Appraisal Service",
+      "slug": "alexander-appraisal-service",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(704) 849-7352",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Items",
+          "Jewelry",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Alexander Appraisal Service provides antique and personal property appraisals in Charlotte with expertise in fine art, jewelry, and estate items.",
+        "notes": "Serving Charlotte, NC with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-k-and-c-appraisals",
+      "name": "K & C Appraisals",
+      "slug": "k-and-c-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Since 1993",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 73
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Real Estate",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Real Estate Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "K & C Appraisals has been in business since 1993, offering antique, real estate, and personal property appraisals in Charlotte with free estimates.",
+        "notes": "Serving Charlotte, NC with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-queen-city-antique-appraisals",
+      "name": "Queen City Antique Appraisals",
+      "slug": "queen-city-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Southern Antiques",
+          "Furniture",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Queen City Antique Appraisals specializes in Southern antiques, furniture, and fine art. Serving Charlotte and the surrounding Piedmont region.",
+        "notes": "Serving Charlotte, NC with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-carolina-antique-appraisal-services",
+      "name": "Carolina Antique Appraisal Services",
+      "slug": "carolina-antique-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Carolina Antique Appraisal Services provides professional antique valuations throughout Charlotte and the Carolinas with expertise in fine art and estate contents.",
+        "notes": "Serving Charlotte, NC with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

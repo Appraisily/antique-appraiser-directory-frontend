@@ -214,7 +214,7 @@
       },
       "expertise": {
         "specialties": [
-          "- Fine art & paintings  \n- Antique furniture/decorative arts  \n- Collectibles & rare items  \n- Insurance/documentation assessments  \n\nExpertise:  \n- USPAP-compliant reports\\[1\\]  \n+ International Society Appraisers certification\\[3\\]  \n\nKey Personnel: Erica Holycross - Master’s Fine Arts Ohio State University + decade auction-house experience specializing pre-modern contemporary artworks\\[3\\].  \n\nService Areas: Greater Baltimore metro + nationwide remote options\\[10\\].  \n\nTypical Pricing:  \nThe post \n$175/hour non-regulated"
+          "- Fine art & paintings  \n- Antique furniture/decorative arts  \n- Collectibles & rare items  \n- Insurance/documentation assessments  \n\nExpertise:  \n- USPAP-compliant reports\\[1\\]  \n+ International Society Appraisers certification\\[3\\]  \n\nKey Personnel: Erica Holycross - Master\u2019s Fine Arts Ohio State University + decade auction-house experience specializing pre-modern contemporary artworks\\[3\\].  \n\nService Areas: Greater Baltimore metro + nationwide remote options\\[10\\].  \n\nTypical Pricing:  \nThe post \n$175/hour non-regulated"
         ],
         "certifications": [
           "Professional Appraiser",
@@ -225,8 +225,8 @@
         ]
       },
       "content": {
-        "about": "Prestige Estate Services offers antique appraisal services in Baltimore, MA. Primary specialties include - Fine art & paintings  \n- Antique furniture/decorative arts  \n- Collectibles & rare items  \n- Insurance/documentation assessments  \n\nExpertise:  \n- USPAP-compliant reports\\[1\\]  \n+ International Society Appraisers certification\\[3\\]  \n\nKey Personnel: Erica Holycross - Master’s Fine Arts Ohio State University + decade auction-house experience specializing pre-modern contemporary artworks\\[3\\].  \n\nService Areas: Greater Baltimore metro + nationwide remote options\\[10\\].  \n\nTypical Pricing:  \nThe post \n$175/hour non-regulated. Services include Greater Baltimore metro + nationwide remote options\\[10\\]..",
-        "notes": "Serving Baltimore, MA clients who need antique valuations in - Fine art & paintings  \n- Antique furniture/decorative arts  \n- Collectibles & rare items  \n- Insurance/documentation assessments  \n\nExpertise:  \n- USPAP-compliant reports\\[1\\]  \n+ International Society Appraisers certification\\[3\\]  \n\nKey Personnel: Erica Holycross - Master’s Fine Arts Ohio State University + decade auction-house experience specializing pre-modern contemporary artworks\\[3\\].  \n\nService Areas: Greater Baltimore metro + nationwide remote options\\[10\\].  \n\nTypical Pricing:  \nThe post \n$175/hour non-regulated."
+        "about": "Prestige Estate Services offers antique appraisal services in Baltimore, MA. Primary specialties include - Fine art & paintings  \n- Antique furniture/decorative arts  \n- Collectibles & rare items  \n- Insurance/documentation assessments  \n\nExpertise:  \n- USPAP-compliant reports\\[1\\]  \n+ International Society Appraisers certification\\[3\\]  \n\nKey Personnel: Erica Holycross - Master\u2019s Fine Arts Ohio State University + decade auction-house experience specializing pre-modern contemporary artworks\\[3\\].  \n\nService Areas: Greater Baltimore metro + nationwide remote options\\[10\\].  \n\nTypical Pricing:  \nThe post \n$175/hour non-regulated. Services include Greater Baltimore metro + nationwide remote options\\[10\\]..",
+        "notes": "Serving Baltimore, MA clients who need antique valuations in - Fine art & paintings  \n- Antique furniture/decorative arts  \n- Collectibles & rare items  \n- Insurance/documentation assessments  \n\nExpertise:  \n- USPAP-compliant reports\\[1\\]  \n+ International Society Appraisers certification\\[3\\]  \n\nKey Personnel: Erica Holycross - Master\u2019s Fine Arts Ohio State University + decade auction-house experience specializing pre-modern contemporary artworks\\[3\\].  \n\nService Areas: Greater Baltimore metro + nationwide remote options\\[10\\].  \n\nTypical Pricing:  \nThe post \n$175/hour non-regulated."
       },
       "reviews": [
         {
@@ -262,6 +262,568 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "baltimore-baltimore-gold-coin-baltimore",
+      "name": "Baltimore Gold & Coin",
+      "slug": "baltimore-gold-coin",
+      "imageUrl": "",
+      "address": {
+        "street": "1501 Sulgrave Ave #105",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "21209",
+        "formatted": "1501 Sulgrave Ave #105, Baltimore, MD 21209"
+      },
+      "contact": {
+        "phone": "(410) 826-2241",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established coin and gold buyer in Baltimore",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Rare Coins",
+          "Antique Gold",
+          "Bullion",
+          "Numismatic Coins",
+          "Stamp Collections"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Coin Appraisals",
+          "Gold Valuation",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Baltimore Gold & Coin offers competitive prices for gold items, rare coins, bullion, numismatic coins, and stamp collections. They provide professional appraisal services for antique and collectible items in the Baltimore area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baltimore-the-antique-man-baltimore",
+      "name": "The Antique Man",
+      "slug": "the-antique-man",
+      "imageUrl": "",
+      "address": {
+        "street": "1806 Fleet St",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "21231",
+        "formatted": "1806 Fleet St, Baltimore, MD 21231"
+      },
+      "contact": {
+        "phone": "(410) 732-0932",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "40 years in business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "11:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Sports Cards & Memorabilia",
+          "Vintage Collectibles",
+          "Antique Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Collectible Valuation"
+        ]
+      },
+      "content": {
+        "about": "The Antique Man has been a Baltimore fixture on Fleet Street for 40 years, specializing in sports cards and memorabilia, vintage collectibles, and antique furniture. Their decades of experience make them a trusted resource for antique appraisals in Baltimore.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baltimore-antique-exchange-inc-baltimore",
+      "name": "Antique Exchange Inc",
+      "slug": "antique-exchange-inc",
+      "imageUrl": "",
+      "address": {
+        "street": "3545 Chestnut Ave",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "21211",
+        "formatted": "3545 Chestnut Ave, Baltimore, MD 21211"
+      },
+      "contact": {
+        "phone": "(410) 532-7000",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "29 years in business",
+        "hours": [
+          {
+            "day": "Wednesday-Sunday",
+            "hours": "11:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Monday-Tuesday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Silver",
+          "Antique Furniture",
+          "Vintage Frames",
+          "Interior Design"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment Service",
+          "Interior Design Consulting"
+        ]
+      },
+      "content": {
+        "about": "Antique Exchange Inc has been a Baltimore destination for 29 years, offering antiques, silver, frames, gifts, and interior design services. They provide appraisal services and consignment options for estate items.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baltimore-imperial-half-bushel-baltimore",
+      "name": "Imperial Half Bushel",
+      "slug": "imperial-half-bushel",
+      "imageUrl": "",
+      "address": {
+        "street": "831 N Howard St",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "21201",
+        "formatted": "831 N Howard St, Baltimore, MD 21201"
+      },
+      "contact": {
+        "phone": "(410) 462-1192",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "26 years in business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "11:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.7,
+        "reviewCount": 1
+      },
+      "expertise": {
+        "specialties": [
+          "American Silver",
+          "Baltimore Silver",
+          "Stieff Silver",
+          "Kirk Silver"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Silver Appraisals",
+          "Estate Valuations",
+          "Silver Valuation"
+        ]
+      },
+      "content": {
+        "about": "Imperial Half Bushel has been a premier Baltimore antique silver dealer for 26 years, specializing in American silver with a particular focus on Baltimore-made Stieff and Kirk silver. They offer expert silver appraisal and valuation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baltimore-harrison-appraisals",
+      "name": "Harrison Appraisals",
+      "slug": "harrison-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://harrisonappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Jewelry",
+          "Estate Contents",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Qualified Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Harrison Appraisals serves clients throughout Maryland with qualified appraisals of antiques, fine art, jewelry, and estate contents. Professional valuations for insurance, estate, and donation purposes.",
+        "notes": "Serving Baltimore, MD with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baltimore-valuepros-baltimore",
+      "name": "ValuePros Baltimore",
+      "slug": "valuepros-baltimore",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Coins",
+          "Furniture",
+          "Estate Items"
+        ],
+        "certifications": [
+          "ISA Accredited",
+          "AAA Accredited",
+          "GIA Accredited"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Furniture Appraisals",
+          "Insurance Appraisals",
+          "Coin Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros provides appraisal services in Baltimore with experts individually accredited by ISA, AAA, or GIA. Professional valuations for antiques, furniture, coins, and estate items.",
+        "notes": "Serving Baltimore, MD with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baltimore-chesapeake-antique-appraisals",
+      "name": "Chesapeake Antique Appraisals",
+      "slug": "chesapeake-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Maryland Antiques",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Chesapeake Antique Appraisals specializes in Maryland antiques, fine art, and furniture. Serving Baltimore and the Chesapeake Bay region with expert valuations.",
+        "notes": "Serving Baltimore, MD with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baltimore-harbor-city-estate-appraisals",
+      "name": "Harbor City Estate Appraisals",
+      "slug": "harbor-city-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Collectibles",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Probate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Harbor City Estate Appraisals provides comprehensive antique and estate valuations throughout Baltimore and the Mid-Atlantic region.",
+        "notes": "Serving Baltimore, MD with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baltimore-maryland-antique-appraisal-services",
+      "name": "Maryland Antique Appraisal Services",
+      "slug": "maryland-antique-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Silver",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Maryland Antique Appraisal Services offers professional antique valuations in Baltimore with expertise in furniture, silver, and collectibles.",
+        "notes": "Serving Baltimore, MD with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

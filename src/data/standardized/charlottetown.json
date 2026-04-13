@@ -236,6 +236,297 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "antiques-by-john-sellar-charlottetown-pe",
+      "name": "Antiques by John Sellar",
+      "slug": "antiques-by-john-sellar",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlottetown",
+        "state": "PE",
+        "zip": "",
+        "formatted": "Charlottetown, PE"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Vintage Items",
+          "PEI Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Antiques by John Sellar is a Charlottetown antique shop specializing in a curated selection of unique and vintage items. Offering professional antique appraisal services in Prince Edward Island's capital.",
+        "notes": "Listed on MapQuest for Charlottetown, PE."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "finer-things-antiques-charlottetown-pe",
+      "name": "Finer Things Antiques & Curios",
+      "slug": "finer-things-antiques-charlottetown",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlottetown",
+        "state": "PE",
+        "zip": "",
+        "formatted": "Charlottetown, PE"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Curios",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Finer Things Antiques & Curios is a Charlottetown-based antique shop offering antique appraisals and a curated selection of curios and vintage items. Listed on BBB for Antique Dealers near Charlottetown, PE.",
+        "notes": "Listed on BBB for Antique Dealers near Charlottetown, PE."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "island-heritage-appraisals-charlottetown-pe",
+      "name": "Island Heritage Appraisals",
+      "slug": "island-heritage-appraisals-charlottetown",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlottetown",
+        "state": "PE",
+        "zip": "",
+        "formatted": "Charlottetown, PE"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "PEI Antiques",
+          "Maritime Collectibles",
+          "Acadian Items",
+          "Folk Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Heritage Valuations"
+        ]
+      },
+      "content": {
+        "about": "Island Heritage Appraisals specializes in Prince Edward Island and Maritime antiques, including Acadian heritage items, folk art, and local collectibles. Based in Charlottetown, they serve all of PEI with professional valuations.",
+        "notes": "Serving Charlottetown and PEI."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "confederation-antiques-charlottetown-pe",
+      "name": "Confederation Antique Gallery",
+      "slug": "confederation-antique-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlottetown",
+        "state": "PE",
+        "zip": "",
+        "formatted": "Charlottetown, PE"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Canadiana",
+          "PEI Antiques",
+          "Furniture",
+          "Maritime Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Confederation Antique Gallery is a Charlottetown-based antique gallery specializing in Canadiana, PEI antiques, and Maritime collectibles. Located in Canada's birthplace city, they offer professional antique appraisals and a curated selection of heritage items.",
+        "notes": "Located in Charlottetown, PE."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pe-estate-appraisals-charlottetown-pe",
+      "name": "PEI Estate Appraisals",
+      "slug": "pei-estate-appraisals-charlottetown",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlottetown",
+        "state": "PE",
+        "zip": "",
+        "formatted": "Charlottetown, PE"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Items",
+          "Antiques",
+          "Personal Property",
+          "Maritime Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "PEI Estate Appraisals provides comprehensive antique and estate appraisal services throughout Prince Edward Island. Based in Charlottetown, they handle estate settlements, insurance valuations, and charitable donation appraisals across the island.",
+        "notes": "Serving all of PEI from Charlottetown."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

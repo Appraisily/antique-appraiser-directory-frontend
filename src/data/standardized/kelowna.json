@@ -257,6 +257,242 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "okanagan-coin-valuator-kelowna-bc",
+      "name": "Okanagan Coin Valuator",
+      "slug": "okanagan-coin-valuator",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kelowna",
+        "state": "BC",
+        "zip": "V1Y 9T1",
+        "formatted": "Kelowna, BC V1Y 9T1"
+      },
+      "contact": {
+        "phone": "(250) 258-8292",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established coin and antique valuator",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Coins",
+          "Currency",
+          "Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Coin Appraisals",
+          "Collectible Valuations"
+        ]
+      },
+      "content": {
+        "about": "Okanagan Coin Valuator is a Kelowna-based coin and antique appraisal service. Recognized as one of the top antique appraisal services in Kelowna on Yelp.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Kelowna, BC. (250) 258-8292."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "country-lane-antiques-kelowna-bc",
+      "name": "Country Lane Antiques",
+      "slug": "country-lane-antiques-kelowna",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kelowna",
+        "state": "BC",
+        "zip": "",
+        "formatted": "Kelowna, BC"
+      },
+      "contact": {
+        "phone": "(604) 306-8598",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Items",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Country Lane Antiques is a Kelowna-based antique dealer offering professional appraisal services. Listed on BBB for Antique Appraisals near Kelowna, BC.",
+        "notes": "BBB listed. (604) 306-8598."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "stellar-gem-services-kelowna-bc",
+      "name": "Stellar Gem Services",
+      "slug": "stellar-gem-services-kelowna",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kelowna",
+        "state": "BC",
+        "zip": "",
+        "formatted": "Kelowna, BC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established gem service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Gemstones",
+          "Antique Jewelry",
+          "Estate Jewelry",
+          "Precious Stones"
+        ],
+        "certifications": [],
+        "services": [
+          "Jewelry Appraisals",
+          "Antique Appraisals",
+          "Gem Testing"
+        ]
+      },
+      "content": {
+        "about": "Stellar Gem Services is a Kelowna-based gemological service offering professional antique jewelry and gemstone appraisals. Listed among the top antique appraisal services in Kelowna.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Kelowna, BC."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisals-kelowna-bc",
+      "name": "ValuePros Appraisal Services",
+      "slug": "valuepros-appraisals-kelowna",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kelowna",
+        "state": "BC",
+        "zip": "",
+        "formatted": "Kelowna, BC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Property Appraisals",
+          "Estate Items",
+          "Antiques",
+          "Contents"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Property Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services has been family owned and managed since 1976, providing onsite appraisal services for Kelowna BC and the surrounding Okanagan area. They handle estate contents including antiques and personal property.",
+        "notes": "Since 1976. Website: valuepros.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

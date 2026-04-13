@@ -97,12 +97,34 @@ function App() {
         source: 'hero_directory',
         query
       });
+
+      // Fallback: try to find a matching city by slug or name
+      const lowerQuery = query.toLowerCase();
+      const match = cities.find(city =>
+        city.slug.toLowerCase().includes(lowerQuery) ||
+        city.name.toLowerCase().includes(lowerQuery) ||
+        city.state.toLowerCase().includes(lowerQuery) ||
+        `${city.name}, ${city.state}`.toLowerCase().includes(lowerQuery)
+      );
+
+      if (match) {
+        trackEvent('location_search_fuzzy_match', {
+          source: 'hero_directory',
+          query,
+          city_slug: match.slug
+        });
+        if (typeof window !== 'undefined') {
+          window.location.href = buildSiteUrl(`/location/${match.slug}`);
+        }
+        return;
+      }
     }
 
     if (scrollToCityDirectory()) return;
 
     if (typeof window !== 'undefined') {
-      window.location.href = buildSiteUrl('/location/');
+      // Last resort: navigate to the closest matching city or home
+      window.location.href = buildSiteUrl('/');
     }
   };
 
@@ -150,8 +172,7 @@ function App() {
       placement: 'home_hero_stats',
       label
     });
-    triggerSearchHighlight();
-    citySearchRef.current?.focusInput?.();
+    scrollToCityDirectory();
   };
   const handleCtaClick = (placement: string) => {
     trackEvent('cta_click', {
@@ -175,14 +196,17 @@ function App() {
       event.preventDefault();
     }
 
+    // Build CTA URL with specialty context so the start page can pre-select the category
+    const ctaWithSpecialty = getPrimaryCtaUrl({ specialty_category: specialty });
+
     trackEvent('specialty_card_click', {
       placement: 'home_specialties',
       specialty,
-      destination: primaryCtaUrl
+      destination: ctaWithSpecialty
     });
 
     if (typeof window !== 'undefined') {
-      window.location.href = primaryCtaUrl;
+      window.location.href = ctaWithSpecialty;
     }
   };
 
@@ -366,8 +390,8 @@ function App() {
   return (
     <>
       <SEO
-        title="Find Antique Appraisers Near You | Art Appraisal Services by City"
-        description="Compare antique appraisers and art appraisal services near you. Browse city pages for donation, estate, insurance, and personal-property valuations, then choose local or online support."
+        title="Antique Appraisers Near Me — Compare Local Experts by City"
+        description="Search antique appraisers near me — compare local specialists for estate, insurance, donation, and personal-property valuations. Browse city pages or get an online appraisal in 24–48 hours."
         schema={[
           generateHomePageSchema(),
           generateServiceSchema(),
@@ -376,12 +400,18 @@ function App() {
         ]}
         path="/"
       />
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-white focus:px-4 focus:py-2 focus:rounded-md focus:shadow-lg focus:outline-none focus:text-blue-700"
+      >
+        Skip to main content
+      </a>
       <div className="flex-1">
         {/* Hero Section */}
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/25 via-primary/10 to-blue-50" />
           <div
-            className="absolute inset-0 opacity-20"
+            className="absolute inset-0 opacity-20 pointer-events-none"
             style={{
               backgroundImage: `url(${patternScrollwork})`,
               backgroundSize: 'cover',
@@ -422,8 +452,11 @@ function App() {
                     <button
                       key={stat.label}
                       type="button"
-                      className="rounded-2xl border border-white/40 bg-white/70 p-4 shadow-sm backdrop-blur-md text-left transition-colors hover:border-primary/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
-                      aria-label={`Search antique appraisers near you (${stat.label})`}
+                      className="rounded-2xl border border-white/40 bg-white/70 p-4 shadow-sm backdrop-blur-md text-left transition-colors hover:border-primary/30 hover:bg-white/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 relative z-0 cursor-pointer"
+                      aria-label={`Browse antique appraisers: ${stat.label}`}
+                      data-gtm-event="stat_highlight_click"
+                      data-gtm-placement="home_hero_stats"
+                      data-gtm-stat-label={stat.label}
                       onClick={() => handleStatHighlightClick(stat.label)}
                     >
                       <p className="text-2xl font-bold text-primary">{stat.value}</p>
@@ -474,7 +507,7 @@ function App() {
               {specialtyHighlights.map(item => (
                 <div
                   key={item.title}
-                  className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-8 shadow-sm transition-colors duration-300 cursor-pointer hover:border-primary/40"
+                  className="group relative overflow-hidden rounded-3xl border border-slate-100 bg-slate-50/70 p-8 shadow-sm transition-colors duration-300 cursor-pointer hover:border-primary/40 z-0"
                   role="link"
                   tabIndex={0}
                   onClick={(event) => handleSpecialtyCardClick(event, item.title)}
@@ -522,7 +555,7 @@ function App() {
                     <a
                       key={city.slug}
                       href={buildSiteUrl(`/location/${city.slug}`)}
-                      className="rounded-2xl border border-slate-200 bg-slate-50 p-4 text-left transition-colors hover:border-blue-300 hover:bg-blue-50"
+                      className="rounded-2xl border border-slate-200 bg-slate-50 p-4 text-left transition-colors hover:border-blue-300 hover:bg-blue-50 relative z-0"
                       data-gtm-event="city_directory_click"
                       data-gtm-city={city.slug}
                       data-gtm-state={city.state}
@@ -548,13 +581,7 @@ function App() {
                 return (
                   <div
                     key={region}
-                    className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300 cursor-pointer"
-                    role={primaryCity ? 'link' : undefined}
-                    tabIndex={primaryCity ? 0 : undefined}
-                    onClick={(event) => handleRegionCardFallbackClick(event, primaryCity, placement)}
-                    onKeyDown={(event) => handleRegionCardFallbackClick(event, primaryCity, placement)}
-                    data-gtm-event="city_directory_card_click"
-                    data-gtm-placement={`${placement}_card`}
+                    className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all duration-300"
                   >
                     <h3 className="text-xl font-semibold mb-4 text-blue-600 border-b pb-2">{region}</h3>
                     <ul className="grid grid-cols-1 gap-2">
@@ -562,19 +589,36 @@ function App() {
                         <li key={city.slug}>
                           <a
                             href={buildSiteUrl(`/location/${city.slug}`)}
-                            className="flex w-full items-center text-gray-700 hover:text-blue-600 py-3 transition-colors"
+                            className="flex w-full items-center text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md px-2 py-2 -mx-2 transition-colors cursor-pointer"
                             data-gtm-event="city_directory_click"
                             data-gtm-city={city.slug}
                             data-gtm-state={city.state}
                             data-gtm-placement={placement}
                             onClick={() => handleCityDirectoryClick(city, placement)}
                           >
-                            <MapPin className="w-4 h-4 mr-2 text-blue-500" />
+                            <MapPin className="w-4 h-4 mr-2 text-blue-500 flex-shrink-0" />
                             <span>{city.name}, {city.state}</span>
                           </a>
                         </li>
                       ))}
                     </ul>
+                    {primaryCity && (
+                      <div className="mt-4 pt-3 border-t border-gray-100">
+                        <a
+                          href={buildSiteUrl(`/location/${primaryCity.slug}`)}
+                          className="text-sm text-blue-600 hover:text-blue-800 hover:underline font-medium inline-flex items-center transition-colors cursor-pointer"
+                          data-gtm-event="region_view_all"
+                          data-gtm-region={region.toLowerCase()}
+                          data-gtm-placement={`${placement}_card`}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleCityDirectoryClick(primaryCity, placement);
+                          }}
+                        >
+                          View {primaryCity.name} appraisers &rarr;
+                        </a>
+                      </div>
+                    )}
                   </div>
                 );
               })}
@@ -596,7 +640,7 @@ function App() {
         </div>
         
         {/* Featured Appraisers Section */}
-        <main className="container mx-auto px-6 py-16">
+        <main id="main-content" className="container mx-auto px-6 py-16">
           <h2 className="text-3xl font-bold mb-10 text-center">Featured Antique Appraisers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Appraiser Card 1 - Sotheby's New York */}
@@ -718,12 +762,18 @@ function App() {
           </div>
           
           <div className="mt-12 text-center">
-            <a 
-              href={buildSiteUrl('/location/new-york')} 
-              className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white mr-4"
+            <button
+              type="button"
+              onClick={() => {
+                trackEvent('browse_all_locations_click', {
+                  placement: 'home_featured_appraisers'
+                });
+                scrollToCityDirectory();
+              }}
+              className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white mr-4 cursor-pointer"
             >
-              Browse All Appraisers
-            </a>
+              Browse All Locations
+            </button>
           </div>
         </main>
       </div>

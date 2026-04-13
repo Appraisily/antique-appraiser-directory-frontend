@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { capturePosthogEvent } from '../lib/posthog';
 import { derivePageContext } from '../utils/analytics';
@@ -24,7 +24,17 @@ export function ContentFeedback() {
   const [comment, setComment] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [validationError, setValidationError] = useState<string | null>(null);
+  const [voteNudge, setVoteNudge] = useState(false);
   const yesButtonRef = useRef<HTMLButtonElement | null>(null);
+  const voteNudgeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (voteNudgeTimeoutRef.current) {
+        clearTimeout(voteNudgeTimeoutRef.current);
+      }
+    };
+  }, []);
 
   const context = useMemo(() => derivePageContext(location.pathname), [location.pathname]);
 
@@ -44,6 +54,11 @@ export function ContentFeedback() {
     if (submitted) return;
     setHelpful(value);
     setValidationError(null);
+    setVoteNudge(false);
+    if (voteNudgeTimeoutRef.current) {
+      clearTimeout(voteNudgeTimeoutRef.current);
+      voteNudgeTimeoutRef.current = null;
+    }
 
     capturePosthogEvent('seo_content_feedback_vote', {
       ...commonProps,
@@ -61,6 +76,15 @@ export function ContentFeedback() {
       } catch {
         // ignore
       }
+      setVoteNudge(false);
+      if (voteNudgeTimeoutRef.current) {
+        clearTimeout(voteNudgeTimeoutRef.current);
+      }
+      setVoteNudge(true);
+      voteNudgeTimeoutRef.current = setTimeout(() => {
+        setVoteNudge(false);
+        voteNudgeTimeoutRef.current = null;
+      }, 700);
       return;
     }
 
@@ -96,6 +120,7 @@ export function ContentFeedback() {
                 helpful === true
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',
+                voteNudge ? 'animate-pulse' : '',
                 submitted ? 'opacity-60 cursor-not-allowed' : 'cursor-pointer',
               ].join(' ')}
             >
@@ -110,6 +135,7 @@ export function ContentFeedback() {
                 helpful === false
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',
+                voteNudge ? 'animate-pulse' : '',
                 submitted ? 'opacity-60 cursor-not-allowed' : 'cursor-pointer',
               ].join(' ')}
             >

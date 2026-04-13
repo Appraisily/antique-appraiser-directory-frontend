@@ -335,6 +335,522 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "washington-mark-secrest-appraisals",
+      "name": "Mark Secrest Appraisals",
+      "slug": "mark-secrest-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "2500 Wisconsin Ave NW, Ste 237",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20007",
+        "formatted": "2500 Wisconsin Ave NW, Ste 237, Washington, DC 20007"
+      },
+      "contact": {
+        "phone": "(202) 718-2521",
+        "email": "marks.valuations@gmail.com",
+        "website": "https://marksecrestappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "49 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "$225/hour with quarter-hour increments; fee-only with no commissions accepted",
+        "rating": 4.8,
+        "reviewCount": 3
+      },
+      "expertise": {
+        "specialties": [
+          "English, French, Continental, and American Art",
+          "Antique Furniture",
+          "Silver and Porcelains",
+          "Egyptian, Greek, and Roman Antiquities",
+          "Works of Art"
+        ],
+        "certifications": [
+          "ASA (Former Senior Member)",
+          "USPAP Compliant",
+          "DC Board of Appraisers (Former Appointee)",
+          "Victoria & Albert Museum Study Centre Graduate"
+        ],
+        "services": [
+          "USPAP-compliant Narrative Appraisal Reports",
+          "Estate and Collection Valuations",
+          "Expert Witness Testimony",
+          "Conservation and Restoration Guidance",
+          "Complimentary Remote Preliminary Walk-through"
+        ]
+      },
+      "content": {
+        "about": "Mark Secrest is a veteran appraiser with a 49-year career, academically trained at London's Victoria & Albert Museum. He has provided appraisal services for the Reagan and Obama White House administrations, served on the DC Board of Appraisers, and is an acknowledged expert witness in federal and state courts. He regularly consults for major institutions like the Smithsonian, Phillips Collection, and Colonial Williamsburg. Specializes in English, French, Continental, and American art, antique furniture, silver, porcelains, and antiquities.",
+        "notes": "Fee-only service with no commissions or gratuities accepted. Serves Washington DC and New York metropolitan areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "washington-washingtonian-appraisals",
+      "name": "Washingtonian Appraisals",
+      "slug": "washingtonian-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC Metro Area"
+      },
+      "contact": {
+        "phone": "(202) 258-5180",
+        "email": "info@washingtonianappraisals.com",
+        "website": "https://www.washingtonianappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established personal property appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "$175/hour with 2-hour minimum",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Furniture",
+          "Porcelain and Silver",
+          "Jewelry and Coins",
+          "Books and Decorative Arts"
+        ],
+        "certifications": [
+          "Certified Personal Property Appraisers",
+          "USPAP Compliant",
+          "IRS Standards"
+        ],
+        "services": [
+          "Insurance/Replacement Appraisals",
+          "Fair Market Value Appraisals",
+          "Estate Inventories",
+          "Sales Consultations"
+        ]
+      },
+      "content": {
+        "about": "Washingtonian Appraisals is a certified personal property appraisal firm serving the Washington, DC, Maryland, and Virginia region. They specialize in valuing individual heirlooms through entire estates and collections. All reports meet the compliance standards required by the IRS, courts, and insurance companies.",
+        "notes": "Serves DC, Maryland, and Virginia metro area. No free appraisals; $175/hour with 2-hour minimum."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "washington-potomack-company",
+      "name": "The Potomack Company Auctions & Appraisals",
+      "slug": "potomack-company-auctions-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1120 N Fairfax St",
+        "city": "Alexandria",
+        "state": "VA",
+        "zip": "22314",
+        "formatted": "1120 N Fairfax St, Alexandria, VA 22314 (Serves Washington DC)"
+      },
+      "contact": {
+        "phone": "(703) 684-4550",
+        "email": "",
+        "website": "https://www.potomackcompany.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established auction house and appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "Walk-ins Welcome"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 20
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Items",
+          "Collectibles",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "Licensed Auctioneers",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Auction Consignment",
+          "Estate Sales"
+        ]
+      },
+      "content": {
+        "about": "The Potomack Company is a well-established auction house and appraisal firm serving the Washington DC metro area from their Alexandria location. They offer professional antique and fine art appraisals, auction services, and estate sales with walk-in consultations available.",
+        "notes": "Located in Alexandria, VA but serves the greater Washington DC area. Walk-ins welcome during business hours."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "washington-beall-appraisal-services",
+      "name": "Beall Appraisal Services",
+      "slug": "beall-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "104 Talbot Ln",
+        "city": "Easton",
+        "state": "MD",
+        "zip": "21601",
+        "formatted": "104 Talbot Ln, Easton, MD 21601 (Serves Washington DC)"
+      },
+      "contact": {
+        "phone": "(410) 271-6069",
+        "email": "clay@cbeallappraisals.com",
+        "website": "http://www.beallappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 30 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Decorative Arts",
+          "Household Contents",
+          "Personal Property"
+        ],
+        "certifications": [
+          "American Society of Appraisers (ASA)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "Antique Valuations",
+          "Estate Inventories",
+          "Insurance Appraisals",
+          "Donation Valuations"
+        ]
+      },
+      "content": {
+        "about": "Claiborne B. 'Clay' Beall has over three decades of experience as a personal property and antiques appraiser. He has completed appraisals for numerous prestigious museums and institutions, including the Smithsonian, Historical Society of Washington, Historical Annapolis Foundation, and Historic Fairfax City. All appraisals are conducted in strict compliance with USPAP standards and the ASA Code of Ethics.",
+        "notes": "Serves Metropolitan Washington DC, Baltimore, Annapolis, Maryland's Eastern Shore, and Delaware."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "washington-weschlers-auctioneers-appraisers",
+      "name": "Weschler's Auctioneers & Appraisers",
+      "slug": "weschlers-auctioneers-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "515 Dover Road, Suite 100",
+        "city": "Rockville",
+        "state": "MD",
+        "zip": "20850",
+        "formatted": "515 Dover Road, Suite 100, Rockville, MD 20850 (Serves Washington DC)"
+      },
+      "contact": {
+        "phone": "(202) 628-1281",
+        "email": "info@weschlers.com",
+        "website": "https://www.weschlers.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1890 (135+ years)",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Asian Works of Art",
+          "Paintings",
+          "Drawings",
+          "Prints",
+          "Sculpture"
+        ],
+        "certifications": [
+          "ASA (Accredited Senior Member)",
+          "Licensed Auctioneers",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Estate Tax Appraisals",
+          "Insurance Appraisals",
+          "Estate Planning",
+          "Charitable Donation Appraisals",
+          "Auction Services"
+        ]
+      },
+      "content": {
+        "about": "Weschler's Auctioneers & Appraisers has served the Washington DC metro area since 1890, now owned and operated by the 4th and 5th generations of the Weschler family. They are the leading auction house in the DC area, providing professional antique and fine art appraisals, estate tax valuations, and auction services. Their team includes ASA-accredited senior members specializing in fine art, Asian works of art, and decorative arts.",
+        "notes": "Located in Rockville, MD but serves the greater Washington DC area. Established 1890, family-owned for five generations."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "washington-sloans-kenyon-auctioneers-appraisers",
+      "name": "Sloans & Kenyon Auctioneers and Appraisers",
+      "slug": "sloans-kenyon-auctioneers-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "5550 Friendship Boulevard, Ste T60",
+        "city": "Chevy Chase",
+        "state": "MD",
+        "zip": "20815",
+        "formatted": "5550 Friendship Boulevard, Ste T60, Chevy Chase, MD 20815 (Serves Washington DC)"
+      },
+      "contact": {
+        "phone": "(301) 634-2330",
+        "email": "info@sloansandkenyon.com",
+        "website": "https://www.sloansandkenyon.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1853 (roots in C.G. Sloan & Co.)",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:30 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "18th-19th Century Antiques",
+          "Estate Contents",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Licensed Auctioneers",
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Estate Catalogue Auctions",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Charitable Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Sloans & Kenyon is Metropolitan Washington DC's premier antiques and fine art auction house, with roots dating back to C.G. Sloan & Co. founded in 1853. They conduct estate catalogue auctions of fine art and antiques approximately five times each year, providing professional appraisal services for estate planning, insurance, charitable donations, and tax purposes.",
+        "notes": "Located in Chevy Chase, MD but serves the greater Washington DC area. Historical roots trace back to 1853."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "washington-warwick-art-advisory",
+      "name": "Warwick Art Advisory",
+      "slug": "warwick-art-advisory",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "(847) 337-2289",
+        "email": "contact@warwickartadvisory.com",
+        "website": "https://www.warwickartadvisory.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established art advisory and appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Contemporary Art",
+          "Decorative Arts",
+          "Art Collection Management"
+        ],
+        "certifications": [
+          "Certified Appraisers",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Fine Art Advisory",
+          "Collection Management",
+          "Acquisition Consulting",
+          "Divestiture Consulting"
+        ]
+      },
+      "content": {
+        "about": "Warwick Art Advisory is a full-service consulting firm based in Washington DC providing appraisals and consulting on acquisition, divestiture, and management of fine art and antiques. They serve collectors, estates, and institutions with expert valuations and advisory services for art and antique collections.",
+        "notes": "Serves Washington DC and surrounding areas. Full-service art advisory and appraisal firm."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "washington-valuepros-appraisal-services",
+      "name": "ValuePros Appraisal Services - Washington DC",
+      "slug": "valuepros-appraisal-dc",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/washington-dc/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Jewelry",
+          "Coins",
+          "Furniture",
+          "Personal Property"
+        ],
+        "certifications": [
+          "Certified Appraisers",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976, providing independent, certified appraisal reports for Washington DC and surrounding areas. As accredited appraisers with no personal interest in clients' items (not buyers or dealers), they offer unbiased valuations for antiques, collectibles, fine art, jewelry, and personal property.",
+        "notes": "Family owned since 1976. Independent appraisers - not buyers or dealers. Serves Washington DC and surrounding areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

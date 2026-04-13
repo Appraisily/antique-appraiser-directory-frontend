@@ -91,7 +91,7 @@
       },
       "contact": {
         "phone": "(312) 951-8313",
-        "email": "info@www.artappraisers.org",
+        "email": "info@artappraisers.org",
         "website": "https://www.artappraisers.org/"
       },
       "business": {
@@ -164,7 +164,7 @@
       },
       "contact": {
         "phone": "312-723-6991",
-        "email": "info@www.artappraisers.org",
+        "email": "info@artappraisers.org",
         "website": "https://www.artappraisers.org/"
       },
       "business": {
@@ -243,7 +243,7 @@
       },
       "contact": {
         "phone": "(314) 604-4175",
-        "email": "info@www.artappraisers.org",
+        "email": "info@artappraisers.org",
         "website": "https://www.artappraisers.org/"
       },
       "business": {
@@ -320,7 +320,7 @@
       },
       "contact": {
         "phone": "(708) 369-4173",
-        "email": "info@www.artappraisers.org",
+        "email": "info@artappraisers.org",
         "website": "https://www.artappraisers.org/"
       },
       "business": {
@@ -549,7 +549,7 @@
       },
       "contact": {
         "phone": "(312) 491-9760",
-        "email": "info@www.artappraisers.org",
+        "email": "info@artappraisers.org",
         "website": "https://www.artappraisers.org/"
       },
       "business": {
@@ -678,6 +678,77 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "attic-to-appraisals-chicago-il",
+      "name": "Attic to Appraisals - Janet Madrigal",
+      "slug": "attic-to-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "",
+        "formatted": "Greater Chicagoland Area, IL"
+      },
+      "contact": {
+        "phone": "(779) 374-6559",
+        "email": "ATTICTOAPPRAISALS18@GMAIL.COM",
+        "website": "https://www.attictoappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Furnishings",
+          "Decorative Arts",
+          "Needle Arts",
+          "Mixed Personal Property",
+          "Household Contents"
+        ],
+        "certifications": [
+          "ISA Accredited Fine Art Appraiser",
+          "IRS Qualified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Divorce Appraisals",
+          "Insurance Appraisals",
+          "Walk-Through Valuations",
+          "Charitable Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Attic to Appraisals, founded by Janet Madrigal, is an award-winning appraisal firm serving the Greater Chicagoland area. Janet is an ISA-accredited, IRS-qualified personal property appraiser whose practice centers on antiques, furnishings, decorative arts, fine art, needle arts, and mixed personal property assignments. The firm provides professional, trustworthy, and discreet services to accurately track and determine the value of assets accumulated over the years.",
+        "notes": "Serves Greater Chicagoland area. ISA Accredited, IRS-qualified. Award-winning appraiser."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

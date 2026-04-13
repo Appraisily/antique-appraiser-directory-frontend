@@ -194,8 +194,14 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
         <input
           ref={inputRef}
           type="text"
+          name="city"
           className="w-full h-12 pl-10 pr-12 rounded-lg border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 shadow-sm"
           placeholder="Enter city or ZIP code"
+          role="combobox"
+          aria-expanded={isOpen}
+          aria-autocomplete="list"
+          aria-controls="city-search-listbox"
+          aria-activedescendant={isOpen && suggestions.length > 0 ? `city-option-${suggestions[0].slug}` : undefined}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onFocus={() => {
@@ -222,10 +228,13 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
 
       {isOpen && suggestions.length > 0 && (
         <div className="absolute z-10 w-full mt-1 bg-white rounded-lg shadow-lg overflow-hidden border border-border animate-fadeInUp">
-          <ul className="py-1 divide-y divide-gray-100">
+          <ul className="py-1 divide-y divide-gray-100" role="listbox" id="city-search-listbox">
             {suggestions.map((city) => (
-              <li 
+              <li
                 key={city.slug}
+                id={`city-option-${city.slug}`}
+                role="option"
+                aria-selected={false}
                 onClick={() => handleSelect(city)}
                 className="px-4 py-3 cursor-pointer hover:bg-primary/5 transition-colors flex items-center gap-2"
               >

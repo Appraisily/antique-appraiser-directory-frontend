@@ -252,6 +252,431 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "yesterdays-gems-st-paul-mn",
+      "name": "Yesterday's Gems Antique Appraisals",
+      "slug": "yesterdays-gems",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. Paul",
+        "state": "MN",
+        "zip": "",
+        "formatted": "St. Paul, MN"
+      },
+      "contact": {
+        "phone": "(612) 412-1899",
+        "email": "",
+        "website": "https://www.yesterdaysgems.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Estate Items",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP",
+          "GIA"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Yesterday's Gems is an antique and personal property appraiser serving the St. Paul, Minneapolis, and Metro area. USPAP and GIA credentialed, offering professional in-home antique appraisals with flexible scheduling.",
+        "notes": "USPAP and GIA credentialed. Call or text (612) 412-1899. Website: yesterdaysgems.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "the-truman-company-st-paul-mn",
+      "name": "The Truman Company",
+      "slug": "the-truman-company",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. Paul",
+        "state": "MN",
+        "zip": "",
+        "formatted": "St. Paul, MN"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Vintage Items",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "The Truman Company is a St. Paul antique dealer offering professional antique appraisal services. Recognized as one of the top antique appraisal services in St. Paul on Yelp.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in St. Paul, MN."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "anthony-scornavacco-antiques-st-paul-mn",
+      "name": "Anthony Scornavacco Antiques",
+      "slug": "anthony-scornavacco-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. Paul",
+        "state": "MN",
+        "zip": "",
+        "formatted": "St. Paul, MN"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique expert",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Anthony Scornavacco Antiques is a St. Paul-based antique expert offering professional appraisal services for antiques, fine art, and collectibles. Recognized as one of the top antique appraisal services in St. Paul on Yelp.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in St. Paul, MN."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "west-st-paul-antiques-st-paul-mn",
+      "name": "West St. Paul Antiques",
+      "slug": "west-st-paul-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "West Saint Paul",
+        "state": "MN",
+        "zip": "",
+        "formatted": "West Saint Paul, MN (Serves St. Paul)"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.weststpaulantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations",
+          "Personal Property Consultations",
+          "Donation Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "West St. Paul Antiques is an established antique shop offering personal property consultations and appraisals for estate, donation, and insurance purposes in compliance with the Uniform Standards of Professional Appraisal Practice (USPAP). They serve the St. Paul and Twin Cities metro area with expert antique valuations.",
+        "notes": "USPAP-compliant appraisals. Serves St. Paul MN and Twin Cities metro."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cross-appraising-st-paul-mn",
+      "name": "Cross Appraising",
+      "slug": "cross-appraising",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Saint Paul",
+        "state": "MN",
+        "zip": "",
+        "formatted": "St. Paul, MN"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Jewelry",
+          "Coins",
+          "Furniture",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "Certified Personal Property Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cross Appraising provides certified personal property appraisals in the St. Paul and Twin Cities metro area. They appraise art, jewelry, coins, antiques, furniture, and entire estates with professional, thorough valuation reports for insurance, estate planning, charitable donations, and equitable distribution.",
+        "notes": "Serves St. Paul MN and Twin Cities metro area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "truman-company-st-paul-mn",
+      "name": "The Truman Company",
+      "slug": "truman-company-st-paul",
+      "imageUrl": "",
+      "address": {
+        "street": "2585 Hamline Ave N, Ste E",
+        "city": "Roseville",
+        "state": "MN",
+        "zip": "55113",
+        "formatted": "2585 Hamline Ave N, Ste E, Roseville, MN 55113 (Serves St. Paul)"
+      },
+      "contact": {
+        "phone": "(651) 582-3865",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture",
+          "Estate Items",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "The Truman Company is a well-regarded antique shop in Roseville, MN serving the St. Paul and Twin Cities area. They offer a curated selection of antiques, vintage collectibles, furniture, and decorative arts with professional antique appraisal services for collectors and estate clients.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in St. Paul, MN. Located in Roseville, MN."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-st-paul-mn",
+      "name": "ValuePros Appraisal Services - St. Paul",
+      "slug": "valuepros-appraisal-st-paul",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Saint Paul",
+        "state": "MN",
+        "zip": "",
+        "formatted": "St. Paul, MN"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Personal Property",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the St. Paul, MN area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving St. Paul MN and Twin Cities."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

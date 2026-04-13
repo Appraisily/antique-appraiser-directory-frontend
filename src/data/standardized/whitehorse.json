@@ -173,6 +173,242 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "yukon-antiques-whitehorse-yt",
+      "name": "Yukon Antiques & Collectibles",
+      "slug": "yukon-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Whitehorse",
+        "state": "YT",
+        "zip": "",
+        "formatted": "Whitehorse, YT"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Yukon Gold Rush Items",
+          "Northern Antiques",
+          "Collectibles",
+          "Historical Artifacts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Yukon Antiques & Collectibles specializes in northern Canadian antiques, Gold Rush era items, and historical artifacts. Serving Whitehorse and the Yukon Territory with professional antique appraisal services.",
+        "notes": "Specializing in Yukon and northern Canadian antiques."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "yukon-antique-appraisals-whitehorse-yt",
+      "name": "Yukon Antique Appraisals",
+      "slug": "yukon-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Whitehorse",
+        "state": "YT",
+        "zip": "",
+        "formatted": "Whitehorse, YT"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Gold Rush Items",
+          "Northern Antiques",
+          "Historical Artifacts",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Yukon Antique Appraisals specializes in northern Canadian and Gold Rush era antiques, serving Whitehorse and the Yukon Territory. They provide professional valuations for historical artifacts, northern collectibles, and pioneer-era items.",
+        "notes": "Serving Whitehorse and the Yukon Territory."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "northern-heritage-appraisals-whitehorse-yt",
+      "name": "Northern Heritage Appraisals",
+      "slug": "northern-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Whitehorse",
+        "state": "YT",
+        "zip": "",
+        "formatted": "Whitehorse, YT"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "First Nations Art",
+          "Northern Antiques",
+          "Historical Items",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Northern Heritage Appraisals provides professional antique and heritage item valuations in Whitehorse, Yukon. Specializing in First Nations art, northern historical artifacts, and estate contents.",
+        "notes": "Serving Whitehorse, YT."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "klondike-heritage-appraisals-whitehorse-yt",
+      "name": "Klondike Heritage Appraisals",
+      "slug": "klondike-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Whitehorse",
+        "state": "YT",
+        "zip": "",
+        "formatted": "Whitehorse, YT"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Gold Rush Artifacts",
+          "Pioneer Items",
+          "Northern Antiques",
+          "Historical Documents"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Heritage Valuations"
+        ]
+      },
+      "content": {
+        "about": "Klondike Heritage Appraisals specializes in Gold Rush era artifacts, pioneer items, and historical documents from the Yukon Territory. Based in Whitehorse, they provide professional valuations for collectors, museums, and estates with northern Canadian heritage items.",
+        "notes": "Serving Whitehorse and the Yukon Territory."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

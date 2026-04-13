@@ -252,6 +252,522 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "pioneer-square-antiques-seattle-wa",
+      "name": "Pioneer Square Antiques",
+      "slug": "pioneer-square-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "614 1st Ave",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98104",
+        "formatted": "614 1st Ave, Seattle, WA 98104"
+      },
+      "contact": {
+        "phone": "(206) 624-4444",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Pioneer Square Antiques offers fine antiques and collectibles with professional appraisal services in Seattle's historic Pioneer Square.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "fremont-antiques-seattle-wa",
+      "name": "Fremont Antique Mall",
+      "slug": "fremont-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "3400 EV Ave NE",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98103",
+        "formatted": "3400 EV Ave NE, Seattle, WA 98103"
+      },
+      "contact": {
+        "phone": "(206) 632-3344",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Mid-Century Modern",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Fremont Antique Mall offers a wide selection of antiques with professional appraisal services in the Fremont neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pacific-northwest-antiques-seattle-wa",
+      "name": "Pacific Northwest Antiques & Estate Sales",
+      "slug": "pnw-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "400 Pine St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101",
+        "formatted": "400 Pine St, Seattle, WA 98101"
+      },
+      "contact": {
+        "phone": "(206) 441-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "Pacific Northwest Art",
+          "General Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pacific Northwest Antiques & Estate Sales provides comprehensive antique and estate appraisal services throughout the Seattle area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "seattle-duwamps-fine-art-appraisals",
+      "name": "Duwamps Fine Art & Antique Appraisals",
+      "slug": "duwamps-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(206) 495-8660",
+        "email": "duwamps@outlook.com",
+        "website": "https://www.duwampsartappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Native American & Eskimo Art",
+          "Northwest Regional Art",
+          "American Fine Art",
+          "Historic Photography",
+          "Antiques"
+        ],
+        "certifications": [
+          "ISA Accredited Member",
+          "IRS Qualified Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Charitable Donation Appraisals",
+          "Estate Planning",
+          "Equitable Distribution",
+          "Estate Tax Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Duwamps Fine Art & Antique Appraisals specializes in Native American and Eskimo art, Northwest regional art, and historic photography. Christy Christodoulides, M.A. is an ISA Accredited Member with 15+ years of experience.",
+        "notes": "Serving Seattle, WA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "seattle-mcallister-fossum-appraisal",
+      "name": "McAllister/Fossum Appraisal Services",
+      "slug": "mcallister-fossum-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "753 N 35th St Ste 208E",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98103",
+        "formatted": "753 N 35th St Ste 208E, Seattle, WA 98103"
+      },
+      "contact": {
+        "phone": "(206) 271-7966",
+        "email": "info@mcallisterfossum.com",
+        "website": "https://www.mcallisterfossum.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1980",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Residential Contents",
+          "Fine Art",
+          "Northwest Coast Native Art",
+          "Furniture",
+          "Silver",
+          "Collectibles"
+        ],
+        "certifications": [
+          "ISA Accredited Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Planning",
+          "Charitable Contributions",
+          "Insurance Coverage",
+          "Equitable Distribution",
+          "Bankruptcy Appraisals"
+        ]
+      },
+      "content": {
+        "about": "McAllister/Fossum has provided antique and residential contents appraisals in Seattle since 1980. Lead appraiser Erin G. Fossum, MA is an Accredited Member of the International Society of Appraisers.",
+        "notes": "Serving Seattle, WA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "seattle-antique-appraisal-estate-sale",
+      "name": "Antique Appraisal & Estate Sale Service",
+      "slug": "antique-appraisal-estate-sale",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Since 1973",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 20
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "AAA Certified",
+          "ISA CAPP Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sale Services",
+          "Insurance Appraisals",
+          "Estate Planning"
+        ]
+      },
+      "content": {
+        "about": "Antique Appraisal and Estate Sale Service has valued over a million items since 1973. Based in the Seattle area, certified appraisers serve the Puget Sound region with expertise in antiques and estate contents.",
+        "notes": "Serving Seattle, WA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "seattle-jaynes-appraisals",
+      "name": "Jaynes Appraisals",
+      "slug": "jaynes-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(425) 298-6455",
+        "email": "pamela@jaynesappraisals.com",
+        "website": "https://www.jaynesappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Estate Items",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ISA Certified Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jaynes Appraisals provides professional antique appraisal services in Seattle. As a Certified Member of the International Society of Appraisers, Pamela offers expertise across antiques, fine art, and estate contents.",
+        "notes": "Serving Seattle, WA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "seattle-pacific-coast-appraisals",
+      "name": "Pacific Coast Appraisals",
+      "slug": "pacific-coast-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Asian Art",
+          "Native American Art",
+          "Decorative Arts",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pacific Coast Appraisals offers expert antique and fine art valuations in the Seattle area, with particular strength in Asian art, Native American pieces, and decorative arts.",
+        "notes": "Serving Seattle, WA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

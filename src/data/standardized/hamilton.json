@@ -253,6 +253,294 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "antique-alley-hamilton-on",
+      "name": "Antique Alley",
+      "slug": "antique-alley-hamilton",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Hamilton",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Hamilton, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Antique Alley is a Hamilton antique dealer offering professional appraisal services. Listed in the Eastern Ontario Local directory for appraisers in the Hamilton area.",
+        "notes": "Listed on easternontariolocal.ca."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "harbourfront-antiques-hamilton-on",
+      "name": "Harbourfront Antiques",
+      "slug": "harbourfront-antiques-hamilton",
+      "imageUrl": "",
+      "address": {
+        "street": "72 Charlton Ave W",
+        "city": "Hamilton",
+        "state": "ON",
+        "zip": "L8P 2C3",
+        "formatted": "72 Charlton Ave W, Hamilton, ON L8P 2C3"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.harbourfrontantiques.ca"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Estate Items",
+          "Gold and Silver"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Harbourfront Antiques is located at 72 Charlton Ave West in the heart of the Durand neighbourhood in Hamilton, Ontario. They specialize in estate sales and buy gold and silver, serving all of Ontario from north of Toronto to Niagara and beyond.",
+        "notes": "72 Charlton Ave W, Hamilton, ON L8P 2C3. Website: harbourfrontantiques.ca"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pritchard-auctions-hamilton-on",
+      "name": "Pritchard Auctions Inc.",
+      "slug": "pritchard-auctions-hamilton",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Hamilton",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Hamilton, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.pritchardauctions.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1988",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Items",
+          "Collectibles",
+          "Commercial Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Pritchard Auctions Inc. was established in 1988 and is the busiest auctioneer in the Hamilton Wentworth region for the past 34+ years. They provide antique, estate, and commercial auctions and appraisals, now offering online bidding.",
+        "notes": "Established 1988. Website: pritchardauctions.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "jewellery-judge-hamilton-on",
+      "name": "The Jewellery Judge",
+      "slug": "jewellery-judge-hamilton",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Hamilton",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Hamilton, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established jewelry appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Jewelry",
+          "Gemstones",
+          "Watches",
+          "Estate Jewelry"
+        ],
+        "certifications": [],
+        "services": [
+          "Jewelry Appraisals",
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "The Jewellery Judge is a Hamilton-based jewelry appraisal service specializing in antique jewelry, gemstones, watches, and estate jewelry valuations. Listed on YellowPages.ca for appraisers in Hamilton.",
+        "notes": "Listed on YellowPages.ca for Hamilton, ON."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dsvr-assessments-hamilton-on",
+      "name": "DSVR Assessments",
+      "slug": "dsvr-assessments-hamilton",
+      "imageUrl": "",
+      "address": {
+        "street": "240 James St N",
+        "city": "Hamilton",
+        "state": "ON",
+        "zip": "L8P 3B3",
+        "formatted": "240 James St N, Hamilton, ON L8P 3B3"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established assessment firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Estate Items",
+          "Asset Assessments"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Asset Assessments",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "DSVR Assessments is located on James Street North in Hamilton, providing professional antique and personal property appraisal services. They handle estate assessments and asset valuations throughout the Hamilton area.",
+        "notes": "240 James St N, Hamilton, ON L8P 3B3. Listed on YellowPages.ca."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

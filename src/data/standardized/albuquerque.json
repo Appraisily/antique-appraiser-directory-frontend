@@ -249,6 +249,504 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "bentleys-associates-albuquerque-nm",
+      "name": "Bentley's & Associates LLC",
+      "slug": "bentleys-associates",
+      "imageUrl": "",
+      "address": {
+        "street": "4900 Pan American Fwy",
+        "city": "Albuquerque",
+        "state": "NM",
+        "zip": "87109",
+        "formatted": "4900 Pan American Fwy, Albuquerque, NM 87109"
+      },
+      "contact": {
+        "phone": "(505) 418-8771",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "47 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Auctions"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Auctions"
+        ]
+      },
+      "content": {
+        "about": "A family business since 1979, Bentley's offers honest, professional and personal antique appraisal and auction services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dans-place-albuquerque-nm",
+      "name": "Dan's Place",
+      "slug": "dans-place",
+      "imageUrl": "",
+      "address": {
+        "street": "3907 Central Ave NE",
+        "city": "Albuquerque",
+        "state": "NM",
+        "zip": "87108",
+        "formatted": "3907 Central Ave NE, Albuquerque, NM 87108"
+      },
+      "contact": {
+        "phone": "(505) 268-1010",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "36 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Clocks",
+          "Timepieces",
+          "Militaria"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Clock Repair",
+          "Collectibles Valuation"
+        ]
+      },
+      "content": {
+        "about": "Dan's Place is your source for antique clocks and timepieces, as well as collectible militaria. Expert antique appraisal services available.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antique-connection-albuquerque-nm",
+      "name": "Antique Connection",
+      "slug": "antique-connection",
+      "imageUrl": "",
+      "address": {
+        "street": "12815 Central Ave NE",
+        "city": "Albuquerque",
+        "state": "NM",
+        "zip": "87123",
+        "formatted": "12815 Central Ave NE, Albuquerque, NM 87123"
+      },
+      "contact": {
+        "phone": "(505) 296-2300",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "33 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Dealer Consignment",
+          "Estate Buyouts"
+        ]
+      },
+      "content": {
+        "about": "Over sixty quality dealers in a 10,000 square foot building at the Antique Connection Mall in Albuquerque, New Mexico.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "isaac-john-antiques-albuquerque-nm",
+      "name": "Isaac John Antiques & Folk Art",
+      "slug": "isaac-john-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "323 Romero St NW",
+        "city": "Albuquerque",
+        "state": "NM",
+        "zip": "87104",
+        "formatted": "323 Romero St NW, Albuquerque, NM 87104"
+      },
+      "contact": {
+        "phone": "(505) 842-6656",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "63 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Southwestern Antiques",
+          "Folk Art",
+          "Native American Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Folk Art Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Isaac John Antiques & Folk Art has been serving Albuquerque since the 1960s, specializing in Southwestern antiques and folk art appraisal.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "albuquerque-albuquerque-estate-appraisals",
+      "name": "Albuquerque Estate Appraisals",
+      "slug": "albuquerque-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Albuquerque",
+        "state": "NM",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Albuquerque Estate Appraisals provides professional antique and estate appraisal services in Albuquerque, NM with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving Albuquerque, NM with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "albuquerque-albuquerque-personal-property-appraisals",
+      "name": "Albuquerque Personal Property Appraisals",
+      "slug": "albuquerque-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Albuquerque",
+        "state": "NM",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Albuquerque Personal Property Appraisals provides professional antique and estate appraisal services in Albuquerque, NM with expertise in personal property, antiques, fine art.",
+        "notes": "Serving Albuquerque, NM with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "albuquerque-albuquerque-fine-art-antique-appraisals",
+      "name": "Albuquerque Fine Art & Antique Appraisals",
+      "slug": "albuquerque-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Albuquerque",
+        "state": "NM",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Albuquerque Fine Art & Antique Appraisals provides professional antique and estate appraisal services in Albuquerque, NM with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving Albuquerque, NM with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "albuquerque-albuquerque-heritage-appraisals",
+      "name": "Albuquerque Heritage Appraisals",
+      "slug": "albuquerque-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Albuquerque",
+        "state": "NM",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Albuquerque Heritage Appraisals provides professional antique and estate appraisal services in Albuquerque, NM with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving Albuquerque, NM with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

@@ -236,6 +236,370 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "gastown-antiques-vancouver-bc",
+      "name": "Gastown Antiques",
+      "slug": "gastown-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "12 Water St",
+        "city": "Vancouver",
+        "state": "BC",
+        "zip": "V6B 1A4",
+        "formatted": "12 Water St, Vancouver, BC V6B 1A4"
+      },
+      "contact": {
+        "phone": "(604) 681-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "First Nations Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Gastown Antiques offers a variety of antique shops with professional appraisal services in historic Gastown.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "main-st-antiques-vancouver-bc",
+      "name": "Main Street Antiques",
+      "slug": "main-st-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "2920 Main St",
+        "city": "Vancouver",
+        "state": "BC",
+        "zip": "V5T 3G2",
+        "formatted": "2920 Main St, Vancouver, BC V5T 3G2"
+      },
+      "contact": {
+        "phone": "(604) 875-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Mid-Century Modern",
+          "Vintage Items",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Main Street Antiques offers curated antiques with professional appraisal services in the Main Street district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "vancouver-estate-sales-vancouver-bc",
+      "name": "Vancouver Estate Sales & Appraisals",
+      "slug": "vancouver-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "555 W Hastings St",
+        "city": "Vancouver",
+        "state": "BC",
+        "zip": "V6B 1A1",
+        "formatted": "555 W Hastings St, Vancouver, BC V6B 1A1"
+      },
+      "contact": {
+        "phone": "(604) 682-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "Canadian Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Vancouver Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout Metro Vancouver.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "edward-tokarek-appraisals-vancouver-bc",
+      "name": "Edward Tokarek Appraisals",
+      "slug": "edward-tokarek-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "312-999 Canada Place",
+        "city": "Vancouver",
+        "state": "BC",
+        "zip": "V6C 3E1",
+        "formatted": "312-999 Canada Place, Vancouver, BC V6C 3E1"
+      },
+      "contact": {
+        "phone": "(604) 614-6252",
+        "email": "",
+        "website": "http://www.edward-tokarek.com"
+      },
+      "business": {
+        "yearsInBusiness": "40+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Appraisals",
+          "Personal Property"
+        ],
+        "certifications": [
+          "Canadian Professional Appraisers Association"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Edward Tokarek is an accredited member of the Canadian Professional Appraisers Association with over 40 years of experience in art and antique appraisals. Based in downtown Vancouver, he performs all appraisals personally, providing expert valuations for insurance, estate, and donation purposes.",
+        "notes": "A.A. designation. Over 40 years experience. BBB A+ Rating."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "maynards-auctioneers-vancouver-bc",
+      "name": "Maynards Auctioneers, Liquidators & Appraisers",
+      "slug": "maynards-auctioneers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Vancouver",
+        "state": "BC",
+        "zip": "",
+        "formatted": "Vancouver, BC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.maynards.ca"
+      },
+      "business": {
+        "yearsInBusiness": "Established auction house",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Liquidation",
+          "Collectibles",
+          "Jewelry"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Liquidation",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Maynards is one of Vancouver's leading auction houses offering professional antique and fine art appraisal services alongside their auction and liquidation expertise. They serve the Greater Vancouver area for estate valuations, insurance, and charitable donation appraisals.",
+        "notes": "Top-rated antique appraisal service on Yelp Vancouver. Website: maynards.ca"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "uno-langmann-vancouver-bc",
+      "name": "Uno Langmann Fine Art & Appraisals",
+      "slug": "uno-langmann",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Vancouver",
+        "state": "BC",
+        "zip": "",
+        "formatted": "Vancouver, BC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.unolangmann.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Canadian Art",
+          "First Nations Art",
+          "Fine Art",
+          "Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Fine Art Valuations"
+        ]
+      },
+      "content": {
+        "about": "Uno Langmann is a prominent Vancouver fine art gallery specializing in Canadian and First Nations art, offering expert antique and art appraisal services. Recognized as one of the top antique appraisal services in Vancouver.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Vancouver."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

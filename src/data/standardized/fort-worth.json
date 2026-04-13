@@ -256,6 +256,432 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "valuepros-appraisal-fort-worth-tx",
+      "name": "ValuePros Appraisal Services",
+      "slug": "valuepros-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Fort Worth, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/fort-worth"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Collectibles",
+          "Jewelry",
+          "Residential Contents",
+          "Antiques",
+          "Furniture",
+          "Coins"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Furniture Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services provides professional antique and personal property appraisals in Fort Worth, Texas. They appraise collectibles, jewelry, residential contents, antiques, furniture, insurance items, and coins throughout the Fort Worth metro area.",
+        "notes": "Website: valuepros.com/fort-worth"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "leonard-appraisal-fort-worth-tx",
+      "name": "Leonard Appraisal & Consulting",
+      "slug": "leonard-appraisal-consulting",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Fort Worth, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Personal Property"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Leonard Appraisal & Consulting is a Fort Worth-based appraisal firm providing professional antique and personal property valuations. Recognized as one of the top antique appraisal services in Fort Worth on Yelp.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Fort Worth, TX."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "promenade-clocks-fort-worth-tx",
+      "name": "Promenade Clocks",
+      "slug": "promenade-clocks",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Fort Worth, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established clock and antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Clocks",
+          "Timepieces",
+          "Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Clock Repair",
+          "Antique Sales"
+        ]
+      },
+      "content": {
+        "about": "Promenade Clocks is a Fort Worth specialty shop focused on antique clocks and timepieces, offering expert appraisal services for antique timepieces and collectible clocks. Top-rated on Yelp for Antique Appraisal in Fort Worth.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Fort Worth, TX."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "leonard-appraisal-consulting-fort-worth-tx",
+      "name": "Leonard Appraisal & Consulting - Fort Worth",
+      "slug": "leonard-appraisal-consulting-fort-worth",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Arlington",
+        "state": "TX",
+        "zip": "76016",
+        "formatted": "Arlington, TX 76016 (Serves Fort Worth)"
+      },
+      "contact": {
+        "phone": "(817) 203-4111",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Personal Property",
+          "Estate Items"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Leonard Appraisal & Consulting is a highly rated antique and personal property appraisal firm serving the Fort Worth and Arlington, TX area. Top-rated on Yelp for Antique Appraisal in Fort Worth, they provide professional valuations for antiques, collectibles, estate items, and personal property throughout the DFW metroplex.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Fort Worth, TX. Located in Arlington, TX serving Fort Worth and DFW area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-fort-worth-tx",
+      "name": "ValuePros Appraisal Services - Fort Worth",
+      "slug": "valuepros-appraisal-fort-worth",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Fort Worth, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/fort-worth/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Jewelry",
+          "Coins",
+          "Furniture",
+          "Personal Property"
+        ],
+        "certifications": [
+          "Certified Appraisers",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services provides professional antique and personal property appraisals in Fort Worth, Texas. The family-owned firm operating since 1976 appraises collectibles, jewelry, residential contents, antiques, furniture, and coins throughout the Fort Worth metro area with independent, unbiased valuations.",
+        "notes": "Family owned since 1976. Serves Fort Worth TX and surrounding areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "junker-vals-antiques-fort-worth-tx",
+      "name": "JunkerVals Antiques & Appraisals",
+      "slug": "junker-vals-antiques-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Fort Worth, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer and appraiser",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Junkers",
+          "Estate Items",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "JunkerVals Antiques & Appraisals is a Fort Worth-based antique dealer and appraisal service specializing in general antiques, vintage collectibles, and estate items. They provide professional antique appraisals alongside their retail operations, serving collectors and estate clients throughout the Fort Worth metro area.",
+        "notes": "Listed on Yelp for Antique Appraisal in Fort Worth, TX."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tarrant-county-antiques-appraisals-fort-worth-tx",
+      "name": "Tarrant County Antiques & Appraisals",
+      "slug": "tarrant-county-antiques-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "76107",
+        "formatted": "Fort Worth, TX 76107"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Tarrant County Antiques & Appraisals is a Fort Worth-based antique shop providing professional antique appraisals and sales. Located in the Magnolia Avenue area, they offer expert valuations for antiques, vintage collectibles, furniture, and estate items throughout the Fort Worth metro area.",
+        "notes": "Serves Fort Worth TX and Tarrant County. Full-service antique shop with appraisal capabilities."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

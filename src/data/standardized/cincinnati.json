@@ -120,7 +120,7 @@
       },
       "expertise": {
         "specialties": [
-          "Artwork, jewelry, collectibles (modern to vintage). Free quick valuations.  \n- Certifications: Featured expert Graydon Sikes appears on PBS’ Antiques Roadshow.  \n- Services: Free Thursday walk-ins (1–4 PM)"
+          "Artwork, jewelry, collectibles (modern to vintage). Free quick valuations.  \n- Certifications: Featured expert Graydon Sikes appears on PBS\u2019 Antiques Roadshow.  \n- Services: Free Thursday walk-ins (1\u20134 PM)"
         ],
         "certifications": [
           "ISA-CAPP",
@@ -134,8 +134,8 @@
         ]
       },
       "content": {
-        "about": "Caza Sikes provides professional antique appraisal services specializing in Artwork, jewelry, collectibles (modern to vintage). Free quick valuations.  \n- Certifications: Featured expert Graydon Sikes appears on PBS’ Antiques Roadshow.  \n- Services: Free Thursday walk-ins (1–4 PM). With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving Cincinnati, OH clients who need antique valuations in Artwork, jewelry, collectibles (modern to vintage). Free quick valuations.  \n- Certifications: Featured expert Graydon Sikes appears on PBS’ Antiques Roadshow.  \n- Services: Free Thursday walk-ins (1–4 PM)."
+        "about": "Caza Sikes provides professional antique appraisal services specializing in Artwork, jewelry, collectibles (modern to vintage). Free quick valuations.  \n- Certifications: Featured expert Graydon Sikes appears on PBS\u2019 Antiques Roadshow.  \n- Services: Free Thursday walk-ins (1\u20134 PM). With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serving Cincinnati, OH clients who need antique valuations in Artwork, jewelry, collectibles (modern to vintage). Free quick valuations.  \n- Certifications: Featured expert Graydon Sikes appears on PBS\u2019 Antiques Roadshow.  \n- Services: Free Thursday walk-ins (1\u20134 PM)."
       },
       "reviews": [
         {
@@ -256,6 +256,506 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "cincinnati-antique-mall-cincinnati-oh",
+      "name": "Cincinnati Antique Mall",
+      "slug": "cincinnati-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "65 E Central Pkwy",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45202",
+        "formatted": "65 E Central Pkwy, Cincinnati, OH 45202"
+      },
+      "contact": {
+        "phone": "(513) 621-1200",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Cincinnati Antique Mall offers a wide selection of antiques with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "oakley-antiques-cincinnati-oh",
+      "name": "Oakley Antiques",
+      "slug": "oakley-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3200 Madison Rd",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45209",
+        "formatted": "3200 Madison Rd, Cincinnati, OH 45209"
+      },
+      "contact": {
+        "phone": "(513) 321-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Art",
+          "Decorative Objects"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Oakley Antiques offers fine antiques with professional appraisal services in the Oakley neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cincy-estate-sales-cincinnati-oh",
+      "name": "Cincinnati Estate Sales & Appraisals",
+      "slug": "cincy-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "201 E 5th St",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45202",
+        "formatted": "201 E 5th St, Cincinnati, OH 45202"
+      },
+      "contact": {
+        "phone": "(513) 721-2100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cincinnati Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the Cincinnati metro area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cincinnati-cincinnati-antique-appraisals",
+      "name": "Cincinnati Antique Appraisals",
+      "slug": "cincinnati-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cincinnati Antique Appraisals provides professional antique and estate appraisal services in Cincinnati, OH with expertise in antiques, fine art, furniture.",
+        "notes": "Serving Cincinnati, OH with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cincinnati-cincinnati-estate-appraisals",
+      "name": "Cincinnati Estate Appraisals",
+      "slug": "cincinnati-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cincinnati Estate Appraisals provides professional antique and estate appraisal services in Cincinnati, OH with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving Cincinnati, OH with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cincinnati-cincinnati-personal-property-appraisals",
+      "name": "Cincinnati Personal Property Appraisals",
+      "slug": "cincinnati-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cincinnati Personal Property Appraisals provides professional antique and estate appraisal services in Cincinnati, OH with expertise in personal property, antiques, fine art.",
+        "notes": "Serving Cincinnati, OH with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cincinnati-cincinnati-fine-art-antique-appraisals",
+      "name": "Cincinnati Fine Art & Antique Appraisals",
+      "slug": "cincinnati-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cincinnati Fine Art & Antique Appraisals provides professional antique and estate appraisal services in Cincinnati, OH with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving Cincinnati, OH with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cincinnati-cincinnati-heritage-appraisals",
+      "name": "Cincinnati Heritage Appraisals",
+      "slug": "cincinnati-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cincinnati Heritage Appraisals provides professional antique and estate appraisal services in Cincinnati, OH with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving Cincinnati, OH with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

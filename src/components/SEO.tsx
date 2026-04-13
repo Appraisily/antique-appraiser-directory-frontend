@@ -35,6 +35,9 @@ interface SEOProps {
   preload?: Array<{ as: string; href: string; type?: string; crossorigin?: boolean }>;
   preconnect?: string[];
   dnsPrefetch?: string[];
+  geoCity?: string;
+  geoRegion?: string;
+  geoPosition?: string;
 }
 
 export function SEO({ 
@@ -60,7 +63,10 @@ export function SEO({
   videoUrl,
   preload = [],
   preconnect = ['https://assets.appraisily.com', 'https://fonts.googleapis.com', 'https://www.googletagmanager.com'],
-  dnsPrefetch = ['https://assets.appraisily.com', 'https://www.google-analytics.com', 'https://fonts.gstatic.com']
+  dnsPrefetch = ['https://assets.appraisily.com', 'https://www.google-analytics.com', 'https://fonts.gstatic.com'],
+  geoCity,
+  geoRegion,
+  geoPosition
 }: SEOProps) {
   const finalKeywords = keywords ?? [
     'antique appraiser near me',
@@ -249,6 +255,11 @@ export function SEO({
           <meta name="HandheldFriendly" content="True" />
         </>
       )}
+      
+      {/* Geo meta tags for local SEO */}
+      {geoCity && <meta name="geo.placename" content={geoCity} />}
+      {geoRegion && <meta name="geo.region" content={geoRegion} />}
+      {geoPosition && <meta name="ICBM" content={geoPosition} />}
     </Helmet>
   );
 }

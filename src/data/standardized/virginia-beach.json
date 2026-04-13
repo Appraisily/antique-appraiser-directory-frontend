@@ -246,6 +246,440 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "virginia-beach-virginia-estate-services",
+      "name": "Virginia Estate Services",
+      "slug": "virginia-estate-services",
+      "imageUrl": "",
+      "address": {
+        "street": "1832 Thomas Ln",
+        "city": "Virginia Beach",
+        "state": "VA",
+        "zip": "23454",
+        "formatted": "1832 Thomas Ln, Virginia Beach, VA 23454"
+      },
+      "contact": {
+        "phone": "(757) 416-2716",
+        "email": "virginiaestateservices@gmail.com",
+        "website": "https://www.virginiaestateservices.net"
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Estate Liquidation",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [
+          "BBB A+ Rated"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Personal Property Valuations"
+        ]
+      },
+      "content": {
+        "about": "Virginia Estate Services provides professional estate sales, antique appraisals, and liquidation services throughout the Virginia Beach and Hampton Roads area. They are a BBB A+ rated firm handling full-service estate sales, antique valuations, and personal property assessments.",
+        "notes": "BBB A+ rated. Serves Virginia Beach, Norfolk, and the greater Hampton Roads area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "virginia-beach-larry-zedd-antique",
+      "name": "Larry Zedd - Virginia Beach Antique Company",
+      "slug": "larry-zedd-antique-buyer-appraiser",
+      "imageUrl": "",
+      "address": {
+        "street": "6506 Atlantic Ave",
+        "city": "Virginia Beach",
+        "state": "VA",
+        "zip": "23451",
+        "formatted": "6506 Atlantic Ave, Virginia Beach, VA 23451"
+      },
+      "contact": {
+        "phone": "(757) 422-4477",
+        "email": "mzedd@msn.com",
+        "website": "https://www.virginiabeachantiquecompany.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer and buyer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Free appraisals offered",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Items",
+          "Collectibles",
+          "Vintage Furniture",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Free Antique Appraisals",
+          "Antique Buying",
+          "Estate Sales",
+          "Estate Liquidation"
+        ]
+      },
+      "content": {
+        "about": "Larry Zedd operates the Virginia Beach Antique Company, providing antique buying, free appraisals, and estate sale services in Virginia Beach. Located on Atlantic Ave, they offer free antique appraisals and purchase estate items, collectibles, vintage furniture, and art throughout the Hampton Roads area.",
+        "notes": "Offers free antique appraisals. Text: 757.617.6535. Email: mzedd@msn.com."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "virginia-beach-measured-values",
+      "name": "Measured Values Estate Appraisal",
+      "slug": "measured-values-estate-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Virginia Beach",
+        "state": "VA",
+        "zip": "",
+        "formatted": "Virginia Beach, VA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.measuredvalues.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisal",
+          "Personal Property",
+          "Antiques",
+          "Estate Items"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Probate Valuations",
+          "Inheritance Appraisals",
+          "Estate Planning"
+        ]
+      },
+      "content": {
+        "about": "Measured Values provides accurate estate appraisal services in Virginia Beach, Virginia. They offer reliable valuations for probate, inheritance, and estate planning needs, covering personal property, antiques, and estate items throughout the Hampton Roads area.",
+        "notes": "Serves Virginia Beach and the greater Hampton Roads area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "virginia-estate-services-virginia-beach-va",
+      "name": "Virginia Estate Services",
+      "slug": "virginia-estate-services-va-beach",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Virginia Beach",
+        "state": "VA",
+        "zip": "23455",
+        "formatted": "Virginia Beach, VA 23455"
+      },
+      "contact": {
+        "phone": "(757) 416-2716",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Collectibles",
+          "Personal Property",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Virginia Estate Services provides professional antique appraisals and estate sale services in the Virginia Beach area. They handle everything from single-item antique valuations to full estate liquidations, serving families and individuals throughout Virginia Beach and the greater Hampton Roads region.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Virginia Beach, VA. Serves Hampton Roads."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "all-personal-property-appraisal-virginia-beach-va",
+      "name": "All Personal Property Appraisal",
+      "slug": "all-personal-property-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "4901 Ocean Front Ave",
+        "city": "Virginia Beach",
+        "state": "VA",
+        "zip": "23451",
+        "formatted": "4901 Ocean Front Ave, Virginia Beach, VA 23451"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "All Personal Property Appraisal is a Virginia Beach-based firm providing professional antique and personal property valuations. Located on Ocean Front Avenue, they offer comprehensive appraisal services for antiques, collectibles, estate items, and personal property throughout the Hampton Roads area.",
+        "notes": "Located at 4901 Ocean Front Ave, Virginia Beach, VA. Serves Hampton Roads."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cmp-appraisals-virginia-beach-va",
+      "name": "CMP Appraisals",
+      "slug": "cmp-appraisals-va-beach",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Virginia Beach",
+        "state": "VA",
+        "zip": "",
+        "formatted": "Virginia Beach, VA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Estate Items",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "CMP Appraisals provides professional antique and personal property appraisals in the Virginia Beach, VA area. They offer comprehensive valuation services for antiques, collectibles, estate items, and personal property for insurance, estate planning, and charitable donation purposes.",
+        "notes": "Serves Virginia Beach VA and Hampton Roads area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-virginia-beach-va",
+      "name": "ValuePros Appraisal Services - Virginia Beach",
+      "slug": "valuepros-appraisal-virginia-beach",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Virginia Beach",
+        "state": "VA",
+        "zip": "",
+        "formatted": "Virginia Beach, VA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Personal Property",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Virginia Beach, VA area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Virginia Beach VA and Hampton Roads."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

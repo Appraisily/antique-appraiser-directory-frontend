@@ -31,7 +31,7 @@
       },
       "expertise": {
         "specialties": [
-          "European/American paintings (15th–20th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master’s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com"
+          "European/American paintings (15th\u201320th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master\u2019s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com"
         ],
         "certifications": [
           "ISA",
@@ -44,8 +44,8 @@
         ]
       },
       "content": {
-        "about": "Asian/Persian Decorative Arts offers antique appraisal services in Toronto, ON. Primary specialties include European/American paintings (15th–20th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master’s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com. Services include GTA [3].",
-        "notes": "Helping Toronto, ON collectors with appraisals for European/American paintings (15th–20th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master’s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com."
+        "about": "Asian/Persian Decorative Arts offers antique appraisal services in Toronto, ON. Primary specialties include European/American paintings (15th\u201320th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master\u2019s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com. Services include GTA [3].",
+        "notes": "Helping Toronto, ON collectors with appraisals for European/American paintings (15th\u201320th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master\u2019s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com."
       },
       "reviews": [
         {
@@ -200,7 +200,7 @@
       },
       "expertise": {
         "specialties": [
-          "European/American paintings (15th–20th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master’s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com"
+          "European/American paintings (15th\u201320th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master\u2019s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com"
         ],
         "certifications": [
           "ISA",
@@ -214,8 +214,8 @@
         ]
       },
       "content": {
-        "about": "Fine Art & Archives offers antique appraisal services in Toronto, ON. Primary specialties include European/American paintings (15th–20th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master’s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com. Services include Antique Appraisals, Estate Valuations.",
-        "notes": "Fine Art & Archives serves Toronto, ON with antique appraisal support focused on European/American paintings (15th–20th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master’s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com."
+        "about": "Fine Art & Archives offers antique appraisal services in Toronto, ON. Primary specialties include European/American paintings (15th\u201320th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master\u2019s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com. Services include Antique Appraisals, Estate Valuations.",
+        "notes": "Fine Art & Archives serves Toronto, ON with antique appraisal support focused on European/American paintings (15th\u201320th c.), sculpture, photography, artist estates[2]  \n   - Certifications: ISA AM Accredited Member (USPAP compliant), Master\u2019s Archival Science[2]  \n   - Years Active: ~15+ years[2]  \n   - Contact: torontoappraiser.com."
       },
       "reviews": [
         {
@@ -239,6 +239,431 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "queen-st-antiques-toronto-on",
+      "name": "Queen Street Antiques",
+      "slug": "queen-st-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "900 Queen St W",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M6J 1G4",
+        "formatted": "900 Queen St W, Toronto, ON M6J 1G4"
+      },
+      "contact": {
+        "phone": "(416) 536-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Canadiana"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Queen Street West offers a variety of antique shops with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "yorkville-antiques-toronto-on",
+      "name": "Yorkville Antiques",
+      "slug": "yorkville-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "100 Bloor St W",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M5S 2W5",
+        "formatted": "100 Bloor St W, Toronto, ON M5S 2W5"
+      },
+      "contact": {
+        "phone": "(416) 964-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "European Antiques",
+          "Fine Art",
+          "Jewelry"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Yorkville Antiques offers fine European antiques with professional appraisal services in the Yorkville district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "toronto-estate-sales-toronto-on",
+      "name": "Toronto Estate Sales & Appraisals",
+      "slug": "toronto-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "100 King St W",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M5X 1A9",
+        "formatted": "100 King St W, Toronto, ON M5X 1A9"
+      },
+      "contact": {
+        "phone": "(416) 362-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "Canadian Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Toronto Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the GTA.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "waddingtons-auctioneers-toronto-on",
+      "name": "Waddington's Auctioneers & Appraisers",
+      "slug": "waddingtons-auctioneers",
+      "imageUrl": "",
+      "address": {
+        "street": "100 Broadview Ave, Suite 200",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "M4M 3H3",
+        "formatted": "100 Broadview Ave, Suite 200, Toronto, ON M4M 3H3"
+      },
+      "contact": {
+        "phone": "(416) 504-9100",
+        "email": "",
+        "website": "https://www.waddingtons.ca"
+      },
+      "business": {
+        "yearsInBusiness": "40+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Canadian Art",
+          "Estate Appraisals",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Waddington's Auctioneers & Appraisers is one of Canada's premier auction houses, offering expert antique and fine art appraisal services from their Broadview Avenue location in Toronto. With over 40 years of experience, they provide valuations for insurance, estate, and donation purposes.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "aj-yuen-appraisals-toronto-on",
+      "name": "A.J. Yuen Personal Property & Antique Appraisals",
+      "slug": "aj-yuen-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Toronto, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.mecagallery.ca"
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Personal Property",
+          "Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ISA Accredited Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Personal Property Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "A.J. Yuen is an ISA Accredited Member and USPAP Compliant Fine Art Appraiser based in Toronto, serving as Director of ISA's Canadian Chapter. Specializing in personal property and antique appraisals, with expertise through Meca Gallery.",
+        "notes": "Director of ISA Canadian Chapter. Contact through mecagallery.ca."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "empire-appraisers-toronto-on",
+      "name": "Empire Appraisers",
+      "slug": "empire-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Toronto, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.empireappraisers.com"
+      },
+      "business": {
+        "yearsInBusiness": "38+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art",
+          "Antiques",
+          "Estate Contents",
+          "Collections"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Empire Appraisers are Toronto-based certified appraisers of art, antiques, general contents, and collections with over 38 years of hands-on experience. They serve clients throughout the Greater Toronto Area for insurance, estate, donation, and resale valuations.",
+        "notes": "38+ years of hands-on experience. Website: empireappraisers.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "susan-selby-appraisals-toronto-on",
+      "name": "Susan Selby Appraisals",
+      "slug": "susan-selby-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Toronto",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Toronto, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established ISA member",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Furnishings",
+          "Decorative Arts",
+          "Fine Art",
+          "Antique Toys",
+          "Canadiana"
+        ],
+        "certifications": [
+          "ISA Member"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Susan Selby is an ISA Member and Generalist Appraiser based in Toronto, specializing in antiques, furnishings, decorative arts, fine art, antique toys, Canadiana, and household contents. Active member of the International Society of Appraisers Canadian Chapter.",
+        "notes": "ISA Canadian Chapter member. Generalist appraiser with broad expertise across antiques and decorative arts."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

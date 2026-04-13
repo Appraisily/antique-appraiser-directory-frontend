@@ -171,6 +171,569 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "miami-antique-market-miami-fl",
+      "name": "Miami Antique Market",
+      "slug": "miami-antique-market",
+      "imageUrl": "",
+      "address": {
+        "street": "1501 SW 1st Ave",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33129",
+        "formatted": "1501 SW 1st Ave, Miami, FL 33129"
+      },
+      "contact": {
+        "phone": "(305) 375-3001",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique market",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Latin American Art",
+          "Caribbean Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Miami Antique Market offers a diverse selection of antiques with professional appraisal services reflecting Miami's multicultural heritage.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "coconut-grove-antiques-miami-fl",
+      "name": "Coconut Grove Antiques",
+      "slug": "coconut-grove-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3251 Commodore Plaza",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33133",
+        "formatted": "3251 Commodore Plaza, Miami, FL 33133"
+      },
+      "contact": {
+        "phone": "(305) 444-0004",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery in Coconut Grove",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Art",
+          "Tropical Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Coconut Grove Antiques offers fine antiques and collectibles with professional appraisal services in the historic Coconut Grove neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "art-deco-antiques-miami-fl",
+      "name": "Art Deco Antiques Miami",
+      "slug": "art-deco-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "742 12th St",
+        "city": "Miami Beach",
+        "state": "FL",
+        "zip": "33139",
+        "formatted": "742 12th St, Miami Beach, FL 33139"
+      },
+      "contact": {
+        "phone": "(305) 531-1133",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Specialist in Art Deco antiques",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art Deco",
+          "Vintage Furniture",
+          "Mid-Century Modern"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Art Deco Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Art Deco Antiques Miami specializes in original Art Deco pieces and provides expert appraisal services for Art Deco and vintage items.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "south-beach-antiques-miami-fl",
+      "name": "South Beach Antiques",
+      "slug": "south-beach-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "227 8th St",
+        "city": "Miami Beach",
+        "state": "FL",
+        "zip": "33139",
+        "formatted": "227 8th St, Miami Beach, FL 33139"
+      },
+      "contact": {
+        "phone": "(305) 534-0440",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop on South Beach",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Vintage Items",
+          "Designer Furniture",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "South Beach Antiques offers a unique collection of vintage and antique items with professional appraisal services in the heart of South Beach.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-valuepros-appraisal",
+      "name": "ValuePros Appraisal Services",
+      "slug": "valuepros-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(305) 249-1425",
+        "email": "",
+        "website": "https://www.valuepros.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Estate Items",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Accredited Appraiser"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "Estate Appraisals",
+          "Antique Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services provides accredited appraisal services in Miami and South Florida for personal property, antiques, fine art, and estate items.",
+        "notes": "Serving Miami, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-mgf-appraisals",
+      "name": "MGF Appraisals",
+      "slug": "mgf-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.mgfappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Decorative Arts",
+          "Furniture",
+          "Household Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "MGF Appraisals has been a trusted name in Miami personal property appraisal for years, with expertise in artwork, decorative arts, furniture, antiques, and household contents.",
+        "notes": "Serving Miami, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-princeton-appraisers-miami",
+      "name": "Princeton Appraisers Miami",
+      "slug": "princeton-appraisers-miami",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://princetonappraisers.com"
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Qualified Appraiser"
+        ],
+        "services": [
+          "Insurance Replacement Appraisals",
+          "Charitable Donation Appraisals",
+          "Estate Settlements"
+        ]
+      },
+      "content": {
+        "about": "Princeton Appraisers provides qualified antique and personal property appraisals in Miami for insurance replacement, charitable donations, estate settlements, and more.",
+        "notes": "Serving Miami, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-lion-and-unicorn-appraisals",
+      "name": "Lion & Unicorn Appraisals",
+      "slug": "lion-and-unicorn-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://lionandunicorn.com"
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Jewelry",
+          "Silver",
+          "Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lion & Unicorn offers expert antique appraisals in South Florida, specializing in jewelry, fine art, silver, and decorative arts with a focus on maximizing value for clients.",
+        "notes": "Serving Miami, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-south-florida-estate-appraisals",
+      "name": "South Florida Estate Appraisals",
+      "slug": "south-florida-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "South Florida Estate Appraisals provides comprehensive antique and estate appraisals throughout Miami-Dade County, with expertise in fine art, furniture, and collectibles.",
+        "notes": "Serving Miami, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

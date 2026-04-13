@@ -248,6 +248,512 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "senate-antiques-detroit-mi",
+      "name": "Senate Antiques Inc",
+      "slug": "senate-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "828 W Fisher Fwy",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "48201",
+        "formatted": "828 W Fisher Fwy, Detroit, MI 48201"
+      },
+      "contact": {
+        "phone": "(313) 963-5252",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "40 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Vintage Furniture",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Senate Antiques Inc has been a fixture in Detroit's antique market for 40 years, providing expert appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dumouchelle-art-galleries-detroit-mi",
+      "name": "Dumouchelle Art Galleries",
+      "slug": "dumouchelle-art-galleries",
+      "imageUrl": "",
+      "address": {
+        "street": "409 E Jefferson Ave",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "48226",
+        "formatted": "409 E Jefferson Ave, Detroit, MI 48226"
+      },
+      "contact": {
+        "phone": "(313) 963-6255",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "99 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.0,
+        "reviewCount": 1
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Estate Sales"
+        ]
+      },
+      "content": {
+        "about": "Dumouchelle Art Galleries has been a Detroit institution for nearly a century, providing art and antique appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "hartt-antiques-detroit-mi",
+      "name": "Hartt Antiques & Estate Sales Gallery",
+      "slug": "hartt-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "17307 Mack Ave",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "48224",
+        "formatted": "17307 Mack Ave, Detroit, MI 48224"
+      },
+      "contact": {
+        "phone": "(313) 885-5600",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sales and antiques gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antique Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Michael J. Hartt is the owner of the Hartt Estate Sales and Antiques Gallery, serving Detroit and the surrounding metro area with professional antique appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "edmund-frank-assoc-detroit-mi",
+      "name": "Edmund Frank & Associates",
+      "slug": "edmund-frank-assoc",
+      "imageUrl": "",
+      "address": {
+        "street": "1519 W Boston Blvd",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "48206",
+        "formatted": "1519 W Boston Blvd, Detroit, MI 48206"
+      },
+      "contact": {
+        "phone": "(313) 854-6000",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antique Appraisals",
+          "Moving Sales"
+        ],
+        "certifications": [
+          "Certified Estate Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Edmund Frank & Associates LLC has conducted Estate Sales in the Metro Detroit area since 1976, providing expert antique and estate appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-world-antique-gallery-detroit-mi",
+      "name": "New World Antique Gallery",
+      "slug": "new-world-antique-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "12101 Grand River Ave",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "48204",
+        "formatted": "12101 Grand River Ave, Detroit, MI 48204"
+      },
+      "contact": {
+        "phone": "(313) 834-7008",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "78 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Buyouts",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "New World Antique Gallery has been serving Detroit's antique community for nearly 80 years, offering comprehensive appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "heritage-appraisals-michigan-detroit",
+      "name": "Heritage Appraisals - Michigan",
+      "slug": "heritage-appraisals-michigan",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Troy",
+        "state": "MI",
+        "zip": "",
+        "formatted": "Troy, MI (Serves Detroit Metro Area)"
+      },
+      "contact": {
+        "phone": "(248) 722-4319",
+        "email": "HERITAGEAPPRAISALSMI@YAHOO.COM",
+        "website": "https://heritageappraisalsmi.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Decorative Art",
+          "Antiques",
+          "Furniture",
+          "Jewelry",
+          "Timepieces",
+          "Sculpture",
+          "Glass"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Insurance Coverage Appraisals",
+          "Charitable Donation Appraisals",
+          "Estate Planning Appraisals",
+          "Divorce Settlement Appraisals",
+          "Expert Witness Services"
+        ]
+      },
+      "content": {
+        "about": "Heritage Appraisals is a Michigan-based personal property appraisal firm serving the Detroit metro area and clients nationwide. Led by ISA Certified Appraiser Kelly Knoll, the firm provides trusted, up-to-date, and USPAP-compliant valuation reports. They specialize in fine art, antiques, gemstones, and decorative objects, delivering expert appraisals for insurance, estate planning, charitable donations, resale, legal matters, and investment evaluations.",
+        "notes": "Serves Detroit metro area and all 50 states. ISA Certified, USPAP Compliant."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cambridge-appraisals-wendy-dych-detroit",
+      "name": "Cambridge Appraisals - Wendy Dych, ISA AM",
+      "slug": "cambridge-appraisals-wendy-dych",
+      "imageUrl": "",
+      "address": {
+        "street": "880 W Long Lake Rd, Suite 225",
+        "city": "Troy",
+        "state": "MI",
+        "zip": "48098",
+        "formatted": "880 W Long Lake Rd, Suite 225, Troy, MI 48098 (Serves Detroit Metro Area)"
+      },
+      "contact": {
+        "phone": "(586) 883-1477",
+        "email": "CambridgeAppraisals@gmail.com",
+        "website": "https://www.cambridgeappraisalsllc.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established personal property appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Silver",
+          "Antiques",
+          "Fine Art",
+          "Decorative Arts",
+          "18th-21st Century Objects"
+        ],
+        "certifications": [
+          "ISA Accredited Member (AM)",
+          "IRS Qualified Appraiser",
+          "USPAP Compliant",
+          "ISA Appraisal Studies Program Graduate"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Wendy Dych of Cambridge Appraisals is an ISA Accredited Member and IRS-qualified professional appraiser serving the Detroit metro area. Known for being honest, knowledgeable, and thorough, she specializes in silver, antiques, fine art, and decorative arts from the 18th through 21st centuries. Wendy adheres to rigorous ISA and USPAP standards, carefully tailoring her appraisal reports to client needs.",
+        "notes": "ISA AM, IRS Qualified Appraiser. By appointment only. Serves Detroit metro area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "bates-art-group-detroit-mi",
+      "name": "Bates Art Group",
+      "slug": "bates-art-group",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Birmingham",
+        "state": "MI",
+        "zip": "",
+        "formatted": "Birmingham, MI (Serves Detroit Metro Area)"
+      },
+      "contact": {
+        "phone": "(248) 385-2573",
+        "email": "info@batesartgroup.com",
+        "website": "https://www.batesartgroup.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 15 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Decorative Art",
+          "American Paintings",
+          "European Paintings",
+          "Sculpture",
+          "Antiques",
+          "Furniture",
+          "Silver",
+          "Ceramics"
+        ],
+        "certifications": [
+          "IRS Qualified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Insurance Valuations",
+          "Estate Division Appraisals",
+          "Donation Appraisals",
+          "Damage/Loss Claims",
+          "Estate Tax Appraisals",
+          "Appraisal Reviews"
+        ]
+      },
+      "content": {
+        "about": "Bates Art Group is a leading independent art appraisal and advisory firm in the Midwest, serving the Detroit area for over 15 years. They provide expert valuations for private collectors, law firms, insurance agencies, museums, and corporations. Their art market professionals handle valuations for insurance, damage/loss, sales, donations, divorces, family divisions, and estate taxes.",
+        "notes": "Serves Detroit metro area and the broader Midwest. IRS-qualified appraisals for charitable donations."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

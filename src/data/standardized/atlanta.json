@@ -168,6 +168,585 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "antiques-and-beyond-atlanta-ga",
+      "name": "Antiques & Beyond",
+      "slug": "antiques-and-beyond",
+      "imageUrl": "",
+      "address": {
+        "street": "1853 Cheshire Bridge Rd NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30324",
+        "formatted": "1853 Cheshire Bridge Rd NE, Atlanta, GA 30324"
+      },
+      "contact": {
+        "phone": "(404) 872-4342",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "32 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 3
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Antiques & Beyond offers a vast selection of antiques and collectibles with expert appraisal services in the Cheshire Bridge area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "english-accent-antiques-atlanta-ga",
+      "name": "English Accent Antiques",
+      "slug": "english-accent-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "425 Peachtree Hills Ave NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30305",
+        "formatted": "425 Peachtree Hills Ave NE, Atlanta, GA 30305"
+      },
+      "contact": {
+        "phone": "(404) 467-1145",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "38 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 2
+      },
+      "expertise": {
+        "specialties": [
+          "European Antiques",
+          "Fine Art",
+          "English Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "English Accent Antiques offers fine European antiques and art with professional appraisal services in Buckhead.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "peachtree-battle-antiques-atlanta-ga",
+      "name": "Peachtree Battle Antiques & Interiors",
+      "slug": "peachtree-battle-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "2395 Peachtree Rd NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30305",
+        "formatted": "2395 Peachtree Rd NE, Atlanta, GA 30305"
+      },
+      "contact": {
+        "phone": "(404) 846-9411",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 4
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Interior Design",
+          "Vintage Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Interior Design Consultation",
+          "Estate Sales"
+        ]
+      },
+      "content": {
+        "about": "Peachtree Battle Antiques & Interiors offers fine antiques and interior design consultation with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "four-seasons-antiques-atlanta-ga",
+      "name": "Four Seasons Antiques & Auction Gallery",
+      "slug": "four-seasons-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "2075 Liddell Dr NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30324",
+        "formatted": "2075 Liddell Dr NE, Atlanta, GA 30324"
+      },
+      "contact": {
+        "phone": "(404) 876-1048",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Auctions",
+          "Estate Sales"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Auctions",
+          "Estate Sales"
+        ]
+      },
+      "content": {
+        "about": "Four Seasons Antiques & Auction Gallery provides professional antique appraisal and auction services in Atlanta.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-hawkins-appraisal-services",
+      "name": "Hawkins Appraisal Services",
+      "slug": "hawkins-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "",
+        "formatted": ", Atlanta, GA "
+      },
+      "contact": {
+        "phone": "(404) 320-7275",
+        "email": "phhawkins@outlook.com",
+        "website": "https://hawkinsappraisalservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "25+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "General Residential Contents",
+          "Antiques & Decorative Arts",
+          "Furniture",
+          "Silver",
+          "Porcelain",
+          "Glass",
+          "Clocks"
+        ],
+        "certifications": [
+          "ISA Accredited Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Equitable Division",
+          "Insurance Coverage",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Hawkins Appraisal Services provides professional antique and personal property appraisals throughout metro Atlanta. Philip Hawkins is an Accredited Member of the International Society of Appraisers with over 25 years of experience in antiques, decorative arts, furniture, silver, porcelain, glass, and clocks.",
+        "notes": "Serving Atlanta, GA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-ahlstrom-appraisals",
+      "name": "Ahlstrom Appraisals",
+      "slug": "ahlstrom-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "",
+        "formatted": ", Atlanta, GA "
+      },
+      "contact": {
+        "phone": "(404) 219-9705",
+        "email": "courtney@ahlstromappraisals.com",
+        "website": "https://ahlstromappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Rare Books",
+          "Archives",
+          "20th-Century Design",
+          "Special Collections",
+          "Antiques"
+        ],
+        "certifications": [
+          "ISA Certified Member",
+          "AAA Accredited Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals",
+          "Collection Management",
+          "Legal Support"
+        ]
+      },
+      "content": {
+        "about": "Ahlstrom Appraisals specializes in fine art, rare books, archives, and 20th-century design. Courtney Ahlstrom Christy serves metro Atlanta and the Southeast with expertise in collection management and legal support appraisals.",
+        "notes": "Serving Atlanta, GA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-zeitgeist-artifacts",
+      "name": "Zeitgeist ARTifacts",
+      "slug": "zeitgeist-artifacts",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "",
+        "formatted": ", Atlanta, GA "
+      },
+      "contact": {
+        "phone": "(404) 824-0064",
+        "email": "lopez@zeitgeistartifacts.com",
+        "website": "https://zeitgeistartifacts.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "American Art",
+          "Fine & Decorative Arts",
+          "Collectibles",
+          "Antiques & Collections",
+          "WPA Era Art"
+        ],
+        "certifications": [
+          "ISA Accredited Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Equitable Division",
+          "Charitable Donation",
+          "Expert Witness"
+        ]
+      },
+      "content": {
+        "about": "Zeitgeist ARTifacts provides comprehensive appraisal services for American art, fine and decorative arts, and antiques collections. Serving Atlanta clients with expertise in WPA-era art, post-war and contemporary works.",
+        "notes": "Serving Atlanta, GA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-beermann-art-advisory",
+      "name": "Beermann Art Advisory",
+      "slug": "beermann-art-advisory",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "",
+        "formatted": ", Atlanta, GA "
+      },
+      "contact": {
+        "phone": "(239) 216-6306",
+        "email": "shelli@beermannartadvisory.com",
+        "website": "https://beermannartadvisory.com"
+      },
+      "business": {
+        "yearsInBusiness": "18+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "19th Century Art",
+          "20th Century Art",
+          "21st Century Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ASA Accredited Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Insurance Coverage",
+          "Charitable Contributions",
+          "Estate Appraisals",
+          "Equitable Division"
+        ]
+      },
+      "content": {
+        "about": "Beermann Art Advisory offers professional appraisals of antique furniture and fine art from the 19th through 21st centuries. Shelli Beermann serves metro Atlanta and the Southeast with ASA-accredited expertise.",
+        "notes": "Serving Atlanta, GA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-silver-appraisal-specialists",
+      "name": "Silver Appraisal Specialists",
+      "slug": "silver-appraisal-specialists",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "",
+        "formatted": ", Atlanta, GA "
+      },
+      "contact": {
+        "phone": "(770) 594-9293",
+        "email": "joseph_p_Brady@silverappraisal.com",
+        "website": "http://www.silverappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "30+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.9,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "Silver & Metalwork",
+          "Antique & Modern Silver",
+          "American Silver",
+          "English Silver",
+          "Continental Silver",
+          "Asian Silver"
+        ],
+        "certifications": [
+          "AAA Certified Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Charitable Donation",
+          "Division of Property"
+        ]
+      },
+      "content": {
+        "about": "Silver Appraisal Specialists focuses exclusively on silver and metalwork from American, English, Continental, and Asian traditions. Joseph Brady provides coast-to-coast service from his Atlanta base.",
+        "notes": "Serving Atlanta, GA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

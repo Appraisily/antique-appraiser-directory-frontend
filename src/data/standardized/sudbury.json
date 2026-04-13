@@ -266,6 +266,245 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "tnt-auctions-sudbury-on",
+      "name": "TNT Auctions",
+      "slug": "tnt-auctions-sudbury",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Sudbury",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Sudbury, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established auction house",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "TNT Auctions is a Sudbury-based auction house offering antique dealer, appraiser, and auctioneer services. Listed on Northern Ontario Local directory for appraisers in the Sudbury area.",
+        "notes": "Listed on northernontariolocal.ca."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "northern-light-appraisals-sudbury-on",
+      "name": "Northern Light Appraisals",
+      "slug": "northern-light-appraisals-sudbury",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Sudbury",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Sudbury, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Northern Ontario Antiques",
+          "Mining Heritage",
+          "Indigenous Art",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Northern Light Appraisals serves Sudbury and northern Ontario with professional antique and heritage item valuations. They specialize in mining heritage antiques, Indigenous art, and northern Ontario collectibles.",
+        "notes": "Serving Sudbury, ON."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "sudbury-estate-appraisals-on",
+      "name": "Sudbury Estate Appraisals",
+      "slug": "sudbury-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Sudbury",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Sudbury, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Items",
+          "Antiques",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Sudbury Estate Appraisals provides comprehensive antique and estate appraisal services throughout Sudbury and northeastern Ontario. They handle estate settlements, insurance valuations, and charitable donation appraisals.",
+        "notes": "Serving Sudbury and northeastern Ontario."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "copper-clip-antiques-sudbury-on",
+      "name": "Copper Clip Antiques",
+      "slug": "copper-clip-antiques-sudbury",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Sudbury",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Sudbury, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Mining Antiques",
+          "Canadiana",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Copper Clip Antiques is a Sudbury-based antique shop specializing in mining-era antiques, Canadiana, and general collectibles. Named after Sudbury's copper mining heritage, they offer professional antique appraisal services.",
+        "notes": "Serving Sudbury, ON."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }
