@@ -948,6 +948,13 @@ export function StandardizedLocationPage() {
         return;
       }
 
+      // If the slug is not in our known city list, treat as 404
+      if (!cityMeta) {
+        setError('not_found');
+        setIsLoading(false);
+        return;
+      }
+
       try {
         setIsLoading(true);
         const data = await getStandardizedLocation(validCitySlug);
@@ -965,7 +972,7 @@ export function StandardizedLocationPage() {
     }
 
     fetchData();
-  }, [validCitySlug]);
+  }, [validCitySlug, cityMeta]);
 
   useEffect(() => {
     if (!locationData || locationData.appraisers.length === 0) {
@@ -1509,8 +1516,47 @@ export function StandardizedLocationPage() {
   }
 
   if (error || !locationData || !locationData.appraisers || locationData.appraisers.length === 0) {
+    const isNotFound = error === 'not_found';
+
+    if (isNotFound) {
+      return (
+        <>
+          <SEO
+            title="Page Not Found | Antique Appraiser Directory"
+            description="The antique appraiser page you're looking for doesn't exist. Browse our directory to find certified antique appraisers near you."
+            schema={[generateBreadcrumbSchema()]}
+            path={locationPath}
+            pageUrl={locationCanonicalUrl}
+            noIndex
+          />
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-white focus:px-4 focus:py-2 focus:rounded-md focus:shadow-lg focus:outline-none focus:text-blue-700"
+          >
+            Skip to main content
+          </a>
+          <div className="container mx-auto px-4 py-8 mt-16">
+            <div className="max-w-3xl mx-auto text-center">
+              <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">404</p>
+              <h1 className="text-3xl font-bold mb-4">Location Not Found</h1>
+              <p className="text-gray-600 mb-6">
+                We couldn't find antique appraisers for the location you requested.
+                Browse our full directory to find certified antique appraisers near you.
+              </p>
+              <a
+                href={SITE_URL}
+                className="inline-flex items-center justify-center rounded-lg bg-primary px-6 py-3 text-sm font-medium text-white shadow-md hover:bg-primary/90 transition-colors"
+              >
+                Browse All Locations
+              </a>
+            </div>
+          </div>
+        </>
+      );
+    }
+
     return (
-      <div className="container mx-auto px-4 py-8 mt-16">
+      <>
         <SEO
           title={`Antique Appraisers in ${cityName} | Find Local Antique Appraisal Services`}
           description={`We're currently updating our list of antique appraisers in ${cityName}. Browse our directory for other locations or check back soon.`}
@@ -1518,22 +1564,30 @@ export function StandardizedLocationPage() {
           path={locationPath}
           pageUrl={locationCanonicalUrl}
         />
-        <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-3xl font-bold mb-4">Antique Appraisers in {cityName}</h1>
-          <div className="bg-blue-50 border border-blue-200 text-blue-700 px-6 py-4 rounded-lg mb-6">
-            <p className="font-medium">We're currently updating our database of antique appraisers in {cityName}.</p>
-            <p className="mt-2">Please check back soon or explore other cities in our directory.</p>
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-white focus:px-4 focus:py-2 focus:rounded-md focus:shadow-lg focus:outline-none focus:text-blue-700"
+        >
+          Skip to main content
+        </a>
+        <div className="container mx-auto px-4 py-8 mt-16">
+          <div className="max-w-3xl mx-auto text-center">
+            <h1 className="text-3xl font-bold mb-4">Antique Appraisers in {cityName}</h1>
+            <div className="bg-blue-50 border border-blue-200 text-blue-700 px-6 py-4 rounded-lg mb-6">
+              <p className="font-medium">We're currently updating our database of antique appraisers in {cityName}.</p>
+              <p className="mt-2">Please check back soon or explore other cities in our directory.</p>
+            </div>
+            <a href={SITE_URL} className="text-blue-600 hover:underline font-medium">
+              Browse all locations
+            </a>
           </div>
-          <a href={SITE_URL} className="text-blue-600 hover:underline font-medium">
-            Browse all locations
-          </a>
         </div>
-      </div>
+      </>
     );
   }
 
   return (
-    <div className="container mx-auto px-4 py-8 mt-16">
+    <>
       <SEO
         title={seoTitle}
         description={seoDescription}
@@ -1550,8 +1604,14 @@ export function StandardizedLocationPage() {
         geoRegion={cityMeta?.state || 'US'}
         geoPosition={cityMeta?.latitude && cityMeta?.longitude ? `${cityMeta.latitude};${cityMeta.longitude}` : undefined}
       />
-
-      <div className="max-w-6xl mx-auto">
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-white focus:px-4 focus:py-2 focus:rounded-md focus:shadow-lg focus:outline-none focus:text-blue-700"
+      >
+        Skip to main content
+      </a>
+      <div className="container mx-auto px-4 py-8 mt-16">
+        <div id="main-content" className="max-w-6xl mx-auto">
         <div className="bg-gradient-to-r from-blue-50 to-white p-6 rounded-lg mb-8">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             <div className="max-w-3xl">
@@ -1853,16 +1913,20 @@ export function StandardizedLocationPage() {
             .map(appraiser => {
             const appraiserUrl = buildSiteUrl(`/appraiser/${appraiser.slug}`);
             return (
-            <a
+            <div
               key={appraiser.id}
-              href={appraiserUrl}
-              className="block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300"
-              data-gtm-event="appraiser_card_click"
+              className="block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow focus-within:ring-2 focus-within:ring-blue-300"
               data-gtm-appraiser={appraiser.slug}
-              data-gtm-placement="location_results"
-              onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
-              aria-label={`View ${appraiser.name} profile`}
             >
+              <a
+                href={appraiserUrl}
+                className="block text-inherit no-underline"
+                data-gtm-event="appraiser_card_click"
+                data-gtm-appraiser={appraiser.slug}
+                data-gtm-placement="location_results"
+                onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
+                aria-label={`View ${appraiser.name} profile`}
+              >
                 <div className="h-48 bg-gray-200 overflow-hidden">
                   <img
                     src={normalizeAssetUrl(appraiser.imageUrl)}
@@ -1914,7 +1978,6 @@ export function StandardizedLocationPage() {
                               isActive ? 'bg-blue-600 text-white' : 'bg-blue-50 text-blue-700'
                             ].join(' ')}
                             onClick={(e) => {
-                              e.preventDefault();
                               e.stopPropagation();
                               handleSpecialtyTagClick(specialty);
                             }}
@@ -1943,7 +2006,8 @@ export function StandardizedLocationPage() {
                     </span>
                   </div>
                 </div>
-            </a>
+              </a>
+            </div>
           );
           })}
         </div>
@@ -2045,5 +2109,6 @@ export function StandardizedLocationPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
