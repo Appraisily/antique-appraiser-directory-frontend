@@ -1915,12 +1915,13 @@ export function StandardizedLocationPage() {
             return (
             <div
               key={appraiser.id}
-              className="block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow focus-within:ring-2 focus-within:ring-blue-300"
+              className="block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow focus-within:ring-2 focus-within:ring-blue-300 cursor-pointer"
+              style={{ touchAction: 'manipulation' }}
               data-gtm-appraiser={appraiser.slug}
             >
               <a
                 href={appraiserUrl}
-                className="block text-inherit no-underline"
+                className="block text-inherit no-underline active:opacity-80"
                 data-gtm-event="appraiser_card_click"
                 data-gtm-appraiser={appraiser.slug}
                 data-gtm-placement="location_results"
@@ -2034,7 +2035,7 @@ export function StandardizedLocationPage() {
           </div>
         )}
 
-        <div className="mt-10 rounded-lg border border-purple-100 bg-purple-50/60 p-6">
+        <div className="mt-10 mb-20 rounded-lg border border-purple-100 bg-purple-50/60 p-6">
           <h2 className="text-xl font-semibold mb-2">Looking for art-specific appraisers in {cityName}?</h2>
           <p className="text-gray-600 mb-4">
             Our Art Appraisers Directory focuses on fine art, paintings, prints, and sculpture valuations.
@@ -2057,7 +2058,7 @@ export function StandardizedLocationPage() {
           </a>
         </div>
 
-        <div className="mt-12 bg-gray-50 p-6 rounded-lg">
+        <div className="mt-12 mb-20 bg-gray-50 p-6 rounded-lg">
           <h2 className="text-xl font-semibold mb-3">Need an appraisal without the wait?</h2>
           <p className="text-gray-600 mb-4">
             Appraisily delivers expert online valuations backed by research and market data. Start online, then decide if you still
@@ -2083,7 +2084,7 @@ export function StandardizedLocationPage() {
           </a>
         </div>
 
-        <div className="mt-10 rounded-lg border border-gray-200 bg-white p-6">
+        <div className="mt-10 mb-20 rounded-lg border border-gray-200 bg-white p-6">
           <h2 className="text-xl font-semibold mb-4">FAQ for {cityName} appraisals</h2>
           <div className="space-y-4 text-gray-600">
             <div>

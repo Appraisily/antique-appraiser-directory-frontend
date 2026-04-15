@@ -626,6 +626,21 @@ async function regenerateSitemap({ publicDir, baseUrl }) {
   return { outputPath, count: urls.length };
 }
 
+async function ensureRobotsTxt({ publicDir, baseUrl }) {
+  const outputPath = path.join(publicDir, 'robots.txt');
+  const content = [
+    'User-agent: *',
+    'Allow: /',
+    'Disallow: /admin/',
+    '',
+    `Sitemap: ${baseUrl}/sitemap.xml`,
+    '',
+  ].join('\n');
+
+  await fs.writeFile(outputPath, content, 'utf8');
+  return { outputPath };
+}
+
 async function walkHtmlFiles(rootDir, relativeDir, bucket) {
   const currentDir = path.join(rootDir, relativeDir);
   const entries = await fs.readdir(currentDir, { withFileTypes: true });
@@ -676,6 +691,27 @@ async function assertNoLegacyChatEmbedHost(releaseDir) {
     throw new Error(
       `Legacy chat embed host detected in release HTML (${LEGACY_CHAT_EMBED_SRC}). Example files: ${offenders.join(', ')}`,
     );
+  }
+}
+
+async function assertReleaseSeoFiles(releaseDir) {
+  const requiredFiles = ['robots.txt', 'sitemap.xml'];
+  const missing = [];
+
+  for (const file of requiredFiles) {
+    const filePath = path.join(releaseDir, file);
+    try {
+      const stat = await fs.stat(filePath);
+      if (!stat.isFile() || stat.size === 0) {
+        missing.push(file);
+      }
+    } catch {
+      missing.push(file);
+    }
+  }
+
+  if (missing.length) {
+    throw new Error(`Published release is missing required SEO files: ${missing.join(', ')}`);
   }
 }
 
@@ -736,6 +772,10 @@ async function main() {
     publicDir: options.publicDir,
     baseUrl: options.baseUrl,
   });
+  const robots = await ensureRobotsTxt({
+    publicDir: options.publicDir,
+    baseUrl: options.baseUrl,
+  });
 
   if (options.dryRun) {
     console.log(
@@ -748,6 +788,7 @@ async function main() {
           getListed,
           crawlLinks,
           sitemap,
+          robots,
           releaseDir,
           currentSymlink,
         },
@@ -760,6 +801,7 @@ async function main() {
 
   await fs.mkdir(releaseDir, { recursive: true });
   run('rsync', ['-a', '--delete', '--no-perms', '--no-owner', '--no-group', `${options.publicDir}/`, `${releaseDir}/`]);
+  await assertReleaseSeoFiles(releaseDir);
   const chatHostNormalization = await normalizeChatEmbedHost(releaseDir);
   await assertNoLegacyChatEmbedHost(releaseDir);
   run('ln', ['-sfn', releaseDir, currentSymlink]);
@@ -782,6 +824,7 @@ async function main() {
         getListed,
         crawlLinks,
         sitemap,
+        robots,
         chatHostNormalization,
         releaseDir,
         currentSymlink,
