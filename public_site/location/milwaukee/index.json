@@ -1,0 +1,30 @@
+{
+  "title": "Antique & Art Appraisers in Milwaukee, Wisconsin",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "milwaukee",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/milwaukee/",
+    "name": "Antique & Art Appraisers in Milwaukee, Wisconsin",
+    "description": "Compare antique and art appraisers in Milwaukee, Wisconsin and request a fast online appraisal from Appraisily.",
+    "city": "Milwaukee",
+    "region": "WI",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Craig Husar Fine Diamonds",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/cedarburg-auction-appraisals-llc/",
+        "slug": "cedarburg-auction-appraisals-llc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_milwaukee-cedarburg-auction-appraisals-llc_1742202773948_e95lPwg3L.jpg",
+        "description": "Craig Husar Fine Diamonds offers antique appraisal support in Milwaukee, Wisconsin. Specialties: General antique collections. Services: antique appraisal, art appraisal.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/milwaukee/"
+    }
+  }
+}

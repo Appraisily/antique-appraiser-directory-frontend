@@ -331,6 +331,233 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "toenjes-fine-art-appraisals-kingston-on",
+      "name": "Toenjes Fine Art Appraisals",
+      "slug": "toenjes-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Kingston",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Kingston, ON"
+      },
+      "contact": {
+        "phone": "(613) 217-1339",
+        "email": "toenjesappraisals@gmail.com",
+        "website": "https://www.toenjesappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Canadian Art",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Toenjes Fine Art Appraisals is located in Kingston, Ontario, serving the Eastern Ontario Region. Cait Toenjes provides professional fine art and antique appraisal services for collectors, estates, and insurance purposes.",
+        "notes": "(613) 217-1339. toenjesappraisals@gmail.com. Website: toenjesappraisals.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dark-horse-appraisals-kingston-on",
+      "name": "Dark Horse Appraisals",
+      "slug": "dark-horse-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1506 O'Neil Road",
+        "city": "Oxford Mills",
+        "state": "ON",
+        "zip": "K0G 1J0",
+        "formatted": "1506 O'Neil Road, Oxford Mills, ON K0G 1J0"
+      },
+      "contact": {
+        "phone": "(343) 307-5409",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Appraisals",
+          "Personal Property"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Dark Horse Appraisals serves the Kingston area from nearby Oxford Mills, Ontario. BBB A+ rated for antique appraisals and estate valuations, providing professional appraisals for antiques, estate items, and personal property.",
+        "notes": "BBB A+ rated. (343) 307-5409. Serves Kingston, ON area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antique-alley-kingston-on",
+      "name": "Antique Alley",
+      "slug": "antique-alley-kingston",
+      "imageUrl": "",
+      "address": {
+        "street": "207B Wellington Street",
+        "city": "Kingston",
+        "state": "ON",
+        "zip": "K7K 2Y6",
+        "formatted": "207B Wellington Street, Kingston, ON K7K 2Y6"
+      },
+      "contact": {
+        "phone": "(613) 545-1120",
+        "email": "",
+        "website": "https://www.antiquealley.ca"
+      },
+      "business": {
+        "yearsInBusiness": "Over 45 years",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Collectibles",
+          "Vintage Items",
+          "Unusual Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Antique Alley has been in downtown Kingston for more than 45 years. This higher-end collectible and antique shop spans over 4000 sq ft across a maze of rooms, every inch filled with antiques, collectibles, and the unusual. Listed on AuctionsOntario.ca.",
+        "notes": "(613) 545-1120. 207B Wellington St, Kingston, ON. Over 45 years in business."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "s-rayner-associates-kingston-on",
+      "name": "S. Rayner & Associates",
+      "slug": "s-rayner-associates-kingston",
+      "imageUrl": "",
+      "address": {
+        "street": "920 Princess Street, Suite 210",
+        "city": "Kingston",
+        "state": "ON",
+        "zip": "K7L 1H1",
+        "formatted": "920 Princess Street, Suite 210, Kingston, ON K7L 1H1"
+      },
+      "contact": {
+        "phone": "(613) 384-8921",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Items",
+          "Personal Property"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "S. Rayner & Associates is a Kingston-based appraisal firm providing professional antique and personal property valuations. Located on Princess Street, they serve the greater Kingston and Eastern Ontario region.",
+        "notes": "(613) 384-8921. 920 Princess St, Suite 210, Kingston, ON."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

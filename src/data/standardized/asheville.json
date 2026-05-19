@@ -1,0 +1,75 @@
+{
+  "appraisers": [
+    {
+      "id": "asheville-independent-jewelry-appraisers",
+      "name": "JEWELS APPRAISED BY SU",
+      "slug": "independent-jewelry-appraisers",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/8e9b232d-eaad-4a83-8734-f7e189d97834/logo/52c13068-8d83-4316-bb5a-91d4996d3563.JPG/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Asheville",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Asheville, NC"
+      },
+      "contact": {
+        "phone": "8282770722",
+        "email": "info@indiantypefoundry.com",
+        "website": "https://jewelsappraisedbysu.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "JEWELS APPRAISED BY SU offers antique and personal property appraisal services serving Asheville, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://jewelsappraisedbysu.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://jewelsappraisedbysu.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJn7shL3ntWYgRlZgtn0Bh30U",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

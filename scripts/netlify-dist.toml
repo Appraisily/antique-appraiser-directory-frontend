@@ -1,14 +1,11 @@
-# Netlify configuration for pre-built distribution
+# Deprecated Netlify configuration retained only to block accidental legacy deploys.
 
 [build]
-  # Since the files are already built, we don't need to run a build command
   publish = "dist"
-  command = "echo 'Using pre-built static files for Netlify deployment'"
+  command = "echo 'Deprecated: antique directory deploys use the VPS static release publisher, not Netlify.' >&2; exit 1"
   
-  # Environment variables for the build
   [build.environment]
-    # Set the site URL for sitemap generation
-    SITE_URL = "https://art-appraiser.appraisily.com"
+    SITE_URL = "https://antique-appraiser-directory.appraisily.com"
 
 # Explicitly handle asset files with correct MIME types
 [[headers]]

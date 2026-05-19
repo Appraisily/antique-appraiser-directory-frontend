@@ -1,0 +1,75 @@
+{
+  "appraisers": [
+    {
+      "id": "akron-pier-and-co",
+      "name": "Pier & Co Liquidators LLC",
+      "slug": "pier-and-co",
+      "imageUrl": "https://i0.wp.com/pierandco.net/wp-content/uploads/2018/11/android-chrome-192x192-1.png?fit=192%2C192&ssl=1",
+      "address": {
+        "street": "",
+        "city": "Akron",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Akron, OH"
+      },
+      "contact": {
+        "phone": "330-864-8595",
+        "email": "jpier@pierandco.net",
+        "website": "https://pierandco.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Pier & Co Liquidators LLC offers antique and personal property appraisal services serving Akron, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://pierandco.net/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://pierandco.net/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJFYANvKnXMIgRebo6MVaeMdQ",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

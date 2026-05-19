@@ -1,6 +1,405 @@
 {
   "appraisers": [
     {
+      "id": "boston-a-art-collector-boston",
+      "name": "A Art Collector",
+      "slug": "a-art-collector",
+      "imageUrl": "",
+      "address": {
+        "street": "382 Commonwealth Ave",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02215",
+        "formatted": "382 Commonwealth Ave, Boston, MA 02215"
+      },
+      "contact": {
+        "phone": "(617) 564-1278",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "55 years in business (est. 1970)",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "19th & 20th Century American Fine Art",
+          "European Fine Art",
+          "Art Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Estate Valuations",
+          "Art Purchasing & Sales"
+        ]
+      },
+      "content": {
+        "about": "A Art Collector is an art dealer in Boston established in 1970, specializing in 19th and 20th century American and European fine art. They purchase and appraise fine art, working closely and confidentially with clients for over 55 years.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "a-art-collector-boston-ma",
+      "name": "A Art Collector",
+      "slug": "a-art-collector",
+      "imageUrl": "",
+      "address": {
+        "street": "382 Commonwealth Ave",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02215",
+        "formatted": "382 Commonwealth Ave, Boston, MA 02215"
+      },
+      "contact": {
+        "phone": "(617) 564-1278",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "55 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American Fine Art",
+          "European Fine Art",
+          "19th-20th Century Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "A Art Collector is an art dealer in Boston, est. 1970. We purchase 19th and 20th century American and European fine art. Expert antique and art appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antique-boston-aladdin-appraisal",
+      "name": "Aladdin Appraisal",
+      "slug": "boston-aladdin-appraisal",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.aladdinappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "antique_decorative_arts_personal_property_or_estate_contents",
+          "real_estate_property_appraisal"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "antique, estate, personal-property, or collectibles-related services"
+        ]
+      },
+      "content": {
+        "about": "Aladdin Appraisal is included from a deferred lead review for antique, estate, personal-property, or collectibles-related services in Boston, MA. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://www.aladdinappraisal.com/. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: s a l S e r v i c e s i n t h e G r e a t e r B o s t o n A r e a Clear, Accurate, and Trustworthy Valuations for Every Life Event or Real Estate Decision Clear, Accurate, and Trustworthy Valuations for Every Life Event or Real Estate Decision REQUEST A QUOTE ')\"> Over 100 5-Star Reviews Our Appraisal Services We offe"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "antique",
+          "serviceTypes": [
+            "antique_decorative_arts_personal_property_or_estate_contents",
+            "real_estate_property_appraisal"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://www.aladdinappraisal.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJa4JV8f2C44kRPW3Q09T7V9w",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: antique",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: antique_decorative_arts_personal_property_or_estate_contents, real_estate_property_appraisal"
+        ]
+      }
+    },
+    {
+      "id": "boston-allyson-lee-art-appraisal-services",
+      "name": "Allyson Lee Art Appraisal Services",
+      "slug": "allyson-lee-art-appraisal-services",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/b05eb612-835a-40af-82b0-d7cc5ff51885/logo.jpg/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "7813663259",
+        "email": "impallari@gmail.com",
+        "website": "https://aleeappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Allyson Lee Art Appraisal Services offers antique and personal property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://aleeappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://aleeappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJyw8EhPx55IkRfOlsG_drPq4",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-artemappraisals",
+      "name": "Artem Appraisals",
+      "slug": "artemappraisals",
+      "imageUrl": "https://static.wixstatic.com/media/812ad0_dd4838cd217947a6b96449f08c317436%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/812ad0_dd4838cd217947a6b96449f08c317436%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "401-400-2173",
+        "email": "info@artemappraisals.com",
+        "website": "https://www.artemappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Artem Appraisals offers antique and personal property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.artemappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artemappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJObJu-TpDQEsRfFviPA5l9dE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-associated-estate-and-appraisal-co",
+      "name": "Associated Estate & Appraisal Co.",
+      "slug": "associated-estate-and-appraisal-co",
+      "imageUrl": "https://static.wixstatic.com/media/045f03_8a59e74c29b24b4cbdaf67359a164338%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/045f03_8a59e74c29b24b4cbdaf67359a164338%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "401-781-1181",
+        "email": "info@associatedestate.com",
+        "website": "https://www.associatedestate.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Associated Estate & Appraisal Co. offers antique and personal property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.associatedestate.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.associatedestate.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJgcKBVVNO5IkR0kQ0urKJrmI",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "boston-boston-antique-appraisals",
       "name": "Boston Antique Appraisals",
       "slug": "boston-antique-appraisals",
@@ -70,6 +469,536 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "boston-boston-estate-appraisal",
+      "name": "Boston Estate & Gem Appraisal",
+      "slug": "boston-estate-appraisal",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "617-240-8099",
+        "email": "user@domain.com",
+        "website": "https://www.bostonega.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Boston Estate & Gem Appraisal offers antique and personal property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.bostonega.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bostonega.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJD4EVqKWaxaMRHOgOnVVnb9U",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-boston-estate-buyers-jewelry-appraisals",
+      "name": "Boston Estate Buyers",
+      "slug": "boston-estate-buyers-jewelry-appraisals",
+      "imageUrl": "https://www.bostonestatebuyers.com/wp-content/themes/lifestyle-pro/images/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "6175231193",
+        "email": "bostonestatebuyers@gmail.com",
+        "website": "https://www.bostonestatebuyers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Coin and collectible appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Coin and collectibles appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Boston Estate Buyers offers antique, jewelry, coin, or estate appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.bostonestatebuyers.com/appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bostonestatebuyers.com/appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJhXhteYNw44kRY3hUVLB6hcs",
+        "confidenceScore": 86,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states estate and antique jewelry appraisals",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "boston-jewelry-appraisal-gemstone-appraisal-boston-norwell",
+      "name": "Boston Gem Laboratory",
+      "slug": "jewelry-appraisal-gemstone-appraisal-boston-norwell",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "8006962522",
+        "email": "info@bostongemlab.com",
+        "website": "https://bostongemlab.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Boston Gem Laboratory offers antique and personal property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://bostongemlab.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://bostongemlab.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJXZmgiw9644kRhuJmk_BD27U",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-bostonian-jewelers-manufacturers",
+      "name": "Bostonian Jewelers & Manufacturers",
+      "slug": "bostonian-jewelers-manufacturers",
+      "imageUrl": "https://bostonianjewelers.com/cdn/shop/files/bostonian-logo-color.png?v=1613725499&width=460",
+      "address": {
+        "street": "333 Washington St, Ste. 216",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02108",
+        "formatted": "333 Washington St, Ste. 216, Boston, MA 02108"
+      },
+      "contact": {
+        "phone": "617-523-2934",
+        "email": "sales@bostonianjewelers.com",
+        "website": "https://bostonianjewelers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Jewelry appraisals",
+          "Estate jewelry",
+          "Diamond and gemstone appraisal support"
+        ],
+        "certifications": [],
+        "services": [
+          "Jewelry appraisal services",
+          "Estate jewelry consultations",
+          "Private appointment consultations"
+        ]
+      },
+      "content": {
+        "about": "Bostonian Jewelers & Manufacturers offers jewelry appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from direct website recheck on 2026-05-15. Source: https://bostonianjewelers.com/pages/jewelry-appraisal. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://bostonianjewelers.com/pages/jewelry-appraisal",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Direct recheck found owned-site jewelry appraisal service page."
+        },
+        "source": "direct_recheck_website_evidence",
+        "placeId": "ChIJyaFyeYNw44kRaRVzcXDdtUs",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "direct website recheck recovered owned-site evidence",
+          "owned-site Jewelry Appraisal page found",
+          "business email found",
+          "phone and logo found"
+        ]
+      }
+    },
+    {
+      "id": "cambridge-antique-market-boston-ma",
+      "name": "Cambridge Antique Market",
+      "slug": "cambridge-antique-market",
+      "imageUrl": "",
+      "address": {
+        "street": "201 Monsignor Obrien Hwy",
+        "city": "Cambridge",
+        "state": "MA",
+        "zip": "02141",
+        "formatted": "201 Monsignor Obrien Hwy, Cambridge, MA 02141"
+      },
+      "contact": {
+        "phone": "(617) 868-9655",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "35 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 31
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Furniture",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Buyouts",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Cambridge Antique Market is a multi-dealer antique emporium offering a wide range of antiques with expert appraisal services available.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "boston-central-mass-auctions",
+      "name": "Central Mass Auctions",
+      "slug": "central-mass-auctions",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "+1 617-391-6995",
+        "email": "info@centralmassauctions.com",
+        "website": "https://centralmassauctions.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Central Mass Auctions offers antique and personal property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://centralmassauctions.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://centralmassauctions.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJucKIHYRw44kR_SLqcFFCID8",
+        "confidenceScore": 60,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-clower-fine-art-boston",
+      "name": "Clower Fine Art",
+      "slug": "clower-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "261 Perham St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02132",
+        "formatted": "261 Perham St, Boston, MA 02132"
+      },
+      "contact": {
+        "phone": "(617) 849-3585",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art Appraisals",
+          "Charitable Donation Valuations",
+          "Estate Tax Appraisals",
+          "Insurance Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Fine Art Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Charitable Donation Valuations"
+        ]
+      },
+      "content": {
+        "about": "Clower Fine Art appraises fine art for resale, charitable donation, estate and gift tax, equitable distribution, and insurance. They serve clients throughout New England with over 16 years of professional appraisal experience.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "devonia-antiques-boston-ma",
+      "name": "Devonia Antiques",
+      "slug": "devonia-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "15 Charles St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02114",
+        "formatted": "15 Charles St, Boston, MA 02114"
+      },
+      "contact": {
+        "phone": "(617) 523-8313",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established Beacon Hill antiques dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Decorative Arts",
+          "Silver"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Silver Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Devonia Antiques offers fine antiques and decorative arts on Beacon Hill with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },
@@ -151,6 +1080,598 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "boston-edward-m-stanley-appraisal-services-fine-art-antiques",
+      "name": "Edward Stanley Appraisal Services",
+      "slug": "edward-m-stanley-appraisal-services-fine-art-antiques",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "617-983-5220",
+        "email": "%20info@edwardmstanley.com",
+        "website": "http://www.edwardmstanley.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Edward Stanley Appraisal Services offers antique and personal property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.edwardmstanley.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.edwardmstanley.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJsYlFwWt544kRPQ8RMrRhsBs",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-elegant-findings-antiques-boston",
+      "name": "Elegant Findings Antiques",
+      "slug": "elegant-findings-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "89 Charles St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02114",
+        "formatted": "89 Charles St, Boston, MA 02114"
+      },
+      "contact": {
+        "phone": "(617) 973-4844",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "37 years in business",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12:00 PM - 5:00 PM"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Porcelain",
+          "Stemware",
+          "Paintings",
+          "Rare Antiques",
+          "Decorative Accessories"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Elegant Findings Antiques on Boston's Charles Street offers an extensive selection of antiques including antique porcelain, stemware, paintings, rare antiques, and decorative accessories. With 37 years of experience, they provide expert antique appraisals.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "elegant-findings-antiques-boston-ma",
+      "name": "Elegant Findings Antiques",
+      "slug": "elegant-findings-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "89 Charles St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02114",
+        "formatted": "89 Charles St, Boston, MA 02114"
+      },
+      "contact": {
+        "phone": "(617) 973-4844",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "37 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Porcelain",
+          "Paintings",
+          "Rare Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "An extensive selection of antiques including antique porcelain, stemware, paintings, rare antiques and decorative accessories. Expert appraisal services available.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "boston-freemans-auction-boston",
+      "name": "Freeman's Auction",
+      "slug": "freemans-auction",
+      "imageUrl": "",
+      "address": {
+        "street": "45 School St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02108",
+        "formatted": "45 School St, Boston, MA 02108"
+      },
+      "contact": {
+        "phone": "(617) 367-3400",
+        "email": "",
+        "website": "https://www.freemansauction.com"
+      },
+      "business": {
+        "yearsInBusiness": "221 years in business (founded 1805)",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.7,
+        "reviewCount": 2
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Rare Books",
+          "Antique Furniture",
+          "Jewelry",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Freeman's Auction is America's oldest auction house, founded in 1805. Their Boston office at 45 School St provides expert antique appraisals, auction services, and estate valuations for fine art, rare books, antique furniture, jewelry, and collectibles.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "boston-gabriel-s-auctioneers-appraisers",
+      "name": "Gabriel's Auctioneers",
+      "slug": "gabriel-s-auctioneers-appraisers",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/585e8d0720099ed775000b2c/1482591641455-D86IN0GXO37EKVO2VUT9/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "1 (781) 769 1600",
+        "email": "user@domain.com",
+        "website": "https://www.gabrielsauctions.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Gabriel's Auctioneers offers antique and personal property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.gabrielsauctions.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.gabrielsauctions.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJF5_zp52A5IkRI4BET3iG1No",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-grogan-and-company",
+      "name": "Grogan & Company",
+      "slug": "grogan-and-company",
+      "imageUrl": "https://www.groganco.com/wp-content/themes/theme-groganco/dist/img/favicon/apple-touch-icon.png",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "617.720.2020",
+        "email": "",
+        "website": "https://www.groganco.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Grogan & Company offers antique and personal property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.groganco.com/services/appraisals/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.groganco.com/services/appraisals/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ5cWUzJl_44kR3BxKpY8T56U",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-l-p-coogan-appraisals",
+      "name": "L.P. Coogan Appraisals",
+      "slug": "l-p-coogan-appraisals",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/65d5060374c5953ebae9380e/afe4dc17-9f28-4367-941c-62c66288996c/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "7812046022",
+        "email": "Lori@LPCAppraisals.com",
+        "website": "https://www.lpcappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [
+          "GIA referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "L.P. Coogan Appraisals offers antique, jewelry, or personal-property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.lpcappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.lpcappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJp2LLQs0a42kRnX-BUN5yzNo",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states expert jewelry appraisals by GIA GG owned business",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "boston-manzi-personal-property-appraisers",
+      "name": "Manzi Personal Property Appraisers & Restorers",
+      "slug": "manzi-personal-property-appraisers",
+      "imageUrl": "https://manziappraisers.com/wp-content/uploads/2021/05/manzi-appraisers.png",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "617-995-0022",
+        "email": "manzi@manziappraisers.com",
+        "website": "https://manziappraisers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Manzi Personal Property Appraisers & Restorers offers antique and personal property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://manziappraisers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://manziappraisers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJMfzWSVd744kR_6Qf8nDA46o",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-plcombs-asian-art",
+      "name": "Peter Combs, plcombs Asian Antiques Buyers, Appraisers, Asian Art Brokers",
+      "slug": "plcombs-asian-art",
+      "imageUrl": "https://www.plcombs.com/plcombs-blogs-about-antiques/wp-content/uploads/2017/10/Robes_edited-1.jpg",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "978 283 5763",
+        "email": "plcombs@plcombs.com",
+        "website": "https://www.plcombs.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Peter Combs, plcombs Asian Antiques Buyers, Appraisers, Asian Art Brokers offers antique and personal property appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.plcombs.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.plcombs.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJWSDFoxsl44kRhDR2ahReQV4",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {

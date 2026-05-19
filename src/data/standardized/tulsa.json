@@ -176,6 +176,678 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "tulsa-kerstens-antiques-tulsa",
+      "name": "Kerstens Antiques",
+      "slug": "kerstens-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "5510 S Lewis Ave",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "74105",
+        "formatted": "5510 S Lewis Ave, Tulsa, OK 74105"
+      },
+      "contact": {
+        "phone": "(918) 392-0800",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "17 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Antique Appraisals",
+          "Estate Valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Antique Sales"
+        ]
+      },
+      "content": {
+        "about": "Kerstens Antiques has been a fixture in Tulsa's antique scene for over 17 years, offering antique furniture, collectibles, and professional appraisal services at their S Lewis Avenue location.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tulsa-tulsa-antiques-tulsa",
+      "name": "Tulsa Antiques",
+      "slug": "tulsa-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "4305 E 31st St",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "74135",
+        "formatted": "4305 E 31st St, Tulsa, OK 74135"
+      },
+      "contact": {
+        "phone": "(918) 935-3355",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer in Tulsa",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "19th Century Glass",
+          "Porcelain",
+          "Sculpture",
+          "Fine Art",
+          "Decorative Accessories"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Fine Consignments"
+        ]
+      },
+      "content": {
+        "about": "Tulsa Antiques specializes in 19th century glass and porcelain, sculpture, fine art, decorative accessories, and fine consignments. They offer a diverse selection and professional appraisal services for collectors and estates.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tulsa-tulsa-jewelry-appraisals-llc-tulsa",
+      "name": "Tulsa Jewelry Appraisals LLC",
+      "slug": "tulsa-jewelry-appraisals-llc",
+      "imageUrl": "",
+      "address": {
+        "street": "5525 E 51st St, Ste 510",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "74135",
+        "formatted": "5525 E 51st St, Ste 510, Tulsa, OK 74135"
+      },
+      "contact": {
+        "phone": "(918) 779-2129",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "11 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Jewelry",
+          "Vintage Jewelry",
+          "Diamond Appraisals",
+          "Antique Jewelry"
+        ],
+        "certifications": [],
+        "services": [
+          "Jewelry Appraisals",
+          "Estate Jewelry Valuation",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Tulsa Jewelry Appraisals LLC offers friendly, secure, and trusted jewelry appraisals while you wait. With over 11 years in business, they specialize in estate jewelry, vintage pieces, and antique jewelry valuation.",
+        "notes": "Also has a second location at 5321 S Sheridan Rd Ste 34, Tulsa, OK 74145 (wheelchair accessible)."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tulsa-antique-station-tulsa",
+      "name": "Antique Station",
+      "slug": "antique-station",
+      "imageUrl": "",
+      "address": {
+        "street": "1401 E 2nd St",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "74120",
+        "formatted": "1401 E 2nd St, Tulsa, OK 74120"
+      },
+      "contact": {
+        "phone": "(918) 587-7999",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "28 years in business",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Collectibles",
+          "Antique Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Antique Station has been a Tulsa landmark for 28 years, offering a wide selection of antique furniture, vintage collectibles, and decorative arts. Their experienced staff provides knowledgeable antique appraisals.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tulsa-antique-mall-tulsa-ok",
+      "name": "Tulsa Antique Mall",
+      "slug": "tulsa-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "4144 S Sheridan Rd",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "74145",
+        "formatted": "4144 S Sheridan Rd, Tulsa, OK 74145"
+      },
+      "contact": {
+        "phone": "(918) 665-4240",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Western Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Tulsa Antique Mall offers a wide selection of antiques from multiple dealers with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cherry-street-antiques-tulsa-ok",
+      "name": "Cherry Street Antiques",
+      "slug": "cherry-street-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1502 E 15th St",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "74120",
+        "formatted": "1502 E 15th St, Tulsa, OK 74120"
+      },
+      "contact": {
+        "phone": "(918) 585-2233",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop on Cherry Street",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Vintage Collectibles",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Cherry Street Antiques offers a curated selection of antiques with professional appraisal services in the Cherry Street district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "oklahoma-estate-sales-tulsa-ok",
+      "name": "Oklahoma Estate Sales & Appraisals",
+      "slug": "oklahoma-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "15 W 6th St",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "74119",
+        "formatted": "15 W 6th St, Tulsa, OK 74119"
+      },
+      "contact": {
+        "phone": "(918) 583-2299",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Oklahoma Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the Tulsa metro area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "laura-nelson-appraisals-tulsa-ok",
+      "name": "Laura A. Nelson, ISA AM - Appraisals & Estate Sales",
+      "slug": "laura-nelson-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "PO Box 4737",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "74159",
+        "formatted": "Tulsa, OK 74159"
+      },
+      "contact": {
+        "phone": "(918) 510-2787",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "ISA member since 2009",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Furnishings",
+          "Decorative Arts",
+          "Fine Art",
+          "Estate Items"
+        ],
+        "certifications": [
+          "ISA Accredited Member (AM)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Laura A. Nelson is an ISA Accredited Member specializing in antiques, furnishings, and decorative arts in the Tulsa, OK area. Operating as Appraisals & Estate Sales by Laura Nelson, she is a BBB Accredited business providing professional estate consulting, liquidation, and appraisal services with USPAP-compliant reports.",
+        "notes": "ISA AM since 2009. BBB Accredited. Serves Tulsa OK and surrounding areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nelson-aaron-estate-sales-tulsa-ok",
+      "name": "Nelson-Aaron, LLC Estate Sales and Appraisals",
+      "slug": "nelson-aaron-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "",
+        "formatted": "Tulsa, OK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Collectibles",
+          "Personal Property",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Nelson-Aaron, LLC is Oklahoma's preferred and most trusted professional full-service estate liquidation and appraisal firm. They provide complete on-site personal property appraisals and estate sales conducted by experienced professionals in a discreet and confidential manner throughout the Tulsa metro area.",
+        "notes": "Oklahoma's trusted full-service estate liquidation and appraisal firm. Serves Tulsa OK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "kerr-kempf-estate-sales-tulsa-ok",
+      "name": "Kerr and Kempf Estate Sales",
+      "slug": "kerr-kempf-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "",
+        "formatted": "Tulsa, OK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Collectibles",
+          "Personal Property",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Kerr and Kempf Estate Sales provides professional antique appraisals and estate sale services in the Tulsa, OK area. They handle everything from single-item antique valuations to full estate liquidations, serving families and individuals throughout the Tulsa metro area with comprehensive estate consulting.",
+        "notes": "BBB-listed. Serves Tulsa OK and surrounding areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-tulsa-ok",
+      "name": "ValuePros Appraisal Services - Tulsa",
+      "slug": "valuepros-appraisal-tulsa",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "",
+        "formatted": "Tulsa, OK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Personal Property",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Tulsa, OK area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Tulsa OK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

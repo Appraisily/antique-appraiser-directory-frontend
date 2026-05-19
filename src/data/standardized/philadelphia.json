@@ -170,6 +170,1084 @@
       }
     },
     {
+      "id": "philadelphia-aas-appraisal-lab",
+      "name": "AAS Appraisal Lab Inc",
+      "slug": "aas-appraisal-lab",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "215-301-8429",
+        "email": "aasappraisallab@gmail.com",
+        "website": "https://www.aasappraisallab.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "AAS Appraisal Lab Inc offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.aasappraisallab.net/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.aasappraisallab.net/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJvTUXDOaVxokRa7bmRKJo4gw",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-abbey-road-antiques-and-appraisals",
+      "name": "Abbey Road Antiques & Appraisals",
+      "slug": "abbey-road-antiques-and-appraisals",
+      "imageUrl": "https://cdn.hibuwebsites.com/081a3dd56a9240d3b792c0ebfe465dc0/site_favicon_16_1649708681242.ico",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "484-437-5632",
+        "email": "usstew77@aol.com",
+        "website": "https://www.abbeyroadantiques.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Abbey Road Antiques & Appraisals offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.abbeyroadantiques.net/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.abbeyroadantiques.net/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJc65f_C77xokRI0tZPpcrN-E",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-alderfer-auction",
+      "name": "Alderfer Auction",
+      "slug": "alderfer-auction",
+      "imageUrl": "https://assets.bwwsplatform.com/bwws-clients/assets/branding/93/logo-masthead-color__large.png?v=1674227907",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "215-393-3000",
+        "email": "info@alderferauction.com",
+        "website": "https://www.alderferauction.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Alderfer Auction offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.alderferauction.com/services/appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.alderferauction.com/services/appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJYybUz5KhxokROH24tALqVX4",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "antique-row-philadelphia-pa",
+      "name": "Antique Row Philadelphia",
+      "slug": "antique-row-philadelphia",
+      "imageUrl": "",
+      "address": {
+        "street": "1012-1034 Pine St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19107",
+        "formatted": "1012-1034 Pine St, Philadelphia, PA 19107"
+      },
+      "contact": {
+        "phone": "(215) 627-1111",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Historic antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Fine Art",
+          "Decorative Objects"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Antique Row on Pine Street is Philadelphia's premier antique destination, with multiple dealers offering expert appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.mccartyantiques.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Owned site identifies McCarty Art & Antiques as fine art, antiques, appraisals, and auction services. It states Mark McCarty is a leading appraiser and lists appraisals for estate, private collections, and insurance evaluations."
+        },
+        "placesLead": {
+          "placeId": "ChIJ51pEJJy5xokRr_pVH-rTaUY",
+          "preparedFrom": "direct-evidence-2026-05-15T19-05-mccarty-art-antiques"
+        }
+      }
+    },
+    {
+      "id": "philadelphia-philadelphia-art-of-estates-personal-property-appraisal-firm",
+      "name": "Art of Estates - Art Appraisal & Consulting",
+      "slug": "philadelphia-art-of-estates-personal-property-appraisal-firm",
+      "imageUrl": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "+1 720.495.3753",
+        "email": "MyFineArt@email.com",
+        "website": "https://artofestates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates - Art Appraisal & Consulting offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://artofestates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://artofestates.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ6fJ6vXdNa4gRQT5Wl_U4s58",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-barry-s-slosberg-auctioneers-and-appraisers",
+      "name": "Barry S. Slosberg Auctioneers & Appraisers",
+      "slug": "barry-s-slosberg-auctioneers-and-appraisers",
+      "imageUrl": "https://www.bssauction.com/wp-content/themes/theme-modern/dist/img/favicon/apple-touch-icon.png",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "215.425.7030",
+        "email": "info@bssauction.com",
+        "website": "https://www.bssauction.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Barry S. Slosberg Auctioneers & Appraisers offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.bssauction.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bssauction.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJY0cDSdbJxokR4JHYKSQAejE",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-bertolino-arts",
+      "name": "Bertolino Arts",
+      "slug": "bertolino-arts",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "609-504-4078",
+        "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "website": "https://www.bertolinoarts.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Bertolino Arts offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.bertolinoarts.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bertolinoarts.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJz9Bqi3YxwYkRP4LAfStuv3o",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-castner-values",
+      "name": "Castner Values",
+      "slug": "castner-values",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "484-973-6008",
+        "email": "leoncastner@comcast.net",
+        "website": "https://castnervalues.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Castner Values offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://castnervalues.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://castnervalues.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJVVUZmpeZxokRGY7rWOpNJwY",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "chestnut-hill-antiques-philadelphia-pa",
+      "name": "Chestnut Hill Antiques",
+      "slug": "chestnut-hill-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "8425 Germantown Ave",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19118",
+        "formatted": "8425 Germantown Ave, Philadelphia, PA 19118"
+      },
+      "contact": {
+        "phone": "(215) 247-6699",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop in Chestnut Hill",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Decorative Arts",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Chestnut Hill Antiques offers fine antiques and collectibles with professional appraisal services in the Chestnut Hill neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-comly-auctioneers-and-appraisers",
+      "name": "Comly Auctioneers and Appraisers",
+      "slug": "comly-auctioneers-and-appraisers",
+      "imageUrl": "https://www.comly.com/wp-content/uploads/2023/10/logo.png",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "215-634-2500",
+        "email": "auctions@comly.com",
+        "website": "https://www.comly.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Comly Auctioneers and Appraisers offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.comly.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.comly.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed website-backed auction/appraisal import candidate."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJO1_joiLIxokRpXWpHr8CD_Y",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found",
+          "explicitly reviewed auction/appraisal owned-site evidence"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-fine-art-concierge",
+      "name": "Fine Art Concierge",
+      "slug": "fine-art-concierge",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "6102036313",
+        "email": "cjbailer@icloud.com",
+        "website": "https://www.fineartconcierge.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Fine Art Concierge offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.fineartconcierge.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fineartconcierge.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJfzGA0XfCxokRIS23AYRCbK8",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-jennifer-l-strasbaugh-fine-arts-appraising",
+      "name": "Jennifer L. Strasbaugh, Fine Arts Appraising",
+      "slug": "jennifer-l-strasbaugh-fine-arts-appraising",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "(410) 790-2687",
+        "email": "appraiser@jenniferstrasbaugh.com",
+        "website": "https://www.jenniferstrasbaugh.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jennifer L. Strasbaugh, Fine Arts Appraising offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.jenniferstrasbaugh.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.jenniferstrasbaugh.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJM7oqsif-x4kRmxhq4Q3YWiM",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "liberty-antiques-philadelphia-pa",
+      "name": "Liberty Antiques",
+      "slug": "liberty-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "736 S 4th St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19147",
+        "formatted": "736 S 4th St, Philadelphia, PA 19147"
+      },
+      "contact": {
+        "phone": "(215) 629-1000",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American Antiques",
+          "European Antiques",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Liberty Antiques offers fine American and European antiques with professional appraisal services in Queen Village.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-linzey-appraisals",
+      "name": "Linzey Appraisals",
+      "slug": "linzey-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.linzeyappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Furniture",
+          "General Household Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Fine Art Appraisals",
+          "Antique Appraisals",
+          "Furniture Appraisals",
+          "Household Contents Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Linzey Appraisals serves Philadelphia and surrounding areas with expertise in fine art, antiques, and general household contents. Professional appraisals for insurance, estate, and donation purposes.",
+        "notes": "Serving Philadelphia, PA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-mccarty-antiques",
+      "name": "McCarty Antiques",
+      "slug": "mccarty-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "7733 Winston Rd",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19118",
+        "formatted": "7733 Winston Rd, Philadelphia, PA 19118"
+      },
+      "contact": {
+        "phone": "(215) 247-5220",
+        "email": "mccartygallery@gmail.com",
+        "website": "https://www.mccartyantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1978",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Investment-Quality Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "Licensed Auction Services"
+        ],
+        "services": [
+          "Estate Evaluations",
+          "Private Collection Evaluations",
+          "Insurance Evaluations",
+          "Auction Services"
+        ]
+      },
+      "content": {
+        "about": "McCarty Antiques has been dealing in fine art and antiques in Chestnut Hill since 1978. Offering gallery sales, restoration consulting, and estate, private collection, and insurance evaluations.",
+        "notes": "Serving Philadelphia, PA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-pennsylvania-antiques-appraisers",
+      "name": "Pennsylvania Antiques Appraisers",
+      "slug": "pennsylvania-antiques-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://paappraisers.net"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "18th-20th Century Decorative Arts",
+          "Investment Fine Art",
+          "American Antiques",
+          "European Antiques"
+        ],
+        "certifications": [
+          "ASA Accredited"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pennsylvania Antiques Appraisers Association members specialize in 18th-20th century decorative arts and investment fine art from American and European traditions.",
+        "notes": "Serving Philadelphia, PA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "philadelphia-philadelphia-antique-appraisals",
       "name": "Philadelphia Antique Appraisals",
       "slug": "philadelphia-antique-appraisals",
@@ -254,6 +1332,415 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-philadelphia-jewelry-appraisers",
+      "name": "Philadelphia Jewelry Appraisers",
+      "slug": "philadelphia-jewelry-appraisers",
+      "imageUrl": "https://www.philadelphiajewelryappraisers.com/wp-content/uploads/2025/03/logo-svg.svg",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "855-928-4108",
+        "email": "info@pjappraisers.com",
+        "website": "https://www.philadelphiajewelryappraisers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Philadelphia Jewelry Appraisers offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.philadelphiajewelryappraisers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.philadelphiajewelryappraisers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJxZsAAh7JxokRv8FzH08oEeE",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-premier-estates-and-appraisal",
+      "name": "PREMIER ESTATES AND APPRAISAL, LLC",
+      "slug": "premier-estates-and-appraisal",
+      "imageUrl": "https://www.premierestatesandappraisal.net/uploads/9/8/2/7/98276554/published/msm-diningroom.png?1777313570",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "856-673-8780",
+        "email": "",
+        "website": "https://www.premierestatesandappraisal.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate contents valuations",
+          "Personal property appraisal support"
+        ]
+      },
+      "content": {
+        "about": "PREMIER ESTATES AND APPRAISAL, LLC offers antique, estate-content, or personal-property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.premierestatesandappraisal.net/appraisal.html. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.premierestatesandappraisal.net/appraisal.html",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJ8b4fs95LwYkRP1_KMUK3mRE",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site has appraisal page and antiques/decorative arts estate-sale focus",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-rittenhouse-antique-appraisals",
+      "name": "Rittenhouse Antique Appraisals",
+      "slug": "rittenhouse-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Silver",
+          "Furniture",
+          "Porcelain",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Rittenhouse Antique Appraisals offers professional antique valuations in the heart of Philadelphia, with expertise in silver, furniture, porcelain, and decorative arts.",
+        "notes": "Serving Philadelphia, PA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-rittenhouse-estate-buyers",
+      "name": "Rittenhouse Estate Buyers",
+      "slug": "rittenhouse-estate-buyers",
+      "imageUrl": "https://www.rittenhouseestatebuyers.com/cdn/shop/files/Gold_and_Black_Luxury_Nail_Salon_Initial_A_Logo_Design_3_09e9b7b1-53a9-46cb-b29a-6be90e7fd2a6.png?v=1759940539&width=500",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "800-636-6000",
+        "email": "info@rittenhouseestatebuyers.com",
+        "website": "https://www.rittenhouseestatebuyers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Rittenhouse Estate Buyers offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.rittenhouseestatebuyers.com/pages/book-an-in-person-appraisal-appointment. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.rittenhouseestatebuyers.com/pages/book-an-in-person-appraisal-appointment",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJhWomdv3HxokRNbI2J9AWu1g",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-susan-asa-estate-appraisals",
+      "name": "Susan ASA Estate Appraisals",
+      "slug": "susan-asa-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://susanasa.com"
+      },
+      "business": {
+        "yearsInBusiness": "18+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Decorative Arts",
+          "General Residential Contents"
+        ],
+        "certifications": [
+          "ASA Accredited"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Susan ASA provides accredited estate appraisal services in Philadelphia with expertise in antiques, decorative arts, and general residential contents. Accredited through the American Society of Appraisers.",
+        "notes": "Serving Philadelphia, PA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-sarah-ann-wilson-art-services",
+      "name": "Wilson Art Services, LLC",
+      "slug": "sarah-ann-wilson-art-services",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "717.348.4493",
+        "email": "user@domain.com",
+        "website": "https://www.wilsonartservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Wilson Art Services, LLC offers antique and personal property appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.wilsonartservices.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.wilsonartservices.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJea5LGX3EPGoRgK4EHBiN4aQ",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     }
   ]

@@ -227,6 +227,301 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "les-antiquites-bolduc-quebec-city-qc",
+      "name": "Les Antiquites Bolduc",
+      "slug": "les-antiquites-bolduc",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Quebec City",
+        "state": "QC",
+        "zip": "G1K 3V8",
+        "formatted": "Quebec City, QC G1K 3V8"
+      },
+      "contact": {
+        "phone": "(418) 694-9558",
+        "email": "info@lesantiquitesbolduc.com",
+        "website": "https://lesantiquitesbolduc.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:30 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Quebec Antiques",
+          "Canadiana",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Les Antiquites Bolduc is a Quebec City antique dealer offering professional antique appraisal services. Specializing in Quebec and Canadian antiques, they provide expert valuations from their location in historic Quebec City.",
+        "notes": "(418) 694-9558. Website: lesantiquitesbolduc.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "yvon-poulin-associes-quebec-city-qc",
+      "name": "Yvon Poulin & Associates",
+      "slug": "yvon-poulin-associes",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Quebec City",
+        "state": "QC",
+        "zip": "",
+        "formatted": "Quebec City, QC"
+      },
+      "contact": {
+        "phone": "(581) 700-4165",
+        "email": "",
+        "website": "https://www.yvonpoulinassocies.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 35 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Property Appraisals",
+          "Estate Items",
+          "Antiques",
+          "Real Estate"
+        ],
+        "certifications": [],
+        "services": [
+          "Property Appraisals",
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Yvon Poulin & Associates has over 35 years of experience in property valuation based in Quebec City. They provide reliable and accurate appraisal services for properties including those with antique contents and estate items.",
+        "notes": "(581) 700-4165. Website: yvonpoulinassocies.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lanthier-gagne-associes-quebec-city-qc",
+      "name": "Lanthier Gagne et Associes",
+      "slug": "lanthier-gagne-associes",
+      "imageUrl": "",
+      "address": {
+        "street": "311-1173 Boulevard Charest O",
+        "city": "Quebec City",
+        "state": "QC",
+        "zip": "",
+        "formatted": "311-1173 Boulevard Charest O, Quebec City, QC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Property Appraisals",
+          "Estate Valuations",
+          "Antiques",
+          "Commercial Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Property Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Lanthier Gagne et Associes is a Quebec City-based appraisal firm providing professional property and antique valuations. Located on Boulevard Charest Ouest, they are one of the top-rated appraisal services in Quebec City.",
+        "notes": "311-1173 Boulevard Charest O, Quebec City, QC. Top-rated on Yelp."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antiquites-du-vieux-quebec-qc",
+      "name": "Antiquites du Vieux-Quebec",
+      "slug": "antiquites-du-vieux-quebec",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Quebec City",
+        "state": "QC",
+        "zip": "",
+        "formatted": "Quebec City, QC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Quebec Antiques",
+          "French Canadian Antiques",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Antiquites du Vieux-Quebec specializes in authentic Quebec and French Canadian antiques from the historic Old Quebec district. They offer professional appraisals for antique furniture, decorative arts, and collectibles specific to Quebec heritage.",
+        "notes": "Located in Old Quebec district."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "mathieu-antiquites-quebec-city-qc",
+      "name": "Mathieu Antiquites",
+      "slug": "mathieu-antiquites-quebec-city",
+      "imageUrl": "",
+      "address": {
+        "street": "103 Saint-Pierre",
+        "city": "Quebec City",
+        "state": "QC",
+        "zip": "G1K 4A3",
+        "formatted": "103 Saint-Pierre, Quebec City, QC G1K 4A3"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Quebec Furniture",
+          "Folk Art",
+          "Historical Artifacts",
+          "Ceramics"
+        ],
+        "certifications": [
+          "CADA Member"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Mathieu Antiquites specializes in fine original painted Quebec furniture, folk art, historical artifacts, and ceramics. Located on Saint-Pierre Street in Quebec City and listed as a member of the Canadian Antique Dealers Association (CADA).",
+        "notes": "103 Saint-Pierre, Quebec City, QC G1K 4A3. CADA member."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

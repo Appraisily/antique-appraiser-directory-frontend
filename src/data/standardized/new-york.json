@@ -1,6 +1,74 @@
 {
   "appraisers": [
     {
+      "id": "new-york-afa-fine-art",
+      "name": "AFA Fine Art",
+      "slug": "afa-fine-art",
+      "imageUrl": "https://static.wixstatic.com/media/cbd8a1_dba06999d3b2407292e6512757d8b6fa%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/cbd8a1_dba06999d3b2407292e6512757d8b6fa%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "571-276-4186",
+        "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "website": "https://www.afaappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "AFA Fine Art offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.afaappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.afaappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJhwtxedm5xkIRiF56svUopk4",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "alpha-137-gallery-2565",
       "name": "Alpha 137 Gallery",
       "slug": "alpha-137-gallery",
@@ -80,6 +148,75 @@
       }
     },
     {
+      "id": "new-york-american-appraisal-association-new-york-city-ny",
+      "name": "American Appraisal Association",
+      "slug": "american-appraisal-association-new-york-city-ny",
+      "imageUrl": "https://aaagemlab.com/wordpress/wp-content/uploads/2017/01/cropped-Logo-completed-Officially--32x32.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "(212) 729-8039",
+        "email": "Info@aaagemlab.com",
+        "website": "https://aaagemlab.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "American Appraisal Association offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://aaagemlab.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://aaagemlab.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJRT70Ef9YwokRNCnVuieBg_k",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "anderson-fine-art-appraisals-2030",
       "name": "Anderson Fine Art Appraisals",
       "slug": "anderson-fine-art-appraisals",
@@ -93,7 +230,7 @@
       },
       "contact": {
         "phone": "258-329-2091",
-        "email": "info@www.art-appraisals.net",
+        "email": "info@art-appraisals.net",
         "website": "http://www.art-appraisals.net"
       },
       "business": {
@@ -158,6 +295,212 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "new-york-antique-and-estate-buyers",
+      "name": "Antique & Estate Buyers",
+      "slug": "antique-and-estate-buyers",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/59055529c534a5c0bcdc5f89/1495921200651-9IYB3JXLO30H3PXA0UL5/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "(516) 974-6528",
+        "email": "info@antiqueandestatebuyers.com",
+        "website": "https://www.antiqueandestatebuyers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Coin and collectible appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Coin and collectibles appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Antique & Estate Buyers offers antique, jewelry, coin, or estate appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.antiqueandestatebuyers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.antiqueandestatebuyers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJUxx0a21ZwokR6r5WnXwWSDg",
+        "confidenceScore": 86,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states antiques, jewelry, fine art, and expert appraisals",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "new-york-antique-appraisers-auctioneers",
+      "name": "Antique Appraisers Auctioneers",
+      "slug": "antique-appraisers-auctioneers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+1 603-675-2549",
+        "email": "bill@wsmithauction.com",
+        "website": "https://antiqueappraisersauctioneers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique Appraisers Auctioneers offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://antiqueappraisersauctioneers.com/contact/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://antiqueappraisersauctioneers.com/contact/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ6YLorDyZwokRjreUqgvxV-8",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-antiques-estate-buyers",
+      "name": "Antiques Estate Buyers",
+      "slug": "antiques-estate-buyers",
+      "imageUrl": "https://irp.cdn-website.com/88515067/dms3rep/multi/The+design+features+a+gold+outline+of+a+house+with+clean-+elegan.webp",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "(631) 433-0820",
+        "email": "libball35@aol.com",
+        "website": "https://www.antiquesestatebuyers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Coin and collectible appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Coin and collectibles appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Antiques Estate Buyers offers antique, jewelry, coin, or estate appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.antiquesestatebuyers.com/certified-antique-appraiser. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.antiquesestatebuyers.com/certified-antique-appraiser",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJHc2Ywqgz6IkRR1ZZVm8zGS8",
+        "confidenceScore": 86,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site has certified antique appraiser and antique appraisers pages",
+          "explicitly reviewed non-real-estate fit"
+        ]
       }
     },
     {
@@ -234,6 +577,146 @@
       }
     },
     {
+      "id": "new-york-appraiseitnow-inc",
+      "name": "AppraiseItNow Inc.",
+      "slug": "appraiseitnow-inc",
+      "imageUrl": "https://cdn.prod.website-files.com/645206930250ed21d4d02108/67e28d4fb2f43c7380e03b5e_appraiseitnow-logo.svg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+1-301-820-7664",
+        "email": "info@appraiseitnow.com",
+        "website": "https://www.appraiseitnow.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "AppraiseItNow Inc. offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.appraiseitnow.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.appraiseitnow.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJASEiLy71oWkRkpAtGgwYK2Q",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-cheney-appraisal-services",
+      "name": "Cheney Appraisal Services",
+      "slug": "cheney-appraisal-services",
+      "imageUrl": "https://static.wixstatic.com/media/369ed2_96ae5bd00fb54217979c78f4967790e8%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/369ed2_96ae5bd00fb54217979c78f4967790e8%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "2126960641",
+        "email": "linda@cheneyappraisal.com",
+        "website": "https://www.cheneyappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cheney Appraisal Services offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.cheneyappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.cheneyappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJD2GH8gZZwokRB2QEA1ekZxI",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "escher-associates-3919",
       "name": "Escher Associates",
       "slug": "escher-associates",
@@ -247,7 +730,7 @@
       },
       "contact": {
         "phone": "595-690-5735",
-        "email": "info@www.escher-associates.com",
+        "email": "info@escher-associates.com",
         "website": "http://www.escher-associates.com"
       },
       "business": {
@@ -310,6 +793,143 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "new-york-esquire-appraisals-inc",
+      "name": "Esquire Appraisals",
+      "slug": "esquire-appraisals-inc",
+      "imageUrl": "https://esquireappraisals.com/wp-content/uploads/2014/12/cropped-logo_website_385x105.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "9178684699",
+        "email": "LeeDrexler@esquireappraisals.com",
+        "website": "https://esquireappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Esquire Appraisals offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://esquireappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://esquireappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJxzgnNAVZwokR9zWbuatnGeA",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-fox-white-art-and-antique-appraisals-nyc",
+      "name": "Fox-White Art & Antique Appraisals",
+      "slug": "fox-white-art-and-antique-appraisals-nyc",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/581d599929687f6b1d67cb14/8a2c8f48-7a3f-4e51-8a9c-4ba837eefe88/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "917 656-3840",
+        "email": "foxwhiteappraiser@gmail.com",
+        "website": "https://fox-white.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Fox-White Art & Antique Appraisals offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://fox-white.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://fox-white.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJwRM7uvJFwokRo8yNnytjYjQ",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -407,7 +1027,7 @@
       },
       "contact": {
         "phone": "287-398-2954",
-        "email": "info@www.gurrjohns.com",
+        "email": "info@gurrjohns.com",
         "website": "http://www.gurrjohns.com"
       },
       "business": {
@@ -479,14 +1099,14 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_heritage-auctions-9336_1742166295247_Te5aZW192.jpg",
       "address": {
         "street": "123 Cedar Blvd",
-        "city": "New York copy",
+        "city": "New York",
         "state": "NY",
         "zip": "10234",
-        "formatted": "123 Cedar Blvd, New York copy, NY 10234"
+        "formatted": "123 Cedar Blvd, New York, NY 10234"
       },
       "contact": {
         "phone": "137-328-2168",
-        "email": "info@www.ha.com",
+        "email": "info@ha.com",
         "website": "https://www.ha.com"
       },
       "business": {
@@ -544,24 +1164,89 @@
       }
     },
     {
+      "id": "new-york-joanna-badami-appraisals",
+      "name": "Joanna Badami Appraisals",
+      "slug": "joanna-badami-appraisals",
+      "imageUrl": "https://irp.cdn-website.com/6bda43b3306e4542be32fd87a239cef6/site_favicon_16_1619610952866.ico",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "631-271-7018",
+        "email": "",
+        "website": "https://www.jbappraisals.com/www.jbappraisals.com/contact-us.html"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Joanna Badami Appraisals offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.jbappraisals.com/www.jbappraisals.com/about-joanna-badami.html. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.jbappraisals.com/www.jbappraisals.com/about-joanna-badami.html",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ68IOz-kn6IkR5wt4b-JAzkk",
+        "confidenceScore": 75,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "juliette-yuan-associates-2567",
       "name": "Juliette Yuan & Associates",
       "slug": "juliette-yuan-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_juliette-yuan-associates-2567_1742166298792_BFUex4DQZ.jpg",
       "address": {
         "street": "1234 Cedar Blvd",
-        "city": "New York copy",
+        "city": "New York",
         "state": "NY",
         "zip": "10188",
-        "formatted": "1234 Cedar Blvd, New York copy, NY 10188"
+        "formatted": "1234 Cedar Blvd, New York, NY 10188"
       },
       "contact": {
         "phone": "392-959-5821",
-        "email": "info@www.jyuanassociates.com",
+        "email": "info@jyuanassociates.com",
         "website": "https://www.jyuanassociates.com"
       },
       "business": {
-        "yearsInBusiness": "Juliette Yuan & Associates supports collectors, estates, and insurers with antique valuation work in New York copy, NY.",
+        "yearsInBusiness": "Juliette Yuan & Associates supports collectors, estates, and insurers with antique valuation work in New York, NY.",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -615,6 +1300,77 @@
       }
     },
     {
+      "id": "new-york-lennie-rose-estate-appraisal-inc",
+      "name": "Lennie Rose Estate Appraisals, Inc.",
+      "slug": "lennie-rose-estate-appraisal-inc",
+      "imageUrl": "https://static.wixstatic.com/media/4f4f5d_8ed0388a024b4957a131e25ccf928b12%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/4f4f5d_8ed0388a024b4957a131e25ccf928b12%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+ 708-369-3472",
+        "email": "lennie@lennierose.com",
+        "website": "https://www.lennierose.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Lennie Rose Estate Appraisals, Inc. offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.lennierose.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.lennierose.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ__9vuaVYwokRKc24dNTwILY",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "mary-peck-art-advisory-4302",
       "name": "Mary Peck Art Advisory",
       "slug": "mary-peck-art-advisory",
@@ -628,7 +1384,7 @@
       },
       "contact": {
         "phone": "303-355-0050",
-        "email": "info@www.marypeckartadvisory.com",
+        "email": "info@marypeckartadvisory.com",
         "website": "https://www.marypeckartadvisory.com"
       },
       "business": {
@@ -701,7 +1457,7 @@
       },
       "contact": {
         "phone": "141-217-6329",
-        "email": "info@www.mimesisgallery.com",
+        "email": "info@mimesisgallery.com",
         "website": "http://www.mimesisgallery.com"
       },
       "business": {
@@ -780,7 +1536,7 @@
       },
       "contact": {
         "phone": "947-531-6800",
-        "email": "info@www.museumexchange.com",
+        "email": "info@museumexchange.com",
         "website": "https://www.museumexchange.com/appraisals"
       },
       "business": {
@@ -842,24 +1598,166 @@
       }
     },
     {
+      "id": "new-york-new-york-fine-art-appraisers",
+      "name": "New York Fine Art Appraisers",
+      "slug": "new-york-fine-art-appraisers",
+      "imageUrl": "https://nyfaa.com/wp-content/uploads/2018/07/logo-new.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "212.772.0319",
+        "email": "appraisals@nyfaa.com",
+        "website": "https://nyfaa.com/?utm_source=NEXT&utm_medium=Google_apptz"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "New York Fine Art Appraisers offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://nyfaa.com/?utm_source=NEXT&utm_medium=Google_apptz. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://nyfaa.com/?utm_source=NEXT&utm_medium=Google_apptz",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJa24JO_tYwokRrPMJpaAxDy0",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-nyc-jewelry-appraisers",
+      "name": "NYC Jewelry Appraisers",
+      "slug": "nyc-jewelry-appraisers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+1 212-489-6553",
+        "email": "",
+        "website": "https://appraisersassociation.org/find-an-appraiser/profile/625/robert-mark-bunda"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "NYC Jewelry Appraisers offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://appraisersassociation.org/find-an-appraiser/profile/625/robert-mark-bunda. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://appraisersassociation.org/find-an-appraiser/profile/625/robert-mark-bunda",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJnTUJnPpYwokRt_YIHLDWcXU",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "page-art-inc-9983",
       "name": "Page Art, Inc.",
       "slug": "page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_page-art-inc-9983_1742166308315_3g11VV1iu.jpg",
       "address": {
         "street": "555 Oak Ave",
-        "city": "New York copy",
+        "city": "New York",
         "state": "NY",
         "zip": "10780",
-        "formatted": "555 Oak Ave, New York copy, NY 10780"
+        "formatted": "555 Oak Ave, New York, NY 10780"
       },
       "contact": {
         "phone": "340-617-3201",
-        "email": "info@www.page-art.com",
+        "email": "info@page-art.com",
         "website": "http://www.page-art.com"
       },
       "business": {
-        "yearsInBusiness": "Page Art, Inc. provides professional antique appraisal services for clients throughout New York copy, NY.",
+        "yearsInBusiness": "Page Art, Inc. provides professional antique appraisal services for clients throughout New York, NY.",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -993,31 +1891,169 @@
       }
     },
     {
+      "id": "new-york-rare-book-buyer",
+      "name": "Rare Book Buyer",
+      "slug": "rare-book-buyer",
+      "imageUrl": "https://rarebookbuyer.com/wp-content/uploads/2017/09/logo1.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+16464691851",
+        "email": "WeBuyRareBooks@gmail.com",
+        "website": "http://www.rarebookbuyer.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Rare Book Buyer offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://rarebookbuyer.com/webuyoldbooks/what-is-my-old-book-worth-rare-book-appraisal/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://rarebookbuyer.com/webuyoldbooks/what-is-my-old-book-worth-rare-book-appraisal/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJY4w6_QVZwokR94XGPgqnfLs",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-reilly-clark-fine-art-and-appraisals",
+      "name": "Reilly Clark Fine Art & Appraisals",
+      "slug": "reilly-clark-fine-art-and-appraisals",
+      "imageUrl": "https://content.app-sources.com/s/5614540215077393/uploads/Images/Reilly-clark-9714453.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+1 214 799-7889",
+        "email": "reilly@reillyclark.com",
+        "website": "https://reillyclark.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Reilly Clark Fine Art & Appraisals offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://reillyclark.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://reillyclark.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJqcK2fZfvjksRUknRmQU9hW0",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "saylor-rice-appraisals-2616",
       "name": "Saylor Rice Appraisals",
       "slug": "saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saylor-rice-appraisals-2616_1742166316743_w3xaEiygn.jpg",
       "address": {
         "street": "2020 Oak Ave",
-        "city": "New York copy",
+        "city": "New York",
         "state": "NY",
         "zip": "10129",
-        "formatted": "2020 Oak Ave, New York copy, NY 10129"
+        "formatted": "2020 Oak Ave, New York, NY 10129"
       },
       "contact": {
         "phone": "278-173-9148",
-        "email": "info@www.saylorriceappraisals.com",
+        "email": "info@saylorriceappraisals.com",
         "website": "http://www.saylorriceappraisals.com"
       },
       "business": {
-        "yearsInBusiness": "Saylor Rice Appraisals supports collectors, estates, and insurers with antique valuation work in New York copy, NY.",
+        "yearsInBusiness": "Saylor Rice Appraisals supports collectors, estates, and insurers with antique valuation work in New York, NY.",
         "hours": [
           {
             "day": "Monday-Friday",
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Rates are quoted after a brief intake call. Saylor Rice Appraisals supports antique appraisal needs across New York copy, NY.",
+        "pricing": "Rates are quoted after a brief intake call. Saylor Rice Appraisals supports antique appraisal needs across New York, NY.",
         "rating": 4.5,
         "reviewCount": 18
       },
@@ -1147,7 +2183,7 @@
       },
       "contact": {
         "phone": "+1 212 606 7000",
-        "email": "info@www.sothebys.com",
+        "email": "info@sothebys.com",
         "website": "https://www.sothebys.com"
       },
       "business": {
@@ -1208,6 +2244,558 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "new-york-spellman-collective-art-antique-appraiser",
+      "name": "Spellman Collective",
+      "slug": "spellman-collective-art-antique-appraiser",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "6463398463",
+        "email": "info@spellmancollective.com",
+        "website": "https://www.spellmancollective.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Spellman Collective offers antique, jewelry, or personal-property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.spellmancollective.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.spellmancollective.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJi5myBiFZwokRqR1fQCYZ1bk",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states professional art and antique appraiser experience",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "new-york-spellman-gallery",
+      "name": "Spellman Gallery",
+      "slug": "spellman-gallery",
+      "imageUrl": "https://s3.amazonaws.com/files.collageplatform.com.prod/image_cache/favicon/application/5d27acbaa5aa2c1e39f578c2/88c8d4fa2bf0ffe3eb2114ab1161ffa0.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+16463398463",
+        "email": "info@spellmangallery.com",
+        "website": "https://www.spellmangallery.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Coin and collectible appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Coin and collectibles appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Spellman Gallery offers antique, jewelry, coin, or estate appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.spellmangallery.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.spellmangallery.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJq6raXKVYwokRxOZlwWKpEU4",
+        "confidenceScore": 86,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states fine art appraiser and dealer specializing in artwork and antique objects",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "new-york-sutton-certified-estate-appraisals",
+      "name": "Sutton Certified Estate Appraisals",
+      "slug": "sutton-certified-estate-appraisals",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "646-234-3885",
+        "email": "suttoncappraisals@gmail.com",
+        "website": "https://suttoncertifiedappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and liquidation guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate contents valuations",
+          "Personal property appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Sutton Certified Estate Appraisals offers estate, antique, or personal-property appraisal support serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://suttoncertifiedappraisals.com/appraisal-services-1. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://suttoncertifiedappraisals.com/appraisal-services-1",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site estate/personal-property appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJz_wxMeFYwokR8RGOZp9Pnv0",
+        "confidenceScore": 86,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site has appraisal services pages for certified estate appraisals",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "new-york-syl-lee-antiques",
+      "name": "SYL-LEE ANTIQUES",
+      "slug": "syl-lee-antiques",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "(212) 366-9466",
+        "email": "contact@syl-leeantiques.com",
+        "website": "http://www.syl-leeantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "SYL-LEE ANTIQUES offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.syl-leeantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.syl-leeantiques.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ8ebVhhqFwokRo-_7xWFQWrc",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-the-antique-guy",
+      "name": "The Antique Guy",
+      "slug": "the-antique-guy",
+      "imageUrl": "https://static.wixstatic.com/media/0948a3_d4ba36aa78b3400b9269aadaf31f564b~mv2.png/v1/fill/w_529,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0948a3_d4ba36aa78b3400b9269aadaf31f564b~mv2.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "516-224-7578",
+        "email": "rosario@theantiqueguy.com",
+        "website": "https://www.theantiqueguy.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "The Antique Guy offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.theantiqueguy.com/appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.theantiqueguy.com/appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJDVd7wEB9wokRUGVOYmQA2Rg",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-gemological-appraisal-laboratory-of-america-inc",
+      "name": "The Gemological Appraisal Laboratory of America",
+      "slug": "gemological-appraisal-laboratory-of-america-inc",
+      "imageUrl": "https://www.gemlab.com/galoa/wp-content/uploads/2017/11/gemlab-logo-retina-lora.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "212-382-2888",
+        "email": "info@gemlab.com",
+        "website": "https://www.gemlab.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "The Gemological Appraisal Laboratory of America offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.gemlab.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.gemlab.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJhWHBVv5YwokR_xVuBW8qwM4",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-jewelry-appraiser-certified-jewelry-appraisal-experts",
+      "name": "The Jewelry Appraiser Inc",
+      "slug": "jewelry-appraiser-certified-jewelry-appraisal-experts",
+      "imageUrl": "https://thejewelryappraiser.com/assets/images/faviconnew.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+16463356184",
+        "email": "Deborah@TheJewelryAppraiser.com",
+        "website": "https://thejewelryappraiser.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "The Jewelry Appraiser Inc offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://thejewelryappraiser.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://thejewelryappraiser.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJQz6_Y1WIwokRimvNpVNb9o0",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-valuepros",
+      "name": "ValuePros",
+      "slug": "valuepros",
+      "imageUrl": "https://2023.valuepros.org/wp-content/uploads/2021/01/ValuePros-Logo-1080.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "6463971943",
+        "email": "support@valuepros.com",
+        "website": "https://www.valuepros.com/new-york/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "ValuePros offers antique and personal property appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.valuepros.com/new-york/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.valuepros.com/new-york/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJCYtnsX32wokRBJRi8DQccIc",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     }
   ]

@@ -1,0 +1,70 @@
+{
+  "appraisers": [
+    {
+      "id": "naperville-antiquestor-personal-property-appraisals",
+      "name": "Antiquestor Personal Property Appraisals",
+      "slug": "antiquestor-personal-property-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Naperville",
+        "state": "IL",
+        "zip": "",
+        "formatted": "Naperville, IL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.antiquestor.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antiquestor Personal Property Appraisals offers antique and personal property appraisal services serving Naperville, IL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.antiquestor.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.antiquestor.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJH-5oo-wzKEIRmXcobtisV7c",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser"
+        ]
+      }
+    }
+  ]
+}

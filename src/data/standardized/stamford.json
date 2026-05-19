@@ -1,0 +1,144 @@
+{
+  "appraisers": [
+    {
+      "id": "stamford-aces-gallery",
+      "name": "ACES Gallery | Auctions & Online Estate Sales",
+      "slug": "aces-gallery",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6909ff3ba9fdc608ffcebf82/1762262902732-7C8QUNS4RGWRNRUP5NX1/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Stamford",
+        "state": "CT",
+        "zip": "",
+        "formatted": "Stamford, CT"
+      },
+      "contact": {
+        "phone": "(914) 222-8686",
+        "email": "user@domain.com",
+        "website": "https://www.aces.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "ACES Gallery | Auctions & Online Estate Sales offers antique and personal property appraisal services serving Stamford, CT. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.aces.net/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.aces.net/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJhW08dWyYtwsRWR1Cg1t8J7I",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "stamford-westchester-fine-art-auctioneers-and-appraisers",
+      "name": "Westchester Fine Art & Antiques",
+      "slug": "westchester-fine-art-auctioneers-and-appraisers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Stamford",
+        "state": "CT",
+        "zip": "",
+        "formatted": "Stamford, CT"
+      },
+      "contact": {
+        "phone": "914-564-9212",
+        "email": "",
+        "website": "https://www.westchesterfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Westchester Fine Art & Antiques offers antique and personal property appraisal services serving Stamford, CT. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.westchesterfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.westchesterfineart.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJU6yf6mWVwokR7B_UmjSlc9U",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

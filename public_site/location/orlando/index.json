@@ -1,0 +1,34 @@
+{
+  "title": "Antique & Art Appraisers in Orlando, Florida",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "orlando",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/orlando/",
+    "name": "Antique & Art Appraisers in Orlando, Florida",
+    "description": "Compare antique and art appraisers in Orlando, Florida and request a fast online appraisal from Appraisily.",
+    "city": "Orlando",
+    "region": "FL",
+    "country": "US",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Daphne L. Rosenzweig",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/orlando-daphne-l-rosenzweig.svg",
+        "description": "Daphne L. Rosenzweig offers antique appraisal support in Orlando, Florida. Specialties: Ceramics - Asian, Natural Resources - Jade, Netsuke Inro & Ojime, Paintings - Asian. Services: Consultant, Donations, Equitable Dis…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Lorena Allen, ISA CAPP, AAA",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/orlando-lorena-allen-isa-capp-aaa.svg",
+        "description": "Lorena Allen, ISA CAPP, AAA offers antique appraisal support in Orlando, Florida. Specialties: Art - Asian, Art - Impressionist & Modern, Paintings - Old Masters, Prints - Modern & Contemporary. Services: Broker, Consul…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/orlando/"
+    }
+  }
+}

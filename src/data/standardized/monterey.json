@@ -1,0 +1,74 @@
+{
+  "appraisers": [
+    {
+      "id": "monterey-devine-and-co",
+      "name": "Devine & Co. Private Jeweler & Appraiser",
+      "slug": "devine-and-co",
+      "imageUrl": "https://www.devinejeweler.com/cdn/shop/files/II.png?v=1764514720&width=938",
+      "address": {
+        "street": "",
+        "city": "Monterey",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Monterey, CA"
+      },
+      "contact": {
+        "phone": "8312008100",
+        "email": "shelly@devinejeweler.com",
+        "website": "https://www.devinejeweler.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Devine & Co. Private Jeweler & Appraiser offers antique and personal property appraisal services serving Monterey, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.devinejeweler.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.devinejeweler.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJQ6w1F4gRoWsRpTmSC6OdEGw",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

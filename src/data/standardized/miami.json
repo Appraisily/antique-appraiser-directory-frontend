@@ -1,6 +1,611 @@
 {
   "appraisers": [
     {
+      "id": "miami-antique-and-fine-art-appraisals",
+      "name": "Antique & Fine Art Appraisals",
+      "slug": "antique-and-fine-art-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "+1 305-975-5423",
+        "email": "richardschlom@aol.com",
+        "website": "http://www.richardschlom-antiqueappraiser.com"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique & Fine Art Appraisals offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.antiques.com/dealers/35727/Antique-%26-Fine-Art-Appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.antiques.com/dealers/35727/Antique-%26-Fine-Art-Appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJy-McO8-t2YgRiiaPJlwL53c",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-appraisals-by-the-sea-inc",
+      "name": "Appraisals By The Sea, Inc.",
+      "slug": "appraisals-by-the-sea-inc",
+      "imageUrl": "https://www.appraisalsandmore.net/wp-content/themes/blueprint/library/apple-touch-icon.png",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "(561) 350-3444",
+        "email": "mariewayland@gmail.com",
+        "website": "https://www.appraisalsandmore.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Appraisals By The Sea, Inc. offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.appraisalsandmore.net/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.appraisalsandmore.net/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJeRyjDsQPxK4RSF-UN2_LkGs",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "art-deco-antiques-miami-fl",
+      "name": "Art Deco Antiques Miami",
+      "slug": "art-deco-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "742 12th St",
+        "city": "Miami Beach",
+        "state": "FL",
+        "zip": "33139",
+        "formatted": "742 12th St, Miami Beach, FL 33139"
+      },
+      "contact": {
+        "phone": "(305) 531-1133",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Specialist in Art Deco antiques",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art Deco",
+          "Vintage Furniture",
+          "Mid-Century Modern"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Art Deco Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Art Deco Antiques Miami specializes in original Art Deco pieces and provides expert appraisal services for Art Deco and vintage items.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-art-of-estates-personal-property-appraisal-firm",
+      "name": "Art of Estates - Art Appraisal & Consulting",
+      "slug": "art-of-estates-personal-property-appraisal-firm",
+      "imageUrl": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "+1 720.495.3753",
+        "email": "MyFineArt@email.com",
+        "website": "https://artofestates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates - Art Appraisal & Consulting offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://artofestates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://artofestates.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ0UkpRMuHa4cROrQxpLcnqOI",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-bmg-appraisal-services",
+      "name": "BMG Art Appraisal Services",
+      "slug": "bmg-appraisal-services",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "3055104703",
+        "email": "artappraisersoflo@gmail.com",
+        "website": "https://www.bmgappraisalservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "BMG Art Appraisal Services offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.bmgappraisalservices.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bmgappraisalservices.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJQRgJUIW32YgRHFNIE4F-JWU",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "coconut-grove-antiques-miami-fl",
+      "name": "Coconut Grove Antiques",
+      "slug": "coconut-grove-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3251 Commodore Plaza",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33133",
+        "formatted": "3251 Commodore Plaza, Miami, FL 33133"
+      },
+      "contact": {
+        "phone": "(305) 444-0004",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery in Coconut Grove",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Art",
+          "Tropical Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Coconut Grove Antiques offers fine antiques and collectibles with professional appraisal services in the historic Coconut Grove neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-constantine-fine-art-services",
+      "name": "Constantine Fine Art Services",
+      "slug": "constantine-fine-art-services",
+      "imageUrl": "https://static.wixstatic.com/media/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "646-881-2266",
+        "email": "info@constantineusa.com",
+        "website": "https://www.constantineusa.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Constantine Fine Art Services offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.constantineusa.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.constantineusa.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJXaX_7CNAbmgRIJb2N7U9nsE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-emmett-appraisal-consulting-group",
+      "name": "Emmett Appraisal & Consulting Group",
+      "slug": "emmett-appraisal-consulting-group",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://estateservicesappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Emmett Appraisal & Consulting Group offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-15. Source: https://coralgables.legistar.com/View.ashx?GUID=2B12F9D6-5254-4F00-9085-24EC15FE49C0&ID=10566056&M=F. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://coralgables.legistar.com/View.ashx?GUID=2B12F9D6-5254-4F00-9085-24EC15FE49C0&ID=10566056&M=F",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "official_public_appraisal_report_and_affiliated_owned_site",
+          "notes": "Official Coral Gables appraisal report identifies Emmett Appraisal & Consulting Group as personal property appraisers and consultants from 2017-present, with USPAP, IRS qualified appraiser, and AQB personal property qualification evidence. Modernism FAQ says appraisals are handled through Estate Services Appraisals at estateservicesappraisals.com and names Jennifer Bird, ISA-AM and Ric Emmett, ISA-AM. Candidate domain itself returned HTTP 403 to fetches, so phone/email/logo were left blank."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ60pDMXS32YgRCXtyPQyoeiw",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal"
+        ]
+      }
+    },
+    {
+      "id": "miami-appraisals-miami-fl-estate-and-appraisal-services-inc",
+      "name": "Estate & Appraisal Services",
+      "slug": "appraisals-miami-fl-estate-and-appraisal-services-inc",
+      "imageUrl": "https://irp.cdn-website.com/e2d2caba/site_favicon_16_1619610468061.ico",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "305-665-5995",
+        "email": "gg9300@aol.com",
+        "website": "https://www.jewelryandcoinbuyers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Estate & Appraisal Services offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.jewelryandcoinbuyers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.jewelryandcoinbuyers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJR7ThlqXH2YgRRnZMtkl_xvs",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "miami-heritage-valuations-miami",
       "name": "Heritage Valuations Miami",
       "slug": "heritage-valuations-miami",
@@ -76,6 +681,204 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-lion-and-unicorn-appraisals",
+      "name": "Lion & Unicorn Appraisals",
+      "slug": "lion-and-unicorn-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://lionandunicorn.com"
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Jewelry",
+          "Silver",
+          "Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lion & Unicorn offers expert antique appraisals in South Florida, specializing in jewelry, fine art, silver, and decorative arts with a focus on maximizing value for clients.",
+        "notes": "Serving Miami, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-art-and-antiques-art-appraisal-estate-sales-liquidator-miami-fort-lauderdale-lluria-fine-a",
+      "name": "Lluria Fine Arts Services, LLC",
+      "slug": "art-and-antiques-art-appraisal-estate-sales-liquidator-miami-fort-lauderdale-lluria-fine-a",
+      "imageUrl": "https://lluriafinearts.com/wp-content/themes/celestino/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "305 878 7492",
+        "email": "jplluria@comcast.net",
+        "website": "https://lluriafinearts.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lluria Fine Arts Services, LLC offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://lluriafinearts.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://lluriafinearts.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJoVKP81MUj0oRr391wjIWSL8",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-mgf-appraisals",
+      "name": "MGF Appraisals",
+      "slug": "mgf-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.mgfappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Decorative Arts",
+          "Furniture",
+          "Household Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "MGF Appraisals has been a trusted name in Miami personal property appraisal for years, with expertise in artwork, decorative arts, furniture, antiques, and household contents.",
+        "notes": "Serving Miami, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },
@@ -170,6 +973,807 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "miami-antique-market-miami-fl",
+      "name": "Miami Antique Market",
+      "slug": "miami-antique-market",
+      "imageUrl": "",
+      "address": {
+        "street": "1501 SW 1st Ave",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33129",
+        "formatted": "1501 SW 1st Ave, Miami, FL 33129"
+      },
+      "contact": {
+        "phone": "(305) 375-3001",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique market",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Latin American Art",
+          "Caribbean Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Miami Antique Market offers a diverse selection of antiques with professional appraisal services reflecting Miami's multicultural heritage.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antique-miami-miami-appraisal-services-llc",
+      "name": "Miami Appraisal Services, LLC",
+      "slug": "miami-miami-appraisal-services-llc",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.miamiappraisalservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "rare_books_manuscripts_archives"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "antique, estate, personal-property, or collectibles-related services"
+        ]
+      },
+      "content": {
+        "about": "Miami Appraisal Services, LLC is included from a deferred lead review for antique, estate, personal-property, or collectibles-related services in Miami, FL. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://www.miamiappraisalservices.com/. Original status: formal_or_claimed_non_real_estate_appraisal_terms_found. Evidence note: you save time and recover more. We accelerate the claim process, determine the correct total repair/replacement cost, and negotiate with the insurance companies to ensure the policyholder is taken care of. Therefore they work to represent policyholders, not insurance companies. The quicker and better the claim is handl"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "antique",
+          "serviceTypes": [
+            "rare_books_manuscripts_archives"
+          ],
+          "appraisalServiceStatus": "formal_or_claimed_non_real_estate_appraisal_terms_found",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://www.miamiappraisalservices.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJFQU3-HW32YgRroV30RvV_vE",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: antique",
+          "appraisal service status: formal_or_claimed_non_real_estate_appraisal_terms_found",
+          "service types: rare_books_manuscripts_archives"
+        ]
+      }
+    },
+    {
+      "id": "miami-palm-beach-appraisal-group",
+      "name": "Palm Beach Appraisal Group",
+      "slug": "palm-beach-appraisal-group",
+      "imageUrl": "https://www.palmbeachappraisalgroup.com/wp-content/uploads/2020/10/ICON-LOGO.png",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "561.403.1123",
+        "email": "palmbeachappraisalgroup@gmail.com",
+        "website": "https://www.palmbeachappraisalgroup.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Palm Beach Appraisal Group offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.palmbeachappraisalgroup.com/fine-art-appraisal/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.palmbeachappraisalgroup.com/fine-art-appraisal/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJm6QtGWIf2YgRolF5BaqxtWA",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-princeton-appraisers-miami",
+      "name": "Princeton Appraisers Miami",
+      "slug": "princeton-appraisers-miami",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://princetonappraisers.com"
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Qualified Appraiser"
+        ],
+        "services": [
+          "Insurance Replacement Appraisals",
+          "Charitable Donation Appraisals",
+          "Estate Settlements"
+        ]
+      },
+      "content": {
+        "about": "Princeton Appraisers provides qualified antique and personal property appraisals in Miami for insurance replacement, charitable donations, estate settlements, and more.",
+        "notes": "Serving Miami, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-rlc-appraisals",
+      "name": "RLC Appraisals",
+      "slug": "rlc-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "561.703.5866",
+        "email": "",
+        "website": "http://www.rlcappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "RLC Appraisals offers antique, jewelry, or personal-property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: http://www.rlcappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.rlcappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJSwU6dzcf2YgRP3JINIsF8kg",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states fine and decorative arts appraisal and consulting services",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "miami-shane-group-appraisals",
+      "name": "Shane Group Appraisals",
+      "slug": "shane-group-appraisals",
+      "imageUrl": "https://static.wixstatic.com/media/851c1d_fd3461c664184d8b9b730ef7b544803e%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/851c1d_fd3461c664184d8b9b730ef7b544803e%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "305 497 3458",
+        "email": "ShaneGroupAppraisals@gmail.com",
+        "website": "https://www.shanegroupappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [
+          "GIA referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Shane Group Appraisals offers antique, jewelry, or personal-property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.shanegroupappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.shanegroupappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJ--F6cQG32YgR2XNWFCnFhng",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states GIA Graduate Gemologist jewelry appraisal services",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "south-beach-antiques-miami-fl",
+      "name": "South Beach Antiques",
+      "slug": "south-beach-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "227 8th St",
+        "city": "Miami Beach",
+        "state": "FL",
+        "zip": "33139",
+        "formatted": "227 8th St, Miami Beach, FL 33139"
+      },
+      "contact": {
+        "phone": "(305) 534-0440",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop on South Beach",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Vintage Items",
+          "Designer Furniture",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "South Beach Antiques offers a unique collection of vintage and antique items with professional appraisal services in the heart of South Beach.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-south-florida-estate-appraisals",
+      "name": "South Florida Estate Appraisals",
+      "slug": "south-florida-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "South Florida Estate Appraisals provides comprehensive antique and estate appraisals throughout Miami-Dade County, with expertise in fine art, furniture, and collectibles.",
+        "notes": "Serving Miami, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-terry-estate-appraisals",
+      "name": "Terry Estate Appraisals",
+      "slug": "terry-estate-appraisals",
+      "imageUrl": "https://terryestateappraisals.com/wp-content/uploads/2020/05/dd.png",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "3216267380",
+        "email": "terryestateappraisals@yahoo.com",
+        "website": "https://terryestateappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Terry Estate Appraisals offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://terryestateappraisals.com/services#ea. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://terryestateappraisals.com/services#ea",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJZdXr-AUP3ogRw7RbNXP7r4A",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-the-peterson-exchange-auctions-and-appraisals-llc",
+      "name": "The Peterson Exchange - Auctions & Appraisals LLC",
+      "slug": "the-peterson-exchange-auctions-and-appraisals-llc",
+      "imageUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=16,h=16,fit=crop,f=png/x0zRdN4Gay1z5ip5/title-logo-MmENMF7RSOGcYiCV.png",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "863.640.8419",
+        "email": "thepetersonexchage@gmail.com",
+        "website": "https://thepetersonexchange.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "The Peterson Exchange - Auctions & Appraisals LLC offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://thepetersonexchange.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://thepetersonexchange.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ8XzNb_WWNEoRJC_1iG_BoHg",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-valuepros-appraisal",
+      "name": "ValuePros Appraisal Services",
+      "slug": "valuepros-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(305) 249-1425",
+        "email": "",
+        "website": "https://www.valuepros.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Estate Items",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Accredited Appraiser"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "Estate Appraisals",
+          "Antique Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services provides accredited appraisal services in Miami and South Florida for personal property, antiques, fine art, and estate items.",
+        "notes": "Serving Miami, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-wfa-appraisals",
+      "name": "WFA Appraisals - Trusted Fine and Decorative Art Appraisals & Advisory Services",
+      "slug": "wfa-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "+1 305 894-6778",
+        "email": "info@willowfa.com",
+        "website": "https://willowfa.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "WFA Appraisals - Trusted Fine and Decorative Art Appraisals & Advisory Services offers antique and personal property appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://willowfa.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://willowfa.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJw2p7KcWGvqERhtk50cBcSCI",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     }
   ]

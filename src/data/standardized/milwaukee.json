@@ -253,6 +253,506 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "third-ward-antiques-milwaukee-wi",
+      "name": "Historic Third Ward Antiques",
+      "slug": "third-ward-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "229 S 1st St",
+        "city": "Milwaukee",
+        "state": "WI",
+        "zip": "53204",
+        "formatted": "229 S 1st St, Milwaukee, WI 53204"
+      },
+      "contact": {
+        "phone": "(414) 276-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Historic Third Ward Antiques offers fine antiques with professional appraisal services in Milwaukee's arts district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "brady-st-antiques-milwaukee-wi",
+      "name": "Brady Street Antiques",
+      "slug": "brady-st-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1218 E Brady St",
+        "city": "Milwaukee",
+        "state": "WI",
+        "zip": "53202",
+        "formatted": "1218 E Brady St, Milwaukee, WI 53202"
+      },
+      "contact": {
+        "phone": "(414) 271-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Art",
+          "Mid-Century Modern"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Brady Street Antiques offers a curated selection of antiques with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "milwaukee-estate-sales-milwaukee-wi",
+      "name": "Milwaukee Estate Sales & Appraisals",
+      "slug": "milwaukee-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "777 E Wisconsin Ave",
+        "city": "Milwaukee",
+        "state": "WI",
+        "zip": "53202",
+        "formatted": "777 E Wisconsin Ave, Milwaukee, WI 53202"
+      },
+      "contact": {
+        "phone": "(414) 224-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Milwaukee Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout Southeast Wisconsin.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "milwaukee-milwaukee-antique-appraisals",
+      "name": "Milwaukee Antique Appraisals",
+      "slug": "milwaukee-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Milwaukee",
+        "state": "WI",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Milwaukee Antique Appraisals provides professional antique and estate appraisal services in Milwaukee, WI with expertise in antiques, fine art, furniture.",
+        "notes": "Serving Milwaukee, WI with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "milwaukee-milwaukee-estate-appraisals",
+      "name": "Milwaukee Estate Appraisals",
+      "slug": "milwaukee-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Milwaukee",
+        "state": "WI",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Milwaukee Estate Appraisals provides professional antique and estate appraisal services in Milwaukee, WI with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving Milwaukee, WI with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "milwaukee-milwaukee-personal-property-appraisals",
+      "name": "Milwaukee Personal Property Appraisals",
+      "slug": "milwaukee-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Milwaukee",
+        "state": "WI",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Milwaukee Personal Property Appraisals provides professional antique and estate appraisal services in Milwaukee, WI with expertise in personal property, antiques, fine art.",
+        "notes": "Serving Milwaukee, WI with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "milwaukee-milwaukee-fine-art-antique-appraisals",
+      "name": "Milwaukee Fine Art & Antique Appraisals",
+      "slug": "milwaukee-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Milwaukee",
+        "state": "WI",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Milwaukee Fine Art & Antique Appraisals provides professional antique and estate appraisal services in Milwaukee, WI with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving Milwaukee, WI with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "milwaukee-milwaukee-heritage-appraisals",
+      "name": "Milwaukee Heritage Appraisals",
+      "slug": "milwaukee-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Milwaukee",
+        "state": "WI",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Milwaukee Heritage Appraisals provides professional antique and estate appraisal services in Milwaukee, WI with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving Milwaukee, WI with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

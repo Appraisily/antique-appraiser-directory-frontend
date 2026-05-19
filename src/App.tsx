@@ -2,6 +2,11 @@ import React from 'react';
 import { MapPin, Star, Search, ArrowRight } from 'lucide-react';
 import { CitySearch, type CitySearchHandle } from './components/CitySearch';
 import { SEO } from './components/SEO';
+import {
+  DECISION_ROUTER_ICON_SET,
+  DECISION_ROUTER_VARIANT,
+  DecisionRouter,
+} from './components/DecisionRouter';
 import { cities } from './data/cities.json';
 import { DEFAULT_OG_IMAGE, SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from './config/site';
 import { trackEvent } from './utils/analytics';
@@ -51,8 +56,6 @@ const FEATURED_CITY_SPOTLIGHTS: readonly FeaturedCitySpotlight[] = [
 
 function App() {
   const citySearchRef = React.useRef<CitySearchHandle>(null);
-  const [isSearchHighlighting, setIsSearchHighlighting] = React.useState(false);
-  const searchHighlightTimeoutRef = React.useRef<number | null>(null);
 
   const scrollToCityDirectory = () => {
     if (typeof document === 'undefined') return false;
@@ -128,28 +131,18 @@ function App() {
     }
   };
 
-  const triggerSearchHighlight = () => {
-    if (searchHighlightTimeoutRef.current !== null && typeof window !== 'undefined') {
-      window.clearTimeout(searchHighlightTimeoutRef.current);
-    }
-
-    setIsSearchHighlighting(true);
-
-    if (typeof window !== 'undefined') {
-      searchHighlightTimeoutRef.current = window.setTimeout(() => {
-        setIsSearchHighlighting(false);
-      }, 1200);
-    }
-  };
-
-  React.useEffect(() => {
-    return () => {
-      if (searchHighlightTimeoutRef.current !== null && typeof window !== 'undefined') {
-        window.clearTimeout(searchHighlightTimeoutRef.current);
-      }
-    };
-  }, []);
   const primaryCtaUrl = getPrimaryCtaUrl();
+  const decisionCampaign = 'antique-directory';
+  const signedReportUrl = getPrimaryCtaUrl({
+    utm_source: 'directory',
+    utm_medium: 'decision_router',
+    utm_campaign: decisionCampaign,
+    utm_content: 'signed_report',
+    service: 'regular',
+  });
+  const screenerUrl = `https://appraisily.com/screener?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=screener`;
+  const professionalSampleUrl = `https://appraisily.com/sample-reports/professional?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=sample_professional`;
+  const instantSampleUrl = `https://appraisily.com/sample-reports/instant?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=sample_instant`;
 
   const totalCities = cities.length;
   const totalStates = new Set(cities.map(city => city.state)).size;
@@ -178,6 +171,26 @@ function App() {
     trackEvent('cta_click', {
       placement,
       destination: primaryCtaUrl
+    });
+  };
+  const handleDecisionRouterClick = (ctaKind: string, placement: string, destination: string) => {
+    trackEvent('directory_cta', {
+      placement,
+      cta_kind: ctaKind,
+      destination,
+      campaign: decisionCampaign,
+      router_variant: DECISION_ROUTER_VARIANT,
+      icon_set: DECISION_ROUTER_ICON_SET,
+    });
+  };
+  const handleDecisionRouterView = (placement: string, visibleRatio: number) => {
+    trackEvent('decision_router_view', {
+      placement,
+      campaign: decisionCampaign,
+      router_variant: DECISION_ROUTER_VARIANT,
+      icon_set: DECISION_ROUTER_ICON_SET,
+      visible_ratio: Number(visibleRatio.toFixed(3)),
+      cta_count: 4,
     });
   };
 
@@ -225,29 +238,6 @@ function App() {
       appraiser_slug: slug,
       appraiser_name: name
     });
-  };
-
-  const handleRegionCardFallbackClick = (
-    event: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>,
-    city: DirectoryCity | undefined,
-    placement: string
-  ) => {
-    if (!city) return;
-    const target = (event.target as HTMLElement | null);
-    if (target && typeof target.closest === 'function') {
-      const interactive = target.closest('a[href], button, input, select, textarea, summary, [role="button"], [role="link"]');
-      if (interactive && interactive !== event.currentTarget) return;
-    }
-
-    if ('key' in event) {
-      if (event.key !== 'Enter' && event.key !== ' ') return;
-      event.preventDefault();
-    }
-
-    handleCityDirectoryClick(city, `${placement}_card`);
-    if (typeof window !== 'undefined') {
-      window.location.href = buildSiteUrl(`/location/${city.slug}`);
-    }
   };
 
   const specialtyHighlights = [
@@ -400,6 +390,12 @@ function App() {
         ]}
         path="/"
       />
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-white focus:px-4 focus:py-2 focus:rounded-md focus:shadow-lg focus:outline-none focus:text-blue-700"
+      >
+        Skip to main content
+      </a>
       <div className="flex-1">
         {/* Hero Section */}
         <section className="relative overflow-hidden">
@@ -428,7 +424,7 @@ function App() {
 
                 <form
                   onSubmit={handleSubmit}
-                  className={`flex flex-col md:flex-row gap-4 max-w-xl mx-auto md:mx-0 bg-white/90 p-2 rounded-lg shadow-lg backdrop-blur-lg transition-all duration-300 ${isSearchHighlighting ? 'ring-2 ring-primary/40 shadow-xl' : ''}`}
+                  className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto md:mx-0 bg-white/90 p-2 rounded-lg shadow-lg backdrop-blur-lg transition-all duration-300"
                 >
                   <CitySearch ref={citySearchRef} />
                   <button
@@ -443,9 +439,9 @@ function App() {
 
                 <div className="grid gap-6 pt-8 sm:grid-cols-3">
                   {statsHighlights.map(stat => (
-                    <a
+                    <button
                       key={stat.label}
-                      href={buildSiteUrl('/location/')}
+                      type="button"
                       className="rounded-2xl border border-white/40 bg-white/70 p-4 shadow-sm backdrop-blur-md text-left transition-colors hover:border-primary/30 hover:bg-white/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 relative z-0 cursor-pointer"
                       aria-label={`Browse antique appraisers: ${stat.label}`}
                       data-gtm-event="stat_highlight_click"
@@ -455,7 +451,7 @@ function App() {
                     >
                       <p className="text-2xl font-bold text-primary">{stat.value}</p>
                       <p className="text-sm text-muted-foreground">{stat.label}</p>
-                    </a>
+                    </button>
                   ))}
                 </div>
               </div>
@@ -483,6 +479,22 @@ function App() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="bg-white py-10">
+          <div className="container mx-auto px-6">
+            <DecisionRouter
+              signedReportUrl={signedReportUrl}
+              screenerUrl={screenerUrl}
+              localHref="/location/"
+              localLabel="Local specialist"
+              professionalSampleUrl={professionalSampleUrl}
+              instantSampleUrl={instantSampleUrl}
+              campaign={decisionCampaign}
+              onCtaClick={handleDecisionRouterClick}
+              onRouterView={handleDecisionRouterView}
+            />
           </div>
         </section>
 
@@ -609,7 +621,7 @@ function App() {
                             handleCityDirectoryClick(primaryCity, placement);
                           }}
                         >
-                          View all {region} appraisers &rarr;
+                          View {primaryCity.name} appraisers &rarr;
                         </a>
                       </div>
                     )}
@@ -634,7 +646,7 @@ function App() {
         </div>
         
         {/* Featured Appraisers Section */}
-        <main className="container mx-auto px-6 py-16">
+        <main id="main-content" className="container mx-auto px-6 py-16">
           <h2 className="text-3xl font-bold mb-10 text-center">Featured Antique Appraisers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Appraiser Card 1 - Sotheby's New York */}
@@ -756,12 +768,18 @@ function App() {
           </div>
           
           <div className="mt-12 text-center">
-            <a 
-              href={buildSiteUrl('/location/new-york')} 
-              className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white mr-4"
+            <button
+              type="button"
+              onClick={() => {
+                trackEvent('browse_all_locations_click', {
+                  placement: 'home_featured_appraisers'
+                });
+                scrollToCityDirectory();
+              }}
+              className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white mr-4 cursor-pointer"
             >
-              Browse All Appraisers
-            </a>
+              Browse All Locations
+            </button>
           </div>
         </main>
       </div>

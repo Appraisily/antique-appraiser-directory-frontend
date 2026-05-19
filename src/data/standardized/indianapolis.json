@@ -1,24 +1,299 @@
 {
   "appraisers": [
     {
-      "id": "indianapolis-art-of-estates",
-      "name": "Art of Estates",
-      "slug": "art-of-estates",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-art-of-estates_1742202594590_d2w2KpQzC.jpg",
+      "id": "indianapolis-adams-appraisal-chicago-art-antiques-collectables",
+      "name": "Adams Appraisal LLC",
+      "slug": "adams-appraisal-chicago-art-antiques-collectables",
+      "imageUrl": "https://adamsappraisalllc.com/wp-content/uploads/2016/07/APPAgraphic.png",
       "address": {
-        "street": "378 Antique Rd",
+        "street": "",
         "city": "Indianapolis",
         "state": "IN",
-        "zip": "58611",
-        "formatted": "378 Antique Rd, Indianapolis, IN 58611"
+        "zip": "",
+        "formatted": "Indianapolis, IN"
       },
       "contact": {
-        "phone": "408-344-5738",
-        "email": "info@artofestates.com",
-        "website": "https://www.artofestates.com"
+        "phone": "+13127157397",
+        "email": "Info@AdamsAppraisalLLC.com",
+        "website": "https://adamsappraisalllc.com/"
       },
       "business": {
-        "yearsInBusiness": "Combined 100+ years firm-wide experience",
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Adams Appraisal LLC offers antique and personal property appraisal services serving Indianapolis, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://adamsappraisalllc.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://adamsappraisalllc.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJiTsj583TD4gR46KSybx_Ywg",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "indianapolis-aether-estate-services",
+      "name": "Aether Estate Services",
+      "slug": "aether-estate-services",
+      "imageUrl": "https://static.wixstatic.com/media/8be90f_85eb52b9fd4f4132b1c84c6171acca19%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/8be90f_85eb52b9fd4f4132b1c84c6171acca19%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "800-965-2707",
+        "email": "info@aetherauctions.com",
+        "website": "https://www.aetherestateservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate contents valuations",
+          "Personal property appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Aether Estate Services offers antique, estate-content, or personal-property appraisal services serving Indianapolis, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.aetherestateservices.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.aetherestateservices.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJUWCupkytFIgRyI_53euNG7Y",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states estate services, online auctions, estate sales, and appraisals",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "indianapolis-indianapolis-art-of-estates-personal-property-appraisal-firm",
+      "name": "Art of Estates - Art Appraisal & Consulting",
+      "slug": "indianapolis-art-of-estates-personal-property-appraisal-firm",
+      "imageUrl": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "+1 720.495.3753",
+        "email": "MyFineArt@email.com",
+        "website": "https://artofestates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates - Art Appraisal & Consulting offers antique and personal property appraisal services serving Indianapolis, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://artofestates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://artofestates.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJr8OyKGC12IcR1rrhXE-dsRw",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "indianapolis-attic-to-appraisals",
+      "name": "Attic to Appraisals",
+      "slug": "attic-to-appraisals",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "779-374-6559",
+        "email": "attictoappraisals18@gmail.com",
+        "website": "https://www.attictoappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Attic to Appraisals offers antique and personal property appraisal services serving Indianapolis, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.attictoappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.attictoappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJcygSsCyLDogRZ_pLkoM0INc",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "broad-ripple-antiques-indianapolis-in",
+      "name": "Broad Ripple Antiques",
+      "slug": "broad-ripple-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "6341 N College Ave",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46220",
+        "formatted": "6341 N College Ave, Indianapolis, IN 46220"
+      },
+      "contact": {
+        "phone": "(317) 255-3755",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop in Broad Ripple",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -33,61 +308,163 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Appraisal fees vary by collection size and complexity. Contact Art of Estates in Indianapolis, IN for a tailored quote.",
+        "pricing": "Contact for pricing information",
         "rating": 4.5,
-        "reviewCount": 19
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Fine art decorative arts Native American artifacts memorabilia designer furniture musical instruments  \n- Certifications: USPAP-compliant reports accredited experts  \n- Years Active: Combined 100+ years firm-wide experience  \n- Service Areas: Metro + Midwest cities via remote options  \n- Pricing Consultation-based fee structure   \n- Contact Website portal / +1 (317) 555-TBD (exact number redacted)  \n\n### Prestige Estate Services  \n- Specialties Antique furniture sculptures decorative arts litigation support divorce settlements charitable donations    \n- Certifications ISA ASA memberships IRS-qualified    \n- Years Active Over two"
+          "Vintage Items",
+          "Mid-Century Modern",
+          "Collectibles"
         ],
-        "certifications": [
-          "USPAP",
-          "USPAP-compliant"
-        ],
+        "certifications": [],
         "services": [
-          "Metro + Midwest cities via remote options"
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
         ]
       },
       "content": {
-        "about": "Art of Estates provides professional antique appraisal services specializing in Fine art decorative arts Native American artifacts memorabilia designer furniture musical instruments  \n- Certifications: USPAP-compliant reports accredited experts  \n- Years Active: Combined 100+ years firm-wide experience  \n- Service Areas: Metro + Midwest cities via remote options  \n- Pricing Consultation-based fee structure   \n- Contact Website portal / +1 (317) 555-TBD (exact number redacted)  \n\n### Prestige Estate Services  \n- Specialties Antique furniture sculptures decorative arts litigation support divorce settlements charitable donations    \n- Certifications ISA ASA memberships IRS-qualified    \n- Years Active Over two. With Combined 100+ years firm-wide experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serving Indianapolis, IN clients who need antique valuations in Fine art decorative arts Native American artifacts memorabilia designer furniture musical instruments  \n- Certifications: USPAP-compliant reports accredited experts  \n- Years Active: Combined 100+ years firm-wide experience  \n- Service Areas: Metro + Midwest cities via remote options  \n- Pricing Consultation-based fee structure   \n- Contact Website portal / +1 (317) 555-TBD (exact number redacted)  \n\n### Prestige Estate Services  \n- Specialties Antique furniture sculptures decorative arts litigation support divorce settlements charitable donations    \n- Certifications ISA ASA memberships IRS-qualified    \n- Years Active Over two."
+        "about": "Broad Ripple Antiques offers curated antiques and vintage items with professional appraisal services in the Broad Ripple neighborhood.",
+        "notes": ""
       },
-      "reviews": [
-        {
-          "author": "Jessica M.",
-          "rating": 5,
-          "date": "2025-02-07",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "Karen B.",
-          "rating": 5,
-          "date": "2024-12-01",
-          "content": "Excellent service from start to finish. I highly recommend them for any antique appraisal needs."
-        },
-        {
-          "author": "John M.",
-          "rating": 4,
-          "date": "2024-09-11",
-          "content": "Very responsive and easy to work with. Art of Estates's expertise with my antique pocket watch collection was impressive."
-        },
-        {
-          "author": "James R.",
-          "rating": 4.5,
-          "date": "2024-07-20",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Jennifer C.",
-          "rating": 4,
-          "date": "2024-04-04",
-          "content": "I needed an appraisal for a charitable donation of my antique collection, and they delivered excellent service. All tax requirements were met perfectly."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
+        "lastUpdated": "2026-04-08",
         "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-circle-city-antique-appraisals",
+      "name": "Circle City Antique Appraisals",
+      "slug": "circle-city-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Circle City Antique Appraisals provides professional antique and estate appraisal services in Indianapolis, IN.",
+        "notes": "Serving Indianapolis, IN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-duwamps-appraisals",
+      "name": "Duwamps Fine Art & Antique Appraisals",
+      "slug": "duwamps-appraisals",
+      "imageUrl": "https://static.wixstatic.com/media/076b61_f1f53d77833b4680ab8598b7b5daa6a5.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/076b61_f1f53d77833b4680ab8598b7b5daa6a5.png",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "1-206-495-8660",
+        "email": "duwamps@outlook.com",
+        "website": "https://www.duwampsartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Duwamps Fine Art & Antique Appraisals offers antique and personal property appraisal services serving Indianapolis, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.duwampsartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.duwampsartappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJg7qjfe4RkFQRce-6CZgfuv0",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -177,6 +554,532 @@
       }
     },
     {
+      "id": "indy-antique-mall-indianapolis-in",
+      "name": "Indianapolis Antique Mall",
+      "slug": "indy-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "222 E 16th St",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46202",
+        "formatted": "222 E 16th St, Indianapolis, IN 46202"
+      },
+      "contact": {
+        "phone": "(317) 916-1000",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Indianapolis Antique Mall is a multi-dealer antique emporium offering expert appraisal services in the downtown area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-indianapolis-estate-appraisals",
+      "name": "Indianapolis Estate Appraisals",
+      "slug": "indianapolis-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Indianapolis Estate Appraisals provides professional antique and estate appraisal services in Indianapolis, IN with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving Indianapolis, IN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-indianapolis-fine-art-antique-appraisals",
+      "name": "Indianapolis Fine Art & Antique Appraisals",
+      "slug": "indianapolis-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Indianapolis Fine Art & Antique Appraisals provides professional antique and estate appraisal services in Indianapolis, IN with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving Indianapolis, IN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-indianapolis-heritage-appraisals",
+      "name": "Indianapolis Heritage Appraisals",
+      "slug": "indianapolis-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Indianapolis Heritage Appraisals provides professional antique and estate appraisal services in Indianapolis, IN with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving Indianapolis, IN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-indianapolis-personal-property-appraisals",
+      "name": "Indianapolis Personal Property Appraisals",
+      "slug": "indianapolis-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Indianapolis Personal Property Appraisals provides professional antique and estate appraisal services in Indianapolis, IN with expertise in personal property, antiques, fine art.",
+        "notes": "Serving Indianapolis, IN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-midwest-jewelers-and-estate-buyers",
+      "name": "Midwest Jewelers and Estate Buyers",
+      "slug": "midwest-jewelers-and-estate-buyers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "+1-317-733-0099",
+        "email": "stephaniej@mwebuyers.com",
+        "website": "http://www.midwestestatebuyers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Midwest Jewelers and Estate Buyers offers antique and personal property appraisal services serving Indianapolis, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://midwestestatebuyers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://midwestestatebuyers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJW93ihGRVE4gR7k7T8uhxVfM",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "indianapolis-noble-jewelry-appraisers-llc",
+      "name": "Noble Jewelry Appraisers,LLC - BY APPOINTMENT",
+      "slug": "noble-jewelry-appraisers-llc",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/56bd04512fe1317017d5e4c9/1586467178935-7UI6HXU80OTVBPRL0B32/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "317-250-9988",
+        "email": "angela@noblejewelryappraisers.com",
+        "website": "https://www.noblejewelryappraisers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Noble Jewelry Appraisers,LLC - BY APPOINTMENT offers antique and personal property appraisal services serving Indianapolis, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.noblejewelryappraisers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.noblejewelryappraisers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ_5i_GLZSa4gRYbZyyTaBo1U",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "indianapolis-precision-jewelry-appraisal",
+      "name": "Precision Jewelry Appraisal",
+      "slug": "precision-jewelry-appraisal",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5ea205f0f7412179a3ff3abc/1588009763623-GNP6YP3VHNN9J4HHREIQ/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "3176945657",
+        "email": "precisionjewelryappraisal@gmail.com",
+        "website": "https://www.precisionjewelryappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Precision Jewelry Appraisal offers antique and personal property appraisal services serving Indianapolis, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.precisionjewelryappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.precisionjewelryappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ2QZWZF9Ta4gRIlVVbiSWGTI",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "indianapolis-prestige-estate-services",
       "name": "Prestige Estate Services",
       "slug": "prestige-estate-services",
@@ -260,6 +1163,291 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "raintree-antiques-indianapolis-in",
+      "name": "Raintree Antiques",
+      "slug": "raintree-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "4243 N Keystone Ave",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46226",
+        "formatted": "4243 N Keystone Ave, Indianapolis, IN 46226"
+      },
+      "contact": {
+        "phone": "(317) 257-0631",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Furniture",
+          "Decorative Objects"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Raintree Antiques offers fine antiques and collectibles with professional appraisal services in the Keystone area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-ripley-auctions-and-appraisals",
+      "name": "Ripley Auctions & Appraisals",
+      "slug": "ripley-auctions-and-appraisals",
+      "imageUrl": "https://image.invaluable.com/privatelabel/connectwp/wp-content/uploads/sites/100/2023/07/10125815/cropped-Favicon-2-32x32.png",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "317-251-5635",
+        "email": "dave@ripleyappraisals.com",
+        "website": "https://www.ripleyauctions.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Ripley Auctions & Appraisals offers antique and personal property appraisal services serving Indianapolis, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.ripleyauctions.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.ripleyauctions.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJh6GhQj9Sa4gRofDLGxJUnCQ",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "antique-indianapolis-schreiner-valuation-resources-llc",
+      "name": "Schreiner Valuation Resources, LLC",
+      "slug": "indianapolis-schreiner-valuation-resources-llc",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.s-vr.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "antique_decorative_arts_personal_property_or_estate_contents",
+          "real_estate_property_appraisal",
+          "business_equipment_or_inventory"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "antique, estate, personal-property, or collectibles-related services"
+        ]
+      },
+      "content": {
+        "about": "Schreiner Valuation Resources, LLC is included from a deferred lead review for antique, estate, personal-property, or collectibles-related services in Indianapolis, IN. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://www.s-vr.com/. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: gnments involving appraisal and valuation consulting matters. In relation to utility system & asset valuations, insurable value estimates, technical assets valuations, and cost segregation studies, we are available nationwide within the United States for such assignments. Available appraisal, valuation, and consulting"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "antique",
+          "serviceTypes": [
+            "antique_decorative_arts_personal_property_or_estate_contents",
+            "real_estate_property_appraisal",
+            "business_equipment_or_inventory"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium_low"
+        },
+        "verification": {
+          "sourceUrl": "https://www.s-vr.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJ42UxMMlSa4gRfHV78G0LVvE",
+        "confidenceScore": 45,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: antique",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: antique_decorative_arts_personal_property_or_estate_contents, real_estate_property_appraisal, business_equipment_or_inventory"
+        ]
+      }
+    },
+    {
+      "id": "antique-indianapolis-spoonamore-appraisal-group",
+      "name": "Spoonamore Appraisal Group",
+      "slug": "indianapolis-spoonamore-appraisal-group",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://spoonamoreag.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "rare_books_manuscripts_archives",
+          "real_estate_property_appraisal"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "antique, estate, personal-property, or collectibles-related services"
+        ]
+      },
+      "content": {
+        "about": "Spoonamore Appraisal Group is included from a deferred lead review for antique, estate, personal-property, or collectibles-related services in Indianapolis, IN. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://spoonamoreag.com/. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: Appraisal Group services Indianapolis and the seven surrounding counties, delivering reliable home valuations. Researched Reports Committed to continuously analyzing local real estate trends and refreshing our knowledge of valuation techniques through accredited courses. DETAILED & RELIABLE Market Researched Appraisal"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "antique",
+          "serviceTypes": [
+            "rare_books_manuscripts_archives",
+            "real_estate_property_appraisal"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://spoonamoreag.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJ3Qmn--pda4gRyM2gS4sZ778",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: antique",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: rare_books_manuscripts_archives, real_estate_property_appraisal"
+        ]
       }
     }
   ]

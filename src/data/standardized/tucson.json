@@ -237,6 +237,446 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "tucson-darlene-morris-antiques",
+      "name": "Darlene Morris Antiques & Appraisals",
+      "slug": "darlene-morris-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "2940 N Swan Rd",
+        "city": "Tucson",
+        "state": "AZ",
+        "zip": "85712",
+        "formatted": "2940 N Swan Rd, Tucson, AZ 85712"
+      },
+      "contact": {
+        "phone": "(520) 322-9050",
+        "email": "",
+        "website": "https://www.antiques.com/dealers/2872/Darlene-Morris-Antiques"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer and appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Darlene Morris Antiques & Appraisals is a well-established antique store and appraisal service in Tucson, AZ. They offer professional antique appraisals alongside their curated selection of antiques, vintage collectibles, and decorative arts.",
+        "notes": "Located at 2940 N Swan Rd and also at 2100 N Wilmot, Ste 217, Tucson, AZ 85712."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tucson-catherines-estates-appraisals",
+      "name": "Catherine's Estates & Appraisals",
+      "slug": "catherines-estates-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "4729 E Sunrise Dr, Ste 437",
+        "city": "Tucson",
+        "state": "AZ",
+        "zip": "85718",
+        "formatted": "4729 E Sunrise Dr, Ste 437, Tucson, AZ 85718"
+      },
+      "contact": {
+        "phone": "(520) 299-4481",
+        "email": "estateartantique@gmail.com",
+        "website": "https://catherinestates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established estate consulting firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Liquidation",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Liquidation",
+          "Estate Sales",
+          "Consignment",
+          "Art Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Catherine's Estates & Appraisals provides expert appraisals and estate liquidation services in Tucson, Arizona. They handle all estate needs including antique appraisals, estate sales, consignment, and professional estate consulting throughout the greater Tucson area and beyond.",
+        "notes": "Also operates Tucson Estate Sales for estate liquidation. Located in Tucson, AZ 85718."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tucson-lynn-roberts-isa-appraiser",
+      "name": "Lynn Roberts - AZ Family Estate Sales & Appraisals",
+      "slug": "lynn-roberts-isa-appraiser",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tucson",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Tucson, AZ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/846/lynn-roberts"
+      },
+      "business": {
+        "yearsInBusiness": "Since 2009",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Furnishings",
+          "Decorative Arts",
+          "Fine Art",
+          "Personal Property"
+        ],
+        "certifications": [
+          "ISA AM (Accredited Member)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Consulting",
+          "Estate Liquidation",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lynn Roberts is an ISA Accredited Member specializing in antiques, furnishings, and decorative arts. In 2009 she started AZ Family Estate Sales & Appraisals which provides professional estate consulting, liquidation, and appraisal services in the greater Tucson area. She is USPAP compliant and provides thorough, documented antique valuations.",
+        "notes": "ISA AM certified. Listed on ISA-appraisers.org directory. Serves the greater Tucson area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "darlene-morris-antiques-appraisals-tucson-az",
+      "name": "Darlene Morris Antiques & Appraisals",
+      "slug": "darlene-morris-antiques-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "2100 N Wilmot, Ste 217",
+        "city": "Tucson",
+        "state": "AZ",
+        "zip": "85712",
+        "formatted": "2100 N Wilmot, Ste 217, Tucson, AZ 85712"
+      },
+      "contact": {
+        "phone": "(520) 322-9050",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Antique Sales"
+        ]
+      },
+      "content": {
+        "about": "Darlene Morris Antiques & Appraisals is a well-regarded antique appraisal service in Tucson, AZ. Located on N Wilmot Road, they provide professional antique valuations for insurance, estate planning, and charitable donation purposes, serving collectors and estate clients throughout the Tucson metro area.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Tucson, AZ. Located at 2100 N Wilmot, Ste 217."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lynn-roberts-appraisals-tucson-az",
+      "name": "Lynn Roberts, ISA AM - AZ Family Estate Sales & Appraisals",
+      "slug": "lynn-roberts-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tucson",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Tucson, AZ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Since 2009",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Furnishings",
+          "Decorative Arts",
+          "Fine Art",
+          "Estate Items"
+        ],
+        "certifications": [
+          "ISA Accredited Member (AM)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Consulting",
+          "Estate Liquidation",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lynn Roberts is an ISA Accredited Member specializing in antiques, furnishings, and decorative arts in the greater Tucson area. Since 2009, she has operated AZ Family Estate Sales & Appraisals, providing professional estate consulting, liquidation, and appraisal services with USPAP-compliant reports.",
+        "notes": "ISA AM since 2009. Serves greater Tucson area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "bear-raven-appraisals-tucson-az",
+      "name": "Bear & Raven Appraisals LLC",
+      "slug": "bear-raven-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tucson",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Tucson, AZ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "Antiques",
+          "Collectibles",
+          "Personal Property",
+          "Southwestern Art"
+        ],
+        "certifications": [
+          "BBB A+ Rated"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Bear & Raven Appraisals LLC is a BBB A+ rated estate appraisal and antique dealer firm serving the Tucson, AZ area. They provide professional antique appraisals, estate valuations, and personal property appraisals for insurance, estate planning, and charitable donation purposes.",
+        "notes": "BBB A+ Rated. Serves Tucson AZ and surrounding areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-tucson-az",
+      "name": "ValuePros Appraisal Services - Tucson",
+      "slug": "valuepros-appraisal-tucson",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tucson",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Tucson, AZ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Personal Property",
+          "Southwestern Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Tucson, AZ area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Tucson AZ."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

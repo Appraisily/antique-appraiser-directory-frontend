@@ -248,6 +248,561 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "barb-preston-appraisals-aspen-co",
+      "name": "Barb Preston - Collector's Fine Art Appraisal",
+      "slug": "barb-preston-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Aspen, CO"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://aspenappraisalbarbpreston.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 20 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Collectibles",
+          "Estate Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Barb Preston of Collector's Fine Art Appraisal et Associates has been serving collectors in Colorado and around the world for over 20 years. Based in Aspen, she provides expert art and antique appraisals for insurance, estate, and donation purposes.",
+        "notes": "Over 20 years experience. Website: aspenappraisalbarbpreston.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "art-of-estates-aspen",
+      "name": "Art of Estates",
+      "slug": "art-of-estates-aspen",
+      "imageUrl": "",
+      "address": {
+        "street": "625 E Main St, Ste 120B-260",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611",
+        "formatted": "625 E Main St, Ste 120B-260, Aspen, CO 81611"
+      },
+      "contact": {
+        "phone": "(970) 922-9068",
+        "email": "info@artofestates.com",
+        "website": "https://artofestates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 2017",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Art",
+          "Native American Art",
+          "Wine Collections",
+          "Estate Collections"
+        ],
+        "certifications": [
+          "ISA",
+          "USPAP"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Tax Appraisals",
+          "Charitable Donation Appraisals",
+          "Insurance Appraisals",
+          "Estate Probate Appraisals",
+          "Litigation Support",
+          "Collection Management",
+          "Remote Online Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates has been managing fine art, antique, decorative art, Native American, wine, and entire estate collections in Aspen, Colorado since 2017. The firm provides IRS-qualified appraisals for estate tax, charitable donations, insurance, equitable distribution, and collateral purposes. Services include collection management, authentication, auction consulting, and remote online evaluations.",
+        "notes": "Serves Aspen and Rocky Mountain communities. Brady Dreasher, ISA CAPP, GPPA, CES, CAGA leads the practice."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "prestige-estate-services-aspen",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services-aspen",
+      "imageUrl": "",
+      "address": {
+        "street": "625 E Main St, Ste 1009",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611",
+        "formatted": "625 E Main St, Ste 1009, Aspen, CO 81611"
+      },
+      "contact": {
+        "phone": "(970) 449-0856",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 15 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Furniture",
+          "Estate Planning",
+          "Collectibles"
+        ],
+        "certifications": [
+          "IRS Qualified",
+          "USPAP"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Tax Appraisals",
+          "Insurance Appraisals",
+          "Charitable Donation Appraisals",
+          "Equitable Distribution Appraisals",
+          "Estate Inventory",
+          "Collection Management",
+          "Remote Photo Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services operates an Aspen Snowmass office providing fine art, antique, and furniture appraisals. The team delivers IRS-qualified estate tax and estate planning appraisals, insurance and equitable distribution valuations, charitable donation assessments, and government property appraisals. They also offer appraisal review for litigation and remote online photo evaluations.",
+        "notes": "Multi-state firm with Aspen Snowmass office at 625 E Main St, Ste 1009."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "daniels-antiques-aspen",
+      "name": "Daniel's Antiques",
+      "slug": "daniels-antiques-aspen",
+      "imageUrl": "",
+      "address": {
+        "street": "431 E Hyman Ave",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611",
+        "formatted": "431 E Hyman Ave, Aspen, CO 81611"
+      },
+      "contact": {
+        "phone": "(970) 544-9282",
+        "email": "danielsantiques@comcast.net",
+        "website": "https://www.danielsantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 20 years",
+        "hours": [
+          {
+            "day": "Monday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Swiss Carvings",
+          "Black Forest Art",
+          "Churchill Memorabilia",
+          "Vintage Barware",
+          "French Industrial Clocks",
+          "Silver",
+          "Weaponry & Armor",
+          "Vintage Gaming"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Antique Sales & Consulting"
+        ]
+      },
+      "content": {
+        "about": "Daniel's Antiques is a specialized antique dealership in the heart of Aspen offering historical and decorative antiques. The shop features Swiss carvings and Black Forest art, Winston Churchill memorabilia, Prohibition-era cocktail shakers and luxury barware, custom aviation pieces, vintage gaming and gambling items, weaponry and armor, French industrial clocks, silver, and binoculars. Operated by Simon Daniels with over 20 years in the antiques trade.",
+        "notes": "By appointment only. Contact Simon Daniels at (970) 948-4099 for availability. Instagram: @daniels.antiques"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "alderfers-antiques-aspen",
+      "name": "Alderfer's Antiques",
+      "slug": "alderfers-antiques-aspen",
+      "imageUrl": "",
+      "address": {
+        "street": "309 E Main St",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611",
+        "formatted": "309 E Main St, Aspen, CO 81611"
+      },
+      "contact": {
+        "phone": "(970) 925-5051",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 25 years",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "11:00 AM - 5:30 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Textiles",
+          "Native American Jewelry",
+          "Cowboy Boots & Western Wear",
+          "Antique Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Antique Sales"
+        ]
+      },
+      "content": {
+        "about": "Alderfer's Antiques has been a staple of the Aspen antique community for over 25 years. Located on East Main Street, the shop offers a curated selection of paintings, textiles, Native American jewelry, cowboy boots, and Western collectibles. Their long-standing presence in Aspen makes them a trusted source for antique valuations and estate sales.",
+        "notes": "Long-established Aspen antique dealer on E Main Street."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "alpen-antiks-aspen",
+      "name": "Alpen Antiks",
+      "slug": "alpen-antiks-aspen",
+      "imageUrl": "",
+      "address": {
+        "street": "319 Aspen Airport Business Ctr, Unit Y",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611",
+        "formatted": "319 Aspen Airport Business Ctr, Unit Y, Aspen, CO 81611"
+      },
+      "contact": {
+        "phone": "(970) 379-9724",
+        "email": "",
+        "website": "https://www.alpenantiks.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 15 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "European Antiques",
+          "Alpine Decorative Arts",
+          "Vintage Furniture",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Antique Sales"
+        ]
+      },
+      "content": {
+        "about": "Alpen Antiks specializes in European and Alpine antiques, offering a carefully curated collection of vintage furniture, decorative arts, and collectibles from across the Alpine region. Based in Aspen's Airport Business Center, they serve collectors and estate clients throughout the Roaring Fork Valley.",
+        "notes": "European antique specialists. Website: alpenantiks.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "strange-imports-aspen",
+      "name": "Strange Imports",
+      "slug": "strange-imports-aspen",
+      "imageUrl": "",
+      "address": {
+        "street": "425 Main St",
+        "city": "Carbondale",
+        "state": "CO",
+        "zip": "81623",
+        "formatted": "425 Main St, Carbondale, CO 81623 (Serving Aspen Valley)"
+      },
+      "contact": {
+        "phone": "(970) 963-7100",
+        "email": "",
+        "website": "https://strangeimports.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 25 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "East Asian Antiques",
+          "Tribal Art",
+          "Masks & Tribal Baskets",
+          "Singing Bowls",
+          "Statuary",
+          "Stones, Gems & Fossils",
+          "Ceramics"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Antique Sales",
+          "Consulting"
+        ]
+      },
+      "content": {
+        "about": "Strange Imports has existed in the beautiful Aspen Valley for over 25 years, specializing in high-quality antiques and vintage home decor from East Asia and around the world. Their inventory includes tribal art, masks, singing bowls, statuary, ceramics, stones, gems, fossils, and organic contemporary accessories. They also provide appraisal services for estate and insurance purposes.",
+        "notes": "Over 25 years in the Aspen Valley. Also sells on Etsy as StrangeImportsLLC."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "paris-underground-aspen",
+      "name": "Paris Underground",
+      "slug": "paris-underground-aspen",
+      "imageUrl": "",
+      "address": {
+        "street": "520 East Durant Ave",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611",
+        "formatted": "520 East Durant Ave, Aspen, CO 81611"
+      },
+      "contact": {
+        "phone": "(970) 544-0137",
+        "email": "info@parisunderground.com",
+        "website": "https://www.parisunderground.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 20 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Globally Sourced Home Decor",
+          "Vintage Furniture",
+          "Italian Modern",
+          "Japanese Textiles",
+          "Eclectic Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Interior Design Consulting",
+          "Antique Sales"
+        ]
+      },
+      "content": {
+        "about": "Paris Underground is a globally sourced antique and home decor boutique in Aspen, featuring eclectic finds from around the world. Their curated inventory includes pieces like 1980s Italian wicker barrel chairs, Japanese shibori throws, vintage furniture, and unique decorative objects. With over 20 years in Aspen, they offer appraisal and valuation services for estate and insurance purposes.",
+        "notes": "Also located at 525 E Cooper Ave Unit 205, Aspen. Online shop available."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "georgia-brown-home-aspen",
+      "name": "Georgia Brown Home",
+      "slug": "georgia-brown-home-aspen",
+      "imageUrl": "",
+      "address": {
+        "street": "505 E Hyman Ave",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611",
+        "formatted": "505 E Hyman Ave, Aspen, CO 81611"
+      },
+      "contact": {
+        "phone": "(970) 429-8216",
+        "email": "",
+        "website": "https://www.bdantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 15 years",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Vintage Decor",
+          "Unique Collectibles",
+          "Home Furnishings"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Antique Sales"
+        ]
+      },
+      "content": {
+        "about": "Georgia Brown Home is a curated antique and vintage home decor boutique in the heart of Aspen. Part of the Big Daddy's Antiques family of shops, the store offers a carefully selected inventory of antique furniture, vintage decor, and unique collectibles sourced from estate sales and dealers across the country. They provide appraisal services for insurance and estate purposes.",
+        "notes": "Part of Big Daddy's Antiques network (LA, SF, Aspen). Website: bdantiques.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

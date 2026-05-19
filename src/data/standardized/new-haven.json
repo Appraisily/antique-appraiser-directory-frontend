@@ -1,0 +1,142 @@
+{
+  "appraisers": [
+    {
+      "id": "new-haven-antiques-and-appraisals-estate-appraisals-and-liquidations-hartford-ct-buying-and-selling",
+      "name": "Always Buying Antiques",
+      "slug": "antiques-and-appraisals-estate-appraisals-and-liquidations-hartford-ct-buying-and-selling",
+      "imageUrl": "http://appraisalsandantiques.com/images-1/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "New Haven",
+        "state": "CT",
+        "zip": "",
+        "formatted": "New Haven, CT"
+      },
+      "contact": {
+        "phone": "(860) 989-0975",
+        "email": "appraisal.now@gmail.com",
+        "website": "http://appraisalsandantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Always Buying Antiques offers antique and personal property appraisal services serving New Haven, CT. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: http://appraisalsandantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://appraisalsandantiques.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJu0ISUQha5okRRY0wG1V3R8A",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-haven-stepping-stones-antiques-llc-old-saybrook-connecticut-retail-shop-estate-sale-management-a",
+      "name": "Stepping Stones Antiques LLC",
+      "slug": "stepping-stones-antiques-llc-old-saybrook-connecticut-retail-shop-estate-sale-management-a",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "New Haven",
+        "state": "CT",
+        "zip": "",
+        "formatted": "New Haven, CT"
+      },
+      "contact": {
+        "phone": "(860) 434-8436",
+        "email": "legassie621@sbcglobal.net",
+        "website": "https://steppingstonesantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Stepping Stones Antiques LLC offers antique and personal property appraisal services serving New Haven, CT. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://steppingstonesantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://steppingstonesantiques.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJJxmvJ_si5okRyVniXGSzxBs",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

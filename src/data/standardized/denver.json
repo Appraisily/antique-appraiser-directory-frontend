@@ -1,6 +1,75 @@
 {
   "appraisers": [
     {
+      "id": "denver-professional-jewelry-appraisals",
+      "name": "American Gem Registry",
+      "slug": "professional-jewelry-appraisals",
+      "imageUrl": "https://americangemregistry.com/wp-content/uploads/2022/07/agr_wordpress_site_icon-150x150.png",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "13032234944",
+        "email": "neil@americangemregistry.com",
+        "website": "https://americangemregistry.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "American Gem Registry offers antique and personal property appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://americangemregistry.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://americangemregistry.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ949Oz8t5bIcRIUfobOnPj4o",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "denver-american-gem-registry-neil-beaty-cgja",
       "name": "American Gem Registry – Neil Beaty CGJA",
       "slug": "american-gem-registry-neil-beaty-cgja",
@@ -87,6 +156,537 @@
       }
     },
     {
+      "id": "denver-american-institute-of-gemological-research-inc",
+      "name": "American Institute of Gemological Research",
+      "slug": "american-institute-of-gemological-research-inc",
+      "imageUrl": "https://www.aigrinc.com/wp-content/uploads/2020/04/AIGR-logo-small-inverted-negative.jpg",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "3034202369",
+        "email": "info@aigrinc.com",
+        "website": "https://www.aigrinc.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "American Institute of Gemological Research offers antique and personal property appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.aigrinc.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.aigrinc.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJGyP16XR-bIcRX-fYnqj6z6A",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "denver-appraisley",
+      "name": "Appraisley",
+      "slug": "appraisley",
+      "imageUrl": "https://appraisley.com/#logo",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "+17204433136",
+        "email": "info@appraisley.com",
+        "website": "https://appraisley.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Appraisley offers antique and personal property appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://appraisley.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://appraisley.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJqU8w9kfsa4cRyXIE4PJVMho",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "denver-art-appraisals-of-santa-fe",
+      "name": "Art Appraisals of Santa Fe",
+      "slug": "art-appraisals-of-santa-fe",
+      "imageUrl": "https://artappraisalsofsantafe.com/wp-content/themes/corporate/images/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "505.231.8293",
+        "email": "michael@artappraisalsofsantafe.com",
+        "website": "https://artappraisalsofsantafe.com/contact/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Art Appraisals of Santa Fe offers antique and personal property appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://artappraisalsofsantafe.com/contact/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://artappraisalsofsantafe.com/contact/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJKxrD8xH4GIcRyz_P53NbD6Y",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "denver-denver-art-of-estates-personal-property-appraisal-firm",
+      "name": "Art of Estates - Art Appraisal & Consulting",
+      "slug": "denver-art-of-estates-personal-property-appraisal-firm",
+      "imageUrl": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "+1 720.495.3753",
+        "email": "MyFineArt@email.com",
+        "website": "https://artofestates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates - Art Appraisal & Consulting offers antique and personal property appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://artofestates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://artofestates.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJh59Dh_jta4cRwaRY5kNjZqw",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "cherry-creek-antiques-denver-co",
+      "name": "Cherry Creek Antiques",
+      "slug": "cherry-creek-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "200 Fillmore St",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80206",
+        "formatted": "200 Fillmore St, Denver, CO 80206"
+      },
+      "contact": {
+        "phone": "(303) 399-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Art",
+          "Decorative Objects"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cherry Creek Antiques offers fine antiques and art with professional appraisal services in the Cherry Creek district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-colorado-antique-appraisers",
+      "name": "Colorado Antique Appraisers",
+      "slug": "colorado-antique-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Western Art",
+          "Native American Art",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Colorado Antique Appraisers specializes in Western art, Native American pieces, and traditional antiques. Serving Denver clients with accurate valuations for insurance, estate planning, and donations.",
+        "notes": "Serving Denver, CO with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-colorado-gem-labs",
+      "name": "Colorado Gem Labs",
+      "slug": "colorado-gem-labs",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "+1 303-842-5675",
+        "email": "",
+        "website": "http://cologemlabs.com"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Colorado Gem Labs offers antique and personal property appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.mapquest.com/us/colorado/colorado-gem-labs-639375245. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.mapquest.com/us/colorado/colorado-gem-labs-639375245",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJq8TPI5d-bIcRk_v1nStwnD0",
+        "confidenceScore": 60,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "Places discovery class jewelry appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "denver-estate-sales-denver-co",
+      "name": "Denver Estate Sales & Appraisals",
+      "slug": "denver-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "1700 Broadway",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202",
+        "formatted": "1700 Broadway, Denver, CO 80202"
+      },
+      "contact": {
+        "phone": "(303) 555-0100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Denver Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the Denver metro area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "denver-ellen-amirkhan-crs-orra-csa-fcearug-specialist",
       "name": "Ellen Amirkhan CRS ORRA CSA FCEA®️(Rug Specialist)",
       "slug": "ellen-amirkhan-crs-orra-csa-fcearug-specialist",
@@ -125,7 +725,7 @@
       },
       "expertise": {
         "specialties": [
-          "📧 Contact via www-artofestates.com ☎️ No direct phone listed  \n\n--- \n\n### Ellen Amirkhan CRS ORRA CSA FCEA®️(Rug Specialist)     \nFocuses exclusively upon authenticating & valuing handwoven Oriental carpets/textiles dating back centuries utilizing advanced techniques including microscopic analysis combined w/historical research methods ensuring accuracy every time![8]:      \n💼 Operates independently alongside Robert Mann RUG CLEANING INC.(Consultations By Appointment Only)    \n\n--- \n\n## Additional Notes \nFor broader searches beyond above listings consider visiting national directories hosted @ApprasiersOrg ([apprasiersorg](https://www.apprasiersorg)) where users filter professionals geographically while verifying credentials prior engagement!\n\nLet me k"
+          "Carpets & Rugs"
         ],
         "certifications": [
           "Professional Appraiser",
@@ -139,8 +739,8 @@
         ]
       },
       "content": {
-        "about": "Ellen Amirkhan CRS ORRA CSA FCEA®️(Rug Specialist) offers antique appraisal services in Denver, CO. Primary specialties include 📧 Contact via www-artofestates.com ☎️ No direct phone listed  \n\n--- \n\n### Ellen Amirkhan CRS ORRA CSA FCEA®️(Rug Specialist)     \nFocuses exclusively upon authenticating & valuing handwoven Oriental carpets/textiles dating back centuries utilizing advanced techniques including microscopic analysis combined w/historical research methods ensuring accuracy every time![8]:      \n💼 Operates independently alongside Robert Mann RUG CLEANING INC.(Consultations By Appointment Only)    \n\n--- \n\n## Additional Notes \nFor broader searches beyond above listings consider visiting national directories hosted @ApprasiersOrg ([apprasiersorg](https://www.apprasiersorg)) where users filter professionals geographically while verifying credentials prior engagement!\n\nLet me k. Services include Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "notes": "Helping Denver, CO collectors with appraisals for 📧 Contact via www-artofestates.com ☎️ No direct phone listed  \n\n--- \n\n### Ellen Amirkhan CRS ORRA CSA FCEA®️(Rug Specialist)     \nFocuses exclusively upon authenticating & valuing handwoven Oriental carpets/textiles dating back centuries utilizing advanced techniques including microscopic analysis combined w/historical research methods ensuring accuracy every time![8]:      \n💼 Operates independently alongside Robert Mann RUG CLEANING INC.(Consultations By Appointment Only)    \n\n--- \n\n## Additional Notes \nFor broader searches beyond above listings consider visiting national directories hosted @ApprasiersOrg ([apprasiersorg](https://www.apprasiersorg)) where users filter professionals geographically while verifying credentials prior engagement!\n\nLet me k."
+        "about": "Ellen Amirkhan CRS ORRA CSA FCEA®️(Rug Specialist) offers antique appraisal services in Denver, CO. Primary specialties include carpets and rugs. Services include Antique Appraisals, Estate Valuations, Insurance Appraisals, and Donation Valuation.",
+        "notes": "Helping Denver, CO collectors with appraisal support for carpets and rugs."
       },
       "reviews": [
         {
@@ -165,6 +765,358 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "denver-gem-appraisers-colorado-welcome",
+      "name": "Gem Appraisers Colorado",
+      "slug": "gem-appraisers-colorado-welcome",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "303-815-6704",
+        "email": "gemappraiserscolo@comcast.net",
+        "website": "https://gemappraiserscolo.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Gem Appraisers Colorado offers antique and personal property appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://gemappraiserscolo.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://gemappraiserscolo.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJaVKD0H97bIcRlmveqJBbvk8",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "denver-mile-high-appraisals",
+      "name": "Mile High Appraisals & Estate Services",
+      "slug": "mile-high-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Coins",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Liquidations",
+          "Insurance Appraisals",
+          "Auction Consignment"
+        ]
+      },
+      "content": {
+        "about": "Mile High Appraisals & Estate Services offers antique and estate appraisals throughout the Denver area, with expertise in coins, collectibles, and fine art.",
+        "notes": "Serving Denver, CO with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antique-denver-old-crows-antiques",
+      "name": "Old Crows Antiques",
+      "slug": "denver-old-crows-antiques",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.oldcrowsantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "event_only_antique_verbal_estimate",
+          "antique_marketplace"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "antique, estate, personal-property, or collectibles-related services"
+        ]
+      },
+      "content": {
+        "about": "Old Crows Antiques is included from a deferred lead review for antique, estate, personal-property, or collectibles-related services in Denver, CO. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://www.oldcrowsantiques.com/. Original status: valuation_adjacent_event_only_no_formal_appraisal_service. Evidence note: Owned-source review found an antique marketplace with an Old Crows Roadshow event offering one-item verbal estimates, but no standing formal appraisal/report service."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "antique",
+          "serviceTypes": [
+            "event_only_antique_verbal_estimate",
+            "antique_marketplace"
+          ],
+          "appraisalServiceStatus": "valuation_adjacent_event_only_no_formal_appraisal_service",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://www.oldcrowsantiques.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJaypQC9V_a4cR1WSUx53UW5A",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: antique",
+          "appraisal service status: valuation_adjacent_event_only_no_formal_appraisal_service",
+          "service types: event_only_antique_verbal_estimate, antique_marketplace"
+        ]
+      }
+    },
+    {
+      "id": "denver-precision-gem-appraisals-llc",
+      "name": "Precision Gem Appraisals",
+      "slug": "precision-gem-appraisals-llc",
+      "imageUrl": "https://static.wixstatic.com/media/77739c_b5c82eae1573480b8c4e2bdd42d03a27%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/77739c_b5c82eae1573480b8c4e2bdd42d03a27%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "303-596-9303",
+        "email": "michelle@precisiongemappraisals.com",
+        "website": "https://www.precisiongemappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Precision Gem Appraisals offers antique and personal property appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.precisiongemappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.precisiongemappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ__1WMMHQ0i4RHzB0OsqvUAg",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "denver-precision-jewelry-appraisal-llc",
+      "name": "Precision Jewelry Appraisal LLC",
+      "slug": "precision-jewelry-appraisal-llc",
+      "imageUrl": "https://precisionjewelryappraisalllc.com/wp-content/uploads/2023/04/PJA_LogoNoBorder.png",
+      "address": {
+        "street": "6825 E Tennessee Avenue, Suite 420",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80224",
+        "formatted": "6825 E Tennessee Avenue, Suite 420, Denver, CO 80224"
+      },
+      "contact": {
+        "phone": "520-534-0301",
+        "email": "Emmilliotheappraiser@gmail.com",
+        "website": "https://precisionjewelryappraisalllc.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Tuesday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Jewelry appraisals",
+          "Gemstone appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [
+          "GIA Graduate Gemologist referenced by source",
+          "American Society of Appraisers membership referenced by source"
+        ],
+        "services": [
+          "Jewelry appraisal services",
+          "Estate and insurance appraisals",
+          "Gemstone identification support"
+        ]
+      },
+      "content": {
+        "about": "Precision Jewelry Appraisal LLC offers jewelry and gemstone appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from direct website recheck on 2026-05-15. Source: https://precisionjewelryappraisalllc.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://precisionjewelryappraisalllc.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Direct recheck recovered owned-site jewelry appraisal evidence after automated manual-search fallback."
+        },
+        "source": "direct_recheck_website_evidence",
+        "placeId": "ChIJm76lDyJ9bIcRNU7h9aMcDQw",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "direct website recheck recovered owned-site evidence",
+          "jewelry appraisal service language on business website",
+          "business email found",
+          "business phone found",
+          "logo and schema business data found"
+        ]
       }
     },
     {
@@ -248,6 +1200,400 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-rocky-mountain-estate-appraisals",
+      "name": "Rocky Mountain Estate Appraisals",
+      "slug": "rocky-mountain-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Rocky Mountain Estate Appraisals provides comprehensive antique and estate valuations throughout the Denver metro area, with expertise in fine art, furniture, and collectibles.",
+        "notes": "Serving Denver, CO with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-snh-french-antiques-and-collectibles",
+      "name": "SNH French Antiques & Collectibles",
+      "slug": "snh-french-antiques-and-collectibles",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "(303) 566-0618",
+        "email": "info@snhantiques.com",
+        "website": "http://snhfrenchantiquesco.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "SNH French Antiques & Collectibles offers antique and personal property appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.snhfrenchantiquesco.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.snhfrenchantiquesco.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJG3iFu-J_bIcRaKxjATDUSL4",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "south-broadway-antiques-denver-co",
+      "name": "South Broadway Antiques",
+      "slug": "south-broadway-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1200 S Broadway",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80210",
+        "formatted": "1200 S Broadway, Denver, CO 80210"
+      },
+      "contact": {
+        "phone": "(303) 777-6677",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Items",
+          "Western Memorabilia"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "South Broadway Antiques is part of Denver's Antique Row, offering professional appraisal services for a wide range of collectibles.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-hale-appraisals",
+      "name": "Steven A. Hale Appraisals & Estates",
+      "slug": "hale-appraisals",
+      "imageUrl": "https://www.hale-appraisals.com/wp-content/uploads/2025/02/estate-sales-colorado-springs-hale-appraisals-appraiser-sm-blue.webp",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "719-304-6717",
+        "email": "",
+        "website": "https://www.hale-appraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Steven A. Hale Appraisals & Estates offers antique and personal property appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.hale-appraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.hale-appraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJrZv1hkRbE4cR2hmMtT5ku9g",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "denver-the-antique-trader",
+      "name": "The Antique Trader",
+      "slug": "the-antique-trader",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80210",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(303) 722-6098",
+        "email": "jack.wartell@gmail.com",
+        "website": "https://www.antiquetraderappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Personal Property",
+          "Collectibles",
+          "Household Items",
+          "Jewelry"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Online Appraisals",
+          "Onsite Appraisals",
+          "Estate Appraisals",
+          "Legal Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "The Antique Trader offers affordable antique and art appraisal services in Denver with USPAP-compliant reports. Services include online photograph-based appraisals and onsite evaluations for estates and trust clients.",
+        "notes": "Serving Denver, CO with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-worthwise-appraisers-candace-hill",
+      "name": "WorthWise Appraisers - Candace Hill",
+      "slug": "worthwise-appraisers-candace-hill",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://worthwiseappraisers.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Collectibles",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "ISA Certified Personal Property Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Candace Hill is a certified personal property appraiser through the International Society of Appraisers, specializing in art and antiques in Denver. Expert valuations for insurance, estate, and donation purposes.",
+        "notes": "Serving Denver, CO with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

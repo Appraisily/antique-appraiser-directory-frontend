@@ -3,6 +3,11 @@ import { useParams } from 'react-router-dom';
 import { MapPin, Star } from 'lucide-react';
 import { getStandardizedLocation, StandardizedAppraiser, StandardizedLocation } from '../utils/standardizedData';
 import { SEO } from '../components/SEO';
+import {
+  DECISION_ROUTER_ICON_SET,
+  DECISION_ROUTER_VARIANT,
+  DecisionRouter,
+} from '../components/DecisionRouter';
 import { generateLocationSchema } from '../utils/schemaGenerators';
 import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
 import {
@@ -36,6 +41,7 @@ const STRIKING_DISTANCE_CITY_SLUGS = [
   'cleveland',
   'cincinnati',
   'baltimore',
+  'hamilton',
   'louisville',
   'ottawa',
   'orlando',
@@ -58,7 +64,9 @@ const STRIKING_DISTANCE_CITY_SLUGS = [
   'pittsburgh',
   'tampa',
   'richmond',
-  'new-orleans'
+  'new-orleans',
+  'saskatoon',
+  'moncton'
 ] as const;
 
 const LOW_CTR_PRIORITY_CITY_SLUGS = [
@@ -73,6 +81,8 @@ const LOW_CTR_PRIORITY_CITY_SLUGS = [
   'indianapolis',
   'jacksonville',
   'kansas-city',
+  'hamilton',
+  'calgary',
   'milwaukee',
   'orlando',
   'philadelphia',
@@ -488,44 +498,44 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Kansas City specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
   },
   chicago: {
-    title: 'Antique Appraisers in Chicago, IL — Compare Local Experts & Online Options',
+    title: 'Antique Appraisers Near Me in Chicago | Compare Local Experts & Art Appraisals',
     description:
-      'Find trusted antique appraisers in Chicago for Arts & Crafts, WPA-era art, and estate items. Compare in-person specialists or get an online valuation in 24–48 hours.',
-    h1: 'Antique Appraisers in Chicago, IL',
+      'Compare 4 Chicago antique appraisers for estate, furniture & fine art. Get expert insurance or donation reports — or try a faster online appraisal.',
+    h1: 'Antique Appraisers Near You in Chicago',
     heroDescription:
-      'Compare Chicago appraisers for antiques, art, and collections, then choose local in-person service or a faster online appraisal route.'
+      'Find antique and art appraisers near you in Chicago. Compare local in-person experts for estate, donation, and insurance valuations — or choose a faster online appraisal.'
   },
   tucson: {
-    title: 'Tucson Antique Appraisers & Art Appraisers | Donation and Personal Property',
+    title: 'Antique Appraisers Near Me in Tucson | Compare Local Experts & Art Appraisals',
     description:
-      'Compare Tucson antique and art appraisers for donation, estate, and personal property valuation reports. Choose local or online service.',
-    h1: 'Tucson Antique & Art Appraisers',
+      'Compare 1 Tucson antique appraiser for Native American art & Western collectibles. Get expert estate or insurance reports — or try online.',
+    h1: 'Antique Appraisers Near You in Tucson',
     heroDescription:
-      'Compare Tucson specialists for antique, art, and donation valuations, then pick the local or online path that matches your timeline.'
+      'Find antique and art appraisers near you in Tucson. Compare local in-person experts for estate, donation, and insurance valuations — or choose a faster online appraisal.'
   },
   columbus: {
-    title: 'Columbus, OH Antique Appraisers — Rookwood, Ohio Pottery & Estate Valuations',
+    title: 'Antique Appraisers Near Me in Columbus | Compare Local Experts & Art Appraisals',
     description:
-      'Compare Columbus antique appraisers specializing in Ohio art pottery, folk art, and estate items. Get a free online estimate or schedule a local appraisal today.',
-    h1: 'Columbus, OH Antique Appraisers',
+      'Compare 2 Columbus antique appraisers for estate, furniture & fine art. Get expert insurance or donation reports — or try a faster online appraisal.',
+    h1: 'Antique Appraisers Near You in Columbus',
     heroDescription:
-      'Compare Columbus appraisal experts for donation, estate, insurance, and personal-property needs before choosing local in-person or online service.'
+      'Find antique and art appraisers near you in Columbus. Compare local in-person experts for estate, donation, and insurance valuations — or choose a faster online appraisal.'
   },
   denver: {
-    title: 'Denver Antique Appraisers — Estate, Insurance & Donation Valuations',
+    title: 'Antique Appraisers Near Me in Denver | Compare Local Experts & Art Appraisals',
     description:
-      'Find Denver antique appraisers for Western art, Native American pieces, mining-era antiques, and estate valuations. Compare local experts or choose online appraisal.',
-    h1: 'Denver Antique Appraisers',
+      'Compare 11 Denver antique appraisers for Western art, Native American items & estate valuations. Get expert reports — or try a faster online appraisal.',
+    h1: 'Antique Appraisers Near You in Denver',
     heroDescription:
-      'Compare Denver specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+      'Find antique and art appraisers near you in Denver. Compare local in-person experts for estate, donation, and insurance valuations — or choose a faster online appraisal.'
   },
   milwaukee: {
-    title: 'Milwaukee Antique Appraisers — Compare Local Specialists & Fast Online Appraisals',
+    title: 'Antique Appraisers Near Me in Milwaukee | Compare Local Experts & Art Appraisals',
     description:
-      'Compare Milwaukee antique appraisers for German glassware, brewery memorabilia, and estate items. Or skip the wait — get a signed online valuation in 24–48 hours.',
-    h1: 'Milwaukee Antique Appraisers',
+      'Compare 1 Milwaukee antique appraiser for estate, furniture & fine art. Get expert insurance or donation reports — or try a faster online appraisal.',
+    h1: 'Antique Appraisers Near You in Milwaukee',
     heroDescription:
-      'Compare Milwaukee appraisal options for antiques, estate items, and art, then choose local in-person service or online turnaround.'
+      'Find antique and art appraisers near you in Milwaukee. Compare local in-person experts for estate, donation, and insurance valuations — or choose a faster online appraisal.'
   },
   cleveland: {
     title: 'Cleveland Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
@@ -576,12 +586,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Orlando specialists for antiques, art, and collection valuation, then choose a local visit or faster online appraisal.'
   },
   'san-antonio': {
-    title: 'San Antonio Antique Appraisers | Art & Estate Value Experts',
+    title: 'Antique Appraisers Near Me in San Antonio | Compare Local Experts & Art Appraisals',
     description:
-      'Find San Antonio antique and art appraisers for estate, donation, insurance, and personal property valuation. Compare local providers and online options.',
-    h1: 'San Antonio Antique & Art Appraisers',
+      'Looking for antique appraisers near you in San Antonio? Compare local experts for art, estate, donation, and insurance appraisals, or start with a faster online valuation.',
+    h1: 'Antique Appraisers Near You in San Antonio',
     heroDescription:
-      'Review San Antonio appraisal options for art, antiques, and estate items before choosing local in-person or online service.'
+      'Compare San Antonio appraisal experts for antiques, art, donation, estate, and insurance needs before choosing local in-person service or a faster online valuation.'
   },
   calgary: {
     title: 'Calgary Antique Appraisers | Art, Estate & Donation Values',
@@ -734,6 +744,30 @@ const LOCATION_SEO_OVERRIDES: Partial<
     h1: 'New Orleans Antique Appraisers & Art Appraisal Services',
     heroDescription:
       'Compare New Orleans specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+  },
+  hamilton: {
+    title: 'Hamilton Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Hamilton antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuation. Review local Ontario options and faster online support.',
+    h1: 'Hamilton Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Hamilton specialists for antiques, art, and personal property before choosing local in-person service or a faster online appraisal route.'
+  },
+  saskatoon: {
+    title: 'Saskatoon Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Saskatoon antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuation. Review local specialists and online options.',
+    h1: 'Saskatoon Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Saskatoon appraisal options for antiques, art, and collections, then choose local in-person service or online valuation support.'
+  },
+  moncton: {
+    title: 'Moncton Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Moncton antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuation. Review local Atlantic Canada options and online support.',
+    h1: 'Moncton Antique Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Moncton specialists for antique and art appraisal needs, then choose local in-person service or faster online valuation.'
   }
 };
 
@@ -896,6 +930,21 @@ const LOCATION_SEARCH_THEMES: Record<string, readonly string[]> = {
    'Ottawa antique appraisers',
    'Ottawa art appraisal',
    'antique appraisers Ottawa ON'
+ ],
+ hamilton: [
+   'Hamilton antique appraisers',
+   'Hamilton art appraisal',
+   'personal property appraisers Hamilton ON'
+ ],
+ saskatoon: [
+   'Saskatoon antique appraisers',
+   'Saskatoon art appraisal',
+   'antique appraisers Saskatoon SK'
+ ],
+ moncton: [
+   'Moncton antique appraisers',
+   'Moncton art appraisal',
+   'antique appraisers Moncton NB'
  ],
  toronto: [
    'Toronto antique appraisers',
@@ -1155,7 +1204,7 @@ export function StandardizedLocationPage() {
       case 'honolulu':
         return `Oahu Antique Appraiser | Compare ${expertPhrase}`;
       case 'tucson':
-        return `${citySearchName} Antique Appraisers | Compare ${expertPhrase}`;
+        return `Antique Appraisers Near Me in ${citySearchName} | Compare ${expertPhrase}`;
       case 'orlando':
         return `${citySearchName} Antique Appraisers | Compare ${expertPhrase}`;
       case 'baltimore':
@@ -1221,6 +1270,17 @@ export function StandardizedLocationPage() {
   const heroDescription =
     seoOverride?.heroDescription ??
     `Compare local antique and art appraisers in ${cityName} for estate, insurance, donation, resale, and personal-property needs. Review specialties below, or skip the appointment cycle and start a faster online written appraisal. Note: these appraisers specialize in personal property (antiques, art, collectibles), not real estate or home appraisals.`;
+  const decisionCampaign = validCitySlug || 'antique-directory';
+  const signedReportUrl = getPrimaryCtaUrl({
+    utm_source: 'directory',
+    utm_medium: 'decision_router',
+    utm_campaign: decisionCampaign,
+    utm_content: 'signed_report',
+    service: 'regular',
+  });
+  const screenerUrl = `https://appraisily.com/screener?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=screener`;
+  const professionalSampleUrl = `https://appraisily.com/sample-reports/professional?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=sample_professional`;
+  const instantSampleUrl = `https://appraisily.com/sample-reports/instant?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=sample_instant`;
 
   const generateLocationFaqSchema = () => {
     const baseFaqs = [
@@ -1440,12 +1500,48 @@ export function StandardizedLocationPage() {
       state: appraiser.address.state
     });
   };
+  const navigateToAppraiserCard = (
+    appraiser: StandardizedAppraiser,
+    appraiserUrl: string,
+    event: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>
+  ) => {
+    const target = event.target;
+    if (target instanceof Element && target.closest('a[href], button, input, select, textarea, summary, [role="button"], [role="link"]')) {
+      return;
+    }
+
+    event.preventDefault();
+    handleAppraiserCardClick(appraiser, 'location_results');
+    window.location.href = appraiserUrl;
+  };
 
   const handleLocationCtaClick = (placement: string) => {
     trackEvent('cta_click', {
       placement,
       destination: primaryCtaUrl,
       city_slug: validCitySlug
+    });
+  };
+  const handleDecisionRouterClick = (ctaKind: string, placement: string, destination: string) => {
+    trackEvent('directory_cta', {
+      placement,
+      cta_kind: ctaKind,
+      destination,
+      city_slug: validCitySlug,
+      campaign: decisionCampaign,
+      router_variant: DECISION_ROUTER_VARIANT,
+      icon_set: DECISION_ROUTER_ICON_SET,
+    });
+  };
+  const handleDecisionRouterView = (placement: string, visibleRatio: number) => {
+    trackEvent('decision_router_view', {
+      placement,
+      city_slug: validCitySlug,
+      campaign: decisionCampaign,
+      router_variant: DECISION_ROUTER_VARIANT,
+      icon_set: DECISION_ROUTER_ICON_SET,
+      visible_ratio: Number(visibleRatio.toFixed(3)),
+      cta_count: 4,
     });
   };
   const handleRelatedCityClick = (relatedCity: DirectoryCity, placement: string) => {
@@ -1481,6 +1577,25 @@ export function StandardizedLocationPage() {
       `${window.location.pathname}${window.location.search}#local-appraisers`
     );
   };
+  const locationFaqs = [
+    {
+      question: `Do you offer in-person appraisals in ${cityName}?`,
+      answer:
+        'Appraisily focuses on online appraisals. Use the local directory to contact in-person providers, or get a fast online alternative with Appraisily.',
+    },
+    {
+      question: 'How does an online appraisal work?',
+      answer: 'Share photos, measurements, and any provenance. Our experts review the item and deliver a written valuation.',
+    },
+    {
+      question: 'What should I prepare before requesting an appraisal?',
+      answer: 'Multiple photos, condition notes, dimensions, and any labels, signatures, or purchase history help the most.',
+    },
+    {
+      question: 'Can I still use a local appraiser?',
+      answer: `Yes. Start with the directory above if you want in-person services in ${cityName}.`,
+    },
+  ];
 
   const handleSpecialtyTagClick = (specialty: string) => {
     const next = selectedSpecialty === specialty ? null : specialty;
@@ -1649,25 +1764,52 @@ export function StandardizedLocationPage() {
                   );
                 }}
               >
-                Compare local appraisers
+                Jump to local appraisers
               </a>
             </div>
           </div>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-700">
-            <div className="rounded-lg bg-white p-4 shadow-sm">
+            <a
+              href="#appraisal-options"
+              className="block rounded-lg bg-white p-4 text-inherit no-underline shadow-sm transition-shadow hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300"
+            >
               <p className="font-semibold text-gray-900 mb-1">Estate, insurance, and donation use cases</p>
               <p>Find appraisers who handle the documentation needs people most often search for in {cityName}.</p>
-            </div>
-            <div className="rounded-lg bg-white p-4 shadow-sm">
+            </a>
+            <a
+              href="#local-appraisers"
+              className="block rounded-lg bg-white p-4 text-inherit no-underline shadow-sm transition-shadow hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300"
+            >
               <p className="font-semibold text-gray-900 mb-1">Local specialists by city and niche</p>
               <p>Browse providers serving {cityName} and nearby areas, then shortlist by specialty fit.</p>
-            </div>
-            <div className="rounded-lg bg-white p-4 shadow-sm">
+            </a>
+            <a
+              href={primaryCtaUrl}
+              className="block rounded-lg bg-white p-4 text-inherit no-underline shadow-sm transition-shadow hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300"
+            >
               <p className="font-semibold text-gray-900 mb-1">Faster online option</p>
               <p>Skip scheduling friction and start an online written appraisal when speed matters more than an in-person visit.</p>
-            </div>
+            </a>
           </div>
         </div>
+
+        <DecisionRouter
+          signedReportUrl={signedReportUrl}
+          screenerUrl={screenerUrl}
+          localHref="#local-appraisers"
+          localLabel="Local specialist"
+          professionalSampleUrl={professionalSampleUrl}
+          instantSampleUrl={instantSampleUrl}
+          campaign={decisionCampaign}
+          className="mb-8"
+          onCtaClick={handleDecisionRouterClick}
+          onRouterView={handleDecisionRouterView}
+          onLocalClick={(event) => {
+            event.preventDefault();
+            scrollToLocalAppraisers();
+            window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#local-appraisers`);
+          }}
+        />
 
         {cityGuide && (
           <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6 sm:p-8">
@@ -1713,15 +1855,18 @@ export function StandardizedLocationPage() {
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               {locationSearchThemes.map((theme) => (
-                <button
-                  type="button"
+                <a
                   key={theme}
+                  href="#local-appraisers"
                   className="inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-100 transition-colors relative z-0 cursor-pointer"
-                  onClick={() => handleSearchThemeClick(theme)}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    handleSearchThemeClick(theme);
+                  }}
                   aria-label={`Jump to ${citySearchName} appraisers for ${theme}`}
                 >
                   {theme}
-                </button>
+                </a>
               ))}
             </div>
           </div>
@@ -1815,7 +1960,7 @@ export function StandardizedLocationPage() {
           </div>
         )}
 
-        <div className="mb-10 rounded-lg border border-blue-100 bg-blue-50/60 p-6">
+        <div id="appraisal-options" className="mb-10 rounded-lg border border-blue-100 bg-blue-50/60 p-6 scroll-mt-20">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             <div className="max-w-3xl">
               <h2 className="text-xl font-semibold mb-2">Online vs. in-person appraisal in {cityName}</h2>
@@ -1836,22 +1981,28 @@ export function StandardizedLocationPage() {
           </div>
           <div className="mt-6 overflow-hidden rounded-lg border border-blue-100 bg-white">
             <div className="grid grid-cols-1 md:grid-cols-2 text-sm">
-              <div className="border-b md:border-b-0 md:border-r border-blue-100 p-4">
+              <a
+                href="#local-appraisers"
+                className="block border-b border-blue-100 p-4 text-inherit no-underline transition-colors hover:bg-blue-50/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 md:border-b-0 md:border-r"
+              >
                 <p className="font-semibold text-gray-900 mb-2">Local in-person</p>
                 <ul className="space-y-2 text-gray-600">
                   <li>Schedule a visit and meet on site</li>
                   <li>Ideal for large collections or complex items</li>
                   <li>Timing depends on local availability</li>
                 </ul>
-              </div>
-              <div className="p-4">
+              </a>
+              <a
+                href={primaryCtaUrl}
+                className="block p-4 text-inherit no-underline transition-colors hover:bg-blue-50/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300"
+              >
                 <p className="font-semibold text-gray-900 mb-2">Appraisily online</p>
                 <ul className="space-y-2 text-gray-600">
                   <li>No appointment required</li>
                   <li>Submit photos and details from anywhere</li>
                   <li>Faster turnaround for most items</li>
                 </ul>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -1913,102 +2064,110 @@ export function StandardizedLocationPage() {
             .map(appraiser => {
             const appraiserUrl = buildSiteUrl(`/appraiser/${appraiser.slug}`);
             return (
-            <div
+            <article
               key={appraiser.id}
-              className="block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow focus-within:ring-2 focus-within:ring-blue-300 cursor-pointer"
+              className="group relative block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow focus-within:ring-2 focus-within:ring-blue-300 cursor-pointer"
               style={{ touchAction: 'manipulation' }}
               data-gtm-appraiser={appraiser.slug}
+              onClick={(event) => navigateToAppraiserCard(appraiser, appraiserUrl, event)}
+              onKeyDown={(event) => {
+                if (event.key !== 'Enter' && event.key !== ' ') {
+                  return;
+                }
+
+                navigateToAppraiserCard(appraiser, appraiserUrl, event);
+              }}
             >
               <a
                 href={appraiserUrl}
-                className="block text-inherit no-underline active:opacity-80"
+                className="absolute inset-0 z-10 rounded-lg focus-visible:outline-none"
                 data-gtm-event="appraiser_card_click"
                 data-gtm-appraiser={appraiser.slug}
                 data-gtm-placement="location_results"
                 onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
                 aria-label={`View ${appraiser.name} profile`}
-              >
-                <div className="h-48 bg-gray-200 overflow-hidden">
-                  <img
-                    src={normalizeAssetUrl(appraiser.imageUrl)}
-                    alt={`${appraiser.name} - Antique Appraiser in ${appraiser.address.city}`}
-                    className="w-full h-full object-cover transition-transform hover:scale-105"
-                    loading="lazy"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = DEFAULT_PLACEHOLDER_IMAGE;
-                    }}
-                  />
+              />
+
+              <div className="h-48 bg-gray-200 overflow-hidden">
+                <img
+                  src={normalizeAssetUrl(appraiser.imageUrl)}
+                  alt={`${appraiser.name} - Antique Appraiser in ${appraiser.address.city}`}
+                  className="w-full h-full object-cover transition-transform group-hover:scale-105"
+                  loading="lazy"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = DEFAULT_PLACEHOLDER_IMAGE;
+                  }}
+                />
+              </div>
+
+              <div className="p-4">
+                <h2 className="text-xl font-semibold mb-2 text-gray-900">
+                  {appraiser.name}
+                </h2>
+
+                <div className="flex items-center text-sm text-gray-600 mb-2">
+                  <MapPin className="h-4 w-4 mr-1 text-gray-400 flex-shrink-0" />
+                  <span className="truncate">{appraiser.address.formatted}</span>
                 </div>
 
-                <div className="p-4">
-                  <h2 className="text-xl font-semibold mb-2 text-gray-900">
-                    {appraiser.name}
-                  </h2>
-
-                  <div className="flex items-center text-sm text-gray-600 mb-2">
-                    <MapPin className="h-4 w-4 mr-1 text-gray-400 flex-shrink-0" />
-                    <span className="truncate">{appraiser.address.formatted}</span>
-                  </div>
-
-                  {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
-                    <div className="flex items-center mb-3">
-                      <div className="flex items-center">
-                        <Star className="h-4 w-4 text-yellow-500" />
-                        <span className="ml-1 text-gray-700">{appraiser.business.rating.toFixed(1)}</span>
-                      </div>
-                      <span className="text-sm text-gray-500 ml-2">
-                        ({appraiser.business.reviewCount} reviews)
-                      </span>
+                {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
+                  <div className="flex items-center mb-3">
+                    <div className="flex items-center">
+                      <Star className="h-4 w-4 text-yellow-500" />
+                      <span className="ml-1 text-gray-700">{appraiser.business.rating.toFixed(1)}</span>
                     </div>
-                  ) : (
-                    <div className="text-sm text-gray-500 mb-3">Reviews not available</div>
-                  )}
-
-                  <div className="space-y-2 mb-4">
-                    <div className="flex flex-wrap gap-1">
-                      {appraiser.expertise.specialties.slice(0, 3).map((specialty) => {
-                        const isActive = selectedSpecialty === specialty;
-                        return (
-                          <button
-                            key={specialty}
-                            type="button"
-                            className={[
-                              'inline-block rounded-full px-2 py-0.5 text-xs mb-1 transition-colors',
-                              'cursor-pointer hover:bg-blue-100 focus:outline-none focus:ring-1 focus:ring-blue-300',
-                              isActive ? 'bg-blue-600 text-white' : 'bg-blue-50 text-blue-700'
-                            ].join(' ')}
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              handleSpecialtyTagClick(specialty);
-                            }}
-                            aria-pressed={isActive}
-                            aria-label={`Filter by ${specialty}${isActive ? ' (active)' : ''}`}
-                          >
-                            {specialty}
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-
-                  <div className="mt-4 pt-3 border-t border-gray-100 flex justify-end">
-                    <span className="text-blue-600 text-sm font-medium inline-flex items-center">
-                      View Profile
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4 ml-1"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
+                    <span className="text-sm text-gray-500 ml-2">
+                      ({appraiser.business.reviewCount} reviews)
                     </span>
                   </div>
+                ) : (
+                  <div className="text-sm text-gray-500 mb-3">Reviews not available</div>
+                )}
+
+                <div className="relative z-20 space-y-2 mb-4 pointer-events-none">
+                  <div className="flex flex-wrap gap-1">
+                    {appraiser.expertise.specialties.slice(0, 3).map((specialty) => {
+                      const isActive = selectedSpecialty === specialty;
+                      return (
+                        <button
+                          key={specialty}
+                          type="button"
+                          className={[
+                            'inline-block rounded-full px-2 py-0.5 text-xs mb-1 transition-colors pointer-events-auto',
+                            'cursor-pointer hover:bg-blue-100 focus:outline-none focus:ring-1 focus:ring-blue-300',
+                            isActive ? 'bg-blue-600 text-white' : 'bg-blue-50 text-blue-700'
+                          ].join(' ')}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            handleSpecialtyTagClick(specialty);
+                          }}
+                          aria-pressed={isActive}
+                          aria-label={`Filter by ${specialty}${isActive ? ' (active)' : ''}`}
+                        >
+                          {specialty}
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
-              </a>
-            </div>
+
+                <div className="mt-4 pt-3 border-t border-gray-100 flex justify-end">
+                  <span className="text-blue-600 text-sm font-medium inline-flex items-center">
+                    View Profile
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 ml-1"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </article>
           );
           })}
         </div>
@@ -2087,25 +2246,14 @@ export function StandardizedLocationPage() {
         <div className="mt-10 mb-20 rounded-lg border border-gray-200 bg-white p-6">
           <h2 className="text-xl font-semibold mb-4">FAQ for {cityName} appraisals</h2>
           <div className="space-y-4 text-gray-600">
-            <div>
-              <p className="font-semibold text-gray-900">Do you offer in-person appraisals in {cityName}?</p>
-              <p>
-                Appraisily focuses on online appraisals. Use the local directory to contact in-person providers, or get a fast
-                online alternative with Appraisily.
-              </p>
-            </div>
-            <div>
-              <p className="font-semibold text-gray-900">How does an online appraisal work?</p>
-              <p>Share photos, measurements, and any provenance. Our experts review the item and deliver a written valuation.</p>
-            </div>
-            <div>
-              <p className="font-semibold text-gray-900">What should I prepare before requesting an appraisal?</p>
-              <p>Multiple photos, condition notes, dimensions, and any labels, signatures, or purchase history help the most.</p>
-            </div>
-            <div>
-              <p className="font-semibold text-gray-900">Can I still use a local appraiser?</p>
-              <p>Yes. Start with the directory above if you want in-person services in {cityName}.</p>
-            </div>
+            {locationFaqs.map((faq) => (
+              <details key={faq.question} open className="rounded-lg border border-gray-100 px-4 py-3">
+                <summary className="cursor-pointer font-semibold text-gray-900">
+                  {faq.question}
+                </summary>
+                <p className="mt-2">{faq.answer}</p>
+              </details>
+            ))}
           </div>
         </div>
       </div>

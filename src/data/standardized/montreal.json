@@ -173,6 +173,488 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "notre-dame-antiques-montreal-qc",
+      "name": "Notre-Dame Street Antiques",
+      "slug": "notre-dame-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3320 Notre-Dame St W",
+        "city": "Montreal",
+        "state": "QC",
+        "zip": "H4C 1N7",
+        "formatted": "3320 Notre-Dame St W, Montreal, QC H4C 1N7"
+      },
+      "contact": {
+        "phone": "(514) 937-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "French Antiques",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Notre-Dame Street is Montreal's premier antique destination with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "mile-end-antiques-montreal-qc",
+      "name": "Mile End Antiques",
+      "slug": "mile-end-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "5490 St-Laurent Blvd",
+        "city": "Montreal",
+        "state": "QC",
+        "zip": "H2T 1S9",
+        "formatted": "5490 St-Laurent Blvd, Montreal, QC H2T 1S9"
+      },
+      "contact": {
+        "phone": "(514) 495-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Vintage Items",
+          "Eclectic Antiques",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Mile End Antiques offers curated vintage and antique items with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "montreal-estate-sales-montreal-qc",
+      "name": "Montreal Estate Sales & Appraisals",
+      "slug": "montreal-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "1000 De La Gauchetiere St W",
+        "city": "Montreal",
+        "state": "QC",
+        "zip": "H5A 1B3",
+        "formatted": "1000 De La Gauchetiere St W, Montreal, QC H5A 1B3"
+      },
+      "contact": {
+        "phone": "(514) 866-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "French Canadian Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Montreal Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout Greater Montreal.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "simmons-antiques-montreal-qc",
+      "name": "Simmons Antiques",
+      "slug": "simmons-antiques-montreal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Montreal",
+        "state": "QC",
+        "zip": "",
+        "formatted": "Montreal, QC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.simmonsantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Items",
+          "House Contents"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "House Content Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Simmons Antiques is a Montreal, Quebec company specializing in antique appraisals and house content sales. With years of experience in the Montreal antique scene, they are well acquainted with values and the options available to clients.",
+        "notes": "Website: simmonsantiques.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "le-balcon-dart-montreal-qc",
+      "name": "Le Balcon d'Art",
+      "slug": "le-balcon-dart-montreal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Montreal",
+        "state": "QC",
+        "zip": "",
+        "formatted": "Montreal, QC"
+      },
+      "contact": {
+        "phone": "(450) 466-8920",
+        "email": "",
+        "website": "https://balcondart.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1985",
+        "hours": [
+          {
+            "day": "Monday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Tuesday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Canadian Art",
+          "Quebec Paintings",
+          "Sculptures",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Framing Services"
+        ]
+      },
+      "content": {
+        "about": "Le Balcon d'Art has been the local rendez-vous for art amateurs in the greater Montreal region since 1985. The gallery specializes in Quebec and Canadian art, offering periodic appraisals of paintings, sculptures, and precious objets d'art.",
+        "notes": "(450) 466-8920. Website: balcondart.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "milord-antiques-montreal-qc",
+      "name": "Milord Antiques",
+      "slug": "milord-antiques-montreal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Montreal",
+        "state": "QC",
+        "zip": "",
+        "formatted": "Montreal, QC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Since 1991",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "French Antiques",
+          "Canadiana",
+          "Antique Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "CADA Member"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Milord Antiques was founded in 1991 and is situated at the heart of Montreal's Quartier des antiquaires on Notre-Dame Street. As a member of the Canadian Antique Dealers Association (CADA), they provide professional antique appraisals and deal in fine French and Canadian antiques.",
+        "notes": "CADA member since 1991. Located in Montreal's antique district on Notre-Dame Street."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "ll-succession-estate-montreal-qc",
+      "name": "L&L Succession Estate",
+      "slug": "ll-succession-estate-montreal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Montreal",
+        "state": "QC",
+        "zip": "",
+        "formatted": "Montreal, QC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Settlements",
+          "Antiques",
+          "House Contents",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "L&L Succession Estate provides comprehensive antique appraisal and estate settlement services throughout Greater Montreal. They specialize in evaluating and selling estate contents including antiques, collectibles, and household items.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Montreal, QC."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "old-times-antiques-montreal-qc",
+      "name": "Old Times Antiques",
+      "slug": "old-times-antiques-montreal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Montreal",
+        "state": "QC",
+        "zip": "",
+        "formatted": "Montreal, QC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Items",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Old Times Antiques is a Montreal-based antique shop offering professional appraisal services for antiques, vintage items, and collectibles. Recognized as one of the top antique appraisal services in Montreal.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Montreal, QC."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

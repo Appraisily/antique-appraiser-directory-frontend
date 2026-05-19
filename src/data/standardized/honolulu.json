@@ -239,6 +239,456 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "honolulu-harnisch-and-company",
+      "name": "Harnisch & Company",
+      "slug": "harnisch-and-company",
+      "imageUrl": "",
+      "address": {
+        "street": "3831 Lurline Dr",
+        "city": "Honolulu",
+        "state": "HI",
+        "zip": "96816",
+        "formatted": "3831 Lurline Dr, Honolulu, HI 96816"
+      },
+      "contact": {
+        "phone": "(808) 398-7775",
+        "email": "",
+        "website": "https://harnischandco.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Jewelry",
+          "Antiques",
+          "Personal Property",
+          "Estate Asset Valuations"
+        ],
+        "certifications": [
+          "AIS (Accredited International Valuer)",
+          "CAGA (Certified Personal Property Appraiser)",
+          "IFAA (Fine Art Appraiser)",
+          "ASEL (Accredited Estate Liquidator)"
+        ],
+        "services": [
+          "On-site Examinations",
+          "Market Research",
+          "Comprehensive Appraisal Reports",
+          "Consignment Services",
+          "Tax Reporting Appraisals",
+          "Probate Appraisals",
+          "Insurance Appraisals",
+          "Charitable Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Harnisch & Company specializes in Hawaii-based appraisals for fine art, jewelry, antiques, and personal property. Their credentialed appraisers adhere to the Appraisers International Society (AIS) International Valuation Standards to deliver accurate, well-documented reports recognized by attorneys, courts, and the IRS. Using a structured three-step process of on-site examination, research and report writing, and report delivery, they provide tailored, compliant valuation solutions for families, executors, and legal professionals.",
+        "notes": "Serves all major Hawaiian islands. Reports recognized by attorneys, courts, and IRS."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "honolulu-diana-sanders-cinamon-appraiser",
+      "name": "Diana Sanders Cinamon Appraisals",
+      "slug": "diana-sanders-cinamon-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Honolulu",
+        "state": "HI",
+        "zip": "",
+        "formatted": "Honolulu, HI"
+      },
+      "contact": {
+        "phone": "(808) 272-9911",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established certified appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Art",
+          "Collectibles",
+          "Personal Property"
+        ],
+        "certifications": [
+          "GCA (Graduate Certified Appraiser)",
+          "College for Appraisers Graduate"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Estate Valuations",
+          "Expert Witness Services"
+        ]
+      },
+      "content": {
+        "about": "Diana Sanders Cinamon is a graduate of the College for Appraisers, carrying the designation of GCA (Graduate Certified Appraiser). She provides professional antique and art appraisal services throughout Hawaii, serving clients who need accurate valuations for insurance, estate, and legal purposes.",
+        "notes": "GCA certified. Listed as an antique art and collectibles appraisal expert witness in Hawaii."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "honolulu-valuepros-oahu",
+      "name": "ValuePros Appraisal Services - Oahu",
+      "slug": "valuepros-oahu",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Honolulu",
+        "state": "HI",
+        "zip": "",
+        "formatted": "Oahu, HI (Honolulu Metro)"
+      },
+      "contact": {
+        "phone": "(808) 272-9911",
+        "email": "",
+        "website": "https://www.valuepros.com/oahu-hawaii/"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Real Property",
+          "Personal Property",
+          "Estate Items",
+          "Antiques"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "On-site Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros provides an onsite appraisal service for Oahu and surrounding areas. The ValuePros appraisal experts have extensive experience in identifying and independently certifying the value of a broad range of real and personal property including antiques, estate items, and collectibles. Family owned and managed since 1976.",
+        "notes": "Family owned since 1976. Serves Oahu and Honolulu metro area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "harnisch-and-company-honolulu-hi",
+      "name": "Harnisch & Company",
+      "slug": "harnisch-and-company",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Honolulu",
+        "state": "HI",
+        "zip": "",
+        "formatted": "Honolulu, HI"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://harnischandco.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Jewelry",
+          "Asian Art",
+          "Pacific Islander Art",
+          "Personal Property"
+        ],
+        "certifications": [
+          "Certified Personal Property Appraisers",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Estate Appraisals",
+          "Trust Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Harnisch & Company provides certified personal property appraisal services in Honolulu, Hawaii, specializing in fine art, antiques, estate appraisals, trust and insurance valuations. They bring extensive experience in Hawaiian and Pacific art alongside traditional Western antiques and fine art.",
+        "notes": "Honolulu-based. Specializes in Hawaiian and Pacific art. Full-service appraisal and consignment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-honolulu-hi",
+      "name": "ValuePros Appraisal Services - Honolulu",
+      "slug": "valuepros-appraisal-honolulu",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Honolulu",
+        "state": "HI",
+        "zip": "",
+        "formatted": "Honolulu, HI"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Jewelry",
+          "Personal Property",
+          "Island Art"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Honolulu, HI area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Honolulu HI and Oahu."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "hawaii-estate-appraisals-honolulu-hi",
+      "name": "Hawaii Estate Appraisals",
+      "slug": "hawaii-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Honolulu",
+        "state": "HI",
+        "zip": "96813",
+        "formatted": "Honolulu, HI 96813"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Items",
+          "Antiques",
+          "Hawaiian Collectibles",
+          "Fine Art",
+          "Personal Property"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Hawaii Estate Appraisals provides professional antique and estate appraisals in the Honolulu area. They specialize in valuations for estate settlement, insurance, and charitable donations, with particular expertise in Hawaiian collectibles and Pacific Islander art alongside traditional antiques.",
+        "notes": "Serves Honolulu HI and Oahu. Specializes in Hawaiian and Pacific Islander antiques."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "prestige-estate-services-honolulu-hi",
+      "name": "Prestige Estate Services - Honolulu",
+      "slug": "prestige-estate-services-honolulu",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Honolulu",
+        "state": "HI",
+        "zip": "",
+        "formatted": "Honolulu, HI"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Jewelry",
+          "Personal Property",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ISA",
+          "AAA",
+          "ASA",
+          "USPAP Compliant",
+          "IRS Qualified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Tax Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides IRS-qualified, USPAP-compliant antique and personal property appraisals in Honolulu, Hawaii. Their team of ISA, AAA, and ASA-qualified appraisers delivers thorough valuation reports for estate tax, insurance, charitable donation, and personal property needs throughout Oahu.",
+        "notes": "ISA, AAA, ASA-qualified appraisers. Serves Honolulu HI and Oahu."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

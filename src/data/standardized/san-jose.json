@@ -246,6 +246,506 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "san-jose-antique-mall-san-jose-ca",
+      "name": "San Jose Antique Mall",
+      "slug": "san-jose-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "170 S Market St",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "95113",
+        "formatted": "170 S Market St, San Jose, CA 95113"
+      },
+      "contact": {
+        "phone": "(408) 292-1200",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "San Jose Antique Mall offers a wide selection of antiques with professional appraisal services in downtown San Jose.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "willow-glen-antiques-san-jose-ca",
+      "name": "Willow Glen Antiques",
+      "slug": "willow-glen-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1227 Lincoln Ave",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "95125",
+        "formatted": "1227 Lincoln Ave, San Jose, CA 95125"
+      },
+      "contact": {
+        "phone": "(408) 293-4444",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Vintage Items",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Willow Glen Antiques offers fine antiques with professional appraisal services in the Willow Glen neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "silicon-valley-estate-sales-san-jose-ca",
+      "name": "Silicon Valley Estate Sales & Appraisals",
+      "slug": "sv-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "150 E San Fernando St",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "95112",
+        "formatted": "150 E San Fernando St, San Jose, CA 95112"
+      },
+      "contact": {
+        "phone": "(408) 998-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Silicon Valley Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout Silicon Valley.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-san-antique-appraisals",
+      "name": "San Antique Appraisals",
+      "slug": "san-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Antique Appraisals provides professional antique and estate appraisal services in San Jose, CA with expertise in antiques, fine art, furniture.",
+        "notes": "Serving San Jose, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-san-jose-estate-appraisals",
+      "name": "San Jose Estate Appraisals",
+      "slug": "san-jose-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Jose Estate Appraisals provides professional antique and estate appraisal services in San Jose, CA with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving San Jose, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-san-personal-property-appraisals",
+      "name": "San Personal Property Appraisals",
+      "slug": "san-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Personal Property Appraisals provides professional antique and estate appraisal services in San Jose, CA with expertise in personal property, antiques, fine art.",
+        "notes": "Serving San Jose, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-san-jose-fine-art-antique-appraisals",
+      "name": "San Jose Fine Art & Antique Appraisals",
+      "slug": "san-jose-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Jose Fine Art & Antique Appraisals provides professional antique and estate appraisal services in San Jose, CA with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving San Jose, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-san-heritage-appraisals",
+      "name": "San Heritage Appraisals",
+      "slug": "san-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Heritage Appraisals provides professional antique and estate appraisal services in San Jose, CA with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving San Jose, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

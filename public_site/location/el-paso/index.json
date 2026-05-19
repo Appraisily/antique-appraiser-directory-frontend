@@ -1,0 +1,86 @@
+{
+  "title": "Antique & Art Appraisers in El Paso, Texas",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "el-paso",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/el-paso/",
+    "name": "Antique & Art Appraisers in El Paso, Texas",
+    "description": "Compare antique and art appraisers in El Paso, Texas and request a fast online appraisal from Appraisily.",
+    "city": "El Paso",
+    "region": "TX",
+    "country": "US",
+    "numberOfListedAppraisers": 10,
+    "listedAppraisers": [
+      {
+        "name": "Border Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/border-antiques.svg",
+        "description": "Border Antiques offers antique appraisal support in El Paso, Texas. Specialties: Southwestern Antiques, Mexican Folk Art, Vintage Furniture. Services: Antique Appraisals, Estate Valuations, Cultural Art Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "El Antique Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/el-antique-appraisals.svg",
+        "description": "El Antique Appraisals offers antique appraisal support in El Paso, Texas. Specialties: Antiques, Fine Art, Furniture, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "El Heritage Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/el-paso-antique-appraisals.svg",
+        "description": "El Heritage Appraisals offers antique appraisal support in El Paso, Texas. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "El Paso Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/el-paso-antique-appraisals/",
+        "slug": "el-paso-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_el_paso-el-paso-antique-appraisals_1742203521678_IffIEcdJS.jpg",
+        "description": "El Paso Antique Appraisals offers antique appraisal support in El Paso, Texas. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "El Paso Antique Mall",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/el-paso-antique-mall.svg",
+        "description": "El Paso Antique Mall offers antique appraisal support in El Paso, Texas. Specialties: General Antiques, Southwestern Antiques, Mexican Antiques. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "El Paso Estate Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/el-paso-estate-appraisals.svg",
+        "description": "El Paso Estate Appraisals offers antique appraisal support in El Paso, Texas. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "El Paso Fine Art & Antique Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/el-paso-fine-art-antique-appraisals.svg",
+        "description": "El Paso Fine Art & Antique Appraisals offers antique appraisal support in El Paso, Texas. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance Apprai…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "El Personal Property Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-el-paso.svg",
+        "description": "El Personal Property Appraisals offers antique appraisal support in El Paso, Texas. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Heritage Valuations El Paso",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-el-paso/",
+        "slug": "heritage-valuations-el-paso",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_el_paso-heritage-valuations-el-paso_1742203527483_-6bF7rdDa.jpg",
+        "description": "Heritage Valuations El Paso offers antique appraisal support in El Paso, Texas. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Mesilla Valley Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mesilla-valley-antiques.svg",
+        "description": "Mesilla Valley Antiques offers antique appraisal support in El Paso, Texas. Specialties: Fine Antiques, Collectibles, Art. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/el-paso/"
+    }
+  }
+}

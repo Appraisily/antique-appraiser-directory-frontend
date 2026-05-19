@@ -1,0 +1,86 @@
+{
+  "title": "Antique & Art Appraisers in Boise, Idaho",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "boise",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/boise/",
+    "name": "Antique & Art Appraisers in Boise, Idaho",
+    "description": "Compare antique and art appraisers in Boise, Idaho and request a fast online appraisal from Appraisily.",
+    "city": "Boise",
+    "region": "ID",
+    "country": "US",
+    "numberOfListedAppraisers": 10,
+    "listedAppraisers": [
+      {
+        "name": "Boise Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/boise-antique-appraisals/",
+        "slug": "boise-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_boise-boise-antique-appraisals_1742170068095_h9q7uIUMg.jpg",
+        "description": "Boise Antique Appraisals offers antique appraisal support in Boise, Idaho. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Boise Antique Mall",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/boise-antique-mall.svg",
+        "description": "Boise Antique Mall offers antique appraisal support in Boise, Idaho. Specialties: General Antiques, Vintage Collectibles, Furniture. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Boise Estate Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/boise-estate-appraisals.svg",
+        "description": "Boise Estate Appraisals offers antique appraisal support in Boise, Idaho. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Boise Fine Art & Antique Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/boise-fine-art-antique-appraisals.svg",
+        "description": "Boise Fine Art & Antique Appraisals offers antique appraisal support in Boise, Idaho. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Boise Heritage Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/boise-heritage-appraisals.svg",
+        "description": "Boise Heritage Appraisals offers antique appraisal support in Boise, Idaho. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Boise Personal Property Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-boise.svg",
+        "description": "Boise Personal Property Appraisals offers antique appraisal support in Boise, Idaho. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisal…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Heritage Valuations Boise",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-boise/",
+        "slug": "heritage-valuations-boise",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_boise-heritage-valuations-boise_1742170071422_5CB5rJkOY.jpg",
+        "description": "Heritage Valuations Boise offers antique appraisal support in Boise, Idaho. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, Insurance Appr…",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Idaho Antique & Estate Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/idaho-antique-and-estate-appraisals.svg",
+        "description": "Idaho Antique & Estate Appraisals offers antique appraisal support in Boise, Idaho. Specialties: Antiques, Fine Art, Estate Contents, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Idaho Estate Sales & Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/idaho-estate-sales.svg",
+        "description": "Idaho Estate Sales & Appraisals offers antique appraisal support in Boise, Idaho. Specialties: Estate Appraisals, Antique Furniture, Collectibles. Services: Antique Appraisals, Estate Sales, Estate Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Relics Antiques & Collectibles",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/relics-antiques.svg",
+        "description": "Relics Antiques & Collectibles offers antique appraisal support in Boise, Idaho. Specialties: General Antiques, Collectibles, Vintage Items. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/boise/"
+    }
+  }
+}

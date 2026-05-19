@@ -1,6 +1,744 @@
 {
   "appraisers": [
     {
+      "id": "seattle-andrea-moody-fine-art-appraisals-llc",
+      "name": "Andrea Moody Fine Art Appraisals, LLC",
+      "slug": "andrea-moody-fine-art-appraisals-llc",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Seattle, WA"
+      },
+      "contact": {
+        "phone": "0485011482",
+        "email": "",
+        "website": "http://www.andreamoody.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Andrea Moody Fine Art Appraisals, LLC offers antique and personal property appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.andreamoody.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.andreamoody.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJLaEpKS0TkFQRO0S4IRmYyws",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "seattle-antique-and-fine-art-appraisal",
+      "name": "Antique & Fine Art Appraisal",
+      "slug": "antique-and-fine-art-appraisal",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Seattle, WA"
+      },
+      "contact": {
+        "phone": "+1 206-932-5550",
+        "email": "",
+        "website": "https://www.bbb.org/us/wa/seattle/profile/art-consultant/antique-fine-art-appraisal-service-1296-7048614"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique & Fine Art Appraisal offers antique and personal property appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.bbb.org/us/wa/seattle/profile/art-consultant/antique-fine-art-appraisal-service-1296-7048614. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bbb.org/us/wa/seattle/profile/art-consultant/antique-fine-art-appraisal-service-1296-7048614",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ3zW6tgJBkFQR9-e3cUcnwQg",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "seattle-antique-appraisal-estate-sale",
+      "name": "Antique Appraisal & Estate Sale Service",
+      "slug": "antique-appraisal-estate-sale",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Since 1973",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 20
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "AAA Certified",
+          "ISA CAPP Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sale Services",
+          "Insurance Appraisals",
+          "Estate Planning"
+        ]
+      },
+      "content": {
+        "about": "Antique Appraisal and Estate Sale Service has valued over a million items since 1973. Based in the Seattle area, certified appraisers serve the Puget Sound region with expertise in antiques and estate contents.",
+        "notes": "Serving Seattle, WA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "seattle-antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa",
+      "name": "Antique Appraisel and Estate Sale Service - K & P Bailey ISA CAPP, AAA",
+      "slug": "antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Seattle, WA"
+      },
+      "contact": {
+        "phone": "+1 425-746-2777",
+        "email": "",
+        "website": "http://www.kbaileyantiques.net"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique Appraisel and Estate Sale Service - K & P Bailey ISA CAPP, AAA offers antique and personal property appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.kbaileyantiques.net. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.kbaileyantiques.net",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJxUpDWlQVkFQRdcJ3w0MGiQo",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "seattle-appraisalink-for-art-and-antiques",
+      "name": "APPRAISALINK for Art & Antiques",
+      "slug": "appraisalink-for-art-and-antiques",
+      "imageUrl": "https://static.wixstatic.com/media/7b5533_3ec50fe8a435480489aeafd90718aa1f%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/7b5533_3ec50fe8a435480489aeafd90718aa1f%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Seattle, WA"
+      },
+      "contact": {
+        "phone": "+ 360-588-8995",
+        "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "website": "https://www.appraisalink.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "APPRAISALINK for Art & Antiques offers antique and personal property appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.appraisalink.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.appraisalink.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJfUhPl-J5hVQRc0-dY_AgE8o",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "seattle-baggenstoss-appraisal",
+      "name": "Baggenstoss Appraisal Antique & Estate Appraiser",
+      "slug": "baggenstoss-appraisal",
+      "imageUrl": "https://baggenstossappraisal.com/wp-content/uploads/2024/01/site-logo.png?w=22",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Seattle, WA"
+      },
+      "contact": {
+        "phone": "(503) 422-3481",
+        "email": "baggenstossappraisal@gmail.com",
+        "website": "https://baggenstossappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Baggenstoss Appraisal Antique & Estate Appraiser offers antique and personal property appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://baggenstossappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://baggenstossappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJaXFCdBOhlVQRD-1HHi7uwec",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "seattle-bonhams-pacific-northwest",
+      "name": "Bonhams",
+      "slug": "bonhams-pacific-northwest",
+      "imageUrl": "https://www.bonhams.com/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Seattle, WA"
+      },
+      "contact": {
+        "phone": "+1 206 566 3913",
+        "email": "heather.omahony@bonhams.com",
+        "website": "https://www.bonhams.com/location/PNW/pacific-northwest/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Bonhams offers antique and personal property appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.bonhams.com/location/PNW/pacific-northwest/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bonhams.com/location/PNW/pacific-northwest/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site art/antique appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJ90D_cxIVkFQRBvgJqGvkyd8",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned regional office page states appraisals for insurance and probate",
+          "fine art, jewelry, collectibles, and auction-category fit",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "seattle-donnelly-and-donnelly-appraisals-estate-sale-services",
+      "name": "Donnelly & Donnelly Appraisals & Estate Sale Services",
+      "slug": "donnelly-and-donnelly-appraisals-estate-sale-services",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Seattle, WA"
+      },
+      "contact": {
+        "phone": "206-789-3465",
+        "email": "Donnellyestatesales@gmail.com",
+        "website": "https://www.donnellyestatesales.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Donnelly & Donnelly Appraisals & Estate Sale Services offers antique and personal property appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.donnellyestatesales.com/about. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.donnellyestatesales.com/about",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site art/antique appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJAYTFaHkWkFQRZOpE3TI9xp0",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site about/contact pages support estate-sale and appraisal identity",
+          "estate contents appraisal fit",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "seattle-duwamps-fine-art-appraisals",
+      "name": "Duwamps Fine Art & Antique Appraisals",
+      "slug": "duwamps-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(206) 495-8660",
+        "email": "duwamps@outlook.com",
+        "website": "https://www.duwampsartappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Native American & Eskimo Art",
+          "Northwest Regional Art",
+          "American Fine Art",
+          "Historic Photography",
+          "Antiques"
+        ],
+        "certifications": [
+          "ISA Accredited Member",
+          "IRS Qualified Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Charitable Donation Appraisals",
+          "Estate Planning",
+          "Equitable Distribution",
+          "Estate Tax Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Duwamps Fine Art & Antique Appraisals specializes in Native American and Eskimo art, Northwest regional art, and historic photography. Christy Christodoulides, M.A. is an ISA Accredited Member with 15+ years of experience.",
+        "notes": "Serving Seattle, WA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "seattle-foss-appraisal-service",
+      "name": "Foss Appraisal Service",
+      "slug": "foss-appraisal-service",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/58fe560ad1758e7d22393063/1497373896299-V5Y3JXZZ2AZBPLQRCEX5/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Seattle, WA"
+      },
+      "contact": {
+        "phone": "206-708-7393",
+        "email": "chris@fossappraisal.com",
+        "website": "https://www.fossappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Foss Appraisal Service offers antique, jewelry, or personal-property appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.fossappraisal.com/appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fossappraisal.com/appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJ96J0b8BBkFQRPRurhEUMtos",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site has Appraisals page and estate sale services",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "fremont-antiques-seattle-wa",
+      "name": "Fremont Antique Mall",
+      "slug": "fremont-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "3400 EV Ave NE",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98103",
+        "formatted": "3400 EV Ave NE, Seattle, WA 98103"
+      },
+      "contact": {
+        "phone": "(206) 632-3344",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Mid-Century Modern",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Fremont Antique Mall offers a wide selection of antiques with professional appraisal services in the Fremont neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "seattle-heritage-valuations-seattle",
       "name": "Heritage Valuations Seattle",
       "slug": "heritage-valuations-seattle",
@@ -70,6 +808,467 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "seattle-jaynes-appraisals",
+      "name": "Jaynes Appraisals",
+      "slug": "jaynes-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(425) 298-6455",
+        "email": "pamela@jaynesappraisals.com",
+        "website": "https://www.jaynesappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Estate Items",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ISA Certified Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jaynes Appraisals provides professional antique appraisal services in Seattle. As a Certified Member of the International Society of Appraisers, Pamela offers expertise across antiques, fine art, and estate contents.",
+        "notes": "Serving Seattle, WA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "seattle-jrl-fine-art-appraisal",
+      "name": "JRL Fine Art Appraisal",
+      "slug": "jrl-fine-art-appraisal",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/56f6211a2eeb813966099f4f/08926fd7-361e-4c80-a9b4-da25895265af/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Seattle, WA"
+      },
+      "contact": {
+        "phone": "(503) 558 5131",
+        "email": "user@domain.com",
+        "website": "https://www.jenaroselee.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "JRL Fine Art Appraisal offers antique and personal property appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.jenaroselee.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.jenaroselee.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJbYnMmYwLSY4RlAkmdgFmKnI",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "seattle-mcallister-fossum-appraisal",
+      "name": "McAllister/Fossum Appraisal Services",
+      "slug": "mcallister-fossum-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "753 N 35th St Ste 208E",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98103",
+        "formatted": "753 N 35th St Ste 208E, Seattle, WA 98103"
+      },
+      "contact": {
+        "phone": "(206) 271-7966",
+        "email": "info@mcallisterfossum.com",
+        "website": "https://www.mcallisterfossum.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1980",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Residential Contents",
+          "Fine Art",
+          "Northwest Coast Native Art",
+          "Furniture",
+          "Silver",
+          "Collectibles"
+        ],
+        "certifications": [
+          "ISA Accredited Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Planning",
+          "Charitable Contributions",
+          "Insurance Coverage",
+          "Equitable Distribution",
+          "Bankruptcy Appraisals"
+        ]
+      },
+      "content": {
+        "about": "McAllister/Fossum has provided antique and residential contents appraisals in Seattle since 1980. Lead appraiser Erin G. Fossum, MA is an Accredited Member of the International Society of Appraisers.",
+        "notes": "Serving Seattle, WA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "seattle-mr-johnson-s-antiques",
+      "name": "Mr Johnson's Antiques",
+      "slug": "mr-johnson-s-antiques",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Seattle, WA"
+      },
+      "contact": {
+        "phone": "2063226033",
+        "email": "",
+        "website": "https://mrjohnsonsantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Mr Johnson's Antiques offers antique and personal property appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://mrjohnsonsantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://mrjohnsonsantiques.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJESH_hsMUkFQRVb3-lnzmdwE",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "seattle-pacific-coast-appraisals",
+      "name": "Pacific Coast Appraisals",
+      "slug": "pacific-coast-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Asian Art",
+          "Native American Art",
+          "Decorative Arts",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pacific Coast Appraisals offers expert antique and fine art valuations in the Seattle area, with particular strength in Asian art, Native American pieces, and decorative arts.",
+        "notes": "Serving Seattle, WA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pacific-northwest-antiques-seattle-wa",
+      "name": "Pacific Northwest Antiques & Estate Sales",
+      "slug": "pnw-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "400 Pine St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101",
+        "formatted": "400 Pine St, Seattle, WA 98101"
+      },
+      "contact": {
+        "phone": "(206) 441-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "Pacific Northwest Art",
+          "General Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pacific Northwest Antiques & Estate Sales provides comprehensive antique and estate appraisal services throughout the Seattle area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pioneer-square-antiques-seattle-wa",
+      "name": "Pioneer Square Antiques",
+      "slug": "pioneer-square-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "614 1st Ave",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98104",
+        "formatted": "614 1st Ave, Seattle, WA 98104"
+      },
+      "contact": {
+        "phone": "(206) 624-4444",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Pioneer Square Antiques offers fine antiques and collectibles with professional appraisal services in Seattle's historic Pioneer Square.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },
@@ -251,6 +1450,73 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "seattle-singer-galleries-personal-property-appraisers",
+      "name": "Singer Galleries, LTD",
+      "slug": "singer-galleries-personal-property-appraisers",
+      "imageUrl": "https://www.singergalleries.com/cdn/shop/files/10441169_10154321374245995_2999733418232685207_n_32x32.png?v=1613153244",
+      "address": {
+        "street": "",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Seattle, WA"
+      },
+      "contact": {
+        "phone": "206-285-0394",
+        "email": "",
+        "website": "https://www.singergalleries.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate contents valuations",
+          "Personal property appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Singer Galleries, LTD offers antique, estate-content, or personal-property appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.singergalleries.com/pages/about-us. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.singergalleries.com/pages/about-us",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJGV88DGwVkFQRci8e82rbPIY",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site identifies Seattle antique store and personal property appraisers since 1981",
+          "explicitly reviewed non-real-estate fit"
+        ]
       }
     }
   ]

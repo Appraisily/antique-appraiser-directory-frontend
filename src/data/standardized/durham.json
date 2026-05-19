@@ -1,0 +1,76 @@
+{
+  "appraisers": [
+    {
+      "id": "durham-look-appraisal",
+      "name": "Look Appraisal, LLC Fine Art & Estate Appraiser",
+      "slug": "look-appraisal",
+      "imageUrl": "https://www.lookappraisal.com/cdn/shop/files/Look_Appraisal_807b61ac-cedf-423c-b4d1-ae98e7bcf8d4_400x.png?v=1762801600",
+      "address": {
+        "street": "",
+        "city": "Durham",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Durham, NC"
+      },
+      "contact": {
+        "phone": "(919) 438-3189",
+        "email": "",
+        "website": "https://www.lookappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Look Appraisal, LLC Fine Art & Estate Appraiser offers antique and personal property appraisal services serving Durham, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.lookappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.lookappraisal.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJnWCT7W33rIkRTnaicyUGYY0",
+        "confidenceScore": 120,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

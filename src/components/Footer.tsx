@@ -1,9 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { useLocation } from 'react-router-dom';
 import { Facebook, Twitter, Instagram, Mail, ArrowRight, MapPin } from 'lucide-react';
 import citiesData from '../data/cities.json';
 import { PARENT_SITE_URL, SITE_NAME, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
 import { BRAND_LOGO_URL } from '../config/assets';
 import { trackEvent } from '../utils/analytics';
+
+const cities = citiesData.cities;
 
 const links = {
   quickLinks: [
@@ -12,8 +15,7 @@ const links = {
     { name: 'Free AI Art Analysis', href: `${PARENT_SITE_URL}/screener` },
     { name: 'Priority Appraisal Guides', href: 'https://articles.appraisily.com/priority-guides/' },
     { name: 'IRS Qualified Appraiser Guide', href: 'https://articles.appraisily.com/irs-qualified-appraiser-near-me/' },
-    { name: 'Antique Furniture Value Guide', href: 'https://articles.appraisily.com/how-to-determine-value-of-antique-furniture/' },
-    { name: 'Terms of Service', href: `${PARENT_SITE_URL}/terms` }
+    { name: 'Antique Furniture Value Guide', href: 'https://articles.appraisily.com/how-to-determine-value-of-antique-furniture/' }
   ],
   legal: [
     { name: 'Privacy Policy', href: `${PARENT_SITE_URL}/privacy` },
@@ -29,13 +31,9 @@ const links = {
 type FooterCity = typeof citiesData.cities[number];
 
 export function Footer() {
-  const [cities, setCities] = useState<FooterCity[]>([]);
+  const location = useLocation();
   const primaryCtaUrl = getPrimaryCtaUrl();
-  
-  useEffect(() => {
-    // Load cities from the imported data
-    setCities(citiesData.cities);
-  }, []);
+  const currentLocationSlug = location.pathname.match(/^\/location\/([^/]+)\/?$/)?.[1] ?? null;
 
   const handleFooterCtaClick = () => {
     trackEvent('cta_click', {
@@ -89,20 +87,41 @@ export function Footer() {
           <h3 className="text-lg font-semibold text-gray-900 mb-6">
             Find Antique Appraisers Near You
           </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-            {cities.map((city) => (
-              <a 
-                key={city.slug}
-                href={buildSiteUrl(`/location/${city.slug}`)}
-                className="text-gray-600 hover:text-gray-900 transition-colors text-sm flex items-center gap-1"
-                data-gtm-event="footer_city_click"
-                data-gtm-city={city.slug}
-                data-gtm-state={city.state}
-                onClick={() => handleFooterCityClick(city)}
-              >
-                <MapPin className="h-3 w-3" /> {city.name}, {city.state}
-              </a>
-            ))}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 overflow-hidden">
+            {cities.map((city) => {
+              const isCurrentLocation = city.slug === currentLocationSlug;
+              const cityLabel = (
+                <>
+                  <MapPin className="h-3 w-3 flex-shrink-0" /> <span className="truncate">{city.name}, {city.state}</span>
+                </>
+              );
+
+              if (isCurrentLocation) {
+                return (
+                  <span
+                    key={city.slug}
+                    className="text-gray-900 font-medium text-sm flex items-center gap-1 min-w-0 truncate"
+                    aria-current="page"
+                  >
+                    {cityLabel}
+                  </span>
+                );
+              }
+
+              return (
+                <a
+                  key={city.slug}
+                  href={buildSiteUrl(`/location/${city.slug}`)}
+                  className="text-gray-600 hover:text-gray-900 transition-colors text-sm flex items-center gap-1 min-w-0 truncate"
+                  data-gtm-event="footer_city_click"
+                  data-gtm-city={city.slug}
+                  data-gtm-state={city.state}
+                  onClick={() => handleFooterCityClick(city)}
+                >
+                  {cityLabel}
+                </a>
+              );
+            })}
           </div>
         </div>
       </div>

@@ -1,6 +1,466 @@
 {
   "appraisers": [
     {
+      "id": "nashville-a-j-martin-estate-jewelry-etc",
+      "name": "A.J. Martin Estate Jewelry, Etc.",
+      "slug": "a-j-martin-estate-jewelry-etc",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": "Nashville, TN"
+      },
+      "contact": {
+        "phone": "(615) 321-4600",
+        "email": "",
+        "website": "https://ajmartinonline.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "A.J. Martin Estate Jewelry, Etc. offers antique and personal property appraisal services serving Nashville, TN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://ajmartinonline.com/pages/jewelry-appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://ajmartinonline.com/pages/jewelry-appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ_acN7q9mZIgRupNVidZOhMI",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "nashville-belle-meade-jewelry",
+      "name": "Belle Meade Jewelry",
+      "slug": "belle-meade-jewelry",
+      "imageUrl": "http://static1.squarespace.com/static/6682da7439bf3c496eaf3598/t/66981e13d854923914ce9b66/1721245203860/bmjlogo.JPG?format=1500w",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": "Nashville, TN"
+      },
+      "contact": {
+        "phone": "615-423-7214",
+        "email": "castgold@gmail.com",
+        "website": "https://www.bellemeadejewelry.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Belle Meade Jewelry offers antique and personal property appraisal services serving Nashville, TN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.bellemeadejewelry.net/contact. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bellemeadejewelry.net/contact",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJJTgJM9tjZIgRL4zhhW_dCgs",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "nashville-berenice-denton-estate-sales-appraisals",
+      "name": "Berenice Denton Estate Sales and Appraisals",
+      "slug": "berenice-denton-estate-sales-appraisals",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": "Nashville, TN"
+      },
+      "contact": {
+        "phone": "615.292.5765",
+        "email": "info@berenicedenton.com",
+        "website": "https://www.berenicedenton.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Berenice Denton Estate Sales and Appraisals (by appointment only) offers antique and personal property appraisal services serving Nashville, TN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.berenicedenton.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.berenicedenton.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site art/antique appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJPd_6qECIZIgRU5FP7PNK3C0",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states estate sales and appraisals",
+          "estate contents appraisal fit",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "nashville-case-antiques-auction",
+      "name": "Case Antiques Auction",
+      "slug": "case-antiques-auction",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://caseantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Jewelry",
+          "Estate Contents",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Professional Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Case Antiques provides appraisal and auction services in Nashville for fine art, antiques, jewelry, and entire estates.",
+        "notes": "Serving Nashville, TN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nashville-chris-james-jewelry-appraisals",
+      "name": "Chris James Co.",
+      "slug": "chris-james-jewelry-appraisals",
+      "imageUrl": "https://static.wixstatic.com/ficons/d59ed8_ecb6e22a21964688b702675ff4786087%7Emv2.ico",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": "Nashville, TN"
+      },
+      "contact": {
+        "phone": "(615) 576-8886",
+        "email": "chris@chrisjamesappraisals.com",
+        "website": "https://www.chrisjamesappraisals.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=1813543495810014023"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [
+          "GIA referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Chris James Co. offers antique, jewelry, or personal-property appraisal services serving Nashville, TN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.chrisjamesappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.chrisjamesappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJh8RTd_VlZIgRqg09Ygtq9SE",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states jewelry and estate jewelry appraisals by GIA-trained Graduate Gemologist",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "eighth-avenue-antiques-nashville-tn",
+      "name": "Eighth Avenue Antique District",
+      "slug": "eighth-avenue-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "2100 8th Ave S",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37204",
+        "formatted": "2100 8th Ave S, Nashville, TN 37204"
+      },
+      "contact": {
+        "phone": "(615) 383-1810",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Historic antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Southern Antiques",
+          "Vintage Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "The Eighth Avenue Antique District is Nashville's premier antique destination, with multiple dealers offering expert appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "gas-lamp-antiques-nashville-tn",
+      "name": "Gas Lamp Antiques",
+      "slug": "gas-lamp-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "4024 Hillsboro Pike",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37215",
+        "formatted": "4024 Hillsboro Pike, Nashville, TN 37215"
+      },
+      "contact": {
+        "phone": "(615) 292-2250",
+        "email": "",
+        "website": "https://www.gaslampantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Lighting",
+          "Fine Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Lighting Restoration"
+        ]
+      },
+      "content": {
+        "about": "Gas Lamp Antiques offers fine antiques and lighting with professional appraisal services in Green Hills.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "nashville-heritage-valuations-nashville",
       "name": "Heritage Valuations Nashville",
       "slug": "heritage-valuations-nashville",
@@ -91,6 +551,267 @@
       }
     },
     {
+      "id": "nashville-michael-hall-antiques",
+      "name": "Michael Hall Antiques",
+      "slug": "michael-hall-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.michaelhallantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "18th-20th Century American Furniture",
+          "Southern Furniture",
+          "Antiques",
+          "Fine Art"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Michael Hall is an antiques dealer and appraiser based in Nashville, specializing in 18th, 19th and 20th century American and Southern Furniture.",
+        "notes": "Serving Nashville, TN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nashville-minerva-appraisal-llc",
+      "name": "Minerva Appraisal, LLC",
+      "slug": "minerva-appraisal-llc",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": "Nashville, TN"
+      },
+      "contact": {
+        "phone": "615-570-7444",
+        "email": "user@domain.com",
+        "website": "https://www.minervaappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Minerva Appraisal, LLC offers antique and personal property appraisal services serving Nashville, TN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.minervaappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.minervaappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJe1eTM4twZIgRAM7B_ASUbVw",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "nashville-music-city-antique-appraisals",
+      "name": "Music City Antique Appraisals",
+      "slug": "music-city-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Southern Antiques",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Music City Antique Appraisals offers professional antique valuations throughout Nashville with expertise in Southern antiques, furniture, and fine art.",
+        "notes": "Serving Nashville, TN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nashville-nashville-antique-art-appraisals",
+      "name": "Nashville Antique & Art Appraisals",
+      "slug": "nashville-antique-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Decorative Arts",
+          "Estate Items",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Nashville Antique & Art Appraisals offers professional valuations for antiques, fine art, and decorative arts throughout the Nashville area.",
+        "notes": "Serving Nashville, TN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "nashville-nashville-antique-appraisals",
       "name": "Nashville Antique Appraisals",
       "slug": "nashville-antique-appraisals",
@@ -168,6 +889,267 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "nashville-antique-gallery-nashville-tn",
+      "name": "Nashville Antique Gallery",
+      "slug": "nashville-antique-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "1608 Clinton St",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37203",
+        "formatted": "1608 Clinton St, Nashville, TN 37203"
+      },
+      "contact": {
+        "phone": "(615) 750-5550",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Southern Antiques",
+          "Music Memorabilia"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Nashville Antique Gallery offers a wide selection of fine antiques with professional appraisal services in the Wedgewood-Houston area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nashville-redtail-appraisals",
+      "name": "Redtail Appraisals",
+      "slug": "redtail-appraisals",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/9657fd7f-fc7d-49ed-90c8-d61f8ea3fa92/favicon/65de4acc-072b-4b6d-bca8-0d1435287bbe.jpg/:/rs=w:16,h:16,m",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": "Nashville, TN"
+      },
+      "contact": {
+        "phone": "+1 (865) 888-0461",
+        "email": "info@indiantypefoundry.com",
+        "website": "https://redtailappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Redtail Appraisals offers antique and personal property appraisal services serving Nashville, TN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://redtailappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://redtailappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ5ZvsPm4gOWQRl33chrIYgIk",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "nashville-tennessee-estate-appraisals",
+      "name": "Tennessee Estate Appraisals",
+      "slug": "tennessee-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Collectibles",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Probate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Tennessee Estate Appraisals provides comprehensive antique and estate valuations throughout Nashville and Middle Tennessee.",
+        "notes": "Serving Nashville, TN with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nashville-van-mcminn-jewelry-appraisals",
+      "name": "Van McMinn, G. G. Jewelry Appraisals",
+      "slug": "van-mcminn-jewelry-appraisals",
+      "imageUrl": "http://cdn2.editmysite.com/images/site/footer/og-image-placeholder-blank.png",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": "Nashville, TN"
+      },
+      "contact": {
+        "phone": "(615) 397-5603",
+        "email": "",
+        "website": "http://www.vanmcminn.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Van McMinn, G. G. Jewelry Appraisals offers antique and personal property appraisal services serving Nashville, TN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.vanmcminn.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.vanmcminn.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJYeCYtvBlZIgRyQKCWURxT0E",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct phone found"
+        ]
       }
     }
   ]

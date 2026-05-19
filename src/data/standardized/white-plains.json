@@ -1,0 +1,279 @@
+{
+  "appraisers": [
+    {
+      "id": "white-plains-adams-unlimited-inc-estate-buyers-estate-liquidation-antiques-buyer-used-furniture-buyers",
+      "name": "Adams Unlimited Inc",
+      "slug": "adams-unlimited-inc-estate-buyers-estate-liquidation-antiques-buyer-used-furniture-buyers",
+      "imageUrl": "http://www.weebly.com/uploads/reseller/assets/1001-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "White Plains",
+        "state": "NY",
+        "zip": "",
+        "formatted": "White Plains, NY"
+      },
+      "contact": {
+        "phone": "914-312-8622",
+        "email": "info@adamsunlimited.net",
+        "website": "http://www.adamsunlimited.net/index.html"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Adams Unlimited Inc offers antique and personal property appraisal services serving White Plains, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: http://www.adamsunlimited.net/index.html. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.adamsunlimited.net/index.html",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJGTcCWMrywokRR8-l0Ry6TCo",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "white-plains-beth-weingast-fine-art-appraisals",
+      "name": "Beth Weingast Fine Art Appraisals - Paintings, Judaica, Coins, Jewelry",
+      "slug": "beth-weingast-fine-art-appraisals",
+      "imageUrl": "https://horizons-cdn.hostinger.com/6ef3f921-482b-4e4d-ab4a-aa7f219f576d/5b2f8fd2dfa1384c48d764b96b271249.png",
+      "address": {
+        "street": "",
+        "city": "White Plains",
+        "state": "NY",
+        "zip": "",
+        "formatted": "White Plains, NY"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://bweingastartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Beth Weingast Fine Art Appraisals - Paintings, Judaica, Coins, Jewelry offers antique and personal property appraisal services serving White Plains, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://bweingastartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://bweingastartappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJAQDsvWGSwokRc1Bk7HpbXjY",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class jewelry appraiser"
+        ]
+      }
+    },
+    {
+      "id": "white-plains-fox-white-art-and-antique-appraisals-nyc",
+      "name": "Fox-White Art & Antique Appraisals",
+      "slug": "fox-white-art-and-antique-appraisals-nyc",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/581d599929687f6b1d67cb14/8a2c8f48-7a3f-4e51-8a9c-4ba837eefe88/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "White Plains",
+        "state": "NY",
+        "zip": "",
+        "formatted": "White Plains, NY"
+      },
+      "contact": {
+        "phone": "917 656-3840",
+        "email": "foxwhiteappraiser@gmail.com",
+        "website": "https://fox-white.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Fox-White Art & Antique Appraisals offers antique and personal property appraisal services serving White Plains, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://fox-white.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://fox-white.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJwRM7uvJFwokRo8yNnytjYjQ",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "white-plains-hudson-valley-new-york-pennsylvania-new-jersey-antique-and-art-appraisers",
+      "name": "Hudson Valley Antique Appraisals",
+      "slug": "hudson-valley-new-york-pennsylvania-new-jersey-antique-and-art-appraisers",
+      "imageUrl": "https://nebula.wsimg.com/54b9436fd79c0fa72622c9929af78296?AccessKeyId=7F94246D07B367803FD3&disposition=0&alloworigin=1",
+      "address": {
+        "street": "",
+        "city": "White Plains",
+        "state": "NY",
+        "zip": "",
+        "formatted": "White Plains, NY"
+      },
+      "contact": {
+        "phone": "845-386-5035",
+        "email": "",
+        "website": "https://www.hudsonvalleyantiqueappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Hudson Valley Antique Appraisals offers antique and personal property appraisal services serving White Plains, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.hudsonvalleyantiqueappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.hudsonvalleyantiqueappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJHy8Jpr41w4kRVKAcg_16qpk",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

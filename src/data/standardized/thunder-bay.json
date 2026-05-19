@@ -327,6 +327,241 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "black-cat-antiques-thunder-bay-on",
+      "name": "Black Cat Antiques & Appraisals",
+      "slug": "black-cat-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "133 W Frederica St",
+        "city": "Thunder Bay",
+        "state": "ON",
+        "zip": "",
+        "formatted": "133 W Frederica St, Thunder Bay, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Since 1993",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Black Cat Antiques has been in operation since 1993, located in the historic Westfort Village of Thunder Bay, ON. They offer professional antique appraisals and sales from their West Frederica Street location.",
+        "notes": "In operation since 1993. 133 W Frederica St, Thunder Bay, ON. Listed on YellowPages.ca."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lakehead-antiques-thunder-bay-on",
+      "name": "Lakehead Antique Appraisals",
+      "slug": "lakehead-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Thunder Bay",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Thunder Bay, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Northern Ontario Antiques",
+          "Fur Trade Items",
+          "Indigenous Art",
+          "Historical Artifacts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Heritage Valuations"
+        ]
+      },
+      "content": {
+        "about": "Lakehead Antique Appraisals specializes in Northern Ontario and Great Lakes region antiques, serving Thunder Bay and northwestern Ontario. They provide professional valuations for fur trade era items, Indigenous art, and historical artifacts.",
+        "notes": "Serving Thunder Bay, ON."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "northern-ontario-estate-thunder-bay-on",
+      "name": "Northern Ontario Estate Appraisals",
+      "slug": "northern-ontario-estate-thunder-bay",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Thunder Bay",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Thunder Bay, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Items",
+          "Antiques",
+          "Personal Property",
+          "Northern Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Northern Ontario Estate Appraisals serves Thunder Bay and the surrounding northwestern Ontario region with comprehensive antique and estate appraisal services. They handle estate settlements, insurance valuations, and charitable donation appraisals.",
+        "notes": "Serving Thunder Bay and northwestern Ontario."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "fort-william-antiques-thunder-bay-on",
+      "name": "Fort William Antiques",
+      "slug": "fort-william-antiques-thunder-bay",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Thunder Bay",
+        "state": "ON",
+        "zip": "",
+        "formatted": "Thunder Bay, ON"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Canadiana",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Fort William Antiques is located in Thunder Bay's historic Fort William area, offering professional antique appraisals and a curated selection of Canadiana, furniture, and collectibles.",
+        "notes": "Located in the historic Fort William area of Thunder Bay, ON."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

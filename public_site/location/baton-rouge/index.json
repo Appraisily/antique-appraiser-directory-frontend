@@ -1,0 +1,34 @@
+{
+  "title": "Antique & Art Appraisers in Baton Rouge, Louisiana",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "baton-rouge",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/baton-rouge/",
+    "name": "Antique & Art Appraisers in Baton Rouge, Louisiana",
+    "description": "Compare antique and art appraisers in Baton Rouge, Louisiana and request a fast online appraisal from Appraisily.",
+    "city": "Baton Rouge",
+    "region": "LA",
+    "country": "US",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Chloe Lynne Eick",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/baton-rouge-chloe-lynne-eick.svg",
+        "description": "Chloe Lynne Eick offers antique appraisal support in Baton Rouge, Louisiana. Specialties: Art, Auction Company/Gallery. Services: Repairs, Restoration, Retail - Antique.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "George T Clark",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/baton-rouge-george-t-clark.svg",
+        "description": "George T Clark offers antique appraisal support in Baton Rouge, Louisiana. Specialties: Art, Books, Paintings, Documents - Maps. Services: Authentication, Consultant, Equitable Distribution.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/baton-rouge/"
+    }
+  }
+}

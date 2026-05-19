@@ -172,6 +172,508 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "argenta-antiques-little-rock-ar",
+      "name": "Argenta Antiques",
+      "slug": "argenta-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "306 Main St",
+        "city": "North Little Rock",
+        "state": "AR",
+        "zip": "72114",
+        "formatted": "306 Main St, North Little Rock, AR 72114"
+      },
+      "contact": {
+        "phone": "(501) 376-7917",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique district shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Southern Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Argenta Antiques offers a curated selection of antiques with professional appraisal services in the historic Argenta Arts District.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "the-antique-exchange-little-rock-ar",
+      "name": "The Antique Exchange",
+      "slug": "antique-exchange",
+      "imageUrl": "",
+      "address": {
+        "street": "11500 Pleasant Ridge Rd",
+        "city": "Little Rock",
+        "state": "AR",
+        "zip": "72212",
+        "formatted": "11500 Pleasant Ridge Rd, Little Rock, AR 72212"
+      },
+      "contact": {
+        "phone": "(501) 225-6266",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Furniture",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Buyouts",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "The Antique Exchange offers a wide range of antiques and collectibles with professional appraisal services in west Little Rock.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "arkansas-estate-sales-little-rock-ar",
+      "name": "Arkansas Estate Sales & Appraisals",
+      "slug": "arkansas-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "2 Riverfront Pl",
+        "city": "Little Rock",
+        "state": "AR",
+        "zip": "72201",
+        "formatted": "2 Riverfront Pl, Little Rock, AR 72201"
+      },
+      "contact": {
+        "phone": "(501) 772-3425",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "Antique Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Arkansas Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout central Arkansas.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "little-rock-little-antique-appraisals",
+      "name": "Little Antique Appraisals",
+      "slug": "little-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Little Rock",
+        "state": "AR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Little Antique Appraisals provides professional antique and estate appraisal services in Little Rock, AR with expertise in antiques, fine art, furniture.",
+        "notes": "Serving Little Rock, AR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "little-rock-little-rock-estate-appraisals",
+      "name": "Little Rock Estate Appraisals",
+      "slug": "little-rock-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Little Rock",
+        "state": "AR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Little Rock Estate Appraisals provides professional antique and estate appraisal services in Little Rock, AR with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving Little Rock, AR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "little-rock-little-personal-property-appraisals",
+      "name": "Little Personal Property Appraisals",
+      "slug": "little-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Little Rock",
+        "state": "AR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Little Personal Property Appraisals provides professional antique and estate appraisal services in Little Rock, AR with expertise in personal property, antiques, fine art.",
+        "notes": "Serving Little Rock, AR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "little-rock-little-rock-fine-art-antique-appraisals",
+      "name": "Little Rock Fine Art & Antique Appraisals",
+      "slug": "little-rock-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Little Rock",
+        "state": "AR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Little Rock Fine Art & Antique Appraisals provides professional antique and estate appraisal services in Little Rock, AR with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving Little Rock, AR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "little-rock-little-heritage-appraisals",
+      "name": "Little Heritage Appraisals",
+      "slug": "little-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Little Rock",
+        "state": "AR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Little Heritage Appraisals provides professional antique and estate appraisal services in Little Rock, AR with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving Little Rock, AR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

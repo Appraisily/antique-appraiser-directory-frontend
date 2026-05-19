@@ -1,0 +1,34 @@
+{
+  "title": "Antique & Art Appraisers in Toronto, Ontario",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "toronto",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/toronto/",
+    "name": "Antique & Art Appraisers in Toronto, Ontario",
+    "description": "Compare antique and art appraisers in Toronto, Ontario and request a fast online appraisal from Appraisily.",
+    "city": "Toronto",
+    "region": "ON",
+    "country": "CA",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Quality Jewellers Ltd",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/toronto-quality-jewellers-ltd.svg",
+        "description": "Quality Jewellers Ltd offers antique appraisal support in Toronto, Ontario. Services: jewellery appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Sewell John Antique & Fine Art Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/toronto-sewell-john-antique-and-fine-art-appraisals.svg",
+        "description": "Sewell John Antique & Fine Art Appraisals offers antique appraisal support in Toronto, Ontario. Services: art appraisals.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/toronto/"
+    }
+  }
+}

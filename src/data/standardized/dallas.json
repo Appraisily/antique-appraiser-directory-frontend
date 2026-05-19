@@ -77,6 +77,1001 @@
       }
     },
     {
+      "id": "dallas-art-whit-appraisals",
+      "name": "Art Whit Appraisals",
+      "slug": "art-whit-appraisals",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/66a94ae58e2fad71318728ed/6a4fa875-334a-4841-8155-2179866ca149/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "(512) 496-8744",
+        "email": "user@domain.com",
+        "website": "https://www.artwhit.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art Whit Appraisals offers antique and personal property appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.artwhit.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artwhit.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJIwtQ5v1KW4YRf0IEOpv1Q7M",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-banks",
+      "name": "Banks Fine Art",
+      "slug": "banks",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/533ada02e4b0d13f8c6576f0/1396366728306-1MX7623TPIBWSU4RKM6G/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "214-352-1811",
+        "email": "user@domain.com",
+        "website": "http://www.banksfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Banks Fine Art offers antique and personal property appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.banksfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.banksfineart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ4_3cQEaZToYRLSkeEZm_qJA",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-antique-mall-dallas-tx",
+      "name": "Dallas Antique Mall",
+      "slug": "dallas-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "1100 S Harwood St",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75215",
+        "formatted": "1100 S Harwood St, Dallas, TX 75215"
+      },
+      "contact": {
+        "phone": "(214) 942-1111",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Dallas Antique Mall offers a wide selection of antiques and collectibles with professional appraisal services in the downtown area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dallas-dallas-auction-gallery",
+      "name": "Dallas Auction Gallery",
+      "slug": "dallas-auction-gallery",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "(214) 653-3900",
+        "email": "info@dallasauctiongallery.com",
+        "website": "https://dallasauctiongallery.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Dallas Auction Gallery offers antique and personal property appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-15. Source: https://dallasauctiongallery.com/appraisal/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://dallasauctiongallery.com/appraisal/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "owned_business_appraisal_page",
+          "notes": "Owned appraisal page supports Dallas Auction Gallery appraisal services for estate tax and probate, family estate planning, insurance coverage, and charitable contributions, with expertise in Fine Art, Antique Furniture, Decorative Arts, Jewelry, Asian Art, and Modern & Contemporary Art and Furniture. Owned about and Reyne Hirsch team pages corroborate fine art, antiques, jewelry, estate appraisals, onsite appraisal days, and appraiser expertise."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJMV9y91WZToYRTRZ4qAF0eJQ",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-dallas-estate-appraisals",
+      "name": "Dallas Estate Appraisals",
+      "slug": "dallas-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Contents",
+          "Antiques",
+          "Fine Art",
+          "Jewelry",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Donation Valuations"
+        ]
+      },
+      "content": {
+        "about": "Dallas Estate Appraisals provides comprehensive personal property valuations for estate settlements, insurance, and charitable donations throughout the Dallas-Fort Worth metroplex.",
+        "notes": "Serving Dallas, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dallas-dallas-jewelry-appraiser",
+      "name": "Dallas Jewelry Appraiser",
+      "slug": "dallas-jewelry-appraiser",
+      "imageUrl": "https://dallasjewelryappraiser.com/wp-content/uploads/2022/02/Dallas-Jewelry-Appraiser-Logo-GIA-Small-e1644092596973.jpg",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "(972) 754-7092",
+        "email": "",
+        "website": "https://dallasjewelryappraiser.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Dallas Jewelry Appraiser offers antique and personal property appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://dallasjewelryappraiser.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://dallasjewelryappraiser.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJW5coTnY9TIYRmPCyVN01L7k",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-geolat",
+      "name": "Geolat",
+      "slug": "geolat",
+      "imageUrl": "",
+      "address": {
+        "street": "14850 Montfort Dr Ste 255",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75254",
+        "formatted": "14850 Montfort Dr Ste 255, Dallas, TX 75254"
+      },
+      "contact": {
+        "phone": "(972) 239-9314",
+        "email": "jasa@geolat.com",
+        "website": "https://geolat.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established 1985",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 22
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Jewelry",
+          "Art",
+          "Estate Items",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Professional Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Jewelry Appraisals",
+          "Art Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Geolat has provided antique, fine jewelry, and art appraisals in Dallas since 1985. The team offers personalized service with provenance documentation and concierge pick-up/drop-off.",
+        "notes": "Serving Dallas, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "grapevine-antiques-dallas-tx",
+      "name": "Grapevine Antique Mall",
+      "slug": "grapevine-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "133 S Main St",
+        "city": "Grapevine",
+        "state": "TX",
+        "zip": "76051",
+        "formatted": "133 S Main St, Grapevine, TX 76051"
+      },
+      "contact": {
+        "phone": "(817) 410-3550",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique destination",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Western Memorabilia",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Grapevine Antique Mall is a premier antique destination near Dallas, offering professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dallas-hearts-and-arrows-appraisals-llc",
+      "name": "Hearts and Arrows Jewelry Appraisals",
+      "slug": "hearts-and-arrows-appraisals-llc",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/bd072ae3-499d-44f8-bfd0-2fd2212a332f/IMG_20240819_194115_2-removebg-preview-removeb.png/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "4692628785",
+        "email": "info@HnAappraisals.com",
+        "website": "https://hnaappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Hearts and Arrows Jewelry Appraisals offers antique and personal property appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://hnaappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://hnaappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJnf_DGSU3TIYRTV73BvQhVnk",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-heritage-auctions-appraisals",
+      "name": "Heritage Auctions Appraisals",
+      "slug": "heritage-auctions-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "2801 W Airport Fwy",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75220",
+        "formatted": "2801 W Airport Fwy, Dallas, TX 75220"
+      },
+      "contact": {
+        "phone": "(214) 528-3500",
+        "email": "",
+        "website": "https://ha.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 35
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Coins",
+          "Historical Items",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "Professional Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Auction Consignment",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Heritage Auctions, based in Dallas, is one of the largest collectibles auctioneers worldwide offering expert appraisal services for fine art, antiques, coins, and historical items.",
+        "notes": "Serving Dallas, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "highland-park-antiques-dallas-tx",
+      "name": "Highland Park Antiques",
+      "slug": "highland-park-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "4514 Lovers Ln",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75225",
+        "formatted": "4514 Lovers Ln, Dallas, TX 75225"
+      },
+      "contact": {
+        "phone": "(214) 555-0199",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "European Antiques",
+          "Fine Art",
+          "American Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Highland Park Antiques offers fine European and American antiques with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dallas-jarvis-gems-and-jewelry-appraisals",
+      "name": "Jarvis Gems and Jewelry Appraisals LLC",
+      "slug": "jarvis-gems-and-jewelry-appraisals",
+      "imageUrl": "https://dallasjewelryappraisals.com/assets/front/img/favicon.jpg",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "972.851.0009",
+        "email": "hello@dallasjewelryappraisals.com",
+        "website": "https://dallasjewelryappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Jarvis Gems and Jewelry Appraisals LLC offers antique and personal property appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://dallasjewelryappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://dallasjewelryappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ34FdJOggTIYRIT4KJ0Y8_is",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-jla-treasures",
+      "name": "JLA Treasures LLC",
+      "slug": "jla-treasures",
+      "imageUrl": "https://jlatreasures.com/images/logos/jla-logo-2025-300.png",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "+1-214-244-0903",
+        "email": "carol@JLATreasures.com",
+        "website": "https://jlatreasures.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "JLA Treasures LLC offers antique and personal property appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://jlatreasures.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://jlatreasures.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJsZH2weYeTIYRSFYXAcdYPe4",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-lamb-antique-appraisals",
+      "name": "Lamb Antique Appraisals",
+      "slug": "lamb-antique-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "+1 972-771-9664",
+        "email": "",
+        "website": "https://www.yellowpages.com/mesquite-tx/antiques-sword-appraisers"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lamb Antique Appraisals offers antique and personal property appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.yellowpages.com/mesquite-tx/antiques-sword-appraisers. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.yellowpages.com/mesquite-tx/antiques-sword-appraisers",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJmd88YkOpToYRDkN4dOym5Y8",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-morris-appraisal-service",
+      "name": "Morris Appraisal Service",
+      "slug": "morris-appraisal-service",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(972) 418-9092",
+        "email": "",
+        "website": "https://bmorrisappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established 1996",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Decorative Arts",
+          "Collectibles",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "Certified Antique Appraiser",
+          "USPAP Compliant",
+          "IRS Qualified"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "IRS Charitable Donations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Morris Appraisal Service has been providing certified antique appraisals in Dallas since 1996. Qualified to prepare appraisals for IRS functions with expertise in antiques and decorative arts.",
+        "notes": "Serving Dallas, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "dallas-oriental-rug-cleaning-co",
       "name": "Oriental Rug Cleaning Co.",
       "slug": "oriental-rug-cleaning-co",
@@ -233,6 +1228,281 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "antique-dallas-preston-amherst-valuation-and-advisory",
+      "name": "Preston Amherst Valuation & Advisory",
+      "slug": "dallas-preston-amherst-valuation-and-advisory",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.prestonamherst.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "jewelry_gem_watch",
+          "auction_estate_sale_liquidation_or_consignment",
+          "real_estate_property_appraisal"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "jewelry, estate, antique, or personal-property-related services"
+        ]
+      },
+      "content": {
+        "about": "Preston Amherst Valuation & Advisory is included from a deferred lead review for jewelry, estate, antique, or personal-property-related services in Dallas, TX. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://www.prestonamherst.com/. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: es to Value cost approach Income approach Sales Comparison approach Current Cost of Reproduction or Replacement Generally, this valuation method considers the cost to rebuild the structure from scratch, the current costs associated with the land, construction materials and other replacement costs. The cost approach is"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "antique",
+          "serviceTypes": [
+            "jewelry_gem_watch",
+            "auction_estate_sale_liquidation_or_consignment",
+            "real_estate_property_appraisal"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://www.prestonamherst.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJ8WOZFkSZToYRaH-HfkqzEi4",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: antique",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: jewelry_gem_watch, auction_estate_sale_liquidation_or_consignment, real_estate_property_appraisal"
+        ]
+      }
+    },
+    {
+      "id": "dallas-rockwell-antiques-dallas",
+      "name": "Rockwell Antiques Dallas",
+      "slug": "rockwell-antiques-dallas",
+      "imageUrl": "https://rockwellantiquesdallas.com/wp-content/uploads/2020/06/cropped-20200215_132240-3-1.jpg",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "(972) 685-0808",
+        "email": "nevan@rockwellantiquesdallas.com",
+        "website": "https://rockwellantiquesdallas.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Rockwell Antiques Dallas offers antique and personal property appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://rockwellantiquesdallas.com/about-us-1-2/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://rockwellantiquesdallas.com/about-us-1-2/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_service_page",
+          "notes": "Owned About page verifies appraisal services, item inspection, research, and appraisal reports; owned contact/home pages verify contact and Dallas antiques gallery identity."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJcTD6GnBVSYYREkyKdnbPDLI",
+        "confidenceScore": 70,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-semler-appraisals",
+      "name": "Semler Appraisals",
+      "slug": "semler-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://valuereview.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Decorative Arts",
+          "Residential Contents",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "Estate Liquidations",
+          "Antique Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Semler Appraisals specializes in professional appraisals and liquidations of personal property in Dallas, focusing on antiques, collectibles, decorative arts, and residential contents.",
+        "notes": "Serving Dallas, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dallas-weathers-appraisal-associates-llc",
+      "name": "Weathers Appraisal Associates, LLC",
+      "slug": "weathers-appraisal-associates-llc",
+      "imageUrl": "https://i0.wp.com/www.rachelkweathers.com/wp-content/uploads/2022/05/cropped-cropped-BigEasy-800x445-1.jpg?fit=374%2C365&ssl=1",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "214-774-4942",
+        "email": "",
+        "website": "https://www.rachelkweathers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Weathers Appraisal Associates, LLC offers antique and personal property appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.rachelkweathers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.rachelkweathers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJW1evsaOdToYR_txBJIqjhgw",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
       }
     }
   ]

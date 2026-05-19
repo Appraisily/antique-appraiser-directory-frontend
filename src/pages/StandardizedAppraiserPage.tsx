@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { MapPin, Star, Mail, Phone, Globe, Clock, ChevronRight, Shield } from 'lucide-react';
 import { getStandardizedAppraiser, StandardizedAppraiser } from '../utils/standardizedData';
@@ -15,19 +15,108 @@ import { trackEvent } from '../utils/analytics';
 import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
 import { normalizeAssetUrl } from '../utils/assetUrls';
 
+const buildTelHref = (value?: string | null) => {
+  if (!value) return null;
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+  const hasPlus = trimmed.startsWith('+');
+  const digits = trimmed.replace(/[^\d]/g, '');
+  if (!digits) return null;
+  return `tel:${hasPlus ? '+' : ''}${digits}`;
+};
+
+const buildMailtoHref = (value?: string | null) => {
+  if (!value) return null;
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+  return `mailto:${trimmed}`;
+};
+
+const hideTinyPlaceholderImage = (target: HTMLImageElement) => {
+  if (target.naturalWidth > 1 || target.naturalHeight > 1) {
+    return;
+  }
+
+  const imageCard = target.closest('[data-appraiser-image-card]');
+  if (imageCard instanceof HTMLElement) {
+    imageCard.hidden = true;
+  }
+};
+
 export function StandardizedAppraiserPage() {
   const { appraiserId } = useParams<{ appraiserId: string }>();
   const [appraiser, setAppraiser] = useState<StandardizedAppraiser | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [contactFeedback, setContactFeedback] = useState<{ message: string; placement: string } | null>(null);
+  const contactFeedbackTimeoutRef = useRef<number | null>(null);
   const primaryCtaUrl = getPrimaryCtaUrl();
-  const handleContactClick = (channel: 'phone' | 'email' | 'website', placement: string) => {
+  const showContactFeedback = (message: string, placement: string) => {
+    setContactFeedback({ message, placement });
+    if (contactFeedbackTimeoutRef.current && typeof window !== 'undefined') {
+      window.clearTimeout(contactFeedbackTimeoutRef.current);
+    }
+    if (typeof window !== 'undefined') {
+      contactFeedbackTimeoutRef.current = window.setTimeout(() => {
+        setContactFeedback(null);
+      }, 2500);
+    }
+  };
+  const isLikelyDesktop = () => {
+    if (typeof window === 'undefined') return false;
+    if (!window.matchMedia) return false;
+    return window.matchMedia('(pointer: fine)').matches;
+  };
+
+  const handleContactClick = (
+    event: React.MouseEvent<HTMLAnchorElement>,
+    channel: 'phone' | 'email' | 'website',
+    placement: string
+  ) => {
     trackEvent('appraiser_contact_click', {
       channel,
       placement,
       appraiser_slug: appraiser?.slug || appraiserId || '',
       appraiser_name: appraiser?.name
     });
+    if (!appraiser) {
+      return;
+    }
+    const fallbackMessage =
+      channel === 'website'
+        ? 'Opening website...'
+        : channel === 'phone'
+        ? 'Opening phone dialer...'
+        : 'Opening email...';
+
+    // On desktop: prevent tel:/mailto: navigation and copy to clipboard instead
+    // On mobile: let the native tel:/mailto: handler work naturally (no clipboard race)
+    if (channel === 'phone' || channel === 'email') {
+      if (isLikelyDesktop()) {
+        event.preventDefault();
+        event.stopPropagation();
+        const value = channel === 'phone' ? appraiser.contact.phone : appraiser.contact.email;
+        if (value && navigator.clipboard?.writeText) {
+          navigator.clipboard
+            .writeText(value)
+            .then(() => {
+              showContactFeedback(
+                `${channel === 'phone' ? 'Phone number' : 'Email'} copied to clipboard.`,
+                placement
+              );
+            })
+            .catch(() => {
+              showContactFeedback(fallbackMessage, placement);
+            });
+          return;
+        }
+        showContactFeedback(fallbackMessage, placement);
+      }
+      // On mobile: do nothing extra — let the browser handle tel:/mailto: natively
+      return;
+    }
+
+    showContactFeedback(fallbackMessage, placement);
   };
 
   const handleCtaClick = (placement: string) => {
@@ -35,6 +124,14 @@ export function StandardizedAppraiserPage() {
       placement,
       destination: primaryCtaUrl,
       appraiser_slug: appraiser?.slug || appraiserId || ''
+    });
+  };
+
+  const handleReviewsJump = () => {
+    trackEvent('reviews_jump_click', {
+      placement: 'profile_rating',
+      appraiser_slug: appraiser?.slug || appraiserId || '',
+      appraiser_name: appraiser?.name
     });
   };
   
@@ -81,6 +178,20 @@ export function StandardizedAppraiserPage() {
       specialties: appraiser.expertise.specialties
     });
   }, [appraiser]);
+
+  useEffect(() => {
+    return () => {
+      if (contactFeedbackTimeoutRef.current && typeof window !== 'undefined') {
+        window.clearTimeout(contactFeedbackTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  const phoneHref = appraiser ? buildTelHref(appraiser.contact.phone) : null;
+  const emailHref = appraiser ? buildMailtoHref(appraiser.contact.email) : null;
+  const hasContactEmail = Boolean(emailHref);
+  const hasBusinessHours = appraiser ? appraiser.business.hours.length > 0 : false;
+  const hasCertifications = appraiser ? appraiser.expertise.certifications.length > 0 : false;
 
   const generateBreadcrumbSchema = () => {
     if (!appraiser) return null;
@@ -292,10 +403,11 @@ export function StandardizedAppraiserPage() {
   const gtmAppraiserName = appraiser.name;
 
   return (
-    <div className="container mx-auto px-4 py-8 mt-16">
-      <SEO 
+    <>
+      <SEO
         title={seoTitle}
         description={seoDescription}
+        ogImage={appraiser.imageUrl}
         schema={[
           generateAppraiserSchema(appraiser),
           generateBreadcrumbSchema(),
@@ -303,8 +415,15 @@ export function StandardizedAppraiserPage() {
         ]}
         path={`/appraiser/${appraiser.slug}`}
       />
-      
-      <nav className="flex mb-6" aria-label="Breadcrumb">
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-white focus:px-4 focus:py-2 focus:rounded-md focus:shadow-lg focus:outline-none focus:text-blue-700"
+      >
+        Skip to main content
+      </a>
+      <div className="container mx-auto px-4 py-8 mt-16">
+        <div id="main-content">
+          <nav className="flex mb-6" aria-label="Breadcrumb">
         <ol className="flex items-center space-x-2">
           <li>
           <a href={SITE_URL} className="text-gray-500 hover:text-gray-700">Home</a>
@@ -337,11 +456,14 @@ export function StandardizedAppraiserPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="md:col-span-1">
-          <div className="rounded-lg overflow-hidden shadow-md mb-6">
+          <div className="rounded-lg overflow-hidden shadow-md mb-6" data-appraiser-image-card>
             <img 
               src={normalizeAssetUrl(appraiser.imageUrl)} 
               alt={`${appraiser.name} - Antique Appraiser in ${appraiser.address.city}`}
               className="w-full h-auto"
+              onLoad={(e) => {
+                hideTinyPlaceholderImage(e.currentTarget);
+              }}
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
                 target.src = DEFAULT_PLACEHOLDER_IMAGE;
@@ -354,50 +476,63 @@ export function StandardizedAppraiserPage() {
             
             <div className="space-y-3">
               <div className="flex items-start">
-                <MapPin className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                <div>
-                  <p className="text-gray-700">{appraiser.address.formatted}</p>
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(appraiser.address.formatted)}`}
+                  className="flex items-start text-gray-700 hover:text-blue-600"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <MapPin className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+                  <span>{appraiser.address.formatted}</span>
+                </a>
+              </div>
+
+              <div className="flex items-center">
+                {phoneHref ? (
+                  <a
+                    href={phoneHref}
+                    className="flex items-center text-gray-700 hover:text-blue-600"
+                    data-gtm-event="directory_cta"
+                    data-gtm-cta="call"
+                    data-gtm-surface="profile_contact_info"
+                    data-gtm-appraiser-id={gtmAppraiserId}
+                    data-gtm-appraiser-name={gtmAppraiserName}
+                    onClick={(event) => handleContactClick(event, 'phone', 'profile_contact_info')}
+                  >
+                    <Phone className="h-5 w-5 text-blue-600 mr-3" />
+                    <span>{appraiser.contact.phone}</span>
+                  </a>
+                ) : (
+                  <div className="flex items-center text-gray-500">
+                    <Phone className="h-5 w-5 text-gray-400 mr-3" />
+                    <span>Phone not available</span>
+                  </div>
+                )}
+              </div>
+
+              {hasContactEmail && (
+                <div className="flex items-center">
+                  <a
+                    href={emailHref}
+                    className="flex max-w-[calc(100%-5rem)] items-center text-gray-700 hover:text-blue-600 sm:max-w-none"
+                    data-gtm-event="directory_cta"
+                    data-gtm-cta="email"
+                    data-gtm-surface="profile_contact_info"
+                    data-gtm-appraiser-id={gtmAppraiserId}
+                    data-gtm-appraiser-name={gtmAppraiserName}
+                    onClick={(event) => handleContactClick(event, 'email', 'profile_contact_info')}
+                  >
+                    <Mail className="h-5 w-5 text-blue-600 mr-3" />
+                    <span className="break-all">{appraiser.contact.email}</span>
+                  </a>
                 </div>
-              </div>
-              
-              <div className="flex items-center">
-                <Phone className="h-5 w-5 text-blue-600 mr-3" />
-                <a
-                  href={`tel:${appraiser.contact.phone}`}
-                  className="text-gray-700 hover:text-blue-600"
-                  data-gtm-event="directory_cta"
-                  data-gtm-cta="call"
-                  data-gtm-surface="profile_contact_info"
-                  data-gtm-appraiser-id={gtmAppraiserId}
-                  data-gtm-appraiser-name={gtmAppraiserName}
-                  onClick={() => handleContactClick('phone', 'profile_contact_info')}
-                >
-                  {appraiser.contact.phone}
-                </a>
-              </div>
-              
-              <div className="flex items-center">
-                <Mail className="h-5 w-5 text-blue-600 mr-3" />
-                <a
-                  href={`mailto:${appraiser.contact.email}`}
-                  className="text-gray-700 hover:text-blue-600"
-                  data-gtm-event="directory_cta"
-                  data-gtm-cta="email"
-                  data-gtm-surface="profile_contact_info"
-                  data-gtm-appraiser-id={gtmAppraiserId}
-                  data-gtm-appraiser-name={gtmAppraiserName}
-                  onClick={() => handleContactClick('email', 'profile_contact_info')}
-                >
-                  {appraiser.contact.email}
-                </a>
-              </div>
-              
+              )}
+
               {appraiser.contact.website && (
                 <div className="flex items-center">
-                  <Globe className="h-5 w-5 text-blue-600 mr-3" />
                   <a
                     href={appraiser.contact.website.startsWith('http') ? appraiser.contact.website : `https://${appraiser.contact.website}`}
-                    className="text-gray-700 hover:text-blue-600"
+                    className="flex items-center text-gray-700 hover:text-blue-600"
                     target="_blank"
                     rel="noopener noreferrer"
                     data-gtm-event="directory_cta"
@@ -405,39 +540,56 @@ export function StandardizedAppraiserPage() {
                     data-gtm-surface="profile_contact_info"
                     data-gtm-appraiser-id={gtmAppraiserId}
                     data-gtm-appraiser-name={gtmAppraiserName}
-                    onClick={() => handleContactClick('website', 'profile_contact_info')}
+                    onClick={(event) => handleContactClick(event, 'website', 'profile_contact_info')}
                   >
-                    Visit Website
+                    <Globe className="h-5 w-5 text-blue-600 mr-3" />
+                    <span>Visit Website</span>
                   </a>
                 </div>
               )}
             </div>
+            {contactFeedback?.placement === 'profile_contact_info' && (
+              <div className="mt-3 rounded-lg bg-green-50 border border-green-200 px-3 py-2 text-sm text-green-800 font-medium animate-pulse" role="status" aria-live="polite">
+                <span className="inline-flex items-center gap-1.5">
+                  <svg className="w-4 h-4 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  {contactFeedback.message}
+                </span>
+              </div>
+            )}
           </div>
           
-          <div className="bg-white rounded-lg shadow-md p-5 mb-6">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">Business Hours</h3>
-            <div className="space-y-2">
-              {appraiser.business.hours.map((hour, index) => (
-                <div key={index} className="flex justify-between">
-                  <span className="text-gray-600">{hour.day}</span>
-                  <span className="text-gray-900 font-medium">{hour.hours}</span>
-                </div>
-              ))}
+          {hasBusinessHours && (
+            <div className="bg-white rounded-lg shadow-md p-5 mb-6">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Business Hours</h3>
+              <div className="space-y-2">
+                {appraiser.business.hours.map((hour, index) => (
+                  <div key={index} className="flex justify-between">
+                    <span className="text-gray-600">{hour.day}</span>
+                    <span className="text-gray-900 font-medium">{hour.hours}</span>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
           
           <div className="bg-white rounded-lg shadow-md p-5">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">Certifications</h3>
-            <div className="space-y-2">
-              {appraiser.expertise.certifications.map((cert, index) => (
-                <div key={index} className="flex items-center">
-                  <Shield className="h-4 w-4 text-green-600 mr-2" />
-                  <span className="text-gray-700">{cert}</span>
+            {hasCertifications && (
+              <>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Certifications</h3>
+                <div className="space-y-2">
+                  {appraiser.expertise.certifications.map((cert, index) => (
+                    <div key={index} className="flex items-center">
+                      <Shield className="h-4 w-4 text-green-600 mr-2" />
+                      <span className="text-gray-700">{cert}</span>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              </>
+            )}
             
-            <div className="mt-6 pt-4 border-t border-gray-100">
+            <div className={hasCertifications ? 'mt-6 pt-4 border-t border-gray-100' : ''}>
               <a
                 href={primaryCtaUrl}
                 className="inline-flex items-center justify-center w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-4 py-2 font-medium transition-all duration-300"
@@ -461,16 +613,19 @@ export function StandardizedAppraiserPage() {
               
               <div className="flex items-center">
                 {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
-                  <div className="flex items-center bg-blue-50 text-blue-700 rounded-full px-3 py-1">
+                  <a
+                    href="#reviews"
+                    className="flex items-center bg-blue-50 text-blue-700 rounded-full px-3 py-1 transition-colors hover:bg-blue-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-200"
+                    onClick={handleReviewsJump}
+                    aria-label="Jump to reviews"
+                  >
                     <Star className="h-4 w-4 text-yellow-500 mr-1" />
                     <span className="font-semibold">{appraiser.business.rating.toFixed(1)}</span>
                     <span className="text-sm text-gray-500 ml-1">
                       ({appraiser.business.reviewCount})
                     </span>
-                  </div>
-                ) : (
-                  <div className="text-sm text-gray-500">Reviews not available</div>
-                )}
+                  </a>
+                ) : null}
               </div>
             </div>
             
@@ -500,28 +655,14 @@ export function StandardizedAppraiserPage() {
             )}
             
             <h2 className="text-xl font-semibold text-gray-900 mb-3">Specialties</h2>
-            <div className="flex flex-wrap gap-2 mb-6">
-              {appraiser.expertise.specialties.map((specialty, index) => (
-                <span 
-                  key={index}
-                  className="bg-gray-100 text-gray-800 rounded-full px-3 py-1 text-sm"
-                >
-                  {specialty}
-                </span>
-              ))}
-            </div>
-            
+            <p className="text-gray-700 mb-6 leading-relaxed">
+              {appraiser.expertise.specialties.join(', ')}
+            </p>
+
             <h2 className="text-xl font-semibold text-gray-900 mb-3">Services</h2>
-            <div className="flex flex-wrap gap-2 mb-6">
-              {appraiser.expertise.services.map((service, index) => (
-                <span 
-                  key={index}
-                  className="border border-blue-200 text-blue-700 bg-blue-50 rounded-md px-3 py-1 text-sm"
-                >
-                  {service}
-                </span>
-              ))}
-            </div>
+            <p className="text-gray-700 mb-6 leading-relaxed">
+              {appraiser.expertise.services.join(', ')}
+            </p>
             
             <h2 className="text-xl font-semibold text-gray-900 mb-3">Pricing</h2>
             <p className="text-gray-700 mb-6">
@@ -529,7 +670,7 @@ export function StandardizedAppraiserPage() {
             </p>
           </div>
           
-          <div className="bg-white rounded-lg shadow-md p-6">
+          <div className="bg-white rounded-lg shadow-md p-6" id="reviews">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Reviews</h2>
             
             {appraiser.reviews.length > 0 ? (
@@ -565,32 +706,36 @@ export function StandardizedAppraiserPage() {
                 Contact {appraiser.name} directly or use our platform to request an appraisal.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
-                <a 
-                  href={`tel:${appraiser.contact.phone}`}
-                  className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
-                  data-gtm-event="directory_cta"
-                  data-gtm-cta="call"
-                  data-gtm-surface="profile_cta_section"
-                  data-gtm-appraiser-id={gtmAppraiserId}
-                  data-gtm-appraiser-name={gtmAppraiserName}
-                  onClick={() => handleContactClick('phone', 'profile_cta_section')}
-                >
-                  <Phone className="h-4 w-4 mr-2" />
-                  Call Now
-                </a>
-                <a 
-                  href={`mailto:${appraiser.contact.email}`}
-                  className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
-                  data-gtm-event="directory_cta"
-                  data-gtm-cta="email"
-                  data-gtm-surface="profile_cta_section"
-                  data-gtm-appraiser-id={gtmAppraiserId}
-                  data-gtm-appraiser-name={gtmAppraiserName}
-                  onClick={() => handleContactClick('email', 'profile_cta_section')}
-                >
-                  <Mail className="h-4 w-4 mr-2" />
-                  Send Email
-                </a>
+                {phoneHref && (
+                  <a 
+                    href={phoneHref}
+                    className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                    data-gtm-event="directory_cta"
+                    data-gtm-cta="call"
+                    data-gtm-surface="profile_cta_section"
+                    data-gtm-appraiser-id={gtmAppraiserId}
+                    data-gtm-appraiser-name={gtmAppraiserName}
+                    onClick={(event) => handleContactClick(event, 'phone', 'profile_cta_section')}
+                  >
+                    <Phone className="h-4 w-4 mr-2" />
+                    Call Now
+                  </a>
+                )}
+                {emailHref && (
+                  <a 
+                    href={emailHref}
+                    className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                    data-gtm-event="directory_cta"
+                    data-gtm-cta="email"
+                    data-gtm-surface="profile_cta_section"
+                    data-gtm-appraiser-id={gtmAppraiserId}
+                    data-gtm-appraiser-name={gtmAppraiserName}
+                    onClick={(event) => handleContactClick(event, 'email', 'profile_cta_section')}
+                  >
+                    <Mail className="h-4 w-4 mr-2" />
+                    Send Email
+                  </a>
+                )}
                 <a 
                   href={primaryCtaUrl}
                   className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
@@ -604,10 +749,22 @@ export function StandardizedAppraiserPage() {
                   Request Appraisal
                 </a>
               </div>
+              {contactFeedback?.placement === 'profile_cta_section' && (
+                <div className="mt-3 rounded-lg bg-green-50 border border-green-200 px-3 py-2 text-sm text-green-800 font-medium animate-pulse" role="status" aria-live="polite">
+                  <span className="inline-flex items-center gap-1.5">
+                    <svg className="w-4 h-4 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                    {contactFeedback.message}
+                  </span>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </div>
     </div>
+    </div>
+    </>
   );
 }

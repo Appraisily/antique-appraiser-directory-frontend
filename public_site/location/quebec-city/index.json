@@ -1,0 +1,76 @@
+{
+  "title": "Antique & Art Appraisers in Quebec City, Quebec",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "quebec-city",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/quebec-city/",
+    "name": "Antique & Art Appraisers in Quebec City, Quebec",
+    "description": "Compare antique and art appraisers in Quebec City, Quebec and request a fast online appraisal from Appraisily.",
+    "city": "Quebec City",
+    "region": "QC",
+    "country": "CA",
+    "numberOfListedAppraisers": 8,
+    "listedAppraisers": [
+      {
+        "name": "Antiquites du Vieux-Quebec",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/empire-appraisers.svg",
+        "description": "Antiquites du Vieux-Quebec offers antique appraisal support in Quebec City, Quebec. Specialties: Quebec Antiques, French Canadian Antiques, Furniture, Decorative Arts. Services: Antique Appraisals, Antique Sales, Estate…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Empire Appraisers",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/empire-appraisers/",
+        "slug": "empire-appraisers",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_quebec_city-empire-appraisers_1742203064665_FUJM_Rrk8U.jpg",
+        "description": "Empire Appraisers offers antique appraisal support in Quebec City, Quebec. Specialties: Inuit carvings/sculptures (insurance, donations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Inuit Sculptures Art Gallery",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/inuit-sculptures-art-gallery/",
+        "slug": "inuit-sculptures-art-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_quebec_city-inuit-sculptures-art-gallery_1742203058913_NZNmxiN3G.jpg",
+        "description": "Inuit Sculptures Art Gallery offers antique appraisal support in Quebec City, Quebec. Specialties: Residential content inventories, antiques, fine arts, donations. Services: Greater Montréal region (travel to Québec Cit…",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Lanthier Gagne et Associes",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/lanthier-gagne-associes.svg",
+        "description": "Lanthier Gagne et Associes offers antique appraisal support in Quebec City, Quebec. Specialties: Property Appraisals, Estate Valuations, Antiques, Commercial Appraisals. Services: Antique Appraisals, Property Appraisals…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Les Antiquites Bolduc",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/les-antiquites-bolduc.svg",
+        "description": "Les Antiquites Bolduc offers antique appraisal support in Quebec City, Quebec. Specialties: Antiques, Quebec Antiques, Canadiana, Furniture. Services: Antique Appraisals, Antique Sales, Estate Valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Mathieu Antiquites",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/notable-antique-appraisal-services.svg",
+        "description": "Mathieu Antiquites offers antique appraisal support in Quebec City, Quebec. Specialties: Quebec Furniture, Folk Art, Historical Artifacts, Ceramics. Services: Antique Appraisals, Antique Sales, Estate Valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Notable Antique Appraisal Services",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/notable-antique-appraisal-services/",
+        "slug": "notable-antique-appraisal-services",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_quebec_city-notable-antique-appraisal-services_1742203051888_FG8im5HcW5.jpg",
+        "description": "Notable Antique Appraisal Services offers antique appraisal support in Quebec City, Quebec. Specialties: Residential content inventories, antiques, fine arts, donations. Services: Greater Montréal region (travel to Québ…",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Yvon Poulin & Associates",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/yvon-poulin-associes.svg",
+        "description": "Yvon Poulin & Associates offers antique appraisal support in Quebec City, Quebec. Specialties: Property Appraisals, Estate Items, Antiques, Real Estate. Services: Property Appraisals, Antique Appraisals, Estate Valuatio…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/quebec-city/"
+    }
+  }
+}

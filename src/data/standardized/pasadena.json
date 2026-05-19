@@ -1,0 +1,74 @@
+{
+  "appraisers": [
+    {
+      "id": "pasadena-art-world-appraisals-phd",
+      "name": "Art World Appraisals- Fine Art Appraiser Los Angeles",
+      "slug": "art-world-appraisals-phd",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/627478787b7f84059ebc4157/d1d421e9-246d-486b-8df4-30458593cc10/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Pasadena",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Pasadena, CA"
+      },
+      "contact": {
+        "phone": "(213) 245-6356",
+        "email": "agnes@artworldappraisals.com",
+        "website": "https://www.artworldappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art World Appraisals- Fine Art Appraiser Los Angeles offers antique and personal property appraisal services serving Pasadena, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.artworldappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artworldappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJGThz_6VTL00R-5rLvqmH9GE",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

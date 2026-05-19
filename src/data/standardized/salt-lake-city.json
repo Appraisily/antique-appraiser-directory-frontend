@@ -177,6 +177,508 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "antique-loft-salt-lake-city-ut",
+      "name": "The Antique Loft",
+      "slug": "antique-loft",
+      "imageUrl": "",
+      "address": {
+        "street": "150 S Rio Grande St",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101",
+        "formatted": "150 S Rio Grande St, Salt Lake City, UT 84101"
+      },
+      "contact": {
+        "phone": "(801) 532-1302",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "The Antique Loft offers a wide selection of antiques and collectibles with professional appraisal services in downtown Salt Lake City.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "sugar-house-antiques-salt-lake-city-ut",
+      "name": "Sugar House Antiques",
+      "slug": "sugar-house-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "2135 S 1100 E",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84106",
+        "formatted": "2135 S 1100 E, Salt Lake City, UT 84106"
+      },
+      "contact": {
+        "phone": "(801) 487-3355",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop in Sugar House",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Western Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Sugar House Antiques offers fine antiques with professional appraisal services in the Sugar House neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "utah-estate-sales-salt-lake-city-ut",
+      "name": "Utah Estate Sales & Appraisals",
+      "slug": "utah-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "175 S Main St",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84111",
+        "formatted": "175 S Main St, Salt Lake City, UT 84111"
+      },
+      "contact": {
+        "phone": "(801) 532-5600",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Utah Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the Wasatch Front.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "salt-lake-city-salt-antique-appraisals",
+      "name": "Salt Antique Appraisals",
+      "slug": "salt-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Salt Antique Appraisals provides professional antique and estate appraisal services in Salt Lake City, UT with expertise in antiques, fine art, furniture.",
+        "notes": "Serving Salt Lake City, UT with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "salt-lake-city-salt-lake-city-estate-appraisals",
+      "name": "Salt Lake City Estate Appraisals",
+      "slug": "salt-lake-city-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Salt Lake City Estate Appraisals provides professional antique and estate appraisal services in Salt Lake City, UT with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving Salt Lake City, UT with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "salt-lake-city-salt-personal-property-appraisals",
+      "name": "Salt Personal Property Appraisals",
+      "slug": "salt-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Salt Personal Property Appraisals provides professional antique and estate appraisal services in Salt Lake City, UT with expertise in personal property, antiques, fine art.",
+        "notes": "Serving Salt Lake City, UT with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "salt-lake-city-salt-lake-city-fine-art-antique-appraisals",
+      "name": "Salt Lake City Fine Art & Antique Appraisals",
+      "slug": "salt-lake-city-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Salt Lake City Fine Art & Antique Appraisals provides professional antique and estate appraisal services in Salt Lake City, UT with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving Salt Lake City, UT with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "salt-lake-city-salt-heritage-appraisals",
+      "name": "Salt Heritage Appraisals",
+      "slug": "salt-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Salt Heritage Appraisals provides professional antique and estate appraisal services in Salt Lake City, UT with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving Salt Lake City, UT with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

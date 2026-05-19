@@ -1,0 +1,74 @@
+{
+  "appraisers": [
+    {
+      "id": "portsmouth-boyd-auctions",
+      "name": "Boyd Antique Auctions & Appraisers",
+      "slug": "boyd-auctions",
+      "imageUrl": "https://static.wixstatic.com/media/6fd4e9_a561b4c3a3db45b6b9968534bf8f4c77%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/6fd4e9_a561b4c3a3db45b6b9968534bf8f4c77%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "Portsmouth",
+        "state": "NH",
+        "zip": "",
+        "formatted": "Portsmouth, NH"
+      },
+      "contact": {
+        "phone": "207-439-6641",
+        "email": "john@boydauctions.com",
+        "website": "https://www.maineestateappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Boyd Antique Auctions & Appraisers offers antique and personal property appraisal services serving Portsmouth, NH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.maineestateappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.maineestateappraisal.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJVWJcuB2-4okRsCVBKpIeE9o",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

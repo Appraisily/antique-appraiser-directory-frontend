@@ -1,0 +1,28 @@
+{
+  "title": "Antique & Art Appraisers in Saskatoon, Saskatchewan",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "saskatoon",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/saskatoon/",
+    "name": "Antique & Art Appraisers in Saskatoon, Saskatchewan",
+    "description": "Compare antique and art appraisers in Saskatoon, Saskatchewan and request a fast online appraisal from Appraisily.",
+    "city": "Saskatoon",
+    "region": "SK",
+    "country": "CA",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "King Ling Jewellery Appraisal",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/saskatoon-king-ling-jewellery-appraisal.svg",
+        "description": "King Ling Jewellery Appraisal offers antique appraisal support in Saskatoon, Saskatchewan. Services: jewellery appraisals.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/saskatoon/"
+    }
+  }
+}

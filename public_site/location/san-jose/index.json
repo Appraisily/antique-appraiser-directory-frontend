@@ -1,0 +1,42 @@
+{
+  "title": "Antique & Art Appraisers in San Jose, California",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "san-jose",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/san-jose/",
+    "name": "Antique & Art Appraisers in San Jose, California",
+    "description": "Compare antique and art appraisers in San Jose, California and request a fast online appraisal from Appraisily.",
+    "city": "San Jose",
+    "region": "CA",
+    "country": "US",
+    "numberOfListedAppraisers": 3,
+    "listedAppraisers": [
+      {
+        "name": "Perri Guthrie",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/san-jose-perri-guthrie.svg",
+        "description": "Perri Guthrie offers antique appraisal support in San Jose, California. Specialties: Art, Paintings - 20th Century, Photography - 20th Century, Prints - Modern & Contemporary. Services: Equitable Distribution, Estate Ev…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Rosalie Wardell",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/clars-auctions.svg",
+        "description": "Rosalie Wardell offers antique appraisal support in San Jose, California. Specialties: Art - 19th Century, Art - Impressionist & Modern, Paintings - Impressionist & Modern, Photography - 20th Century. Services: Consulta…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Clars Auctions",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/clars-auctions/",
+        "slug": "clars-auctions",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san_jose-clars-auctions_1742203169304_0sN14V4tk.jpg",
+        "description": "Clars Auctions offers antique appraisal support in San Jose, California. Specialties: Rare coins. Services: antique appraisal, art appraisal.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/san-jose/"
+    }
+  }
+}

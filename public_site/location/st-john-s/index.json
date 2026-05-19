@@ -1,0 +1,76 @@
+{
+  "title": "Antique & Art Appraisers in St. John's, Newfoundland and Labrador",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "st-john-s",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/st-john-s/",
+    "name": "Antique & Art Appraisers in St. John's, Newfoundland and Labrador",
+    "description": "Compare antique and art appraisers in St. John's, Newfoundland and Labrador and request a fast online appraisal from Appraisily.",
+    "city": "St. John's",
+    "region": "NL",
+    "country": "CA",
+    "numberOfListedAppraisers": 8,
+    "listedAppraisers": [
+      {
+        "name": "Appraisal Services NL",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/appraisal-services-nl.svg",
+        "description": "Appraisal Services NL offers antique appraisal support in St. John's, Newfoundland and Labrador. Specialties: Fine Art, Antiques, Estate Contents, Personal Property. Services: Antique Appraisals, Estate Valuations, Insu…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "East Coast Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/east-coast-appraisals-st-johns.svg",
+        "description": "East Coast Appraisals offers antique appraisal support in St. John's, Newfoundland and Labrador. Specialties: Antiques, Estate Items, Personal Property, Maritime Collectibles. Services: Antique Appraisals, Estate Valuat…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Garage 606",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/gurr-johns.svg",
+        "description": "Garage 606 offers antique appraisal support in St. John's, Newfoundland and Labrador. Specialties: Antiques, Collectibles, Vintage Items. Services: Antique Appraisals, Antique Sales, Estate Valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st._john_s-gurr-johns_1742203292635_M1x5Jo5JP_.jpg",
+        "description": "Gurr Johns offers antique appraisal support in St. John's, Newfoundland and Labrador.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Newfoundland Antique Gallery",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/st-johns-antique-appraisals.svg",
+        "description": "Newfoundland Antique Gallery offers antique appraisal support in St. John's, Newfoundland and Labrador. Specialties: Newfoundland Antiques, Maritime Collectibles, Fishing Heritage, Folk Art. Services: Antique Appraisals…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "St. John's Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/st-johns-antique-appraisals/",
+        "slug": "st-johns-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st._john_s-st-johns-antique-appraisals_1742203299785_XB35NHhK_.jpg",
+        "description": "St. John's Antique Appraisals offers antique appraisal support in St. John's, Newfoundland and Labrador. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Turner Drake & Partners Ltd.",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/turner-drake-partners-ltd/",
+        "slug": "turner-drake-partners-ltd",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st._john_s-turner-drake-partners-ltd_1742203286131_9ySTT0hdl.jpg",
+        "description": "Turner Drake & Partners Ltd. offers antique appraisal support in St. John's, Newfoundland and Labrador. Services: St. John’s, Newfoundland and Labrador.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Water Street Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/water-street-antiques-st-johns.svg",
+        "description": "Water Street Antiques offers antique appraisal support in St. John's, Newfoundland and Labrador. Specialties: General Antiques, Maritime Items, Folk Art, Collectibles. Services: Antique Appraisals, Antique Sales, Estate…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/st-john-s/"
+    }
+  }
+}

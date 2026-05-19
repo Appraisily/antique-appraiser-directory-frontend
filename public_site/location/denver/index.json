@@ -1,0 +1,94 @@
+{
+  "title": "Antique & Art Appraisers in Denver, Colorado",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "denver",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/denver/",
+    "name": "Antique & Art Appraisers in Denver, Colorado",
+    "description": "Compare antique and art appraisers in Denver, Colorado and request a fast online appraisal from Appraisily.",
+    "city": "Denver",
+    "region": "CO",
+    "country": "US",
+    "numberOfListedAppraisers": 11,
+    "listedAppraisers": [
+      {
+        "name": "American Gem Registry – Neil Beaty CGJA",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/american-gem-registry-neil-beaty-cgja/",
+        "slug": "american-gem-registry-neil-beaty-cgja",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_denver-american-gem-registry-neil-beaty-cgja_1742201370744_SZWS1VM_2.jpg",
+        "description": "American Gem Registry – Neil Beaty CGJA offers antique appraisal support in Denver, Colorado. Specialties: Fine art.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Cherry Creek Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/cherry-creek-antiques.svg",
+        "description": "Cherry Creek Antiques offers antique appraisal support in Denver, Colorado. Specialties: Fine Antiques, Art, Decorative Objects. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Colorado Antique Appraisers",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/colorado-antique-appraisers.svg",
+        "description": "Colorado Antique Appraisers offers antique appraisal support in Denver, Colorado. Specialties: Antiques, Western Art, Native American Art, Furniture. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Denver Estate Sales & Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/ellen-amirkhan-crs-orra-csa-fcearug-specialist.svg",
+        "description": "Denver Estate Sales & Appraisals offers antique appraisal support in Denver, Colorado. Specialties: Estate Appraisals, General Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Ellen Amirkhan CRS ORRA CSA FCEA®️(Rug Specialist)",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/ellen-amirkhan-crs-orra-csa-fcearug-specialist/",
+        "slug": "ellen-amirkhan-crs-orra-csa-fcearug-specialist",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_denver-ellen-amirkhan-crs-orra-csa-fcearug-specialist_1742201376245_86PnZ9JPN.jpg",
+        "description": "Ellen Amirkhan CRS ORRA CSA FCEA®️(Rug Specialist) offers antique appraisal support in Denver, Colorado. Specialties: Carpets & Rugs. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Mile High Appraisals & Estate Services",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/prestige-estate-services.svg",
+        "description": "Mile High Appraisals & Estate Services offers antique appraisal support in Denver, Colorado. Specialties: Antiques, Fine Art, Collectibles, Coins. Services: Antique Appraisals, Estate Liquidations, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Prestige Estate Services",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
+        "slug": "prestige-estate-services",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_denver-prestige-estate-services_1742201364678_s9raB53OK.jpg",
+        "description": "Prestige Estate Services offers antique appraisal support in Denver, Colorado. Specialties: Fine art.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Rocky Mountain Estate Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/rocky-mountain-estate-appraisals.svg",
+        "description": "Rocky Mountain Estate Appraisals offers antique appraisal support in Denver, Colorado. Specialties: Antiques, Fine Art, Estate Contents, Collectibles. Services: Estate Appraisals, Antique Appraisals, Insurance Appraisal…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "South Broadway Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/south-broadway-antiques.svg",
+        "description": "South Broadway Antiques offers antique appraisal support in Denver, Colorado. Specialties: General Antiques, Vintage Items, Western Memorabilia. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "The Antique Trader",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/the-antique-trader.svg",
+        "description": "The Antique Trader offers antique appraisal support in Denver, Colorado. Specialties: Antiques, Fine Art, Personal Property, Collectibles. Services: Online Appraisals, Onsite Appraisals, Estate Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "WorthWise Appraisers - Candace Hill",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/worthwise-appraisers-candace-hill.svg",
+        "description": "WorthWise Appraisers - Candace Hill offers antique appraisal support in Denver, Colorado. Specialties: Fine Art, Antiques, Decorative Arts, Collectibles. Services: Art Appraisals, Antique Appraisals, Insurance Appraisal…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/denver/"
+    }
+  }
+}

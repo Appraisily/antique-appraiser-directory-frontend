@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { capturePosthogEvent } from '../lib/posthog';
 import { derivePageContext } from '../utils/analytics';
@@ -24,7 +24,17 @@ export function ContentFeedback() {
   const [comment, setComment] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [validationError, setValidationError] = useState<string | null>(null);
+  const [voteNudge, setVoteNudge] = useState(false);
   const yesButtonRef = useRef<HTMLButtonElement | null>(null);
+  const voteNudgeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (voteNudgeTimeoutRef.current) {
+        clearTimeout(voteNudgeTimeoutRef.current);
+      }
+    };
+  }, []);
 
   const context = useMemo(() => derivePageContext(location.pathname), [location.pathname]);
 
@@ -39,11 +49,17 @@ export function ContentFeedback() {
     }),
     [context, location.pathname]
   );
+  const canSubmit = helpful !== null;
 
   const onVote = (value: boolean) => {
     if (submitted) return;
     setHelpful(value);
     setValidationError(null);
+    setVoteNudge(false);
+    if (voteNudgeTimeoutRef.current) {
+      clearTimeout(voteNudgeTimeoutRef.current);
+      voteNudgeTimeoutRef.current = null;
+    }
 
     capturePosthogEvent('seo_content_feedback_vote', {
       ...commonProps,
@@ -61,6 +77,15 @@ export function ContentFeedback() {
       } catch {
         // ignore
       }
+      setVoteNudge(false);
+      if (voteNudgeTimeoutRef.current) {
+        clearTimeout(voteNudgeTimeoutRef.current);
+      }
+      setVoteNudge(true);
+      voteNudgeTimeoutRef.current = setTimeout(() => {
+        setVoteNudge(false);
+        voteNudgeTimeoutRef.current = null;
+      }, 700);
       return;
     }
 
@@ -96,6 +121,7 @@ export function ContentFeedback() {
                 helpful === true
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',
+                voteNudge ? 'animate-pulse' : '',
                 submitted ? 'opacity-60 cursor-not-allowed' : 'cursor-pointer',
               ].join(' ')}
             >
@@ -110,6 +136,7 @@ export function ContentFeedback() {
                 helpful === false
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',
+                voteNudge ? 'animate-pulse' : '',
                 submitted ? 'opacity-60 cursor-not-allowed' : 'cursor-pointer',
               ].join(' ')}
             >
@@ -137,12 +164,15 @@ export function ContentFeedback() {
               <div className="mt-3 flex items-center gap-3">
                 <button
                   type="submit"
+                  disabled={!canSubmit}
                   className={[
-                    'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition',
-                    'hover:bg-gray-800 cursor-pointer',
+                    'rounded-xl px-4 py-2 text-sm font-semibold transition',
+                    canSubmit
+                      ? 'bg-gray-900 text-white shadow-sm hover:bg-gray-800 cursor-pointer'
+                      : 'bg-gray-200 text-gray-500 shadow-none cursor-not-allowed',
                   ].join(' ')}
                 >
-                  Send feedback
+                  {canSubmit ? 'Send feedback' : 'Choose Yes or No first'}
                 </button>
                 <span className="text-xs text-muted-foreground">We redact emails/phone numbers client-side.</span>
               </div>

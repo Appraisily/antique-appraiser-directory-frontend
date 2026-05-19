@@ -1,6 +1,700 @@
 {
   "appraisers": [
     {
+      "id": "los-angeles-aaa-jewelry-appraisal",
+      "name": "Aaa Jewelry Appraisal",
+      "slug": "aaa-jewelry-appraisal",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "310-739-3000",
+        "email": "jewelry.appraiser@yahoo.com",
+        "website": "http://www.aaajewelryappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Aaa Jewelry Appraisal offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.allbiz.com/business/aaa-jewelry-appraisal-310-739-3000. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.allbiz.com/business/aaa-jewelry-appraisal-310-739-3000",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJYxUUMrXHwoAR1MbTz7ebWhg",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "antiques-adventures-los-angeles-ca",
+      "name": "Antiques Adventures",
+      "slug": "antiques-adventures",
+      "imageUrl": "https://static.wixstatic.com/media/c95a4a_e7ba256e6eb940e8a01d151ec59454e7%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/c95a4a_e7ba256e6eb940e8a01d151ec59454e7%7Emv2.png",
+      "address": {
+        "street": "1113 N La Brea Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90038",
+        "formatted": "1113 N La Brea Ave, Los Angeles, CA 90038"
+      },
+      "contact": {
+        "phone": "(323) 461-0222",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "European Antiques",
+          "Art Deco"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Antiques Adventures offers a curated selection of fine antiques with professional appraisal services in Hollywood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-antiques-buyers-antique-appraisal-mayfair-gallery",
+      "name": "Antiques Buyers Antique Appraisal Mayfair Gallery",
+      "slug": "antiques-buyers-antique-appraisal-mayfair-gallery",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "+1 323-739-1324",
+        "email": "",
+        "website": "http://mayfairgallery.us"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antiques Buyers Antique Appraisal Mayfair Gallery offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.mapquest.com/us/california/mayfair-gallery-352840125. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.mapquest.com/us/california/mayfair-gallery-352840125",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ8zm_Raq7woAR0sCeJ8ov04k",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "los-angeles-antiques-on-magnolia",
+      "name": "Antiques On Magnolia",
+      "slug": "antiques-on-magnolia",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "818-331-1392",
+        "email": "AntiquesOnMagnolia@gmail.com",
+        "website": "https://www.antiquesonmagnolia.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 82
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Vintage Items",
+          "Collectibles",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antiques On Magnolia is a highly reviewed antique shop and appraisal service in Los Angeles, offering expertise in antiques, vintage items, furniture, and decorative arts.",
+        "notes": "Owned-site evidence says Antiques On Magnolia offers estate sales, appraisal, consignment, auction brokering, clean-outs, pack and move services, and gold/silver purchasing."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.antiquesonmagnolia.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Website-backed Places lead enrichment. Contact details and appraisal-service claim came from the owned business website."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ2-saDH-VwoAR3Pl7B8AnGA4",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site says appraisal is offered",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "los-angeles-appraisals-by-ashby",
+      "name": "Appraisals by Ashby",
+      "slug": "appraisals-by-ashby",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.appraisalsbyashby.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Jewelry",
+          "Antiques",
+          "Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Fine Art Appraisals",
+          "Jewelry Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Appraisals by Ashby offers fine art, jewelry, and antique appraisal services throughout California. Professional valuations for insurance, estate planning, and donation purposes.",
+        "notes": "Serving Los Angeles, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-art-world-appraisals-phd",
+      "name": "Art World Appraisals- Fine Art Appraiser Los Angeles",
+      "slug": "art-world-appraisals-phd",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/627478787b7f84059ebc4157/d1d421e9-246d-486b-8df4-30458593cc10/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "(213) 245-6356",
+        "email": "agnes@artworldappraisals.com",
+        "website": "https://www.artworldappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art World Appraisals- Fine Art Appraiser Los Angeles offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.artworldappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artworldappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJGThz_6VTL00R-5rLvqmH9GE",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "los-angeles-alice-karle-appraisals-california-art-appraisers",
+      "name": "California Art Appraisers",
+      "slug": "alice-karle-appraisals-california-art-appraisers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "805-682-2234",
+        "email": "",
+        "website": "https://www.alicekarleappraiserfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "California Art Appraisers offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.alicekarleappraiserfineart.com/service-area-california-appraisers/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.alicekarleappraiserfineart.com/service-area-california-appraisers/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJSz0wpmwMN4kRz3kTkMwDT-s",
+        "confidenceScore": 120,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "los-angeles-dina-brown-art-appraisals",
+      "name": "Dina Brown Art Appraisals",
+      "slug": "dina-brown-art-appraisals",
+      "imageUrl": "https://static.wixstatic.com/media/5d1bf9_b0a83217da7b46a1aaa67c8662493f36%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/5d1bf9_b0a83217da7b46a1aaa67c8662493f36%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "+213 810-7568",
+        "email": "dina@dinabrownartappraisals.com",
+        "website": "https://www.dinabrownartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Dina Brown Art Appraisals offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.dinabrownartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.dinabrownartappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJs_XQsUu5woARhJ-PSZrjF0k",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "los-angeles-ena-art-group",
+      "name": "ENA Appraisals - Fine Art",
+      "slug": "ena-art-group",
+      "imageUrl": "https://static.wixstatic.com/media/c39673_956682c529844b9fa224e09130967e67%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/c39673_956682c529844b9fa224e09130967e67%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "(858) 454-1231",
+        "email": "info@example.com",
+        "website": "https://www.enaartgroup.com/appraisals"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "ENA Appraisals - Fine Art offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.enaartgroup.com/appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.enaartgroup.com/appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ27dvvPlV2YARYG3EJO6J27U",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "los-angeles-gemsecure-jewelry-appraisals-gia-certified-appraiser",
+      "name": "GemSecure Jewelry Appraisals",
+      "slug": "gemsecure-jewelry-appraisals-gia-certified-appraiser",
+      "imageUrl": "https://sep.yimg.com/yf/common/favicon-32x32.png",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "310-821-1453",
+        "email": "patrickdavisappraiser@gmail.com",
+        "website": "http://www.gemsecure.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "GemSecure Jewelry Appraisals offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.gemsecure.net/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.gemsecure.net/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJI9wraRW6woARrlhmSSbJ1t8",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "los angeles-heritage-valuations-los-angeles",
       "name": "Heritage Valuations Los Angeles",
       "slug": "heritage-valuations-los-angeles",
@@ -89,6 +783,204 @@
       }
     },
     {
+      "id": "los-angeles-jas-jewelry-appraisal-services-gina-d-onofrio",
+      "name": "Jewelry Appraisal Services",
+      "slug": "jas-jewelry-appraisal-services-gina-d-onofrio",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "(310)273-8471",
+        "email": "ginajewels@gmail.com",
+        "website": "https://www.lajewelryappraiser.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Jewelry Appraisal Services offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.lajewelryappraiser.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.lajewelryappraiser.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJhyaBdJy7woAR12aJ_r1rH70",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "paintings-and-antiques-los-angeles-ca",
+      "name": "LACMA Antique & Art Services",
+      "slug": "lacma-antique-services",
+      "imageUrl": "",
+      "address": {
+        "street": "5905 Wilshire Blvd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90036",
+        "formatted": "5905 Wilshire Blvd, Los Angeles, CA 90036"
+      },
+      "contact": {
+        "phone": "(323) 857-6000",
+        "email": "",
+        "website": "https://www.lacma.org"
+      },
+      "business": {
+        "yearsInBusiness": "Major art museum with consultation services",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisal Referrals",
+          "Art Consultation",
+          "Research Services"
+        ]
+      },
+      "content": {
+        "about": "LACMA provides art and antique consultation and appraisal referral services for the Los Angeles community.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-lg-appraisal",
+      "name": "LG Appraisal",
+      "slug": "lg-appraisal",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "310-351-9833",
+        "email": "",
+        "website": "https://www.iappraiseantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "LG Appraisal offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.iappraiseantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.iappraiseantiques.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJgSaDOZ25woARzjtG88nc5JU",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "los angeles-los-angeles-antique-appraisals",
       "name": "Los Angeles Antique Appraisals",
       "slug": "los-angeles-antique-appraisals",
@@ -167,6 +1059,740 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-pacific-jewelry-buyers",
+      "name": "Pacific Jewelry Buyers",
+      "slug": "pacific-jewelry-buyers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "+1 424-248-0437",
+        "email": "contact@pacificjewelrybuyers.com",
+        "website": "https://www.pacificjewelrybuyers.com/about/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Pacific Jewelry Buyers offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.pacificjewelrybuyers.com/about/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.pacificjewelrybuyers.com/about/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJw1qdvvi7woARUIpkKnql2P0",
+        "confidenceScore": 20,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found",
+          "retail/auction/gallery identity without appraisal identity term"
+        ]
+      }
+    },
+    {
+      "id": "palmtree-antiques-los-angeles-ca",
+      "name": "Palm Antiques",
+      "slug": "palm-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "5300 Wilshire Blvd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90036",
+        "formatted": "5300 Wilshire Blvd, Los Angeles, CA 90036"
+      },
+      "contact": {
+        "phone": "(323) 938-4403",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "European Antiques",
+          "American Antiques",
+          "Fine Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Palm Antiques offers fine European and American antiques with professional appraisal services in the Miracle Mile district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-personal-property-residential-contents-appraisals",
+      "name": "Personal Property Residential Contents Appraisals",
+      "slug": "personal-property-residential-contents-appraisals",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "6262922224",
+        "email": "findvalu@aol.com",
+        "website": "https://antiquepropertyappraiser.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Personal Property Residential Contents Appraisals offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://antiquepropertyappraiser.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://antiquepropertyappraiser.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ307zj7DbwoAR0tf-0JDthas",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "rose-bowl-flea-market-los-angeles-ca",
+      "name": "Rose Bowl Flea Market Appraisals",
+      "slug": "rose-bowl-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1001 Rose Bowl Dr",
+        "city": "Pasadena",
+        "state": "CA",
+        "zip": "91103",
+        "formatted": "1001 Rose Bowl Dr, Pasadena, CA 91103"
+      },
+      "contact": {
+        "phone": "(626) 577-3100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established monthly antique market",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Mid-Century Modern"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Walk-in Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "The Rose Bowl Flea Market is one of the world's most famous antique and vintage markets, with expert appraisers available monthly.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-roth-escher-art-group",
+      "name": "Roth Escher Art Group",
+      "slug": "roth-escher-art-group",
+      "imageUrl": "https://rothescherart.com/wp-content/uploads/2018/10/cropped-favicon-32x32.png",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "(925) 299-6850",
+        "email": "info@rothescherart.com",
+        "website": "https://rothescherart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Roth Escher Art Group offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://rothescherart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://rothescherart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJSx-1Sv9ihYARXjJdhHF0T4U",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "los-angeles-southbayartappraisal",
+      "name": "South Bay Art Appraisals",
+      "slug": "southbayartappraisal",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "310.880.1058",
+        "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "website": "https://www.southbayartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "South Bay Art Appraisals offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.southbayartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.southbayartappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJGxZ55BL1B6wRJf03nyrJTEs",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "los-angeles-socal-antique-appraisals",
+      "name": "Southern California Antique Appraisals",
+      "slug": "socal-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Southern California Antique Appraisals provides professional antique valuations throughout the Los Angeles area with expertise in fine art, estate contents, and decorative arts.",
+        "notes": "Serving Los Angeles, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-specialty-appraisals-antique-art-jewelry",
+      "name": "Specialty Appraisals",
+      "slug": "specialty-appraisals-antique-art-jewelry",
+      "imageUrl": "http://specialtyappraisals.com/wp-content/uploads/2015/01/Magnify.jpg",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "+18772555445",
+        "email": "",
+        "website": "http://specialtyappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Specialty Appraisals offers antique, jewelry, or personal-property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: http://specialtyappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://specialtyappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJX51j6ImXwoAR1Ik34feO9v8",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states antique art and jewelry appraisals",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "los-angeles-stuart-salsbury-appraisals",
+      "name": "Stuart H. Salsbury Appraisal Services",
+      "slug": "stuart-salsbury-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(323) 675-5789",
+        "email": "stuartsalsbury@artappraisals.com",
+        "website": "http://www.artappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 40 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.9,
+        "reviewCount": 25
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Sculptures",
+          "Modern & Contemporary Paintings",
+          "Antiques",
+          "Period Furniture",
+          "Jewelry"
+        ],
+        "certifications": [
+          "Certified Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Tax Purpose Appraisals",
+          "Litigation Support",
+          "Estate Planning",
+          "Expert Witness"
+        ]
+      },
+      "content": {
+        "about": "Stuart H. Salsbury has provided certified appraisal services in Los Angeles for over 40 years. Former Head of Appraisal Department at Sotheby's, he is a recognized expert witness and appraiser for National Geographic and Architectural Digest.",
+        "notes": "Serving Los Angeles, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-studio-antiques-la",
+      "name": "Studio Antiques LA",
+      "slug": "studio-antiques-la",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://studioantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Vintage Art",
+          "Curios",
+          "Collectibles",
+          "Fine Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Written Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Legal Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Studio Antiques provides years of experience with written appraisals for legal and insurance purposes in Los Angeles, appraising vintage art, curios, collectibles, and antiques.",
+        "notes": "Serving Los Angeles, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "los-angeles-novotny-appraisals",
+      "name": "William Novotny Appraisal Services",
+      "slug": "novotny-appraisals",
+      "imageUrl": "https://novotnyappraisal.com/wp-content/uploads/2021/02/cropped-Favicon-32x32.png",
+      "address": {
+        "street": "",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Los Angeles, CA"
+      },
+      "contact": {
+        "phone": "+16262922224",
+        "email": "findvalu@aol.com",
+        "website": "https://novotnyappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "William Novotny Appraisal Services offers antique and personal property appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://novotnyappraisal.com/contact/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://novotnyappraisal.com/contact/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJd4WoUQ3bwoARabQiqEYl8gc",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     }
   ]

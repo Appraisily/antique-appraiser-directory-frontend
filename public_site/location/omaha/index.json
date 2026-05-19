@@ -1,0 +1,88 @@
+{
+  "title": "Antique & Art Appraisers in Omaha, Nebraska",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "omaha",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/omaha/",
+    "name": "Antique & Art Appraisers in Omaha, Nebraska",
+    "description": "Compare antique and art appraisers in Omaha, Nebraska and request a fast online appraisal from Appraisily.",
+    "city": "Omaha",
+    "region": "NE",
+    "country": "US",
+    "numberOfListedAppraisers": 10,
+    "listedAppraisers": [
+      {
+        "name": "Borsheims Fine Jewelry & Gifts",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/borsheims-fine-jewelry-gifts/",
+        "slug": "borsheims-fine-jewelry-gifts",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_omaha-borsheims-fine-jewelry-gifts_1742202922596_0yIrmqz8I.jpg",
+        "description": "Borsheims Fine Jewelry & Gifts offers antique appraisal support in Omaha, Nebraska. Specialties: Artwork. Services: Nationwide coverage via regional experts.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Dundee Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/dundee-antiques.svg",
+        "description": "Dundee Antiques offers antique appraisal support in Omaha, Nebraska. Specialties: Fine Antiques, Art, Decorative Objects. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Nebraska Estate Sales & Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/nebraska-estate-sales.svg",
+        "description": "Nebraska Estate Sales & Appraisals offers antique appraisal support in Omaha, Nebraska. Specialties: Estate Appraisals, General Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Old Market Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/omaha-antique-appraisals.svg",
+        "description": "Old Market Antiques offers antique appraisal support in Omaha, Nebraska. Specialties: General Antiques, Vintage Collectibles, Furniture. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Omaha Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/omaha-antique-appraisals/",
+        "slug": "omaha-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_omaha-omaha-antique-appraisals_1742202929091_rAJyCYOUm.jpg",
+        "description": "Omaha Antique Appraisals offers antique appraisal support in Omaha, Nebraska. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, Insurance Ap…",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Omaha Estate Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/omaha-estate-appraisals.svg",
+        "description": "Omaha Estate Appraisals offers antique appraisal support in Omaha, Nebraska. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Omaha Fine Art & Antique Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/omaha-fine-art-antique-appraisals.svg",
+        "description": "Omaha Fine Art & Antique Appraisals offers antique appraisal support in Omaha, Nebraska. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance Apprais…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Omaha Heritage Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/omaha-heritage-appraisals.svg",
+        "description": "Omaha Heritage Appraisals offers antique appraisal support in Omaha, Nebraska. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Omaha Personal Property Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/prestige-estate-services.svg",
+        "description": "Omaha Personal Property Appraisals offers antique appraisal support in Omaha, Nebraska. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Apprai…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Prestige Estate Services",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
+        "slug": "prestige-estate-services",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_omaha-prestige-estate-services_1742202916728_QVzw_IHHd.jpg",
+        "description": "Prestige Estate Services offers antique appraisal support in Omaha, Nebraska. Specialties: Artwork. Services: Nationwide coverage via regional experts.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/omaha/"
+    }
+  }
+}

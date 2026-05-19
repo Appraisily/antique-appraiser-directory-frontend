@@ -1,0 +1,142 @@
+{
+  "appraisers": [
+    {
+      "id": "manchester-devin-moisan-auctioneers-inc-antiques-auctions-and-appraisals",
+      "name": "Devin Moisan Auctioneers, Inc.",
+      "slug": "devin-moisan-auctioneers-inc-antiques-auctions-and-appraisals",
+      "imageUrl": "https://moisanauctions.com/apple-touch-icon.png",
+      "address": {
+        "street": "",
+        "city": "Manchester",
+        "state": "NH",
+        "zip": "",
+        "formatted": "Manchester, NH"
+      },
+      "contact": {
+        "phone": "(603) 953-0022",
+        "email": "Shipping@MoisanAuctions.com",
+        "website": "https://moisanauctions.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Devin Moisan Auctioneers, Inc. offers antique and personal property appraisal services serving Manchester, NH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://moisanauctions.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://moisanauctions.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJYZnbqLOQ4okRX-CkNhduwsc",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "manchester-nh-auctions-and-appraisals",
+      "name": "New Hampshire Auctions and Appraisals",
+      "slug": "nh-auctions-and-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Manchester",
+        "state": "NH",
+        "zip": "",
+        "formatted": "Manchester, NH"
+      },
+      "contact": {
+        "phone": "16037319876",
+        "email": "support@domain.com",
+        "website": "https://nhauctionsandappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "New Hampshire Auctions and Appraisals offers antique and personal property appraisal services serving Manchester, NH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://nhauctionsandappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://nhauctionsandappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJZz2LnQE34okRujy7qGbCGHM",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

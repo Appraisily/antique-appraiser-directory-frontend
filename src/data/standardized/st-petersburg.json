@@ -1,0 +1,72 @@
+{
+  "appraisers": [
+    {
+      "id": "st-petersburg-antique-art-buyers",
+      "name": "Antique Art Buyers",
+      "slug": "antique-art-buyers",
+      "imageUrl": "https://antiqueartbuyers.com/wp-content/uploads/2023/01/logo1.png",
+      "address": {
+        "street": "",
+        "city": "St. Petersburg",
+        "state": "FL",
+        "zip": "",
+        "formatted": "St. Petersburg, FL"
+      },
+      "contact": {
+        "phone": "727-656-2504",
+        "email": "chris@antiquesilver.org",
+        "website": "https://antiqueartbuyers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique Art Buyers offers antique and personal property appraisal services serving St. Petersburg, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://antiqueartbuyers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://antiqueartbuyers.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ06BSl8P7wogRSMfS_q574vE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

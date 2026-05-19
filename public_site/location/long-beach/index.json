@@ -1,0 +1,82 @@
+{
+  "title": "Antique & Art Appraisers in Long Beach, California",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "long-beach",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/long-beach/",
+    "name": "Antique & Art Appraisers in Long Beach, California",
+    "description": "Compare antique and art appraisers in Long Beach, California and request a fast online appraisal from Appraisily.",
+    "city": "Long Beach",
+    "region": "CA",
+    "country": "US",
+    "numberOfListedAppraisers": 10,
+    "listedAppraisers": [
+      {
+        "name": "Eagle Home Appraisal",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/1-eagle-home-appraisal/",
+        "slug": "1-eagle-home-appraisal",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_long_beach-1-eagle-home-appraisal_1742202726358_uROvsewGh.jpg",
+        "description": "Eagle Home Appraisal offers antique appraisal support in Long Beach, California. Services: Greater Los Angeles/Long Basin region⁵]..",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Antique Advocate Estate Sales & Services",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/antique-advocate-estate-sales.svg",
+        "description": "Antique Advocate Estate Sales & Services offers antique appraisal support in Long Beach, California. Specialties: Estate Sales, Personal Property, Antiques, Estate Liquidation. Services: Estate Sales, Personal Property…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Antique Advocate Estate Sales and Services",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/antique-advocate-estate-sales.svg",
+        "description": "Antique Advocate Estate Sales and Services offers antique appraisal support in Long Beach, California. Specialties: Estate Sales, Antiques, Collectibles, Personal Property. Services: Antique Appraisals, Estate Sales, Es…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Carlton Haugh Appraisal Services",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/carlton-haugh-appraisals.svg",
+        "description": "Carlton Haugh Appraisal Services offers antique appraisal support in Long Beach, California. Specialties: Real Estate, Estate Items, Personal Property, Antiques. Services: Property Appraisals, Estate Valuations, Antique…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Giltcomplex Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/giltcomplex-antiques.svg",
+        "description": "Giltcomplex Antiques offers antique appraisal support in Long Beach, California. Specialties: 18th and 19th Century Furnishings, Oriental Rugs, Fine Art, Collectibles. Services: Antique Appraisals, After-Hours Appointme…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Heritage Valuations Long Beach",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-long-beach/",
+        "slug": "heritage-valuations-long-beach",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_long_beach-heritage-valuations-long-beach_1742202737463_w6N5ALnia.jpg",
+        "description": "Heritage Valuations Long Beach offers antique appraisal support in Long Beach, California. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Long Beach Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/long-beach-antique-appraisals/",
+        "slug": "long-beach-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_long_beach-long-beach-antique-appraisals_1742202731954_jpQc06Gdu.jpg",
+        "description": "Long Beach Antique Appraisals offers antique appraisal support in Long Beach, California. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Sotheby's Appraisals - Long Beach",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/sothebys-appraisals-long-beach.svg",
+        "description": "Sotheby's Appraisals - Long Beach offers antique appraisal support in Long Beach, California. Specialties: Fine Art, Antiques, Collectibles, Decorative Arts. Services: Antique Appraisals, Fine Art Appraisals, Estate Val…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "ValuePros Appraisal Services - Long Beach",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal-long-beach.svg",
+        "description": "ValuePros Appraisal Services - Long Beach offers antique appraisal support in Long Beach, California. Specialties: Antiques, Collectibles, Fine Art, Jewelry. Services: Antique Appraisals, Onsite Appraisals, Insurance Ap…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/long-beach/"
+    }
+  }
+}

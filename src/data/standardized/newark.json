@@ -1,0 +1,209 @@
+{
+  "appraisers": [
+    {
+      "id": "newark-antiques-buyer-shrewsbury-nj-all-american-antiques-and-appraisals",
+      "name": "All American Antiques & Appraisals",
+      "slug": "antiques-buyer-shrewsbury-nj-all-american-antiques-and-appraisals",
+      "imageUrl": "https://irp.cdn-website.com/6c90046c/site_favicon_16_1619621215954.ico",
+      "address": {
+        "street": "",
+        "city": "Newark",
+        "state": "NJ",
+        "zip": "",
+        "formatted": "Newark, NJ"
+      },
+      "contact": {
+        "phone": "(732) 741-9122",
+        "email": "csresh1969@gmail.com",
+        "website": "https://www.estateandantiquebuyersnj.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "All American Antiques & Appraisals offers antique and personal property appraisal services serving Newark, NJ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.estateandantiquebuyersnj.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.estateandantiquebuyersnj.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJQ9xRL9QxwokR8Wb7Ue75SUI",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "newark-penny-lane-antiques-and-appraisals",
+      "name": "Penny Lane Antiques & Appraisals",
+      "slug": "penny-lane-antiques-and-appraisals",
+      "imageUrl": "https://a.mktgcdn.com/p/YGo5_d7hZDw-pnTjwuoK2GHLhNsYNv7uT4Uc-7MpYOs/400x400.jpg",
+      "address": {
+        "street": "",
+        "city": "Newark",
+        "state": "NJ",
+        "zip": "",
+        "formatted": "Newark, NJ"
+      },
+      "contact": {
+        "phone": "(973) 221-3615",
+        "email": "'+item.EmailAddr+'",
+        "website": "https://www.pennylanenj.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Penny Lane Antiques & Appraisals offers antique and personal property appraisal services serving Newark, NJ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.pennylanenj.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.pennylanenj.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJt3ssidBww4kRgnFmYXAvSD0",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "newark-time-traveler-antiques-and-appraisals-appraisers-coin-dealer-princeton",
+      "name": "Time Traveler Antiques And Appraisals",
+      "slug": "time-traveler-antiques-and-appraisals-appraisers-coin-dealer-princeton",
+      "imageUrl": "https://cdn.hibuwebsites.com/929e0120431e4abf8bc2c6c1783656e8/site_favicon_16_1659984333798.ico",
+      "address": {
+        "street": "",
+        "city": "Newark",
+        "state": "NJ",
+        "zip": "",
+        "formatted": "Newark, NJ"
+      },
+      "contact": {
+        "phone": "609-577-4659",
+        "email": "TJP827@aol.com",
+        "website": "https://www.timetravelerantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Time Traveler Antiques And Appraisals offers antique and personal property appraisal services serving Newark, NJ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.timetravelerantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.timetravelerantiques.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ1UJjjxNfwYkRtYL-5c9q7rQ",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

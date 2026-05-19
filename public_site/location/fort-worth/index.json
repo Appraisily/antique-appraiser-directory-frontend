@@ -1,0 +1,88 @@
+{
+  "title": "Antique & Art Appraisers in Fort Worth, Texas",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "fort-worth",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/fort-worth/",
+    "name": "Antique & Art Appraisers in Fort Worth, Texas",
+    "description": "Compare antique and art appraisers in Fort Worth, Texas and request a fast online appraisal from Appraisily.",
+    "city": "Fort Worth",
+    "region": "TX",
+    "country": "US",
+    "numberOfListedAppraisers": 10,
+    "listedAppraisers": [
+      {
+        "name": "Fort Worth Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/fort-worth-antique-appraisals/",
+        "slug": "fort-worth-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fort_worth-fort-worth-antique-appraisals_1742202493554_c6cSatwak.jpg",
+        "description": "Fort Worth Antique Appraisals offers antique appraisal support in Fort Worth, Texas. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Heritage Valuations Fort Worth",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-fort-worth/",
+        "slug": "heritage-valuations-fort-worth",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fort_worth-heritage-valuations-fort-worth_1742202498536_zKdnW9fZC.jpg",
+        "description": "Heritage Valuations Fort Worth offers antique appraisal support in Fort Worth, Texas. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "JunkerVals Antiques & Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/junker-vals-antiques-appraisals.svg",
+        "description": "JunkerVals Antiques & Appraisals offers antique appraisal support in Fort Worth, Texas. Specialties: General Antiques, Vintage Collectibles, Junkers, Estate Items. Services: Antique Appraisals, Antique Sales, Estate Val…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Leonard Appraisal & Consulting",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/leonard-appraisal-consulting.svg",
+        "description": "Leonard Appraisal & Consulting offers antique appraisal support in Fort Worth, Texas. Specialties: Antiques, Collectibles, Personal Property. Services: Antique Appraisals, Personal Property Appraisals, Estate Valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Leonard Appraisal & Consulting - Fort Worth",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/licensed-professionals.svg",
+        "description": "Leonard Appraisal & Consulting - Fort Worth offers antique appraisal support in Fort Worth, Texas. Specialties: Antiques, Collectibles, Personal Property, Estate Items. Services: Antique Appraisals, Personal Property Ap…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Licensed Professionals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/licensed-professionals/",
+        "slug": "licensed-professionals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fort_worth-licensed-professionals_1742202488680_w-WiDT2mz.jpg",
+        "description": "Licensed Professionals offers antique appraisal support in Fort Worth, Texas. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Promenade Clocks",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/promenade-clocks.svg",
+        "description": "Promenade Clocks offers antique appraisal support in Fort Worth, Texas. Specialties: Antique Clocks, Timepieces, Antiques, Collectibles. Services: Antique Appraisals, Clock Repair, Antique Sales.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Tarrant County Antiques & Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/tarrant-county-antiques-appraisals.svg",
+        "description": "Tarrant County Antiques & Appraisals offers antique appraisal support in Fort Worth, Texas. Specialties: General Antiques, Vintage Collectibles, Furniture, Estate Items. Services: Antique Appraisals, Antique Sales, Esta…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "ValuePros Appraisal Services",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal.svg",
+        "description": "ValuePros Appraisal Services offers antique appraisal support in Fort Worth, Texas. Specialties: Collectibles, Jewelry, Residential Contents, Antiques. Services: Antique Appraisals, Furniture Appraisals, Insurance Appra…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "ValuePros Appraisal Services - Fort Worth",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal-fort-worth.svg",
+        "description": "ValuePros Appraisal Services - Fort Worth offers antique appraisal support in Fort Worth, Texas. Specialties: Antiques, Collectibles, Jewelry, Coins. Services: Antique Appraisals, Personal Property Appraisals, Insurance…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/fort-worth/"
+    }
+  }
+}

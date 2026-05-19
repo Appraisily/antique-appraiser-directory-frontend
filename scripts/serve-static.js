@@ -255,8 +255,7 @@ app.get('/', (req, res) => {
         
         <footer style="margin-top: 40px; border-top: 1px solid #dee2e6; padding-top: 20px;">
           <p>
-            <a href="/test-html">Run HTML Tests</a> | 
-            <a href="/fix-react">Fix React Hydration Issues</a>
+            <a href="/test-html">Run HTML Tests</a>
           </p>
         </footer>
       </body>
@@ -283,23 +282,6 @@ app.get('/test-html', (req, res) => {
     res.redirect('/');
   } catch (error) {
     log(`Error running HTML tests: ${error.message}`, 'error');
-    res.status(500).send(`<h1>Error</h1><p>${error.message}</p>`);
-  }
-});
-
-// Route to fix React hydration issues
-app.get('/fix-react', (req, res) => {
-  try {
-    log('Fixing React hydration issues...', 'info');
-    const fixScript = path.join(ROOT_DIR, 'scripts', 'fix-react-hydration.js');
-    
-    // Execute the fix script
-    const { execSync } = require('child_process');
-    execSync(`node ${fixScript}`, { stdio: 'inherit' });
-    
-    res.redirect('/');
-  } catch (error) {
-    log(`Error fixing React hydration issues: ${error.message}`, 'error');
     res.status(500).send(`<h1>Error</h1><p>${error.message}</p>`);
   }
 });

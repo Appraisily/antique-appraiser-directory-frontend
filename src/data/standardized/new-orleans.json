@@ -235,6 +235,510 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "magazine-street-antiques-new-orleans-la",
+      "name": "Magazine Street Antiques",
+      "slug": "magazine-street-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3000-4000 Magazine St",
+        "city": "New Orleans",
+        "state": "LA",
+        "zip": "70115",
+        "formatted": "3000-4000 Magazine St, New Orleans, LA 70115"
+      },
+      "contact": {
+        "phone": "(504) 895-1111",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Historic antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "French Antiques",
+          "Vintage Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Magazine Street is New Orleans's premier antique destination, with miles of shops and expert appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "french-quarter-antiques-new-orleans-la",
+      "name": "French Quarter Antiques",
+      "slug": "french-quarter-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "333 Royal St",
+        "city": "New Orleans",
+        "state": "LA",
+        "zip": "70130",
+        "formatted": "333 Royal St, New Orleans, LA 70130"
+      },
+      "contact": {
+        "phone": "(504) 525-4444",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "European Antiques",
+          "French Furniture",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "French Quarter Antiques offers fine European antiques with professional appraisal services on Royal Street in the French Quarter.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "nola-estate-sales-new-orleans-la",
+      "name": "NOLA Estate Sales & Appraisals",
+      "slug": "nola-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "650 Poydras St",
+        "city": "New Orleans",
+        "state": "LA",
+        "zip": "70130",
+        "formatted": "650 Poydras St, New Orleans, LA 70130"
+      },
+      "contact": {
+        "phone": "(504) 581-4400",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "Louisiana Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "NOLA Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the greater New Orleans area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-orleans-matthew-clayton-brown-appraisals",
+      "name": "Matthew Clayton Brown Fine Art Appraisals",
+      "slug": "matthew-clayton-brown-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "New Orleans",
+        "state": "LA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.mclaytonbrown.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1991 (30+ years)",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Decorative Art",
+          "Antiques",
+          "Estate Contents",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Fine Art Appraisals",
+          "Decorative Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Matthew Clayton Brown has provided fine and decorative art appraisal services in New Orleans since 1991. Trusted advisors for over 30 years with compliant, defensible appraisals.",
+        "notes": "Serving New Orleans, LA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-orleans-david-goldberg-appraiser",
+      "name": "David Goldberg Appraiser - CEDI",
+      "slug": "david-goldberg-appraiser",
+      "imageUrl": "",
+      "address": {
+        "street": "310 Jewel St",
+        "city": "New Orleans",
+        "state": "LA",
+        "zip": "70124",
+        "formatted": "310 Jewel St, New Orleans, LA 70124"
+      },
+      "contact": {
+        "phone": "(504) 282-7611",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Personal Property",
+          "Insurance Items"
+        ],
+        "certifications": [
+          "Certified Estate Insurance Divorce Appraiser"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Divorce Appraisals",
+          "Antique Appraisals"
+        ]
+      },
+      "content": {
+        "about": "David Goldberg is the founder of Certified Estate Insurance and Divorce Appraisers (CEDI), providing professional antique and estate appraisals in New Orleans.",
+        "notes": "Serving New Orleans, LA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-orleans-crescent-city-antique-appraisals",
+      "name": "Crescent City Antique Appraisals",
+      "slug": "crescent-city-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "New Orleans",
+        "state": "LA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Southern Antiques",
+          "Fine Art",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Crescent City Antique Appraisals specializes in Southern antiques, fine art, and furniture. Serving New Orleans collectors and estate planners with expertise in regional pieces.",
+        "notes": "Serving New Orleans, LA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-orleans-bayou-estate-appraisals",
+      "name": "Bayou Estate Appraisals",
+      "slug": "bayou-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "New Orleans",
+        "state": "LA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Collectibles",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Probate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Bayou Estate Appraisals provides comprehensive antique and estate valuations throughout New Orleans and the surrounding Gulf Coast region.",
+        "notes": "Serving New Orleans, LA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-orleans-french-quarter-antique-appraisals",
+      "name": "French Quarter Antique Appraisals",
+      "slug": "french-quarter-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "New Orleans",
+        "state": "LA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "18+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Creole Furniture",
+          "Silver",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "French Quarter Antique Appraisals specializes in Creole furniture, silver, and decorative arts. Serving New Orleans with expertise in unique regional antiques.",
+        "notes": "Serving New Orleans, LA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

@@ -1,0 +1,76 @@
+{
+  "appraisers": [
+    {
+      "id": "missoula-missoula-valuepros",
+      "name": "ValuePros",
+      "slug": "missoula-valuepros",
+      "imageUrl": "https://2023.valuepros.org/wp-content/uploads/2021/01/ValuePros-Logo-1080.png",
+      "address": {
+        "street": "",
+        "city": "Missoula",
+        "state": "MT",
+        "zip": "",
+        "formatted": "Missoula, MT"
+      },
+      "contact": {
+        "phone": "+18883537152",
+        "email": "support@valuepros.com",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "ValuePros offers antique and personal property appraisal services serving Missoula, MT. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.valuepros.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.valuepros.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ7VLDjivIzKgRfsCAVvIFVUg",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

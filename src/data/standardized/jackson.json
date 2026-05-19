@@ -1,0 +1,139 @@
+{
+  "appraisers": [
+    {
+      "id": "jackson-elizabeth-abston-llc",
+      "name": "Elizabeth Abston LLC Fine Art Appraisal & Advisory",
+      "slug": "elizabeth-abston-llc",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5dc47e452c7da238226492c1/1573227158150-FYOD0TFTJMV1DU50D8UR/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Jackson",
+        "state": "MS",
+        "zip": "",
+        "formatted": "Jackson, MS"
+      },
+      "contact": {
+        "phone": "",
+        "email": "user@domain.com",
+        "website": "https://www.eafineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Elizabeth Abston LLC Fine Art Appraisal & Advisory offers antique and personal property appraisal services serving Jackson, MS. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.eafineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.eafineart.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJb7sC6sisECgR0veHJCZWFzQ",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found"
+        ]
+      }
+    },
+    {
+      "id": "jackson-stewart-s-antiques",
+      "name": "Stewart's Antiques and Estate Sales LLC",
+      "slug": "stewart-s-antiques",
+      "imageUrl": "https://www.wix.com/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Jackson",
+        "state": "MS",
+        "zip": "",
+        "formatted": "Jackson, MS"
+      },
+      "contact": {
+        "phone": "662-251-1515",
+        "email": "bennyshelton5@gmail.com",
+        "website": "https://bennyshelton5.wixsite.com/website"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Stewart's Antiques and Estate Sales LLC offers antique and personal property appraisal services serving Jackson, MS. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://bennyshelton5.wixsite.com/website. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://bennyshelton5.wixsite.com/website",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJtTUAedXrhogR6MgbZTVcinY",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

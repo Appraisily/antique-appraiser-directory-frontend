@@ -1,0 +1,74 @@
+{
+  "appraisers": [
+    {
+      "id": "knoxville-case-auctions",
+      "name": "Case Antiques, Inc. d/b/a Case Auctions",
+      "slug": "case-auctions",
+      "imageUrl": "https://caseantiques.com/app/uploads/2022/07/cropped-Case-Logo_Badge-C-TINY-32x32.png",
+      "address": {
+        "street": "",
+        "city": "Knoxville",
+        "state": "TN",
+        "zip": "",
+        "formatted": "Knoxville, TN"
+      },
+      "contact": {
+        "phone": "(865) 558-3033",
+        "email": "info@caseauctions.com",
+        "website": "https://caseantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Case Antiques, Inc. d/b/a Case Auctions offers antique and personal property appraisal services serving Knoxville, TN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://caseantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://caseantiques.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJDbrzZUA9XIgRVNNf8kcPT_g",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

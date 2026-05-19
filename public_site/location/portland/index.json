@@ -1,0 +1,34 @@
+{
+  "title": "Antique & Art Appraisers in Portland, Oregon",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "portland",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/portland/",
+    "name": "Antique & Art Appraisers in Portland, Oregon",
+    "description": "Compare antique and art appraisers in Portland, Oregon and request a fast online appraisal from Appraisily.",
+    "city": "Portland",
+    "region": "OR",
+    "country": "US",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Shelley D Hall",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/portland-shelley-d-hall.svg",
+        "description": "Shelley D Hall offers antique appraisal support in Portland, Oregon. Specialties: Art - 20th Century, Art - Impressionist & Modern, Paintings, Prints. Services: Broker, Consultant, Damage Claims.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Stephen M Braitman",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/portland-stephen-m-braitman.svg",
+        "description": "Stephen M Braitman offers antique appraisal support in Portland, Oregon. Specialties: Memorabilia - Entertainment, Music - Albums & Records, Collectibles, Ephemera. Services: Divorce Settlements, Donations, Estate Proba…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/portland/"
+    }
+  }
+}

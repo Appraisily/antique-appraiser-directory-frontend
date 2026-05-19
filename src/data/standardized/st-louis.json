@@ -35,7 +35,7 @@
       },
       "expertise": {
         "specialties": [
-          "American/European/Russian fine/decorative arts • Prints/paintings/sculpture • Jewelry • Large collection management • Expert witness testimony  \n- Certifications: Accredited Member ([International Society of Appraisers](https://www.appraiser.org)) • USPAP-compliant  \n- Years Active: Over 20 years combined experience  \n- Service Area: Midwestern U.S., remote consultations available  \n- Website: [artriumappraisal.com](https://artriumappraisal.com/about/)  \n\n---\n\n#### [Prestige Estate Services](https://prestigeestateservices.com)"
+          "American/European/Russian fine/decorative arts \u2022 Prints/paintings/sculpture \u2022 Jewelry \u2022 Large collection management \u2022 Expert witness testimony  \n- Certifications: Accredited Member ([International Society of Appraisers](https://www.appraiser.org)) \u2022 USPAP-compliant  \n- Years Active: Over 20 years combined experience  \n- Service Area: Midwestern U.S., remote consultations available  \n- Website: [artriumappraisal.com](https://artriumappraisal.com/about/)  \n\n---\n\n#### [Prestige Estate Services](https://prestigeestateservices.com)"
         ],
         "certifications": [
           "USPAP",
@@ -46,8 +46,8 @@
         ]
       },
       "content": {
-        "about": "Artrium Fine Art & Estate Appraisal offers antique appraisal services in St. Louis, MI. Primary specialties include American/European/Russian fine/decorative arts • Prints/paintings/sculpture • Jewelry • Large collection management • Expert witness testimony  \n- Certifications: Accredited Member ([International Society of Appraisers](https://www.appraiser.org)) • USPAP-compliant  \n- Years Active: Over 20 years combined experience  \n- Service Area: Midwestern U.S., remote consultations available  \n- Website: [artriumappraisal.com](https://artriumappraisal.com/about/)  \n\n---\n\n#### [Prestige Estate Services](https://prestigeestateservices.com). Services include Midwestern U.S., remote consultations available.",
-        "notes": "Serving St. Louis, MI clients who need antique valuations in American/European/Russian fine/decorative arts • Prints/paintings/sculpture • Jewelry • Large collection management • Expert witness testimony  \n- Certifications: Accredited Member ([International Society of Appraisers](https://www.appraiser.org)) • USPAP-compliant  \n- Years Active: Over 20 years combined experience  \n- Service Area: Midwestern U.S., remote consultations available  \n- Website: [artriumappraisal.com](https://artriumappraisal.com/about/)  \n\n---\n\n#### [Prestige Estate Services](https://prestigeestateservices.com)."
+        "about": "Artrium Fine Art & Estate Appraisal offers antique appraisal services in St. Louis, MI. Primary specialties include American/European/Russian fine/decorative arts \u2022 Prints/paintings/sculpture \u2022 Jewelry \u2022 Large collection management \u2022 Expert witness testimony  \n- Certifications: Accredited Member ([International Society of Appraisers](https://www.appraiser.org)) \u2022 USPAP-compliant  \n- Years Active: Over 20 years combined experience  \n- Service Area: Midwestern U.S., remote consultations available  \n- Website: [artriumappraisal.com](https://artriumappraisal.com/about/)  \n\n---\n\n#### [Prestige Estate Services](https://prestigeestateservices.com). Services include Midwestern U.S., remote consultations available.",
+        "notes": "Serving St. Louis, MI clients who need antique valuations in American/European/Russian fine/decorative arts \u2022 Prints/paintings/sculpture \u2022 Jewelry \u2022 Large collection management \u2022 Expert witness testimony  \n- Certifications: Accredited Member ([International Society of Appraisers](https://www.appraiser.org)) \u2022 USPAP-compliant  \n- Years Active: Over 20 years combined experience  \n- Service Area: Midwestern U.S., remote consultations available  \n- Website: [artriumappraisal.com](https://artriumappraisal.com/about/)  \n\n---\n\n#### [Prestige Estate Services](https://prestigeestateservices.com)."
       },
       "reviews": [
         {
@@ -250,6 +250,511 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "cherokee-street-antiques-st-louis-mo",
+      "name": "Cherokee Street Antiques",
+      "slug": "cherokee-street-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1900-2200 Cherokee St",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63118",
+        "formatted": "1900-2200 Cherokee St, St. Louis, MO 63118"
+      },
+      "contact": {
+        "phone": "(314) 773-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Architectural Salvage"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Cherokee Street is St. Louis's premier antique destination, with multiple dealers offering expert appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "central-west-end-antiques-st-louis-mo",
+      "name": "Central West End Antiques",
+      "slug": "cwe-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "11 N Euclid Ave",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63108",
+        "formatted": "11 N Euclid Ave, St. Louis, MO 63108"
+      },
+      "contact": {
+        "phone": "(314) 361-7222",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Art",
+          "Decorative Objects"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Central West End Antiques offers fine antiques with professional appraisal services in the Central West End neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "st-louis-estate-sales-st-louis-mo",
+      "name": "St. Louis Estate Sales & Appraisals",
+      "slug": "st-louis-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "705 Olive St",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63101",
+        "formatted": "705 Olive St, St. Louis, MO 63101"
+      },
+      "contact": {
+        "phone": "(314) 241-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "St. Louis Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the St. Louis metro area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "st-louis-bkr-appraisers",
+      "name": "BKR Appraisers",
+      "slug": "bkr-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.bkrappraisers.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "BKR Appraisers serves St. Louis and Southern Illinois with personal property and antique appraisals. Professional valuations for insurance, estate, and donation purposes.",
+        "notes": "Serving St. Louis, MO with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "st-louis-art-of-estates-bauer",
+      "name": "Art of Estates - Bauer Appraisals",
+      "slug": "art-of-estates-bauer",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://artofestates.com"
+      },
+      "business": {
+        "yearsInBusiness": "30 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates brings 30 years of collecting, buying, and selling personal property throughout Eastern Missouri and Southern Illinois to professional antique appraisals.",
+        "notes": "Serving St. Louis, MO with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "st-louis-selkirk-auctioneers-appraisers",
+      "name": "Selkirk Auctioneers & Appraisers",
+      "slug": "selkirk-auctioneers-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(314) 696-9041",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "Professional Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Selkirk Auctioneers & Appraisers provides professional antique appraisals and auction services in St. Louis with expertise in fine art and estate contents.",
+        "notes": "Serving St. Louis, MO with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "st-louis-gateway-antique-appraisals",
+      "name": "Gateway Antique Appraisals",
+      "slug": "gateway-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Decorative Arts",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Gateway Antique Appraisals offers professional antique valuations throughout the St. Louis area with expertise in furniture, fine art, and decorative arts.",
+        "notes": "Serving St. Louis, MO with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "st-louis-missouri-estate-antique-appraisals",
+      "name": "Missouri Estate & Antique Appraisals",
+      "slug": "missouri-estate-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Probate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Missouri Estate & Antique Appraisals provides comprehensive antique and estate valuations throughout St. Louis and Eastern Missouri.",
+        "notes": "Serving St. Louis, MO with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

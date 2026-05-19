@@ -1,0 +1,86 @@
+{
+  "title": "Antique & Art Appraisers in Minneapolis, Minnesota",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "minneapolis",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/minneapolis/",
+    "name": "Antique & Art Appraisers in Minneapolis, Minnesota",
+    "description": "Compare antique and art appraisers in Minneapolis, Minnesota and request a fast online appraisal from Appraisily.",
+    "city": "Minneapolis",
+    "region": "MN",
+    "country": "US",
+    "numberOfListedAppraisers": 10,
+    "listedAppraisers": [
+      {
+        "name": "Antiques Early",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/antiques-early.svg",
+        "description": "Antiques Early offers antique appraisal support in Minneapolis, Minnesota. Specialties: Early American Antiques, European Antiques, Furniture. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Great Lakes Coins & Collectibles",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-minneapolis.svg",
+        "description": "Great Lakes Coins & Collectibles offers antique appraisal support in Minneapolis, Minnesota. Specialties: Coins, Collectibles, Antiques, Currency. Services: Coin Appraisals, Collectible Appraisals, Antique Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Heritage Valuations Minneapolis",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-minneapolis/",
+        "slug": "heritage-valuations-minneapolis",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_minneapolis-heritage-valuations-minneapolis_1742203678978_ERTChejgB.jpg",
+        "description": "Heritage Valuations Minneapolis offers antique appraisal support in Minneapolis, Minnesota. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Holly Nelson ISA CAPP Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/holly-nelson-appraisals.svg",
+        "description": "Holly Nelson ISA CAPP Appraisals offers antique appraisal support in Minneapolis, Minnesota. Specialties: Antiques, Furnishings, Decorative Arts, Fine Art. Services: Antique Appraisals, Furnishings Appraisals, Estate Ap…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Lakewood Antiques & Estate Sales",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/minneapolis-antique-appraisals.svg",
+        "description": "Lakewood Antiques & Estate Sales offers antique appraisal support in Minneapolis, Minnesota. Specialties: Estate Appraisals, General Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appraisa…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Minneapolis Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/minneapolis-antique-appraisals/",
+        "slug": "minneapolis-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_minneapolis-minneapolis-antique-appraisals_1742203673984_7NINFgbCp.jpg",
+        "description": "Minneapolis Antique Appraisals offers antique appraisal support in Minneapolis, Minnesota. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "North Loop Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/north-loop-antiques.svg",
+        "description": "North Loop Antiques offers antique appraisal support in Minneapolis, Minnesota. Specialties: Vintage Furniture, Mid-Century Modern, Industrial Antiques. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "North Star Antique Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/north-star-antique-appraisals.svg",
+        "description": "North Star Antique Appraisals offers antique appraisal support in Minneapolis, Minnesota. Specialties: Antiques, Fine Art, Furniture, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisal…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Twin Cities Estate Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/twin-cities-estate-appraisals.svg",
+        "description": "Twin Cities Estate Appraisals offers antique appraisal support in Minneapolis, Minnesota. Specialties: Antiques, Estate Contents, Fine Art, Collectibles. Services: Estate Appraisals, Antique Appraisals, Insurance Apprai…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Yesterday's Gems - David Schlueter",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/yesterdays-gems-schlueter.svg",
+        "description": "Yesterday's Gems - David Schlueter offers antique appraisal support in Minneapolis, Minnesota. Specialties: Antiques, Art, Jewelry, Coins. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/minneapolis/"
+    }
+  }
+}

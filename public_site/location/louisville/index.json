@@ -1,0 +1,28 @@
+{
+  "title": "Antique & Art Appraisers in Louisville, Kentucky",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "louisville",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/louisville/",
+    "name": "Antique & Art Appraisers in Louisville, Kentucky",
+    "description": "Compare antique and art appraisers in Louisville, Kentucky and request a fast online appraisal from Appraisily.",
+    "city": "Louisville",
+    "region": "KY",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Charles G. Bartman",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/louisville-charles-g-bartman.svg",
+        "description": "Charles G. Bartman offers antique appraisal support in Louisville, Kentucky. Specialties: Books, Collectibles - Paper, Documents - Maps, Ephemera. Services: Broker, Consultant, Investment Evaluation.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/louisville/"
+    }
+  }
+}

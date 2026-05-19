@@ -1,0 +1,92 @@
+{
+  "title": "Antique & Art Appraisers in Miami, Florida",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "miami",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/miami/",
+    "name": "Antique & Art Appraisers in Miami, Florida",
+    "description": "Compare antique and art appraisers in Miami, Florida and request a fast online appraisal from Appraisily.",
+    "city": "Miami",
+    "region": "FL",
+    "country": "US",
+    "numberOfListedAppraisers": 11,
+    "listedAppraisers": [
+      {
+        "name": "Art Deco Antiques Miami",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/art-deco-antiques.svg",
+        "description": "Art Deco Antiques Miami offers antique appraisal support in Miami, Florida. Specialties: Art Deco, Vintage Furniture, Mid-Century Modern. Services: Antique Appraisals, Art Deco Appraisals, Estate Valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Coconut Grove Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-miami.svg",
+        "description": "Coconut Grove Antiques offers antique appraisal support in Miami, Florida. Specialties: Fine Antiques, Art, Tropical Decorative Arts. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Heritage Valuations Miami",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-miami/",
+        "slug": "heritage-valuations-miami",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_miami-heritage-valuations-miami_1742203663478_uvkDPY_aS.jpg",
+        "description": "Heritage Valuations Miami offers antique appraisal support in Miami, Florida. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Lion & Unicorn Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/lion-and-unicorn-appraisals.svg",
+        "description": "Lion & Unicorn Appraisals offers antique appraisal support in Miami, Florida. Specialties: Fine Art, Jewelry, Silver, Antiques. Services: Antique Appraisals, Fine Art Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "MGF Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/miami-antique-appraisals.svg",
+        "description": "MGF Appraisals offers antique appraisal support in Miami, Florida. Specialties: Antiques, Fine Art, Decorative Arts, Furniture. Services: Personal Property Appraisals, Insurance Appraisals, Estate Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Miami Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/miami-antique-appraisals/",
+        "slug": "miami-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_miami-miami-antique-appraisals_1742203657701_11EOAlicB.jpg",
+        "description": "Miami Antique Appraisals offers antique appraisal support in Miami, Florida. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Miami Antique Market",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/miami-antique-market.svg",
+        "description": "Miami Antique Market offers antique appraisal support in Miami, Florida. Specialties: General Antiques, Latin American Art, Caribbean Antiques. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Princeton Appraisers Miami",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/princeton-appraisers-miami.svg",
+        "description": "Princeton Appraisers Miami offers antique appraisal support in Miami, Florida. Specialties: Antiques, Fine Art, Estate Contents, Personal Property. Services: Insurance Replacement Appraisals, Charitable Donation Apprais…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "South Beach Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/south-beach-antiques.svg",
+        "description": "South Beach Antiques offers antique appraisal support in Miami, Florida. Specialties: Vintage Items, Designer Furniture, Art. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "South Florida Estate Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/south-florida-estate-appraisals.svg",
+        "description": "South Florida Estate Appraisals offers antique appraisal support in Miami, Florida. Specialties: Antiques, Estate Contents, Fine Art, Collectibles. Services: Estate Appraisals, Antique Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "ValuePros Appraisal Services",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal.svg",
+        "description": "ValuePros Appraisal Services offers antique appraisal support in Miami, Florida. Specialties: Antiques, Fine Art, Collectibles, Estate Items. Services: Personal Property Appraisals, Estate Appraisals, Antique Appraisals.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/miami/"
+    }
+  }
+}

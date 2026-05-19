@@ -1,0 +1,75 @@
+{
+  "appraisers": [
+    {
+      "id": "hilton-head-island-djr-authentication-lc",
+      "name": "DJR Authentication",
+      "slug": "djr-authentication-lc",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/619e1fa929b89256f294e7ec/ea853762-77df-4a1d-9927-0a0183be517d/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Hilton Head Island",
+        "state": "SC",
+        "zip": "",
+        "formatted": "Hilton Head Island, SC"
+      },
+      "contact": {
+        "phone": "(843) 352-7445",
+        "email": "user@domain.com",
+        "website": "https://www.djrauthentication.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "DJR Authentication offers antique and personal property appraisal services serving Hilton Head Island, SC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.djrauthentication.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.djrauthentication.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJy8mH9Bpt_ogRwRKav1sWFGE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

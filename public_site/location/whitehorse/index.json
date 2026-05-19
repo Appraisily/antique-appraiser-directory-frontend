@@ -1,0 +1,62 @@
+{
+  "title": "Antique & Art Appraisers in Whitehorse, Yukon",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "whitehorse",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/whitehorse/",
+    "name": "Antique & Art Appraisers in Whitehorse, Yukon",
+    "description": "Compare antique and art appraisers in Whitehorse, Yukon and request a fast online appraisal from Appraisily.",
+    "city": "Whitehorse",
+    "region": "YT",
+    "country": "CA",
+    "numberOfListedAppraisers": 6,
+    "listedAppraisers": [
+      {
+        "name": "Heritage Valuations Whitehorse",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-whitehorse/",
+        "slug": "heritage-valuations-whitehorse",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_whitehorse-heritage-valuations-whitehorse_1742203910014_xkQHFveUz.jpg",
+        "description": "Heritage Valuations Whitehorse offers antique appraisal support in Whitehorse, Yukon. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Klondike Heritage Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/klondike-heritage-appraisals.svg",
+        "description": "Klondike Heritage Appraisals offers antique appraisal support in Whitehorse, Yukon. Specialties: Gold Rush Artifacts, Pioneer Items, Northern Antiques, Historical Documents. Services: Antique Appraisals, Estate Valuatio…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Northern Heritage Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/whitehorse-antique-appraisals.svg",
+        "description": "Northern Heritage Appraisals offers antique appraisal support in Whitehorse, Yukon. Specialties: First Nations Art, Northern Antiques, Historical Items, Estate Items. Services: Antique Appraisals, Estate Valuations, Ins…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Whitehorse Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/whitehorse-antique-appraisals/",
+        "slug": "whitehorse-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_whitehorse-whitehorse-antique-appraisals_1742203905085_xzoFh5G3u.jpg",
+        "description": "Whitehorse Antique Appraisals offers antique appraisal support in Whitehorse, Yukon. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Yukon Antique Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/yukon-antique-appraisals.svg",
+        "description": "Yukon Antique Appraisals offers antique appraisal support in Whitehorse, Yukon. Specialties: Gold Rush Items, Northern Antiques, Historical Artifacts, Collectibles. Services: Antique Appraisals, Estate Valuations, Insur…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Yukon Antiques & Collectibles",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/yukon-antiques.svg",
+        "description": "Yukon Antiques & Collectibles offers antique appraisal support in Whitehorse, Yukon. Specialties: Yukon Gold Rush Items, Northern Antiques, Collectibles, Historical Artifacts. Services: Antique Appraisals, Antique Sales…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/whitehorse/"
+    }
+  }
+}

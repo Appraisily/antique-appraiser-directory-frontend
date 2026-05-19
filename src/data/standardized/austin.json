@@ -1,6 +1,200 @@
 {
   "appraisers": [
     {
+      "id": "austin-all-estate-sales-auction",
+      "name": "All Estate Sales & Auction Company",
+      "slug": "all-estate-sales-auction",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://allestatesales.net"
+      },
+      "business": {
+        "yearsInBusiness": "30 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Jewelry",
+          "Fine Art",
+          "Collections",
+          "Collectibles",
+          "Coins",
+          "Memorabilia",
+          "Antiques"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Appraisal Services",
+          "Estate Sales",
+          "Auction Services"
+        ]
+      },
+      "content": {
+        "about": "All Estate Sales and Auction Company offers 30 years of experience appraising fine jewelry, fine art, collections, collectibles, coins, memorabilia, and antiques in Austin.",
+        "notes": "Serving Austin, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antiques-marketplace-austin-tx",
+      "name": "Antiques Marketplace",
+      "slug": "antiques-marketplace-austin",
+      "imageUrl": "",
+      "address": {
+        "street": "1402 S Lamar Blvd",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78704",
+        "formatted": "1402 S Lamar Blvd, Austin, TX 78704"
+      },
+      "contact": {
+        "phone": "(512) 444-4444",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Mid-Century Modern"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Antiques Marketplace offers a wide selection of antiques and collectibles with professional appraisal services in South Austin.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-art-appraisal-austin",
+      "name": "Art Appraisal Austin",
+      "slug": "art-appraisal-austin",
+      "imageUrl": "https://static.wixstatic.com/media/060096_658bfaf92daa45469d1bc75bc62ade4e%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/060096_658bfaf92daa45469d1bc75bc62ade4e%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "917-371-0448",
+        "email": "walterbakerappraisal@gmail.com",
+        "website": "https://www.artappraisalaustin.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art Appraisal Austin offers antique and personal property appraisal services serving Austin, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.artappraisalaustin.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artappraisalaustin.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJs8kOBbyVhWIRJF4IhNh8D54",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "austin-austin-antique-appraisals",
       "name": "Austin Antique Appraisals",
       "slug": "austin-antique-appraisals",
@@ -76,6 +270,256 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-antique-mall-austin-tx",
+      "name": "Austin Antique Mall",
+      "slug": "austin-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "1015 W Ben White Blvd",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78704",
+        "formatted": "1015 W Ben White Blvd, Austin, TX 78704"
+      },
+      "contact": {
+        "phone": "(512) 443-6366",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique destination",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Furniture",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Buyouts",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Austin Antique Mall is one of Austin's largest antique destinations, offering expert appraisal services for a wide range of collectibles.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-austin-estate-appraisers",
+      "name": "Austin Estate Appraisers",
+      "slug": "austin-estate-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Austin Estate Appraisers provides comprehensive antique and estate valuations throughout Central Texas, with expertise in fine art, furniture, and collectibles.",
+        "notes": "Serving Austin, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-capitol-personal-property-appraisals",
+      "name": "Capitol Personal Property Appraisals",
+      "slug": "capitol-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.cppaaustin.com"
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Art",
+          "Collections",
+          "Antiques",
+          "Residential Contents",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Capitol Personal Property Appraisals offers USPAP-compliant appraisals of art, collections, antiques, and residential contents in Austin. Professional valuations for insurance, estate, and donation purposes.",
+        "notes": "Serving Austin, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "locally-owned-antiques-austin-tx",
+      "name": "Epoch Antique Mall",
+      "slug": "epoch-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "2210 S 1st St",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78704",
+        "formatted": "2210 S 1st St, Austin, TX 78704"
+      },
+      "contact": {
+        "phone": "(512) 416-1414",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Vintage Furniture",
+          "Mid-Century Modern",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Epoch Antique Mall offers curated antique and vintage items with professional appraisal services in the Bouldin Creek neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },
@@ -163,6 +607,474 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-hill-country-antique-appraisals",
+      "name": "Hill Country Antique Appraisals",
+      "slug": "hill-country-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Texas Antiques",
+          "Western Decor",
+          "Furniture",
+          "Fine Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Hill Country Antique Appraisals specializes in Texas antiques, western decor, and traditional antiques. Serving Austin and Central Texas with accurate valuations for insurance, estate planning, and donations.",
+        "notes": "Serving Austin, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-modern-history-society-art-and-antique-appraisal",
+      "name": "Modern History Society Art and Antique Appraisal",
+      "slug": "modern-history-society-art-and-antique-appraisal",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "+1 512-537-1974",
+        "email": "",
+        "website": "https://www.chamberofcommerce.com/business-directory/texas/austin/estate-liquidator/38565599-all-estate-sales-auction-company"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Modern History Society Art and Antique Appraisal offers antique and personal property appraisal services serving Austin, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.chamberofcommerce.com/business-directory/texas/austin/estate-liquidator/38565599-all-estate-sales-auction-company. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.chamberofcommerce.com/business-directory/texas/austin/estate-liquidator/38565599-all-estate-sales-auction-company",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJp4HIB8rJRIYRMIgbcqIobYc",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "austin-national-jewelry-appraisers",
+      "name": "National Jewelry Appraisers",
+      "slug": "national-jewelry-appraisers",
+      "imageUrl": "https://irp.cdn-website.com/163cf539/dms3rep/multi/logo.png",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "(512) 999-8841",
+        "email": "turtle@nationaljewelryappraisers.com",
+        "website": "https://www.nationaljewelryappraisers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "National Jewelry Appraisers offers antique and personal property appraisal services serving Austin, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.nationaljewelryappraisers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.nationaljewelryappraisers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJf99IzxbLRIYRP9JNyChnr88",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "austin-susan-eisen-fine-jewelry-watches-art-appraiser",
+      "name": "Susan Eisen Fine Jewelry Watches Art & Appraiser",
+      "slug": "susan-eisen-fine-jewelry-watches-art-appraiser",
+      "imageUrl": "https://www.susaneisen.com/media/preferences/ts_company/susaneisen-logo_H7kakp9.png",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "888-543-3824",
+        "email": "",
+        "website": "https://www.susaneisen.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Jewelry appraisals",
+          "Watch appraisals",
+          "Gemology consultations"
+        ],
+        "certifications": [
+          "Master Gemologist Appraiser referenced by source"
+        ],
+        "services": [
+          "Jewelry appraisal services",
+          "Watch appraisal support",
+          "Private appointment consultations"
+        ]
+      },
+      "content": {
+        "about": "Susan Eisen Fine Jewelry Watches Art & Appraiser offers jewelry and watch appraisal support serving Austin, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from direct website recheck on 2026-05-15. Source: https://www.susaneisen.com/appraisals/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.susaneisen.com/appraisals/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Direct site crawl found owned-site appraisals page and Master Gemologist Appraiser reference."
+        },
+        "source": "direct_recheck_website_evidence",
+        "placeId": "ChIJ_7dwr-3LRIYRFeRY90eekag",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "direct website crawl found owned-site appraisals page",
+          "site references Master Gemologist Appraiser",
+          "Austin office phone found",
+          "logo found"
+        ]
+      }
+    },
+    {
+      "id": "austin-taylor-hall-jewelry-and-appraisal",
+      "name": "Taylor Hall Jewelry and Appraisal",
+      "slug": "taylor-hall-jewelry-and-appraisal",
+      "imageUrl": "https://www.taylorhalljewelry.com/cdn/shop/files/Stamp_2_32x32.png?v=1698882344",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "(512) 786-4022",
+        "email": "Hello@taylorhalljewelry.com",
+        "website": "https://www.taylorhalljewelry.com/pages/jewelry-appraisal-austin"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Taylor Hall Jewelry and Appraisal offers antique and personal property appraisal services serving Austin, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.taylorhalljewelry.com/pages/jewelry-appraisal-austin. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.taylorhalljewelry.com/pages/jewelry-appraisal-austin",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJu1G0zcDLRIYRZiemA0YW8wY",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "austin-texas-antique-appraisal-services",
+      "name": "Texas Antique Appraisal Services",
+      "slug": "texas-antique-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Estate Items",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Texas Antique Appraisal Services offers professional antique valuations throughout the Austin area, with expertise in fine art, collectibles, and decorative arts.",
+        "notes": "Serving Austin, TX with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "uncommon-objects-austin-tx",
+      "name": "Uncommon Objects",
+      "slug": "uncommon-objects",
+      "imageUrl": "",
+      "address": {
+        "street": "1512 S Congress Ave",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78704",
+        "formatted": "1512 S Congress Ave, Austin, TX 78704"
+      },
+      "contact": {
+        "phone": "(512) 442-4000",
+        "email": "",
+        "website": "https://www.uncommonobjects.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique and curiosity shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Vintage Curiosities",
+          "Antique Jewelry",
+          "Oddities"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Vintage Consignment"
+        ]
+      },
+      "content": {
+        "about": "Uncommon Objects is a beloved South Congress antique and curiosity shop offering expert appraisal services for unusual and vintage finds.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

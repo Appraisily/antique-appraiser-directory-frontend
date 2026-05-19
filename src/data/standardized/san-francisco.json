@@ -2,7 +2,7 @@
   "appraisers": [
     {
       "id": "san francisco-1-turner-auctions-appraisals",
-      "name": "1\\. Turner Auctions + Appraisals",
+      "name": "1\\. Turner Auctions +\u00a0Appraisals",
       "slug": "1-turner-auctions-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_francisco-1-turner-auctions-appraisals_1742079329924_eIV6H2sWp.jpg",
       "address": {
@@ -18,7 +18,7 @@
         "website": "https://www.1turnerauctionsappraisals.com"
       },
       "business": {
-        "yearsInBusiness": "Since 2004",
+        "yearsInBusiness": "Since\u00a02004",
         "hours": [
           {
             "day": "Monday-Thursday",
@@ -33,7 +33,7 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Pricing depends on item type and research scope. 1\\. Turner Auctions + Appraisals provides written estimates for antique appraisals in San Francisco, CA.",
+        "pricing": "Pricing depends on item type and research scope. 1\\. Turner Auctions +\u00a0Appraisals provides written estimates for antique appraisals in San Francisco, CA.",
         "rating": 4.4,
         "reviewCount": 17
       },
@@ -52,8 +52,8 @@
         ]
       },
       "content": {
-        "about": "1\\. Turner Auctions + Appraisals provides professional antique appraisal services specializing in - Furniture. With Since 2004 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "1\\. Turner Auctions + Appraisals serves San Francisco, CA with antique appraisal support focused on - Furniture."
+        "about": "1\\. Turner Auctions +\u00a0Appraisals provides professional antique appraisal services specializing in - Furniture. With Since\u00a02004 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "1\\. Turner Auctions +\u00a0Appraisals serves San Francisco, CA with antique appraisal support focused on - Furniture."
       },
       "reviews": [
         {
@@ -66,7 +66,7 @@
           "author": "Nancy J.",
           "rating": 4,
           "date": "2024-07-24",
-          "content": "Very responsive and easy to work with. 1\\. Turner Auctions + Appraisals's expertise with my antique pocket watch collection was impressive."
+          "content": "Very responsive and easy to work with. 1\\. Turner Auctions +\u00a0Appraisals's expertise with my antique pocket watch collection was impressive."
         },
         {
           "author": "Robert C.",
@@ -82,7 +82,7 @@
     },
     {
       "id": "san francisco-2-clars-auction-gallery-asian-art-department",
-      "name": "2\\. CLARS Auction Gallery – Asian Art Department",
+      "name": "2\\. CLARS Auction Gallery \u2013\u00a0Asian Art Department",
       "slug": "2-clars-auction-gallery-asian-art-department",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_francisco-2-clars-auction-gallery-asian-art-department_1742203984853_Rk46SPE-Y.jpg",
       "address": {
@@ -98,14 +98,14 @@
         "website": "https://www.2clarsauctiongalleryasianartdepartment.com"
       },
       "business": {
-        "yearsInBusiness": "Since 2004",
+        "yearsInBusiness": "Since\u00a02004",
         "hours": [
           {
             "day": "Monday-Friday",
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Appraisal fees vary by collection size and complexity. Contact 2\\. CLARS Auction Gallery – Asian Art Department in San Francisco, CA for a tailored quote.",
+        "pricing": "Appraisal fees vary by collection size and complexity. Contact 2\\. CLARS Auction Gallery \u2013\u00a0Asian Art Department in San Francisco, CA for a tailored quote.",
         "rating": 4.5,
         "reviewCount": 17
       },
@@ -124,8 +124,8 @@
         ]
       },
       "content": {
-        "about": "2\\. CLARS Auction Gallery – Asian Art Department provides professional antique appraisal services specializing in - Furniture. With Since 2004 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "2\\. CLARS Auction Gallery – Asian Art Department serves San Francisco, CA with antique appraisal support focused on - Furniture."
+        "about": "2\\. CLARS Auction Gallery \u2013\u00a0Asian Art Department provides professional antique appraisal services specializing in - Furniture. With Since\u00a02004 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "2\\. CLARS Auction Gallery \u2013\u00a0Asian Art Department serves San Francisco, CA with antique appraisal support focused on - Furniture."
       },
       "reviews": [
         {
@@ -239,6 +239,510 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "sfc-antique-mall-san-francisco-ca",
+      "name": "San Francisco Antique Mall",
+      "slug": "sf-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "1000 Van Ness Ave",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94109",
+        "formatted": "1000 Van Ness Ave, San Francisco, CA 94109"
+      },
+      "contact": {
+        "phone": "(415) 776-2100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "San Francisco Antique Mall offers a wide selection of antiques with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "mission-district-antiques-san-francisco-ca",
+      "name": "Mission District Antiques",
+      "slug": "mission-district-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3265 24th St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94110",
+        "formatted": "3265 24th St, San Francisco, CA 94110"
+      },
+      "contact": {
+        "phone": "(415) 824-1000",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Vintage Items",
+          "Eclectic Antiques",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Mission District Antiques offers curated vintage and antique items with professional appraisal services in the Mission.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "union-street-antiques-san-francisco-ca",
+      "name": "Union Street Antiques",
+      "slug": "union-street-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1919 Union St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94123",
+        "formatted": "1919 Union St, San Francisco, CA 94123"
+      },
+      "contact": {
+        "phone": "(415) 922-5588",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "European Antiques",
+          "American Antiques",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Union Street Antiques offers fine European and American antiques with professional appraisal services on Union Street.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-francisco-marshall-art-antique-appraisals",
+      "name": "Marshall Art & Antique Appraisals",
+      "slug": "marshall-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Asian Art",
+          "Decorative Arts",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Marshall Art & Antique Appraisals provides professional valuations for fine art and antiques in San Francisco, with particular expertise in Asian art and decorative arts.",
+        "notes": "Serving San Francisco, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-francisco-bay-area-antique-appraisals",
+      "name": "Bay Area Antique Appraisals",
+      "slug": "bay-area-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Vintage Items",
+          "Furniture",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Bay Area Antique Appraisals serves San Francisco and the greater Bay Area with antique and estate appraisals, specializing in furniture, fine art, and collectibles.",
+        "notes": "Serving San Francisco, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-francisco-golden-gate-estate-appraisals",
+      "name": "Golden Gate Estate Appraisals",
+      "slug": "golden-gate-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "18+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Decorative Arts",
+          "Jewelry"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Probate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Golden Gate Estate Appraisals provides comprehensive antique and estate valuations throughout San Francisco, with expertise in decorative arts, jewelry, and fine art.",
+        "notes": "Serving San Francisco, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-francisco-pacific-heights-antiques-appraisals",
+      "name": "Pacific Heights Antiques & Appraisals",
+      "slug": "pacific-heights-antiques-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "European Antiques",
+          "American Antiques",
+          "Fine Art",
+          "Silver",
+          "Porcelain"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pacific Heights Antiques & Appraisals offers expert valuations in European and American antiques, silver, and porcelain. Serving San Francisco's discerning collectors.",
+        "notes": "Serving San Francisco, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-francisco-sf-antique-appraisal-services",
+      "name": "SF Antique Appraisal Services",
+      "slug": "sf-antique-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Mid-Century Modern",
+          "Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "SF Antique Appraisal Services provides professional antique valuations in San Francisco with expertise in mid-century modern, fine art, and estate items.",
+        "notes": "Serving San Francisco, CA with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

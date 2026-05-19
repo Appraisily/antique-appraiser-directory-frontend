@@ -1,0 +1,88 @@
+{
+  "title": "Antique & Art Appraisers in Jacksonville, Florida",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "jacksonville",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/jacksonville/",
+    "name": "Antique & Art Appraisers in Jacksonville, Florida",
+    "description": "Compare antique and art appraisers in Jacksonville, Florida and request a fast online appraisal from Appraisily.",
+    "city": "Jacksonville",
+    "region": "FL",
+    "country": "US",
+    "numberOfListedAppraisers": 10,
+    "listedAppraisers": [
+      {
+        "name": "Jacksonville Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jacksonville-antique-appraisals/",
+        "slug": "jacksonville-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jacksonville-jacksonville-antique-appraisals_1742202670202_HgulXDPRj.jpg",
+        "description": "Jacksonville Antique Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Jacksonville Estate Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/jacksonville-estate-appraisals.svg",
+        "description": "Jacksonville Estate Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance App…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Jacksonville Estate Sales & Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/jax-estate-sales.svg",
+        "description": "Jacksonville Estate Sales & Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Estate Appraisals, General Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance App…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Jacksonville Fine Art & Antique Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/jacksonville-fine-art-antique-appraisals.svg",
+        "description": "Jacksonville Fine Art & Antique Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insu…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Jacksonville Heritage Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/jacksonville-heritage-appraisals.svg",
+        "description": "Jacksonville Heritage Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Ap…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Jacksonville Personal Property Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/list-of-antique-appraisers.svg",
+        "description": "Jacksonville Personal Property Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Ins…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "List of Antique Appraisers",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/list-of-antique-appraisers/",
+        "slug": "list-of-antique-appraisers",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jacksonville-list-of-antique-appraisers_1742202660108_MX2SHb7X8.jpg",
+        "description": "List of Antique Appraisers offers antique appraisal support in Jacksonville, Florida. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Prestige Estate Services",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
+        "slug": "prestige-estate-services",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jacksonville-prestige-estate-services_1742202665333_nLtgnF3Gn.jpg",
+        "description": "Prestige Estate Services offers antique appraisal support in Jacksonville, Florida. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Riverside Arts & Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/riverside-arts-antiques.svg",
+        "description": "Riverside Arts & Antiques offers antique appraisal support in Jacksonville, Florida. Specialties: General Antiques, Vintage Collectibles, Art. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "San Marco Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/san-marco-antiques.svg",
+        "description": "San Marco Antiques offers antique appraisal support in Jacksonville, Florida. Specialties: Fine Antiques, Decorative Arts, Furniture. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/jacksonville/"
+    }
+  }
+}

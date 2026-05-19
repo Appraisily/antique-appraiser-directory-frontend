@@ -1,0 +1,34 @@
+{
+  "title": "Antique & Art Appraisers in Birmingham, Alabama",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "birmingham",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/birmingham/",
+    "name": "Antique & Art Appraisers in Birmingham, Alabama",
+    "description": "Compare antique and art appraisers in Birmingham, Alabama and request a fast online appraisal from Appraisily.",
+    "city": "Birmingham",
+    "region": "AL",
+    "country": "US",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "John E Picard",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/birmingham-john-e-picard.svg",
+        "description": "John E Picard offers antique appraisal support in Birmingham, Alabama. Specialties: Antiquities, Ephemera, Furniture, Tools - Modern. Services: Broker, Donations, Estate Sales.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Laura Wallace",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/birmingham-laura-wallace.svg",
+        "description": "Laura Wallace offers antique appraisal support in Birmingham, Alabama. Specialties: Art, Decorative Arts & Accessories, Furniture, Porcelain. Services: Divorce Settlements, Estate Evaluations, Estate Tax.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/birmingham/"
+    }
+  }
+}

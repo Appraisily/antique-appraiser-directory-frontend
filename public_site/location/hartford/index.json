@@ -1,0 +1,88 @@
+{
+  "title": "Antique & Art Appraisers in Hartford, Connecticut",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "hartford",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/hartford/",
+    "name": "Antique & Art Appraisers in Hartford, Connecticut",
+    "description": "Compare antique and art appraisers in Hartford, Connecticut and request a fast online appraisal from Appraisily.",
+    "city": "Hartford",
+    "region": "CT",
+    "country": "US",
+    "numberOfListedAppraisers": 10,
+    "listedAppraisers": [
+      {
+        "name": "Connecticut Estate Sales & Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/hartford-antique-appraisals.svg",
+        "description": "Connecticut Estate Sales & Appraisals offers antique appraisal support in Hartford, Connecticut. Specialties: Estate Appraisals, New England Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Hartford Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/hartford-antique-appraisals/",
+        "slug": "hartford-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_hartford-hartford-antique-appraisals_1742202536205_EgoPK_xnF.jpg",
+        "description": "Hartford Antique Appraisals offers antique appraisal support in Hartford, Connecticut. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, Ins…",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Hartford Antique Center",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/hartford-antique-center.svg",
+        "description": "Hartford Antique Center offers antique appraisal support in Hartford, Connecticut. Specialties: General Antiques, New England Antiques, Furniture. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Hartford Estate Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/hartford-estate-appraisals.svg",
+        "description": "Hartford Estate Appraisals offers antique appraisal support in Hartford, Connecticut. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Apprais…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Hartford Fine Art & Antique Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/hartford-fine-art-antique-appraisals.svg",
+        "description": "Hartford Fine Art & Antique Appraisals offers antique appraisal support in Hartford, Connecticut. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insuranc…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Hartford Heritage Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/hartford-heritage-appraisals.svg",
+        "description": "Hartford Heritage Appraisals offers antique appraisal support in Hartford, Connecticut. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Apprai…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Hartford Personal Property Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-hartford.svg",
+        "description": "Hartford Personal Property Appraisals offers antique appraisal support in Hartford, Connecticut. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insuran…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Heritage Valuations Hartford",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-hartford/",
+        "slug": "heritage-valuations-hartford",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_hartford-heritage-valuations-hartford_1742202541672_-cW1ppD2h.jpg",
+        "description": "Heritage Valuations Hartford offers antique appraisal support in Hartford, Connecticut. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Prestige Estate Services",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
+        "slug": "prestige-estate-services",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_hartford-prestige-estate-services_1742202530786_UGD_em0CXX.jpg",
+        "description": "Prestige Estate Services offers antique appraisal support in Hartford, Connecticut. Specialties: Fine art.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "West Hartford Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/west-hartford-antiques.svg",
+        "description": "West Hartford Antiques offers antique appraisal support in Hartford, Connecticut. Specialties: Fine Antiques, American Furniture, Art. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/hartford/"
+    }
+  }
+}

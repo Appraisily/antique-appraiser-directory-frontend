@@ -1,0 +1,72 @@
+{
+  "appraisers": [
+    {
+      "id": "waco-antique-alley-estate-services-and-appraisals",
+      "name": "Antique Alley Estate Services & Appraisals",
+      "slug": "antique-alley-estate-services-and-appraisals",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/23f6e134-fa41-4528-a78b-5df169519877/favicon/6c071e7f-3747-46e7-be43-ef2a3a18cb26.jpg/:/rs=w:16,h:16,m",
+      "address": {
+        "street": "",
+        "city": "Waco",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Waco, TX"
+      },
+      "contact": {
+        "phone": "+1 254 702 3487",
+        "email": "hi@typemade.mx",
+        "website": "https://antiquealleytx.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique Alley Estate Services & Appraisals offers antique and personal property appraisal services serving Waco, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://antiquealleytx.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://antiquealleytx.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJVVURCZlLRYYRaFxlBAQmpQg",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

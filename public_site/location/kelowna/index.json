@@ -1,0 +1,42 @@
+{
+  "title": "Antique & Art Appraisers in Kelowna, British Columbia",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "kelowna",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/kelowna/",
+    "name": "Antique & Art Appraisers in Kelowna, British Columbia",
+    "description": "Compare antique and art appraisers in Kelowna, British Columbia and request a fast online appraisal from Appraisily.",
+    "city": "Kelowna",
+    "region": "BC",
+    "country": "CA",
+    "numberOfListedAppraisers": 3,
+    "listedAppraisers": [
+      {
+        "name": "Artista Antiques",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/artista-art-antiquits/",
+        "slug": "artista-art-antiquits",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_kelowna-artista-art-antiquits_1742202681121_xFRJefl1Q.jpg",
+        "description": "Artista Antiques offers antique appraisal support in Kelowna, British Columbia. Specialties: antiques, vintage, collectibles, jewelry. Services: appraisals, consignment.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Hambleton Galleries",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/hambleton-galleries.svg",
+        "description": "Hambleton Galleries offers antique appraisal support in Kelowna, British Columbia. Specialties: fine art, canadian art. Services: fine art appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Resale Vintage",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/resale-vintage.svg",
+        "description": "Resale Vintage offers antique appraisal support in Kelowna, British Columbia. Specialties: vintage, consignment, antiques. Services: appraisals.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/kelowna/"
+    }
+  }
+}

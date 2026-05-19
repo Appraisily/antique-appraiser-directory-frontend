@@ -1,0 +1,73 @@
+{
+  "appraisers": [
+    {
+      "id": "hyannis-manzi-personal-property-appraisers",
+      "name": "Manzi Personal Property Appraisers & Restorers",
+      "slug": "manzi-personal-property-appraisers",
+      "imageUrl": "https://manziappraisers.com/wp-content/uploads/2021/05/manzi-appraisers.png",
+      "address": {
+        "street": "",
+        "city": "Hyannis",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Hyannis, MA"
+      },
+      "contact": {
+        "phone": "617-995-0022",
+        "email": "manzi@manziappraisers.com",
+        "website": "https://manziappraisers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Manzi Personal Property Appraisers & Restorers offers antique and personal property appraisal services serving Hyannis, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://manziappraisers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://manziappraisers.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJMfzWSVd744kR_6Qf8nDA46o",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

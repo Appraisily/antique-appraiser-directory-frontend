@@ -1,0 +1,40 @@
+{
+  "title": "Antique & Art Appraisers in Des Moines, Iowa",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "des-moines",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/des-moines/",
+    "name": "Antique & Art Appraisers in Des Moines, Iowa",
+    "description": "Compare antique and art appraisers in Des Moines, Iowa and request a fast online appraisal from Appraisily.",
+    "city": "Des Moines",
+    "region": "IA",
+    "country": "US",
+    "numberOfListedAppraisers": 3,
+    "listedAppraisers": [
+      {
+        "name": "Ashley A Stokke",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/des-moines-ashley-a-stokke.svg",
+        "description": "Ashley A Stokke offers antique appraisal support in Des Moines, Iowa. Specialties: Antiquities, Collectibles, Decorative Arts & Accessories, Furniture. Services: Equitable Distribution, Estate Evaluations, Estate Tax.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Elizabeth R Krambeer",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/des-moines-elizabeth-r-krambeer.svg",
+        "description": "Elizabeth R Krambeer offers antique appraisal support in Des Moines, Iowa. Specialties: Art, Collectibles, Decorative Arts & Accessories, Furniture. Services: Donations, Equitable Distribution, Estate Evaluations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Jon Thompson Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/des-moines-jon-thompson-appraisals.svg",
+        "description": "Jon Thompson Appraisals offers antique appraisal support in Des Moines, Iowa. Services: antique appraiser Des Moines IA.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/des-moines/"
+    }
+  }
+}

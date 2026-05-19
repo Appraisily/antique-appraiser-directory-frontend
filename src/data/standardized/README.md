@@ -64,17 +64,9 @@ Each location file contains an array of appraisers with the following structure:
 }
 ```
 
-## Generating Standardized Data
+## Data Maintenance
 
-To transform location data into this standardized format, use the `standardize-appraiser-data.js` script:
-
-```bash
-# Transform all locations
-npm run standardize:data
-
-# Transform a specific location
-npm run standardize:one atlanta
-```
+The active script surface no longer includes standardization generators. Update the relevant JSON or static HTML directly, then run the read-only validation commands.
 
 ## Usage in Application
 

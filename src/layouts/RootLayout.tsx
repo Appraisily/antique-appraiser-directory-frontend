@@ -6,6 +6,7 @@ import { AnalyticsTracker } from '../components/AnalyticsTracker';
 import { CanonicalLinkUpdater } from '../components/CanonicalLinkUpdater';
 import { PosthogTracker } from '../components/PosthogTracker';
 import { ContentFeedback } from '../components/ContentFeedback';
+import { PrerenderCleanup } from '../components/PrerenderCleanup';
 
 export function RootLayout() {
   return (
@@ -13,6 +14,7 @@ export function RootLayout() {
       <AnalyticsTracker />
       <PosthogTracker />
       <CanonicalLinkUpdater />
+      <PrerenderCleanup />
       <Navbar />
       <div className="flex-1 pt-16">
         <Outlet />

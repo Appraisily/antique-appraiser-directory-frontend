@@ -26,9 +26,8 @@ See the complete schema in `/src/data/standardized/README.md`.
 
 ## Scripts and Utilities
 
-Several new utilities have been created to manage the data:
+Only read-only reporting remains in the active script surface:
 
-- `scripts/standardize-appraiser-data.js` - Transforms location data to the standardized format
 - `scripts/count-appraisers.js` - Counts and analyzes appraiser distribution
 
 ## Current Status
@@ -40,12 +39,6 @@ Several new utilities have been created to manage the data:
 ## NPM Commands
 
 ```bash
-# Transform all locations to standardized format
-npm run standardize:data
-
-# Transform a specific location
-npm run standardize:one atlanta
-
 # Count appraisers across all locations
 npm run count:appraisers
 ```

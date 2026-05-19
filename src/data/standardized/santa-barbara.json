@@ -1,0 +1,143 @@
+{
+  "appraisers": [
+    {
+      "id": "santa-barbara-reilly-clark-fine-art-and-appraisals",
+      "name": "Reilly Clark Fine Art & Appraisals",
+      "slug": "reilly-clark-fine-art-and-appraisals",
+      "imageUrl": "https://content.app-sources.com/s/5614540215077393/uploads/Images/Reilly-clark-9714453.png",
+      "address": {
+        "street": "",
+        "city": "Santa Barbara",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Santa Barbara, CA"
+      },
+      "contact": {
+        "phone": "+1 214 799-7889",
+        "email": "reilly@reillyclark.com",
+        "website": "https://reillyclark.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Reilly Clark Fine Art & Appraisals offers antique and personal property appraisal services serving Santa Barbara, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://reillyclark.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://reillyclark.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJqcK2fZfvjksRUknRmQU9hW0",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "santa-barbara-appraisals-estates-santa-barbara-ca-robin-jones-appraisal-services",
+      "name": "Robin Jones Appraisal Services Antiques & Fine Arts Since 1969",
+      "slug": "appraisals-estates-santa-barbara-ca-robin-jones-appraisal-services",
+      "imageUrl": "https://cdn.website.thryv.com/cfdc397ecdb34882bbb7c10f8c7f8611/site_favicon_16_1554312426039.ico",
+      "address": {
+        "street": "",
+        "city": "Santa Barbara",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Santa Barbara, CA"
+      },
+      "contact": {
+        "phone": "805-448-0618",
+        "email": "evanjones1@cox.net",
+        "website": "https://www.robinjonesappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Robin Jones Appraisal Services Antiques & Fine Arts Since 1969 offers antique and personal property appraisal services serving Santa Barbara, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.robinjonesappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.robinjonesappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJRSPMfI8V6YAR1wz2kFmESQs",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

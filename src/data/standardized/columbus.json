@@ -162,24 +162,93 @@
       }
     },
     {
-      "id": "columbus-columbus-antique-appraisals",
-      "name": "Columbus Antique Appraisals",
-      "slug": "columbus-antique-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-columbus-antique-appraisals_1742201341754_ZcibP-1Ci.jpg",
+      "id": "columbus-amelia-jeffers",
+      "name": "Amelia Jeffers, Auctioneers & Appraisers",
+      "slug": "amelia-jeffers",
+      "imageUrl": "https://static.wixstatic.com/media/697ef0_c4924d1b53764f9db9e55995c5a1b231%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/697ef0_c4924d1b53764f9db9e55995c5a1b231%7Emv2.jpg",
       "address": {
-        "street": "581 Maple Dr",
+        "street": "",
         "city": "Columbus",
         "state": "OH",
-        "zip": "55874",
-        "formatted": "581 Maple Dr, Columbus, OH 55874"
+        "zip": "",
+        "formatted": "Columbus, OH"
       },
       "contact": {
-        "phone": "234-738-8842",
-        "email": "info@columbusantiqueappraisals.com",
-        "website": "https://www.columbusantiqueappraisals.com"
+        "phone": "+ 740.362.4771",
+        "email": "sell@ameliajeffers.com",
+        "website": "https://www.ameliajeffers.com/"
       },
       "business": {
-        "yearsInBusiness": "9 years in business",
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Amelia Jeffers, Auctioneers & Appraisers offers antique and personal property appraisal services serving Columbus, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.ameliajeffers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.ameliajeffers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJrxECQUSIOIgRGhSvzfjFquk",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "antiques-village-columbus-oh",
+      "name": "Antiques Village",
+      "slug": "antiques-village",
+      "imageUrl": "",
+      "address": {
+        "street": "5737 W Broad St",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43125",
+        "formatted": "5737 W Broad St, Columbus, OH 43125"
+      },
+      "contact": {
+        "phone": "(614) 878-6060",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established multi-dealer antique mall",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -194,62 +263,1233 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Appraisal fees vary by collection size and complexity. Contact Columbus Antique Appraisals in Columbus, OH for a tailored quote.",
-        "rating": 4.2,
-        "reviewCount": 14
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles"
+          "General Antiques",
+          "Furniture",
+          "Collectibles"
         ],
-        "certifications": [
-          "ISA Certified"
-        ],
+        "certifications": [],
         "services": [
           "Antique Appraisals",
           "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Antiques Village is one of Columbus's largest antique malls with over 100 dealers and professional appraisal services available.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "columbus-coin-dealers-columbus-ohio-appraisal-services-we-buy-coins-buyers-near-me",
+      "name": "Appraisal Services - We Buy Coins",
+      "slug": "coin-dealers-columbus-ohio-appraisal-services-we-buy-coins-buyers-near-me",
+      "imageUrl": "https://cdn10.bigcommerce.com/s-lpkkxge/product_images/default_favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "(614) 832-4120",
+        "email": "BuySellCoins@AOL.COM",
+        "website": "https://www.sellingcoinestates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Appraisal Services - We Buy Coins offers antique and personal property appraisal services serving Columbus, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.sellingcoinestates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.sellingcoinestates.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ9f6KUFCOOIgRkDmRQ0w7WsI",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "columbus-buckeye-estate-appraisals",
+      "name": "Buckeye Estate Appraisals",
+      "slug": "buckeye-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Probate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Buckeye Estate Appraisals provides comprehensive antique and estate valuations throughout Columbus and Central Ohio.",
+        "notes": "Serving Columbus, OH with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "columbus-burns-auction-and-appraisal",
+      "name": "Burns Auction & Appraisal LLC",
+      "slug": "burns-auction-and-appraisal",
+      "imageUrl": "https://burnsbid.com/wp-content/smush-webp/2024/10/cropped-1-logo-32x32.jpg.webp",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "16142713014",
+        "email": "support@domain.com",
+        "website": "https://burnsbid.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Burns Auction & Appraisal LLC offers antique and personal property appraisal services serving Columbus, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://burnsbid.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://burnsbid.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ___7YeWMOIgRFX4eFz02xtU",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "columbus-capital-city-antique-appraisals",
+      "name": "Capital City Antique Appraisals",
+      "slug": "capital-city-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Silver",
+          "Porcelain",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Capital City Antique Appraisals offers expert valuations in silver, porcelain, and decorative arts. Serving Columbus collectors and estate planners.",
+        "notes": "Serving Columbus, OH with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "columbus-carioti-jewelers",
+      "name": "Carioti Jewelers",
+      "slug": "carioti-jewelers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "614-221-8588",
+        "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "website": "http://cariotijewelers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Carioti Jewelers offers antique and personal property appraisal services serving Columbus, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.cariotijewelers.com/services. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.cariotijewelers.com/services",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJs6ObBtOIOIgRD6Jmo4d54LQ",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "columbus-central-ohio-personal-property-appraisals",
+      "name": "Central Ohio Personal Property Appraisals",
+      "slug": "central-ohio-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Central Ohio Personal Property Appraisals provides professional valuations for antiques, fine art, and estate contents throughout the Columbus area.",
+        "notes": "Serving Columbus, OH with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "eclectique-columbus-oh",
+      "name": "Eclectique Antiques & Collectibles",
+      "slug": "eclectique",
+      "imageUrl": "",
+      "address": {
+        "street": "629 N High St",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43085",
+        "formatted": "629 N High St, Columbus, OH 43085"
+      },
+      "contact": {
+        "phone": "(614) 885-0555",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Eclectic Antiques",
+          "Vintage Collectibles",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Art Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Eclectique offers a unique selection of antiques and collectibles with expert appraisal services in the Short North district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "columbus-emerald-art-services-llc",
+      "name": "Emerald Art Services LLC, Personal Property Appraisals & Investigations",
+      "slug": "emerald-art-services-llc",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "2100508790",
+        "email": "",
+        "website": "https://www.emeraldartservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Emerald Art Services LLC, Personal Property Appraisals & Investigations offers antique and personal property appraisal services serving Columbus, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.emeraldartservices.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.emeraldartservices.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJvd_YNmEoMYgRGIA4jjVd9LY",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "grandview-mercantile-columbus-oh",
+      "name": "Grandview Mercantile",
+      "slug": "grandview-mercantile",
+      "imageUrl": "",
+      "address": {
+        "street": "1455 W 3rd Ave",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43212",
+        "formatted": "1455 W 3rd Ave, Columbus, OH 43212"
+      },
+      "contact": {
+        "phone": "(614) 488-0608",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique and vintage shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Vintage Home Goods",
+          "Mid-Century Modern",
+          "Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Grandview Mercantile offers curated antiques and vintage home goods with professional appraisal services in the Grandview Heights area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "columbus-greater-columbus-antique-appraisals",
+      "name": "Greater Columbus Antique Appraisals",
+      "slug": "greater-columbus-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Collectibles",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Greater Columbus Antique Appraisals provides professional antique valuations throughout Central Ohio with expertise in fine art, furniture, and collectibles.",
+        "notes": "Serving Columbus, OH with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "columbus-hoffman-auctions",
+      "name": "Hoffman Auctions",
+      "slug": "hoffman-auctions",
+      "imageUrl": "https://hoffmanauctions.com/wp-content/uploads/2025/01/Hoffman-Auctions-Logo.png",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "614-314-0298",
+        "email": "info@HoffmanAuctions.com",
+        "website": "https://hoffmanauctions.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Hoffman Auctions offers antique and personal property appraisal services serving Columbus, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://hoffmanauctions.com/asset-appraisals/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://hoffmanauctions.com/asset-appraisals/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ__HfFbVkOIgRKHT3loHHHJI",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "columbus-j-a-baker-llc-personal-property-appraisal-and-estate-sale-services",
+      "name": "JA Baker LLC",
+      "slug": "j-a-baker-llc-personal-property-appraisal-and-estate-sale-services",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "614.309.3091",
+        "email": "info@jabakerllc.com",
+        "website": "http://www.jabakerllc.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "JA Baker LLC offers antique and personal property appraisal services serving Columbus, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.jabakerllc.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.jabakerllc.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJzaRE3GuIOIgRc6k2un_KpUw",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "antique-columbus-kleinknecht-appraisal-services-of-zanesville-ohio",
+      "name": "Kleinknecht Appraisal Services of Zanesville, Ohio",
+      "slug": "columbus-kleinknecht-appraisal-services-of-zanesville-ohio",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.kleinknecht.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "antique_decorative_arts_personal_property_or_estate_contents",
+          "real_estate_property_appraisal"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "antique, estate, personal-property, or collectibles-related services"
+        ]
+      },
+      "content": {
+        "about": "Kleinknecht Appraisal Services of Zanesville, Ohio is included from a deferred lead review for antique, estate, personal-property, or collectibles-related services in Columbus, OH. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://www.kleinknecht.net/. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: Ohio. At Kleinknecht Appraisal Services , we specialize in providing accurate and reliable property valuations across east central and southeastern Ohio . With over 30 years of experience, our team of Ohio Certified Residential and FHA-approved appraisers is equipped to navigate the ever-changing landscape of real esta"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "antique",
+          "serviceTypes": [
+            "antique_decorative_arts_personal_property_or_estate_contents",
+            "real_estate_property_appraisal"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium_low"
+        },
+        "verification": {
+          "sourceUrl": "https://www.kleinknecht.net/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJg12hvcTtN4gREtdRfsrE3qw",
+        "confidenceScore": 45,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: antique",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: antique_decorative_arts_personal_property_or_estate_contents, real_estate_property_appraisal"
+        ]
+      }
+    },
+    {
+      "id": "columbus-northern-appraisal-services",
+      "name": "Northern Appraisal Services",
+      "slug": "northern-appraisal-services",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "614-898-7927",
+        "email": "",
+        "website": "http://www.northernappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Northern Appraisal Services offers antique, jewelry, or personal-property appraisal services serving Columbus, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: http://www.northernappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.northernappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJt_2N8MiMOIgRpQvrWU1JGFI",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states independent appraisals of modern and antique jewelry, watches, pearls, diamonds, and gemstones",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "columbus-ohio-antique-appraisal-services",
+      "name": "Ohio Antique Appraisal Services",
+      "slug": "ohio-antique-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Decorative Arts",
+          "Estate Items",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
           "Insurance Appraisals"
         ]
       },
       "content": {
-        "about": "Columbus Antique Appraisals provides professional antique appraisal services in the Columbus area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Columbus Antique Appraisals serves Columbus, OH with antique appraisal support focused on Antique Furniture, Vintage Collectibles."
+        "about": "Ohio Antique Appraisal Services offers professional antique valuations in Columbus with expertise in decorative arts, estate items, and collectibles.",
+        "notes": "Serving Columbus, OH with professional antique appraisal services."
       },
-      "reviews": [
-        {
-          "author": "Jennifer R.",
-          "rating": 4.5,
-          "date": "2025-03-10",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "Elizabeth W.",
-          "rating": 4,
-          "date": "2025-03-02",
-          "content": "Their knowledge of antique furniture values was exceptional. The documentation they provided was detailed and perfect for my insurance needs."
-        },
-        {
-          "author": "James W.",
-          "rating": 4.5,
-          "date": "2024-11-16",
-          "content": "Extremely professional and knowledgeable about antique valuation. The appraisal was thorough and delivered on time."
-        },
-        {
-          "author": "Elizabeth T.",
-          "rating": 4,
-          "date": "2024-11-01",
-          "content": "Excellent service from start to finish. I highly recommend Columbus Antique Appraisals for any antique appraisal needs."
-        },
-        {
-          "author": "David R.",
-          "rating": 4,
-          "date": "2024-04-19",
-          "content": "Very responsive and easy to work with. Their expertise with my antique pocket watch collection was impressive."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "columbus-the-appraisal-firm",
+      "name": "The Appraisal Firm",
+      "slug": "the-appraisal-firm",
+      "imageUrl": "https://www.theappraisalfirm.com/wp-content/uploads/2024/06/the-appraisal-firm-seo-image.jpg",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "(380) 219-5200",
+        "email": "mail@theappraisalfirm.com",
+        "website": "https://www.theappraisalfirm.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "The Appraisal Firm offers antique and personal property appraisal services serving Columbus, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.theappraisalfirm.com/antique-art-appraisal/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.theappraisalfirm.com/antique-art-appraisal/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJCzXmodvtOIgRblQ4BqkUw6U",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "antique-columbus-village-appraisal-ltd",
+      "name": "Village Appraisal Ltd.",
+      "slug": "columbus-village-appraisal-ltd",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.villageappraisal.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "antique_decorative_arts_personal_property_or_estate_contents",
+          "real_estate_property_appraisal"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "antique, estate, personal-property, or collectibles-related services"
+        ]
+      },
+      "content": {
+        "about": "Village Appraisal Ltd. is included from a deferred lead review for antique, estate, personal-property, or collectibles-related services in Columbus, OH. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: http://www.villageappraisal.net/. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: rs in appraisal services for Central Ohio. We provide services to the following counties: Franklin, Fairfield, Pickaway, Delaware, Licking, and Hocking Contact Us Get a Free Quote Tell us a little about what you need, and we&#39;ll respond quickly with our price and estimated turnaround time. Order Online Need an appra"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "antique",
+          "serviceTypes": [
+            "antique_decorative_arts_personal_property_or_estate_contents",
+            "real_estate_property_appraisal"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "http://www.villageappraisal.net/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJh7b8xumHR4gRsohuJA7hqoE",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: antique",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: antique_decorative_arts_personal_property_or_estate_contents, real_estate_property_appraisal"
+        ]
+      }
+    },
+    {
+      "id": "village-valuables-columbus-oh",
+      "name": "Village Valuables Antiques Mall",
+      "slug": "village-valuables",
+      "imageUrl": "",
+      "address": {
+        "street": "14 N High St",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43085",
+        "formatted": "14 N High St, Columbus, OH 43085"
+      },
+      "contact": {
+        "phone": "(614) 846-5300",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Buyouts",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Village Valuables Antiques Mall offers a wide selection of antiques with professional appraisal services in the Worthington area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

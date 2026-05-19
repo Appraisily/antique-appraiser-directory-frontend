@@ -1,0 +1,34 @@
+{
+  "title": "Antique & Art Appraisers in San Diego, California",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "san-diego",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/san-diego/",
+    "name": "Antique & Art Appraisers in San Diego, California",
+    "description": "Compare antique and art appraisers in San Diego, California and request a fast online appraisal from Appraisily.",
+    "city": "San Diego",
+    "region": "CA",
+    "country": "US",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Reilly Clark",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/san-diego-reilly-clark.svg",
+        "description": "Reilly Clark offers antique appraisal support in San Diego, California. Specialties: American Indigenous Art, Paintings, Photography & Photographs, Prints. Services: Broker, Donations, Equitable Distribution.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Wendy M. Gerdau",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/san-diego-wendy-m-gerdau.svg",
+        "description": "Wendy M. Gerdau offers antique appraisal support in San Diego, California. Specialties: Antiquities, Art, Paintings, Prints. Services: Equitable Distribution, Estate Evaluations, Estate Tax.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/san-diego/"
+    }
+  }
+}

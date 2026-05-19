@@ -1,0 +1,30 @@
+{
+  "title": "Antique & Art Appraisers in Charleston, South Carolina",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "charleston",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/charleston/",
+    "name": "Antique & Art Appraisers in Charleston, South Carolina",
+    "description": "Compare antique and art appraisers in Charleston, South Carolina and request a fast online appraisal from Appraisily.",
+    "city": "Charleston",
+    "region": "SC",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "2\\. Charlston Estate Services Ltd.",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/2-charlston-estate-services-ltd/",
+        "slug": "2-charlston-estate-services-ltd",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_charleston-2-charlston-estate-services-ltd_1742170125021_sP3ntTZBZ.jpg",
+        "description": "2\\. Charlston Estate Services Ltd. offers antique appraisal support in Charleston, South Carolina. Specialties: Jewelry. Services: antique appraisal, art appraisal.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/charleston/"
+    }
+  }
+}

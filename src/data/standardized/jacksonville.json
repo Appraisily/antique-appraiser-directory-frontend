@@ -1,6 +1,762 @@
 {
   "appraisers": [
     {
+      "id": "jacksonville-estate-sales-estate-appraisals-and-inventory-estate-liquidations-presented-by-a-pleasant-c",
+      "name": "A Pleasant Cove, Inc. Estate Sales & Appraisals",
+      "slug": "estate-sales-estate-appraisals-and-inventory-estate-liquidations-presented-by-a-pleasant-c",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "904-923-0120",
+        "email": "jimantone@gmail.com",
+        "website": "https://pleasantcoveantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "A Pleasant Cove, Inc. Estate Sales & Appraisals offers antique and personal property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://pleasantcoveantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://pleasantcoveantiques.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ_5qAF26z5YgR3UQa52pkd1A",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-a-coin-and-stamp-gallery-estate-appraisal",
+      "name": "A-Coin & Stamp Gallery, Inc.",
+      "slug": "a-coin-and-stamp-gallery-estate-appraisal",
+      "imageUrl": "https://www.a-coin.com/wp-content/uploads/2022/12/cropped-A-CoinStampGallery_Favicon-192x192.png",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "9047331204",
+        "email": "",
+        "website": "https://www.a-coin.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Coins and stamps",
+          "Estate appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Collectibles appraisal support"
+        ]
+      },
+      "content": {
+        "about": "A-Coin & Stamp Gallery, Inc. offers antique and personal property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.a-coin.com/estate-services/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.a-coin.com/estate-services/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site estate appraisal service page."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJvZ6t2t_J5YgRTvq5mJkNoFE",
+        "confidenceScore": 75,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned-site Estate Appraisal service page",
+          "collectibles and estate-services fit",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "antique-jacksonville-always-buying-antiques-yours-truly",
+      "name": "Always Buying Antiques / Yours Truly",
+      "slug": "jacksonville-always-buying-antiques-yours-truly",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://alwaysbuyingantiques.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "estate_sale_estimates_consignment",
+          "antique_buying_selling"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "antique, estate, personal-property, or collectibles-related services"
+        ]
+      },
+      "content": {
+        "about": "Always Buying Antiques / Yours Truly is included from a deferred lead review for antique, estate, personal-property, or collectibles-related services in Jacksonville, FL. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://alwaysbuyingantiques.net/. Original status: valuation_adjacent_estate_sale_estimates_no_formal_appraisal_service. Evidence note: Owned-source review found antique buying/selling, estate sale services, consignment, estimates, and dealer value-assessment language, but not formal appraisal reports or standing appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "antique",
+          "serviceTypes": [
+            "estate_sale_estimates_consignment",
+            "antique_buying_selling"
+          ],
+          "appraisalServiceStatus": "valuation_adjacent_estate_sale_estimates_no_formal_appraisal_service",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://alwaysbuyingantiques.net/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJOU2twTq45YgR4NC9zjZwMpM",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: antique",
+          "appraisal service status: valuation_adjacent_estate_sale_estimates_no_formal_appraisal_service",
+          "service types: estate_sale_estimates_consignment, antique_buying_selling"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-amber-lane-estate-sale-services",
+      "name": "Amber Lane Estate Sale Services",
+      "slug": "amber-lane-estate-sale-services",
+      "imageUrl": "https://irp.cdn-website.com/8177e8da/site_favicon_16_1619641891831.ico",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "904-514-2773",
+        "email": "amberlane@bellsouth.net",
+        "website": "https://www.amberlanejax.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate contents valuations",
+          "Personal property appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Amber Lane Estate Sale Services offers antique, estate-content, or personal-property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.amberlanejax.com/Furniture-Appraisal-Specialists. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.amberlanejax.com/Furniture-Appraisal-Specialists",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJzVJUDmHJ5YgRw3VXZ4pCsSE",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site has Antique Appraisers/Furniture Appraisal Specialists pages and estate-sale services",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-anita-s-antiques-and-estate-sales",
+      "name": "Anita's Antiques & Estate Sales",
+      "slug": "anita-s-antiques-and-estate-sales",
+      "imageUrl": "https://static.wixstatic.com/media/90a441_ded87e567ba24bdeb5517db1323732fb%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/90a441_ded87e567ba24bdeb5517db1323732fb%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "904-477-6955",
+        "email": "anitasantiques@yahoo.com",
+        "website": "https://www.anitasantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Anita's Antiques & Estate Sales offers antique and personal property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.anitasantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.anitasantiques.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJN6AzaGVK5IgRIMdYtOyER9s",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-another-memory-appraisals-estate-sales",
+      "name": "Another Memory Appraisals & Estate Sales, LLC",
+      "slug": "another-memory-appraisals-estate-sales",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "(904) 599-1976",
+        "email": "",
+        "website": "https://www.manta.com/c/mr4lg8d/another-memory-appraisals-estate-sales-llc"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Another Memory Appraisals & Estate Sales, LLC offers antique and personal property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-15. Source: https://www.manta.com/c/mr4lg8d/another-memory-appraisals-estate-sales-llc. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.manta.com/c/mr4lg8d/another-memory-appraisals-estate-sales-llc",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "claimed_third_party_business_profile_with_professional_referral_support",
+          "notes": "Claimed Manta profile lists antiques and residential contents appraisals, phone, and principal Susan Scaff. Heritage Financial & Fiduciary Services recommends Susan Scaff / Another Memory Appraisals & Estate Sales under Personal Property Appraisals. Jacksonville Magazine corroborates Susan Scaff as owner and antique-identification source."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJe1TVFZUq5IgR5XaCKjDzjjg",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-e-w-nash-and-son-estate-appraisals",
+      "name": "E. W. Nash & Son LLC",
+      "slug": "e-w-nash-and-son-estate-appraisals",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/608c6d64-210c-4c7f-89d4-6e4852588ecb/favicon/734063f4-dcd8-465e-a442-dd5bb99046bb.png/:/rs=w:16,h:16,m",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "info@ewnash.com",
+        "website": "https://ewnash.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "E W Nash & Son LLC offers antique and personal property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://ewnash.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://ewnash.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site art/antique appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJ6asdgH-35YgRSFlHh3-McGo",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states estate appraisals and inventories of antiques, fine art, and decorative arts",
+          "art and antique restoration fit",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-edgewood-coin-appraisals",
+      "name": "Edgewood Coin",
+      "slug": "edgewood-coin-appraisals",
+      "imageUrl": "https://mlmzown6wxqv.i.optimole.com/cb:pzRA.100c/w:auto/h:auto/q:mauto/g:sm/f:best/https://edgewoodcoin.online/wp-content/uploads/2023/08/cropped-Logo.png",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "+19043890013",
+        "email": "admin@edgewoodcoin.net",
+        "website": "https://www.edgewoodcoin.online/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Coin and collectible appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Coin and collectibles appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Edgewood Coin offers antique, jewelry, coin, or estate appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.edgewoodcoin.online/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.edgewoodcoin.online/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJRWsTWbO55YgRirR3FP_btKQ",
+        "confidenceScore": 86,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states expert appraisals for rare coins, bullion, estate jewelry, gold, and silver",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-estate-jewelry-sales-by-rachel",
+      "name": "Estate Jewelry & Sales by Rachel",
+      "slug": "estate-jewelry-sales-by-rachel",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "904-338-2283",
+        "email": "estatejewelrybyrachel@gmail.com",
+        "website": "https://www.estatejewelrybyrachel.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Estate Jewelry & Sales by Rachel offers antique and personal property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.estatejewelrybyrachel.com/contact. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.estatejewelrybyrachel.com/contact",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ2YGbqhHO5YgRKLzPda417CQ",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-expert-jewelry-appraisers",
+      "name": "Expert Jewelry Appraisers LLC",
+      "slug": "expert-jewelry-appraisers",
+      "imageUrl": "https://expertjewelryappraisal.com/wp-content/uploads/2022/09/ExpertJewelryAppraisersLogo1.png",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "9043099990",
+        "email": "kevin@expertjewelryappraisers.com",
+        "website": "https://expertjewelryappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Expert Jewelry Appraisers LLC offers antique and personal property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://expertjewelryappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://expertjewelryappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJF_lxZKo35IgRs0qra0WPMrI",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-harby-jewelers-of-jacksonville",
+      "name": "Harby Jewelers of Jacksonville",
+      "slug": "harby-jewelers-of-jacksonville",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://harbyjewelers.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-website-link"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Harby Jewelers of Jacksonville offers antique and personal property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://harbyjewelers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://harbyjewelers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJV2bUNAW35YgR6-si6YLwgTw",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser"
+        ]
+      }
+    },
+    {
       "id": "jacksonville-jacksonville-antique-appraisals",
       "name": "Jacksonville Antique Appraisals",
       "slug": "jacksonville-antique-appraisals",
@@ -87,6 +843,390 @@
       }
     },
     {
+      "id": "jacksonville-jacksonville-estate-appraisals",
+      "name": "Jacksonville Estate Appraisals",
+      "slug": "jacksonville-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "13+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jacksonville Estate Appraisals provides professional antique and estate appraisal services in Jacksonville, FL with expertise in antiques, estate contents, fine art.",
+        "notes": "Serving Jacksonville, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "jax-estate-sales-jacksonville-fl",
+      "name": "Jacksonville Estate Sales & Appraisals",
+      "slug": "jax-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "100 N Laura St",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "32202",
+        "formatted": "100 N Laura St, Jacksonville, FL 32202"
+      },
+      "contact": {
+        "phone": "(904) 355-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jacksonville Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout Northeast Florida.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "jacksonville-jacksonville-fine-art-antique-appraisals",
+      "name": "Jacksonville Fine Art & Antique Appraisals",
+      "slug": "jacksonville-fine-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "19+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jacksonville Fine Art & Antique Appraisals provides professional antique and estate appraisal services in Jacksonville, FL with expertise in fine art, antiques, decorative arts.",
+        "notes": "Serving Jacksonville, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "jacksonville-jacksonville-heritage-appraisals",
+      "name": "Jacksonville Heritage Appraisals",
+      "slug": "jacksonville-heritage-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "22+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Heritage Items",
+          "Fine Art",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jacksonville Heritage Appraisals provides professional antique and estate appraisal services in Jacksonville, FL with expertise in antiques, heritage items, fine art.",
+        "notes": "Serving Jacksonville, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "jacksonville-jacksonville-personal-property-appraisals",
+      "name": "Jacksonville Personal Property Appraisals",
+      "slug": "jacksonville-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jacksonville Personal Property Appraisals provides professional antique and estate appraisal services in Jacksonville, FL with expertise in personal property, antiques, fine art.",
+        "notes": "Serving Jacksonville, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "jacksonville-julie-s-jewelry-and-appraisals",
+      "name": "Julie's Jewelry & Appraisals",
+      "slug": "julie-s-jewelry-and-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "+1 904-221-2007",
+        "email": "",
+        "website": "https://www.chamberofcommerce.com/business-directory/florida/jacksonville/jewelry-store/2000514598-julie-s-jewelry-appraisals"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Julie's Jewelry & Appraisals offers antique and personal property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.chamberofcommerce.com/business-directory/florida/jacksonville/jewelry-store/2000514598-julie-s-jewelry-appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.chamberofcommerce.com/business-directory/florida/jacksonville/jewelry-store/2000514598-julie-s-jewelry-appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJq-VVvApL5IgRsEKJtStUQbw",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "jacksonville-list-of-antique-appraisers",
       "name": "List of Antique Appraisers",
       "slug": "list-of-antique-appraisers",
@@ -167,6 +1307,141 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "jacksonville-mussallem-antiques",
+      "name": "Mussallem Antiques",
+      "slug": "mussallem-antiques",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "+1+ (904) 739-1551",
+        "email": "mussallems@aol.com",
+        "website": "http://www.mussallem.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Mussallem Antiques offers antique and personal property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.mussallem.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.mussallem.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJD77fOpi35YgR7FMLKR4iEA0",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-certified-personal-property-appraiser",
+      "name": "Personal Property Appraisal Group LLC",
+      "slug": "certified-personal-property-appraiser",
+      "imageUrl": "https://ppappraisal.com/wp-content/uploads/2023/07/cropped-cropped-white_icon_black_background-32x32.png",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "352.448.7540",
+        "email": "contact@ppappraisal.com",
+        "website": "https://ppappraisal.com/contact-us/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Personal Property Appraisal Group LLC offers antique and personal property appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://ppappraisal.com/contact-us/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://ppappraisal.com/contact-us/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ__-7aPm86IgRt2upn1Chj1c",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -260,6 +1535,126 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "riverside-arts-antiques-jacksonville-fl",
+      "name": "Riverside Arts & Antiques",
+      "slug": "riverside-arts-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1028 Park St",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "32204",
+        "formatted": "1028 Park St, Jacksonville, FL 32204"
+      },
+      "contact": {
+        "phone": "(904) 354-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Riverside Arts & Antiques offers a wide selection of antiques with professional appraisal services in the Riverside Avondale district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-marco-antiques-jacksonville-fl",
+      "name": "San Marco Antiques",
+      "slug": "san-marco-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1999 San Marco Blvd",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "32207",
+        "formatted": "1999 San Marco Blvd, Jacksonville, FL 32207"
+      },
+      "contact": {
+        "phone": "(904) 398-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Decorative Arts",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "San Marco Antiques offers fine antiques with professional appraisal services in the San Marco neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

@@ -1,0 +1,104 @@
+{
+  "title": "Antique & Art Appraisers in Tulsa, Oklahoma",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "tulsa",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/tulsa/",
+    "name": "Antique & Art Appraisers in Tulsa, Oklahoma",
+    "description": "Compare antique and art appraisers in Tulsa, Oklahoma and request a fast online appraisal from Appraisily.",
+    "city": "Tulsa",
+    "region": "OK",
+    "country": "US",
+    "numberOfListedAppraisers": 13,
+    "listedAppraisers": [
+      {
+        "name": "Antique Station",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/antique-station.svg",
+        "description": "Antique Station offers antique appraisal support in Tulsa, Oklahoma. Specialties: Antique Furniture, Vintage Collectibles, Antique Decorative Arts. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Cherry Street Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-tulsa.svg",
+        "description": "Cherry Street Antiques offers antique appraisal support in Tulsa, Oklahoma. Specialties: Fine Antiques, Vintage Collectibles, Art. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Heritage Valuations Tulsa",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-tulsa/",
+        "slug": "heritage-valuations-tulsa",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_tulsa-heritage-valuations-tulsa_1742203894742_HgEHBd5ta.jpg",
+        "description": "Heritage Valuations Tulsa offers antique appraisal support in Tulsa, Oklahoma. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, Insurance A…",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Kerr and Kempf Estate Sales",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/kerr-kempf-estate-sales.svg",
+        "description": "Kerr and Kempf Estate Sales offers antique appraisal support in Tulsa, Oklahoma. Specialties: Estate Sales, Antiques, Collectibles, Personal Property. Services: Antique Appraisals, Estate Sales, Estate Liquidation.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Kerstens Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/kerstens-antiques.svg",
+        "description": "Kerstens Antiques offers antique appraisal support in Tulsa, Oklahoma. Specialties: Antique Furniture, Antique Appraisals, Estate Valuations. Services: Antique Appraisals, Estate Valuations, Antique Sales.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Laura A. Nelson, ISA AM - Appraisals & Estate Sales",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/laura-nelson-appraisals.svg",
+        "description": "Laura A. Nelson, ISA AM - Appraisals & Estate Sales offers antique appraisal support in Tulsa, Oklahoma. Specialties: Antiques, Furnishings, Decorative Arts, Fine Art. Services: Antique Appraisals, Personal Property App…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Nelson-Aaron, LLC Estate Sales and Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/nelson-aaron-estate-sales.svg",
+        "description": "Nelson-Aaron, LLC Estate Sales and Appraisals offers antique appraisal support in Tulsa, Oklahoma. Specialties: Estate Sales, Antiques, Collectibles, Personal Property. Services: Antique Appraisals, Estate Sales, Estate…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Oklahoma Estate Sales & Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/tulsa-antique-appraisals.svg",
+        "description": "Oklahoma Estate Sales & Appraisals offers antique appraisal support in Tulsa, Oklahoma. Specialties: Estate Appraisals, General Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Tulsa Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/tulsa-antique-appraisals/",
+        "slug": "tulsa-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_tulsa-tulsa-antique-appraisals_1742203889160_LaNfLHr_j.jpg",
+        "description": "Tulsa Antique Appraisals offers antique appraisal support in Tulsa, Oklahoma. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Tulsa Antique Mall",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/tulsa-antique-mall.svg",
+        "description": "Tulsa Antique Mall offers antique appraisal support in Tulsa, Oklahoma. Specialties: General Antiques, Western Antiques, Collectibles. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Tulsa Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/tulsa-antiques.svg",
+        "description": "Tulsa Antiques offers antique appraisal support in Tulsa, Oklahoma. Specialties: 19th Century Glass, Porcelain, Sculpture, Fine Art. Services: Antique Appraisals, Estate Valuations, Fine Consignments.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Tulsa Jewelry Appraisals LLC",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/tulsa-jewelry-appraisals-llc.svg",
+        "description": "Tulsa Jewelry Appraisals LLC offers antique appraisal support in Tulsa, Oklahoma. Specialties: Estate Jewelry, Vintage Jewelry, Diamond Appraisals, Antique Jewelry. Services: Jewelry Appraisals, Estate Jewelry Valuation…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "ValuePros Appraisal Services - Tulsa",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal-tulsa.svg",
+        "description": "ValuePros Appraisal Services - Tulsa offers antique appraisal support in Tulsa, Oklahoma. Specialties: Antiques, Collectibles, Fine Art, Personal Property. Services: Antique Appraisals, Onsite Appraisals, Insurance Appr…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/tulsa/"
+    }
+  }
+}

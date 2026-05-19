@@ -1,6 +1,602 @@
 {
   "appraisers": [
     {
+      "id": "tampa-angell-estate-sales-appraisals",
+      "name": "Angell Estate Sales & Appraisals,Inc",
+      "slug": "angell-estate-sales-appraisals",
+      "imageUrl": "http://cdn.initial-website.com/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Tampa, FL"
+      },
+      "contact": {
+        "phone": "813-685-3477",
+        "email": "",
+        "website": "http://www.angellestatesales.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Angell Estate Sales & Appraisals,Inc offers antique, jewelry, or personal-property appraisal services serving Tampa, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: http://www.angellestatesales.com/about-us.html. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.angellestatesales.com/about-us.html",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJBbcLq47EwogRC4pT3fCTBDA",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site identifies estate sales and appraisal services",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "tampa-antique-art-buyers",
+      "name": "Antique Art Buyers",
+      "slug": "antique-art-buyers",
+      "imageUrl": "https://antiqueartbuyers.com/wp-content/uploads/2023/01/logo1.png",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Tampa, FL"
+      },
+      "contact": {
+        "phone": "727-656-2504",
+        "email": "chris@antiquesilver.org",
+        "website": "https://antiqueartbuyers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique Art Buyers offers antique and personal property appraisal services serving Tampa, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://antiqueartbuyers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://antiqueartbuyers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ06BSl8P7wogRSMfS_q574vE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "tampa-brad-peele-estate-sales-and-appraiser-buyer-of-collectibles-vintage-buyer-antique-and-coll",
+      "name": "Brad Peele's Estate Sales and Appraisals",
+      "slug": "brad-peele-estate-sales-and-appraiser-buyer-of-collectibles-vintage-buyer-antique-and-coll",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Tampa, FL"
+      },
+      "contact": {
+        "phone": "727 252-6271",
+        "email": "wayne_peele@yahoo.com",
+        "website": "https://estatesales-appraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Brad Peele's Estate Sales and Appraisals offers antique and personal property appraisal services serving Tampa, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://estatesales-appraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://estatesales-appraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJw0iizm_hwogRDVFAWVDyluc",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "tampa-bryan-h-roberts-appraisal-services",
+      "name": "Bryan H. Roberts Appraisal Services",
+      "slug": "bryan-h-roberts-appraisal-services",
+      "imageUrl": "https://www.bhrappraisals.com/uploads/5/4/1/7/54174891/brfalogo1-fotor.jpg",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Tampa, FL"
+      },
+      "contact": {
+        "phone": "941-376-3714",
+        "email": "",
+        "website": "https://www.bhrappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Bryan H. Roberts Appraisal Services offers antique and personal property appraisal services serving Tampa, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.bhrappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bhrappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJMWsiW2hGw4gR6Eir-gcB6-0",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "tampa-claycomb-appraisals",
+      "name": "Claycomb Appraisals & Estate Services",
+      "slug": "claycomb-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.claycombappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Personal Property",
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "Estate Appraisals",
+          "Antique Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Claycomb Appraisals and Estate Services provides accurate valuations of personal property throughout the Tampa Bay area, adhering to USPAP standards.",
+        "notes": "Serving Tampa, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tampa-drake-appraisals",
+      "name": "Drake Appraisals",
+      "slug": "drake-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.drakeappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Contents",
+          "Decorative Arts",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Fine Art Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Drake Appraisals is a fine art, antique and estate appraiser covering the entire Tampa Bay area including Clearwater and St. Petersburg. Professional valuations for insurance, estate, and donation purposes.",
+        "notes": "Serving Tampa, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tampa-florida-antique-appraisal-services",
+      "name": "Florida Antique Appraisal Services",
+      "slug": "florida-antique-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Vintage Items",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Florida Antique Appraisal Services offers professional antique valuations in the Tampa area with expertise in vintage items, furniture, and decorative arts.",
+        "notes": "Serving Tampa, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tampa-tampa-jewelry-appraisal",
+      "name": "Gesner Appraisal Services",
+      "slug": "tampa-jewelry-appraisal",
+      "imageUrl": "https://gesnerappraisalservices.com/wp-content/themes/dms-2/dms/images/default-favicon.png",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Tampa, FL"
+      },
+      "contact": {
+        "phone": "(727) 631-6525",
+        "email": "graydongems@icloud.com",
+        "website": "https://gesnerappraisalservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Gesner Appraisal Services offers antique and personal property appraisal services serving Tampa, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://gesnerappraisalservices.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://gesnerappraisalservices.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJr-zjogHDwogRvtVmqcVRhXc",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "tampa-gulf-coast-estate-appraisals",
+      "name": "Gulf Coast Estate Appraisals",
+      "slug": "gulf-coast-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Contents",
+          "Fine Art",
+          "Jewelry",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Antique Appraisals",
+          "Insurance Appraisals",
+          "Probate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Gulf Coast Estate Appraisals provides comprehensive antique and estate valuations throughout Tampa Bay and the Gulf Coast of Florida.",
+        "notes": "Serving Tampa, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "tampa-heritage-valuations-tampa",
       "name": "Heritage Valuations Tampa",
       "slug": "heritage-valuations-tampa",
@@ -89,6 +685,202 @@
       }
     },
     {
+      "id": "tampa-kennedy-brothers-auctions-estate-appraisals",
+      "name": "Kennedy Brothers Auctions",
+      "slug": "kennedy-brothers-auctions-estate-appraisals",
+      "imageUrl": "https://kennedybrothersauctions.com/wp-content/uploads/2019/05/logo-150x150.png",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Tampa, FL"
+      },
+      "contact": {
+        "phone": "727-821-5400",
+        "email": "kennedybrosauctions@gmail.com",
+        "website": "https://kennedybrothersauctions.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and liquidation guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate contents valuations",
+          "Personal property appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Kennedy Brothers Auctions offers estate, antique, or personal-property appraisal support serving Tampa, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://kennedybrothersauctions.com/estate-services/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://kennedybrothersauctions.com/estate-services/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site estate/personal-property appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJJeMG7ZLjwogR27oLPV3Z7wU",
+        "confidenceScore": 86,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states estate services from appraisals to liquidation and auctions",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "tampa-richard-stedman-estate-services-llc",
+      "name": "Richard Stedman Estate Services LLC",
+      "slug": "richard-stedman-estate-services-llc",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Tampa, FL"
+      },
+      "contact": {
+        "phone": "7275155985",
+        "email": "info@museumappraisers.com",
+        "website": "https://museumappraisers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Richard Stedman Estate Services LLC offers antique and personal property appraisal services serving Tampa, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://museumappraisers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://museumappraisers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ24hYbhHFwogRSZt4i1yV7GQ",
+        "confidenceScore": 70,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "south-tampa-antiques-tampa-fl",
+      "name": "South Tampa Antiques",
+      "slug": "south-tampa-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3405 S MacDill Ave",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "33611",
+        "formatted": "3405 S MacDill Ave, Tampa, FL 33611"
+      },
+      "contact": {
+        "phone": "(813) 837-3300",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Vintage Furniture",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "South Tampa Antiques offers fine antiques and collectibles with professional appraisal services in South Tampa.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "tampa-tampa-antique-appraisals",
       "name": "Tampa Antique Appraisals",
       "slug": "tampa-antique-appraisals",
@@ -158,6 +950,193 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "tampa-tampa-bay-antique-appraisers",
+      "name": "Tampa Bay Antique Appraisers",
+      "slug": "tampa-bay-antique-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Furniture",
+          "Fine Art",
+          "Decorative Arts",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Tampa Bay Antique Appraisals offers professional antique valuations throughout the Tampa Bay area, with expertise in furniture, fine art, and decorative arts.",
+        "notes": "Serving Tampa, FL with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tampa-bay-estate-sales-tampa-fl",
+      "name": "Tampa Bay Estate Sales & Appraisals",
+      "slug": "tampa-bay-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "100 N Tampa St",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "33602",
+        "formatted": "100 N Tampa St, Tampa, FL 33602"
+      },
+      "contact": {
+        "phone": "(813) 229-2299",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Tampa Bay Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the Tampa Bay area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "ybor-city-antiques-tampa-fl",
+      "name": "Ybor City Antiques",
+      "slug": "ybor-city-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1600 E 7th Ave",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "33605",
+        "formatted": "1600 E 7th Ave, Tampa, FL 33605"
+      },
+      "contact": {
+        "phone": "(813) 248-2711",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop in Ybor City",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Cigar Memorabilia",
+          "Vintage Collectibles",
+          "General Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Ybor City Antiques offers a unique selection of antiques reflecting Tampa's cigar heritage with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

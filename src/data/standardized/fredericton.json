@@ -323,6 +323,119 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "chase-benjamin-antiques-fredericton-nb",
+      "name": "Chase Benjamin Antiques",
+      "slug": "chase-benjamin-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "310 Main Street",
+        "city": "Fredericton",
+        "state": "NB",
+        "zip": "E3A 1E4",
+        "formatted": "310 Main Street, Fredericton, NB E3A 1E4"
+      },
+      "contact": {
+        "phone": "(506) 470-2155",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Chase Benjamin Antiques is a small antique and collectibles store on the Northside of Fredericton, New Brunswick. Recognized as one of the top antique shops in Fredericton on Yelp.",
+        "notes": "310 Main Street, Fredericton, NB. (506) 470-2155. Top-rated on Yelp for Antiques in Fredericton."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "peppers-house-antiques-fredericton-nb",
+      "name": "Peppers' House Antiques & Appraisal",
+      "slug": "peppers-house-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Fredericton",
+        "state": "NB",
+        "zip": "",
+        "formatted": "Fredericton, NB"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Unique Items",
+          "Vintage Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Peppers' House Antiques & Appraisal is a quaint establishment nestled in the heart of Fredericton, NB, specializing in a diverse collection of unique antiques and collectibles with professional appraisal services.",
+        "notes": "Listed on MapQuest for Fredericton, NB."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

@@ -1,0 +1,433 @@
+{
+  "appraisers": [
+    {
+      "id": "antique-washington-area-appraisal-services-inc",
+      "name": "Area Appraisal Services, Inc",
+      "slug": "washington-area-appraisal-services-inc",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://dcareaappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "antique_decorative_arts_personal_property_or_estate_contents",
+          "real_estate_property_appraisal"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "antique, estate, personal-property, or collectibles-related services"
+        ]
+      },
+      "content": {
+        "about": "Area Appraisal Services, Inc is included from a deferred lead review for antique, estate, personal-property, or collectibles-related services in Washington, DC. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://dcareaappraisal.com/. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: ispute resolutions, PMI removal, preexisting and private sale transactions. We combine our accurate valuations with amazing customer service and a positive appraisal experience. Got a Question? Do you have a question relating to real estate appraisals? We can help. Simply fill out the form below and we’ll contact you w"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "antique",
+          "serviceTypes": [
+            "antique_decorative_arts_personal_property_or_estate_contents",
+            "real_estate_property_appraisal"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://dcareaappraisal.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJ90aZ5mPJt4kRD-Z-y96iM_k",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: antique",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: antique_decorative_arts_personal_property_or_estate_contents, real_estate_property_appraisal"
+        ]
+      }
+    },
+    {
+      "id": "antique-washington-capital-antiques-and-fine-art-home",
+      "name": "Capital Antiques & Fine Art - Home",
+      "slug": "washington-capital-antiques-and-fine-art-home",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.capitalantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "fine_art_or_gallery_related",
+          "antique_decorative_arts_personal_property_or_estate_contents"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "antique, estate, personal-property, or collectibles-related services"
+        ]
+      },
+      "content": {
+        "about": "Capital Antiques & Fine Art - Home is included from a deferred lead review for antique, estate, personal-property, or collectibles-related services in Washington, DC. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: http://www.capitalantiques.com/. Original status: category_related_but_no_formal_appraisal_terms_found. Evidence note: Capital Antiques & Fine Art - Home Capital Antiques & Fine Art - Home Home Accessories Paintings Furniture Sculpture Mirrors Lighting Islamic Contact Link 1 Link 1 Link 2 Link 3 Link 4 Link 5 Link 6 Link 7 Link 8 Link 9 &#9776; Top !!! JavaScript is"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "both_art_and_antique",
+          "serviceTypes": [
+            "fine_art_or_gallery_related",
+            "antique_decorative_arts_personal_property_or_estate_contents"
+          ],
+          "appraisalServiceStatus": "category_related_but_no_formal_appraisal_terms_found",
+          "confidence": "medium_low"
+        },
+        "verification": {
+          "sourceUrl": "http://www.capitalantiques.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJDeTJiwe2t4kRs23vd0xOxpc",
+        "confidenceScore": 45,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: both_art_and_antique",
+          "appraisal service status: category_related_but_no_formal_appraisal_terms_found",
+          "service types: fine_art_or_gallery_related, antique_decorative_arts_personal_property_or_estate_contents"
+        ]
+      }
+    },
+    {
+      "id": "washington-charles-schwartz-and-son-jewelers",
+      "name": "Charles Schwartz & Son Jewelers",
+      "slug": "charles-schwartz-and-son-jewelers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "202-363-5432",
+        "email": "username@example.com",
+        "website": "https://www.charlesschwartz.com/?utm_source=google&utm_medium=maps&utm_campaign=dc"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Charles Schwartz & Son Jewelers offers antique and personal property appraisal services serving Washington, DC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.charlesschwartz.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.charlesschwartz.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJHwIJHZe3t4kRKOrsySiR-W8",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "washington-martin-fuller-appraisals",
+      "name": "Martin Fuller Appraisals, LLC",
+      "slug": "martin-fuller-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "(703) 442-6690",
+        "email": "fullerproduction@aol.com",
+        "website": "http://www.martinfullerappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Martin Fuller Appraisals, LLC offers antique and personal property appraisal services serving Washington, DC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-15. Source: https://www.ja-world.com/usa/martin-fuller.html. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.ja-world.com/usa/martin-fuller.html",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "professional_jewelry_appraiser_directory_and_professional_association_sources",
+          "notes": "Professional jewelry appraiser directory and ASA/NAJA-related sources support Martin Fuller Appraisals as a jewelry, gem, watch, and silverware appraisal practice serving the Washington DC area. No art-directory import because the verified scope is jewelry/gems/silverware rather than fine art."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJVSUa4b9KtokRBSZpr0bQ3ks",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "washington-the-potomack-company-auctions-appraisals-and-estate-sales",
+      "name": "The Potomack Company Auctions, Appraisals & Estate Sales",
+      "slug": "the-potomack-company-auctions-appraisals-and-estate-sales",
+      "imageUrl": "https://image.invaluable.com/privatelabel/connectwp/wp-content/uploads/sites/159/2022/11/11141949/cropped-Potomack-P-32x32.png",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "(703) 684-4550",
+        "email": "",
+        "website": "https://www.potomackcompany.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "The Potomack Company Auctions, Appraisals & Estate Sales offers antique and personal property appraisal services serving Washington, DC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.potomackcompany.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.potomackcompany.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ-_-hY-6wt4kRYTjSTDZmF6Q",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "auction/appraisal adjacent",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "washington-weschler-s-auctioneers-and-appraisers",
+      "name": "Weschler's Auctioneers & Appraisers",
+      "slug": "weschler-s-auctioneers-and-appraisers",
+      "imageUrl": "https://www.weschlers.com/wp-content/themes/theme-weschlers/dist/img/icons/apple-touch-icon.png",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "202.628.1281",
+        "email": "",
+        "website": "https://www.weschlers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Weschler's Auctioneers & Appraisers offers antique and personal property appraisal services serving Washington, DC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.weschlers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.weschlers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJPyVpX5C3t4kRQofcNr6GK3M",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "auction/appraisal adjacent",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

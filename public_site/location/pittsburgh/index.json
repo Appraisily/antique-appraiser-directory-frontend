@@ -1,0 +1,42 @@
+{
+  "title": "Antique & Art Appraisers in Pittsburgh, Pennsylvania",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "pittsburgh",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/pittsburgh/",
+    "name": "Antique & Art Appraisers in Pittsburgh, Pennsylvania",
+    "description": "Compare antique and art appraisers in Pittsburgh, Pennsylvania and request a fast online appraisal from Appraisily.",
+    "city": "Pittsburgh",
+    "region": "PA",
+    "country": "US",
+    "numberOfListedAppraisers": 3,
+    "listedAppraisers": [
+      {
+        "name": "Joshua M Stearns",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/pittsburgh-joshua-m-stearns.svg",
+        "description": "Joshua M Stearns offers antique appraisal support in Pittsburgh, Pennsylvania. Specialties: Americana, Collectibles, Collectibles - Toys, Furniture - American. Services: Divorce Settlements, Equitable Distribution, Esta…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Noralen M Curl",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/concept-art-gallery.svg",
+        "description": "Noralen M Curl offers antique appraisal support in Pittsburgh, Pennsylvania. Specialties: Art, Books, Collectibles, Decorative Arts & Accessories. Services: Estate Evaluations, Estate Tax, Tax Deductible Gifts.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Concept Art Gallery",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/concept-art-gallery/",
+        "slug": "concept-art-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_pittsburgh-concept-art-gallery_1742203034158_MJihWQA1c.jpg",
+        "description": "Concept Art Gallery offers antique appraisal support in Pittsburgh, Pennsylvania. Specialties: Paintings ($\\text{American/European}$). Services: antique appraisal, art appraisal.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/pittsburgh/"
+    }
+  }
+}

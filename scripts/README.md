@@ -1,58 +1,48 @@
-# Build Scripts
+# Static Publish Scripts
 
-This directory contains various scripts for building, fixing, and deploying the art appraiser directory frontend.
+This directory contains the supported scripts for validating and patch-publishing the antique appraiser directory static site.
 
-## Domain Configuration Scripts
+`public_site/` is the canonical published artifact. Profile and city page content under `public_site/appraiser/**` and `public_site/location/**` must not be mass-edited by scripts.
 
-The following scripts handle URL management between the main domain and subdomain:
+## Supported Workflow
 
-### fix-appraiser-links.js
-
-Fixes URLs in source code files (*.ts, *.tsx) to ensure all appraiser page links point to the subdomain instead of the main domain.
+For normal static validation:
 
 ```
-npm run fix:appraiser-links
+npm run build
+npm run check:static
 ```
-
-### fix-subdomain-links.js
-
-Processes all HTML files in the build output to update any URLs that point to appraiser pages on the main domain to use the subdomain instead.
-
-```
-npm run fix:all-subdomain-links
-```
-
-### fix-js-urls.js
-
-Updates compiled JavaScript files to ensure any hardcoded URLs pointing to the main domain are corrected to use the subdomain.
-
-```
-npm run fix:js-urls
-```
-
-## Build Process
-
-For a complete build with all fixes applied:
-
-```
-npm run rebuild:fixes
-```
-
-This will:
-1. Fix appraiser links in source files
-2. Clean the dist directory
-3. Run the build process
-4. Apply all asset and URL fixes
 
 ## Deployment
 
-To prepare for Netlify deployment:
+Use patch publish for homepage, nav, footer, managed CTA block, CSS, or asset-only
+deploys:
 
 ```
-npm run build:netlify-ready
+npm run publish:patch
 ```
 
-This runs the full build process and then prepares the files for Netlify deployment by:
-1. Fixing all domain references
-2. Creating proper headers configuration
-3. Configuring the Netlify settings
+Patch publish clones the active release first, overlays only allow-listed static
+paths from `public_site/`, then updates shared envelope blocks on existing
+appraiser/location pages. It refuses direct `appraiser/` and `location/` path
+overlays and verifies protected profile/city content before flipping `current`.
+
+Full generated publish is disabled from npm. Individual appraiser and location
+HTML content should only change through direct, reviewed HTML edits. Do not use
+scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
+
+## Remaining Scripts
+
+- `publish-patch.mjs`: patch publisher for homepage/assets/shared envelope blocks.
+- `serve-static.js`: local static server for `public_site/`.
+- `test-html.js`: read-only HTML diagnostics; use `--strict` only when missing local assets should fail the command.
+- `count-appraisers.js`: read-only data count/report helper.
+- `env-check.mjs`: environment validation.
+- `gsc-weekly-title-tuning.mjs`: read-only Search Console title tuning report.
+- `list-imagekit-images.js`, `check-imagekit-connection.js`, `check-images.js`, `check-image-coverage.js`: image diagnostics.
+
+## Removed Build Path
+
+The old `dist`/Netlify/full-regeneration path is removed from the normal workflow.
+
+Do not reintroduce scripts that rebuild or mass-rewrite profile/location HTML in this repo.

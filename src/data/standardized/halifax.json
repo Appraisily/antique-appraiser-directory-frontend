@@ -326,6 +326,184 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "crowther-brayley-halifax-ns",
+      "name": "Crowther & Brayley Auctioneers and Appraisers",
+      "slug": "crowther-brayley",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Halifax",
+        "state": "NS",
+        "zip": "",
+        "formatted": "Halifax, NS"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://crowther-brayley.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1989",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Collectibles",
+          "Estate Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Crowther & Brayley Ltd. has been offering auction and appraisal services in Halifax, Nova Scotia since 1989. They specialize in fine art, antiques, and collectibles, providing professional valuations for estates, insurance, and donation purposes throughout the Halifax region.",
+        "notes": "Established 1989. Website: crowther-brayley.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "zwickers-gallery-halifax-ns",
+      "name": "Zwicker's Gallery",
+      "slug": "zwickers-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Halifax",
+        "state": "NS",
+        "zip": "",
+        "formatted": "Halifax, NS"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Canadian Art",
+          "Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Gallery Services"
+        ]
+      },
+      "content": {
+        "about": "Zwicker's Gallery is a well-established Halifax gallery offering antique and fine art appraisal services alongside their art sales. Recognized as one of the top antique appraisal services in Halifax on Yelp.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Halifax."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "jack-finer-things-halifax-ns",
+      "name": "Jack at Finer Things Antiques",
+      "slug": "jack-finer-things-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "Quinpool Rd",
+        "city": "Halifax",
+        "state": "NS",
+        "zip": "",
+        "formatted": "Quinpool Rd, Halifax, NS"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [
+          "Licensed Appraiser"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales"
+        ]
+      },
+      "content": {
+        "about": "Jack at Finer Things Antiques on Quinpool Road is a licensed appraiser highly recommended by the Nova Scotia community for antique valuations. The shop offers professional appraisal services alongside a curated selection of antiques and curios.",
+        "notes": "Recommended by r/NovaScotia community. Licensed appraiser."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

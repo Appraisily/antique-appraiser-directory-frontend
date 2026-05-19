@@ -1,0 +1,38 @@
+{
+  "title": "Antique & Art Appraisers in New York, New York",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "new-york",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/new-york/",
+    "name": "Antique & Art Appraisers in New York, New York",
+    "description": "Compare antique and art appraisers in New York, New York and request a fast online appraisal from Appraisily.",
+    "city": "New York",
+    "region": "NY",
+    "country": "US",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Museum Exchange",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/museum-exchange/",
+        "slug": "museum-exchange",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_museum-exchange-3462_1742166255040_BIvs_Ofel.jpg",
+        "description": "Museum Exchange offers antique appraisal support in New York, New York. Specialties: All media types with artworks valued from $5k to $1M+. Services: antique appraisal, art appraisal.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Showplace NYC Fine Art Buyer",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/showplace-nyc-fine-art-buyer/",
+        "slug": "showplace-nyc-fine-art-buyer",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_showplace-nyc-fine-art-buyer-8317_1742166286046_igSzNR8CE.jpg",
+        "description": "Showplace NYC Fine Art Buyer offers antique appraisal support in New York, New York. Specialties: Contemporary market valuations, Direct art purchases. Services: antique appraisal, art appraisal.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/new-york/"
+    }
+  }
+}

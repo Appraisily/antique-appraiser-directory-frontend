@@ -1,6 +1,670 @@
 {
   "appraisers": [
     {
+      "id": "charlotte-alexander-appraisal-service",
+      "name": "Alexander Appraisal Service",
+      "slug": "alexander-appraisal-service",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "(704) 849-7352",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Items",
+          "Jewelry",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Alexander Appraisal Service provides antique and personal property appraisals in Charlotte with expertise in fine art, jewelry, and estate items.",
+        "notes": "Serving Charlotte, NC with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-appraising-plus",
+      "name": "Appraising Plus",
+      "slug": "appraising-plus",
+      "imageUrl": "https://www.appraisingplus.com/apple-touch-icon.png",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "919-559-7561",
+        "email": "john@appraisingplus.com",
+        "website": "https://www.appraisingplus.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Appraising Plus offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.appraisingplus.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.appraisingplus.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJM1uPcVPmrIkRDsqYzQnXT6M",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-arcadia-art-consultancy",
+      "name": "Arcadia Art Consultancy",
+      "slug": "arcadia-art-consultancy",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/58fcf7f1893fc0d7604f0e8b/1536942866041-N1POL0CAB3XQ1GD2B5RE/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "2672663905",
+        "email": "user@domain.com",
+        "website": "https://www.arcadiaappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Arcadia Art Consultancy offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.arcadiaappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.arcadiaappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJfx254g2gVogRQLcza5l2NsU",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-art-and-antique-appraisers-and-restorers",
+      "name": "Art & Antique Appraisers and Restorers",
+      "slug": "art-and-antique-appraisers-and-restorers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "+1 704-752-4214",
+        "email": "",
+        "website": "https://wanderlog.com/place/details/10201762/art--antique-appraisers-and-restorers"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art & Antique Appraisers and Restorers offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://wanderlog.com/place/details/10201762/art--antique-appraisers-and-restorers. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://wanderlog.com/place/details/10201762/art--antique-appraisers-and-restorers",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJZxxtCmedVogRUV0AojttkFg",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-art-appraisal-services-llc",
+      "name": "Art Appraisal Services Of The Carolinas",
+      "slug": "art-appraisal-services-llc",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "704-713-9858",
+        "email": "",
+        "website": "https://www.artappraisalservices.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Art Appraisal Services Of The Carolinas offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.artappraisalservices.net/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artappraisalservices.net/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJbamDqQ3CWYgRMpf6UiMxH3E",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-charlotte-art-of-estates-personal-property-appraisal-firm",
+      "name": "Art of Estates - Appraisal Firm",
+      "slug": "charlotte-art-of-estates-personal-property-appraisal-firm",
+      "imageUrl": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "+1 720.495.3753",
+        "email": "MyFineArt@email.com",
+        "website": "https://artofestates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates - Appraisal Firm offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://artofestates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://artofestates.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ7UzkxTw7QIcRgYhPTk_5zjc",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-asset-appraisal-partners",
+      "name": "Asset Appraisal Partners",
+      "slug": "asset-appraisal-partners",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/49e861fd-4649-46e2-bff7-46c253b62693/Asset%20Appraisal%20Partners.png/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "704-200-3201",
+        "email": "info@indiantypefoundry.com",
+        "website": "https://assetappraisalpartners.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Asset Appraisal Partners offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://assetappraisalpartners.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://assetappraisalpartners.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJHy_kZSYhVIgRb_Otj7I107o",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-carolina-antique-appraisal-services",
+      "name": "Carolina Antique Appraisal Services",
+      "slug": "carolina-antique-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Carolina Antique Appraisal Services provides professional antique valuations throughout Charlotte and the Carolinas with expertise in fine art and estate contents.",
+        "notes": "Serving Charlotte, NC with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-estate-sales-charlotte-nc",
+      "name": "Charlotte Estate Sales & Appraisals",
+      "slug": "charlotte-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "201 S Tryon St",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202",
+        "formatted": "201 S Tryon St, Charlotte, NC 28202"
+      },
+      "contact": {
+        "phone": "(704) 334-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale and appraisal company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Appraisals",
+          "General Antiques",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Charlotte Estate Sales & Appraisals provides comprehensive antique and estate appraisal services throughout the Charlotte metro area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-charlotte-rare-coins",
+      "name": "Charlotte Rare Coins",
+      "slug": "charlotte-rare-coins",
+      "imageUrl": "https://charlotterarecoins.com/wp-content/uploads/2024/09/CRC_Logo_Color-2.svg",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "704-242-1314",
+        "email": "",
+        "website": "https://charlotterarecoins.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Charlotte Rare Coins offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://charlotterarecoins.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://charlotterarecoins.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJhzj0QJSfVogR1QL0qQrDAaw",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "charlotte-coinfully-specialty-numismatic-appraiser",
       "name": "Coinfully – Specialty Numismatic Appraiser",
       "slug": "coinfully-specialty-numismatic-appraiser",
@@ -96,6 +760,484 @@
       }
     },
     {
+      "id": "charlotte-estate-lady-julie-hall",
+      "name": "Estate Lady",
+      "slug": "estate-lady-julie-hall",
+      "imageUrl": "https://eadn-wc04-11913343.nxedge.io/wp-content/uploads/The_Estate_Lady_logo_color.svg",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "Julie@TheEstateLady.com",
+        "website": "https://theestatelady.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Estate Lady offers antique, jewelry, or personal-property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://theestatelady.com/services/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://theestatelady.com/services/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJc50z2w2dVogRtfX_HIpoeU0",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site supports personal-property estate consulting and appraisal expertise",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-fine-arts-services",
+      "name": "Fine Arts Services",
+      "slug": "fine-arts-services",
+      "imageUrl": "https://imagescdn.alignable.com/profile/300x300/2018/10/11/FINE-ARTS-SERVICES-1539296735.jpg",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "704-752-4214",
+        "email": "susan@fineartservices.org",
+        "website": "https://www.alignable.com/charlotte-nc/fine-arts-services"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Fine Arts Services offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-15. Source: https://www.alignable.com/charlotte-nc/fine-arts-services. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.alignable.com/charlotte-nc/fine-arts-services",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "owner_managed_business_profile_plus_independent_arts_resource",
+          "notes": "Prepared from owner-managed Alignable business profile and Caldwell Arts Council resource listing after Places discovery. The evidence supports professional appraisals for fine art, antiques, jewelry, silver, sculpture, and decorative arts. The candidate owned domain was listed by an independent resource but was not fetchable, so raw Places fields were not used as public source data."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJZxxtCmedVogRH4NEs6igQK8",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-grace-kelley-antique-appraisals",
+      "name": "Grace Kelley Antique Appraisals",
+      "slug": "grace-kelley-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Decorative Arts",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Grace Kelley Antique Appraisals provides professional antique appraisal services in Charlotte with expertise in fine art, estate contents, and decorative arts.",
+        "notes": "Serving Charlotte, NC with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-heirloom-estates-llc-919-323-7524",
+      "name": "Heirloom Estates, LLC",
+      "slug": "heirloom-estates-llc-919-323-7524",
+      "imageUrl": "http://www.heirloomestatesonline.com/uploads/1/1/7/0/117090130/medium-377616-1-01.jpg",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "(919) 323-7524",
+        "email": "",
+        "website": "http://www.heirloomestatesonline.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Heirloom Estates, LLC offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.heirloomestatesonline.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.heirloomestatesonline.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJW7na2HryrIkRSRX0im6Oxcg",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-k-and-c-appraisals",
+      "name": "K & C Appraisals",
+      "slug": "k-and-c-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Since 1993",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 73
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Real Estate",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Real Estate Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "K & C Appraisals has been in business since 1993, offering antique, real estate, and personal property appraisals in Charlotte with free estimates.",
+        "notes": "Serving Charlotte, NC with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-lancaster-appraisals",
+      "name": "Lancaster Appraisals",
+      "slug": "lancaster-appraisals",
+      "imageUrl": "https://lancasterappraisals.com/wp-content/uploads/2013/11/lancaster-l-master-V6.jpg",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "828-333-0764",
+        "email": "lee@lancasterappraisals.com",
+        "website": "http://www.lancasterappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lancaster Appraisals offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://lancasterappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://lancasterappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJpxphg57_WYgRa8Wb1nUNQSw",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-laura-furr-appraisals-and-helping-hand-estate-services-inc",
+      "name": "Laura Furr Appraisals & Helping Hand Estate Services, Inc.",
+      "slug": "laura-furr-appraisals-and-helping-hand-estate-services-inc",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/61d6ffad9ab66a469f9ac0b1/ddc69449-77e8-43fe-befa-1dd211a05a07/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "(704) 575-1962",
+        "email": "laura@laurafurrappraisals.com",
+        "website": "https://helpinghandestatesales.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Laura Furr Appraisals & Helping Hand Estate Services, Inc. offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://helpinghandestatesales.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://helpinghandestatesales.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJv6hcRSUVVIgRPegg8IX9ioA",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "charlotte-list-of-antique-appraisers",
       "name": "List of Antique Appraisers",
       "slug": "list-of-antique-appraisers",
@@ -178,6 +1320,276 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "charlotte-look-appraisal",
+      "name": "Look Appraisal, LLC Fine Art & Estate Appraiser",
+      "slug": "look-appraisal",
+      "imageUrl": "https://www.lookappraisal.com/cdn/shop/files/Look_Appraisal_807b61ac-cedf-423c-b4d1-ae98e7bcf8d4_400x.png?v=1762801600",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "(919) 438-3189",
+        "email": "",
+        "website": "https://www.lookappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Look Appraisal, LLC Fine Art & Estate Appraiser offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.lookappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.lookappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJnWCT7W33rIkRTnaicyUGYY0",
+        "confidenceScore": 120,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "noda-antiques-charlotte-nc",
+      "name": "NoDa Antiques",
+      "slug": "noda-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3221 N Davidson St",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28205",
+        "formatted": "3221 N Davidson St, Charlotte, NC 28205"
+      },
+      "contact": {
+        "phone": "(704) 332-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop in NoDa",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Items",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "NoDa Antiques offers a curated selection of antiques with professional appraisal services in the NoDa arts district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-perrys-diamonds-estate-jewelry-appraisals",
+      "name": "Perry's Diamonds & Estate Jewelry",
+      "slug": "perrys-diamonds-estate-jewelry-appraisals",
+      "imageUrl": "https://perrysjewelry.com/cdn/shop/files/Perrys_Stacked_GreenGrey_2.svg?v=1739397046&width=500",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "17043641391",
+        "email": "michele@perrysjewelry.com",
+        "website": "https://perrysjewelry.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Coin and collectible appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Coin and collectibles appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Perry's Diamonds & Estate Jewelry offers antique, jewelry, coin, or estate appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://perrysjewelry.com/pages/jewelry-appraisals-services. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://perrysjewelry.com/pages/jewelry-appraisals-services",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJq95lURWeVogRvj-n6CFnTYE",
+        "confidenceScore": 86,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site has jewelry appraisals service page and estate jewelry fit",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "charlotte-precious-restorations",
+      "name": "Precious Restorations- Art & Antique Restoration",
+      "slug": "precious-restorations",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Charlotte, NC"
+      },
+      "contact": {
+        "phone": "7049650074",
+        "email": "preciousrestorations@gmail.com",
+        "website": "http://www.preciousrestorations.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Precious Restorations- Art & Antique Restoration offers antique and personal property appraisal services serving Charlotte, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.preciousrestorations.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.preciousrestorations.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJwbJj2asmVIgRIHsQd_eiXQo",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -271,6 +1683,131 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-queen-city-antique-appraisals",
+      "name": "Queen City Antique Appraisals",
+      "slug": "queen-city-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Southern Antiques",
+          "Furniture",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Queen City Antique Appraisals specializes in Southern antiques, furniture, and fine art. Serving Charlotte and the surrounding Piedmont region.",
+        "notes": "Serving Charlotte, NC with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "south-end-antiques-charlotte-nc",
+      "name": "South End Antiques",
+      "slug": "south-end-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "1925 Camden Rd",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28203",
+        "formatted": "1925 Camden Rd, Charlotte, NC 28203"
+      },
+      "contact": {
+        "phone": "(704) 372-1234",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Decorative Arts",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "South End Antiques offers fine antiques with professional appraisal services in Charlotte's South End.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

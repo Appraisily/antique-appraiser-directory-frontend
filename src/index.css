@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  button[data-appraisily-chat-trigger],
+  button[data-appraisily-chat-close],
+  [data-appraisily-chat-wrap] {
+    display: none !important;
+  }
+}

@@ -184,6 +184,76 @@
       }
     },
     {
+      "id": "phoenix-abd-antique-appraisers",
+      "name": "ABD Antique Appraisers",
+      "slug": "abd-antique-appraisers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "(623) 931-0235",
+        "email": "medore@mindspring.com",
+        "website": "http://abdappraise.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "ABD Antique Appraisers offers antique and personal property appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://abdappraise.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://abdappraise.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJM6zjZBtrK4cR50DEVQBBzLE",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "anderson-fine-art-appraisals-924",
       "name": "Anderson Fine Art Appraisals",
       "slug": "anderson-fine-art-appraisals",
@@ -197,7 +267,7 @@
       },
       "contact": {
         "phone": "626-843-9505",
-        "email": "info@www.art-appraisals.net",
+        "email": "info@art-appraisals.net",
         "website": "https://www.art-appraisals.net"
       },
       "business": {
@@ -266,6 +336,225 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "antique-phoenix-antique-gatherings",
+      "name": "Antique Gatherings",
+      "slug": "phoenix-antique-gatherings",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.antiquegatherings.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "fine_art_or_gallery_related",
+          "antique_decorative_arts_personal_property_or_estate_contents",
+          "jewelry_gem_watch"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal directory listing",
+          "jewelry, estate, antique, or personal-property-related services"
+        ]
+      },
+      "content": {
+        "about": "Antique Gatherings is included from a deferred lead review for jewelry, estate, antique, or personal-property-related services in Phoenix, AZ. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: http://www.antiquegatherings.com/. Original status: category_related_but_no_formal_appraisal_terms_found. Evidence note: offered for sale to suit every taste and budget. Items include Antique Furniture, Clocks, Fine Art, Estate and Fine Jewelry, Decorative Items, Sculpture & Bronzes, Oriental Rugs, Glass & Porcelain, Silver, Mid-Century Modern, Taxidermy, Industrial, Vintage Clothing and Accessories, Linens, as well as many other Antique"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "both_art_and_antique",
+          "serviceTypes": [
+            "fine_art_or_gallery_related",
+            "antique_decorative_arts_personal_property_or_estate_contents",
+            "jewelry_gem_watch"
+          ],
+          "appraisalServiceStatus": "category_related_but_no_formal_appraisal_terms_found",
+          "confidence": "medium_low"
+        },
+        "verification": {
+          "sourceUrl": "http://www.antiquegatherings.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJoXd9f6sNK4cRIbzrOXG5yTU",
+        "confidenceScore": 45,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: both_art_and_antique",
+          "appraisal service status: category_related_but_no_formal_appraisal_terms_found",
+          "service types: fine_art_or_gallery_related, antique_decorative_arts_personal_property_or_estate_contents, jewelry_gem_watch"
+        ]
+      }
+    },
+    {
+      "id": "phoenix-az-appraisal-services-estates-insurance-property-appraisers",
+      "name": "Arizona Certified Appraisal Group",
+      "slug": "az-appraisal-services-estates-insurance-property-appraisers",
+      "imageUrl": "https://azcertifiedappraisalgroup.com/wp-content/themes/decor/images/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "6027514393",
+        "email": "appraiseitaz@gmail.com",
+        "website": "https://azcertifiedappraisalgroup.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Arizona Certified Appraisal Group offers antique and personal property appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://azcertifiedappraisalgroup.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://azcertifiedappraisalgroup.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ9797a3VvK4cRinnAxNGeBfY",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "phoenix-a-z-appraisal-and-estate-consultants",
+      "name": "az appraisal",
+      "slug": "a-z-appraisal-and-estate-consultants",
+      "imageUrl": "https://a-zappraisal.com/wp-content/uploads/2023/01/A-Z-Appraisal-New-Logo-Just-Letters.png",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "6023194207",
+        "email": "email@email.com",
+        "website": "https://a-zappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "az appraisal offers antique and personal property appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://a-zappraisal.com/appraisal-services/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://a-zappraisal.com/appraisal-services/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJq6pWZqQSK4cR7g18R0Ap7r0",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -348,6 +637,75 @@
       }
     },
     {
+      "id": "phoenix-ej-s-auction-and-appraisal",
+      "name": "EJ's Auction & Appraisal",
+      "slug": "ej-s-auction-and-appraisal",
+      "imageUrl": "https://www.ejsauction.com/wp-content/uploads/2020/03/Ejs_web-_logoRW.png",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "+1-623-878-2003",
+        "email": "info@ejsauction.com",
+        "website": "https://www.ejsauction.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "EJ's Auction & Appraisal offers antique and personal property appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.ejsauction.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.ejsauction.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ82KON85rK4cRIDmzYvDooYo",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "escher-associates-352",
       "name": "Escher Associates",
       "slug": "escher-associates",
@@ -361,7 +719,7 @@
       },
       "contact": {
         "phone": "641-290-4945",
-        "email": "info@www.escher-associates.com",
+        "email": "info@escher-associates.com",
         "website": "https://www.escher-associates.com"
       },
       "business": {
@@ -428,6 +786,73 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "phoenix-estate-in-time-personal-property-appraisal",
+      "name": "Estate In Time, LLC",
+      "slug": "estate-in-time-personal-property-appraisal",
+      "imageUrl": "https://estateintime.com/wp-content/uploads/2022/12/cropped-EstateInTimeFinalFiles-09.png",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "480-276-8045",
+        "email": "opendoors@estateintime.com",
+        "website": "https://estateintime.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate contents valuations",
+          "Personal property appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Estate In Time, LLC offers antique, estate-content, or personal-property appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://estateintime.com/personal-property-appraisal/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://estateintime.com/personal-property-appraisal/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJb8BWbDdNKocRIYTloHn3Kwk",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site has personal property appraisal page and estate-sale services",
+          "explicitly reviewed non-real-estate fit"
+        ]
       }
     },
     {
@@ -503,6 +928,79 @@
       }
     },
     {
+      "id": "phoenix-fidelity-estate-services",
+      "name": "Fidelity Estate Services",
+      "slug": "fidelity-estate-services",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "602-427-2397",
+        "email": "contact@fidelityestateservices.com",
+        "website": "https://www.fidelityestateservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Fidelity Estate Services offers antique and personal property appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-15. Source: https://www.fidelityestateservices.com/estate-liquidators-phoenix-arizona. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fidelityestateservices.com/estate-liquidators-phoenix-arizona",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "owned_business_services_page",
+          "notes": "Owned services page supports Certified Personal Property Appraisals in Phoenix and Arizona, including antiques, collectibles, fine art, estate jewelry, coins, rare books, Native American baskets/pottery/rugs, residential contents, furniture, and decorative items. Source also supports insurance claims, charitable donations, divorce, bankruptcy, liquidation, ISA, CAGA, USPAP, and Qualified IRS Appraiser claims."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJiWTI7EwNK4cRm8EI1R_AlCU",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "gurr-johns-5544",
       "name": "Gurr Johns",
       "slug": "gurr-johns",
@@ -516,7 +1014,7 @@
       },
       "contact": {
         "phone": "169-362-9608",
-        "email": "info@www.gurrjohns.com",
+        "email": "info@gurrjohns.com",
         "website": "https://www.gurrjohns.com"
       },
       "business": {
@@ -582,6 +1080,74 @@
       }
     },
     {
+      "id": "phoenix-mesa-antique",
+      "name": "Mesa Antique & Collectible - Estate Liquidation",
+      "slug": "mesa-antique",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "6234289361",
+        "email": "mesaantique@gmail.com",
+        "website": "https://www.mesaantique.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Mesa Antique & Collectible - Estate Liquidation offers antique and personal property appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.mesaantique.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.mesaantique.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJISkIKeunK4cRZpVv2Yyjeiw",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "mimesis-gallery-9572",
       "name": "Mimesis Gallery",
       "slug": "mimesis-gallery",
@@ -595,7 +1161,7 @@
       },
       "contact": {
         "phone": "254-704-4678",
-        "email": "info@www.mimesisgallery.com",
+        "email": "info@mimesisgallery.com",
         "website": "https://www.mimesisgallery.com"
       },
       "business": {
@@ -662,6 +1228,73 @@
       }
     },
     {
+      "id": "phoenix-morning-star-jewelry-and-appraisals",
+      "name": "Morning Star Jewelry & Appraisals",
+      "slug": "morning-star-jewelry-and-appraisals",
+      "imageUrl": "https://i.etsystatic.com/11368463/r/isla/1e3269/25598862/isla_75x75.25598862_efm1wx92.jpg",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.morningstarjewelry.store/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Morning Star Jewelry & Appraisals offers antique and personal property appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.morningstarjewelry.store/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.morningstarjewelry.store/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJXx6zQWkLK4cRXFjtngDn0sw",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser"
+        ]
+      }
+    },
+    {
       "id": "page-art-inc-7420",
       "name": "Page Art, Inc.",
       "slug": "page-art-inc",
@@ -675,7 +1308,7 @@
       },
       "contact": {
         "phone": "398-760-4155",
-        "email": "info@www.page-art.com",
+        "email": "info@page-art.com",
         "website": "https://www.page-art.com"
       },
       "business": {
@@ -760,7 +1393,7 @@
       },
       "contact": {
         "phone": "915-208-6123",
-        "email": "info@www.pearsonappraisals.net",
+        "email": "info@pearsonappraisals.net",
         "website": "https://www.pearsonappraisals.net/about"
       },
       "business": {
@@ -998,6 +1631,76 @@
       }
     },
     {
+      "id": "phoenix-rare-lion-antiques-and-jewelry",
+      "name": "Rare Lion Antiques & Jewelry",
+      "slug": "rare-lion-antiques-and-jewelry",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "480-244-3578",
+        "email": "sales@rarelionantiques.com",
+        "website": "https://rarelionantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Rare Lion Antiques & Jewelry offers antique and personal property appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://rarelionantiques.com/appraisals/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://rarelionantiques.com/appraisals/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJi0-5LKYJK4cR_MmAJ_Be_64",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "saylor-rice-appraisals-3829",
       "name": "Saylor Rice Appraisals",
       "slug": "saylor-rice-appraisals",
@@ -1011,7 +1714,7 @@
       },
       "contact": {
         "phone": "899-793-1888",
-        "email": "info@www.saylorriceappraisals.com",
+        "email": "info@saylorriceappraisals.com",
         "website": "https://www.saylorriceappraisals.com"
       },
       "business": {
@@ -1070,6 +1773,142 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "phoenix-scottsdale-appraisal-specialists",
+      "name": "Scottsdale Appraisal Specialists, LLC",
+      "slug": "scottsdale-appraisal-specialists",
+      "imageUrl": "https://www.scottsdaleappraisalspecialists.com/images/a-master-favicon.ico?crc=3905318453",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "602.996.1299",
+        "email": "",
+        "website": "https://www.scottsdaleappraisalspecialists.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Scottsdale Appraisal Specialists, LLC offers antique and personal property appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.scottsdaleappraisalspecialists.com/appraisal-process.html. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.scottsdaleappraisalspecialists.com/appraisal-process.html",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site art/antique appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJncSlJasSK4cRMaic2CwsDzg",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned-site appraisal process page",
+          "antiques, collectibles, fine art, coins, furniture, and household contents appraisal fit",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "phoenix-sims-appraisal",
+      "name": "Sims Appraisal",
+      "slug": "sims-appraisal",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "6026142812",
+        "email": "astigma@astigmatic.com",
+        "website": "https://simsappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Sims Appraisal offers antique and personal property appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://simsappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://simsappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJw8O0JZN5jK0RuVzmfURPU9g",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     }
   ]

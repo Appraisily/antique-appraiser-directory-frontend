@@ -1,0 +1,28 @@
+{
+  "title": "Antique & Art Appraisers in Moncton, New Brunswick",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "moncton",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/moncton/",
+    "name": "Antique & Art Appraisers in Moncton, New Brunswick",
+    "description": "Compare antique and art appraisers in Moncton, New Brunswick and request a fast online appraisal from Appraisily.",
+    "city": "Moncton",
+    "region": "NB",
+    "country": "CA",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Jagoes' Fine Jewellery Ltd",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/moncton-jagoes-fine-jewellery-ltd.svg",
+        "description": "Jagoes' Fine Jewellery Ltd offers antique appraisal support in Moncton, New Brunswick. Services: jewellery appraisals.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/moncton/"
+    }
+  }
+}

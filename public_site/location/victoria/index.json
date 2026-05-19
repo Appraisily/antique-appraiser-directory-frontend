@@ -1,0 +1,28 @@
+{
+  "title": "Antique & Art Appraisers in Victoria, British Columbia",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "victoria",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/victoria/",
+    "name": "Antique & Art Appraisers in Victoria, British Columbia",
+    "description": "Compare antique and art appraisers in Victoria, British Columbia and request a fast online appraisal from Appraisily.",
+    "city": "Victoria",
+    "region": "BC",
+    "country": "CA",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Thompson Art and Antique Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/victoria-thompson-art-and-antique-appraisals.svg",
+        "description": "Thompson Art and Antique Appraisals offers antique appraisal support in Victoria, British Columbia. Services: antique appraisal.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/victoria/"
+    }
+  }
+}

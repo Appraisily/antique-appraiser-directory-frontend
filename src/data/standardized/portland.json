@@ -1,6 +1,675 @@
 {
   "appraisers": [
     {
+      "id": "portland-a-s-estate-sales-of-oregon",
+      "name": "A&S Estate Sales of Oregon, LLC",
+      "slug": "a-s-estate-sales-of-oregon",
+      "imageUrl": "https://i0.wp.com/asestatesalesoforegon.com/wp-content/uploads/2018/02/AS-Estate-Sales-EST-3.jpg?fit=1500%2C1500&ssl=1",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "503-866-8692",
+        "email": "asestatesalesoregon@gmail.com",
+        "website": "https://asestatesalesoforegon.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate contents valuations",
+          "Personal property appraisal support"
+        ]
+      },
+      "content": {
+        "about": "A&S Estate Sales of Oregon, LLC offers antique, estate-content, or personal-property appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://asestatesalesoforegon.com/portland-estate-appraisals/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://asestatesalesoforegon.com/portland-estate-appraisals/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJ0QtbHRN1lVQRFgw4GfMhMq0",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site includes Portland estate appraisals and estate services pages",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "portland-alta-estate-sales-of-oregon",
+      "name": "Alta Estate Sales Of Oregon LLC",
+      "slug": "alta-estate-sales-of-oregon",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5db1f8a86132c21f023345d5/1615805085903-KHZ3E0H4W09UH6GV56SK/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "971.341.4251",
+        "email": "altaestatesales@gmail.com",
+        "website": "https://www.altaestatesales.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate contents valuations",
+          "Personal property appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Alta Estate Sales Of Oregon LLC offers antique, estate-content, or personal-property appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.altaestatesales.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.altaestatesales.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJE0o_CUiflVQRxYyYcmCWpB4",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states business liquidations, appraisals, consignments, downsizing sales, and estate-sale services",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "portland-appraiser-artwork-jewelry-bend-or-antique-appraisal-associates",
+      "name": "Antique Appraisal Associates",
+      "slug": "appraiser-artwork-jewelry-bend-or-antique-appraisal-associates",
+      "imageUrl": "https://irp.cdn-website.com/42c18d126bc144bfa973a7c614306f5e/site_favicon_16_1619640785460.ico",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "541-385-6020",
+        "email": "your@email.com",
+        "website": "https://www.antiqueappraisalassociates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Antique Appraisal Associates offers antique and personal property appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.antiqueappraisalassociates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.antiqueappraisalassociates.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJZ9i8vJfIuFQRr4mZn1oDd4c",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "portland-baggenstoss-appraisal",
+      "name": "Baggenstoss Appraisal",
+      "slug": "baggenstoss-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://baggenstossappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "12+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Fine Art",
+          "Estate Contents",
+          "Collectibles"
+        ],
+        "certifications": [
+          "ISA Accredited Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Sales",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Baggenstoss Appraisal provides professional antique and personal property appraisals in Portland. Brooke Baggenstoss, ISA AM, is a USPAP-compliant appraiser with expertise in antiques and estate contents.",
+        "notes": "Serving Portland, OR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-dobesh-appraisal",
+      "name": "Dobesh Appraisal - Jerry L. Dobesh ASA",
+      "slug": "dobesh-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://dobeshappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Items",
+          "Trust Contents",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ASA Accredited Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Trust Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jerry L. Dobesh, ASA, is a Portland-based antiques appraiser specializing in appraisals for estates and trusts, insurance, and donations.",
+        "notes": "Serving Portland, OR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-duwamps-appraisals",
+      "name": "Duwamps Fine Art & Antique Appraisals",
+      "slug": "duwamps-appraisals",
+      "imageUrl": "https://static.wixstatic.com/media/076b61_f1f53d77833b4680ab8598b7b5daa6a5.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/076b61_f1f53d77833b4680ab8598b7b5daa6a5.png",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "ME",
+        "zip": "",
+        "formatted": "Portland, ME"
+      },
+      "contact": {
+        "phone": "1-206-495-8660",
+        "email": "duwamps@outlook.com",
+        "website": "https://www.duwampsartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Duwamps Fine Art & Antique Appraisals offers antique and personal property appraisal services serving Portland, ME. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.duwampsartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.duwampsartappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJg7qjfe4RkFQRce-6CZgfuv0",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "portland-ems-estates",
+      "name": "EMS Estates -Jewelry Appraisals & Consignment Portland Or",
+      "slug": "ems-estates",
+      "imageUrl": "https://emsestates.com/wp-content/uploads/2016/09/emsestates.png",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "(503) 444-7498",
+        "email": "elizabeth@emsestates.com",
+        "website": "https://emsestates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "EMS Estates -Jewelry Appraisals & Consignment Portland Or offers antique and personal property appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://emsestates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://emsestates.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJY6oE6AUKlVQR33kBoq0e-0Y",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "portland-foreside-antiques-falmouth-maine",
+      "name": "Foreside Antiques",
+      "slug": "foreside-antiques-falmouth-maine",
+      "imageUrl": "https://foresideantiques.com/wp-content/uploads/2024/08/favicon-100x100.png",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "ME",
+        "zip": "",
+        "formatted": "Portland, ME"
+      },
+      "contact": {
+        "phone": "2074504018",
+        "email": "info@foresideantiques.com",
+        "website": "https://foresideantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Foreside Antiques offers antique and personal property appraisal services serving Portland, ME. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://foresideantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://foresideantiques.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJm5caiKScskwRoUC90Qv-g-0",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "portland-gary-germer-appraisals",
+      "name": "Gary Germer Appraisals & Estate Sales",
+      "slug": "gary-germer-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.garygermer.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over 30 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Estate Contents",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Personal Property Appraisals",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Gary Germer is one of Portland's most respected antique and personal property appraisers. ISA certified with over 30 years in the business.",
+        "notes": "Serving Portland, OR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "hawthorne-antiques-portland-or",
+      "name": "Hawthorne Antiques & Collectibles",
+      "slug": "hawthorne-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "3424 SE Hawthorne Blvd",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97214",
+        "formatted": "3424 SE Hawthorne Blvd, Portland, OR 97214"
+      },
+      "contact": {
+        "phone": "(503) 236-2880",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop on Hawthorne",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Vintage Collectibles",
+          "Eclectic Antiques",
+          "Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Hawthorne Antiques & Collectibles offers a diverse selection with professional appraisal services on the popular Hawthorne Boulevard.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "portland-heritage-valuations-portland",
       "name": "Heritage Valuations Portland",
       "slug": "heritage-valuations-portland",
@@ -88,6 +757,348 @@
       }
     },
     {
+      "id": "portland-j-s-english-appraisals",
+      "name": "J.S. English Appraisals",
+      "slug": "j-s-english-appraisals",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/2a61b474-51d1-4b2e-b123-4aa21b553baa/JSEA_banner-92d57f6.png/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "+1 503 970 6229",
+        "email": "",
+        "website": "https://jsenglishappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Jewelry appraisal support",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "J.S. English Appraisals offers antique, jewelry, or personal-property appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://jsenglishappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://jsenglishappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJx7mYnNMLlVQRKRaUhjgTsaU",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states modern, vintage, and antique jewelry appraisals",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "portland-the-jewelry-appraisers-of-portland",
+      "name": "Jewelry Appraisers of Portland",
+      "slug": "the-jewelry-appraisers-of-portland",
+      "imageUrl": "https://www.gemsandsilver.com/logo.png",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "+1-503-707-5527",
+        "email": "info@gemsandsilver.com",
+        "website": "https://www.jewelryappraisersofportland.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Jewelry Appraisers of Portland offers antique and personal property appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.jewelryappraisersofportland.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.jewelryappraisersofportland.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJb0ZKJ_sMlVQRcyTxxZIZH9M",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "portland-jrl-fine-art-appraisal",
+      "name": "JRL Fine Art Appraisal",
+      "slug": "jrl-fine-art-appraisal",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/56f6211a2eeb813966099f4f/08926fd7-361e-4c80-a9b4-da25895265af/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "ME",
+        "zip": "",
+        "formatted": "Portland, ME"
+      },
+      "contact": {
+        "phone": "(503) 558 5131",
+        "email": "user@domain.com",
+        "website": "https://www.jenaroselee.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "JRL Fine Art Appraisal offers antique and personal property appraisal services serving Portland, ME. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.jenaroselee.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.jenaroselee.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJbYnMmYwLSY4RlAkmdgFmKnI",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "portland-pacific-gem-lab-certified-jewelry-appraisals",
+      "name": "Pacific Gem Lab - Certified Jewelry Appraisals & Brokering",
+      "slug": "pacific-gem-lab-certified-jewelry-appraisals",
+      "imageUrl": "https://www.pacificgemlab.net/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "(503) 274-7022",
+        "email": "info@pacificgemlab.net",
+        "website": "https://www.pacificgemlab.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Pacific Gem Lab - Certified Jewelry Appraisals & Brokering offers antique and personal property appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.pacificgemlab.net/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.pacificgemlab.net/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ38aGwgUKlVQRJhD_xgckEPk",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "portland-pacific-northwest-antique-appraisals",
+      "name": "Pacific Northwest Antique Appraisals",
+      "slug": "pacific-northwest-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Native American Art",
+          "Fine Art",
+          "Decorative Arts",
+          "Furniture"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pacific Northwest Antique Appraisals specializes in regional art, Native American pieces, and traditional antiques throughout the Portland area.",
+        "notes": "Serving Portland, OR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "portland-portland-antique-appraisals",
       "name": "Portland Antique Appraisals",
       "slug": "portland-antique-appraisals",
@@ -163,6 +1174,399 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "portland-antique-mall-portland-or",
+      "name": "Portland Antique Mall",
+      "slug": "portland-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "600 NW 23rd Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97210",
+        "formatted": "600 NW 23rd Ave, Portland, OR 97210"
+      },
+      "contact": {
+        "phone": "(503) 227-2776",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Mid-Century Modern",
+          "Vintage Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Portland Antique Mall offers a wide selection of antiques and vintage items with professional appraisal services in the Nob Hill area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-red-sign-estate-sales-and-appraisals-llc",
+      "name": "Red Sign Estate Sales & Appraisals, LLC",
+      "slug": "red-sign-estate-sales-and-appraisals-llc",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "503-762-1272",
+        "email": "RedSignEstateSale@gmail.com",
+        "website": "https://www.redsignestatesales.com/about-us"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Red Sign Estate Sales & Appraisals, LLC offers antique and personal property appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.redsignestatesales.com/about-us. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.redsignestatesales.com/about-us",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJgaW0P6aZlVQRRDuLdvAM7CU",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "portland-certified-gemologist-gem-appraisal-and-gemstone-appraisal-at-reliant-gem-lab-near-lake-osw",
+      "name": "Reliant Gem Lab",
+      "slug": "certified-gemologist-gem-appraisal-and-gemstone-appraisal-at-reliant-gem-lab-near-lake-osw",
+      "imageUrl": "https://irp-cdn.multiscreensite.com/4acf1996/dms3rep/multi/reliant+gem+favicon.png",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "+15038196305",
+        "email": "reliantgemlab@gmail.com",
+        "website": "https://www.reliantgemlab.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Reliant Gem Lab offers antique and personal property appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.reliantgemlab.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.reliantgemlab.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJraQgUL9zlVQRyk5I4l419dE",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class jewelry appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "portland-rose-city-antique-appraisals",
+      "name": "Rose City Antique Appraisals",
+      "slug": "rose-city-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Mid-Century Modern",
+          "Furniture",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Rose City Antique Appraisals serves Portland with expertise in mid-century modern, traditional antiques, furniture, and fine art.",
+        "notes": "Serving Portland, OR with professional antique appraisal services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "sellwood-antiques-portland-or",
+      "name": "Sellwood Antiques",
+      "slug": "sellwood-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "7925 SE 13th Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97202",
+        "formatted": "7925 SE 13th Ave, Portland, OR 97202"
+      },
+      "contact": {
+        "phone": "(503) 234-2686",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop in Sellwood district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Pacific Northwest Art",
+          "Vintage Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Sellwood Antiques offers fine antiques and collectibles with professional appraisal services in Portland's historic Sellwood district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-portland-valuepros",
+      "name": "ValuePros",
+      "slug": "portland-valuepros",
+      "imageUrl": "https://2023.valuepros.org/wp-content/uploads/2021/01/ValuePros-Logo-1080.png",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "+18883537152",
+        "email": "support@valuepros.com",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "ValuePros offers antique and personal property appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.valuepros.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.valuepros.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ4XxtOfpV3ywR6vE9xbquojQ",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     }
   ]

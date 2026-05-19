@@ -1,0 +1,34 @@
+{
+  "title": "Antique & Art Appraisers in Sacramento, California",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "sacramento",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/sacramento/",
+    "name": "Antique & Art Appraisers in Sacramento, California",
+    "description": "Compare antique and art appraisers in Sacramento, California and request a fast online appraisal from Appraisily.",
+    "city": "Sacramento",
+    "region": "CA",
+    "country": "US",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Ashley Nunneley",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/sacramento-ashley-nunneley.svg",
+        "description": "Ashley Nunneley offers antique appraisal support in Sacramento, California. Services: Appraisal Review, Divorce Settlements, Donations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Linda Hawthorne",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/sacramento-linda-hawthorne.svg",
+        "description": "Linda Hawthorne offers antique appraisal support in Sacramento, California. Specialties: Art, Ceramics, Furniture, Objet d'art & De Vertu. Services: Equitable Distribution, Estate Evaluations, Estate Tax.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/sacramento/"
+    }
+  }
+}

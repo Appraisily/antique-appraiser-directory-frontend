@@ -1,0 +1,34 @@
+{
+  "title": "Antique & Art Appraisers in Vancouver, British Columbia",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "vancouver",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/vancouver/",
+    "name": "Antique & Art Appraisers in Vancouver, British Columbia",
+    "description": "Compare antique and art appraisers in Vancouver, British Columbia and request a fast online appraisal from Appraisily.",
+    "city": "Vancouver",
+    "region": "BC",
+    "country": "CA",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Antique Appraisals.ca",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/vancouver-antique-appraisals-ca.svg",
+        "description": "Antique Appraisals.ca offers antique appraisal support in Vancouver, British Columbia. Services: antique appraisal.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Edward Tokarek Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/vancouver-edward-tokarek-appraisals.svg",
+        "description": "Edward Tokarek Appraisals offers antique appraisal support in Vancouver, British Columbia. Services: antique appraisal.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/vancouver/"
+    }
+  }
+}

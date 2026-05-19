@@ -1,0 +1,76 @@
+{
+  "appraisers": [
+    {
+      "id": "cedar-rapids-artrium-fine-art-and-estate-appraisal",
+      "name": "Artrium Fine Art & Estate Appraisal",
+      "slug": "artrium-fine-art-and-estate-appraisal",
+      "imageUrl": "https://artriumappraisal.com/wp-content/uploads/2023/07/logo_horizontal_secondary_black.svg",
+      "address": {
+        "street": "",
+        "city": "Cedar Rapids",
+        "state": "IA",
+        "zip": "",
+        "formatted": "Cedar Rapids, IA"
+      },
+      "contact": {
+        "phone": "(563) 203-0298",
+        "email": "elizabeth@artriumappraisal.com",
+        "website": "https://artriumappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Artrium Fine Art & Estate Appraisal offers antique and personal property appraisal services serving Cedar Rapids, IA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://artriumappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://artriumappraisal.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJT2RpK6XIXk8RijHM1owt83U",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

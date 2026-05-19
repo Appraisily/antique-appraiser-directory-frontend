@@ -1,0 +1,30 @@
+{
+  "title": "Antique & Art Appraisers in Phoenix, Arizona",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "phoenix",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/phoenix/",
+    "name": "Antique & Art Appraisers in Phoenix, Arizona",
+    "description": "Compare antique and art appraisers in Phoenix, Arizona and request a fast online appraisal from Appraisily.",
+    "city": "Phoenix",
+    "region": "AZ",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_saylor-rice-appraisals-3829_1742166359961_pifGof2l6.jpg",
+        "description": "Saylor Rice Appraisals offers antique appraisal support in Phoenix, Arizona. Specialties: Insurance appraisals, Damage/loss appraisals. Services: antique appraisal, art appraisal.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/phoenix/"
+    }
+  }
+}

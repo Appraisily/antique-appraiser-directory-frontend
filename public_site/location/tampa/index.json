@@ -1,0 +1,78 @@
+{
+  "title": "Antique & Art Appraisers in Tampa, Florida",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "tampa",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/tampa/",
+    "name": "Antique & Art Appraisers in Tampa, Florida",
+    "description": "Compare antique and art appraisers in Tampa, Florida and request a fast online appraisal from Appraisily.",
+    "city": "Tampa",
+    "region": "FL",
+    "country": "US",
+    "numberOfListedAppraisers": 9,
+    "listedAppraisers": [
+      {
+        "name": "Claycomb Appraisals & Estate Services",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/claycomb-appraisals.svg",
+        "description": "Claycomb Appraisals & Estate Services offers antique appraisal support in Tampa, Florida. Specialties: Personal Property, Antiques, Fine Art, Estate Contents. Services: Personal Property Appraisals, Estate Appraisals, A…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Drake Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/drake-appraisals.svg",
+        "description": "Drake Appraisals offers antique appraisal support in Tampa, Florida. Specialties: Fine Art, Antiques, Estate Contents, Decorative Arts. Services: Fine Art Appraisals, Antique Appraisals, Estate Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Florida Antique Appraisal Services",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/florida-antique-appraisal-services.svg",
+        "description": "Florida Antique Appraisal Services offers antique appraisal support in Tampa, Florida. Specialties: Antiques, Fine Art, Vintage Items, Furniture. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Gulf Coast Estate Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-tampa.svg",
+        "description": "Gulf Coast Estate Appraisals offers antique appraisal support in Tampa, Florida. Specialties: Antiques, Estate Contents, Fine Art, Jewelry. Services: Estate Appraisals, Antique Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Heritage Valuations Tampa",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-tampa/",
+        "slug": "heritage-valuations-tampa",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_tampa-heritage-valuations-tampa_1742203862344_MZPG8fYcD9.jpg",
+        "description": "Heritage Valuations Tampa offers antique appraisal support in Tampa, Florida. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "South Tampa Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/south-tampa-antiques.svg",
+        "description": "South Tampa Antiques offers antique appraisal support in Tampa, Florida. Specialties: Fine Antiques, Vintage Furniture, Art. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Tampa Bay Antique Appraisers",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/tampa-bay-antique-appraisers.svg",
+        "description": "Tampa Bay Antique Appraisers offers antique appraisal support in Tampa, Florida. Specialties: Antiques, Furniture, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Tampa Bay Estate Sales & Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/tampa-bay-estate-sales.svg",
+        "description": "Tampa Bay Estate Sales & Appraisals offers antique appraisal support in Tampa, Florida. Specialties: Estate Appraisals, General Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Ybor City Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/ybor-city-antiques.svg",
+        "description": "Ybor City Antiques offers antique appraisal support in Tampa, Florida. Specialties: Cigar Memorabilia, Vintage Collectibles, General Antiques. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/tampa/"
+    }
+  }
+}

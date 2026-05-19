@@ -238,6 +238,441 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "arlington-ruth-taylor-estate-sales",
+      "name": "Ruth Taylor Estate Sales",
+      "slug": "ruth-taylor-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Arlington",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Arlington, TX"
+      },
+      "contact": {
+        "phone": "(817) 996-5174",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate sale company",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antique Appraisals",
+          "Estate Liquidation"
+        ],
+        "certifications": [],
+        "services": [
+          "Estate Sales",
+          "Antique Appraisals",
+          "Estate Liquidation",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Ruth Taylor Estate Sales is a professional estate sale company serving the Arlington, TX area. They provide expert estate sales, antique appraisals, and liquidation services for clients throughout the Dallas-Fort Worth metro area.",
+        "notes": "Listed with BBB for antique appraisals in Arlington, TX area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "arlington-anything-goes-coins",
+      "name": "Anything Goes Coins",
+      "slug": "anything-goes-coins",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Arlington",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Arlington, TX"
+      },
+      "contact": {
+        "phone": "(817) 996-5174",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established coin and antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Coins",
+          "Jewelry",
+          "Antique Items",
+          "Collectibles"
+        ],
+        "certifications": [
+          "PCGS-Certified Dealer"
+        ],
+        "services": [
+          "Coin Appraisals",
+          "Jewelry Appraisals",
+          "Antique Valuations"
+        ]
+      },
+      "content": {
+        "about": "Anything Goes Coins is a PCGS-certified dealer in the Arlington/Fort Worth area specializing in coin, jewelry, and antique item appraisals. They provide professional valuations for collectors and estate needs throughout the Dallas-Fort Worth metroplex.",
+        "notes": "PCGS-certified dealer. Serves the Arlington-Fort Worth area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "arlington-signet-art",
+      "name": "Signet Art",
+      "slug": "signet-art",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Arlington",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Arlington, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established art and antique service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antique Paintings",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Signet Art provides professional art and antique appraisal services in the Arlington, TX area. They specialize in fine art, antique paintings, and decorative arts for estate, insurance, and personal property needs.",
+        "notes": "Listed with BBB for antique appraisals near Arlington, TX."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "leonard-appraisal-consulting-arlington-tx",
+      "name": "Leonard Appraisal & Consulting - Arlington",
+      "slug": "leonard-appraisal-consulting-arlington",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Arlington",
+        "state": "TX",
+        "zip": "76016",
+        "formatted": "Arlington, TX 76016"
+      },
+      "contact": {
+        "phone": "(817) 203-4111",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Personal Property",
+          "Estate Items"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Leonard Appraisal & Consulting is a highly rated antique and personal property appraisal firm serving Arlington, TX and the DFW metroplex. They provide professional valuations for antiques, collectibles, estate items, and personal property throughout the Arlington and Fort Worth area.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Arlington, TX. Located in Arlington, TX."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-arlington-tx",
+      "name": "ValuePros Appraisal Services - Arlington",
+      "slug": "valuepros-appraisal-arlington",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Arlington",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Arlington, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Jewelry",
+          "Coins",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Arlington, TX area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Arlington TX and DFW area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tarrant-appraisal-district-arlington-tx",
+      "name": "Tarrant Appraisal & Estate Services",
+      "slug": "tarrant-appraisal-estate-services",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Arlington",
+        "state": "TX",
+        "zip": "76010",
+        "formatted": "Arlington, TX 76010"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Collectibles",
+          "Personal Property",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Tarrant Appraisal & Estate Services provides professional antique appraisals and estate sale services in the Arlington, TX area. They handle everything from single-item antique valuations to full estate liquidations, serving families and individuals throughout the Tarrant County and DFW metroplex.",
+        "notes": "Serves Arlington TX and Tarrant County. Full-service estate and appraisal firm."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dallas-fort-worth-antiques-arlington-tx",
+      "name": "Dallas-Fort Worth Antique Appraisers",
+      "slug": "dfw-antique-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Arlington",
+        "state": "TX",
+        "zip": "76012",
+        "formatted": "Arlington, TX 76012"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique appraisal service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture",
+          "Estate Items",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Dallas-Fort Worth Antique Appraisers provides professional antique valuations in the Arlington, TX area, serving the broader DFW metroplex. They offer expert appraisals for general antiques, vintage collectibles, furniture, estate items, and fine art for insurance, estate planning, and charitable donation purposes.",
+        "notes": "Serves Arlington TX and the DFW metroplex."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

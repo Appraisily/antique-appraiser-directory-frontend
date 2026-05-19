@@ -26,13 +26,13 @@ This project now primarily uses a pre-built deployment strategy for Netlify. Thi
 #### Steps:
 
 1. Ensure you have Node.js 18 or higher installed
-2. Run the Netlify-ready build:
+2. Validate the static artifact:
    ```
-   npm run build:netlify-ready
+   npm run build
    ```
-3. Verify the build is complete and valid:
+3. Serve locally if needed:
    ```
-   npm run deploy:netlify-prebuilt
+   npm run serve:static
    ```
 4. Commit the changes to your Git repository (including the `dist` directory):
    ```
@@ -47,7 +47,7 @@ This project now primarily uses a pre-built deployment strategy for Netlify. Thi
 If you prefer to have Netlify build the site:
 
 1. Ensure your `netlify.toml` file has `NODE_VERSION = "18"` or higher
-2. Set the build command to `npm run build:production`
+2. Set the build command to `npm run build`
 3. Set the publish directory to `dist`
 
 ## Netlify Configuration
@@ -81,16 +81,11 @@ If you encounter build issues on Netlify:
 1. Check the Netlify logs for specific error messages
 2. Verify Node.js version is set to 18 or higher in `netlify.toml`
 3. Fall back to pre-built deployment if Netlify's build environment continues to cause issues
-4. Run `npm run site-check` locally to validate all links before deploying
+4. Run `npm run build` locally to validate the static artifact before deploying
 
 ## Deployment Commands
 
-- **Build for Netlify**: `npm run build:netlify-ready`
-- **Verify Pre-built Files**: `npm run deploy:netlify-prebuilt`
-- **Full Build**: `npm run build:production`
-- **Deploy Directly**: `npm run deploy:direct`
-- **Test Build Locally**: `npm run build:seo-optimized`
-- **Validate Site**: `npm run site-check`
+- **Validate Site**: `npm run build`
 - **Serve Built Files Locally**: `npm run serve:static`
 
 ## Environment Variables
@@ -104,7 +99,7 @@ The following environment variables should be set in the Netlify deployment sett
 
 When making changes to the site structure or adding new pages:
 
-1. Update the sitemap generation script if needed (`scripts/generate-sitemap.js`)
+1. Update the static sitemap artifact directly if a reviewed route change requires it
 2. Ensure new page types have proper SEO metadata and schema markup
 3. Check that all images have appropriate alt text and optimized formats
 4. Validate that city-specific keywords are maintained in location pages

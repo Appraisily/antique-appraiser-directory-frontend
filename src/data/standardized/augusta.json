@@ -1,0 +1,141 @@
+{
+  "appraisers": [
+    {
+      "id": "augusta-aardvark-antiques-estate-appraisal-services-fine-antique-furniture-large-dining-tables",
+      "name": "Aardvark Antiques & Estate Liquidations",
+      "slug": "aardvark-antiques-estate-appraisal-services-fine-antique-furniture-large-dining-tables",
+      "imageUrl": "https://aardvark-antiques.com/wp-content/uploads/2017/04/cropped-aar-favicon-32x32.png",
+      "address": {
+        "street": "",
+        "city": "Augusta",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Augusta, GA"
+      },
+      "contact": {
+        "phone": "770-534-6611",
+        "email": "charles@aardvark-antiques.com",
+        "website": "https://aardvark-antiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Aardvark Antiques & Estate Liquidations offers antique and personal property appraisal services serving Augusta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://aardvark-antiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://aardvark-antiques.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ-Yy88Z3z9YgRUb6H0NXIFUw",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "augusta-charles-pharr-certified-appraiser",
+      "name": "Charles Pharr Certified Art & Antique Appraiser",
+      "slug": "charles-pharr-certified-appraiser",
+      "imageUrl": "https://certified-appraiser.com/wp-content/uploads/2020/08/insurance-coverage-150x150.png",
+      "address": {
+        "street": "",
+        "city": "Augusta",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Augusta, GA"
+      },
+      "contact": {
+        "phone": "7705401939",
+        "email": "charles@aardvark-antiques.com",
+        "website": "https://certified-appraiser.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Charles Pharr Certified Art & Antique Appraiser offers antique and personal property appraisal services serving Augusta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://certified-appraiser.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://certified-appraiser.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ0bG3KbXz9YgRb6YVGsXECps",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

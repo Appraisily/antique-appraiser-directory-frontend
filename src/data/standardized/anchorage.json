@@ -258,6 +258,439 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "antique-art-appraisers-anchorage-ak",
+      "name": "Antique & Art Appraisers",
+      "slug": "antique-art-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "7440 Tikchik Cir",
+        "city": "Anchorage",
+        "state": "AK",
+        "zip": "99504",
+        "formatted": "7440 Tikchik Cir, Anchorage, AK 99504"
+      },
+      "contact": {
+        "phone": "(907) 338-6428",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique and art appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Collectibles",
+          "Estate Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Art Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Antique & Art Appraisers is a reputable Anchorage establishment specializing in the appraisal of a wide range of antique items and artwork. Located on Tikchik Circle, they serve the Anchorage area with professional valuations.",
+        "notes": "7440 Tikchik Cir, Anchorage, AK 99504. (907) 338-6428."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "melissa-fouse-appraisals-anchorage-ak",
+      "name": "Melissa Fouse Appraisals",
+      "slug": "melissa-fouse-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Anchorage",
+        "state": "AK",
+        "zip": "",
+        "formatted": "Anchorage, AK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://melissafouseappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established personal property appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Alaska Native Arts",
+          "Household Contents",
+          "Decorative Arts",
+          "Antiques",
+          "Wine"
+        ],
+        "certifications": [],
+        "services": [
+          "Personal Property Appraisals",
+          "Antique Appraisals",
+          "Art Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Melissa Fouse Appraisals is an Anchorage-based personal property appraiser specializing in fine art, Alaska Native Arts, household contents, decorative arts, antiques, and wine. Serving Anchorage and the broader Alaska area.",
+        "notes": "Website: melissafouseappraisals.com"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "alaska-premier-auctions-anchorage-ak",
+      "name": "Alaska Premier Auctions & Appraisals",
+      "slug": "alaska-premier-auctions",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Anchorage",
+        "state": "AK",
+        "zip": "",
+        "formatted": "Anchorage, AK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established auction house",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Estate Items",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Alaska Premier Auctions & Appraisals is a top-rated Anchorage auction house providing professional antique appraisal and auction services. Recognized on Yelp for honest, professional, and friendly service.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Anchorage, AK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "melissa-fouse-appraisals-anchorage-ak",
+      "name": "Melissa Fouse Appraisals",
+      "slug": "melissa-fouse-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1110 W 6th Ave",
+        "city": "Anchorage",
+        "state": "AK",
+        "zip": "99501",
+        "formatted": "1110 W 6th Ave, Anchorage, AK 99501"
+      },
+      "contact": {
+        "phone": "(907) 744-5100",
+        "email": "",
+        "website": "https://melissafouseappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established personal property appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Alaska Native Arts",
+          "Household Contents",
+          "Decorative Arts",
+          "Antiques",
+          "Wine Collections"
+        ],
+        "certifications": [
+          "Personal Property Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Fine Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Equitable Distribution Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Melissa Fouse Appraisals is an Anchorage-based personal property appraisal firm specializing in fine art, Alaska Native Arts, household contents, decorative arts, antiques, and wine collections. She provides professional appraisal reports for insurance, estate planning, equitable distribution, and other valuation needs throughout the Anchorage area and Alaska.",
+        "notes": "Located at 1110 W 6th Ave, Anchorage, AK. Specializes in Alaska Native Arts and wine collections."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "alaska-premier-auctions-appraisals-anchorage-ak",
+      "name": "Alaska Premier Auctions & Appraisals",
+      "slug": "alaska-premier-auctions-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "325 W Potter Dr",
+        "city": "Anchorage",
+        "state": "AK",
+        "zip": "99518",
+        "formatted": "325 W Potter Dr, Anchorage, AK 99518"
+      },
+      "contact": {
+        "phone": "(907) 570-7050",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established auction and appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Items",
+          "Collectibles",
+          "Personal Property",
+          "Auction Services"
+        ],
+        "certifications": [
+          "Licensed Auctioneers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Auction Services",
+          "Estate Liquidation"
+        ]
+      },
+      "content": {
+        "about": "Alaska Premier Auctions & Appraisals is an Anchorage-based auction and appraisal firm providing professional antique valuations, estate appraisals, and auction services. Located off C Street near Tudor Road, they serve the Anchorage community with comprehensive estate liquidation and personal property appraisal services.",
+        "notes": "Located at 325 W Potter Dr, Anchorage, AK. Member of Anchorage Chamber of Commerce."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "peterson-exchange-appraisals-anchorage-ak",
+      "name": "The Peterson Exchange - Auctions & Appraisals",
+      "slug": "peterson-exchange-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Anchorage",
+        "state": "AK",
+        "zip": "",
+        "formatted": "Anchorage, AK"
+      },
+      "contact": {
+        "phone": "(863) 640-0440",
+        "email": "support@thepetersonexchange.com",
+        "website": "https://thepetersonexchange.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Memorabilia",
+          "Collectibles",
+          "Silver",
+          "Antiques",
+          "Estate Items"
+        ],
+        "certifications": [
+          "IRS Qualified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Divorce Appraisals",
+          "Bankruptcy Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "The Peterson Exchange - Auctions & Appraisals provides IRS-qualified and USPAP-compliant appraisals of fine art, memorabilia, collectibles, silver, and antiques in the Anchorage, AK area. They handle valuations for divorce, estate, bankruptcy, insurance, and other purposes with professional, thorough reports.",
+        "notes": "IRS-qualified and USPAP-compliant. Serves Anchorage AK and surrounding areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-anchorage-ak",
+      "name": "ValuePros Appraisal Services - Anchorage",
+      "slug": "valuepros-appraisal-anchorage",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Anchorage",
+        "state": "AK",
+        "zip": "",
+        "formatted": "Anchorage, AK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Personal Property",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Anchorage, AK area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Anchorage AK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

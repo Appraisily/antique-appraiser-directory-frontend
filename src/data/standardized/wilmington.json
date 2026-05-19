@@ -1,0 +1,213 @@
+{
+  "appraisers": [
+    {
+      "id": "wilmington-antiques-and-assets",
+      "name": "Antiques & Assets Appraisal Services",
+      "slug": "antiques-and-assets",
+      "imageUrl": "https://antiquesandassets.com/wp-content/uploads/2024/08/cropped-antiques-assets-main-logo-2400x1800-1-32x32-1.jpg",
+      "address": {
+        "street": "",
+        "city": "Wilmington",
+        "state": "DE",
+        "zip": "",
+        "formatted": "Wilmington, DE"
+      },
+      "contact": {
+        "phone": "(302) 300-5302",
+        "email": "antiquesandassets@outlook.com",
+        "website": "https://antiquesandassets.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antiques & Assets Appraisal Services offers antique and personal property appraisal services serving Wilmington, DE. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://antiquesandassets.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://antiquesandassets.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ48bKIUYCqKwRIw6EDP81vhE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "wilmington-look-appraisal",
+      "name": "Look Appraisal, LLC Fine Art & Estate Appraiser",
+      "slug": "look-appraisal",
+      "imageUrl": "https://www.lookappraisal.com/cdn/shop/files/Look_Appraisal_807b61ac-cedf-423c-b4d1-ae98e7bcf8d4_400x.png?v=1762801600",
+      "address": {
+        "street": "",
+        "city": "Wilmington",
+        "state": "NC",
+        "zip": "",
+        "formatted": "Wilmington, NC"
+      },
+      "contact": {
+        "phone": "(919) 438-3189",
+        "email": "",
+        "website": "https://www.lookappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Look Appraisal, LLC Fine Art & Estate Appraiser offers antique and personal property appraisal services serving Wilmington, NC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.lookappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.lookappraisal.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJnWCT7W33rIkRTnaicyUGYY0",
+        "confidenceScore": 120,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "wilmington-mid-atlantic-auction",
+      "name": "Mid-Atlantic Antiques & Appraisals",
+      "slug": "mid-atlantic-auction",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Wilmington",
+        "state": "DE",
+        "zip": "",
+        "formatted": "Wilmington, DE"
+      },
+      "contact": {
+        "phone": "(302) 528-0206",
+        "email": "midatlantic5@aol.com",
+        "website": "https://www.mid-atlantic.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Mid-Atlantic Antiques & Appraisals offers antique and personal property appraisal services serving Wilmington, DE. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.mid-atlantic.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.mid-atlantic.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJaW19gsj9xokRJ-yrSZNH8lI",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

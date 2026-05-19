@@ -1,0 +1,34 @@
+{
+  "title": "Antique & Art Appraisers in Albuquerque, New Mexico",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "albuquerque",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/albuquerque/",
+    "name": "Antique & Art Appraisers in Albuquerque, New Mexico",
+    "description": "Compare antique and art appraisers in Albuquerque, New Mexico and request a fast online appraisal from Appraisily.",
+    "city": "Albuquerque",
+    "region": "NM",
+    "country": "US",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Kent W McDonald",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/albuquerque-kent-w-mcdonald.svg",
+        "description": "Kent W McDonald offers antique appraisal support in Albuquerque, New Mexico. Specialties: American Indigenous Art, Art - Asian, Art - Impressionist & Modern, Paintings. Services: Broker, Consultant, Damage Claims.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Linda Matthews",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/albuquerque-linda-matthews.svg",
+        "description": "Linda Matthews offers antique appraisal support in Albuquerque, New Mexico. Specialties: Art, Auction Company/Gallery, Drawings, Paintings. Services: Auction, Donations, Estate Tax.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/albuquerque/"
+    }
+  }
+}

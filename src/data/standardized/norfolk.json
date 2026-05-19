@@ -260,6 +260,443 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "norfolk-randys-auction-gallery",
+      "name": "Randy's Auction Gallery",
+      "slug": "randys-auction-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "1300 Monticello Ave",
+        "city": "Norfolk",
+        "state": "VA",
+        "zip": "23510",
+        "formatted": "1300 Monticello Ave, Norfolk, VA 23510"
+      },
+      "contact": {
+        "phone": "(757) 626-1919",
+        "email": "randy@randysauctiongallery.com",
+        "website": "https://www.randysauctiongallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established auction gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Estate Items",
+          "Vintage Furniture",
+          "Jewelry"
+        ],
+        "certifications": [
+          "VA Auctioneer License"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Randy's Auction Gallery is a well-established auction house in Norfolk, VA offering professional antique appraisals, auction services, and estate valuations. Located on Monticello Ave, they handle a wide range of antiques, collectibles, vintage furniture, jewelry, and estate items.",
+        "notes": "VA licensed auctioneers. Also located at 5139 E Virginia Beach Blvd, Norfolk, VA 23502."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "norfolk-charlene-upham-antiques",
+      "name": "Charlene Upham Antiques",
+      "slug": "charlene-upham-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Norfolk",
+        "state": "VA",
+        "zip": "",
+        "formatted": "Norfolk, VA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Antiques",
+          "Decorative Arts",
+          "Vintage Collectibles",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Charlene Upham Antiques is a Norfolk-based antique dealer offering professional antique appraisals and sales. They specialize in fine antiques, decorative arts, and vintage collectibles, serving the greater Hampton Roads area.",
+        "notes": "Listed with BBB for antique appraisals near Norfolk, VA."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "norfolk-virginia-estate-serv",
+      "name": "Virginia Estate Services",
+      "slug": "virginia-estate-services-norfolk",
+      "imageUrl": "",
+      "address": {
+        "street": "1832 Thomas Ln",
+        "city": "Virginia Beach",
+        "state": "VA",
+        "zip": "23454",
+        "formatted": "1832 Thomas Ln, Virginia Beach, VA 23454 (Serves Norfolk)"
+      },
+      "contact": {
+        "phone": "(757) 416-2716",
+        "email": "virginiaestateservices@gmail.com",
+        "website": "https://www.virginiaestateservices.net"
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Estate Liquidation",
+          "Personal Property"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Personal Property Valuations"
+        ]
+      },
+      "content": {
+        "about": "Virginia Estate Services provides professional estate sales, antique appraisals, and liquidation services throughout the Hampton Roads area including Norfolk and Virginia Beach. They are a trusted firm handling full-service estate sales and personal property valuations.",
+        "notes": "BBB A+ rated. Serves Norfolk, Virginia Beach, and the greater Hampton Roads area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "kathleen-connolly-appraisals-norfolk-va",
+      "name": "Kathleen Connolly Appraisals",
+      "slug": "kathleen-connolly-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Norfolk",
+        "state": "VA",
+        "zip": "",
+        "formatted": "Norfolk, VA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established personal property appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Fine Art",
+          "Decorative Arts",
+          "Estate Items"
+        ],
+        "certifications": [
+          "Personal Property Appraiser",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Kathleen Connolly is a personal property antique appraiser serving the Norfolk, VA area. She provides professional valuations for estate purposes, insurance, charitable donations, and personal property needs. Her expertise covers antiques, fine art, decorative arts, and estate contents.",
+        "notes": "Serves Norfolk VA and the Hampton Roads area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "randys-auction-gallery-norfolk-va",
+      "name": "Randy's Auction Gallery",
+      "slug": "randys-auction-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "1300 Monticello Ave",
+        "city": "Norfolk",
+        "state": "VA",
+        "zip": "23510",
+        "formatted": "1300 Monticello Ave, Norfolk, VA 23510"
+      },
+      "contact": {
+        "phone": "(757) 626-1919",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established auction house",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Estate Items",
+          "Auction Services"
+        ],
+        "certifications": [
+          "Licensed Auctioneers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Auction Services",
+          "Estate Liquidation"
+        ]
+      },
+      "content": {
+        "about": "Randy's Auction Gallery is a Norfolk-based auction house providing professional antique appraisals and auction services. Located on Monticello Avenue, they handle everything from single-item antique valuations to full estate liquidations, serving clients throughout the Hampton Roads area.",
+        "notes": "Located at 1300 Monticello Ave, Norfolk, VA. Top-rated on Yelp for Antique Appraisal in Norfolk."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-norfolk-va",
+      "name": "ValuePros Appraisal Services - Norfolk",
+      "slug": "valuepros-appraisal-norfolk",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Norfolk",
+        "state": "VA",
+        "zip": "",
+        "formatted": "Norfolk, VA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Personal Property",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Norfolk, VA area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Norfolk VA and Hampton Roads."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "virginia-estate-services-norfolk-va",
+      "name": "Virginia Estate Services",
+      "slug": "virginia-estate-services-norfolk",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Virginia Beach",
+        "state": "VA",
+        "zip": "23455",
+        "formatted": "Virginia Beach, VA 23455 (Serves Norfolk)"
+      },
+      "contact": {
+        "phone": "(757) 416-2716",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Sales",
+          "Antiques",
+          "Collectibles",
+          "Personal Property",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Sales",
+          "Estate Liquidation",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Virginia Estate Services provides professional antique appraisals and estate sale services in the Hampton Roads area. They handle everything from single-item antique valuations to full estate liquidations, serving families and individuals throughout Norfolk, Virginia Beach, and the greater Hampton Roads region.",
+        "notes": "Serves Norfolk, Virginia Beach, and Hampton Roads. Full-service estate and appraisal firm."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

@@ -1,0 +1,98 @@
+{
+  "title": "Antique & Art Appraisers in Toledo, Ohio",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "toledo",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/toledo/",
+    "name": "Antique & Art Appraisers in Toledo, Ohio",
+    "description": "Compare antique and art appraisers in Toledo, Ohio and request a fast online appraisal from Appraisily.",
+    "city": "Toledo",
+    "region": "OH",
+    "country": "US",
+    "numberOfListedAppraisers": 13,
+    "listedAppraisers": [
+      {
+        "name": "Ancestor House Antiques & Appraiser",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/ancestor-house-antiques-appraiser.svg",
+        "description": "Ancestor House Antiques & Appraiser offers antique appraisal support in Toledo, Ohio. Specialties: Antique Furniture, Estate Appraisals, Insurance Appraisals, Antique Repair & Restoration. Services: Estate Appraisals, I…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Barrow's Jewelers & Horologists",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/barrows-jewelers-horologists.svg",
+        "description": "Barrow's Jewelers & Horologists offers antique appraisal support in Toledo, Ohio. Specialties: Vintage Watches, Antique Jewelry, Jewelry Appraisals, Watch Repair. Services: Jewelry Appraisals, Watch Repair, Vintage Watc…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Civil War Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/civil-war-antiques.svg",
+        "description": "Civil War Antiques offers antique appraisal support in Toledo, Ohio. Specialties: Civil War Memorabilia, Military Antiques, Antique Furniture, Furniture Repair. Services: Antique Appraisals, Furniture Repair & Refinishi…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Estate Jewelers of Toledo",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/estate-jewelers-toledo.svg",
+        "description": "Estate Jewelers of Toledo offers antique appraisal support in Toledo, Ohio. Specialties: Antique Jewelry, Estate Jewelry, Vintage Watches, Coins. Services: Antique Appraisals, Jewelry Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Grandma's Attic Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-toledo.svg",
+        "description": "Grandma's Attic Antiques offers antique appraisal support in Toledo, Ohio. Specialties: General Antiques, Glassware, Collectibles. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Heritage Valuations Toledo",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-toledo/",
+        "slug": "heritage-valuations-toledo",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_toledo-heritage-valuations-toledo_1742203878898_QOapcw3l_.jpg",
+        "description": "Heritage Valuations Toledo offers antique appraisal support in Toledo, Ohio. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Leffler's Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/lefflers-antiques.svg",
+        "description": "Leffler's Antiques offers antique appraisal support in Toledo, Ohio. Specialties: Antique Furniture, Art Galleries, Vintage Collectibles, Appraisals. Services: Antique Appraisals, Art Consulting, Estate Valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Martin Wood Appraisal Group",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/martin-wood-appraisal-group.svg",
+        "description": "Martin Wood Appraisal Group offers antique appraisal support in Toledo, Ohio. Specialties: Antiques, Personal Property, Estate Items, Collectibles. Services: Antique Appraisals, Personal Property Appraisals, Estate Appr…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Maumee Antique Mall",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/toledo-antique-appraisals.svg",
+        "description": "Maumee Antique Mall offers antique appraisal support in Toledo, Ohio. Specialties: General Antiques, Vintage Items, Furniture. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Toledo Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/toledo-antique-appraisals/",
+        "slug": "toledo-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_toledo-toledo-antique-appraisals_1742203873271_4XYlxiocE.jpg",
+        "description": "Toledo Antique Appraisals offers antique appraisal support in Toledo, Ohio. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, Insurance Appr…",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Toledo Antique Mall",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/toledo-antique-mall.svg",
+        "description": "Toledo Antique Mall offers antique appraisal support in Toledo, Ohio. Specialties: General Antiques, Vintage Collectibles, Furniture. Services: Antique Appraisals, Estate Valuations, Consignment.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "ValuePros Appraisal Services - Toledo",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal-toledo.svg",
+        "description": "ValuePros Appraisal Services - Toledo offers antique appraisal support in Toledo, Ohio. Specialties: Antiques, Collectibles, Fine Art, Personal Property. Services: Antique Appraisals, Onsite Appraisals, Insurance Apprai…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/toledo/"
+    }
+  }
+}

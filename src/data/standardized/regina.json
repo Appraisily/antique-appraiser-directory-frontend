@@ -257,6 +257,307 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "marks-antique-restoration-regina-sk",
+      "name": "Mark's Antique Restoration Gallery",
+      "slug": "marks-antique-restoration",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Regina",
+        "state": "SK",
+        "zip": "",
+        "formatted": "Regina, SK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique restoration gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Restoration",
+          "Antiques",
+          "Auctions",
+          "Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Restoration",
+          "Auction Services"
+        ]
+      },
+      "content": {
+        "about": "Mark's Antique Restoration Gallery in Regina, Saskatchewan offers antique restoration, appraisal, and auction services. A community resource for antique valuations in the Regina area.",
+        "notes": "Listed on secondhanddirectory.com for Regina, SK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "mcbids-auctioneers-regina-sk",
+      "name": "McBids Auctioneers & Appraisers Inc",
+      "slug": "mcbids-auctioneers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Regina",
+        "state": "SK",
+        "zip": "",
+        "formatted": "Regina, SK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established auction house",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Estate Items",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "McBids Auctioneers & Appraisers Inc is a Regina-based auction house offering professional antique appraisals and auction services. They handle estates packed with antiques, collectibles, and vintage pieces.",
+        "notes": "Active on Facebook. Serving Regina, SK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "golden-sun-auctions-regina-sk",
+      "name": "Golden Sun Auctions Inc.",
+      "slug": "golden-sun-auctions-regina",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Regina",
+        "state": "SK",
+        "zip": "",
+        "formatted": "Regina, SK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.liveauctioneers.com/auctioneer/2740/golden-sun-auctions-inc"
+      },
+      "business": {
+        "yearsInBusiness": "Established auction house",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Estate Items",
+          "Farm Antiques"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Auction Services",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Golden Sun Auctions Inc. is a Regina-based auction house offering antique appraisals and auction services. Active on LiveAuctioneers, they handle estates with antiques, collectibles, and Saskatchewan farm antiques.",
+        "notes": "Listed on LiveAuctioneers. Serving Regina, SK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "regina-estate-appraisals-sk",
+      "name": "Regina Estate Appraisals",
+      "slug": "regina-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Regina",
+        "state": "SK",
+        "zip": "",
+        "formatted": "Regina, SK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Estate Items",
+          "Antiques",
+          "Personal Property",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Regina Estate Appraisals provides comprehensive antique and estate appraisal services throughout Regina and southern Saskatchewan. They handle estate settlements, insurance valuations, and charitable donation appraisals.",
+        "notes": "Serving Regina, SK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "prairie-antiques-regina-sk",
+      "name": "Prairie Antique Gallery",
+      "slug": "prairie-antique-gallery-regina",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Regina",
+        "state": "SK",
+        "zip": "",
+        "formatted": "Regina, SK"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique gallery",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Prairie Antiques",
+          "Canadiana",
+          "Farm Items",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Prairie Antique Gallery is a Regina-based antique shop specializing in prairie-era antiques, Canadiana, farm collectibles, and vintage furniture. They offer professional appraisal services for the Regina community.",
+        "notes": "Serving Regina, SK."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

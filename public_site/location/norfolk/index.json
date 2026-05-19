@@ -1,0 +1,76 @@
+{
+  "title": "Antique & Art Appraisers in Norfolk, Virginia",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "norfolk",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/norfolk/",
+    "name": "Antique & Art Appraisers in Norfolk, Virginia",
+    "description": "Compare antique and art appraisers in Norfolk, Virginia and request a fast online appraisal from Appraisily.",
+    "city": "Norfolk",
+    "region": "VA",
+    "country": "US",
+    "numberOfListedAppraisers": 10,
+    "listedAppraisers": [
+      {
+        "name": "Blue Box Auction Gallery",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/blue-box-auction-gallery/",
+        "slug": "blue-box-auction-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_norfolk-blue-box-auction-gallery_1742202818238_cSCGS6SsV.jpg",
+        "description": "Blue Box Auction Gallery offers antique appraisal support in Norfolk, Virginia. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Charlene Upham Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-norfolk.svg",
+        "description": "Charlene Upham Antiques offers antique appraisal support in Norfolk, Virginia. Specialties: Fine Antiques, Decorative Arts, Vintage Collectibles, Estate Items. Services: Antique Appraisals, Antique Sales, Estate Valuati…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Heritage Valuations Norfolk",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-norfolk/",
+        "slug": "heritage-valuations-norfolk",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_norfolk-heritage-valuations-norfolk_1742202828930_7lSYqKx6B.jpg",
+        "description": "Heritage Valuations Norfolk offers antique appraisal support in Norfolk, Virginia. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Kathleen Connolly Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/norfolk-antique-appraisals.svg",
+        "description": "Kathleen Connolly Appraisals offers antique appraisal support in Norfolk, Virginia. Specialties: Antiques, Personal Property, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Apprais…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Norfolk Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/norfolk-antique-appraisals/",
+        "slug": "norfolk-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_norfolk-norfolk-antique-appraisals_1742202823233_WVK18hbOa.jpg",
+        "description": "Norfolk Antique Appraisals offers antique appraisal support in Norfolk, Virginia. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Appraisa…",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Randy's Auction Gallery",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/randys-auction-gallery.svg",
+        "description": "Randy's Auction Gallery offers antique appraisal support in Norfolk, Virginia. Specialties: Antiques, Collectibles, Estate Items, Vintage Furniture. Services: Antique Appraisals, Auction Services, Estate Valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "ValuePros Appraisal Services - Norfolk",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal-norfolk.svg",
+        "description": "ValuePros Appraisal Services - Norfolk offers antique appraisal support in Norfolk, Virginia. Specialties: Antiques, Collectibles, Fine Art, Personal Property. Services: Antique Appraisals, Onsite Appraisals, Insurance…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Virginia Estate Services",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/virginia-estate-services-norfolk.svg",
+        "description": "Virginia Estate Services offers antique appraisal support in Norfolk, Virginia. Specialties: Estate Sales, Antiques, Estate Liquidation, Personal Property. Services: Antique Appraisals, Estate Sales, Estate Liquidation.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/norfolk/"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "appraisers": [
+    {
+      "id": "tacoma-asha-fine-art-and-appraisals",
+      "name": "Asha Fine Art and Appraisals",
+      "slug": "asha-fine-art-and-appraisals",
+      "imageUrl": "https://static.wixstatic.com/media/0ec8c0_038284078ca74991b41f2ae8b7362acd%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/0ec8c0_038284078ca74991b41f2ae8b7362acd%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Tacoma",
+        "state": "WA",
+        "zip": "",
+        "formatted": "Tacoma, WA"
+      },
+      "contact": {
+        "phone": "4062744119",
+        "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "website": "https://www.ashafineartandappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Asha Fine Art and Appraisals offers antique and personal property appraisal services serving Tacoma, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.ashafineartandappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.ashafineartandappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJY1N7Oq_JiIgRwU73Rev8wZ8",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

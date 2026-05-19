@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { MapPin, Star, Clock } from 'lucide-react';
+import { MapPin, Star, Clock, Award } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { buildSiteUrl } from '../config/site';
 import { normalizeAssetUrl } from '../utils/assetUrls';
 
@@ -250,7 +251,7 @@ export function AppraisersDirectory() {
                       <div className="flex flex-wrap gap-2">
                         {appraiser.expertise.certifications.map((cert, index) => (
                           <span key={index} className="px-2 py-1 text-xs bg-green-100 text-green-700 rounded-full flex items-center">
-                            <Badge className="w-3 h-3 mr-1" /> {cert}
+                            <Award className="w-3 h-3 mr-1" /> {cert}
                           </span>
                         ))}
                       </div>

@@ -166,6 +166,673 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "toledo-ancestor-house-antiques-appraiser-toledo",
+      "name": "Ancestor House Antiques & Appraiser",
+      "slug": "ancestor-house-antiques-appraiser",
+      "imageUrl": "",
+      "address": {
+        "street": "3148 Tremainsville Rd",
+        "city": "Toledo",
+        "state": "OH",
+        "zip": "43613",
+        "formatted": "3148 Tremainsville Rd, Toledo, OH 43613"
+      },
+      "contact": {
+        "phone": "(419) 474-0735",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "61 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing. Estate and insurance appraisals available. Court approved appraiser.",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Antique Repair & Restoration"
+        ],
+        "certifications": [
+          "Court Approved Appraiser"
+        ],
+        "services": [
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Antique Repair & Restoration"
+        ]
+      },
+      "content": {
+        "about": "Ancestor House Antiques & Appraiser, operated by Ted and Sheila Powers, has served the Toledo area for over 60 years. They provide estate and insurance appraisals and are a court approved appraiser, specializing in antique furniture, collectibles, and restoration services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "toledo-lefflers-antiques-toledo",
+      "name": "Leffler's Antiques",
+      "slug": "lefflers-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "2646 W Central Ave",
+        "city": "Toledo",
+        "state": "OH",
+        "zip": "43606",
+        "formatted": "2646 W Central Ave, Toledo, OH 43606"
+      },
+      "contact": {
+        "phone": "(419) 473-3373",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "46 years in business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.5,
+        "reviewCount": 4
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Art Galleries",
+          "Vintage Collectibles",
+          "Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Art Consulting",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Leffler's Antiques has been a Toledo institution for over 46 years, offering antique furniture, art, collectibles, and appraisal services. The shop is wheelchair accessible and known for its quality selection and knowledgeable staff.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "toledo-barrows-jewelers-horologists-toledo",
+      "name": "Barrow's Jewelers & Horologists",
+      "slug": "barrows-jewelers-horologists",
+      "imageUrl": "",
+      "address": {
+        "street": "2015 Glendale Avenue",
+        "city": "Toledo",
+        "state": "OH",
+        "zip": "43614",
+        "formatted": "2015 Glendale Avenue, Toledo, OH 43614"
+      },
+      "contact": {
+        "phone": "(419) 385-6114",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "46 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:30 AM - 5:30 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.8,
+        "reviewCount": 3
+      },
+      "expertise": {
+        "specialties": [
+          "Vintage Watches",
+          "Antique Jewelry",
+          "Jewelry Appraisals",
+          "Watch Repair"
+        ],
+        "certifications": [],
+        "services": [
+          "Jewelry Appraisals",
+          "Watch Repair",
+          "Vintage Watch Valuation"
+        ]
+      },
+      "content": {
+        "about": "Barrow's Jewelers & Horologists has served Toledo for over 46 years, specializing in vintage watches, antique jewelry appraisal, and expert watch repair. They are BBB accredited with an A+ rating.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "toledo-civil-war-antiques-toledo",
+      "name": "Civil War Antiques",
+      "slug": "civil-war-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "7942 W Bancroft St",
+        "city": "Toledo",
+        "state": "OH",
+        "zip": "43617",
+        "formatted": "7942 W Bancroft St, Toledo, OH 43617"
+      },
+      "contact": {
+        "phone": "(419) 842-1863",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "29 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Civil War Memorabilia",
+          "Military Antiques",
+          "Antique Furniture",
+          "Furniture Repair"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Furniture Repair & Refinishing"
+        ]
+      },
+      "content": {
+        "about": "Civil War Antiques has operated in Toledo for 29 years, specializing in Civil War memorabilia, military antiques, and antique furniture. They also offer furniture repair and refinishing services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "toledo-antique-mall-toledo-oh",
+      "name": "Toledo Antique Mall",
+      "slug": "toledo-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "4524 S Detroit Ave",
+        "city": "Toledo",
+        "state": "OH",
+        "zip": "43614",
+        "formatted": "4524 S Detroit Ave, Toledo, OH 43614"
+      },
+      "contact": {
+        "phone": "(419) 382-0404",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Toledo Antique Mall offers a wide selection of antiques from multiple dealers with professional appraisal services available.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "grandma's-attic-toledo-oh",
+      "name": "Grandma's Attic Antiques",
+      "slug": "grandmas-attic",
+      "imageUrl": "",
+      "address": {
+        "street": "3123 W Central Ave",
+        "city": "Toledo",
+        "state": "OH",
+        "zip": "43606",
+        "formatted": "3123 W Central Ave, Toledo, OH 43606"
+      },
+      "contact": {
+        "phone": "(419) 536-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique shop",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Glassware",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Grandma's Attic Antiques offers a curated selection of antiques and collectibles with professional appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "maumee-antique-mall-toledo-oh",
+      "name": "Maumee Antique Mall",
+      "slug": "maumee-antique-mall",
+      "imageUrl": "",
+      "address": {
+        "street": "114 E Wayne St",
+        "city": "Maumee",
+        "state": "OH",
+        "zip": "43537",
+        "formatted": "114 E Wayne St, Maumee, OH 43537"
+      },
+      "contact": {
+        "phone": "(419) 893-2222",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique mall in Maumee",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Items",
+          "Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Estate Valuations",
+          "Consignment"
+        ]
+      },
+      "content": {
+        "about": "Maumee Antique Mall offers a wide range of antiques with professional appraisal services in historic downtown Maumee near Toledo.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "martin-wood-appraisal-group-toledo-oh",
+      "name": "Martin Wood Appraisal Group",
+      "slug": "martin-wood-appraisal-group",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Toledo",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Toledo, OH"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Estate Items",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Personal Property Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Martin Wood Appraisal Group is a Toledo-based appraisal firm providing professional antique and personal property valuations. They offer comprehensive appraisal services for antiques, collectibles, estate items, and personal property throughout the Toledo metro area and northwest Ohio.",
+        "notes": "Top-rated on Yelp for Antique Appraisal in Toledo, OH. Serves northwest Ohio."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "estate-jewelers-toledo-oh",
+      "name": "Estate Jewelers of Toledo",
+      "slug": "estate-jewelers-toledo",
+      "imageUrl": "",
+      "address": {
+        "street": "5442 Monroe St",
+        "city": "Toledo",
+        "state": "OH",
+        "zip": "43623",
+        "formatted": "5442 Monroe St, Toledo, OH 43623"
+      },
+      "contact": {
+        "phone": "(419) 885-9100",
+        "email": "",
+        "website": "https://estatejewelerstoledo.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established jewelry and antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Jewelry",
+          "Estate Jewelry",
+          "Vintage Watches",
+          "Coins",
+          "Antiques"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Jewelry Appraisals",
+          "Insurance Appraisals",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Estate Jewelers of Toledo is a well-established jewelry and antique dealer on Monroe Street providing professional antique jewelry and collectible appraisals. They offer insurance appraisals, estate valuations, and custom services for antique jewelry, vintage watches, coins, and collectibles throughout the Toledo area.",
+        "notes": "Located at 5442 Monroe St, Toledo, OH. Specializes in antique jewelry and estate items."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lefflers-antiques-toledo-oh",
+      "name": "Leffler's Antiques",
+      "slug": "lefflers-antiques-toledo",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Toledo",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Toledo, OH"
+      },
+      "contact": {
+        "phone": "(419) 473-3373",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.2,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "General Antiques",
+          "Vintage Collectibles",
+          "Jewelry",
+          "Estate Items"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique Appraisals",
+          "Antique Sales",
+          "Estate Valuations",
+          "Estate Liquidation"
+        ]
+      },
+      "content": {
+        "about": "Leffler's Antiques is a BBB-listed antique dealer and estate liquidator serving the Toledo, OH area. They offer professional antique appraisals alongside their retail operations, dealing in general antiques, vintage collectibles, jewelry, and estate items throughout northwest Ohio.",
+        "notes": "BBB-listed. Serves Toledo OH and northwest Ohio."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valuepros-appraisal-toledo-oh",
+      "name": "ValuePros Appraisal Services - Toledo",
+      "slug": "valuepros-appraisal-toledo",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Toledo",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Toledo, OH"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.valuepros.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Family owned since 1976",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Fine Art",
+          "Personal Property",
+          "Estate Contents"
+        ],
+        "certifications": [
+          "USPAP Compliant",
+          "Independent Certified Reports"
+        ],
+        "services": [
+          "Antique Appraisals",
+          "Onsite Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ValuePros Appraisal Services is a family-owned appraisal firm operating since 1976. They serve the Toledo, OH area with USPAP-compliant appraisal reports for antiques, collectibles, fine art, and personal property. As independent accredited appraisers, they provide unbiased valuations for insurance, estate planning, charitable donations, and legal matters.",
+        "notes": "Family owned since 1976. Independent appraisers serving Toledo OH and northwest Ohio."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

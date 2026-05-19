@@ -1,0 +1,34 @@
+{
+  "title": "Antique & Art Appraisers in Austin, Texas",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "austin",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/austin/",
+    "name": "Antique & Art Appraisers in Austin, Texas",
+    "description": "Compare antique and art appraisers in Austin, Texas and request a fast online appraisal from Appraisily.",
+    "city": "Austin",
+    "region": "TX",
+    "country": "US",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Kimberly Permenter",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/austin-kimberly-permenter.svg",
+        "description": "Kimberly Permenter offers antique appraisal support in Austin, Texas. Specialties: Bronzes, Engraving & Etching, Paintings, Prints. Services: Divorce Settlements, Equitable Distribution, Estate Probate.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Rudy M. Pena",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/austin-rudy-m-pena.svg",
+        "description": "Rudy M. Pena offers antique appraisal support in Austin, Texas. Specialties: Gemology/Gemstones, Jewelry - Contemporary, Jewelry - Diamonds, Jewelry - Estate. Services: Divorce Settlements, Donations, Equitable Distribu…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/austin/"
+    }
+  }
+}

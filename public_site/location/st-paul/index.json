@@ -1,0 +1,82 @@
+{
+  "title": "Antique & Art Appraisers in St. Paul, Minnesota",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "st-paul",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/st-paul/",
+    "name": "Antique & Art Appraisers in St. Paul, Minnesota",
+    "description": "Compare antique and art appraisers in St. Paul, Minnesota and request a fast online appraisal from Appraisily.",
+    "city": "St. Paul",
+    "region": "MN",
+    "country": "US",
+    "numberOfListedAppraisers": 10,
+    "listedAppraisers": [
+      {
+        "name": "1\\. Redtail Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/1-redtail-appraisals/",
+        "slug": "1-redtail-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st._paul-1-redtail-appraisals_1742203335666_hWBzptQh_.jpg",
+        "description": "1\\. Redtail Appraisals offers antique appraisal support in St. Paul, Minnesota. Specialties: Antique furniture, USPAP-compliant Contact: 📞(612)-412-1890. Services: Twin Cities metro + national remote consultations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "2\\. Revere Auctions",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/2-revere-auctions/",
+        "slug": "2-revere-auctions",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st._paul-2-revere-auctions_1742203340504_ZPxqfksF3b.jpg",
+        "description": "2\\. Revere Auctions offers antique appraisal support in St. Paul, Minnesota. Specialties: Antique furniture, USPAP-compliant Contact: 📞(612)-412-1890. Services: Twin Cities metro + national remote consultations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "3\\. Anoka Area Antique Appraisals",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/3-anoka-area-antique-appraisals/",
+        "slug": "3-anoka-area-antique-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st._paul-3-anoka-area-antique-appraisals_1742203345568_9Hx1J7AnmI.jpg",
+        "description": "3\\. Anoka Area Antique Appraisals offers antique appraisal support in St. Paul, Minnesota. Services: Twin Cities metro + national remote consultations.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Anthony Scornavacco Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/anthony-scornavacco-antiques.svg",
+        "description": "Anthony Scornavacco Antiques offers antique appraisal support in St. Paul, Minnesota. Specialties: Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Cross Appraising",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/cross-appraising.svg",
+        "description": "Cross Appraising offers antique appraisal support in St. Paul, Minnesota. Specialties: Fine Art, Antiques, Jewelry, Coins. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "The Truman Company",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/the-truman-company.svg",
+        "description": "The Truman Company offers antique appraisal support in St. Paul, Minnesota. Specialties: Antiques, Vintage Items, Furniture, Decorative Arts. Services: Antique Appraisals, Antique Sales, Estate Valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "ValuePros Appraisal Services - St. Paul",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal-st-paul.svg",
+        "description": "ValuePros Appraisal Services - St. Paul offers antique appraisal support in St. Paul, Minnesota. Specialties: Antiques, Collectibles, Fine Art, Personal Property. Services: Antique Appraisals, Onsite Appraisals, Insuran…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "West St. Paul Antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/west-st-paul-antiques.svg",
+        "description": "West St. Paul Antiques offers antique appraisal support in St. Paul, Minnesota. Specialties: General Antiques, Vintage Collectibles, Furniture, Decorative Arts. Services: Antique Appraisals, Antique Sales, Estate Valuat…",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Yesterday's Gems Antique Appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/yesterdays-gems.svg",
+        "description": "Yesterday's Gems Antique Appraisals offers antique appraisal support in St. Paul, Minnesota. Specialties: Antiques, Personal Property, Estate Items, Collectibles. Services: Antique Appraisals, Estate Valuations, Insuran…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/st-paul/"
+    }
+  }
+}

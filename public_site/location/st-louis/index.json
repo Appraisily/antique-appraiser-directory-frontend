@@ -1,0 +1,28 @@
+{
+  "title": "Antique & Art Appraisers in St. Louis, Missouri",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "st-louis",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/st-louis/",
+    "name": "Antique & Art Appraisers in St. Louis, Missouri",
+    "description": "Compare antique and art appraisers in St. Louis, Missouri and request a fast online appraisal from Appraisily.",
+    "city": "St. Louis",
+    "region": "MO",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Sylvia Fraley",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/st-louis-sylvia-fraley.svg",
+        "description": "Sylvia Fraley offers antique appraisal support in St. Louis, Missouri. Specialties: Art - 19th Century, Art - 20th Century, Art - American, Art - European. Services: Consultant, Equitable Distribution, Estate Evaluation…",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/st-louis/"
+    }
+  }
+}

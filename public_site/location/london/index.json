@@ -1,0 +1,34 @@
+{
+  "title": "Antique & Art Appraisers in London, Ontario",
+  "kind": "antique",
+  "baseUrl": "https://antique-appraiser-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "location": {
+    "slug": "london",
+    "url": "https://antique-appraiser-directory.appraisily.com/location/london/",
+    "name": "Antique & Art Appraisers in London, Ontario",
+    "description": "Compare antique and art appraisers in London, Ontario and request a fast online appraisal from Appraisily.",
+    "city": "London",
+    "region": "ON",
+    "country": "CA",
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Gordon's Gold Jewellers",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/london-gordon-s-gold-jewellers.svg",
+        "description": "Gordon's Gold Jewellers offers antique appraisal support in London, Ontario. Services: jewellery appraisals.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Sumner Jewellers",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/london-sumner-jewellers.svg",
+        "description": "Sumner Jewellers offers antique appraisal support in London, Ontario. Services: jewellery appraisals.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/london/"
+    }
+  }
+}

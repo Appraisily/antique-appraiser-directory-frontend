@@ -1,0 +1,141 @@
+{
+  "appraisers": [
+    {
+      "id": "eugene-appraiser-artwork-jewelry-bend-or-antique-appraisal-associates",
+      "name": "Antique Appraisal Associates",
+      "slug": "appraiser-artwork-jewelry-bend-or-antique-appraisal-associates",
+      "imageUrl": "https://irp.cdn-website.com/42c18d126bc144bfa973a7c614306f5e/site_favicon_16_1619640785460.ico",
+      "address": {
+        "street": "",
+        "city": "Eugene",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Eugene, OR"
+      },
+      "contact": {
+        "phone": "541-385-6020",
+        "email": "your@email.com",
+        "website": "https://www.antiqueappraisalassociates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Antique Appraisal Associates offers antique and personal property appraisal services serving Eugene, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.antiqueappraisalassociates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.antiqueappraisalassociates.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJZ9i8vJfIuFQRr4mZn1oDd4c",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "eugene-baggenstoss-appraisal",
+      "name": "Baggenstoss Appraisal Antique & Estate Appraiser",
+      "slug": "baggenstoss-appraisal",
+      "imageUrl": "https://baggenstossappraisal.com/wp-content/uploads/2024/01/site-logo.png?w=22",
+      "address": {
+        "street": "",
+        "city": "Eugene",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Eugene, OR"
+      },
+      "contact": {
+        "phone": "(503) 422-3481",
+        "email": "baggenstossappraisal@gmail.com",
+        "website": "https://baggenstossappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Baggenstoss Appraisal Antique & Estate Appraiser offers antique and personal property appraisal services serving Eugene, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://baggenstossappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://baggenstossappraisal.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJaXFCdBOhlVQRD-1HHi7uwec",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

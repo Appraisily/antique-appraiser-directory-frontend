@@ -1,0 +1,142 @@
+{
+  "appraisers": [
+    {
+      "id": "taos-certified-estate-and-antique-appraisals",
+      "name": "Certified Estate & Antique Appraisals",
+      "slug": "certified-estate-and-antique-appraisals",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/eaa59aa7-7eda-405a-a517-a25ab39ecb90/logo.jpg/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Taos",
+        "state": "NM",
+        "zip": "",
+        "formatted": "Taos, NM"
+      },
+      "contact": {
+        "phone": "5054577120",
+        "email": "sebastian@aldusleaf.org",
+        "website": "https://cea-appraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Certified Estate & Antique Appraisals offers antique and personal property appraisal services serving Taos, NM. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://cea-appraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://cea-appraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJLf2MuqsNIocRPg9IMinFD1w",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "taos-tao-black-dog",
+      "name": "Taos Black Dog Antiques & Estate Sales",
+      "slug": "tao-black-dog",
+      "imageUrl": "https://taosblackdog.com/wp-content/uploads/2023/08/taos-black-dog-logo-e1766787262923.png",
+      "address": {
+        "street": "",
+        "city": "Taos",
+        "state": "NM",
+        "zip": "",
+        "formatted": "Taos, NM"
+      },
+      "contact": {
+        "phone": "575-613-2069",
+        "email": "findit@taosblackdog.com",
+        "website": "https://taosblackdog.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Taos Black Dog Antiques & Estate Sales offers antique and personal property appraisal services serving Taos, NM. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://taosblackdog.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://taosblackdog.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJUWqc34llF4cRLgR-o2Jkx9w",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}
