@@ -43,7 +43,7 @@ package scripts and operator runbooks call them directly.
 - `count-appraisers.js`: read-only data count/report helper.
 - `env-check.mjs`: environment validation.
 - `gsc-weekly-title-tuning.mjs`: read-only Search Console title tuning report.
-- `list-imagekit-images.js`, `check-imagekit-connection.js`, `check-images.js`, `check-image-coverage.js`: image diagnostics.
+- `check-images.js`, `check-image-coverage.js`: legacy image diagnostics.
 
 ## Removed Build Path
 
