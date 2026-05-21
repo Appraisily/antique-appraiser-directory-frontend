@@ -33,6 +33,10 @@ scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
 
 ## Remaining Scripts
 
+Most script entrypoints in this directory are compatibility wrappers around
+`/srv/repos/tools/directory-site-utils`. Keep the local wrapper paths because
+package scripts and operator runbooks call them directly.
+
 - `publish-patch.mjs`: patch publisher for homepage/assets/shared envelope blocks.
 - `serve-static.js`: local static server for `public_site/`.
 - `test-html.js`: read-only HTML diagnostics; use `--strict` only when missing local assets should fail the command.
