@@ -11,21 +11,13 @@
     "city": "Santa Fe",
     "region": "NM",
     "country": "US",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
       {
         "name": "Linda Matthews",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/ellen-amirkhan-rug-care-specialists-association.svg",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/santa-fe-linda-matthews.svg",
         "description": "Linda Matthews offers antique appraisal support in Santa Fe, New Mexico. Specialties: Art, Auction Company/Gallery, Drawings, Paintings. Services: Auction, Donations, Estate Tax.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Ellen Amirkhan – Rug Care Specialists Association",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/ellen-amirkhan-rug-care-specialists-association/",
-        "slug": "ellen-amirkhan-rug-care-specialists-association",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa_fe-ellen-amirkhan-rug-care-specialists-association_1742203186710_BeyA8WDfz.jpg",
-        "description": "Ellen Amirkhan – Rug Care Specialists Association offers antique appraisal support in Santa Fe, New Mexico. Specialties: Fine Art. Services: antique appraisal, art appraisal.",
-        "publicRouteAvailable": true
       }
     ],
     "source": {

@@ -11,7 +11,7 @@
     "city": "Halifax",
     "region": "NS",
     "country": "CA",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 3,
     "listedAppraisers": [
       {
         "name": "Dorothée Rosen Designer Goldsmith",
@@ -26,6 +26,14 @@
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/halifax-zwicker-s-gallery.svg",
         "description": "Zwicker's Gallery offers antique appraisal support in Halifax, Nova Scotia. Services: antique appraisal.",
         "publicRouteAvailable": false
+      },
+      {
+        "name": "La Mine d’Or Jewellers",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/la-mine-dor-jewellers/",
+        "slug": "la-mine-dor-jewellers",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_halifax-la-mine-dor-jewellers_1742201599389_g2uVETQEj.jpg",
+        "description": "La Mine d’Or Jewellers offers Halifax jewellery, gemstone and watch appraisals, appraisal clinics, Rolex servicing and jewellery exchange evaluations.",
+        "publicRouteAvailable": true
       }
     ],
     "source": {

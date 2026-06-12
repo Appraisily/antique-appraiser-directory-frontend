@@ -509,6 +509,40 @@
   const proof = document.querySelector('[data-appraisily-directory-sample-proof="1"]');
   let viewed = false;
 
+  function activateRouterCards() {
+    if (!router) return;
+    const grid = router.querySelector('.grid');
+    if (!grid) return;
+
+    Array.from(grid.children).forEach((card) => {
+      if (!(card instanceof HTMLElement)) return;
+      if (card.tagName.toLowerCase() !== 'article') return;
+
+      const anchor = card.querySelector('a[data-gtm-event="directory_cta"][href]');
+      if (!(anchor instanceof HTMLAnchorElement)) return;
+
+      card.setAttribute('role', 'link');
+      card.setAttribute('tabindex', '0');
+      card.style.cursor = 'pointer';
+
+      const activate = (event) => {
+        const target = event.target;
+        const interactive = target?.closest?.('a, button, input, select, textarea, summary, [role="button"], [role="link"]');
+        if (interactive && interactive !== card) return;
+        anchor.click();
+      };
+
+      card.addEventListener('click', activate);
+      card.addEventListener('keydown', (event) => {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+        event.preventDefault();
+        anchor.click();
+      });
+    });
+  }
+
+  activateRouterCards();
+
   function readCookie(name) {
     const prefix = encodeURIComponent(name) + '=';
     return String(document.cookie || '').split(';').map((part) => part.trim()).find((part) => part.startsWith(prefix))?.slice(prefix.length) || '';

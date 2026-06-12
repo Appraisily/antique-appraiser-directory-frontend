@@ -11,7 +11,7 @@
     "city": "Memphis",
     "region": "TN",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
       {
         "name": "Antique Rose",
@@ -21,17 +21,9 @@
       },
       {
         "name": "Bluff City Antique Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-memphis.svg",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/bluff-city-antique-appraisals.svg",
         "description": "Bluff City Antique Appraisals offers antique appraisal support in Memphis, Tennessee. Specialties: Antiques, Fine Art, Estate Contents, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations Memphis",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-memphis/",
-        "slug": "heritage-valuations-memphis",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_memphis-heritage-valuations-memphis_1742203640371_hbeCYCnmn.jpg",
-        "description": "Heritage Valuations Memphis offers antique appraisal support in Memphis, Tennessee. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
       },
       {
         "name": "Laurelwood Antiques",
@@ -44,7 +36,7 @@
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/memphis-antique-appraisals/",
         "slug": "memphis-antique-appraisals",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_memphis-memphis-antique-appraisals_1742203635058_pd7C5UHfB.jpg",
-        "description": "Memphis Antique Appraisals offers antique appraisal support in Memphis, Tennessee. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Apprais…",
+        "description": "Memphis Antique Appraisals / Simonton Appraisals offers Memphis antique, silver, decorative arts, furniture, estate, insurance, donation, and auction-sale appraisal support through ISA Accredited Member Greer Simonton.",
         "publicRouteAvailable": true
       },
       {
@@ -62,7 +54,7 @@
       {
         "name": "Memphis Fine Art & Antique Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/memphis-fine-art-antique-appraisals.svg",
-        "description": "Memphis Fine Art & Antique Appraisals offers antique appraisal support in Memphis, Tennessee. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance Ap…",
+        "description": "Memphis Fine Art & Antique Appraisals offers antique appraisal support in Memphis, Tennessee. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
@@ -74,7 +66,7 @@
       {
         "name": "Memphis Personal Property Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/memphis-personal-property-appraisals.svg",
-        "description": "Memphis Personal Property Appraisals offers antique appraisal support in Memphis, Tennessee. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance A…",
+        "description": "Memphis Personal Property Appraisals offers antique appraisal support in Memphis, Tennessee. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       }
     ],

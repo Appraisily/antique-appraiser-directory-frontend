@@ -11,7 +11,7 @@
     "city": "Los Angeles",
     "region": "CA",
     "country": "US",
-    "numberOfListedAppraisers": 11,
+    "numberOfListedAppraisers": 10,
     "listedAppraisers": [
       {
         "name": "Antiques Adventures",
@@ -29,17 +29,9 @@
       },
       {
         "name": "Appraisals by Ashby",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-los-angeles.svg",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/appraisals-by-ashby.svg",
         "description": "Appraisals by Ashby offers antique appraisal support in Los Angeles, California. Specialties: Fine Art, Jewelry, Antiques, Collectibles. Services: Fine Art Appraisals, Jewelry Appraisals, Antique Appraisals.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations Los Angeles",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-los-angeles/",
-        "slug": "heritage-valuations-los-angeles",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_los_angeles-heritage-valuations-los-angeles_1742203624430_sT0KUcUR_.jpg",
-        "description": "Heritage Valuations Los Angeles offers antique appraisal support in Los Angeles, California. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": true
       },
       {
         "name": "LACMA Antique & Art Services",
@@ -52,7 +44,7 @@
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/los-angeles-antique-appraisals/",
         "slug": "los-angeles-antique-appraisals",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_los_angeles-los-angeles-antique-appraisals_1742203619265_kBqvbrCWU.jpg",
-        "description": "Los Angeles Antique Appraisals offers antique appraisal support in Los Angeles, California. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations…",
+        "description": "Los Angeles Antique Appraisals offers antique appraisal support in Los Angeles, California. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations.",
         "publicRouteAvailable": true
       },
       {
@@ -64,19 +56,19 @@
       {
         "name": "Rose Bowl Flea Market Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/rose-bowl-appraisals.svg",
-        "description": "Rose Bowl Flea Market Appraisals offers antique appraisal support in Los Angeles, California. Specialties: General Antiques, Vintage Collectibles, Mid-Century Modern. Services: Antique Appraisals, Walk-in Appraisals, Es…",
+        "description": "Rose Bowl Flea Market Appraisals offers antique appraisal support in Los Angeles, California. Specialties: General Antiques, Vintage Collectibles, Mid-Century Modern. Services: Antique Appraisals, Walk-in Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Southern California Antique Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/socal-antique-appraisals.svg",
-        "description": "Southern California Antique Appraisals offers antique appraisal support in Los Angeles, California. Specialties: Antiques, Fine Art, Estate Contents, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insura…",
+        "description": "Southern California Antique Appraisals offers antique appraisal support in Los Angeles, California. Specialties: Antiques, Fine Art, Estate Contents, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Stuart H. Salsbury Appraisal Services",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/stuart-salsbury-appraisals.svg",
-        "description": "Stuart H. Salsbury Appraisal Services offers antique appraisal support in Los Angeles, California. Specialties: Fine Art, Sculptures, Modern & Contemporary Paintings, Antiques. Services: Insurance Appraisals, Tax Purpos…",
+        "description": "Stuart H. Salsbury Appraisal Services offers antique appraisal support in Los Angeles, California. Specialties: Fine Art, Sculptures, Modern & Contemporary Paintings, Antiques. Services: Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {

@@ -11,7 +11,7 @@
     "city": "Dallas",
     "region": "TX",
     "country": "US",
-    "numberOfListedAppraisers": 11,
+    "numberOfListedAppraisers": 12,
     "listedAppraisers": [
       {
         "name": "2 Antique Appraisers",
@@ -79,13 +79,21 @@
         "description": "Prestige Estate Services offers antique appraisal support in Dallas, Texas. Specialties: Fine art. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
         "publicRouteAvailable": true
       },
-      {
-        "name": "Semler Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/semler-appraisals.svg",
-        "description": "Semler Appraisals offers antique appraisal support in Dallas, Texas. Specialties: Antiques, Collectibles, Decorative Arts, Residential Contents. Services: Personal Property Appraisals, Estate Liquidations, Antique Appra…",
-        "publicRouteAvailable": false
-      }
-    ],
+        {
+          "name": "Semler Appraisals",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/semler-appraisals.svg",
+          "description": "Semler Appraisals offers antique appraisal support in Dallas, Texas. Specialties: Antiques, Collectibles, Decorative Arts, Residential Contents. Services: Personal Property Appraisals, Estate Liquidations, Antique Appra…",
+          "publicRouteAvailable": false
+        },
+        {
+          "name": "Lamb Antique Appraisals",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/lamb-antique-appraisals/",
+          "slug": "lamb-antique-appraisals",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/lamb-antique-appraisals.svg",
+          "description": "Lamb Antique Appraisals offers Rockwall and Dallas-area antique furniture and decorative arts appraisals for sale, insurance and estate settlement.",
+          "publicRouteAvailable": true
+        }
+      ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/dallas/"

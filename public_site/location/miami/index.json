@@ -11,7 +11,7 @@
     "city": "Miami",
     "region": "FL",
     "country": "US",
-    "numberOfListedAppraisers": 11,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
       {
         "name": "Art Deco Antiques Miami",
@@ -21,17 +21,9 @@
       },
       {
         "name": "Coconut Grove Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-miami.svg",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/coconut-grove-antiques.svg",
         "description": "Coconut Grove Antiques offers antique appraisal support in Miami, Florida. Specialties: Fine Antiques, Art, Tropical Decorative Arts. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations Miami",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-miami/",
-        "slug": "heritage-valuations-miami",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_miami-heritage-valuations-miami_1742203663478_uvkDPY_aS.jpg",
-        "description": "Heritage Valuations Miami offers antique appraisal support in Miami, Florida. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
       },
       {
         "name": "Lion & Unicorn Appraisals",
@@ -46,14 +38,6 @@
         "publicRouteAvailable": false
       },
       {
-        "name": "Miami Antique Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/miami-antique-appraisals/",
-        "slug": "miami-antique-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_miami-miami-antique-appraisals_1742203657701_11EOAlicB.jpg",
-        "description": "Miami Antique Appraisals offers antique appraisal support in Miami, Florida. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Miami Antique Market",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/miami-antique-market.svg",
         "description": "Miami Antique Market offers antique appraisal support in Miami, Florida. Specialties: General Antiques, Latin American Art, Caribbean Antiques. Services: Antique Appraisals, Estate Valuations, Consignment.",
@@ -62,7 +46,7 @@
       {
         "name": "Princeton Appraisers Miami",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/princeton-appraisers-miami.svg",
-        "description": "Princeton Appraisers Miami offers antique appraisal support in Miami, Florida. Specialties: Antiques, Fine Art, Estate Contents, Personal Property. Services: Insurance Replacement Appraisals, Charitable Donation Apprais…",
+        "description": "Princeton Appraisers Miami offers antique appraisal support in Miami, Florida. Specialties: Antiques, Fine Art, Estate Contents, Personal Property. Services: Insurance Replacement Appraisals, Charitable Donation Appraisals.",
         "publicRouteAvailable": false
       },
       {

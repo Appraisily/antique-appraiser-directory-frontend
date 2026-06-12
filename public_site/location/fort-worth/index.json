@@ -11,7 +11,7 @@
     "city": "Fort Worth",
     "region": "TX",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
       {
         "name": "Fort Worth Antique Appraisals",
@@ -19,14 +19,6 @@
         "slug": "fort-worth-antique-appraisals",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fort_worth-fort-worth-antique-appraisals_1742202493554_c6cSatwak.jpg",
         "description": "Fort Worth Antique Appraisals offers antique appraisal support in Fort Worth, Texas. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Heritage Valuations Fort Worth",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-fort-worth/",
-        "slug": "heritage-valuations-fort-worth",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fort_worth-heritage-valuations-fort-worth_1742202498536_zKdnW9fZC.jpg",
-        "description": "Heritage Valuations Fort Worth offers antique appraisal support in Fort Worth, Texas. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
         "publicRouteAvailable": true
       },
       {

@@ -11,7 +11,7 @@
     "city": "St. John's",
     "region": "NL",
     "country": "CA",
-    "numberOfListedAppraisers": 8,
+    "numberOfListedAppraisers": 7,
     "listedAppraisers": [
       {
         "name": "Appraisal Services NL",
@@ -30,14 +30,6 @@
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/gurr-johns.svg",
         "description": "Garage 606 offers antique appraisal support in St. John's, Newfoundland and Labrador. Specialties: Antiques, Collectibles, Vintage Items. Services: Antique Appraisals, Antique Sales, Estate Valuations.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Gurr Johns",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/gurr-johns/",
-        "slug": "gurr-johns",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st._john_s-gurr-johns_1742203292635_M1x5Jo5JP_.jpg",
-        "description": "Gurr Johns offers antique appraisal support in St. John's, Newfoundland and Labrador.",
-        "publicRouteAvailable": true
       },
       {
         "name": "Newfoundland Antique Gallery",

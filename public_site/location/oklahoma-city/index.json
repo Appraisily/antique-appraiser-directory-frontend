@@ -11,16 +11,8 @@
     "city": "Oklahoma City",
     "region": "OK",
     "country": "US",
-    "numberOfListedAppraisers": 11,
+    "numberOfListedAppraisers": 10,
     "listedAppraisers": [
-      {
-        "name": "Heritage Valuations Oklahoma City",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-oklahoma-city/",
-        "slug": "heritage-valuations-oklahoma-city",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_oklahoma_city-heritage-valuations-oklahoma-city_1742202873746_eXppa8cU9l.jpg",
-        "description": "Heritage Valuations Oklahoma City offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Oklahoma Antique Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/oklahoma-city-antique-appraisals.svg",
@@ -38,31 +30,31 @@
       {
         "name": "Oklahoma City Estate Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/oklahoma-city-estate-appraisals.svg",
-        "description": "Oklahoma City Estate Appraisals offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance…",
+        "description": "Oklahoma City Estate Appraisals offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Oklahoma City Estate Sales & Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/okc-estate-sales.svg",
-        "description": "Oklahoma City Estate Sales & Appraisals offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Estate Appraisals, General Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance…",
+        "description": "Oklahoma City Estate Sales & Appraisals offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Estate Appraisals, General Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Oklahoma City Fine Art & Antique Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/oklahoma-city-fine-art-antique-appraisals.svg",
-        "description": "Oklahoma City Fine Art & Antique Appraisals offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, I…",
+        "description": "Oklahoma City Fine Art & Antique Appraisals offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Oklahoma Heritage Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/oklahoma-heritage-appraisals.svg",
-        "description": "Oklahoma Heritage Appraisals offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Appr…",
+        "description": "Oklahoma Heritage Appraisals offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Oklahoma Personal Property Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/oklahoma-personal-property-appraisals.svg",
-        "description": "Oklahoma Personal Property Appraisals offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insur…",
+        "description": "Oklahoma Personal Property Appraisals offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {

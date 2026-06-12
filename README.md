@@ -4,6 +4,8 @@ This repository now operates as a static publishing system for the Antique Appra
 
 The production surface is plain HTML served directly from `public_site/` through the VPS release directory. Source data still lives in the repo, but the canonical published artifact is the final static HTML, not a rebuilt SPA bundle.
 
+Operational guardrails: [docs/operational-guardrails.md](docs/operational-guardrails.md).
+
 ## Features
 
 - Standardized data model for consistent UI and maintenance

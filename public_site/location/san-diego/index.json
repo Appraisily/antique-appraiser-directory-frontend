@@ -11,7 +11,7 @@
     "city": "San Diego",
     "region": "CA",
     "country": "US",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 4,
     "listedAppraisers": [
       {
         "name": "Reilly Clark",
@@ -24,6 +24,22 @@
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/san-diego-wendy-m-gerdau.svg",
         "description": "Wendy M. Gerdau offers antique appraisal support in San Diego, California. Specialties: Antiquities, Art, Paintings, Prints. Services: Equitable Distribution, Estate Evaluations, Estate Tax.",
         "publicRouteAvailable": false
+      },
+      {
+        "name": "La Jolla Gem Appraisal",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/la-jolla-gem-appraisal/",
+        "slug": "la-jolla-gem-appraisal",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/la-jolla-gem-appraisal.svg",
+        "description": "La Jolla Gem Appraisal provides San Diego jewelry, watch, diamond and gemstone appraisals through an AGA Certified Gemological Laboratory.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Lamplighter Appraisal Service",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/lamplighter-appraisal-service-personal-property-appraisal-san-diego/",
+        "slug": "lamplighter-appraisal-service-personal-property-appraisal-san-diego",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/lamplighter-appraisal-service-personal-property-appraisal-san-diego.svg",
+        "description": "Lamplighter Appraisal Service appraises San Diego personal property, antiques, decorative arts, fine art, residential contents and collectibles.",
+        "publicRouteAvailable": true
       }
     ],
     "source": {

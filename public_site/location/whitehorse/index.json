@@ -11,16 +11,8 @@
     "city": "Whitehorse",
     "region": "YT",
     "country": "CA",
-    "numberOfListedAppraisers": 6,
+    "numberOfListedAppraisers": 5,
     "listedAppraisers": [
-      {
-        "name": "Heritage Valuations Whitehorse",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-whitehorse/",
-        "slug": "heritage-valuations-whitehorse",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_whitehorse-heritage-valuations-whitehorse_1742203910014_xkQHFveUz.jpg",
-        "description": "Heritage Valuations Whitehorse offers antique appraisal support in Whitehorse, Yukon. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Klondike Heritage Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/klondike-heritage-appraisals.svg",

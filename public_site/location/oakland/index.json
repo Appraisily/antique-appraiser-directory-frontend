@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Oakland, California",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-05-21T00:00:00.000Z",
   "location": {
     "slug": "oakland",
     "url": "https://antique-appraiser-directory.appraisily.com/location/oakland/",
@@ -11,8 +11,16 @@
     "city": "Oakland",
     "region": "CA",
     "country": "US",
-    "numberOfListedAppraisers": 1,
+    "numberOfListedAppraisers": 2,
     "listedAppraisers": [
+      {
+        "name": "Montclair Estates",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/montclair-estates-antique-consignment-and-appraiser/",
+        "slug": "montclair-estates-antique-consignment-and-appraiser",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/montclair-estates-antique-consignment-and-appraiser.svg",
+        "description": "Montclair Estates provides ISA-accredited, USPAP-compliant personal property appraisals for antiques, jewelry, fine art, collectibles, estates, insurance, donations, and equitable distribution.",
+        "publicRouteAvailable": true
+      },
       {
         "name": "Gurr Johns",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/clars-auction-gallery/",

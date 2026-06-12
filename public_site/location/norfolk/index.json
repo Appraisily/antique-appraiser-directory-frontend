@@ -11,7 +11,7 @@
     "city": "Norfolk",
     "region": "VA",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 7,
     "listedAppraisers": [
       {
         "name": "Blue Box Auction Gallery",
@@ -23,22 +23,14 @@
       },
       {
         "name": "Charlene Upham Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-norfolk.svg",
-        "description": "Charlene Upham Antiques offers antique appraisal support in Norfolk, Virginia. Specialties: Fine Antiques, Decorative Arts, Vintage Collectibles, Estate Items. Services: Antique Appraisals, Antique Sales, Estate Valuati…",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/charlene-upham-antiques.svg",
+        "description": "Charlene Upham Antiques offers antique appraisal support in Norfolk, Virginia. Specialties: Fine Antiques, Decorative Arts, Vintage Collectibles, Estate Items. Services: Antique Appraisals, Antique Sales, Estate Valuations.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations Norfolk",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-norfolk/",
-        "slug": "heritage-valuations-norfolk",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_norfolk-heritage-valuations-norfolk_1742202828930_7lSYqKx6B.jpg",
-        "description": "Heritage Valuations Norfolk offers antique appraisal support in Norfolk, Virginia. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": true
       },
       {
         "name": "Kathleen Connolly Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/norfolk-antique-appraisals.svg",
-        "description": "Kathleen Connolly Appraisals offers antique appraisal support in Norfolk, Virginia. Specialties: Antiques, Personal Property, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Apprais…",
+        "description": "Kathleen Connolly Appraisals offers antique appraisal support in Norfolk, Virginia. Specialties: Antiques, Personal Property, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
@@ -46,7 +38,7 @@
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/norfolk-antique-appraisals/",
         "slug": "norfolk-antique-appraisals",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_norfolk-norfolk-antique-appraisals_1742202823233_WVK18hbOa.jpg",
-        "description": "Norfolk Antique Appraisals offers antique appraisal support in Norfolk, Virginia. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Appraisa…",
+        "description": "Norfolk Antique Appraisals offers antique appraisal support in Norfolk, Virginia. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
         "publicRouteAvailable": true
       },
       {
@@ -58,7 +50,7 @@
       {
         "name": "ValuePros Appraisal Services - Norfolk",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal-norfolk.svg",
-        "description": "ValuePros Appraisal Services - Norfolk offers antique appraisal support in Norfolk, Virginia. Specialties: Antiques, Collectibles, Fine Art, Personal Property. Services: Antique Appraisals, Onsite Appraisals, Insurance…",
+        "description": "ValuePros Appraisal Services - Norfolk offers antique appraisal support in Norfolk, Virginia. Specialties: Antiques, Collectibles, Fine Art, Personal Property. Services: Antique Appraisals, Onsite Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {

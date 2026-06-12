@@ -11,7 +11,7 @@
     "city": "Denver",
     "region": "CO",
     "country": "US",
-    "numberOfListedAppraisers": 11,
+    "numberOfListedAppraisers": 10,
     "listedAppraisers": [
       {
         "name": "American Gem Registry – Neil Beaty CGJA",
@@ -38,14 +38,6 @@
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/ellen-amirkhan-crs-orra-csa-fcearug-specialist.svg",
         "description": "Denver Estate Sales & Appraisals offers antique appraisal support in Denver, Colorado. Specialties: Estate Appraisals, General Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appraisals.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Ellen Amirkhan CRS ORRA CSA FCEA®️(Rug Specialist)",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/ellen-amirkhan-crs-orra-csa-fcearug-specialist/",
-        "slug": "ellen-amirkhan-crs-orra-csa-fcearug-specialist",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_denver-ellen-amirkhan-crs-orra-csa-fcearug-specialist_1742201376245_86PnZ9JPN.jpg",
-        "description": "Ellen Amirkhan CRS ORRA CSA FCEA®️(Rug Specialist) offers antique appraisal support in Denver, Colorado. Specialties: Carpets & Rugs. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": true
       },
       {
         "name": "Mile High Appraisals & Estate Services",

@@ -11,7 +11,7 @@
     "city": "El Paso",
     "region": "TX",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
       {
         "name": "Border Antiques",
@@ -62,14 +62,6 @@
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-el-paso.svg",
         "description": "El Personal Property Appraisals offers antique appraisal support in El Paso, Texas. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations El Paso",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-el-paso/",
-        "slug": "heritage-valuations-el-paso",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_el_paso-heritage-valuations-el-paso_1742203527483_-6bF7rdDa.jpg",
-        "description": "Heritage Valuations El Paso offers antique appraisal support in El Paso, Texas. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": true
       },
       {
         "name": "Mesilla Valley Antiques",

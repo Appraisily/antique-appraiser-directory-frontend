@@ -11,7 +11,7 @@
     "city": "Tampa",
     "region": "FL",
     "country": "US",
-    "numberOfListedAppraisers": 9,
+    "numberOfListedAppraisers": 8,
     "listedAppraisers": [
       {
         "name": "Claycomb Appraisals & Estate Services",
@@ -33,17 +33,9 @@
       },
       {
         "name": "Gulf Coast Estate Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-tampa.svg",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/gulf-coast-estate-appraisals.svg",
         "description": "Gulf Coast Estate Appraisals offers antique appraisal support in Tampa, Florida. Specialties: Antiques, Estate Contents, Fine Art, Jewelry. Services: Estate Appraisals, Antique Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations Tampa",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-tampa/",
-        "slug": "heritage-valuations-tampa",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_tampa-heritage-valuations-tampa_1742203862344_MZPG8fYcD9.jpg",
-        "description": "Heritage Valuations Tampa offers antique appraisal support in Tampa, Florida. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": true
       },
       {
         "name": "South Tampa Antiques",

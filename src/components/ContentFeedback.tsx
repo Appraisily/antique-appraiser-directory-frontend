@@ -49,8 +49,6 @@ export function ContentFeedback() {
     }),
     [context, location.pathname]
   );
-  const canSubmit = helpful !== null;
-
   const onVote = (value: boolean) => {
     if (submitted) return;
     setHelpful(value);
@@ -164,15 +162,12 @@ export function ContentFeedback() {
               <div className="mt-3 flex items-center gap-3">
                 <button
                   type="submit"
-                  disabled={!canSubmit}
                   className={[
-                    'rounded-xl px-4 py-2 text-sm font-semibold transition',
-                    canSubmit
-                      ? 'bg-gray-900 text-white shadow-sm hover:bg-gray-800 cursor-pointer'
-                      : 'bg-gray-200 text-gray-500 shadow-none cursor-not-allowed',
+                    'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition',
+                    'hover:bg-gray-800 cursor-pointer',
                   ].join(' ')}
                 >
-                  {canSubmit ? 'Send feedback' : 'Choose Yes or No first'}
+                  Send feedback
                 </button>
                 <span className="text-xs text-muted-foreground">We redact emails/phone numbers client-side.</span>
               </div>

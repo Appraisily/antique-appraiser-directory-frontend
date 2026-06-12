@@ -52,7 +52,7 @@
       "city": "Anchorage",
       "region": "AK",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 8,
       "listedAppraisers": [
         {
           "name": "(Statewide/Nationwide Providers Serving Anchorage)",
@@ -302,7 +302,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mayflower-estate-buyers/",
           "slug": "mayflower-estate-buyers",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_baltimore-mayflower-estate-buyers_1742170042112_gyyXJTuM9.jpg",
-          "description": "Mayflower Estate Buyers offers antique appraisal support in Baltimore, Maryland. Specialties: Antique Furniture, Vintage Collectibles, Estate Items. Services: antique appraisal, art appraisal.",
+          "description": "Mayflower Estate Buyers offers Towson and Baltimore-area jewelry appraisal support. Specialties: antique and vintage jewelry, diamond and gemstone jewelry, watches, pearls, estate/probate, insurance, resale, and donation appraisals.",
           "publicRouteAvailable": true
         }
       ],
@@ -408,7 +408,7 @@
       "city": "Boise",
       "region": "ID",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Boise Antique Appraisals",
@@ -447,14 +447,6 @@
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-boise.svg",
           "description": "Boise Personal Property Appraisals offers antique appraisal support in Boise, Idaho. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisal…",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Boise",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-boise/",
-          "slug": "heritage-valuations-boise",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_boise-heritage-valuations-boise_1742170071422_5CB5rJkOY.jpg",
-          "description": "Heritage Valuations Boise offers antique appraisal support in Boise, Idaho. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, Insurance Appr…",
-          "publicRouteAvailable": true
         },
         {
           "name": "Idaho Antique & Estate Appraisals",
@@ -499,7 +491,7 @@
       "city": "Boston",
       "region": "MA",
       "country": "US",
-      "numberOfListedAppraisers": 11,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "A Art Collector",
@@ -586,7 +578,7 @@
       "city": "Buffalo",
       "region": "NY",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Allentown Antiques",
@@ -639,14 +631,6 @@
           "publicRouteAvailable": false
         },
         {
-          "name": "Heritage Valuations Buffalo",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-buffalo/",
-          "slug": "heritage-valuations-buffalo",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_buffalo-heritage-valuations-buffalo_1742170111225_EWUSJzKck.jpg",
-          "description": "Heritage Valuations Buffalo offers antique appraisal support in Buffalo, New York. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Apprais…",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "Key Features",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/key-features/",
           "slug": "key-features",
@@ -679,7 +663,7 @@
       "city": "Calgary",
       "region": "AB",
       "country": "CA",
-      "numberOfListedAppraisers": 4,
+      "numberOfListedAppraisers": 5,
       "listedAppraisers": [
         {
           "name": "A G A Jewellery Appraisals Ltd",
@@ -1471,7 +1455,7 @@
       "city": "El Paso",
       "region": "TX",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Border Antiques",
@@ -1524,14 +1508,6 @@
           "publicRouteAvailable": false
         },
         {
-          "name": "Heritage Valuations El Paso",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-el-paso/",
-          "slug": "heritage-valuations-el-paso",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_el_paso-heritage-valuations-el-paso_1742203527483_-6bF7rdDa.jpg",
-          "description": "Heritage Valuations El Paso offers antique appraisal support in El Paso, Texas. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "Mesilla Valley Antiques",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mesilla-valley-antiques.svg",
           "description": "Mesilla Valley Antiques offers antique appraisal support in El Paso, Texas. Specialties: Fine Antiques, Collectibles, Art. Services: Antique Appraisals, Estate Valuations, Consignment.",
@@ -1562,7 +1538,7 @@
       "city": "Fort Lauderdale",
       "region": "FL",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "B & F Estate Sales",
@@ -1608,8 +1584,8 @@
           "name": "Moecker Auctions Inc.",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/moecker-auctions-inc/",
           "slug": "moecker-auctions-inc",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fort_lauderdale-moecker-auctions-inc_1742201740358_9mlBSEW6h.jpg",
-          "description": "Moecker Auctions Inc. offers antique appraisal support in Fort Lauderdale, Florida. Specialties: Estate jewelry. Services: Broward County + nationwide pickup via insured transport.",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/moecker-auctions-inc.svg",
+          "description": "Moecker Auctions Inc. offers Fort Lauderdale asset appraisal, auction, and liquidation support for equipment, inventory, complete businesses, estates, vehicles, jewelry, and other property.",
           "publicRouteAvailable": true
         },
         {
@@ -1649,7 +1625,7 @@
       "city": "Fort Worth",
       "region": "TX",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Fort Worth Antique Appraisals",
@@ -1657,14 +1633,6 @@
           "slug": "fort-worth-antique-appraisals",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fort_worth-fort-worth-antique-appraisals_1742202493554_c6cSatwak.jpg",
           "description": "Fort Worth Antique Appraisals offers antique appraisal support in Fort Worth, Texas. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Heritage Valuations Fort Worth",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-fort-worth/",
-          "slug": "heritage-valuations-fort-worth",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fort_worth-heritage-valuations-fort-worth_1742202498536_zKdnW9fZC.jpg",
-          "description": "Heritage Valuations Fort Worth offers antique appraisal support in Fort Worth, Texas. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
           "publicRouteAvailable": true
         },
         {
@@ -1746,9 +1714,9 @@
       "listedAppraisers": [
         {
           "name": "Liz Isaac Appraisals",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jardine-auctioneers-inc/",
-          "slug": "jardine-auctioneers-inc",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fredericton-jardine-auctioneers-inc_1742201566029_Z3JuxWwf_.jpg",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/liz-isaac-appraisals/",
+          "slug": "liz-isaac-appraisals",
+          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fredericton-liz-isaac-appraisals_1742201554617_5iJKTfF9z.jpg",
           "description": "Liz Isaac Appraisals offers antique appraisal support in Fredericton, New Brunswick. Specialties: Art (Canadian/NB artists), period furniture. Services: antique appraisal, art appraisal.",
           "publicRouteAvailable": true
         },
@@ -1783,16 +1751,8 @@
       "city": "Fresno",
       "region": "CA",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 8,
       "listedAppraisers": [
-        {
-          "name": "Fresno Antique Appraisals",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/fresno-antique-appraisals/",
-          "slug": "fresno-antique-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fresno-fresno-antique-appraisals_1742203537805_Ycaxs3Z0C.jpg",
-          "description": "Fresno Antique Appraisals offers antique appraisal support in Fresno, California. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "Fresno Antique Estate Appraisals",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/fresno-antique-estate-appraisals.svg",
@@ -1825,17 +1785,9 @@
         },
         {
           "name": "Fresno Personal Property Appraisals",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-fresno.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/fresno-personal-property-appraisals.svg",
           "description": "Fresno Personal Property Appraisals offers antique appraisal support in Fresno, California. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Ap…",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Fresno",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-fresno/",
-          "slug": "heritage-valuations-fresno",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fresno-heritage-valuations-fresno_1742203542710_kef740l-Y.jpg",
-          "description": "Heritage Valuations Fresno offers antique appraisal support in Fresno, California. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Sun Valley Antiques",
@@ -1954,7 +1906,7 @@
       "city": "Hartford",
       "region": "CT",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Connecticut Estate Sales & Appraisals",
@@ -1996,17 +1948,9 @@
         },
         {
           "name": "Hartford Personal Property Appraisals",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-hartford.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/hartford-personal-property-appraisals.svg",
           "description": "Hartford Personal Property Appraisals offers antique appraisal support in Hartford, Connecticut. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insuran…",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Hartford",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-hartford/",
-          "slug": "heritage-valuations-hartford",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_hartford-heritage-valuations-hartford_1742202541672_-cW1ppD2h.jpg",
-          "description": "Heritage Valuations Hartford offers antique appraisal support in Hartford, Connecticut. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Prestige Estate Services",
@@ -2047,22 +1991,14 @@
       "city": "Honolulu",
       "region": "HI",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 7,
       "listedAppraisers": [
         {
           "name": "Aloha Estate Jewelry",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/aloha-estate-jewelry/",
           "slug": "aloha-estate-jewelry",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_honolulu-aloha-estate-jewelry_1742202558491_RrqKnjek2.jpg",
-          "description": "Aloha Estate Jewelry offers antique appraisal support in Honolulu, Hawaii. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Antique Appraisal Professionals",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antique-appraisal-professionals/",
-          "slug": "antique-appraisal-professionals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_honolulu-antique-appraisal-professionals_1742202552546_DNYvlAPeG.jpg",
-          "description": "Antique Appraisal Professionals offers antique appraisal support in Honolulu, Hawaii. Specialties: Honolulu. Services: Antique Appraisals, Estate Valuations.",
+          "description": "Aloha Estate Jewelry is an online Honolulu source for estate, vintage, and antique fine jewelry. Confirm standalone appraisal availability directly.",
           "publicRouteAvailable": true
         },
         {
@@ -2082,14 +2018,6 @@
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/honolulu-antique-appraisals.svg",
           "description": "Hawaii Estate Appraisals offers antique appraisal support in Honolulu, Hawaii. Specialties: Estate Items, Antiques, Hawaiian Collectibles, Fine Art. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Honolulu Antique Appraisals",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/honolulu-antique-appraisals/",
-          "slug": "honolulu-antique-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_honolulu-honolulu-antique-appraisals_1742202564141_BTOlp8VLf.jpg",
-          "description": "Honolulu Antique Appraisals offers antique appraisal support in Honolulu, Hawaii. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Prestige Estate Services - Honolulu",
@@ -2134,7 +2062,7 @@
       "city": "Houston",
       "region": "TX",
       "country": "US",
-      "numberOfListedAppraisers": 11,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Alexander Appraisal & Estate Services",
@@ -2156,25 +2084,9 @@
         },
         {
           "name": "Heights Antiques",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-houston.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heights-antiques.svg",
           "description": "Heights Antiques offers antique appraisal support in Houston, Texas. Specialties: Fine Antiques, Vintage Items, Art. Services: Antique Appraisals, Estate Valuations, Consignment.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Houston",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-houston/",
-          "slug": "heritage-valuations-houston",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_houston-heritage-valuations-houston_1742202584435_XGYfBwN3Z.jpg",
-          "description": "Heritage Valuations Houston offers antique appraisal support in Houston, Texas. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Houston Antique Appraisals",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/houston-antique-appraisals/",
-          "slug": "houston-antique-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_houston-houston-antique-appraisals_1742202579604_JlyIBhg7R.jpg",
-          "description": "Houston Antique Appraisals offers antique appraisal support in Houston, Texas. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Houston Antique Estate Appraisers",
@@ -2308,14 +2220,6 @@
       "numberOfListedAppraisers": 10,
       "listedAppraisers": [
         {
-          "name": "Jacksonville Antique Appraisals",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jacksonville-antique-appraisals/",
-          "slug": "jacksonville-antique-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jacksonville-jacksonville-antique-appraisals_1742202670202_HgulXDPRj.jpg",
-          "description": "Jacksonville Antique Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "Jacksonville Estate Appraisals",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/jacksonville-estate-appraisals.svg",
           "description": "Jacksonville Estate Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance App…",
@@ -2344,6 +2248,14 @@
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/list-of-antique-appraisers.svg",
           "description": "Jacksonville Personal Property Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Ins…",
           "publicRouteAvailable": false
+        },
+        {
+          "name": "Mussallem Galleries",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mussallem-antiques/",
+          "slug": "mussallem-antiques",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mussallem-antiques.svg",
+          "description": "Mussallem Galleries offers free verbal appraisals and inquiries to sell antiques, Oriental rugs, silver, paintings, estate items, fine art, and antique furniture in Jacksonville, Florida.",
+          "publicRouteAvailable": true
         },
         {
           "name": "List of Antique Appraisers",
@@ -2557,7 +2469,7 @@
       "city": "Las Vegas",
       "region": "NV",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Anthony Slayter-Ralph Fine Art",
@@ -2573,14 +2485,6 @@
           "slug": "appraiser-listings",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_las_vegas-appraiser-listings_1742201520021_r0cRA7n3l.jpg",
           "description": "Appraiser Listings offers antique appraisal support in Las Vegas, Nevada. Specialties: Comprehensive estate tax valuations Fine art collections. Services: Greater Las Vegas, Summerlin, Henderson.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Joel Bohy (Blackstone Valley Auctions)",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/joel-bohy-blackstone-valley-auctions/",
-          "slug": "joel-bohy-blackstone-valley-auctions",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_las_vegas-joel-bohy-blackstone-valley-auctions_1742201536847_kbTtWBiuD.jpg",
-          "description": "Joel Bohy (Blackstone Valley Auctions) offers antique appraisal support in Las Vegas, Nevada. Services: Greater Las Vegas, Summerlin, Henderson.",
           "publicRouteAvailable": true
         },
         {
@@ -2654,21 +2558,13 @@
       "city": "Lexington",
       "region": "KY",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Bluegrass Estate Sales & Appraisals",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-lexington.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/bluegrass-estate-sales.svg",
           "description": "Bluegrass Estate Sales & Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Estate Appraisals, Southern Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Apprais…",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Lexington",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-lexington/",
-          "slug": "heritage-valuations-lexington",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_lexington-heritage-valuations-lexington_1742202715691_lL68NH6MS.jpg",
-          "description": "Heritage Valuations Lexington offers antique appraisal support in Lexington, Kentucky. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance App…",
-          "publicRouteAvailable": true
         },
         {
           "name": "Lexington Antique Appraisals",
@@ -2747,7 +2643,7 @@
       "city": "Little Rock",
       "region": "AR",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Argenta Antiques",
@@ -2757,17 +2653,9 @@
         },
         {
           "name": "Arkansas Estate Sales & Appraisals",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-little-rock.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/arkansas-estate-sales.svg",
           "description": "Arkansas Estate Sales & Appraisals offers antique appraisal support in Little Rock, Arkansas. Specialties: Estate Appraisals, Antique Furniture, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Apprai…",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Little Rock",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-little-rock/",
-          "slug": "heritage-valuations-little-rock",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_little_rock-heritage-valuations-little-rock_1742203591944_npin_y5fl.jpg",
-          "description": "Heritage Valuations Little Rock offers antique appraisal support in Little Rock, Arkansas. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Little Antique Appraisals",
@@ -2877,7 +2765,7 @@
       "city": "Long Beach",
       "region": "CA",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 8,
       "listedAppraisers": [
         {
           "name": "Eagle Home Appraisal",
@@ -2910,14 +2798,6 @@
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/giltcomplex-antiques.svg",
           "description": "Giltcomplex Antiques offers antique appraisal support in Long Beach, California. Specialties: 18th and 19th Century Furnishings, Oriental Rugs, Fine Art, Collectibles. Services: Antique Appraisals, After-Hours Appointme…",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Long Beach",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-long-beach/",
-          "slug": "heritage-valuations-long-beach",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_long_beach-heritage-valuations-long-beach_1742202737463_w6N5ALnia.jpg",
-          "description": "Heritage Valuations Long Beach offers antique appraisal support in Long Beach, California. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Long Beach Antique Appraisals",
@@ -2964,7 +2844,7 @@
       "city": "Los Angeles",
       "region": "CA",
       "country": "US",
-      "numberOfListedAppraisers": 11,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Antiques Adventures",
@@ -2982,17 +2862,9 @@
         },
         {
           "name": "Appraisals by Ashby",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-los-angeles.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/appraisals-by-ashby.svg",
           "description": "Appraisals by Ashby offers antique appraisal support in Los Angeles, California. Specialties: Fine Art, Jewelry, Antiques, Collectibles. Services: Fine Art Appraisals, Jewelry Appraisals, Antique Appraisals.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Los Angeles",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-los-angeles/",
-          "slug": "heritage-valuations-los-angeles",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_los_angeles-heritage-valuations-los-angeles_1742203624430_sT0KUcUR_.jpg",
-          "description": "Heritage Valuations Los Angeles offers antique appraisal support in Los Angeles, California. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-          "publicRouteAvailable": true
         },
         {
           "name": "LACMA Antique & Art Services",
@@ -3096,7 +2968,7 @@
       "city": "Memphis",
       "region": "TN",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Antique Rose",
@@ -3106,17 +2978,9 @@
         },
         {
           "name": "Bluff City Antique Appraisals",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-memphis.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/bluff-city-antique-appraisals.svg",
           "description": "Bluff City Antique Appraisals offers antique appraisal support in Memphis, Tennessee. Specialties: Antiques, Fine Art, Estate Contents, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Memphis",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-memphis/",
-          "slug": "heritage-valuations-memphis",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_memphis-heritage-valuations-memphis_1742203640371_hbeCYCnmn.jpg",
-          "description": "Heritage Valuations Memphis offers antique appraisal support in Memphis, Tennessee. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Laurelwood Antiques",
@@ -3129,7 +2993,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/memphis-antique-appraisals/",
           "slug": "memphis-antique-appraisals",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_memphis-memphis-antique-appraisals_1742203635058_pd7C5UHfB.jpg",
-          "description": "Memphis Antique Appraisals offers antique appraisal support in Memphis, Tennessee. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Apprais…",
+          "description": "Memphis Antique Appraisals / Simonton Appraisals offers Memphis antique, silver, decorative arts, furniture, estate, insurance, donation, and auction-sale appraisal support through ISA Accredited Member Greer Simonton.",
           "publicRouteAvailable": true
         },
         {
@@ -3187,7 +3051,7 @@
       "city": "Miami",
       "region": "FL",
       "country": "US",
-      "numberOfListedAppraisers": 11,
+      "numberOfListedAppraisers": 10,
       "listedAppraisers": [
         {
           "name": "Art Deco Antiques Miami",
@@ -3197,17 +3061,9 @@
         },
         {
           "name": "Coconut Grove Antiques",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-miami.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/coconut-grove-antiques.svg",
           "description": "Coconut Grove Antiques offers antique appraisal support in Miami, Florida. Specialties: Fine Antiques, Art, Tropical Decorative Arts. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Miami",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-miami/",
-          "slug": "heritage-valuations-miami",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_miami-heritage-valuations-miami_1742203663478_uvkDPY_aS.jpg",
-          "description": "Heritage Valuations Miami offers antique appraisal support in Miami, Florida. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Lion & Unicorn Appraisals",
@@ -3220,14 +3076,6 @@
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/miami-antique-appraisals.svg",
           "description": "MGF Appraisals offers antique appraisal support in Miami, Florida. Specialties: Antiques, Fine Art, Decorative Arts, Furniture. Services: Personal Property Appraisals, Insurance Appraisals, Estate Appraisals.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Miami Antique Appraisals",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/miami-antique-appraisals/",
-          "slug": "miami-antique-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_miami-miami-antique-appraisals_1742203657701_11EOAlicB.jpg",
-          "description": "Miami Antique Appraisals offers antique appraisal support in Miami, Florida. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Miami Antique Market",
@@ -3287,11 +3135,11 @@
       "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
-          "name": "Craig Husar Fine Diamonds",
+          "name": "Cedarburg Auction & Appraisals LLC",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/cedarburg-auction-appraisals-llc/",
           "slug": "cedarburg-auction-appraisals-llc",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_milwaukee-cedarburg-auction-appraisals-llc_1742202773948_e95lPwg3L.jpg",
-          "description": "Craig Husar Fine Diamonds offers antique appraisal support in Milwaukee, Wisconsin. Specialties: General antique collections. Services: antique appraisal, art appraisal.",
+          "description": "Cedarburg Auction & Appraisals LLC handles estate auctions, appraisals, consignments, antiques, decorative arts, jewelry, collectibles, and furniture from Brown Deer, Wisconsin.",
           "publicRouteAvailable": true
         }
       ],
@@ -3319,7 +3167,7 @@
       "city": "Minneapolis",
       "region": "MN",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Antiques Early",
@@ -3329,17 +3177,9 @@
         },
         {
           "name": "Great Lakes Coins & Collectibles",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-minneapolis.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/great-lakes-coins-collectibles.svg",
           "description": "Great Lakes Coins & Collectibles offers antique appraisal support in Minneapolis, Minnesota. Specialties: Coins, Collectibles, Antiques, Currency. Services: Coin Appraisals, Collectible Appraisals, Antique Appraisals.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Minneapolis",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-minneapolis/",
-          "slug": "heritage-valuations-minneapolis",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_minneapolis-heritage-valuations-minneapolis_1742203678978_ERTChejgB.jpg",
-          "description": "Heritage Valuations Minneapolis offers antique appraisal support in Minneapolis, Minnesota. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Holly Nelson ISA CAPP Appraisals",
@@ -3357,8 +3197,8 @@
           "name": "Minneapolis Antique Appraisals",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/minneapolis-antique-appraisals/",
           "slug": "minneapolis-antique-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_minneapolis-minneapolis-antique-appraisals_1742203673984_7NINFgbCp.jpg",
-          "description": "Minneapolis Antique Appraisals offers antique appraisal support in Minneapolis, Minnesota. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations.",
+          "image": "https://assets.appraisily.com/assets/directory/WebPage/logo_new.png",
+          "description": "Minneapolis Antique Appraisals provides Minneapolis-St. Paul in-home appraisal support for antiques, art, jewelry, coins, furniture, and household property.",
           "publicRouteAvailable": true
         },
         {
@@ -3443,16 +3283,8 @@
       "city": "Montreal",
       "region": "QC",
       "country": "CA",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 8,
       "listedAppraisers": [
-        {
-          "name": "Heritage Valuations Montreal",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-montreal/",
-          "slug": "heritage-valuations-montreal",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_montreal-heritage-valuations-montreal_1742203710999_4uMlbHvlh.jpg",
-          "description": "Heritage Valuations Montreal offers antique appraisal support in Montreal, Quebec. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "L&L Succession Estate",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/ll-succession-estate-montreal.svg",
@@ -3478,17 +3310,9 @@
           "publicRouteAvailable": false
         },
         {
-          "name": "Montreal Antique Appraisals",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/montreal-antique-appraisals/",
-          "slug": "montreal-antique-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_montreal-montreal-antique-appraisals_1742203706096_Pnlj3rjjr.jpg",
-          "description": "Montreal Antique Appraisals offers antique appraisal support in Montreal, Quebec. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "Montreal Estate Sales & Appraisals",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/montreal-estate-sales.svg",
-          "description": "Montreal Estate Sales & Appraisals offers antique appraisal support in Montreal, Quebec. Specialties: Estate Appraisals, French Canadian Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appr…",
+          "description": "Montreal Estate Sales & Appraisals offers antique appraisal support in Montreal, Quebec. Specialties: Estate Appraisals, French Canadian Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appraisals.",
           "publicRouteAvailable": false
         },
         {
@@ -3534,7 +3358,7 @@
       "city": "Nashville",
       "region": "TN",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 8,
       "listedAppraisers": [
         {
           "name": "Case Antiques Auction",
@@ -3550,17 +3374,9 @@
         },
         {
           "name": "Gas Lamp Antiques",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-nashville.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/gas-lamp-antiques.svg",
           "description": "Gas Lamp Antiques offers antique appraisal support in Nashville, Tennessee. Specialties: Antique Lighting, Fine Antiques, Decorative Arts. Services: Antique Appraisals, Estate Valuations, Lighting Restoration.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Nashville",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-nashville/",
-          "slug": "heritage-valuations-nashville",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_nashville-heritage-valuations-nashville_1742203727789_xXZZjFG9l.jpg",
-          "description": "Heritage Valuations Nashville offers antique appraisal support in Nashville, Tennessee. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, In…",
-          "publicRouteAvailable": true
         },
         {
           "name": "Michael Hall Antiques",
@@ -3579,14 +3395,6 @@
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/nashville-antique-appraisals.svg",
           "description": "Nashville Antique & Art Appraisals offers antique appraisal support in Nashville, Tennessee. Specialties: Antiques, Fine Art, Decorative Arts, Estate Items. Services: Antique Appraisals, Art Appraisals, Estate Appraisal…",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Nashville Antique Appraisals",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/nashville-antique-appraisals/",
-          "slug": "nashville-antique-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_nashville-nashville-antique-appraisals_1742203722183_UZua1e2Ey.jpg",
-          "description": "Nashville Antique Appraisals offers antique appraisal support in Nashville, Tennessee. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, Ins…",
-          "publicRouteAvailable": true
         },
         {
           "name": "Nashville Antique Gallery",
@@ -3667,7 +3475,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/museum-exchange/",
           "slug": "museum-exchange",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_museum-exchange-3462_1742166255040_BIvs_Ofel.jpg",
-          "description": "Museum Exchange offers antique appraisal support in New York, New York. Specialties: All media types with artworks valued from $5k to $1M+. Services: antique appraisal, art appraisal.",
+          "description": "Museum Exchange coordinates online art appraisals from New York through third-party qualified appraisers for donation, insurance, tax, estate planning, and art lending needs.",
           "publicRouteAvailable": true
         },
         {
@@ -3703,7 +3511,7 @@
       "city": "Norfolk",
       "region": "VA",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 7,
       "listedAppraisers": [
         {
           "name": "Blue Box Auction Gallery",
@@ -3715,17 +3523,9 @@
         },
         {
           "name": "Charlene Upham Antiques",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-norfolk.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/charlene-upham-antiques.svg",
           "description": "Charlene Upham Antiques offers antique appraisal support in Norfolk, Virginia. Specialties: Fine Antiques, Decorative Arts, Vintage Collectibles, Estate Items. Services: Antique Appraisals, Antique Sales, Estate Valuati…",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Norfolk",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-norfolk/",
-          "slug": "heritage-valuations-norfolk",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_norfolk-heritage-valuations-norfolk_1742202828930_7lSYqKx6B.jpg",
-          "description": "Heritage Valuations Norfolk offers antique appraisal support in Norfolk, Virginia. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Kathleen Connolly Appraisals",
@@ -3784,8 +3584,16 @@
       "city": "Oakland",
       "region": "CA",
       "country": "US",
-      "numberOfListedAppraisers": 1,
+      "numberOfListedAppraisers": 2,
       "listedAppraisers": [
+        {
+          "name": "Montclair Estates",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/montclair-estates-antique-consignment-and-appraiser/",
+          "slug": "montclair-estates-antique-consignment-and-appraiser",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/montclair-estates-antique-consignment-and-appraiser.svg",
+          "description": "Montclair Estates provides ISA-accredited, USPAP-compliant personal property appraisals for antiques, jewelry, fine art, collectibles, estates, insurance, donations, and equitable distribution.",
+          "publicRouteAvailable": true
+        },
         {
           "name": "Gurr Johns",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/clars-auction-gallery/",
@@ -3819,16 +3627,8 @@
       "city": "Oklahoma City",
       "region": "OK",
       "country": "US",
-      "numberOfListedAppraisers": 11,
+      "numberOfListedAppraisers": 10,
       "listedAppraisers": [
-        {
-          "name": "Heritage Valuations Oklahoma City",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-oklahoma-city/",
-          "slug": "heritage-valuations-oklahoma-city",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_oklahoma_city-heritage-valuations-oklahoma-city_1742202873746_eXppa8cU9l.jpg",
-          "description": "Heritage Valuations Oklahoma City offers antique appraisal support in Oklahoma City, Oklahoma. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "Oklahoma Antique Appraisals",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/oklahoma-city-antique-appraisals.svg",
@@ -4428,7 +4228,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/inuit-sculptures-art-gallery/",
           "slug": "inuit-sculptures-art-gallery",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_quebec_city-inuit-sculptures-art-gallery_1742203058913_NZNmxiN3G.jpg",
-          "description": "Inuit Sculptures Art Gallery offers antique appraisal support in Quebec City, Quebec. Specialties: Residential content inventories, antiques, fine arts, donations. Services: Greater Montréal region (travel to Québec Cit…",
+          "description": "Inuit Sculptures Art Gallery offers online Inuit fine art appraisal support for insurance, donation, resale, estate planning, estate tax, and loss claims.",
           "publicRouteAvailable": true
         },
         {
@@ -4607,21 +4407,13 @@
       "city": "Rochester",
       "region": "NY",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Finger Lakes Antique Appraisals",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-rochester.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/finger-lakes-antique-appraisals.svg",
           "description": "Finger Lakes Antique Appraisals offers antique appraisal support in Rochester, New York. Specialties: Antiques, Fine Art, Estate Contents, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Apprais…",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Rochester",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-rochester/",
-          "slug": "heritage-valuations-rochester",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_rochester-heritage-valuations-rochester_1742203815258_MTjoE0tMj.jpg",
-          "description": "Heritage Valuations Rochester offers antique appraisal support in Rochester, New York. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Park Avenue Antiques",
@@ -4737,16 +4529,8 @@
       "city": "Salt Lake City",
       "region": "UT",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
-        {
-          "name": "Heritage Valuations Salt Lake City",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-salt-lake-city/",
-          "slug": "heritage-valuations-salt-lake-city",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt_lake_city-heritage-valuations-salt-lake-city_1742203847051_93_s13qmF.jpg",
-          "description": "Heritage Valuations Salt Lake City offers antique appraisal support in Salt Lake City, Utah. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuation…",
-          "publicRouteAvailable": true
-        },
         {
           "name": "Salt Antique Appraisals",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/salt-antique-appraisals.svg",
@@ -5107,7 +4891,7 @@
       "city": "Seattle",
       "region": "WA",
       "country": "US",
-      "numberOfListedAppraisers": 2,
+      "numberOfListedAppraisers": 3,
       "listedAppraisers": [
         {
           "name": "Pamela Jaynes",
@@ -5120,6 +4904,14 @@
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/seattle-scott-g-zema.svg",
           "description": "Scott G. Zema offers antique appraisal support in Seattle, Washington. Specialties: Arts & Crafts, Ceramics, Collectibles, Furniture. Services: Appraisal Review, Divorce Settlements, Donations.",
           "publicRouteAvailable": false
+        },
+        {
+          "name": "Mr. Johnson's Antiques",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mr-johnson-s-antiques/",
+          "slug": "mr-johnson-s-antiques",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mr-johnson-s-antiques.svg",
+          "description": "Mr. Johnson's Antiques offers Seattle antique appraisals, estate services, antique buying, and lamp rewiring from its Montlake shop.",
+          "publicRouteAvailable": true
         }
       ],
       "source": {
@@ -5146,7 +4938,7 @@
       "city": "St. John's",
       "region": "NL",
       "country": "CA",
-      "numberOfListedAppraisers": 8,
+      "numberOfListedAppraisers": 7,
       "listedAppraisers": [
         {
           "name": "Appraisal Services NL",
@@ -5165,14 +4957,6 @@
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/gurr-johns.svg",
           "description": "Garage 606 offers antique appraisal support in St. John's, Newfoundland and Labrador. Specialties: Antiques, Collectibles, Vintage Items. Services: Antique Appraisals, Antique Sales, Estate Valuations.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Gurr Johns",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/gurr-johns/",
-          "slug": "gurr-johns",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st._john_s-gurr-johns_1742203292635_M1x5Jo5JP_.jpg",
-          "description": "Gurr Johns offers antique appraisal support in St. John's, Newfoundland and Labrador.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Newfoundland Antique Gallery",
@@ -5260,7 +5044,7 @@
       "city": "St. Paul",
       "region": "MN",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "1\\. Redtail Appraisals",
@@ -5380,7 +5164,7 @@
       "city": "Tampa",
       "region": "FL",
       "country": "US",
-      "numberOfListedAppraisers": 9,
+      "numberOfListedAppraisers": 8,
       "listedAppraisers": [
         {
           "name": "Claycomb Appraisals & Estate Services",
@@ -5402,17 +5186,9 @@
         },
         {
           "name": "Gulf Coast Estate Appraisals",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-tampa.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/gulf-coast-estate-appraisals.svg",
           "description": "Gulf Coast Estate Appraisals offers antique appraisal support in Tampa, Florida. Specialties: Antiques, Estate Contents, Fine Art, Jewelry. Services: Estate Appraisals, Antique Appraisals, Insurance Appraisals.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Tampa",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-tampa/",
-          "slug": "heritage-valuations-tampa",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_tampa-heritage-valuations-tampa_1742203862344_MZPG8fYcD9.jpg",
-          "description": "Heritage Valuations Tampa offers antique appraisal support in Tampa, Florida. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-          "publicRouteAvailable": true
         },
         {
           "name": "South Tampa Antiques",
@@ -5485,7 +5261,7 @@
       "city": "Toledo",
       "region": "OH",
       "country": "US",
-      "numberOfListedAppraisers": 13,
+      "numberOfListedAppraisers": 11,
       "listedAppraisers": [
         {
           "name": "Ancestor House Antiques & Appraiser",
@@ -5513,17 +5289,9 @@
         },
         {
           "name": "Grandma's Attic Antiques",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-toledo.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/grandmas-attic.svg",
           "description": "Grandma's Attic Antiques offers antique appraisal support in Toledo, Ohio. Specialties: General Antiques, Glassware, Collectibles. Services: Antique Appraisals, Estate Valuations, Consignment.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Toledo",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-toledo/",
-          "slug": "heritage-valuations-toledo",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_toledo-heritage-valuations-toledo_1742203878898_QOapcw3l_.jpg",
-          "description": "Heritage Valuations Toledo offers antique appraisal support in Toledo, Ohio. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Leffler's Antiques",
@@ -5662,7 +5430,7 @@
       "city": "Tulsa",
       "region": "OK",
       "country": "US",
-      "numberOfListedAppraisers": 13,
+      "numberOfListedAppraisers": 12,
       "listedAppraisers": [
         {
           "name": "Antique Station",
@@ -5672,17 +5440,9 @@
         },
         {
           "name": "Cherry Street Antiques",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-tulsa.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/cherry-street-antiques.svg",
           "description": "Cherry Street Antiques offers antique appraisal support in Tulsa, Oklahoma. Specialties: Fine Antiques, Vintage Collectibles, Art. Services: Antique Appraisals, Estate Valuations, Consignment.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Heritage Valuations Tulsa",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-tulsa/",
-          "slug": "heritage-valuations-tulsa",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_tulsa-heritage-valuations-tulsa_1742203894742_HgEHBd5ta.jpg",
-          "description": "Heritage Valuations Tulsa offers antique appraisal support in Tulsa, Oklahoma. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, Insurance A…",
-          "publicRouteAvailable": true
         },
         {
           "name": "Kerr and Kempf Estate Sales",
@@ -5843,7 +5603,7 @@
       "city": "Virginia Beach",
       "region": "VA",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "*Barrett Street Auction Center & Antique Mall",
@@ -6039,16 +5799,8 @@
       "city": "Whitehorse",
       "region": "YT",
       "country": "CA",
-      "numberOfListedAppraisers": 6,
+      "numberOfListedAppraisers": 5,
       "listedAppraisers": [
-        {
-          "name": "Heritage Valuations Whitehorse",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-whitehorse/",
-          "slug": "heritage-valuations-whitehorse",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_whitehorse-heritage-valuations-whitehorse_1742203910014_xkQHFveUz.jpg",
-          "description": "Heritage Valuations Whitehorse offers antique appraisal support in Whitehorse, Yukon. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "Klondike Heritage Appraisals",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/klondike-heritage-appraisals.svg",
@@ -6106,7 +5858,7 @@
       "city": "Wichita",
       "region": "KS",
       "country": "US",
-      "numberOfListedAppraisers": 11,
+      "numberOfListedAppraisers": 10,
       "listedAppraisers": [
         {
           "name": "Allied Estate Services",
@@ -6133,22 +5885,6 @@
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/golden-rule-jewlery-llc.svg",
           "description": "Estate Chics offers antique appraisal support in Wichita, Kansas. Specialties: Estate Sales, Antiques, Jewelry Appraisal, Collectibles. Services: Estate Sales, Antique Appraisals, Jewelry Appraisals.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Golden Rule Jewlery LLC",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/golden-rule-jewlery-llc/",
-          "slug": "golden-rule-jewlery-llc",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_wichita-golden-rule-jewlery-llc_1742201724233_c4k_eqKOO.jpg",
-          "description": "Golden Rule Jewlery LLC offers antique appraisal support in Wichita, Kansas. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Jewelery Savers",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jewelery-savers/",
-          "slug": "jewelery-savers",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_wichita-jewelery-savers_1742201718633_HLQCWccX9.jpg",
-          "description": "Jewelery Savers offers antique appraisal support in Wichita, Kansas. Services: Antique Appraisals, Estate Valuations.",
-          "publicRouteAvailable": true
         },
         {
           "name": "Kansas Auction & Estate Services",

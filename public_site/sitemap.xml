@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/</loc>
     <lastmod>2026-05-14</lastmod>
@@ -13,67 +14,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/1-eagle-home-appraisal/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/1-look-appraisal-llc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/1-powell-appraisals-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/1-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/1-redtail-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/1-turner-auctions-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/1prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/2-antique-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/2-appraiser-listings/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/2-bear-raven-appraisal-estate-services/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -91,55 +32,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/2-doyle-dc-mid-atlantic-auctions-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/2-fontaines-auction-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/2-paul-golubovs/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/2-provincialniche-specialists-serving-region/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/2-revere-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/2-william-bunch-auctions-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/2ameliajeffrs-auctionsappraials/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/3-anoka-area-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/4contact-details-summary-table/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -271,30 +164,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/albuquerque-albuquerque-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/albuquerque-antique-appraisal-firms-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/albuquerque-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/albuquerque-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/alderfer-auction/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -326,12 +195,6 @@
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/aloha-estate-jewelry/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/alpha-137-gallery-2565/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -391,42 +254,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/anchorage-anchorage-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/anchorage-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/anchorage-list-of-local-antique-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/anchorage-statewidenationwide-providers-serving-anchorage/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/anderson-fine-art-appraisals-2030/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/anderson-fine-art-appraisals-924/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -457,12 +284,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/anthony-slayter-ralph-fine-art/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/antique-alley-estate-services-and-appraisals/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -487,18 +308,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/antique-appraisal-firms-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/antique-appraisal-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -519,12 +328,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/antique-trader-west/</loc>
     <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/antiquecarvaluation-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -571,18 +374,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/antiquities-buy-near-ctnyc-w-smith-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/appraisal-firms-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/appraisal-professionals-businesses/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -613,20 +404,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/appraiseitnow---online-service-covering-ohio/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/appraiseitnow-inc/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/appraiseitnow-remote-in-person-options/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -667,36 +446,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/arlington-arlington-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/arlington-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/arlington-tadlock-appraisal-company/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/art-and-antique-appraisals/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/art-and-antique-appraisers-and-restorers/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/art-and-antiques-appraisal-services-llc/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -722,12 +471,6 @@
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/art-appraisals-of-santa-fe/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/art-of-estates-personal-property-appraisal-firm/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -775,12 +518,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/artrium-fine-art-estate-appraisal/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/asha-fine-art-and-appraisals/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -793,31 +530,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/asianpersian-decorative-arts/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/aspen-2-antique-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/aspen-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/aspen-aspen-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/aspen-brady-l-dreasher-isa-capp-art-of-estates/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -831,24 +544,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/associated-estate-and-appraisal-co/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/atlanta-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/atlanta-atlanta-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/atlanta-heritage-valuations-atlanta/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -877,24 +572,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/austin-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/austin-austin-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/austin-heritage-valuations-austin/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/avalon-antiques-appraisals-and-estate-services/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -919,56 +596,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baker-appraisers-asian-antique-appraisers-8533/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baker-appraisers-asian-antique-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baker-asian-art-antique-specialists/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baltimore-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baltimore-baltimore-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baltimore-mayflower-estate-buyers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baltimore-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/banks/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/barbara-k-levin-8835/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -997,66 +626,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baton_rouge-baton-rouge-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baton_rouge-hannon-jewelers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baton_rouge-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baton-rouge-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baton-rouge-baton-rouge-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baton-rouge-hannon-jewelers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baton-rouge-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baton%20rouge-baton-rouge-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baton%20rouge-hannon-jewelers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/baton%20rouge-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/beck-antiques-ampjewellery-inc/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -1065,12 +634,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/belle-meade-jewelry/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/berchard-apraisal-services/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1099,32 +662,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/birmingham-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/birmingham-birmingham-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/birmingham-heritage-valuations-birmingham/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/blades-appraisals-fine-art-and-antique-appraisal-firm-and-broker/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/blue-box-auction-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1141,56 +680,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/boise-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/boise-boise-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/boise-heritage-valuations-boise/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/bonhams-pacific-northwest/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/borsheims-fine-jewelry-gifts/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/boston-aladdin-appraisal/</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/boston-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/boston-boston-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/boston-doyle-auctions-new-englandboston-office/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1203,12 +694,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/boston-estate-buyers-jewelry-appraisals/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/boston-prestige-estate-services-boston-office/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1231,19 +716,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/brady-l-dreasher-isa-capp-art-of-estates/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/brian-lehman-evaluations/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/brunsdon-lawrek-associates/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1251,30 +724,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/bryan-h-roberts-appraisal-services/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/buffalo-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/buffalo-buffalo-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/buffalo-heritage-valuations-buffalo/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/buffalo-key-features/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1287,36 +736,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/burns-auction-and-appraisal/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/calgary-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/calgary-brian-lehman-evaluations/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/calgary-calgary-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/calgary-cowley-abbott-auctioneers-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/canadian-indigenous-historical-works/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1387,12 +806,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charles-bell-real-estate-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charles-pharr-certified-appraiser/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -1405,80 +818,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charleston-2-charlston-estate-services-ltd/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charleston-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charleston-charleston-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charleston-heritage-valuations-charleston/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charlotte-art-of-estates-personal-property-appraisal-firm/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charlotte-coinfully-specialty-numismatic-appraiser/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charlotte-list-of-antique-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charlotte-prestige-estate-services-team/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charlotte-rare-coins/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charlottetown-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charlottetown-charlottetown-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charlottetown-jewellery-plus/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/charlottetown-turner-drake-partners-ltd/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1489,32 +830,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/chicago-adams-appraisal-llc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/chris-james-jewelry-appraisals/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/cincinnati-2-appraiser-listings/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/cincinnati-caza-sikes/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/cincinnati-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1526,30 +843,6 @@
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/clars-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/cleveland-appraiseitnow---online-service-covering-ohio/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/cleveland-legacy-appraisal-group-llc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/cleveland-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/coast-wide-appraisals/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1567,62 +860,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/colorado_springs-colorado-springs-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/colorado_springs-heritage-valuations-colorado-springs/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/colorado-gem-labs/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/colorado-springs-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/colorado-springs-colorado-springs-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/colorado-springs-heritage-valuations-colorado-springs/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/colorado%20springs-colorado-springs-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/colorado%20springs-heritage-valuations-colorado-springs/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/columbus-1prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/columbus-2ameliajeffrs-auctionsappraials/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1657,24 +896,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/cowley-abbott-auctioneers-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/craig-husar-fine-diamonds/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/dallas-2-antique-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/dallas-auction-gallery/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -1683,18 +904,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/dallas-jewelry-appraiser/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/dallas-oriental-rug-cleaning-co/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/dallas-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1717,20 +926,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/david-dinan-collector-vehicle-specialist/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/david-lackey-antiques-fine-jewelry/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/denver-american-gem-registry-neil-beaty-cgja/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1741,86 +938,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/denver-ellen-amirkhan-crs-orra-csa-fcearug-specialist/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/denver-old-crows-antiques/</loc>
     <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/denver-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/des_moines-des-moines-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/des_moines-heritage-valuations-des-moines/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/des-moines-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/des-moines-des-moines-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/des-moines-heritage-valuations-des-moines/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/des%20moines-des-moines-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/des%20moines-heritage-valuations-des-moines/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/design-jewellers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/detroit-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/detroit-appraisal-firms-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/detroit-detroit-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1833,12 +952,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/detroit-jewelry-appraisers/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/detroit-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1879,12 +992,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/doyle-auctions-new-englandboston-office/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/dudley-certified-appraisers-art-antiques-and-estates/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -1915,24 +1022,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/edmonton-beck-antiques-ampjewellery-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/edmonton-design-jewellers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/edmonton-ultra-jewellers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/edward-m-stanley-appraisal-services-fine-art-antiques/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -1945,74 +1034,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/el_paso-el-paso-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/el_paso-heritage-valuations-el-paso/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/el-paso-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/el-paso-el-paso-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/el-paso-heritage-valuations-el-paso/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/el%20paso-el-paso-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/el%20paso-heritage-valuations-el-paso/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/elizabeth-abston-llc/</loc>
     <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/elizabeth-antique-appraisal-service/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/ellen-amirkhan-crs-orra-csa-fcearug-specialist/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/ellen-amirkhan-oriental-rug-specialist/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/ellen-amirkhan-rug-care-specialists-association/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2029,12 +1052,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/empire-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/ems-estates/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -2043,24 +1060,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/ena-art-group/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/escher-associates-352/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/escher-associates-3919/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/escher-associates/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2101,12 +1100,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fairall-art-advising-appraisals-4091/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fairall-art-advising-appraisals/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -2115,12 +1108,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fidelity-estate-services/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fine-art-archives/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2137,140 +1124,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/finer-things-antiques-curios/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/foreside-antiques-falmouth-maine/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort_lauderdale-fort-lauderdale-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort_lauderdale-koosh-jewelers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort_lauderdale-moecker-auctions-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort_worth-fort-worth-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort_worth-heritage-valuations-fort-worth/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort_worth-licensed-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort-lauderdale-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort-lauderdale-fort-lauderdale-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort-lauderdale-koosh-jewelers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort-lauderdale-moecker-auctions-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort-worth-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort-worth-coin-company-inc/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort-worth-fort-worth-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort-worth-heritage-valuations-fort-worth/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort-worth-licensed-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort%20lauderdale-fort-lauderdale-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort%20lauderdale-koosh-jewelers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort%20lauderdale-moecker-auctions-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort%20worth-fort-worth-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort%20worth-heritage-valuations-fort-worth/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fort%20worth-licensed-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2283,48 +1144,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fox-white-art-and-antique-appraisals-nyc/</loc>
     <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fredericton-jardine-auctioneers-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fredericton-kelly-juhaszfine-art-appraisalservices/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fredericton-liz-isaac-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fredericton-mario-brideau-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fresno-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fresno-fresno-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/fresno-heritage-valuations-fresno/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2383,62 +1202,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/golden-rule-jewlery-llc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/grant-miller-appraisals-3258/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/grant-miller-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/great-estates-auctioneers-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/gretchen-burch-8538/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/gretchen-burch/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/grogan-and-company/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/gurr-johns-5544/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/gurr-johns-6931/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/gurr-johns/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2455,86 +1220,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/halifax-dorothe-rosen-designer-goldsmith/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/halifax-finer-things-antiques-curios/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/halifax-harringtons-auctioneers-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/halifax-la-mine-dor-jewellers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/hamilton-4contact-details-summary-table/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/hamilton-schinkel-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/hamilton-stan-jugovic-associates-ltd/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/hannon-jewelers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/harby-jewelers-of-jacksonville/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/harringtons-auctioneers-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/hartford-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/hartford-hartford-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/hartford-heritage-valuations-hartford/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/hartford-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2563,308 +1250,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-auctions-9336/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-atlanta/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-austin/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-birmingham/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-boise/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-buffalo/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-charleston/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-colorado-springs/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-des-moines/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-el-paso/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-fort-worth/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-fresno/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-hartford/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-houston/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-kitchener/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-lexington/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-little-rock/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-london/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-long-beach/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-los-angeles/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-memphis/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-miami/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-minneapolis/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-moncton/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-montreal/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-nashville/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-norfolk/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-oklahoma-city/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-orlando/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-ottawa/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-portland/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-providence/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-raleigh/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-richmond/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-rochester/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-sacramento/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-salt-lake-city/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-savannah/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-seattle/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-st-louis/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-tampa/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-toledo/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-tulsa/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-vancouver/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-whitehorse/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/hoffman-auctions/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/honolulu-aloha-estate-jewelry/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/honolulu-antique-appraisal-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/honolulu-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/honolulu-honolulu-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2875,32 +1262,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/houston-advanced-appraisal-solutions/</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/houston-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/houston-estate-sales-and-auction-company/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/houston-heritage-valuations-houston/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/houston-houston-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2923,24 +1286,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/houston-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/houston-professional-appraisers-of-texas-inc/</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/howard-thomas-auction-house/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/hudson-valley-new-york-pennsylvania-new-jersey-antique-and-art-appraisers/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -2953,44 +1298,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/indianapolis-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/indianapolis-art-of-estates-personal-property-appraisal-firm/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/indianapolis-indianapolis-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/indianapolis-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/indianapolis-schreiner-valuation-resources-llc/</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/indianapolis-spoonamore-appraisal-group/</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/inuit-sculptures-art-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3013,42 +1322,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/jacksonville-always-buying-antiques-yours-truly/</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/jacksonville-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/jacksonville-jacksonville-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/jacksonville-list-of-antique-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/jacksonville-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/jardine-auctioneers-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/jarvis-gems-and-jewelry-appraisals/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -3063,18 +1336,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/jennifer-l-strasbaugh-fine-arts-appraising/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/jewelery-savers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/jewellery-plus/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3145,12 +1406,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/juliette-yuan-associates-2567/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/juliette-yuan-associates/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -3169,37 +1424,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kathleen-doyle-antiquestor-2238/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kathleen-doyle-antiquestor/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kelly-juhaszfine-art-appraisalservices/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kelowna-able-auctions-asset-valuation-division/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kelowna-artista-art-antiquits/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kelowna-taylors-fine-collectables-ltd/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3211,55 +1436,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/key-features/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kingston-antiquecarvaluation-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kingston-fine-jewelry-ltd/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kingston-kingston-fine-jewelry-ltd/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kingston-paul-prince-collector-vehicle-appraiser/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kingston-pristine-appraisal-co/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kitchener-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kitchener-heritage-valuations-kitchener/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/kitchener-kitchener-antique-appraisals/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3319,96 +1496,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las_vegas-anthony-slayter-ralph-fine-art/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las_vegas-appraiser-listings/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las_vegas-joel-bohy-blackstone-valley-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las_vegas-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las_vegas-richard-cervantes-doyle-new-york/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-anthony-slayter-ralph-fine-art/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-appraiser-listings/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-joel-bohy-blackstone-valley-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-richard-cervantes-doyle-new-york/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las%20vegas-anthony-slayter-ralph-fine-art/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las%20vegas-appraiser-listings/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las%20vegas-joel-bohy-blackstone-valley-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las%20vegas-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/las%20vegas-richard-cervantes-doyle-new-york/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/lastovica-jewelry-appraisal/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -3417,18 +1504,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/laura-furr-appraisals-and-helping-hand-estate-services-inc/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/le-garage-antiques-clothing/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/left-behind-antiques-local-shop-expertise/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3457,566 +1532,158 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/lexington-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/lexington-heritage-valuations-lexington/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/lexington-lexington-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/lexington-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/lg-appraisal/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/licensed-appraisal-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/licensed-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/list-of-antique-appraisal-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/list-of-antique-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/list-of-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/list-of-local-antique-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/listed-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/little_rock-heritage-valuations-little-rock/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/little_rock-little-rock-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/little-rock-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/little-rock-heritage-valuations-little-rock/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/little-rock-little-rock-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/little%20rock-heritage-valuations-little-rock/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/little%20rock-little-rock-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/liz-isaac-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/london-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/london-heritage-valuations-london/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/london-london-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/long_beach-1-eagle-home-appraisal/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/long_beach-heritage-valuations-long-beach/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/long_beach-long-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/long-beach-1-eagle-home-appraisal/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/long-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/long-beach-heritage-valuations-long-beach/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/long-beach-long-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/long%20beach-1-eagle-home-appraisal/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/long%20beach-heritage-valuations-long-beach/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/long%20beach-long-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/look-appraisal/</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/los_angeles-heritage-valuations-los-angeles/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/los_angeles-los-angeles-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/los-angeles-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/los-angeles-heritage-valuations-los-angeles/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/los-angeles-los-angeles-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/los%20angeles-heritage-valuations-los-angeles/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/los%20angeles-los-angeles-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/louisville-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/louisville-howard-thomas-auction-house/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/louisville-louisville-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/louisville-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/madison-group-fine-art-appraisals/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/magnusson-group/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/manzi-personal-property-appraisers/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mario-brideau-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/martin-fuller-appraisals/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mary-peck-art-advisory-4302/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mary-peck-art-advisory/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mayflower-estate-buyers/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mccarty-antiques/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/memphis-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/memphis-heritage-valuations-memphis/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/memphis-memphis-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mesa-antique/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/miami-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/miami-heritage-valuations-miami/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/miami-miami-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/miami-miami-appraisal-services-llc/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mid-atlantic-auction/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/midwest-jewelers-and-estate-buyers/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/milwaukee-cedarburg-auction-appraisals-llc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/milwaukee-craig-husar-fine-diamonds/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/milwaukee-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mimesis-gallery-2876/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mimesis-gallery-9572/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mimesis-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/minerva-appraisal-llc/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/minneapolis-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/minneapolis-heritage-valuations-minneapolis/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/minneapolis-minneapolis-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/missoula-valuepros/</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mjp-art-services/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/modern-history-society-art-and-antique-appraisal/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/moecker-auctions-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/moncton-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/moncton-heritage-valuations-moncton/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/moncton-moncton-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/montclair-estates-antique-consignment-and-appraiser/</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/montreal-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/montreal-heritage-valuations-montreal/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/montreal-montreal-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/morning-star-jewelry-and-appraisals/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mountain-view-us-foreign-coins/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mr-johnson-s-antiques/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/museum-exchange-3462/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/museum-exchange/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/mussallem-antiques/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/nashville-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/nashville-heritage-valuations-nashville/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/nashville-nashville-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4028,121 +1695,13 @@
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/nationwide-auctions-and-appraisals-online-asset-liquidators/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new_orleans-kohlert-appraisal-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new_orleans-le-garage-antiques-clothing/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new_orleans-prestige-estate-services-network/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new_york-antiquities-buy-near-ctnyc-w-smith-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new_york-great-estates-auctioneers-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new_york-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new-orleans-kohlert-appraisal-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new-orleans-le-garage-antiques-clothing/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new-orleans-prestige-estate-services-network/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new-york-antiquities-buy-near-ctnyc-w-smith-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new-york-fine-art-appraisers/</loc>
     <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new-york-great-estates-auctioneers-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new-york-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new%20orleans-kohlert-appraisal-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new%20orleans-le-garage-antiques-clothing/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new%20orleans-prestige-estate-services-network/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new%20york-antiquities-buy-near-ctnyc-w-smith-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new%20york-great-estates-auctioneers-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/new%20york-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4159,212 +1718,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/norfolk-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/norfolk-blue-box-auction-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/norfolk-heritage-valuations-norfolk/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/norfolk-norfolk-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/northern-appraisal-services/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/notable-antique-appraisal-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/novotny-appraisals/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/nyc-jewelry-appraisers/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oakland-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oakland-clars-auction-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oakland-gurr-johns/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oakland-oakland-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma_city-heritage-valuations-oklahoma-city/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma_city-oklahoma-city-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma_city-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma-city-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma-city-heritage-valuations-oklahoma-city/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma-city-oklahoma-city-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma-city-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma%20city-heritage-valuations-oklahoma-city/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma%20city-oklahoma-city-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma%20city-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/omaha-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/omaha-borsheims-fine-jewelry-gifts/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/omaha-omaha-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/omaha-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/oriental-rug-cleaning-co/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/orlando-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/orlando-heritage-valuations-orlando/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/orlando-orlando-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/ottawa-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/ottawa-elizabeth-antique-appraisal-service/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/ottawa-heritage-valuations-ottawa/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/ottawa-ottawa-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/ottawa-pridhams-auctions-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4381,56 +1748,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/page-art-inc-7420/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/page-art-inc-9983/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/page-art-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/palm_beach-2-fontaines-auction-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/palm_beach-palm-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/palm-beach-2-fontaines-auction-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/palm-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/palm-beach-appraisal-group/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/palm-beach-palm-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4441,50 +1760,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/palm%20beach-2-fontaines-auction-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/palm%20beach-palm-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/pamela-pierrepont-bardo-374/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/pamela-pierrepont-bardo/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/parting-with-possessions-pwp-appraisals/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/paul-prince-collector-vehicle-appraiser/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/pearson-appraisals-1845/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/pearson-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4507,24 +1784,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/philadelphia-1-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/philadelphia-2-william-bunch-auctions-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/philadelphia-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/philadelphia-art-of-estates-personal-property-appraisal-firm/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -4537,68 +1796,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/philadelphia-philadelphia-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/phoenix-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/phoenix-antique-gatherings/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/phoenix-baker-asian-art-antique-specialists/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/phoenix-phoenix-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/phoenix-pmr-jewelry-evaluations/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/pier-and-co/</loc>
     <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/pittsburgh-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/pittsburgh-concept-art-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/pittsburgh-kurt-shaw-company/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/pittsburgh-pittsburgh-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4611,30 +1816,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/plcombs-asian-art/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/pmr-jewelry-evaluations/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/portland-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/portland-heritage-valuations-portland/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/portland-portland-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4675,30 +1856,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services-2423/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services-8029/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services-boston-office/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services-network/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services-san-antonio-team/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -4723,110 +1880,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/pristine-appraisal-co/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/professional-jewelry-appraisals/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/providence-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/providence-heritage-valuations-providence/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/providence-providence-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/quebec_city-empire-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/quebec_city-inuit-sculptures-art-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/quebec_city-notable-antique-appraisal-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/quebec-city-empire-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/quebec-city-inuit-sculptures-art-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/quebec-city-notable-antique-appraisal-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/quebec%20city-empire-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/quebec%20city-inuit-sculptures-art-gallery/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/quebec%20city-notable-antique-appraisal-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/raleigh-1-look-appraisal-llc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/raleigh-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/raleigh-heritage-valuations-raleigh/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/raleigh-raleigh-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4855,44 +1910,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/regina-brunsdon-lawrek-associates/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/regina-listed-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/regina-tm-appraisals-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/reilly-clark-fine-art-and-appraisals/</loc>
     <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/richard-cervantes-doyle-new-york/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/richard-raymond-j-alasko-8905/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/richard-raymond-j-alasko/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4904,18 +1923,6 @@
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/richmond-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/richmond-heritage-valuations-richmond/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/richmond-richmond-antique-appraisals/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4939,24 +1946,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/rochester-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/rochester-heritage-valuations-rochester/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/rochester-rochester-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/rockwell-antiques-dallas/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -4975,194 +1964,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/sacramento-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/sacramento-heritage-valuations-sacramento/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/sacramento-sacramento-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/sally-rude-personal-property-appraisals-tallahassee-fl-32301/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/salt_lake_city-heritage-valuations-salt-lake-city/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/salt_lake_city-salt-lake-city-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/salt-lake-city-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/salt-lake-city-heritage-valuations-salt-lake-city/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/salt-lake-city-salt-lake-city-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/salt%20lake%20city-heritage-valuations-salt-lake-city/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/salt%20lake%20city-salt-lake-city-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-appraiseitnow-remote-in-person-options/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-ellen-amirkhan-oriental-rug-specialist/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-left-behind-antiques-local-shop-expertise/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-prestige-estate-services-san-antonio-team/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_diego-1-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_diego-2-paul-golubovs/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_diego-san-diego-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_francisco-1-turner-auctions-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_francisco-2-clars-auction-gallery-asian-art-department/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_francisco-san-francisco-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_jose-clars-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_jose-mountain-view-us-foreign-coins/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san_jose-san-jose-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-antonio-appraiseitnow-remote-in-person-options/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-antonio-ellen-amirkhan-oriental-rug-specialist/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-antonio-jewelry-appraisers-offers-world-class-gemological-services-and-support/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-antonio-left-behind-antiques-local-shop-expertise/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-antonio-prestige-estate-services-san-antonio-team/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-diego-1-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-diego-2-paul-golubovs/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-diego-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5191,199 +2000,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-diego-san-diego-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-francisco-1-turner-auctions-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-francisco-2-clars-auction-gallery-asian-art-department/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-francisco-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-francisco-san-francisco-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-jose-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-jose-clars-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-jose-mountain-view-us-foreign-coins/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san-jose-san-jose-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20antonio-appraiseitnow-remote-in-person-options/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20antonio-ellen-amirkhan-oriental-rug-specialist/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20antonio-left-behind-antiques-local-shop-expertise/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20antonio-prestige-estate-services-san-antonio-team/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20diego-1-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20diego-2-paul-golubovs/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20diego-san-diego-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20francisco-1-turner-auctions-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20francisco-2-clars-auction-gallery-asian-art-department/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20francisco-san-francisco-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20jose-clars-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20jose-mountain-view-us-foreign-coins/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/san%20jose-san-jose-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/sandbar-trading-co/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/santa_fe-ellen-amirkhan-rug-care-specialists-association/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/santa_fe-sandbar-trading-co/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/santa_fe-santa-fe-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/santa-fe-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/santa-fe-ellen-amirkhan-rug-care-specialists-association/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/santa-fe-sandbar-trading-co/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/santa-fe-santa-fe-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/santa%20fe-ellen-amirkhan-rug-care-specialists-association/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/santa%20fe-sandbar-trading-co/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/santa%20fe-santa-fe-antique-appraisals/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -5401,73 +2018,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/saskatoon-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/saskatoon-saskatoon-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/saskatoon-tm-appraisals-and-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/saskatoon-transitions-estate-services-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/savannah-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/savannah-heritage-valuations-savannah/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/savannah-jewelry-consignment-network-jcn/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/savannah-savannah-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/saylor-rice-appraisals-2616/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/saylor-rice-appraisals-3829/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/saylor-rice-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/schinkel-appraisals/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -5475,30 +2026,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/scottsdale-appraisal-specialists/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/seattle-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/seattle-heritage-valuations-seattle/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/seattle-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/seattle-seattle-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5511,18 +2038,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/shane-group-appraisals/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/shenasi-carpet/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/showplace-nyc-fine-art-buyer-8317/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5547,18 +2062,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/snh-french-antiques-and-collectibles/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/sothebys-new-york-7070/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/sothebys-new-york/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5593,192 +2096,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st-johns-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st-louis-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st._john's-gurr-johns/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st._john's-st-johns-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st._john's-turner-drake-partners-ltd/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st._louis-artrium-fine-art-estate-appraisal/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st._louis-heritage-valuations-st-louis/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st._louis-st-louis-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st._paul-1-redtail-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st._paul-2-revere-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st._paul-3-anoka-area-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.-john's-gurr-johns/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.-john's-st-johns-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.-john's-turner-drake-partners-ltd/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.-louis-artrium-fine-art-estate-appraisal/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.-louis-heritage-valuations-st-louis/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.-louis-st-louis-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.-paul-1-redtail-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.-paul-2-revere-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.-paul-3-anoka-area-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.%20john's-gurr-johns/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.%20john's-st-johns-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.%20john's-turner-drake-partners-ltd/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.%20louis-artrium-fine-art-estate-appraisal/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.%20louis-heritage-valuations-st-louis/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.%20louis-st-louis-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.%20paul-1-redtail-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.%20paul-2-revere-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st.%20paul-3-anoka-area-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/stan-jugovic-associates-ltd/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/statewidenationwide-providers-serving-anchorage/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/stepping-stones-antiques-llc-old-saybrook-connecticut-retail-shop-estate-sale-management-a/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -5787,24 +2104,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/stewart-s-antiques/</loc>
     <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/sudbury-appraiser-listings/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/sudbury-charles-bell-real-estate-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/sudbury-david-dinan-collector-vehicle-specialist/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5827,32 +2126,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tadlock-appraisal-company/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tampa-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tampa-heritage-valuations-tampa/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tampa-jewelry-appraisal/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tampa-tampa-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -5923,134 +2198,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder_bay-1-powell-appraisals-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder_bay-2-provincialniche-specialists-serving-region/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder_bay-a-collector-vehicles/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder_bay-b-art-memorabilia/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-1-powell-appraisals-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-2-provincialniche-specialists-serving-region/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-a-collector-vehicles/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-b-art-memorabilia/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder%20bay-1-powell-appraisals-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder%20bay-2-provincialniche-specialists-serving-region/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder%20bay-a-collector-vehicles/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/thunder%20bay-b-art-memorabilia/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/time-traveler-antiques-and-appraisals-appraisers-coin-dealer-princeton/</loc>
     <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tm-appraisals-and-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tm-appraisals-auctions/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/toledo-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/toledo-heritage-valuations-toledo/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/toledo-toledo-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/toronto-asianpersian-decorative-arts/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/toronto-canadian-indigenous-historical-works/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/toronto-fine-art-archives/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/transitions-estate-services-inc/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -6067,60 +2216,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tucson-1-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tucson-2-bear-raven-appraisal-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tucson-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tucson-tucson-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tulsa-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tulsa-heritage-valuations-tulsa/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/tulsa-tulsa-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/turner-drake-partners-ltd/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/ultra-jewellers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/valuepros/</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -6133,140 +2228,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/vancouver-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/vancouver-heritage-valuations-vancouver/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/vancouver-shenasi-carpet/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/vancouver-vancouver-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/vaughan-estate-sales-appraisals/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/veritas-fine-art-appraisals-consulting-5683/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/veritas-fine-art-appraisals-consulting/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/victoria-berchard-apraisal-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/victoria-coast-wide-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/victoria-list-of-antique-appraisal-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/virginia_beach-appraisal-professionals-businesses/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/virginia_beach-barrett-street-auction-center-antique-mall/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/virginia_beach-virginia-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/virginia-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/virginia-beach-appraisal-professionals-businesses/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/virginia-beach-barrett-street-auction-center-antique-mall/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/virginia-beach-virginia-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/virginia%20beach-appraisal-professionals-businesses/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/virginia%20beach-barrett-street-auction-center-antique-mall/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/virginia%20beach-virginia-beach-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/vogt-auction-galleries-robert-vogt-isa/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/washington-1-prestige-estate-services/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/washington-2-doyle-dc-mid-atlantic-auctions-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -6283,26 +2252,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/washington-dc-fine-art-appraiser/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/washington-dc-new-york-fine-art-appraisers/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/washington-fine-art-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/washington-list-of-appraisers/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -6333,48 +2284,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/appraiser/wfa-appraisals/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/whitehorse-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/whitehorse-heritage-valuations-whitehorse/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/whitehorse-whitehorse-antique-appraisals/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/wichita-art-of-estates/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/wichita-golden-rule-jewlery-llc/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/wichita-jewelery-savers/</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/wichita-licensed-appraisal-professionals/</loc>
-    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -6511,12 +2420,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/boise/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/boise/appraisal-guide/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -6566,12 +2469,6 @@
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/charleston/appraisal-guide/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/charlotte/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -6644,12 +2541,6 @@
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/columbus/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/dallas/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -6745,12 +2636,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/fresno/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/fresno/appraisal-guide/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -6781,12 +2666,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/hartford/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/hartford/appraisal-guide/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -6800,12 +2679,6 @@
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/honolulu/appraisal-guide/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/houston/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -6848,12 +2721,6 @@
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/kelowna/appraisal-guide/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/kingston/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -7220,12 +3087,6 @@
   </url>
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/raleigh/appraisal-guide/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/regina/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -11,7 +11,7 @@
     "city": "Tulsa",
     "region": "OK",
     "country": "US",
-    "numberOfListedAppraisers": 13,
+    "numberOfListedAppraisers": 12,
     "listedAppraisers": [
       {
         "name": "Antique Station",
@@ -21,17 +21,9 @@
       },
       {
         "name": "Cherry Street Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-tulsa.svg",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/cherry-street-antiques.svg",
         "description": "Cherry Street Antiques offers antique appraisal support in Tulsa, Oklahoma. Specialties: Fine Antiques, Vintage Collectibles, Art. Services: Antique Appraisals, Estate Valuations, Consignment.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations Tulsa",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-tulsa/",
-        "slug": "heritage-valuations-tulsa",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_tulsa-heritage-valuations-tulsa_1742203894742_HgEHBd5ta.jpg",
-        "description": "Heritage Valuations Tulsa offers antique appraisal support in Tulsa, Oklahoma. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, Insurance A…",
-        "publicRouteAvailable": true
       },
       {
         "name": "Kerr and Kempf Estate Sales",

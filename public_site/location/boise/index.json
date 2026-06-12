@@ -11,7 +11,7 @@
     "city": "Boise",
     "region": "ID",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
       {
         "name": "Boise Antique Appraisals",
@@ -50,14 +50,6 @@
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-boise.svg",
         "description": "Boise Personal Property Appraisals offers antique appraisal support in Boise, Idaho. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisal…",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations Boise",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-boise/",
-        "slug": "heritage-valuations-boise",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_boise-heritage-valuations-boise_1742170071422_5CB5rJkOY.jpg",
-        "description": "Heritage Valuations Boise offers antique appraisal support in Boise, Idaho. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, Insurance Appr…",
-        "publicRouteAvailable": true
       },
       {
         "name": "Idaho Antique & Estate Appraisals",

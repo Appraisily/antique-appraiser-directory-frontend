@@ -11,16 +11,8 @@
     "city": "Salt Lake City",
     "region": "UT",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
-      {
-        "name": "Heritage Valuations Salt Lake City",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-salt-lake-city/",
-        "slug": "heritage-valuations-salt-lake-city",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt_lake_city-heritage-valuations-salt-lake-city_1742203847051_93_s13qmF.jpg",
-        "description": "Heritage Valuations Salt Lake City offers antique appraisal support in Salt Lake City, Utah. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuation…",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Salt Antique Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/salt-antique-appraisals.svg",
@@ -29,7 +21,7 @@
       },
       {
         "name": "Salt Heritage Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/salt-lake-city-antique-appraisals.svg",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/salt-heritage-appraisals.svg",
         "description": "Salt Heritage Appraisals offers antique appraisal support in Salt Lake City, Utah. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
@@ -44,19 +36,19 @@
       {
         "name": "Salt Lake City Estate Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/salt-lake-city-estate-appraisals.svg",
-        "description": "Salt Lake City Estate Appraisals offers antique appraisal support in Salt Lake City, Utah. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Ap…",
+        "description": "Salt Lake City Estate Appraisals offers antique appraisal support in Salt Lake City, Utah. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Salt Lake City Fine Art & Antique Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/salt-lake-city-fine-art-antique-appraisals.svg",
-        "description": "Salt Lake City Fine Art & Antique Appraisals offers antique appraisal support in Salt Lake City, Utah. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Ins…",
+        "description": "Salt Lake City Fine Art & Antique Appraisals offers antique appraisal support in Salt Lake City, Utah. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Salt Personal Property Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/salt-personal-property-appraisals.svg",
-        "description": "Salt Personal Property Appraisals offers antique appraisal support in Salt Lake City, Utah. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Ap…",
+        "description": "Salt Personal Property Appraisals offers antique appraisal support in Salt Lake City, Utah. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {

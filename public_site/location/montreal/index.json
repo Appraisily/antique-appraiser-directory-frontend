@@ -11,16 +11,8 @@
     "city": "Montreal",
     "region": "QC",
     "country": "CA",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 8,
     "listedAppraisers": [
-      {
-        "name": "Heritage Valuations Montreal",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-montreal/",
-        "slug": "heritage-valuations-montreal",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_montreal-heritage-valuations-montreal_1742203710999_4uMlbHvlh.jpg",
-        "description": "Heritage Valuations Montreal offers antique appraisal support in Montreal, Quebec. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "L&L Succession Estate",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/ll-succession-estate-montreal.svg",
@@ -46,17 +38,9 @@
         "publicRouteAvailable": false
       },
       {
-        "name": "Montreal Antique Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/montreal-antique-appraisals/",
-        "slug": "montreal-antique-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_montreal-montreal-antique-appraisals_1742203706096_Pnlj3rjjr.jpg",
-        "description": "Montreal Antique Appraisals offers antique appraisal support in Montreal, Quebec. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Montreal Estate Sales & Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/montreal-estate-sales.svg",
-        "description": "Montreal Estate Sales & Appraisals offers antique appraisal support in Montreal, Quebec. Specialties: Estate Appraisals, French Canadian Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appr…",
+        "description": "Montreal Estate Sales & Appraisals offers antique appraisal support in Montreal, Quebec. Specialties: Estate Appraisals, French Canadian Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {

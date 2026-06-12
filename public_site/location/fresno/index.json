@@ -11,16 +11,8 @@
     "city": "Fresno",
     "region": "CA",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 8,
     "listedAppraisers": [
-      {
-        "name": "Fresno Antique Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/fresno-antique-appraisals/",
-        "slug": "fresno-antique-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fresno-fresno-antique-appraisals_1742203537805_Ycaxs3Z0C.jpg",
-        "description": "Fresno Antique Appraisals offers antique appraisal support in Fresno, California. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Fresno Antique Estate Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/fresno-antique-estate-appraisals.svg",
@@ -53,17 +45,9 @@
       },
       {
         "name": "Fresno Personal Property Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-fresno.svg",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/fresno-personal-property-appraisals.svg",
         "description": "Fresno Personal Property Appraisals offers antique appraisal support in Fresno, California. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Ap…",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations Fresno",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-fresno/",
-        "slug": "heritage-valuations-fresno",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fresno-heritage-valuations-fresno_1742203542710_kef740l-Y.jpg",
-        "description": "Heritage Valuations Fresno offers antique appraisal support in Fresno, California. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
       },
       {
         "name": "Sun Valley Antiques",

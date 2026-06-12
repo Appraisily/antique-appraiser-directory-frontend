@@ -478,7 +478,7 @@ export function StandardizedAppraiserPage() {
               <div className="flex items-start">
                 <a
                   href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(appraiser.address.formatted)}`}
-                  className="flex items-start text-gray-700 hover:text-blue-600"
+                  className="flex w-full items-start text-gray-700 hover:text-blue-600"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -491,7 +491,7 @@ export function StandardizedAppraiserPage() {
                 {phoneHref ? (
                   <a
                     href={phoneHref}
-                    className="flex items-center text-gray-700 hover:text-blue-600"
+                    className="flex w-full items-center text-gray-700 hover:text-blue-600"
                     data-gtm-event="directory_cta"
                     data-gtm-cta="call"
                     data-gtm-surface="profile_contact_info"
@@ -514,7 +514,7 @@ export function StandardizedAppraiserPage() {
                 <div className="flex items-center">
                   <a
                     href={emailHref}
-                    className="flex max-w-[calc(100%-5rem)] items-center text-gray-700 hover:text-blue-600 sm:max-w-none"
+                    className="flex w-full items-center text-gray-700 hover:text-blue-600"
                     data-gtm-event="directory_cta"
                     data-gtm-cta="email"
                     data-gtm-surface="profile_contact_info"
@@ -532,7 +532,7 @@ export function StandardizedAppraiserPage() {
                 <div className="flex items-center">
                   <a
                     href={appraiser.contact.website.startsWith('http') ? appraiser.contact.website : `https://${appraiser.contact.website}`}
-                    className="flex items-center text-gray-700 hover:text-blue-600"
+                    className="flex w-full items-center text-gray-700 hover:text-blue-600"
                     target="_blank"
                     rel="noopener noreferrer"
                     data-gtm-event="directory_cta"

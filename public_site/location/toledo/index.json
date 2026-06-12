@@ -11,7 +11,7 @@
     "city": "Toledo",
     "region": "OH",
     "country": "US",
-    "numberOfListedAppraisers": 13,
+    "numberOfListedAppraisers": 11,
     "listedAppraisers": [
       {
         "name": "Ancestor House Antiques & Appraiser",
@@ -39,17 +39,9 @@
       },
       {
         "name": "Grandma's Attic Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-toledo.svg",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/grandmas-attic.svg",
         "description": "Grandma's Attic Antiques offers antique appraisal support in Toledo, Ohio. Specialties: General Antiques, Glassware, Collectibles. Services: Antique Appraisals, Estate Valuations, Consignment.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations Toledo",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-toledo/",
-        "slug": "heritage-valuations-toledo",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_toledo-heritage-valuations-toledo_1742203878898_QOapcw3l_.jpg",
-        "description": "Heritage Valuations Toledo offers antique appraisal support in Toledo, Ohio. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
       },
       {
         "name": "Leffler's Antiques",

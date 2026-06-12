@@ -11,28 +11,20 @@
     "city": "Lexington",
     "region": "KY",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
       {
         "name": "Bluegrass Estate Sales & Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-lexington.svg",
-        "description": "Bluegrass Estate Sales & Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Estate Appraisals, Southern Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Apprais…",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/bluegrass-estate-sales.svg",
+        "description": "Bluegrass Estate Sales & Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Estate Appraisals, Southern Antiques, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appraisals.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations Lexington",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-lexington/",
-        "slug": "heritage-valuations-lexington",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_lexington-heritage-valuations-lexington_1742202715691_lL68NH6MS.jpg",
-        "description": "Heritage Valuations Lexington offers antique appraisal support in Lexington, Kentucky. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance App…",
-        "publicRouteAvailable": true
       },
       {
         "name": "Lexington Antique Appraisals",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/lexington-antique-appraisals/",
         "slug": "lexington-antique-appraisals",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_lexington-lexington-antique-appraisals_1742202709428_A4lG6IGYF.jpg",
-        "description": "Lexington Antique Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Appr…",
+        "description": "Lexington Antique Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
         "publicRouteAvailable": true
       },
       {
@@ -44,25 +36,25 @@
       {
         "name": "Lexington Estate Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/lexington-estate-appraisals.svg",
-        "description": "Lexington Estate Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisa…",
+        "description": "Lexington Estate Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Lexington Fine Art & Antique Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/lexington-fine-art-antique-appraisals.svg",
-        "description": "Lexington Fine Art & Antique Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance…",
+        "description": "Lexington Fine Art & Antique Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Lexington Heritage Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/lexington-heritage-appraisals.svg",
-        "description": "Lexington Heritage Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Apprais…",
+        "description": "Lexington Heritage Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Lexington Personal Property Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/prestige-estate-services.svg",
-        "description": "Lexington Personal Property Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insuranc…",
+        "description": "Lexington Personal Property Appraisals offers antique appraisal support in Lexington, Kentucky. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {

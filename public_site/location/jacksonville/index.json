@@ -14,14 +14,6 @@
     "numberOfListedAppraisers": 10,
     "listedAppraisers": [
       {
-        "name": "Jacksonville Antique Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jacksonville-antique-appraisals/",
-        "slug": "jacksonville-antique-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jacksonville-jacksonville-antique-appraisals_1742202670202_HgulXDPRj.jpg",
-        "description": "Jacksonville Antique Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Jacksonville Estate Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/jacksonville-estate-appraisals.svg",
         "description": "Jacksonville Estate Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance App…",
@@ -50,6 +42,14 @@
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/list-of-antique-appraisers.svg",
         "description": "Jacksonville Personal Property Appraisals offers antique appraisal support in Jacksonville, Florida. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Ins…",
         "publicRouteAvailable": false
+      },
+      {
+        "name": "Mussallem Galleries",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mussallem-antiques/",
+        "slug": "mussallem-antiques",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mussallem-antiques.svg",
+        "description": "Mussallem Galleries offers free verbal appraisals and inquiries to sell antiques, Oriental rugs, silver, paintings, estate items, fine art, and antique furniture in Jacksonville, Florida.",
+        "publicRouteAvailable": true
       },
       {
         "name": "List of Antique Appraisers",

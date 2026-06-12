@@ -119,7 +119,21 @@ export function DecisionRouter({
           const label = isLocal ? localLabel : choice.cta;
 
           return (
-            <article key={choice.kind} className="rounded-lg border border-slate-200 bg-white p-4 shadow-sm">
+            <a
+              key={choice.kind}
+              href={destination}
+              className="block rounded-lg border border-slate-200 bg-white p-4 text-inherit no-underline shadow-sm transition-shadow hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300 focus-visible:ring-offset-2"
+              data-gtm-event="directory_cta"
+              data-cta-kind={choice.kind}
+              data-gtm-placement="decision_router"
+              data-gtm-campaign={campaign}
+              onClick={(event) => {
+                onCtaClick?.(choice.kind, 'decision_router', destination);
+                if (isLocal) {
+                  onLocalClick?.(event);
+                }
+              }}
+            >
               <div className="flex items-start gap-4">
                 <img
                   src={choice.iconSrc}
@@ -136,24 +150,13 @@ export function DecisionRouter({
                   <p className="mt-2 text-sm leading-relaxed text-slate-600">{choice.copy}</p>
                 </div>
               </div>
-              <a
-                href={destination}
+              <span
                 className="mt-5 inline-flex min-h-[48px] w-full items-center justify-center gap-2 rounded-lg bg-slate-950 px-4 py-3 text-base font-bold text-white shadow-sm transition-colors hover:bg-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300 focus-visible:ring-offset-2"
-                data-gtm-event="directory_cta"
-                data-cta-kind={choice.kind}
-                data-gtm-placement="decision_router"
-                data-gtm-campaign={campaign}
-                onClick={(event) => {
-                  onCtaClick?.(choice.kind, 'decision_router', destination);
-                  if (isLocal) {
-                    onLocalClick?.(event);
-                  }
-                }}
               >
                 {label}
                 <ChevronRight className="h-5 w-5" aria-hidden="true" />
-              </a>
-            </article>
+              </span>
+            </a>
           );
         })}
       </div>

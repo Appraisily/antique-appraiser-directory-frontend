@@ -11,25 +11,17 @@
     "city": "Rochester",
     "region": "NY",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
       {
         "name": "Finger Lakes Antique Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-rochester.svg",
-        "description": "Finger Lakes Antique Appraisals offers antique appraisal support in Rochester, New York. Specialties: Antiques, Fine Art, Estate Contents, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Apprais…",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/finger-lakes-antique-appraisals.svg",
+        "description": "Finger Lakes Antique Appraisals offers antique appraisal support in Rochester, New York. Specialties: Antiques, Fine Art, Estate Contents, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
-        "name": "Heritage Valuations Rochester",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-rochester/",
-        "slug": "heritage-valuations-rochester",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_rochester-heritage-valuations-rochester_1742203815258_MTjoE0tMj.jpg",
-        "description": "Heritage Valuations Rochester offers antique appraisal support in Rochester, New York. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Park Avenue Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/rochester-antique-appraisals.svg",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/park-avenue-antiques.svg",
         "description": "Park Avenue Antiques offers antique appraisal support in Rochester, New York. Specialties: Fine Antiques, Art, Decorative Objects. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
@@ -50,31 +42,31 @@
       {
         "name": "Rochester Estate Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/rochester-estate-appraisals.svg",
-        "description": "Rochester Estate Appraisals offers antique appraisal support in Rochester, New York. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisa…",
+        "description": "Rochester Estate Appraisals offers antique appraisal support in Rochester, New York. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Rochester Fine Art & Antique Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/rochester-fine-art-antique-appraisals.svg",
-        "description": "Rochester Fine Art & Antique Appraisals offers antique appraisal support in Rochester, New York. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance…",
+        "description": "Rochester Fine Art & Antique Appraisals offers antique appraisal support in Rochester, New York. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Rochester Heritage Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/rochester-heritage-appraisals.svg",
-        "description": "Rochester Heritage Appraisals offers antique appraisal support in Rochester, New York. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Apprais…",
+        "description": "Rochester Heritage Appraisals offers antique appraisal support in Rochester, New York. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Rochester Personal Property Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/rochester-personal-property-appraisals.svg",
-        "description": "Rochester Personal Property Appraisals offers antique appraisal support in Rochester, New York. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insuranc…",
+        "description": "Rochester Personal Property Appraisals offers antique appraisal support in Rochester, New York. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
         "name": "Western New York Estate Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/wny-estate-appraisals.svg",
-        "description": "Western New York Estate Appraisals offers antique appraisal support in Rochester, New York. Specialties: Estate Appraisals, General Antiques, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appr…",
+        "description": "Western New York Estate Appraisals offers antique appraisal support in Rochester, New York. Specialties: Estate Appraisals, General Antiques, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       }
     ],

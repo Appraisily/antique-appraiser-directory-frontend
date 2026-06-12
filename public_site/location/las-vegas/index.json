@@ -11,7 +11,7 @@
     "city": "Las Vegas",
     "region": "NV",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
       {
         "name": "Anthony Slayter-Ralph Fine Art",
@@ -30,14 +30,6 @@
         "publicRouteAvailable": true
       },
       {
-        "name": "Joel Bohy (Blackstone Valley Auctions)",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/joel-bohy-blackstone-valley-auctions/",
-        "slug": "joel-bohy-blackstone-valley-auctions",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_las_vegas-joel-bohy-blackstone-valley-auctions_1742201536847_kbTtWBiuD.jpg",
-        "description": "Joel Bohy (Blackstone Valley Auctions) offers antique appraisal support in Las Vegas, Nevada. Services: Greater Las Vegas, Summerlin, Henderson.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Las Antique Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/las-antique-appraisals.svg",
         "description": "Las Antique Appraisals offers antique appraisal support in Las Vegas, Nevada. Specialties: Antiques, Fine Art, Furniture, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
@@ -52,7 +44,7 @@
       {
         "name": "Las Personal Property Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/las-personal-property-appraisals.svg",
-        "description": "Las Personal Property Appraisals offers antique appraisal support in Las Vegas, Nevada. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Apprai…",
+        "description": "Las Personal Property Appraisals offers antique appraisal support in Las Vegas, Nevada. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {
@@ -64,7 +56,7 @@
       {
         "name": "Las Vegas Fine Art & Antique Appraisals",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/prestige-estate-services.svg",
-        "description": "Las Vegas Fine Art & Antique Appraisals offers antique appraisal support in Las Vegas, Nevada. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance A…",
+        "description": "Las Vegas Fine Art & Antique Appraisals offers antique appraisal support in Las Vegas, Nevada. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
         "publicRouteAvailable": false
       },
       {

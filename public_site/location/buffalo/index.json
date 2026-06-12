@@ -11,7 +11,7 @@
     "city": "Buffalo",
     "region": "NY",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
       {
         "name": "Allentown Antiques",
@@ -62,22 +62,6 @@
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-valuations-buffalo.svg",
         "description": "Ellicott Antiques offers antique appraisal support in Buffalo, New York. Specialties: General Antiques, Vintage Collectibles, Furniture. Services: Antique Appraisals, Estate Valuations, Consignment.",
         "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Valuations Buffalo",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heritage-valuations-buffalo/",
-        "slug": "heritage-valuations-buffalo",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_buffalo-heritage-valuations-buffalo_1742170111225_EWUSJzKck.jpg",
-        "description": "Heritage Valuations Buffalo offers antique appraisal support in Buffalo, New York. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Apprais…",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Key Features",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/key-features/",
-        "slug": "key-features",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_buffalo-key-features_1742170104600_dKntJ-9OD.jpg",
-        "description": "Key Features offers antique appraisal support in Buffalo, New York. Specialties: Antique Furniture, Vintage Collectibles, Estate Items. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
       }
     ],
     "source": {

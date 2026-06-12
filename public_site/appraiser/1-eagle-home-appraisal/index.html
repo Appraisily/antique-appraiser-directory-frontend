@@ -5,12 +5,7 @@
     <link rel="apple-touch-icon" href="https://assets.appraisily.com/assets/directory/WebPage/logo_new.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1. Eagle Home Appraisal - Art &amp; Antique Appraiser in Long Beach | Local Appraisal Services</title>
-    <meta name="description" content="Get professional art and antique appraisal services from 1. Eagle Home Appraisal in Long Beach. Specializing in Trust/estate-related residential real property valuations (probate, tax compliance) [⁵].  
-- Certifications: Certified residential appraisers (state licensing implied).  
-- Years Active: Not specified (focuses exclusively on estates).  
-+ Service Area: Greater Los Angeles/Long Basin region⁵].  
-+ Pricing: Project-based quotes post-inspection⁵].  
-+ Contact: Website form/appointment scheduling via [eaglehomeappraisallongbeach.com](https://eaglehomeappraisallongbeach.com). Verified expert with client reviews.">
+    <meta name="description" content="Review 1. Eagle Home Appraisal in Long Beach, CA, including listed appraisal services, specialties, contact options, and online appraisal alternatives.">
     <link rel="canonical" href="https://antique-appraiser-directory.appraisily.com/appraiser/1-eagle-home-appraisal/">
     <!-- Preload critical assets -->
     <link rel="preload" href="/assets/index-DTK86mVu.css" as="style" crossorigin="">
@@ -506,6 +501,40 @@
   const router = document.querySelector('[data-appraisily-directory-decision-router="1"]');
   const proof = document.querySelector('[data-appraisily-directory-sample-proof="1"]');
   let viewed = false;
+
+  function activateRouterCards() {
+    if (!router) return;
+    const grid = router.querySelector('.grid');
+    if (!grid) return;
+
+    Array.from(grid.children).forEach((card) => {
+      if (!(card instanceof HTMLElement)) return;
+      if (card.tagName.toLowerCase() !== 'article') return;
+
+      const anchor = card.querySelector('a[data-gtm-event="directory_cta"][href]');
+      if (!(anchor instanceof HTMLAnchorElement)) return;
+
+      card.setAttribute('role', 'link');
+      card.setAttribute('tabindex', '0');
+      card.style.cursor = 'pointer';
+
+      const activate = (event) => {
+        const target = event.target;
+        const interactive = target?.closest?.('a, button, input, select, textarea, summary, [role="button"], [role="link"]');
+        if (interactive && interactive !== card) return;
+        anchor.click();
+      };
+
+      card.addEventListener('click', activate);
+      card.addEventListener('keydown', (event) => {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+        event.preventDefault();
+        anchor.click();
+      });
+    });
+  }
+
+  activateRouterCards();
 
   function readCookie(name) {
     const prefix = encodeURIComponent(name) + '=';
