@@ -132,6 +132,65 @@
       }
     })();
   </script>
+  <script data-appraisily-directory-search-aliases="1">
+    (function() {
+      const redirects = {
+        '07866': 'new-york',
+        '12019': 'new-york',
+        '17011': 'philadelphia',
+        '24153': 'richmond',
+        '29464': 'charleston',
+        '29926': 'savannah',
+        '41056': 'cincinnati',
+        '41075': 'cincinnati',
+        '46184': 'indianapolis',
+        '49203': 'detroit',
+        '54452': 'milwaukee',
+        '55434': 'minneapolis',
+        '56001': 'minneapolis',
+        '76539': 'austin',
+        '83701': 'boise',
+        '90210': 'los-angeles',
+        '92646': 'los-angeles',
+        'beverly hills': 'los-angeles',
+        'longview tx': 'dallas',
+        'longview, tx': 'dallas',
+        'merrill wi': 'milwaukee',
+        'merrill, wi': 'milwaukee',
+        'moncton nb': 'moncton',
+        'moncton, nb': 'moncton',
+        'watertown ny': 'new-york',
+        'watertown, ny': 'new-york'
+      };
+
+      const normalize = (value) => String(value || '').trim().toLowerCase().replace(/\s+/g, ' ').replace(/\s*,\s*/g, ', ');
+      const resolve = (value) => {
+        const query = normalize(value);
+        const zip = query.match(/\b\d{5}\b/)?.[0];
+        return redirects[query] || (zip ? redirects[zip] : null);
+      };
+
+      function handleSearch(event) {
+        const form = event.target && event.target.closest ? event.target.closest('form') : null;
+        if (!form) return;
+        const input = form.querySelector('input[type="text"], input[name="city"]');
+        if (!input) return;
+        const slug = resolve(input.value);
+        if (!slug) return;
+        event.preventDefault();
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'location_search_alias_redirect',
+          source: 'hero_directory',
+          query: input.value,
+          city_slug: slug
+        });
+        window.location.assign('/location/' + slug + '/');
+      }
+
+      document.addEventListener('submit', handleSearch, true);
+    })();
+  </script>
   
 
 

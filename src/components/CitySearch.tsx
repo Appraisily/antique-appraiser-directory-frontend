@@ -10,6 +10,38 @@ export type CitySearchHandle = {
   focusInput: () => void;
 };
 
+const SEARCH_REDIRECTS: Record<string, string> = {
+  '07866': 'new-york',
+  '12019': 'new-york',
+  '17011': 'philadelphia',
+  '24153': 'richmond',
+  '29464': 'charleston',
+  '29926': 'savannah',
+  '41056': 'cincinnati',
+  '41075': 'cincinnati',
+  '46184': 'indianapolis',
+  '49203': 'detroit',
+  '54452': 'milwaukee',
+  '55434': 'minneapolis',
+  '56001': 'minneapolis',
+  '76539': 'austin',
+  '83701': 'boise',
+  '90210': 'los-angeles',
+  '92646': 'los-angeles',
+  'beverly hills': 'los-angeles',
+  'longview tx': 'dallas',
+  'longview, tx': 'dallas',
+  'merrill wi': 'milwaukee',
+  'merrill, wi': 'milwaukee',
+  'moncton nb': 'moncton',
+  'moncton, nb': 'moncton',
+  'watertown ny': 'new-york',
+  'watertown, ny': 'new-york',
+};
+
+const normalizeSearchQuery = (value: string) =>
+  value.trim().toLowerCase().replace(/\s+/g, ' ').replace(/\s*,\s*/g, ', ');
+
 export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
@@ -137,37 +169,58 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
     navigate(`/location/${city.slug}`);
   }, [navigate]);
 
+  const resolveRedirect = useCallback((rawQuery: string) => {
+    const normalizedQuery = normalizeSearchQuery(rawQuery);
+    const zip = normalizedQuery.match(/\b\d{5}\b/)?.[0];
+    const redirectSlug = SEARCH_REDIRECTS[normalizedQuery] || (zip ? SEARCH_REDIRECTS[zip] : undefined);
+    if (!redirectSlug) return null;
+    return cities.find((city) => city.slug === redirectSlug) || null;
+  }, []);
+
   const submitSearch = useCallback(() => {
     if (suggestions.length > 0) {
       handleSelect(suggestions[0]);
       return true;
     }
 
-    if (query.trim().length > 0) {
+    const rawQuery = query.trim();
+    if (rawQuery.length > 0) {
+      const redirectMatch = resolveRedirect(rawQuery);
+      if (redirectMatch) {
+        trackEvent('location_search_alias_redirect', {
+          source: 'hero_directory',
+          query: rawQuery,
+          city_slug: redirectMatch.slug,
+          city_name: redirectMatch.name,
+          state: redirectMatch.state
+        });
+        handleSelect(redirectMatch);
+        return true;
+      }
+
       trackEvent('search_no_results', {
         source: 'hero_directory',
-        query: query.trim()
+        query: rawQuery
       });
     }
 
     return false;
-  }, [handleSelect, query, suggestions]);
+  }, [handleSelect, query, resolveRedirect, suggestions]);
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key !== 'Enter') {
       return;
     }
 
-    const didNavigate = submitSearch();
-    if (didNavigate) {
-      event.preventDefault();
-    }
+    event.preventDefault();
+    submitSearch();
   };
 
   const highlightMatch = (text: string, query: string) => {
     if (!query) return text;
     
-    const regex = new RegExp(`(${query})`, 'gi');
+    const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(${escapedQuery})`, 'gi');
     const parts = text.split(regex);
     
     return parts.map((part, index) => 
@@ -196,7 +249,7 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
           type="text"
           name="city"
           className="w-full h-12 pl-10 pr-12 rounded-lg border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 shadow-sm"
-          placeholder="Enter city or ZIP code"
+          placeholder="Enter city or state"
           role="combobox"
           aria-expanded={isOpen}
           aria-autocomplete="list"
