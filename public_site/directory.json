@@ -6,7 +6,7 @@
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
-    "appraisers": 702,
+    "appraisers": 651,
     "locations": 194
   },
   "feeds": {
@@ -9967,7 +9967,7 @@
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/minerva-appraisal-llc/",
       "name": "Minerva Appraisal, LLC",
       "description": "Minerva Appraisal, LLC provides USPAP-compliant personal property appraisals in Nashville for estates, insurance, divorce, bankruptcy, charitable donation, fine art, antiques, silver, furniture, and collectibles.",
-      "image": "https://assets.appraisily.com/assets/directory/WebPage/logo_new.png",
+      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "telephone": "615-570-7444",
       "email": "kirstensmolensky@gmail.com",
       "address": {
@@ -10004,7 +10004,7 @@
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/minneapolis-antique-appraisals/",
       "name": "Minneapolis Antique Appraisals",
       "description": "Minneapolis Antique Appraisals provides Minneapolis-St. Paul in-home appraisal support for antiques, art, jewelry, coins, furniture, and household property.",
-      "image": "https://assets.appraisily.com/assets/directory/WebPage/logo_new.png",
+      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "telephone": "612-412-1899",
       "address": {
         "city": "Minneapolis",
@@ -18852,7 +18852,7 @@
       "city": "Los Angeles",
       "region": "CA",
       "country": "US",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 9,
       "listedAppraisers": [
         {
           "name": "Antiques Adventures",
@@ -18876,17 +18876,9 @@
         },
         {
           "name": "LACMA Antique & Art Services",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/los-angeles-antique-appraisals.svg",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/lacma-antique-services.svg",
           "description": "LACMA Antique & Art Services offers antique appraisal support in Los Angeles, California. Specialties: Fine Art, Antiques, Decorative Arts. Services: Antique Appraisal Referrals, Art Consultation, Research Services.",
           "publicRouteAvailable": false
-        },
-        {
-          "name": "Los Angeles Antique Appraisals",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/los-angeles-antique-appraisals/",
-          "slug": "los-angeles-antique-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_los_angeles-los-angeles-antique-appraisals_1742203619265_kBqvbrCWU.jpg",
-          "description": "Los Angeles Antique Appraisals offers antique appraisal support in Los Angeles, California. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations…",
-          "publicRouteAvailable": true
         },
         {
           "name": "Palm Antiques",
@@ -19205,7 +19197,7 @@
           "name": "Minneapolis Antique Appraisals",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/minneapolis-antique-appraisals/",
           "slug": "minneapolis-antique-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/WebPage/logo_new.png",
+          "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
           "description": "Minneapolis Antique Appraisals provides Minneapolis-St. Paul in-home appraisal support for antiques, art, jewelry, coins, furniture, and household property.",
           "publicRouteAvailable": true
         },

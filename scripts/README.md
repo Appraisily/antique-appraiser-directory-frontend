@@ -1,6 +1,6 @@
 # Static Publish Scripts
 
-This directory contains the supported scripts for validating and patch-publishing the antique appraiser directory static site.
+This directory contains supported validation and HTML-maintenance scripts for the antique appraiser directory static site.
 
 `public_site/` is the canonical published artifact. Profile and city page content under `public_site/appraiser/**` and `public_site/location/**` must not be mass-edited by scripts.
 
@@ -15,21 +15,8 @@ npm run check:static
 
 ## Deployment
 
-Use patch publish for homepage, nav, footer, managed CTA block, CSS, or asset-only
-deploys:
-
-```
-npm run publish:patch
-```
-
-Patch publish clones the active release first, overlays only allow-listed static
-paths from `public_site/`, then updates shared envelope blocks on existing
-appraiser/location pages. It refuses direct `appraiser/` and `location/` path
-overlays and verifies protected profile/city content before flipping `current`.
-
-Full generated publish is disabled from npm. Individual appraiser and location
-HTML content should only change through direct, reviewed HTML edits. Do not use
-scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
+Production publishing is not supported from this directory. Use the standard
+VPS deploy helper for `antique-appraiser-directory` after validation and review.
 
 ## Remaining Scripts
 
@@ -37,12 +24,17 @@ Most script entrypoints in this directory are compatibility wrappers around
 `/srv/repos/tools/directory-site-utils`. Keep the local wrapper paths because
 package scripts and operator runbooks call them directly.
 
-- `publish-patch.mjs`: patch publisher for homepage/assets/shared envelope blocks.
 - `serve-static.js`: local static server for `public_site/`.
 - `test-html.js`: read-only HTML diagnostics; use `--strict` only when missing local assets should fail the command.
 - `count-appraisers.js`: read-only data count/report helper.
 - `env-check.mjs`: environment validation.
 - `gsc-weekly-title-tuning.mjs`: read-only Search Console title tuning report.
+- `gsc-location-ctr-cohort.mjs`: read-only Search Console cohort report for the priority location-page CTR rewrite test.
+- `build-indexing-manifest.mjs`: classifies sitemap URLs and writes only eligible static canonical pages.
+- `check-indexing-contract.mjs`: audits every sitemap URL for static HTML, robots, canonical, H1, description, JSON-LD, and visible FAQ parity.
+- `repair-faq-schema.mjs`: regenerates FAQ JSON-LD from visible FAQ sections and removes unsupported FAQ claims.
+- `repair-short-mobile-compositing.mjs`: applies the 390x500 solid-nav/hero fallback for Chromium compositing stability.
+- `repair-internal-location-links.mjs`: repairs links to missing location/profile routes without creating thin pages.
 - `check-images.js`, `check-image-coverage.js`: legacy image diagnostics.
 
 ## Removed Build Path

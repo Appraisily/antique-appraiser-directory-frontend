@@ -13,7 +13,7 @@ Operational guardrails: [docs/operational-guardrails.md](docs/operational-guardr
 - Integration with ImageKit for appraiser profile images
 - SEO optimization with structured schema.org data
 - Fast and responsive UI with Tailwind CSS
-- Release-directory patch publish flow for VPS deployment
+- Atomic static-release promotion through the standard VPS deploy helper
 
 ## Standardized Data Model
 
@@ -33,7 +33,6 @@ The normal workflow is now `public_site`-first.
 ```bash
 npm run build
 npm run serve:static
-npm run publish:patch
 ```
 
 `npm run build` is validation-only. It does not compile a new app shell or refresh generated profile/location HTML.
@@ -53,9 +52,6 @@ npm run fetch:imagekit
 # Serve the canonical static site locally
 npm run serve:static
 
-# Patch homepage/assets/envelope over the active release without replacing directory content
-npm run publish:patch
-
 # Run lint checks
 npm run lint
 
@@ -66,19 +62,19 @@ npm run lint
 The VPS deployment serves plain HTML from an nginx container, with content bind-mounted from a release directory (articles-style).
 
 - Canonical editable surface: `public_site/`
-- Patch publish for homepage/nav/footer/static-only changes:
-  - `npm run publish:patch`
 - Validate without mutating generated profile/location HTML:
   - `npm run build`
 
-`npm run publish:patch` is the default for envelope-only changes. It starts from
-the active release, overlays homepage/assets from `public_site/`, updates shared
-managed envelope blocks on existing appraiser/location pages, and verifies that
-protected profile/city content is unchanged before flipping `current`.
+All HTML, SEO, envelope, and asset changes use one production path:
 
-Full generated publish is disabled from npm. Use direct reviewed HTML edits for
-individual profile or city content. Do not use scripts to mass-edit
-`public_site/appraiser/**` or `public_site/location/**`.
+```bash
+node /home/deploy/.codex/skills/public/appraisily-vps-deploy/scripts/deploy.mjs \
+  --service antique-appraiser-directory
+```
+
+The helper validates and content-hashes `public_site/`, promotes changed content
+atomically, verifies the public route and assets, and rolls back on failure.
+`npm run publish`, `npm run publish:patch`, and `npm run deploy` are blockers.
 
 ## Project Structure
 
