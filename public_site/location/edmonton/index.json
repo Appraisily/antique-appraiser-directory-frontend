@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Edmonton, Alberta",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "edmonton",
     "url": "https://antique-appraiser-directory.appraisily.com/location/edmonton/",
@@ -11,26 +11,11 @@
     "city": "Edmonton",
     "region": "AB",
     "country": "CA",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Aestim Art Appraisals Inc",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/beck-antiques-ampjewellery-inc.svg",
-        "description": "Aestim Art Appraisals Inc offers antique appraisal support in Edmonton, Alberta. Services: art appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Design Jewellers",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/beck-antiques-ampjewellery-inc/",
-        "slug": "beck-antiques-ampjewellery-inc",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_edmonton-beck-antiques-ampjewellery-inc_1742201482642_9o12aGlxh.jpg",
-        "description": "Design Jewellers offers antique appraisal support in Edmonton, Alberta. Services: antique appraisal, art appraisal.",
-        "publicRouteAvailable": true
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/edmonton/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

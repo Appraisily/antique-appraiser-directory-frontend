@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Philadelphia, Pennsylvania",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "philadelphia",
     "url": "https://antique-appraiser-directory.appraisily.com/location/philadelphia/",
@@ -11,48 +11,8 @@
     "city": "Philadelphia",
     "region": "PA",
     "country": "US",
-    "numberOfListedAppraisers": 11,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "1\\. Prestige Estate Services",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/1-prestige-estate-services/",
-        "slug": "1-prestige-estate-services",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_philadelphia-1-prestige-estate-services_1742202988285_uckaMIf8Y.jpg",
-        "description": "1\\. Prestige Estate Services offers antique appraisal support in Philadelphia, Pennsylvania. Specialties: former auction-house manager ( ) Edward Kitson, Elizabeth Lovett, Ste. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "2\\. William Bunch Auctions & Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/2-william-bunch-auctions-appraisals/",
-        "slug": "2-william-bunch-auctions-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_philadelphia-2-william-bunch-auctions-appraisals_1742202994075_3Znn7Z54a.jpg",
-        "description": "2\\. William Bunch Auctions & Appraisals offers antique appraisal support in Philadelphia, Pennsylvania. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Antique Row Philadelphia",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/antique-row-philadelphia.svg",
-        "description": "Antique Row Philadelphia offers antique appraisal support in Philadelphia, Pennsylvania. Specialties: General Antiques, Fine Art, Decorative Objects. Services: Antique Appraisals, Estate Valuations, Consignment.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Chestnut Hill Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/chestnut-hill-antiques.svg",
-        "description": "Chestnut Hill Antiques offers antique appraisal support in Philadelphia, Pennsylvania. Specialties: Fine Antiques, Decorative Arts, Collectibles. Services: Antique Appraisals, Estate Valuations, Consignment.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Liberty Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/liberty-antiques.svg",
-        "description": "Liberty Antiques offers antique appraisal support in Philadelphia, Pennsylvania. Specialties: American Antiques, European Antiques, Furniture. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Linzey Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mccarty-antiques.svg",
-        "description": "Linzey Appraisals offers antique appraisal support in Philadelphia, Pennsylvania. Specialties: Fine Art, Antiques, Furniture, General Household Contents. Services: Fine Art Appraisals, Antique Appraisals, Furniture Appraisals.",
-        "publicRouteAvailable": false
-      },
       {
         "name": "McCarty Antiques",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mccarty-antiques/",
@@ -60,32 +20,6 @@
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mccarty-antiques.svg",
         "description": "McCarty Antiques offers antique appraisal support in Philadelphia, Pennsylvania. Specialties: Fine Art, Antiques, Investment-Quality Antiques, Decorative Arts. Services: Estate Evaluations, Private Collection Evaluations.",
         "publicRouteAvailable": true
-      },
-      {
-        "name": "Pennsylvania Antiques Appraisers",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/philadelphia-antique-appraisals.svg",
-        "description": "Pennsylvania Antiques Appraisers offers antique appraisal support in Philadelphia, Pennsylvania. Specialties: 18th-20th Century Decorative Arts, Investment Fine Art, American Antiques, European Antiques. Services: Antique Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Philadelphia Antique Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/philadelphia-antique-appraisals/",
-        "slug": "philadelphia-antique-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_philadelphia-philadelphia-antique-appraisals_1742203000051_KBeH6J9lM.jpg",
-        "description": "Philadelphia Antique Appraisals offers antique appraisal support in Philadelphia, Pennsylvania. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Rittenhouse Antique Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/rittenhouse-antique-appraisals.svg",
-        "description": "Rittenhouse Antique Appraisals offers antique appraisal support in Philadelphia, Pennsylvania. Specialties: Antiques, Fine Art, Silver, Furniture. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Susan ASA Estate Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/susan-asa-estate-appraisals.svg",
-        "description": "Susan ASA Estate Appraisals offers antique appraisal support in Philadelphia, Pennsylvania. Specialties: Antiques, Decorative Arts, General Residential Contents. Services: Estate Appraisals, Antique Appraisals, Insurance Appraisals.",
-        "publicRouteAvailable": false
       }
     ],
     "source": {

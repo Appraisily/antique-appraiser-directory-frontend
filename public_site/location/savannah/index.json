@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Savannah, Georgia",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "savannah",
     "url": "https://antique-appraiser-directory.appraisily.com/location/savannah/",
@@ -11,18 +11,11 @@
     "city": "Savannah",
     "region": "GA",
     "country": "US",
-    "numberOfListedAppraisers": 1,
-    "listedAppraisers": [
-      {
-        "name": "David Levy",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/savannah-david-levy.svg",
-        "description": "David Levy offers antique appraisal support in Savannah, Georgia. Specialties: Americana, Art, Collectibles, Decorative Arts & Accessories.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/savannah/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Little Rock, Arkansas",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "little-rock",
     "url": "https://antique-appraiser-directory.appraisily.com/location/little-rock/",
@@ -11,68 +11,11 @@
     "city": "Little Rock",
     "region": "AR",
     "country": "US",
-    "numberOfListedAppraisers": 9,
-    "listedAppraisers": [
-      {
-        "name": "Argenta Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/argenta-antiques.svg",
-        "description": "Argenta Antiques offers antique appraisal support in Little Rock, Arkansas. Specialties: Fine Antiques, Southern Antiques, Collectibles. Services: Antique Appraisals, Estate Valuations, Consignment.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Arkansas Estate Sales & Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/arkansas-estate-sales.svg",
-        "description": "Arkansas Estate Sales & Appraisals offers antique appraisal support in Little Rock, Arkansas. Specialties: Estate Appraisals, Antique Furniture, Collectibles. Services: Antique Appraisals, Estate Sales, Insurance Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Little Antique Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/little-antique-appraisals.svg",
-        "description": "Little Antique Appraisals offers antique appraisal support in Little Rock, Arkansas. Specialties: Antiques, Fine Art, Furniture, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Little Heritage Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/little-heritage-appraisals.svg",
-        "description": "Little Heritage Appraisals offers antique appraisal support in Little Rock, Arkansas. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Little Personal Property Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/little-rock-antique-appraisals.svg",
-        "description": "Little Personal Property Appraisals offers antique appraisal support in Little Rock, Arkansas. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Little Rock Antique Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/little-rock-antique-appraisals/",
-        "slug": "little-rock-antique-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_little_rock-little-rock-antique-appraisals_1742203586475_C9LPCbHI9.jpg",
-        "description": "Little Rock Antique Appraisals offers antique appraisal support in Little Rock, Arkansas. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Little Rock Estate Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/little-rock-estate-appraisals.svg",
-        "description": "Little Rock Estate Appraisals offers antique appraisal support in Little Rock, Arkansas. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Little Rock Fine Art & Antique Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/little-rock-fine-art-antique-appraisals.svg",
-        "description": "Little Rock Fine Art & Antique Appraisals offers antique appraisal support in Little Rock, Arkansas. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "The Antique Exchange",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/antique-exchange.svg",
-        "description": "The Antique Exchange offers antique appraisal support in Little Rock, Arkansas. Specialties: General Antiques, Furniture, Vintage Items. Services: Antique Appraisals, Estate Buyouts, Consignment.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/little-rock/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

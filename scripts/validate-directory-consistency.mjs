@@ -135,7 +135,6 @@ for (const blocked of blockedProfiles) {
 for (const location of directoryLocations) {
   const slug = location.slug || slugFromUrl(location.url);
   if (!slug) continue;
-  if (slug !== 'los-angeles') continue;
   const listed = Array.isArray(location.listedAppraisers) ? location.listedAppraisers : [];
   for (const listedAppraiser of listed) {
     const appraiserSlug = listedAppraiser.slug || slugFromUrl(listedAppraiser.url);

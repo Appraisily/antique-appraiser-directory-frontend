@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Fort Lauderdale, Florida",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-21T00:00:00.000Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "fort-lauderdale",
     "url": "https://antique-appraiser-directory.appraisily.com/location/fort-lauderdale/",
@@ -11,48 +11,8 @@
     "city": "Fort Lauderdale",
     "region": "FL",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "B & F Estate Sales",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/fort-lauderdale-antique-appraisals.svg",
-        "description": "B & F Estate Sales offers antique appraisal support in Fort Lauderdale, Florida. Specialties: Estate Sales, Antique Sales, Estate Liquidation, Antique Dealers. Services: Estate Sales, Antique Appraisals, Estate Liquidat…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Fort Lauderdale Antique Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/fort-lauderdale-antique-appraisals/",
-        "slug": "fort-lauderdale-antique-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fort_lauderdale-fort-lauderdale-antique-appraisals_1742201745791_DGtdney4X.jpg",
-        "description": "Fort Lauderdale Antique Appraisals offers antique appraisal support in Fort Lauderdale, Florida. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valua…",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Kerwick Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/kerwick-appraisals.svg",
-        "description": "Kerwick Appraisals offers antique appraisal support in Fort Lauderdale, Florida. Specialties: Antiques, Residential Contents, Oriental Rugs, Silver. Services: Antique Appraisals, Insurance Valuations, Estate Tax Apprais…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Koosh Jewelers",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/koosh-jewelers/",
-        "slug": "koosh-jewelers",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fort_lauderdale-koosh-jewelers_1742201735207_bgNXL6CkoB.jpg",
-        "description": "Koosh Jewelers is a South Florida luxury jeweler in Hollywood offering jewelry appraisals, estate jewelry evaluations, and gold, diamond and watch buying.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Lion and Unicorn",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/lion-and-unicorn.svg",
-        "description": "Lion and Unicorn offers antique appraisal support in Fort Lauderdale, Florida. Specialties: Antiquities, Fine Art, Bronzes and Sculptures, Crystal and Glass. Services: Antique Appraisals, Estate Appraisals, Auction Cons…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Lion and Unicorn - Art & Antiques Appraisal",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/moecker-auctions-inc.svg",
-        "description": "Lion and Unicorn - Art & Antiques Appraisal offers antique appraisal support in Fort Lauderdale, Florida. Specialties: Fine Art, Antiques, Decorative Arts, Collectibles. Services: Antique Appraisals, Art Appraisals, Est…",
-        "publicRouteAvailable": false
-      },
       {
         "name": "Moecker Auctions Inc.",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/moecker-auctions-inc/",
@@ -60,18 +20,6 @@
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/moecker-auctions-inc.svg",
         "description": "Moecker Auctions Inc. offers Fort Lauderdale asset appraisal, auction, and liquidation support for equipment, inventory, complete businesses, estates, vehicles, jewelry, and other property.",
         "publicRouteAvailable": true
-      },
-      {
-        "name": "Nugent Appraisal Services",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/nugent-appraisal-services.svg",
-        "description": "Nugent Appraisal Services offers antique appraisal support in Fort Lauderdale, Florida. Specialties: Antiques, Fine Art, Decorative Art, Collectibles. Services: Antique Appraisals, Fine Art Appraisals, Estate Valuations.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "ValuePros Appraisal Services - Fort Lauderdale",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal-fort-lauderdale.svg",
-        "description": "ValuePros Appraisal Services - Fort Lauderdale offers antique appraisal support in Fort Lauderdale, Florida. Specialties: Antiques, Collectibles, Fine Art, Jewelry. Services: Antique Appraisals, Onsite Appraisals, Insur…",
-        "publicRouteAvailable": false
       }
     ],
     "source": {

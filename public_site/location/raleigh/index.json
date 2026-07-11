@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Raleigh, North Carolina",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "raleigh",
     "url": "https://antique-appraiser-directory.appraisily.com/location/raleigh/",
@@ -11,24 +11,11 @@
     "city": "Raleigh",
     "region": "NC",
     "country": "US",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Dana M Summitt",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/raleigh-dana-m-summitt.svg",
-        "description": "Dana M Summitt offers antique appraisal support in Raleigh, North Carolina. Specialties: Art, Paintings, Photography & Photographs, Prints. Services: Donations, Estate Probate, Expert Witness.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Lisa Schick Hudspeth",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/raleigh-lisa-schick-hudspeth.svg",
-        "description": "Lisa Schick Hudspeth offers antique appraisal support in Raleigh, North Carolina. Specialties: Art, Ceramics, Furniture, Sculpture. Services: Divorce Settlements, Donations, Estate Probate.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/raleigh/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

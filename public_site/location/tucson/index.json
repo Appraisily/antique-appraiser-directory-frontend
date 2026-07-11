@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Tucson, Arizona",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "tucson",
     "url": "https://antique-appraiser-directory.appraisily.com/location/tucson/",
@@ -11,20 +11,11 @@
     "city": "Tucson",
     "region": "AZ",
     "country": "US",
-    "numberOfListedAppraisers": 1,
-    "listedAppraisers": [
-      {
-        "name": "1. Prestige Estate Services",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/1-prestige-estate-services/",
-        "slug": "1-prestige-estate-services",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_tucson-1-prestige-estate-services_1742203407714_1cqPVqCX0.jpg",
-        "description": "1. Prestige Estate Services offers antique appraisal support in Tucson, Arizona. Specialties: Fine art, antiques, ephemera, sports memorabilia. Services: antique appraisal, art appraisal.",
-        "publicRouteAvailable": true
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/tucson/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

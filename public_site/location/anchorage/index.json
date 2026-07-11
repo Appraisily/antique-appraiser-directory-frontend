@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Anchorage, Alaska",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "anchorage",
     "url": "https://antique-appraiser-directory.appraisily.com/location/anchorage/",
@@ -11,66 +11,11 @@
     "city": "Anchorage",
     "region": "AK",
     "country": "US",
-    "numberOfListedAppraisers": 10,
-    "listedAppraisers": [
-      {
-        "name": "(Statewide/Nationwide Providers Serving Anchorage)",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/statewidenationwide-providers-serving-anchorage/",
-        "slug": "statewidenationwide-providers-serving-anchorage",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_anchorage-statewidenationwide-providers-serving-anchorage_1742169587053_XYArqluxi.jpg",
-        "description": "(Statewide/Nationwide Providers Serving Anchorage) offers antique appraisal support in Anchorage, Alaska. Specialties: Antique Furniture, Vintage Collectibles. Services: //prestigeestateservices.com).",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Alaska Premier Auctions & Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/alaska-premier-auctions.svg",
-        "description": "Alaska Premier Auctions & Appraisals offers antique appraisal support in Anchorage, Alaska. Specialties: Antiques, Collectibles, Estate Items, Fine Art. Services: Antique Appraisals, Auction Services, Estate Valuations.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Anchorage Antique Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/anchorage-antique-appraisals/",
-        "slug": "anchorage-antique-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_anchorage-anchorage-antique-appraisals_1742169590132_cBthYNlACZ.jpg",
-        "description": "Anchorage Antique Appraisals offers antique appraisal support in Anchorage, Alaska. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry, Fine Art. Services: Antique Appraisals, Estate Valuations, Insura…",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Antique & Art Appraisers",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/list-of-local-antique-appraisers.svg",
-        "description": "Antique & Art Appraisers offers antique appraisal support in Anchorage, Alaska. Specialties: Antiques, Fine Art, Collectibles, Estate Appraisals. Services: Antique Appraisals, Art Appraisals, Estate Valuations.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "List of Local Antique Appraisers",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/list-of-local-antique-appraisers/",
-        "slug": "list-of-local-antique-appraisers",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_anchorage-list-of-local-antique-appraisers_1742169574874_1Qiu-rAvr.jpg",
-        "description": "List of Local Antique Appraisers offers antique appraisal support in Anchorage, Alaska. Specialties: Anchorage. Services: Antique Appraisals, Estate Valuations.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Melissa Fouse Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/melissa-fouse-appraisals.svg",
-        "description": "Melissa Fouse Appraisals offers antique appraisal support in Anchorage, Alaska. Specialties: Fine Art, Alaska Native Arts, Household Contents, Decorative Arts. Services: Personal Property Appraisals, Antique Appraisals,…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "The Peterson Exchange - Auctions & Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/peterson-exchange-appraisals.svg",
-        "description": "The Peterson Exchange - Auctions & Appraisals offers antique appraisal support in Anchorage, Alaska. Specialties: Fine Art, Memorabilia, Collectibles, Silver. Services: Antique Appraisals, Estate Appraisals, Divorce App…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "ValuePros Appraisal Services - Anchorage",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal-anchorage.svg",
-        "description": "ValuePros Appraisal Services - Anchorage offers antique appraisal support in Anchorage, Alaska. Specialties: Antiques, Collectibles, Fine Art, Personal Property. Services: Antique Appraisals, Onsite Appraisals, Insuranc…",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/anchorage/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

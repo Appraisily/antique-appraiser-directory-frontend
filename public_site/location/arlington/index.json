@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Arlington, Texas",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "arlington",
     "url": "https://antique-appraiser-directory.appraisily.com/location/arlington/",
@@ -11,24 +11,11 @@
     "city": "Arlington",
     "region": "TX",
     "country": "US",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Beverly J. Morris",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/arlington-beverly-j-morris.svg",
-        "description": "Beverly J. Morris offers antique appraisal support in Arlington, Texas. Specialties: Ceramics, Collectibles, Porcelain, Silver. Services: Divorce Settlements, Equitable Distribution, Estate Probate.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Marigold A. Lamb",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/arlington-marigold-a-lamb.svg",
-        "description": "Marigold A. Lamb offers antique appraisal support in Arlington, Texas. Specialties: Decorative Arts & Accessories, Furniture - British, Furniture - European, Silver. Services: Consultant, Expert Witness.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/arlington/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

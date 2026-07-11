@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Detroit, Michigan",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "detroit",
     "url": "https://antique-appraiser-directory.appraisily.com/location/detroit/",
@@ -11,66 +11,8 @@
     "city": "Detroit",
     "region": "MI",
     "country": "US",
-    "numberOfListedAppraisers": 11,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Appraisal Firms & Professionals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/appraisal-firms-professionals/",
-        "slug": "appraisal-firms-professionals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_detroit-appraisal-firms-professionals_1742201392094_OGOM803wQ.jpg",
-        "description": "Appraisal Firms & Professionals offers antique appraisal support in Detroit, Michigan. Specialties: Antique Furniture, Vintage Collectibles.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Bates Art Group",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/bates-art-group.svg",
-        "description": "Bates Art Group offers antique appraisal support in Detroit, Michigan. Specialties: Fine Art, Decorative Art, American Paintings, European Paintings. Services: Antique Appraisals, Art Appraisals, Insurance Valuations.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Cambridge Appraisals - Wendy Dych, ISA AM",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/detroit-antique-appraisals.svg",
-        "description": "Cambridge Appraisals - Wendy Dych, ISA AM offers antique appraisal support in Detroit, Michigan. Specialties: Silver, Antiques, Fine Art, Decorative Arts. Services: Antique Appraisals, Personal Property Appraisals, Esta…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Detroit Antique Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/detroit-antique-appraisals/",
-        "slug": "detroit-antique-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_detroit-detroit-antique-appraisals_1742201402444_5FBxVTb6R.jpg",
-        "description": "Detroit Antique Appraisals offers antique appraisal support in Detroit, Michigan. Specialties: Antique Furniture, Vintage Collectibles, Estate Jewelry. Services: Antique Appraisals, Estate Valuations, Insurance Appraisa…",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Dumouchelle Art Galleries",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/dumouchelle-art-galleries.svg",
-        "description": "Dumouchelle Art Galleries offers antique appraisal support in Detroit, Michigan. Specialties: Fine Art, Antiques, Estate Appraisals. Services: Antique Appraisals, Art Appraisals, Estate Sales.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Edmund Frank & Associates",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/edmund-frank-assoc.svg",
-        "description": "Edmund Frank & Associates offers antique appraisal support in Detroit, Michigan. Specialties: Estate Sales, Antique Appraisals, Moving Sales. Services: Antique Appraisals, Estate Sales, Estate Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Hartt Antiques & Estate Sales Gallery",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/hartt-antiques.svg",
-        "description": "Hartt Antiques & Estate Sales Gallery offers antique appraisal support in Detroit, Michigan. Specialties: Estate Sales, Antique Furniture, Collectibles. Services: Antique Appraisals, Estate Sales, Estate Valuations.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Heritage Appraisals - Michigan",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/heritage-appraisals-michigan.svg",
-        "description": "Heritage Appraisals - Michigan offers antique appraisal support in Detroit, Michigan. Specialties: Fine Art, Decorative Art, Antiques, Furniture. Services: Antique Appraisals, Fine Art Appraisals, Insurance Coverage App…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "New World Antique Gallery",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/prestige-estate-services.svg",
-        "description": "New World Antique Gallery offers antique appraisal support in Detroit, Michigan. Specialties: General Antiques, Vintage Collectibles, Furniture. Services: Antique Appraisals, Estate Buyouts, Consignment.",
-        "publicRouteAvailable": false
-      },
       {
         "name": "Prestige Estate Services",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
@@ -78,12 +20,6 @@
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_detroit-prestige-estate-services_1742201397541_vh9m3LvOq.jpg",
         "description": "Prestige Estate Services offers antique appraisal support in Detroit, Michigan. Specialties: Antique Furniture, Vintage Collectibles.",
         "publicRouteAvailable": true
-      },
-      {
-        "name": "Senate Antiques Inc",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/senate-antiques.svg",
-        "description": "Senate Antiques Inc offers antique appraisal support in Detroit, Michigan. Specialties: Fine Antiques, Vintage Furniture, Collectibles. Services: Antique Appraisals, Estate Valuations, Consignment.",
-        "publicRouteAvailable": false
       }
     ],
     "source": {

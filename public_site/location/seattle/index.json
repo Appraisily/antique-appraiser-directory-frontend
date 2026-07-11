@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Seattle, Washington",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "seattle",
     "url": "https://antique-appraiser-directory.appraisily.com/location/seattle/",
@@ -11,20 +11,8 @@
     "city": "Seattle",
     "region": "WA",
     "country": "US",
-    "numberOfListedAppraisers": 3,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Pamela Jaynes",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/seattle-pamela-jaynes.svg",
-        "description": "Pamela Jaynes offers antique appraisal support in Seattle, Washington. Specialties: Art, Drawings, Glass, Paintings. Services: Donations, Equitable Distribution, Insurance Claims.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Scott G. Zema",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/seattle-scott-g-zema.svg",
-        "description": "Scott G. Zema offers antique appraisal support in Seattle, Washington. Specialties: Arts & Crafts, Ceramics, Collectibles, Furniture. Services: Appraisal Review, Divorce Settlements, Donations.",
-        "publicRouteAvailable": false
-      },
       {
         "name": "Mr. Johnson's Antiques",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mr-johnson-s-antiques/",

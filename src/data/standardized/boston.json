@@ -405,71 +405,39 @@
       "slug": "boston-antique-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-boston-antique-appraisals_1742170081377_9bn92c2hU.jpg",
       "address": {
-        "street": "713 Main St",
+        "street": "",
         "city": "Boston",
         "state": "MA",
-        "zip": "50396",
-        "formatted": "713 Main St, Boston, MA 50396"
+        "zip": "",
+        "formatted": "Boston, MA"
       },
       "contact": {
-        "phone": "123-424-9397",
-        "email": "info@bostonantiqueappraisals.com",
-        "website": "https://www.bostonantiqueappraisals.com"
+        "phone": "",
+        "email": "",
+        "website": ""
       },
       "business": {
-        "yearsInBusiness": "22 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Appraisal fees vary by collection size and complexity. Contact Boston Antique Appraisals in Boston, MA for a tailored quote.",
-        "rating": 4.6,
-        "reviewCount": 17
+        "yearsInBusiness": "",
+        "hours": [],
+        "pricing": "",
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
-        "specialties": [
-          "Antique Furniture",
-          "Vintage Collectibles",
-          "Estate Jewelry"
-        ],
-        "certifications": [
-          "ISA Certified",
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Antique Appraisals",
-          "Estate Valuations"
-        ]
+        "specialties": [],
+        "certifications": [],
+        "services": []
       },
       "content": {
-        "about": "Boston Antique Appraisals provides professional antique appraisal services in the Boston area with expertise in antique furniture, collectibles, fine art, and estate items. We offer thorough, accurate valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Boston Antique Appraisals serves Boston, MA with antique appraisal support focused on Antique Furniture, Vintage Collectibles, Estate Jewelry."
+        "about": "This legacy directory record was rejected after its identity and contact claims could not be verified.",
+        "notes": "Retained only for source-history auditability; do not publish."
       },
-      "reviews": [
-        {
-          "author": "Patricia T.",
-          "rating": 5,
-          "date": "2024-10-18",
-          "content": "They took the time to explain the historical significance of my antique pieces and provided a thorough valuation process."
-        },
-        {
-          "author": "Linda T.",
-          "rating": 4.5,
-          "date": "2024-10-02",
-          "content": "Their knowledge of 19th century antique furniture made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Patricia B.",
-          "rating": 1,
-          "date": "2024-07-18",
-          "content": "Knowledgeable about antiques, though communication could have been better during the process."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
+        "lastUpdated": "2026-07-11",
+        "inService": false,
+        "publicationStatus": "rejected",
+        "publicationReason": "unverifiable_identity_invalid_contact_unsupported_claims"
       }
     },
     {
@@ -764,27 +732,14 @@
       "contact": {
         "phone": "(617) 868-9655",
         "email": "",
-        "website": ""
+        "website": "https://www.cambridgeantiquemarket.com/"
       },
       "business": {
-        "yearsInBusiness": "35 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 31
+        "yearsInBusiness": "",
+        "hours": [],
+        "pricing": "",
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
@@ -793,20 +748,24 @@
           "Collectibles"
         ],
         "certifications": [],
-        "services": [
-          "Antique Appraisals",
-          "Estate Buyouts",
-          "Consignment"
-        ]
+        "services": ["Multi-dealer antique marketplace"]
       },
       "content": {
-        "about": "Cambridge Antique Market is a multi-dealer antique emporium offering a wide range of antiques with expert appraisal services available.",
-        "notes": ""
+        "about": "Cambridge Antique Market is a multi-dealer antique marketplace. Its official website does not establish a formal appraisal service.",
+        "notes": "Marketplace resource only; do not publish as an appraiser."
       },
       "reviews": [],
       "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
+        "lastUpdated": "2026-07-11",
+        "inService": false,
+        "publicationStatus": "rejected",
+        "publicationReason": "marketplace_not_verified_appraisal_provider",
+        "verification": {
+          "sourceUrl": "https://www.cambridgeantiquemarket.com/",
+          "verifiedAt": "2026-07-11",
+          "sourceType": "official_business_website",
+          "claimScope": ["identity", "website", "marketplace_service"]
+        }
       }
     },
     {

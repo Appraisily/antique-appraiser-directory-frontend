@@ -70,13 +70,27 @@ export default function Navbar() {
     });
   };
 
-  const handleNavLocationClick = (city: NavCity, placement: 'desktop' | 'mobile') => {
+  const normalizePath = (path: string) => path.replace(/\/+$/, '') || '/';
+  const isCurrentLocation = (city: NavCity) =>
+    normalizePath(location.pathname) === normalizePath(`/location/${city.slug}`);
+
+  const handleNavLocationClick = (
+    event: React.MouseEvent<HTMLAnchorElement>,
+    city: NavCity,
+    placement: 'desktop' | 'mobile'
+  ) => {
     trackEvent('nav_location_click', {
       placement: `nav_${placement}`,
       city_slug: city.slug,
       city_name: city.name,
       state: city.state
     });
+
+    if (isCurrentLocation(city)) {
+      event.preventDefault();
+      setCitiesDropdownOpen(false);
+      setIsOpen(false);
+    }
   };
 
   return (
@@ -127,7 +141,8 @@ export default function Navbar() {
                             data-gtm-city={city.slug}
                             data-gtm-state={city.state}
                             data-gtm-placement="nav_desktop"
-                            onClick={() => handleNavLocationClick(city, 'desktop')}
+                            aria-current={isCurrentLocation(city) ? 'page' : undefined}
+                            onClick={(event) => handleNavLocationClick(event, city, 'desktop')}
                           >
                             {city.name}
                           </a>
@@ -209,7 +224,8 @@ export default function Navbar() {
                   data-gtm-city={city.slug}
                   data-gtm-state={city.state}
                   data-gtm-placement="nav_mobile"
-                  onClick={() => handleNavLocationClick(city, 'mobile')}
+                  aria-current={isCurrentLocation(city) ? 'page' : undefined}
+                  onClick={(event) => handleNavLocationClick(event, city, 'mobile')}
                 >
                   {city.name}
                 </a>

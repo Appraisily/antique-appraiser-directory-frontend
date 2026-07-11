@@ -118,21 +118,25 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
       source: 'hero_directory'
     });
 
-    const fallbackCity = cities.find((city) => city.slug === 'new-york') || cities[0];
     const complete = (city: (typeof cities)[number] | null, meta: Record<string, unknown> = {}) => {
-      const resolved = city || fallbackCity;
-      setQuery(`${resolved.name}, ${resolved.state}`);
+      if (!city) {
+        setIsLocating(false);
+        inputRef.current?.focus();
+        return;
+      }
+
+      setQuery(`${city.name}, ${city.state}`);
       setIsLocating(false);
       trackEvent('search_geolocate_complete', {
         source: 'hero_directory',
-        resolved_city: resolved.slug,
+        resolved_city: city.slug,
         ...meta
       });
-      navigate(`/location/${resolved.slug}`);
+      navigate(`/location/${city.slug}`);
     };
 
     if (typeof navigator === 'undefined' || !navigator.geolocation) {
-      complete(fallbackCity, { reason: 'geolocation_unavailable' });
+      complete(null, { reason: 'geolocation_unavailable' });
       return;
     }
 
@@ -147,7 +151,7 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
           code: error?.code,
           message: error?.message
         });
-        complete(fallbackCity, { reason: 'geolocation_error' });
+        complete(null, { reason: 'geolocation_error' });
       },
       {
         enableHighAccuracy: false,

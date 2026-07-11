@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Cleveland, Ohio",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "cleveland",
     "url": "https://antique-appraiser-directory.appraisily.com/location/cleveland/",
@@ -11,24 +11,11 @@
     "city": "Cleveland",
     "region": "OH",
     "country": "US",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Eric J Jenior",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/cleveland-eric-j-jenior.svg",
-        "description": "Eric J Jenior offers antique appraisal support in Cleveland, Ohio. Specialties: Art, Collectibles, Decorative Arts & Accessories, Furniture.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Gabrielle A. Goodman",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/cleveland-gabrielle-a-goodman.svg",
-        "description": "Gabrielle A. Goodman offers antique appraisal support in Cleveland, Ohio. Specialties: Collectibles, Decorative Arts & Accessories, Objet d'art & De Vertu, Porcelain. Services: Divorce Settlements, Equitable Distributio…",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/cleveland/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

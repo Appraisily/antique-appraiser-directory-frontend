@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { MapPin, Star } from 'lucide-react';
-import { getStandardizedLocation, StandardizedAppraiser, StandardizedLocation } from '../utils/standardizedData';
+import { getPublishedStandardizedLocation, StandardizedAppraiser, StandardizedLocation } from '../utils/standardizedData';
 import { SEO } from '../components/SEO';
 import {
   DECISION_ROUTER_ICON_SET,
@@ -535,12 +535,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Kansas City specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
   },
   chicago: {
-    title: 'Antique Appraisers Near Me in Chicago | Compare Local Experts & Art Appraisals',
+    title: 'Chicago Antique & Art Appraisals | Signed Reports Online',
     description:
-      'Compare 4 Chicago antique appraisers for estate, furniture & fine art. Get expert insurance or donation reports — or try a faster online appraisal.',
-    h1: 'Antique Appraisers Near You in Chicago',
+      'Find Chicago appraisal options for antiques, art, estates, insurance, and donations. Upload photos for an online signed report.',
+    h1: 'Chicago Antique & Art Appraisals',
     heroDescription:
-      'Find antique and art appraisers near you in Chicago. Compare local in-person experts for estate, donation, and insurance valuations — or choose a faster online appraisal.'
+      'Compare Chicago antique and art appraisers, or upload photos for a signed online report when you need estate, insurance, donation, or resale documentation.'
   },
   tucson: {
     title: 'Antique Appraisers Near Me in Tucson | Compare Local Experts & Art Appraisals',
@@ -559,12 +559,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Find Columbus antique and art appraisers for donation documentation, estate review, insurance records, and personal-property valuation, or start with faster online appraisal support.'
   },
   denver: {
-    title: 'Antique Appraisers Near Me in Denver | Compare Local Experts & Art Appraisals',
+    title: 'Denver Antique Appraisers & Art Appraisal | Online Signed Reports',
     description:
-      'Compare 11 Denver antique appraisers for Western art, Native American items & estate valuations. Get expert reports — or try a faster online appraisal.',
-    h1: 'Antique Appraisers Near You in Denver',
+      'Compare Denver antique appraisers and Denver art appraisal options for estate, insurance, and donation needs. Get a signed online report from photos.',
+    h1: 'Denver Antique Appraisers & Art Appraisal Options',
     heroDescription:
-      'Find antique and art appraisers near you in Denver. Compare local in-person experts for estate, donation, and insurance valuations — or choose a faster online appraisal.'
+      'Compare Denver antique appraisers, art appraisal Denver options, and online signed reports for estate, insurance, and donation needs.'
   },
   milwaukee: {
     title: 'Antique Appraisers Near Me in Milwaukee | Compare Local Experts & Art Appraisals',
@@ -679,12 +679,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Edmonton appraisal providers for antiques, art, and personal property to choose local or online valuation.'
   },
   seattle: {
-    title: 'Seattle Art Appraisal Services & Antique Appraisers | Estate & Insurance',
+    title: 'Seattle Antique & Art Appraisals | Signed Online Reports',
     description:
-      'Compare Seattle art appraisal services and antique appraisers for estate, insurance, donation, resale, and personal-property valuation. Review local and online options.',
-    h1: 'Seattle Art Appraisal Services & Antique Appraisers',
+      'Compare Seattle antique and art appraisers, or upload photos for a signed online appraisal report for estate and insurance needs.',
+    h1: 'Seattle Antique & Art Appraisals',
     heroDescription:
-      'Find Seattle appraisal specialists for antiques, art, and collections, then choose local in-person or online valuation support.'
+      'Compare Seattle antique and art appraisers, or upload photos for a signed appraisal report for estate, insurance, donation, and collection decisions.'
   },
   sacramento: {
     title: 'Sacramento Antique Appraisers | Art, Tax & Estate Valuation',
@@ -1152,7 +1152,7 @@ export function StandardizedLocationPage() {
 
       try {
         setIsLoading(true);
-        const data = await getStandardizedLocation(validCitySlug);
+        const data = await getPublishedStandardizedLocation(validCitySlug);
         if (data) {
           setLocationData(data);
         } else {
@@ -2020,7 +2020,11 @@ export function StandardizedLocationPage() {
         )}
 
         {serviceIntents.length > 0 && (
-          <div className="mb-8 rounded-lg border border-emerald-100 bg-emerald-50/40 p-6">
+          <div
+            className="mb-8 rounded-lg border border-emerald-100 bg-emerald-50/40 p-6"
+            data-appraisily-gsc-location-refresh="react"
+          >
+            <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">Search demand snapshot</p>
             <h2 className="text-xl font-semibold mb-2">Appraisal services people search for in {citySearchName}</h2>
             <div className="mt-4 grid gap-4 md:grid-cols-2">
               {serviceIntents.map((intent) => (

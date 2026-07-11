@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Nashville, Tennessee",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "nashville",
     "url": "https://antique-appraiser-directory.appraisily.com/location/nashville/",
@@ -11,60 +11,11 @@
     "city": "Nashville",
     "region": "TN",
     "country": "US",
-    "numberOfListedAppraisers": 8,
-    "listedAppraisers": [
-      {
-        "name": "Case Antiques Auction",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/case-antiques-auction.svg",
-        "description": "Case Antiques Auction offers antique appraisal support in Nashville, Tennessee. Specialties: Fine Art, Antiques, Jewelry, Estate Contents. Services: Antique Appraisals, Auction Services, Estate Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Eighth Avenue Antique District",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/eighth-avenue-antiques.svg",
-        "description": "Eighth Avenue Antique District offers antique appraisal support in Nashville, Tennessee. Specialties: General Antiques, Southern Antiques, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Consignment.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Gas Lamp Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/gas-lamp-antiques.svg",
-        "description": "Gas Lamp Antiques offers antique appraisal support in Nashville, Tennessee. Specialties: Antique Lighting, Fine Antiques, Decorative Arts. Services: Antique Appraisals, Estate Valuations, Lighting Restoration.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Michael Hall Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/michael-hall-antiques.svg",
-        "description": "Michael Hall Antiques offers antique appraisal support in Nashville, Tennessee. Specialties: 18th-20th Century American Furniture, Southern Furniture, Antiques, Fine Art. Services: Antique Appraisals, Estate Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Music City Antique Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/music-city-antique-appraisals.svg",
-        "description": "Music City Antique Appraisals offers antique appraisal support in Nashville, Tennessee. Specialties: Antiques, Fine Art, Southern Antiques, Furniture. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Nashville Antique & Art Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/nashville-antique-appraisals.svg",
-        "description": "Nashville Antique & Art Appraisals offers antique appraisal support in Nashville, Tennessee. Specialties: Antiques, Fine Art, Decorative Arts, Estate Items. Services: Antique Appraisals, Art Appraisals, Estate Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Nashville Antique Gallery",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/nashville-antique-gallery.svg",
-        "description": "Nashville Antique Gallery offers antique appraisal support in Nashville, Tennessee. Specialties: Fine Antiques, Southern Antiques, Music Memorabilia. Services: Antique Appraisals, Estate Valuations, Consignment.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Tennessee Estate Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/tennessee-estate-appraisals.svg",
-        "description": "Tennessee Estate Appraisals offers antique appraisal support in Nashville, Tennessee. Specialties: Antiques, Estate Contents, Fine Art, Collectibles. Services: Estate Appraisals, Antique Appraisals, Insurance Appraisals.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/nashville/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

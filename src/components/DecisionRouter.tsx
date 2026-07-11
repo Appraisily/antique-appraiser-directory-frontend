@@ -22,7 +22,7 @@ const choices = [
   {
     kind: 'signed_report',
     title: 'Signed report',
-    copy: 'For insurance, estate, donation, resale, or documented value decisions.',
+    copy: 'Start a signed report, then upload photos, marks, labels, and notes after secure checkout.',
     cta: 'Signed report',
     iconSrc: '/assets/decision-router-report.png',
   },
@@ -163,7 +163,20 @@ export function DecisionRouter({
 
       <div
         data-appraisily-directory-sample-proof="1"
-        className="mt-6 rounded-lg border border-slate-200 bg-slate-50 p-4 md:flex md:items-center md:justify-between md:gap-5"
+        role="link"
+        tabIndex={0}
+        className="mt-6 cursor-pointer rounded-lg border border-slate-200 bg-slate-50 p-4 md:flex md:items-center md:justify-between md:gap-5"
+        onClick={(event) => {
+          if ((event.target as HTMLElement).closest('a')) return;
+          onCtaClick?.('sample_report', 'sample_proof', professionalSampleUrl);
+          window.location.assign(professionalSampleUrl);
+        }}
+        onKeyDown={(event) => {
+          if (event.key !== 'Enter' && event.key !== ' ') return;
+          event.preventDefault();
+          onCtaClick?.('sample_report', 'sample_proof', professionalSampleUrl);
+          window.location.assign(professionalSampleUrl);
+        }}
       >
         <div className="flex items-start gap-4">
           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-emerald-50 text-emerald-800">

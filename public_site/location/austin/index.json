@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Austin, Texas",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-21T00:00:00.000Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "austin",
     "url": "https://antique-appraiser-directory.appraisily.com/location/austin/",
@@ -11,33 +11,23 @@
     "city": "Austin",
     "region": "TX",
     "country": "US",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 2,
     "listedAppraisers": [
       {
         "name": "All Estate Sales & Auction Company",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/modern-history-society-art-and-antique-appraisal/",
+        "slug": "modern-history-society-art-and-antique-appraisal",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/modern-history-society-art-and-antique-appraisal.svg",
-        "description": "All Estate Sales & Auction Company provides Austin appraisal services for fine art, jewelry, memorabilia, luxury watches, vehicles, coins, equipment, collections, and household estates.",
-        "publicRouteAvailable": true,
-        "route": "/appraiser/modern-history-society-art-and-antique-appraisal/"
+        "description": "",
+        "publicRouteAvailable": true
       },
       {
         "name": "National Jewelry Appraisers",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/national-jewelry-appraisers/",
+        "slug": "national-jewelry-appraisers",
         "image": "https://irp.cdn-website.com/163cf539/dms3rep/multi/logo.png",
-        "description": "National Jewelry Appraisers provides Austin jewelry appraisal services for insurance, estate, inheritance, fair market value, liquidation, and expert witness needs.",
-        "publicRouteAvailable": true,
-        "route": "/appraiser/national-jewelry-appraisers/"
-      },
-      {
-        "name": "Kimberly Permenter",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/austin-kimberly-permenter.svg",
-        "description": "Kimberly Permenter offers antique appraisal support in Austin, Texas. Specialties: Bronzes, Engraving & Etching, Paintings, Prints. Services: Divorce Settlements, Equitable Distribution, Estate Probate.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Rudy M. Pena",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/austin-rudy-m-pena.svg",
-        "description": "Rudy M. Pena offers antique appraisal support in Austin, Texas. Specialties: Gemology/Gemstones, Jewelry - Contemporary, Jewelry - Diamonds, Jewelry - Estate. Services: Divorce Settlements, Donations, Equitable Distribu…",
-        "publicRouteAvailable": false
+        "description": "",
+        "publicRouteAvailable": true
       }
     ],
     "source": {

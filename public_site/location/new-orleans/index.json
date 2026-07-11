@@ -1,30 +1,18 @@
 {
-  "title": "Antique & Art Appraisers in New Orleans, Louisiana",
+  "title": "Antique & Art Appraisers in New Orleans and Metairie, Louisiana",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "new-orleans",
     "url": "https://antique-appraiser-directory.appraisily.com/location/new-orleans/",
-    "name": "Antique & Art Appraisers in New Orleans, Louisiana",
-    "description": "Compare antique and art appraisers in New Orleans, Louisiana and request a fast online appraisal from Appraisily.",
-    "city": "New Orleans",
-    "region": "LA",
-    "country": "US",
-    "numberOfListedAppraisers": 1,
-    "listedAppraisers": [
-      {
-        "name": "Kohlert Appraisal Services",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/kohlert-appraisal-services/",
-        "slug": "kohlert-appraisal-services",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_new_orleans-kohlert-appraisal-services_1742202795372_nMmu2BHYE.jpg",
-        "description": "Kohlert Appraisal Services, LLC offers New Orleans jewelry and personal property appraisals. Specialties: jewelry, silver, antiques, general household contents and gem identification.",
-        "publicRouteAvailable": true
-      }
-    ],
+    "name": "Antique & Art Appraisers in New Orleans and Metairie, Louisiana",
+    "description": "Compare antique and art appraisers in New Orleans and Metairie, Louisiana and request a fast online appraisal from Appraisily.",
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/new-orleans/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

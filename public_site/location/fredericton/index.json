@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Fredericton, New Brunswick",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "fredericton",
     "url": "https://antique-appraiser-directory.appraisily.com/location/fredericton/",
@@ -11,26 +11,11 @@
     "city": "Fredericton",
     "region": "NB",
     "country": "CA",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Liz Isaac Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/liz-isaac-appraisals/",
-        "slug": "liz-isaac-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fredericton-liz-isaac-appraisals_1742201554617_5iJKTfF9z.jpg",
-        "description": "Liz Isaac Appraisals offers antique appraisal support in Fredericton, New Brunswick. Specialties: Art (Canadian/NB artists), period furniture. Services: antique appraisal, art appraisal.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Peppers' House Antiques & Appraisal",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/fredericton-peppers-house-antiques-and-appraisal.svg",
-        "description": "Peppers' House Antiques & Appraisal offers antique appraisal support in Fredericton, New Brunswick. Services: antique appraisal.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/fredericton/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

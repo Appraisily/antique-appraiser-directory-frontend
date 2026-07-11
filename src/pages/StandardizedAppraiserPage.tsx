@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { MapPin, Star, Mail, Phone, Globe, Clock, ChevronRight, Shield } from 'lucide-react';
-import { getStandardizedAppraiser, StandardizedAppraiser } from '../utils/standardizedData';
+import { getPublishedStandardizedAppraiser, StandardizedAppraiser } from '../utils/standardizedData';
 import { SEO } from '../components/SEO';
 import {
   hasPlaceholderName,
@@ -146,7 +146,7 @@ export function StandardizedAppraiserPage() {
       
       try {
         setIsLoading(true);
-        const data = await getStandardizedAppraiser(appraiserId);
+        const data = await getPublishedStandardizedAppraiser(appraiserId);
         if (data) {
           setAppraiser(data);
         } else {
@@ -340,7 +340,8 @@ export function StandardizedAppraiserPage() {
         <SEO 
           title="Appraiser Not Found | Antique Appraisers Directory"
           description="We couldn't find the requested antique appraiser. Browse our directory for other antique appraisers."
-          path="/appraiser/not-found"
+          path={`/appraiser/${appraiserId || 'not-found'}`}
+          noIndex
         />
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-3xl font-bold mb-4">Antique Appraiser Not Found</h1>
@@ -350,6 +351,14 @@ export function StandardizedAppraiserPage() {
           </div>
           <a href={SITE_URL} className="text-blue-600 hover:underline font-medium">
             Browse all locations
+          </a>
+          <span className="mx-3 text-gray-400">|</span>
+          <a
+            href={`https://appraisily.com/contact?source=directory_listing&provider=${encodeURIComponent(appraiserId || 'unknown')}`}
+            className="text-blue-600 hover:underline font-medium"
+            data-provider-correction-link="true"
+          >
+            Report or correct this listing
           </a>
         </div>
       </div>
@@ -649,7 +658,7 @@ export function StandardizedAppraiserPage() {
             </p>
             
             {notesContent && (
-              <div className="bg-blue-50 text-blue-700 p-4 rounded-md mb-6">
+              <div className="bg-blue-50 text-gray-700 p-4 rounded-md mb-6">
                 <p>{notesContent}</p>
               </div>
             )}

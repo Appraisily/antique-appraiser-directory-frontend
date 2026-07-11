@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Chicago, Illinois",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "chicago",
     "url": "https://antique-appraiser-directory.appraisily.com/location/chicago/",
@@ -11,20 +11,8 @@
     "city": "Chicago",
     "region": "IL",
     "country": "US",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 2,
     "listedAppraisers": [
-      {
-        "name": "Bruce O Treadway",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/chicago-bruce-o-treadway.svg",
-        "description": "Bruce O Treadway offers antique appraisal support in Chicago, Illinois. Specialties: Arms & Armor - Firearms, Art, Collectibles, Furniture. Services: Divorce Settlements, Donations, Equitable Distribution.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Lindsey M Owen",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/adams-appraisal-llc.svg",
-        "description": "Lindsey M Owen offers antique appraisal support in Chicago, Illinois. Specialties: Art, Drawings, Paintings, Prints. Services: Damage Claims, Divorce Settlements, Donations.",
-        "publicRouteAvailable": false
-      },
       {
         "name": "Adams Appraisal LLC",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/adams-appraisal-llc/",

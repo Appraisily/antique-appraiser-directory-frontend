@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Charlottetown, Prince Edward Island",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "charlottetown",
     "url": "https://antique-appraiser-directory.appraisily.com/location/charlottetown/",
@@ -11,24 +11,11 @@
     "city": "Charlottetown",
     "region": "PE",
     "country": "CA",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Charm Diamond Centres",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/charlottetown-charm-diamond-centres.svg",
-        "description": "Charm Diamond Centres offers antique appraisal support in Charlottetown, Prince Edward Island. Services: jewellery appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Frank The Jeweler",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/charlottetown-frank-the-jeweler.svg",
-        "description": "Frank The Jeweler offers antique appraisal support in Charlottetown, Prince Edward Island. Services: jewellery appraisals.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/charlottetown/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

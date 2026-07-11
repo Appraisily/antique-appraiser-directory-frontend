@@ -114,6 +114,7 @@ export function ContentFeedback() {
               onClick={() => onVote(true)}
               disabled={submitted}
               ref={yesButtonRef}
+              aria-pressed={helpful === true}
               className={[
                 'rounded-full border px-4 py-2 text-sm font-semibold transition',
                 helpful === true
@@ -129,6 +130,7 @@ export function ContentFeedback() {
               type="button"
               onClick={() => onVote(false)}
               disabled={submitted}
+              aria-pressed={helpful === false}
               className={[
                 'rounded-full border px-4 py-2 text-sm font-semibold transition',
                 helpful === false
@@ -141,6 +143,11 @@ export function ContentFeedback() {
               No
             </button>
           </div>
+          {!submitted && helpful !== null ? (
+            <p className="mt-3 text-sm text-muted-foreground" role="status" aria-live="polite">
+              Selection noted. Add details or send feedback.
+            </p>
+          ) : null}
 
           {submitted ? (
             <p className="mt-4 text-sm font-medium text-foreground">

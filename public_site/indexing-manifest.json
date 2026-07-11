@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-10T12:09:57.004Z",
+  "generatedAt": "2026-07-11T15:44:11.936Z",
   "origin": "https://antique-appraiser-directory.appraisily.com",
-  "sourceSitemapUrls": 567,
-  "retainedSitemapUrls": 567,
+  "sourceSitemapUrls": 468,
+  "retainedSitemapUrls": 468,
   "counts": {
-    "keep-indexable": 567
+    "keep-indexable": 468
   },
   "records": [
     {
@@ -18,17 +18,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/a-and-a-art-appraisals-naples-fl/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/a-coin-and-stamp-gallery-estate-appraisal/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/a-collector-vehicles/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -39,16 +29,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/a-s-estate-sales-of-oregon/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/a-z-appraisal-and-estate-consultants/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/aa-fine-art-art-appraiser-in-boca-raton-and-palm-beach/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -68,17 +48,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/aas-appraisal-lab/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/abbey-road-antiques-and-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/abd-antique-appraisers/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -98,11 +68,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/adams-appraisal-chicago-art-antiques-collectables/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/adams-appraisal-llc/",
       "classification": "keep-indexable",
       "reasons": []
@@ -118,11 +83,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/afa-fine-art/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/alderfer-auction/",
       "classification": "keep-indexable",
       "reasons": []
@@ -133,17 +93,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/alice-karle-appraisals-california-art-appraisers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/alice-karle-fine-art-appraiser/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/allyson-lee-art-appraisal-services/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -173,11 +123,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/american-appraisal-association-new-york-city-ny/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/american-appraisal/",
       "classification": "keep-indexable",
       "reasons": []
@@ -189,16 +134,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/american-gem-registry-neil-beaty-cgja/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/american-institute-of-gemological-research-inc/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -218,27 +153,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/another-memory-appraisals-estate-sales/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antique-alley-estate-services-and-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antique-and-estate-buyers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antique-and-fine-art-appraisal/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antique-and-fine-art-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -263,17 +178,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antiques-and-appraisals-estate-appraisals-and-liquidations-hartford-ct-buying-and-selling/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antiques-and-assets/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antiques-buyer-shrewsbury-nj-all-american-antiques-and-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -298,27 +203,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/appraisal-professionals-businesses/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/appraisalink-for-art-and-antiques/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/appraisals-by-the-sea-inc/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/appraisals-estates-santa-barbara-ca-robin-jones-appraisal-services/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/appraisals-miami-fl-estate-and-appraisal-services-inc/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -329,11 +219,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/appraiser-artwork-jewelry-bend-or-antique-appraisal-associates/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/appraiser-listings/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -353,27 +238,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/arlington-antique-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/art-and-antiques-appraisal-services-llc/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/art-and-antiques-art-appraisal-estate-sales-liquidator-miami-fort-lauderdale-lluria-fine-a/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/art-appraisal-austin/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/art-appraisal-services-llc/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -423,27 +293,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/ashleigh-caroline-associates-inc/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/aspen-antique-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/asset-appraisal-partners/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/associated-estate-and-appraisal-co/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/atlanta-the-william-griffin-appraisal-firm/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -463,17 +318,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/avalon-antiques-appraisals-and-estate-services/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/az-appraisal-services-estates-insurance-property-appraisers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/b-art-memorabilia/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -488,27 +333,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/barbara-k-levin/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/barrett-street-auction-center-antique-mall/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/barry-s-slosberg-auctioneers-and-appraisers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/bass-antique-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/beck-antiques-ampjewellery-inc/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -543,16 +373,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/blue-moon-antiques-estate-sales-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/bmg-appraisal-services/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/bonhams-pacific-northwest/",
       "classification": "keep-indexable",
       "reasons": []
@@ -573,22 +393,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/boyd-auctions/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/brad-peele-estate-sales-and-appraiser-buyer-of-collectibles-vintage-buyer-antique-and-coll/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/brian-lehman-evaluations/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/bryan-h-roberts-appraisal-services/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -643,17 +453,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/certified-estate-and-antique-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/certified-gemologist-gem-appraisal-and-gemstone-appraisal-at-reliant-gem-lab-near-lake-osw/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/certified-personal-property-appraiser/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -689,11 +489,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/clars-auctions/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/coin-dealers-columbus-ohio-appraisal-services-we-buy-coins-buyers-near-me/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -744,11 +539,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/dallas-preston-amherst-valuation-and-advisory/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/danielle-broussard-jewelry-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -818,11 +608,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/dumouchelles/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/duwamps-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
@@ -848,27 +633,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/elizabeth-abston-llc/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/emerald-art-services-llc/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/emmett-appraisal-consulting-group/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/ems-estates/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/ena-art-group/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -918,11 +688,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/fine-arts-services/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/foreside-antiques-falmouth-maine/",
       "classification": "keep-indexable",
       "reasons": []
@@ -959,11 +724,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/gallery-zeff/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/gem-appraisers-colorado-welcome/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1013,11 +773,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/hearts-and-arrows-appraisals-llc/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heirloom-estates-llc-919-323-7524/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1033,17 +788,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/houghtaling-appraisal-service-inc-precision-gem-lab/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/houston-estate-sales-and-auction-company/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/houston-houston-estate-sales-and-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1064,11 +809,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/independent-jewelry-appraisers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/indianapolis-art-of-estates-personal-property-appraisal-firm/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1108,11 +848,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jewelry-appraisal-services-diamond-and-gemstone-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jewelry-appraiser-certified-jewelry-appraisal-experts/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1133,27 +868,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/joanna-badami-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/joel-bohy-blackstone-valley-auctions/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jrl-fine-art-appraisal/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/judy-robinson-appraisal-estate-sale-services/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/julie-s-jewelry-and-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1183,57 +898,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/kingston-fine-jewelry-ltd/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/kohlert-appraisal-services/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/koosh-jewelers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/kurt-shaw-company/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/l-p-coogan-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/la-jolla-gem-appraisal/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/la-mine-dor-jewellers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/lamb-antique-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/lamplighter-appraisal-service-personal-property-appraisal-san-diego/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/lancaster-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/lastovica-jewelry-appraisal/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1248,11 +918,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/lena-s-appraisal-services/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/lennie-rose-estate-appraisal-inc/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1263,37 +928,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/lg-appraisal/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/look-appraisal/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/madison-group-fine-art-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/magnusson-group/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/manzi-personal-property-appraisers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mario-brideau-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/martin-fuller-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1309,11 +944,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mccarty-antiques/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/memphis-antique-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1338,21 +968,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/minneapolis-antique-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/missoula-valuepros/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mjp-art-services/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/modern-history-society-art-and-antique-appraisal/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1364,11 +979,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/montclair-estates-antique-consignment-and-appraiser/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/morning-star-jewelry-and-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1398,16 +1008,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/nationwide-auctions-and-appraisals-online-asset-liquidators/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/new-york-fine-art-appraisers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/nh-auctions-and-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1428,11 +1028,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/nyc-jewelry-appraisers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/pacific-gem-lab-certified-jewelry-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1444,16 +1039,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/palm-beach-appraisal-group/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/palm-beach-valuepros/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/parting-with-possessions-pwp-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1493,17 +1078,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/pkr-antiques/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/plcombs-asian-art/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/portland-valuepros/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1518,27 +1093,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/precision-jewelry-appraisal-llc/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/precision-jewelry-appraisal/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/premier-estates-and-appraisal/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services-san-antonio-team/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services-team/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1583,27 +1143,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/richard-stedman-estate-services-llc/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/richmond-antique-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/ripley-auctions-and-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/rittenhouse-estate-buyers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/rlc-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1633,27 +1178,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/san-diego-art-and-antique-appraisals-john-falk-appraisal-services/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/san-diego-coin-buyers-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/san-diego-gemological-laboratory/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/san-diego-liquidation-estate-services/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/san-francisco-antique-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1733,22 +1263,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/stewart-s-antiques/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/susan-eisen-fine-jewelry-watches-art-appraiser/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/sutton-certified-estate-appraisals/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/syl-lee-antiques/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1779,11 +1299,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/the-antiquarium-sale-appraisal-inquiries/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/the-antique-guy/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1858,11 +1373,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/washington-dc-new-york-fine-art-appraisers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/washingtonian-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1879,11 +1389,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/westchester-fine-art-auctioneers-and-appraisers/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/wfa-appraisals/",
       "classification": "keep-indexable",
       "reasons": []
     },

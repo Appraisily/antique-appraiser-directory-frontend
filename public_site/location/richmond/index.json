@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Richmond, Virginia",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "richmond",
     "url": "https://antique-appraiser-directory.appraisily.com/location/richmond/",
@@ -11,24 +11,11 @@
     "city": "Richmond",
     "region": "VA",
     "country": "US",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Craig D. Bell",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/richmond-craig-d-bell.svg",
-        "description": "Craig D. Bell offers antique appraisal support in Richmond, Virginia. Specialties: Arms & Armor, Arms & Armor - Firearms, Arms & Armor - Swords, Ephemera. Services: Appraisal Review, Consultant, Equitable Distribution.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Susan Appich Boze",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/richmond-susan-appich-boze.svg",
-        "description": "Susan Appich Boze offers antique appraisal support in Richmond, Virginia. Specialties: Art, Clocks, Decorative Arts & Accessories, Furniture. Services: Damage Claims, Divorce Settlements, Donations.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/richmond/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

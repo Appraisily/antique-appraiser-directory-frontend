@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Ottawa, Ontario",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "ottawa",
     "url": "https://antique-appraiser-directory.appraisily.com/location/ottawa/",
@@ -11,14 +11,8 @@
     "city": "Ottawa",
     "region": "ON",
     "country": "CA",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Goldform Manufacturing Jewellers Ltd",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/pridhams-auctions-appraisals.svg",
-        "description": "Goldform Manufacturing Jewellers Ltd offers antique appraisal support in Ottawa, Ontario. Services: jewellery appraisals.",
-        "publicRouteAvailable": false
-      },
       {
         "name": "Pridham's Auctions & Appraisals",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/pridhams-auctions-appraisals/",

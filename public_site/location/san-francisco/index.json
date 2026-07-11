@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in San Francisco, California",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "san-francisco",
     "url": "https://antique-appraiser-directory.appraisily.com/location/san-francisco/",
@@ -11,24 +11,11 @@
     "city": "San Francisco",
     "region": "CA",
     "country": "US",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Niels Dahl-Jensen",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/san-francisco-niels-dahl-jensen.svg",
-        "description": "Niels Dahl-Jensen offers antique appraisal support in San Francisco, California. Specialties: Collectibles, Decorative Arts & Accessories, Jewelry, Porcelain. Services: Consultant, Retail - Antique, Retail - Art.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Perri Guthrie",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/san-francisco-perri-guthrie.svg",
-        "description": "Perri Guthrie offers antique appraisal support in San Francisco, California. Specialties: Art, Paintings - 20th Century, Photography - 20th Century, Prints - Modern & Contemporary. Services: Equitable Distribution, Estate Evaluations.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/san-francisco/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

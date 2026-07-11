@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Thunder Bay, Ontario",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "thunder-bay",
     "url": "https://antique-appraiser-directory.appraisily.com/location/thunder-bay/",
@@ -11,18 +11,11 @@
     "city": "Thunder Bay",
     "region": "ON",
     "country": "CA",
-    "numberOfListedAppraisers": 1,
-    "listedAppraisers": [
-      {
-        "name": "Black Cat Antiques & Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/thunder-bay-black-cat-antiques-and-appraisals.svg",
-        "description": "Black Cat Antiques & Appraisals offers antique appraisal support in Thunder Bay, Ontario. Services: antique appraisal.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/thunder-bay/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

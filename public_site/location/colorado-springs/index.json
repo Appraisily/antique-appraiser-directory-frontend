@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Colorado Springs, Colorado",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "colorado-springs",
     "url": "https://antique-appraiser-directory.appraisily.com/location/colorado-springs/",
@@ -11,24 +11,11 @@
     "city": "Colorado Springs",
     "region": "CO",
     "country": "US",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Brady L. Dreasher",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/colorado-springs-brady-l-dreasher.svg",
-        "description": "Brady L. Dreasher offers antique appraisal support in Colorado Springs, Colorado. Specialties: Antiquities, Art, Carpets & Rugs, Decorative Arts & Accessories. Services: Adjuster, Appraisal Review, Arbitrator.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Heather Looney",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/colorado-springs-heather-looney.svg",
-        "description": "Heather Looney offers antique appraisal support in Colorado Springs, Colorado. Specialties: Arts & Crafts - Needlework, Arts & Crafts - Quilts, Auction Company/Gallery, Decorative Arts & Accessories. Services: Damage Cl…",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/colorado-springs/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

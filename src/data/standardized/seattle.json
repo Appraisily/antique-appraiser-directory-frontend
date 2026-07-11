@@ -1311,7 +1311,11 @@
       },
       "expertise": {
         "specialties": [
-          "General antiques,fineart,furniture,jewelry,collections(steamertrunks)[5][7].  \n- Certifications:ISA/ASA-accredited;USPAP-compliant[3][5].  \n- Services:In-person(Seattlemetro),remote(video),photo-basedappraisal[3].  \nThe process includes historical research,codition analysis,and market comparisons.Pricing startsat$79foronlineappraisal;$150+/hrforin-person[3][7].  \nContact:Websiteorphonequotes.Businesshoursvarybyappointment.[prestigeestateservices.com](https://prestigeestateservices.com)[1][5].\n\n---\n\n### Alyssa R Stevens(FruitcocktailCollectables)"
+          "General Antiques",
+          "Fine Art",
+          "Furniture",
+          "Jewelry",
+          "Collections"
         ],
         "certifications": [
           "ISA",
@@ -1320,12 +1324,14 @@
           "USPAP-compliant"
         ],
         "services": [
-          "In-person(Seattlemetro),remote(video),photo-basedappraisal[3]."
+          "In-person Seattle metro appraisal",
+          "Remote video appraisal",
+          "Photo-based appraisal"
         ]
       },
       "content": {
-        "about": "Prestige Estate Services offers antique appraisal services in Seattle, WA. Primary specialties include General antiques,fineart,furniture,jewelry,collections(steamertrunks)[5][7].  \n- Certifications:ISA/ASA-accredited;USPAP-compliant[3][5].  \n- Services:In-person(Seattlemetro),remote(video),photo-basedappraisal[3].  \nThe process includes historical research,codition analysis,and market comparisons.Pricing startsat$79foronlineappraisal;$150+/hrforin-person[3][7].  \nContact:Websiteorphonequotes.Businesshoursvarybyappointment.[prestigeestateservices.com](https://prestigeestateservices.com)[1][5].\n\n---\n\n### Alyssa R Stevens(FruitcocktailCollectables). Services include In-person(Seattlemetro),remote(video),photo-basedappraisal[3]..",
-        "notes": "Serving Seattle, WA clients who need antique valuations in General antiques,fineart,furniture,jewelry,collections(steamertrunks)[5][7].  \n- Certifications:ISA/ASA-accredited;USPAP-compliant[3][5].  \n- Services:In-person(Seattlemetro),remote(video),photo-basedappraisal[3].  \nThe process includes historical research,codition analysis,and market comparisons.Pricing startsat$79foronlineappraisal;$150+/hrforin-person[3][7].  \nContact:Websiteorphonequotes.Businesshoursvarybyappointment.[prestigeestateservices.com](https://prestigeestateservices.com)[1][5].\n\n---\n\n### Alyssa R Stevens(FruitcocktailCollectables)."
+        "about": "Prestige Estate Services offers antique appraisal services in Seattle, WA. Primary specialties include general antiques, fine art, furniture, jewelry, and collections. Services include in-person Seattle metro appraisal, remote video appraisal, and photo-based appraisal.",
+        "notes": "Serving Seattle, WA clients who need antique valuations for general antiques, fine art, furniture, jewelry, and collections."
       },
       "reviews": [
         {

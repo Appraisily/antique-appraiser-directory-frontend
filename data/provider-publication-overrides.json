@@ -1,0 +1,14 @@
+{
+  "providers": {
+    "boston-antique-appraisals": {
+      "publicationStatus": "rejected",
+      "sourceUrl": "",
+      "reason": "Invalid contact data, unresolved domain, and unsupported credentials and reviews"
+    },
+    "cambridge-antique-market": {
+      "publicationStatus": "rejected",
+      "sourceUrl": "https://www.cambridgeantiquemarket.com/",
+      "reason": "Official source confirms an antique marketplace but does not substantiate the published appraisal-provider claims"
+    }
+  }
+}

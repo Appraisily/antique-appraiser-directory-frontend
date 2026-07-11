@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Calgary, Alberta",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "calgary",
     "url": "https://antique-appraiser-directory.appraisily.com/location/calgary/",
@@ -11,37 +11,14 @@
     "city": "Calgary",
     "region": "AB",
     "country": "CA",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "A G A Jewellery Appraisals Ltd",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/brian-lehman-evaluations.svg",
-        "description": "A G A Jewellery Appraisals Ltd offers antique appraisal support in Calgary, Alberta. Specialties: jewelry. Services: jewellery appraisals.",
-        "publicRouteAvailable": false
-      },
       {
         "name": "Brian Lehman Evaluations and Estate Sale Pros",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/brian-lehman-evaluations/",
         "slug": "brian-lehman-evaluations",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_calgary-brian-lehman-evaluations_1742170114453_V0NqKnEkf.jpg",
         "description": "Brian Lehman Evaluations and Estate Sale Pros offers antique appraisal support in Calgary, Alberta. Specialties: estate appraisals, collectibles, art, coins. Services: appraisals, estate sales.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Levis Fine Art Auctions & Appraisals Inc",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/levis-fine-art-auctions-appraisals.svg",
-        "description": "Levis Fine Art Auctions & Appraisals Inc offers antique appraisal support in Calgary, Alberta. Specialties: fine art. Services: auctions, appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Rick's Auction Galleries",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/ricks-auction-galleries.svg",
-        "description": "Rick's Auction Galleries offers antique appraisal support in Calgary, Alberta. Specialties: antiques, estate items, furniture. Services: antique appraisals, auctions, estate appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Brian Lehman Evaluations and Estate Sale Pros",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_calgary-brian-lehman-evaluations_1742170114453_V0NqKnEkf.jpg",
         "publicRouteAvailable": true
       }
     ],

@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Indianapolis, Indiana",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "indianapolis",
     "url": "https://antique-appraiser-directory.appraisily.com/location/indianapolis/",
@@ -11,50 +11,8 @@
     "city": "Indianapolis",
     "region": "IN",
     "country": "US",
-    "numberOfListedAppraisers": 9,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Broad Ripple Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/broad-ripple-antiques.svg",
-        "description": "Broad Ripple Antiques offers antique appraisal support in Indianapolis, Indiana. Specialties: Vintage Items, Mid-Century Modern, Collectibles. Services: Antique Appraisals, Estate Valuations, Consignment.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Circle City Antique Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/circle-city-antique-appraisals.svg",
-        "description": "Circle City Antique Appraisals offers antique appraisal support in Indianapolis, Indiana. Specialties: Antiques, Fine Art, Estate Contents, Collectibles. Services: Antique Appraisals, Estate Appraisals, Insurance Apprai…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Indianapolis Antique Mall",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/indy-antique-mall.svg",
-        "description": "Indianapolis Antique Mall offers antique appraisal support in Indianapolis, Indiana. Specialties: General Antiques, Vintage Collectibles, Furniture. Services: Antique Appraisals, Estate Valuations, Consignment.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Indianapolis Estate Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/indianapolis-estate-appraisals.svg",
-        "description": "Indianapolis Estate Appraisals offers antique appraisal support in Indianapolis, Indiana. Specialties: Antiques, Estate Contents, Fine Art, Decorative Arts. Services: Antique Appraisals, Estate Appraisals, Insurance App…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Indianapolis Fine Art & Antique Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/indianapolis-fine-art-antique-appraisals.svg",
-        "description": "Indianapolis Fine Art & Antique Appraisals offers antique appraisal support in Indianapolis, Indiana. Specialties: Fine Art, Antiques, Decorative Arts, Estate Items. Services: Antique Appraisals, Estate Appraisals, Insu…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Indianapolis Heritage Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/indianapolis-heritage-appraisals.svg",
-        "description": "Indianapolis Heritage Appraisals offers antique appraisal support in Indianapolis, Indiana. Specialties: Antiques, Heritage Items, Fine Art, Estate Contents. Services: Antique Appraisals, Estate Appraisals, Insurance Ap…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Indianapolis Personal Property Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/prestige-estate-services.svg",
-        "description": "Indianapolis Personal Property Appraisals offers antique appraisal support in Indianapolis, Indiana. Specialties: Personal Property, Antiques, Fine Art, Collectibles. Services: Antique Appraisals, Estate Appraisals, Ins…",
-        "publicRouteAvailable": false
-      },
       {
         "name": "Prestige Estate Services",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
@@ -62,12 +20,6 @@
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_indianapolis-prestige-estate-services_1742202599901_3qefRIjJ-.jpg",
         "description": "Prestige Estate Services offers antique appraisal support in Indianapolis, Indiana. Services: Metro + Midwest cities via remote options.",
         "publicRouteAvailable": true
-      },
-      {
-        "name": "Raintree Antiques",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/raintree-antiques.svg",
-        "description": "Raintree Antiques offers antique appraisal support in Indianapolis, Indiana. Specialties: Fine Antiques, Furniture, Decorative Objects. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": false
       }
     ],
     "source": {

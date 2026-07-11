@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Wichita, Kansas",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "wichita",
     "url": "https://antique-appraiser-directory.appraisily.com/location/wichita/",
@@ -11,14 +11,8 @@
     "city": "Wichita",
     "region": "KS",
     "country": "US",
-    "numberOfListedAppraisers": 11,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Allied Estate Services",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/art-of-estates.svg",
-        "description": "Allied Estate Services offers antique appraisal support in Wichita, Kansas. Specialties: Estate Sales, Antiques, Vintage Collectibles, Furniture. Services: Antique Appraisals, Estate Sales, Estate Cleanouts.",
-        "publicRouteAvailable": false
-      },
       {
         "name": "Art of Estates",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/art-of-estates/",
@@ -26,50 +20,6 @@
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_wichita-art-of-estates_1742201713740_uumpg9oGB.jpg",
         "description": "Art of Estates offers antique appraisal support in Wichita, Kansas. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
         "publicRouteAvailable": true
-      },
-      {
-        "name": "Denice S. Morris - Art of Estates Appraiser",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/denice-morris-appraisals.svg",
-        "description": "Denice S. Morris - Art of Estates Appraiser offers antique appraisal support in Wichita, Kansas. Specialties: Fine Art, Antiques, Native American Antiquities, Pottery. Services: Antique Appraisals, Fine Art Appraisals,…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Estate Chics",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/golden-rule-jewlery-llc.svg",
-        "description": "Estate Chics offers antique appraisal support in Wichita, Kansas. Specialties: Estate Sales, Antiques, Jewelry Appraisal, Collectibles. Services: Estate Sales, Antique Appraisals, Jewelry Appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Kansas Auction & Estate Services",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/licensed-appraisal-professionals.svg",
-        "description": "Kansas Auction & Estate Services offers antique appraisal support in Wichita, Kansas. Specialties: Estate Sales, Antiques, Collectibles, Personal Property. Services: Antique Appraisals, Estate Sales, Estate Liquidation.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Licensed Appraisal Professionals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/licensed-appraisal-professionals/",
-        "slug": "licensed-appraisal-professionals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_wichita-licensed-appraisal-professionals_1742201708049_Dm9IAulo3.jpg",
-        "description": "Licensed Appraisal Professionals offers antique appraisal support in Wichita, Kansas. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Poehler Mercantile Antique",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/poehler-mercantile-antique.svg",
-        "description": "Poehler Mercantile Antique offers antique appraisal support in Wichita, Kansas. Specialties: General Antiques, Vintage Collectibles, Estate Items. Services: Antique Appraisals, Antique Sales, Consignment.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Stubbs Estates",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/stubbs-estates.svg",
-        "description": "Stubbs Estates offers antique appraisal support in Wichita, Kansas. Specialties: Fine Art, Antique Jewelry, Collectibles, Estate Items. Services: Estate Appraisals, Estate Sales, Consignment Sales.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "ValuePros Appraisal Services - Wichita",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros-appraisal-wichita.svg",
-        "description": "ValuePros Appraisal Services - Wichita offers antique appraisal support in Wichita, Kansas. Specialties: Antiques, Collectibles, Fine Art, Personal Property. Services: Antique Appraisals, Onsite Appraisals, Insurance Ap…",
-        "publicRouteAvailable": false
       }
     ],
     "source": {

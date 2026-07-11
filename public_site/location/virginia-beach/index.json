@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Virginia Beach, Virginia",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "virginia-beach",
     "url": "https://antique-appraiser-directory.appraisily.com/location/virginia-beach/",
@@ -11,7 +11,7 @@
     "city": "Virginia Beach",
     "region": "VA",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
       {
         "name": "*Barrett Street Auction Center & Antique Mall",
@@ -20,58 +20,6 @@
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_virginia_beach-barrett-street-auction-center-antique-mall_1742203480967_ikfZtPSqw.jpg",
         "description": "*Barrett Street Auction Center & Antique Mall offers antique appraisal support in Virginia Beach, Virginia. Specialties: Antique Furniture, Vintage Collectibles. Services: All of Virginia remotely.",
         "publicRouteAvailable": true
-      },
-      {
-        "name": "All Personal Property Appraisal",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/appraisal-professionals-businesses.svg",
-        "description": "All Personal Property Appraisal offers antique appraisal support in Virginia Beach, Virginia. Specialties: Personal Property, Antiques, Collectibles, Estate Items. Services: Antique Appraisals, Personal Property Apprais…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Appraisal Professionals & Businesses",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/appraisal-professionals-businesses/",
-        "slug": "appraisal-professionals-businesses",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_virginia_beach-appraisal-professionals-businesses_1742203475976_i04MujnUH8.jpg",
-        "description": "Appraisal Professionals & Businesses offers antique appraisal support in Virginia Beach, Virginia.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "CMP Appraisals",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/cmp-appraisals-va-beach.svg",
-        "description": "CMP Appraisals offers antique appraisal support in Virginia Beach, Virginia. Specialties: Antiques, Personal Property, Estate Items, Collectibles. Services: Antique Appraisals, Personal Property Appraisals, Estate Appra…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Larry Zedd - Virginia Beach Antique Company",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/larry-zedd-antique-buyer-appraiser.svg",
-        "description": "Larry Zedd - Virginia Beach Antique Company offers antique appraisal support in Virginia Beach, Virginia. Specialties: Antiques, Estate Items, Collectibles, Vintage Furniture. Services: Free Antique Appraisals, Antique…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Measured Values Estate Appraisal",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/measured-values-estate-appraisal.svg",
-        "description": "Measured Values Estate Appraisal offers antique appraisal support in Virginia Beach, Virginia. Specialties: Estate Appraisal, Personal Property, Antiques, Estate Items. Services: Estate Appraisals, Probate Valuations, I…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "ValuePros Appraisal Services - Virginia Beach",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/virginia-beach-antique-appraisals.svg",
-        "description": "ValuePros Appraisal Services - Virginia Beach offers antique appraisal support in Virginia Beach, Virginia. Specialties: Antiques, Collectibles, Fine Art, Personal Property. Services: Antique Appraisals, Onsite Appraisa…",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Virginia Beach Antique Appraisals",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/virginia-beach-antique-appraisals/",
-        "slug": "virginia-beach-antique-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_virginia_beach-virginia-beach-antique-appraisals_1742203487956_MZ926XDDp.jpg",
-        "description": "Virginia Beach Antique Appraisals offers antique appraisal support in Virginia Beach, Virginia. Specialties: Antique Furniture, Vintage Collectibles. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Virginia Estate Services",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/virginia-estate-services.svg",
-        "description": "Virginia Estate Services offers antique appraisal support in Virginia Beach, Virginia. Specialties: Estate Sales, Antiques, Estate Liquidation, Personal Property. Services: Antique Appraisals, Estate Sales, Estate Liqui…",
-        "publicRouteAvailable": false
       }
     ],
     "source": {

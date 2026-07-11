@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Kelowna, British Columbia",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "kelowna",
     "url": "https://antique-appraiser-directory.appraisily.com/location/kelowna/",
@@ -11,7 +11,7 @@
     "city": "Kelowna",
     "region": "BC",
     "country": "CA",
-    "numberOfListedAppraisers": 3,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
       {
         "name": "Artista Antiques",
@@ -20,18 +20,6 @@
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_kelowna-artista-art-antiquits_1742202681121_xFRJefl1Q.jpg",
         "description": "Artista Antiques offers antique appraisal support in Kelowna, British Columbia. Specialties: antiques, vintage, collectibles, jewelry. Services: appraisals, consignment.",
         "publicRouteAvailable": true
-      },
-      {
-        "name": "Hambleton Galleries",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/hambleton-galleries.svg",
-        "description": "Hambleton Galleries offers antique appraisal support in Kelowna, British Columbia. Specialties: fine art, canadian art. Services: fine art appraisals.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Resale Vintage",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/resale-vintage.svg",
-        "description": "Resale Vintage offers antique appraisal support in Kelowna, British Columbia. Specialties: vintage, consignment, antiques. Services: appraisals.",
-        "publicRouteAvailable": false
       }
     ],
     "source": {

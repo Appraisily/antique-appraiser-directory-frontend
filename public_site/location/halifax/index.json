@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Halifax, Nova Scotia",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "halifax",
     "url": "https://antique-appraiser-directory.appraisily.com/location/halifax/",
@@ -11,7 +11,7 @@
     "city": "Halifax",
     "region": "NS",
     "country": "CA",
-    "numberOfListedAppraisers": 3,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
       {
         "name": "Dorothée Rosen Designer Goldsmith",
@@ -19,20 +19,6 @@
         "slug": "dorothe-rosen-designer-goldsmith",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_halifax-dorothe-rosen-designer-goldsmith_1742201604309_VmairVJ8G.jpg",
         "description": "Dorothée Rosen Designer Goldsmith offers antique appraisal support in Halifax, Nova Scotia. Specialties: Antique Furniture, Vintage Collectibles. Services: antique appraisal, art appraisal.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Zwicker's Gallery",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/halifax-zwicker-s-gallery.svg",
-        "description": "Zwicker's Gallery offers antique appraisal support in Halifax, Nova Scotia. Services: antique appraisal.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "La Mine d’Or Jewellers",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/la-mine-dor-jewellers/",
-        "slug": "la-mine-dor-jewellers",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_halifax-la-mine-dor-jewellers_1742201599389_g2uVETQEj.jpg",
-        "description": "La Mine d’Or Jewellers offers Halifax jewellery, gemstone and watch appraisals, appraisal clinics, Rolex servicing and jewellery exchange evaluations.",
         "publicRouteAvailable": true
       }
     ],

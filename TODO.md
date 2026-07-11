@@ -3,7 +3,6 @@
 ## Build & Deployment Improvements
 
 - [ ] Update `.gitignore` to properly exclude `dist` directory in normal development workflow
-- [ ] Remove any temporary comments about Netlify deployment from `.gitignore`
 - [ ] Fix React hydration issues in components with client/server mismatch
 - [ ] Update CSP injection script to ensure security headers are properly applied to all HTML files
 - [ ] Optimize bundle size by implementing code splitting for large components
@@ -67,4 +66,4 @@
 - [ ] Evaluate moving from submodule to direct integration with main site
 - [ ] Explore server-side rendering options that avoid hydration issues
 - [ ] Consider implementing a proper CMS for directory content management
-- [ ] Plan for internationalization/localization support 
+- [ ] Plan for internationalization/localization support

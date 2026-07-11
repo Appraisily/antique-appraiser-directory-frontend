@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Columbus, Ohio",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "columbus",
     "url": "https://antique-appraiser-directory.appraisily.com/location/columbus/",
@@ -11,24 +11,11 @@
     "city": "Columbus",
     "region": "OH",
     "country": "US",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Allyssa B Hixenbaugh",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/columbus-allyssa-b-hixenbaugh.svg",
-        "description": "Allyssa B Hixenbaugh offers antique appraisal support in Columbus, Ohio. Specialties: Art, Books, Collectibles, Furniture. Services: Donations, Equitable Distribution, Estate Probate.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Pamela M Slack",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/columbus-pamela-m-slack.svg",
-        "description": "Pamela M Slack offers antique appraisal support in Columbus, Ohio. Specialties: Collectibles, Decorative Arts & Accessories, Furniture, Silver. Services: Consultant, Equitable Distribution, Estate Sales.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/columbus/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

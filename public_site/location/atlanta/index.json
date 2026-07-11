@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Atlanta, Georgia",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "atlanta",
     "url": "https://antique-appraiser-directory.appraisily.com/location/atlanta/",
@@ -11,24 +11,11 @@
     "city": "Atlanta",
     "region": "GA",
     "country": "US",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Charles Pharr",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/atlanta-charles-pharr.svg",
-        "description": "Charles Pharr offers antique appraisal support in Atlanta, Georgia. Specialties: Art, Carpets & Rugs, Collectibles, Furniture. Services: Appraisal Review, Broker, Damage Claims.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Courtney Ahlstrom Christy",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/atlanta-courtney-ahlstrom-christy.svg",
-        "description": "Courtney Ahlstrom Christy offers antique appraisal support in Atlanta, Georgia. Specialties: Books, Decorative Arts & Accessories, Documents, Ephemera. Services: Consultant, Donations, Equitable Distribution.",
-        "publicRouteAvailable": false
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/atlanta/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

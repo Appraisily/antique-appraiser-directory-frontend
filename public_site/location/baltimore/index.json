@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Baltimore, Maryland",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:58:06.010Z",
+  "generatedAt": "2026-07-11T15:47:35.626Z",
   "location": {
     "slug": "baltimore",
     "url": "https://antique-appraiser-directory.appraisily.com/location/baltimore/",
@@ -11,20 +11,8 @@
     "city": "Baltimore",
     "region": "MD",
     "country": "US",
-    "numberOfListedAppraisers": 3,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Charles Barry Goldstein",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/baltimore-charles-barry-goldstein.svg",
-        "description": "Charles Barry Goldstein offers antique appraisal support in Baltimore, Maryland. Specialties: Art, Paintings, Photography & Photographs, Prints. Services: Appraisal Review, Donations, Estate Tax.",
-        "publicRouteAvailable": false
-      },
-      {
-        "name": "Maureen S. Winer",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mayflower-estate-buyers.svg",
-        "description": "Maureen S. Winer offers antique appraisal support in Baltimore, Maryland. Specialties: Decorative Arts & Accessories, Furniture, Glass, Objet d'art & De Vertu. Services: Broker, Consultant, Damage Claims.",
-        "publicRouteAvailable": false
-      },
       {
         "name": "Mayflower Estate Buyers",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mayflower-estate-buyers/",
