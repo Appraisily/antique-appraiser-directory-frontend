@@ -10,7 +10,7 @@ Operational guardrails: [docs/operational-guardrails.md](docs/operational-guardr
 
 - Standardized data model for consistent UI and maintenance
 - Static HTML publishing for all appraiser and location pages
-- Integration with ImageKit for appraiser profile images
+- Provider-neutral first-party image assets with an explicit placeholder contract
 - SEO optimization with structured schema.org data
 - Fast and responsive UI with Tailwind CSS
 - Atomic static-release promotion through the standard VPS deploy helper
@@ -45,9 +45,6 @@ npm run dev
 
 # Validate the canonical static site in public_site/
 npm run build
-
-# Fetch images from ImageKit
-npm run fetch:imagekit
 
 # Serve the canonical static site locally
 npm run serve:static
@@ -85,7 +82,7 @@ atomically, verifies the public route and assets, and rolls back on failure.
 
 ## Image Handling
 
-Appraiser profile images are sourced from the ImageKit service, using the `/appraiser-images` folder. The remaining ImageKit scripts are diagnostics only; profile HTML should not be rewritten by image automation.
+Appraiser profile images must use verified provider-neutral URLs on `assets.appraisily.com`. Records without a reviewed image use the canonical directory placeholder. Validation and deployment never generate or rewrite images automatically; see [IMAGE_GENERATION.md](IMAGE_GENERATION.md).
 
 ## SEO Optimization Features
 

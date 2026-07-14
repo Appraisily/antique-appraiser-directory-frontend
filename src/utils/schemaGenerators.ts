@@ -733,34 +733,34 @@ export function generateHowToSchema(title: string = 'How to Get an Art Appraisal
         "@type": "HowToStep",
         "name": "Document your artwork",
         "text": "Take clear, high-resolution photographs of your artwork from multiple angles, including any signatures, markings, or damage.",
-        "image": normalizeAssetUrl('https://ik.imagekit.io/appraisily/how-to/document-artwork.jpg'),
+        "image": normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg'),
         "url": `${PARENT_SITE_URL}/how-to-document-artwork`
       },
       {
         "@type": "HowToStep",
         "name": "Gather documentation",
         "text": "Collect any existing documentation about your artwork, including receipts, certificates of authenticity, provenance documents, and restoration records.",
-        "image": normalizeAssetUrl('https://ik.imagekit.io/appraisily/how-to/gather-documentation.jpg'),
+        "image": normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg'),
         "url": `${PARENT_SITE_URL}/artwork-documentation`
       },
       {
         "@type": "HowToStep",
         "name": "Find a qualified appraiser",
         "text": "Search our directory to find a certified art appraiser who specializes in your type of artwork.",
-        "image": normalizeAssetUrl('https://ik.imagekit.io/appraisily/how-to/find-appraiser.jpg'),
+        "image": normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg'),
         "url": SITE_URL
       },
       {
         "@type": "HowToStep",
         "name": "Contact the appraiser",
         "text": "Reach out to the appraiser to discuss your needs, the purpose of the appraisal, and to schedule an appointment.",
-        "image": normalizeAssetUrl('https://ik.imagekit.io/appraisily/how-to/contact-appraiser.jpg')
+        "image": normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg')
       },
       {
         "@type": "HowToStep",
         "name": "Get your appraisal",
         "text": "Meet with the appraiser (in-person or virtually) and receive your professional appraisal report with the valuation and detailed description of your artwork.",
-        "image": normalizeAssetUrl('https://ik.imagekit.io/appraisily/how-to/receive-appraisal.jpg')
+        "image": normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg')
       }
     ]
   };

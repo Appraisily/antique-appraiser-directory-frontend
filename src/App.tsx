@@ -663,7 +663,7 @@ function App() {
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
                     <div style={{ position: 'absolute', inset: 0 }}>
                       <img
-                        src={normalizeAssetUrl('https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sothebys-new-york-7070_1742166258599_OtNJ5gopN.jpg')}
+                        src={normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg')}
                         alt="Sotheby's New York"
                         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                       />
@@ -702,7 +702,7 @@ function App() {
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
                     <div style={{ position: 'absolute', inset: 0 }}>
                       <img
-                        src={normalizeAssetUrl('https://ik.imagekit.io/appraisily/appraiser-images/appraiser_heritage-auctions-9336_1742166295247_Te5aZW192.jpg')}
+                        src={normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg')}
                         alt="Heritage Auctions"
                         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                       />
@@ -741,7 +741,7 @@ function App() {
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
                     <div style={{ position: 'absolute', inset: 0 }}>
                       <img
-                        src={normalizeAssetUrl('https://ik.imagekit.io/appraisily/appraiser-images/appraiser_oakland-clars-auction-gallery_1742202839449_GkygjFg5F.jpg')}
+                        src={normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg')}
                         alt="Clars Auction Gallery"
                         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                       />
