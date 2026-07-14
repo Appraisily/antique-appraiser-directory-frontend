@@ -3,7 +3,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const DEFAULT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const rootIndex = process.argv.indexOf('--root');
+const ROOT = path.resolve(rootIndex >= 0 ? process.argv[rootIndex + 1] : DEFAULT_ROOT);
 const SKIP_DIRECTORIES = new Set(['.git', 'node_modules', 'coverage']);
 const providerName = ['image', 'kit'].join('');
 const forbiddenTokens = [
@@ -17,6 +19,9 @@ function walk(directory) {
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
     if (entry.isDirectory() && SKIP_DIRECTORIES.has(entry.name)) continue;
     const filePath = path.join(directory, entry.name);
+    if (entry.name.toLowerCase().includes(providerName)) {
+      failures.push(`${path.relative(ROOT, filePath)}: provider-branded path name`);
+    }
     if (entry.isDirectory()) {
       walk(filePath);
       continue;

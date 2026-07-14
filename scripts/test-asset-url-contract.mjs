@@ -24,6 +24,7 @@ const retiredHost = ['ik', ['image', 'kit'].join(''), 'io'].join('.');
 assert.equal(normalizeAssetUrl(), placeholder);
 assert.equal(normalizeAssetUrl('  '), placeholder);
 assert.equal(normalizeAssetUrl('/images/local.webp'), '/images/local.webp');
+assert.equal(normalizeAssetUrl('//third-party.example/image.jpg'), placeholder);
 assert.equal(normalizeAssetUrl('/placeholder-image.jpg'), placeholder);
 assert.equal(normalizeAssetUrl(placeholder), placeholder);
 assert.equal(
@@ -31,11 +32,16 @@ assert.equal(
   'https://assets.appraisily.com/directory/appraisers/reviewed.jpg',
 );
 assert.equal(normalizeAssetUrl('https://placehold.co/300x300'), placeholder);
+assert.equal(normalizeAssetUrl('https://assets.appraisily.com.evil.example/reviewed.jpg'), placeholder);
+assert.equal(normalizeAssetUrl('http://assets.appraisily.com/reviewed.jpg'), placeholder);
+assert.equal(normalizeAssetUrl('not a valid URL'), placeholder);
 assert.equal(normalizeAssetUrl('https://images.example.com/unreviewed.jpg'), placeholder);
 assert.equal(normalizeAssetUrl(`https://${retiredHost}/appraisily/old.jpg`), placeholder);
 
 const appraiserSchema = generateAppraiserSchema({ name: 'Asset Contract Test', image: 'https://images.example.com/unreviewed.jpg' });
 assert.equal(appraiserSchema.image.url, placeholder);
+const protocolRelativeSchema = generateAppraiserSchema({ name: 'Protocol Relative Asset Test', image: '//third-party.example/image.jpg' });
+assert.equal(protocolRelativeSchema.image.url, placeholder);
 const articleSchema = generateArticleSchema('Title', 'Description', 'https://example.test/article', 'https://images.example.com/unreviewed.jpg');
 assert.equal(articleSchema.image, placeholder);
 for (const step of generateHowToSchema().step) {
