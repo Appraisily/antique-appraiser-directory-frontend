@@ -163,20 +163,7 @@ export function DecisionRouter({
 
       <div
         data-appraisily-directory-sample-proof="1"
-        role="link"
-        tabIndex={0}
-        className="mt-6 cursor-pointer rounded-lg border border-slate-200 bg-slate-50 p-4 md:flex md:items-center md:justify-between md:gap-5"
-        onClick={(event) => {
-          if ((event.target as HTMLElement).closest('a')) return;
-          onCtaClick?.('sample_report', 'sample_proof', professionalSampleUrl);
-          window.location.assign(professionalSampleUrl);
-        }}
-        onKeyDown={(event) => {
-          if (event.key !== 'Enter' && event.key !== ' ') return;
-          event.preventDefault();
-          onCtaClick?.('sample_report', 'sample_proof', professionalSampleUrl);
-          window.location.assign(professionalSampleUrl);
-        }}
+        className="mt-6 rounded-lg border border-slate-200 bg-slate-50 p-4 md:flex md:items-center md:justify-between md:gap-5"
       >
         <div className="flex items-start gap-4">
           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-emerald-50 text-emerald-800">
@@ -196,6 +183,7 @@ export function DecisionRouter({
           data-cta-kind="sample_report"
           data-gtm-placement="sample_proof"
           data-gtm-campaign={campaign}
+          data-clarity-action="directory_sample_report_open"
           onClick={() => onCtaClick?.('sample_report', 'sample_proof', professionalSampleUrl)}
         >
           View sample report
