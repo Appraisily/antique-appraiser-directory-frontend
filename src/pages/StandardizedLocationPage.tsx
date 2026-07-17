@@ -1669,6 +1669,15 @@ export function StandardizedLocationPage() {
       city_slug: validCitySlug
     });
   };
+  const handleEmptyLocationClick = (ctaKind: 'free_photo_check' | 'nearby_city', destination: string) => {
+    trackEvent('directory_cta', {
+      placement: 'location_empty_state',
+      cta_kind: ctaKind,
+      destination,
+      city_slug: validCitySlug,
+      city_name: citySearchName,
+    });
+  };
   const handleDecisionRouterClick = (ctaKind: string, placement: string, destination: string) => {
     trackEvent('directory_cta', {
       placement,
@@ -1779,6 +1788,9 @@ export function StandardizedLocationPage() {
 
   if (error || !locationData || !locationData.appraisers || locationData.appraisers.length === 0) {
     const isNotFound = error === 'not_found';
+    const nearbyCity = relatedCities[0] ?? null;
+    const emptyStateScreenerUrl = `https://appraisily.com/screener?utm_source=directory&utm_medium=empty_state&utm_campaign=${encodeURIComponent(validCitySlug || 'location')}&utm_content=free_photo_check&entrypoint=directory_${encodeURIComponent(validCitySlug || 'location')}_empty`;
+    const nearbyCityUrl = nearbyCity ? `/location/${nearbyCity.slug}/` : SITE_URL;
 
     if (isNotFound) {
       return (
@@ -1821,7 +1833,7 @@ export function StandardizedLocationPage() {
       <>
         <SEO
           title={`Antique Appraisers in ${cityName} | Find Local Antique Appraisal Services`}
-          description={`We're currently updating our list of antique appraisers in ${cityName}. Browse our directory for other locations or check back soon.`}
+          description={`No verified antique appraiser is currently listed in ${cityName}. Start with a free online photo check or compare providers in a nearby city.`}
           schema={[generateBreadcrumbSchema()]}
           path={locationPath}
           pageUrl={locationCanonicalUrl}
@@ -1833,15 +1845,41 @@ export function StandardizedLocationPage() {
           Skip to main content
         </a>
         <div className="container mx-auto px-4 py-8 mt-16">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-3xl mx-auto">
             <h1 className="text-3xl font-bold mb-4">Antique Appraisers in {cityName}</h1>
-            <div className="bg-blue-50 border border-blue-200 text-blue-700 px-6 py-4 rounded-lg mb-6">
-              <p className="font-medium">We're currently updating our database of antique appraisers in {cityName}.</p>
-              <p className="mt-2">Please check back soon or explore other cities in our directory.</p>
+            <div className="bg-blue-50 border border-blue-200 px-6 py-6 rounded-xl shadow-sm" data-directory-empty-state="true">
+              <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">No verified local listings yet</p>
+              <h2 className="mt-2 text-xl font-semibold text-gray-900">You can still check your item now</h2>
+              <p className="mt-2 text-gray-700">
+                Start with a free online photo check, or compare providers in a nearby city.
+                We do not show unverified profiles as local options.
+              </p>
+              <div className="mt-5 flex flex-col sm:flex-row gap-3">
+                <a
+                  href={emptyStateScreenerUrl}
+                  className="inline-flex min-h-12 items-center justify-center rounded-lg bg-gray-900 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-gray-800 transition-colors"
+                  data-clarity-action="location_empty_state_screener"
+                  onClick={() => handleEmptyLocationClick('free_photo_check', emptyStateScreenerUrl)}
+                >
+                  Check my item from a photo
+                </a>
+                <a
+                  href={nearbyCityUrl}
+                  className="inline-flex min-h-12 items-center justify-center rounded-lg border border-blue-200 bg-white px-5 py-3 text-sm font-semibold text-blue-700 hover:bg-blue-100 transition-colors"
+                  data-clarity-action="location_empty_state_nearby"
+                  onClick={() => handleEmptyLocationClick('nearby_city', nearbyCityUrl)}
+                >
+                  {nearbyCity
+                    ? `Compare providers in ${nearbyCity.name}, ${nearbyCity.state}`
+                    : 'Browse all locations'}
+                </a>
+              </div>
+              {nearbyCity ? (
+                <p className="mt-4 text-sm text-gray-600">
+                  <a href={SITE_URL} className="underline hover:text-blue-700">Browse every location</a>
+                </p>
+              ) : null}
             </div>
-            <a href={SITE_URL} className="text-blue-600 hover:underline font-medium">
-              Browse all locations
-            </a>
           </div>
         </div>
       </>
