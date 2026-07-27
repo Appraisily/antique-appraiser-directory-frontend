@@ -1,0 +1,1577 @@
+{
+  "version": 1,
+  "action": "written",
+  "sourceOrigin": "https://art-appraisers-directory.appraisily.com",
+  "destinationOrigin": "https://antique-appraiser-directory.appraisily.com",
+  "publicDir": "/srv/repos/frontends/antique-appraiser-directory-consolidation-20260727/public_site",
+  "baselineDir": null,
+  "sitemapPath": "/srv/repos/frontends/antique-appraiser-directory-consolidation-20260727/public_site/sitemap.xml",
+  "sitemapSha256": "9a5611c72f1cda063ad0b538c15ba95261b5f382c5fc24e3a494565153f6e7fd",
+  "filesChanged": 100,
+  "linksReplaced": 165,
+  "crosslinkSectionsRemoved": 65,
+  "conflicts": 0,
+  "changes": [
+    {
+      "file": "location/albuquerque/index.html",
+      "beforeSha256": "fc9b38cc8ea870f5ae7982fcddc92a5ba5e87e04b8778ae303c23a840cbdd188",
+      "afterSha256": "350b6c5ceb6a18fdfd8c8913aaec3156f20c12e5b5ac7d36bccd61a9d9b61d25",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/anchorage/index.html",
+      "beforeSha256": "80a21cca6394cc2bc6249ab622c0adf494b59fe04a3d2da02f98a68c6e2524f5",
+      "afterSha256": "71e4276a3e84fa8ec04c7b6ff61323a80fd8b9cfcec5ff3155ec626e54879854",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/arlington/index.html",
+      "beforeSha256": "230fd89340138262513e4fbd00baf2a52b3bfa88e33017f4ce81d9658545221c",
+      "afterSha256": "536cf305a777d67d3be7e169ac211beb28403e44ac37e87493ab88bb2e6066c2",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/aspen/index.html",
+      "beforeSha256": "bae8f76ce702ef651c64c03c7440083a5118b9916a2359c167688fe1b39a6ee1",
+      "afterSha256": "8d6dfd6846883412a33d71e1937d44c3f0ab2bca002e8c15a52b8b04ffb1f294",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/atlanta/index.html",
+      "beforeSha256": "ff6f8efc62e184ebe4241d2d199046acb14428d3f04320e682a65f63485111b9",
+      "afterSha256": "e71e68bb18f7bbae4910fcc2818d252cb45d2a4e94059ac8fa1a547f44dae7c1",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/austin/index.html",
+      "beforeSha256": "75bdccb9c824a2096f902d716ac45635bed66c5b0fc4a36adeeb868522afb981",
+      "afterSha256": "feb075eeb6f89f1753b848cd7682990e838c8a15a3082efe09ccb758fb3346bc",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/baltimore/index.html",
+      "beforeSha256": "d106916b3070d31185be64d07c25a37dede25038dec47e0591db8a1c771b91a0",
+      "afterSha256": "84f5d2ca05c90e9eff291876c5b08bcd31e99cf2401a0034864e4ab13f9455dc",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/baton-rouge/index.html",
+      "beforeSha256": "a550f7524f779a0545bd86d4fb008d2cc620ca339264a038281c0ef7973313b8",
+      "afterSha256": "18aef24149c35378447e17cd262558a111eb409c2d571191f122b18d50a27868",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/birmingham/index.html",
+      "beforeSha256": "ee3b3e577b87181b99104bf28465550674fbf975dba15b0237b88637f47e2e4c",
+      "afterSha256": "5c6d2f2f623690549119af5d6f5c8d05359e344b4fb4e62832af812bd6f776f4",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/boise/index.html",
+      "beforeSha256": "5d8b7efa16d35997d42c652e724b91c222f8783b83a680e0a248bb3389a5ae76",
+      "afterSha256": "469d326bc266413235886d6c1e1bff37cdb1720d5e0ed449032cf585713dfbae",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/boston/index.html",
+      "beforeSha256": "5eadd23dbcedea4744fb890d578c98fe1389b56b3ff88b6c84cd48975a825df8",
+      "afterSha256": "243db9e45b569488e8a4887001b5398f9ab287e42ed6727b1422e2ee5f98a316",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/buffalo/index.html",
+      "beforeSha256": "5817f9c4af23ab1a5a9348eef75e8929a93b9404a5d37c0edd998f1a58e66381",
+      "afterSha256": "dec2c0105cd89086cfa7e989fdd42f4cad5134198ac51b22b8691b0d2201e2cc",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/calgary/index.html",
+      "beforeSha256": "cd73beaf1ab91b2163b5cc1296a5ba0caf7927a61eed5edb7ddfed371505ff66",
+      "afterSha256": "f59789371cc8155e03b1b99474f4a0d2a98d42108a8a1cf65acee5340bcac99d",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/charleston/index.html",
+      "beforeSha256": "c901f4b896f9f3f043e6d55e10e548705cbd3898cd043a6380dd9eea70388a6e",
+      "afterSha256": "81c1fec408cfdaf0dbaf86b167fe7be33d45d05996cf249c630fb883b9d6ed2e",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/charlotte/index.html",
+      "beforeSha256": "f1bde4b7e96f3f37f0178c11c1a7db18ea9d903d47a5d972b9ed9c6baf242b94",
+      "afterSha256": "a0f6a44a27b557c118587b605239be25102b835b5a3a51772fa1eae3c7441e52",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/charlottetown/index.html",
+      "beforeSha256": "2fa36f3247f974724481dc18f8a74be0055edeba671439a59b75e2b97cba205a",
+      "afterSha256": "21fa3cb6c11dcb466426cecc226d8b4007f37331508c3e3be7f590c1cc3eb725",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/chicago/index.html",
+      "beforeSha256": "da059553f0b57274d41bcce197e396ed4575bfd567d9807b082147371ba9ae61",
+      "afterSha256": "a7f54b223e0f97960612ce811e2f930b1eac94f5bfe0bf5bc301a2ac0368e55e",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/cincinnati/index.html",
+      "beforeSha256": "b6be3ac14ee30a1c9da84d99a3876c5fe73ce441b19e9571debf02d433fa1e5b",
+      "afterSha256": "4c07f33d09a6b83c0a183ca96cd2a3a0208090aa6041faba2c75d56828cab52e",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/cleveland/index.html",
+      "beforeSha256": "ea337dcdaa0f22e8f62a95a556e0875c9af463f2d62472b6748e8bc521918042",
+      "afterSha256": "9362df0aab8e972f7b195e18692f06484eece895714eff27d9c53bb9d2bcd47d",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/colorado-springs/index.html",
+      "beforeSha256": "8420804cf6a2a578a601a6fa50ebf22f25dac0d40abb5768f485b2c7e4c0747f",
+      "afterSha256": "90fab0ab0370c8b9e6171208dbd0fd6ba9c46f920d4215e0eebfae5f8e5523ec",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/columbus/index.html",
+      "beforeSha256": "684de8ac531c60b98a49ab90e8419da91883ce5ede180230e02c30033222caf8",
+      "afterSha256": "a483fd7e8929b40a0a70f1613007f257b2cd5cda13481bb7d45403f1c1bacd9b",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/dallas/index.html",
+      "beforeSha256": "37263e210ed1933c172026769128eb0251c2e861615c2e55c23317a1000674d5",
+      "afterSha256": "36260911b54d159bf88b5e93ae4367efa0d3f975441ff85159c95bf88b9e5ab6",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/denver/index.html",
+      "beforeSha256": "534d50c24394ae2c55f76af0918843cfbfc37c2756729ac6f9fd3a4cab1bbf2d",
+      "afterSha256": "e488c8e0c9f79f93ec164943b776cb5080334d521e92b6712bd2a5981d985215",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/des-moines/index.html",
+      "beforeSha256": "9d236e742352c3d9b1d3bd1984efaa888257e52faebc225624d0fe223802ac79",
+      "afterSha256": "a5bb924056c65c5bd64949b991e28b354b8b79530f9198e3c7b40a0473ff7bdb",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/detroit/index.html",
+      "beforeSha256": "eb193f6d768f41f791148abd8dccfba6370d3da77ad622456d55d0dfbdfb31b5",
+      "afterSha256": "efaaae4f3d0be4ed26b727fcae2df1acef69168c9d55edc7acdaa2b2308fedfd",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/edmonton/index.html",
+      "beforeSha256": "bd8f21bd3c74bb185eef1aed747af6f1fee525e9bbd34ca93bae7549db5b2b73",
+      "afterSha256": "c200699d5d1285cd17abd6641ebd699f1cfcd3e7f0dd2b2ae6a122d345f935b1",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/el-paso/index.html",
+      "beforeSha256": "d1d329f3393704963f86f2397e566dcd999ede68bc457c9af8be44165713ce51",
+      "afterSha256": "566c34929ee5a708b9435296f48bb524e23c87909f9ae772958a4ca422c0ce26",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/fort-lauderdale/index.html",
+      "beforeSha256": "4dbb5dc4cb95961b0a6c7cd2fd96bbc78854a55fb05120a922b552a6b33e7bf3",
+      "afterSha256": "146ed8c510dea4d2d79a62b009765e6d40bc4ecb45fe9031cb14865b5f51b417",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/fort-worth/index.html",
+      "beforeSha256": "b6db770f6da7c4a6decc63e70137b9a0bbf25ae3012149268844f888c1c51821",
+      "afterSha256": "57fe6701e3700f08cfcc2ad557c8ba5918679631bc61c59f10e2882761c57787",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/fredericton/index.html",
+      "beforeSha256": "2aa50a185f7c63bffe6ebf8270a76e96fe7f6f4d539ef50ec9ec0f319b3c25e1",
+      "afterSha256": "a2dfc70ddcc31002341d48d57712250c959c81592add9c57fa727b435420a47b",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/fresno/index.html",
+      "beforeSha256": "4ae26e9fd5af2377b7ade7bf341407784f1978f43ebfdf86c63e9c502f77a142",
+      "afterSha256": "e47493ce8ad90404b57aff14a86494be2041048d0b98e83221587c14be0f688a",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/halifax/index.html",
+      "beforeSha256": "3c8e292e5bdd8a126934ee4875600c14425fcfe13caa22a817bf96bda39fe356",
+      "afterSha256": "fbfca4c5677e93332e98f817b30c7079073738ccb1cc68d8e17d43efe98632e1",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/hamilton/index.html",
+      "beforeSha256": "b1dce7e31485bbbd4e978f15bb7c8eb39ae681039041afce142a566229219042",
+      "afterSha256": "6eb1101d638912ecb0bc60f742841188efc40b36d970809e5862714b188d95a5",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/hartford/index.html",
+      "beforeSha256": "4e941e6f48a5b32f4b64ce5479b4809a04c104ad335aa358a2d3ca9770caac73",
+      "afterSha256": "675303dcd854f99f01c90e2d517406a400acecc8b92a8b240dc736a9db0fc0d9",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/houston/index.html",
+      "beforeSha256": "6cde0e132adcab0437a1bf251063d52186e3806f6d4b8058cfb68b72cf2cf16d",
+      "afterSha256": "5043505a0efbb9ff3d44974e1eb457cda4b0c9f870a73876274d34812da093fd",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/indianapolis/index.html",
+      "beforeSha256": "d307336da074fcaec8ee02331f83207b859c1bb181197f0cf71bf364d43922f4",
+      "afterSha256": "f00ad3e107a79262e350564ae9173665c267276e46003a880eeea92de6087c50",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/jacksonville/index.html",
+      "beforeSha256": "3139f30933f4ef427e37b8b7e940f779697ea40bda44b0bffc8e5a64fd4e6369",
+      "afterSha256": "6c6419d9adcabe196b2e9e4d6d2df9d736ae305ccf6b54534b464842f2fe5e0f",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/kansas-city/index.html",
+      "beforeSha256": "d79b5f3dbcdf2b79d7d100bab1b96f372f6c8e0b49387d6b804bbd484dee1fd0",
+      "afterSha256": "3582dc8919e943c27816829b541296b7960984d647108dbc8fd225a3fa80aa2a",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/kelowna/index.html",
+      "beforeSha256": "f3061853a60c76082b347e49e69555818823c5a3618a65337cde8a63cafde003",
+      "afterSha256": "46763cc4fed1df1c3ac0c67a7bf830037b796f750b7479aa73f87e01e3947338",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/kingston/index.html",
+      "beforeSha256": "5513e98b62ba87492ef48caaaf07962bc7b9510b7d8fdffcd3ff2b8c5a65b1fb",
+      "afterSha256": "ecc110f48c74bf8acaff30a01c2fd2ab9d1ce6e172bf172525bcc01c63b017b2",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/kitchener/index.html",
+      "beforeSha256": "3a8aab830684539d6db51db5d6f817ed8dacedd144ff6afa210a5f459c6499cd",
+      "afterSha256": "3ed1bb88cdbab3a60404f2fa21c36a0c95454072d666ae24f372717d2abccf10",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/las-vegas/index.html",
+      "beforeSha256": "9b116ce3288475db1be93ce07d8be0605761e5c916dee4e3a94fe0a6b3449cdd",
+      "afterSha256": "b34229808a6ad9230a0ddce75d8f61794e0805d3921b5da33616fa075dd60026",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/lexington/index.html",
+      "beforeSha256": "771904ba1a3654c99283b1902297fb5ab9559029fede153d80c338d913609df3",
+      "afterSha256": "de1ac38e4c0749275179d286ac8d38facbbb564f69c0569698dba5a05dd28276",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/little-rock/index.html",
+      "beforeSha256": "c1e65e130597c8ef7adda2a516f64a6bde71544f6c77d43d1c3fffdbd6a2902e",
+      "afterSha256": "bf66b86eb0582aae0eefc69a38f4c8216b1a96742038bb1bd4a6023cec57fe37",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/london/index.html",
+      "beforeSha256": "094ea7802d18a8c8af4d6b8629a058e30efce7da3842e8f4e8ca9c2563051936",
+      "afterSha256": "8ea27b04010bc256b85c0ba131933dfa7d79c4b06b7df14b7f0cc3e03d1df0e9",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/long-beach/index.html",
+      "beforeSha256": "4df00d6def2eba7d9fb403a5d58082ec3a3b394b40aee2b1cd1e69a20712ec7d",
+      "afterSha256": "8f3ba75c7c95ced40d76d4f9fbd67c544051d60cf782b18407dc4624ee780050",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/los-angeles/index.html",
+      "beforeSha256": "1e849c279ab3f563eb3a6321babc4edbef742b364ee9e074baabb1592315c7bb",
+      "afterSha256": "360781d762cda354ed0b0857b0b5060165e6ab34931badc0c459292202b3ad4d",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/louisville/index.html",
+      "beforeSha256": "c71cb598d274b226d4bec1f1410e6e85fb1482b2e59882fe69aaf91f13c02d83",
+      "afterSha256": "96fe39962d1e4bba3624a4a204ef71109e78e69df1ac8cdfdeb06b2560baddd1",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/memphis/index.html",
+      "beforeSha256": "e23a4dc15b70256c222de2647c7649694bc7b0f4e0e0c946d52c13bae1676001",
+      "afterSha256": "ca4a34cf7dbc9cc55e59a4ac7cfc656c14d3642fc982cf052196bbe3081591c9",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/miami/index.html",
+      "beforeSha256": "25318dca49ed4dfe84563c2e9a6f2c70c72a2bfc3b497858fc96a30e3f333fdd",
+      "afterSha256": "fc3ef89b2cd4397af84f2e6e86ec3a9e470f9509509e666a36ca9cfc54a62579",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/milwaukee/index.html",
+      "beforeSha256": "d0623eda3f72800011bc3f6e1f9f92a176e9cd9e9d63ebc14f4977acca0f9ce1",
+      "afterSha256": "b413c217f32448185e87e41afbdfb0d0268e251d91060eca31d4f849f85cf085",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/minneapolis/index.html",
+      "beforeSha256": "10e1f84addc2c2a52f86b24b24605a3cdf39c5b3bf751c5dcee5ea13238092b1",
+      "afterSha256": "555582379c6b6e0da731f1766a179b12915862fe2af435f2bf1da6700babce0a",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/moncton/index.html",
+      "beforeSha256": "5ee9b9a917b43fd0e82b4e0fe618e8d1d49366447c3d8815fdb058aaccd1963a",
+      "afterSha256": "941f58cbc51cea5221730372a5a1c77fd235a4b5069667f6519d40f99c43944b",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/montreal/index.html",
+      "beforeSha256": "d04dc7cc0aa2dbee31b9f017b129ddf54a93df069cd6b0ec87bd9c534895ffce",
+      "afterSha256": "a176c09091c2a63fdfe4fb883640a26d7c1b7d9787bb2e7fea7a5ee2e16536cb",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/nashville/index.html",
+      "beforeSha256": "62084b232f470a0fd7e6d7f5a677b73c5ceeac90e13ed7d45e10d26059c9ef1c",
+      "afterSha256": "19c59389c9f2eca3691f5b556b149a21bd3f5d4392e749fdef35ae7c55049ac0",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/new-orleans/index.html",
+      "beforeSha256": "1af4b4a445a5ab3b52bc1e7a4f1d8766915aaa3aff0bd9d0355a9732dc7ceae0",
+      "afterSha256": "f76842fa75777ee7fe30480ba0e88f9864cbf45eebc1d7823a2c244d29764206",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/new-york/index.html",
+      "beforeSha256": "7b6287b929b6b400161e38732d411c662277a13d70ebd526eab60cddbe0b3044",
+      "afterSha256": "dbe1ec4db2187f8ef2d7eca00dc7498a07684344a669da0bde49c1bbbe52e051",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/norfolk/index.html",
+      "beforeSha256": "777dfb646887b9c76912b934edf7ce7c0b434740eb393f55ab7e03bb95b2b179",
+      "afterSha256": "58607dc4e1ffbc838b037f659bd03bf092a2ee511ff44db941bdc80795330e47",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/oakland/index.html",
+      "beforeSha256": "a548ed93237fde964161c49ccf0e87af609b56f2355de2e82266362524e84a4d",
+      "afterSha256": "b2a38b289f5a85363cb898ca6f3fa79aeb68734713e0f41930d354b9abd37ea7",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/oklahoma-city/index.html",
+      "beforeSha256": "34900f9f2e7469c90c7113259ae3b340fd1a71ec78e0ca55f81fb78f63f7f023",
+      "afterSha256": "ebc0c8d113c03766768a8b9f6c2a91174ef3615f6a5ad89573fe691d8ad87b75",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/omaha/index.html",
+      "beforeSha256": "b2f36f0dae6c6581d0f2d02241d03050f7f8b65f0b37a85e60ed116cb89d8412",
+      "afterSha256": "37dd78fe3b928b94a37077ddda2d1921dc6505570c87280acab2a13154678ee0",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/orlando/index.html",
+      "beforeSha256": "b718955e8893732ede194a32acd50069b242e2cdc12ba98d9831f7186c43a2f9",
+      "afterSha256": "7732cd9be9efb72c1a8f1c25c9d20d631c3d55f8005257993d00154d6f796541",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/ottawa/index.html",
+      "beforeSha256": "03fa9c5467e6537b536cc760c8a235b9ed6315cfdfd654592b6a03e00650ec3e",
+      "afterSha256": "0a07a43ce917d8040aa1ede38278f98b568cbe37dd428cd5c45f0026d705d38e",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/palm-beach/index.html",
+      "beforeSha256": "b504430be219fecf2a61c7fb97f7cacd1a230232a7a0a0a56fb2706cda5922f3",
+      "afterSha256": "41137d693792621bc98dcd71183236c162fe6501b9aab5fa65036c2683a2c8cb",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/philadelphia/index.html",
+      "beforeSha256": "326a36f8eb8289764b3915b7fb5bdb0e3d156d83cb3e9ed705e7f7f9be03c9de",
+      "afterSha256": "f9ba59aa99b73a9b0190063f514578280dbbf28574071b029b300ecdb0601683",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/phoenix/index.html",
+      "beforeSha256": "86d678651c08a471f7dc083ee63de31efe1185efb68b4cf34b2c900f9b3a1f29",
+      "afterSha256": "2fd2c40f4e1bbd31c49e81df3c42fa66a1683f66edd59bef5b346cac757829a7",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/pittsburgh/index.html",
+      "beforeSha256": "2f00a3bf96344c292b2116e6fbeab8841726be8a45387b89634afa9ebe96870a",
+      "afterSha256": "d7d994ca8ed912d5c54dc0dcdb1615fcee834744cdb041e96818a77dada54f1c",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/portland/index.html",
+      "beforeSha256": "f65a2f41701de1fb89495219bee9eb43b3f84913c8d1ca7df30356d220bdb792",
+      "afterSha256": "de3d845ab9c7504f5e781d4453932dc1e0b0e4d7f1ea7cdf559bffe18492fc6e",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/providence/index.html",
+      "beforeSha256": "ce1b99caee5a79d1bcca60613fc76c344af2e2510495b2bd8422da3320b14c80",
+      "afterSha256": "70627118431dae16d3104d5effaaaf38c74cd066f9916be477b1929ef884d877",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/quebec-city/index.html",
+      "beforeSha256": "704db34f4271370c0a84d5c85fb6c3eda2d93ef79d1d2475a18dee6cc9925411",
+      "afterSha256": "efb86fee3e1911895464032b11abda4bf425424a8bd316128eab9ff86d4e98ea",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/raleigh/index.html",
+      "beforeSha256": "223f0923cf9f48a5a0c536c30a3dc4a29f410b095bddce1362f6302befa49b14",
+      "afterSha256": "9147e8014535d6423c6d4cae6314a0761777e20e986928d42f8ca2413e31e950",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/regina/index.html",
+      "beforeSha256": "fabe90a1b37ad72aef7318a6557d19f732fd01fe4d6f54032109271dd7da7831",
+      "afterSha256": "66aa156e67f58f3211761d404320a7281ee14134b7f3fa1f6734f8645ad20333",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/richmond/index.html",
+      "beforeSha256": "0a537b54e40b7efba1f3828e7842e9d0c32f496cc44c16efdd390df51b80e10e",
+      "afterSha256": "20027fa204e5e046697417a2f1330ba23247d6e77ffdadbed55bbc4bc720db99",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/rochester/index.html",
+      "beforeSha256": "bad1fd6cf8ae572aa2b33b64ecdb09b98cc0c61c09b2d2e5a34cab41c15cb7df",
+      "afterSha256": "70d23592dcab591900e176d7c611b47201ff2ee8a2c94a41ae0f78bbe980a336",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/sacramento/index.html",
+      "beforeSha256": "6606693a410cfeeb5ef0d095261dcd823869f725f2766c9464953f85acfdedf0",
+      "afterSha256": "97f8d222d4ce0e2cf4e64a8370956f8c8a8bdeccdf922e768ba8dfffb5b3d6e4",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/salt-lake-city/index.html",
+      "beforeSha256": "8e4ea22d2a556d70a1a2747dffac72d960b59ceaf11868fc6872cee0623cce7b",
+      "afterSha256": "c262ad7a05e033a5686e4bccbce38bd49f19d73f3a424ab51e059cfb81ca57a4",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/san-antonio/index.html",
+      "beforeSha256": "1cb804149f23e2bf224685123969db825921ac7fbb995bd55866f7ff60eece33",
+      "afterSha256": "028b03d5f0f08b8cbc3c9f29aea5b68c3f3688ef746fb3eb596d1716f83e4886",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/san-diego/index.html",
+      "beforeSha256": "1bffd3e6596fba331db7ce8416034665fbc9a422cef1f203808b4e66254c769c",
+      "afterSha256": "9867ca06887eb57b04bbc6c3c4cf7d681103fa0aba31850078c77c9b42749469",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/san-francisco/index.html",
+      "beforeSha256": "2fb2863f9284ab2bd3b27e44658a6cb07c77d43635b5e575c171841264df1dc4",
+      "afterSha256": "48a022fe03a668c34ba1f65d504e1086d0c7106e860964b21eb53b0debf56a1d",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/san-jose/index.html",
+      "beforeSha256": "a75eb4a376b61ec995943a08732709176f896a72647ff560a398aca60fa0ebc2",
+      "afterSha256": "bf5d8e4d35c61843d9bff989acef9d2ed75cf1aed31bd33071b449b524ba959f",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/santa-fe/index.html",
+      "beforeSha256": "5782ca6f55e45104fda25c58d82fb6a598678fa221025e02f39f389e1d516a26",
+      "afterSha256": "e93860bc761d8e747a65ddee4119288938ce1e1aa3e5c45cf1622345ab14742e",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/saskatoon/index.html",
+      "beforeSha256": "c21c24f55bdb2118b2ec180084054e081137d812ee1875b3ebf58fe4e52940c7",
+      "afterSha256": "b6db659da9afc2255d591eafc9ef3276599e7e039852071d7d96ed948852b598",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/savannah/index.html",
+      "beforeSha256": "87f266d1df15eb0f392f61202cd62e25be12abc6cb76e1444557a13665dcb955",
+      "afterSha256": "5ac867021680592fae9e46bb68417e42c4764c90866c66e59a810fa4c27b999d",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/seattle/index.html",
+      "beforeSha256": "82ce58325f56e617a7ede1dea3c0ec72900220fedb138d43ed93d862c14a7aa1",
+      "afterSha256": "41e4f888e7b13c2d3fde656ef3fc2dae4e7394ec73b89cb129b9aefa7b79a4eb",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/st-john-s/index.html",
+      "beforeSha256": "409d0fa0017e74f1730308a9b0bf573f711be381186541d5596a9defe8d96e75",
+      "afterSha256": "709773cbdc026c3965a1cc5949dd7b0fb8cb6711672f72a6032b09644fa2578a",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/st-louis/index.html",
+      "beforeSha256": "ff2e60a6a255e39b651579a794f7057c056b419910c2b62a56c9efcb44993903",
+      "afterSha256": "47e2d95b12c5a72f1766375b242456dc22d7d784842f1ca707eb1ebe1b5b8012",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/st-paul/index.html",
+      "beforeSha256": "58018e884d1858df029d60db4dbee551f6917815b98ece82e20ce32fa0502fd8",
+      "afterSha256": "86d05d783ffda897977af0278123887d53c1eae963d23bc6c0ef343683bce6c7",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/sudbury/index.html",
+      "beforeSha256": "0a0df95ecb245f36fd5e587c35a659579f0054e632c4f0d1de5d0751f721e791",
+      "afterSha256": "843114f220c7a69ee1a9701528aa0fcb04cee22cca6f22401a36cc8334f6e636",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/tampa/index.html",
+      "beforeSha256": "9c4e3f514e01c92ea45b4f1f3740e7cc381b18797e255363cd54724fe11ab427",
+      "afterSha256": "2fe2dc22039993b64fa4bc1bf3ebbf175c7f6475871b5ca9be82f974069809da",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/thunder-bay/index.html",
+      "beforeSha256": "33e2bcb28bdf70e3dc0d976dc48514c3dc00640bab16744355e61e585e11c4b3",
+      "afterSha256": "2699e12ff9cca044efcfa21cf94403e6fb4a50a067ac870c685721ded1c14e78",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/toledo/index.html",
+      "beforeSha256": "f84a580a9bd46a8c3b83992a8d62a2f7d6b4bd468c44124d70b177d1f5f53e7e",
+      "afterSha256": "c0905bfce0341db3bcda1001cc830f1d59fa2bc9165855686d36e6961d74f76b",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/toronto/index.html",
+      "beforeSha256": "853c35311e587f3865efbf13ba31b5ca187c99345e6ba41fba820d0ed090f457",
+      "afterSha256": "8ab35731fc000c1a38c06c8bc6ae13a0bc69faed5e93d67406e58d4d31775797",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/tucson/index.html",
+      "beforeSha256": "d7e289e3bb4094b59473947f70e8e1c6320a12d886f530593239d87d587c6d0d",
+      "afterSha256": "15b406edd57cbbeadf8256435679363e8c3029c31b981266f2e697ff3bcfbfcb",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/tulsa/index.html",
+      "beforeSha256": "725239759dc1488ef0430bf2f5dfbd9def765f8934b17cf79f39e54625e907b5",
+      "afterSha256": "1e0a8a4917b74074adb8d29e23dce1fccde845aa91d7e6a82b1ea40217a9ddd6",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/vancouver/index.html",
+      "beforeSha256": "9372c95572a942f8dc9979801c8401c557b3314040054d64b035e3b07a3f8f3b",
+      "afterSha256": "be7bde8cc079436bb441072c00b16888985fb266fbe3e3bbab7828e61c413a60",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/victoria/index.html",
+      "beforeSha256": "ec2a194f41d32b97bfae2d461fdd2712ea1c9e6b51fb7815eed8a3d8dd7e4430",
+      "afterSha256": "2fe92e18ac797b25bc64bd9a3fe45896a1b432f4466366185f8c1508d2858b13",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/virginia-beach/index.html",
+      "beforeSha256": "51a671cd93852d9738e05b1c70346cf3702ff4365aa117e3473f593aaf0d520e",
+      "afterSha256": "86b62bd2a5580a5e8e7c4befdd85b6db0d882cf49256c62efd9c00a88480193c",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/washington-dc/index.html",
+      "beforeSha256": "f3d84262617f73d318ee745ed980c40e8099893d8f5b994d5e9e5fd7771d3469",
+      "afterSha256": "b6b14bb365af4b2193d733862230ada7aaf0521b0ab7cf832ac694b65e759ebb",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    },
+    {
+      "file": "location/whitehorse/index.html",
+      "beforeSha256": "b991d554fa73134f9c968adb573965f395e8afa8430f72693c4161d349b753d5",
+      "afterSha256": "944cdde38f4c16a1f82ebc38f4f81b12c0d942864485da0c2c86656322fba2a7",
+      "linksReplaced": 1,
+      "removedCrosslinks": 0,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/"
+        }
+      ]
+    },
+    {
+      "file": "location/wichita/index.html",
+      "beforeSha256": "52f8a60d977f1d7d706bf95a1cb9d031d1e73d133c188c1056de0b167089e44a",
+      "afterSha256": "6484722c8c21f084e7cbb69ddf9e976e297ea5d3ddffa3e6bf482df7e905aef5",
+      "linksReplaced": 2,
+      "removedCrosslinks": 1,
+      "replacements": [
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        },
+        {
+          "source": "https://art-appraisers-directory.appraisily.com/location/",
+          "destination": "https://antique-appraiser-directory.appraisily.com/location/"
+        }
+      ]
+    }
+  ],
+  "conflictRecords": []
+}
