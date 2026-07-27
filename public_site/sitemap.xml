@@ -7,6 +7,7 @@
 
 
 
+
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/</loc>
     <lastmod>2026-05-14</lastmod>
@@ -2507,6 +2508,36 @@
     <loc>https://antique-appraiser-directory.appraisily.com/location/wichita/appraisal-guide/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/open-to-the-public/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://antique-appraiser-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>

@@ -3,85 +3,60 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 
-const file = path.resolve(import.meta.dirname, '../public_site/index.html');
-const html = await fs.readFile(file, 'utf8');
-const registryPath =
-  '/srv/repos/tools/directory-site-utils/references/art-route-registry.json';
-const registry = JSON.parse(await fs.readFile(registryPath, 'utf8'));
-const allowed = new Set(
-  registry.routes
-    .filter((route) => route.publicationStatus === 'published')
-    .map((route) => route.canonicalUrl),
-);
-const destinations = [
-  [registry.routes.find((route) => route.kind === 'home')?.canonicalUrl, 'Browse the reviewed fine-art appraiser directory'],
-  [registry.routes.find((route) => route.kind === 'location_hub')?.canonicalUrl, 'Compare reviewed art appraisers by primary location'],
+const ROOT = path.resolve(import.meta.dirname, '..');
+const PUBLIC_DIR = path.join(ROOT, 'public_site');
+const RETIRED_ORIGIN = 'art-appraisers-directory.appraisily.com';
+const MIGRATED_SLUGS = [
+  'afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man',
+  'heidi-vaughan-ma-isa-am',
+  'open-to-the-public',
+  'sarah-ann-wilson-art-services',
+  'st-lifer-art-inc-international-art-appraiser',
 ];
-const failures = [];
-if (!html.includes('data-art-directory-recovery-links="1"')) failures.push('missing server-rendered recovery module');
-for (const [href, label] of destinations) {
-  if (!href) {
-    failures.push(`registry is missing the destination for ${label}`);
-    continue;
-  }
-  if (!html.includes(`href="${href}"`)) failures.push(`missing direct link: ${href}`);
-  if (!html.includes(`>${label}</a>`)) failures.push(`missing descriptive anchor: ${label}`);
-}
 
-async function walkHtml(directory) {
-  const entries = await fs.readdir(directory, { withFileTypes: true });
+async function walk(directory) {
   const files = [];
-  for (const entry of entries) {
+  for (const entry of await fs.readdir(directory, { withFileTypes: true })) {
     const absolute = path.join(directory, entry.name);
-    if (entry.isDirectory()) files.push(...await walkHtml(absolute));
-    else if (entry.isFile() && entry.name.endsWith('.html')) files.push(absolute);
+    if (entry.isDirectory()) files.push(...await walk(absolute));
+    else if (entry.isFile() && /\.(?:html|json|xml|txt)$/.test(entry.name)) files.push(absolute);
   }
   return files;
 }
 
-let scannedLinks = 0;
-let genericHubCrosslinks = 0;
-for (const documentPath of await walkHtml(path.resolve(import.meta.dirname, '../public_site'))) {
-  const documentHtml = await fs.readFile(documentPath, 'utf8');
-  for (const match of documentHtml.matchAll(/href=["'](https:\/\/art-appraisers-directory\.appraisily\.com\/[^"']*)["']/g)) {
-    scannedLinks += 1;
-    const target = new URL(match[1]);
-    if (target.search || target.hash) failures.push(`tracked or fragmented crawl link in ${documentPath}: ${match[1]}`);
-    if (!allowed.has(target.href)) failures.push(`unregistered Art route in ${documentPath}: ${target.href}`);
+const failures = [];
+const retiredReferences = [];
+const obsoleteModules = [];
+for (const filename of await walk(PUBLIC_DIR)) {
+  const contents = await fs.readFile(filename, 'utf8');
+  const relative = path.relative(PUBLIC_DIR, filename);
+  if (contents.includes(RETIRED_ORIGIN)) retiredReferences.push(relative);
+  if (
+    contents.includes('data-directory-crosslink="antique-to-art"') ||
+    contents.includes("data-directory-crosslink='antique-to-art'") ||
+    contents.includes('data-art-directory-recovery-links=')
+  ) {
+    obsoleteModules.push(relative);
   }
-  for (const match of documentHtml.matchAll(
-    /<section\b(?=[^>]*\bdata-directory-crosslink=["']antique-to-art["'])[\s\S]*?<\/section>/gi,
-  )) {
-    const section = match[0];
-    if (!section.includes(`href="${destinations[1][0]}"`) && !section.includes(`href='${destinations[1][0]}'`)) {
-      continue;
-    }
-    genericHubCrosslinks += 1;
-    if (
-      /Looking for fine-art appraisal in|See art appraisers in|art-only city guide/i.test(section)
-    ) {
-      failures.push(`generic Art location hub carries a city-specific promise in ${documentPath}`);
-    }
-    for (const copy of [
-      'Looking for a fine-art appraiser?',
-      'browse the current source-reviewed art directory.',
-      'Browse reviewed art appraisers by location',
-    ]) {
-      if (!section.includes(copy)) {
-        failures.push(`generic Art location hub is missing ${JSON.stringify(copy)} in ${documentPath}`);
-      }
-    }
-  }
+}
+if (retiredReferences.length) failures.push(`retired Art host remains in ${retiredReferences.length} public file(s)`);
+if (obsoleteModules.length) failures.push(`obsolete crosslink module remains in ${obsoleteModules.length} public file(s)`);
+
+const sitemap = await fs.readFile(path.join(PUBLIC_DIR, 'sitemap.xml'), 'utf8');
+const appraiserIndex = await fs.readFile(path.join(PUBLIC_DIR, 'appraiser/index.html'), 'utf8');
+for (const slug of MIGRATED_SLUGS) {
+  const route = `/appraiser/${slug}/`;
+  if (!sitemap.includes(route)) failures.push(`migrated profile missing from sitemap: ${route}`);
+  if (!appraiserIndex.includes(`href="${route}"`)) failures.push(`migrated profile missing from appraiser index: ${route}`);
 }
 
 console.log(JSON.stringify({
   ok: failures.length === 0,
-  file,
-  registryPath,
-  registryArtifactSha256: registry.generatedFrom.artifactSha256,
-  destinations: destinations.length,
-  scannedLinks,
-  genericHubCrosslinks,
+  retiredOrigin: RETIRED_ORIGIN,
+  scannedFiles: (await walk(PUBLIC_DIR)).length,
+  migratedProfiles: MIGRATED_SLUGS.length,
+  retiredReferences,
+  obsoleteModules,
   failures,
 }, null, 2));
 if (failures.length) process.exitCode = 1;

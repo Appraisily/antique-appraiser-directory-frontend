@@ -2,10 +2,10 @@
   "generatedAt": "2026-07-26T18:51:58.734Z",
   "policyVersion": 1,
   "summary": {
-    "changedProfiles": 1057,
-    "indexable": 239,
-    "suppressed": 818,
-    "appraiserIndexEntries": 239
+    "changedProfiles": 1061,
+    "indexable": 244,
+    "suppressed": 817,
+    "appraiserIndexEntries": 244
   },
   "providers": [
     {
@@ -12215,14 +12215,25 @@
     {
       "slug": "sarah-ann-wilson-art-services",
       "name": "Wilson Art Services, LLC",
-      "publicationStatus": "under_review",
-      "reason": "canonical_provider_home_selected_on_art_directory",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+      "publicationStatus": "verified",
+      "reason": "manual_official_website_review",
+      "sourceUrl": "https://www.wilsonartservices.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+      "sourceUrls": [
+        "https://www.wilsonartservices.com/"
+      ],
       "canonicalProviderId": "provider:wilson-art-services"
     },
     {
@@ -14489,6 +14500,109 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/worthmore-jewelers/",
       "canonicalProviderId": "provider:worthmore-jewelers"
+    },
+    {
+      "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
+      "name": "AFP Art Consulting, LLC",
+      "publicationStatus": "verified",
+      "reason": "manual_official_website_review",
+      "sourceUrl": "https://afpartconsulting.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+      "canonicalProviderId": "provider:afp-art-consulting",
+      "sourceUrls": [
+        "https://afpartconsulting.com/",
+        "https://afpartconsulting.com/bio",
+        "https://afpartconsulting.com/art-consulting-services"
+      ]
+    },
+    {
+      "slug": "heidi-vaughan-ma-isa-am",
+      "name": "Heidi Vaughan Fine Art",
+      "publicationStatus": "verified",
+      "reason": "manual_official_website_review",
+      "sourceUrl": "https://heidivaughanfineart.com/about",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+      "canonicalProviderId": "provider:heidi-vaughan-ma-am",
+      "sourceUrls": [
+        "https://heidivaughanfineart.com/about",
+        "https://heidivaughanfineart.com/gallery-team"
+      ]
+    },
+    {
+      "slug": "open-to-the-public",
+      "name": "Open to the Public",
+      "publicationStatus": "verified",
+      "reason": "manual_official_website_review",
+      "sourceUrl": "https://opentothepublic.art/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
+      "canonicalProviderId": "provider:open-to-the-public",
+      "sourceUrls": [
+        "https://opentothepublic.art/",
+        "https://opentothepublic.art/about/",
+        "https://opentothepublic.art/art-appraisals/"
+      ]
+    },
+    {
+      "slug": "st-lifer-art-inc-international-art-appraiser",
+      "name": "St. Lifer Art, Inc.",
+      "publicationStatus": "verified",
+      "reason": "manual_official_website_review",
+      "sourceUrl": "https://stliferart.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+      "canonicalProviderId": "provider:st-lifer-fine-art",
+      "sourceUrls": [
+        "https://stliferart.com/",
+        "https://stliferart.com/about-the-appraiser/",
+        "https://stliferart.com/appraisals/appraisal-services/"
+      ]
     }
   ]
 }

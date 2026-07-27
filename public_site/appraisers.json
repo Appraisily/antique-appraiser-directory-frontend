@@ -2,8 +2,8 @@
   "title": "Antique Appraiser Directory appraiser profiles",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-26T18:52:18.543Z",
-  "count": 239,
+  "generatedAt": "2026-07-27T21:24:29.174Z",
+  "count": 244,
   "appraisers": [
     {
       "slug": "a-coin-and-stamp-gallery-estate-appraisal",
@@ -11,6 +11,7 @@
       "name": "A-Coin & Stamp Gallery, Inc.",
       "description": "A-Coin & Stamp Gallery, Inc. has a limited directory listing for Jacksonville, FL. Confirm current details directly with the business.",
       "image": "https://www.a-coin.com/wp-content/uploads/2022/12/cropped-A-CoinStampGallery_Favicon-192x192.png",
+      "website": "https://www.a-coin.com/",
       "address": {
         "city": "Jacksonville",
         "region": "FL",
@@ -28,6 +29,7 @@
       "name": "A.J. Martin Estate Jewelry, Etc.",
       "description": "A.J. Martin Estate Jewelry, Etc. has a limited directory listing for Nashville, TN. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/a-j-martin-estate-jewelry-etc.svg",
+      "website": "https://ajmartinonline.com/",
       "address": {
         "city": "Nashville",
         "region": "TN",
@@ -45,6 +47,7 @@
       "name": "A&S Estate Sales of Oregon, LLC",
       "description": "A&S Estate Sales of Oregon, LLC has a limited directory listing for Portland, OR. Confirm current details directly with the business.",
       "image": "https://i0.wp.com/asestatesalesoforegon.com/wp-content/uploads/2018/02/AS-Estate-Sales-EST-3.jpg?fit=1500%2C1500&ssl=1",
+      "website": "https://asestatesalesoforegon.com/",
       "address": {
         "city": "Portland",
         "region": "OR",
@@ -62,6 +65,7 @@
       "name": "Aaa Jewelry Appraisal",
       "description": "Aaa Jewelry Appraisal has a limited directory listing for Los Angeles, CA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/aaa-jewelry-appraisal.svg",
+      "website": "http://www.aaajewelryappraisal.com/",
       "address": {
         "city": "Los Angeles",
         "region": "CA",
@@ -79,6 +83,7 @@
       "name": "Aardvark Antiques & Estate Liquidations",
       "description": "Aardvark Antiques & Estate Liquidations has a limited directory listing for Gainesville, GA. Confirm current details directly with the business.",
       "image": "https://aardvark-antiques.com/wp-content/uploads/2017/04/cropped-aar-favicon-32x32.png",
+      "website": "https://aardvark-antiques.com/",
       "address": {
         "city": "Gainesville",
         "region": "GA",
@@ -96,6 +101,7 @@
       "name": "Abbey Road Antiques & Appraisals",
       "description": "Abbey Road Antiques & Appraisals has a limited directory listing for Chadds Ford, PA. Confirm current details directly with the business.",
       "image": "https://cdn.hibuwebsites.com/081a3dd56a9240d3b792c0ebfe465dc0/site_favicon_16_1649708681242.ico",
+      "website": "https://www.abbeyroadantiques.net/",
       "address": {
         "city": "Chadds Ford",
         "region": "PA",
@@ -113,6 +119,7 @@
       "name": "Able Auctions – Asset Valuation Division",
       "description": "Able Auctions – Asset Valuation Division has a limited directory listing for Langley, BC. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_kelowna-able-auctions-asset-valuation-division_1742202691842_hqOIZYGOn.jpg",
+      "website": "https://www.ableauctions.ca/",
       "address": {
         "city": "Langley",
         "region": "BC",
@@ -130,6 +137,7 @@
       "name": "Accredited Jewelry Appraisers, LLC",
       "description": "Accredited Jewelry Appraisers, LLC has a limited directory listing for Falls Church, VA. Confirm current details directly with the business.",
       "image": "https://www.accreditedjewelryappraisers.com/wp-content/uploads/2019/05/acreditedjewelry-appraisers-logo1.png",
+      "website": "https://www.accreditedjewelryappraisers.com/",
       "address": {
         "city": "Falls Church",
         "region": "VA",
@@ -147,6 +155,7 @@
       "name": "ACES Gallery | Auctions & Online Estate Sales",
       "description": "ACES Gallery | Auctions & Online Estate Sales has a limited directory listing for Stamford, CT. Confirm current details directly with the business.",
       "image": "https://static1.squarespace.com/static/6909ff3ba9fdc608ffcebf82/t/690a438cde464b15dbc2adb3/1762280332689/aces-gallery-hz+copy.jpg?format=1500w",
+      "website": "https://www.aces.net/",
       "address": {
         "city": "Stamford",
         "region": "CT",
@@ -164,6 +173,7 @@
       "name": "Adams Appraisal LLC",
       "description": "Adams Appraisal LLC has a limited directory listing for Chicago, IL. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_chicago-adams-appraisal-llc_1742079326595_NI13K4cjC.jpg",
+      "website": "https://adamsappraisalllc.com/",
       "address": {
         "city": "Chicago",
         "region": "IL",
@@ -181,6 +191,7 @@
       "name": "Adams Unlimited Inc",
       "description": "Adams Unlimited Inc has a limited directory listing for Westchester County, NY. Confirm current details directly with the business.",
       "image": "http://adamsunlimited.net/uploads/3/4/8/8/34886038/img-3346_orig.jpg",
+      "website": "http://www.adamsunlimited.net/index.html",
       "address": {
         "city": "Westchester County",
         "region": "NY",
@@ -198,6 +209,7 @@
       "name": "Aether Estate Services",
       "description": "Aether Estate Services has a limited directory listing for Beech Grove, IN. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/8be90f_85eb52b9fd4f4132b1c84c6171acca19%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/8be90f_85eb52b9fd4f4132b1c84c6171acca19%7Emv2.png",
+      "website": "https://www.aetherestateservices.com/",
       "address": {
         "city": "Beech Grove",
         "region": "IN",
@@ -210,11 +222,30 @@
       }
     },
     {
+      "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+      "name": "AFP Art Consulting, LLC",
+      "description": "AFP Art Consulting is a Boston fine-art appraisal and consulting firm offering USPAP-aligned appraisals, research, advisory, and collection management.",
+      "website": "https://afpartconsulting.com/",
+      "address": {
+        "city": "Boston",
+        "region": "MA",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+        "verifiedAt": "2026-07-27"
+      }
+    },
+    {
       "slug": "alderfer-auction",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/alderfer-auction/",
       "name": "Alderfer Auction",
       "description": "Alderfer Auction has a limited directory listing for Hatfield, PA. Confirm current details directly with the business.",
       "image": "https://assets.bwwsplatform.com/bwws-clients/assets/branding/93/logo-masthead-color__large.png?v=1674227907",
+      "website": "https://www.alderferauction.com/",
       "address": {
         "city": "Hatfield",
         "region": "PA",
@@ -232,6 +263,7 @@
       "name": "Alex Cooper Auctioneers Inc",
       "description": "Alex Cooper Auctioneers Inc has a limited directory listing for Towson, MD. Confirm current details directly with the business.",
       "image": "https://www.alexcooper.com/hs-fs/hubfs/AC---Logo---600x310.png?width=600&height=310&name=AC---Logo---600x310.png",
+      "website": "https://www.alexcooper.com/",
       "address": {
         "city": "Towson",
         "region": "MD",
@@ -249,6 +281,7 @@
       "name": "Alice Karle Appraisal",
       "description": "Alice Karle Appraisal has a limited directory listing for Los Angeles, CA. Confirm current details directly with the business.",
       "image": "https://www.alicekarleappraiserfineart.com/wp-content/uploads/images/public/paintings/cropped-GranvilleRedmondx512cf.jpg",
+      "website": "https://www.alicekarleappraiserfineart.com/",
       "address": {
         "city": "Los Angeles",
         "region": "CA",
@@ -266,6 +299,7 @@
       "name": "Aloha Estate Jewelry",
       "description": "Aloha Estate Jewelry has a limited directory listing for Honolulu, HI. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_honolulu-aloha-estate-jewelry_1742202558491_RrqKnjek2.jpg",
+      "website": "https://alohaestatejewelry.com/",
       "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
@@ -278,6 +312,7 @@
       "name": "Alpha 137 Gallery",
       "description": "Alpha 137 Gallery has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_alpha-137-gallery-2565_1742166262918_wTcAPved5.jpg",
+      "website": "https://alpha137gallery.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -295,6 +330,7 @@
       "name": "Alta Estate Sales Of Oregon LLC",
       "description": "Alta Estate Sales Of Oregon LLC has a limited directory listing for Portland, OR. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/5db1f8a86132c21f023345d5/1615805085903-KHZ3E0H4W09UH6GV56SK/favicon.ico?format=100w",
+      "website": "https://www.altaestatesales.com/",
       "address": {
         "city": "Portland",
         "region": "OR",
@@ -312,6 +348,7 @@
       "name": "Amber Lane Estate Sale Services",
       "description": "Amber Lane Estate Sale Services has a limited directory listing for Jacksonville, FL. Confirm current details directly with the business.",
       "image": "https://irp.cdn-website.com/8177e8da/site_favicon_16_1619641891831.ico",
+      "website": "https://www.amberlanejax.com/",
       "address": {
         "city": "Jacksonville",
         "region": "FL",
@@ -329,6 +366,7 @@
       "name": "Amelia Jeffers, Auctioneers & Appraisers",
       "description": "Amelia Jeffers, Auctioneers & Appraisers has a limited directory listing for Columbus, OH. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/697ef0_c4924d1b53764f9db9e55995c5a1b231%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/697ef0_c4924d1b53764f9db9e55995c5a1b231%7Emv2.jpg",
+      "website": "https://www.ameliajeffers.com/",
       "address": {
         "city": "Columbus",
         "region": "OH",
@@ -346,6 +384,7 @@
       "name": "American Appraisal",
       "description": "American Appraisal has a limited directory listing for Farmington Hills, MI. Confirm current details directly with the business.",
       "image": "https://irp.cdn-website.com/290e2380/dms3rep/multi/opt/AA-1920w.png",
+      "website": "https://www.americanappraisalusa.com/",
       "address": {
         "city": "Farmington Hills",
         "region": "MI",
@@ -363,6 +402,7 @@
       "name": "American Eagle Auction & Appraisal Company, LLC",
       "description": "American Eagle Auction & Appraisal Company, LLC has a limited directory listing for MI. Confirm current details directly with the business.",
       "image": "https://michiganauctioncompany.com/#logo",
+      "website": "https://michiganauctioncompany.com/",
       "address": {
         "region": "MI",
         "country": "US"
@@ -379,6 +419,7 @@
       "name": "American Gem Registry – Neil Beaty",
       "description": "American Gem Registry – Neil Beaty CGJA has a limited directory listing for Arvada, CO. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_denver-american-gem-registry-neil-beaty-cgja_1742201370744_SZWS1VM_2.jpg",
+      "website": "https://americangemregistry.com/",
       "address": {
         "city": "Arvada",
         "region": "CO",
@@ -396,6 +437,7 @@
       "name": "Angell Estate Sales & Appraisal Services Inc.",
       "description": "Angell Estate Sales & Appraisal Services Inc. has a limited directory listing for Brandon, FL. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/angell-estate-sales-appraisals.svg",
+      "website": "http://www.angellestatesales.com/",
       "address": {
         "city": "Brandon",
         "region": "FL",
@@ -413,6 +455,7 @@
       "name": "Anita's Antiques & Estate Sales",
       "description": "Anita's Antiques & Estate Sales has a limited directory listing for Jacksonville, FL. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/90a441_ded87e567ba24bdeb5517db1323732fb%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/90a441_ded87e567ba24bdeb5517db1323732fb%7Emv2.jpg",
+      "website": "https://www.anitasantiques.com/",
       "address": {
         "city": "Jacksonville",
         "region": "FL",
@@ -430,6 +473,7 @@
       "name": "Antique Alley Estate Services & Appraisals",
       "description": "Antique Alley Estate Services & Appraisals has a limited directory listing for Killeen, TX. Confirm current details directly with the business.",
       "image": "https://img1.wsimg.com/isteam/ip/23f6e134-fa41-4528-a78b-5df169519877/favicon/6c071e7f-3747-46e7-be43-ef2a3a18cb26.jpg/:/rs=w:16,h:16,m",
+      "website": "https://antiquealleytx.com/",
       "address": {
         "city": "Killeen",
         "region": "TX",
@@ -447,6 +491,7 @@
       "name": "Antique Appraisers Auctioneers",
       "description": "Antique Appraisers Auctioneers has a limited directory listing for Old Greenwich, CT. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/antique-appraisers-auctioneers.svg",
+      "website": "https://antiqueappraisersauctioneers.com/",
       "address": {
         "city": "Old Greenwich",
         "region": "CT",
@@ -464,6 +509,7 @@
       "name": "Antique Trader West",
       "description": "Antique Trader West has a limited directory listing for Richmond, IN. Confirm current details directly with the business.",
       "image": "https://lotusgemsandantiques.wpcomstaging.com/wp-content/uploads/2022/12/cropped-Antique-Trader-West-Logo-1-1.png",
+      "website": "https://antiquetraderwest.com/",
       "address": {
         "city": "Richmond",
         "region": "IN",
@@ -481,6 +527,7 @@
       "name": "Antiques & Assets",
       "description": "Antiques & Assets has a limited directory listing for Greenville, DE. Confirm current details directly with the business.",
       "image": "https://antiquesandassets.com/wp-content/uploads/2024/08/cropped-antiques-assets-main-logo-2400x1800-1-32x32-1.jpg",
+      "website": "https://antiquesandassets.com/",
       "address": {
         "city": "Greenville",
         "region": "DE",
@@ -498,6 +545,7 @@
       "name": "Antiques Buyers Mayfair Gallery",
       "description": "Antiques Buyers Mayfair Gallery has a limited directory listing for Los Angeles, CA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/antiques-buyers-antique-appraisal-mayfair-gallery.svg",
+      "website": "https://antiques-buyers.com/locations/california/",
       "address": {
         "city": "Los Angeles",
         "region": "CA",
@@ -515,6 +563,7 @@
       "name": "Antiques Estate Buyers USA",
       "description": "Antiques Estate Buyers USA has a limited directory listing for Islip, NY. Confirm current details directly with the business.",
       "image": "https://irp.cdn-website.com/88515067/dms3rep/multi/The+design+features+a+gold+outline+of+a+house+with+clean-+elegan.webp",
+      "website": "https://www.antiquesestatebuyers.com/",
       "address": {
         "city": "Islip",
         "region": "NY",
@@ -532,6 +581,7 @@
       "name": "Antiques On Magnolia",
       "description": "Antiques On Magnolia has a limited directory listing for Los Angeles, CA. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/c95a4a_e7ba256e6eb940e8a01d151ec59454e7%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/c95a4a_e7ba256e6eb940e8a01d151ec59454e7%7Emv2.png",
+      "website": "https://www.antiquesonmagnolia.com/",
       "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
@@ -544,6 +594,7 @@
       "name": "Antiquestor Personal Property Appraisals",
       "description": "Antiquestor Personal Property Appraisals has a limited directory listing for Saint Charles, IL. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/antiquestor-personal-property-appraisals.svg",
+      "website": "https://antiquestor.com/",
       "address": {
         "city": "Saint Charles",
         "region": "IL",
@@ -561,6 +612,7 @@
       "name": "Robin Jones Appraisal Services Antiques & Fine Arts Since 1969",
       "description": "Robin Jones Appraisal Services Antiques & Fine Arts Since 1969 has a limited directory listing for Santa Barbara, CA. Confirm current details directly with the business.",
       "image": "https://cdn.website.thryv.com/cfdc397ecdb34882bbb7c10f8c7f8611/site_favicon_16_1554312426039.ico",
+      "website": "https://www.robinjonesappraisals.com/",
       "address": {
         "city": "Santa Barbara",
         "region": "CA",
@@ -578,6 +630,7 @@
       "name": "AppraiseItNow Inc.",
       "description": "AppraiseItNow Inc. has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://cdn.prod.website-files.com/645206930250ed21d4d02108/67e28d4fb2f43c7380e03b5e_appraiseitnow-logo.svg",
+      "website": "https://www.appraiseitnow.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -595,6 +648,7 @@
       "name": "Antique Appraisal Associates",
       "description": "Antique Appraisal Associates has a limited directory listing for Bend, OR. Confirm current details directly with the business.",
       "image": "https://irp.cdn-website.com/42c18d126bc144bfa973a7c614306f5e/site_favicon_16_1619640785460.ico",
+      "website": "https://www.antiqueappraisalassociates.com/",
       "address": {
         "city": "Bend",
         "region": "OR",
@@ -612,6 +666,7 @@
       "name": "Appraising Plus",
       "description": "Appraising Plus has a limited directory listing for Durham, NC. Confirm current details directly with the business.",
       "image": "https://www.appraisingplus.com/apple-touch-icon.png",
+      "website": "https://www.appraisingplus.com/",
       "address": {
         "city": "Durham",
         "region": "NC",
@@ -629,6 +684,7 @@
       "name": "Appraisley",
       "description": "Appraisley has a limited directory listing for Boulder, CO. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/appraisley.svg",
+      "website": "https://appraisley.com/",
       "address": {
         "city": "Boulder",
         "region": "CO",
@@ -646,6 +702,7 @@
       "name": "Arcadia Art Consultancy",
       "description": "Arcadia Art Consultancy has a limited directory listing for Charlotte, NC. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/58fcf7f1893fc0d7604f0e8b/1536942866041-N1POL0CAB3XQ1GD2B5RE/favicon.ico?format=100w",
+      "website": "https://www.arcadiaappraisals.com/",
       "address": {
         "city": "Charlotte",
         "region": "NC",
@@ -663,6 +720,7 @@
       "name": "Lluria Fine Arts Services, LLC",
       "description": "Lluria Fine Arts Services, LLC has a limited directory listing for Coral Gables, FL. Confirm current details directly with the business.",
       "image": "https://lluriafinearts.com/wp-content/themes/celestino/favicon.ico",
+      "website": "https://lluriafinearts.com/",
       "address": {
         "city": "Coral Gables",
         "region": "FL",
@@ -680,6 +738,7 @@
       "name": "Art Appraisal Austin",
       "description": "Art Appraisal Austin has a limited directory listing for Austin, TX. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/060096_658bfaf92daa45469d1bc75bc62ade4e%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/060096_658bfaf92daa45469d1bc75bc62ade4e%7Emv2.jpg",
+      "website": "https://www.artappraisalaustin.com/",
       "address": {
         "city": "Austin",
         "region": "TX",
@@ -697,6 +756,7 @@
       "name": "Art Appraisals of Santa Fe",
       "description": "Art Appraisals of Santa Fe has a limited directory listing for Santa Fe, NM. Confirm current details directly with the business.",
       "image": "https://artappraisalsofsantafe.com/wp-content/themes/corporate/images/favicon.ico",
+      "website": "https://artappraisalsofsantafe.com/contact/",
       "address": {
         "city": "Santa Fe",
         "region": "NM",
@@ -714,6 +774,7 @@
       "name": "Art of Estates",
       "description": "Art of Estates has a limited directory listing for Wichita, KS. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_wichita-art-of-estates_1742201713740_uumpg9oGB.jpg",
+      "website": "https://artofestates.com/",
       "address": {
         "city": "Wichita",
         "region": "KS",
@@ -731,6 +792,7 @@
       "name": "Art Whit Appraisals",
       "description": "Art Whit Appraisals has a limited directory listing for Austin, TX. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/66a94ae58e2fad71318728ed/6a4fa875-334a-4841-8155-2179866ca149/favicon.ico?format=100w",
+      "website": "https://www.artwhit.com/",
       "address": {
         "city": "Austin",
         "region": "TX",
@@ -748,6 +810,7 @@
       "name": "Artifactual History® Appraisal",
       "description": "Artifactual History® Appraisal has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/55f6394ee4b0304fcdd75b4a/1442228759573-QY8FH0ZNLM474BUTFJCN/favicon.ico?format=100w",
+      "website": "https://www.artifactualhistory.com/",
       "address": {
         "city": "Washington",
         "region": "DC",
@@ -765,6 +828,7 @@
       "name": "Artista Art & Antiques",
       "description": "Artista Art & Antiques has a limited directory listing for Kelowna, BC. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_kelowna-artista-art-antiquits_1742202681121_xFRJefl1Q.jpg",
+      "website": "https://artistaantiques.ca/",
       "address": {
         "city": "Kelowna",
         "region": "BC",
@@ -782,6 +846,7 @@
       "name": "Asha Fine Art and Appraisals",
       "description": "Asha Fine Art and Appraisals has a limited directory listing for Olympia, WA. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/0ec8c0_038284078ca74991b41f2ae8b7362acd%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/0ec8c0_038284078ca74991b41f2ae8b7362acd%7Emv2.png",
+      "website": "https://www.ashafineartandappraisals.com/",
       "address": {
         "city": "Olympia",
         "region": "WA",
@@ -799,6 +864,7 @@
       "name": "Asset Appraisal Partners",
       "description": "Asset Appraisal Partners has a limited directory listing for Charlotte, NC. Confirm current details directly with the business.",
       "image": "https://img1.wsimg.com/isteam/ip/49e861fd-4649-46e2-bff7-46c253b62693/Asset%20Appraisal%20Partners.png/:/rs=w:57,h:57,m",
+      "website": "https://assetappraisalpartners.com/",
       "address": {
         "city": "Charlotte",
         "region": "NC",
@@ -816,6 +882,7 @@
       "name": "Associated Estate & Appraisal Co.",
       "description": "Associated Estate & Appraisal Co. has a limited directory listing for Cranston, RI. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/045f03_8a59e74c29b24b4cbdaf67359a164338%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/045f03_8a59e74c29b24b4cbdaf67359a164338%7Emv2.jpg",
+      "website": "https://www.associatedestate.com/",
       "address": {
         "city": "Cranston",
         "region": "RI",
@@ -833,6 +900,7 @@
       "name": "Atlas Jewelry Services",
       "description": "Atlas Jewelry Services has a limited directory listing for Colleyville, TX. Confirm current details directly with the business.",
       "image": "https://atlasjewelryservices.com/wp-content/uploads/2023/04/logo-3-150x150.png",
+      "website": "https://atlasjewelryservices.com/",
       "address": {
         "city": "Colleyville",
         "region": "TX",
@@ -850,6 +918,7 @@
       "name": "Attic to Appraisals",
       "description": "Attic to Appraisals has a limited directory listing for Chicago, IL. Confirm current details directly with the business.",
       "image": "https://static.parastorage.com/client/pfavico.ico",
+      "website": "https://www.attictoappraisals.com/",
       "address": {
         "city": "Chicago",
         "region": "IL",
@@ -867,6 +936,7 @@
       "name": "Cottone Auctions",
       "description": "Cottone Auctions has a limited directory listing for Geneseo, NY. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/auctions-in-rochester-ny-fine-art-and-antiques-cottone-auctions.svg",
+      "website": "https://www.cottoneauctions.com/fine-art-and-antique-appraisals",
       "address": {
         "city": "Geneseo",
         "region": "NY",
@@ -884,6 +954,7 @@
       "name": "Arizona Certified Appraisal Group",
       "description": "Arizona Certified Appraisal Group has a limited directory listing for Phoenix, AZ. Confirm current details directly with the business.",
       "image": "https://azcertifiedappraisalgroup.com/wp-content/themes/decor/images/favicon.ico",
+      "website": "https://azcertifiedappraisalgroup.com/",
       "address": {
         "city": "Phoenix",
         "region": "AZ",
@@ -901,6 +972,7 @@
       "name": "Baggenstoss Appraisal",
       "description": "Baggenstoss Appraisal has a limited directory listing for Portland, OR. Confirm current details directly with the business.",
       "image": "https://baggenstossappraisal.com/wp-content/uploads/2024/01/site-logo.png?w=22",
+      "website": "https://baggenstossappraisal.com/",
       "address": {
         "city": "Portland",
         "region": "OR",
@@ -918,6 +990,7 @@
       "name": "Banks Fine Art",
       "description": "Banks Fine Art has a limited directory listing for Dallas, TX. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/533ada02e4b0d13f8c6576f0/1396366728306-1MX7623TPIBWSU4RKM6G/favicon.ico?format=100w",
+      "website": "http://www.banksfineart.com/",
       "address": {
         "city": "Dallas",
         "region": "TX",
@@ -935,6 +1008,7 @@
       "name": "Barrett Street Auction Center & Antique Mall",
       "description": "Barrett Street Auction Center & Antique Mall has a limited directory listing for Virginia Beach, VA. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_virginia_beach-barrett-street-auction-center-antique-mall_1742203480967_ikfZtPSqw.jpg",
+      "website": "https://barrettstreet.com/",
       "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
@@ -947,6 +1021,7 @@
       "name": "Bass & Bass Antique Appraisals",
       "description": "Bass & Bass Antique Appraisals has a limited directory listing for Tallahassee, FL. Confirm current details directly with the business.",
       "image": "https://bassantiqueappraisals.com/images/favicon.png",
+      "website": "https://bassantiqueappraisals.com/",
       "address": {
         "city": "Tallahassee",
         "region": "FL",
@@ -964,6 +1039,7 @@
       "name": "Belle Meade Jewelry",
       "description": "Belle Meade Jewelry has a limited directory listing for Nashville, TN. Confirm current details directly with the business.",
       "image": "http://static1.squarespace.com/static/6682da7439bf3c496eaf3598/t/66981e13d854923914ce9b66/1721245203860/bmjlogo.JPG?format=1500w",
+      "website": "https://www.bellemeadejewelry.net/",
       "address": {
         "city": "Nashville",
         "region": "TN",
@@ -981,6 +1057,7 @@
       "name": "Berenice Denton Estate Sales",
       "description": "Berenice Denton Estate Sales has a limited directory listing for Nashville, TN. Confirm current details directly with the business.",
       "image": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "website": "https://www.berenicedenton.com/",
       "address": {
         "city": "Nashville",
         "region": "TN",
@@ -998,6 +1075,7 @@
       "name": "BLADES Appraisals and Art Resources",
       "description": "BLADES Appraisals and Art Resources has a limited directory listing for Houston, TX. Confirm current details directly with the business.",
       "image": "https://bladesappraisals.com/wp-content/uploads/2024/09/cropped-rsw_400cg_truem-2-32x32.webp",
+      "website": "https://bladesappraisals.com/",
       "address": {
         "city": "Houston",
         "region": "TX",
@@ -1015,6 +1093,7 @@
       "name": "Boston Estate & Gem Appraisal",
       "description": "Boston Estate & Gem Appraisal has a limited directory listing for Boston, MA. Confirm current details directly with the business.",
       "image": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "website": "https://www.bostonega.com/",
       "address": {
         "city": "Boston",
         "region": "MA",
@@ -1054,6 +1133,7 @@
       "name": "Brad Peele Estate Sales & Appraiser",
       "description": "Brad Peele Estate Sales & Appraiser in Tampa Bay has a limited directory listing for Tampa, FL. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/brad-peele-estate-sales-and-appraiser-buyer-of-collectibles-vintage-buyer-antique-and-coll.svg",
+      "website": "https://estatesales-appraisals.com/",
       "address": {
         "city": "Tampa",
         "region": "FL",
@@ -1071,6 +1151,7 @@
       "name": "Brian Lehman Evaluations and Estate Sale Pros",
       "description": "Brian Lehman Evaluations Estate & Antique Appraisal in Calgary has a limited directory listing for Calgary, AB. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_calgary-brian-lehman-evaluations_1742170114453_V0NqKnEkf.jpg",
+      "website": "https://brianlehmanevaluations.com/",
       "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
@@ -1083,6 +1164,7 @@
       "name": "Burleson Valuations",
       "description": "Burleson Valuations has a limited directory listing for Lexington, KY. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/da5f79_9d6a93e20aa44b96aca42f7b78be1e08%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/da5f79_9d6a93e20aa44b96aca42f7b78be1e08%7Emv2.png",
+      "website": "https://www.burlesonvaluations.com/",
       "address": {
         "city": "Lexington",
         "region": "KY",
@@ -1100,6 +1182,7 @@
       "name": "Burns Auction & Appraisal LLC",
       "description": "Burns Auction & Appraisal LLC has a limited directory listing for Lancaster, OH. Confirm current details directly with the business.",
       "image": "https://burnsbid.com/wp-content/smush-webp/2024/10/cropped-1-logo-32x32.jpg.webp",
+      "website": "https://burnsbid.com/",
       "address": {
         "city": "Lancaster",
         "region": "OH",
@@ -1117,6 +1200,7 @@
       "name": "Caplan's Auction & Appraisal Co.",
       "description": "Caplan's Auction & Appraisal Co. has a limited directory listing for Savage, MD. Confirm current details directly with the business.",
       "image": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+      "website": "https://caplans.com/",
       "address": {
         "city": "Savage",
         "region": "MD",
@@ -1134,6 +1218,7 @@
       "name": "Carioti Jewelers",
       "description": "Carioti Jewelers has a limited directory listing for Columbus, OH. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/carioti-jewelers.svg",
+      "website": "https://www.cariotijewelers.com/",
       "address": {
         "city": "Columbus",
         "region": "OH",
@@ -1151,6 +1236,7 @@
       "name": "Case Antiques, Inc. d/b/a Case Auctions",
       "description": "Case Antiques, Inc. d/b/a Case Auctions has a limited directory listing for Knoxville, TN. Confirm current details directly with the business.",
       "image": "https://caseantiques.com/app/uploads/2022/07/cropped-Case-Logo_Badge-C-TINY-32x32.png",
+      "website": "https://caseantiques.com/",
       "address": {
         "city": "Knoxville",
         "region": "TN",
@@ -1168,6 +1254,7 @@
       "name": "Caza Sikes",
       "description": "Caza Sikes has a limited directory listing for Cincinnati, OH. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_cincinnati-caza-sikes_1742201172594_Il_h4RArb.jpg",
+      "website": "https://www.cazasikes.com/",
       "address": {
         "city": "Cincinnati",
         "region": "OH",
@@ -1185,6 +1272,7 @@
       "name": "Cedarburg Auction & Appraisals LLC",
       "description": "Cedarburg Auction & Appraisals LLC has a limited directory listing for Brown Deer, WI. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_milwaukee-cedarburg-auction-appraisals-llc_1742202773948_e95lPwg3L.jpg",
+      "website": "https://www.cedarburgauction.com/",
       "address": {
         "city": "Brown Deer",
         "region": "WI",
@@ -1202,6 +1290,7 @@
       "name": "Central Mass Auctions",
       "description": "Central Mass Auctions has a limited directory listing for Boston, MA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/central-mass-auctions.svg",
+      "website": "https://centralmassauctions.com/",
       "address": {
         "city": "Boston",
         "region": "MA",
@@ -1219,6 +1308,7 @@
       "name": "Reliant Gem Lab",
       "description": "Reliant Gem Lab has a limited directory listing for Wilsonville, OR. Confirm current details directly with the business.",
       "image": "https://irp-cdn.multiscreensite.com/4acf1996/dms3rep/multi/reliant+gem+favicon.png",
+      "website": "https://www.reliantgemlab.com/",
       "address": {
         "city": "Wilsonville",
         "region": "OR",
@@ -1236,6 +1326,7 @@
       "name": "Charles Schwartz & Son Jewelers",
       "description": "Charles Schwartz & Son Jewelers has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/charles-schwartz-and-son-jewelers.svg",
+      "website": "https://www.charlesschwartz.com/",
       "address": {
         "city": "Washington",
         "region": "DC",
@@ -1253,6 +1344,7 @@
       "name": "Charlotte Rare Coins",
       "description": "Charlotte Rare Coins coin appraisal in Charlotte, NC has a limited directory listing for Charlotte, NC. Confirm current details directly with the business.",
       "image": "https://charlotterarecoins.com/wp-content/uploads/2024/09/CRC_Logo_Color-2.svg",
+      "website": "https://charlotterarecoins.com/",
       "address": {
         "city": "Charlotte",
         "region": "NC",
@@ -1270,6 +1362,7 @@
       "name": "Chris James Co.",
       "description": "Chris James Co. jewelry appraisal in Nashville, TN has a limited directory listing for Nashville, TN. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/ficons/d59ed8_ecb6e22a21964688b702675ff4786087%7Emv2.ico",
+      "website": "https://www.chrisjamesappraisals.com/",
       "address": {
         "city": "Nashville",
         "region": "TN",
@@ -1287,6 +1380,7 @@
       "name": "Clars Auction Gallery",
       "description": "Clars Auction Gallery has a limited directory listing for Oakland, CA. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_oakland-clars-auction-gallery_1742202839449_GkygjFg5F.jpg",
+      "website": "https://clars.com/",
       "address": {
         "city": "Oakland",
         "region": "CA",
@@ -1304,6 +1398,7 @@
       "name": "Clars Auctions",
       "description": "Clars Auctions has a limited directory listing for Oakland, CA. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san_jose-clars-auctions_1742203169304_0sN14V4tk.jpg",
+      "website": "https://clars.com/",
       "address": {
         "city": "Oakland",
         "region": "CA",
@@ -1321,6 +1416,7 @@
       "name": "Coinfully – Specialty Numismatic Appraiser",
       "description": "Coinfully – Specialty Numismatic Appraiser has a limited directory listing for Charlotte, NC. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_charlotte-coinfully-specialty-numismatic-appraiser_1742201126891_gfEfb_wFu.jpg",
+      "website": "https://coinfully.com/",
       "address": {
         "city": "Charlotte",
         "region": "NC",
@@ -1338,6 +1434,7 @@
       "name": "Colorado Gem Labs",
       "description": "Colorado Gem Labs has a limited directory listing for Denver, CO. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/colorado-gem-labs.svg",
+      "website": "https://cologemlabs.com/",
       "address": {
         "city": "Denver",
         "region": "CO",
@@ -1355,6 +1452,7 @@
       "name": "Kleinknecht Appraisal Services of Zanesville, Ohio",
       "description": "Kleinknecht Appraisal Services of Zanesville, Ohio has a limited directory listing for Zanesville, OH. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/columbus-kleinknecht-appraisal-services-of-zanesville-ohio.svg",
+      "website": "https://www.kleinknecht.net/",
       "address": {
         "city": "Zanesville",
         "region": "OH",
@@ -1372,6 +1470,7 @@
       "name": "Village Appraisal Ltd.",
       "description": "Village Appraisal Ltd. has a limited directory listing for Lancaster, OH. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/columbus-village-appraisal-ltd.svg",
+      "website": "http://www.villageappraisal.net/",
       "address": {
         "city": "Lancaster",
         "region": "OH",
@@ -1389,6 +1488,7 @@
       "name": "Comly Auctioneers and Appraisers",
       "description": "Comly Auctioneers and Appraisers has a limited directory listing for Bensalem, PA. Confirm current details directly with the business.",
       "image": "https://www.comly.com/wp-content/uploads/2023/10/logo.png",
+      "website": "https://www.comly.com/",
       "address": {
         "city": "Bensalem",
         "region": "PA",
@@ -1406,6 +1506,7 @@
       "name": "Concept Art Gallery",
       "description": "Concept Art Gallery has a limited directory listing for Pittsburgh, PA. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_pittsburgh-concept-art-gallery_1742203034158_MJihWQA1c.jpg",
+      "website": "https://www.conceptgallery.com/services/appraisals/",
       "address": {
         "city": "Pittsburgh",
         "region": "PA",
@@ -1423,6 +1524,7 @@
       "name": "Constantine Fine Art Services",
       "description": "Constantine Fine Art Services has a limited directory listing for Miami, FL. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png",
+      "website": "https://www.constantineusa.com/appraisal-valuation",
       "address": {
         "city": "Miami",
         "region": "FL",
@@ -1440,6 +1542,7 @@
       "name": "Dallas Auction Gallery",
       "description": "Dallas Auction Gallery has a limited directory listing for Dallas, TX. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/dallas-auction-gallery.svg",
+      "website": "https://dallasauctiongallery.com/appraisal/",
       "address": {
         "city": "Dallas",
         "region": "TX",
@@ -1457,6 +1560,7 @@
       "name": "Dallas Jewelry Appraiser",
       "description": "Dallas Jewelry Appraiser has a limited directory listing for Dallas, TX. Confirm current details directly with the business.",
       "image": "https://dallasjewelryappraiser.com/wp-content/uploads/2022/02/Dallas-Jewelry-Appraiser-Logo-GIA-Small-e1644092596973.jpg",
+      "website": "https://dallasjewelryappraiser.com/our-services/",
       "address": {
         "city": "Dallas",
         "region": "TX",
@@ -1474,6 +1578,7 @@
       "name": "Preston Amherst Valuation & Advisory",
       "description": "Preston Amherst Valuation & Advisory has a limited directory listing for Dallas, TX. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/dallas-preston-amherst-valuation-and-advisory.svg",
+      "website": "https://www.prestonamherst.com/",
       "address": {
         "city": "Dallas",
         "region": "TX",
@@ -1491,6 +1596,7 @@
       "name": "David A's Estate Services & Antiques",
       "description": "David A's Estate Services & Antiques has a limited directory listing for La Mesa, CA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/david-a-s-estate-services-and-antiques.svg",
+      "website": "https://davidaantiques.com/appraisals/",
       "address": {
         "city": "La Mesa",
         "region": "CA",
@@ -1508,6 +1614,7 @@
       "name": "David Lackey Antiques & Fine Jewelry",
       "description": "David Lackey Antiques & Fine Jewelry has a limited directory listing for Houston, TX. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/6079af06e1145a2db2b01540/1618599352431-FMTYFVNPMU22ZYEP6L3I/epergne.jpg",
+      "website": "https://www.david-lackey.com/",
       "address": {
         "city": "Houston",
         "region": "TX",
@@ -1525,6 +1632,7 @@
       "name": "Art of Estates - Denver Personal Property Appraisal Firm",
       "description": "Art of Estates - Denver Personal Property Appraisal Firm has a limited directory listing for Denver, CO. Confirm current details directly with the business.",
       "image": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+      "website": "https://artofestates.com/denver-appraiser/",
       "address": {
         "city": "Denver",
         "region": "CO",
@@ -1542,6 +1650,7 @@
       "name": "Old Crows Antiques",
       "description": "Old Crows Antiques has a limited directory listing for Golden, CO. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/denver-old-crows-antiques.svg",
+      "website": "https://www.oldcrowsantiques.com/",
       "address": {
         "city": "Golden",
         "region": "CO",
@@ -1559,6 +1668,7 @@
       "name": "Detroit Jewelry Appraisers",
       "description": "Detroit Jewelry Appraisers has a limited directory listing for Ferndale, MI. Confirm current details directly with the business.",
       "image": "https://www.detroitja.com/wp-content/uploads/2020/04/logo.png",
+      "website": "https://www.detroitja.com/",
       "address": {
         "city": "Ferndale",
         "region": "MI",
@@ -1576,6 +1686,7 @@
       "name": "Devin Moisan Auctioneers, Inc.",
       "description": "Devin Moisan Auctioneers, Inc. has a limited directory listing for Epping, NH. Confirm current details directly with the business.",
       "image": "https://moisanauctions.com/apple-touch-icon.png",
+      "website": "https://moisanauctions.com/",
       "address": {
         "city": "Epping",
         "region": "NH",
@@ -1593,6 +1704,7 @@
       "name": "Devine & Co. Private Jeweler & Appraiser",
       "description": "Devine & Co. Private Jeweler & Appraiser has a limited directory listing for Carmel-by-the-Sea, CA. Confirm current details directly with the business.",
       "image": "https://www.devinejeweler.com/cdn/shop/files/II.png?v=1764514720&width=938",
+      "website": "https://www.devinejeweler.com/",
       "address": {
         "city": "Carmel-by-the-Sea",
         "region": "CA",
@@ -1610,6 +1722,7 @@
       "name": "DJR Authentication, LC",
       "description": "DJR Authentication has a limited directory listing for Mt. Pleasant, SC. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/619e1fa929b89256f294e7ec/ea853762-77df-4a1d-9927-0a0183be517d/favicon.ico?format=100w",
+      "website": "https://www.djrauthentication.com/",
       "address": {
         "city": "Mt. Pleasant",
         "region": "SC",
@@ -1627,6 +1740,7 @@
       "name": "Donnelly & Donnelly Appraisals & Estate Sale Services",
       "description": "Donnelly & Donnelly Appraisals & Estate Sale Services has a limited directory listing for Seattle, WA. Confirm current details directly with the business.",
       "image": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "website": "https://www.donnellyestatesales.com/",
       "address": {
         "city": "Seattle",
         "region": "WA",
@@ -1644,6 +1758,7 @@
       "name": "Dorothée Rosen Designer Goldsmith",
       "description": "Dorothée Rosen Designer Goldsmith has a limited directory listing for Halifax, NS. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_halifax-dorothe-rosen-designer-goldsmith_1742201604309_VmairVJ8G.jpg",
+      "website": "https://dorotheerosen.ca/contact/",
       "address": {
         "city": "Halifax",
         "region": "NS",
@@ -1661,6 +1776,7 @@
       "name": "E. W. Nash & Son, LLC",
       "description": "E. W. Nash & Son, LLC has a limited directory listing for Jacksonville, FL. Confirm current details directly with the business.",
       "image": "https://img1.wsimg.com/isteam/ip/608c6d64-210c-4c7f-89d4-6e4852588ecb/favicon/734063f4-dcd8-465e-a442-dd5bb99046bb.png/:/rs=w:16,h:16,m",
+      "website": "https://ewnash.com/appraisals",
       "address": {
         "city": "Jacksonville",
         "region": "FL",
@@ -1678,6 +1794,7 @@
       "name": "Edgewood Coin",
       "description": "Edgewood Coin has a limited directory listing for Jacksonville, FL. Confirm current details directly with the business.",
       "image": "https://mlmzown6wxqv.i.optimole.com/cb:pzRA.100c/w:auto/h:auto/q:mauto/g:sm/f:best/https://edgewoodcoin.online/wp-content/uploads/2023/08/cropped-Logo.png",
+      "website": "https://www.edgewoodcoin.online/about-us/",
       "address": {
         "city": "Jacksonville",
         "region": "FL",
@@ -1695,6 +1812,7 @@
       "name": "EJ's Auction & Appraisal",
       "description": "EJ's Auction & Appraisal has a limited directory listing for Glendale, AZ. Confirm current details directly with the business.",
       "image": "https://www.ejsauction.com/wp-content/uploads/2020/03/Ejs_web-_logoRW.png",
+      "website": "https://www.ejsauction.com/",
       "address": {
         "city": "Glendale",
         "region": "AZ",
@@ -1712,6 +1830,7 @@
       "name": "Emerald Art Services LLC",
       "description": "Emerald Art Services LLC has a limited directory listing for Akron, OH. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/emerald-art-services-llc.svg",
+      "website": "https://www.emeraldartservices.com/",
       "address": {
         "city": "Akron",
         "region": "OH",
@@ -1729,6 +1848,7 @@
       "name": "EMS Estates",
       "description": "EMS Estates Jewelry Appraisals has a limited directory listing for Portland, OR. Confirm current details directly with the business.",
       "image": "https://emsestates.com/wp-content/uploads/2016/09/emsestates.png",
+      "website": "https://emsestates.com/",
       "address": {
         "city": "Portland",
         "region": "OR",
@@ -1746,6 +1866,7 @@
       "name": "Esquire Appraisals",
       "description": "Esquire Appraisals has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://esquireappraisals.com/wp-content/uploads/2014/12/cropped-logo_website_385x105.jpg",
+      "website": "https://esquireappraisals.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -1763,6 +1884,7 @@
       "name": "Estate In Time, LLC",
       "description": "Estate In Time, LLC has a limited directory listing for Phoenix, AZ. Confirm current details directly with the business.",
       "image": "https://estateintime.com/wp-content/uploads/2022/12/cropped-EstateInTimeFinalFiles-09.png",
+      "website": "https://estateintime.com/",
       "address": {
         "city": "Phoenix",
         "region": "AZ",
@@ -1780,6 +1902,7 @@
       "name": "Estate Jewelry & Sales by Rachel",
       "description": "Estate Jewelry & Sales by Rachel has a limited directory listing for Fleming Island, FL. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/estate-jewelry-sales-by-rachel.svg",
+      "website": "https://www.estatejewelrybyrachel.com/",
       "address": {
         "city": "Fleming Island",
         "region": "FL",
@@ -1797,6 +1920,7 @@
       "name": "Estate Lady",
       "description": "Estate Lady has a limited directory listing for Charlotte, NC. Confirm current details directly with the business.",
       "image": "https://eadn-wc04-11913343.nxedge.io/wp-content/uploads/The_Estate_Lady_logo_color.svg",
+      "website": "https://theestatelady.com/",
       "address": {
         "city": "Charlotte",
         "region": "NC",
@@ -1814,6 +1938,7 @@
       "name": "A Pleasant Cove, Inc. Estate Sales & Appraisals",
       "description": "A Pleasant Cove, Inc. Estate Sales & Appraisals has a limited directory listing for Jacksonville, FL. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/estate-sales-estate-appraisals-and-inventory-estate-liquidations-presented-by-a-pleasant-c.svg",
+      "website": "https://pleasantcoveantiques.com/",
       "address": {
         "city": "Jacksonville",
         "region": "FL",
@@ -1831,6 +1956,7 @@
       "name": "Expert Jewelry Appraisers LLC",
       "description": "Expert Jewelry Appraisers LLC has a limited directory listing for Ponte Vedra Beach, FL. Confirm current details directly with the business.",
       "image": "https://expertjewelryappraisal.com/wp-content/uploads/2022/09/ExpertJewelryAppraisersLogo1.png",
+      "website": "https://expertjewelryappraisal.com/",
       "address": {
         "city": "Ponte Vedra Beach",
         "region": "FL",
@@ -1848,6 +1974,7 @@
       "name": "Fairall Art Advising & Appraisals",
       "description": "Fairall Art Advising & Appraisals has a limited directory listing for Phoenix, AZ. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fairall-art-advising-appraisals-4091_1742166338358_GfFPJSoIjM.jpg",
+      "website": "https://fairallart.com/",
       "address": {
         "city": "Phoenix",
         "region": "AZ",
@@ -1865,6 +1992,7 @@
       "name": "Fidelity Estate Services",
       "description": "Fidelity Estate Services has a limited directory listing for Phoenix, AZ. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/fidelity-estate-services.svg",
+      "website": "https://www.fidelityestateservices.com/",
       "address": {
         "city": "Phoenix",
         "region": "AZ",
@@ -1882,6 +2010,7 @@
       "name": "Foreside Antiques",
       "description": "Foreside Antiques has a limited directory listing for Falmouth, ME. Confirm current details directly with the business.",
       "image": "https://foresideantiques.com/wp-content/uploads/2024/08/favicon-100x100.png",
+      "website": "https://foresideantiques.com/",
       "address": {
         "city": "Falmouth",
         "region": "ME",
@@ -1899,6 +2028,7 @@
       "name": "Fort Worth Coin Company, Inc.",
       "description": "Fort Worth Coin Company, Inc. has a limited directory listing for Fort Worth, TX. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/fort-worth-coin-company-inc.svg",
+      "website": "https://fortworthcoin.com/",
       "address": {
         "city": "Fort Worth",
         "region": "TX",
@@ -1916,6 +2046,7 @@
       "name": "Foss Appraisal Service",
       "description": "Foss Appraisal Service has a limited directory listing for Tukwila, WA. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/58fe560ad1758e7d22393063/1497373896299-V5Y3JXZZ2AZBPLQRCEX5/favicon.ico?format=100w",
+      "website": "https://www.fossappraisal.com/",
       "address": {
         "city": "Tukwila",
         "region": "WA",
@@ -1933,6 +2064,7 @@
       "name": "Joette Pierce & Associates Appraisals",
       "description": "Joette Pierce & Associates Appraisals has a limited directory listing for Corona del Mar, CA. Confirm current details directly with the business.",
       "image": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "website": "https://www.joettepierceappraisals.com/",
       "address": {
         "city": "Corona del Mar",
         "region": "CA",
@@ -1950,6 +2082,7 @@
       "name": "Gabriel's Auctioneers & Appraisers",
       "description": "Gabriel's Auctioneers & Appraisers has a limited directory listing for Norwood, MA. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/585e8d0720099ed775000b2c/1482591641455-D86IN0GXO37EKVO2VUT9/favicon.ico?format=100w",
+      "website": "https://www.gabrielsauctions.com/",
       "address": {
         "city": "Norwood",
         "region": "MA",
@@ -1967,6 +2100,7 @@
       "name": "Gallery Zeff",
       "description": "Gallery Zeff has a limited directory listing for Lexington, KY. Confirm current details directly with the business.",
       "image": "https://zeffgallery.com/wp-content/uploads/2023/04/cropped-GalleryZeff_green.png",
+      "website": "https://zeffgallery.com/appraisals/",
       "address": {
         "city": "Lexington",
         "region": "KY",
@@ -1984,6 +2118,7 @@
       "name": "Gemcorp, Inc.",
       "description": "Gemcorp, Inc. - Fine Jewelry Appraisals and Consultations has a limited directory listing for Sandy Springs, GA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/gemcorp.svg",
+      "website": "https://gemcorpatl.com/",
       "address": {
         "city": "Sandy Springs",
         "region": "GA",
@@ -2001,6 +2136,7 @@
       "name": "Gemological Appraisal Laboratory of America, Inc. (GemLab)",
       "description": "Gemological Appraisal Laboratory of America, Inc. (GemLab) has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://www.gemlab.com/galoa/wp-content/uploads/2017/11/gemlab-logo-retina-lora.png",
+      "website": "https://www.gemlab.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -2018,6 +2154,7 @@
       "name": "GemSecure Jewelry Appraisals",
       "description": "GemSecure Jewelry Appraisals has a limited directory listing for Culver City, CA. Confirm current details directly with the business.",
       "image": "https://sep.yimg.com/yf/common/favicon-32x32.png",
+      "website": "http://www.gemsecure.net/",
       "address": {
         "city": "Culver City",
         "region": "CA",
@@ -2035,6 +2172,7 @@
       "name": "Grogan & Company",
       "description": "Grogan & Company has a limited directory listing for Boston, MA. Confirm current details directly with the business.",
       "image": "https://www.groganco.com/wp-content/themes/theme-groganco/dist/img/favicon/apple-touch-icon.png",
+      "website": "https://www.groganco.com/",
       "address": {
         "city": "Boston",
         "region": "MA",
@@ -2052,6 +2190,7 @@
       "name": "Hackwith Fine Art & Personal Property Appraisals",
       "description": "Hackwith Personal Property Appraisals has a limited directory listing for Lincoln, NE. Confirm current details directly with the business.",
       "image": "https://hackwithappraisals.com/wp-content/uploads/2020/12/corporateArtCo_300x77.png",
+      "website": "https://hackwithappraisals.com/",
       "address": {
         "city": "Lincoln",
         "region": "NE",
@@ -2069,6 +2208,7 @@
       "name": "Harby Jewelers of Jacksonville",
       "description": "Harby Jewelers of Jacksonville has a limited directory listing for Jacksonville, FL. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/harby-jewelers-of-jacksonville.svg",
+      "website": "https://harbyjewelers.com/",
       "address": {
         "city": "Jacksonville",
         "region": "FL",
@@ -2086,6 +2226,7 @@
       "name": "Harvest Estate and Appraisal Services LLC",
       "description": "Harvest Estate and Appraisal Services LLC has a limited directory listing for Aubrey, TX. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/harvest-estate-and-appraisal-services.svg",
+      "website": "http://www.harvestestateandappraisals.com/",
       "address": {
         "city": "Aubrey",
         "region": "TX",
@@ -2098,11 +2239,30 @@
       }
     },
     {
+      "slug": "heidi-vaughan-ma-isa-am",
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+      "name": "Heidi Vaughan Fine Art",
+      "description": "Heidi Vaughan Fine Art is a Houston art gallery and advisory that provides fine-art appraisals for insurance, estates, donations, and equitable distribution.",
+      "website": "https://heidivaughanfineart.com/about",
+      "address": {
+        "city": "Houston",
+        "region": "TX",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/heidi-vaughan-ma-isa-am/",
+        "verifiedAt": "2026-07-27"
+      }
+    },
+    {
       "slug": "heirloom-estates-llc-919-323-7524",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heirloom-estates-llc-919-323-7524/",
       "name": "Heirloom Estates, LLC",
       "description": "Heirloom Estates, LLC has a limited directory listing for Charlotte, NC. Confirm current details directly with the business.",
       "image": "http://www.heirloomestatesonline.com/uploads/1/1/7/0/117090130/medium-377616-1-01.jpg",
+      "website": "http://www.heirloomestatesonline.com/",
       "address": {
         "city": "Charlotte",
         "region": "NC",
@@ -2120,6 +2280,7 @@
       "name": "Hereafter Auctions & Appraisals",
       "description": "Hereafter Auctions & Appraisals has a limited directory listing for Ellicott City, MD. Confirm current details directly with the business.",
       "image": "https://static.parastorage.com/client/pfavico.ico",
+      "website": "https://www.hereafterauctions.com/",
       "address": {
         "city": "Ellicott City",
         "region": "MD",
@@ -2137,6 +2298,7 @@
       "name": "Hoffman Auctions",
       "description": "Hoffman Auctions Personal Property Appraisals has a limited directory listing for Columbus, OH. Confirm current details directly with the business.",
       "image": "https://hoffmanauctions.com/wp-content/uploads/2025/01/Hoffman-Auctions-Logo.png",
+      "website": "https://hoffmanauctions.com/",
       "address": {
         "city": "Columbus",
         "region": "OH",
@@ -2154,6 +2316,7 @@
       "name": "Houston Jewelry Appraisal",
       "description": "Houston Jewelry Appraisal has a limited directory listing for Houston, TX. Confirm current details directly with the business.",
       "image": "https://i0.wp.com/houstonjewelryappraisal.com/wp-content/uploads/2019/09/cropped-favicon.jpg?fit=32%2C32&ssl=1",
+      "website": "https://houstonjewelryappraisal.com/",
       "address": {
         "city": "Houston",
         "region": "TX",
@@ -2171,6 +2334,7 @@
       "name": "McKenzie Appraisal Service",
       "description": "McKenzie Appraisal Service has a limited directory listing for Houston, TX. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/houston-mckenzie-appraisal-service.svg",
+      "website": "https://www.mckenzieappraisalservice.com/",
       "address": {
         "city": "Houston",
         "region": "TX",
@@ -2188,6 +2352,7 @@
       "name": "Jewels Appraised By Su",
       "description": "Jewels Appraised By Su has a limited directory listing for Asheville, NC. Confirm current details directly with the business.",
       "image": "https://img1.wsimg.com/isteam/ip/8e9b232d-eaad-4a83-8734-f7e189d97834/logo/52c13068-8d83-4316-bb5a-91d4996d3563.JPG/:/rs=w:57,h:57,m",
+      "website": "https://jewelsappraisedbysu.com/",
       "address": {
         "city": "Asheville",
         "region": "NC",
@@ -2205,6 +2370,7 @@
       "name": "JA Baker LLC",
       "description": "JA Baker LLC has a limited directory listing for Bexley, OH. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/j-a-baker-llc-personal-property-appraisal-and-estate-sale-services.svg",
+      "website": "http://www.jabakerllc.com/",
       "address": {
         "city": "Bexley",
         "region": "OH",
@@ -2222,6 +2388,7 @@
       "name": "J. E. Carleton Appraisals",
       "description": "J. E. Carleton Appraisals has a limited directory listing for Walnut Creek, CA. Confirm current details directly with the business.",
       "image": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "website": "https://www.jecarletonappraisals.com/",
       "address": {
         "city": "Walnut Creek",
         "region": "CA",
@@ -2239,6 +2406,7 @@
       "name": "J.S. English Appraisals",
       "description": "J.S. English Appraisals has a limited directory listing for Portland, OR. Confirm current details directly with the business.",
       "image": "https://img1.wsimg.com/isteam/ip/2a61b474-51d1-4b2e-b123-4aa21b553baa/JSEA_banner-92d57f6.png/:/rs=w:57,h:57,m",
+      "website": "https://jsenglishappraisals.com/",
       "address": {
         "city": "Portland",
         "region": "OR",
@@ -2256,6 +2424,7 @@
       "name": "Jarvis Gems and Jewelry Appraisals LLC",
       "description": "Jarvis Gems and Jewelry Appraisals LLC has a limited directory listing for Dallas, TX. Confirm current details directly with the business.",
       "image": "https://dallasjewelryappraisals.com/assets/front/img/favicon.jpg",
+      "website": "https://dallasjewelryappraisals.com/",
       "address": {
         "city": "Dallas",
         "region": "TX",
@@ -2273,6 +2442,7 @@
       "name": "Jewelry Appraisal Services",
       "description": "Jewelry Appraisal Services has a limited directory listing for Beverly Hills, CA. Confirm current details directly with the business.",
       "image": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "website": "https://www.lajewelryappraiser.com/",
       "address": {
         "city": "Beverly Hills",
         "region": "CA",
@@ -2290,6 +2460,7 @@
       "name": "Boston Gem Laboratory",
       "description": "Boston Gem Laboratory has a limited directory listing for Boston, MA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/jewelry-appraisal-gemstone-appraisal-boston-norwell.svg",
+      "website": "https://bostongemlab.com/",
       "address": {
         "city": "Boston",
         "region": "MA",
@@ -2307,6 +2478,7 @@
       "name": "The Jewelry Appraiser Inc",
       "description": "The Jewelry Appraiser Inc has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://thejewelryappraiser.com/assets/images/faviconnew.png",
+      "website": "https://thejewelryappraiser.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -2324,6 +2496,7 @@
       "name": "Jewelry Consignment Network",
       "description": "Jewelry Consignment Network (JCN) has a limited directory listing for Savannah, GA. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-jewelry-consignment-network-jcn_1742203235515_7ezwsA_a8b.jpg",
+      "website": "https://www.jewelryconsignment.com/",
       "address": {
         "city": "Savannah",
         "region": "GA",
@@ -2341,6 +2514,7 @@
       "name": "Jewelry Judge Ben Gordon",
       "description": "Jewelry Judge Ben Gordon has a limited directory listing for Houston, TX. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/65143cd7414f5466880a0b20/a4f1b4b5-1f47-4b57-ac98-623ada380472/favicon.ico?format=100w",
+      "website": "https://www.jewelryjudgebengordon.com/",
       "address": {
         "city": "Houston",
         "region": "TX",
@@ -2358,6 +2532,7 @@
       "name": "JLA Treasures LLC",
       "description": "JLA Treasures LLC has a limited directory listing for Plano, TX. Confirm current details directly with the business.",
       "image": "https://jlatreasures.com/images/logos/jla-logo-2025-300.png",
+      "website": "https://jlatreasures.com/",
       "address": {
         "city": "Plano",
         "region": "TX",
@@ -2375,6 +2550,7 @@
       "name": "Blackstone Valley Auctions and Estates",
       "description": "Joel Bohy (Blackstone Valley Auctions) has a limited directory listing for Sutton, MA. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_las_vegas-joel-bohy-blackstone-valley-auctions_1742201536847_kbTtWBiuD.jpg",
+      "website": "https://www.blackstonevalleyauctions.com/",
       "address": {
         "city": "Sutton",
         "region": "MA",
@@ -2392,6 +2568,7 @@
       "name": "Juliette Yuan & Associates",
       "description": "Juliette Yuan & Associates has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_juliette-yuan-associates-2567_1742166298792_BFUex4DQZ.jpg",
+      "website": "https://www.jyuanassociates.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -2409,6 +2586,7 @@
       "name": "June Hayes & Associates / Heritage Estates",
       "description": "June Hayes, Heritage Estates has a limited directory listing for San Antonio, TX. Confirm current details directly with the business.",
       "image": "https://junehayes.com/wp-content/uploads/2024/10/jha_logo2b.gif",
+      "website": "https://junehayes.com/",
       "address": {
         "city": "San Antonio",
         "region": "TX",
@@ -2437,6 +2615,7 @@
       "name": "Kathleen Doyle (Antiquestor)",
       "description": "Kathleen Doyle (Antiquestor) has a limited directory listing for Saint Charles, IL. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_kathleen-doyle-antiquestor-2238_1742166245808_oR7H9h-_R.jpg",
+      "website": "https://antiquestor.com/",
       "address": {
         "city": "Saint Charles",
         "region": "IL",
@@ -2454,6 +2633,7 @@
       "name": "Kennedy Brothers Auctions",
       "description": "Kennedy Brothers Auctions has a limited directory listing for St. Petersburg, FL. Confirm current details directly with the business.",
       "image": "https://kennedybrothersauctions.com/wp-content/uploads/2019/05/logo-150x150.png",
+      "website": "https://kennedybrothersauctions.com/appraisals/",
       "address": {
         "city": "St. Petersburg",
         "region": "FL",
@@ -2471,6 +2651,7 @@
       "name": "Laura Furr Appraisals & Helping Hand Estate Services, Inc.",
       "description": "Laura Furr Appraisals & Helping Hand Estate Services, Inc. has a limited directory listing for Charlotte, NC. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/61d6ffad9ab66a469f9ac0b1/ddc69449-77e8-43fe-befa-1dd211a05a07/favicon.ico?format=100w",
+      "website": "https://helpinghandestatesales.com/",
       "address": {
         "city": "Charlotte",
         "region": "NC",
@@ -2488,6 +2669,7 @@
       "name": "Legacy Appraisal Group",
       "description": "Legacy Appraisal Group has a limited directory listing for Beachwood, OH. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_cleveland-legacy-appraisal-group-llc_1742201183308_yoLfsd1B2.jpg",
+      "website": "https://www.legacy-appraisal-group.com/",
       "address": {
         "city": "Beachwood",
         "region": "OH",
@@ -2505,6 +2687,7 @@
       "name": "Lennie Rose Estate Appraisals, Inc.",
       "description": "Lennie Rose Estate Appraisals, Inc. has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/4f4f5d_8ed0388a024b4957a131e25ccf928b12%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/4f4f5d_8ed0388a024b4957a131e25ccf928b12%7Emv2.png",
+      "website": "https://www.lennierose.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -2533,6 +2716,7 @@
       "name": "Mary Peck Art Advisory, LLC",
       "description": "Mary Peck Art Advisory has a limited directory listing for Denver, CO. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_mary-peck-art-advisory-4302_1742166266777_k9A7HWZw3.jpg",
+      "website": "https://www.marypeckartadvisory.com/",
       "address": {
         "city": "Denver",
         "region": "CO",
@@ -2550,6 +2734,7 @@
       "name": "Mayflower Estate Buyers",
       "description": "Mayflower Estate Buyers has a limited directory listing for Towson, MD. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_baltimore-mayflower-estate-buyers_1742170042112_gyyXJTuM9.jpg",
+      "website": "https://mayflowerestatebuyers.com/",
       "address": {
         "city": "Towson",
         "region": "MD",
@@ -2567,6 +2752,7 @@
       "name": "McCarty Antiques",
       "description": "McCarty Antiques has a limited directory listing for Philadelphia, PA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mccarty-antiques.svg",
+      "website": "https://www.mccartyantiques.com/",
       "address": {
         "city": "Philadelphia",
         "region": "PA",
@@ -2584,6 +2770,7 @@
       "name": "Mesa Antique & Collectible",
       "description": "Mesa Antique & Collectible has a limited directory listing for Mesa, AZ. Confirm current details directly with the business.",
       "image": "https://static.parastorage.com/client/pfavico.ico",
+      "website": "https://www.mesaantique.com/",
       "address": {
         "city": "Mesa",
         "region": "AZ",
@@ -2601,6 +2788,7 @@
       "name": "Mid-Atlantic Auction & Appraisals",
       "description": "Mid-Atlantic Auction & Appraisals has a limited directory listing for Wilmington, DE. Confirm current details directly with the business.",
       "image": "https://static.parastorage.com/client/pfavico.ico",
+      "website": "https://www.mid-atlantic.com/",
       "address": {
         "city": "Wilmington",
         "region": "DE",
@@ -2629,6 +2817,7 @@
       "name": "Minerva Appraisal, LLC",
       "description": "Minerva Appraisal, LLC has a limited directory listing for Nashville, TN. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+      "website": "https://www.minervaappraisal.com/",
       "address": {
         "city": "Nashville",
         "region": "TN",
@@ -2646,6 +2835,7 @@
       "name": "All Estate Sales & Auction Company",
       "description": "All Estate Sales & Auction Company has a limited directory listing for Austin, TX. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/modern-history-society-art-and-antique-appraisal.svg",
+      "website": "https://allestatesales.net/appraisal-service/",
       "address": {
         "city": "Austin",
         "region": "TX",
@@ -2663,6 +2853,7 @@
       "name": "Moecker Auctions Inc.",
       "description": "Moecker Auctions Inc. has a limited directory listing for Fort Lauderdale, FL. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/moecker-auctions-inc.svg",
+      "website": "https://moeckerauctions.com/appraisals/",
       "address": {
         "city": "Fort Lauderdale",
         "region": "FL",
@@ -2680,6 +2871,7 @@
       "name": "Montclair Estates",
       "description": "Montclair Estates has a limited directory listing for Oakland, CA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/montclair-estates-antique-consignment-and-appraiser.svg",
+      "website": "https://montclairestates.com/qualified-appraisals",
       "address": {
         "city": "Oakland",
         "region": "CA",
@@ -2697,6 +2889,7 @@
       "name": "Mountain View US and Foreign Coins",
       "description": "Mountain View US and Foreign Coins has a limited directory listing for Mountain View, CA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mountain-view-us-foreign-coins.svg",
+      "website": "https://mvcoinshop.com/",
       "address": {
         "city": "Mountain View",
         "region": "CA",
@@ -2714,6 +2907,7 @@
       "name": "Mr. Johnson's Antiques",
       "description": "Mr. Johnson's Antiques has a limited directory listing for Seattle, WA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mr-johnson-s-antiques.svg",
+      "website": "https://mrjohnsonsantiques.com/",
       "address": {
         "city": "Seattle",
         "region": "WA",
@@ -2731,6 +2925,7 @@
       "name": "Mussallem Galleries",
       "description": "Mussallem Galleries has a limited directory listing for Jacksonville, FL. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mussallem-antiques.svg",
+      "website": "https://www.mussallem.com/appraisals",
       "address": {
         "city": "Jacksonville",
         "region": "FL",
@@ -2748,6 +2943,7 @@
       "name": "National Jewelry Appraisers",
       "description": "National Jewelry Appraisers has a limited directory listing for Austin, TX. Confirm current details directly with the business.",
       "image": "https://irp.cdn-website.com/163cf539/dms3rep/multi/logo.png",
+      "website": "https://www.nationaljewelryappraisers.com/",
       "address": {
         "city": "Austin",
         "region": "TX",
@@ -2765,6 +2961,7 @@
       "name": "Noble Jewelry Appraisers, LLC",
       "description": "Noble Jewelry Appraisers has a limited directory listing for Indianapolis, IN. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/56bd04512fe1317017d5e4c9/1469639961177-GAKHJ2L448QH0FSQEY07/Noble_JA_logo_r5-01%28208KB%29.jpg?format=1500w",
+      "website": "https://www.noblejewelryappraisers.com/",
       "address": {
         "city": "Indianapolis",
         "region": "IN",
@@ -2782,6 +2979,7 @@
       "name": "Northern Appraisal Services",
       "description": "Northern Appraisal Services has a limited directory listing for Worthington, OH. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/northern-appraisal-services.svg",
+      "website": "http://www.northernappraisal.com/",
       "address": {
         "city": "Worthington",
         "region": "OH",
@@ -2799,6 +2997,7 @@
       "name": "William Novotny Appraisal Services",
       "description": "William Novotny Appraisal Services has a limited directory listing for San Gabriel, CA. Confirm current details directly with the business.",
       "image": "https://novotnyappraisal.com/wp-content/uploads/2021/02/cropped-Favicon-32x32.png",
+      "website": "https://novotnyappraisal.com/",
       "address": {
         "city": "San Gabriel",
         "region": "CA",
@@ -2811,11 +3010,30 @@
       }
     },
     {
+      "slug": "open-to-the-public",
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/open-to-the-public/",
+      "name": "Open to the Public",
+      "description": "Open to the Public is a Los Angeles fine-art appraisal and consulting firm specializing in postwar and contemporary art and photography.",
+      "website": "https://opentothepublic.art/",
+      "address": {
+        "city": "Los Angeles",
+        "region": "CA",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/open-to-the-public/",
+        "verifiedAt": "2026-07-27"
+      }
+    },
+    {
       "slug": "pacific-gem-lab-certified-jewelry-appraisals",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/pacific-gem-lab-certified-jewelry-appraisals/",
       "name": "Pacific Gem Lab - Certified Jewelry Appraisals & Brokering",
       "description": "Pacific Gem Lab - Certified Jewelry Appraisals & Brokering has a limited directory listing for Portland, OR. Confirm current details directly with the business.",
       "image": "https://www.pacificgemlab.net/favicon.ico",
+      "website": "https://www.pacificgemlab.net/",
       "address": {
         "city": "Portland",
         "region": "OR",
@@ -2833,6 +3051,7 @@
       "name": "Pacific Jewelry Buyers",
       "description": "Pacific Jewelry Buyers has a limited directory listing for Los Angeles, CA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/pacific-jewelry-buyers.svg",
+      "website": "https://www.pacificjewelrybuyers.com/about/",
       "address": {
         "city": "Los Angeles",
         "region": "CA",
@@ -2850,6 +3069,7 @@
       "name": "Palm Beach Appraisal Group",
       "description": "Palm Beach Appraisal Group has a limited directory listing for Miami, FL. Confirm current details directly with the business.",
       "image": "https://www.palmbeachappraisalgroup.com/wp-content/uploads/2020/10/ICON-LOGO.png",
+      "website": "https://palmbeachappraisalgroup.com/",
       "address": {
         "city": "Miami",
         "region": "FL",
@@ -2867,6 +3087,7 @@
       "name": "Peenstra Antique Appraisals",
       "description": "Peenstra Antique Appraisals has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
       "image": "https://peenstraappraisal.com/wp-content/uploads/2024/11/Ekran-goruntusu-2024-11-21-160924-1024x528.png",
+      "website": "https://peenstraappraisal.com/",
       "address": {
         "city": "Washington",
         "region": "DC",
@@ -2884,6 +3105,7 @@
       "name": "Penny Lane Antiques & Appraisals",
       "description": "Penny Lane Antiques & Appraisals has a limited directory listing for Morristown, NJ. Confirm current details directly with the business.",
       "image": "https://a.mktgcdn.com/p/YGo5_d7hZDw-pnTjwuoK2GHLhNsYNv7uT4Uc-7MpYOs/400x400.jpg",
+      "website": "https://www.pennylanenj.com/",
       "address": {
         "city": "Morristown",
         "region": "NJ",
@@ -2901,6 +3123,7 @@
       "name": "Perry's Diamonds & Estate Jewelry",
       "description": "Perry's Diamonds & Estate Jewelry has a limited directory listing for Charlotte, NC. Confirm current details directly with the business.",
       "image": "https://perrysjewelry.com/cdn/shop/files/Perrys_Stacked_GreenGrey_2.svg?v=1739397046&width=500",
+      "website": "https://perrysjewelry.com/",
       "address": {
         "city": "Charlotte",
         "region": "NC",
@@ -2918,6 +3141,7 @@
       "name": "Art of Estates - Art Appraisal & Consulting",
       "description": "Art of Estates - Art Appraisal & Consulting has a limited directory listing for Philadelphia, PA. Confirm current details directly with the business.",
       "image": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+      "website": "https://artofestates.com/",
       "address": {
         "city": "Philadelphia",
         "region": "PA",
@@ -2935,6 +3159,7 @@
       "name": "Philadelphia Jewelry Appraisers",
       "description": "Philadelphia Jewelry Appraisers has a limited directory listing for Philadelphia, PA. Confirm current details directly with the business.",
       "image": "https://www.philadelphiajewelryappraisers.com/wp-content/uploads/2025/03/logo-svg.svg",
+      "website": "https://www.philadelphiajewelryappraisers.com/",
       "address": {
         "city": "Philadelphia",
         "region": "PA",
@@ -2952,6 +3177,7 @@
       "name": "Antique Gatherings",
       "description": "Antique Gatherings has a limited directory listing for Phoenix, AZ. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/phoenix-antique-gatherings.svg",
+      "website": "http://www.antiquegatherings.com/",
       "address": {
         "city": "Phoenix",
         "region": "AZ",
@@ -2969,6 +3195,7 @@
       "name": "Pier & Co Liquidators LLC",
       "description": "Pier & Co Liquidators LLC has a limited directory listing for Akron, OH. Confirm current details directly with the business.",
       "image": "https://i0.wp.com/pierandco.net/wp-content/uploads/2018/11/android-chrome-192x192-1.png?fit=192%2C192&ssl=1",
+      "website": "https://pierandco.net/",
       "address": {
         "city": "Akron",
         "region": "OH",
@@ -2986,6 +3213,7 @@
       "name": "Peter Combs, plcombs Asian Antiques Buyers, Appraisers, Asian Art Brokers",
       "description": "Peter Combs, plcombs Asian Antiques Buyers, Appraisers, Asian Art Brokers has a limited directory listing for Boston, MA. Confirm current details directly with the business.",
       "image": "https://www.plcombs.com/plcombs-blogs-about-antiques/wp-content/uploads/2017/10/Robes_edited-1.jpg",
+      "website": "https://www.plcombs.com/",
       "address": {
         "city": "Boston",
         "region": "MA",
@@ -3003,6 +3231,7 @@
       "name": "Precious Restorations- Art & Antique Restoration",
       "description": "Precious Restorations- Art & Antique Restoration has a limited directory listing for Charlotte, NC. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/precious-restorations.svg",
+      "website": "https://www.preciousrestorations.com/",
       "address": {
         "city": "Charlotte",
         "region": "NC",
@@ -3020,6 +3249,7 @@
       "name": "Precision Gem Appraisals",
       "description": "Precision Gem Appraisals has a limited directory listing for Denver, CO. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/77739c_b5c82eae1573480b8c4e2bdd42d03a27%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/77739c_b5c82eae1573480b8c4e2bdd42d03a27%7Emv2.png",
+      "website": "https://www.precisiongemappraisals.com/",
       "address": {
         "city": "Denver",
         "region": "CO",
@@ -3037,6 +3267,7 @@
       "name": "Precision Jewelry Appraisal",
       "description": "Precision Jewelry Appraisal has a limited directory listing for Indianapolis, IN. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/5ea205f0f7412179a3ff3abc/1588009763623-GNP6YP3VHNN9J4HHREIQ/favicon.ico?format=100w",
+      "website": "https://www.precisionjewelryappraisal.com/",
       "address": {
         "city": "Indianapolis",
         "region": "IN",
@@ -3054,6 +3285,7 @@
       "name": "PREMIER ESTATES AND APPRAISAL, LLC",
       "description": "PREMIER ESTATES AND APPRAISAL, LLC has a limited directory listing for Philadelphia, PA. Confirm current details directly with the business.",
       "image": "https://www.premierestatesandappraisal.net/uploads/9/8/2/7/98276554/published/msm-diningroom.png?1777313570",
+      "website": "https://www.premierestatesandappraisal.net/",
       "address": {
         "city": "Philadelphia",
         "region": "PA",
@@ -3071,6 +3303,7 @@
       "name": "Pridham's Auctions & Appraisals",
       "description": "Pridham's Auctions & Appraisals has a limited directory listing for Ottawa, ON. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/pridhams-auctions-appraisals.svg",
+      "website": "https://pridhams.ca/",
       "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
@@ -3083,6 +3316,7 @@
       "name": "American Gem Registry",
       "description": "American Gem Registry has a limited directory listing for Denver, CO. Confirm current details directly with the business.",
       "image": "https://americangemregistry.com/wp-content/uploads/2022/07/agr_wordpress_site_icon-150x150.png",
+      "website": "https://americangemregistry.com/",
       "address": {
         "city": "Denver",
         "region": "CO",
@@ -3100,6 +3334,7 @@
       "name": "Rare Book Buyer",
       "description": "Rare Book Buyer has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://rarebookbuyer.com/wp-content/uploads/2017/09/logo1.jpg",
+      "website": "https://rarebookbuyer.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -3117,6 +3352,7 @@
       "name": "Rare Lion Antiques & Jewelry",
       "description": "Rare Lion Antiques & Jewelry has a limited directory listing for Phoenix, AZ. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/rare-lion-antiques-and-jewelry.svg",
+      "website": "https://rarelionantiques.com/",
       "address": {
         "city": "Phoenix",
         "region": "AZ",
@@ -3134,6 +3370,7 @@
       "name": "Red Sign Estate Sales & Appraisals, LLC",
       "description": "Red Sign Estate Sales & Appraisals, LLC has a limited directory listing for Portland, OR. Confirm current details directly with the business.",
       "image": "https://static.parastorage.com/client/pfavico.ico",
+      "website": "https://www.redsignestatesales.com/about-us",
       "address": {
         "city": "Portland",
         "region": "OR",
@@ -3151,6 +3388,7 @@
       "name": "Redtail Appraisals",
       "description": "Redtail Appraisals has a limited directory listing for Nashville, TN. Confirm current details directly with the business.",
       "image": "https://img1.wsimg.com/isteam/ip/9657fd7f-fc7d-49ed-90c8-d61f8ea3fa92/favicon/65de4acc-072b-4b6d-bca8-0d1435287bbe.jpg/:/rs=w:16,h:16,m",
+      "website": "https://redtailappraisals.com/",
       "address": {
         "city": "Nashville",
         "region": "TN",
@@ -3168,6 +3406,7 @@
       "name": "Reilly Clark Fine Art & Appraisals",
       "description": "Reilly Clark Fine Art & Appraisals has a limited directory listing for Anaheim, CA. Confirm current details directly with the business.",
       "image": "https://content.app-sources.com/s/5614540215077393/uploads/Images/Reilly-clark-9714453.png",
+      "website": "https://reillyclark.com/",
       "address": {
         "city": "Anaheim",
         "region": "CA",
@@ -3185,6 +3424,7 @@
       "name": "Ripley Auctions & Appraisals",
       "description": "Ripley Auctions & Appraisals has a limited directory listing for Indianapolis, IN. Confirm current details directly with the business.",
       "image": "https://image.invaluable.com/privatelabel/connectwp/wp-content/uploads/sites/100/2023/07/10125815/cropped-Favicon-2-32x32.png",
+      "website": "https://www.ripleyauctions.com/",
       "address": {
         "city": "Indianapolis",
         "region": "IN",
@@ -3202,6 +3442,7 @@
       "name": "Rittenhouse Estate Buyers",
       "description": "Rittenhouse Estate Buyers has a limited directory listing for Philadelphia, PA. Confirm current details directly with the business.",
       "image": "https://www.rittenhouseestatebuyers.com/cdn/shop/files/Gold_and_Black_Luxury_Nail_Salon_Initial_A_Logo_Design_3_09e9b7b1-53a9-46cb-b29a-6be90e7fd2a6.png?v=1759940539&width=500",
+      "website": "https://www.rittenhouseestatebuyers.com/",
       "address": {
         "city": "Philadelphia",
         "region": "PA",
@@ -3219,6 +3460,7 @@
       "name": "Rockwell Antiques Dallas",
       "description": "Rockwell Antiques Dallas has a limited directory listing for Dallas, TX. Confirm current details directly with the business.",
       "image": "https://rockwellantiquesdallas.com/wp-content/uploads/2020/06/cropped-20200215_132240-3-1.jpg",
+      "website": "https://rockwellantiquesdallas.com/",
       "address": {
         "city": "Dallas",
         "region": "TX",
@@ -3236,6 +3478,7 @@
       "name": "Roth Escher Art Group",
       "description": "Roth Escher Art Group has a limited directory listing for Los Angeles, CA. Confirm current details directly with the business.",
       "image": "https://rothescherart.com/wp-content/uploads/2018/10/cropped-favicon-32x32.png",
+      "website": "https://rothescherart.com/",
       "address": {
         "city": "Los Angeles",
         "region": "CA",
@@ -3253,6 +3496,7 @@
       "name": "Rue michelle antiques",
       "description": "Rue michelle antiques has a limited directory listing for San Diego, CA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/rue-michelle-antiques.svg",
+      "website": "https://ruemichelleantiques.com/",
       "address": {
         "city": "San Diego",
         "region": "CA",
@@ -3270,6 +3514,7 @@
       "name": "sally rude antiques & personal property appraisals",
       "description": "sally rude antiques & personal property appraisals has a limited directory listing for Tallahassee, FL. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/sally-rude-personal-property-appraisals-tallahassee-fl-32301.svg",
+      "website": "http://www.sallyrudeappraiser.com/",
       "address": {
         "city": "Tallahassee",
         "region": "FL",
@@ -3287,6 +3532,7 @@
       "name": "San Antonio Jewelry Appraisers",
       "description": "San Antonio Jewelry Appraisers has a limited directory listing for San Antonio, TX. Confirm current details directly with the business.",
       "image": "https://www.sanantoniojewelryappraisers.com/safavicon.ico",
+      "website": "https://sanantoniojewelryappraisers.com/",
       "address": {
         "city": "San Antonio",
         "region": "TX",
@@ -3304,6 +3550,7 @@
       "name": "San Diego Coin Buyers",
       "description": "San Diego Coin Buyers has a limited directory listing for San Diego, CA. Confirm current details directly with the business.",
       "image": "https://i0.wp.com/www.sandiegocoinbuyers.com/wp-content/uploads/2022/03/san-diego-coin-buyers-logo.png?fit=500%2C163&ssl=1",
+      "website": "https://www.sandiegocoinbuyers.com/",
       "address": {
         "city": "San Diego",
         "region": "CA",
@@ -3321,6 +3568,7 @@
       "name": "San Diego Liquidation and Estate Services Inc.",
       "description": "San Diego Liquidation and Estate Services Inc. has a limited directory listing for San Diego, CA. Confirm current details directly with the business.",
       "image": "https://sandiegoestateservices.com/favicon.svg",
+      "website": "https://sandiegoestateservices.com/",
       "address": {
         "city": "San Diego",
         "region": "CA",
@@ -3333,11 +3581,30 @@
       }
     },
     {
+      "slug": "sarah-ann-wilson-art-services",
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+      "name": "Wilson Art Services, LLC",
+      "description": "Wilson Art Services is a Philadelphia fine-art appraisal and consulting practice offering confidential appraisals, collection planning, and advisory services.",
+      "website": "https://www.wilsonartservices.com/",
+      "address": {
+        "city": "Philadelphia",
+        "region": "PA",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/sarah-ann-wilson-art-services/",
+        "verifiedAt": "2026-07-27"
+      }
+    },
+    {
       "slug": "sarasota-appraisal-services",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/sarasota-appraisal-services/",
       "name": "Sarasota Antique Appraisals",
       "description": "Sarasota Antique Appraisals has a limited directory listing for Sarasota, FL. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/sarasota-appraisal-services.svg",
+      "website": "http://sarasotaappraisals.com/",
       "address": {
         "city": "Sarasota",
         "region": "FL",
@@ -3355,6 +3622,7 @@
       "name": "Scottsdale Appraisal Specialists, LLC",
       "description": "Scottsdale Appraisal Specialists, LLC has a limited directory listing for Phoenix, AZ. Confirm current details directly with the business.",
       "image": "https://www.scottsdaleappraisalspecialists.com/images/a-master-favicon.ico?crc=3905318453",
+      "website": "https://www.scottsdaleappraisalspecialists.com/",
       "address": {
         "city": "Phoenix",
         "region": "AZ",
@@ -3372,6 +3640,7 @@
       "name": "Shane Group Appraisals",
       "description": "Shane Group Appraisals has a limited directory listing for Miami, FL. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/851c1d_fd3461c664184d8b9b730ef7b544803e%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/851c1d_fd3461c664184d8b9b730ef7b544803e%7Emv2.jpg",
+      "website": "https://www.shanegroupappraisals.com/",
       "address": {
         "city": "Miami",
         "region": "FL",
@@ -3389,6 +3658,7 @@
       "name": "Showplace NYC Fine Art Buyer",
       "description": "Showplace NYC Fine Art Buyer has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_showplace-nyc-fine-art-buyer-8317_1742166286046_igSzNR8CE.jpg",
+      "website": "https://estatebuyers.nyshowplace.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -3406,6 +3676,7 @@
       "name": "Sims Appraisal",
       "description": "Sims Appraisal has a limited directory listing for Phoenix, AZ. Confirm current details directly with the business.",
       "image": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+      "website": "https://simsappraisal.com/",
       "address": {
         "city": "Phoenix",
         "region": "AZ",
@@ -3423,6 +3694,7 @@
       "name": "Singer Galleries, LTD",
       "description": "Singer Galleries, LTD has a limited directory listing for Seattle, WA. Confirm current details directly with the business.",
       "image": "https://www.singergalleries.com/cdn/shop/files/10441169_10154321374245995_2999733418232685207_n_32x32.png?v=1613153244",
+      "website": "https://www.singergalleries.com/",
       "address": {
         "city": "Seattle",
         "region": "WA",
@@ -3440,6 +3712,7 @@
       "name": "SNH French Antiques & Collectibles",
       "description": "SNH French Antiques & Collectibles has a limited directory listing for Denver, CO. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/snh-french-antiques-and-collectibles.svg",
+      "website": "https://www.snhfrenchantiquesco.com/",
       "address": {
         "city": "Denver",
         "region": "CO",
@@ -3457,6 +3730,7 @@
       "name": "South Bay Art Appraisals",
       "description": "South Bay Art Appraisals has a limited directory listing for Los Angeles, CA. Confirm current details directly with the business.",
       "image": "https://static.parastorage.com/client/pfavico.ico",
+      "website": "https://www.southbayartappraisals.com/",
       "address": {
         "city": "Los Angeles",
         "region": "CA",
@@ -3474,6 +3748,7 @@
       "name": "Specialty Appraisals",
       "description": "Specialty Appraisals has a limited directory listing for Los Angeles, CA. Confirm current details directly with the business.",
       "image": "http://specialtyappraisals.com/wp-content/uploads/2015/01/Magnify.jpg",
+      "website": "http://specialtyappraisals.com/",
       "address": {
         "city": "Los Angeles",
         "region": "CA",
@@ -3491,6 +3766,7 @@
       "name": "Spellman Collective",
       "description": "Spellman Collective has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "website": "https://www.spellmancollective.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -3508,6 +3784,7 @@
       "name": "Spellman Gallery",
       "description": "Spellman Gallery has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://s3.amazonaws.com/files.collageplatform.com.prod/image_cache/favicon/application/5d27acbaa5aa2c1e39f578c2/88c8d4fa2bf0ffe3eb2114ab1161ffa0.png",
+      "website": "https://www.spellmangallery.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -3525,6 +3802,7 @@
       "name": "Spokane Fine Art & Appraisal",
       "description": "Spokane Fine Art & Appraisal has a limited directory listing for Olympia, WA. Confirm current details directly with the business.",
       "image": "https://www.spokaneartappraisal.com/square.ico",
+      "website": "https://www.spokaneartappraisal.com/",
       "address": {
         "city": "Olympia",
         "region": "WA",
@@ -3537,11 +3815,30 @@
       }
     },
     {
+      "slug": "st-lifer-art-inc-international-art-appraiser",
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+      "name": "St. Lifer Art, Inc.",
+      "description": "St. Lifer Art is a New York fine-art appraisal firm specializing in nineteenth-, twentieth-, and twenty-first-century paintings, prints, photography, posters, and sculpture.",
+      "website": "https://stliferart.com/",
+      "address": {
+        "city": "New York",
+        "region": "NY",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/st-lifer-art-inc-international-art-appraiser/",
+        "verifiedAt": "2026-07-27"
+      }
+    },
+    {
       "slug": "stepping-stones-antiques-llc-old-saybrook-connecticut-retail-shop-estate-sale-management-a",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/stepping-stones-antiques-llc-old-saybrook-connecticut-retail-shop-estate-sale-management-a/",
       "name": "Stepping Stones Antiques LLC",
       "description": "Stepping Stones Antiques LLC has a limited directory listing for New Haven, CT. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/stepping-stones-antiques-llc-old-saybrook-connecticut-retail-shop-estate-sale-management-a.svg",
+      "website": "https://steppingstonesantiques.com/",
       "address": {
         "city": "New Haven",
         "region": "CT",
@@ -3559,6 +3856,7 @@
       "name": "Susan Eisen Fine Jewelry Watches Art & Appraiser",
       "description": "Susan Eisen Fine Jewelry Watches Art & Appraiser has a limited directory listing for Austin, TX. Confirm current details directly with the business.",
       "image": "https://www.susaneisen.com/media/preferences/ts_company/susaneisen-logo_H7kakp9.png",
+      "website": "https://www.susaneisen.com/",
       "address": {
         "city": "Austin",
         "region": "TX",
@@ -3576,6 +3874,7 @@
       "name": "Sutton Certified Estate Appraisals",
       "description": "Sutton Certified Estate Appraisals has a limited directory listing for New York, NY. Confirm current details directly with the business.",
       "image": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "website": "https://suttoncertifiedappraisals.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -3593,6 +3892,7 @@
       "name": "Gesner Appraisal Services",
       "description": "Gesner Appraisal Services has a limited directory listing for Tampa, FL. Confirm current details directly with the business.",
       "image": "https://gesnerappraisalservices.com/wp-content/themes/dms-2/dms/images/default-favicon.png",
+      "website": "https://gesnerappraisalservices.com/",
       "address": {
         "city": "Tampa",
         "region": "FL",
@@ -3610,6 +3910,7 @@
       "name": "Taos Black Dog Antiques & Estate Sales",
       "description": "Taos Black Dog Antiques & Estate Sales has a limited directory listing for Taos, NM. Confirm current details directly with the business.",
       "image": "https://taosblackdog.com/wp-content/uploads/2023/08/taos-black-dog-logo-e1766787262923.png",
+      "website": "https://taosblackdog.com/",
       "address": {
         "city": "Taos",
         "region": "NM",
@@ -3627,6 +3928,7 @@
       "name": "Taylor Hall Jewelry and Appraisal",
       "description": "Taylor Hall Jewelry and Appraisal has a limited directory listing for Austin, TX. Confirm current details directly with the business.",
       "image": "https://www.taylorhalljewelry.com/cdn/shop/files/Stamp_2_32x32.png?v=1698882344",
+      "website": "https://www.taylorhalljewelry.com/pages/jewelry-appraisal-austin",
       "address": {
         "city": "Austin",
         "region": "TX",
@@ -3644,6 +3946,7 @@
       "name": "Taylor's Antiques",
       "description": "Taylor's Antiques has a limited directory listing for Kelowna, BC. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_kelowna-taylors-fine-collectables-ltd_1742202686974__gy6EjLWW.jpg",
+      "website": "https://www.taylorsantiques250.com/",
       "address": {
         "city": "Kelowna",
         "region": "BC",
@@ -3661,6 +3964,7 @@
       "name": "Terry Estate Appraisals",
       "description": "Terry Estate Appraisals has a limited directory listing for Miami, FL. Confirm current details directly with the business.",
       "image": "https://terryestateappraisals.com/wp-content/uploads/2020/05/dd.png",
+      "website": "https://terryestateappraisals.com/",
       "address": {
         "city": "Miami",
         "region": "FL",
@@ -3678,6 +3982,7 @@
       "name": "The Antiquarium",
       "description": "The Antiquarium has a limited directory listing for Houston, TX. Confirm current details directly with the business.",
       "image": "https://theantiquarium.com/cdn/shop/files/New_Header_for_Shopify_Store_861x.jpg?v=1663175768",
+      "website": "https://theantiquarium.com/",
       "address": {
         "city": "Houston",
         "region": "TX",
@@ -3695,6 +4000,7 @@
       "name": "The Appraisal Firm",
       "description": "The Appraisal Firm has a limited directory listing for Columbus, OH. Confirm current details directly with the business.",
       "image": "https://www.theappraisalfirm.com/wp-content/uploads/2024/06/the-appraisal-firm-seo-image.jpg",
+      "website": "https://www.theappraisalfirm.com/",
       "address": {
         "city": "Columbus",
         "region": "OH",
@@ -3712,6 +4018,7 @@
       "name": "The Edna Collective",
       "description": "The Edna Collective has a limited directory listing for San Mateo, CA. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/65b170a3a90ff66847a45dec/650b9c8b-3898-448d-96c8-c920999ad365/favicon.ico?format=100w",
+      "website": "https://www.theednacollective.com/",
       "address": {
         "city": "San Mateo",
         "region": "CA",
@@ -3729,6 +4036,7 @@
       "name": "Jewelry Appraisers of Portland",
       "description": "Jewelry Appraisers of Portland has a limited directory listing for Portland, OR. Confirm current details directly with the business.",
       "image": "https://www.gemsandsilver.com/logo.png",
+      "website": "https://www.jewelryappraisersofportland.com/",
       "address": {
         "city": "Portland",
         "region": "OR",
@@ -3746,6 +4054,7 @@
       "name": "The Peterson Exchange - Auctions & Appraisals LLC",
       "description": "The Peterson Exchange - Auctions & Appraisals LLC has a limited directory listing for Miami, FL. Confirm current details directly with the business.",
       "image": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=16,h=16,fit=crop,f=png/x0zRdN4Gay1z5ip5/title-logo-MmENMF7RSOGcYiCV.png",
+      "website": "https://thepetersonexchange.com/",
       "address": {
         "city": "Miami",
         "region": "FL",
@@ -3763,6 +4072,7 @@
       "name": "The Potomack Company Auctions, Appraisals & Estate Sales",
       "description": "The Potomack Company Auctions, Appraisals & Estate Sales has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
       "image": "https://image.invaluable.com/privatelabel/connectwp/wp-content/uploads/sites/159/2022/11/11141949/cropped-Potomack-P-32x32.png",
+      "website": "https://www.potomackcompany.com/",
       "address": {
         "city": "Washington",
         "region": "DC",
@@ -3780,6 +4090,7 @@
       "name": "Time Traveler Antiques And Appraisals",
       "description": "Time Traveler Antiques And Appraisals has a limited directory listing for Trenton, NJ. Confirm current details directly with the business.",
       "image": "https://cdn.hibuwebsites.com/929e0120431e4abf8bc2c6c1783656e8/site_favicon_16_1659984333798.ico",
+      "website": "https://www.timetravelerantiques.com/",
       "address": {
         "city": "Trenton",
         "region": "NJ",
@@ -3797,6 +4108,7 @@
       "name": "Treasures A-Z Antiques & Appraisals",
       "description": "Treasures A-Z Antiques & Appraisals has a limited directory listing for Madison, WI. Confirm current details directly with the business.",
       "image": "https://static.parastorage.com/client/pfavico.ico",
+      "website": "https://www.treasuresaz.com/",
       "address": {
         "city": "Madison",
         "region": "WI",
@@ -3814,6 +4126,7 @@
       "name": "Tri Guy Treasures, Estate Sales & Auctions",
       "description": "Tri Guy Treasures, Estate Sales & Auctions has a limited directory listing for Fort Worth, TX. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/tri-guy-treasures-estate-sales-and-auctions.svg",
+      "website": "https://triguytreasures.com/",
       "address": {
         "city": "Fort Worth",
         "region": "TX",
@@ -3831,6 +4144,7 @@
       "name": "ValuePros",
       "description": "ValuePros has a limited directory listing for West Palm Beach, FL. Confirm current details directly with the business.",
       "image": "https://2023.valuepros.org/wp-content/uploads/2021/01/ValuePros-Logo-1080.png",
+      "website": "https://www.valuepros.com/palm-beach-appraisal/",
       "address": {
         "city": "West Palm Beach",
         "region": "FL",
@@ -3848,6 +4162,7 @@
       "name": "Van McMinn, G. G. Jewelry Appraisals",
       "description": "Van McMinn, G. G. Jewelry Appraisals has a limited directory listing for Nashville, TN. Confirm current details directly with the business.",
       "image": "http://cdn2.editmysite.com/images/site/footer/og-image-placeholder-blank.png",
+      "website": "http://www.vanmcminn.com/",
       "address": {
         "city": "Nashville",
         "region": "TN",
@@ -3865,6 +4180,7 @@
       "name": "Vaughan Estate Sales & Appraisals, Inc.",
       "description": "Vaughan Estate Sales & Appraisals, Inc. has a limited directory listing for Atlanta, GA. Confirm current details directly with the business.",
       "image": "https://static.wixstatic.com/media/405ff7_2cb0db18912c4223b8e89614762179ef~mv2.png/v1/fill/w_294,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Vaughan%20Logo%202020%20copy.png",
+      "website": "https://www.davidvaughanhomes.com/",
       "address": {
         "city": "Atlanta",
         "region": "GA",
@@ -3882,6 +4198,7 @@
       "name": "Vogt Auction Galleries | Robert Vogt, ISA",
       "description": "Vogt Auction Galleries | Robert Vogt, ISA has a limited directory listing for San Antonio, TX. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/vogt-auction-galleries-robert-vogt-isa.svg",
+      "website": "https://www.vogtauction.com/",
       "address": {
         "city": "San Antonio",
         "region": "TX",
@@ -3899,6 +4216,7 @@
       "name": "Area Appraisal Services, Inc",
       "description": "Area Appraisal Services, Inc has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/washington-area-appraisal-services-inc.svg",
+      "website": "https://dcareaappraisal.com/",
       "address": {
         "city": "Washington",
         "region": "DC",
@@ -3916,6 +4234,7 @@
       "name": "Capital Antiques & Fine Art - Home",
       "description": "Capital Antiques & Fine Art - Home has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/washington-capital-antiques-and-fine-art-home.svg",
+      "website": "http://www.capitalantiques.com/",
       "address": {
         "city": "Washington",
         "region": "DC",
@@ -3933,6 +4252,7 @@
       "name": "Washingtonian Appraisals",
       "description": "Washingtonian Appraisals has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/washingtonian-appraisals.svg",
+      "website": "https://www.washingtonianappraisals.com/",
       "address": {
         "city": "Washington",
         "region": "DC",
@@ -3950,6 +4270,7 @@
       "name": "Weathers Appraisal Associates, LLC",
       "description": "Weathers Appraisal Associates, LLC has a limited directory listing for Dallas, TX. Confirm current details directly with the business.",
       "image": "https://i0.wp.com/www.rachelkweathers.com/wp-content/uploads/2022/05/cropped-cropped-BigEasy-800x445-1.jpg?fit=374%2C365&ssl=1",
+      "website": "https://www.rachelkweathers.com/",
       "address": {
         "city": "Dallas",
         "region": "TX",
@@ -3967,6 +4288,7 @@
       "name": "Weschler's Auctioneers & Appraisers",
       "description": "Weschler's Auctioneers & Appraisers has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
       "image": "https://www.weschlers.com/wp-content/themes/theme-weschlers/dist/img/icons/apple-touch-icon.png",
+      "website": "https://www.weschlers.com/",
       "address": {
         "city": "Washington",
         "region": "DC",
@@ -3984,6 +4306,7 @@
       "name": "Westchester Fine Art & Antiques",
       "description": "Westchester Fine Art & Antiques has a limited directory listing for Stamford, CT. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/westchester-fine-art-auctioneers-and-appraisers.svg",
+      "website": "https://www.westchesterfineart.com/",
       "address": {
         "city": "Stamford",
         "region": "CT",
@@ -4001,6 +4324,7 @@
       "name": "Worthmore Jewelers",
       "description": "Worthmore Jewelers has a limited directory listing for Atlanta, GA. Confirm current details directly with the business.",
       "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/worthmore-jewelers.svg",
+      "website": "https://www.worthmorejewelers.com/",
       "address": {
         "city": "Atlanta",
         "region": "GA",
