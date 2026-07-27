@@ -2,8 +2,8 @@
   "title": "Antique Appraiser Directory location pages",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-11T15:47:35.626Z",
-  "count": 93,
+  "generatedAt": "2026-07-26T18:52:18.543Z",
+  "count": 86,
   "locations": [
     {
       "slug": "albuquerque",
@@ -95,7 +95,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/modern-history-society-art-and-antique-appraisal/",
           "slug": "modern-history-society-art-and-antique-appraisal",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/modern-history-society-art-and-antique-appraisal.svg",
-          "description": "",
+          "description": "All Estate Sales & Auction Company has a limited directory listing for Austin, TX. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         },
         {
@@ -103,7 +103,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/national-jewelry-appraisers/",
           "slug": "national-jewelry-appraisers",
           "image": "https://irp.cdn-website.com/163cf539/dms3rep/multi/logo.png",
-          "description": "",
+          "description": "National Jewelry Appraisers has a limited directory listing for Austin, TX. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -127,7 +127,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mayflower-estate-buyers/",
           "slug": "mayflower-estate-buyers",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_baltimore-mayflower-estate-buyers_1742170042112_gyyXJTuM9.jpg",
-          "description": "Mayflower Estate Buyers offers Towson and Baltimore-area jewelry appraisal support. Specialties: antique and vintage jewelry, diamond and gemstone jewelry, watches, pearls, estate/probate, insurance, resale, and donation appraisals.",
+          "description": "Mayflower Estate Buyers has a limited directory listing for Towson, MD. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -170,7 +170,7 @@
       "slug": "boston",
       "url": "https://antique-appraiser-directory.appraisily.com/location/boston/",
       "name": "Antique & Art Appraisers in Boston, Massachusetts",
-      "description": "Compare antique and art appraisers in Boston, Massachusetts and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Boston, Massachusetts and request an online appraisal from Appraisily.",
       "city": "Boston",
       "region": "MA",
       "country": "US",
@@ -200,7 +200,7 @@
       "slug": "calgary",
       "url": "https://antique-appraiser-directory.appraisily.com/location/calgary/",
       "name": "Antique & Art Appraisers in Calgary, Alberta",
-      "description": "Compare antique and art appraisers in Calgary, Alberta and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Calgary, Alberta and request an online appraisal from Appraisily.",
       "city": "Calgary",
       "region": "AB",
       "country": "CA",
@@ -211,7 +211,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/brian-lehman-evaluations/",
           "slug": "brian-lehman-evaluations",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_calgary-brian-lehman-evaluations_1742170114453_V0NqKnEkf.jpg",
-          "description": "Brian Lehman Evaluations and Estate Sale Pros offers antique appraisal support in Calgary, Alberta. Specialties: estate appraisals, collectibles, art, coins. Services: appraisals, estate sales.",
+          "description": "Brian Lehman Evaluations Estate & Antique Appraisal in Calgary has a limited directory listing for Calgary, AB. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -258,22 +258,14 @@
       "city": "Chicago",
       "region": "IL",
       "country": "US",
-      "numberOfListedAppraisers": 2,
+      "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
           "name": "Adams Appraisal LLC",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/adams-appraisal-llc/",
           "slug": "adams-appraisal-llc",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_chicago-adams-appraisal-llc_1742079326595_NI13K4cjC.jpg",
-          "description": "Adams Appraisal LLC offers antique appraisal support in Chicago, Illinois. Specialties: Antique/modern furniture. Services: antique appraisal, art appraisal.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Prestige Estate Services",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-          "slug": "prestige-estate-services",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_prestige-estate-services-2423_1742166242223_ZSyxRJCEu.jpg",
-          "description": "Prestige Estate Services offers antique appraisal support in Chicago, Illinois. Specialties: Insurance appraisals, Estate tax appraisals, Art and antiques appraisal. Services: antique appraisal, art appraisal.",
+          "description": "Adams Appraisal LLC has a limited directory listing for Chicago, IL. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -290,22 +282,14 @@
       "city": "Cincinnati",
       "region": "OH",
       "country": "US",
-      "numberOfListedAppraisers": 2,
+      "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
           "name": "Caza Sikes",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/caza-sikes/",
           "slug": "caza-sikes",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_cincinnati-caza-sikes_1742201172594_Il_h4RArb.jpg",
-          "description": "Caza Sikes offers antique appraisal support in Cincinnati, Ohio. Specialties: Artwork, jewelry. Services: In-person, remote.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Prestige Estate Services",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-          "slug": "prestige-estate-services",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_cincinnati-prestige-estate-services_1742201166954_WASY1QCPL.jpg",
-          "description": "Prestige Estate Services offers antique appraisal support in Cincinnati, Ohio. Specialties: Antique furniture, fine art, Americana, decorative arts. Services: In-person, remote.",
+          "description": "Caza Sikes has a limited directory listing for Cincinnati, OH. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -318,7 +302,7 @@
       "slug": "cleveland",
       "url": "https://antique-appraiser-directory.appraisily.com/location/cleveland/",
       "name": "Antique & Art Appraisers in Cleveland, Ohio",
-      "description": "Compare antique and art appraisers in Cleveland, Ohio and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Cleveland, Ohio and request an online appraisal from Appraisily.",
       "city": "Cleveland",
       "region": "OH",
       "country": "US",
@@ -375,7 +359,7 @@
       "slug": "des-moines",
       "url": "https://antique-appraiser-directory.appraisily.com/location/des-moines/",
       "name": "Antique & Art Appraisers in Des Moines, Iowa",
-      "description": "Compare antique and art appraisers in Des Moines, Iowa and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Des Moines, Iowa and request an online appraisal from Appraisily.",
       "city": "Des Moines",
       "region": "IA",
       "country": "US",
@@ -387,34 +371,10 @@
       "listedAppraisers": []
     },
     {
-      "slug": "detroit",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/detroit/",
-      "name": "Antique & Art Appraisers in Detroit, Michigan",
-      "description": "Compare antique and art appraisers in Detroit, Michigan and request a fast online appraisal from Appraisily.",
-      "city": "Detroit",
-      "region": "MI",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Prestige Estate Services",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-          "slug": "prestige-estate-services",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_detroit-prestige-estate-services_1742201397541_vh9m3LvOq.jpg",
-          "description": "Prestige Estate Services offers antique appraisal support in Detroit, Michigan. Specialties: Antique Furniture, Vintage Collectibles.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/detroit/"
-      }
-    },
-    {
       "slug": "edmonton",
       "url": "https://antique-appraiser-directory.appraisily.com/location/edmonton/",
       "name": "Antique & Art Appraisers in Edmonton, Alberta",
-      "description": "Compare antique and art appraisers in Edmonton, Alberta and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Edmonton, Alberta and request an online appraisal from Appraisily.",
       "city": "Edmonton",
       "region": "AB",
       "country": "CA",
@@ -455,7 +415,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/moecker-auctions-inc/",
           "slug": "moecker-auctions-inc",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/moecker-auctions-inc.svg",
-          "description": "Moecker Auctions Inc. offers Fort Lauderdale asset appraisal, auction, and liquidation support for equipment, inventory, complete businesses, estates, vehicles, jewelry, and other property.",
+          "description": "Moecker Auctions Inc. has a limited directory listing for Fort Lauderdale, FL. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -468,7 +428,7 @@
       "slug": "fort-worth",
       "url": "https://antique-appraiser-directory.appraisily.com/location/fort-worth/",
       "name": "Antique & Art Appraisers in Fort Worth, Texas",
-      "description": "Compare antique and art appraisers in Fort Worth, Texas and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Fort Worth, Texas and request an online appraisal from Appraisily.",
       "city": "Fort Worth",
       "region": "TX",
       "country": "US",
@@ -509,7 +469,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/dorothe-rosen-designer-goldsmith/",
           "slug": "dorothe-rosen-designer-goldsmith",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_halifax-dorothe-rosen-designer-goldsmith_1742201604309_VmairVJ8G.jpg",
-          "description": "Dorothée Rosen Designer Goldsmith offers antique appraisal support in Halifax, Nova Scotia. Specialties: Antique Furniture, Vintage Collectibles. Services: antique appraisal, art appraisal.",
+          "description": "Dorothée Rosen Designer Goldsmith has a limited directory listing for Halifax, NS. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -537,7 +497,7 @@
       "slug": "honolulu",
       "url": "https://antique-appraiser-directory.appraisily.com/location/honolulu/",
       "name": "Antique & Art Appraisers in Honolulu, Hawaii",
-      "description": "Compare antique and art appraisers in Honolulu, Hawaii and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Honolulu, Hawaii and request an online appraisal from Appraisily.",
       "city": "Honolulu",
       "region": "HI",
       "country": "US",
@@ -548,37 +508,13 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/aloha-estate-jewelry/",
           "slug": "aloha-estate-jewelry",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_honolulu-aloha-estate-jewelry_1742202558491_RrqKnjek2.jpg",
-          "description": "Aloha Estate Jewelry is an online Honolulu source for estate, vintage, and antique fine jewelry. Confirm standalone appraisal availability directly.",
+          "description": "Aloha Estate Jewelry has a limited directory listing for Honolulu, HI. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/honolulu/"
-      }
-    },
-    {
-      "slug": "indianapolis",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/indianapolis/",
-      "name": "Antique & Art Appraisers in Indianapolis, Indiana",
-      "description": "Compare antique and art appraisers in Indianapolis, Indiana and request a fast online appraisal from Appraisily.",
-      "city": "Indianapolis",
-      "region": "IN",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Prestige Estate Services",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-          "slug": "prestige-estate-services",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_indianapolis-prestige-estate-services_1742202599901_3qefRIjJ-.jpg",
-          "description": "Prestige Estate Services offers antique appraisal support in Indianapolis, Indiana. Services: Metro + Midwest cities via remote options.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/indianapolis/"
       }
     },
     {
@@ -589,22 +525,14 @@
       "city": "Jacksonville",
       "region": "FL",
       "country": "US",
-      "numberOfListedAppraisers": 2,
+      "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
           "name": "Mussallem Galleries",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mussallem-antiques/",
           "slug": "mussallem-antiques",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mussallem-antiques.svg",
-          "description": "Mussallem Galleries offers free verbal appraisals and inquiries to sell antiques, Oriental rugs, silver, paintings, estate items, fine art, and antique furniture in Jacksonville, Florida.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Prestige Estate Services",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-          "slug": "prestige-estate-services",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jacksonville-prestige-estate-services_1742202665333_nLtgnF3Gn.jpg",
-          "description": "Prestige Estate Services offers antique appraisal support in Jacksonville, Florida. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+          "description": "Mussallem Galleries has a limited directory listing for Jacksonville, FL. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -617,7 +545,7 @@
       "slug": "kansas-city",
       "url": "https://antique-appraiser-directory.appraisily.com/location/kansas-city/",
       "name": "Antique & Art Appraisers in Kansas City, Missouri",
-      "description": "Compare antique and art appraisers in Kansas City, Missouri and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Kansas City, Missouri and request an online appraisal from Appraisily.",
       "city": "Kansas City",
       "region": "MO",
       "country": "US",
@@ -643,7 +571,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/artista-art-antiquits/",
           "slug": "artista-art-antiquits",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_kelowna-artista-art-antiquits_1742202681121_xFRJefl1Q.jpg",
-          "description": "Artista Antiques offers antique appraisal support in Kelowna, British Columbia. Specialties: antiques, vintage, collectibles, jewelry. Services: appraisals, consignment.",
+          "description": "Artista Art & Antiques has a limited directory listing for Kelowna, BC. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -656,7 +584,7 @@
       "slug": "kitchener",
       "url": "https://antique-appraiser-directory.appraisily.com/location/kitchener/",
       "name": "Antique & Art Appraisers in Kitchener, Ontario",
-      "description": "Compare antique and art appraisers in Kitchener, Ontario and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Kitchener, Ontario and request an online appraisal from Appraisily.",
       "city": "Kitchener",
       "region": "ON",
       "country": "CA",
@@ -666,54 +594,6 @@
         "route": "/location/kitchener/"
       },
       "listedAppraisers": []
-    },
-    {
-      "slug": "las-vegas",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/las-vegas/",
-      "name": "Antique & Art Appraisers in Las Vegas, Nevada",
-      "description": "Compare antique and art appraisers in Las Vegas, Nevada and request a fast online appraisal from Appraisily.",
-      "city": "Las Vegas",
-      "region": "NV",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Prestige Estate Services",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-          "slug": "prestige-estate-services",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_las_vegas-prestige-estate-services_1742201525280_9kxW2zWa0.jpg",
-          "description": "Prestige Estate Services offers antique appraisal support in Las Vegas, Nevada. Specialties: Comprehensive estate tax valuations Fine art collections. Services: Greater Las Vegas, Summerlin, Henderson.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/las-vegas/"
-      }
-    },
-    {
-      "slug": "lexington",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/lexington/",
-      "name": "Antique & Art Appraisers in Lexington, Kentucky",
-      "description": "Compare antique and art appraisers in Lexington, Kentucky and request a fast online appraisal from Appraisily.",
-      "city": "Lexington",
-      "region": "KY",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Prestige Estate Services",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-          "slug": "prestige-estate-services",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_lexington-prestige-estate-services_1742202703648_XUL2HwnE0.jpg",
-          "description": "Prestige Estate Services offers antique appraisal support in Lexington, Kentucky. Specialties: fine art, historic artifacts, rare coins, machinery. Services: Central Kentucky (Lexington included).",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/lexington/"
-      }
     },
     {
       "slug": "little-rock",
@@ -764,7 +644,7 @@
       "slug": "los-angeles",
       "url": "https://antique-appraiser-directory.appraisily.com/location/los-angeles/",
       "name": "Antique & Art Appraisers in Los Angeles, California",
-      "description": "Compare antique and art appraisers in Los Angeles, California and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Los Angeles, California and request an online appraisal from Appraisily.",
       "city": "Los Angeles",
       "region": "CA",
       "country": "US",
@@ -774,8 +654,8 @@
           "name": "Antiques On Magnolia",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antiques-on-magnolia/",
           "slug": "antiques-on-magnolia",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/antiques-on-magnolia.svg",
-          "description": "Antiques On Magnolia offers antique appraisal support in Los Angeles, California. Specialties: Antiques, Vintage Items, Collectibles, Furniture. Services: Antique Appraisals, Estate Appraisals, Insurance Appraisals.",
+          "image": "https://static.wixstatic.com/media/c95a4a_e7ba256e6eb940e8a01d151ec59454e7%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/c95a4a_e7ba256e6eb940e8a01d151ec59454e7%7Emv2.png",
+          "description": "Antiques On Magnolia has a limited directory listing for Los Angeles, CA. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -803,7 +683,7 @@
       "slug": "memphis",
       "url": "https://antique-appraiser-directory.appraisily.com/location/memphis/",
       "name": "Antique & Art Appraisers in Memphis, Tennessee",
-      "description": "Compare antique and art appraisers in Memphis, Tennessee and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Memphis, Tennessee and request an online appraisal from Appraisily.",
       "city": "Memphis",
       "region": "TN",
       "country": "US",
@@ -844,7 +724,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/cedarburg-auction-appraisals-llc/",
           "slug": "cedarburg-auction-appraisals-llc",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_milwaukee-cedarburg-auction-appraisals-llc_1742202773948_e95lPwg3L.jpg",
-          "description": "Cedarburg Auction & Appraisals LLC handles estate auctions, appraisals, consignments, antiques, decorative arts, jewelry, collectibles, and furniture from Brown Deer, Wisconsin.",
+          "description": "Cedarburg Auction & Appraisals LLC has a limited directory listing for Brown Deer, WI. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -872,7 +752,7 @@
       "slug": "moncton",
       "url": "https://antique-appraiser-directory.appraisily.com/location/moncton/",
       "name": "Antique & Art Appraisers in Moncton, New Brunswick",
-      "description": "Compare antique and art appraisers in Moncton, New Brunswick and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Moncton, New Brunswick and request an online appraisal from Appraisily.",
       "city": "Moncton",
       "region": "NB",
       "country": "CA",
@@ -933,22 +813,14 @@
       "city": "New York",
       "region": "NY",
       "country": "US",
-      "numberOfListedAppraisers": 2,
+      "numberOfListedAppraisers": 1,
       "listedAppraisers": [
-        {
-          "name": "Museum Exchange",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/museum-exchange/",
-          "slug": "museum-exchange",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_museum-exchange-3462_1742166255040_BIvs_Ofel.jpg",
-          "description": "Museum Exchange coordinates online art appraisals from New York through third-party qualified appraisers for donation, insurance, tax, estate planning, and art lending needs.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "Showplace NYC Fine Art Buyer",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/showplace-nyc-fine-art-buyer/",
           "slug": "showplace-nyc-fine-art-buyer",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_showplace-nyc-fine-art-buyer-8317_1742166286046_igSzNR8CE.jpg",
-          "description": "Showplace NYC Fine Art Buyer offers antique appraisal support in New York, New York. Specialties: Contemporary market valuations, Direct art purchases. Services: antique appraisal, art appraisal.",
+          "description": "Showplace NYC Fine Art Buyer has a limited directory listing for New York, NY. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -987,7 +859,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/montclair-estates-antique-consignment-and-appraiser/",
           "slug": "montclair-estates-antique-consignment-and-appraiser",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/montclair-estates-antique-consignment-and-appraiser.svg",
-          "description": "Montclair Estates provides ISA-accredited, USPAP-compliant personal property appraisals for antiques, jewelry, fine art, collectibles, estates, insurance, donations, and equitable distribution.",
+          "description": "Montclair Estates has a limited directory listing for Oakland, CA. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         },
         {
@@ -995,61 +867,13 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/clars-auction-gallery/",
           "slug": "clars-auction-gallery",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_oakland-clars-auction-gallery_1742202839449_GkygjFg5F.jpg",
-          "description": "Gurr Johns offers antique appraisal support in Oakland, California. Specialties: Oaklаnd 510-428-0100. Services: antique appraisal, art appraisal.",
+          "description": "Clars Auction Gallery has a limited directory listing for Oakland, CA. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/oakland/"
-      }
-    },
-    {
-      "slug": "oklahoma-city",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/oklahoma-city/",
-      "name": "Antique & Art Appraisers in Oklahoma City, Oklahoma",
-      "description": "Compare antique and art appraisers in Oklahoma City, Oklahoma and request a fast online appraisal from Appraisily.",
-      "city": "Oklahoma City",
-      "region": "OK",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Prestige Estate Services",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-          "slug": "prestige-estate-services",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_oklahoma_city-prestige-estate-services_1742202862823_TzRxS9vG7h.jpg",
-          "description": "Prestige Estate Services offers antique appraisal support in Oklahoma City, Oklahoma. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/oklahoma-city/"
-      }
-    },
-    {
-      "slug": "omaha",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/omaha/",
-      "name": "Antique & Art Appraisers in Omaha, Nebraska",
-      "description": "Compare antique and art appraisers in Omaha, Nebraska and request a fast online appraisal from Appraisily.",
-      "city": "Omaha",
-      "region": "NE",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Prestige Estate Services",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-          "slug": "prestige-estate-services",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_omaha-prestige-estate-services_1742202916728_QVzw_IHHd.jpg",
-          "description": "Prestige Estate Services offers antique appraisal support in Omaha, Nebraska. Specialties: Artwork. Services: Nationwide coverage via regional experts.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/omaha/"
       }
     },
     {
@@ -1071,7 +895,7 @@
       "slug": "ottawa",
       "url": "https://antique-appraiser-directory.appraisily.com/location/ottawa/",
       "name": "Antique & Art Appraisers in Ottawa, Ontario",
-      "description": "Compare antique and art appraisers in Ottawa, Ontario and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Ottawa, Ontario and request an online appraisal from Appraisily.",
       "city": "Ottawa",
       "region": "ON",
       "country": "CA",
@@ -1082,7 +906,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/pridhams-auctions-appraisals/",
           "slug": "pridhams-auctions-appraisals",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/pridhams-auctions-appraisals.svg",
-          "description": "Pridham's Auctions & Appraisals offers antique appraisal support in Ottawa, Ontario. Specialties: Fine art, Decorative arts, Auction appraisals. Services: antique appraisal, art appraisal.",
+          "description": "Pridham's Auctions & Appraisals has a limited directory listing for Ottawa, ON. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -1121,7 +945,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mccarty-antiques/",
           "slug": "mccarty-antiques",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mccarty-antiques.svg",
-          "description": "McCarty Antiques offers antique appraisal support in Philadelphia, Pennsylvania. Specialties: Fine Art, Antiques, Investment-Quality Antiques, Decorative Arts. Services: Estate Evaluations, Private Collection Evaluations.",
+          "description": "McCarty Antiques has a limited directory listing for Philadelphia, PA. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -1160,7 +984,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/concept-art-gallery/",
           "slug": "concept-art-gallery",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_pittsburgh-concept-art-gallery_1742203034158_MJihWQA1c.jpg",
-          "description": "Concept Art Gallery offers antique appraisal support in Pittsburgh, Pennsylvania. Specialties: Paintings ($\\text{American/European}$). Services: antique appraisal, art appraisal.",
+          "description": "Concept Art Gallery has a limited directory listing for Pittsburgh, PA. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -1173,7 +997,7 @@
       "slug": "portland",
       "url": "https://antique-appraiser-directory.appraisily.com/location/portland/",
       "name": "Antique & Art Appraisers in Portland, Oregon",
-      "description": "Compare antique and art appraisers in Portland, Oregon and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Portland, Oregon and request an online appraisal from Appraisily.",
       "city": "Portland",
       "region": "OR",
       "country": "US",
@@ -1218,7 +1042,7 @@
       "slug": "raleigh",
       "url": "https://antique-appraiser-directory.appraisily.com/location/raleigh/",
       "name": "Antique & Art Appraisers in Raleigh, North Carolina",
-      "description": "Compare antique and art appraisers in Raleigh, North Carolina and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Raleigh, North Carolina and request an online appraisal from Appraisily.",
       "city": "Raleigh",
       "region": "NC",
       "country": "US",
@@ -1293,7 +1117,7 @@
       "slug": "san-antonio",
       "url": "https://antique-appraiser-directory.appraisily.com/location/san-antonio/",
       "name": "Antique & Art Appraisers in San Antonio, Texas",
-      "description": "Compare antique and art appraisers in San Antonio, Texas and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in San Antonio, Texas and request an online appraisal from Appraisily.",
       "city": "San Antonio",
       "region": "TX",
       "country": "US",
@@ -1303,30 +1127,6 @@
         "route": "/location/san-antonio/"
       },
       "listedAppraisers": []
-    },
-    {
-      "slug": "san-diego",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/san-diego/",
-      "name": "Antique & Art Appraisers in San Diego, California",
-      "description": "Compare antique and art appraisers in San Diego, California and request a fast online appraisal from Appraisily.",
-      "city": "San Diego",
-      "region": "CA",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Lamplighter Appraisal Service",
-          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/lamplighter-appraisal-service-personal-property-appraisal-san-diego/",
-          "slug": "lamplighter-appraisal-service-personal-property-appraisal-san-diego",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/lamplighter-appraisal-service-personal-property-appraisal-san-diego.svg",
-          "description": "Lamplighter Appraisal Service appraises San Diego personal property, antiques, decorative arts, fine art, residential contents and collectibles.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/san-diego/"
-      }
     },
     {
       "slug": "san-francisco",
@@ -1358,7 +1158,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/clars-auctions/",
           "slug": "clars-auctions",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san_jose-clars-auctions_1742203169304_0sN14V4tk.jpg",
-          "description": "Clars Auctions offers antique appraisal support in San Jose, California. Specialties: Rare coins. Services: antique appraisal, art appraisal.",
+          "description": "Clars Auctions has a limited directory listing for Oakland, CA. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -1386,7 +1186,7 @@
       "slug": "saskatoon",
       "url": "https://antique-appraiser-directory.appraisily.com/location/saskatoon/",
       "name": "Antique & Art Appraisers in Saskatoon, Saskatchewan",
-      "description": "Compare antique and art appraisers in Saskatoon, Saskatchewan and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Saskatoon, Saskatchewan and request an online appraisal from Appraisily.",
       "city": "Saskatoon",
       "region": "SK",
       "country": "CA",
@@ -1427,7 +1227,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mr-johnson-s-antiques/",
           "slug": "mr-johnson-s-antiques",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mr-johnson-s-antiques.svg",
-          "description": "Mr. Johnson's Antiques offers Seattle antique appraisals, estate services, antique buying, and lamp rewiring from its Montlake shop.",
+          "description": "Mr. Johnson's Antiques has a limited directory listing for Seattle, WA. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -1455,7 +1255,7 @@
       "slug": "st-louis",
       "url": "https://antique-appraiser-directory.appraisily.com/location/st-louis/",
       "name": "Antique & Art Appraisers in St. Louis, Missouri",
-      "description": "Compare antique and art appraisers in St. Louis, Missouri and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in St. Louis, Missouri and request an online appraisal from Appraisily.",
       "city": "St. Louis",
       "region": "MO",
       "country": "US",
@@ -1485,7 +1285,7 @@
       "slug": "sudbury",
       "url": "https://antique-appraiser-directory.appraisily.com/location/sudbury/",
       "name": "Antique & Art Appraisers in Sudbury, Ontario",
-      "description": "Compare antique and art appraisers in Sudbury, Ontario and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Sudbury, Ontario and request an online appraisal from Appraisily.",
       "city": "Sudbury",
       "region": "ON",
       "country": "CA",
@@ -1530,7 +1330,7 @@
       "slug": "toledo",
       "url": "https://antique-appraiser-directory.appraisily.com/location/toledo/",
       "name": "Antique & Art Appraisers in Toledo, Ohio",
-      "description": "Compare antique and art appraisers in Toledo, Ohio and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Toledo, Ohio and request an online appraisal from Appraisily.",
       "city": "Toledo",
       "region": "OH",
       "country": "US",
@@ -1560,7 +1360,7 @@
       "slug": "tucson",
       "url": "https://antique-appraiser-directory.appraisily.com/location/tucson/",
       "name": "Antique & Art Appraisers in Tucson, Arizona",
-      "description": "Compare antique and art appraisers in Tucson, Arizona and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Tucson, Arizona and request an online appraisal from Appraisily.",
       "city": "Tucson",
       "region": "AZ",
       "country": "US",
@@ -1590,7 +1390,7 @@
       "slug": "vancouver",
       "url": "https://antique-appraiser-directory.appraisily.com/location/vancouver/",
       "name": "Antique & Art Appraisers in Vancouver, British Columbia",
-      "description": "Compare antique and art appraisers in Vancouver, British Columbia and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Vancouver, British Columbia and request an online appraisal from Appraisily.",
       "city": "Vancouver",
       "region": "BC",
       "country": "CA",
@@ -1620,7 +1420,7 @@
       "slug": "virginia-beach",
       "url": "https://antique-appraiser-directory.appraisily.com/location/virginia-beach/",
       "name": "Antique & Art Appraisers in Virginia Beach, Virginia",
-      "description": "Compare antique and art appraisers in Virginia Beach, Virginia and request a fast online appraisal from Appraisily.",
+      "description": "Compare antique and art appraisers in Virginia Beach, Virginia and request an online appraisal from Appraisily.",
       "city": "Virginia Beach",
       "region": "VA",
       "country": "US",
@@ -1631,7 +1431,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/barrett-street-auction-center-antique-mall/",
           "slug": "barrett-street-auction-center-antique-mall",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_virginia_beach-barrett-street-auction-center-antique-mall_1742203480967_ikfZtPSqw.jpg",
-          "description": "*Barrett Street Auction Center & Antique Mall offers antique appraisal support in Virginia Beach, Virginia. Specialties: Antique Furniture, Vintage Collectibles. Services: All of Virginia remotely.",
+          "description": "Barrett Street Auction Center & Antique Mall has a limited directory listing for Virginia Beach, VA. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -1655,7 +1455,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/washingtonian-appraisals/",
           "slug": "washingtonian-appraisals",
           "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/washingtonian-appraisals.svg",
-          "description": "Washingtonian Appraisals offers antique appraisal support in Washington, District of Columbia. Specialties: Fine Art, Antiques, Furniture, Porcelain and Silver. Services: Insurance/Replacement Appraisals, Fair Market Va…",
+          "description": "Washingtonian Appraisals has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],
@@ -1694,7 +1494,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/art-of-estates/",
           "slug": "art-of-estates",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_wichita-art-of-estates_1742201713740_uumpg9oGB.jpg",
-          "description": "Art of Estates offers antique appraisal support in Wichita, Kansas. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+          "description": "Art of Estates has a limited directory listing for Wichita, KS. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],

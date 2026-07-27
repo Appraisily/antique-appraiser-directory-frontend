@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-07-26",
+  "reason": "canonical_provider_home_selected_on_art_directory",
+  "sourceDecisionManifest": "/srv/repos/frontends/art-appraiser-directory-frontend/data/canonical-home-decisions.json",
+  "slugs": [
+    "sarah-ann-wilson-art-services"
+  ]
+}

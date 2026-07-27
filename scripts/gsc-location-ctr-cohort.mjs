@@ -134,14 +134,14 @@ function slugFromPage(page) {
   return match ? match[1] : '';
 }
 
-function runSearchAnalytics({ options, start, end }) {
+function runSearchAnalytics({ options, start, end, dimensions = 'page,device' }) {
   const rows = [];
 
   for (const slug of options.slugs) {
     const cmd = [
       SEARCH_ANALYTICS_SCRIPT,
       '--property', options.property,
-      '--dimensions', 'page,device',
+      '--dimensions', dimensions,
       '--start', start,
       '--end', end,
       '--row-limit', String(options.rowLimit),
@@ -163,6 +163,44 @@ function runSearchAnalytics({ options, start, end }) {
   }
 
   return { rows };
+}
+
+function aggregateQueryRows(rows, slugs) {
+  const buckets = new Map();
+  for (const row of rows || []) {
+    const slug = slugFromPage(row.page);
+    if (!slug || !slugs.includes(slug)) continue;
+    const query = String(row.query || '').trim();
+    const device = String(row.device || 'UNKNOWN').toUpperCase();
+    const key = `${slug}\u0000${query}\u0000${device}`;
+    if (!buckets.has(key)) buckets.set(key, { slug, page: pageForSlug(slug), query, device, metric: emptyMetric() });
+    addMetric(buckets.get(key).metric, row);
+  }
+  return [...buckets.values()].map(row => ({ ...row, ...finalizeMetric(row.metric), metric: undefined }));
+}
+
+function compareQueryRows({ baselineRows, currentRows, slugs }) {
+  const baseline = aggregateQueryRows(baselineRows, slugs);
+  const current = aggregateQueryRows(currentRows, slugs);
+  const key = row => `${row.slug}\u0000${row.query}\u0000${row.device}`;
+  const before = new Map(baseline.map(row => [key(row), row]));
+  const after = new Map(current.map(row => [key(row), row]));
+  const empty = { clicks: 0, impressions: 0, ctr: 0, position: 0 };
+  return [...new Set([...before.keys(), ...after.keys()])].map(id => {
+    const baselineRow = before.get(id) || { ...after.get(id), ...empty };
+    const currentRow = after.get(id) || { ...before.get(id), ...empty };
+    const delta = compareMetric(currentRow, baselineRow);
+    if (!baselineRow.impressions || !currentRow.impressions) delta.position_delta = null;
+    return {
+      slug: currentRow.slug,
+      page: currentRow.page,
+      query: currentRow.query,
+      device: currentRow.device,
+      baseline: { clicks: baselineRow.clicks, impressions: baselineRow.impressions, ctr: baselineRow.ctr, position: baselineRow.position },
+      current: { clicks: currentRow.clicks, impressions: currentRow.impressions, ctr: currentRow.ctr, position: currentRow.position },
+      delta,
+    };
+  }).sort((a, b) => b.current.impressions - a.current.impressions || b.baseline.impressions - a.baseline.impressions || a.slug.localeCompare(b.slug) || a.query.localeCompare(b.query));
 }
 
 function emptyMetric() {
@@ -237,7 +275,7 @@ function compareMetric(current, baseline) {
   };
 }
 
-function buildComparison({ options, baselinePayload, currentPayload }) {
+function buildComparison({ options, baselinePayload, currentPayload, baselineQueryPayload = { rows: [] }, currentQueryPayload = { rows: [] } }) {
   const baseline = aggregateRows(baselinePayload.rows || [], options.slugs);
   const current = aggregateRows(currentPayload.rows || [], options.slugs);
   const baselineBySlug = new Map(baseline.map((row) => [row.slug, row]));
@@ -283,16 +321,17 @@ function buildComparison({ options, baselinePayload, currentPayload }) {
       baseline: {
         start: options.baselineStart,
         end: options.baselineEnd,
-        rows: baselinePayload.total || 0,
+        rows: (baselinePayload.rows || []).length,
       },
       current: {
         start: options.currentStart,
         end: options.currentEnd,
-        rows: currentPayload.total || 0,
+        rows: (currentPayload.rows || []).length,
       },
     },
     totals,
     rows,
+    queryRows: compareQueryRows({ baselineRows: baselineQueryPayload.rows || [], currentRows: currentQueryPayload.rows || [], slugs: options.slugs }),
   };
 }
 
@@ -306,6 +345,7 @@ function pp(value) {
 }
 
 function num(value, digits = 1) {
+  if (value === null || value === undefined) return '—';
   const parsed = Number(value || 0);
   return Number.isFinite(parsed) ? parsed.toFixed(digits) : '0.0';
 }
@@ -341,11 +381,35 @@ function renderMarkdown(report) {
     lines.push(`| ${row.slug} | ${pct(row.baseline.desktop.ctr)} | ${pct(row.current.desktop.ctr)} | ${pp(row.desktop_delta.ctr_delta_pp)} | ${num(row.desktop_delta.position_delta)} | ${row.desktop_delta.impressions_delta} | ${pct(row.current.total.ctr)} |`);
   }
   lines.push('');
+  lines.push('## Query / Page / Device Evidence');
+  lines.push('');
+  lines.push(`Showing the top ${Math.min(100, (report.queryRows || []).length)} of ${(report.queryRows || []).length} rows by current then baseline impressions. The CSV contains the complete union.`);
+  lines.push('');
+  lines.push('| Page | Query | Device | Baseline clicks/impr/CTR/pos | Current clicks/impr/CTR/pos | CTR delta | Pos delta |');
+  lines.push('| --- | --- | --- | ---: | ---: | ---: | ---: |');
+  for (const row of (report.queryRows || []).slice(0, 100)) {
+    lines.push(`| ${row.slug} | ${row.query.replaceAll('|', '\\|')} | ${row.device} | ${row.baseline.clicks}/${row.baseline.impressions}/${pct(row.baseline.ctr)}/${num(row.baseline.position)} | ${row.current.clicks}/${row.current.impressions}/${pct(row.current.ctr)}/${num(row.current.position)} | ${pp(row.delta.ctr_delta_pp)} | ${num(row.delta.position_delta)} |`);
+  }
+  lines.push('');
   lines.push('## Closeout Rule');
   lines.push('');
   lines.push('- Rank 5 passes only if desktop CTR improves by 0.5-1.0 percentage points on the rewritten cohort without material rank loss.');
   lines.push('- Use a 7-day read for early signal and a 28-day read for closeout.');
   lines.push('- Pair this GSC readout with downstream `/screener` or `/start` reach from first-party analytics before expanding more local rewrites.');
+  return `${lines.join('\n')}\n`;
+}
+
+function renderQueryCsv(report) {
+  const header = ['slug', 'page', 'query', 'device', 'baseline_clicks', 'baseline_impressions', 'baseline_ctr', 'baseline_position', 'current_clicks', 'current_impressions', 'current_ctr', 'current_position', 'clicks_delta', 'impressions_delta', 'ctr_delta_pp', 'position_delta'];
+  const lines = [header.join(',')];
+  for (const row of report.queryRows || []) {
+    lines.push([
+      row.slug, row.page, row.query, row.device,
+      row.baseline.clicks, row.baseline.impressions, row.baseline.ctr, row.baseline.position,
+      row.current.clicks, row.current.impressions, row.current.ctr, row.current.position,
+      row.delta.clicks_delta, row.delta.impressions_delta, row.delta.ctr_delta_pp, row.delta.position_delta ?? '',
+    ].map(csvEscape).join(','));
+  }
   return `${lines.join('\n')}\n`;
 }
 
@@ -442,7 +506,19 @@ function runSelfTest() {
     ],
   };
 
-  const report = buildComparison({ options, baselinePayload, currentPayload });
+  const baselineQueryPayload = {
+    rows: [
+      { page: pageForSlug('boston'), query: 'antique appraiser boston', device: 'DESKTOP', clicks: 1, impressions: 10, position: 4 },
+    ],
+  };
+  const currentQueryPayload = {
+    rows: [
+      { page: pageForSlug('boston'), query: 'antique appraiser boston', device: 'DESKTOP', clicks: 2, impressions: 10, position: 3 },
+      { page: pageForSlug('denver'), query: 'appraiser denver', device: 'MOBILE', clicks: 1, impressions: 5, position: 8 },
+    ],
+  };
+
+  const report = buildComparison({ options, baselinePayload, currentPayload, baselineQueryPayload, currentQueryPayload });
   const boston = report.rows.find((row) => row.slug === 'boston');
   const denver = report.rows.find((row) => row.slug === 'denver');
   const tests = [
@@ -475,6 +551,17 @@ function runSelfTest() {
       expect(csv.includes('boston,https://antique-appraiser-directory.appraisily.com/location/boston/'), 'boston csv row missing');
       expect(csv.includes('denver,https://antique-appraiser-directory.appraisily.com/location/denver/'), 'denver csv row missing');
     }),
+    expectPass('query-page-device-rows-preserve-equal-window-deltas', () => {
+      expect(report.queryRows.length === 2, 'query row count should include baseline/current union');
+      const bostonQuery = report.queryRows.find((row) => row.slug === 'boston');
+      expectApprox(bostonQuery.delta.ctr_delta_pp, 10, 'boston query CTR delta');
+      expect(renderQueryCsv(report).includes('antique appraiser boston'), 'query CSV row missing');
+      expect(renderMarkdown(report).includes('Query / Page / Device Evidence'), 'query Markdown section missing');
+    }),
+    expectPass('source-row-counts-use-aggregated-payload-rows', () => {
+      expect(report.source.baseline.rows === baselinePayload.rows.length, 'baseline source row count should match payload rows');
+      expect(report.source.current.rows === currentPayload.rows.length, 'current source row count should match payload rows');
+    }),
   ];
   return {
     status: 'pass',
@@ -500,19 +587,33 @@ async function main() {
     start: options.currentStart,
     end: options.currentEnd,
   });
-  const report = buildComparison({ options, baselinePayload, currentPayload });
+  const baselineQueryPayload = runSearchAnalytics({
+    options,
+    start: options.baselineStart,
+    end: options.baselineEnd,
+    dimensions: 'query,page,device',
+  });
+  const currentQueryPayload = runSearchAnalytics({
+    options,
+    start: options.currentStart,
+    end: options.currentEnd,
+    dimensions: 'query,page,device',
+  });
+  const report = buildComparison({ options, baselinePayload, currentPayload, baselineQueryPayload, currentQueryPayload });
 
   const jsonPath = path.join(options.outputDir, 'location-ctr-cohort.json');
   const mdPath = path.join(options.outputDir, 'location-ctr-cohort.md');
   const csvPath = path.join(options.outputDir, 'location-ctr-cohort.csv');
+  const queryCsvPath = path.join(options.outputDir, 'location-ctr-query-page-device.csv');
   await fs.writeFile(jsonPath, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
   await fs.writeFile(mdPath, renderMarkdown(report), 'utf8');
   await fs.writeFile(csvPath, renderCsv(report), 'utf8');
+  await fs.writeFile(queryCsvPath, renderQueryCsv(report), 'utf8');
 
   console.log(JSON.stringify({
     status: 'ok',
     outputDir: options.outputDir,
-    files: { jsonPath, mdPath, csvPath },
+    files: { jsonPath, mdPath, csvPath, queryCsvPath },
     slugs: options.slugs,
     desktopCtrDeltaPp: report.totals.desktop_delta.ctr_delta_pp,
     desktopPositionDelta: report.totals.desktop_delta.position_delta,

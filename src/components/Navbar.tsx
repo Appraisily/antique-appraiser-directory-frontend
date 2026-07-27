@@ -8,7 +8,7 @@ import {
 } from "./ui/navigation-menu"
 import { cn } from '../lib/utils';
 import { cities } from '../data/cities.json';
-import { PARENT_SITE_URL, SITE_NAME, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
+import { SITE_NAME, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
 import { BRAND_LOGO_URL } from '../config/assets';
 import { trackEvent } from '../utils/analytics';
 
@@ -50,10 +50,8 @@ export default function Navbar() {
   }, [citiesDropdownOpen]);
 
   const navItems = [
-    { name: 'About', href: `${PARENT_SITE_URL}/about` },
-    { name: 'Services', href: `${PARENT_SITE_URL}/services` },
-    { name: 'Expertise', href: `${PARENT_SITE_URL}/expertise` },
-    { name: 'Team', href: `${PARENT_SITE_URL}/team` }
+    { name: 'Methodology', href: buildSiteUrl('/methodology/') },
+    { name: 'Get Listed', href: buildSiteUrl('/get-listed/') }
   ];
 
   const handleCtaClick = (placement: 'desktop' | 'mobile') => {
@@ -74,23 +72,13 @@ export default function Navbar() {
   const isCurrentLocation = (city: NavCity) =>
     normalizePath(location.pathname) === normalizePath(`/location/${city.slug}`);
 
-  const handleNavLocationClick = (
-    event: React.MouseEvent<HTMLAnchorElement>,
-    city: NavCity,
-    placement: 'desktop' | 'mobile'
-  ) => {
+  const handleNavLocationClick = (city: NavCity, placement: 'desktop' | 'mobile') => {
     trackEvent('nav_location_click', {
       placement: `nav_${placement}`,
       city_slug: city.slug,
       city_name: city.name,
       state: city.state
     });
-
-    if (isCurrentLocation(city)) {
-      event.preventDefault();
-      setCitiesDropdownOpen(false);
-      setIsOpen(false);
-    }
   };
 
   return (
@@ -110,9 +98,8 @@ export default function Navbar() {
                 loading="eager"
               />
               <div className="flex flex-col leading-tight min-w-0">
-                <span className="text-lg font-semibold text-gray-900 sm:hidden">Antique Directory</span>
-                <span className="hidden text-xl font-semibold text-gray-900 sm:inline">{SITE_NAME}</span>
-                <span className="hidden text-xs text-gray-600 -mt-1 sm:block">Antique Appraiser Directory</span>
+                <span className="font-serif text-lg font-semibold text-gray-900 sm:hidden">Antique Directory</span>
+                <span className="hidden font-serif text-xl font-semibold text-gray-900 sm:inline">{SITE_NAME}</span>
               </div>
             </Link>
           </div>
@@ -132,21 +119,37 @@ export default function Navbar() {
                   {citiesDropdownOpen && (
                     <div className="absolute top-full left-0 mt-2 bg-white border border-gray-200 rounded-md shadow-lg p-4 z-50 w-64 max-h-96 overflow-y-auto">
                       <div className="grid grid-cols-2 gap-2">
-                        {cities.map((city) => (
-                          <a
-                            key={city.slug}
-                            href={buildSiteUrl(`/location/${city.slug}`)}
-                            className="text-sm text-gray-700 hover:text-blue-600 py-1"
-                            data-gtm-event="nav_location_click"
-                            data-gtm-city={city.slug}
-                            data-gtm-state={city.state}
-                            data-gtm-placement="nav_desktop"
-                            aria-current={isCurrentLocation(city) ? 'page' : undefined}
-                            onClick={(event) => handleNavLocationClick(event, city, 'desktop')}
-                          >
-                            {city.name}
-                          </a>
-                        ))}
+                        {cities.map((city) => {
+                          if (isCurrentLocation(city)) {
+                            return (
+                              <span
+                                key={city.slug}
+                                className="flex items-center justify-between gap-2 py-1 text-sm font-medium text-gray-900"
+                                aria-current="page"
+                              >
+                                <span>{city.name}</span>
+                                <span className="text-[10px] font-semibold uppercase tracking-wide text-gray-500">
+                                  Current
+                                </span>
+                              </span>
+                            );
+                          }
+
+                          return (
+                            <a
+                              key={city.slug}
+                              href={buildSiteUrl(`/location/${city.slug}`)}
+                              className="text-sm text-gray-700 hover:text-blue-600 py-1"
+                              data-gtm-event="nav_location_click"
+                              data-gtm-city={city.slug}
+                              data-gtm-state={city.state}
+                              data-gtm-placement="nav_desktop"
+                              onClick={() => handleNavLocationClick(city, 'desktop')}
+                            >
+                              {city.name}
+                            </a>
+                          );
+                        })}
                       </div>
                     </div>
                   )}
@@ -215,21 +218,37 @@ export default function Navbar() {
             </div>
             
             <div className="grid grid-cols-2 gap-2 px-3 pb-3 border-b border-gray-200 mb-2">
-              {cities.map((city) => (
-                <a
-                  key={city.slug}
-                  href={buildSiteUrl(`/location/${city.slug}`)}
-                  className="text-sm text-gray-700 hover:text-blue-600 min-h-[44px] flex items-center px-2 py-2 rounded-md hover:bg-gray-50"
-                  data-gtm-event="nav_location_click"
-                  data-gtm-city={city.slug}
-                  data-gtm-state={city.state}
-                  data-gtm-placement="nav_mobile"
-                  aria-current={isCurrentLocation(city) ? 'page' : undefined}
-                  onClick={(event) => handleNavLocationClick(event, city, 'mobile')}
-                >
-                  {city.name}
-                </a>
-              ))}
+              {cities.map((city) => {
+                if (isCurrentLocation(city)) {
+                  return (
+                    <span
+                      key={city.slug}
+                      className="flex min-h-[44px] items-center justify-between gap-2 rounded-md bg-gray-100 px-2 py-2 text-sm font-medium text-gray-900"
+                      aria-current="page"
+                    >
+                      <span>{city.name}</span>
+                      <span className="text-[10px] font-semibold uppercase tracking-wide text-gray-500">
+                        Current
+                      </span>
+                    </span>
+                  );
+                }
+
+                return (
+                  <a
+                    key={city.slug}
+                    href={buildSiteUrl(`/location/${city.slug}`)}
+                    className="text-sm text-gray-700 hover:text-blue-600 min-h-[44px] flex items-center px-2 py-2 rounded-md hover:bg-gray-50"
+                    data-gtm-event="nav_location_click"
+                    data-gtm-city={city.slug}
+                    data-gtm-state={city.state}
+                    data-gtm-placement="nav_mobile"
+                    onClick={() => handleNavLocationClick(city, 'mobile')}
+                  >
+                    {city.name}
+                  </a>
+                );
+              })}
             </div>
             
             {navItems.map((item) => (

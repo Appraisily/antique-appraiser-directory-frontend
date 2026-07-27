@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Jacksonville, Florida",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-11T15:47:35.626Z",
+  "generatedAt": "2026-07-26T18:52:18.543Z",
   "location": {
     "slug": "jacksonville",
     "url": "https://antique-appraiser-directory.appraisily.com/location/jacksonville/",
@@ -11,22 +11,14 @@
     "city": "Jacksonville",
     "region": "FL",
     "country": "US",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
       {
         "name": "Mussallem Galleries",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mussallem-antiques/",
         "slug": "mussallem-antiques",
         "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mussallem-antiques.svg",
-        "description": "Mussallem Galleries offers free verbal appraisals and inquiries to sell antiques, Oriental rugs, silver, paintings, estate items, fine art, and antique furniture in Jacksonville, Florida.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Prestige Estate Services",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-        "slug": "prestige-estate-services",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jacksonville-prestige-estate-services_1742202665333_nLtgnF3Gn.jpg",
-        "description": "Prestige Estate Services offers antique appraisal support in Jacksonville, Florida. Services: Antique Appraisals, Estate Valuations, Insurance Appraisals.",
+        "description": "Mussallem Galleries has a limited directory listing for Jacksonville, FL. Confirm current details directly with the business.",
         "publicRouteAvailable": true
       }
     ],

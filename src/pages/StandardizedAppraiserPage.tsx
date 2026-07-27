@@ -12,7 +12,6 @@ import {
 } from '../utils/dataQuality';
 import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
 import { trackEvent } from '../utils/analytics';
-import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
 import { normalizeAssetUrl } from '../utils/assetUrls';
 
 const buildTelHref = (value?: string | null) => {
@@ -190,6 +189,9 @@ export function StandardizedAppraiserPage() {
   const phoneHref = appraiser ? buildTelHref(appraiser.contact.phone) : null;
   const emailHref = appraiser ? buildMailtoHref(appraiser.contact.email) : null;
   const hasContactEmail = Boolean(emailHref);
+  const hasDirectContact = Boolean(
+    phoneHref || emailHref || appraiser?.contact.website
+  );
   const hasBusinessHours = appraiser ? appraiser.business.hours.length > 0 : false;
   const hasCertifications = appraiser ? appraiser.expertise.certifications.length > 0 : false;
 
@@ -465,19 +467,25 @@ export function StandardizedAppraiserPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="md:col-span-1">
-          <div className="rounded-lg overflow-hidden shadow-md mb-6" data-appraiser-image-card>
-            <img 
-              src={normalizeAssetUrl(appraiser.imageUrl)} 
-              alt={`${appraiser.name} - Antique Appraiser in ${appraiser.address.city}`}
-              className="w-full h-auto"
-              onLoad={(e) => {
-                hideTinyPlaceholderImage(e.currentTarget);
-              }}
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.src = DEFAULT_PLACEHOLDER_IMAGE;
-              }}
-            />
+          <div className="rounded-lg overflow-hidden shadow-md mb-6 relative bg-primary/5" data-appraiser-image-card>
+            <div className="flex aspect-[4/3] items-center justify-center" aria-hidden="true">
+              <span className="font-serif text-7xl font-semibold text-primary/40 select-none">
+                {appraiser.name.charAt(0)}
+              </span>
+            </div>
+            {appraiser.imageUrl && !appraiser.imageUrl.includes('placeholder') && (
+              <img
+                src={normalizeAssetUrl(appraiser.imageUrl)}
+                alt={`${appraiser.name} - Antique Appraiser in ${appraiser.address.city}`}
+                className="absolute inset-0 h-full w-full object-cover"
+                onLoad={(e) => {
+                  hideTinyPlaceholderImage(e.currentTarget);
+                }}
+                onError={(e) => {
+                  (e.target as HTMLImageElement).style.display = 'none';
+                }}
+              />
+            )}
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-5 mb-6">
@@ -605,12 +613,16 @@ export function StandardizedAppraiserPage() {
                 data-gtm-event="directory_cta"
                 data-gtm-cta="request_appraisal"
                 data-gtm-surface="profile_sidebar_cta"
+                data-clarity-action="profile_online_appraisal"
                 data-gtm-appraiser-id={gtmAppraiserId}
                 data-gtm-appraiser-name={gtmAppraiserName}
                 onClick={() => handleCtaClick('profile_sidebar_cta')}
               >
-                Request an Appraisal
+                Get an online appraisal from Appraisily
               </a>
+              <p className="mt-2 text-center text-xs text-gray-500">
+                Opens Appraisily&rsquo;s secure online intake.
+              </p>
             </div>
           </div>
         </div>
@@ -712,7 +724,9 @@ export function StandardizedAppraiserPage() {
             <div className="mt-8 pt-6 border-t border-gray-100">
               <h3 className="font-medium text-gray-900 mb-3">Need Antique Appraisal Services?</h3>
               <p className="text-gray-600 mb-4">
-                Contact {appraiser.name} directly or use our platform to request an appraisal.
+                {hasDirectContact
+                  ? `Use the provider contact options below, or choose Appraisily for an online appraisal.`
+                  : `No direct contact details are currently available for ${appraiser.name}. You can return to the city directory or choose Appraisily for an online appraisal.`}
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 {phoneHref && (
@@ -751,12 +765,21 @@ export function StandardizedAppraiserPage() {
                   data-gtm-event="directory_cta"
                   data-gtm-cta="request_appraisal"
                   data-gtm-surface="profile_cta_section"
+                  data-clarity-action="profile_online_appraisal"
                   data-gtm-appraiser-id={gtmAppraiserId}
                   data-gtm-appraiser-name={gtmAppraiserName}
                   onClick={() => handleCtaClick('profile_cta_section')}
                 >
-                  Request Appraisal
+                  Get an online appraisal from Appraisily
                 </a>
+                {!hasDirectContact && (
+                  <a
+                    href={buildSiteUrl(`/location/${citySlug}`)}
+                    className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                  >
+                    Back to {appraiser.address.city} appraisers
+                  </a>
+                )}
               </div>
               {contactFeedback?.placement === 'profile_cta_section' && (
                 <div className="mt-3 rounded-lg bg-green-50 border border-green-200 px-3 py-2 text-sm text-green-800 font-medium animate-pulse" role="status" aria-live="polite">

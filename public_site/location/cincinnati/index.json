@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Cincinnati, Ohio",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-11T15:47:35.626Z",
+  "generatedAt": "2026-07-26T18:52:18.543Z",
   "location": {
     "slug": "cincinnati",
     "url": "https://antique-appraiser-directory.appraisily.com/location/cincinnati/",
@@ -11,22 +11,14 @@
     "city": "Cincinnati",
     "region": "OH",
     "country": "US",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
       {
         "name": "Caza Sikes",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/caza-sikes/",
         "slug": "caza-sikes",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_cincinnati-caza-sikes_1742201172594_Il_h4RArb.jpg",
-        "description": "Caza Sikes offers antique appraisal support in Cincinnati, Ohio. Specialties: Artwork, jewelry. Services: In-person, remote.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Prestige Estate Services",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-        "slug": "prestige-estate-services",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_cincinnati-prestige-estate-services_1742201166954_WASY1QCPL.jpg",
-        "description": "Prestige Estate Services offers antique appraisal support in Cincinnati, Ohio. Specialties: Antique furniture, fine art, Americana, decorative arts. Services: In-person, remote.",
+        "description": "Caza Sikes has a limited directory listing for Cincinnati, OH. Confirm current details directly with the business.",
         "publicRouteAvailable": true
       }
     ],

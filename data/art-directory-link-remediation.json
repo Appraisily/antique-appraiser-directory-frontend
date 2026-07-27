@@ -1,0 +1,1041 @@
+{
+  "version": 1,
+  "action": "written",
+  "registryPath": "/srv/repos/tools/directory-site-utils/references/art-route-registry.json",
+  "registrySha256": "b1c7ffba32f253de9cbf6d7aeb66ad881c4d287641c6fca1bc1bb14af44603a2",
+  "registryArtifactSha256": "8f2c574690256863bb89e34bc6c4cd8f427c7d7dcf56ac79ab2905f830a23205",
+  "filesChanged": 100,
+  "linksReplaced": 165,
+  "changes": [
+    {
+      "file": "location/albuquerque/index.html",
+      "beforeSha256": "25917d69b796109ba45cd86e89d1d50af4900c517e67aae15e08e2e2efd70cc4",
+      "afterSha256": "fc9b38cc8ea870f5ae7982fcddc92a5ba5e87e04b8778ae303c23a840cbdd188",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/albuquerque/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=albuquerque&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/albuquerque/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=albuquerque&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/anchorage/index.html",
+      "beforeSha256": "248295652e05432919e513a4c82c7d46b2eb50b3d06b2bb8c2eb048cff7c282d",
+      "afterSha256": "80a21cca6394cc2bc6249ab622c0adf494b59fe04a3d2da02f98a68c6e2524f5",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=anchorage&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/arlington/index.html",
+      "beforeSha256": "e725c67358701172a423085d4ed4042a6caddb35f07904f3b083c3932205161d",
+      "afterSha256": "230fd89340138262513e4fbd00baf2a52b3bfa88e33017f4ce81d9658545221c",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/arlington/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=arlington&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/arlington/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=arlington&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/aspen/index.html",
+      "beforeSha256": "f4c030c956133128ddc70ba2f441f82df16b7296b968a8cf78a93fb8acbccd7e",
+      "afterSha256": "bae8f76ce702ef651c64c03c7440083a5118b9916a2359c167688fe1b39a6ee1",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/aspen/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=aspen&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/aspen/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=aspen&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/atlanta/index.html",
+      "beforeSha256": "efcf9542596c88267e9ffb012425bc2fa4f96f89a284cb1f106d8eec60576958",
+      "afterSha256": "ff6f8efc62e184ebe4241d2d199046acb14428d3f04320e682a65f63485111b9",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/atlanta/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=atlanta&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/atlanta/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=atlanta&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/austin/index.html",
+      "beforeSha256": "c137b46ec95d7d65ffd72a8bff251f75f0add9f87fb3755785443f7aaa849391",
+      "afterSha256": "75bdccb9c824a2096f902d716ac45635bed66c5b0fc4a36adeeb868522afb981",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/austin/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=austin&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/austin/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=austin&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/baltimore/index.html",
+      "beforeSha256": "61eeb2577710bf1a7bf20ac7b3b1ce7ddf13461861100bfa08db9cc1011baaca",
+      "afterSha256": "d106916b3070d31185be64d07c25a37dede25038dec47e0591db8a1c771b91a0",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/baltimore/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=baltimore&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/baltimore/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=baltimore&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/baton-rouge/index.html",
+      "beforeSha256": "3c4cecf0e302115ad6ee4b9e42a3ccd3ac900ac76b78ff3a982f7ab8b65f3e20",
+      "afterSha256": "a550f7524f779a0545bd86d4fb008d2cc620ca339264a038281c0ef7973313b8",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=baton-rouge&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/birmingham/index.html",
+      "beforeSha256": "5a984cd67b858cd336f18ad2dcdc6061d24068101495f42c2214c67933bcf2d3",
+      "afterSha256": "ee3b3e577b87181b99104bf28465550674fbf975dba15b0237b88637f47e2e4c",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=birmingham&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/boise/index.html",
+      "beforeSha256": "a1258b986b47c3f7868cdffa691adffdbfa88976123d97d66c4c90ff3cbea3df",
+      "afterSha256": "5d8b7efa16d35997d42c652e724b91c222f8783b83a680e0a248bb3389a5ae76",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=boise&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/boston/index.html",
+      "beforeSha256": "32ebf916181b104baee62590fbc6d844c8fc98854fa46a0e222f4b46bc57e33f",
+      "afterSha256": "5eadd23dbcedea4744fb890d578c98fe1389b56b3ff88b6c84cd48975a825df8",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/boston/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=boston&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/boston/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=boston&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/buffalo/index.html",
+      "beforeSha256": "031840deeebcb1758ac27b30cf1dbb3d76e1f2b36206db1c786aa2ec9c8d6b65",
+      "afterSha256": "5817f9c4af23ab1a5a9348eef75e8929a93b9404a5d37c0edd998f1a58e66381",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/buffalo/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=buffalo&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/buffalo/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=buffalo&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/calgary/index.html",
+      "beforeSha256": "6e2ef818eeeab6fdec666e5c179a2acb4c08fcc2ef4b432cb57ccb4377514b40",
+      "afterSha256": "cd73beaf1ab91b2163b5cc1296a5ba0caf7927a61eed5edb7ddfed371505ff66",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=calgary&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/charleston/index.html",
+      "beforeSha256": "ba98d63e2bb37135ea897a83c77d6d9f776616d0ea76dbd18fd2401b9b32dd86",
+      "afterSha256": "c901f4b896f9f3f043e6d55e10e548705cbd3898cd043a6380dd9eea70388a6e",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/charleston/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=charleston&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/charleston/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=charleston&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/charlotte/index.html",
+      "beforeSha256": "fa4ce913ac37f962d6f713d20b1bef97b8b4f39aaa582d9d29e7ecaab74fcbf5",
+      "afterSha256": "f1bde4b7e96f3f37f0178c11c1a7db18ea9d903d47a5d972b9ed9c6baf242b94",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/charlotte/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=charlotte&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/charlotte/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=charlotte&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/charlottetown/index.html",
+      "beforeSha256": "d65bdc8d2ec149ef56daecf65f3cda450769348dd862e4b2274dae61eb4cfcae",
+      "afterSha256": "2fa36f3247f974724481dc18f8a74be0055edeba671439a59b75e2b97cba205a",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=charlottetown&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/chicago/index.html",
+      "beforeSha256": "0d64819ccbe165ece09f3c7d5a2bbcaf7833f16a9cdf7106be03041fd99176c5",
+      "afterSha256": "da059553f0b57274d41bcce197e396ed4575bfd567d9807b082147371ba9ae61",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/chicago/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=chicago&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/chicago/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=chicago&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/cincinnati/index.html",
+      "beforeSha256": "049fa64de32c218b27c7c5d5036041e4c3776ac97dada9e2e31598405fe0c944",
+      "afterSha256": "b6be3ac14ee30a1c9da84d99a3876c5fe73ce441b19e9571debf02d433fa1e5b",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/cincinnati/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=cincinnati&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/cincinnati/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=cincinnati&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/cleveland/index.html",
+      "beforeSha256": "e2a33e7eb33dd95675f93f6ff1022b7e8ea4e4dc726c19d7a83f3d297940f953",
+      "afterSha256": "ea337dcdaa0f22e8f62a95a556e0875c9af463f2d62472b6748e8bc521918042",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/cleveland/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=cleveland&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/cleveland/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=cleveland&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/colorado-springs/index.html",
+      "beforeSha256": "fea87b309b09de37b403c73ea58d0850308f35a96cccad027259463d5567b4ad",
+      "afterSha256": "8420804cf6a2a578a601a6fa50ebf22f25dac0d40abb5768f485b2c7e4c0747f",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/colorado-springs/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=colorado-springs&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/colorado-springs/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=colorado-springs&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/columbus/index.html",
+      "beforeSha256": "7ca56aa3a4dbf6556fcd71adbb950bc36a423a0491cb9ca983d955f03927fa1b",
+      "afterSha256": "684de8ac531c60b98a49ab90e8419da91883ce5ede180230e02c30033222caf8",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/columbus/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=columbus&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/columbus/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=columbus&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/dallas/index.html",
+      "beforeSha256": "ea4c0ee885cdd44d29179b70f43e05525fbaac94266eb3108b994aca80e8e4fb",
+      "afterSha256": "37263e210ed1933c172026769128eb0251c2e861615c2e55c23317a1000674d5",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/dallas/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=dallas&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/dallas/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=dallas&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/denver/index.html",
+      "beforeSha256": "b4e09317d8bf490dbd8efab32857a2dbb0a5765831bea39c62d5432a12e36765",
+      "afterSha256": "534d50c24394ae2c55f76af0918843cfbfc37c2756729ac6f9fd3a4cab1bbf2d",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/denver/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=denver&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/denver/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=denver&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/des-moines/index.html",
+      "beforeSha256": "b8b5b5d3fcd8c57d239f47fb48d36a1e5280f47df110ebab1f0c40a8297224b3",
+      "afterSha256": "9d236e742352c3d9b1d3bd1984efaa888257e52faebc225624d0fe223802ac79",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=des-moines&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/detroit/index.html",
+      "beforeSha256": "8be9a1f88328004890e467a072fb8ca96c857cfc54dad9ebd4b239e008c395d1",
+      "afterSha256": "eb193f6d768f41f791148abd8dccfba6370d3da77ad622456d55d0dfbdfb31b5",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/detroit/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=detroit&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/detroit/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=detroit&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/edmonton/index.html",
+      "beforeSha256": "b918b1aed0b50793fad29d237a041dff2719b0632d0343dd0fa192589977ad22",
+      "afterSha256": "bd8f21bd3c74bb185eef1aed747af6f1fee525e9bbd34ca93bae7549db5b2b73",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=edmonton&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/el-paso/index.html",
+      "beforeSha256": "d579c6d6fc27ff9347acdc091cac3b658c90ff3c034c223987995ac21dd0a854",
+      "afterSha256": "d1d329f3393704963f86f2397e566dcd999ede68bc457c9af8be44165713ce51",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/el-paso/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=el-paso&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/el-paso/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=el-paso&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/fort-lauderdale/index.html",
+      "beforeSha256": "7dc35f080e709d77dc0e76583c6a77ce53c0fb6dda3cc1aa550611059b81366d",
+      "afterSha256": "4dbb5dc4cb95961b0a6c7cd2fd96bbc78854a55fb05120a922b552a6b33e7bf3",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=fort-lauderdale&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/fort-worth/index.html",
+      "beforeSha256": "82b5aadbb6b7b65cb243c7f59348c3392d1c167eddedd11f1950e4723df476b9",
+      "afterSha256": "b6db770f6da7c4a6decc63e70137b9a0bbf25ae3012149268844f888c1c51821",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/fort-worth/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=fort-worth&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/fort-worth/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=fort-worth&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/fredericton/index.html",
+      "beforeSha256": "0bc798070c63acee5cb50d1ca516d7ca7984399fbb262b5062d1be8fa7d9dffa",
+      "afterSha256": "2aa50a185f7c63bffe6ebf8270a76e96fe7f6f4d539ef50ec9ec0f319b3c25e1",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=fredericton&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/fresno/index.html",
+      "beforeSha256": "9850861414819500aa6f1c439dbe3c409b3160ad716cdaba3052e3e3502c3ec8",
+      "afterSha256": "4ae26e9fd5af2377b7ade7bf341407784f1978f43ebfdf86c63e9c502f77a142",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/fresno/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=fresno&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/fresno/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=fresno&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/halifax/index.html",
+      "beforeSha256": "add1ae568da77a493095e0616bdce5cb10e2ddfde260592eb3b1b1b64da4646a",
+      "afterSha256": "3c8e292e5bdd8a126934ee4875600c14425fcfe13caa22a817bf96bda39fe356",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=halifax&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/hamilton/index.html",
+      "beforeSha256": "c55806258e4441181319d532c24a485b78fc74221609c89fe9dbc61d4dc6f3ae",
+      "afterSha256": "b1dce7e31485bbbd4e978f15bb7c8eb39ae681039041afce142a566229219042",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=hamilton&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/hartford/index.html",
+      "beforeSha256": "86c958d92aab77d17c3931badce594225dbad081f9b1679b8655799ffa101e2a",
+      "afterSha256": "4e941e6f48a5b32f4b64ce5479b4809a04c104ad335aa358a2d3ca9770caac73",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/hartford/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=hartford&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/hartford/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=hartford&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/houston/index.html",
+      "beforeSha256": "690535c6b31c0cf09aa2121c4bf779e1367ef49812cb5a458fa57ca7187c7ded",
+      "afterSha256": "6cde0e132adcab0437a1bf251063d52186e3806f6d4b8058cfb68b72cf2cf16d",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/houston/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=houston&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/houston/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=houston&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/indianapolis/index.html",
+      "beforeSha256": "d1561f561ea14abd997d8b5ab3111905e74e70b0c7db315cf03b1af910426c9b",
+      "afterSha256": "d307336da074fcaec8ee02331f83207b859c1bb181197f0cf71bf364d43922f4",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/indianapolis/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=indianapolis&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/indianapolis/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=indianapolis&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/jacksonville/index.html",
+      "beforeSha256": "0996157cc6e25cacdb5a2d56272610e2ff0347ff3e241bc35ff1b95575e19e7f",
+      "afterSha256": "3139f30933f4ef427e37b8b7e940f779697ea40bda44b0bffc8e5a64fd4e6369",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/jacksonville/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=jacksonville&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/jacksonville/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=jacksonville&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/kansas-city/index.html",
+      "beforeSha256": "5b08670adc5cd269b63890fd5daa1b3da225e2979b4b835c6d050d9aa4f5cada",
+      "afterSha256": "d79b5f3dbcdf2b79d7d100bab1b96f372f6c8e0b49387d6b804bbd484dee1fd0",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/kansas-city/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=kansas-city&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/kansas-city/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=kansas-city&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/kelowna/index.html",
+      "beforeSha256": "ed04d7b6b9e05dd102c5194774e28092d7b81c00c3974700d9b030504a59cf5c",
+      "afterSha256": "f3061853a60c76082b347e49e69555818823c5a3618a65337cde8a63cafde003",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=kelowna&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/kingston/index.html",
+      "beforeSha256": "2369d8eda66543d7f32abe1857059469ec71fee6c26e96d88a513ed951e1495c",
+      "afterSha256": "5513e98b62ba87492ef48caaaf07962bc7b9510b7d8fdffcd3ff2b8c5a65b1fb",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=kingston&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/kitchener/index.html",
+      "beforeSha256": "5867014ea7c0aec18bc41c3fea4b7e7685e094e8431775a9fcf1192d4bf13f92",
+      "afterSha256": "3a8aab830684539d6db51db5d6f817ed8dacedd144ff6afa210a5f459c6499cd",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=kitchener&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/las-vegas/index.html",
+      "beforeSha256": "54f216f122cb4ad23317b192f559c976ade2929b93d4a9ff520f5c0d129421fe",
+      "afterSha256": "9b116ce3288475db1be93ce07d8be0605761e5c916dee4e3a94fe0a6b3449cdd",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/las-vegas/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=las-vegas&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/las-vegas/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=las-vegas&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/lexington/index.html",
+      "beforeSha256": "411b1a07ce34db1114de366dd4aa8b9589f1941919aa215d18770dec2a88e90b",
+      "afterSha256": "771904ba1a3654c99283b1902297fb5ab9559029fede153d80c338d913609df3",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=lexington&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/little-rock/index.html",
+      "beforeSha256": "11321f18d56103585193994e5a64fe64870934a2ca868b2e5f3ec2d6d2e288bd",
+      "afterSha256": "c1e65e130597c8ef7adda2a516f64a6bde71544f6c77d43d1c3fffdbd6a2902e",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=little-rock&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/london/index.html",
+      "beforeSha256": "fb4d963dd1b98cb72248d62d28b01ec18b2e4dd0ea9c009946a0baddf1a1fee3",
+      "afterSha256": "094ea7802d18a8c8af4d6b8629a058e30efce7da3842e8f4e8ca9c2563051936",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=london&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/long-beach/index.html",
+      "beforeSha256": "d40a2e1620dbf82db38c95700dde18b9c0cc408eddb94b2b1e9b9cce9bea5cf3",
+      "afterSha256": "4df00d6def2eba7d9fb403a5d58082ec3a3b394b40aee2b1cd1e69a20712ec7d",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/long-beach/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=long-beach&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/long-beach/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=long-beach&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/los-angeles/index.html",
+      "beforeSha256": "a1ff50359235426b942d5b23787e0bfef062f705ee836d4f0db6e67f8bdd6e86",
+      "afterSha256": "1e849c279ab3f563eb3a6321babc4edbef742b364ee9e074baabb1592315c7bb",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/los-angeles/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=los-angeles&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/los-angeles/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=los-angeles&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/louisville/index.html",
+      "beforeSha256": "86bf84bfe2ef3724e1e3d487d79ddf67e1c2666cf9fd7c0f8d0486dccffdec88",
+      "afterSha256": "c71cb598d274b226d4bec1f1410e6e85fb1482b2e59882fe69aaf91f13c02d83",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/louisville/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=louisville&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/louisville/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=louisville&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/memphis/index.html",
+      "beforeSha256": "037fdb1b91cd0e8492f81fe8b5aca7f65c369ba5029298e0ff7e8229df91f886",
+      "afterSha256": "e23a4dc15b70256c222de2647c7649694bc7b0f4e0e0c946d52c13bae1676001",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/memphis/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=memphis&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/memphis/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=memphis&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/miami/index.html",
+      "beforeSha256": "718d44f3875853dc9fdd909b83df18cbeed67654a591af8fc5e48f0157a8ec41",
+      "afterSha256": "25318dca49ed4dfe84563c2e9a6f2c70c72a2bfc3b497858fc96a30e3f333fdd",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/miami/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=miami&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/miami/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=miami&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/milwaukee/index.html",
+      "beforeSha256": "841fd991c0904fb6eb20255b52b259f5e0c8fd3d8b38a2553a0ba96aa0274ccd",
+      "afterSha256": "d0623eda3f72800011bc3f6e1f9f92a176e9cd9e9d63ebc14f4977acca0f9ce1",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/milwaukee/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=milwaukee&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/milwaukee/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=milwaukee&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/minneapolis/index.html",
+      "beforeSha256": "c1afd1b4bdf5eee1ae6f9b81421ed33d68f2082dc8b66c06b5d44b5e84cdbc2c",
+      "afterSha256": "10e1f84addc2c2a52f86b24b24605a3cdf39c5b3bf751c5dcee5ea13238092b1",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/minneapolis/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=minneapolis&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/minneapolis/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=minneapolis&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/moncton/index.html",
+      "beforeSha256": "f0f88633f1298a58b7be29c0ef14e23fbae02c41b52322784d6c12775ced7541",
+      "afterSha256": "5ee9b9a917b43fd0e82b4e0fe618e8d1d49366447c3d8815fdb058aaccd1963a",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=moncton&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/montreal/index.html",
+      "beforeSha256": "bd45cbb71d1f9950784b3966ecb66c7fe6b4f031dde597e2fcd546e93b4b29e1",
+      "afterSha256": "d04dc7cc0aa2dbee31b9f017b129ddf54a93df069cd6b0ec87bd9c534895ffce",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=montreal&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/nashville/index.html",
+      "beforeSha256": "f40bcb134039cc434a71549e32d25ab7c44213d6ca155a03f9dae4caa7675c2a",
+      "afterSha256": "62084b232f470a0fd7e6d7f5a677b73c5ceeac90e13ed7d45e10d26059c9ef1c",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/nashville/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=nashville&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/nashville/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=nashville&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/new-orleans/index.html",
+      "beforeSha256": "2ecaf7a530ada2fe8f2aec1cb631953b51a7e95d0fce82f502b7b47e72507ffb",
+      "afterSha256": "1af4b4a445a5ab3b52bc1e7a4f1d8766915aaa3aff0bd9d0355a9732dc7ceae0",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/new-orleans/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=new-orleans&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/new-orleans/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=new-orleans&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/new-york/index.html",
+      "beforeSha256": "eac57f39c04fd203655675afb662a8ff40c2fa57831b00ef881486d652470b5e",
+      "afterSha256": "7b6287b929b6b400161e38732d411c662277a13d70ebd526eab60cddbe0b3044",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/new-york/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=new-york&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/new-york/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=new-york&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/norfolk/index.html",
+      "beforeSha256": "247fb26914e958017eec6125654e1c9c8cbf86b91b37d069b7d37bff6b984b2b",
+      "afterSha256": "777dfb646887b9c76912b934edf7ce7c0b434740eb393f55ab7e03bb95b2b179",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=norfolk&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/oakland/index.html",
+      "beforeSha256": "189b59a61d63473810de9a45c49489077ec57137a13d727819adb75c49b2c472",
+      "afterSha256": "a548ed93237fde964161c49ccf0e87af609b56f2355de2e82266362524e84a4d",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/oakland/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=oakland&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/oakland/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=oakland&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/oklahoma-city/index.html",
+      "beforeSha256": "e99413c50bc9bd26502163f8074baa720a18dbf33a18505b8cefd494385300e8",
+      "afterSha256": "34900f9f2e7469c90c7113259ae3b340fd1a71ec78e0ca55f81fb78f63f7f023",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/oklahoma-city/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=oklahoma-city&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/oklahoma-city/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=oklahoma-city&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/omaha/index.html",
+      "beforeSha256": "f5726a3b3acdaf8a397d9785f3a2638b10b3b5974ecac5d2ff78b83030a20e94",
+      "afterSha256": "b2f36f0dae6c6581d0f2d02241d03050f7f8b65f0b37a85e60ed116cb89d8412",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/omaha/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=omaha&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/omaha/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=omaha&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/orlando/index.html",
+      "beforeSha256": "907ef1526fbaeace07d32dfadc721f5ace9d4ff0583fe5ae4fac55e9cb59a55e",
+      "afterSha256": "b718955e8893732ede194a32acd50069b242e2cdc12ba98d9831f7186c43a2f9",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/orlando/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=orlando&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/orlando/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=orlando&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/ottawa/index.html",
+      "beforeSha256": "710402d6bc1b8885cfe8df27aa584ea71bdbedc8713e40a639d2fabcf6d834d0",
+      "afterSha256": "03fa9c5467e6537b536cc760c8a235b9ed6315cfdfd654592b6a03e00650ec3e",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=ottawa&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/palm-beach/index.html",
+      "beforeSha256": "fec000450ee14b89e9984968e14ae921a70e171e17ae958d17c1a4a68761f3a4",
+      "afterSha256": "b504430be219fecf2a61c7fb97f7cacd1a230232a7a0a0a56fb2706cda5922f3",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/palm-beach/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=palm-beach&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/palm-beach/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=palm-beach&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/philadelphia/index.html",
+      "beforeSha256": "1d019304d14766ecea996c9fa64b7a4b52b401121bfcc80df8b74c63281a06b1",
+      "afterSha256": "326a36f8eb8289764b3915b7fb5bdb0e3d156d83cb3e9ed705e7f7f9be03c9de",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/philadelphia/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=philadelphia&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/philadelphia/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=philadelphia&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/phoenix/index.html",
+      "beforeSha256": "7e5645da2d37787e38f799a4c356a2dd883c0a408e73373f6c67eeab3675da28",
+      "afterSha256": "86d678651c08a471f7dc083ee63de31efe1185efb68b4cf34b2c900f9b3a1f29",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/phoenix/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=phoenix&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/phoenix/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=phoenix&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/pittsburgh/index.html",
+      "beforeSha256": "27b8da097d93bae091286c6bbf3f2db6c1de47383b3327c9a8493310225b89c1",
+      "afterSha256": "2f00a3bf96344c292b2116e6fbeab8841726be8a45387b89634afa9ebe96870a",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/pittsburgh/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=pittsburgh&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/pittsburgh/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=pittsburgh&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/portland/index.html",
+      "beforeSha256": "bb215340fc197abca82f9e958b5dd5641fbb78ce2f98ab200fc0ef886d530725",
+      "afterSha256": "f65a2f41701de1fb89495219bee9eb43b3f84913c8d1ca7df30356d220bdb792",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/portland/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=portland&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/portland/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=portland&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/providence/index.html",
+      "beforeSha256": "8a9c6ed2c1466eea05716d586a193fb061609acc399cb4583b1814f8ccf43731",
+      "afterSha256": "ce1b99caee5a79d1bcca60613fc76c344af2e2510495b2bd8422da3320b14c80",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/providence/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=providence&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/providence/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=providence&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/quebec-city/index.html",
+      "beforeSha256": "4e7963c013b27fb00a91696bac09e24c33c01a9cf62d3572c9eb27cd8ef69326",
+      "afterSha256": "704db34f4271370c0a84d5c85fb6c3eda2d93ef79d1d2475a18dee6cc9925411",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=quebec-city&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/raleigh/index.html",
+      "beforeSha256": "de78a89e078742c7ce397fcca6ffe873b27f8cb1107e37f3ee53331fef7ad522",
+      "afterSha256": "223f0923cf9f48a5a0c536c30a3dc4a29f410b095bddce1362f6302befa49b14",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/raleigh/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=raleigh&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/raleigh/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=raleigh&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/regina/index.html",
+      "beforeSha256": "5ae7fe5de5e4f76d8777ffdf6cf456ffcf4de9384f4db20b455ae948e2fa5b65",
+      "afterSha256": "fabe90a1b37ad72aef7318a6557d19f732fd01fe4d6f54032109271dd7da7831",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=regina&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/richmond/index.html",
+      "beforeSha256": "069a7e9076441273b95126217f159f037904fddb7262d1a6220249b46b9c3b92",
+      "afterSha256": "0a537b54e40b7efba1f3828e7842e9d0c32f496cc44c16efdd390df51b80e10e",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/richmond/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=richmond&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/richmond/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=richmond&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/rochester/index.html",
+      "beforeSha256": "396124a543c4ac8e75d6e1e65b1a9db1b23e267465b688cb9d2d08b9ddcf2775",
+      "afterSha256": "bad1fd6cf8ae572aa2b33b64ecdb09b98cc0c61c09b2d2e5a34cab41c15cb7df",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=rochester&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/sacramento/index.html",
+      "beforeSha256": "13e0c8b3fc6af5e0cef7ea1feb0ca56a7e469ae1d0fe7aa0131e007ce4dd5adb",
+      "afterSha256": "6606693a410cfeeb5ef0d095261dcd823869f725f2766c9464953f85acfdedf0",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/sacramento/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=sacramento&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/sacramento/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=sacramento&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/salt-lake-city/index.html",
+      "beforeSha256": "1fb767edce1d92822b41379bdb8752a34eb4bc3ad67acb36b39fb33e68936e7c",
+      "afterSha256": "8e4ea22d2a556d70a1a2747dffac72d960b59ceaf11868fc6872cee0623cce7b",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/salt-lake-city/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=salt-lake-city&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/salt-lake-city/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=salt-lake-city&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/san-antonio/index.html",
+      "beforeSha256": "cae19f3e24aed4f9fc19789ea063814ea1ad36bcb8cab04c3baa3572d443a8f0",
+      "afterSha256": "1cb804149f23e2bf224685123969db825921ac7fbb995bd55866f7ff60eece33",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/san-antonio/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=san-antonio&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/san-antonio/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=san-antonio&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/san-diego/index.html",
+      "beforeSha256": "3d9eaa26516b55bc1c33f936025b510ac13723a92f7277bc7d5b1a958e425a5f",
+      "afterSha256": "1bffd3e6596fba331db7ce8416034665fbc9a422cef1f203808b4e66254c769c",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/san-diego/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=san-diego&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/san-diego/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=san-diego&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/san-francisco/index.html",
+      "beforeSha256": "44018275e535050523ee598ccaa87a41c94498cd5beb705f3fd1b8a405674787",
+      "afterSha256": "2fb2863f9284ab2bd3b27e44658a6cb07c77d43635b5e575c171841264df1dc4",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/san-francisco/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=san-francisco&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/san-francisco/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=san-francisco&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/san-jose/index.html",
+      "beforeSha256": "410170e22a024ea953f4281584b99b91a85c5f308d375823497e102b9b312834",
+      "afterSha256": "a75eb4a376b61ec995943a08732709176f896a72647ff560a398aca60fa0ebc2",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/san-jose/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=san-jose&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/san-jose/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=san-jose&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/santa-fe/index.html",
+      "beforeSha256": "a97352412a973f8a1c25a0ba8cb876c12c5f6eabd194768ad1b4ecb3108771a4",
+      "afterSha256": "5782ca6f55e45104fda25c58d82fb6a598678fa221025e02f39f389e1d516a26",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/santa-fe/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=santa-fe&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/santa-fe/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=santa-fe&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/saskatoon/index.html",
+      "beforeSha256": "a6f460e333e46d11f22f85b51505718f5b377e28095e2157103edd5427383b86",
+      "afterSha256": "c21c24f55bdb2118b2ec180084054e081137d812ee1875b3ebf58fe4e52940c7",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=saskatoon&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/savannah/index.html",
+      "beforeSha256": "14d8f9df048c96c99d1eae610a523e49cb6e233eae207bb5a26f3489df304013",
+      "afterSha256": "87f266d1df15eb0f392f61202cd62e25be12abc6cb76e1444557a13665dcb955",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/savannah/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=savannah&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/savannah/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=savannah&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/seattle/index.html",
+      "beforeSha256": "704f6d794f8b58b696d27af8e470ccd199f6e7cfc5449710b12b2b4d47ad25fc",
+      "afterSha256": "82ce58325f56e617a7ede1dea3c0ec72900220fedb138d43ed93d862c14a7aa1",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/seattle/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=seattle&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/seattle/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=seattle&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/st-john-s/index.html",
+      "beforeSha256": "c99880687523789dc7524db4769a090814074b9b251956a3c03b1862419ffeeb",
+      "afterSha256": "409d0fa0017e74f1730308a9b0bf573f711be381186541d5596a9defe8d96e75",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=st-john-s&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/st-louis/index.html",
+      "beforeSha256": "253593cf03592fbff6d9d9731481a48709a0a4b82c8dd16a35ccfc2c963c48a7",
+      "afterSha256": "ff2e60a6a255e39b651579a794f7057c056b419910c2b62a56c9efcb44993903",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/st-louis/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=st-louis&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/st-louis/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=st-louis&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/st-paul/index.html",
+      "beforeSha256": "b94aeb67ef2474531899cecaf93600015223a76f1b636303b1cd9daeb3b6ed93",
+      "afterSha256": "58018e884d1858df029d60db4dbee551f6917815b98ece82e20ce32fa0502fd8",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=st-paul&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/sudbury/index.html",
+      "beforeSha256": "271d7925e882af8614791b02048a89547ab19cf09b2e3c9a777c44b3082a03b7",
+      "afterSha256": "0a0df95ecb245f36fd5e587c35a659579f0054e632c4f0d1de5d0751f721e791",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=sudbury&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/tampa/index.html",
+      "beforeSha256": "4360bb84fe1c24884a2f14993770845a3913655349f908f7767e26db4be4aac2",
+      "afterSha256": "9c4e3f514e01c92ea45b4f1f3740e7cc381b18797e255363cd54724fe11ab427",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/tampa/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=tampa&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/tampa/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=tampa&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/thunder-bay/index.html",
+      "beforeSha256": "dc48588db0a5a6345122fa659e9acefcb16c1cede78cd1b218130e31b52b0f17",
+      "afterSha256": "33e2bcb28bdf70e3dc0d976dc48514c3dc00640bab16744355e61e585e11c4b3",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=thunder-bay&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/toledo/index.html",
+      "beforeSha256": "a1f0d3538c6d6455b5ff4b2fca6b8879530cf7836100816a92b7aedf1e348161",
+      "afterSha256": "f84a580a9bd46a8c3b83992a8d62a2f7d6b4bd468c44124d70b177d1f5f53e7e",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=toledo&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/toronto/index.html",
+      "beforeSha256": "6b6c15f44fbb21df35b9828f705538c3877654e7dbba97c79a1aae6652d078d6",
+      "afterSha256": "853c35311e587f3865efbf13ba31b5ca187c99345e6ba41fba820d0ed090f457",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=toronto&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/tucson/index.html",
+      "beforeSha256": "5af0c4a108ddb63a91262ce57d562523661e12703d36e6f5751c379745c04a8f",
+      "afterSha256": "d7e289e3bb4094b59473947f70e8e1c6320a12d886f530593239d87d587c6d0d",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/tucson/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=tucson&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/tucson/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=tucson&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/tulsa/index.html",
+      "beforeSha256": "929e901b8fdfa77372296444ac650b755cff10defdf7450aa5ed348063138692",
+      "afterSha256": "725239759dc1488ef0430bf2f5dfbd9def765f8934b17cf79f39e54625e907b5",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/tulsa/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=tulsa&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/tulsa/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=tulsa&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/vancouver/index.html",
+      "beforeSha256": "f56d1bddb313f02e6c11156aba11e7c35a31637d4469f872bd263d5b25bf0a04",
+      "afterSha256": "9372c95572a942f8dc9979801c8401c557b3314040054d64b035e3b07a3f8f3b",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=vancouver&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/victoria/index.html",
+      "beforeSha256": "0dd1c421d92c1dce122269edac40fa6081b9cb3663c9e3a782a2374e180d41dd",
+      "afterSha256": "ec2a194f41d32b97bfae2d461fdd2712ea1c9e6b51fb7815eed8a3d8dd7e4430",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=victoria&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/virginia-beach/index.html",
+      "beforeSha256": "95c94b116d90f0e7032c778140901c9f8f081b605e6aee7da3c2841252a44625",
+      "afterSha256": "51a671cd93852d9738e05b1c70346cf3702ff4365aa117e3473f593aaf0d520e",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/virginia-beach/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=virginia-beach&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/virginia-beach/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=virginia-beach&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/washington-dc/index.html",
+      "beforeSha256": "fa8d3a57bb2c85874960581666a60ac0e1ce085687493d4a73a87b3cf6b25fad",
+      "afterSha256": "f3d84262617f73d318ee745ed980c40e8099893d8f5b994d5e9e5fd7771d3469",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/washington-dc/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=washington-dc&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/washington-dc/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=washington-dc&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    },
+    {
+      "file": "location/whitehorse/index.html",
+      "beforeSha256": "482bdb677071eb19793ffa5c7da155924aa93e1a8003af8e3687bd07164a56c4",
+      "afterSha256": "b991d554fa73134f9c968adb573965f395e8afa8430f72693c4161d349b753d5",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/?utm_source=directory&amp;utm_medium=guide&amp;utm_campaign=whitehorse&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/"
+    },
+    {
+      "file": "location/wichita/index.html",
+      "beforeSha256": "0fadcc7d0cf334de01b9aee12f7b5d59a1a727ee5e8297bcbcf875b0cf0dd6f2",
+      "afterSha256": "52f8a60d977f1d7d706bf95a1cb9d031d1e73d133c188c1056de0b167089e44a",
+      "replacedTargets": [
+        "https://art-appraisers-directory.appraisily.com/location/wichita/?utm_source=antique_directory&amp;utm_medium=crosslink&amp;utm_campaign=wichita&amp;utm_content=art_directory",
+        "https://art-appraisers-directory.appraisily.com/location/wichita/?utm_source=antique_directory&amp;utm_medium=guide&amp;utm_campaign=wichita&amp;utm_content=art_directory"
+      ],
+      "replacement": "https://art-appraisers-directory.appraisily.com/location/",
+      "normalizedGenericHubCopy": true
+    }
+  ]
+}

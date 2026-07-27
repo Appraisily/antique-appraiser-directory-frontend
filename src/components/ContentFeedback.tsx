@@ -169,14 +169,25 @@ export function ContentFeedback() {
               <div className="mt-3 flex items-center gap-3">
                 <button
                   type="submit"
+                  disabled={helpful === null}
+                  aria-describedby={helpful === null ? 'feedback-submit-help' : undefined}
                   className={[
                     'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition',
-                    'hover:bg-gray-800 cursor-pointer',
+                    helpful === null
+                      ? 'cursor-not-allowed opacity-50'
+                      : 'hover:bg-gray-800 cursor-pointer',
                   ].join(' ')}
                 >
                   Send feedback
                 </button>
-                <span className="text-xs text-muted-foreground">We redact emails/phone numbers client-side.</span>
+                <span
+                  id={helpful === null ? 'feedback-submit-help' : undefined}
+                  className="text-xs text-muted-foreground"
+                >
+                  {helpful === null
+                    ? 'Choose Yes or No first.'
+                    : 'We redact emails/phone numbers client-side.'}
+                </span>
               </div>
             </form>
           )}

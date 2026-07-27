@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Chicago, Illinois",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-11T15:47:35.626Z",
+  "generatedAt": "2026-07-26T18:52:18.543Z",
   "location": {
     "slug": "chicago",
     "url": "https://antique-appraiser-directory.appraisily.com/location/chicago/",
@@ -11,22 +11,14 @@
     "city": "Chicago",
     "region": "IL",
     "country": "US",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
       {
         "name": "Adams Appraisal LLC",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/adams-appraisal-llc/",
         "slug": "adams-appraisal-llc",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_chicago-adams-appraisal-llc_1742079326595_NI13K4cjC.jpg",
-        "description": "Adams Appraisal LLC offers antique appraisal support in Chicago, Illinois. Specialties: Antique/modern furniture. Services: antique appraisal, art appraisal.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Prestige Estate Services",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services/",
-        "slug": "prestige-estate-services",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_prestige-estate-services-2423_1742166242223_ZSyxRJCEu.jpg",
-        "description": "Prestige Estate Services offers antique appraisal support in Chicago, Illinois. Specialties: Insurance appraisals, Estate tax appraisals, Art and antiques appraisal. Services: antique appraisal, art appraisal.",
+        "description": "Adams Appraisal LLC has a limited directory listing for Chicago, IL. Confirm current details directly with the business.",
         "publicRouteAvailable": true
       }
     ],

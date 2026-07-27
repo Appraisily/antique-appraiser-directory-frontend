@@ -19,7 +19,6 @@ import {
 } from '../utils/dataQuality';
 import { trackEvent } from '../utils/analytics';
 import { cities as directoryCities } from '../data/cities.json';
-import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
 import { normalizeAssetUrl } from '../utils/assetUrls';
 
 type DirectoryCity = {
@@ -1192,7 +1191,9 @@ export function StandardizedLocationPage() {
 
   const cityName = useMemo(() => {
     if (cityMeta) {
-      return `${cityMeta.name}, ${cityMeta.state}`;
+      return cityMeta.name === cityMeta.state
+        ? cityMeta.name
+        : `${cityMeta.name}, ${cityMeta.state}`;
     }
 
     if (!validCitySlug) {
@@ -1861,7 +1862,7 @@ export function StandardizedLocationPage() {
                   data-clarity-action="location_empty_state_screener"
                   onClick={() => handleEmptyLocationClick('free_photo_check', emptyStateScreenerUrl)}
                 >
-                  Check my item from a photo
+                  Try Appraisily’s free photo check
                 </a>
                 <a
                   href={nearbyCityUrl}
@@ -1982,7 +1983,7 @@ export function StandardizedLocationPage() {
           signedReportUrl={signedReportUrl}
           screenerUrl={screenerUrl}
           localHref="#local-appraisers"
-          localLabel="Local specialist"
+          localLabel="Find a local specialist"
           professionalSampleUrl={professionalSampleUrl}
           instantSampleUrl={instantSampleUrl}
           campaign={decisionCampaign}
@@ -1995,6 +1996,202 @@ export function StandardizedLocationPage() {
             window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#local-appraisers`);
           }}
         />
+
+        <div id="local-appraisers" className="mb-6 mt-8 scroll-mt-20">
+          <h2 className="text-2xl font-semibold">Local antique appraisers in {cityName}</h2>
+          <p className="text-gray-600 mt-2">
+            Use this list to contact in-person providers or compare them with Appraisily&rsquo;s online option.
+          </p>
+        </div>
+
+        {topReviewedAppraisers.length > 0 && (
+          <div className="mb-6 rounded-lg border border-gray-200 bg-white p-6">
+            <h2 className="text-xl font-semibold mb-2">Top-reviewed appraisers in {cityName}</h2>
+            <p className="text-gray-600">
+              Start with the highest-reviewed profiles, then compare specialties and service fit.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {topReviewedAppraisers.map((appraiser) => (
+                <a
+                  key={appraiser.id}
+                  href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50 relative z-0"
+                  data-gtm-event="appraiser_card_click"
+                  data-gtm-placement="location_top_reviewed"
+                  data-gtm-appraiser={appraiser.slug}
+                  onClick={() => handleAppraiserCardClick(appraiser, 'location_top_reviewed')}
+                >
+                  {appraiser.name} ({appraiser.business.reviewCount} reviews)
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {selectedSpecialty && (
+          <div className="mb-4 flex items-center gap-2 text-sm">
+            <span className="text-gray-600">Showing appraisers for:</span>
+            <span className="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 font-medium text-blue-800">
+              {selectedSpecialty}
+              <button
+                type="button"
+                className="ml-1 text-blue-600 hover:text-blue-800 focus:outline-none"
+                onClick={() => setSelectedSpecialty(null)}
+                aria-label="Clear specialty filter"
+              >
+                &times;
+              </button>
+            </span>
+          </div>
+        )}
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {locationData.appraisers
+            .filter(appraiser => {
+              if (!selectedSpecialty) return true;
+              return getDisplaySpecialties(appraiser).includes(selectedSpecialty);
+            })
+            .map(appraiser => {
+            const appraiserUrl = buildSiteUrl(`/appraiser/${appraiser.slug}`);
+            return (
+            <article
+              key={appraiser.id}
+              className="group relative block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow focus-within:ring-2 focus-within:ring-blue-300 cursor-pointer"
+              style={{ touchAction: 'manipulation' }}
+              data-gtm-appraiser={appraiser.slug}
+              data-clarity-action="location_appraiser_card"
+              data-gtm-surface="location_results"
+              onClick={(event) => navigateToAppraiserCard(appraiser, appraiserUrl, event)}
+              onKeyDown={(event) => {
+                if (event.key !== 'Enter' && event.key !== ' ') {
+                  return;
+                }
+
+                navigateToAppraiserCard(appraiser, appraiserUrl, event);
+              }}
+            >
+              <a
+                href={appraiserUrl}
+                className="absolute inset-0 z-10 rounded-lg focus-visible:outline-none"
+                data-gtm-event="appraiser_card_click"
+                data-gtm-appraiser={appraiser.slug}
+                data-gtm-placement="location_results"
+                onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
+                aria-label={`View ${appraiser.name} profile`}
+              />
+
+              <div className="relative h-48 overflow-hidden bg-primary/5">
+                <div className="flex h-48 items-center justify-center" aria-hidden="true">
+                  <span className="font-serif text-6xl font-semibold text-primary/40 select-none">
+                    {appraiser.name.charAt(0)}
+                  </span>
+                </div>
+                {appraiser.imageUrl && !appraiser.imageUrl.includes('placeholder') && (
+                  <img
+                    src={normalizeAssetUrl(appraiser.imageUrl)}
+                    alt={`${appraiser.name} - Antique Appraiser in ${appraiser.address.city}`}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-105"
+                    loading="lazy"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).style.display = 'none';
+                    }}
+                  />
+                )}
+              </div>
+
+              <div className="p-4">
+                <h2 className="text-xl font-semibold mb-2 text-gray-900">
+                  {appraiser.name}
+                </h2>
+
+                <div className="flex items-center text-sm text-gray-600 mb-2">
+                  <MapPin className="h-4 w-4 mr-1 text-gray-400 flex-shrink-0" />
+                  <span className="truncate">{appraiser.address.formatted}</span>
+                </div>
+
+                {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
+                  <div className="flex items-center mb-3">
+                    <div className="flex items-center">
+                      <Star className="h-4 w-4 text-yellow-500" />
+                      <span className="ml-1 text-gray-700">{appraiser.business.rating.toFixed(1)}</span>
+                    </div>
+                    <span className="text-sm text-gray-500 ml-2">
+                      ({appraiser.business.reviewCount} reviews)
+                    </span>
+                  </div>
+                ) : (
+                  <div className="text-sm text-gray-500 mb-3">Reviews not available</div>
+                )}
+
+                <div className="relative z-20 space-y-2 mb-4 pointer-events-none">
+                  <div className="flex flex-wrap gap-1">
+                    {getDisplaySpecialties(appraiser).slice(0, 3).map((specialty) => {
+                      const isActive = selectedSpecialty === specialty;
+                      return (
+                        <button
+                          key={specialty}
+                          type="button"
+                          className={[
+                            'inline-block rounded-full px-2 py-0.5 text-xs mb-1 transition-colors pointer-events-auto',
+                            'cursor-pointer hover:bg-blue-100 focus:outline-none focus:ring-1 focus:ring-blue-300',
+                            isActive ? 'bg-blue-600 text-white' : 'bg-blue-50 text-blue-700'
+                          ].join(' ')}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            handleSpecialtyTagClick(specialty);
+                          }}
+                          aria-pressed={isActive}
+                          aria-label={`Filter by ${specialty}${isActive ? ' (active)' : ''}`}
+                        >
+                          {specialty}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <div className="mt-4 pt-3 border-t border-gray-100 flex justify-end">
+                  <span className="text-blue-600 text-sm font-medium inline-flex items-center">
+                    View Profile
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 ml-1"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </article>
+          );
+          })}
+        </div>
+
+        {locationData.appraisers.filter(appraiser => {
+          if (!selectedSpecialty) return true;
+          return getDisplaySpecialties(appraiser).includes(selectedSpecialty);
+        }).length === 0 && (
+          <div className="text-center py-8">
+            {selectedSpecialty ? (
+              <>
+                <p className="text-gray-600">No appraisers found for &ldquo;{selectedSpecialty}&rdquo; in {cityName}.</p>
+                <button
+                  type="button"
+                  className="mt-3 text-blue-600 hover:underline text-sm font-medium"
+                  onClick={() => setSelectedSpecialty(null)}
+                >
+                  Clear filter to see all appraisers
+                </button>
+              </>
+            ) : (
+              <p className="text-gray-600">No antique appraisers found in {cityName} yet. Check back soon!</p>
+            )}
+          </div>
+        )}
 
         {cityGuide && (
           <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6 sm:p-8">
@@ -2226,205 +2423,17 @@ export function StandardizedLocationPage() {
           </div>
         </div>
 
-        <div id="local-appraisers" className="mb-6 scroll-mt-20">
-          <h2 className="text-2xl font-semibold">Local antique appraisers in {cityName}</h2>
-          <p className="text-gray-600 mt-2">
-            Use this list to contact in-person providers or compare them with Appraisily&rsquo;s online option.
-          </p>
-        </div>
-
-        {topReviewedAppraisers.length > 0 && (
-          <div className="mb-6 rounded-lg border border-gray-200 bg-white p-6">
-            <h2 className="text-xl font-semibold mb-2">Top-reviewed appraisers in {cityName}</h2>
-            <p className="text-gray-600">
-              Start with the highest-reviewed profiles, then compare specialties and service fit.
-            </p>
-            <div className="mt-4 flex flex-wrap gap-2">
-              {topReviewedAppraisers.map((appraiser) => (
-                <a
-                  key={appraiser.id}
-                  href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
-                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50 relative z-0"
-                  data-gtm-event="appraiser_card_click"
-                  data-gtm-placement="location_top_reviewed"
-                  data-gtm-appraiser={appraiser.slug}
-                  onClick={() => handleAppraiserCardClick(appraiser, 'location_top_reviewed')}
-                >
-                  {appraiser.name} ({appraiser.business.reviewCount} reviews)
-                </a>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {selectedSpecialty && (
-          <div className="mb-4 flex items-center gap-2 text-sm">
-            <span className="text-gray-600">Showing appraisers for:</span>
-            <span className="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 font-medium text-blue-800">
-              {selectedSpecialty}
-              <button
-                type="button"
-                className="ml-1 text-blue-600 hover:text-blue-800 focus:outline-none"
-                onClick={() => setSelectedSpecialty(null)}
-                aria-label="Clear specialty filter"
-              >
-                &times;
-              </button>
-            </span>
-          </div>
-        )}
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {locationData.appraisers
-            .filter(appraiser => {
-              if (!selectedSpecialty) return true;
-              return getDisplaySpecialties(appraiser).includes(selectedSpecialty);
-            })
-            .map(appraiser => {
-            const appraiserUrl = buildSiteUrl(`/appraiser/${appraiser.slug}`);
-            return (
-            <article
-              key={appraiser.id}
-              className="group relative block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow focus-within:ring-2 focus-within:ring-blue-300 cursor-pointer"
-              style={{ touchAction: 'manipulation' }}
-              data-gtm-appraiser={appraiser.slug}
-              onClick={(event) => navigateToAppraiserCard(appraiser, appraiserUrl, event)}
-              onKeyDown={(event) => {
-                if (event.key !== 'Enter' && event.key !== ' ') {
-                  return;
-                }
-
-                navigateToAppraiserCard(appraiser, appraiserUrl, event);
-              }}
-            >
-              <a
-                href={appraiserUrl}
-                className="absolute inset-0 z-10 rounded-lg focus-visible:outline-none"
-                data-gtm-event="appraiser_card_click"
-                data-gtm-appraiser={appraiser.slug}
-                data-gtm-placement="location_results"
-                onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
-                aria-label={`View ${appraiser.name} profile`}
-              />
-
-              <div className="h-48 bg-gray-200 overflow-hidden">
-                <img
-                  src={normalizeAssetUrl(appraiser.imageUrl)}
-                  alt={`${appraiser.name} - Antique Appraiser in ${appraiser.address.city}`}
-                  className="w-full h-full object-cover transition-transform group-hover:scale-105"
-                  loading="lazy"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.src = DEFAULT_PLACEHOLDER_IMAGE;
-                  }}
-                />
-              </div>
-
-              <div className="p-4">
-                <h2 className="text-xl font-semibold mb-2 text-gray-900">
-                  {appraiser.name}
-                </h2>
-
-                <div className="flex items-center text-sm text-gray-600 mb-2">
-                  <MapPin className="h-4 w-4 mr-1 text-gray-400 flex-shrink-0" />
-                  <span className="truncate">{appraiser.address.formatted}</span>
-                </div>
-
-                {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
-                  <div className="flex items-center mb-3">
-                    <div className="flex items-center">
-                      <Star className="h-4 w-4 text-yellow-500" />
-                      <span className="ml-1 text-gray-700">{appraiser.business.rating.toFixed(1)}</span>
-                    </div>
-                    <span className="text-sm text-gray-500 ml-2">
-                      ({appraiser.business.reviewCount} reviews)
-                    </span>
-                  </div>
-                ) : (
-                  <div className="text-sm text-gray-500 mb-3">Reviews not available</div>
-                )}
-
-                <div className="relative z-20 space-y-2 mb-4 pointer-events-none">
-                  <div className="flex flex-wrap gap-1">
-                    {getDisplaySpecialties(appraiser).slice(0, 3).map((specialty) => {
-                      const isActive = selectedSpecialty === specialty;
-                      return (
-                        <button
-                          key={specialty}
-                          type="button"
-                          className={[
-                            'inline-block rounded-full px-2 py-0.5 text-xs mb-1 transition-colors pointer-events-auto',
-                            'cursor-pointer hover:bg-blue-100 focus:outline-none focus:ring-1 focus:ring-blue-300',
-                            isActive ? 'bg-blue-600 text-white' : 'bg-blue-50 text-blue-700'
-                          ].join(' ')}
-                          onClick={(e) => {
-                            e.preventDefault();
-                            e.stopPropagation();
-                            handleSpecialtyTagClick(specialty);
-                          }}
-                          aria-pressed={isActive}
-                          aria-label={`Filter by ${specialty}${isActive ? ' (active)' : ''}`}
-                        >
-                          {specialty}
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-
-                <div className="mt-4 pt-3 border-t border-gray-100 flex justify-end">
-                  <span className="text-blue-600 text-sm font-medium inline-flex items-center">
-                    View Profile
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 ml-1"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </span>
-                </div>
-              </div>
-            </article>
-          );
-          })}
-        </div>
-
-        {locationData.appraisers.filter(appraiser => {
-          if (!selectedSpecialty) return true;
-          return getDisplaySpecialties(appraiser).includes(selectedSpecialty);
-        }).length === 0 && (
-          <div className="text-center py-8">
-            {selectedSpecialty ? (
-              <>
-                <p className="text-gray-600">No appraisers found for &ldquo;{selectedSpecialty}&rdquo; in {cityName}.</p>
-                <button
-                  type="button"
-                  className="mt-3 text-blue-600 hover:underline text-sm font-medium"
-                  onClick={() => setSelectedSpecialty(null)}
-                >
-                  Clear filter to see all appraisers
-                </button>
-              </>
-            ) : (
-              <p className="text-gray-600">No antique appraisers found in {cityName} yet. Check back soon!</p>
-            )}
-          </div>
-        )}
-
         <div className="mt-10 mb-20 rounded-lg border border-purple-100 bg-purple-50/60 p-6">
-          <h2 className="text-xl font-semibold mb-2">Looking for art-specific appraisers in {cityName}?</h2>
+          <h2 className="text-xl font-semibold mb-2">Looking for a fine-art appraiser?</h2>
           <p className="text-gray-600 mb-4">
             Our Art Appraisers Directory focuses on fine art, paintings, prints, and sculpture valuations.
-            Browse art specialists in {cityName} for donation, estate, and insurance appraisals.
+            Browse the current source-reviewed provider cohort and compare primary locations, specialties, and qualifications.
           </p>
           <a
-            href={`https://art-appraisers-directory.appraisily.com/location/${validCitySlug}/`}
+            href="https://art-appraisers-directory.appraisily.com/location/"
             className="inline-flex items-center text-purple-700 hover:text-purple-900 font-medium"
           >
-            View {citySearchName} art appraisers
+            Browse reviewed art appraisers by location
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4 ml-1"

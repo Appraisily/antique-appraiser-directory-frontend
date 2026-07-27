@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Star, Search, ArrowRight } from 'lucide-react';
+import { MapPin, Search, ArrowRight } from 'lucide-react';
 import { CitySearch, type CitySearchHandle } from './components/CitySearch';
 import { SEO } from './components/SEO';
 import {
@@ -10,10 +10,7 @@ import {
 import { cities } from './data/cities.json';
 import { DEFAULT_OG_IMAGE, SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from './config/site';
 import { trackEvent } from './utils/analytics';
-import { normalizeAssetUrl } from './utils/assetUrls';
 import heroIllustrationPrimary from '../images/hero-antique-parlor.png';
-import heroIllustrationSecondary from '../images/hero-antique-gallery.png';
-import patternScrollwork from '../images/pattern-antique-scrollwork.png';
 import iconFurniture from '../images/icon-antique-furniture.png';
 import iconFineArt from '../images/icon-antique-fine-art.png';
 import iconJewelry from '../images/icon-antique-jewelry.png';
@@ -156,7 +153,7 @@ function App() {
 
   const statsHighlights = [
     { value: `${totalCities}+`, label: 'Cities covered nationwide' },
-    { value: `${totalStates}`, label: 'States with certified experts' },
+    { value: `${totalStates}`, label: 'States & provinces covered' },
     { value: '48 hrs', label: 'Average appraisal turnaround' }
   ];
 
@@ -398,25 +395,15 @@ function App() {
       </a>
       <div className="flex-1">
         {/* Hero Section */}
-        <section className="relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/25 via-primary/10 to-blue-50" />
-          <div
-            className="absolute inset-0 opacity-20 pointer-events-none"
-            style={{
-              backgroundImage: `url(${patternScrollwork})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center'
-            }}
-          />
-
-          <div className="relative container mx-auto px-6 py-20 md:py-24">
+        <section className="relative overflow-hidden border-b border-border bg-background">
+          <div className="container mx-auto px-6 py-16 md:py-24">
             <div className="grid items-center gap-12 md:grid-cols-2">
-              <div className="order-2 space-y-6 text-center md:order-1 md:text-left">
-                <span className="inline-flex items-center justify-center rounded-full bg-white/80 px-3 py-1 text-sm font-medium text-primary shadow-sm">
+              <div className="order-1 space-y-6 text-center md:text-left">
+                <span className="inline-flex items-center justify-center rounded-full border border-primary/25 bg-primary/5 px-3 py-1 text-sm font-medium text-primary">
                   Trusted antique valuation network
                 </span>
-                <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-                  Find <span className="text-primary">certified antique appraisers</span> and art valuation experts near you
+                <h1 className="text-4xl md:text-6xl font-semibold text-foreground leading-[1.08]">
+                  Find <span className="italic text-primary">certified antique appraisers</span> and art valuation experts near you
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl md:max-w-xl mx-auto md:mx-0">
                   Browse city guides for donation, estate, insurance, and resale valuations, then compare local experts or start an online appraisal.
@@ -424,11 +411,11 @@ function App() {
 
                 <form
                   onSubmit={handleSubmit}
-                  className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto md:mx-0 bg-white/90 p-2 rounded-lg shadow-lg backdrop-blur-lg transition-all duration-300"
+                  className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto md:mx-0 bg-white p-2 rounded-lg border border-border shadow-md transition-all duration-300"
                 >
                   <CitySearch ref={citySearchRef} />
                   <button
-                    className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-12 px-8 py-2 bg-primary md:w-auto w-full shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-300"
+                    className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-12 px-8 py-2 bg-primary md:w-auto w-full shadow-sm"
                     type="submit"
                     onClick={handleSubmit}
                   >
@@ -442,23 +429,23 @@ function App() {
                     <button
                       key={stat.label}
                       type="button"
-                      className="rounded-2xl border border-white/40 bg-white/70 p-4 shadow-sm backdrop-blur-md text-left transition-colors hover:border-primary/30 hover:bg-white/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 relative z-0 cursor-pointer"
+                      className="rounded-2xl border border-border bg-white p-4 shadow-sm text-left transition-colors hover:border-primary/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 relative z-0 cursor-pointer"
                       aria-label={`Browse antique appraisers: ${stat.label}`}
                       data-gtm-event="stat_highlight_click"
                       data-gtm-placement="home_hero_stats"
                       data-gtm-stat-label={stat.label}
                       onClick={() => handleStatHighlightClick(stat.label)}
                     >
-                      <p className="text-2xl font-bold text-primary">{stat.value}</p>
-                      <p className="text-sm text-muted-foreground">{stat.label}</p>
+                      <p className="font-serif text-3xl font-semibold text-primary">{stat.value}</p>
+                      <p className="mt-1 text-sm text-muted-foreground">{stat.label}</p>
                     </button>
                   ))}
                 </div>
               </div>
 
-              <div className="order-1 md:order-2">
-                <div className="relative mx-auto max-w-sm md:max-w-md">
-                  <div className="overflow-hidden rounded-[32px] border border-white/60 bg-white/80 shadow-2xl backdrop-blur-md">
+              <div className="order-2">
+                <figure className="relative mx-auto max-w-sm md:max-w-md">
+                  <div className="overflow-hidden rounded-2xl border border-border bg-white shadow-xl">
                     <img
                       src={heroIllustrationPrimary}
                       alt="Antique appraisal consultation illustration"
@@ -466,17 +453,10 @@ function App() {
                       loading="lazy"
                     />
                   </div>
-                  <div className="hidden lg:block">
-                    <div className="absolute -bottom-12 -left-12 w-40 overflow-hidden rounded-3xl border border-white/60 bg-white/90 shadow-xl backdrop-blur-md">
-                      <img
-                        src={heroIllustrationSecondary}
-                        alt="Gallery of antique heirlooms on display"
-                        className="w-full h-full object-cover"
-                        loading="lazy"
-                      />
-                    </div>
-                  </div>
-                </div>
+                  <figcaption className="mt-3 text-center text-sm text-muted-foreground">
+                    Verified local specialists and online reports, city by city.
+                  </figcaption>
+                </figure>
               </div>
             </div>
           </div>
@@ -488,7 +468,7 @@ function App() {
               signedReportUrl={signedReportUrl}
               screenerUrl={screenerUrl}
               localHref="/location/"
-              localLabel="Local specialist"
+              localLabel="Find a local specialist"
               professionalSampleUrl={professionalSampleUrl}
               instantSampleUrl={instantSampleUrl}
               campaign={decisionCampaign}
@@ -659,19 +639,8 @@ function App() {
               onClick={() => handleFeaturedAppraiserClick('sothebys-new-york', "Sotheby's New York", 'home_featured')}
             >
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
-                <div className="relative">
-                  <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
-                    <div style={{ position: 'absolute', inset: 0 }}>
-                      <img
-                        src={normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg')}
-                        alt="Sotheby's New York"
-                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                  <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
-                    <Star className="w-4 h-4 fill-primary text-primary" /> 4.7
-                  </div>
+                <div className="flex h-44 items-center justify-center border-b border-border bg-primary/5">
+                  <span aria-hidden="true" className="font-serif text-7xl font-semibold text-primary/50 select-none">S</span>
                 </div>
                 <div className="p-5">
                   <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Sotheby's New York</h3>
@@ -698,19 +667,8 @@ function App() {
               onClick={() => handleFeaturedAppraiserClick('heritage-auctions', 'Heritage Auctions', 'home_featured')}
             >
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
-                <div className="relative">
-                  <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
-                    <div style={{ position: 'absolute', inset: 0 }}>
-                      <img
-                        src={normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg')}
-                        alt="Heritage Auctions"
-                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                  <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
-                    <Star className="w-4 h-4 fill-primary text-primary" /> 4.6
-                  </div>
+                <div className="flex h-44 items-center justify-center border-b border-border bg-primary/5">
+                  <span aria-hidden="true" className="font-serif text-7xl font-semibold text-primary/50 select-none">H</span>
                 </div>
                 <div className="p-5">
                   <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Heritage Auctions</h3>
@@ -737,19 +695,8 @@ function App() {
               onClick={() => handleFeaturedAppraiserClick('clars-auction-gallery', 'Clars Auction Gallery', 'home_featured')}
             >
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
-                <div className="relative">
-                  <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
-                    <div style={{ position: 'absolute', inset: 0 }}>
-                      <img
-                        src={normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg')}
-                        alt="Clars Auction Gallery"
-                        className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                  <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
-                    <Star className="w-4 h-4 fill-primary text-primary" /> 5.0
-                  </div>
+                <div className="flex h-44 items-center justify-center border-b border-border bg-primary/5">
+                  <span aria-hidden="true" className="font-serif text-7xl font-semibold text-primary/50 select-none">C</span>
                 </div>
                 <div className="p-5">
                   <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Clars Auction Gallery</h3>

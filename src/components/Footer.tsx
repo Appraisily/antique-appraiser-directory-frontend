@@ -90,20 +90,17 @@ export function Footer() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 overflow-hidden">
             {cities.map((city) => {
               const isCurrentLocation = city.slug === currentLocationSlug;
-              const cityLabel = (
-                <>
-                  <MapPin className="h-3 w-3 flex-shrink-0" /> <span className="truncate">{city.name}, {city.state}</span>
-                </>
-              );
-
               if (isCurrentLocation) {
                 return (
                   <span
                     key={city.slug}
-                    className="text-gray-900 font-medium text-sm flex items-center gap-1 min-w-0 truncate"
+                    className="flex min-w-0 items-center justify-between gap-2 rounded-md bg-gray-100 px-2 py-1 text-sm font-medium text-gray-900"
                     aria-current="page"
                   >
-                    {cityLabel}
+                    <span className="truncate">{city.name}, {city.state}</span>
+                    <span className="shrink-0 text-[10px] font-semibold uppercase tracking-wide text-gray-500">
+                      Current page
+                    </span>
                   </span>
                 );
               }
@@ -118,7 +115,8 @@ export function Footer() {
                   data-gtm-state={city.state}
                   onClick={() => handleFooterCityClick(city)}
                 >
-                  {cityLabel}
+                  <MapPin className="h-3 w-3 flex-shrink-0" />
+                  <span className="truncate">{city.name}, {city.state}</span>
                 </a>
               );
             })}

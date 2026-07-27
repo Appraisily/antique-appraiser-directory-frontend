@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in New York, New York",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-11T15:47:35.626Z",
+  "generatedAt": "2026-07-26T18:52:18.543Z",
   "location": {
     "slug": "new-york",
     "url": "https://antique-appraiser-directory.appraisily.com/location/new-york/",
@@ -11,22 +11,14 @@
     "city": "New York",
     "region": "NY",
     "country": "US",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Museum Exchange",
-        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/museum-exchange/",
-        "slug": "museum-exchange",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_museum-exchange-3462_1742166255040_BIvs_Ofel.jpg",
-        "description": "Museum Exchange coordinates online art appraisals from New York through third-party qualified appraisers for donation, insurance, tax, estate planning, and art lending needs.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Showplace NYC Fine Art Buyer",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/showplace-nyc-fine-art-buyer/",
         "slug": "showplace-nyc-fine-art-buyer",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_showplace-nyc-fine-art-buyer-8317_1742166286046_igSzNR8CE.jpg",
-        "description": "Showplace NYC Fine Art Buyer offers antique appraisal support in New York, New York. Specialties: Contemporary market valuations, Direct art purchases. Services: antique appraisal, art appraisal.",
+        "description": "Showplace NYC Fine Art Buyer has a limited directory listing for New York, NY. Confirm current details directly with the business.",
         "publicRouteAvailable": true
       }
     ],
