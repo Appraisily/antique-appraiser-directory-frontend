@@ -36,6 +36,22 @@ function escape(value) {
     .replaceAll('>', '&gt;');
 }
 
+function attributes(tag) {
+  return Object.fromEntries(
+    [...tag.matchAll(/([\w:-]+)=(["'])(.*?)\2/g)].map((match) => [
+      match[1].toLowerCase(),
+      decode(match[3]),
+    ]),
+  );
+}
+
+function metaContent(html, name) {
+  const tag = [...html.matchAll(/<meta\b[^>]*>/gi)]
+    .map((match) => attributes(match[0]))
+    .find((entry) => entry.name === name);
+  return tag?.content ?? null;
+}
+
 function required(html, pattern, label, slug) {
   const value = html.match(pattern)?.[1];
   if (!value) throw new Error(`${slug} is missing ${label}`);
@@ -62,8 +78,8 @@ for (const provider of appraisers) {
     provider.slug,
   );
   const description = required(
-    before,
-    /<meta\b[^>]*\bname=["']description["'][^>]*\bcontent=["']([^"']+)["']/i,
+    `<value>${escape(metaContent(before, 'description') ?? '')}</value>`,
+    /<value>([\s\S]+)<\/value>/,
     'description',
     provider.slug,
   );
