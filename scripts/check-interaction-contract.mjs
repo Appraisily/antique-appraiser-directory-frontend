@@ -56,7 +56,7 @@ for (const [label, checkedSource, snippets] of [
       'const hasDirectContact = Boolean(',
       'Get an online appraisal from Appraisily',
       'No direct contact details are currently available',
-      'Back to {appraiser.address.city} appraisers',
+      '`Back to ${appraiser.address.city} appraisers`',
     ],
   ],
 ]) {
@@ -68,6 +68,37 @@ for (const [label, checkedSource, snippets] of [
 }
 if (navbarSource.includes('event.preventDefault();\n      setCitiesDropdownOpen(false);')) {
   failures.push('Current-city navigation must not render a clickable link whose default action is cancelled.');
+}
+for (const marker of [
+  'data-clarity-action="location_primary_cta"',
+  'data-clarity-action="location_jump_to_appraisers"',
+  'data-clarity-action="location_appraiser_card_link"',
+  'data-clarity-action="location_specialty_filter"',
+]) {
+  if (!locationSource.includes(marker)) {
+    failures.push(`Location interactions must include ${marker}.`);
+  }
+}
+for (const prohibited of [
+  'navigateToAppraiserCard',
+  'className="absolute inset-0 z-10 rounded-lg focus-visible:outline-none"',
+  'data-clarity-action="location_appraiser_card"',
+  'handleSpecialtyTagClick',
+]) {
+  if (locationSource.includes(prohibited)) {
+    failures.push(`Location cards must not retain overlapping interaction ${JSON.stringify(prohibited)}.`);
+  }
+}
+for (const required of [
+  'data-clarity-action="location_appraiser_card_link"',
+  'event.currentTarget.click();',
+  'View Profile',
+  'filterableSpecialties.length > 0',
+  'filterableSpecialties.includes(selectedSpecialty)',
+]) {
+  if (!locationSource.includes(required)) {
+    failures.push(`Location card interaction contract must include ${JSON.stringify(required)}.`);
+  }
 }
 
 if (failures.length) {

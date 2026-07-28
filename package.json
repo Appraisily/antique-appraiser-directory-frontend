@@ -33,7 +33,7 @@
         "test:html": "node ./scripts/test-html.js --public-dir public_site",
         "serve:static": "node ./scripts/serve-static.js --public-dir public_site",
         "count:appraisers": "node ./scripts/count-appraisers.js",
-        "build:llm-feeds": "node ./scripts/build-directory-llm-feeds.mjs --public-dir public_site --kind antique",
+        "build:llm-feeds": "node ./scripts/build-directory-llm-feeds.mjs --public-dir public_site --kind antique && npm run build:profile-hydration-feed",
         "repair:faq-schema": "node ./scripts/repair-faq-schema.mjs --public-dir public_site",
         "repair:internal-location-links": "node ./scripts/repair-internal-location-links.mjs --public-dir public_site",
         "repair:canonical-article-links": "node ./scripts/rewrite-canonical-article-links.mjs --public-dir public_site --write",

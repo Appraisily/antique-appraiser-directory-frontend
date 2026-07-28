@@ -194,12 +194,31 @@ export function StandardizedAppraiserPage() {
   );
   const hasBusinessHours = appraiser ? appraiser.business.hours.length > 0 : false;
   const hasCertifications = appraiser ? appraiser.expertise.certifications.length > 0 : false;
+  const hasPublishedLocation = Boolean(appraiser?.address.city || appraiser?.address.state);
+  const hasPublishedAddress = Boolean(
+    appraiser?.publication.claimScope.includes('primary_location') &&
+    appraiser.address.formatted
+  );
+  const hasPublishedReviews = Boolean(
+    appraiser &&
+    appraiser.business.reviewCount > 0 &&
+    appraiser.business.rating > 0
+  );
 
   const generateBreadcrumbSchema = () => {
     if (!appraiser) return null;
     
-    const citySlug = appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
-    
+    const citySlug = appraiser.serviceArea?.slug
+      || appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
+    const middleCrumb = appraiser.address.city
+      ? [{
+          "@type": "ListItem",
+          "position": 2,
+          "name": `Antique Appraisers in ${appraiser.address.city}`,
+          "item": buildSiteUrl(`/location/${citySlug}`)
+        }]
+      : [];
+
     return {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -210,15 +229,10 @@ export function StandardizedAppraiserPage() {
           "name": "Home",
           "item": SITE_URL
         },
+        ...middleCrumb,
         {
           "@type": "ListItem",
-          "position": 2,
-          "name": `Antique Appraisers in ${appraiser.address.city}`,
-          "item": buildSiteUrl(`/location/${citySlug}`)
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
+          "position": middleCrumb.length + 2,
           "name": appraiser.name,
           "item": buildSiteUrl(`/appraiser/${appraiser.slug}`)
         }
@@ -229,27 +243,33 @@ export function StandardizedAppraiserPage() {
   const generateAppraiserSchema = () => {
     if (!appraiser) return null;
 
-    const hasAggregateRating = appraiser.business.reviewCount > 0 && appraiser.business.rating > 0;
-    
+    const hasAggregateRating = hasPublishedReviews;
+    const address = hasPublishedAddress
+      ? {
+          "@type": "PostalAddress",
+          ...(appraiser.address.street ? { "streetAddress": appraiser.address.street } : {}),
+          ...(appraiser.address.city ? { "addressLocality": appraiser.address.city } : {}),
+          ...(appraiser.address.state ? { "addressRegion": appraiser.address.state } : {}),
+          ...(appraiser.address.zip ? { "postalCode": appraiser.address.zip } : {}),
+          ...(appraiser.serviceArea?.country ? { "addressCountry": appraiser.serviceArea.country } : {})
+        }
+      : undefined;
+
     return {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
+      "@type": appraiser.publication.status === 'verified' ? "ProfessionalService" : "Organization",
       "name": appraiser.name,
-      "image": appraiser.imageUrl,
+      ...(appraiser.imageUrl ? { "image": appraiser.imageUrl } : {}),
       "description": appraiser.content.about,
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": appraiser.address.street,
-        "addressLocality": appraiser.address.city,
-        "addressRegion": appraiser.address.state,
-        "postalCode": appraiser.address.zip,
-        "addressCountry": "US"
-      },
       "url": buildSiteUrl(`/appraiser/${appraiser.slug}`),
-      "telephone": appraiser.contact.phone,
-      "email": appraiser.contact.email,
-      "priceRange": appraiser.business.pricing,
-      "openingHours": appraiser.business.hours.map(h => `${h.day} ${h.hours}`).join(', '),
+      ...(address ? { address } : {}),
+      ...(appraiser.contact.website ? { sameAs: appraiser.contact.website } : {}),
+      ...(appraiser.contact.phone ? { telephone: appraiser.contact.phone } : {}),
+      ...(appraiser.contact.email ? { email: appraiser.contact.email } : {}),
+      ...(appraiser.business.pricing ? { priceRange: appraiser.business.pricing } : {}),
+      ...(hasBusinessHours
+        ? { openingHours: appraiser.business.hours.map(h => `${h.day} ${h.hours}`).join(', ') }
+        : {}),
       ...(hasAggregateRating
         ? {
             aggregateRating: {
@@ -281,36 +301,48 @@ export function StandardizedAppraiserPage() {
 
   const generateFAQSchema = () => {
     if (!appraiser) return null;
-    
+    const questions: Record<string, unknown>[] = [];
+    if (appraiser.expertise.services.length > 0) {
+      questions.push({
+        "@type": "Question",
+        "name": `What services does ${appraiser.name} offer?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": appraiser.expertise.services.join(', ')
+        }
+      });
+    }
+    if (appraiser.expertise.specialties.length > 0) {
+      questions.push({
+        "@type": "Question",
+        "name": `What are ${appraiser.name}'s specialties?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": appraiser.expertise.specialties.join(', ')
+        }
+      });
+    }
+    const contactOptions = [
+      appraiser.contact.phone ? `phone at ${appraiser.contact.phone}` : '',
+      appraiser.contact.email ? `email at ${appraiser.contact.email}` : '',
+      appraiser.contact.website ? 'the official website' : ''
+    ].filter(Boolean);
+    if (contactOptions.length > 0) {
+      questions.push({
+        "@type": "Question",
+        "name": `How can I contact ${appraiser.name}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Contact ${appraiser.name} through ${contactOptions.join(' or ')}.`
+        }
+      });
+    }
+    if (questions.length === 0) return null;
+
     return {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": `What services does ${appraiser.name} offer?`,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": appraiser.expertise.services.join(', ')
-          }
-        },
-        {
-          "@type": "Question",
-          "name": `What are ${appraiser.name}'s specialties?`,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": appraiser.expertise.specialties.join(', ')
-          }
-        },
-        {
-          "@type": "Question",
-          "name": `How can I contact ${appraiser.name}?`,
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": `You can contact ${appraiser.name} by phone at ${appraiser.contact.phone} or by email at ${appraiser.contact.email}.`
-          }
-        }
-      ]
+      "mainEntity": questions
     };
   };
   
@@ -367,12 +399,16 @@ export function StandardizedAppraiserPage() {
     );
   }
 
-  const seoTitle = `${appraiser.name} - Antique Appraiser in ${appraiser.address.city} | Expert Antique Valuation Services`;
-  const seoDescription = `Get professional antique appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
-  const citySlug = appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
+  const localityLabel = [appraiser.address.city, appraiser.address.state].filter(Boolean).join(', ');
+  const seoTitle = appraiser.seo.title
+    || `${appraiser.name}${localityLabel ? ` - Antique Appraiser in ${localityLabel}` : ' - Antique Appraiser Directory'}`;
+  const seoDescription = appraiser.seo.description
+    || `${appraiser.name} directory listing${localityLabel ? ` for ${localityLabel}` : ''}. Confirm current services and qualifications directly with the provider.`;
+  const citySlug = appraiser.serviceArea?.slug
+    || appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
   const fallbackAbout = (() => {
     const parts = [
-      `${appraiser.name} provides antique appraisal services in ${appraiser.address.city}, ${appraiser.address.state}.`
+      `${appraiser.name} has a directory listing${localityLabel ? ` for ${localityLabel}` : ''}.`
     ];
     if (appraiser.expertise.specialties.length > 0) {
       parts.push(`Specialties include ${appraiser.expertise.specialties.join(', ')}.`);
@@ -420,10 +456,11 @@ export function StandardizedAppraiserPage() {
         description={seoDescription}
         ogImage={appraiser.imageUrl}
         schema={[
-          generateAppraiserSchema(appraiser),
+          generateAppraiserSchema(),
           generateBreadcrumbSchema(),
-          generateFAQSchema(appraiser)
-        ]}
+          generateFAQSchema()
+        ].filter((schema): schema is Record<string, unknown> => Boolean(schema))}
+        canonicalUrl={appraiser.seo.canonical || undefined}
         path={`/appraiser/${appraiser.slug}`}
       />
       <a
@@ -439,21 +476,50 @@ export function StandardizedAppraiserPage() {
           <li>
           <a href={SITE_URL} className="text-gray-500 hover:text-gray-700">Home</a>
           </li>
-          <li className="flex items-center">
-            <ChevronRight className="h-4 w-4 text-gray-400" />
-            <a 
-              href={buildSiteUrl(`/location/${citySlug}`)}
-              className="ml-2 text-gray-500 hover:text-gray-700"
-            >
-              {appraiser.address.city}
-            </a>
-          </li>
+          {appraiser.address.city && (
+            <li className="flex items-center">
+              <ChevronRight className="h-4 w-4 text-gray-400" />
+              <a
+                href={buildSiteUrl(`/location/${citySlug}`)}
+                className="ml-2 text-gray-500 hover:text-gray-700"
+              >
+                {appraiser.address.city}
+              </a>
+            </li>
+          )}
           <li className="flex items-center">
             <ChevronRight className="h-4 w-4 text-gray-400" />
             <span className="ml-2 text-gray-900 font-medium">{appraiser.name}</span>
           </li>
         </ol>
       </nav>
+      <div
+        className="mb-6 rounded-lg border border-blue-200 bg-blue-50 px-5 py-4 text-sm text-gray-700"
+        data-provider-publication-status={appraiser.publication.status}
+      >
+        <p className="font-semibold text-gray-900">
+          {appraiser.publication.status === 'verified'
+            ? 'Source-reviewed directory listing'
+            : 'Limited directory listing'}
+        </p>
+        <p className="mt-1">
+          {appraiser.publication.status === 'verified'
+            ? 'The facts shown here are limited to the approved public profile record.'
+            : 'Confirm provider details on the official website before engagement.'}
+        </p>
+        {appraiser.publication.sourceChecked && (
+          <p className="mt-2 text-xs text-gray-600">
+            Source checked {appraiser.publication.sourceChecked}. A source check is not a credential verification or endorsement.
+          </p>
+        )}
+        <a
+          href={`https://appraisily.com/contact?source=directory_listing&provider=${encodeURIComponent(appraiser.slug)}`}
+          className="mt-2 inline-flex font-medium text-blue-700 hover:underline"
+          data-provider-correction-link="true"
+        >
+          Report or correct this listing
+        </a>
+      </div>
       {showDataWarning && (
         <div className="mb-6 rounded-lg border border-yellow-300 bg-yellow-50 px-5 py-4 text-sm text-yellow-900">
           <p className="font-semibold mb-2">Heads up: this profile still needs verification.</p>
@@ -476,7 +542,7 @@ export function StandardizedAppraiserPage() {
             {appraiser.imageUrl && !appraiser.imageUrl.includes('placeholder') && (
               <img
                 src={normalizeAssetUrl(appraiser.imageUrl)}
-                alt={`${appraiser.name} - Antique Appraiser in ${appraiser.address.city}`}
+                alt={`${appraiser.name}${appraiser.address.city ? ` - Antique Appraiser in ${appraiser.address.city}` : ''}`}
                 className="absolute inset-0 h-full w-full object-cover"
                 onLoad={(e) => {
                   hideTinyPlaceholderImage(e.currentTarget);
@@ -488,10 +554,14 @@ export function StandardizedAppraiserPage() {
             )}
           </div>
           
+          {hasDirectContact && (
           <div className="bg-white rounded-lg shadow-md p-5 mb-6">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">Contact Information</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-4">
+              {phoneHref || emailHref ? 'Contact Information' : 'Official website'}
+            </h3>
             
             <div className="space-y-3">
+              {hasPublishedAddress && (
               <div className="flex items-start">
                 <a
                   href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(appraiser.address.formatted)}`}
@@ -503,9 +573,10 @@ export function StandardizedAppraiserPage() {
                   <span>{appraiser.address.formatted}</span>
                 </a>
               </div>
+              )}
 
-              <div className="flex items-center">
-                {phoneHref ? (
+              {phoneHref && (
+                <div className="flex items-center">
                   <a
                     href={phoneHref}
                     className="flex w-full items-center text-gray-700 hover:text-blue-600"
@@ -519,13 +590,8 @@ export function StandardizedAppraiserPage() {
                     <Phone className="h-5 w-5 text-blue-600 mr-3" />
                     <span>{appraiser.contact.phone}</span>
                   </a>
-                ) : (
-                  <div className="flex items-center text-gray-500">
-                    <Phone className="h-5 w-5 text-gray-400 mr-3" />
-                    <span>Phone not available</span>
-                  </div>
-                )}
-              </div>
+                </div>
+              )}
 
               {hasContactEmail && (
                 <div className="flex items-center">
@@ -576,6 +642,7 @@ export function StandardizedAppraiserPage() {
               </div>
             )}
           </div>
+          )}
           
           {hasBusinessHours && (
             <div className="bg-white rounded-lg shadow-md p-5 mb-6">
@@ -650,19 +717,22 @@ export function StandardizedAppraiserPage() {
               </div>
             </div>
             
-            <div className="mb-6">
-              <p className="text-gray-600">
+            {(appraiser.business.yearsInBusiness || hasPublishedLocation) && (
+            <div className="mb-6 flex flex-wrap gap-x-4 gap-y-2 text-sm text-gray-600">
+              {appraiser.business.yearsInBusiness && (
+                <span className="inline-flex items-center">
                 <Clock className="h-4 w-4 inline-block mr-2 text-gray-400" />
-                <span className="text-sm mr-3">
-                  {appraiser.business.yearsInBusiness}
+                {appraiser.business.yearsInBusiness}
                 </span>
-                
+              )}
+              {hasPublishedLocation && (
+                <span className="inline-flex items-center">
                 <MapPin className="h-4 w-4 inline-block mr-2 text-gray-400" />
-                <span className="text-sm">
-                  {appraiser.address.city}, {appraiser.address.state}
+                {localityLabel}
                 </span>
-              </p>
+              )}
             </div>
+            )}
             
             <h2 className="text-xl font-semibold text-gray-900 mb-3">About</h2>
             <p className="text-gray-700 mb-6 leading-relaxed">
@@ -675,26 +745,37 @@ export function StandardizedAppraiserPage() {
               </div>
             )}
             
-            <h2 className="text-xl font-semibold text-gray-900 mb-3">Specialties</h2>
-            <p className="text-gray-700 mb-6 leading-relaxed">
-              {appraiser.expertise.specialties.join(', ')}
-            </p>
+            {appraiser.expertise.specialties.length > 0 && (
+              <>
+                <h2 className="text-xl font-semibold text-gray-900 mb-3">Specialties</h2>
+                <p className="text-gray-700 mb-6 leading-relaxed">
+                  {appraiser.expertise.specialties.join(', ')}
+                </p>
+              </>
+            )}
 
-            <h2 className="text-xl font-semibold text-gray-900 mb-3">Services</h2>
-            <p className="text-gray-700 mb-6 leading-relaxed">
-              {appraiser.expertise.services.join(', ')}
-            </p>
+            {appraiser.expertise.services.length > 0 && (
+              <>
+                <h2 className="text-xl font-semibold text-gray-900 mb-3">Services</h2>
+                <p className="text-gray-700 mb-6 leading-relaxed">
+                  {appraiser.expertise.services.join(', ')}
+                </p>
+              </>
+            )}
             
-            <h2 className="text-xl font-semibold text-gray-900 mb-3">Pricing</h2>
-            <p className="text-gray-700 mb-6">
-              {pricingContent}
-            </p>
+            {pricingContent && (
+              <>
+                <h2 className="text-xl font-semibold text-gray-900 mb-3">Pricing</h2>
+                <p className="text-gray-700 mb-6">
+                  {pricingContent}
+                </p>
+              </>
+            )}
           </div>
           
-          <div className="bg-white rounded-lg shadow-md p-6" id="reviews">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Reviews</h2>
-            
-            {appraiser.reviews.length > 0 ? (
+          {hasPublishedReviews && appraiser.reviews.length > 0 && (
+            <div className="bg-white rounded-lg shadow-md p-6 mb-6" id="reviews">
+              <h2 className="text-xl font-semibold text-gray-900 mb-4">Reviews</h2>
               <div className="space-y-6">
                 {appraiser.reviews.map((review, index) => (
                   <div key={index} className="border-b border-gray-100 pb-6 last:border-none last:pb-0">
@@ -717,11 +798,11 @@ export function StandardizedAppraiserPage() {
                   </div>
                 ))}
               </div>
-            ) : (
-              <p className="text-gray-500 italic">No reviews yet.</p>
-            )}
-            
-            <div className="mt-8 pt-6 border-t border-gray-100">
+            </div>
+          )}
+
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <div>
               <h3 className="font-medium text-gray-900 mb-3">Need Antique Appraisal Services?</h3>
               <p className="text-gray-600 mb-4">
                 {hasDirectContact
@@ -774,10 +855,12 @@ export function StandardizedAppraiserPage() {
                 </a>
                 {!hasDirectContact && (
                   <a
-                    href={buildSiteUrl(`/location/${citySlug}`)}
+                    href={appraiser.address.city ? buildSiteUrl(`/location/${citySlug}`) : SITE_URL}
                     className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
                   >
-                    Back to {appraiser.address.city} appraisers
+                    {appraiser.address.city
+                      ? `Back to ${appraiser.address.city} appraisers`
+                      : 'Browse all locations'}
                   </a>
                 )}
               </div>

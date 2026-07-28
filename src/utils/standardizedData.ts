@@ -55,6 +55,26 @@ export interface StandardizedAppraiser {
     lastUpdated: string;
     inService: boolean;
   };
+  publication: {
+    status: 'verified' | 'limited' | 'unknown';
+    sourceUrl: string;
+    sourceChecked: string;
+    claimScope: string[];
+    providerClaimed: boolean;
+    credentialVerified: boolean;
+  };
+  serviceArea: {
+    slug: string;
+    city: string;
+    region: string;
+    country: string;
+    url: string;
+  } | null;
+  seo: {
+    title: string;
+    description: string;
+    canonical: string;
+  };
 }
 
 export interface StandardizedLocation {
@@ -97,6 +117,26 @@ interface PublicAppraiserEntry {
   priceRange?: string;
   specialties?: string[];
   services?: string[];
+  publication?: {
+    status?: 'verified' | 'limited';
+    sourceUrl?: string;
+    sourceChecked?: string;
+    claimScope?: string[];
+    providerClaimed?: boolean;
+    credentialVerified?: boolean;
+  };
+  serviceAreas?: Array<{
+    slug?: string;
+    city?: string;
+    region?: string;
+    country?: string;
+    url?: string;
+  }>;
+  seo?: {
+    title?: string;
+    description?: string;
+    canonical?: string;
+  };
 }
 
 type RawStandardizedAppraiser = Partial<StandardizedAppraiser> & {
@@ -249,7 +289,21 @@ function normalizeAppraiser(appraiser: RawStandardizedAppraiser): StandardizedAp
     metadata: {
       lastUpdated: stringValue(rawMetadata.lastUpdated),
       inService: rawMetadata.inService !== false
-    }
+    },
+    publication: {
+      status: appraiser.publication?.status || 'unknown',
+      sourceUrl: stringValue(appraiser.publication?.sourceUrl),
+      sourceChecked: stringValue(appraiser.publication?.sourceChecked),
+      claimScope: stringArray(appraiser.publication?.claimScope),
+      providerClaimed: appraiser.publication?.providerClaimed === true,
+      credentialVerified: appraiser.publication?.credentialVerified === true,
+    },
+    serviceArea: appraiser.serviceArea || null,
+    seo: {
+      title: stringValue(appraiser.seo?.title),
+      description: stringValue(appraiser.seo?.description),
+      canonical: stringValue(appraiser.seo?.canonical),
+    },
   };
 }
 
@@ -317,13 +371,20 @@ async function getPublishedLocationFeed(citySlug: string): Promise<PublicLocatio
   return null;
 }
 
-function publishedEntryToStandardizedAppraiser(
-  entry: PublicLocationAppraiser,
-  sourceAppraisers: StandardizedAppraiser[]
-): StandardizedAppraiser | null {
-  const slug = entry.slug || getSlugFromProfileUrl(entry.url);
-  if (entry.publicRouteAvailable === false || !entry.url || !slug) return null;
-  return sourceAppraisers.find(appraiser => appraiser.slug === slug) || null;
+let publicAppraiserFeedPromise: Promise<PublicAppraiserEntry[] | null> | null = null;
+
+async function getPublishedAppraiserFeed(): Promise<PublicAppraiserEntry[] | null> {
+  if (typeof window === 'undefined' || typeof fetch === 'undefined') return null;
+  if (!publicAppraiserFeedPromise) {
+    publicAppraiserFeedPromise = fetch('/appraisers.json', { headers: { Accept: 'application/json' } })
+      .then(async response => {
+        if (!response.ok) return null;
+        const feed = await response.json() as { appraisers?: PublicAppraiserEntry[] };
+        return Array.isArray(feed.appraisers) ? feed.appraisers : null;
+      })
+      .catch(() => null);
+  }
+  return publicAppraiserFeedPromise;
 }
 
 /**
@@ -364,15 +425,25 @@ export function getStandardizedLocation(citySlug: string): Promise<StandardizedL
 export async function getPublishedStandardizedLocation(citySlug: string): Promise<StandardizedLocation | null> {
   if (!citySlug) return null;
   const normalizedSlug = normalizeCitySlug(citySlug);
-  const [publishedFeed, sourceLocation] = await Promise.all([
+  const [publishedFeed, publicAppraisers] = await Promise.all([
     getPublishedLocationFeed(normalizedSlug),
-    getStandardizedLocation(normalizedSlug),
+    getPublishedAppraiserFeed(),
   ]);
 
-  if (!publishedFeed?.location) return sourceLocation;
-  const sourceAppraisers = sourceLocation?.appraisers || [];
+  // Local source files contain fields that are not necessarily approved for
+  // publication. A missing or partial public feed must fail closed instead of
+  // falling back to those bundled records.
+  if (!publishedFeed?.location || !publicAppraisers) {
+    return { appraisers: [] };
+  }
+  const publicBySlug = new Map(publicAppraisers.map(entry => [entry.slug || getSlugFromProfileUrl(entry.url), entry]));
   const appraisers = (publishedFeed.location.listedAppraisers || [])
-    .map(entry => publishedEntryToStandardizedAppraiser(entry, sourceAppraisers))
+    .map(entry => {
+      const slug = entry.slug || getSlugFromProfileUrl(entry.url);
+      if (entry.publicRouteAvailable === false || !entry.url || !slug) return null;
+      const publicEntry = publicBySlug.get(slug);
+      return publicEntry ? publishedEntryToSafeAppraiser(publicEntry, normalizedSlug) : null;
+    })
     .filter((appraiser): appraiser is StandardizedAppraiser => Boolean(appraiser));
   return { appraisers };
 }
@@ -425,10 +496,18 @@ export async function getStandardizedAppraiser(appraiserId: string): Promise<Sta
   }
 }
 
-function publishedEntryToSafeAppraiser(entry: PublicAppraiserEntry): StandardizedAppraiser | null {
+export function publishedEntryToSafeAppraiser(
+  entry: PublicAppraiserEntry,
+  preferredServiceAreaSlug?: string
+): StandardizedAppraiser | null {
   if (!entry.slug || !entry.name || !entry.url) return null;
   const address = entry.address || {};
-  const formatted = [address.streetAddress, [address.city, address.region].filter(Boolean).join(', '), address.postalCode]
+  const serviceArea = entry.serviceAreas?.find(area => area.slug === preferredServiceAreaSlug)
+    || entry.serviceAreas?.[0]
+    || null;
+  const city = address.city || serviceArea?.city || '';
+  const region = address.region || serviceArea?.region || '';
+  const formatted = [address.streetAddress, [city, region].filter(Boolean).join(', '), address.postalCode]
     .filter(Boolean)
     .join(', ');
   return {
@@ -438,8 +517,8 @@ function publishedEntryToSafeAppraiser(entry: PublicAppraiserEntry): Standardize
     imageUrl: entry.image || '',
     address: {
       street: address.streetAddress || '',
-      city: address.city || '',
-      state: address.region || '',
+      city,
+      state: region,
       zip: address.postalCode || '',
       formatted,
     },
@@ -466,16 +545,36 @@ function publishedEntryToSafeAppraiser(entry: PublicAppraiserEntry): Standardize
     },
     reviews: [],
     metadata: { lastUpdated: '', inService: true },
+    publication: {
+      status: entry.publication?.status || 'unknown',
+      sourceUrl: entry.publication?.sourceUrl || '',
+      sourceChecked: entry.publication?.sourceChecked || '',
+      claimScope: entry.publication?.claimScope || [],
+      providerClaimed: entry.publication?.providerClaimed === true,
+      credentialVerified: entry.publication?.credentialVerified === true,
+    },
+    serviceArea: serviceArea
+      ? {
+          slug: serviceArea.slug || '',
+          city: serviceArea.city || '',
+          region: serviceArea.region || '',
+          country: serviceArea.country || '',
+          url: serviceArea.url || '',
+        }
+      : null,
+    seo: {
+      title: entry.seo?.title || '',
+      description: entry.seo?.description || '',
+      canonical: entry.seo?.canonical || entry.url,
+    },
   };
 }
 
 export async function getPublishedStandardizedAppraiser(appraiserId: string): Promise<StandardizedAppraiser | null> {
   if (!appraiserId || typeof window === 'undefined' || typeof fetch === 'undefined') return null;
   try {
-    const response = await fetch('/appraisers.json', { headers: { Accept: 'application/json' } });
-    if (!response.ok) return null;
-    const feed = await response.json() as { appraisers?: PublicAppraiserEntry[] };
-    const entry = feed.appraisers?.find(item => item.slug === appraiserId || getSlugFromProfileUrl(item.url) === appraiserId);
+    const appraisers = await getPublishedAppraiserFeed();
+    const entry = appraisers?.find(item => item.slug === appraiserId || getSlugFromProfileUrl(item.url) === appraiserId);
     return entry ? publishedEntryToSafeAppraiser(entry) : null;
   } catch {
     return null;
