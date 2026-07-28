@@ -1218,6 +1218,20 @@ export function StandardizedLocationPage() {
       .slice(0, 3)
       .map(([specialty]) => specialty);
   }, [locationData]);
+  const filterableSpecialties = useMemo(() => {
+    const appraisers = locationData?.appraisers || [];
+    if (appraisers.length < 2) return [];
+    const counts = new Map<string, number>();
+    appraisers.forEach(appraiser => {
+      getDisplaySpecialties(appraiser).forEach(specialty => {
+        counts.set(specialty, (counts.get(specialty) || 0) + 1);
+      });
+    });
+    return Array.from(counts.entries())
+      .filter(([, count]) => count > 0 && count < appraisers.length)
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([specialty]) => specialty);
+  }, [locationData]);
   const citySearchName = useMemo(() => {
     if (cityMeta?.name) return cityMeta.name;
     return cityName.split(',')[0]?.trim() || cityName;
@@ -1648,21 +1662,6 @@ export function StandardizedLocationPage() {
       state: appraiser.address.state
     });
   };
-  const navigateToAppraiserCard = (
-    appraiser: StandardizedAppraiser,
-    appraiserUrl: string,
-    event: React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLElement>
-  ) => {
-    const target = event.target;
-    if (target instanceof Element && target.closest('a[href], button, input, select, textarea, summary, [role="button"], [role="link"]')) {
-      return;
-    }
-
-    event.preventDefault();
-    handleAppraiserCardClick(appraiser, 'location_results');
-    window.location.href = appraiserUrl;
-  };
-
   const handleLocationCtaClick = (placement: string) => {
     trackEvent('cta_click', {
       placement,
@@ -1754,11 +1753,11 @@ export function StandardizedLocationPage() {
     },
   ];
 
-  const handleSpecialtyTagClick = (specialty: string) => {
+  const handleSpecialtyFilterClick = (specialty: string) => {
     const next = selectedSpecialty === specialty ? null : specialty;
     setSelectedSpecialty(next);
     trackEvent('specialty_tag_click', {
-      placement: 'location_appraiser_card',
+      placement: 'location_specialty_filter',
       city_slug: validCitySlug,
       city_name: citySearchName,
       specialty,
@@ -1926,6 +1925,7 @@ export function StandardizedLocationPage() {
                 className="inline-flex items-center justify-center rounded-md bg-blue-600 px-5 py-3 text-white font-semibold hover:bg-blue-700 transition-colors"
                 data-gtm-event="cta_click"
                 data-gtm-placement="location_hero_primary"
+                data-clarity-action="location_primary_cta"
                 onClick={() => handleLocationCtaClick('location_hero_primary')}
               >
                 Start online written appraisal
@@ -1935,6 +1935,7 @@ export function StandardizedLocationPage() {
                 className="inline-flex items-center justify-center rounded-md border border-blue-200 px-5 py-3 text-blue-700 font-semibold hover:bg-blue-50 transition-colors"
                 data-gtm-event="cta_click"
                 data-gtm-placement="location_hero_secondary"
+                data-clarity-action="location_jump_to_appraisers"
                 onClick={(event) => {
                   trackEvent('cta_click', {
                     placement: 'location_hero_secondary',
@@ -2028,7 +2029,35 @@ export function StandardizedLocationPage() {
           </div>
         )}
 
-        {selectedSpecialty && (
+        {filterableSpecialties.length > 0 && (
+          <div className="mb-5" aria-label="Filter appraisers by specialty">
+            <p className="mb-2 text-sm font-medium text-gray-700">Filter by specialty</p>
+            <div className="flex flex-wrap gap-2">
+              {filterableSpecialties.map(specialty => {
+                const isActive = selectedSpecialty === specialty;
+                return (
+                  <button
+                    key={specialty}
+                    type="button"
+                    className={[
+                      'rounded-full border px-3 py-1.5 text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300',
+                      isActive
+                        ? 'border-blue-600 bg-blue-600 text-white'
+                        : 'border-blue-200 bg-white text-blue-700 hover:bg-blue-50'
+                    ].join(' ')}
+                    data-clarity-action="location_specialty_filter"
+                    aria-pressed={isActive}
+                    onClick={() => handleSpecialtyFilterClick(specialty)}
+                  >
+                    {specialty}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {selectedSpecialty && filterableSpecialties.includes(selectedSpecialty) && (
           <div className="mb-4 flex items-center gap-2 text-sm">
             <span className="text-gray-600">Showing appraisers for:</span>
             <span className="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 font-medium text-blue-800">
@@ -2056,29 +2085,26 @@ export function StandardizedLocationPage() {
             return (
             <article
               key={appraiser.id}
-              className="group relative block border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow focus-within:ring-2 focus-within:ring-blue-300 cursor-pointer"
+              className="group relative block overflow-hidden rounded-lg border shadow-sm transition-shadow hover:shadow-md focus-within:ring-2 focus-within:ring-blue-300"
               style={{ touchAction: 'manipulation' }}
               data-gtm-appraiser={appraiser.slug}
-              data-clarity-action="location_appraiser_card"
               data-gtm-surface="location_results"
-              onClick={(event) => navigateToAppraiserCard(appraiser, appraiserUrl, event)}
-              onKeyDown={(event) => {
-                if (event.key !== 'Enter' && event.key !== ' ') {
-                  return;
-                }
-
-                navigateToAppraiserCard(appraiser, appraiserUrl, event);
-              }}
             >
               <a
                 href={appraiserUrl}
-                className="absolute inset-0 z-10 rounded-lg focus-visible:outline-none"
+                className="block rounded-lg text-inherit no-underline focus-visible:outline-none"
                 data-gtm-event="appraiser_card_click"
                 data-gtm-appraiser={appraiser.slug}
                 data-gtm-placement="location_results"
+                data-clarity-action="location_appraiser_card_link"
                 onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
+                onKeyDown={(event) => {
+                  if (event.key !== ' ') return;
+                  event.preventDefault();
+                  event.currentTarget.click();
+                }}
                 aria-label={`View ${appraiser.name} profile`}
-              />
+              >
 
               <div className="relative h-48 overflow-hidden bg-primary/5">
                 <div className="flex h-48 items-center justify-center" aria-hidden="true">
@@ -2104,12 +2130,14 @@ export function StandardizedLocationPage() {
                   {appraiser.name}
                 </h2>
 
+                {appraiser.address.formatted && (
                 <div className="flex items-center text-sm text-gray-600 mb-2">
                   <MapPin className="h-4 w-4 mr-1 text-gray-400 flex-shrink-0" />
                   <span className="truncate">{appraiser.address.formatted}</span>
                 </div>
+                )}
 
-                {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
+                {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 && (
                   <div className="flex items-center mb-3">
                     <div className="flex items-center">
                       <Star className="h-4 w-4 text-yellow-500" />
@@ -2119,35 +2147,18 @@ export function StandardizedLocationPage() {
                       ({appraiser.business.reviewCount} reviews)
                     </span>
                   </div>
-                ) : (
-                  <div className="text-sm text-gray-500 mb-3">Reviews not available</div>
                 )}
 
-                <div className="relative z-20 space-y-2 mb-4 pointer-events-none">
+                <div className="mb-4 space-y-2">
                   <div className="flex flex-wrap gap-1">
-                    {getDisplaySpecialties(appraiser).slice(0, 3).map((specialty) => {
-                      const isActive = selectedSpecialty === specialty;
-                      return (
-                        <button
+                    {getDisplaySpecialties(appraiser).slice(0, 3).map((specialty) => (
+                        <span
                           key={specialty}
-                          type="button"
-                          className={[
-                            'inline-block rounded-full px-2 py-0.5 text-xs mb-1 transition-colors pointer-events-auto',
-                            'cursor-pointer hover:bg-blue-100 focus:outline-none focus:ring-1 focus:ring-blue-300',
-                            isActive ? 'bg-blue-600 text-white' : 'bg-blue-50 text-blue-700'
-                          ].join(' ')}
-                          onClick={(e) => {
-                            e.preventDefault();
-                            e.stopPropagation();
-                            handleSpecialtyTagClick(specialty);
-                          }}
-                          aria-pressed={isActive}
-                          aria-label={`Filter by ${specialty}${isActive ? ' (active)' : ''}`}
+                          className="mb-1 inline-block rounded-full bg-blue-50 px-2 py-0.5 text-xs text-blue-700"
                         >
                           {specialty}
-                        </button>
-                      );
-                    })}
+                        </span>
+                    ))}
                   </div>
                 </div>
 
@@ -2166,6 +2177,7 @@ export function StandardizedLocationPage() {
                   </span>
                 </div>
               </div>
+              </a>
             </article>
           );
           })}
