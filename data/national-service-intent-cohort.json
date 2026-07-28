@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "readiness": {
+    "insurance": false,
+    "taxDeduction": false
+  },
+  "destinations": {
+    "art": {
+      "href": "https://appraisily.com/art",
+      "label": "Online art appraisal service"
+    },
+    "antiques": {
+      "href": "https://appraisily.com/antiques",
+      "label": "Online antique appraisal service"
+    },
+    "insurance": {
+      "href": "https://appraisily.com/insurance",
+      "label": "Online insurance appraisal service"
+    },
+    "taxDeduction": {
+      "href": "https://appraisily.com/appraisal/tax-deduction",
+      "label": "Qualified donation appraisal service"
+    }
+  },
+  "pages": [
+    {
+      "path": "location/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/",
+      "robots": "index, follow",
+      "h1": "Browse Locations",
+      "targets": ["antiques", "art"]
+    },
+    {
+      "path": "location/seattle/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/seattle/",
+      "robots": "index, follow",
+      "h1": "Seattle Antique &amp; Art Appraisals",
+      "targets": ["art", "antiques"]
+    },
+    {
+      "path": "location/toronto/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/toronto/",
+      "robots": "index, follow",
+      "h1": "Toronto Antique Appraisers &amp; Art Appraisal Services",
+      "targets": ["art", "antiques"]
+    },
+    {
+      "path": "location/philadelphia/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/philadelphia/",
+      "robots": "index, follow",
+      "h1": "Philadelphia Antique Appraisers &amp; Art Appraisal Services",
+      "targets": ["antiques"]
+    },
+    {
+      "path": "location/chicago/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/chicago/",
+      "robots": "index, follow",
+      "h1": "Chicago Antique &amp; Art Appraisals",
+      "targets": ["art", "antiques"]
+    },
+    {
+      "path": "location/baltimore/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/baltimore/",
+      "robots": "index, follow",
+      "h1": "Baltimore Antique &amp; Art Appraisers",
+      "targets": ["art", "antiques"]
+    },
+    {
+      "path": "location/kansas-city/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/kansas-city/",
+      "robots": "index, follow",
+      "h1": "Kansas City Antique Appraisers &amp; Art Appraisal Services",
+      "targets": ["art", "antiques"]
+    },
+    {
+      "path": "location/des-moines/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/des-moines/",
+      "robots": "index, follow",
+      "h1": "Des Moines Antique &amp; Art Appraisals",
+      "targets": ["art"]
+    },
+    {
+      "path": "location/boston/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/boston/",
+      "robots": "index, follow",
+      "h1": "Boston Antique &amp; Art Appraisals",
+      "targets": ["antiques"]
+    },
+    {
+      "path": "location/new-york/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/new-york/",
+      "robots": "index, follow",
+      "h1": "New York Antique Appraisers &amp; Art Appraisal Services",
+      "targets": ["art", "antiques"]
+    }
+  ]
+}
