@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-07-29",
+  "policy": "An indexable city FAQ requires measured question demand plus a page-specific, source-backed answer. No generic city-swapped FAQ is approved.",
+  "expectedIndexableCityCount": 85,
+  "evidenceSnapshot": {
+    "source": "manager/projects/art-directory-consolidation-20260727/evidence/directory-research/packets/*/evidence-packet.json",
+    "packetCount": 29,
+    "measuredQuestionCount": 0,
+    "peopleAlsoAskCount": 0,
+    "relatedSearchCount": 0,
+    "packetCompositeSha256": "5d644aa753b0dea989695713012bb21113548ce3f0334c23ded942215785eee0"
+  },
+  "approvedCityQuestions": []
+}

@@ -11,6 +11,19 @@ import { PrerenderCleanup } from '../components/PrerenderCleanup';
 export function RootLayout() {
   const location = useLocation();
   const navigationType = useNavigationType();
+  const authoritativePrerender =
+    typeof document === 'undefined'
+      ? null
+      : document.querySelector<HTMLElement>(
+          '[data-prerender] [data-directory-static-authoritative="true"][data-city-slug]'
+        );
+  const authoritativePath = authoritativePrerender
+    ? `/location/${authoritativePrerender.dataset.citySlug}/`
+    : null;
+  const currentPath = location.pathname.endsWith('/')
+    ? location.pathname
+    : `${location.pathname}/`;
+  const preserveAuthoritativeStaticPage = authoritativePath === currentPath;
 
   React.useLayoutEffect(() => {
     if (navigationType === 'POP' || location.hash) return;
@@ -25,7 +38,7 @@ export function RootLayout() {
       <PrerenderCleanup />
       <Navbar />
       <div className="flex-1 pt-16">
-        <Outlet />
+        {preserveAuthoritativeStaticPage ? null : <Outlet />}
       </div>
       <ContentFeedback />
       <Footer />

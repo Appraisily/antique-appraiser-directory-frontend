@@ -12,7 +12,7 @@
     <meta property="og:description" content="How Appraisily builds and maintains the Antique Appraiser Directory: sources, updates, and quality checks." />
     <meta property="og:url" content="https://antique-appraiser-directory.appraisily.com/methodology/" />
     <meta name="twitter:card" content="summary" />
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"AboutPage","name":"Directory Methodology","description":"How Appraisily builds and maintains the Antique Appraiser Directory: sources, updates, and quality checks.","url":"https://antique-appraiser-directory.appraisily.com/methodology/","isPartOf":{"@type":"WebSite","name":"Appraisily","url":"https://appraisily.com/"},"about":{"@type":"Service","name":"Antique appraiser directory quality checks"}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"AboutPage","name":"Directory Methodology","description":"How Appraisily builds and maintains the Antique Appraiser Directory: trust states, sources, credentials, fees, corrections, and quality checks.","url":"https://antique-appraiser-directory.appraisily.com/methodology/","dateModified":"2026-07-28","publisher":{"@type":"Organization","name":"Appraisily","url":"https://appraisily.com/"},"isPartOf":{"@type":"WebSite","name":"Antique Appraiser Directory by Appraisily","url":"https://antique-appraiser-directory.appraisily.com/"},"about":{"@type":"Service","name":"Antique appraiser directory quality checks"}}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&display=swap" rel="stylesheet">
     <style>
       body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; color: #1c1917; background: #faf8f3; }
@@ -45,6 +45,21 @@
       .site-footer a { color: #6a6252; }
       .site-footer a:hover { color: #7c551b; }
       .footer-links { display: flex; flex-wrap: wrap; gap: 16px; }
+      .definition-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+      .definition { border: 1px solid #e6e2d8; border-radius: 10px; padding: 14px; background: #fffdf8; }
+      .definition h3 { margin: 0 0 6px; font-size: 17px; }
+      .checklist { columns: 2; column-gap: 32px; }
+      .checklist li { break-inside: avoid; }
+      @media (max-width: 680px) { .definition-grid { grid-template-columns: 1fr; } .checklist { columns: 1; } }
+      @media print {
+        .topbar, .site-footer, .cta, [data-print-hide] { display: none !important; }
+        body { background: #fff; color: #000; }
+        header, main { max-width: none; padding: 0; }
+        .card { border: 0; padding: 0; }
+        #preparation-checklist { break-before: page; }
+        a { color: #000; text-decoration: none; }
+        a[href]::after { content: " (" attr(href) ")"; font-size: 10px; }
+      }
     </style>
   <style data-appraisily-short-mobile-compositing="1">@media (max-width:500px){nav.fixed{background-color:#fff!important}.backdrop-blur-md{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}.bg-gradient-to-r.from-blue-50.to-white{background-image:none!important;background-color:#eff6ff!important}}</style></head>
   <body>
@@ -58,6 +73,7 @@
           <a href="/">Home</a>
           <a href="/location/">Locations</a>
           <a href="/methodology/">Methodology</a>
+          <a href="/verification-updates/">Updates</a>
           <a href="/get-listed/">Get Listed</a>
           <a class="cta-button" href="https://appraisily.com/start">Start Appraisal</a>
         </nav>
@@ -66,26 +82,91 @@
     <header>
       <div>
         <h1>How We Build This Directory</h1>
-        <div class="meta">Antique Appraiser Directory by Appraisily</div>
+        <div class="meta">Antique Appraiser Directory by Appraisily · Last reviewed July 28, 2026</div>
       </div>
     </header>
     <main>
       <div class="card">
-        <p>This directory helps people find antique appraisal providers by location and provides an online alternative via Appraisily when a local option isn’t available.</p>
+        <p>This directory helps people find antique and fine-art appraisal providers by location, understand what evidence has been checked, and compare a local inspection with an online alternative when the assignment permits remote evidence.</p>
 
         <h2>What you’ll find here</h2>
         <ul>
           <li>Location pages that summarize appraisal needs (insurance, estates, donations, resale) and list local providers where available.</li>
-          <li>A consistent FAQ so users understand what info to prepare and what reports are typically required.</li>
-          <li>Links for business owners to request inclusion or corrections.</li>
+          <li>Dated provider profiles that state their publication status, source scope, and facts that still need direct confirmation.</li>
+          <li>Decision guidance and a reusable preparation checklist rather than the same generic paragraph repeated across every city.</li>
+          <li>Links for providers and readers to request inclusion, correction, or removal.</li>
         </ul>
 
-        <h2>Quality & trust</h2>
-        <ul>
-          <li>We avoid publishing unverified review counts or ratings in structured data.</li>
-          <li>We prioritize updates for locations with real search demand (Search Console impressions/clicks).</li>
-          <li>Users should verify details directly with the provider (fees, turnaround, service area, report type).</li>
-        </ul>
+        <section data-shared-evergreen="directory-trust-states">
+          <h2>Verified and source-listed are different trust states</h2>
+          <div class="definition-grid">
+            <div class="definition"><h3>Verified</h3><p>A human reviewer checked the displayed claim scope against the sources named on the profile and recorded a review date. Verification applies only to those listed facts; it is not a recommendation, employment relationship, or guarantee of current availability.</p></div>
+            <div class="definition"><h3>Source-listed</h3><p>The profile has limited source support but has not passed the full manual claim review. A source-listed record must not be described as credential-verified, and its location, specialty, services, or qualifications may still require direct confirmation.</p></div>
+          </div>
+          <p>Unresolved identity, address, credential, or service-area conflicts are held from new public claims and discovery surfaces until a reviewer resolves them. Ratings, reviews, testimonials, prices, and credentials are never inferred.</p>
+        </section>
+
+        <section data-shared-evergreen="directory-credential-guide">
+          <h2>How to read professional designations</h2>
+          <p>Membership and professional designation are not interchangeable, and the relevant specialty matters. The directory records a designation only when a current official provider or association source supports the exact person, organization, level, and specialty.</p>
+          <ul>
+            <li><strong>ASA and AM:</strong> the American Society of Appraisers identifies AM as Accredited Member and ASA as Accredited Senior Appraiser. Its personal-property accreditation path distinguishes candidates from designated members. <a href="https://www.appraisers.org/disciplines/personal-property/become-a-pp-appraiser" rel="noopener noreferrer">Review ASA’s official personal-property accreditation overview</a>.</li>
+            <li><strong>ISA, ISA AM, and ISA CAPP:</strong> the International Society of Appraisers publishes distinct Member, Accredited Member, and Certified Appraiser of Personal Property levels. <a href="https://www.isa-appraisers.org/credentialing" rel="noopener noreferrer">Review ISA’s official credentialing levels</a>.</li>
+            <li><strong>Appraisers Association of America:</strong> the association publishes separate Accredited and Certified membership requirements for personal-property specialists. <a href="https://www.appraisersassociation.org/membership" rel="noopener noreferrer">Review its official membership categories</a>.</li>
+          </ul>
+          <p>Ask the signer for a current qualifications statement and confirm that the designation, specialty, experience, intended use, and report scope fit the actual assignment.</p>
+        </section>
+
+        <section data-shared-evergreen="directory-uspap-guide">
+          <h2>USPAP and assignment-specific qualification</h2>
+          <p>The Appraisal Foundation describes USPAP as generally recognized ethical and performance standards for the appraisal profession in the United States. Whether compliance is required depends on the applicable law, agency, client, credentialing body, and assignment. A page saying “USPAP” does not by itself prove that a particular signer, report, inspection method, or intended use is qualified. <a href="https://appraisalfoundation.org/pages/uspap" rel="noopener noreferrer">Read The Appraisal Foundation’s USPAP overview</a>.</p>
+          <p>For insurance, estate, donation, litigation, lending, or equitable-distribution work, ask who will sign, what value definition and effective date will be used, which standards and jurisdiction apply, who the intended users are, and whether physical inspection is required.</p>
+        </section>
+
+        <section data-shared-evergreen="directory-fee-independence">
+          <h2>Fees and independence</h2>
+          <p>Providers may publish hourly, flat, per-item, or project fees. The directory displays a fee only when a dated public source states it. Confirm what research, inspection, travel, photographs, revisions, comparables, and report delivery are included before signing an engagement.</p>
+          <p>Avoid compensation that depends on the appraised value, the desired conclusion, or a future sale outcome. If the same business also buys, sells, consigns, brokers, or manages property, ask for the appraisal role, disposition role, compensation, and potential conflicts to be disclosed separately.</p>
+        </section>
+
+        <section data-shared-evergreen="directory-local-online-guide">
+          <h2>Local inspection or online evidence?</h2>
+          <p>Choose a local provider when the assignment or client requires physical inspection, or when scale, construction, condition, marks, authenticity, or materials cannot be documented reliably from photographs. Remote evidence can be practical when the assignment permits it and the item can be documented clearly.</p>
+          <p>Use the <a href="/art-appraisers-near-me/">art-appraiser decision guide</a> or <a href="/antique-appraisers-near-me/">antique-appraiser decision guide</a> to compare the paths. Confirm the inspection decision with the appraiser and intended user before engagement.</p>
+        </section>
+
+        <section id="preparation-checklist" data-shared-evergreen="directory-preparation-checklist">
+          <h2>Printable appraisal preparation checklist</h2>
+          <p>Prepare this evidence before contacting a provider. It helps the appraiser assess fit; it does not guarantee that remote evidence will be sufficient.</p>
+          <ul class="checklist">
+            <li>Overall front, back, side, top, and bottom photographs</li>
+            <li>Close-ups of signatures, labels, hallmarks, serial numbers, and inscriptions</li>
+            <li>Condition, damage, repairs, restoration, and missing-part photographs</li>
+            <li>Measurements, weight where relevant, materials, and construction details</li>
+            <li>Artist, maker, model, date, and attribution information</li>
+            <li>Receipts, invoices, catalog pages, and prior appraisal reports</li>
+            <li>Provenance, ownership history, exhibition history, and family documentation</li>
+            <li>Conservation, restoration, framing, and insurance records</li>
+            <li>Number of items and whether similar items form a collection or group</li>
+            <li>Intended use: insurance, estate, donation, division, sale, lending, or another purpose</li>
+            <li>Required effective valuation date, delivery date, and intended users</li>
+            <li>Any client, insurer, attorney, accountant, court, or agency instructions</li>
+          </ul>
+          <p data-print-hide><button type="button" class="cta" onclick="window.print()">Print this checklist</button></p>
+        </section>
+
+        <section data-shared-evergreen="directory-evidence-corrections">
+          <h2>Evidence review and corrections</h2>
+          <ol>
+            <li>We search for the exact provider or location and prefer official business and professional-association sources.</li>
+            <li>Each accepted claim records its source URL, source type, retrieval date, paraphrase, confidence, display scope, and reviewer status.</li>
+            <li>Conflicts fail closed: pending claims do not enter public HTML, city cards, feeds, or sitemaps.</li>
+            <li>Public profiles state the source scope and last-reviewed date; readers should still confirm current facts directly.</li>
+            <li>Correction requests are reviewed against a source before public facts or trust state change.</li>
+          </ol>
+          <p>We avoid publishing unsupported review counts, ratings, testimonials, fees, turnaround promises, credentials, or service areas in visible content or structured data.</p>
+          <p>Material publication-state, routing, and verification-policy changes are recorded in the <a href="/verification-updates/">directory verification updates</a>.</p>
+        </section>
 
         <h2>Report an issue</h2>
         <p>If a listing looks incorrect or you’re the owner and want changes, email us with the page URL and the correction.</p>
@@ -96,6 +177,7 @@
       <div class="site-footer-inner">
         <div>© 2026 Appraisily. All rights reserved.</div>
         <nav class="footer-links">
+          <a href="/verification-updates/">Verification updates</a>
           <a href="https://appraisily.com/privacy">Privacy</a>
           <a href="https://appraisily.com/terms">Terms</a>
           <a href="/sitemap.xml">Sitemap</a>

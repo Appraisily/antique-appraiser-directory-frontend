@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
   <title id="title">American Gem Registry – Neil Beaty CGJA profile artwork</title>
-  <desc id="desc">Generated non-likeness directory artwork for American Gem Registry – Neil Beaty CGJA in Denver, CO.</desc>
+  <desc id="desc">Generated non-likeness directory artwork for American Gem Registry – Neil Beaty CGJA; location not verified.</desc>
   <defs>
     <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f8f2e9"/>
@@ -23,7 +23,7 @@
   </g>
   <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
     <text x="600" y="660" font-size="48" font-weight="700" fill="#442c2e">American Gem Registry – Neil Beaty CGJA</text>
-    <text x="600" y="720" font-size="28" font-weight="600" fill="#442c2e" opacity=".72">Denver, CO</text>
+    <text x="600" y="720" font-size="28" font-weight="600" fill="#442c2e" opacity=".72">Location not verified</text>
     <text x="600" y="768" font-size="22" font-weight="500" fill="#442c2e" opacity=".52">Generated directory artwork, not a likeness</text>
   </g>
 </svg>

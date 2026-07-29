@@ -12227,8 +12227,20 @@
         "primary_location",
         "fine_art_services",
         "specialties",
-        "appraisal_use_cases",
-        "qualification"
+        "appraisal_use_cases"
+      ],
+      "claimReviewHolds": [
+        {
+          "kind": "principal_identity_and_designation",
+          "status": "manual_review",
+          "detectedAt": "2026-07-28",
+          "evidencePacket": "manager/projects/art-directory-consolidation-20260727/evidence/directory-research/packets/open-to-the-public/evidence-packet.json",
+          "blockedPublicTerms": [
+            "Kaycee Olsen",
+            "Kaycee Baron"
+          ],
+          "note": "Current and migrated official-source names conflict. Keep both personal names and the associated designation out of public claims until a human reviewer resolves the history."
+        }
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
       "sourceUrls": [

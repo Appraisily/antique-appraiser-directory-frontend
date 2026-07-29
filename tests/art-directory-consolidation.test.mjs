@@ -7,6 +7,12 @@ import test from 'node:test';
 
 const SCRIPT = new URL('../scripts/consolidate-art-directory-links.mjs', import.meta.url).pathname;
 const SITEMAP = new URL('../public_site/sitemap.xml', import.meta.url).pathname;
+const LOS_ANGELES = new URL(
+  '../public_site/location/los-angeles/index.html',
+  import.meta.url,
+).pathname;
+const DIRECTORY_SHARE_IMAGE =
+  'https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png';
 
 async function fixture(html) {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'art-consolidation-'));
@@ -86,4 +92,24 @@ test('collapses duplicate directory cards into one truthful combined card', asyn
   assert.equal((output.match(/antique-appraiser-directory/g) || []).length, 1);
   assert.match(output, /244 published profiles across 86 public location pages/);
   assert.match(output, /Browse the Antique &amp; Art Appraiser Directory/);
+});
+
+test('Los Angeles uses the approved first-party social image, not the placeholder', async () => {
+  const html = await fs.readFile(LOS_ANGELES, 'utf8');
+  assert.match(
+    html,
+    new RegExp(
+      `<meta property="og:image" content="${DIRECTORY_SHARE_IMAGE.replaceAll('.', '\\.')}">`,
+    ),
+  );
+  assert.match(
+    html,
+    new RegExp(
+      `<meta name="twitter:image" content="${DIRECTORY_SHARE_IMAGE.replaceAll('.', '\\.')}">`,
+    ),
+  );
+  assert.doesNotMatch(
+    html.match(/<head>[\s\S]*?<\/head>/i)?.[0] ?? '',
+    /assets\/directory\/placeholder\.jpg/,
+  );
 });
