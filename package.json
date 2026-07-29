@@ -35,6 +35,7 @@
         "count:appraisers": "node ./scripts/count-appraisers.js",
         "build:llm-feeds": "node ./scripts/build-directory-llm-feeds.mjs --public-dir public_site --kind antique && npm run build:profile-hydration-feed",
         "repair:faq-schema": "node ./scripts/repair-faq-schema.mjs --public-dir public_site",
+        "repair:profile-sharing": "node ./scripts/repair-profile-sharing-metadata.mjs --public-dir public_site --write",
         "repair:internal-location-links": "node ./scripts/repair-internal-location-links.mjs --public-dir public_site",
         "repair:canonical-article-links": "node ./scripts/rewrite-canonical-article-links.mjs --public-dir public_site --write",
     "repair:provider-discovery-graph": "node ./scripts/apply-provider-discovery-graph.mjs --public-dir public_site --write",
