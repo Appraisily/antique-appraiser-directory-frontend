@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "decidedAt": "2026-07-29T08:45:00Z",
+  "decidedBy": "operator-authorized Codex session",
+  "policy": "An indexable city owner requires at least one crawlable approved provider profile plus unique decision utility. Providerless cities remain useful to visitors but are noindex, follow and absent from the sitemap until a provider passes review.",
+  "noindexUntilProvider": [
+    "charlottetown",
+    "cleveland",
+    "des-moines",
+    "kansas-city",
+    "moncton",
+    "saskatoon",
+    "sudbury",
+    "toledo",
+    "whitehorse"
+  ]
+}

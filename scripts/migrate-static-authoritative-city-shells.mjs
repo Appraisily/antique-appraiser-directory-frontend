@@ -7,7 +7,8 @@ import process from 'node:process';
 const ROOT = path.resolve(import.meta.dirname, '..');
 const DEFAULT_PUBLIC_DIR = path.join(ROOT, 'public_site');
 const LEGACY_BUNDLE = '/assets/index-BrMmeR5F.js';
-const REVIEWED_BUNDLE = '/assets/index-Cd3ca0aQ.js';
+const PREVIOUS_REVIEWED_BUNDLE = '/assets/index-Cd3ca0aQ.js';
+const REVIEWED_BUNDLE = '/assets/index-DJGWEWy1.js';
 
 const ROUTES = [
   'anchorage',
@@ -75,7 +76,11 @@ function migrateRoute(html, slug) {
   const originalFingerprint = providerSurfaceFingerprint(html);
   let next = html
     .replaceAll(`${LEGACY_BUNDLE}?v=gsc-ctr-20260703`, REVIEWED_BUNDLE)
-    .replaceAll(LEGACY_BUNDLE, REVIEWED_BUNDLE);
+    .replaceAll(LEGACY_BUNDLE, REVIEWED_BUNDLE)
+    .replace(
+      new RegExp(`${escapeRegExp(PREVIOUS_REVIEWED_BUNDLE)}(?:\\?[^"' ]*)?`, 'g'),
+      REVIEWED_BUNDLE
+    );
 
   if (!next.includes('data-directory-static-authoritative="true"')) {
     const sectionPattern =
@@ -130,11 +135,11 @@ async function validateIndexableCities(publicDir) {
     );
     const reviewedPreloads = countMatches(
       html,
-      /<link\b[^>]*rel=["']preload["'][^>]*href=["']\/assets\/index-Cd3ca0aQ\.js(?:\?[^"']*)?["'][^>]*>/gi
+      /<link\b[^>]*rel=["']preload["'][^>]*href=["']\/assets\/index-DJGWEWy1\.js(?:\?[^"']*)?["'][^>]*>/gi
     );
     const reviewedScripts = countMatches(
       html,
-      /<script\b[^>]*type=["']module["'][^>]*src=["']\/assets\/index-Cd3ca0aQ\.js(?:\?[^"']*)?["'][^>]*>/gi
+      /<script\b[^>]*type=["']module["'][^>]*src=["']\/assets\/index-DJGWEWy1\.js(?:\?[^"']*)?["'][^>]*>/gi
     );
     const exactMarkers = countMatches(
       html,
@@ -171,8 +176,22 @@ async function validateIndexableCities(publicDir) {
 export async function run(options) {
   const changedFiles = [];
   const missingFiles = [];
+  const locationDir = path.join(options.publicDir, 'location');
+  const candidateSlugs = (await fs.readdir(locationDir, { withFileTypes: true }))
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name);
+  const indexableSlugs = [];
+  for (const slug of candidateSlugs) {
+    try {
+      const html = await fs.readFile(path.join(locationDir, slug, 'index.html'), 'utf8');
+      if (isIndexable(html)) indexableSlugs.push(slug);
+    } catch {
+      // Missing route files are handled below for the protected frozen cohort.
+    }
+  }
+  const migrationSlugs = [...new Set([...ROUTES, ...indexableSlugs])].sort();
 
-  for (const slug of ROUTES) {
+  for (const slug of migrationSlugs) {
     const filename = path.join(options.publicDir, 'location', slug, 'index.html');
     let html;
     try {
@@ -200,6 +219,7 @@ export async function run(options) {
     ok: failures.length === 0,
     mode: options.write ? 'write' : 'check',
     frozenRouteCount: ROUTES.length,
+    publishedRouteCount: indexableSlugs.length,
     changedFileCount: changedFiles.length,
     changedFiles,
     ...validation,

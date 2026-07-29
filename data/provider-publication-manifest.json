@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-26T18:51:58.734Z",
-  "policyVersion": 1,
+  "generatedAt": "2026-07-29T09:03:44.937Z",
+  "policyVersion": "provider-packet-approval-v1",
   "summary": {
-    "changedProfiles": 1061,
-    "indexable": 244,
-    "suppressed": 817,
-    "appraiserIndexEntries": 244
+    "total": 1105,
+    "verified": 35,
+    "limited": 254,
+    "suppressed": 816
   },
   "providers": [
     {
@@ -340,6 +340,23 @@
       "canonicalProviderId": "provider:a-j-martin-estate-jewelry-etc"
     },
     {
+      "slug": "a-new-beginning-estate-sales-appraisals",
+      "name": "A New Beginning Estate Sales & Appraisals",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.anewbeginningestatesales.net/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/a-new-beginning-estate-sales-appraisals/",
+      "canonicalProviderId": "provider:a-new-beginning-estate-sales-appraisals",
+      "evidencePacket": "el-paso-a-new-beginning"
+    },
+    {
       "slug": "a-s-estate-sales-of-oregon",
       "name": "A&S Estate Sales of Oregon, LLC",
       "publicationStatus": "limited",
@@ -536,18 +553,23 @@
     {
       "slug": "adams-appraisal-llc",
       "name": "Adams Appraisal LLC",
-      "publicationStatus": "limited",
-      "reason": "direct_match",
-      "sourceUrl": "https://adamsappraisalllc.com/",
-      "sourceType": "official_business_website",
-      "verifiedAt": "2026-07-11",
-      "verifiedBy": "automated_domain_identity_audit",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://adamsappraisalllc.com/about/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/adams-appraisal-llc/",
-      "canonicalProviderId": "provider:adams-appraisal"
+      "canonicalProviderId": "provider:adams-appraisal",
+      "evidencePacket": "chicago-adams-appraisal"
     },
     {
       "slug": "adams-unlimited-inc-estate-buyers-estate-liquidation-antiques-buyer-used-furniture-buyers",
@@ -593,6 +615,32 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/afa-fine-art/",
       "canonicalProviderId": "provider:afa-fine-art"
+    },
+    {
+      "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
+      "name": "AFP Art Consulting, LLC",
+      "publicationStatus": "verified",
+      "reason": "manual_official_website_review",
+      "sourceUrl": "https://afpartconsulting.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+      "canonicalProviderId": "provider:afp-art-consulting",
+      "sourceUrls": [
+        "https://afpartconsulting.com/",
+        "https://afpartconsulting.com/bio",
+        "https://afpartconsulting.com/art-consulting-services"
+      ]
     },
     {
       "slug": "albuquerque-albuquerque-antique-appraisals",
@@ -719,6 +767,27 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/allyson-lee-art-appraisal-services/",
       "canonicalProviderId": "provider:allyson-lee-art-appraisal-services"
+    },
+    {
+      "slug": "allyssa-b-hixenbaugh",
+      "name": "Allyssa B Hixenbaugh",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.vasariappraisal.com/appraisals",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/allyssa-b-hixenbaugh/",
+      "canonicalProviderId": "provider:allyssa-b-hixenbaugh",
+      "evidencePacket": "columbus-allyssa-hixenbaugh"
     },
     {
       "slug": "aloha-estate-jewelry",
@@ -1006,6 +1075,27 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/angell-estate-sales-appraisals/",
       "canonicalProviderId": "provider:angell-estate-sales-appraisal-services"
+    },
+    {
+      "slug": "anita-l-chavez",
+      "name": "Anita L Chavez",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3620/anita-l-chavez",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/anita-l-chavez/",
+      "canonicalProviderId": "provider:anita-l-chavez",
+      "evidencePacket": "albuquerque-anita-chavez"
     },
     {
       "slug": "anita-s-antiques-and-estate-sales",
@@ -2342,6 +2432,45 @@
       "canonicalProviderId": "provider:baton-rouge-prestige-estate-services"
     },
     {
+      "slug": "baton_rouge-baton-rouge-antique-appraisals",
+      "name": "baton_rouge-baton-rouge-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/baton_rouge-baton-rouge-antique-appraisals/",
+      "canonicalProviderId": "provider:baton-rouge-baton-rouge-antique-appraisals"
+    },
+    {
+      "slug": "baton_rouge-hannon-jewelers",
+      "name": "baton_rouge-hannon-jewelers",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/baton_rouge-hannon-jewelers/",
+      "canonicalProviderId": "provider:baton-rouge-hannon-jewelers"
+    },
+    {
+      "slug": "baton_rouge-prestige-estate-services",
+      "name": "baton_rouge-prestige-estate-services",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/baton_rouge-prestige-estate-services/",
+      "canonicalProviderId": "provider:baton-rouge-prestige-estate-services"
+    },
+    {
       "slug": "baton-rouge-antique-appraisals",
       "name": "Baton Rouge Antique Appraisals",
       "publicationStatus": "under_review",
@@ -2391,45 +2520,6 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/baton-rouge-prestige-estate-services/",
-      "canonicalProviderId": "provider:baton-rouge-prestige-estate-services"
-    },
-    {
-      "slug": "baton_rouge-baton-rouge-antique-appraisals",
-      "name": "baton_rouge-baton-rouge-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/baton_rouge-baton-rouge-antique-appraisals/",
-      "canonicalProviderId": "provider:baton-rouge-baton-rouge-antique-appraisals"
-    },
-    {
-      "slug": "baton_rouge-hannon-jewelers",
-      "name": "baton_rouge-hannon-jewelers",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/baton_rouge-hannon-jewelers/",
-      "canonicalProviderId": "provider:baton-rouge-hannon-jewelers"
-    },
-    {
-      "slug": "baton_rouge-prestige-estate-services",
-      "name": "baton_rouge-prestige-estate-services",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/baton_rouge-prestige-estate-services/",
       "canonicalProviderId": "provider:baton-rouge-prestige-estate-services"
     },
     {
@@ -2569,6 +2659,23 @@
       "canonicalProviderId": "provider:birmingham-heritage-valuations-birmingham"
     },
     {
+      "slug": "black-cat-antiques-appraisals",
+      "name": "Black Cat Antiques & Appraisals",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.visitthunderbay.com/Modules/News/blogcomments.aspx?BlogId=88209221-ed05-4474-82e7-a496a1fda8ba&feedid=00d71e19-bc9e-4389-9cb0-7bc1a3466fbd",
+      "sourceType": "official_local_institution",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/black-cat-antiques-appraisals/",
+      "canonicalProviderId": "provider:black-cat-antiques-appraisals",
+      "evidencePacket": "thunder-bay-black-cat-antiques"
+    },
+    {
       "slug": "blades-appraisals-fine-art-and-antique-appraisal-firm-and-broker",
       "name": "BLADES Appraisals and Art Resources",
       "publicationStatus": "limited",
@@ -2587,15 +2694,19 @@
     {
       "slug": "blue-box-auction-gallery",
       "name": "Blue Box Auction Gallery",
-      "publicationStatus": "under_review",
-      "reason": "direct_match",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.blueboxauction.com/appraisals/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/blue-box-auction-gallery/",
-      "canonicalProviderId": "provider:blue-box-auction-gallery"
+      "canonicalProviderId": "provider:blue-box-auction-gallery",
+      "evidencePacket": "norfolk-blue-box-auction"
     },
     {
       "slug": "blue-moon-antiques-estate-sales-appraisals",
@@ -2831,6 +2942,27 @@
       "canonicalProviderId": "provider:brad-peele-estate-sales-appraiser-in-tampa-bay"
     },
     {
+      "slug": "brady-l-dreasher",
+      "name": "Brady L. Dreasher",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://artofestates.com/denver-appraiser/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/brady-l-dreasher/",
+      "canonicalProviderId": "provider:brady-l-dreasher",
+      "evidencePacket": "denver-brady-dreasher"
+    },
+    {
       "slug": "brady-l-dreasher-isa-capp-art-of-estates",
       "name": "Art of Estates Fine Art & Personal Property Appraisal in Aspen",
       "publicationStatus": "under_review",
@@ -2858,6 +2990,23 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/brian-lehman-evaluations/",
       "canonicalProviderId": "provider:brian-lehman-evaluations-estate-antique-appraisal-in-calgary"
+    },
+    {
+      "slug": "brian-price-london-estate-services",
+      "name": "Brian Price",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://estatecleanoutwindsor.ca/estate-services-london/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/brian-price-london-estate-services/",
+      "canonicalProviderId": "provider:brian-price",
+      "evidencePacket": "london-brian-price"
     },
     {
       "slug": "brunsdon-lawrek-associates",
@@ -3128,17 +3277,18 @@
       "slug": "cedarburg-auction-appraisals-llc",
       "name": "Cedarburg Auction & Appraisals LLC",
       "publicationStatus": "limited",
-      "reason": "direct_match",
+      "reason": "operator_approved_source_packet",
       "sourceUrl": "https://www.cedarburgauction.com/",
-      "sourceType": "official_business_website",
-      "verifiedAt": "2026-07-11",
-      "verifiedBy": "automated_domain_identity_audit",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
       "claimScope": [
         "identity",
         "website"
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/cedarburg-auction-appraisals-llc/",
-      "canonicalProviderId": "provider:cedarburg-auction-appraisals"
+      "canonicalProviderId": "provider:cedarburg-auction-appraisals",
+      "evidencePacket": "milwaukee-cedarburg-auction"
     },
     {
       "slug": "central-mass-auctions",
@@ -3439,6 +3589,23 @@
       "canonicalProviderId": "provider:chicago-adams-appraisal"
     },
     {
+      "slug": "chloe-eick-art-appraisals",
+      "name": "Chloe Lynne Eick",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.chloeeickappraisals.com/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/chloe-eick-art-appraisals/",
+      "canonicalProviderId": "provider:chloe-lynne-eick",
+      "evidencePacket": "baton-rouge-chloe-eick"
+    },
+    {
       "slug": "chris-james-jewelry-appraisals",
       "name": "Chris James Co. jewelry appraisal in Nashville, TN",
       "publicationStatus": "limited",
@@ -3524,6 +3691,27 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/clars-auctions/",
       "canonicalProviderId": "provider:clars-auctions"
+    },
+    {
+      "slug": "cleo-l-sloan",
+      "name": "Cleo L Sloan",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13232/cleo-l-sloan",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/cleo-l-sloan/",
+      "canonicalProviderId": "provider:cleo-l-sloan",
+      "evidencePacket": "buffalo-cleo-sloan"
     },
     {
       "slug": "cleveland-appraiseitnow---online-service-covering-ohio",
@@ -3633,6 +3821,32 @@
       "canonicalProviderId": "provider:colorado-springs-heritage-valuations-colorado-springs"
     },
     {
+      "slug": "colorado_springs-colorado-springs-antique-appraisals",
+      "name": "colorado_springs-colorado-springs-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/colorado_springs-colorado-springs-antique-appraisals/",
+      "canonicalProviderId": "provider:colorado-springs-colorado-springs-antique-appraisals"
+    },
+    {
+      "slug": "colorado_springs-heritage-valuations-colorado-springs",
+      "name": "colorado_springs-heritage-valuations-colorado-springs",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/colorado_springs-heritage-valuations-colorado-springs/",
+      "canonicalProviderId": "provider:colorado-springs-heritage-valuations-colorado-springs"
+    },
+    {
       "slug": "colorado-gem-labs",
       "name": "Colorado Gem Labs",
       "publicationStatus": "limited",
@@ -3685,32 +3899,6 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/colorado-springs-heritage-valuations-colorado-springs/",
-      "canonicalProviderId": "provider:colorado-springs-heritage-valuations-colorado-springs"
-    },
-    {
-      "slug": "colorado_springs-colorado-springs-antique-appraisals",
-      "name": "colorado_springs-colorado-springs-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/colorado_springs-colorado-springs-antique-appraisals/",
-      "canonicalProviderId": "provider:colorado-springs-colorado-springs-antique-appraisals"
-    },
-    {
-      "slug": "colorado_springs-heritage-valuations-colorado-springs",
-      "name": "colorado_springs-heritage-valuations-colorado-springs",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/colorado_springs-heritage-valuations-colorado-springs/",
       "canonicalProviderId": "provider:colorado-springs-heritage-valuations-colorado-springs"
     },
     {
@@ -3818,6 +4006,27 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/constantine-fine-art-services/",
       "canonicalProviderId": "provider:constantine-fine-art-services"
+    },
+    {
+      "slug": "courtney-ahlstrom-christy",
+      "name": "Courtney Ahlstrom Christy",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://ahlstromappraisals.com/courtneyahlstromchristy",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/courtney-ahlstrom-christy/",
+      "canonicalProviderId": "provider:courtney-ahlstrom-christy",
+      "evidencePacket": "atlanta-courtney-ahlstrom-christy"
     },
     {
       "slug": "cowley-abbott-auctioneers-appraisers",
@@ -3933,6 +4142,27 @@
       "canonicalProviderId": "provider:preston-amherst-valuation-advisory"
     },
     {
+      "slug": "dana-summitt",
+      "name": "Dana Summitt",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.lookappraisal.com/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/dana-summitt/",
+      "canonicalProviderId": "provider:dana-summitt",
+      "evidencePacket": "raleigh-dana-summitt"
+    },
+    {
       "slug": "danielle-broussard-jewelry-appraisals",
       "name": "Danielle Broussard Jewelry Appraisals",
       "publicationStatus": "under_review",
@@ -3989,6 +4219,23 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/david-lackey-antiques-fine-jewelry/",
       "canonicalProviderId": "provider:david-lackey-antiques-fine-jewelry"
+    },
+    {
+      "slug": "david-levy",
+      "name": "David Levy",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.dlevyantiquesandappraisals.com/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/david-levy/",
+      "canonicalProviderId": "provider:david-levy",
+      "evidencePacket": "savannah-david-levy"
     },
     {
       "slug": "denver-american-gem-registry-neil-beaty-cgja",
@@ -4088,6 +4335,32 @@
       "canonicalProviderId": "provider:des-moines-heritage-valuations-des-moines"
     },
     {
+      "slug": "des_moines-des-moines-antique-appraisals",
+      "name": "des_moines-des-moines-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/des_moines-des-moines-antique-appraisals/",
+      "canonicalProviderId": "provider:des-moines-des-moines-antique-appraisals"
+    },
+    {
+      "slug": "des_moines-heritage-valuations-des-moines",
+      "name": "des_moines-heritage-valuations-des-moines",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/des_moines-heritage-valuations-des-moines/",
+      "canonicalProviderId": "provider:des-moines-heritage-valuations-des-moines"
+    },
+    {
       "slug": "des-moines-antique-appraisals",
       "name": "Des Moines Antique Appraisals",
       "publicationStatus": "under_review",
@@ -4124,32 +4397,6 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/des-moines-heritage-valuations-des-moines/",
-      "canonicalProviderId": "provider:des-moines-heritage-valuations-des-moines"
-    },
-    {
-      "slug": "des_moines-des-moines-antique-appraisals",
-      "name": "des_moines-des-moines-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/des_moines-des-moines-antique-appraisals/",
-      "canonicalProviderId": "provider:des-moines-des-moines-antique-appraisals"
-    },
-    {
-      "slug": "des_moines-heritage-valuations-des-moines",
-      "name": "des_moines-heritage-valuations-des-moines",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/des_moines-heritage-valuations-des-moines/",
       "canonicalProviderId": "provider:des-moines-heritage-valuations-des-moines"
     },
     {
@@ -4306,6 +4553,23 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/djr-authentication-lc/",
       "canonicalProviderId": "provider:djr-authentication"
+    },
+    {
+      "slug": "dodworth-stauffer-art-appraisal",
+      "name": "Dodworth & Stauffer Art Appraisal LLC",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.dodworthart.com/about-us",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/dodworth-stauffer-art-appraisal/",
+      "canonicalProviderId": "provider:dodworth-stauffer-art-appraisal-llc",
+      "evidencePacket": "salt-lake-dodworth-stauffer"
     },
     {
       "slug": "donnelly-and-donnelly-appraisals-estate-sale-services",
@@ -4518,6 +4782,32 @@
       "canonicalProviderId": "provider:el-paso-heritage-valuations-el-paso"
     },
     {
+      "slug": "el_paso-el-paso-antique-appraisals",
+      "name": "el_paso-el-paso-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/el_paso-el-paso-antique-appraisals/",
+      "canonicalProviderId": "provider:el-paso-el-paso-antique-appraisals"
+    },
+    {
+      "slug": "el_paso-heritage-valuations-el-paso",
+      "name": "el_paso-heritage-valuations-el-paso",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/el_paso-heritage-valuations-el-paso/",
+      "canonicalProviderId": "provider:el-paso-heritage-valuations-el-paso"
+    },
+    {
       "slug": "el-paso-antique-appraisals",
       "name": "El Paso Antique Appraisals",
       "publicationStatus": "under_review",
@@ -4557,32 +4847,6 @@
       "canonicalProviderId": "provider:el-paso-heritage-valuations-el-paso"
     },
     {
-      "slug": "el_paso-el-paso-antique-appraisals",
-      "name": "el_paso-el-paso-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/el_paso-el-paso-antique-appraisals/",
-      "canonicalProviderId": "provider:el-paso-el-paso-antique-appraisals"
-    },
-    {
-      "slug": "el_paso-heritage-valuations-el-paso",
-      "name": "el_paso-heritage-valuations-el-paso",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/el_paso-heritage-valuations-el-paso/",
-      "canonicalProviderId": "provider:el-paso-heritage-valuations-el-paso"
-    },
-    {
       "slug": "elizabeth-abston-llc",
       "name": "Elizabeth Abston LLC Fine Art Appraisal & Advisory",
       "publicationStatus": "under_review",
@@ -4607,6 +4871,44 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/elizabeth-antique-appraisal-service/",
       "canonicalProviderId": "provider:elizabeth-antique-appraisal-service"
+    },
+    {
+      "slug": "elizabeth-edwards",
+      "name": "Elizabeth Edwards",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://isa-appraisers.ca/appraiser/elizabeth-edwards/",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/elizabeth-edwards/",
+      "canonicalProviderId": "provider:elizabeth-edwards",
+      "evidencePacket": "kitchener-elizabeth-edwards"
+    },
+    {
+      "slug": "elizabeth-garrett-ryan",
+      "name": "Elizabeth Garrett Ryan",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://charlestonappraisals.net/contact",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/elizabeth-garrett-ryan/",
+      "canonicalProviderId": "provider:elizabeth-garrett-ryan",
+      "evidencePacket": "charleston-elizabeth-ryan"
     },
     {
       "slug": "ellen-amirkhan-crs-orra-csa-fcearug-specialist",
@@ -4717,6 +5019,26 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/ena-art-group/",
       "canonicalProviderId": "provider:ena-appraisals-fine-art"
+    },
+    {
+      "slug": "erin-mcdonald",
+      "name": "Erin McDonald",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://emc3consulting.ca/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/erin-mcdonald/",
+      "canonicalProviderId": "provider:erin-mcdonald",
+      "evidencePacket": "edmonton-erin-mcdonald"
     },
     {
       "slug": "escher-associates",
@@ -5045,6 +5367,84 @@
       "canonicalProviderId": "provider:fort-worth-licensed-professionals"
     },
     {
+      "slug": "fort_lauderdale-fort-lauderdale-antique-appraisals",
+      "name": "fort_lauderdale-fort-lauderdale-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_lauderdale-fort-lauderdale-antique-appraisals/",
+      "canonicalProviderId": "provider:fort-lauderdale-fort-lauderdale-antique-appraisals"
+    },
+    {
+      "slug": "fort_lauderdale-koosh-jewelers",
+      "name": "fort_lauderdale-koosh-jewelers",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_lauderdale-koosh-jewelers/",
+      "canonicalProviderId": "provider:fort-lauderdale-koosh-jewelers"
+    },
+    {
+      "slug": "fort_lauderdale-moecker-auctions-inc",
+      "name": "fort_lauderdale-moecker-auctions-inc",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_lauderdale-moecker-auctions-inc/",
+      "canonicalProviderId": "provider:fort-lauderdale-moecker-auctions"
+    },
+    {
+      "slug": "fort_worth-fort-worth-antique-appraisals",
+      "name": "fort_worth-fort-worth-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_worth-fort-worth-antique-appraisals/",
+      "canonicalProviderId": "provider:fort-worth-fort-worth-antique-appraisals"
+    },
+    {
+      "slug": "fort_worth-heritage-valuations-fort-worth",
+      "name": "fort_worth-heritage-valuations-fort-worth",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_worth-heritage-valuations-fort-worth/",
+      "canonicalProviderId": "provider:fort-worth-heritage-valuations-fort-worth"
+    },
+    {
+      "slug": "fort_worth-licensed-professionals",
+      "name": "fort_worth-licensed-professionals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_worth-licensed-professionals/",
+      "canonicalProviderId": "provider:fort-worth-licensed-professionals"
+    },
+    {
       "slug": "fort-lauderdale-antique-appraisals",
       "name": "Fort Lauderdale Antique Appraisals",
       "publicationStatus": "under_review",
@@ -5165,84 +5565,6 @@
       "canonicalProviderId": "provider:fort-worth-licensed-professionals"
     },
     {
-      "slug": "fort_lauderdale-fort-lauderdale-antique-appraisals",
-      "name": "fort_lauderdale-fort-lauderdale-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_lauderdale-fort-lauderdale-antique-appraisals/",
-      "canonicalProviderId": "provider:fort-lauderdale-fort-lauderdale-antique-appraisals"
-    },
-    {
-      "slug": "fort_lauderdale-koosh-jewelers",
-      "name": "fort_lauderdale-koosh-jewelers",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_lauderdale-koosh-jewelers/",
-      "canonicalProviderId": "provider:fort-lauderdale-koosh-jewelers"
-    },
-    {
-      "slug": "fort_lauderdale-moecker-auctions-inc",
-      "name": "fort_lauderdale-moecker-auctions-inc",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_lauderdale-moecker-auctions-inc/",
-      "canonicalProviderId": "provider:fort-lauderdale-moecker-auctions"
-    },
-    {
-      "slug": "fort_worth-fort-worth-antique-appraisals",
-      "name": "fort_worth-fort-worth-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_worth-fort-worth-antique-appraisals/",
-      "canonicalProviderId": "provider:fort-worth-fort-worth-antique-appraisals"
-    },
-    {
-      "slug": "fort_worth-heritage-valuations-fort-worth",
-      "name": "fort_worth-heritage-valuations-fort-worth",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_worth-heritage-valuations-fort-worth/",
-      "canonicalProviderId": "provider:fort-worth-heritage-valuations-fort-worth"
-    },
-    {
-      "slug": "fort_worth-licensed-professionals",
-      "name": "fort_worth-licensed-professionals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fort_worth-licensed-professionals/",
-      "canonicalProviderId": "provider:fort-worth-licensed-professionals"
-    },
-    {
       "slug": "foss-appraisal-service",
       "name": "Foss Appraisal Service",
       "publicationStatus": "limited",
@@ -5270,6 +5592,27 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fox-white-art-and-antique-appraisals-nyc/",
       "canonicalProviderId": "provider:fox-white-art-antique-appraisals"
+    },
+    {
+      "slug": "francis-germain",
+      "name": "Francis Germain",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.mcmastergallery.ca/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/francis-germain/",
+      "canonicalProviderId": "provider:francis-germain",
+      "evidencePacket": "hamilton-francis-germain"
     },
     {
       "slug": "fredericton-jardine-auctioneers-inc",
@@ -5485,6 +5828,27 @@
       "canonicalProviderId": "provider:gemsecure-jewelry-appraisals"
     },
     {
+      "slug": "germaine-pataki-theriault",
+      "name": "Germaine Pataki-Thériault",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://gallery78.com/pages/art-appraising",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/germaine-pataki-theriault/",
+      "canonicalProviderId": "provider:germaine-pataki-theriault",
+      "evidencePacket": "fredericton-germaine-pataki-theriault"
+    },
+    {
       "slug": "giardina-fine-art-appraisal-services",
       "name": "GIARDINA Fine Art Appraisal Services",
       "publicationStatus": "under_review",
@@ -5548,6 +5912,27 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/great-estates-auctioneers-appraisers/",
       "canonicalProviderId": "provider:great-estates-auctioneers-appraisers"
+    },
+    {
+      "slug": "greer-simonton",
+      "name": "Greer Simonton",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "http://www.memphisantiqueappraisals.com/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/greer-simonton/",
+      "canonicalProviderId": "provider:greer-simonton",
+      "evidencePacket": "memphis-greer-simonton"
     },
     {
       "slug": "gretchen-burch",
@@ -5874,6 +6259,31 @@
       "canonicalProviderId": "provider:hearts-and-arrows-jewelry-appraisals"
     },
     {
+      "slug": "heidi-vaughan-ma-isa-am",
+      "name": "Heidi Vaughan Fine Art",
+      "publicationStatus": "verified",
+      "reason": "manual_official_website_review",
+      "sourceUrl": "https://heidivaughanfineart.com/about",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+      "canonicalProviderId": "provider:heidi-vaughan-ma-am",
+      "sourceUrls": [
+        "https://heidivaughanfineart.com/about",
+        "https://heidivaughanfineart.com/gallery-team"
+      ]
+    },
+    {
       "slug": "heirloom-estates-llc-919-323-7524",
       "name": "Heirloom Estates, LLC",
       "publicationStatus": "limited",
@@ -5888,6 +6298,27 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/heirloom-estates-llc-919-323-7524/",
       "canonicalProviderId": "provider:heirloom-estates"
+    },
+    {
+      "slug": "helen-delacretaz",
+      "name": "Helen Delacretaz",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://isa-appraisers.ca/appraiser/helen-delacretaz/",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/helen-delacretaz/",
+      "canonicalProviderId": "provider:helen-delacretaz",
+      "evidencePacket": "victoria-helen-delacretaz"
     },
     {
       "slug": "hereafter-auctions-and-appraisals",
@@ -6721,6 +7152,23 @@
       "canonicalProviderId": "provider:professional-appraisers-of-texas"
     },
     {
+      "slug": "howard-and-thomas-auction-house",
+      "name": "Howard & Thomas Auction House",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://howardandthomas.com/appraisals/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/howard-and-thomas-auction-house/",
+      "canonicalProviderId": "provider:howard-thomas-auction-house",
+      "evidencePacket": "louisville-howard-and-thomas"
+    },
+    {
       "slug": "howard-thomas-auction-house",
       "name": "Howard & Thomas Auction House",
       "publicationStatus": "under_review",
@@ -7016,6 +7464,27 @@
       "canonicalProviderId": "provider:jewelry-appraisal-services"
     },
     {
+      "slug": "jeffrey-pearson",
+      "name": "Jeffrey L Pearson",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://a-zappraisal.com/about-us/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/jeffrey-pearson/",
+      "canonicalProviderId": "provider:jeffrey-l-pearson",
+      "evidencePacket": "phoenix-jeffrey-pearson"
+    },
+    {
       "slug": "jennifer-l-strasbaugh-fine-arts-appraising",
       "name": "Jennifer L. Strasbaugh, Fine Arts Appraising",
       "publicationStatus": "under_review",
@@ -7027,6 +7496,48 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/jennifer-l-strasbaugh-fine-arts-appraising/",
       "canonicalProviderId": "provider:jennifer-l-strasbaugh-fine-arts-appraising"
+    },
+    {
+      "slug": "jennifer-n-carman",
+      "name": "Jennifer N Carman",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13159/jennifer-n-carman",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/jennifer-n-carman/",
+      "canonicalProviderId": "provider:jennifer-n-carman",
+      "evidencePacket": "little-rock-jennifer-carman"
+    },
+    {
+      "slug": "jessica-strongin",
+      "name": "Jessica Strongin",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8477/jessica-strongin",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/jessica-strongin/",
+      "canonicalProviderId": "provider:jessica-strongin",
+      "evidencePacket": "providence-jessica-strongin"
     },
     {
       "slug": "jewelery-savers",
@@ -7181,6 +7692,44 @@
       "canonicalProviderId": "provider:joel-bohy"
     },
     {
+      "slug": "john-c-abajian",
+      "name": "John C. Abajian",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/835/john-abajian",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/john-c-abajian/",
+      "canonicalProviderId": "provider:john-c-abajian",
+      "evidencePacket": "new-orleans-john-abajian"
+    },
+    {
+      "slug": "john-picard-hanna-antiques",
+      "name": "John E Picard",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/12980/john-e-picard",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/john-picard-hanna-antiques/",
+      "canonicalProviderId": "provider:john-e-picard",
+      "evidencePacket": "birmingham-john-picard"
+    },
+    {
       "slug": "jrl-fine-art-appraisal",
       "name": "JRL Fine Art Appraisal",
       "publicationStatus": "under_review",
@@ -7281,6 +7830,27 @@
       "canonicalProviderId": "provider:kanonn-s-jewelry-appraisals-repair-and-design"
     },
     {
+      "slug": "karen-riffe",
+      "name": "Karen D Riffe",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13046/karen-d-riffe",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/karen-riffe/",
+      "canonicalProviderId": "provider:karen-d-riffe",
+      "evidencePacket": "orlando-karen-riffe"
+    },
+    {
       "slug": "kathleen-doyle-antiquestor",
       "name": "Kathleen Doyle (Antiquestor)",
       "publicationStatus": "limited",
@@ -7308,6 +7878,27 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/kathleen-doyle-antiquestor-2238/",
       "canonicalProviderId": "provider:kathleen-doyle-antiquestor-2238"
+    },
+    {
+      "slug": "kelly-juhasz",
+      "name": "Kelly Juhasz",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.fineartappraisalandservices.com/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/kelly-juhasz/",
+      "canonicalProviderId": "provider:kelly-juhasz",
+      "evidencePacket": "toronto-kelly-juhasz"
     },
     {
       "slug": "kelly-juhaszfine-art-appraisalservices",
@@ -7677,71 +8268,6 @@
       "canonicalProviderId": "provider:las-vegas-richard-cervantes-doyle-new-york"
     },
     {
-      "slug": "las-vegas-anthony-slayter-ralph-fine-art",
-      "name": "las-vegas-anthony-slayter-ralph-fine-art",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-anthony-slayter-ralph-fine-art/",
-      "canonicalProviderId": "provider:las-vegas-anthony-slayter-ralph-fine-art"
-    },
-    {
-      "slug": "las-vegas-appraiser-listings",
-      "name": "las-vegas-appraiser-listings",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-appraiser-listings/",
-      "canonicalProviderId": "provider:las-vegas-appraiser-listings"
-    },
-    {
-      "slug": "las-vegas-joel-bohy-blackstone-valley-auctions",
-      "name": "las-vegas-joel-bohy-blackstone-valley-auctions",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-joel-bohy-blackstone-valley-auctions/",
-      "canonicalProviderId": "provider:las-vegas-joel-bohy-blackstone-valley-auctions"
-    },
-    {
-      "slug": "las-vegas-prestige-estate-services",
-      "name": "las-vegas-prestige-estate-services",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-prestige-estate-services/",
-      "canonicalProviderId": "provider:las-vegas-prestige-estate-services"
-    },
-    {
-      "slug": "las-vegas-richard-cervantes-doyle-new-york",
-      "name": "las-vegas-richard-cervantes-doyle-new-york",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-richard-cervantes-doyle-new-york/",
-      "canonicalProviderId": "provider:las-vegas-richard-cervantes-doyle-new-york"
-    },
-    {
       "slug": "las_vegas-anthony-slayter-ralph-fine-art",
       "name": "las_vegas-anthony-slayter-ralph-fine-art",
       "publicationStatus": "under_review",
@@ -7807,6 +8333,71 @@
       "canonicalProviderId": "provider:las-vegas-richard-cervantes-doyle-new-york"
     },
     {
+      "slug": "las-vegas-anthony-slayter-ralph-fine-art",
+      "name": "las-vegas-anthony-slayter-ralph-fine-art",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-anthony-slayter-ralph-fine-art/",
+      "canonicalProviderId": "provider:las-vegas-anthony-slayter-ralph-fine-art"
+    },
+    {
+      "slug": "las-vegas-appraiser-listings",
+      "name": "las-vegas-appraiser-listings",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-appraiser-listings/",
+      "canonicalProviderId": "provider:las-vegas-appraiser-listings"
+    },
+    {
+      "slug": "las-vegas-joel-bohy-blackstone-valley-auctions",
+      "name": "las-vegas-joel-bohy-blackstone-valley-auctions",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-joel-bohy-blackstone-valley-auctions/",
+      "canonicalProviderId": "provider:las-vegas-joel-bohy-blackstone-valley-auctions"
+    },
+    {
+      "slug": "las-vegas-prestige-estate-services",
+      "name": "las-vegas-prestige-estate-services",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-prestige-estate-services/",
+      "canonicalProviderId": "provider:las-vegas-prestige-estate-services"
+    },
+    {
+      "slug": "las-vegas-richard-cervantes-doyle-new-york",
+      "name": "las-vegas-richard-cervantes-doyle-new-york",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/las-vegas-richard-cervantes-doyle-new-york/",
+      "canonicalProviderId": "provider:las-vegas-richard-cervantes-doyle-new-york"
+    },
+    {
       "slug": "lastovica-jewelry-appraisal",
       "name": "Lastovica Jewelry Appraisal",
       "publicationStatus": "under_review",
@@ -7818,6 +8409,27 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/lastovica-jewelry-appraisal/",
       "canonicalProviderId": "provider:lastovica-jewelry-appraisal"
+    },
+    {
+      "slug": "laura-a-nelson",
+      "name": "Laura A Nelson",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1341/laura-a-nelson",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/laura-a-nelson/",
+      "canonicalProviderId": "provider:laura-a-nelson",
+      "evidencePacket": "tulsa-laura-nelson"
     },
     {
       "slug": "laura-furr-appraisals-and-helping-hand-estate-services-inc",
@@ -7923,6 +8535,23 @@
       "canonicalProviderId": "provider:leo-hamel-jewelry-gold-buyers-san-diego-avenue"
     },
     {
+      "slug": "les-antiquites-bolduc",
+      "name": "Les Antiquités Bolduc",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.lesantiquitesbolduc.com/pages/a-propos",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/les-antiquites-bolduc/",
+      "canonicalProviderId": "provider:les-antiquites-bolduc",
+      "evidencePacket": "quebec-city-antiquites-bolduc"
+    },
+    {
       "slug": "lexington-antique-appraisals",
       "name": "Lexington Antique Appraisals",
       "publicationStatus": "under_review",
@@ -8012,6 +8641,65 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/licensed-professionals/",
       "canonicalProviderId": "provider:licensed-professionals"
+    },
+    {
+      "slug": "linda-hawthorne",
+      "name": "Linda Hawthorne",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/655/linda-hawthorne",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/linda-hawthorne/",
+      "canonicalProviderId": "provider:linda-hawthorne",
+      "evidencePacket": "sacramento-linda-hawthorne"
+    },
+    {
+      "slug": "lindsay-inouye",
+      "name": "Lindsay Inouye",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.ballardfineart.com/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/lindsay-inouye/",
+      "canonicalProviderId": "provider:lindsay-inouye",
+      "evidencePacket": "vancouver-lindsay-inouye"
+    },
+    {
+      "slug": "lisa-w-duke-lwduke-appraisals",
+      "name": "Lisa W. Duke",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.lwdukeappraisals.net/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/lisa-w-duke-lwduke-appraisals/",
+      "canonicalProviderId": "provider:lisa-w-duke",
+      "evidencePacket": "colorado-springs-lisa-duke"
     },
     {
       "slug": "list-of-antique-appraisal-services",
@@ -8105,6 +8793,32 @@
       "canonicalProviderId": "provider:little-rock-little-rock-antique-appraisals"
     },
     {
+      "slug": "little_rock-heritage-valuations-little-rock",
+      "name": "little_rock-heritage-valuations-little-rock",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/little_rock-heritage-valuations-little-rock/",
+      "canonicalProviderId": "provider:little-rock-heritage-valuations-little-rock"
+    },
+    {
+      "slug": "little_rock-little-rock-antique-appraisals",
+      "name": "little_rock-little-rock-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/little_rock-little-rock-antique-appraisals/",
+      "canonicalProviderId": "provider:little-rock-little-rock-antique-appraisals"
+    },
+    {
       "slug": "little-rock-antique-appraisals",
       "name": "Little Rock Antique Appraisals",
       "publicationStatus": "under_review",
@@ -8141,32 +8855,6 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/little-rock-little-rock-antique-appraisals/",
-      "canonicalProviderId": "provider:little-rock-little-rock-antique-appraisals"
-    },
-    {
-      "slug": "little_rock-heritage-valuations-little-rock",
-      "name": "little_rock-heritage-valuations-little-rock",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/little_rock-heritage-valuations-little-rock/",
-      "canonicalProviderId": "provider:little-rock-heritage-valuations-little-rock"
-    },
-    {
-      "slug": "little_rock-little-rock-antique-appraisals",
-      "name": "little_rock-little-rock-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/little_rock-little-rock-antique-appraisals/",
       "canonicalProviderId": "provider:little-rock-little-rock-antique-appraisals"
     },
     {
@@ -8261,6 +8949,45 @@
       "canonicalProviderId": "provider:long-beach-long-beach-antique-appraisals"
     },
     {
+      "slug": "long_beach-1-eagle-home-appraisal",
+      "name": "long_beach-1-eagle-home-appraisal",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/long_beach-1-eagle-home-appraisal/",
+      "canonicalProviderId": "provider:long-beach-1-eagle-home-appraisal"
+    },
+    {
+      "slug": "long_beach-heritage-valuations-long-beach",
+      "name": "long_beach-heritage-valuations-long-beach",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/long_beach-heritage-valuations-long-beach/",
+      "canonicalProviderId": "provider:long-beach-heritage-valuations-long-beach"
+    },
+    {
+      "slug": "long_beach-long-beach-antique-appraisals",
+      "name": "long_beach-long-beach-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/long_beach-long-beach-antique-appraisals/",
+      "canonicalProviderId": "provider:long-beach-long-beach-antique-appraisals"
+    },
+    {
       "slug": "long-beach-1-eagle-home-appraisal",
       "name": "long-beach-1-eagle-home-appraisal",
       "publicationStatus": "under_review",
@@ -8313,45 +9040,6 @@
       "canonicalProviderId": "provider:long-beach-long-beach-antique-appraisals"
     },
     {
-      "slug": "long_beach-1-eagle-home-appraisal",
-      "name": "long_beach-1-eagle-home-appraisal",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/long_beach-1-eagle-home-appraisal/",
-      "canonicalProviderId": "provider:long-beach-1-eagle-home-appraisal"
-    },
-    {
-      "slug": "long_beach-heritage-valuations-long-beach",
-      "name": "long_beach-heritage-valuations-long-beach",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/long_beach-heritage-valuations-long-beach/",
-      "canonicalProviderId": "provider:long-beach-heritage-valuations-long-beach"
-    },
-    {
-      "slug": "long_beach-long-beach-antique-appraisals",
-      "name": "long_beach-long-beach-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/long_beach-long-beach-antique-appraisals/",
-      "canonicalProviderId": "provider:long-beach-long-beach-antique-appraisals"
-    },
-    {
       "slug": "look-appraisal",
       "name": "Look Appraisal, LLC",
       "publicationStatus": "under_review",
@@ -8378,19 +9066,6 @@
       "canonicalProviderId": "provider:los-angeles-heritage-valuations-los-angeles"
     },
     {
-      "slug": "los-angeles-heritage-valuations-los-angeles",
-      "name": "los-angeles-heritage-valuations-los-angeles",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/los-angeles-heritage-valuations-los-angeles/",
-      "canonicalProviderId": "provider:los-angeles-heritage-valuations-los-angeles"
-    },
-    {
       "slug": "los_angeles-heritage-valuations-los-angeles",
       "name": "los_angeles-heritage-valuations-los-angeles",
       "publicationStatus": "under_review",
@@ -8401,6 +9076,19 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/los_angeles-heritage-valuations-los-angeles/",
+      "canonicalProviderId": "provider:los-angeles-heritage-valuations-los-angeles"
+    },
+    {
+      "slug": "los-angeles-heritage-valuations-los-angeles",
+      "name": "los-angeles-heritage-valuations-los-angeles",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/los-angeles-heritage-valuations-los-angeles/",
       "canonicalProviderId": "provider:los-angeles-heritage-valuations-los-angeles"
     },
     {
@@ -8454,6 +9142,23 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/louisville-prestige-estate-services/",
       "canonicalProviderId": "provider:louisville-prestige-estate-services"
+    },
+    {
+      "slug": "lynn-roberts",
+      "name": "Lynn Roberts",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.lynnrobertsappraisals.com/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/lynn-roberts/",
+      "canonicalProviderId": "provider:lynn-roberts",
+      "evidencePacket": "tucson-lynn-roberts"
     },
     {
       "slug": "madison-group-fine-art-appraisals",
@@ -9243,6 +9948,84 @@
       "canonicalProviderId": "provider:new-york-prestige-estate-services"
     },
     {
+      "slug": "new_orleans-kohlert-appraisal-services",
+      "name": "new_orleans-kohlert-appraisal-services",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_orleans-kohlert-appraisal-services/",
+      "canonicalProviderId": "provider:new-orleans-kohlert-appraisal-services"
+    },
+    {
+      "slug": "new_orleans-le-garage-antiques-clothing",
+      "name": "new_orleans-le-garage-antiques-clothing",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_orleans-le-garage-antiques-clothing/",
+      "canonicalProviderId": "provider:new-orleans-le-garage-antiques-clothing"
+    },
+    {
+      "slug": "new_orleans-prestige-estate-services-network",
+      "name": "new_orleans-prestige-estate-services-network",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_orleans-prestige-estate-services-network/",
+      "canonicalProviderId": "provider:new-orleans-prestige-estate-services-network"
+    },
+    {
+      "slug": "new_york-antiquities-buy-near-ctnyc-w-smith-auctions",
+      "name": "new_york-antiquities-buy-near-ctnyc-w-smith-auctions",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_york-antiquities-buy-near-ctnyc-w-smith-auctions/",
+      "canonicalProviderId": "provider:new-york-antiquities-buy-near-ctnyc-w-smith-auctions"
+    },
+    {
+      "slug": "new_york-great-estates-auctioneers-appraisers",
+      "name": "new_york-great-estates-auctioneers-appraisers",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_york-great-estates-auctioneers-appraisers/",
+      "canonicalProviderId": "provider:new-york-great-estates-auctioneers-appraisers"
+    },
+    {
+      "slug": "new_york-prestige-estate-services",
+      "name": "new_york-prestige-estate-services",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_york-prestige-estate-services/",
+      "canonicalProviderId": "provider:new-york-prestige-estate-services"
+    },
+    {
       "slug": "new-orleans-kohlert-appraisal-services",
       "name": "new-orleans-kohlert-appraisal-services",
       "publicationStatus": "under_review",
@@ -9334,82 +10117,21 @@
       "canonicalProviderId": "provider:new-york-prestige-estate-services"
     },
     {
-      "slug": "new_orleans-kohlert-appraisal-services",
-      "name": "new_orleans-kohlert-appraisal-services",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_orleans-kohlert-appraisal-services/",
-      "canonicalProviderId": "provider:new-orleans-kohlert-appraisal-services"
-    },
-    {
-      "slug": "new_orleans-le-garage-antiques-clothing",
-      "name": "new_orleans-le-garage-antiques-clothing",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_orleans-le-garage-antiques-clothing/",
-      "canonicalProviderId": "provider:new-orleans-le-garage-antiques-clothing"
-    },
-    {
-      "slug": "new_orleans-prestige-estate-services-network",
-      "name": "new_orleans-prestige-estate-services-network",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_orleans-prestige-estate-services-network/",
-      "canonicalProviderId": "provider:new-orleans-prestige-estate-services-network"
-    },
-    {
-      "slug": "new_york-antiquities-buy-near-ctnyc-w-smith-auctions",
-      "name": "new_york-antiquities-buy-near-ctnyc-w-smith-auctions",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_york-antiquities-buy-near-ctnyc-w-smith-auctions/",
-      "canonicalProviderId": "provider:new-york-antiquities-buy-near-ctnyc-w-smith-auctions"
-    },
-    {
-      "slug": "new_york-great-estates-auctioneers-appraisers",
-      "name": "new_york-great-estates-auctioneers-appraisers",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_york-great-estates-auctioneers-appraisers/",
-      "canonicalProviderId": "provider:new-york-great-estates-auctioneers-appraisers"
-    },
-    {
-      "slug": "new_york-prestige-estate-services",
-      "name": "new_york-prestige-estate-services",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/new_york-prestige-estate-services/",
-      "canonicalProviderId": "provider:new-york-prestige-estate-services"
+      "slug": "newfoundland-antiques",
+      "name": "Newfoundland Antiques",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://newfoundlandantiques.com/about-us/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/newfoundland-antiques/",
+      "canonicalProviderId": "provider:newfoundland-antiques",
+      "evidencePacket": "st-john-s-newfoundland-antiques"
     },
     {
       "slug": "nh-auctions-and-appraisals",
@@ -9642,6 +10364,45 @@
       "canonicalProviderId": "provider:oklahoma-city-prestige-estate-services"
     },
     {
+      "slug": "oklahoma_city-heritage-valuations-oklahoma-city",
+      "name": "oklahoma_city-heritage-valuations-oklahoma-city",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma_city-heritage-valuations-oklahoma-city/",
+      "canonicalProviderId": "provider:oklahoma-city-heritage-valuations-oklahoma-city"
+    },
+    {
+      "slug": "oklahoma_city-oklahoma-city-antique-appraisals",
+      "name": "oklahoma_city-oklahoma-city-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma_city-oklahoma-city-antique-appraisals/",
+      "canonicalProviderId": "provider:oklahoma-city-oklahoma-city-antique-appraisals"
+    },
+    {
+      "slug": "oklahoma_city-prestige-estate-services",
+      "name": "oklahoma_city-prestige-estate-services",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma_city-prestige-estate-services/",
+      "canonicalProviderId": "provider:oklahoma-city-prestige-estate-services"
+    },
+    {
       "slug": "oklahoma-city-antique-appraisals",
       "name": "Oklahoma City Antique Appraisals",
       "publicationStatus": "under_review",
@@ -9691,45 +10452,6 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma-city-prestige-estate-services/",
-      "canonicalProviderId": "provider:oklahoma-city-prestige-estate-services"
-    },
-    {
-      "slug": "oklahoma_city-heritage-valuations-oklahoma-city",
-      "name": "oklahoma_city-heritage-valuations-oklahoma-city",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma_city-heritage-valuations-oklahoma-city/",
-      "canonicalProviderId": "provider:oklahoma-city-heritage-valuations-oklahoma-city"
-    },
-    {
-      "slug": "oklahoma_city-oklahoma-city-antique-appraisals",
-      "name": "oklahoma_city-oklahoma-city-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma_city-oklahoma-city-antique-appraisals/",
-      "canonicalProviderId": "provider:oklahoma-city-oklahoma-city-antique-appraisals"
-    },
-    {
-      "slug": "oklahoma_city-prestige-estate-services",
-      "name": "oklahoma_city-prestige-estate-services",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/oklahoma_city-prestige-estate-services/",
       "canonicalProviderId": "provider:oklahoma-city-prestige-estate-services"
     },
     {
@@ -9783,6 +10505,32 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/omaha-prestige-estate-services/",
       "canonicalProviderId": "provider:omaha-prestige-estate-services"
+    },
+    {
+      "slug": "open-to-the-public",
+      "name": "Open to the Public",
+      "publicationStatus": "verified",
+      "reason": "manual_official_website_review",
+      "sourceUrl": "https://opentothepublic.art/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
+      "canonicalProviderId": "provider:open-to-the-public",
+      "sourceUrls": [
+        "https://opentothepublic.art/",
+        "https://opentothepublic.art/about/",
+        "https://opentothepublic.art/art-appraisals/"
+      ]
     },
     {
       "slug": "oriental-rug-cleaning-co",
@@ -9999,6 +10747,32 @@
       "canonicalProviderId": "provider:palm-beach-palm-beach-antique-appraisals"
     },
     {
+      "slug": "palm_beach-2-fontaines-auction-gallery",
+      "name": "palm_beach-2-fontaines-auction-gallery",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/palm_beach-2-fontaines-auction-gallery/",
+      "canonicalProviderId": "provider:palm-beach-2-fontaines-auction-gallery"
+    },
+    {
+      "slug": "palm_beach-palm-beach-antique-appraisals",
+      "name": "palm_beach-palm-beach-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/palm_beach-palm-beach-antique-appraisals/",
+      "canonicalProviderId": "provider:palm-beach-palm-beach-antique-appraisals"
+    },
+    {
       "slug": "palm-beach-2-fontaines-auction-gallery",
       "name": "palm-beach-2-fontaines-auction-gallery",
       "publicationStatus": "under_review",
@@ -10069,32 +10843,6 @@
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/palm-beach-valuepros/",
       "canonicalSlug": "valuepros",
       "canonicalProviderId": "provider:valuepros"
-    },
-    {
-      "slug": "palm_beach-2-fontaines-auction-gallery",
-      "name": "palm_beach-2-fontaines-auction-gallery",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/palm_beach-2-fontaines-auction-gallery/",
-      "canonicalProviderId": "provider:palm-beach-2-fontaines-auction-gallery"
-    },
-    {
-      "slug": "palm_beach-palm-beach-antique-appraisals",
-      "name": "palm_beach-palm-beach-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/palm_beach-palm-beach-antique-appraisals/",
-      "canonicalProviderId": "provider:palm-beach-palm-beach-antique-appraisals"
     },
     {
       "slug": "pamela-pierrepont-bardo",
@@ -10670,6 +11418,23 @@
       "canonicalProviderId": "provider:prestige-estate-services-boston-office"
     },
     {
+      "slug": "prestige-estate-services-long-beach",
+      "name": "Prestige Estate Services",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://prestigeestateservices.com/locations/long-beach-ca/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services-long-beach/",
+      "canonicalProviderId": "provider:prestige-estate-services",
+      "evidencePacket": "long-beach-prestige-estate-services"
+    },
+    {
       "slug": "prestige-estate-services-network",
       "name": "Prestige Estate Services Network",
       "publicationStatus": "under_review",
@@ -10832,45 +11597,6 @@
       "canonicalProviderId": "provider:quebec-city-notable-antique-appraisal-services"
     },
     {
-      "slug": "quebec-city-empire-appraisers",
-      "name": "quebec-city-empire-appraisers",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/quebec-city-empire-appraisers/",
-      "canonicalProviderId": "provider:quebec-city-empire-appraisers"
-    },
-    {
-      "slug": "quebec-city-inuit-sculptures-art-gallery",
-      "name": "quebec-city-inuit-sculptures-art-gallery",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/quebec-city-inuit-sculptures-art-gallery/",
-      "canonicalProviderId": "provider:quebec-city-inuit-sculptures-art-gallery"
-    },
-    {
-      "slug": "quebec-city-notable-antique-appraisal-services",
-      "name": "quebec-city-notable-antique-appraisal-services",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/quebec-city-notable-antique-appraisal-services/",
-      "canonicalProviderId": "provider:quebec-city-notable-antique-appraisal-services"
-    },
-    {
       "slug": "quebec_city-empire-appraisers",
       "name": "quebec_city-empire-appraisers",
       "publicationStatus": "under_review",
@@ -10907,6 +11633,45 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/quebec_city-notable-antique-appraisal-services/",
+      "canonicalProviderId": "provider:quebec-city-notable-antique-appraisal-services"
+    },
+    {
+      "slug": "quebec-city-empire-appraisers",
+      "name": "quebec-city-empire-appraisers",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/quebec-city-empire-appraisers/",
+      "canonicalProviderId": "provider:quebec-city-empire-appraisers"
+    },
+    {
+      "slug": "quebec-city-inuit-sculptures-art-gallery",
+      "name": "quebec-city-inuit-sculptures-art-gallery",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/quebec-city-inuit-sculptures-art-gallery/",
+      "canonicalProviderId": "provider:quebec-city-inuit-sculptures-art-gallery"
+    },
+    {
+      "slug": "quebec-city-notable-antique-appraisal-services",
+      "name": "quebec-city-notable-antique-appraisal-services",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/quebec-city-notable-antique-appraisal-services/",
       "canonicalProviderId": "provider:quebec-city-notable-antique-appraisal-services"
     },
     {
@@ -11079,6 +11844,23 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/reilly-clark-fine-art-and-appraisals/",
       "canonicalProviderId": "provider:reilly-clark-fine-art-appraisals"
+    },
+    {
+      "slug": "revere-auctions",
+      "name": "Revere Auctions",
+      "publicationStatus": "limited",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.revereauctions.com/about/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/revere-auctions/",
+      "canonicalProviderId": "provider:revere-auctions",
+      "evidencePacket": "st-paul-revere-auctions"
     },
     {
       "slug": "richard-cervantes-doyle-new-york",
@@ -11256,6 +12038,27 @@
       "canonicalProviderId": "provider:rochester-rochester-antique-appraisals"
     },
     {
+      "slug": "rochi-llaneza",
+      "name": "Rochi Llaneza",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.rochillaneza.me/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/rochi-llaneza/",
+      "canonicalProviderId": "provider:rochi-llaneza",
+      "evidencePacket": "miami-rochi-llaneza"
+    },
+    {
       "slug": "rockwell-antiques-dallas",
       "name": "Rockwell Antiques Dallas",
       "publicationStatus": "limited",
@@ -11270,6 +12073,48 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/rockwell-antiques-dallas/",
       "canonicalProviderId": "provider:rockwell-antiques-dallas"
+    },
+    {
+      "slug": "rosalie-wardell",
+      "name": "Rosalie Wardell",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.wardellappraisals.com/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/rosalie-wardell/",
+      "canonicalProviderId": "provider:rosalie-wardell",
+      "evidencePacket": "san-francisco-rosalie-wardell"
+    },
+    {
+      "slug": "roslyn-bakst-goldman",
+      "name": "Roslyn Bakst Goldman",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://roslyngoldman.com/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/roslyn-bakst-goldman/",
+      "canonicalProviderId": "provider:roslyn-bakst-goldman",
+      "evidencePacket": "rochester-roslyn-goldman"
     },
     {
       "slug": "roth-escher-art-group",
@@ -11385,6 +12230,32 @@
       "canonicalProviderId": "provider:salt-lake-city-salt-lake-city-antique-appraisals"
     },
     {
+      "slug": "salt_lake_city-heritage-valuations-salt-lake-city",
+      "name": "salt_lake_city-heritage-valuations-salt-lake-city",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/salt_lake_city-heritage-valuations-salt-lake-city/",
+      "canonicalProviderId": "provider:salt-lake-city-heritage-valuations-salt-lake-city"
+    },
+    {
+      "slug": "salt_lake_city-salt-lake-city-antique-appraisals",
+      "name": "salt_lake_city-salt-lake-city-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/salt_lake_city-salt-lake-city-antique-appraisals/",
+      "canonicalProviderId": "provider:salt-lake-city-salt-lake-city-antique-appraisals"
+    },
+    {
       "slug": "salt-lake-city-antique-appraisals",
       "name": "Salt Lake City Antique Appraisals",
       "publicationStatus": "under_review",
@@ -11421,32 +12292,6 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/salt-lake-city-salt-lake-city-antique-appraisals/",
-      "canonicalProviderId": "provider:salt-lake-city-salt-lake-city-antique-appraisals"
-    },
-    {
-      "slug": "salt_lake_city-heritage-valuations-salt-lake-city",
-      "name": "salt_lake_city-heritage-valuations-salt-lake-city",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/salt_lake_city-heritage-valuations-salt-lake-city/",
-      "canonicalProviderId": "provider:salt-lake-city-heritage-valuations-salt-lake-city"
-    },
-    {
-      "slug": "salt_lake_city-salt-lake-city-antique-appraisals",
-      "name": "salt_lake_city-salt-lake-city-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/salt_lake_city-salt-lake-city-antique-appraisals/",
       "canonicalProviderId": "provider:salt-lake-city-salt-lake-city-antique-appraisals"
     },
     {
@@ -11616,6 +12461,175 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san jose-san-jose-antique-appraisals/",
+      "canonicalProviderId": "provider:san-jose-san-jose-antique-appraisals"
+    },
+    {
+      "slug": "san_antonio-appraiseitnow-remote-in-person-options",
+      "name": "san_antonio-appraiseitnow-remote-in-person-options",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-appraiseitnow-remote-in-person-options/",
+      "canonicalProviderId": "provider:san-antonio-appraiseitnow-remote-in-person-options"
+    },
+    {
+      "slug": "san_antonio-ellen-amirkhan-oriental-rug-specialist",
+      "name": "san_antonio-ellen-amirkhan-oriental-rug-specialist",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-ellen-amirkhan-oriental-rug-specialist/",
+      "canonicalProviderId": "provider:san-antonio-ellen-amirkhan-oriental-rug-specialist"
+    },
+    {
+      "slug": "san_antonio-left-behind-antiques-local-shop-expertise",
+      "name": "san_antonio-left-behind-antiques-local-shop-expertise",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-left-behind-antiques-local-shop-expertise/",
+      "canonicalProviderId": "provider:san-antonio-left-behind-antiques-local-shop-expertise"
+    },
+    {
+      "slug": "san_antonio-prestige-estate-services-san-antonio-team",
+      "name": "san_antonio-prestige-estate-services-san-antonio-team",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-prestige-estate-services-san-antonio-team/",
+      "canonicalProviderId": "provider:san-antonio-prestige-estate-services-san-antonio-team"
+    },
+    {
+      "slug": "san_diego-1-prestige-estate-services",
+      "name": "san_diego-1-prestige-estate-services",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_diego-1-prestige-estate-services/",
+      "canonicalProviderId": "provider:san-diego-1-prestige-estate-services"
+    },
+    {
+      "slug": "san_diego-2-paul-golubovs",
+      "name": "san_diego-2-paul-golubovs",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_diego-2-paul-golubovs/",
+      "canonicalProviderId": "provider:san-diego-2-paul-golubovs"
+    },
+    {
+      "slug": "san_diego-san-diego-antique-appraisals",
+      "name": "san_diego-san-diego-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_diego-san-diego-antique-appraisals/",
+      "canonicalProviderId": "provider:san-diego-san-diego-antique-appraisals"
+    },
+    {
+      "slug": "san_francisco-1-turner-auctions-appraisals",
+      "name": "san_francisco-1-turner-auctions-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_francisco-1-turner-auctions-appraisals/",
+      "canonicalProviderId": "provider:san-francisco-1-turner-auctions-appraisals"
+    },
+    {
+      "slug": "san_francisco-2-clars-auction-gallery-asian-art-department",
+      "name": "san_francisco-2-clars-auction-gallery-asian-art-department",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_francisco-2-clars-auction-gallery-asian-art-department/",
+      "canonicalProviderId": "provider:san-francisco-2-clars-auction-gallery-asian-art-department"
+    },
+    {
+      "slug": "san_francisco-san-francisco-antique-appraisals",
+      "name": "san_francisco-san-francisco-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_francisco-san-francisco-antique-appraisals/",
+      "canonicalProviderId": "provider:san-francisco-san-francisco-antique-appraisals"
+    },
+    {
+      "slug": "san_jose-clars-auctions",
+      "name": "san_jose-clars-auctions",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_jose-clars-auctions/",
+      "canonicalProviderId": "provider:san-jose-clars-auctions"
+    },
+    {
+      "slug": "san_jose-mountain-view-us-foreign-coins",
+      "name": "san_jose-mountain-view-us-foreign-coins",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_jose-mountain-view-us-foreign-coins/",
+      "canonicalProviderId": "provider:san-jose-mountain-view-us-foreign-coins"
+    },
+    {
+      "slug": "san_jose-san-jose-antique-appraisals",
+      "name": "san_jose-san-jose-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_jose-san-jose-antique-appraisals/",
       "canonicalProviderId": "provider:san-jose-san-jose-antique-appraisals"
     },
     {
@@ -11901,175 +12915,6 @@
       "canonicalProviderId": "provider:san-jose-san-jose-antique-appraisals"
     },
     {
-      "slug": "san_antonio-appraiseitnow-remote-in-person-options",
-      "name": "san_antonio-appraiseitnow-remote-in-person-options",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-appraiseitnow-remote-in-person-options/",
-      "canonicalProviderId": "provider:san-antonio-appraiseitnow-remote-in-person-options"
-    },
-    {
-      "slug": "san_antonio-ellen-amirkhan-oriental-rug-specialist",
-      "name": "san_antonio-ellen-amirkhan-oriental-rug-specialist",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-ellen-amirkhan-oriental-rug-specialist/",
-      "canonicalProviderId": "provider:san-antonio-ellen-amirkhan-oriental-rug-specialist"
-    },
-    {
-      "slug": "san_antonio-left-behind-antiques-local-shop-expertise",
-      "name": "san_antonio-left-behind-antiques-local-shop-expertise",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-left-behind-antiques-local-shop-expertise/",
-      "canonicalProviderId": "provider:san-antonio-left-behind-antiques-local-shop-expertise"
-    },
-    {
-      "slug": "san_antonio-prestige-estate-services-san-antonio-team",
-      "name": "san_antonio-prestige-estate-services-san-antonio-team",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_antonio-prestige-estate-services-san-antonio-team/",
-      "canonicalProviderId": "provider:san-antonio-prestige-estate-services-san-antonio-team"
-    },
-    {
-      "slug": "san_diego-1-prestige-estate-services",
-      "name": "san_diego-1-prestige-estate-services",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_diego-1-prestige-estate-services/",
-      "canonicalProviderId": "provider:san-diego-1-prestige-estate-services"
-    },
-    {
-      "slug": "san_diego-2-paul-golubovs",
-      "name": "san_diego-2-paul-golubovs",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_diego-2-paul-golubovs/",
-      "canonicalProviderId": "provider:san-diego-2-paul-golubovs"
-    },
-    {
-      "slug": "san_diego-san-diego-antique-appraisals",
-      "name": "san_diego-san-diego-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_diego-san-diego-antique-appraisals/",
-      "canonicalProviderId": "provider:san-diego-san-diego-antique-appraisals"
-    },
-    {
-      "slug": "san_francisco-1-turner-auctions-appraisals",
-      "name": "san_francisco-1-turner-auctions-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_francisco-1-turner-auctions-appraisals/",
-      "canonicalProviderId": "provider:san-francisco-1-turner-auctions-appraisals"
-    },
-    {
-      "slug": "san_francisco-2-clars-auction-gallery-asian-art-department",
-      "name": "san_francisco-2-clars-auction-gallery-asian-art-department",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_francisco-2-clars-auction-gallery-asian-art-department/",
-      "canonicalProviderId": "provider:san-francisco-2-clars-auction-gallery-asian-art-department"
-    },
-    {
-      "slug": "san_francisco-san-francisco-antique-appraisals",
-      "name": "san_francisco-san-francisco-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_francisco-san-francisco-antique-appraisals/",
-      "canonicalProviderId": "provider:san-francisco-san-francisco-antique-appraisals"
-    },
-    {
-      "slug": "san_jose-clars-auctions",
-      "name": "san_jose-clars-auctions",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_jose-clars-auctions/",
-      "canonicalProviderId": "provider:san-jose-clars-auctions"
-    },
-    {
-      "slug": "san_jose-mountain-view-us-foreign-coins",
-      "name": "san_jose-mountain-view-us-foreign-coins",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_jose-mountain-view-us-foreign-coins/",
-      "canonicalProviderId": "provider:san-jose-mountain-view-us-foreign-coins"
-    },
-    {
-      "slug": "san_jose-san-jose-antique-appraisals",
-      "name": "san_jose-san-jose-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/san_jose-san-jose-antique-appraisals/",
-      "canonicalProviderId": "provider:san-jose-san-jose-antique-appraisals"
-    },
-    {
       "slug": "sandbar-trading-co",
       "name": "Sandbar Trading Co.",
       "publicationStatus": "under_review",
@@ -12119,6 +12964,45 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/santa fe-santa-fe-antique-appraisals/",
+      "canonicalProviderId": "provider:santa-fe-santa-fe-antique-appraisals"
+    },
+    {
+      "slug": "santa_fe-ellen-amirkhan-rug-care-specialists-association",
+      "name": "santa_fe-ellen-amirkhan-rug-care-specialists-association",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/santa_fe-ellen-amirkhan-rug-care-specialists-association/",
+      "canonicalProviderId": "provider:santa-fe-ellen-amirkhan-rug-care-specialists-association"
+    },
+    {
+      "slug": "santa_fe-sandbar-trading-co",
+      "name": "santa_fe-sandbar-trading-co",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/santa_fe-sandbar-trading-co/",
+      "canonicalProviderId": "provider:santa-fe-sandbar-trading"
+    },
+    {
+      "slug": "santa_fe-santa-fe-antique-appraisals",
+      "name": "santa_fe-santa-fe-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/santa_fe-santa-fe-antique-appraisals/",
       "canonicalProviderId": "provider:santa-fe-santa-fe-antique-appraisals"
     },
     {
@@ -12174,45 +13058,6 @@
       "canonicalProviderId": "provider:santa-fe-santa-fe-antique-appraisals"
     },
     {
-      "slug": "santa_fe-ellen-amirkhan-rug-care-specialists-association",
-      "name": "santa_fe-ellen-amirkhan-rug-care-specialists-association",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/santa_fe-ellen-amirkhan-rug-care-specialists-association/",
-      "canonicalProviderId": "provider:santa-fe-ellen-amirkhan-rug-care-specialists-association"
-    },
-    {
-      "slug": "santa_fe-sandbar-trading-co",
-      "name": "santa_fe-sandbar-trading-co",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/santa_fe-sandbar-trading-co/",
-      "canonicalProviderId": "provider:santa-fe-sandbar-trading"
-    },
-    {
-      "slug": "santa_fe-santa-fe-antique-appraisals",
-      "name": "santa_fe-santa-fe-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/santa_fe-santa-fe-antique-appraisals/",
-      "canonicalProviderId": "provider:santa-fe-santa-fe-antique-appraisals"
-    },
-    {
       "slug": "sarah-ann-wilson-art-services",
       "name": "Wilson Art Services, LLC",
       "publicationStatus": "verified",
@@ -12247,6 +13092,27 @@
         "https://www.wilsonartservices.com/"
       ],
       "canonicalProviderId": "provider:wilson-art-services"
+    },
+    {
+      "slug": "sarah-reeder",
+      "name": "Sarah Reeder",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8436/sarah-reeder",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/sarah-reeder/",
+      "canonicalProviderId": "provider:sarah-reeder",
+      "evidencePacket": "arlington-sarah-reeder"
     },
     {
       "slug": "sarasota-appraisal-services",
@@ -12518,6 +13384,27 @@
       "canonicalProviderId": "provider:shane-group-appraisals"
     },
     {
+      "slug": "shannon-k-law",
+      "name": "Shannon K Law",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1204/shannon-k-law",
+      "sourceType": "professional_registry",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/shannon-k-law/",
+      "canonicalProviderId": "provider:shannon-k-law",
+      "evidencePacket": "minneapolis-shannon-law"
+    },
+    {
       "slug": "shenasi-carpet",
       "name": "Shenasi Carpet",
       "publicationStatus": "under_review",
@@ -12727,6 +13614,32 @@
       "canonicalProviderId": "provider:st-john-s-antique-appraisals"
     },
     {
+      "slug": "st-lifer-art-inc-international-art-appraiser",
+      "name": "St. Lifer Art, Inc.",
+      "publicationStatus": "verified",
+      "reason": "manual_official_website_review",
+      "sourceUrl": "https://stliferart.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+      "canonicalProviderId": "provider:st-lifer-fine-art",
+      "sourceUrls": [
+        "https://stliferart.com/",
+        "https://stliferart.com/about-the-appraiser/",
+        "https://stliferart.com/appraisals/appraisal-services/"
+      ]
+    },
+    {
       "slug": "st-louis-antique-appraisals",
       "name": "St. Louis Antique Appraisals",
       "publicationStatus": "under_review",
@@ -12857,123 +13770,6 @@
       "canonicalProviderId": "provider:st-paul-3-anoka-area-antique-appraisals"
     },
     {
-      "slug": "st.-john's-gurr-johns",
-      "name": "st.-john's-gurr-johns",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-john's-gurr-johns/",
-      "canonicalProviderId": "provider:st-john-s-gurr-johns"
-    },
-    {
-      "slug": "st.-john's-st-johns-antique-appraisals",
-      "name": "st.-john's-st-johns-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-john's-st-johns-antique-appraisals/",
-      "canonicalProviderId": "provider:st-john-s-st-johns-antique-appraisals"
-    },
-    {
-      "slug": "st.-john's-turner-drake-partners-ltd",
-      "name": "st.-john's-turner-drake-partners-ltd",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-john's-turner-drake-partners-ltd/",
-      "canonicalProviderId": "provider:st-john-s-turner-drake-partners-ltd"
-    },
-    {
-      "slug": "st.-louis-artrium-fine-art-estate-appraisal",
-      "name": "st.-louis-artrium-fine-art-estate-appraisal",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-louis-artrium-fine-art-estate-appraisal/",
-      "canonicalProviderId": "provider:st-louis-artrium-fine-art-estate-appraisal"
-    },
-    {
-      "slug": "st.-louis-heritage-valuations-st-louis",
-      "name": "st.-louis-heritage-valuations-st-louis",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-louis-heritage-valuations-st-louis/",
-      "canonicalProviderId": "provider:st-louis-heritage-valuations-st-louis"
-    },
-    {
-      "slug": "st.-louis-st-louis-antique-appraisals",
-      "name": "st.-louis-st-louis-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-louis-st-louis-antique-appraisals/",
-      "canonicalProviderId": "provider:st-louis-st-louis-antique-appraisals"
-    },
-    {
-      "slug": "st.-paul-1-redtail-appraisals",
-      "name": "st.-paul-1-redtail-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-paul-1-redtail-appraisals/",
-      "canonicalProviderId": "provider:st-paul-1-redtail-appraisals"
-    },
-    {
-      "slug": "st.-paul-2-revere-auctions",
-      "name": "st.-paul-2-revere-auctions",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-paul-2-revere-auctions/",
-      "canonicalProviderId": "provider:st-paul-2-revere-auctions"
-    },
-    {
-      "slug": "st.-paul-3-anoka-area-antique-appraisals",
-      "name": "st.-paul-3-anoka-area-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-paul-3-anoka-area-antique-appraisals/",
-      "canonicalProviderId": "provider:st-paul-3-anoka-area-antique-appraisals"
-    },
-    {
       "slug": "st._john's-gurr-johns",
       "name": "st._john's-gurr-johns",
       "publicationStatus": "under_review",
@@ -13091,6 +13887,123 @@
       "canonicalProviderId": "provider:st-paul-3-anoka-area-antique-appraisals"
     },
     {
+      "slug": "st.-john's-gurr-johns",
+      "name": "st.-john's-gurr-johns",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-john's-gurr-johns/",
+      "canonicalProviderId": "provider:st-john-s-gurr-johns"
+    },
+    {
+      "slug": "st.-john's-st-johns-antique-appraisals",
+      "name": "st.-john's-st-johns-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-john's-st-johns-antique-appraisals/",
+      "canonicalProviderId": "provider:st-john-s-st-johns-antique-appraisals"
+    },
+    {
+      "slug": "st.-john's-turner-drake-partners-ltd",
+      "name": "st.-john's-turner-drake-partners-ltd",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-john's-turner-drake-partners-ltd/",
+      "canonicalProviderId": "provider:st-john-s-turner-drake-partners-ltd"
+    },
+    {
+      "slug": "st.-louis-artrium-fine-art-estate-appraisal",
+      "name": "st.-louis-artrium-fine-art-estate-appraisal",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-louis-artrium-fine-art-estate-appraisal/",
+      "canonicalProviderId": "provider:st-louis-artrium-fine-art-estate-appraisal"
+    },
+    {
+      "slug": "st.-louis-heritage-valuations-st-louis",
+      "name": "st.-louis-heritage-valuations-st-louis",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-louis-heritage-valuations-st-louis/",
+      "canonicalProviderId": "provider:st-louis-heritage-valuations-st-louis"
+    },
+    {
+      "slug": "st.-louis-st-louis-antique-appraisals",
+      "name": "st.-louis-st-louis-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-louis-st-louis-antique-appraisals/",
+      "canonicalProviderId": "provider:st-louis-st-louis-antique-appraisals"
+    },
+    {
+      "slug": "st.-paul-1-redtail-appraisals",
+      "name": "st.-paul-1-redtail-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-paul-1-redtail-appraisals/",
+      "canonicalProviderId": "provider:st-paul-1-redtail-appraisals"
+    },
+    {
+      "slug": "st.-paul-2-revere-auctions",
+      "name": "st.-paul-2-revere-auctions",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-paul-2-revere-auctions/",
+      "canonicalProviderId": "provider:st-paul-2-revere-auctions"
+    },
+    {
+      "slug": "st.-paul-3-anoka-area-antique-appraisals",
+      "name": "st.-paul-3-anoka-area-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st.-paul-3-anoka-area-antique-appraisals/",
+      "canonicalProviderId": "provider:st-paul-3-anoka-area-antique-appraisals"
+    },
+    {
       "slug": "stan-jugovic-associates-ltd",
       "name": "Stan Jugovic & Associates Ltd.",
       "publicationStatus": "under_review",
@@ -13185,6 +14098,27 @@
       "canonicalProviderId": "provider:sudbury-david-dinan-collector-vehicle-specialist"
     },
     {
+      "slug": "susan-appich-boze",
+      "name": "Susan Appich Boze",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.antiquesappraised.org/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/susan-appich-boze/",
+      "canonicalProviderId": "provider:susan-appich-boze",
+      "evidencePacket": "richmond-susan-appich-boze"
+    },
+    {
       "slug": "susan-eisen-fine-jewelry-watches-art-appraiser",
       "name": "Susan Eisen Fine Jewelry Watches Art & Appraiser",
       "publicationStatus": "limited",
@@ -13228,6 +14162,27 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/syl-lee-antiques/",
       "canonicalProviderId": "provider:syl-lee-antiques"
+    },
+    {
+      "slug": "sylvia-fraley",
+      "name": "Sylvia Fraley",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://fineartofappraisals.com/why-appraise-your-art",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/sylvia-fraley/",
+      "canonicalProviderId": "provider:sylvia-fraley",
+      "evidencePacket": "st-louis-sylvia-fraley"
     },
     {
       "slug": "tadlock-appraisal-company",
@@ -13296,6 +14251,27 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/tampa-tampa-antique-appraisals/",
       "canonicalProviderId": "provider:tampa-tampa-antique-appraisals"
+    },
+    {
+      "slug": "tania-poggione",
+      "name": "Tania Poggione",
+      "publicationStatus": "verified",
+      "reason": "operator_approved_source_packet",
+      "sourceUrl": "https://www.poggioneartconsultant.com/",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "qualification",
+        "specialties",
+        "fine_art_services"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/tania-poggione/",
+      "canonicalProviderId": "provider:tania-poggione",
+      "evidencePacket": "montreal-tania-poggione"
     },
     {
       "slug": "tao-black-dog",
@@ -13523,58 +14499,6 @@
       "canonicalProviderId": "provider:thunder-bay-b-art-memorabilia"
     },
     {
-      "slug": "thunder-bay-1-powell-appraisals-inc",
-      "name": "thunder-bay-1-powell-appraisals-inc",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-1-powell-appraisals-inc/",
-      "canonicalProviderId": "provider:thunder-bay-1-powell-appraisals"
-    },
-    {
-      "slug": "thunder-bay-2-provincialniche-specialists-serving-region",
-      "name": "thunder-bay-2-provincialniche-specialists-serving-region",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-2-provincialniche-specialists-serving-region/",
-      "canonicalProviderId": "provider:thunder-bay-2-provincialniche-specialists-serving-region"
-    },
-    {
-      "slug": "thunder-bay-a-collector-vehicles",
-      "name": "thunder-bay-a-collector-vehicles",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-a-collector-vehicles/",
-      "canonicalProviderId": "provider:thunder-bay-a-collector-vehicles"
-    },
-    {
-      "slug": "thunder-bay-b-art-memorabilia",
-      "name": "thunder-bay-b-art-memorabilia",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-b-art-memorabilia/",
-      "canonicalProviderId": "provider:thunder-bay-b-art-memorabilia"
-    },
-    {
       "slug": "thunder_bay-1-powell-appraisals-inc",
       "name": "thunder_bay-1-powell-appraisals-inc",
       "publicationStatus": "under_review",
@@ -13624,6 +14548,58 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/thunder_bay-b-art-memorabilia/",
+      "canonicalProviderId": "provider:thunder-bay-b-art-memorabilia"
+    },
+    {
+      "slug": "thunder-bay-1-powell-appraisals-inc",
+      "name": "thunder-bay-1-powell-appraisals-inc",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-1-powell-appraisals-inc/",
+      "canonicalProviderId": "provider:thunder-bay-1-powell-appraisals"
+    },
+    {
+      "slug": "thunder-bay-2-provincialniche-specialists-serving-region",
+      "name": "thunder-bay-2-provincialniche-specialists-serving-region",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-2-provincialniche-specialists-serving-region/",
+      "canonicalProviderId": "provider:thunder-bay-2-provincialniche-specialists-serving-region"
+    },
+    {
+      "slug": "thunder-bay-a-collector-vehicles",
+      "name": "thunder-bay-a-collector-vehicles",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-a-collector-vehicles/",
+      "canonicalProviderId": "provider:thunder-bay-a-collector-vehicles"
+    },
+    {
+      "slug": "thunder-bay-b-art-memorabilia",
+      "name": "thunder-bay-b-art-memorabilia",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/thunder-bay-b-art-memorabilia/",
       "canonicalProviderId": "provider:thunder-bay-b-art-memorabilia"
     },
     {
@@ -14113,6 +15089,45 @@
       "canonicalProviderId": "provider:virginia-beach-virginia-beach-antique-appraisals"
     },
     {
+      "slug": "virginia_beach-appraisal-professionals-businesses",
+      "name": "virginia_beach-appraisal-professionals-businesses",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/virginia_beach-appraisal-professionals-businesses/",
+      "canonicalProviderId": "provider:virginia-beach-appraisal-professionals-businesses"
+    },
+    {
+      "slug": "virginia_beach-barrett-street-auction-center-antique-mall",
+      "name": "virginia_beach-barrett-street-auction-center-antique-mall",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/virginia_beach-barrett-street-auction-center-antique-mall/",
+      "canonicalProviderId": "provider:virginia-beach-barrett-street-auction-center-antique-mall"
+    },
+    {
+      "slug": "virginia_beach-virginia-beach-antique-appraisals",
+      "name": "virginia_beach-virginia-beach-antique-appraisals",
+      "publicationStatus": "under_review",
+      "reason": "missing_website",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/virginia_beach-virginia-beach-antique-appraisals/",
+      "canonicalProviderId": "provider:virginia-beach-virginia-beach-antique-appraisals"
+    },
+    {
       "slug": "virginia-beach-antique-appraisals",
       "name": "Virginia Beach Antique Appraisals",
       "publicationStatus": "under_review",
@@ -14162,45 +15177,6 @@
       "verifiedBy": "",
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/virginia-beach-virginia-beach-antique-appraisals/",
-      "canonicalProviderId": "provider:virginia-beach-virginia-beach-antique-appraisals"
-    },
-    {
-      "slug": "virginia_beach-appraisal-professionals-businesses",
-      "name": "virginia_beach-appraisal-professionals-businesses",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/virginia_beach-appraisal-professionals-businesses/",
-      "canonicalProviderId": "provider:virginia-beach-appraisal-professionals-businesses"
-    },
-    {
-      "slug": "virginia_beach-barrett-street-auction-center-antique-mall",
-      "name": "virginia_beach-barrett-street-auction-center-antique-mall",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/virginia_beach-barrett-street-auction-center-antique-mall/",
-      "canonicalProviderId": "provider:virginia-beach-barrett-street-auction-center-antique-mall"
-    },
-    {
-      "slug": "virginia_beach-virginia-beach-antique-appraisals",
-      "name": "virginia_beach-virginia-beach-antique-appraisals",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/virginia_beach-virginia-beach-antique-appraisals/",
       "canonicalProviderId": "provider:virginia-beach-virginia-beach-antique-appraisals"
     },
     {
@@ -14333,17 +15309,18 @@
       "slug": "washingtonian-appraisals",
       "name": "Washingtonian Appraisals",
       "publicationStatus": "limited",
-      "reason": "direct_match",
+      "reason": "operator_approved_source_packet",
       "sourceUrl": "https://www.washingtonianappraisals.com/",
-      "sourceType": "official_business_website",
-      "verifiedAt": "2026-07-11",
-      "verifiedBy": "automated_domain_identity_audit",
+      "sourceType": "official_provider",
+      "verifiedAt": "2026-07-29",
+      "verifiedBy": "Appraisily Directory Research Team",
       "claimScope": [
         "identity",
         "website"
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/washingtonian-appraisals/",
-      "canonicalProviderId": "provider:washingtonian-appraisals"
+      "canonicalProviderId": "provider:washingtonian-appraisals",
+      "evidencePacket": "washingtonian-appraisals"
     },
     {
       "slug": "weathers-appraisal-associates-llc",
@@ -14512,109 +15489,6 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/worthmore-jewelers/",
       "canonicalProviderId": "provider:worthmore-jewelers"
-    },
-    {
-      "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
-      "name": "AFP Art Consulting, LLC",
-      "publicationStatus": "verified",
-      "reason": "manual_official_website_review",
-      "sourceUrl": "https://afpartconsulting.com/",
-      "sourceType": "official_business_website",
-      "verifiedAt": "2026-07-15",
-      "verifiedBy": "manual_official_website_review",
-      "claimScope": [
-        "identity",
-        "website",
-        "primary_location",
-        "fine_art_services",
-        "specialties",
-        "appraisal_use_cases",
-        "qualification"
-      ],
-      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
-      "canonicalProviderId": "provider:afp-art-consulting",
-      "sourceUrls": [
-        "https://afpartconsulting.com/",
-        "https://afpartconsulting.com/bio",
-        "https://afpartconsulting.com/art-consulting-services"
-      ]
-    },
-    {
-      "slug": "heidi-vaughan-ma-isa-am",
-      "name": "Heidi Vaughan Fine Art",
-      "publicationStatus": "verified",
-      "reason": "manual_official_website_review",
-      "sourceUrl": "https://heidivaughanfineart.com/about",
-      "sourceType": "official_business_website",
-      "verifiedAt": "2026-07-15",
-      "verifiedBy": "manual_official_website_review",
-      "claimScope": [
-        "identity",
-        "website",
-        "primary_location",
-        "fine_art_services",
-        "specialties",
-        "appraisal_use_cases",
-        "qualification"
-      ],
-      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
-      "canonicalProviderId": "provider:heidi-vaughan-ma-am",
-      "sourceUrls": [
-        "https://heidivaughanfineart.com/about",
-        "https://heidivaughanfineart.com/gallery-team"
-      ]
-    },
-    {
-      "slug": "open-to-the-public",
-      "name": "Open to the Public",
-      "publicationStatus": "verified",
-      "reason": "manual_official_website_review",
-      "sourceUrl": "https://opentothepublic.art/",
-      "sourceType": "official_business_website",
-      "verifiedAt": "2026-07-15",
-      "verifiedBy": "manual_official_website_review",
-      "claimScope": [
-        "identity",
-        "website",
-        "primary_location",
-        "fine_art_services",
-        "specialties",
-        "appraisal_use_cases",
-        "qualification"
-      ],
-      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
-      "canonicalProviderId": "provider:open-to-the-public",
-      "sourceUrls": [
-        "https://opentothepublic.art/",
-        "https://opentothepublic.art/about/",
-        "https://opentothepublic.art/art-appraisals/"
-      ]
-    },
-    {
-      "slug": "st-lifer-art-inc-international-art-appraiser",
-      "name": "St. Lifer Art, Inc.",
-      "publicationStatus": "verified",
-      "reason": "manual_official_website_review",
-      "sourceUrl": "https://stliferart.com/",
-      "sourceType": "official_business_website",
-      "verifiedAt": "2026-07-15",
-      "verifiedBy": "manual_official_website_review",
-      "claimScope": [
-        "identity",
-        "website",
-        "primary_location",
-        "fine_art_services",
-        "specialties",
-        "appraisal_use_cases",
-        "qualification"
-      ],
-      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
-      "canonicalProviderId": "provider:st-lifer-fine-art",
-      "sourceUrls": [
-        "https://stliferart.com/",
-        "https://stliferart.com/about-the-appraiser/",
-        "https://stliferart.com/appraisals/appraisal-services/"
-      ]
     }
   ]
 }

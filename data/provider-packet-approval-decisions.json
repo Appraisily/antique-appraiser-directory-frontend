@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "decidedAt": "2026-07-29T08:40:00Z",
+  "decidedBy": "operator-authorized Codex session",
+  "authority": "Operator authorized deployment, continuation, and conservative implementation decisions on 2026-07-29.",
+  "policy": {
+    "approved_for_profile": "Publish only direct-source packet claims marked eligibleForHumanApproval; retain retrieval dates and source links.",
+    "listed_with_limited_claims": "Publish identity and one reachable source URL only; retain all richer packet claims as internal evidence.",
+    "rejected_or_held": "Publish no profile, card, schema identity, feed entry, or city relationship from this packet."
+  },
+  "overrides": {
+    "chicago-adams-appraisal": {
+      "identity": "Adams Appraisal LLC",
+      "note": "Keep the established canonical business label while retaining Kurt Soucek in the approved evidence packet."
+    },
+    "washingtonian-appraisals": {
+      "identity": "Washingtonian Appraisals",
+      "note": "Keep the established canonical business label while retaining David J. Sergeant in the approved evidence packet."
+    },
+    "sacramento-linda-hawthorne": {
+      "identity": "Linda Hawthorne",
+      "note": "Use the registry-backed person identity only; the unreachable provider-site practice relationship remains held."
+    },
+    "aspen-brady-dreasher-coverage": {
+      "canonicalSlug": "brady-l-dreasher",
+      "note": "Extend the already approved canonical Brady Dreasher profile; do not create a duplicate Aspen profile."
+    },
+    "arlington-sarah-reeder": {
+      "cityClaimKind": "service_area",
+      "note": "Arlington is a source-backed service area, not a claimed primary office."
+    }
+  },
+  "approvedForProfile": [
+    "new-orleans-john-abajian",
+    "columbus-allyssa-hixenbaugh",
+    "st-louis-sylvia-fraley",
+    "raleigh-dana-summitt",
+    "miami-rochi-llaneza",
+    "chicago-adams-appraisal",
+    "denver-brady-dreasher",
+    "atlanta-courtney-ahlstrom-christy",
+    "edmonton-erin-mcdonald",
+    "richmond-susan-appich-boze",
+    "toronto-kelly-juhasz",
+    "orlando-karen-riffe",
+    "minneapolis-shannon-law",
+    "sacramento-linda-hawthorne",
+    "tulsa-laura-nelson",
+    "buffalo-cleo-sloan",
+    "memphis-greer-simonton",
+    "kitchener-elizabeth-edwards",
+    "montreal-tania-poggione",
+    "hamilton-francis-germain",
+    "san-francisco-rosalie-wardell",
+    "victoria-helen-delacretaz",
+    "rochester-roslyn-goldman",
+    "aspen-brady-dreasher-coverage",
+    "albuquerque-anita-chavez",
+    "colorado-springs-lisa-duke",
+    "providence-jessica-strongin",
+    "little-rock-jennifer-carman",
+    "fredericton-germaine-pataki-theriault",
+    "arlington-sarah-reeder",
+    "phoenix-jeffrey-pearson"
+  ],
+  "listedWithLimitedClaims": [
+    "milwaukee-cedarburg-auction",
+    "washingtonian-appraisals",
+    "tucson-lynn-roberts",
+    "louisville-howard-and-thomas",
+    "vancouver-lindsay-inouye",
+    "st-paul-revere-auctions",
+    "baton-rouge-chloe-eick",
+    "birmingham-john-picard",
+    "salt-lake-dodworth-stauffer",
+    "charleston-elizabeth-ryan",
+    "savannah-david-levy",
+    "london-brian-price",
+    "st-john-s-newfoundland-antiques",
+    "el-paso-a-new-beginning",
+    "norfolk-blue-box-auction",
+    "long-beach-prestige-estate-services",
+    "thunder-bay-black-cat-antiques",
+    "quebec-city-antiquites-bolduc"
+  ],
+  "rejectedOrHeld": [
+    "san-antonio-rudy-pena",
+    "open-to-the-public",
+    "cleveland-christine-radomski",
+    "toledo-christine-guernsey-location-reject",
+    "saskatoon-yolande-krueger-location-reject",
+    "moncton-real-property-mismatch-reject",
+    "sudbury-equipment-appraisal-mismatch-reject",
+    "charlottetown-pilar-shephard-location-reject",
+    "whitehorse-north-end-referral-hold"
+  ]
+}

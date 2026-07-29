@@ -1,21 +1,30 @@
 {
-  "title": "Antique & Art Appraisers in Tampa, Florida",
+  "title": "Source-listed appraisal records grouped with Tampa, Florida",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-26T18:52:18.543Z",
+  "generatedAt": "2026-07-29T08:46:01.353Z",
   "location": {
     "slug": "tampa",
     "url": "https://antique-appraiser-directory.appraisily.com/location/tampa/",
-    "name": "Antique & Art Appraisers in Tampa, Florida",
-    "description": "Compare antique and art appraisers in Tampa, Florida and request a fast online appraisal from Appraisily.",
+    "name": "Source-listed appraisal records grouped with Tampa, Florida",
+    "description": "Review source-labeled appraisal records grouped with Tampa and confirm location, assignment fit, and report requirements directly.",
     "city": "Tampa",
     "region": "FL",
     "country": "US",
-    "numberOfListedAppraisers": 0,
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Brad Peele Estate Sales & Appraiser in Tampa Bay",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/brad-peele-estate-sales-and-appraiser-buyer-of-collectibles-vintage-buyer-antique-and-coll/",
+        "slug": "brad-peele-estate-sales-and-appraiser-buyer-of-collectibles-vintage-buyer-antique-and-coll",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/brad-peele-estate-sales-and-appraiser-buyer-of-collectibles-vintage-buyer-antique-and-coll.svg?v=20260728-limited-trust",
+        "description": "Brad Peele Estate Sales & Appraiser in Tampa Bay has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+        "publicRouteAvailable": true
+      }
+    ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/tampa/"
-    },
-    "listedAppraisers": []
+    }
   }
 }

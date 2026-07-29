@@ -356,6 +356,11 @@ async function buildExpected({ publicDir, manifest }) {
 
 function applyModule(html, module, slug) {
   if (MODULE_PATTERN.test(html)) return html.replace(MODULE_PATTERN, module);
+  const approvedProviderSection =
+    /(<section\b[^>]*data-approved-provider-packet=["'][^"']+["'][^>]*>[\s\S]*?<\/section>)/i;
+  if (approvedProviderSection.test(html)) {
+    return html.replace(approvedProviderSection, `$1\n${module}`);
+  }
   const match = html.match(ROOT_CLOSE_PATTERN);
   if (!match) {
     throw new Error(`/location/${slug}/ static city root closing anchor not found`);

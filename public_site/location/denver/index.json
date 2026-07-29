@@ -1,18 +1,30 @@
 {
-  "title": "Denver Antique Appraisers & Art Appraisal | Online Signed Reports",
+  "title": "Source-listed appraisal records grouped with Denver, Colorado",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-26T18:52:18.543Z",
+  "generatedAt": "2026-07-29T08:46:01.353Z",
   "location": {
     "slug": "denver",
     "url": "https://antique-appraiser-directory.appraisily.com/location/denver/",
-    "name": "Denver Antique Appraisers & Art Appraisal | Online Signed Reports",
-    "description": "Compare Denver antique appraisers and Denver art appraisal options for estate, insurance, and donation needs. Get a signed online report from photos.",
-    "numberOfListedAppraisers": 0,
+    "name": "Source-listed appraisal records grouped with Denver, Colorado",
+    "description": "Review a source-labeled appraisal record grouped with Denver and confirm location, assignment fit, and report requirements directly.",
+    "city": "Denver",
+    "region": "CO",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Art of Estates - Denver Personal Property Appraisal Firm",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/denver-art-of-estates-personal-property-appraisal-firm/",
+        "slug": "denver-art-of-estates-personal-property-appraisal-firm",
+        "image": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+        "description": "Art of Estates - Denver Personal Property Appraisal Firm has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+        "publicRouteAvailable": true
+      }
+    ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/denver/"
-    },
-    "listedAppraisers": []
+    }
   }
 }

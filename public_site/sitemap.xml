@@ -2274,18 +2274,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/charlottetown/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/cleveland/</loc>
-    <lastmod>2026-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/colorado-springs/</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2294,12 +2282,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/columbus/</loc>
     <lastmod>2026-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/des-moines/</loc>
-    <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2324,12 +2306,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/hamilton/</loc>
     <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/kansas-city/</loc>
-    <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2378,12 +2354,6 @@
   <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/minneapolis/</loc>
     <lastmod>2026-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/moncton/</loc>
-    <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2466,12 +2436,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/saskatoon/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/savannah/</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2496,19 +2460,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/sudbury/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://antique-appraiser-directory.appraisily.com/location/thunder-bay/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/toledo/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2543,10 +2495,50 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://antique-appraiser-directory.appraisily.com/location/whitehorse/</loc>
-    <lastmod>2026-05-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/john-c-abajian/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/allyssa-b-hixenbaugh/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/sylvia-fraley/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/dana-summitt/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/rochi-llaneza/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/brady-l-dreasher/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/courtney-ahlstrom-christy/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/erin-mcdonald/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/susan-appich-boze/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/kelly-juhasz/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/karen-riffe/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/shannon-k-law/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/linda-hawthorne/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/laura-a-nelson/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/cleo-l-sloan/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/greer-simonton/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/elizabeth-edwards/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/tania-poggione/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/francis-germain/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/rosalie-wardell/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/helen-delacretaz/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/roslyn-bakst-goldman/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/anita-l-chavez/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/lisa-w-duke-lwduke-appraisals/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/jessica-strongin/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/jennifer-n-carman/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/germaine-pataki-theriault/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/sarah-reeder/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/jeffrey-pearson/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/lynn-roberts/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/howard-and-thomas-auction-house/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/lindsay-inouye/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/revere-auctions/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/chloe-eick-art-appraisals/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/john-picard-hanna-antiques/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/dodworth-stauffer-art-appraisal/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/elizabeth-garrett-ryan/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/david-levy/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/brian-price-london-estate-services/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/newfoundland-antiques/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/a-new-beginning-estate-sales-appraisals/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/blue-box-auction-gallery/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/prestige-estate-services-long-beach/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/black-cat-antiques-appraisals/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://antique-appraiser-directory.appraisily.com/appraiser/les-antiquites-bolduc/</loc><lastmod>2026-07-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

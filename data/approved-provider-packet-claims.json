@@ -1,0 +1,3461 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-29T09:03:44.797Z",
+  "reviewDate": "2026-07-29",
+  "decisionsAuthority": "Operator authorized deployment, continuation, and conservative implementation decisions on 2026-07-29.",
+  "records": [
+    {
+      "packetId": "new-orleans-john-abajian",
+      "taskId": "DPE-GSC-new-orleans-john-abajian",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "john-c-abajian",
+      "citySlug": "new-orleans",
+      "entityName": "John C. Abajian",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/835/john-abajian",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "c3c57555c5c82f14d650f57f056f217e49cabdaa4f62b3d239b28ff2b157ec40",
+      "sourceRetrievedAt": "2026-07-28T12:58:41.943Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "John C. Abajian",
+          "paraphrase": "ISA supplies the current member name and New Orleans contact record.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/835/john-abajian",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "c3c57555c5c82f14d650f57f056f217e49cabdaa4f62b3d239b28ff2b157ec40"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "New Orleans, Louisiana",
+          "paraphrase": "The member record publishes a New Orleans address.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/835/john-abajian",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "c3c57555c5c82f14d650f57f056f217e49cabdaa4f62b3d239b28ff2b157ec40"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM, Fine Art",
+          "paraphrase": "ISA displays its Accredited Member designation and Fine Art discipline.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/835/john-abajian",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "c3c57555c5c82f14d650f57f056f217e49cabdaa4f62b3d239b28ff2b157ec40"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "auction, damage claims, equitable distribution, estate probate, non-cash charitable donations",
+          "paraphrase": "The current member record supplies these service categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/835/john-abajian",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "c3c57555c5c82f14d650f57f056f217e49cabdaa4f62b3d239b28ff2b157ec40"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art, Asian ceramics, decorative arts, furniture, paintings, photography, prints",
+          "paraphrase": "The member record provides these appraised-property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/835/john-abajian",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "c3c57555c5c82f14d650f57f056f217e49cabdaa4f62b3d239b28ff2b157ec40"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "columbus-allyssa-hixenbaugh",
+      "taskId": "DPE-GSC-columbus-allyssa-hixenbaugh",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "allyssa-b-hixenbaugh",
+      "citySlug": "columbus",
+      "entityName": "Allyssa B Hixenbaugh",
+      "sourceUrl": "https://www.vasariappraisal.com/appraisals",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "fc43a142fc045311d59b1678aeb74a477ef6b0ce7cdc070623b5ab7143512374",
+      "sourceRetrievedAt": "2026-07-28T13:07:52.167Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Allyssa B Hixenbaugh; Vasari Appraisal Services",
+          "paraphrase": "ISA supplies the current member identity and practice relationship.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2783/allyssa-b-hixenbaugh",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "f4381de4025f0236e1a068939dbcf79cd7dc398c082117abaacdf9ecd05cb65f"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "2175 W. 5th Ave., Columbus, Ohio 43212",
+          "paraphrase": "The official practice page confirms a Columbus office matching the current ISA record.",
+          "supportingUrl": "https://www.vasariappraisal.com/appraisals",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "fc43a142fc045311d59b1678aeb74a477ef6b0ce7cdc070623b5ab7143512374"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM",
+          "paraphrase": "ISA displays its Accredited Member designation on the current member record.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2783/allyssa-b-hixenbaugh",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "f4381de4025f0236e1a068939dbcf79cd7dc398c082117abaacdf9ecd05cb65f"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art, antiques, furniture, books, collectibles, silver, jewelry, vehicles, dolls",
+          "paraphrase": "The practice page lists these appraisal categories, and the registry independently overlaps on the principal categories.",
+          "supportingUrl": "https://www.vasariappraisal.com/appraisals",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "fc43a142fc045311d59b1678aeb74a477ef6b0ce7cdc070623b5ab7143512374"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "donation, estate, probate, equitable distribution, insurance, resale, owner curiosity",
+          "paraphrase": "The current ISA member record identifies these assignment purposes.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2783/allyssa-b-hixenbaugh",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "f4381de4025f0236e1a068939dbcf79cd7dc398c082117abaacdf9ecd05cb65f"
+        },
+        {
+          "claimKind": "inspection_mode",
+          "value": "in person; remote for out-of-state clients",
+          "paraphrase": "ISA states both in-person and remote modes, with the remote statement scoped to out-of-state clients.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2783/allyssa-b-hixenbaugh",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "f4381de4025f0236e1a068939dbcf79cd7dc398c082117abaacdf9ecd05cb65f"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "st-louis-sylvia-fraley",
+      "taskId": "DPE-GSC-st-louis-sylvia-fraley",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "sylvia-fraley",
+      "citySlug": "st-louis",
+      "entityName": "Sylvia Fraley",
+      "sourceUrl": "https://fineartofappraisals.com/why-appraise-your-art",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "ae681744fc1aceb1c21acffea5f2e788d02afeee3de31c617b8705e173703634",
+      "sourceRetrievedAt": "2026-07-28T13:15:21.498Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Sylvia Fraley; Sylvia Fraley Fine Art Appraisals",
+          "paraphrase": "The registry and provider page agree on practitioner and practice identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1578/sylvia-fraley",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "f5fbaa68f674af33bbce83fca2fd37b7de7fc903071713853e83381a70b890c3"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "St. Louis, Missouri",
+          "paraphrase": "The current member record confirms the St. Louis base.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1578/sylvia-fraley",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "f5fbaa68f674af33bbce83fca2fd37b7de7fc903071713853e83381a70b890c3"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM; Fine Art",
+          "paraphrase": "ISA displays its Accredited Member designation and Fine Art discipline.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1578/sylvia-fraley",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "f5fbaa68f674af33bbce83fca2fd37b7de7fc903071713853e83381a70b890c3"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "19th- and 20th-century art, American art, European art, modern and contemporary prints, paintings, sculpture, autographs",
+          "paraphrase": "The current member record supplies these fine-art categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1578/sylvia-fraley",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "f5fbaa68f674af33bbce83fca2fd37b7de7fc903071713853e83381a70b890c3"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "consultation, equitable distribution, estate evaluation, insurance claims, charitable donation, resale, pre-move",
+          "paraphrase": "The provider page and current registry record support these assignment purposes.",
+          "supportingUrl": "https://fineartofappraisals.com/why-appraise-your-art",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "ae681744fc1aceb1c21acffea5f2e788d02afeee3de31c617b8705e173703634"
+        },
+        {
+          "claimKind": "inspection_mode",
+          "value": "on-site evaluations; consultations; written appraisals",
+          "paraphrase": "The practice describes on-site and written-report work.",
+          "supportingUrl": "https://fineartofappraisals.com/why-appraise-your-art",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "ae681744fc1aceb1c21acffea5f2e788d02afeee3de31c617b8705e173703634"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "raleigh-dana-summitt",
+      "taskId": "DPE-GSC-raleigh-dana-summitt",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "dana-summitt",
+      "citySlug": "raleigh",
+      "entityName": "Dana Summitt",
+      "sourceUrl": "https://www.lookappraisal.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "315aface82138a062af81b9260400c9e463227ae73f369c72a9d4d32cace939c",
+      "sourceRetrievedAt": "2026-07-28T13:21:09.434Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Dana Summitt; Look Appraisal LLC",
+          "paraphrase": "The registry supplies the practitioner and practice identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13092/dana-summitt",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "b4a1ab089fa3d1ddd78c1246adbd4c1e4afdd9670687baf8a68f2fc1468a0c10"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Raleigh, North Carolina",
+          "paraphrase": "The current registry record confirms Raleigh as the primary listed base.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13092/dana-summitt",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "b4a1ab089fa3d1ddd78c1246adbd4c1e4afdd9670687baf8a68f2fc1468a0c10"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM; Fine Art",
+          "paraphrase": "ISA displays its Accredited Member designation and Fine Art specialty.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13092/dana-summitt",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "b4a1ab089fa3d1ddd78c1246adbd4c1e4afdd9670687baf8a68f2fc1468a0c10"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art, paintings, photography, prints, watercolors, books, clothing and accessories, computer equipment, Judaica, musical instruments",
+          "paraphrase": "The current member record supplies these specialties and property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13092/dana-summitt",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "b4a1ab089fa3d1ddd78c1246adbd4c1e4afdd9670687baf8a68f2fc1468a0c10"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "charitable donation, estate settlement, insurance, liquidation and distribution, inherited property, business contents, fair market value, expert witness",
+          "paraphrase": "The member record directly identifies these intended uses.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13092/dana-summitt",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "b4a1ab089fa3d1ddd78c1246adbd4c1e4afdd9670687baf8a68f2fc1468a0c10"
+        },
+        {
+          "claimKind": "inspection_mode",
+          "value": "in-person and virtual consultation; selected remote and in-person appraisal service",
+          "paraphrase": "The registry describes both consultation modes and scopes appraisal delivery to selected locations.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13092/dana-summitt",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "b4a1ab089fa3d1ddd78c1246adbd4c1e4afdd9670687baf8a68f2fc1468a0c10"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "miami-rochi-llaneza",
+      "taskId": "DPE-P13-miami-rochi-llaneza",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "rochi-llaneza",
+      "citySlug": "miami",
+      "entityName": "Rochi Llaneza",
+      "sourceUrl": "https://www.rochillaneza.me/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "b35ff6f7c611034bb73890b580a2c182b1e20b3d53c7b9260ced34eaa870047f",
+      "sourceRetrievedAt": "2026-07-28T12:26:59.518Z",
+      "claims": [
+        {
+          "claimKind": "primary_location",
+          "value": "Miami, Florida",
+          "paraphrase": "The current ISA member record supplies a Miami address.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13148/rochi-llaneza",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "10bf97305190dc0c2a29fdb2ae45c51f2f558ec1c380b5f7efca91629ca80d7b"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM, Fine Art",
+          "paraphrase": "ISA displays the Accredited Member designation and Fine Art specialty.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13148/rochi-llaneza",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "10bf97305190dc0c2a29fdb2ae45c51f2f558ec1c380b5f7efca91629ca80d7b"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "fine art, furniture, collectibles, general personal property",
+          "paraphrase": "The member record identifies art and several personal-property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13148/rochi-llaneza",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "10bf97305190dc0c2a29fdb2ae45c51f2f558ec1c380b5f7efca91629ca80d7b"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "donation, estate evaluation, probate, estate tax, retail art",
+          "paraphrase": "The registry's service fields identify these assignment types.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13148/rochi-llaneza",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "10bf97305190dc0c2a29fdb2ae45c51f2f558ec1c380b5f7efca91629ca80d7b"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "chicago-adams-appraisal",
+      "taskId": "DPE-P14-chicago-adams-appraisal",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "adams-appraisal-llc",
+      "citySlug": "chicago",
+      "entityName": "Adams Appraisal LLC",
+      "sourceUrl": "https://adamsappraisalllc.com/about/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "aa54c7063dec5847577be84c1a4bf456c2f6b14695b415ed7494b1218618a44c",
+      "sourceRetrievedAt": "2026-07-28T12:26:59.358Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Adams Appraisal LLC",
+          "paraphrase": "Adams Appraisal LLC",
+          "supportingUrl": "https://adamsappraisalllc.com/about/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "aa54c7063dec5847577be84c1a4bf456c2f6b14695b415ed7494b1218618a44c"
+        },
+        {
+          "claimKind": "identity",
+          "value": "Kurt Soucek; Adams Appraisal LLC",
+          "paraphrase": "The official practice page identifies Kurt Soucek as owner.",
+          "supportingUrl": "https://adamsappraisalllc.com/about/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "aa54c7063dec5847577be84c1a4bf456c2f6b14695b415ed7494b1218618a44c"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Chicago, Illinois",
+          "paraphrase": "ISA lists a Chicago address and a second address serving Chicago suburbs.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2483/kurt-soucek",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "6d837b630698bdb332ae47b2fd560300654d71056c40aebe57316082c5e69f61"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM",
+          "paraphrase": "ISA displays the Accredited Member designation.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2483/kurt-soucek",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "6d837b630698bdb332ae47b2fd560300654d71056c40aebe57316082c5e69f61"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art, business contents, collectibles, decorative arts, furniture",
+          "paraphrase": "The registry identifies these appraised-property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2483/kurt-soucek",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "6d837b630698bdb332ae47b2fd560300654d71056c40aebe57316082c5e69f61"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "divorce, donation, estate evaluation, probate, estate tax",
+          "paraphrase": "The current member profile supplies these service categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2483/kurt-soucek",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "6d837b630698bdb332ae47b2fd560300654d71056c40aebe57316082c5e69f61"
+        },
+        {
+          "claimKind": "inspection_mode",
+          "value": "on-site inspection; office by appointment",
+          "paraphrase": "The official page describes client-site inspection and an appointment-only office.",
+          "supportingUrl": "https://adamsappraisalllc.com/about/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "aa54c7063dec5847577be84c1a4bf456c2f6b14695b415ed7494b1218618a44c"
+        },
+        {
+          "claimKind": "fee_basis",
+          "value": "hourly; one-hour minimum",
+          "paraphrase": "The official page states the fee basis and minimum without publishing a dollar rate.",
+          "supportingUrl": "https://adamsappraisalllc.com/about/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "aa54c7063dec5847577be84c1a4bf456c2f6b14695b415ed7494b1218618a44c"
+        }
+      ],
+      "overrideNote": "Keep the established canonical business label while retaining Kurt Soucek in the approved evidence packet."
+    },
+    {
+      "packetId": "denver-brady-dreasher",
+      "taskId": "DPE-GSC-denver-brady-dreasher",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "brady-l-dreasher",
+      "citySlug": "denver",
+      "entityName": "Brady L. Dreasher",
+      "sourceUrl": "https://artofestates.com/denver-appraiser/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "3ab74f9a6e5f1885a6eebfb5d28aba8acd7e6154707e432d41dfbe7c6f6eaac4",
+      "sourceRetrievedAt": "2026-07-28T13:07:52.250Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Brady L. Dreasher; Art of Estates",
+          "paraphrase": "The official Denver page supplies the practitioner and practice relationship, corroborated by ISA.",
+          "supportingUrl": "https://artofestates.com/denver-appraiser/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "3ab74f9a6e5f1885a6eebfb5d28aba8acd7e6154707e432d41dfbe7c6f6eaac4"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "7310 W. 52nd, Suite A132, Denver, Colorado 80002",
+          "paraphrase": "The current professional-registry record places the practice's first listed office in the Denver area.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2849/brady-l-dreasher",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "acf4cc99324593b3542e7792671b6e7316f8ff5c12da511ae02f49508d2eefe2"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA CAPP, GPPA, CES, CAGA, WSET1",
+          "paraphrase": "The current registry record publishes these designations.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2849/brady-l-dreasher",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "acf4cc99324593b3542e7792671b6e7316f8ff5c12da511ae02f49508d2eefe2"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "fine art, antiques, Native American material, artifacts, rugs, decorative art, collectibles, furniture, musical instruments, clocks",
+          "paraphrase": "The official Denver practice page lists these appraisal categories, with substantial overlap in the current ISA record.",
+          "supportingUrl": "https://artofestates.com/denver-appraiser/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "3ab74f9a6e5f1885a6eebfb5d28aba8acd7e6154707e432d41dfbe7c6f6eaac4"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance, estate, probate, donation, equitable distribution, divorce, litigation, appraisal review, consulting",
+          "paraphrase": "The official Denver page identifies these assignment purposes.",
+          "supportingUrl": "https://artofestates.com/denver-appraiser/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "3ab74f9a6e5f1885a6eebfb5d28aba8acd7e6154707e432d41dfbe7c6f6eaac4"
+        },
+        {
+          "claimKind": "fee_basis",
+          "value": "fee required; exact price not published on the reviewed page",
+          "paraphrase": "The provider discloses that valuation work is paid but does not supply an exact fee on this page.",
+          "supportingUrl": "https://artofestates.com/denver-appraiser/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "3ab74f9a6e5f1885a6eebfb5d28aba8acd7e6154707e432d41dfbe7c6f6eaac4"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "atlanta-courtney-ahlstrom-christy",
+      "taskId": "DPE-GSC-atlanta-courtney-ahlstrom-christy",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "courtney-ahlstrom-christy",
+      "citySlug": "atlanta",
+      "entityName": "Courtney Ahlstrom Christy",
+      "sourceUrl": "https://ahlstromappraisals.com/courtneyahlstromchristy",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "76ec70b9e7e0dba387cb9241e1bb568bb0e236207666ebb32daae1281a126861",
+      "sourceRetrievedAt": "2026-07-29T02:08:23.894Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Courtney Ahlstrom Christy / Ahlstrom Appraisals LLC",
+          "paraphrase": "The practice page supplies the person and business identity.",
+          "supportingUrl": "https://ahlstromappraisals.com/courtneyahlstromchristy",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "76ec70b9e7e0dba387cb9241e1bb568bb0e236207666ebb32daae1281a126861"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Atlanta, Georgia",
+          "paraphrase": "ISA supplies a current Atlanta location.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2818/courtney-ahlstrom-christy",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "edb131e75fbcd5c9c64dd4b9ec2d12493420bc976a18cafbddd6e668afea21bc"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA CAPP",
+          "paraphrase": "ISA displays its Certified Appraiser of Personal Property designation on the member record.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2818/courtney-ahlstrom-christy",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "edb131e75fbcd5c9c64dd4b9ec2d12493420bc976a18cafbddd6e668afea21bc"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "books, decorative arts, documents, ephemera, art",
+          "paraphrase": "The registry supplies these specialties and appraised-property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2818/courtney-ahlstrom-christy",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "edb131e75fbcd5c9c64dd4b9ec2d12493420bc976a18cafbddd6e668afea21bc"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "donation, equitable distribution, estate, non-cash charitable donation",
+          "paraphrase": "The registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2818/courtney-ahlstrom-christy",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "edb131e75fbcd5c9c64dd4b9ec2d12493420bc976a18cafbddd6e668afea21bc"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "edmonton-erin-mcdonald",
+      "taskId": "DPE-GSC-edmonton-erin-mcdonald",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "erin-mcdonald",
+      "citySlug": "edmonton",
+      "entityName": "Erin McDonald",
+      "sourceUrl": "https://emc3consulting.ca/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "2fdae577794b4a4b368bc0c7d08e5ca1de1edc81a483ea634924fc0d9bb9adf1",
+      "sourceRetrievedAt": "2026-07-29T02:08:29.281Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Erin McDonald / EMC³ Consulting",
+          "paraphrase": "The current registry connects the person and practice identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/45835/erin-mcdonald",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e4eb88c4805d19210d3fab8db911cbc25b07f9017c8c3c2c18893902c866a0b5"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Edmonton, Alberta",
+          "paraphrase": "The provider site states that the consulting corporation is based in Edmonton.",
+          "supportingUrl": "https://emc3consulting.ca/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "2fdae577794b4a4b368bc0c7d08e5ca1de1edc81a483ea634924fc0d9bb9adf1"
+        },
+        {
+          "claimKind": "service",
+          "value": "collection appraisal, cataloguing, and advisory",
+          "paraphrase": "The collections section names these practice services.",
+          "supportingUrl": "https://emc3consulting.ca/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "2fdae577794b4a4b368bc0c7d08e5ca1de1edc81a483ea634924fc0d9bb9adf1"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "Canadian art, folk art, arts and crafts, Canadian ceramics, Canadian sculpture",
+          "paraphrase": "The member record supplies these specialty categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/45835/erin-mcdonald",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e4eb88c4805d19210d3fab8db911cbc25b07f9017c8c3c2c18893902c866a0b5"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "donations, estate evaluations",
+          "paraphrase": "The registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/45835/erin-mcdonald",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e4eb88c4805d19210d3fab8db911cbc25b07f9017c8c3c2c18893902c866a0b5"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "richmond-susan-appich-boze",
+      "taskId": "DPE-GSC-richmond-susan-appich-boze",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "susan-appich-boze",
+      "citySlug": "richmond",
+      "entityName": "Susan Appich Boze",
+      "sourceUrl": "https://www.antiquesappraised.org/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "35fd2a133f7ce8454434859c48ab92ae8082fd293a412a4f32ae963e6d28cf7d",
+      "sourceRetrievedAt": "2026-07-29T02:08:33.972Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Susan Appich Boze / Appraisal & Auction Resource, LLC",
+          "paraphrase": "The practice site supplies the person and business identity.",
+          "supportingUrl": "https://www.antiquesappraised.org/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "35fd2a133f7ce8454434859c48ab92ae8082fd293a412a4f32ae963e6d28cf7d"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Richmond, Virginia",
+          "paraphrase": "The provider site publishes the Richmond practice address.",
+          "supportingUrl": "https://www.antiquesappraised.org/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "35fd2a133f7ce8454434859c48ab92ae8082fd293a412a4f32ae963e6d28cf7d"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA CAPP",
+          "paraphrase": "ISA displays its Certified Appraiser of Personal Property designation.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1807/susan-appich-boze",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d655784ad080b40c82a7286e9ce2675a3215e66937f090d4eb8875d5ea62ad5b"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "decorative arts, furniture, silver, porcelain, crystal, artwork",
+          "paraphrase": "The practice site provides these areas of expertise.",
+          "supportingUrl": "https://www.antiquesappraised.org/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "35fd2a133f7ce8454434859c48ab92ae8082fd293a412a4f32ae963e6d28cf7d"
+        },
+        {
+          "claimKind": "fee_basis",
+          "value": "service-based; not contingent on appraised value",
+          "paraphrase": "The provider publishes a non-value-contingent fee basis without a price amount.",
+          "supportingUrl": "https://www.antiquesappraised.org/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "35fd2a133f7ce8454434859c48ab92ae8082fd293a412a4f32ae963e6d28cf7d"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "toronto-kelly-juhasz",
+      "taskId": "DPE-GSC-toronto-kelly-juhasz",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "kelly-juhasz",
+      "citySlug": "toronto",
+      "entityName": "Kelly Juhasz",
+      "sourceUrl": "https://www.fineartappraisalandservices.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "04b69bcf003ca8217db5834134aaa0915308fe1ad02eea10f04c7bcd9b46872b",
+      "sourceRetrievedAt": "2026-07-29T02:08:45.021Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Kelly Juhasz / Fine Art Appraisal + Services",
+          "paraphrase": "The practice site supplies the person and business identity.",
+          "supportingUrl": "https://www.fineartappraisalandservices.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "04b69bcf003ca8217db5834134aaa0915308fe1ad02eea10f04c7bcd9b46872b"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Toronto, Ontario",
+          "paraphrase": "ISA supplies the current Toronto location.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3210/kelly-juhasz",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "03be22750a853c88bbc8b2a8e6321ed098ae209d8884da3692bb2faf415f911c"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM",
+          "paraphrase": "ISA displays its Accredited Member designation.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3210/kelly-juhasz",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "03be22750a853c88bbc8b2a8e6321ed098ae209d8884da3692bb2faf415f911c"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "fine art, ceramics, documents, paintings, photography, prints, sculpture",
+          "paraphrase": "The registry supplies these broad property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3210/kelly-juhasz",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "03be22750a853c88bbc8b2a8e6321ed098ae209d8884da3692bb2faf415f911c"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "appraisal review, donations, equitable distribution, expert witness, insurance claims",
+          "paraphrase": "The registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3210/kelly-juhasz",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "03be22750a853c88bbc8b2a8e6321ed098ae209d8884da3692bb2faf415f911c"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "orlando-karen-riffe",
+      "taskId": "DPE-GSC-orlando-karen-riffe",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "karen-riffe",
+      "citySlug": "orlando",
+      "entityName": "Karen D Riffe",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13046/karen-d-riffe",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "74363415f3d4f30b0ced0934ade5f25b29c316087305f8d258f300e2e4063d7a",
+      "sourceRetrievedAt": "2026-07-29T02:21:30.361Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Karen D Riffe / Acquisitions Appraisal Services",
+          "paraphrase": "The registry supplies the person and practice identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13046/karen-d-riffe",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "74363415f3d4f30b0ced0934ade5f25b29c316087305f8d258f300e2e4063d7a"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Orlando, Florida",
+          "paraphrase": "ISA supplies a current Orlando address and service statement while also listing a Texas base.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13046/karen-d-riffe",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "74363415f3d4f30b0ced0934ade5f25b29c316087305f8d258f300e2e4063d7a"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM",
+          "paraphrase": "ISA displays its Accredited Member designation.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13046/karen-d-riffe",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "74363415f3d4f30b0ced0934ade5f25b29c316087305f8d258f300e2e4063d7a"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art, rugs, decorative arts, furniture, firearms, ceramics, collectibles, silver, pottery, porcelain, lamps",
+          "paraphrase": "The registry supplies these specialties and appraised-property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13046/karen-d-riffe",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "74363415f3d4f30b0ced0934ade5f25b29c316087305f8d258f300e2e4063d7a"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "damage claims, divorce, donations, equitable distribution, estate evaluation and probate, insurance claims",
+          "paraphrase": "The registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13046/karen-d-riffe",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "74363415f3d4f30b0ced0934ade5f25b29c316087305f8d258f300e2e4063d7a"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "minneapolis-shannon-law",
+      "taskId": "DPE-GSC-minneapolis-shannon-law",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "shannon-k-law",
+      "citySlug": "minneapolis",
+      "entityName": "Shannon K Law",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1204/shannon-k-law",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "9e9975f0ac671af434a9f5d1a801599e168bc172cbbd5f25644a7a2c881e1d12",
+      "sourceRetrievedAt": "2026-07-29T02:21:34.337Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Shannon K Law",
+          "paraphrase": "The current registry supplies the appraiser identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1204/shannon-k-law",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "9e9975f0ac671af434a9f5d1a801599e168bc172cbbd5f25644a7a2c881e1d12"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Minneapolis, Minnesota; regional travel",
+          "paraphrase": "ISA supplies the Minneapolis base and provider-published regional-travel statement.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1204/shannon-k-law",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "9e9975f0ac671af434a9f5d1a801599e168bc172cbbd5f25644a7a2c881e1d12"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM",
+          "paraphrase": "ISA displays its Accredited Member designation.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1204/shannon-k-law",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "9e9975f0ac671af434a9f5d1a801599e168bc172cbbd5f25644a7a2c881e1d12"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art, bronzes, decorative arts, furniture, prints",
+          "paraphrase": "The current member record supplies these appraised-property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1204/shannon-k-law",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "9e9975f0ac671af434a9f5d1a801599e168bc172cbbd5f25644a7a2c881e1d12"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "equitable distribution, estate evaluation, probate, estate tax, non-cash charitable donation",
+          "paraphrase": "The registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1204/shannon-k-law",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "9e9975f0ac671af434a9f5d1a801599e168bc172cbbd5f25644a7a2c881e1d12"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "sacramento-linda-hawthorne",
+      "taskId": "DPE-GSC-sacramento-linda-hawthorne",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "linda-hawthorne",
+      "citySlug": "sacramento",
+      "entityName": "Linda Hawthorne",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/655/linda-hawthorne",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "c024ae178afc207ebaee1c65d11f49478d3e571f6e5c76bdfcead3c1cd551b05",
+      "sourceRetrievedAt": "2026-07-29T02:21:38.593Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Linda Hawthorne",
+          "paraphrase": "Linda Hawthorne",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/655/linda-hawthorne",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c024ae178afc207ebaee1c65d11f49478d3e571f6e5c76bdfcead3c1cd551b05"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Sacramento, California",
+          "paraphrase": "The current registry supplies the Sacramento address; the provider site describes Sacramento and Northern California service.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/655/linda-hawthorne",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c024ae178afc207ebaee1c65d11f49478d3e571f6e5c76bdfcead3c1cd551b05"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM",
+          "paraphrase": "ISA displays its Accredited Member designation.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/655/linda-hawthorne",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c024ae178afc207ebaee1c65d11f49478d3e571f6e5c76bdfcead3c1cd551b05"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art, ceramics, furniture, objets d'art, collectibles, sterling silver",
+          "paraphrase": "The current member record supplies these specialties and property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/655/linda-hawthorne",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c024ae178afc207ebaee1c65d11f49478d3e571f6e5c76bdfcead3c1cd551b05"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "equitable distribution, estate evaluation and tax, insurance claims, non-cash charitable donations",
+          "paraphrase": "The registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/655/linda-hawthorne",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c024ae178afc207ebaee1c65d11f49478d3e571f6e5c76bdfcead3c1cd551b05"
+        }
+      ],
+      "overrideNote": "Use the registry-backed person identity only; the unreachable provider-site practice relationship remains held."
+    },
+    {
+      "packetId": "tulsa-laura-nelson",
+      "taskId": "DPE-GSC-tulsa-laura-nelson",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "laura-a-nelson",
+      "citySlug": "tulsa",
+      "entityName": "Laura A Nelson",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1341/laura-a-nelson",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "7a01a560b6676439660f84aa58f026f5e3c8ffc2106ea12737d9cbd9e22c2660",
+      "sourceRetrievedAt": "2026-07-29T02:21:48.772Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Laura A Nelson",
+          "paraphrase": "The current registry supplies the appraiser identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1341/laura-a-nelson",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "7a01a560b6676439660f84aa58f026f5e3c8ffc2106ea12737d9cbd9e22c2660"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Tulsa, Oklahoma",
+          "paraphrase": "ISA supplies the current Tulsa location.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1341/laura-a-nelson",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "7a01a560b6676439660f84aa58f026f5e3c8ffc2106ea12737d9cbd9e22c2660"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM",
+          "paraphrase": "ISA displays its Accredited Member designation.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1341/laura-a-nelson",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "7a01a560b6676439660f84aa58f026f5e3c8ffc2106ea12737d9cbd9e22c2660"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art, decorative arts, furniture, silver, collectibles, estate jewelry, paintings, objets d'art",
+          "paraphrase": "The current member record supplies these specialties and property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1341/laura-a-nelson",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "7a01a560b6676439660f84aa58f026f5e3c8ffc2106ea12737d9cbd9e22c2660"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "damage claims, donations, equitable distribution, estate evaluation, non-cash charitable donations, consulting, brokerage, estate sales, liquidation",
+          "paraphrase": "The registry supplies these service categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1341/laura-a-nelson",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "7a01a560b6676439660f84aa58f026f5e3c8ffc2106ea12737d9cbd9e22c2660"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "buffalo-cleo-sloan",
+      "taskId": "DPE-GSC-buffalo-cleo-sloan",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "cleo-l-sloan",
+      "citySlug": "buffalo",
+      "entityName": "Cleo L Sloan",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13232/cleo-l-sloan",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "d0cf649c0d0f17c624101a8a85a418f21af599e9ed4e90b9d99d430429e22722",
+      "sourceRetrievedAt": "2026-07-29T02:21:55.097Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Cleo L Sloan / Sloan Fine Art Consulting",
+          "paraphrase": "The registry supplies the person and practice identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13232/cleo-l-sloan",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d0cf649c0d0f17c624101a8a85a418f21af599e9ed4e90b9d99d430429e22722"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Buffalo, New York; multi-location practice",
+          "paraphrase": "ISA supplies a Buffalo address along with several other listed locations.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13232/cleo-l-sloan",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d0cf649c0d0f17c624101a8a85a418f21af599e9ed4e90b9d99d430429e22722"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM, Fine Art",
+          "paraphrase": "ISA displays its Accredited Member designation and Fine Art discipline.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13232/cleo-l-sloan",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d0cf649c0d0f17c624101a8a85a418f21af599e9ed4e90b9d99d430429e22722"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "15th- through 20th-century art, Latin American art, Old Masters, antiquities, decorative arts",
+          "paraphrase": "The current member record supplies these fine-art and related categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13232/cleo-l-sloan",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d0cf649c0d0f17c624101a8a85a418f21af599e9ed4e90b9d99d430429e22722"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance and damage claims, probate, estate or gift tax, charitable donation, divorce, bankruptcy, collateral valuation",
+          "paraphrase": "The current record supplies these assignment purposes.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13232/cleo-l-sloan",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d0cf649c0d0f17c624101a8a85a418f21af599e9ed4e90b9d99d430429e22722"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "memphis-greer-simonton",
+      "taskId": "DPE-GSC-memphis-greer-simonton",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "greer-simonton",
+      "citySlug": "memphis",
+      "entityName": "Greer Simonton",
+      "sourceUrl": "http://www.memphisantiqueappraisals.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "3f4562b62fd04573ea7a2057835b193fb55560cd07b3d769e181bc7fcaea5375",
+      "sourceRetrievedAt": "2026-07-29T02:21:58.953Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Greer Simonton",
+          "paraphrase": "The current registry supplies the appraiser identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/125/greer-simonton",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "10937c6b4d80b8c79f978614a7840cc577ce35a3fcf9c5dff1bbf64e40c8a942"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Memphis, Tennessee",
+          "paraphrase": "ISA supplies the current Memphis location.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/125/greer-simonton",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "10937c6b4d80b8c79f978614a7840cc577ce35a3fcf9c5dff1bbf64e40c8a942"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA Accredited Member, Antiques, Furnishings and Decorative Arts",
+          "paraphrase": "ISA displays the current Accredited Member state and discipline.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/125/greer-simonton",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "10937c6b4d80b8c79f978614a7840cc577ce35a3fcf9c5dff1bbf64e40c8a942"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "decorative arts, furniture, silver, art, early American and British furniture",
+          "paraphrase": "The current member record supplies these specialties and property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/125/greer-simonton",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "10937c6b4d80b8c79f978614a7840cc577ce35a3fcf9c5dff1bbf64e40c8a942"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "consultation, donations, equitable distribution, estate evaluation, non-cash charitable donations",
+          "paraphrase": "The registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/125/greer-simonton",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "10937c6b4d80b8c79f978614a7840cc577ce35a3fcf9c5dff1bbf64e40c8a942"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "kitchener-elizabeth-edwards",
+      "taskId": "DPE-GSC-kitchener-elizabeth-edwards",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "elizabeth-edwards",
+      "citySlug": "kitchener",
+      "entityName": "Elizabeth Edwards",
+      "sourceUrl": "https://isa-appraisers.ca/appraiser/elizabeth-edwards/",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "9e191081b0fb836406144829bd43c7eb32fad80d5b8ec9e9527a71f03bd6d51f",
+      "sourceRetrievedAt": "2026-07-29T06:53:41.343Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Elizabeth Edwards",
+          "paraphrase": "The current registry supplies the appraiser identity and role.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/elizabeth-edwards/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "9e191081b0fb836406144829bd43c7eb32fad80d5b8ec9e9527a71f03bd6d51f"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Kitchener/Waterloo is one of several Ontario service areas",
+          "paraphrase": "The registry directly includes Kitchener/Waterloo in a multi-location service statement.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/elizabeth-edwards/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "9e191081b0fb836406144829bd43c7eb32fad80d5b8ec9e9527a71f03bd6d51f"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA Member",
+          "paraphrase": "The registry shows ordinary member level, not ISA AM or CAPP.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/elizabeth-edwards/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "9e191081b0fb836406144829bd43c7eb32fad80d5b8ec9e9527a71f03bd6d51f"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "American, British, Canadian, contemporary, and general fine art",
+          "paraphrase": "The registry supplies these fine-art categories.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/elizabeth-edwards/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "9e191081b0fb836406144829bd43c7eb32fad80d5b8ec9e9527a71f03bd6d51f"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "collection management, donations, equitable distribution, estate and probate, insurance claims, consulting, CCPERB donation",
+          "paraphrase": "The registry supplies these assignment and advisory categories.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/elizabeth-edwards/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "9e191081b0fb836406144829bd43c7eb32fad80d5b8ec9e9527a71f03bd6d51f"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "montreal-tania-poggione",
+      "taskId": "DPE-GSC-montreal-tania-poggione",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "tania-poggione",
+      "citySlug": "montreal",
+      "entityName": "Tania Poggione",
+      "sourceUrl": "https://www.poggioneartconsultant.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "71bc7969693a345e75bfd09d6e66786b2b0316b610854b0ff741b54b55c9b9c5",
+      "sourceRetrievedAt": "2026-07-29T06:53:41.223Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Tania Poggione / Tania Poggione Art Consultant",
+          "paraphrase": "The registry and provider site support the person and practice identity.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/tania-poggione/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0806764cb20fccd2d608b7211e879fa3387df74a83c122d5fa97c9a931faeb14"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Montreal, Quebec; Montreal and Ottawa practice",
+          "paraphrase": "The registry directly supports Montreal while preserving the multi-city context.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/tania-poggione/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0806764cb20fccd2d608b7211e879fa3387df74a83c122d5fa97c9a931faeb14"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM",
+          "paraphrase": "The registry displays its Accredited Member designation.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/tania-poggione/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0806764cb20fccd2d608b7211e879fa3387df74a83c122d5fa97c9a931faeb14"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "Canadian, Quebec, American, European, contemporary, Inuit and Indigenous art; photography; prints; sculpture; collection management",
+          "paraphrase": "The current registry supplies these fine-art and collection specialties.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/tania-poggione/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0806764cb20fccd2d608b7211e879fa3387df74a83c122d5fa97c9a931faeb14"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "collection management, brokerage, consulting, donations, estate, insurance claims",
+          "paraphrase": "The registry supplies these appraisal and advisory categories.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/tania-poggione/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0806764cb20fccd2d608b7211e879fa3387df74a83c122d5fa97c9a931faeb14"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "hamilton-francis-germain",
+      "taskId": "DPE-GSC-hamilton-francis-germain",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "francis-germain",
+      "citySlug": "hamilton",
+      "entityName": "Francis Germain",
+      "sourceUrl": "https://www.mcmastergallery.ca/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "79e90255e6943332058ad8a2398112e6a472c06ce3c6f64707f510563a34b06a",
+      "sourceRetrievedAt": "2026-07-29T06:53:41.342Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Francis Germain / McMaster Gallery",
+          "paraphrase": "The current registry supplies the person and practice relationship.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/francis-germain/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "1cbcfd606dfe75b5775d1283ae114c9f2d5b96fc0a7970521fc8eadfebb2b967"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Hamilton/Dundas, Ontario",
+          "paraphrase": "The registry supports the Hamilton city relationship while preserving the Dundas address.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/francis-germain/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "1cbcfd606dfe75b5775d1283ae114c9f2d5b96fc0a7970521fc8eadfebb2b967"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM",
+          "paraphrase": "The registry displays its Accredited Member designation.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/francis-germain/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "1cbcfd606dfe75b5775d1283ae114c9f2d5b96fc0a7970521fc8eadfebb2b967"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "Canadian, contemporary, European, Inuit, Northwest Coast and First Nations, and Quebec art; photography; prints; Canadian sculpture",
+          "paraphrase": "The current registry supplies these fine-art categories.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/francis-germain/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "1cbcfd606dfe75b5775d1283ae114c9f2d5b96fc0a7970521fc8eadfebb2b967"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "consulting, damage claims, donations, equitable distribution, estate and probate, insurance claims, cultural-property review",
+          "paraphrase": "The registry supplies these assignment categories.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/francis-germain/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "1cbcfd606dfe75b5775d1283ae114c9f2d5b96fc0a7970521fc8eadfebb2b967"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "san-francisco-rosalie-wardell",
+      "taskId": "DPE-GSC-san-francisco-rosalie-wardell",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "rosalie-wardell",
+      "citySlug": "san-francisco",
+      "entityName": "Rosalie Wardell",
+      "sourceUrl": "https://www.wardellappraisals.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "87d5c621f683415235d162620cf2a7ed495aa5d1c1253ece8cd194f7a21eb99e",
+      "sourceRetrievedAt": "2026-07-29T06:53:41.281Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Rosalie Wardell / Wardell Appraisals",
+          "paraphrase": "The registry and provider site support the person and practice identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/834/rosalie-wardell",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "4e1d33a90401eeddd5ceb9ddf514d77d2163865571bb18104243ed2ab4015261"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "San Francisco Bay Area, California",
+          "paraphrase": "The provider site and registry directly support San Francisco service and a Bay Area base.",
+          "supportingUrl": "https://www.wardellappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "87d5c621f683415235d162620cf2a7ed495aa5d1c1253ece8cd194f7a21eb99e"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM",
+          "paraphrase": "ISA displays its Accredited Member designation.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/834/rosalie-wardell",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "4e1d33a90401eeddd5ceb9ddf514d77d2163865571bb18104243ed2ab4015261"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "fine art, photography, decorative arts, furniture, silver, antiques, books, historical artifacts, memorabilia, collectibles, wine",
+          "paraphrase": "The provider-controlled site supplies these appraisal categories.",
+          "supportingUrl": "https://www.wardellappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "87d5c621f683415235d162620cf2a7ed495aa5d1c1253ece8cd194f7a21eb99e"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance, donation, trusts, estates, archives, collection management",
+          "paraphrase": "The provider site supplies these assignment categories.",
+          "supportingUrl": "https://www.wardellappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "87d5c621f683415235d162620cf2a7ed495aa5d1c1253ece8cd194f7a21eb99e"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "victoria-helen-delacretaz",
+      "taskId": "DPE-GSC-victoria-helen-delacretaz",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "helen-delacretaz",
+      "citySlug": "victoria",
+      "entityName": "Helen Delacretaz",
+      "sourceUrl": "https://isa-appraisers.ca/appraiser/helen-delacretaz/",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "1d92f0da4e8fde90d9d166d16feffc74755bfa95f3b159d0f58950617eb45918",
+      "sourceRetrievedAt": "2026-07-29T06:53:41.252Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Helen Delacretaz",
+          "paraphrase": "The current registry supplies the appraiser identity and professional role.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/helen-delacretaz/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "1d92f0da4e8fde90d9d166d16feffc74755bfa95f3b159d0f58950617eb45918"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Victoria, British Columbia and Winnipeg, Manitoba; Vancouver Island base context",
+          "paraphrase": "The registry directly supports Victoria as one part of a multi-location practice.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/helen-delacretaz/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "1d92f0da4e8fde90d9d166d16feffc74755bfa95f3b159d0f58950617eb45918"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM, Fine Art and Antiques/Furniture/Decorative Art",
+          "paraphrase": "The registry displays its Accredited Member designation and disciplines.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/helen-delacretaz/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "1d92f0da4e8fde90d9d166d16feffc74755bfa95f3b159d0f58950617eb45918"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "Canadian, Inuit, Islamic and Indigenous art; ceramics; decorative arts; porcelain; public art; estates; collection management",
+          "paraphrase": "The current registry supplies these appraisal and museum-consulting categories.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/helen-delacretaz/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "1d92f0da4e8fde90d9d166d16feffc74755bfa95f3b159d0f58950617eb45918"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "collection management, CCPERB donation, consulting, damage claims, donations, estate, insurance claims",
+          "paraphrase": "The registry supplies these assignment categories.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/helen-delacretaz/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "1d92f0da4e8fde90d9d166d16feffc74755bfa95f3b159d0f58950617eb45918"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "rochester-roslyn-goldman",
+      "taskId": "DPE-GSC-rochester-roslyn-goldman",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "roslyn-bakst-goldman",
+      "citySlug": "rochester",
+      "entityName": "Roslyn Bakst Goldman",
+      "sourceUrl": "https://roslyngoldman.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "5f2e32dfd9c6ed6589d9634ca81a9a9db2e7b8770d2d9eca553d0639e551968e",
+      "sourceRetrievedAt": "2026-07-29T07:07:47.537Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Roslyn Bakst Goldman / Roz Goldman",
+          "paraphrase": "The two direct sources support the provider identity and name variant.",
+          "supportingUrl": "https://roslyngoldman.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "5f2e32dfd9c6ed6589d9634ca81a9a9db2e7b8770d2d9eca553d0639e551968e"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Rochester, New York",
+          "paraphrase": "The provider site directly establishes the Rochester base.",
+          "supportingUrl": "https://roslyngoldman.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "5f2e32dfd9c6ed6589d9634ca81a9a9db2e7b8770d2d9eca553d0639e551968e"
+        },
+        {
+          "claimKind": "credential",
+          "value": "Appraisers Association of America Certified Member; member since 1986",
+          "paraphrase": "The association-controlled page supplies the exact displayed membership state and date.",
+          "supportingUrl": "https://www.appraisersassociation.org/membership/master-series",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "ea7fde511a9144f5054ba1199d0e6d11eadb75849cdf74ef84e53df3ecac008c"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "prints, paintings, drawings, sculpture, Impressionist and Modern art, Postwar and Contemporary art",
+          "paraphrase": "The provider and association pages supply these fine-art categories.",
+          "supportingUrl": "https://roslyngoldman.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "5f2e32dfd9c6ed6589d9634ca81a9a9db2e7b8770d2d9eca553d0639e551968e"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance, moving, estate, income-tax and gift-tax appraisal support; collection cataloguing and management",
+          "paraphrase": "The provider publishes these intended uses and related collection services.",
+          "supportingUrl": "https://roslyngoldman.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "5f2e32dfd9c6ed6589d9634ca81a9a9db2e7b8770d2d9eca553d0639e551968e"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "aspen-brady-dreasher-coverage",
+      "taskId": "DPE-GSC-aspen-brady-dreasher-coverage",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "brady-l-dreasher",
+      "citySlug": "aspen",
+      "entityName": "Brady L. Dreasher",
+      "sourceUrl": "https://artofestates.com/denver-appraiser/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "3ab74f9a6e5f1885a6eebfb5d28aba8acd7e6154707e432d41dfbe7c6f6eaac4",
+      "sourceRetrievedAt": "2026-07-29T07:07:47.575Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Brady L. Dreasher / Art of Estates",
+          "paraphrase": "The current registry and provider site support the person-practice relationship.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2849/brady-l-dreasher",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c6433ca5b7c624051c620e13cbfc95773df7148b836689c7aa731ec9d8ad0794"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "625 E Main St, Suite 102B-100, Aspen, Colorado 81611",
+          "paraphrase": "The current registry directly establishes an Aspen address, corroborated at city level by the provider site.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2849/brady-l-dreasher",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c6433ca5b7c624051c620e13cbfc95773df7148b836689c7aa731ec9d8ad0794"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA CAPP, GPPA, CES, CAGA, WSET1",
+          "paraphrase": "The current professional record publishes these exact designations.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2849/brady-l-dreasher",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c6433ca5b7c624051c620e13cbfc95773df7148b836689c7aa731ec9d8ad0794"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "fine art, antiques, artifacts, Native American material, decorative arts, furniture, collectibles, rugs, clocks, musical instruments, wine",
+          "paraphrase": "The current registry supplies these categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2849/brady-l-dreasher",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c6433ca5b7c624051c620e13cbfc95773df7148b836689c7aa731ec9d8ad0794"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "estate, probate, insurance, donation, equitable distribution, divorce, litigation, appraisal review, consulting",
+          "paraphrase": "The current registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2849/brady-l-dreasher",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c6433ca5b7c624051c620e13cbfc95773df7148b836689c7aa731ec9d8ad0794"
+        }
+      ],
+      "overrideNote": "Extend the already approved canonical Brady Dreasher profile; do not create a duplicate Aspen profile."
+    },
+    {
+      "packetId": "albuquerque-anita-chavez",
+      "taskId": "DPE-GSC-albuquerque-anita-chavez",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "anita-l-chavez",
+      "citySlug": "albuquerque",
+      "entityName": "Anita L Chavez",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3620/anita-l-chavez",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "7b7559b0357cbce4069a2ffe858b414e5b97bdd76d6586a0d98caebbb890d7aa",
+      "sourceRetrievedAt": "2026-07-29T07:07:47.762Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Anita L Chavez",
+          "paraphrase": "The current registry supplies the appraiser identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3620/anita-l-chavez",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "7b7559b0357cbce4069a2ffe858b414e5b97bdd76d6586a0d98caebbb890d7aa"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Albuquerque, New Mexico; Albuquerque and Phoenix practice",
+          "paraphrase": "The current registry establishes Albuquerque while also documenting a multi-city practice.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3620/anita-l-chavez",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "7b7559b0357cbce4069a2ffe858b414e5b97bdd76d6586a0d98caebbb890d7aa"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM",
+          "paraphrase": "The current registry heading supplies the exact designation.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3620/anita-l-chavez",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "7b7559b0357cbce4069a2ffe858b414e5b97bdd76d6586a0d98caebbb890d7aa"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "Southwest Native American and Spanish Colonial art, antiques and collectibles; rugs, Pueblo pottery, jewelry, katsinas, retablos, santos, wood carving, New Mexico furniture",
+          "paraphrase": "The current member record supplies these specialized categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3620/anita-l-chavez",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "7b7559b0357cbce4069a2ffe858b414e5b97bdd76d6586a0d98caebbb890d7aa"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "damage claims, equitable distribution, estate evaluation, estate tax, insurance claims, non-cash charitable donations",
+          "paraphrase": "The current registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3620/anita-l-chavez",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "7b7559b0357cbce4069a2ffe858b414e5b97bdd76d6586a0d98caebbb890d7aa"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "colorado-springs-lisa-duke",
+      "taskId": "DPE-GSC-colorado-springs-lisa-duke",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "lisa-w-duke-lwduke-appraisals",
+      "citySlug": "colorado-springs",
+      "entityName": "Lisa W. Duke",
+      "sourceUrl": "https://www.lwdukeappraisals.net/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "9cf400b532216ea290e422e9509270350771fe584c2fdd3efea4cf68bc7306a2",
+      "sourceRetrievedAt": "2026-07-29T07:07:47.823Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Lisa W. Duke / LwDuke Appraisals",
+          "paraphrase": "The direct sources support the appraiser and practice identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3006/lisa-w-duke",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d58b7fbc5c2a5099d518f3d787d5efdf6ae44f0e3a7c9a83f8f80499f968b63c"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Colorado Springs, Colorado 80977",
+          "paraphrase": "The current registry directly supports Colorado Springs while showing a multi-location Colorado practice.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3006/lisa-w-duke",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d58b7fbc5c2a5099d518f3d787d5efdf6ae44f0e3a7c9a83f8f80499f968b63c"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA CAPP; Fine Art; Antiques, Furnishings and Decorative Arts; Private Client Services",
+          "paraphrase": "The current registry supplies the exact designation and disciplines.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3006/lisa-w-duke",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d58b7fbc5c2a5099d518f3d787d5efdf6ae44f0e3a7c9a83f8f80499f968b63c"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art, ceramics, decorative arts, furniture, silver, antiques, books, clocks, collectibles, glass, lighting, paintings, porcelain, pottery, prints, sculpture, watercolors",
+          "paraphrase": "The current professional record supplies these property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3006/lisa-w-duke",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d58b7fbc5c2a5099d518f3d787d5efdf6ae44f0e3a7c9a83f8f80499f968b63c"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "consulting, damage claims, divorce, donations, equitable distribution, estate evaluation, estate probate, estate tax, non-cash charitable donations",
+          "paraphrase": "The current registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3006/lisa-w-duke",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d58b7fbc5c2a5099d518f3d787d5efdf6ae44f0e3a7c9a83f8f80499f968b63c"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "providence-jessica-strongin",
+      "taskId": "DPE-GSC-providence-jessica-strongin",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "jessica-strongin",
+      "citySlug": "providence",
+      "entityName": "Jessica Strongin",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8477/jessica-strongin",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "de496c63a7f5a0bd73e090ac6ce0f424dbffe863fa4be5a38ea987eb33449e77",
+      "sourceRetrievedAt": "2026-07-29T07:21:57.960Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Jessica Strongin / Artem Appraisals",
+          "paraphrase": "The current registry supplies the person-practice relationship.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8477/jessica-strongin",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "de496c63a7f5a0bd73e090ac6ce0f424dbffe863fa4be5a38ea987eb33449e77"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Providence, Rhode Island",
+          "paraphrase": "The current member record directly establishes Providence as the listed location.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8477/jessica-strongin",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "de496c63a7f5a0bd73e090ac6ce0f424dbffe863fa4be5a38ea987eb33449e77"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA CAPP; Antiques, Furnishings and Decorative Arts; Fine Art",
+          "paraphrase": "The association-controlled record supplies the exact current designation and disciplines.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8477/jessica-strongin",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "de496c63a7f5a0bd73e090ac6ce0f424dbffe863fa4be5a38ea987eb33449e77"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art, decorative arts, furniture, antiques and furnishings",
+          "paraphrase": "The registry supplies these broad property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8477/jessica-strongin",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "de496c63a7f5a0bd73e090ac6ce0f424dbffe863fa4be5a38ea987eb33449e77"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "damage, divorce, donation, equitable distribution, estate, insurance and sale-advisory appraisal purposes",
+          "paraphrase": "The registry supplies the listed assignment categories and adjacent advisory role.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8477/jessica-strongin",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "de496c63a7f5a0bd73e090ac6ce0f424dbffe863fa4be5a38ea987eb33449e77"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "little-rock-jennifer-carman",
+      "taskId": "DPE-GSC-little-rock-jennifer-carman",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "jennifer-n-carman",
+      "citySlug": "little-rock",
+      "entityName": "Jennifer N Carman",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13159/jennifer-n-carman",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "051abcfb6dbc73b58d8c988c8a805e5d511f7b593940c812fafff4713924fe8e",
+      "sourceRetrievedAt": "2026-07-29T07:22:11.981Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Jennifer N Carman / J. Carman, Inc. Fine Art Advisory",
+          "paraphrase": "The current registry supplies the person-practice relationship.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13159/jennifer-n-carman",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "051abcfb6dbc73b58d8c988c8a805e5d511f7b593940c812fafff4713924fe8e"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Little Rock, Arkansas; second registry-listed address in Bentonville, Arkansas",
+          "paraphrase": "The current record establishes Little Rock as the first listed address within a two-location practice.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13159/jennifer-n-carman",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "051abcfb6dbc73b58d8c988c8a805e5d511f7b593940c812fafff4713924fe8e"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ASA; ISA AM",
+          "paraphrase": "The current association-controlled record supplies the exact displayed ASA and ISA AM state.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13159/jennifer-n-carman",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "051abcfb6dbc73b58d8c988c8a805e5d511f7b593940c812fafff4713924fe8e"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "American and European art, Impressionist and Modern art, decorative arts, furniture, paintings and prints",
+          "paraphrase": "The registry supplies these fine- and decorative-art categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13159/jennifer-n-carman",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "051abcfb6dbc73b58d8c988c8a805e5d511f7b593940c812fafff4713924fe8e"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "appraisal review, estate evaluation, expert witness, insurance and non-cash donation assignments",
+          "paraphrase": "The registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13159/jennifer-n-carman",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "051abcfb6dbc73b58d8c988c8a805e5d511f7b593940c812fafff4713924fe8e"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "fredericton-germaine-pataki-theriault",
+      "taskId": "DPE-GSC-fredericton-germaine-pataki-theriault",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "germaine-pataki-theriault",
+      "citySlug": "fredericton",
+      "entityName": "Germaine Pataki-Thériault",
+      "sourceUrl": "https://gallery78.com/pages/art-appraising",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "ce4bfa11d3c96ee9710206a46f0223087bc7cc5a4143ff79917daf68ee0dcb69",
+      "sourceRetrievedAt": "2026-07-29T07:38:19.152Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Germaine Pataki-Thériault / Gallery 78",
+          "paraphrase": "The current registry supplies the person-gallery relationship.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/germaine-pataki-theriault/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "35fb99549e982725a7b9ebcb2ed071abeb2df579fcb8353b84877359e5f9a84e"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Fredericton, New Brunswick",
+          "paraphrase": "The current member record directly establishes Fredericton.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/germaine-pataki-theriault/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "35fb99549e982725a7b9ebcb2ed071abeb2df579fcb8353b84877359e5f9a84e"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM Accredited",
+          "paraphrase": "The association-controlled record supplies the exact current designation.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/germaine-pataki-theriault/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "35fb99549e982725a7b9ebcb2ed071abeb2df579fcb8353b84877359e5f9a84e"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art and Canadian art; provider-published focus on contemporary Atlantic Canadian artists",
+          "paraphrase": "The two direct sources support broad registry categories and a narrower provider-published focus.",
+          "supportingUrl": "https://gallery78.com/pages/art-appraising",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "ce4bfa11d3c96ee9710206a46f0223087bc7cc5a4143ff79917daf68ee0dcb69"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "donation, insurance, probate, family-division, purchase-advice and sale-advice purposes",
+          "paraphrase": "The provider and registry pages supply these appraisal and adjacent advisory categories.",
+          "supportingUrl": "https://gallery78.com/pages/art-appraising",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "ce4bfa11d3c96ee9710206a46f0223087bc7cc5a4143ff79917daf68ee0dcb69"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "arlington-sarah-reeder",
+      "taskId": "DPE-GSC-arlington-sarah-reeder",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "sarah-reeder",
+      "citySlug": "arlington",
+      "entityName": "Sarah Reeder",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8436/sarah-reeder",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "e62589d8ecc61c809d300515cfea7079942a88240cf2ca140d4698d38384446c",
+      "sourceRetrievedAt": "2026-07-29T07:38:43.698Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Sarah Reeder / Artifactual History Appraisal",
+          "paraphrase": "The current association-controlled record supplies the person-business relationship.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8436/sarah-reeder",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e62589d8ecc61c809d300515cfea7079942a88240cf2ca140d4698d38384446c"
+        },
+        {
+          "claimKind": "service_area",
+          "value": "Northern Virginia service area including Arlington and Crystal City",
+          "paraphrase": "The registry supports Arlington coverage as a service area, not as a primary office.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8436/sarah-reeder",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e62589d8ecc61c809d300515cfea7079942a88240cf2ca140d4698d38384446c"
+        },
+        {
+          "claimKind": "credential",
+          "value": "AAA, ISA CAPP",
+          "paraphrase": "The current association-controlled record supplies the exact displayed designations.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8436/sarah-reeder",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e62589d8ecc61c809d300515cfea7079942a88240cf2ca140d4698d38384446c"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "antiques, decorative arts, ceramics, furniture, twentieth-century furniture, silver and art",
+          "paraphrase": "The current registry supplies these property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8436/sarah-reeder",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e62589d8ecc61c809d300515cfea7079942a88240cf2ca140d4698d38384446c"
+        },
+        {
+          "claimKind": "service",
+          "value": "consulting, donation, equitable distribution, estate and insurance; remote and regional in-person modes",
+          "paraphrase": "The registry supplies both assignment categories and service modes.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8436/sarah-reeder",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e62589d8ecc61c809d300515cfea7079942a88240cf2ca140d4698d38384446c"
+        }
+      ],
+      "overrideNote": "Arlington is a source-backed service area, not a claimed primary office."
+    },
+    {
+      "packetId": "phoenix-jeffrey-pearson",
+      "taskId": "DPE-GSC-phoenix-jeffrey-pearson",
+      "disposition": "approved_for_profile",
+      "canonicalSlug": "jeffrey-pearson",
+      "citySlug": "phoenix",
+      "entityName": "Jeffrey L Pearson",
+      "sourceUrl": "https://a-zappraisal.com/about-us/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "1004d7f027b8dfce729a4387c2fa5e2a8c2e1633002abac5b41c7458b0ee1847",
+      "sourceRetrievedAt": "2026-07-29T07:48:33.439Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Jeffrey L Pearson / A-Z Appraisal & Estate Consultants",
+          "paraphrase": "The direct sources support the person-practice relationship.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/842/jeffrey-l-pearson",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "426deac248339b1f310e6fc5f3d391e846d4fb3147c7349d2a19aa6735f83e1c"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Phoenix, Arizona; first of two registry-listed addresses",
+          "paraphrase": "The current registry directly establishes Phoenix while also listing Rancho Mirage, California.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/842/jeffrey-l-pearson",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "426deac248339b1f310e6fc5f3d391e846d4fb3147c7349d2a19aa6735f83e1c"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA CAPP",
+          "paraphrase": "The current association-controlled heading supplies the exact designation.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/842/jeffrey-l-pearson",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "426deac248339b1f310e6fc5f3d391e846d4fb3147c7349d2a19aa6735f83e1c"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "bronzes, collectibles, furniture, oddities, obscura and true-crime memorabilia",
+          "paraphrase": "The current registry supplies both formal categories and the narrower declared emphasis.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/842/jeffrey-l-pearson",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "426deac248339b1f310e6fc5f3d391e846d4fb3147c7349d2a19aa6735f83e1c"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "donation, equitable distribution, estate probate, estate tax and insurance purposes",
+          "paraphrase": "The current registry supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/842/jeffrey-l-pearson",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "426deac248339b1f310e6fc5f3d391e846d4fb3147c7349d2a19aa6735f83e1c"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "milwaukee-cedarburg-auction",
+      "taskId": "DPE-P16-milwaukee-cedarburg-auction",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "cedarburg-auction-appraisals-llc",
+      "citySlug": "milwaukee",
+      "entityName": "Cedarburg Auction & Appraisals LLC",
+      "sourceUrl": "https://www.cedarburgauction.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "3675b5fadbb3e6a36e108e5a2ec09b4b18b704a7eb13af49242baf668c6c2697",
+      "sourceRetrievedAt": "2026-07-28T12:26:59.513Z",
+      "claims": [
+        {
+          "claimKind": "primary_location",
+          "value": "Brown Deer, Wisconsin",
+          "paraphrase": "The official contact section supplies the Brown Deer address.",
+          "supportingUrl": "https://www.cedarburgauction.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "3675b5fadbb3e6a36e108e5a2ec09b4b18b704a7eb13af49242baf668c6c2697"
+        },
+        {
+          "claimKind": "local_context",
+          "value": "Brown Deer, Milwaukee County",
+          "paraphrase": "The Village government page places Brown Deer in northern Milwaukee County.",
+          "supportingUrl": "https://www.browndeerwi.org/27/Government",
+          "sourceType": "official_local_institution",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "fc612675d59b559ebac7f09ed534daf6f2a759506036fda3e823c985ee2803a3"
+        },
+        {
+          "claimKind": "service",
+          "value": "estate liquidation, auction, household sale, consignment, appraisal",
+          "paraphrase": "The provider's homepage names these services.",
+          "supportingUrl": "https://www.cedarburgauction.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "3675b5fadbb3e6a36e108e5a2ec09b4b18b704a7eb13af49242baf668c6c2697"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "antiques, jewelry, equipment, tools",
+          "paraphrase": "The provider describes these categories in its liquidation work.",
+          "supportingUrl": "https://www.cedarburgauction.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "3675b5fadbb3e6a36e108e5a2ec09b4b18b704a7eb13af49242baf668c6c2697"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "washingtonian-appraisals",
+      "taskId": "DPE-P20-washingtonian-appraisals",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "washingtonian-appraisals",
+      "citySlug": "washington-dc",
+      "entityName": "Washingtonian Appraisals",
+      "sourceUrl": "https://www.washingtonianappraisals.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "29b44c5dbaadd961cf76ece6ffda56f054e36b7073ebca5f0541e9d842136464",
+      "sourceRetrievedAt": "2026-07-28T12:26:59.315Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Washingtonian Appraisals",
+          "paraphrase": "Washingtonian Appraisals",
+          "supportingUrl": "https://www.washingtonianappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "29b44c5dbaadd961cf76ece6ffda56f054e36b7073ebca5f0541e9d842136464"
+        },
+        {
+          "claimKind": "identity",
+          "value": "David J. Sergeant; Washingtonian Appraisals",
+          "paraphrase": "The official about page names the practice principal.",
+          "supportingUrl": "https://www.washingtonianappraisals.com/about.html",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "f883c44cdd63364700e3a5440bb99f930d6b651d3475246f4383801eaf410e1c"
+        },
+        {
+          "claimKind": "service_area",
+          "value": "Washington, DC; Maryland; Virginia",
+          "paraphrase": "The provider homepage states its DC/MD/VA service area.",
+          "supportingUrl": "https://www.washingtonianappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "29b44c5dbaadd961cf76ece6ffda56f054e36b7073ebca5f0541e9d842136464"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "fine art, antiques, furniture, porcelain, silver, residential contents",
+          "paraphrase": "The official homepage names these item categories.",
+          "supportingUrl": "https://www.washingtonianappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "29b44c5dbaadd961cf76ece6ffda56f054e36b7073ebca5f0541e9d842136464"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance/replacement, fair market value, estate inventory, sales consultation",
+          "paraphrase": "The homepage lists these service purposes.",
+          "supportingUrl": "https://www.washingtonianappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "29b44c5dbaadd961cf76ece6ffda56f054e36b7073ebca5f0541e9d842136464"
+        },
+        {
+          "claimKind": "inspection_mode",
+          "value": "formal written report; oral walkthrough",
+          "paraphrase": "The official services page describes both engagement formats.",
+          "supportingUrl": "https://www.washingtonianappraisals.com/services.html",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "06cdae432c09878b9984175c6626baa965b3100c4c1a26ced01e74891a4b61ca"
+        },
+        {
+          "claimKind": "fee_basis",
+          "value": "$175/hour plus expenses; two-hour minimum; travel charged beyond 20 miles",
+          "paraphrase": "The official appraisal page states the hourly rate, minimum, and travel threshold.",
+          "supportingUrl": "https://www.washingtonianappraisals.com/appraisals.html",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "2c9f87c3d2e2529fcfe6733dd6ff407178798a41043a21ae1546ed81d6835ac0"
+        }
+      ],
+      "overrideNote": "Keep the established canonical business label while retaining David J. Sergeant in the approved evidence packet."
+    },
+    {
+      "packetId": "tucson-lynn-roberts",
+      "taskId": "DPE-GSC-tucson-lynn-roberts",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "lynn-roberts",
+      "citySlug": "tucson",
+      "entityName": "Lynn Roberts",
+      "sourceUrl": "https://www.lynnrobertsappraisals.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "86ae1ebf03142665c1988adb5fbe4e2d67d44e96c71037f78e75af3dab7a0a52",
+      "sourceRetrievedAt": "2026-07-28T13:15:21.456Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Lynn Roberts; Lynn Roberts Appraisals",
+          "paraphrase": "The practice's own site supplies the practitioner and business identity.",
+          "supportingUrl": "https://www.lynnrobertsappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "86ae1ebf03142665c1988adb5fbe4e2d67d44e96c71037f78e75af3dab7a0a52"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "P.O. Box 32518, Tucson, Arizona 85751",
+          "paraphrase": "The practice page confirms a Tucson base.",
+          "supportingUrl": "https://www.lynnrobertsappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "86ae1ebf03142665c1988adb5fbe4e2d67d44e96c71037f78e75af3dab7a0a52"
+        },
+        {
+          "claimKind": "service_area",
+          "value": "greater Tucson area",
+          "paraphrase": "The provider explicitly scopes appraisal work to greater Tucson.",
+          "supportingUrl": "https://www.lynnrobertsappraisals.com/appraisal-services.html",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "b087e098201747af0c32e73d9f0ded61c64d5300c79eefa8372c83c1c139c5d6"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "antiques, sterling silver, fine art, jewelry, furniture, furnishings, home contents",
+          "paraphrase": "The provider's services page supplies these personal-property categories.",
+          "supportingUrl": "https://www.lynnrobertsappraisals.com/appraisal-services.html",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "b087e098201747af0c32e73d9f0ded61c64d5300c79eefa8372c83c1c139c5d6"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance, claims, equitable distribution, estate settlement, charitable donation, personal planning",
+          "paraphrase": "The practice identifies these intended uses for its appraisal work.",
+          "supportingUrl": "https://www.lynnrobertsappraisals.com/appraisal-services.html",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "b087e098201747af0c32e73d9f0ded61c64d5300c79eefa8372c83c1c139c5d6"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "louisville-howard-and-thomas",
+      "taskId": "DPE-GSC-louisville-howard-and-thomas",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "howard-and-thomas-auction-house",
+      "citySlug": "louisville",
+      "entityName": "Howard & Thomas Auction House",
+      "sourceUrl": "https://howardandthomas.com/appraisals/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "c13ab1103a4b65375f98108db938d33eb933aa445dca067b033a9504ce75c2f7",
+      "sourceRetrievedAt": "2026-07-29T02:08:39.182Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Howard & Thomas Auction House",
+          "paraphrase": "The appraisal page supplies the business identity and appraisal role.",
+          "supportingUrl": "https://howardandthomas.com/appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c13ab1103a4b65375f98108db938d33eb933aa445dca067b033a9504ce75c2f7"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Louisville, Kentucky",
+          "paraphrase": "The provider site directly establishes Louisville presence.",
+          "supportingUrl": "https://howardandthomas.com/appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c13ab1103a4b65375f98108db938d33eb933aa445dca067b033a9504ce75c2f7"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "antiques, decorative arts, fine art, silver, sports memorabilia, wine and spirits, residential furnishings",
+          "paraphrase": "The provider publishes these appraisal categories.",
+          "supportingUrl": "https://howardandthomas.com/appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c13ab1103a4b65375f98108db938d33eb933aa445dca067b033a9504ce75c2f7"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance, estate tax, pre-estate planning, equitable distribution, tax-deductible donation",
+          "paraphrase": "The provider publishes these intended uses.",
+          "supportingUrl": "https://howardandthomas.com/appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c13ab1103a4b65375f98108db938d33eb933aa445dca067b033a9504ce75c2f7"
+        },
+        {
+          "claimKind": "fee_basis",
+          "value": "$350/hour inspection with two-hour minimum; $100/hour complex research; $450 single item; not value-contingent",
+          "paraphrase": "The provider publishes a dated public fee schedule and non-contingent basis.",
+          "supportingUrl": "https://howardandthomas.com/appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c13ab1103a4b65375f98108db938d33eb933aa445dca067b033a9504ce75c2f7"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "vancouver-lindsay-inouye",
+      "taskId": "DPE-GSC-vancouver-lindsay-inouye",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "lindsay-inouye",
+      "citySlug": "vancouver",
+      "entityName": "Lindsay Inouye",
+      "sourceUrl": "https://www.ballardfineart.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "b5a788ea84e8c92c6a6eae135c3b7b72ecb9b1f95b81ac3ed4b8c87d744a9e52",
+      "sourceRetrievedAt": "2026-07-29T02:08:49.628Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Lindsay Inouye / Ballard Fine Art",
+          "paraphrase": "The Canadian Chapter registry connects the person and practice.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/lindsay-inouye/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "a4d34828af82b50980136f5c8b078a6fd88a1933737aeca0ee46585c0da99e1a"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Vancouver, British Columbia",
+          "paraphrase": "The business site publishes the Vancouver address also shown by ISA.",
+          "supportingUrl": "https://www.ballardfineart.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "b5a788ea84e8c92c6a6eae135c3b7b72ecb9b1f95b81ac3ed4b8c87d744a9e52"
+        },
+        {
+          "claimKind": "service",
+          "value": "fine-art appraisal, art advising, collection management, art-estate advisory",
+          "paraphrase": "The business site supplies these service categories.",
+          "supportingUrl": "https://www.ballardfineart.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "b5a788ea84e8c92c6a6eae135c3b7b72ecb9b1f95b81ac3ed4b8c87d744a9e52"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art, Canadian art, paintings, photography, public art",
+          "paraphrase": "The professional registries provide these specialty categories.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/lindsay-inouye/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "a4d34828af82b50980136f5c8b078a6fd88a1933737aeca0ee46585c0da99e1a"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "donations, equitable distribution, estate, insurance claims, CCPERB donation",
+          "paraphrase": "The Canadian Chapter record supplies these service categories.",
+          "supportingUrl": "https://isa-appraisers.ca/appraiser/lindsay-inouye/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "a4d34828af82b50980136f5c8b078a6fd88a1933737aeca0ee46585c0da99e1a"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "st-paul-revere-auctions",
+      "taskId": "DPE-GSC-st-paul-revere-auctions",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "revere-auctions",
+      "citySlug": "st-paul",
+      "entityName": "Revere Auctions",
+      "sourceUrl": "https://www.revereauctions.com/about/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "a7d8702caec50f1b66f5c984c17a5991c6db8877f61ce1f326ba13c2537f53b4",
+      "sourceRetrievedAt": "2026-07-29T06:53:41.235Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Revere Auctions",
+          "paraphrase": "The provider-controlled site supplies the business identity and dual auction/appraisal role.",
+          "supportingUrl": "https://www.revereauctions.com/about/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "a7d8702caec50f1b66f5c984c17a5991c6db8877f61ce1f326ba13c2537f53b4"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Saint Paul, Minnesota",
+          "paraphrase": "The provider site directly establishes the Saint Paul location.",
+          "supportingUrl": "https://www.revereauctions.com/about/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "a7d8702caec50f1b66f5c984c17a5991c6db8877f61ce1f326ba13c2537f53b4"
+        },
+        {
+          "claimKind": "service",
+          "value": "insurance, claims, estates, charitable donations, equitable distribution, formal appraisal documentation",
+          "paraphrase": "The provider publishes these appraisal services and report purposes.",
+          "supportingUrl": "https://www.revereauctions.com/services/appraisal-valuation-services/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d78b9b75002fb01fa7427823f1d8c0a8a69cc3fb9d151b5acf821b4d948568bf"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "fine and contemporary art, decorative art, Asian and Native American art, photography, jewelry and watches, books and manuscripts, coins, furniture, sports memorabilia",
+          "paraphrase": "The provider-controlled department list supplies these categories.",
+          "supportingUrl": "https://www.revereauctions.com/about/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "a7d8702caec50f1b66f5c984c17a5991c6db8877f61ce1f326ba13c2537f53b4"
+        },
+        {
+          "claimKind": "fee_basis",
+          "value": "hourly appraisal fee; possible travel fee beyond 50 miles from St. Paul",
+          "paraphrase": "The provider publishes the fee basis and travel boundary without an hourly dollar amount.",
+          "supportingUrl": "https://www.revereauctions.com/services/appraisal-valuation-services/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "d78b9b75002fb01fa7427823f1d8c0a8a69cc3fb9d151b5acf821b4d948568bf"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "baton-rouge-chloe-eick",
+      "taskId": "DPE-GSC-baton-rouge-chloe-eick",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "chloe-eick-art-appraisals",
+      "citySlug": "baton-rouge",
+      "entityName": "Chloe Lynne Eick",
+      "sourceUrl": "https://www.chloeeickappraisals.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "928f9b87ab91ba8755403dd251a5ad8b69f36631ee583d5f6ee65b3d50a23cf4",
+      "sourceRetrievedAt": "2026-07-29T07:07:47.627Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Chloe Lynne Eick / Chloe Eick Art & Appraisals",
+          "paraphrase": "The direct sources support the person and practice identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/22989/chloe-lynne-eick",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "6aac5404584a0ceab7148c97c4dd884ceb1a840db1133217f56d855cf088bbaa"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Baton Rouge, Louisiana",
+          "paraphrase": "Both current sources establish Baton Rouge at city level.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/22989/chloe-lynne-eick",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "6aac5404584a0ceab7148c97c4dd884ceb1a840db1133217f56d855cf088bbaa"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA Member",
+          "paraphrase": "The registry supports membership but does not display ISA AM or CAPP in the profile heading.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/22989/chloe-lynne-eick",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "6aac5404584a0ceab7148c97c4dd884ceb1a840db1133217f56d855cf088bbaa"
+        },
+        {
+          "claimKind": "service",
+          "value": "art appraisal; repair; restoration; antique and art retail",
+          "paraphrase": "The two sources support appraisal and adjacent commercial roles that must remain visibly distinct.",
+          "supportingUrl": "https://www.chloeeickappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "928f9b87ab91ba8755403dd251a5ad8b69f36631ee583d5f6ee65b3d50a23cf4"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "art; auction company or gallery property",
+          "paraphrase": "The current member record supplies these exact broad categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/22989/chloe-lynne-eick",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "6aac5404584a0ceab7148c97c4dd884ceb1a840db1133217f56d855cf088bbaa"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "birmingham-john-picard",
+      "taskId": "DPE-GSC-birmingham-john-picard",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "john-picard-hanna-antiques",
+      "citySlug": "birmingham",
+      "entityName": "John E Picard",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/12980/john-e-picard",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "20faeb5d88abf6601bc4f0ca69b28710db80f677a8e3716e3a5735e1d41b9934",
+      "sourceRetrievedAt": "2026-07-29T07:07:47.699Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "John E Picard / Hanna Antiques",
+          "paraphrase": "The current registry supplies the person-business relationship.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/12980/john-e-picard",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "20faeb5d88abf6601bc4f0ca69b28710db80f677a8e3716e3a5735e1d41b9934"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Birmingham, Alabama",
+          "paraphrase": "The current member record establishes Birmingham at city level.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/12980/john-e-picard",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "20faeb5d88abf6601bc4f0ca69b28710db80f677a8e3716e3a5735e1d41b9934"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA member profile; no AM/CAPP displayed",
+          "paraphrase": "The directory supports membership only; stronger status is intentionally excluded.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/12980/john-e-picard",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "20faeb5d88abf6601bc4f0ca69b28710db80f677a8e3716e3a5735e1d41b9934"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "antiquities, ephemera, furniture, modern tools, automobiles and transportation property",
+          "paraphrase": "The current registry supplies these property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/12980/john-e-picard",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "20faeb5d88abf6601bc4f0ca69b28710db80f677a8e3716e3a5735e1d41b9934"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "donations, estate tax, insurance claims, brokerage, estate sales",
+          "paraphrase": "The registry supplies appraisal-related and disposition-related roles that must remain separate.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/12980/john-e-picard",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "20faeb5d88abf6601bc4f0ca69b28710db80f677a8e3716e3a5735e1d41b9934"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "salt-lake-dodworth-stauffer",
+      "taskId": "DPE-GSC-salt-lake-dodworth-stauffer",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "dodworth-stauffer-art-appraisal",
+      "citySlug": "salt-lake-city",
+      "entityName": "Dodworth & Stauffer Art Appraisal LLC",
+      "sourceUrl": "https://www.dodworthart.com/about-us",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "4b49320ae4c9a73eebba8970d72442ad7b2976dac4e10301f9ab030a7b5bd71c",
+      "sourceRetrievedAt": "2026-07-29T07:22:01.933Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Dodworth & Stauffer Art Appraisal LLC / Emily Stauffer / Allen Dodworth",
+          "paraphrase": "The official site supplies the practice and team identities.",
+          "supportingUrl": "https://www.dodworthart.com/about-us",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "4b49320ae4c9a73eebba8970d72442ad7b2976dac4e10301f9ab030a7b5bd71c"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Salt Lake City, Utah",
+          "paraphrase": "The provider header directly establishes Salt Lake City at city level.",
+          "supportingUrl": "https://www.dodworthart.com/about-us",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "4b49320ae4c9a73eebba8970d72442ad7b2976dac4e10301f9ab030a7b5bd71c"
+        },
+        {
+          "claimKind": "service",
+          "value": "appraisal, cataloguing, curating and design",
+          "paraphrase": "The official services page supplies these distinct service categories.",
+          "supportingUrl": "https://www.dodworthart.com/services",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e0db24c00182571905905654ae2a6142825f782e533fbb872eb21aeb343ec256"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "paintings, sculpture, drawings, prints, photographs, crafts and folk art",
+          "paraphrase": "The official team biography supports these fine-art categories.",
+          "supportingUrl": "https://www.dodworthart.com/about-us",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "4b49320ae4c9a73eebba8970d72442ad7b2976dac4e10301f9ab030a7b5bd71c"
+        },
+        {
+          "claimKind": "service",
+          "value": "written appraisal report with images, descriptions, artist and market research, value conclusion, and specialist referral when needed",
+          "paraphrase": "The official services page describes the report components and referral boundary.",
+          "supportingUrl": "https://www.dodworthart.com/services",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e0db24c00182571905905654ae2a6142825f782e533fbb872eb21aeb343ec256"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "charleston-elizabeth-ryan",
+      "taskId": "DPE-GSC-charleston-elizabeth-ryan",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "elizabeth-garrett-ryan",
+      "citySlug": "charleston",
+      "entityName": "Elizabeth Garrett Ryan",
+      "sourceUrl": "https://charlestonappraisals.net/contact",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "345633fb5d571e276e57a03bea723878b61023963037c229619ee5087015c8cb",
+      "sourceRetrievedAt": "2026-07-29T07:22:07.441Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Elizabeth Garrett Ryan / Elizabeth G. Ryan Associates, LLC",
+          "paraphrase": "The official contact page supplies the person-practice relationship.",
+          "supportingUrl": "https://charlestonappraisals.net/contact",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "345633fb5d571e276e57a03bea723878b61023963037c229619ee5087015c8cb"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Charleston, South Carolina",
+          "paraphrase": "The provider site directly establishes Charleston as the practice location.",
+          "supportingUrl": "https://charlestonappraisals.net/contact",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "345633fb5d571e276e57a03bea723878b61023963037c229619ee5087015c8cb"
+        },
+        {
+          "claimKind": "service",
+          "value": "personal-property appraisal and consulting for decorative arts and antiques",
+          "paraphrase": "The official home page supplies the appraisal discipline and consulting role.",
+          "supportingUrl": "https://charlestonappraisals.net/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "2996280b89d37d70d2982d5b2e38554d30cc5c1058d199c7553f0b288bac08d4"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "silver, furniture, ceramics, paintings and textiles",
+          "paraphrase": "The provider biography supplies these decorative-art study areas.",
+          "supportingUrl": "https://charlestonappraisals.net/experience",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "962886e591e722f6d7f9fbfacbf660a5fc419260c78dbf732fa3b20cea2f95af"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance, estate, damage, donation, equitable distribution, resale, and historic-artifact placement",
+          "paraphrase": "The official home page supplies these intended uses and adjacent consulting role.",
+          "supportingUrl": "https://charlestonappraisals.net/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "2996280b89d37d70d2982d5b2e38554d30cc5c1058d199c7553f0b288bac08d4"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "savannah-david-levy",
+      "taskId": "DPE-GSC-savannah-david-levy",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "david-levy",
+      "citySlug": "savannah",
+      "entityName": "David Levy",
+      "sourceUrl": "https://www.dlevyantiquesandappraisals.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "2f0768ef95e120adf69b0dab238f981518be499a33b2ccc03731b772a2118f21",
+      "sourceRetrievedAt": "2026-07-29T07:22:21.007Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "David Levy / D Levy Antiques & Appraisals",
+          "paraphrase": "The direct sources support the person-business relationship.",
+          "supportingUrl": "https://www.dlevyantiquesandappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "2f0768ef95e120adf69b0dab238f981518be499a33b2ccc03731b772a2118f21"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Savannah, Georgia",
+          "paraphrase": "The current member record directly establishes Savannah at city level.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13185/david-levy",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "f6b070ad860dae6cb500da957a94d3f8c0021d1df5aaf2718a6f7941fd6d02da"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA member profile; no AM/CAPP displayed",
+          "paraphrase": "The registry supports ordinary membership only; stronger status is intentionally excluded.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13185/david-levy",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "f6b070ad860dae6cb500da957a94d3f8c0021d1df5aaf2718a6f7941fd6d02da"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "Americana, art, collectibles, decorative arts, documents, maps, ephemera, memorabilia, paintings and photography",
+          "paraphrase": "The current registry supplies these property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13185/david-levy",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "f6b070ad860dae6cb500da957a94d3f8c0021d1df5aaf2718a6f7941fd6d02da"
+        },
+        {
+          "claimKind": "service",
+          "value": "antique dealing and appraisal services",
+          "paraphrase": "The official site supports the two adjacent roles, which require visible separation.",
+          "supportingUrl": "https://www.dlevyantiquesandappraisals.com/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "2f0768ef95e120adf69b0dab238f981518be499a33b2ccc03731b772a2118f21"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "london-brian-price",
+      "taskId": "DPE-GSC-london-brian-price",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "brian-price-london-estate-services",
+      "citySlug": "london",
+      "entityName": "Brian Price",
+      "sourceUrl": "https://estatecleanoutwindsor.ca/estate-services-london/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "e757a3292747764e676bedcad2ec4202b2a220e08bee3b3af0801203ab82054a",
+      "sourceRetrievedAt": "2026-07-29T07:22:24.751Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Brian Price / Estate Cleanout Windsor",
+          "paraphrase": "The official service page supplies the person-business relationship.",
+          "supportingUrl": "https://estatecleanoutwindsor.ca/estate-services-london/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e757a3292747764e676bedcad2ec4202b2a220e08bee3b3af0801203ab82054a"
+        },
+        {
+          "claimKind": "service_area",
+          "value": "London, Ontario service area; based in Windsor-Essex",
+          "paraphrase": "The provider establishes London as a declared service area, not a primary office.",
+          "supportingUrl": "https://estatecleanoutwindsor.ca/estate-services-london/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e757a3292747764e676bedcad2ec4202b2a220e08bee3b3af0801203ab82054a"
+        },
+        {
+          "claimKind": "service",
+          "value": "appraisal, estate sale and property cleanout",
+          "paraphrase": "The official page supplies these adjacent service categories.",
+          "supportingUrl": "https://estatecleanoutwindsor.ca/estate-services-london/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e757a3292747764e676bedcad2ec4202b2a220e08bee3b3af0801203ab82054a"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "antiques, art, jewelry, collectibles, tools, furniture and estate contents",
+          "paraphrase": "The provider-controlled page supplies these broad property categories.",
+          "supportingUrl": "https://estatecleanoutwindsor.ca/estate-services-london/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e757a3292747764e676bedcad2ec4202b2a220e08bee3b3af0801203ab82054a"
+        },
+        {
+          "claimKind": "inspection_mode",
+          "value": "on-property service with phone, email and video communication for remote family coordination",
+          "paraphrase": "The provider publishes an on-site estate workflow with remote coordination for family members.",
+          "supportingUrl": "https://estatecleanoutwindsor.ca/estate-services-london/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e757a3292747764e676bedcad2ec4202b2a220e08bee3b3af0801203ab82054a"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "st-john-s-newfoundland-antiques",
+      "taskId": "DPE-GSC-st-john-s-newfoundland-antiques",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "newfoundland-antiques",
+      "citySlug": "st-john-s",
+      "entityName": "Newfoundland Antiques",
+      "sourceUrl": "https://newfoundlandantiques.com/about-us/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "0f3816b35d2935e11d812850abafd9b02a470e820568b07b483aea8a5b8fd7e1",
+      "sourceRetrievedAt": "2026-07-29T07:38:09.733Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Newfoundland Antiques",
+          "paraphrase": "The official site supplies the business identity.",
+          "supportingUrl": "https://newfoundlandantiques.com/about-us/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0f3816b35d2935e11d812850abafd9b02a470e820568b07b483aea8a5b8fd7e1"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "St. John's, Newfoundland and Labrador",
+          "paraphrase": "The provider header and footer directly establish St. John's at city level.",
+          "supportingUrl": "https://newfoundlandantiques.com/about-us/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0f3816b35d2935e11d812850abafd9b02a470e820568b07b483aea8a5b8fd7e1"
+        },
+        {
+          "claimKind": "service",
+          "value": "antique and collectible appraisal, buying and selling",
+          "paraphrase": "The provider publishes three adjacent roles that require visible separation.",
+          "supportingUrl": "https://newfoundlandantiques.com/about-us/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0f3816b35d2935e11d812850abafd9b02a470e820568b07b483aea8a5b8fd7e1"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "coins, sports cards, artifacts, art, prints, furniture, jewelry, glassware, documents, ephemera, militaria, books and collectibles",
+          "paraphrase": "The provider's navigation and about copy supply these broad categories.",
+          "supportingUrl": "https://newfoundlandantiques.com/about-us/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0f3816b35d2935e11d812850abafd9b02a470e820568b07b483aea8a5b8fd7e1"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance and estate-division appraisal purposes",
+          "paraphrase": "The provider publishes these intended uses.",
+          "supportingUrl": "https://newfoundlandantiques.com/about-us/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0f3816b35d2935e11d812850abafd9b02a470e820568b07b483aea8a5b8fd7e1"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "el-paso-a-new-beginning",
+      "taskId": "DPE-GSC-el-paso-a-new-beginning",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "a-new-beginning-estate-sales-appraisals",
+      "citySlug": "el-paso",
+      "entityName": "A New Beginning Estate Sales & Appraisals",
+      "sourceUrl": "https://www.anewbeginningestatesales.net/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "43809c50b57d6cb6fcb240c0d3a5d12970a4101907c547fce71ad8cb6bff0056",
+      "sourceRetrievedAt": "2026-07-29T07:38:14.290Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "A New Beginning Estate Sales & Appraisals",
+          "paraphrase": "The official site supplies the business identity.",
+          "supportingUrl": "https://www.anewbeginningestatesales.net/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "43809c50b57d6cb6fcb240c0d3a5d12970a4101907c547fce71ad8cb6bff0056"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "El Paso, Texas",
+          "paraphrase": "The provider site directly establishes El Paso at city level.",
+          "supportingUrl": "https://www.anewbeginningestatesales.net/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "43809c50b57d6cb6fcb240c0d3a5d12970a4101907c547fce71ad8cb6bff0056"
+        },
+        {
+          "claimKind": "service",
+          "value": "appraisal and estate-sale services",
+          "paraphrase": "The official home page supplies the two adjacent service categories.",
+          "supportingUrl": "https://www.anewbeginningestatesales.net/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "43809c50b57d6cb6fcb240c0d3a5d12970a4101907c547fce71ad8cb6bff0056"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance, tax-estimation, potential-sale and owner-curiosity purposes",
+          "paraphrase": "The provider publishes these intended uses without proving recipient acceptance.",
+          "supportingUrl": "https://www.anewbeginningestatesales.net/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "43809c50b57d6cb6fcb240c0d3a5d12970a4101907c547fce71ad8cb6bff0056"
+        },
+        {
+          "claimKind": "inspection_mode",
+          "value": "in-person asset inspection by arrangement",
+          "paraphrase": "The provider's visit and inspection wording supports an in-person mode, subject to direct confirmation.",
+          "supportingUrl": "https://www.anewbeginningestatesales.net/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "43809c50b57d6cb6fcb240c0d3a5d12970a4101907c547fce71ad8cb6bff0056"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "norfolk-blue-box-auction",
+      "taskId": "DPE-GSC-norfolk-blue-box-auction",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "blue-box-auction-gallery",
+      "citySlug": "norfolk",
+      "entityName": "Blue Box Auction Gallery",
+      "sourceUrl": "https://www.blueboxauction.com/appraisals/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "0347b4f8d10d579877e953c7cc5410d0ed808dd1420370c1b64b58a13f28eddd",
+      "sourceRetrievedAt": "2026-07-29T07:38:23.452Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Blue Box Auction Gallery",
+          "paraphrase": "The official site supplies the business identity.",
+          "supportingUrl": "https://www.blueboxauction.com/appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0347b4f8d10d579877e953c7cc5410d0ed808dd1420370c1b64b58a13f28eddd"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Norfolk, Virginia",
+          "paraphrase": "The official page directly establishes Norfolk as the business location.",
+          "supportingUrl": "https://www.blueboxauction.com/appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0347b4f8d10d579877e953c7cc5410d0ed808dd1420370c1b64b58a13f28eddd"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "fine art, sculpture, antiques, decorative arts, jewelry, timepieces, furniture, books, manuscripts, ephemera, collectibles and memorabilia",
+          "paraphrase": "The official appraisal page supplies these broad property categories.",
+          "supportingUrl": "https://www.blueboxauction.com/appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0347b4f8d10d579877e953c7cc5410d0ed808dd1420370c1b64b58a13f28eddd"
+        },
+        {
+          "claimKind": "service",
+          "value": "formal written appraisal and informal verbal evaluation",
+          "paraphrase": "The provider publishes distinct written-report and verbal-evaluation formats.",
+          "supportingUrl": "https://www.blueboxauction.com/appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0347b4f8d10d579877e953c7cc5410d0ed808dd1420370c1b64b58a13f28eddd"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "estate, gift, donation, planning, distribution, insurance, lending, expert-witness, damage, loss, review and inventory purposes",
+          "paraphrase": "The provider publishes these intended uses without proving assignment-specific acceptance.",
+          "supportingUrl": "https://www.blueboxauction.com/appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "0347b4f8d10d579877e953c7cc5410d0ed808dd1420370c1b64b58a13f28eddd"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "long-beach-prestige-estate-services",
+      "taskId": "DPE-GSC-long-beach-prestige-estate-services",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "prestige-estate-services-long-beach",
+      "citySlug": "long-beach",
+      "entityName": "Prestige Estate Services",
+      "sourceUrl": "https://prestigeestateservices.com/locations/long-beach-ca/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "3d55031e2cd50b3a14fc8c480cc747a7d619644c1145813214e7ddd35e8f68ed",
+      "sourceRetrievedAt": "2026-07-29T07:38:28.860Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Prestige Estate Services",
+          "paraphrase": "The official location page supplies the business identity.",
+          "supportingUrl": "https://prestigeestateservices.com/locations/long-beach-ca/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "3d55031e2cd50b3a14fc8c480cc747a7d619644c1145813214e7ddd35e8f68ed"
+        },
+        {
+          "claimKind": "service_area",
+          "value": "Long Beach, California service area",
+          "paraphrase": "The official page supports service-area coverage, not a named appraiser's primary office.",
+          "supportingUrl": "https://prestigeestateservices.com/locations/long-beach-ca/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "3d55031e2cd50b3a14fc8c480cc747a7d619644c1145813214e7ddd35e8f68ed"
+        },
+        {
+          "claimKind": "service",
+          "value": "inspection, research and appraisal report",
+          "paraphrase": "The provider publishes these process stages at business level.",
+          "supportingUrl": "https://prestigeestateservices.com/locations/long-beach-ca/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "3d55031e2cd50b3a14fc8c480cc747a7d619644c1145813214e7ddd35e8f68ed"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "antiques, fine art, furniture, jewelry, collectibles and household contents",
+          "paraphrase": "The official location page supplies these broad categories.",
+          "supportingUrl": "https://prestigeestateservices.com/locations/long-beach-ca/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "3d55031e2cd50b3a14fc8c480cc747a7d619644c1145813214e7ddd35e8f68ed"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance, estate and equitable-distribution purposes",
+          "paraphrase": "The provider publishes these intended uses.",
+          "supportingUrl": "https://prestigeestateservices.com/locations/long-beach-ca/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "3d55031e2cd50b3a14fc8c480cc747a7d619644c1145813214e7ddd35e8f68ed"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "thunder-bay-black-cat-antiques",
+      "taskId": "DPE-GSC-thunder-bay-black-cat-antiques",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "black-cat-antiques-appraisals",
+      "citySlug": "thunder-bay",
+      "entityName": "Black Cat Antiques & Appraisals",
+      "sourceUrl": "https://www.visitthunderbay.com/Modules/News/blogcomments.aspx?BlogId=88209221-ed05-4474-82e7-a496a1fda8ba&feedid=00d71e19-bc9e-4389-9cb0-7bc1a3466fbd",
+      "sourceType": "official_local_institution",
+      "sourceResponseSha256": "a35769cd3b1550789cfcdd15cd10407e33b621c2954bbb609b546379d8b935ce",
+      "sourceRetrievedAt": "2026-07-29T07:38:38.220Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Black Cat Antiques & Appraisals",
+          "paraphrase": "The local-institution source supports the business identity in Thunder Bay context.",
+          "supportingUrl": "https://www.visitthunderbay.com/Modules/News/blogcomments.aspx?BlogId=88209221-ed05-4474-82e7-a496a1fda8ba&feedid=00d71e19-bc9e-4389-9cb0-7bc1a3466fbd",
+          "sourceType": "official_local_institution",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "a35769cd3b1550789cfcdd15cd10407e33b621c2954bbb609b546379d8b935ce"
+        },
+        {
+          "claimKind": "local_context",
+          "value": "Thunder Bay local business context; Paul Kimberley and Lee Searles named",
+          "paraphrase": "This establishes local context only, not a current appraiser credential or a professional office claim.",
+          "supportingUrl": "https://www.visitthunderbay.com/Modules/News/blogcomments.aspx?BlogId=88209221-ed05-4474-82e7-a496a1fda8ba&feedid=00d71e19-bc9e-4389-9cb0-7bc1a3466fbd",
+          "sourceType": "official_local_institution",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "a35769cd3b1550789cfcdd15cd10407e33b621c2954bbb609b546379d8b935ce"
+        },
+        {
+          "claimKind": "service",
+          "value": "appraisal and estate-sale services",
+          "paraphrase": "The business record supplies these adjacent services without establishing a credential.",
+          "supportingUrl": "https://www.yellowpages.ca/bus/Ontario/Thunder-Bay/Black-Cat-Antiques-%26-Appraisals/2126697.html",
+          "sourceType": "reputable_business_record",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "5d91ef714f76147e984a5a033817d83c0de98bc638d11f19b0ab411d6f8e0a7c"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "antiques, collectibles and estate items",
+          "paraphrase": "The third-party business record supports broad categories only.",
+          "supportingUrl": "https://www.yellowpages.ca/bus/Ontario/Thunder-Bay/Black-Cat-Antiques-%26-Appraisals/2126697.html",
+          "sourceType": "reputable_business_record",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "5d91ef714f76147e984a5a033817d83c0de98bc638d11f19b0ab411d6f8e0a7c"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "quebec-city-antiquites-bolduc",
+      "taskId": "DPE-GSC-quebec-city-antiquites-bolduc",
+      "disposition": "listed_with_limited_claims",
+      "canonicalSlug": "les-antiquites-bolduc",
+      "citySlug": "quebec-city",
+      "entityName": "Les Antiquités Bolduc",
+      "sourceUrl": "https://www.lesantiquitesbolduc.com/pages/a-propos",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "f248faa0bcdd75752dd33a2de23fe897bf7b7d87fe73c862dcef19739e769b07",
+      "sourceRetrievedAt": "2026-07-29T07:48:19.724Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Les Antiquités Bolduc",
+          "paraphrase": "The official site supplies the current business identity and historical name.",
+          "supportingUrl": "https://www.lesantiquitesbolduc.com/pages/a-propos",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "f248faa0bcdd75752dd33a2de23fe897bf7b7d87fe73c862dcef19739e769b07"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "89 rue Saint-Paul, Québec City, Québec",
+          "paraphrase": "The current official contact page directly establishes the shop location.",
+          "supportingUrl": "https://www.lesantiquitesbolduc.com/pages/contact",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "8f05d6c831cf8030ff44bfe5da401181b001ab85fe3900c5adaa921f5397bd33"
+        },
+        {
+          "claimKind": "service",
+          "value": "antique evaluation, buying and selling",
+          "paraphrase": "The provider publishes evaluation alongside commercial dealer roles; it does not establish an independent written report.",
+          "supportingUrl": "https://www.lesantiquitesbolduc.com/pages/a-propos",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "f248faa0bcdd75752dd33a2de23fe897bf7b7d87fe73c862dcef19739e769b07"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "furniture, Québec folk art, religious objects, jewelry, watches, coins, cameras, paintings, sculpture, silver, porcelain, glass, militaria, toys and collectibles",
+          "paraphrase": "The official team and contact pages support broad commercial categories.",
+          "supportingUrl": "https://www.lesantiquitesbolduc.com/pages/a-propos",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "f248faa0bcdd75752dd33a2de23fe897bf7b7d87fe73c862dcef19739e769b07"
+        },
+        {
+          "claimKind": "service_area",
+          "value": "Québec City region and surrounding area for acquisition visits",
+          "paraphrase": "The official page supports an acquisition-service area, not a general appraisal radius.",
+          "supportingUrl": "https://www.lesantiquitesbolduc.com/pages/contact",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "8f05d6c831cf8030ff44bfe5da401181b001ab85fe3900c5adaa921f5397bd33"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "san-antonio-rudy-pena",
+      "taskId": "DPE-GSC-san-antonio-rudy-pena",
+      "disposition": "rejected_or_held",
+      "canonicalSlug": "rudy-m-pena",
+      "citySlug": "san-antonio",
+      "entityName": "Rudy M. Pena",
+      "sourceUrl": "https://www.rudypena.com/about.html",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "0c63d05863cd6dab0fbf38222c1df5957ffdcc9daa75ac7f9edbeb60cb69f159",
+      "sourceRetrievedAt": "2026-07-28T13:15:21.537Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Rudy M. Pena; Peña & Associates",
+          "paraphrase": "The registry and provider source agree on the practitioner and practice identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1977/rudy-m-pena",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "336f8c407a648fd5d48dad435de4f805c8596d894a2385f634f26bd3c8d9958d"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "San Antonio, Texas",
+          "paraphrase": "The current registry record confirms San Antonio location; street addresses differ between the two reviewed sources.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1977/rudy-m-pena",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "336f8c407a648fd5d48dad435de4f805c8596d894a2385f634f26bd3c8d9958d"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA AM; G.G.; Gems & Jewelry",
+          "paraphrase": "ISA publishes these current designations and discipline.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1977/rudy-m-pena",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "336f8c407a648fd5d48dad435de4f805c8596d894a2385f634f26bd3c8d9958d"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "gemology, gemstones, contemporary jewelry, estate jewelry, diamonds, watches",
+          "paraphrase": "The current member record supplies the jewelry and gemstone categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1977/rudy-m-pena",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "336f8c407a648fd5d48dad435de4f805c8596d894a2385f634f26bd3c8d9958d"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance, donations, equitable distribution, estate evaluation, expert witness, collateral, resale, casualty loss",
+          "paraphrase": "The provider page and current registry record together support these assignment categories.",
+          "supportingUrl": "https://www.rudypena.com/about.html",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "0c63d05863cd6dab0fbf38222c1df5957ffdcc9daa75ac7f9edbeb60cb69f159"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "open-to-the-public",
+      "taskId": "DPE-P03-open-to-the-public",
+      "disposition": "rejected_or_held",
+      "canonicalSlug": "open-to-the-public",
+      "citySlug": "",
+      "entityName": "Open to the Public",
+      "sourceUrl": "https://opentothepublic.art/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "3100ada75c71ae0e1f5d25b5a853de822f9a448b2153d82329b915b676395901",
+      "sourceRetrievedAt": "2026-07-28T11:49:59.967Z",
+      "claims": [
+        {
+          "claimKind": "primary_location",
+          "value": "Los Angeles, California",
+          "paraphrase": "The official site identifies the practice with Los Angeles.",
+          "supportingUrl": "https://opentothepublic.art/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "3100ada75c71ae0e1f5d25b5a853de822f9a448b2153d82329b915b676395901"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "postwar and contemporary art; photography",
+          "paraphrase": "The official appraisal page identifies postwar, contemporary, and photography coverage.",
+          "supportingUrl": "https://opentothepublic.art/art-appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "3a41b1913b30de36e5b11720cc4e2ea0459c5e52524cbdb92b963cbfc18bf5d7"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance, estate, donation, damage/loss, collection management",
+          "paraphrase": "The official appraisal page names multiple intended report and collection uses.",
+          "supportingUrl": "https://opentothepublic.art/art-appraisals/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-28",
+          "sourceResponseSha256": "3a41b1913b30de36e5b11720cc4e2ea0459c5e52524cbdb92b963cbfc18bf5d7"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "cleveland-christine-radomski",
+      "taskId": "DPE-GSC-cleveland-christine-radomski",
+      "disposition": "rejected_or_held",
+      "canonicalSlug": "christine-radomski",
+      "citySlug": "cleveland",
+      "entityName": "Christine Radomski",
+      "sourceUrl": "https://assetverificationinc.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "a52eac6b7655cd7c52606fc2c6779a6e1cbfc1ec433f7fe75131c9faaf3e1c5a",
+      "sourceRetrievedAt": "2026-07-29T02:08:54.596Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Christine Radomski",
+          "paraphrase": "The current registry supplies the person and appraisal-practice relationship.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8703/christine-radomski",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c267044733aea58afc8f220760890a2e0b7ab2106776ba02d6578e0dff2d0e91"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Cleveland, Ohio",
+          "paraphrase": "ISA supplies the current Cleveland location.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8703/christine-radomski",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c267044733aea58afc8f220760890a2e0b7ab2106776ba02d6578e0dff2d0e91"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA Accredited Member",
+          "paraphrase": "ISA displays its Accredited Member level on the current record.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8703/christine-radomski",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c267044733aea58afc8f220760890a2e0b7ab2106776ba02d6578e0dff2d0e91"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "American and European art, paintings, decorative arts, bronzes, ceramics, furniture, posters, silver",
+          "paraphrase": "The registry supplies these appraised-property categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8703/christine-radomski",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c267044733aea58afc8f220760890a2e0b7ab2106776ba02d6578e0dff2d0e91"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "estate evaluations, insurance claims, charitable-donation appraisals",
+          "paraphrase": "The current member record supplies these assignment categories.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/8703/christine-radomski",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c267044733aea58afc8f220760890a2e0b7ab2106776ba02d6578e0dff2d0e91"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "toledo-christine-guernsey-location-reject",
+      "taskId": "DPE-GSC-toledo-christine-guernsey-location-reject",
+      "disposition": "rejected_or_held",
+      "canonicalSlug": "christine-guernsey",
+      "citySlug": "toledo",
+      "entityName": "Christine Guernsey",
+      "sourceUrl": "http://fineartofappraising.com/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "46dd1f320985f004cc1020b99f77d009cd85fd71411082d5c8575d579686c19e",
+      "sourceRetrievedAt": "2026-07-29T02:21:43.379Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Christine Guernsey / Fine Art of Appraising",
+          "paraphrase": "ISA supplies the current appraiser and practice identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1548/christine-guernsey",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e936b8d9d0d97c59bd4b510af7fde99fb792bde5967f00ffac056dc68894ca98"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Colleyville, Texas",
+          "paraphrase": "The current registry location contradicts the Toledo candidate gate.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1548/christine-guernsey",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e936b8d9d0d97c59bd4b510af7fde99fb792bde5967f00ffac056dc68894ca98"
+        },
+        {
+          "claimKind": "credential",
+          "value": "ISA CAPP, Fine Art",
+          "paraphrase": "The registry supports the designation but not a Toledo location.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1548/christine-guernsey",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e936b8d9d0d97c59bd4b510af7fde99fb792bde5967f00ffac056dc68894ca98"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "19th- and 20th-century American art, contemporary American paintings, American sculpture",
+          "paraphrase": "The registry supplies fine-art specialties but no current Toledo service relationship.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1548/christine-guernsey",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e936b8d9d0d97c59bd4b510af7fde99fb792bde5967f00ffac056dc68894ca98"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "saskatoon-yolande-krueger-location-reject",
+      "taskId": "DPE-GSC-saskatoon-yolande-krueger-location-reject",
+      "disposition": "rejected_or_held",
+      "canonicalSlug": "yolande-krueger",
+      "citySlug": "saskatoon",
+      "entityName": "Yolande Krueger",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13527/yolande-krueger",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "f400a5f0af1943275092acb0c53dd6448610a884fd4cd683ce25ffc9ddf6479a",
+      "sourceRetrievedAt": "2026-07-29T06:53:41.308Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Yolande Krueger",
+          "paraphrase": "The registry supplies the current appraiser identity.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13527/yolande-krueger",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "f400a5f0af1943275092acb0c53dd6448610a884fd4cd683ce25ffc9ddf6479a"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Lumsden, Saskatchewan",
+          "paraphrase": "The current location contradicts the Saskatoon candidate gate and supplies no Saskatoon service statement.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13527/yolande-krueger",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "f400a5f0af1943275092acb0c53dd6448610a884fd4cd683ce25ffc9ddf6479a"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "fine art, glass, ceramics, fiber, studio craft",
+          "paraphrase": "The registry supplies the property specialties but no Saskatoon relationship.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13527/yolande-krueger",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "f400a5f0af1943275092acb0c53dd6448610a884fd4cd683ce25ffc9ddf6479a"
+        },
+        {
+          "claimKind": "assignment_purpose",
+          "value": "insurance, charitable donation, certified cultural property donation, division of assets, estate planning, resale value",
+          "paraphrase": "The registry supplies these assignment categories but no Saskatoon relationship.",
+          "supportingUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/13527/yolande-krueger",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "f400a5f0af1943275092acb0c53dd6448610a884fd4cd683ce25ffc9ddf6479a"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "moncton-real-property-mismatch-reject",
+      "taskId": "DPE-GSC-moncton-real-property-mismatch-reject",
+      "disposition": "rejected_or_held",
+      "canonicalSlug": "moncton-real-property-search-mismatch",
+      "citySlug": "moncton",
+      "entityName": "Moncton real-property appraisal search results",
+      "sourceUrl": "https://www.nbarea.org/find-an-appraiser/fee-appraisers/",
+      "sourceType": "professional_registry",
+      "sourceResponseSha256": "c04e763e308bd8afa4d5331c56ba7b0366489f35d52ae750e40646d115500133",
+      "sourceRetrievedAt": "2026-07-29T07:08:05.894Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Mari-Tech Appraisals Ltd; Evaluations Babineau Appraisals Ltd",
+          "paraphrase": "The regulator directory supports the business names only as real-property appraisal firms.",
+          "supportingUrl": "https://www.nbarea.org/find-an-appraiser/fee-appraisers/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c04e763e308bd8afa4d5331c56ba7b0366489f35d52ae750e40646d115500133"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Moncton, New Brunswick",
+          "paraphrase": "The directory establishes Moncton location but not relevant art/antique discipline.",
+          "supportingUrl": "https://www.nbarea.org/find-an-appraiser/fee-appraisers/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c04e763e308bd8afa4d5331c56ba7b0366489f35d52ae750e40646d115500133"
+        },
+        {
+          "claimKind": "service",
+          "value": "real-property appraisal and consulting",
+          "paraphrase": "The regulator's designation definitions establish the discipline mismatch.",
+          "supportingUrl": "https://www.nbarea.org/find-an-appraiser/fee-appraisers/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c04e763e308bd8afa4d5331c56ba7b0366489f35d52ae750e40646d115500133"
+        },
+        {
+          "claimKind": "credential",
+          "value": "CRA/AACI real-property designations; no captured personal-property credential",
+          "paraphrase": "The current regulator source supports real-property credentials only.",
+          "supportingUrl": "https://www.nbarea.org/find-an-appraiser/fee-appraisers/",
+          "sourceType": "professional_registry",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "c04e763e308bd8afa4d5331c56ba7b0366489f35d52ae750e40646d115500133"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "sudbury-equipment-appraisal-mismatch-reject",
+      "taskId": "DPE-GSC-sudbury-equipment-appraisal-mismatch-reject",
+      "disposition": "rejected_or_held",
+      "canonicalSlug": "sudbury-equipment-appraisal-search-mismatch",
+      "citySlug": "sudbury",
+      "entityName": "Turnbull Associates equipment-appraisal search result",
+      "sourceUrl": "https://www.turnbullassociates.ca/",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "96c727c332d6b6c5ad542c44dcfd058ed1b7d97473d3bcdb7231f1a729756a47",
+      "sourceRetrievedAt": "2026-07-29T07:22:16.297Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Turnbull Associates / John Turnbull",
+          "paraphrase": "The provider site supports the business and named appraiser only as an equipment-appraisal lead.",
+          "supportingUrl": "https://www.turnbullassociates.ca/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "96c727c332d6b6c5ad542c44dcfd058ed1b7d97473d3bcdb7231f1a729756a47"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Meaford, Ontario",
+          "paraphrase": "The current contact footer directly contradicts a Sudbury primary-location claim.",
+          "supportingUrl": "https://www.turnbullassociates.ca/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "96c727c332d6b6c5ad542c44dcfd058ed1b7d97473d3bcdb7231f1a729756a47"
+        },
+        {
+          "claimKind": "service",
+          "value": "equipment appraisal, equipment sales, equipment auctions and financial services",
+          "paraphrase": "The official page establishes an equipment and commercial-asset practice, not an art or antique practice.",
+          "supportingUrl": "https://www.turnbullassociates.ca/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "96c727c332d6b6c5ad542c44dcfd058ed1b7d97473d3bcdb7231f1a729756a47"
+        },
+        {
+          "claimKind": "specialty",
+          "value": "construction, transportation, manufacturing, mining, restaurant and machinery assets",
+          "paraphrase": "The current source establishes the discipline mismatch.",
+          "supportingUrl": "https://www.turnbullassociates.ca/",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "96c727c332d6b6c5ad542c44dcfd058ed1b7d97473d3bcdb7231f1a729756a47"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "charlottetown-pilar-shephard-location-reject",
+      "taskId": "DPE-GSC-charlottetown-pilar-shephard-location-reject",
+      "disposition": "rejected_or_held",
+      "canonicalSlug": "pilar-shephard",
+      "citySlug": "charlottetown",
+      "entityName": "Pilar Shephard",
+      "sourceUrl": "https://www.pilarshephard.com/content/page/front_credentials/Pilar-Shephard-credentials.html",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "e49e0ea44cd6cbea266997a438dac6e7afe3b8014953c931a5aafb13d70925cd",
+      "sourceRetrievedAt": "2026-07-29T07:48:24.185Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "Pilar Shephard Art Appraisal and Consulting",
+          "paraphrase": "The current official page supplies the practice identity.",
+          "supportingUrl": "https://www.pilarshephard.com/content/page/front_credentials/Pilar-Shephard-credentials.html",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e49e0ea44cd6cbea266997a438dac6e7afe3b8014953c931a5aafb13d70925cd"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Montreal, Québec",
+          "paraphrase": "The current official contact location contradicts a Charlottetown primary-location claim.",
+          "supportingUrl": "https://www.pilarshephard.com/content/page/front_credentials/Pilar-Shephard-credentials.html",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e49e0ea44cd6cbea266997a438dac6e7afe3b8014953c931a5aafb13d70925cd"
+        },
+        {
+          "claimKind": "local_context",
+          "value": "former Charlottetown gallery ownership; gallery sold",
+          "paraphrase": "Historical Charlottetown activity is not current office or service-area evidence.",
+          "supportingUrl": "https://www.pilarshephard.com/content/page/front_credentials/Pilar-Shephard-credentials.html",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e49e0ea44cd6cbea266997a438dac6e7afe3b8014953c931a5aafb13d70925cd"
+        },
+        {
+          "claimKind": "service",
+          "value": "art appraisal and consulting",
+          "paraphrase": "The official page supports the practice but no current Charlottetown service relationship.",
+          "supportingUrl": "https://www.pilarshephard.com/content/page/front_credentials/Pilar-Shephard-credentials.html",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "e49e0ea44cd6cbea266997a438dac6e7afe3b8014953c931a5aafb13d70925cd"
+        }
+      ],
+      "overrideNote": ""
+    },
+    {
+      "packetId": "whitehorse-north-end-referral-hold",
+      "taskId": "DPE-GSC-whitehorse-north-end-referral-hold",
+      "disposition": "rejected_or_held",
+      "canonicalSlug": "whitehorse-unverified-appraisal-referral",
+      "citySlug": "whitehorse",
+      "entityName": "North End Gallery appraisal referral",
+      "sourceUrl": "https://yukonart.ca/pages/framing-options",
+      "sourceType": "official_provider",
+      "sourceResponseSha256": "885f6302cfa8977283c6d1292523c4bf11219f9dfd675173f0b0b0bc39673859",
+      "sourceRetrievedAt": "2026-07-29T07:48:28.580Z",
+      "claims": [
+        {
+          "claimKind": "identity",
+          "value": "North End Gallery",
+          "paraphrase": "The official gallery page supplies the gallery identity only.",
+          "supportingUrl": "https://yukonart.ca/pages/framing-options",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "885f6302cfa8977283c6d1292523c4bf11219f9dfd675173f0b0b0bc39673859"
+        },
+        {
+          "claimKind": "primary_location",
+          "value": "Whitehorse, Yukon",
+          "paraphrase": "The current address supports the gallery location, not an appraiser office.",
+          "supportingUrl": "https://yukonart.ca/pages/framing-options",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "885f6302cfa8977283c6d1292523c4bf11219f9dfd675173f0b0b0bc39673859"
+        },
+        {
+          "claimKind": "service",
+          "value": "no North End Gallery appraisal service; unverified external referral only",
+          "paraphrase": "The direct source rejects the gallery as a provider and does not verify the referred person's service, credential, office or scope.",
+          "supportingUrl": "https://yukonart.ca/pages/framing-options",
+          "sourceType": "official_provider",
+          "retrievalDate": "2026-07-29",
+          "sourceResponseSha256": "885f6302cfa8977283c6d1292523c4bf11219f9dfd675173f0b0b0bc39673859"
+        }
+      ],
+      "overrideNote": ""
+    }
+  ]
+}

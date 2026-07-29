@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Elizabeth Garrett Ryan profile artwork</title>
+  <desc id="desc">Generated non-likeness directory artwork for Elizabeth Garrett Ryan; location not verified.</desc>
+  <defs><linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f1e8"/><stop offset="1" stop-color="#ffffff"/></linearGradient><pattern id="ticks" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M0 54 L54 0" stroke="#253f3f" stroke-opacity=".045" stroke-width="2"/><circle cx="8" cy="8" r="2" fill="#b8794d" fill-opacity=".18"/></pattern></defs>
+  <rect width="1200" height="900" fill="url(#paper)"/><rect width="1200" height="900" fill="url(#ticks)"/>
+  <path d="M0 168 C230 298, 360 138, 590 278 S980 388, 1200 220" fill="none" stroke="#b8794d" stroke-width="42" stroke-opacity=".22"/><path d="M0 730 C220 560, 420 820, 620 650 S920 520, 1200 610" fill="none" stroke="#253f3f" stroke-width="5" stroke-opacity=".18"/>
+  <g transform="translate(600 386) rotate(3)"><rect x="-176" y="-176" width="352" height="352" rx="28" fill="#fff" stroke="#253f3f" stroke-opacity=".22" stroke-width="8"/><rect x="-140" y="-140" width="280" height="280" rx="20" fill="#253f3f"/><text x="0" y="54" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="150" font-weight="700" fill="#fff">EG</text></g>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle"><text x="600" y="660" font-size="48" font-weight="700" fill="#253f3f">Elizabeth Garrett Ryan</text><text x="600" y="720" font-size="28" font-weight="600" fill="#253f3f" opacity=".72">Location not verified</text><text x="600" y="768" font-size="22" font-weight="500" fill="#253f3f" opacity=".52">Generated directory artwork, not a likeness</text></g>
+</svg>
