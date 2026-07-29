@@ -9,7 +9,32 @@ const navbarSource = fs.readFileSync(path.join(root, 'src/components/Navbar.tsx'
 const footerSource = fs.readFileSync(path.join(root, 'src/components/Footer.tsx'), 'utf8');
 const feedbackSource = fs.readFileSync(path.join(root, 'src/components/ContentFeedback.tsx'), 'utf8');
 const profileSource = fs.readFileSync(path.join(root, 'src/pages/StandardizedAppraiserPage.tsx'), 'utf8');
+const milwaukeeHtml = fs.readFileSync(
+  path.join(root, 'public_site/location/milwaukee/index.html'),
+  'utf8'
+);
 const failures = [];
+
+const locationBundleMatch = milwaukeeHtml.match(
+  /<script[^>]+src="\/assets\/(index-[^"]+\.js)"/
+);
+if (!locationBundleMatch) {
+  failures.push('The Milwaukee static page must reference the shared location bundle.');
+} else {
+  const locationBundle = fs.readFileSync(
+    path.join(root, 'public_site/assets', locationBundleMatch[1]),
+    'utf8'
+  );
+  for (const snippet of [
+    'data-provider-result-count',
+    'grid grid-cols-1 gap-6',
+    'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6',
+  ]) {
+    if (!locationBundle.includes(snippet)) {
+      failures.push(`The published location bundle must include ${JSON.stringify(snippet)}.`);
+    }
+  }
+}
 
 if (source.includes('data-appraisily-directory-sample-proof="1"\n        role="link"')) {
   failures.push('The sample-proof container must not duplicate its nested link interaction.');
@@ -95,6 +120,9 @@ for (const required of [
   'View Profile',
   'filterableSpecialties.length > 0',
   'filterableSpecialties.includes(selectedSpecialty)',
+  "visibleAppraisers.length === 1",
+  "? 'grid grid-cols-1 gap-6'",
+  'data-provider-result-count={visibleAppraisers.length}',
 ]) {
   if (!locationSource.includes(required)) {
     failures.push(`Location card interaction contract must include ${JSON.stringify(required)}.`);

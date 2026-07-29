@@ -1232,6 +1232,13 @@ export function StandardizedLocationPage() {
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
       .map(([specialty]) => specialty);
   }, [locationData]);
+  const visibleAppraisers = useMemo(() => {
+    const appraisers = locationData?.appraisers || [];
+    if (!selectedSpecialty) return appraisers;
+    return appraisers.filter(appraiser =>
+      getDisplaySpecialties(appraiser).includes(selectedSpecialty)
+    );
+  }, [locationData, selectedSpecialty]);
   const citySearchName = useMemo(() => {
     if (cityMeta?.name) return cityMeta.name;
     return cityName.split(',')[0]?.trim() || cityName;
@@ -2074,13 +2081,13 @@ export function StandardizedLocationPage() {
           </div>
         )}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {locationData.appraisers
-            .filter(appraiser => {
-              if (!selectedSpecialty) return true;
-              return getDisplaySpecialties(appraiser).includes(selectedSpecialty);
-            })
-            .map(appraiser => {
+        <div
+          className={visibleAppraisers.length === 1
+            ? 'grid grid-cols-1 gap-6'
+            : 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'}
+          data-provider-result-count={visibleAppraisers.length}
+        >
+          {visibleAppraisers.map(appraiser => {
             const appraiserUrl = buildSiteUrl(`/appraiser/${appraiser.slug}`);
             return (
             <article
@@ -2183,10 +2190,7 @@ export function StandardizedLocationPage() {
           })}
         </div>
 
-        {locationData.appraisers.filter(appraiser => {
-          if (!selectedSpecialty) return true;
-          return getDisplaySpecialties(appraiser).includes(selectedSpecialty);
-        }).length === 0 && (
+        {visibleAppraisers.length === 0 && (
           <div className="text-center py-8">
             {selectedSpecialty ? (
               <>
