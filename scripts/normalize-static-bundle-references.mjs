@@ -5,10 +5,10 @@ import path from 'node:path';
 import process from 'node:process';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
-const CURRENT_BUNDLE = '/assets/index-DJGWEWy1.js';
-const CURRENT_STYLESHEET = '/assets/index-DQEsr2yV.css';
-const RETIRED_BUNDLE_PATTERN = /\/assets\/index-BrMmeR5F\.js(?:\?[^"'\s>]*)?/g;
-const RETIRED_STYLESHEET_PATTERN = /\/assets\/index-n6ICzsWQ\.css(?:\?[^"'\s>]*)?/g;
+const CURRENT_BUNDLE = '/assets/index-COE2u-84.js';
+const CURRENT_STYLESHEET = '/assets/index-9dbTFKyu.css';
+const RETIRED_BUNDLE_PATTERN = /\/assets\/index-(?:BrMmeR5F|DJGWEWy1)\.js(?:\?[^"'\s>]*)?/g;
+const RETIRED_STYLESHEET_PATTERN = /\/assets\/index-(?:n6ICzsWQ|DQEsr2yV)\.css(?:\?[^"'\s>]*)?/g;
 
 function parseArgs(argv) {
   const options = { publicDir: path.join(ROOT, 'public_site'), write: false };

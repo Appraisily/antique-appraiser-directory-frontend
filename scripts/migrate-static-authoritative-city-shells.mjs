@@ -8,7 +8,7 @@ const ROOT = path.resolve(import.meta.dirname, '..');
 const DEFAULT_PUBLIC_DIR = path.join(ROOT, 'public_site');
 const LEGACY_BUNDLE = '/assets/index-BrMmeR5F.js';
 const PREVIOUS_REVIEWED_BUNDLE = '/assets/index-Cd3ca0aQ.js';
-const REVIEWED_BUNDLE = '/assets/index-DJGWEWy1.js';
+const REVIEWED_BUNDLE = '/assets/index-COE2u-84.js';
 
 const ROUTES = [
   'anchorage',
@@ -135,11 +135,11 @@ async function validateIndexableCities(publicDir) {
     );
     const reviewedPreloads = countMatches(
       html,
-      /<link\b[^>]*rel=["']preload["'][^>]*href=["']\/assets\/index-DJGWEWy1\.js(?:\?[^"']*)?["'][^>]*>/gi
+      /<link\b[^>]*rel=["']preload["'][^>]*href=["']\/assets\/index-COE2u-84\.js(?:\?[^"']*)?["'][^>]*>/gi
     );
     const reviewedScripts = countMatches(
       html,
-      /<script\b[^>]*type=["']module["'][^>]*src=["']\/assets\/index-DJGWEWy1\.js(?:\?[^"']*)?["'][^>]*>/gi
+      /<script\b[^>]*type=["']module["'][^>]*src=["']\/assets\/index-COE2u-84\.js(?:\?[^"']*)?["'][^>]*>/gi
     );
     const exactMarkers = countMatches(
       html,

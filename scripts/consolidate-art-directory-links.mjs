@@ -25,7 +25,7 @@ const CONSOLIDATED_DIRECTORY_BRIDGE = `<section class="article-directory-bridge"
     <article class="article-directory-card">
       <p class="article-directory-card__eyebrow">Antique and fine-art specialists</p>
       <h3 class="article-directory-card__title">Browse the Antique &amp; Art Appraiser Directory</h3>
-      <p class="article-directory-card__body">Compare 244 published profiles across 86 public location pages. Confirm current credentials, scope, fees, and availability directly with the provider.</p>
+      <p class="article-directory-card__body">Compare published provider profiles across public city pages. Confirm current credentials, scope, fees, and availability directly with the provider.</p>
       <div class="article-directory-card__actions">
         <a class="article-directory-card__action" href="https://antique-appraiser-directory.appraisily.com/" data-analytics-event="article_directory_click" data-analytics-location="inline-directory" data-directory="antique-directory">Browse appraisal specialists</a>
       </div>

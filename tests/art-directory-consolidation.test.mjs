@@ -90,7 +90,7 @@ test('collapses duplicate directory cards into one truthful combined card', asyn
   assert.equal(result.status, 0, result.stderr || result.stdout);
   const output = await fs.readFile(path.join(item.publicDir, 'index.html'), 'utf8');
   assert.equal((output.match(/antique-appraiser-directory/g) || []).length, 1);
-  assert.match(output, /244 published profiles across 86 public location pages/);
+  assert.match(output, /Compare published provider profiles across public city pages/);
   assert.match(output, /Browse the Antique &amp; Art Appraiser Directory/);
 });
 

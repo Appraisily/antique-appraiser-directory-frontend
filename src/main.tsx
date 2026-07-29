@@ -45,7 +45,8 @@ if (import.meta.env.DEV) {
   });
 }
 
-// Marker used by publish/build checks to ensure we're not accidentally shipping a hydration build.
+// Set after inspecting the root. Production static pages are authoritative and
+// must not be replaced by a second client-rendered version of the directory.
 window.__APPRAISILY_CLIENT_RENDER_ONLY__ = true;
 
 // Ensure AI referrals are tagged before hydration/render
@@ -83,28 +84,18 @@ if (!rootElement) {
       );
     }
 
-    let renderTarget = rootElement;
     if (hasPreRenderedContent) {
-      const preRenderRoot = document.createElement('div');
-      preRenderRoot.setAttribute('data-prerender', 'true');
-      while (rootElement.firstChild) {
-        preRenderRoot.appendChild(rootElement.firstChild);
-      }
-      rootElement.appendChild(preRenderRoot);
-
-      const spaRoot = document.createElement('div');
-      spaRoot.setAttribute('data-spa-root', 'true');
-      rootElement.appendChild(spaRoot);
-      renderTarget = spaRoot;
+      window.__APPRAISILY_CLIENT_RENDER_ONLY__ = false;
+      rootElement.setAttribute('data-static-authoritative-preserved', 'true');
+    } else {
+      createRoot(rootElement).render(
+        <StrictMode>
+          <HelmetProvider>
+            <RouterProvider router={router} />
+          </HelmetProvider>
+        </StrictMode>
+      );
     }
-
-    createRoot(renderTarget).render(
-      <StrictMode>
-        <HelmetProvider>
-          <RouterProvider router={router} />
-        </HelmetProvider>
-      </StrictMode>
-    );
     if (import.meta.env.DEV) {
       console.log('✅ Rendering complete');
     }

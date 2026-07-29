@@ -2442,14 +2442,13 @@ export function StandardizedLocationPage() {
         <div className="mt-10 mb-20 rounded-lg border border-purple-100 bg-purple-50/60 p-6">
           <h2 className="text-xl font-semibold mb-2">Looking for a fine-art appraiser?</h2>
           <p className="text-gray-600 mb-4">
-            Our Art Appraisers Directory focuses on fine art, paintings, prints, and sculpture valuations.
-            Browse the current source-reviewed provider cohort and compare primary locations, specialties, and qualifications.
+            Fine-art and antique provider profiles now live together in this directory. Each published profile shows its trust state and the exact scope reviewed.
           </p>
           <a
-            href="https://art-appraisers-directory.appraisily.com/location/"
+            href={buildSiteUrl('/appraiser/#reviewed-fine-art-heading')}
             className="inline-flex items-center text-purple-700 hover:text-purple-900 font-medium"
           >
-            Browse reviewed art appraisers by location
+            Browse reviewed fine-art profiles
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-4 w-4 ml-1"

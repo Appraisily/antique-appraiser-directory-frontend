@@ -51,8 +51,8 @@ for (const snippet of [
   "handleEmptyLocationClick('free_photo_check'",
   "handleEmptyLocationClick('nearby_city'",
   'Looking for a fine-art appraiser?',
-  'Browse reviewed art appraisers by location',
-  'href="https://art-appraisers-directory.appraisily.com/location/"',
+  'Browse reviewed fine-art profiles',
+  "href={buildSiteUrl('/appraiser/#reviewed-fine-art-heading')}",
 ]) {
   if (!locationSource.includes(snippet)) {
     failures.push(`The location empty state must include ${JSON.stringify(snippet)}.`);
@@ -62,6 +62,7 @@ for (const misleadingPromise of [
   'Looking for art-specific appraisers in {cityName}?',
   'View {citySearchName} art appraisers',
   'art-appraisers-directory.appraisily.com/location/${validCitySlug}',
+  'art-appraisers-directory.appraisily.com/location/',
 ]) {
   if (locationSource.includes(misleadingPromise)) {
     failures.push(`The Art Directory bridge must not include ${JSON.stringify(misleadingPromise)}.`);
