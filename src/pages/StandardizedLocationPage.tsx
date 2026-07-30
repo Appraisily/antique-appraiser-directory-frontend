@@ -19,7 +19,7 @@ import {
 } from '../utils/dataQuality';
 import { trackEvent } from '../utils/analytics';
 import { cities as directoryCities } from '../data/cities.json';
-import nationalServiceIntentCohort from '../data/national-service-intent-cohort.json';
+import nationalServiceIntentCohort from '../../data/national-service-intent-cohort.json';
 import { normalizeAssetUrl } from '../utils/assetUrls';
 
 type DirectoryCity = {

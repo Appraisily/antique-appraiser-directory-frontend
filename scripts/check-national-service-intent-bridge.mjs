@@ -104,7 +104,7 @@ function run() {
   const locationSource = fs.readFileSync(path.join(repoRoot, 'src/pages/StandardizedLocationPage.tsx'), 'utf8');
 
   for (const snippet of [
-    "import nationalServiceIntentCohort from '../data/national-service-intent-cohort.json'",
+    "import nationalServiceIntentCohort from '../../data/national-service-intent-cohort.json'",
     'data-appraisily-national-service-bridge="1"',
     "trackEvent('directory_service_bridge_click'",
     'data-analytics-destination={target}',

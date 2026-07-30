@@ -48,7 +48,11 @@ if (locationSource.includes("We're currently updating our database of antique ap
 for (const [label, checkedSource, snippets] of [
   ['navbar', navbarSource, ['if (isCurrentLocation(city))', 'aria-current="page"', 'Current']],
   ['footer', footerSource, ['if (isCurrentLocation)', 'aria-current="page"', 'Current page']],
-  ['feedback', feedbackSource, ['disabled={helpful === null}', 'Choose Yes or No first.']],
+  [
+    'feedback',
+    feedbackSource,
+    ['disabled={submitted}', 'Select Yes or No before sending feedback.'],
+  ],
   [
     'profile',
     profileSource,
@@ -68,6 +72,9 @@ for (const [label, checkedSource, snippets] of [
 }
 if (navbarSource.includes('event.preventDefault();\n      setCitiesDropdownOpen(false);')) {
   failures.push('Current-city navigation must not render a clickable link whose default action is cancelled.');
+}
+if (feedbackSource.includes('disabled={helpful === null}')) {
+  failures.push('Feedback submission must stay clickable so the missing-vote guidance can run.');
 }
 
 if (failures.length) {

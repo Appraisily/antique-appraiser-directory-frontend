@@ -69,7 +69,7 @@ export function ContentFeedback() {
     event.preventDefault();
     if (submitted) return;
     if (helpful === null) {
-      setValidationError('Choose Yes or No to submit feedback.');
+      setValidationError('Select Yes or No before sending feedback.');
       try {
         yesButtonRef.current?.focus();
       } catch {
@@ -169,11 +169,11 @@ export function ContentFeedback() {
               <div className="mt-3 flex items-center gap-3">
                 <button
                   type="submit"
-                  disabled={helpful === null}
+                  disabled={submitted}
                   aria-describedby={helpful === null ? 'feedback-submit-help' : undefined}
                   className={[
                     'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition',
-                    helpful === null
+                    submitted
                       ? 'cursor-not-allowed opacity-50'
                       : 'hover:bg-gray-800 cursor-pointer',
                   ].join(' ')}
