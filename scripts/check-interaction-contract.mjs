@@ -9,6 +9,8 @@ const navbarSource = fs.readFileSync(path.join(root, 'src/components/Navbar.tsx'
 const footerSource = fs.readFileSync(path.join(root, 'src/components/Footer.tsx'), 'utf8');
 const feedbackSource = fs.readFileSync(path.join(root, 'src/components/ContentFeedback.tsx'), 'utf8');
 const profileSource = fs.readFileSync(path.join(root, 'src/pages/StandardizedAppraiserPage.tsx'), 'utf8');
+const citySearchSource = fs.readFileSync(path.join(root, 'src/components/CitySearch.tsx'), 'utf8');
+const appSource = fs.readFileSync(path.join(root, 'src/App.tsx'), 'utf8');
 const failures = [];
 
 if (source.includes('data-appraisily-directory-sample-proof="1"\n        role="link"')) {
@@ -75,6 +77,27 @@ if (navbarSource.includes('event.preventDefault();\n      setCitiesDropdownOpen(
 }
 if (feedbackSource.includes('disabled={helpful === null}')) {
   failures.push('Feedback submission must stay clickable so the missing-vote guidance can run.');
+}
+for (const snippet of [
+  'role="status"',
+  'aria-live="polite"',
+  'data-directory-search-feedback="1"',
+  'data-directory-search-status={feedback.kind}',
+  'No city page found for',
+  'Location access was denied.',
+  'We couldn’t determine your location.',
+  'data-clarity-action="directory_search_geolocate"',
+  'data-clarity-action="directory_search_browse_all"',
+]) {
+  if (!citySearchSource.includes(snippet)) {
+    failures.push(`The directory search feedback contract must include ${JSON.stringify(snippet)}.`);
+  }
+}
+if (!appSource.includes('data-clarity-action="directory_search_submit"')) {
+  failures.push('The directory search submit button needs a stable Clarity action.');
+}
+if (!appSource.includes('// CitySearch has rendered an inline recovery status for a genuine miss.\n      return;')) {
+  failures.push('A genuine search miss must remain at the inline recovery status instead of auto-scrolling.');
 }
 
 if (failures.length) {

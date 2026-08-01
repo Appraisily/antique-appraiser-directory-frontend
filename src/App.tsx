@@ -118,6 +118,9 @@ function App() {
         }
         return;
       }
+
+      // CitySearch has rendered an inline recovery status for a genuine miss.
+      return;
     }
 
     if (scrollToCityDirectory()) return;
@@ -418,6 +421,7 @@ function App() {
                     className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-12 px-8 py-2 bg-primary md:w-auto w-full shadow-sm"
                     type="submit"
                     onClick={handleSubmit}
+                    data-clarity-action="directory_search_submit"
                   >
                     <Search className="w-4 h-4" />
                     Find Appraisers

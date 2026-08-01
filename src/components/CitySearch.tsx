@@ -10,6 +10,11 @@ export type CitySearchHandle = {
   focusInput: () => void;
 };
 
+type SearchFeedback =
+  | { kind: 'no-match'; query: string }
+  | { kind: 'geolocation-denied' }
+  | { kind: 'geolocation-unavailable' };
+
 const SEARCH_REDIRECTS: Record<string, string> = {
   '07866': 'new-york',
   '12019': 'new-york',
@@ -47,6 +52,7 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isLocating, setIsLocating] = useState(false);
   const [suggestions, setSuggestions] = useState<typeof cities>([]);
+  const [feedback, setFeedback] = useState<SearchFeedback | null>(null);
   const wrapperRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const navigate = useNavigate();
@@ -113,20 +119,27 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
 
   const handleLocationClick = () => {
     if (isLocating) return;
+    setFeedback(null);
     setIsLocating(true);
     trackEvent('search_geolocate_request', {
       source: 'hero_directory'
     });
 
-    const complete = (city: (typeof cities)[number] | null, meta: Record<string, unknown> = {}) => {
+    const complete = (
+      city: (typeof cities)[number] | null,
+      meta: Record<string, unknown> = {},
+      locationFeedback: SearchFeedback | null = null
+    ) => {
       if (!city) {
         setIsLocating(false);
+        setFeedback(locationFeedback);
         inputRef.current?.focus();
         return;
       }
 
       setQuery(`${city.name}, ${city.state}`);
       setIsLocating(false);
+      setFeedback(null);
       trackEvent('search_geolocate_complete', {
         source: 'hero_directory',
         resolved_city: city.slug,
@@ -136,7 +149,7 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
     };
 
     if (typeof navigator === 'undefined' || !navigator.geolocation) {
-      complete(null, { reason: 'geolocation_unavailable' });
+      complete(null, { reason: 'geolocation_unavailable' }, { kind: 'geolocation-unavailable' });
       return;
     }
 
@@ -151,7 +164,11 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
           code: error?.code,
           message: error?.message
         });
-        complete(null, { reason: 'geolocation_error' });
+        complete(
+          null,
+          { reason: 'geolocation_error' },
+          { kind: error?.code === 1 ? 'geolocation-denied' : 'geolocation-unavailable' }
+        );
       },
       {
         enableHighAccuracy: false,
@@ -164,6 +181,7 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
   const handleSelect = useCallback((city: typeof cities[0]) => {
     setQuery(`${city.name}, ${city.state}`);
     setIsOpen(false);
+    setFeedback(null);
     trackEvent('location_search_select', {
       source: 'hero_directory',
       city_slug: city.slug,
@@ -206,6 +224,7 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
         source: 'hero_directory',
         query: rawQuery
       });
+      setFeedback({ kind: 'no-match', query: rawQuery });
     }
 
     return false;
@@ -259,8 +278,12 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
           aria-autocomplete="list"
           aria-controls="city-search-listbox"
           aria-activedescendant={isOpen && suggestions.length > 0 ? `city-option-${suggestions[0].slug}` : undefined}
+          aria-describedby={feedback ? 'city-search-status' : undefined}
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            setFeedback(null);
+          }}
           onFocus={() => {
             if (query && suggestions.length > 0) {
               setIsOpen(true);
@@ -274,6 +297,8 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
           disabled={isLocating}
           className="absolute inset-y-0 right-0 flex items-center pr-3 text-muted-foreground hover:text-primary transition-colors"
           aria-label="Use my location"
+          aria-describedby={feedback ? 'city-search-status' : undefined}
+          data-clarity-action="directory_search_geolocate"
         >
           {isLocating ? (
             <div className="h-5 w-5 border-2 border-primary border-t-transparent rounded-full animate-spin" />
@@ -307,6 +332,57 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
               </li>
             ))}
           </ul>
+        </div>
+      )}
+
+      {feedback && (
+        <div
+          id="city-search-status"
+          role="status"
+          aria-live="polite"
+          data-directory-search-feedback="1"
+          data-directory-search-status={feedback.kind}
+          className="mt-2 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-left text-sm text-amber-950"
+        >
+          {feedback.kind === 'no-match' && (
+            <>
+              No city page found for “{feedback.query}”. Try another city, or{' '}
+              <a
+                href="#city-directory"
+                className="font-semibold underline underline-offset-2 hover:text-primary"
+                data-clarity-action="directory_search_browse_all"
+              >
+                browse all locations
+              </a>
+              .
+            </>
+          )}
+          {feedback.kind === 'geolocation-denied' && (
+            <>
+              Location access was denied. Enter a city, or{' '}
+              <a
+                href="#city-directory"
+                className="font-semibold underline underline-offset-2 hover:text-primary"
+                data-clarity-action="directory_search_browse_all"
+              >
+                browse all locations
+              </a>{' '}
+              instead.
+            </>
+          )}
+          {feedback.kind === 'geolocation-unavailable' && (
+            <>
+              We couldn’t determine your location. Enter a city, or{' '}
+              <a
+                href="#city-directory"
+                className="font-semibold underline underline-offset-2 hover:text-primary"
+                data-clarity-action="directory_search_browse_all"
+              >
+                browse all locations
+              </a>{' '}
+              instead.
+            </>
+          )}
         </div>
       )}
     </div>
