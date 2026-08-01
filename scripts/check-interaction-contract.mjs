@@ -11,6 +11,7 @@ const feedbackSource = fs.readFileSync(path.join(root, 'src/components/ContentFe
 const profileSource = fs.readFileSync(path.join(root, 'src/pages/StandardizedAppraiserPage.tsx'), 'utf8');
 const citySearchSource = fs.readFileSync(path.join(root, 'src/components/CitySearch.tsx'), 'utf8');
 const appSource = fs.readFileSync(path.join(root, 'src/App.tsx'), 'utf8');
+const posthogSource = fs.readFileSync(path.join(root, 'src/lib/posthog.ts'), 'utf8');
 const failures = [];
 
 if (source.includes('data-appraisily-directory-sample-proof="1"\n        role="link"')) {
@@ -92,6 +93,16 @@ for (const snippet of [
   if (!citySearchSource.includes(snippet)) {
     failures.push(`The directory search feedback contract must include ${JSON.stringify(snippet)}.`);
   }
+}
+const maskedQueryEcho = /<span\s+className="session-replay-mask"\s+data-ph-mask-text="true"\s+data-clarity-mask="true"\s*>\s*\{feedback\.query\}\s*<\/span>/m;
+if (!maskedQueryEcho.test(citySearchSource)) {
+  failures.push('The reflected no-match query must carry the PostHog and Clarity replay text-mask selectors.');
+}
+if (citySearchSource.replace(maskedQueryEcho, '').includes('{feedback.query}')) {
+  failures.push('The no-match query must not be reflected anywhere outside its replay-masked wrapper.');
+}
+if (!posthogSource.includes("maskTextSelector: '.session-replay-mask, [data-ph-mask-text]'")) {
+  failures.push('The PostHog replay contract must recognize both text-mask selectors used by the no-match query.');
 }
 if (!appSource.includes('data-clarity-action="directory_search_submit"')) {
   failures.push('The directory search submit button needs a stable Clarity action.');

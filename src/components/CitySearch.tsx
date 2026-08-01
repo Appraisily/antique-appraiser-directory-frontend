@@ -346,7 +346,15 @@ export const CitySearch = React.forwardRef<CitySearchHandle>((_, ref) => {
         >
           {feedback.kind === 'no-match' && (
             <>
-              No city page found for “{feedback.query}”. Try another city, or{' '}
+              No city page found for “
+              <span
+                className="session-replay-mask"
+                data-ph-mask-text="true"
+                data-clarity-mask="true"
+              >
+                {feedback.query}
+              </span>
+              ”. Try another city, or{' '}
               <a
                 href="#city-directory"
                 className="font-semibold underline underline-offset-2 hover:text-primary"
