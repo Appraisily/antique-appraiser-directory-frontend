@@ -29,3 +29,28 @@ test('customer browse and search surfaces use the route-backed city list', () =>
   assert.match(locationPage, /\$\{locationData\.appraisers\.length\} \$\{expertLabel\}/);
   assert.equal(publishedCities.length, 101);
 });
+
+test('canonical static entry pages load the current route-safe application bundle', () => {
+  const publicRoot = path.join(repoRoot, 'public_site');
+  const pending = [publicRoot];
+  const stale = [];
+
+  while (pending.length > 0) {
+    const current = pending.pop();
+    for (const entry of fs.readdirSync(current, { withFileTypes: true })) {
+      const absolute = path.join(current, entry.name);
+      if (entry.isDirectory()) pending.push(absolute);
+      else if (entry.isFile() && entry.name === 'index.html') {
+        const html = fs.readFileSync(absolute, 'utf8');
+        if (html.includes('/assets/index-BkPB_7cp.js')) stale.push(path.relative(repoRoot, absolute));
+      }
+    }
+  }
+
+  assert.deepEqual(stale, []);
+  const losAngeles = fs.readFileSync(
+    path.join(publicRoot, 'location/los-angeles/index.html'),
+    'utf8'
+  );
+  assert.match(losAngeles, /\/assets\/index-Lwn3tpy2\.js/);
+});
