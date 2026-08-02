@@ -139,7 +139,7 @@ export function Footer() {
               <span className="text-2xl font-bold text-gray-900">{SITE_NAME}</span>
             </div>
             <p className="text-gray-600 max-w-md">
-              Professional online art and antique appraisals. Get accurate valuations from certified experts within 48 hours.
+              Browse current local listings or start an online appraisal. Confirm provider credentials, scope, fees, availability, and report timing directly.
             </p>
             <button 
               type="button"

@@ -509,12 +509,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
   Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], LocationSeoOverride>
 > = {
   'des-moines': {
-    title: 'Des Moines Art Appraisals & Antique Appraisers | Personal Property Reports',
+    title: 'Des Moines Art Appraisal Options | Check Local Availability',
     description:
-      'Compare Des Moines art appraisals, antique appraisers, and personal-property appraisal options for estate, donation, insurance, and online reports.',
-    h1: 'Des Moines Art Appraisals & Antique Appraisers',
+      'Check current Des Moines art and antique appraisal availability for estate, donation, insurance, and personal-property needs, or start online.',
+    h1: 'Des Moines Art and Antique Appraisal Options',
     heroDescription:
-      'Compare Des Moines specialists for art appraisals, antique appraisals, and personal-property reports, then choose the right fit for donation, estate, insurance, or faster online review.'
+      'No local profiles are currently listed for Des Moines. Check a nearby city or start an online appraisal for donation, estate, insurance, or personal-property needs.'
   },
   aspen: {
     title: 'Aspen Antique Appraisers & Art Appraisers | Estate, Insurance, Donation',
@@ -541,12 +541,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Kansas City specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
   },
   chicago: {
-    title: 'Chicago Antique & Art Appraisals | Signed Reports Online',
+    title: 'Chicago Antique & Art Appraisal Options | Local and Online',
     description:
-      'Find Chicago appraisal options for antiques, art, estates, insurance, and donations. Upload photos for an online signed report.',
-    h1: 'Chicago Antique & Art Appraisals',
+      'Review the currently listed Chicago-area appraisal option for antiques, art, estates, insurance, and donations, or upload photos for an online report.',
+    h1: 'Chicago Antique & Art Appraisal Options',
     heroDescription:
-      'Compare Chicago antique and art appraisers, or upload photos for a signed online report when you need estate, insurance, donation, or resale documentation.'
+      'Review the currently listed Chicago-area provider and confirm its location, credentials, scope, fees, and availability directly, or start an online report.'
   },
   tucson: {
     title: 'Antique Appraisers Near Me in Tucson | Compare Local Experts & Art Appraisals',
@@ -573,12 +573,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Denver antique appraisers, art appraisal Denver options, and online signed reports for estate, insurance, and donation needs.'
   },
   milwaukee: {
-    title: 'Antique Appraisers Near Me in Milwaukee | Compare Local Experts & Art Appraisals',
+    title: 'Antique Appraisal Options Serving Milwaukee & Nearby Areas',
     description:
-      'Compare 1 Milwaukee antique appraiser for estate, furniture & fine art. Get expert insurance or donation reports — or try a faster online appraisal.',
-    h1: 'Antique Appraisers Near You in Milwaukee',
+      'Review the currently listed appraisal option serving Milwaukee and nearby areas, including its Brown Deer location, or start an online appraisal.',
+    h1: 'Antique Appraisal Options Serving Milwaukee and Nearby Areas',
     heroDescription:
-      'Find antique and art appraisers near you in Milwaukee. Compare local in-person experts for estate, donation, and insurance valuations — or choose a faster online appraisal.'
+      'Review the currently listed nearby provider, including its Brown Deer location, and confirm credentials, scope, fees, and availability directly, or start an online appraisal.'
   },
   cleveland: {
     title: 'Cleveland Antique Appraiser Options | Donation, Estate & Art Appraisals',
@@ -1855,8 +1855,8 @@ export function StandardizedLocationPage() {
     return (
       <>
         <SEO
-          title={`Antique Appraisers in ${cityName} | Find Local Antique Appraisal Services`}
-          description={`No verified antique appraiser is currently listed in ${cityName}. Start with a free online photo check or compare providers in a nearby city.`}
+          title={seoTitle}
+          description={seoDescription}
           schema={[generateBreadcrumbSchema()]}
           path={locationPath}
           pageUrl={locationCanonicalUrl}
@@ -1869,13 +1869,13 @@ export function StandardizedLocationPage() {
         </a>
         <div className="container mx-auto px-4 py-8 mt-16">
           <div className="max-w-3xl mx-auto">
-            <h1 className="text-3xl font-bold mb-4">Antique Appraisers in {cityName}</h1>
+            <h1 className="text-3xl font-bold mb-4">{heroHeading}</h1>
             <div className="bg-blue-50 border border-blue-200 px-6 py-6 rounded-xl shadow-sm" data-directory-empty-state="true">
-              <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">No verified local listings yet</p>
+              <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">No local listings currently published</p>
               <h2 className="mt-2 text-xl font-semibold text-gray-900">You can still check your item now</h2>
               <p className="mt-2 text-gray-700">
-                Start with a free online photo check, or compare providers in a nearby city.
-                We do not show unverified profiles as local options.
+                Start with a free online photo check, or browse current listings in a nearby city.
+                Profiles without current publishable details are excluded from local options.
               </p>
               <div className="mt-5 flex flex-col sm:flex-row gap-3">
                 <a
@@ -1893,7 +1893,7 @@ export function StandardizedLocationPage() {
                   onClick={() => handleEmptyLocationClick('nearby_city', nearbyCityUrl)}
                 >
                   {nearbyCity
-                    ? `Compare providers in ${nearbyCity.name}, ${nearbyCity.state}`
+                    ? `Browse current listings in ${nearbyCity.name}, ${nearbyCity.state}`
                     : 'Browse all locations'}
                 </a>
               </div>
@@ -1938,7 +1938,7 @@ export function StandardizedLocationPage() {
         <div className="bg-gradient-to-r from-blue-50 to-white p-6 rounded-lg mb-8">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             <div className="max-w-3xl">
-              <p className="text-sm font-semibold text-blue-700 mb-2">Compare local appraisers or start online</p>
+              <p className="text-sm font-semibold text-blue-700 mb-2">Check local availability or start online</p>
               <h1 className="text-3xl font-bold mb-3">{heroHeading}</h1>
               <p className="text-gray-600">{heroDescription}</p>
             </div>
@@ -1988,8 +1988,10 @@ export function StandardizedLocationPage() {
               href="#local-appraisers"
               className="block rounded-lg bg-white p-4 text-inherit no-underline shadow-sm transition-shadow hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300"
             >
-              <p className="font-semibold text-gray-900 mb-1">Local specialists by city and niche</p>
-              <p>Browse providers serving {cityName} and nearby areas, then shortlist by specialty fit.</p>
+              <p className="font-semibold text-gray-900 mb-1">Current listings by city and niche</p>
+              <p>
+                Review the currently listed {locationData.appraisers.length === 1 ? 'provider' : 'providers'} serving {cityName} and nearby areas, then confirm service area and specialty directly.
+              </p>
             </a>
             <a
               href={primaryCtaUrl}
@@ -2020,9 +2022,11 @@ export function StandardizedLocationPage() {
         />
 
         <div id="local-appraisers" className="mb-6 mt-8 scroll-mt-20">
-          <h2 className="text-2xl font-semibold">Local antique appraisers in {cityName}</h2>
+          <h2 className="text-2xl font-semibold">
+            Current antique appraisal {locationData.appraisers.length === 1 ? 'listing' : 'listings'} serving {cityName}
+          </h2>
           <p className="text-gray-600 mt-2">
-            Use this list to contact in-person providers or compare them with Appraisily&rsquo;s online option.
+            Review the current {locationData.appraisers.length === 1 ? 'listing' : 'listings'} and confirm location, credentials, scope, fees, and availability directly. Appraisily&rsquo;s online option is separate.
           </p>
         </div>
 
@@ -2231,7 +2235,9 @@ export function StandardizedLocationPage() {
                   : 'Need an online antique appraisal?'}
             </h2>
             <p className="mt-3 text-gray-700 leading-relaxed">
-              Use the local provider profiles above when you need an in-person specialist in {citySearchName}.
+              {locationData.appraisers.length > 0
+                ? `Review the currently listed provider ${locationData.appraisers.length === 1 ? 'profile' : 'profiles'} above when you need an in-person specialist serving ${citySearchName}.`
+                : `No local provider profiles are currently listed for ${citySearchName}; use the online option below or check another nearby city.`}
               {' '}When an in-person visit is not required, choose the matching online service for a signed appraisal report.
             </p>
             <div className="mt-3 flex flex-wrap gap-3">

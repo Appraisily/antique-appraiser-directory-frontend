@@ -746,7 +746,7 @@ export function generateHowToSchema(title: string = 'How to Get an Art Appraisal
       {
         "@type": "HowToStep",
         "name": "Find a qualified appraiser",
-        "text": "Search our directory to find a certified art appraiser who specializes in your type of artwork.",
+        "text": "Search the directory for an art appraiser who handles your type of artwork, then verify credentials, scope, fees, and availability directly.",
         "image": normalizeAssetUrl('https://assets.appraisily.com/assets/directory/placeholder.jpg'),
         "url": SITE_URL
       },

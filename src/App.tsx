@@ -27,17 +27,17 @@ const FEATURED_CITY_SPOTLIGHTS: readonly FeaturedCitySpotlight[] = [
   {
     slug: 'des-moines',
     query: 'Des Moines art appraisals',
-    blurb: 'Good fit for donation, estate, and insurance appraisal searches in Iowa.'
+    blurb: 'Check current Des Moines-area availability before deciding between local and online service.'
   },
   {
     slug: 'chicago',
     query: 'Chicago antique appraisers',
-    blurb: 'Strong page to compare metro-area antique and art appraisal providers.'
+    blurb: 'Check the currently listed Chicago-area options and verify details directly.'
   },
   {
     slug: 'milwaukee',
     query: 'Antique appraisal Milwaukee',
-    blurb: 'Targets local appraisal intent for estate items, collections, and insurance work.'
+    blurb: 'Check the currently listed Milwaukee-area options, including nearby service locations.'
   },
   {
     slug: 'columbus',
@@ -155,9 +155,9 @@ function App() {
   }, []);
 
   const statsHighlights = [
-    { value: `${totalCities}+`, label: 'Cities covered nationwide' },
-    { value: `${totalStates}`, label: 'States & provinces covered' },
-    { value: '48 hrs', label: 'Average appraisal turnaround' }
+    { value: `${totalCities}`, label: 'City guides across the US & Canada' },
+    { value: `${totalStates}`, label: 'States & provinces represented' },
+    { value: 'Current', label: 'Availability varies by location' }
   ];
 
   const handleStatHighlightClick = (label: string) => {
@@ -380,8 +380,8 @@ function App() {
   return (
     <>
       <SEO
-        title="Antique Appraisers Near Me — Compare Local Experts by City"
-        description="Search antique appraisers near me — compare local specialists for estate, insurance, donation, and personal-property valuations. Browse city pages or get an online appraisal in 24–48 hours."
+        title="Antique Appraisers Near Me — Check Local Availability by City"
+        description="Search current antique-appraiser listings by city for estate, insurance, donation, and personal-property needs. Verify each provider's credentials, scope, fees, and availability directly."
         schema={[
           generateHomePageSchema(),
           generateServiceSchema(),
@@ -403,13 +403,13 @@ function App() {
             <div className="grid items-center gap-12 md:grid-cols-2">
               <div className="order-1 space-y-6 text-center md:text-left">
                 <span className="inline-flex items-center justify-center rounded-full border border-primary/25 bg-primary/5 px-3 py-1 text-sm font-medium text-primary">
-                  Trusted antique valuation network
+                  Independent appraisal directory
                 </span>
                 <h1 className="text-4xl md:text-6xl font-semibold text-foreground leading-[1.08]">
-                  Find <span className="italic text-primary">certified antique appraisers</span> and art valuation experts near you
+                  Find <span className="italic text-primary">antique appraiser listings</span> and art valuation options near you
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl md:max-w-xl mx-auto md:mx-0">
-                  Browse city guides for donation, estate, insurance, and resale valuations, then compare local experts or start an online appraisal.
+                  Browse current city listings for donation, estate, insurance, and resale needs. Verify credentials, scope, fees, service area, and availability directly with each provider.
                 </p>
 
                 <form
@@ -458,7 +458,7 @@ function App() {
                     />
                   </div>
                   <figcaption className="mt-3 text-center text-sm text-muted-foreground">
-                    Verified local specialists and online reports, city by city.
+                    Current directory listings and online report options, city by city.
                   </figcaption>
                 </figure>
               </div>
@@ -489,7 +489,7 @@ function App() {
               <span className="uppercase tracking-[0.3em] text-xs text-primary/80">What we appraise</span>
               <h2 className="text-3xl font-bold">Specialty categories handled with care</h2>
               <p className="text-muted-foreground">
-                Every submission is matched with a certified specialist who understands the historical context and market value of your antiques.
+                Appraisily reviews the photos and details you submit and explains the available next step. A signed report is optional and separate from the local directory listings.
               </p>
             </div>
 
@@ -529,7 +529,7 @@ function App() {
           <div className="container mx-auto px-6">
             <h2 className="text-3xl font-bold mb-4 text-center">Antique Appraiser Directory by City</h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              Find antique appraisers and art appraisal services in your city. Start with the highest-demand city guides below, then compare broader regional options across the United States.
+              Check current antique-appraiser and art-appraisal availability by city. Listing depth varies, so confirm each provider's service area and details directly.
             </p>
 
             {featuredCitySpotlights.length > 0 && (
@@ -631,7 +631,10 @@ function App() {
         
         {/* Featured Appraisers Section */}
         <main id="main-content" className="container mx-auto px-6 py-16">
-          <h2 className="text-3xl font-bold mb-10 text-center">Featured Antique Appraisers</h2>
+          <h2 className="text-3xl font-bold mb-3 text-center">Firms readers may research</h2>
+          <p className="mx-auto mb-10 max-w-3xl text-center text-sm text-muted-foreground">
+            Editorial examples only. Appraisily is not affiliated with, sponsored by, or endorsing these firms. Confirm current services, credentials, fees, and availability directly.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Appraiser Card 1 - Sotheby's New York */}
             <a

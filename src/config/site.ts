@@ -5,7 +5,7 @@ import { BRAND_LOGO_URL } from './assets';
 export const SITE_NAME = 'Antique Appraiser Directory';
 export const SITE_URL = 'https://antique-appraiser-directory.appraisily.com';
 export const SITE_DESCRIPTION =
-  'Discover certified antique appraisers near you. Compare expertise, pricing models, and verified reviews for valuations, authentication, and estate services.';
+  'Browse current antique-appraiser listings by city. Verify credentials, scope, fees, service area, and availability directly with each provider.';
 export const SITE_TWITTER_HANDLE = '@appraisily';
 export const DEFAULT_OG_IMAGE = BRAND_LOGO_URL;
 export const PARENT_SITE_URL = 'https://appraisily.com';
