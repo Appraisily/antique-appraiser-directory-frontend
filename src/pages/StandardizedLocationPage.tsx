@@ -19,6 +19,7 @@ import {
 } from '../utils/dataQuality';
 import { trackEvent } from '../utils/analytics';
 import { cities as directoryCities } from '../data/cities.json';
+import nationalServiceIntentCohort from '../data/national-service-intent-cohort.json';
 import { normalizeAssetUrl } from '../utils/assetUrls';
 
 type DirectoryCity = {
@@ -28,6 +29,12 @@ type DirectoryCity = {
   latitude?: number;
   longitude?: number;
 };
+
+type NationalServiceTarget = 'art' | 'antiques';
+
+function isNationalServiceTarget(value: string): value is NationalServiceTarget {
+  return value === 'art' || value === 'antiques';
+}
 
 function isDisplayableSpecialty(specialty: string): boolean {
   const label = specialty.trim();
@@ -1133,6 +1140,11 @@ export function StandardizedLocationPage() {
     () => directoryCities.find(city => city.slug === validCitySlug) ?? null,
     [validCitySlug]
   );
+  const nationalServiceTargets = useMemo<NationalServiceTarget[]>(() => {
+    const pagePath = `location/${validCitySlug}/index.html`;
+    const page = nationalServiceIntentCohort.pages.find(entry => entry.path === pagePath);
+    return page?.targets.filter(isNationalServiceTarget) ?? [];
+  }, [validCitySlug]);
 
   useEffect(() => {
     async function fetchData() {
@@ -1701,6 +1713,16 @@ export function StandardizedLocationPage() {
       cta_count: 4,
     });
   };
+  const handleNationalServiceBridgeClick = (target: NationalServiceTarget) => {
+    const destination = nationalServiceIntentCohort.destinations[target];
+    trackEvent('directory_service_bridge_click', {
+      placement: 'national-service-bridge',
+      destination: target,
+      destination_url: destination.href,
+      city_slug: validCitySlug,
+      city_name: citySearchName,
+    });
+  };
   const handleRelatedCityClick = (relatedCity: DirectoryCity, placement: string) => {
     trackEvent('related_city_click', {
       placement,
@@ -2191,6 +2213,46 @@ export function StandardizedLocationPage() {
               <p className="text-gray-600">No antique appraisers found in {cityName} yet. Check back soon!</p>
             )}
           </div>
+        )}
+
+        {nationalServiceTargets.length > 0 && (
+          <section
+            className="mb-8 rounded-xl border border-blue-100 bg-blue-50/70 p-6 shadow-sm"
+            data-appraisily-national-service-bridge="1"
+          >
+            <p className="text-sm font-semibold uppercase tracking-wide text-blue-700">
+              Local listings or an online service
+            </p>
+            <h2 className="mt-2 text-2xl font-semibold text-gray-900">
+              {nationalServiceTargets.length > 1
+                ? 'Choose the appraisal route that fits your item'
+                : nationalServiceTargets[0] === 'art'
+                  ? 'Need an online art appraisal?'
+                  : 'Need an online antique appraisal?'}
+            </h2>
+            <p className="mt-3 text-gray-700 leading-relaxed">
+              Use the local provider profiles above when you need an in-person specialist in {citySearchName}.
+              {' '}When an in-person visit is not required, choose the matching online service for a signed appraisal report.
+            </p>
+            <div className="mt-3 flex flex-wrap gap-3">
+              {nationalServiceTargets.map(target => {
+                const destination = nationalServiceIntentCohort.destinations[target];
+                return (
+                  <a
+                    key={target}
+                    className="font-semibold text-blue-700 underline hover:no-underline"
+                    href={destination.href}
+                    data-analytics-event="directory_service_bridge_click"
+                    data-analytics-destination={target}
+                    data-analytics-location="national-service-bridge"
+                    onClick={() => handleNationalServiceBridgeClick(target)}
+                  >
+                    {destination.label}
+                  </a>
+                );
+              })}
+            </div>
+          </section>
         )}
 
         {cityGuide && (
