@@ -7,7 +7,7 @@ import {
   DECISION_ROUTER_VARIANT,
   DecisionRouter,
 } from './components/DecisionRouter';
-import { cities } from './data/cities.json';
+import { publishedCities as cities } from './utils/standardizedData';
 import { DEFAULT_OG_IMAGE, SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from './config/site';
 import { trackEvent } from './utils/analytics';
 import heroIllustrationPrimary from '../images/hero-antique-parlor.png';

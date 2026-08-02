@@ -283,6 +283,9 @@ async function buildAppraiserIndex(): Promise<Map<string, string>> {
 
 // Export cities from cities.json
 export const cities = citiesData.cities;
+export const publishedCities = cities.filter(
+  city => Number.isFinite(city.latitude) && Number.isFinite(city.longitude)
+);
 
 function normalizeCitySlug(citySlug: string): string {
   return citySlug.toLowerCase().replace(/\s+/g, '-').replace(/\./g, '');

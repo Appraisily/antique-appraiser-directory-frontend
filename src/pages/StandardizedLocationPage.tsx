@@ -1413,7 +1413,7 @@ export function StandardizedLocationPage() {
     }
   })();
   const fallbackSeoTitle = locationData?.appraisers?.length
-    ? `${citySearchName} Antique Appraisers | Compare ${locationData.appraisers.length} Local Experts`
+    ? `${citySearchName} Antique Appraisers | Compare ${locationData.appraisers.length} ${expertLabel}`
     : `${citySearchName} Antique Appraisers | Local & Online Options`;
   const fallbackSeoDescription = locationData?.appraisers?.length
     ? `Compare ${locationData.appraisers.length} antique appraisers in ${cityName} for estate, insurance, donation, resale, and personal-property needs. Review local specialties, then choose in-person service or a faster online written appraisal.`

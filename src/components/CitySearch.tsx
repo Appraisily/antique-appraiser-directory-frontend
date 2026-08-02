@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect, useImperativeHandle, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MapPin, Locate } from 'lucide-react';
-import { cities } from '../utils/standardizedData';
+import { publishedCities as cities } from '../utils/standardizedData';
 import { trackEvent } from '../utils/analytics';
 
 export type CitySearchHandle = {
