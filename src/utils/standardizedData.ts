@@ -317,6 +317,18 @@ async function getPublishedLocationFeed(citySlug: string): Promise<PublicLocatio
   return null;
 }
 
+async function getPublishedAppraiserFeed(): Promise<PublicAppraiserEntry[]> {
+  if (typeof window === 'undefined' || typeof fetch === 'undefined') return [];
+  try {
+    const response = await fetch('/appraisers.json', { headers: { Accept: 'application/json' } });
+    if (!response.ok) return [];
+    const feed = await response.json() as { appraisers?: PublicAppraiserEntry[] };
+    return Array.isArray(feed.appraisers) ? feed.appraisers : [];
+  } catch {
+    return [];
+  }
+}
+
 function publishedEntryToStandardizedAppraiser(
   entry: PublicLocationAppraiser,
   sourceAppraisers: StandardizedAppraiser[]
@@ -364,15 +376,24 @@ export function getStandardizedLocation(citySlug: string): Promise<StandardizedL
 export async function getPublishedStandardizedLocation(citySlug: string): Promise<StandardizedLocation | null> {
   if (!citySlug) return null;
   const normalizedSlug = normalizeCitySlug(citySlug);
-  const [publishedFeed, sourceLocation] = await Promise.all([
+  const [publishedFeed, sourceLocation, publishedAppraisers] = await Promise.all([
     getPublishedLocationFeed(normalizedSlug),
-    getStandardizedLocation(normalizedSlug),
+    locationLoaders[normalizedSlug] ? getStandardizedLocation(normalizedSlug) : Promise.resolve(null),
+    getPublishedAppraiserFeed(),
   ]);
 
   if (!publishedFeed?.location) return sourceLocation;
   const sourceAppraisers = sourceLocation?.appraisers || [];
   const appraisers = (publishedFeed.location.listedAppraisers || [])
-    .map(entry => publishedEntryToStandardizedAppraiser(entry, sourceAppraisers))
+    .map(entry => {
+      const sourceAppraiser = publishedEntryToStandardizedAppraiser(entry, sourceAppraisers);
+      if (sourceAppraiser) return sourceAppraiser;
+      const slug = entry.slug || getSlugFromProfileUrl(entry.url);
+      const publishedAppraiser = publishedAppraisers.find(item =>
+        item.slug === slug || getSlugFromProfileUrl(item.url) === slug
+      );
+      return publishedAppraiser ? publishedEntryToSafeAppraiser(publishedAppraiser) : null;
+    })
     .filter((appraiser): appraiser is StandardizedAppraiser => Boolean(appraiser));
   return { appraisers };
 }
@@ -471,15 +492,9 @@ function publishedEntryToSafeAppraiser(entry: PublicAppraiserEntry): Standardize
 
 export async function getPublishedStandardizedAppraiser(appraiserId: string): Promise<StandardizedAppraiser | null> {
   if (!appraiserId || typeof window === 'undefined' || typeof fetch === 'undefined') return null;
-  try {
-    const response = await fetch('/appraisers.json', { headers: { Accept: 'application/json' } });
-    if (!response.ok) return null;
-    const feed = await response.json() as { appraisers?: PublicAppraiserEntry[] };
-    const entry = feed.appraisers?.find(item => item.slug === appraiserId || getSlugFromProfileUrl(item.url) === appraiserId);
-    return entry ? publishedEntryToSafeAppraiser(entry) : null;
-  } catch {
-    return null;
-  }
+  const appraisers = await getPublishedAppraiserFeed();
+  const entry = appraisers.find(item => item.slug === appraiserId || getSlugFromProfileUrl(item.url) === appraiserId);
+  return entry ? publishedEntryToSafeAppraiser(entry) : null;
 }
 
 /**
