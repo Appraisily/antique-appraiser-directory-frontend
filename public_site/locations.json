@@ -2,8 +2,8 @@
   "title": "Antique Appraiser Directory location pages",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-26T18:52:18.543Z",
-  "count": 86,
+  "generatedAt": "2026-07-29T08:46:01.353Z",
+  "count": 76,
   "locations": [
     {
       "slug": "albuquerque",
@@ -23,17 +23,26 @@
     {
       "slug": "anchorage",
       "url": "https://antique-appraiser-directory.appraisily.com/location/anchorage/",
-      "name": "Antique & Art Appraisers in Anchorage, Alaska",
-      "description": "Compare antique and art appraisers in Anchorage, Alaska and request a fast online appraisal from Appraisily.",
+      "name": "Source-listed appraisal records grouped with Anchorage, Alaska",
+      "description": "Review a source-labeled appraisal record grouped with Anchorage and confirm location, assignment fit, and report requirements directly.",
       "city": "Anchorage",
       "region": "AK",
       "country": "US",
-      "numberOfListedAppraisers": 0,
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "The Peterson Exchange - Auctions & Appraisals LLC",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/the-peterson-exchange-auctions-and-appraisals-llc/",
+          "slug": "the-peterson-exchange-auctions-and-appraisals-llc",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/the-peterson-exchange-auctions-and-appraisals-llc.svg?v=20260728-limited-trust",
+          "description": "The Peterson Exchange - Auctions & Appraisals LLC has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/anchorage/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "arlington",
@@ -84,7 +93,7 @@
       "slug": "austin",
       "url": "https://antique-appraiser-directory.appraisily.com/location/austin/",
       "name": "Antique & Art Appraisers in Austin, Texas",
-      "description": "Compare antique and art appraisers in Austin, Texas and request a fast online appraisal from Appraisily.",
+      "description": "Compare source-labeled directory profiles for Austin and request an online appraisal from Appraisily.",
       "city": "Austin",
       "region": "TX",
       "country": "US",
@@ -94,8 +103,8 @@
           "name": "All Estate Sales & Auction Company",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/modern-history-society-art-and-antique-appraisal/",
           "slug": "modern-history-society-art-and-antique-appraisal",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/modern-history-society-art-and-antique-appraisal.svg",
-          "description": "All Estate Sales & Auction Company has a limited directory listing for Austin, TX. Confirm current details directly with the business.",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/modern-history-society-art-and-antique-appraisal.svg?v=20260728-limited-trust",
+          "description": "All Estate Sales & Auction Company has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         },
         {
@@ -103,7 +112,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/national-jewelry-appraisers/",
           "slug": "national-jewelry-appraisers",
           "image": "https://irp.cdn-website.com/163cf539/dms3rep/multi/logo.png",
-          "description": "National Jewelry Appraisers has a limited directory listing for Austin, TX. Confirm current details directly with the business.",
+          "description": "National Jewelry Appraisers has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -127,7 +136,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mayflower-estate-buyers/",
           "slug": "mayflower-estate-buyers",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_baltimore-mayflower-estate-buyers_1742170042112_gyyXJTuM9.jpg",
-          "description": "Mayflower Estate Buyers has a limited directory listing for Towson, MD. Confirm current details directly with the business.",
+          "description": "Mayflower Estate Buyers has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -211,7 +220,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/brian-lehman-evaluations/",
           "slug": "brian-lehman-evaluations",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_calgary-brian-lehman-evaluations_1742170114453_V0NqKnEkf.jpg",
-          "description": "Brian Lehman Evaluations Estate & Antique Appraisal in Calgary has a limited directory listing for Calgary, AB. Confirm current details directly with the business.",
+          "description": "Brian Lehman Evaluations Estate & Antique Appraisal in Calgary has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -236,21 +245,6 @@
       "listedAppraisers": []
     },
     {
-      "slug": "charlottetown",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/charlottetown/",
-      "name": "Antique & Art Appraisers in Charlottetown, Prince Edward Island",
-      "description": "Compare antique and art appraisers in Charlottetown, Prince Edward Island and request a fast online appraisal from Appraisily.",
-      "city": "Charlottetown",
-      "region": "PE",
-      "country": "CA",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/charlottetown/"
-      },
-      "listedAppraisers": []
-    },
-    {
       "slug": "chicago",
       "url": "https://antique-appraiser-directory.appraisily.com/location/chicago/",
       "name": "Antique & Art Appraisers in Chicago, Illinois",
@@ -264,8 +258,8 @@
           "name": "Adams Appraisal LLC",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/adams-appraisal-llc/",
           "slug": "adams-appraisal-llc",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_chicago-adams-appraisal-llc_1742079326595_NI13K4cjC.jpg",
-          "description": "Adams Appraisal LLC has a limited directory listing for Chicago, IL. Confirm current details directly with the business.",
+          "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+          "description": "Adams Appraisal LLC has a verified directory profile for Chicago, Illinois. Review source-backed specialties, assignment uses, preparation guidance, and the source log.",
           "publicRouteAvailable": true
         }
       ],
@@ -289,7 +283,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/caza-sikes/",
           "slug": "caza-sikes",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_cincinnati-caza-sikes_1742201172594_Il_h4RArb.jpg",
-          "description": "Caza Sikes has a limited directory listing for Cincinnati, OH. Confirm current details directly with the business.",
+          "description": "Caza Sikes has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -297,21 +291,6 @@
         "type": "public_site_html_json_ld",
         "route": "/location/cincinnati/"
       }
-    },
-    {
-      "slug": "cleveland",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/cleveland/",
-      "name": "Antique & Art Appraisers in Cleveland, Ohio",
-      "description": "Compare antique and art appraisers in Cleveland, Ohio and request an online appraisal from Appraisily.",
-      "city": "Cleveland",
-      "region": "OH",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/cleveland/"
-      },
-      "listedAppraisers": []
     },
     {
       "slug": "colorado-springs",
@@ -346,29 +325,26 @@
     {
       "slug": "denver",
       "url": "https://antique-appraiser-directory.appraisily.com/location/denver/",
-      "name": "Denver Antique Appraisers & Art Appraisal | Online Signed Reports",
-      "description": "Compare Denver antique appraisers and Denver art appraisal options for estate, insurance, and donation needs. Get a signed online report from photos.",
-      "numberOfListedAppraisers": 0,
+      "name": "Source-listed appraisal records grouped with Denver, Colorado",
+      "description": "Review a source-labeled appraisal record grouped with Denver and confirm location, assignment fit, and report requirements directly.",
+      "city": "Denver",
+      "region": "CO",
+      "country": "US",
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "Art of Estates - Denver Personal Property Appraisal Firm",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/denver-art-of-estates-personal-property-appraisal-firm/",
+          "slug": "denver-art-of-estates-personal-property-appraisal-firm",
+          "image": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+          "description": "Art of Estates - Denver Personal Property Appraisal Firm has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/denver/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "des-moines",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/des-moines/",
-      "name": "Antique & Art Appraisers in Des Moines, Iowa",
-      "description": "Compare antique and art appraisers in Des Moines, Iowa and request an online appraisal from Appraisily.",
-      "city": "Des Moines",
-      "region": "IA",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/des-moines/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "edmonton",
@@ -404,7 +380,7 @@
       "slug": "fort-lauderdale",
       "url": "https://antique-appraiser-directory.appraisily.com/location/fort-lauderdale/",
       "name": "Antique & Art Appraisers in Fort Lauderdale, Florida",
-      "description": "Compare antique and art appraisers in Fort Lauderdale, Florida and request a fast online appraisal from Appraisily.",
+      "description": "Review source-labeled directory records associated with Fort Lauderdale and verify current local coverage before engagement.",
       "city": "Fort Lauderdale",
       "region": "FL",
       "country": "US",
@@ -414,8 +390,8 @@
           "name": "Moecker Auctions Inc.",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/moecker-auctions-inc/",
           "slug": "moecker-auctions-inc",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/moecker-auctions-inc.svg",
-          "description": "Moecker Auctions Inc. has a limited directory listing for Fort Lauderdale, FL. Confirm current details directly with the business.",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/moecker-auctions-inc.svg?v=20260728-limited-trust",
+          "description": "Moecker Auctions Inc. has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -432,12 +408,21 @@
       "city": "Fort Worth",
       "region": "TX",
       "country": "US",
-      "numberOfListedAppraisers": 0,
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "Fort Worth Coin Company, Inc.",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/fort-worth-coin-company-inc/",
+          "slug": "fort-worth-coin-company-inc",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/fort-worth-coin-company-inc.svg?v=20260728-limited-trust",
+          "description": "Fort Worth Coin Company, Inc. has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/fort-worth/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "fredericton",
@@ -458,7 +443,7 @@
       "slug": "halifax",
       "url": "https://antique-appraiser-directory.appraisily.com/location/halifax/",
       "name": "Antique & Art Appraisers in Halifax, Nova Scotia",
-      "description": "Compare antique and art appraisers in Halifax, Nova Scotia and request a fast online appraisal from Appraisily.",
+      "description": "Review source-labeled directory records associated with Halifax and verify current local coverage before engagement.",
       "city": "Halifax",
       "region": "NS",
       "country": "CA",
@@ -469,7 +454,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/dorothe-rosen-designer-goldsmith/",
           "slug": "dorothe-rosen-designer-goldsmith",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_halifax-dorothe-rosen-designer-goldsmith_1742201604309_VmairVJ8G.jpg",
-          "description": "Dorothée Rosen Designer Goldsmith has a limited directory listing for Halifax, NS. Confirm current details directly with the business.",
+          "description": "Dorothée Rosen Designer Goldsmith has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -508,7 +493,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/aloha-estate-jewelry/",
           "slug": "aloha-estate-jewelry",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_honolulu-aloha-estate-jewelry_1742202558491_RrqKnjek2.jpg",
-          "description": "Aloha Estate Jewelry has a limited directory listing for Honolulu, HI. Confirm current details directly with the business.",
+          "description": "Aloha Estate Jewelry has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -521,7 +506,7 @@
       "slug": "jacksonville",
       "url": "https://antique-appraiser-directory.appraisily.com/location/jacksonville/",
       "name": "Antique & Art Appraisers in Jacksonville, Florida",
-      "description": "Compare antique and art appraisers in Jacksonville, Florida and request a fast online appraisal from Appraisily.",
+      "description": "Compare source-labeled directory records associated with Jacksonville and verify current local coverage before engagement.",
       "city": "Jacksonville",
       "region": "FL",
       "country": "US",
@@ -531,8 +516,8 @@
           "name": "Mussallem Galleries",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mussallem-antiques/",
           "slug": "mussallem-antiques",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mussallem-antiques.svg",
-          "description": "Mussallem Galleries has a limited directory listing for Jacksonville, FL. Confirm current details directly with the business.",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mussallem-antiques.svg?v=20260728-limited-trust",
+          "description": "Mussallem Galleries has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -542,36 +527,21 @@
       }
     },
     {
-      "slug": "kansas-city",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/kansas-city/",
-      "name": "Antique & Art Appraisers in Kansas City, Missouri",
-      "description": "Compare antique and art appraisers in Kansas City, Missouri and request an online appraisal from Appraisily.",
-      "city": "Kansas City",
-      "region": "MO",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/kansas-city/"
-      },
-      "listedAppraisers": []
-    },
-    {
       "slug": "kelowna",
       "url": "https://antique-appraiser-directory.appraisily.com/location/kelowna/",
       "name": "Antique & Art Appraisers in Kelowna, British Columbia",
-      "description": "Compare antique and art appraisers in Kelowna, British Columbia and request a fast online appraisal from Appraisily.",
+      "description": "Compare source-labeled directory records associated with Kelowna and verify current local coverage before engagement.",
       "city": "Kelowna",
       "region": "BC",
       "country": "CA",
       "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
-          "name": "Artista Antiques",
+          "name": "Artista Art & Antiques",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/artista-art-antiquits/",
           "slug": "artista-art-antiquits",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_kelowna-artista-art-antiquits_1742202681121_xFRJefl1Q.jpg",
-          "description": "Artista Art & Antiques has a limited directory listing for Kelowna, BC. Confirm current details directly with the business.",
+          "description": "Artista Art & Antiques has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -655,7 +625,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/antiques-on-magnolia/",
           "slug": "antiques-on-magnolia",
           "image": "https://static.wixstatic.com/media/c95a4a_e7ba256e6eb940e8a01d151ec59454e7%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/c95a4a_e7ba256e6eb940e8a01d151ec59454e7%7Emv2.png",
-          "description": "Antiques On Magnolia has a limited directory listing for Los Angeles, CA. Confirm current details directly with the business.",
+          "description": "Antiques On Magnolia has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -695,21 +665,6 @@
       "listedAppraisers": []
     },
     {
-      "slug": "miami",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/miami/",
-      "name": "Antique & Art Appraisers in Miami, Florida",
-      "description": "Compare antique and art appraisers in Miami, Florida and request a fast online appraisal from Appraisily.",
-      "city": "Miami",
-      "region": "FL",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/miami/"
-      },
-      "listedAppraisers": []
-    },
-    {
       "slug": "milwaukee",
       "url": "https://antique-appraiser-directory.appraisily.com/location/milwaukee/",
       "name": "Antique & Art Appraisers in Milwaukee, Wisconsin",
@@ -723,8 +678,8 @@
           "name": "Cedarburg Auction & Appraisals LLC",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/cedarburg-auction-appraisals-llc/",
           "slug": "cedarburg-auction-appraisals-llc",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_milwaukee-cedarburg-auction-appraisals-llc_1742202773948_e95lPwg3L.jpg",
-          "description": "Cedarburg Auction & Appraisals LLC has a limited directory listing for Brown Deer, WI. Confirm current details directly with the business.",
+          "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+          "description": "Cedarburg Auction & Appraisals LLC has a limited source-listed directory profile. Identity and the reviewed source were checked July 29, 2026; all other details are not verified and should be confirmed directly.",
           "publicRouteAvailable": true
         }
       ],
@@ -749,21 +704,6 @@
       "listedAppraisers": []
     },
     {
-      "slug": "moncton",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/moncton/",
-      "name": "Antique & Art Appraisers in Moncton, New Brunswick",
-      "description": "Compare antique and art appraisers in Moncton, New Brunswick and request an online appraisal from Appraisily.",
-      "city": "Moncton",
-      "region": "NB",
-      "country": "CA",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/moncton/"
-      },
-      "listedAppraisers": []
-    },
-    {
       "slug": "montreal",
       "url": "https://antique-appraiser-directory.appraisily.com/location/montreal/",
       "name": "Antique & Art Appraisers in Montreal, Quebec",
@@ -781,17 +721,26 @@
     {
       "slug": "nashville",
       "url": "https://antique-appraiser-directory.appraisily.com/location/nashville/",
-      "name": "Antique & Art Appraisers in Nashville, Tennessee",
-      "description": "Compare antique and art appraisers in Nashville, Tennessee and request a fast online appraisal from Appraisily.",
+      "name": "Source-listed appraisal records grouped with Nashville, Tennessee",
+      "description": "Review source-labeled appraisal records grouped with Nashville and confirm location, assignment fit, and report requirements directly.",
       "city": "Nashville",
       "region": "TN",
       "country": "US",
-      "numberOfListedAppraisers": 0,
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "Chris James Co. jewelry appraisal in Nashville, TN",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/chris-james-jewelry-appraisals/",
+          "slug": "chris-james-jewelry-appraisals",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/chris-james-jewelry-appraisals.svg?v=20260728-limited-trust",
+          "description": "Chris James Co. jewelry appraisal in Nashville, TN has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/nashville/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "new-orleans",
@@ -820,7 +769,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/showplace-nyc-fine-art-buyer/",
           "slug": "showplace-nyc-fine-art-buyer",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_showplace-nyc-fine-art-buyer-8317_1742166286046_igSzNR8CE.jpg",
-          "description": "Showplace NYC Fine Art Buyer has a limited directory listing for New York, NY. Confirm current details directly with the business.",
+          "description": "Showplace NYC Fine Art Buyer has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -848,7 +797,7 @@
       "slug": "oakland",
       "url": "https://antique-appraiser-directory.appraisily.com/location/oakland/",
       "name": "Antique & Art Appraisers in Oakland, California",
-      "description": "Compare antique and art appraisers in Oakland, California and request a fast online appraisal from Appraisily.",
+      "description": "Compare source-labeled directory profiles for Oakland and request an online appraisal from Appraisily.",
       "city": "Oakland",
       "region": "CA",
       "country": "US",
@@ -858,16 +807,16 @@
           "name": "Montclair Estates",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/montclair-estates-antique-consignment-and-appraiser/",
           "slug": "montclair-estates-antique-consignment-and-appraiser",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/montclair-estates-antique-consignment-and-appraiser.svg",
-          "description": "Montclair Estates has a limited directory listing for Oakland, CA. Confirm current details directly with the business.",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/montclair-estates-antique-consignment-and-appraiser.svg?v=20260728-limited-trust",
+          "description": "Montclair Estates has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         },
         {
-          "name": "Gurr Johns",
+          "name": "Clars Auction Gallery",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/clars-auction-gallery/",
           "slug": "clars-auction-gallery",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_oakland-clars-auction-gallery_1742202839449_GkygjFg5F.jpg",
-          "description": "Clars Auction Gallery has a limited directory listing for Oakland, CA. Confirm current details directly with the business.",
+          "description": "Clars Auction Gallery has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -905,8 +854,8 @@
           "name": "Pridham's Auctions & Appraisals",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/pridhams-auctions-appraisals/",
           "slug": "pridhams-auctions-appraisals",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/pridhams-auctions-appraisals.svg",
-          "description": "Pridham's Auctions & Appraisals has a limited directory listing for Ottawa, ON. Confirm current details directly with the business.",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/pridhams-auctions-appraisals.svg?v=20260728-limited-trust",
+          "description": "Pridham's Auctions & Appraisals has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -918,17 +867,34 @@
     {
       "slug": "palm-beach",
       "url": "https://antique-appraiser-directory.appraisily.com/location/palm-beach/",
-      "name": "Antique & Art Appraisers in Palm Beach, Florida",
-      "description": "Compare antique and art appraisers in Palm Beach, Florida and request a fast online appraisal from Appraisily.",
+      "name": "Source-listed appraisal records grouped with Palm Beach, Florida",
+      "description": "Review source-labeled appraisal records grouped with Palm Beach and confirm location, assignment fit, and report requirements directly.",
       "city": "Palm Beach",
       "region": "FL",
       "country": "US",
-      "numberOfListedAppraisers": 0,
+      "numberOfListedAppraisers": 2,
+      "listedAppraisers": [
+        {
+          "name": "Palm Beach Appraisal Group",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/palm-beach-appraisal-group/",
+          "slug": "palm-beach-appraisal-group",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/palm-beach-appraisal-group.svg?v=20260728-limited-trust",
+          "description": "Palm Beach Appraisal Group has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+          "publicRouteAvailable": true
+        },
+        {
+          "name": "ValuePros",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/valuepros/",
+          "slug": "valuepros",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros.svg?v=20260728-limited-trust",
+          "description": "ValuePros has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/palm-beach/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "philadelphia",
@@ -944,8 +910,8 @@
           "name": "McCarty Antiques",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mccarty-antiques/",
           "slug": "mccarty-antiques",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mccarty-antiques.svg",
-          "description": "McCarty Antiques has a limited directory listing for Philadelphia, PA. Confirm current details directly with the business.",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mccarty-antiques.svg?v=20260728-limited-trust",
+          "description": "McCarty Antiques has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -973,7 +939,7 @@
       "slug": "pittsburgh",
       "url": "https://antique-appraiser-directory.appraisily.com/location/pittsburgh/",
       "name": "Antique & Art Appraisers in Pittsburgh, Pennsylvania",
-      "description": "Compare antique and art appraisers in Pittsburgh, Pennsylvania and request a fast online appraisal from Appraisily.",
+      "description": "Compare source-labeled directory records associated with Pittsburgh and verify current local coverage before engagement.",
       "city": "Pittsburgh",
       "region": "PA",
       "country": "US",
@@ -984,7 +950,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/concept-art-gallery/",
           "slug": "concept-art-gallery",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_pittsburgh-concept-art-gallery_1742203034158_MJihWQA1c.jpg",
-          "description": "Concept Art Gallery has a limited directory listing for Pittsburgh, PA. Confirm current details directly with the business.",
+          "description": "Concept Art Gallery has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -996,17 +962,26 @@
     {
       "slug": "portland",
       "url": "https://antique-appraiser-directory.appraisily.com/location/portland/",
-      "name": "Antique & Art Appraisers in Portland, Oregon",
-      "description": "Compare antique and art appraisers in Portland, Oregon and request an online appraisal from Appraisily.",
+      "name": "Source-listed appraisal records grouped with Portland, Oregon",
+      "description": "Review source-labeled appraisal records grouped with Portland and confirm location, assignment fit, and report requirements directly.",
       "city": "Portland",
       "region": "OR",
       "country": "US",
-      "numberOfListedAppraisers": 0,
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "Jewelry Appraisers of Portland",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/the-jewelry-appraisers-of-portland/",
+          "slug": "the-jewelry-appraisers-of-portland",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/the-jewelry-appraisers-of-portland.svg?v=20260728-limited-trust",
+          "description": "Jewelry Appraisers of Portland has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/portland/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "providence",
@@ -1121,12 +1096,21 @@
       "city": "San Antonio",
       "region": "TX",
       "country": "US",
-      "numberOfListedAppraisers": 0,
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "San Antonio Jewelry Appraisers",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/san-antonio-jewelry-appraisers-offers-world-class-gemological-services-and-support/",
+          "slug": "san-antonio-jewelry-appraisers-offers-world-class-gemological-services-and-support",
+          "image": "https://www.sanantoniojewelryappraisers.com/safavicon.ico",
+          "description": "San Antonio Jewelry Appraisers has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/san-antonio/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "san-francisco",
@@ -1147,7 +1131,7 @@
       "slug": "san-jose",
       "url": "https://antique-appraiser-directory.appraisily.com/location/san-jose/",
       "name": "Antique & Art Appraisers in San Jose, California",
-      "description": "Compare antique and art appraisers in San Jose, California and request a fast online appraisal from Appraisily.",
+      "description": "Compare source-labeled directory records associated with San Jose and verify current local coverage before engagement.",
       "city": "San Jose",
       "region": "CA",
       "country": "US",
@@ -1158,7 +1142,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/clars-auctions/",
           "slug": "clars-auctions",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san_jose-clars-auctions_1742203169304_0sN14V4tk.jpg",
-          "description": "Clars Auctions has a limited directory listing for Oakland, CA. Confirm current details directly with the business.",
+          "description": "Clars Auctions has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -1170,32 +1154,26 @@
     {
       "slug": "santa-fe",
       "url": "https://antique-appraiser-directory.appraisily.com/location/santa-fe/",
-      "name": "Antique & Art Appraisers in Santa Fe, New Mexico",
-      "description": "Compare antique and art appraisers in Santa Fe, New Mexico and request a fast online appraisal from Appraisily.",
+      "name": "Source-listed appraisal records grouped with Santa Fe, New Mexico",
+      "description": "Review a source-labeled appraisal record grouped with Santa Fe and confirm location, assignment fit, and report requirements directly.",
       "city": "Santa Fe",
       "region": "NM",
       "country": "US",
-      "numberOfListedAppraisers": 0,
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "Art Appraisals of Santa Fe",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/art-appraisals-of-santa-fe/",
+          "slug": "art-appraisals-of-santa-fe",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/art-appraisals-of-santa-fe.svg?v=20260728-limited-trust",
+          "description": "Art Appraisals of Santa Fe has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/santa-fe/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "saskatoon",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/saskatoon/",
-      "name": "Antique & Art Appraisers in Saskatoon, Saskatchewan",
-      "description": "Compare antique and art appraisers in Saskatoon, Saskatchewan and request an online appraisal from Appraisily.",
-      "city": "Saskatoon",
-      "region": "SK",
-      "country": "CA",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/saskatoon/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "savannah",
@@ -1226,8 +1204,8 @@
           "name": "Mr. Johnson's Antiques",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/mr-johnson-s-antiques/",
           "slug": "mr-johnson-s-antiques",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mr-johnson-s-antiques.svg",
-          "description": "Mr. Johnson's Antiques has a limited directory listing for Seattle, WA. Confirm current details directly with the business.",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/mr-johnson-s-antiques.svg?v=20260728-limited-trust",
+          "description": "Mr. Johnson's Antiques has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -1282,34 +1260,28 @@
       "listedAppraisers": []
     },
     {
-      "slug": "sudbury",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/sudbury/",
-      "name": "Antique & Art Appraisers in Sudbury, Ontario",
-      "description": "Compare antique and art appraisers in Sudbury, Ontario and request an online appraisal from Appraisily.",
-      "city": "Sudbury",
-      "region": "ON",
-      "country": "CA",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/sudbury/"
-      },
-      "listedAppraisers": []
-    },
-    {
       "slug": "tampa",
       "url": "https://antique-appraiser-directory.appraisily.com/location/tampa/",
-      "name": "Antique & Art Appraisers in Tampa, Florida",
-      "description": "Compare antique and art appraisers in Tampa, Florida and request a fast online appraisal from Appraisily.",
+      "name": "Source-listed appraisal records grouped with Tampa, Florida",
+      "description": "Review source-labeled appraisal records grouped with Tampa and confirm location, assignment fit, and report requirements directly.",
       "city": "Tampa",
       "region": "FL",
       "country": "US",
-      "numberOfListedAppraisers": 0,
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "Brad Peele Estate Sales & Appraiser in Tampa Bay",
+          "url": "https://antique-appraiser-directory.appraisily.com/appraiser/brad-peele-estate-sales-and-appraiser-buyer-of-collectibles-vintage-buyer-antique-and-coll/",
+          "slug": "brad-peele-estate-sales-and-appraiser-buyer-of-collectibles-vintage-buyer-antique-and-coll",
+          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/brad-peele-estate-sales-and-appraiser-buyer-of-collectibles-vintage-buyer-antique-and-coll.svg?v=20260728-limited-trust",
+          "description": "Brad Peele Estate Sales & Appraiser in Tampa Bay has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/tampa/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "thunder-bay",
@@ -1323,21 +1295,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/thunder-bay/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "toledo",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/toledo/",
-      "name": "Antique & Art Appraisers in Toledo, Ohio",
-      "description": "Compare antique and art appraisers in Toledo, Ohio and request an online appraisal from Appraisily.",
-      "city": "Toledo",
-      "region": "OH",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/toledo/"
       },
       "listedAppraisers": []
     },
@@ -1420,18 +1377,18 @@
       "slug": "virginia-beach",
       "url": "https://antique-appraiser-directory.appraisily.com/location/virginia-beach/",
       "name": "Antique & Art Appraisers in Virginia Beach, Virginia",
-      "description": "Compare antique and art appraisers in Virginia Beach, Virginia and request an online appraisal from Appraisily.",
+      "description": "Compare source-labeled directory records associated with Virginia Beach and verify current local coverage before engagement.",
       "city": "Virginia Beach",
       "region": "VA",
       "country": "US",
       "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
-          "name": "*Barrett Street Auction Center & Antique Mall",
+          "name": "Barrett Street Auction Center & Antique Mall",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/barrett-street-auction-center-antique-mall/",
           "slug": "barrett-street-auction-center-antique-mall",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_virginia_beach-barrett-street-auction-center-antique-mall_1742203480967_ikfZtPSqw.jpg",
-          "description": "Barrett Street Auction Center & Antique Mall has a limited directory listing for Virginia Beach, VA. Confirm current details directly with the business.",
+          "description": "Barrett Street Auction Center & Antique Mall has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
           "publicRouteAvailable": true
         }
       ],
@@ -1454,8 +1411,8 @@
           "name": "Washingtonian Appraisals",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/washingtonian-appraisals/",
           "slug": "washingtonian-appraisals",
-          "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/washingtonian-appraisals.svg",
-          "description": "Washingtonian Appraisals has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
+          "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+          "description": "Washingtonian Appraisals has a limited source-listed directory profile. Identity and the reviewed source were checked July 29, 2026; all other details are not verified and should be confirmed directly.",
           "publicRouteAvailable": true
         }
       ],
@@ -1465,25 +1422,10 @@
       }
     },
     {
-      "slug": "whitehorse",
-      "url": "https://antique-appraiser-directory.appraisily.com/location/whitehorse/",
-      "name": "Antique & Art Appraisers in Whitehorse, Yukon",
-      "description": "Compare antique and art appraisers in Whitehorse, Yukon and request a fast online appraisal from Appraisily.",
-      "city": "Whitehorse",
-      "region": "YT",
-      "country": "CA",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/whitehorse/"
-      },
-      "listedAppraisers": []
-    },
-    {
       "slug": "wichita",
       "url": "https://antique-appraiser-directory.appraisily.com/location/wichita/",
-      "name": "Antique & Art Appraisers in Wichita, Kansas",
-      "description": "Compare antique and art appraisers in Wichita, Kansas and request a fast online appraisal from Appraisily.",
+      "name": "Source-listed appraisal provider associated with Wichita research",
+      "description": "Review one source-listed provider associated with Wichita research and compare local inspection with online appraisal options.",
       "city": "Wichita",
       "region": "KS",
       "country": "US",
@@ -1494,7 +1436,7 @@
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/art-of-estates/",
           "slug": "art-of-estates",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_wichita-art-of-estates_1742201713740_uumpg9oGB.jpg",
-          "description": "Art of Estates has a limited directory listing for Wichita, KS. Confirm current details directly with the business.",
+          "description": "Art of Estates has a limited source-listed profile. Its business identity and official website were checked July 11, 2026; confirm all other details directly.",
           "publicRouteAvailable": true
         }
       ],

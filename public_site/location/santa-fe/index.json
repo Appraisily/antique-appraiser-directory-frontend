@@ -1,21 +1,30 @@
 {
-  "title": "Antique & Art Appraisers in Santa Fe, New Mexico",
+  "title": "Source-listed appraisal records grouped with Santa Fe, New Mexico",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-26T18:52:18.543Z",
+  "generatedAt": "2026-07-29T08:46:01.353Z",
   "location": {
     "slug": "santa-fe",
     "url": "https://antique-appraiser-directory.appraisily.com/location/santa-fe/",
-    "name": "Antique & Art Appraisers in Santa Fe, New Mexico",
-    "description": "Compare antique and art appraisers in Santa Fe, New Mexico and request a fast online appraisal from Appraisily.",
+    "name": "Source-listed appraisal records grouped with Santa Fe, New Mexico",
+    "description": "Review a source-labeled appraisal record grouped with Santa Fe and confirm location, assignment fit, and report requirements directly.",
     "city": "Santa Fe",
     "region": "NM",
     "country": "US",
-    "numberOfListedAppraisers": 0,
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Art Appraisals of Santa Fe",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/art-appraisals-of-santa-fe/",
+        "slug": "art-appraisals-of-santa-fe",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/art-appraisals-of-santa-fe.svg?v=20260728-limited-trust",
+        "description": "Art Appraisals of Santa Fe has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+        "publicRouteAvailable": true
+      }
+    ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/santa-fe/"
-    },
-    "listedAppraisers": []
+    }
   }
 }

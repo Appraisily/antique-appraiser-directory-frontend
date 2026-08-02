@@ -1,21 +1,30 @@
 {
-  "title": "Antique & Art Appraisers in Nashville, Tennessee",
+  "title": "Source-listed appraisal records grouped with Nashville, Tennessee",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-26T18:52:18.543Z",
+  "generatedAt": "2026-07-29T08:46:01.353Z",
   "location": {
     "slug": "nashville",
     "url": "https://antique-appraiser-directory.appraisily.com/location/nashville/",
-    "name": "Antique & Art Appraisers in Nashville, Tennessee",
-    "description": "Compare antique and art appraisers in Nashville, Tennessee and request a fast online appraisal from Appraisily.",
+    "name": "Source-listed appraisal records grouped with Nashville, Tennessee",
+    "description": "Review source-labeled appraisal records grouped with Nashville and confirm location, assignment fit, and report requirements directly.",
     "city": "Nashville",
     "region": "TN",
     "country": "US",
-    "numberOfListedAppraisers": 0,
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Chris James Co. jewelry appraisal in Nashville, TN",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/chris-james-jewelry-appraisals/",
+        "slug": "chris-james-jewelry-appraisals",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/chris-james-jewelry-appraisals.svg?v=20260728-limited-trust",
+        "description": "Chris James Co. jewelry appraisal in Nashville, TN has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+        "publicRouteAvailable": true
+      }
+    ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/nashville/"
-    },
-    "listedAppraisers": []
+    }
   }
 }

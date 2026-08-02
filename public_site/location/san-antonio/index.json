@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in San Antonio, Texas",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-26T18:52:18.543Z",
+  "generatedAt": "2026-07-29T08:46:01.353Z",
   "location": {
     "slug": "san-antonio",
     "url": "https://antique-appraiser-directory.appraisily.com/location/san-antonio/",
@@ -11,11 +11,20 @@
     "city": "San Antonio",
     "region": "TX",
     "country": "US",
-    "numberOfListedAppraisers": 0,
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "San Antonio Jewelry Appraisers",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/san-antonio-jewelry-appraisers-offers-world-class-gemological-services-and-support/",
+        "slug": "san-antonio-jewelry-appraisers-offers-world-class-gemological-services-and-support",
+        "image": "https://www.sanantoniojewelryappraisers.com/safavicon.ico",
+        "description": "San Antonio Jewelry Appraisers has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+        "publicRouteAvailable": true
+      }
+    ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/san-antonio/"
-    },
-    "listedAppraisers": []
+    }
   }
 }

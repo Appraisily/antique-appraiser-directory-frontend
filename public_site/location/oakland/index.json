@@ -2,12 +2,12 @@
   "title": "Antique & Art Appraisers in Oakland, California",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-26T18:52:18.543Z",
+  "generatedAt": "2026-07-29T08:46:01.353Z",
   "location": {
     "slug": "oakland",
     "url": "https://antique-appraiser-directory.appraisily.com/location/oakland/",
     "name": "Antique & Art Appraisers in Oakland, California",
-    "description": "Compare antique and art appraisers in Oakland, California and request a fast online appraisal from Appraisily.",
+    "description": "Compare source-labeled directory profiles for Oakland and request an online appraisal from Appraisily.",
     "city": "Oakland",
     "region": "CA",
     "country": "US",
@@ -17,16 +17,16 @@
         "name": "Montclair Estates",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/montclair-estates-antique-consignment-and-appraiser/",
         "slug": "montclair-estates-antique-consignment-and-appraiser",
-        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/montclair-estates-antique-consignment-and-appraiser.svg",
-        "description": "Montclair Estates has a limited directory listing for Oakland, CA. Confirm current details directly with the business.",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/montclair-estates-antique-consignment-and-appraiser.svg?v=20260728-limited-trust",
+        "description": "Montclair Estates has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
         "publicRouteAvailable": true
       },
       {
-        "name": "Gurr Johns",
+        "name": "Clars Auction Gallery",
         "url": "https://antique-appraiser-directory.appraisily.com/appraiser/clars-auction-gallery/",
         "slug": "clars-auction-gallery",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_oakland-clars-auction-gallery_1742202839449_GkygjFg5F.jpg",
-        "description": "Clars Auction Gallery has a limited directory listing for Oakland, CA. Confirm current details directly with the business.",
+        "description": "Clars Auction Gallery has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
         "publicRouteAvailable": true
       }
     ],

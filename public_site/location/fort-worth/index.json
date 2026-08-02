@@ -2,7 +2,7 @@
   "title": "Antique & Art Appraisers in Fort Worth, Texas",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-26T18:52:18.543Z",
+  "generatedAt": "2026-07-29T08:46:01.353Z",
   "location": {
     "slug": "fort-worth",
     "url": "https://antique-appraiser-directory.appraisily.com/location/fort-worth/",
@@ -11,11 +11,20 @@
     "city": "Fort Worth",
     "region": "TX",
     "country": "US",
-    "numberOfListedAppraisers": 0,
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Fort Worth Coin Company, Inc.",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/fort-worth-coin-company-inc/",
+        "slug": "fort-worth-coin-company-inc",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/fort-worth-coin-company-inc.svg?v=20260728-limited-trust",
+        "description": "Fort Worth Coin Company, Inc. has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+        "publicRouteAvailable": true
+      }
+    ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/fort-worth/"
-    },
-    "listedAppraisers": []
+    }
   }
 }

@@ -11,6 +11,7 @@
     "check:llm-trust-cohort": "node ../../tools/directory-site-utils/check-directory-trust-cohort.mjs --public-dir public_site --manifest data/provider-publication-manifest.json --cohort data/llm-reference-trust-cohort.json",
     "check:interaction-contract": "node ./scripts/check-interaction-contract.mjs",
     "check:national-service-intent-bridge": "node ./scripts/check-national-service-intent-bridge.mjs --public-dir public_site",
+    "repair:national-service-intent-bridge": "node ./scripts/repair-national-service-intent-bridge.mjs --public-dir public_site --write",
     "test:national-service-intent-bridge": "node --test ./tests/national-service-intent-bridge.test.mjs",
     "check:houston-held-state": "node ./scripts/check-houston-held-state.mjs --public-dir public_site",
     "test:art-directory-consolidation": "node --test ./tests/art-directory-consolidation.test.mjs",

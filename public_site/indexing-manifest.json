@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T21:24:33.903Z",
+  "generatedAt": "2026-07-28T23:09:57.995Z",
   "origin": "https://antique-appraiser-directory.appraisily.com",
   "sourceSitemapUrls": 423,
   "retainedSitemapUrls": 423,
@@ -1228,11 +1228,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/albuquerque/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/albuquerque/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1248,27 +1243,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/arlington/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/arlington/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/aspen/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/aspen/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/atlanta/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1298,17 +1278,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/baton-rouge/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/baton-rouge/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/birmingham/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1333,11 +1303,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/buffalo/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/buffalo/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1353,22 +1318,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/charleston/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/charleston/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/location/charlotte/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/charlottetown/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1398,27 +1353,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/cleveland/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/cleveland/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/colorado-springs/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/colorado-springs/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/columbus/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1433,22 +1373,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/des-moines/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/edmonton/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/edmonton/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/el-paso/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1478,11 +1403,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/fredericton/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/fredericton/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1499,11 +1419,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/location/halifax/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/hamilton/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1543,11 +1458,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/kansas-city/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/kelowna/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1563,17 +1473,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/kitchener/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/kitchener/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/little-rock/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1583,17 +1483,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/london/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/london/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/long-beach/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1603,17 +1493,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/los-angeles/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/los-angeles/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/louisville/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1623,17 +1503,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/memphis/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/memphis/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/miami/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1653,27 +1523,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/minneapolis/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/minneapolis/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/moncton/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/moncton/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/montreal/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1693,11 +1548,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/new-orleans/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/new-orleans/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1713,11 +1563,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/norfolk/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/norfolk/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1729,11 +1574,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/location/oakland/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/orlando/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1763,11 +1603,6 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/phoenix/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/phoenix/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
@@ -1793,27 +1628,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/providence/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/providence/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/quebec-city/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/quebec-city/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/raleigh/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1828,17 +1648,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/richmond/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/richmond/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/rochester/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1848,17 +1658,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/sacramento/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/sacramento/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/salt-lake-city/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1874,11 +1674,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/location/san-antonio/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/san-francisco/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1908,17 +1703,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/saskatoon/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/saskatoon/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/savannah/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1938,17 +1723,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/st-john-s/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/st-john-s/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/st-louis/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1958,17 +1733,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/st-paul/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/st-paul/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/sudbury/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -1983,17 +1748,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/thunder-bay/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/thunder-bay/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/toledo/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -2003,17 +1758,7 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/toronto/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/toronto/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/tucson/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -2023,27 +1768,12 @@
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/tulsa/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/tulsa/appraisal-guide/",
       "classification": "keep-indexable",
       "reasons": []
     },
     {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/vancouver/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
       "url": "https://antique-appraiser-directory.appraisily.com/location/vancouver/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/victoria/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -2069,11 +1799,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/location/washington-dc/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/location/whitehorse/",
       "classification": "keep-indexable",
       "reasons": []
     },
@@ -2119,6 +1844,281 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/methodology/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/verification-updates/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/albuquerque/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/arlington/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/aspen/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/atlanta/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/baton-rouge/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/birmingham/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/buffalo/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/charleston/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/charlottetown/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/cleveland/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/colorado-springs/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/columbus/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/des-moines/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/edmonton/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/el-paso/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/fredericton/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/hamilton/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/kansas-city/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/kitchener/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/little-rock/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/london/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/long-beach/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/los-angeles/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/louisville/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/memphis/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/minneapolis/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/moncton/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/montreal/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/new-orleans/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/norfolk/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/orlando/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/phoenix/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/providence/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/quebec-city/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/raleigh/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/richmond/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/rochester/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/sacramento/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/salt-lake-city/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/san-francisco/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/saskatoon/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/savannah/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/st-john-s/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/st-louis/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/st-paul/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/sudbury/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/thunder-bay/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/toledo/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/toronto/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/tucson/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/tulsa/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/vancouver/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/victoria/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/location/whitehorse/",
       "classification": "keep-indexable",
       "reasons": []
     }

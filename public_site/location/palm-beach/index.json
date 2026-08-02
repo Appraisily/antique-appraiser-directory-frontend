@@ -1,21 +1,38 @@
 {
-  "title": "Antique & Art Appraisers in Palm Beach, Florida",
+  "title": "Source-listed appraisal records grouped with Palm Beach, Florida",
   "kind": "antique",
   "baseUrl": "https://antique-appraiser-directory.appraisily.com",
-  "generatedAt": "2026-07-26T18:52:18.543Z",
+  "generatedAt": "2026-07-29T08:46:01.353Z",
   "location": {
     "slug": "palm-beach",
     "url": "https://antique-appraiser-directory.appraisily.com/location/palm-beach/",
-    "name": "Antique & Art Appraisers in Palm Beach, Florida",
-    "description": "Compare antique and art appraisers in Palm Beach, Florida and request a fast online appraisal from Appraisily.",
+    "name": "Source-listed appraisal records grouped with Palm Beach, Florida",
+    "description": "Review source-labeled appraisal records grouped with Palm Beach and confirm location, assignment fit, and report requirements directly.",
     "city": "Palm Beach",
     "region": "FL",
     "country": "US",
-    "numberOfListedAppraisers": 0,
+    "numberOfListedAppraisers": 2,
+    "listedAppraisers": [
+      {
+        "name": "Palm Beach Appraisal Group",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/palm-beach-appraisal-group/",
+        "slug": "palm-beach-appraisal-group",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/palm-beach-appraisal-group.svg?v=20260728-limited-trust",
+        "description": "Palm Beach Appraisal Group has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "ValuePros",
+        "url": "https://antique-appraiser-directory.appraisily.com/appraiser/valuepros/",
+        "slug": "valuepros",
+        "image": "https://antique-appraiser-directory.appraisily.com/assets/generated-appraiser-profiles/valuepros.svg?v=20260728-limited-trust",
+        "description": "ValuePros has a limited source-listed profile. Identity and official website were checked July 11, 2026; all other details are not verified.",
+        "publicRouteAvailable": true
+      }
+    ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/palm-beach/"
-    },
-    "listedAppraisers": []
+    }
   }
 }
