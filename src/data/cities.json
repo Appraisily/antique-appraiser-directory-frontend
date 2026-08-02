@@ -561,13 +561,6 @@
       "longitude": -73.5673
     },
     {
-      "name": "Morristown",
-      "state": "New Jersey",
-      "slug": "morristown",
-      "latitude": null,
-      "longitude": null
-    },
-    {
       "name": "Naperville",
       "state": "Illinois",
       "slug": "naperville",
@@ -580,13 +573,6 @@
       "slug": "nashville",
       "latitude": 36.1627,
       "longitude": -86.7816
-    },
-    {
-      "name": "New Haven",
-      "state": "Connecticut",
-      "slug": "new-haven",
-      "latitude": null,
-      "longitude": null
     },
     {
       "name": "New Orleans",
@@ -890,13 +876,6 @@
       "longitude": null
     },
     {
-      "name": "Stamford",
-      "state": "Connecticut",
-      "slug": "stamford",
-      "latitude": null,
-      "longitude": null
-    },
-    {
       "name": "Sudbury",
       "state": "Ontario",
       "slug": "sudbury",
@@ -1019,13 +998,6 @@
       "name": "West Palm Beach",
       "state": "Florida",
       "slug": "west-palm-beach",
-      "latitude": null,
-      "longitude": null
-    },
-    {
-      "name": "White Plains",
-      "state": "New York",
-      "slug": "white-plains",
       "latitude": null,
       "longitude": null
     },
