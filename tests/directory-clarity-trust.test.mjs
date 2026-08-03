@@ -24,7 +24,7 @@ test('homepage source and canonical HTML avoid unsupported certification and sca
   assert.doesNotMatch(footer, /certified experts within 48 hours/);
   assert.match(footer, /Confirm provider credentials, scope, fees, availability, and report timing directly/);
   assert.match(html, /Check Local Availability by City/);
-  assert.match(html, /appraisily-directory-trust-v1\.js\?v=20260802/);
+  assert.match(html, /appraisily-directory-trust-v1\.js\?v=20260803/);
 });
 
 test('thin and empty city pages state their actual listing depth', () => {
