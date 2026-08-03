@@ -24,7 +24,7 @@ test('homepage source and canonical HTML avoid unsupported certification and sca
   assert.doesNotMatch(footer, /certified experts within 48 hours/);
   assert.match(footer, /Confirm provider credentials, scope, fees, availability, and report timing directly/);
   assert.match(html, /Check Local Availability by City/);
-  assert.match(html, /appraisily-directory-trust-v1\.js\?v=20260803/);
+  assert.match(html, /appraisily-directory-trust-v1\.js\?v=20260803b/);
 });
 
 test('thin and empty city pages state their actual listing depth', () => {
@@ -71,5 +71,6 @@ test('runtime trust patch preserves corrections after SPA hydration', () => {
   assert.match(patch, /Antique Appraisal Options Serving Milwaukee and Nearby Areas/);
   assert.match(patch, /Check local availability or start online/);
   assert.match(patch, /confirm its Brown Deer location, service area, and specialty directly/);
+  assert.match(patch, /querySelectorAll\('h1, h2, h3, p, span, a, figcaption'\)/);
   assert.match(patch, /MutationObserver/);
 });

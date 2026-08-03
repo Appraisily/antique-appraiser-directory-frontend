@@ -41,7 +41,7 @@
   };
 
   function setText() {
-    var nodes = document.querySelectorAll('h1, h2, h3, p, span, figcaption');
+    var nodes = document.querySelectorAll('h1, h2, h3, p, span, a, figcaption');
     for (var index = 0; index < nodes.length; index += 1) {
       var node = nodes[index];
       var current = String(node.textContent || '').trim();
