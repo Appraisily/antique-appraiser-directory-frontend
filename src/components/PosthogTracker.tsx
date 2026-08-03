@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
-import { initPosthog, capturePosthogEvent, capturePosthogPageview } from '../lib/posthog';
-import { derivePageContext } from '../utils/analytics';
+import { initPosthog } from '../lib/posthog';
+import { derivePageContext, trackFirstPartyEvent } from '../utils/analytics';
 
 const SEO_SCROLL_THRESHOLDS = [25, 50, 75, 90] as const;
 
@@ -28,25 +28,10 @@ export function PosthogTracker() {
     engagedRef.current = false;
     firedBucketsRef.current = new Set();
 
-    capturePosthogPageview(`${location.pathname}${location.search}`, {
-      page_type: context.pageType,
-      page_category: context.pageCategory,
-      city_slug: context.citySlug,
-      appraiser_slug: context.appraiserSlug,
-    });
-
-    capturePosthogEvent('seo_page_view', {
-      page_type: context.pageType,
-      page_category: context.pageCategory,
-      city_slug: context.citySlug,
-      appraiser_slug: context.appraiserSlug,
-      page_path: location.pathname,
-    });
-
     const fireEngaged = (reason: string) => {
       if (engagedRef.current) return;
       engagedRef.current = true;
-      capturePosthogEvent('seo_engaged', {
+      trackFirstPartyEvent('seo_engaged', {
         page_type: context.pageType,
         page_category: context.pageCategory,
         city_slug: context.citySlug,
@@ -62,7 +47,7 @@ export function PosthogTracker() {
       for (const threshold of SEO_SCROLL_THRESHOLDS) {
         if (depth >= threshold && !firedBucketsRef.current.has(threshold)) {
           firedBucketsRef.current.add(threshold);
-          capturePosthogEvent('seo_scroll_depth', {
+          trackFirstPartyEvent('seo_scroll_depth', {
             page_type: context.pageType,
             page_category: context.pageCategory,
             city_slug: context.citySlug,
@@ -117,7 +102,7 @@ export function PosthogTracker() {
           ? 'footer'
           : 'content';
 
-      capturePosthogEvent('seo_cta_click', {
+      trackFirstPartyEvent('seo_cta_click', {
         cta: 'start',
         placement,
         page_type: context.pageType,

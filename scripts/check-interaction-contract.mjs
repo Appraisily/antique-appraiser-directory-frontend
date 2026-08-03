@@ -12,6 +12,9 @@ const profileSource = fs.readFileSync(path.join(root, 'src/pages/StandardizedApp
 const citySearchSource = fs.readFileSync(path.join(root, 'src/components/CitySearch.tsx'), 'utf8');
 const appSource = fs.readFileSync(path.join(root, 'src/App.tsx'), 'utf8');
 const posthogSource = fs.readFileSync(path.join(root, 'src/lib/posthog.ts'), 'utf8');
+const analyticsSource = fs.readFileSync(path.join(root, 'src/utils/analytics.ts'), 'utf8');
+const analyticsTrackerSource = fs.readFileSync(path.join(root, 'src/components/AnalyticsTracker.tsx'), 'utf8');
+const posthogTrackerSource = fs.readFileSync(path.join(root, 'src/components/PosthogTracker.tsx'), 'utf8');
 const failures = [];
 
 if (source.includes('data-appraisily-directory-sample-proof="1"\n        role="link"')) {
@@ -109,6 +112,41 @@ if (!appSource.includes('data-clarity-action="directory_search_submit"')) {
 }
 if (!appSource.includes('// CitySearch has rendered an inline recovery status for a genuine miss.\n      return;')) {
   failures.push('A genuine search miss must remain at the inline recovery status instead of auto-scrolling.');
+}
+if (!analyticsSource.includes("eventName === 'page_view'")) {
+  failures.push('Google page_view must have an explicit first-party ownership boundary.');
+}
+if (!analyticsSource.includes("sendControlPlaneEvent('surface_arrived'")) {
+  failures.push('Directory page entry must use surface_arrived in the first-party collector.');
+}
+if (analyticsSource.includes("sendControlPlaneEvent('page_view'")) {
+  failures.push('Raw page_view must not be copied to the first-party collector.');
+}
+if (!analyticsTrackerSource.includes('emittedPageViewRef.current === pageViewKey')) {
+  failures.push('Directory page_view and arrival must be deduplicated per route entry.');
+}
+if (posthogTrackerSource.includes('capturePosthogEvent') || posthogTrackerSource.includes('capturePosthogPageview')) {
+  failures.push('Named directory behavior must enter PostHog through the first-party control plane.');
+}
+if (!posthogTrackerSource.includes('trackFirstPartyEvent')) {
+  failures.push('Directory behavior must use the first-party telemetry adapter.');
+}
+if (!feedbackSource.includes('trackFirstPartyEvent')) {
+  failures.push('Directory feedback must be collected first-party before any vendor copy.');
+}
+if (analyticsSource.indexOf('const cookieValue = readCookie(ANONYMOUS_ID_KEY)') > analyticsSource.indexOf('window.localStorage.getItem(ANONYMOUS_ID_KEY)')) {
+  failures.push('Directory identity must adopt the shared cookie before local storage.');
+}
+for (const snippet of [
+  "const QA_MARKER_STORAGE_KEY = 'appraisily_qa_marker'",
+  "params.get('appraisily_synthetic')",
+  "params.get('appraisily_qa') === '1'",
+  'synthetic_family: synthetic.family',
+  'is_synthetic: true',
+]) {
+  if (!analyticsSource.includes(snippet)) {
+    failures.push(`Directory synthetic evidence contract must include ${JSON.stringify(snippet)}.`);
+  }
 }
 
 if (failures.length) {

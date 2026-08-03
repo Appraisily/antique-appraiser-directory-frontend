@@ -1,5 +1,4 @@
 import posthog from 'posthog-js';
-import { getClickIdsFromRuntime } from '../utils/startAttribution';
 
 const DEFAULT_HOST = 'https://us.i.posthog.com';
 const CONSENT_COOKIE = 'cookieConsent';
@@ -76,10 +75,6 @@ function readConsent(): 'granted' | 'declined' | 'dismissed' | undefined {
   return undefined;
 }
 
-function readClickIds(): Record<string, string> {
-  return getClickIdsFromRuntime();
-}
-
 const runtimeEnv = readRuntimeEnv();
 
 const apiKey =
@@ -123,7 +118,7 @@ const debug = toBoolean(
 );
 const autocapture = toBoolean(
   import.meta.env.VITE_POSTHOG_AUTOCAPTURE ?? import.meta.env.POSTHOG_AUTOCAPTURE ?? runtimeEnv?.POSTHOG_AUTOCAPTURE,
-  true,
+  false,
 );
 
 let initialized = false;
@@ -136,50 +131,14 @@ function shouldStartReplay() {
   return replaySampledIn;
 }
 
-function registerBaseProperties() {
-  if (!initialized) return;
-  if (!isCapturing()) return;
-  try {
-    const ids = readClickIds();
-    const props: Record<string, unknown> = {};
-    if (Object.keys(ids).length) props.click_ids = ids;
-    if (typeof navigator !== 'undefined' && navigator.language) {
-      props.locale_hint = navigator.language;
-      const region = navigator.language.includes('-') ? navigator.language.split('-').pop() : undefined;
-      if (region) props.country_hint = region.toUpperCase();
-    }
-    if (Object.keys(props).length) {
-      posthog.register(props);
-    }
-  } catch (error) {
-    void error;
-  }
-}
-
-type PosthogCaptureState = {
-  is_capturing?: () => boolean;
-};
-
 type PosthogRecordingControl = {
   startSessionRecording?: (force?: boolean) => void;
   stopSessionRecording?: () => void;
 };
 
-function isCapturing(): boolean {
-  const maybe = posthog as unknown as PosthogCaptureState;
-  if (typeof maybe.is_capturing !== 'function') return true;
-  try {
-    return Boolean(maybe.is_capturing());
-  } catch (error) {
-    void error;
-    return true;
-  }
-}
-
 function optIn(reason: string) {
   if (!initialized) return;
   posthog.opt_in_capturing({ captureEventName: false });
-  registerBaseProperties();
   if (replayEnabled && shouldStartReplay()) {
     try {
       (posthog as unknown as PosthogRecordingControl).startSessionRecording?.(true);
@@ -256,23 +215,6 @@ export function initPosthog() {
 
   initialized = true;
   applyStoredConsent('init');
-}
-
-export function capturePosthogPageview(pathname: string, properties?: Record<string, unknown>) {
-  if (!initialized) return;
-  if (!isCapturing()) return;
-  posthog.capture('$pageview', {
-    $current_url: typeof window !== 'undefined' ? window.location.href : pathname,
-    $pathname: pathname,
-    $title: typeof document !== 'undefined' ? document.title : undefined,
-    ...properties,
-  });
-}
-
-export function capturePosthogEvent(event: string, properties?: Record<string, unknown>) {
-  if (!initialized) return;
-  if (!isCapturing()) return;
-  posthog.capture(event, properties);
 }
 
 export function getPosthogDistinctId(): string | undefined {

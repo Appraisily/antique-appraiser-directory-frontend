@@ -1,14 +1,26 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { capturePosthogEvent, getPosthogDistinctId } from '../lib/posthog';
+import { getPosthogDistinctId } from '../lib/posthog';
 import { getClickIdsFromRuntime } from './startAttribution';
 
 const isBrowser = typeof window !== 'undefined';
 const CONTROL_PLANE_ENDPOINT = 'https://appraisily.com/api/public/analytics/collect';
 const ANONYMOUS_ID_KEY = 'appraisily_analytics_anonymous_id';
+const QA_MARKER_STORAGE_KEY = 'appraisily_qa_marker';
 const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'] as const;
 const APP_ID = 'antique_appraiser_directory_frontend';
 const SURFACE_ID = 'antique_appraiser_directory';
+const SYNTHETIC_MARKER_FAMILIES = {
+  qa: 'qa',
+  synthetic_browser: 'qa',
+  customer_qa: 'qa',
+  browser_automation: 'browser_automation',
+  agent: 'agent',
+  canary: 'monitoring',
+  smoke: 'monitoring',
+  monitoring: 'monitoring',
+  staff: 'staff',
+} as const;
 
 type DataLayerEvent = Record<string, any>;
 type RuntimeEnv = Partial<Record<string, unknown>> & {
@@ -76,13 +88,6 @@ function writeCookie(name: string, value: string) {
 
 function getAnonymousId(): string | undefined {
   if (!isBrowser) return undefined;
-  try {
-    const existing = window.localStorage.getItem(ANONYMOUS_ID_KEY);
-    if (existing && existing.trim()) return existing.trim();
-  } catch {
-    // ignore
-  }
-
   const cookieValue = readCookie(ANONYMOUS_ID_KEY);
   if (cookieValue) {
     try {
@@ -91,6 +96,17 @@ function getAnonymousId(): string | undefined {
       // ignore
     }
     return cookieValue;
+  }
+
+  try {
+    const existing = window.localStorage.getItem(ANONYMOUS_ID_KEY);
+    if (existing && existing.trim()) {
+      const normalized = existing.trim();
+      writeCookie(ANONYMOUS_ID_KEY, normalized);
+      return normalized;
+    }
+  } catch {
+    // ignore
   }
 
   const generated =
@@ -107,6 +123,31 @@ function getAnonymousId(): string | undefined {
   return generated;
 }
 
+function getSyntheticContext(): { marker?: string; family?: string } {
+  if (!isBrowser) return {};
+  let marker: string | undefined;
+  try {
+    const params = new URLSearchParams(window.location.search || '');
+    const explicit = String(params.get('appraisily_synthetic') || '').trim().toLowerCase();
+    if (explicit in SYNTHETIC_MARKER_FAMILIES) {
+      marker = explicit;
+    } else if (params.get('appraisily_qa') === '1') {
+      marker = 'synthetic_browser';
+    }
+    if (marker) {
+      window.sessionStorage.setItem(QA_MARKER_STORAGE_KEY, marker);
+    } else {
+      const stored = String(window.sessionStorage.getItem(QA_MARKER_STORAGE_KEY) || '').trim().toLowerCase();
+      if (stored in SYNTHETIC_MARKER_FAMILIES) marker = stored;
+    }
+  } catch {
+    // ignore
+  }
+  return marker
+    ? { marker, family: SYNTHETIC_MARKER_FAMILIES[marker as keyof typeof SYNTHETIC_MARKER_FAMILIES] }
+    : {};
+}
+
 function getControlPlaneEndpoint(): string {
   return (
     firstNonEmpty(readRuntimeEnv(), [
@@ -119,7 +160,7 @@ function getControlPlaneEndpoint(): string {
 
 function getPagePath(): string {
   if (!isBrowser) return '/';
-  return `${window.location.pathname || '/'}${window.location.search || ''}${window.location.hash || ''}`;
+  return window.location.pathname || '/';
 }
 
 function getTrafficContext(): Record<string, string> {
@@ -164,6 +205,7 @@ function sendControlPlaneEvent(event: string, params: Record<string, any> = {}) 
   const pageContext = derivePageContext(window.location.pathname || '/');
   const anonymousId = getAnonymousId();
   const posthogDistinctId = getPosthogDistinctId();
+  const synthetic = getSyntheticContext();
   const payload = {
     event,
     occurred_at: new Date().toISOString(),
@@ -178,12 +220,18 @@ function sendControlPlaneEvent(event: string, params: Record<string, any> = {}) 
       anonymous_id: anonymousId,
       posthog_distinct_id: posthogDistinctId,
     },
-    traffic: getTrafficContext(),
+    traffic: {
+      ...getTrafficContext(),
+      ...(synthetic.marker ? { synthetic: synthetic.marker, synthetic_family: synthetic.family } : {}),
+    },
     payload: {
       page_location: window.location.href,
       page_title: document.title,
       page_path: getPagePath(),
       ...params,
+      ...(synthetic.marker
+        ? { qa_marker: synthetic.marker, is_synthetic: true, synthetic_family: synthetic.family }
+        : {}),
     },
   };
 
@@ -203,6 +251,21 @@ function sendControlPlaneEvent(event: string, params: Record<string, any> = {}) 
   }
 }
 
+export function trackFirstPartyEvent(event: string, params: Record<string, any> = {}) {
+  sendControlPlaneEvent(event, params);
+}
+
+export function recordSurfaceArrival(params: Record<string, any> = {}) {
+  const arrival = { ...params };
+  delete arrival.event;
+  delete arrival.page_location;
+  delete arrival.page_title;
+  sendControlPlaneEvent('surface_arrived', {
+    ...arrival,
+    arrival_owner: 'directory_route_analytics',
+  });
+}
+
 export function pushToDataLayer(payload: DataLayerEvent) {
   if (!isBrowser) {
     return;
@@ -218,13 +281,16 @@ export function pushToDataLayer(payload: DataLayerEvent) {
 
   const rest = { ...payload };
   delete rest.event;
+  if (eventName === 'page_view') {
+    recordSurfaceArrival(rest);
+    return;
+  }
   sendControlPlaneEvent(eventName, rest);
 }
 
 /**
- * Track an event to both GTM (dataLayer) and PostHog.
- * Ensures cross-platform funnel visibility for SEO → conversion attribution.
- * Includes click IDs (gclid, etc.) for ad attribution continuity.
+ * Record a named directory event first-party. Vendor copies are controlled by
+ * the server routing contract, never by direct browser SDK calls.
  */
 export function trackEvent(event: string, params: Record<string, any> = {}) {
   const clickIds = getClickIdsFromRuntime();
@@ -234,14 +300,7 @@ export function trackEvent(event: string, params: Record<string, any> = {}) {
     ...(Object.keys(clickIds).length ? { click_ids: clickIds } : {}),
   };
 
-  // Push to GTM/GA4
-  pushToDataLayer({
-    event,
-    ...enrichedParams
-  });
-
-  // Mirror to PostHog for unified funnel analysis
-  capturePosthogEvent(event, enrichedParams);
+  trackFirstPartyEvent(event, enrichedParams);
 }
 
 export function derivePageContext(pathname: string) {

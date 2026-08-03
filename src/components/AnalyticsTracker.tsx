@@ -1,14 +1,8 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { GOOGLE_TAG_MANAGER_ID } from '../config/site';
-import { derivePageContext, pushToDataLayer } from '../utils/analytics';
-
-declare global {
-  interface Window {
-    dataLayer?: Record<string, unknown>[];
-  }
-}
+import { derivePageContext, pushToDataLayer, recordSurfaceArrival } from '../utils/analytics';
 
 const isBrowser = typeof window !== 'undefined';
 
@@ -29,6 +23,7 @@ function isLikelyBot(): boolean {
 
 export function AnalyticsTracker() {
   const location = useLocation();
+  const emittedPageViewRef = useRef<string | null>(null);
 
   const id = GOOGLE_TAG_MANAGER_ID;
   const scriptContent = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${id}');`;
@@ -39,16 +34,17 @@ export function AnalyticsTracker() {
       return;
     }
 
-    if (isLikelyBot()) {
+    const context = derivePageContext(location.pathname);
+    const pageViewKey = `${location.pathname}${location.search}${location.hash}`;
+    if (emittedPageViewRef.current === pageViewKey) {
       return;
     }
-
-    const context = derivePageContext(location.pathname);
+    emittedPageViewRef.current = pageViewKey;
 
     const payload: Record<string, unknown> = {
       event: 'page_view',
       page_location: window.location.href,
-      page_path: `${location.pathname}${location.search}${location.hash}`,
+      page_path: pageViewKey,
       page_title: document.title,
       page_type: context.pageType,
       page_category: context.pageCategory
@@ -60,6 +56,11 @@ export function AnalyticsTracker() {
 
     if (context.appraiserSlug) {
       payload.appraiser_slug = context.appraiserSlug;
+    }
+
+    if (isLikelyBot()) {
+      recordSurfaceArrival(payload);
+      return;
     }
 
     pushToDataLayer(payload);

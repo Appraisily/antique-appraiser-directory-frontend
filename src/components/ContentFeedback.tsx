@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { capturePosthogEvent } from '../lib/posthog';
-import { derivePageContext } from '../utils/analytics';
+import { derivePageContext, trackFirstPartyEvent } from '../utils/analytics';
 
 function redactFeedbackText(text: string): string {
   const trimmed = text.trim();
@@ -59,7 +58,7 @@ export function ContentFeedback() {
       voteNudgeTimeoutRef.current = null;
     }
 
-    capturePosthogEvent('seo_content_feedback_vote', {
+    trackFirstPartyEvent('seo_content_feedback_vote', {
       ...commonProps,
       helpful: value,
     });
@@ -89,7 +88,7 @@ export function ContentFeedback() {
 
     const redacted = redactFeedbackText(comment).slice(0, 800);
 
-    capturePosthogEvent('seo_content_feedback_submitted', {
+    trackFirstPartyEvent('seo_content_feedback_submitted', {
       ...commonProps,
       helpful,
       comment: redacted,
