@@ -1441,6 +1441,11 @@ export function StandardizedLocationPage() {
   const screenerUrl = `https://appraisily.com/screener?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=screener`;
   const professionalSampleUrl = `https://appraisily.com/sample-reports/professional?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=sample_professional`;
   const instantSampleUrl = `https://appraisily.com/sample-reports/instant?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=sample_instant`;
+  // City pages rank organically for "<city> donation appraisers" but previously
+  // offered donors no donation-specific path — every CTA routed to the generic
+  // screener/regular flow. This also gives /qualified-appraisals topically
+  // relevant inbound links, which it otherwise lacks almost entirely.
+  const donationReportUrl = `https://appraisily.com/qualified-appraisals?utm_source=directory&utm_medium=donation_purpose&utm_campaign=${decisionCampaign}&utm_content=donation_report`;
 
   const generateLocationFaqSchema = () => {
     const baseFaqs = [
@@ -2020,6 +2025,32 @@ export function StandardizedLocationPage() {
             window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#local-appraisers`);
           }}
         />
+
+        <section
+          aria-labelledby="donation-purpose-heading"
+          className="mb-8 rounded-lg border border-gray-200 bg-gray-50 p-5"
+        >
+          <h2 id="donation-purpose-heading" className="text-lg font-semibold text-gray-900">
+            Donating an item from {cityName}?
+          </h2>
+          <p className="mt-2 text-gray-700">
+            Charitable donation valuations are a different assignment from insurance or resale work: they
+            use fair-market-value concepts, and the receiving organization and your tax adviser set the
+            documentation requirements. Some contributions require a federal qualified appraisal, which is
+            a specific instrument with its own signer and inspection rules — confirm what yours needs
+            before commissioning any report.
+          </p>
+          <p className="mt-3 text-gray-700">
+            <a
+              href={donationReportUrl}
+              className="font-semibold text-blue-700 underline underline-offset-2 hover:text-blue-800"
+            >
+              See Appraisily&rsquo;s donation appraisal report and what it covers
+            </a>
+            {' '}for the online option, or contact a {cityName} appraiser from the listings below when an
+            in-person inspection or specific credentials are required.
+          </p>
+        </section>
 
         <div id="local-appraisers" className="mb-6 mt-8 scroll-mt-20">
           <h2 className="text-2xl font-semibold">
