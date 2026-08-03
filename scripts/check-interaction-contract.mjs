@@ -25,7 +25,7 @@ for (const snippet of [
   'data-clarity-action="location_empty_state_screener"',
   'Try Appraisily’s free photo check',
   'data-clarity-action="location_empty_state_nearby"',
-  'We do not show unverified profiles as local options.',
+  'Profiles without current publishable details are excluded from local options.',
   "handleEmptyLocationClick('free_photo_check'",
   "handleEmptyLocationClick('nearby_city'",
   'Looking for a fine-art appraiser?',
