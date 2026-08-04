@@ -1,4 +1,5 @@
 import posthog from 'posthog-js';
+import { isSyntheticTelemetrySession } from '../utils/syntheticTraffic';
 
 const DEFAULT_HOST = 'https://us.i.posthog.com';
 const CONSENT_COOKIE = 'cookieConsent';
@@ -184,7 +185,7 @@ function applyStoredConsent(reason: string) {
 
 export function initPosthog() {
   if (initialized || typeof window === 'undefined') return;
-  if (isLikelyBot()) return;
+  if (isLikelyBot() || isSyntheticTelemetrySession()) return;
   if (!apiKey) {
     if (import.meta.env.DEV) {
       console.debug('[posthog] api key missing; skipping init');

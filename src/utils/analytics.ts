@@ -2,26 +2,14 @@
 
 import { getPosthogDistinctId } from '../lib/posthog';
 import { getClickIdsFromRuntime } from './startAttribution';
+import { getSyntheticContext, isSyntheticTelemetrySession } from './syntheticTraffic';
 
 const isBrowser = typeof window !== 'undefined';
 const CONTROL_PLANE_ENDPOINT = 'https://appraisily.com/api/public/analytics/collect';
 const ANONYMOUS_ID_KEY = 'appraisily_analytics_anonymous_id';
-const QA_MARKER_STORAGE_KEY = 'appraisily_qa_marker';
 const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'] as const;
 const APP_ID = 'antique_appraiser_directory_frontend';
 const SURFACE_ID = 'antique_appraiser_directory';
-const SYNTHETIC_MARKER_FAMILIES = {
-  qa: 'qa',
-  synthetic_browser: 'qa',
-  customer_qa: 'qa',
-  browser_automation: 'browser_automation',
-  agent: 'agent',
-  canary: 'monitoring',
-  smoke: 'monitoring',
-  monitoring: 'monitoring',
-  staff: 'staff',
-} as const;
-
 type DataLayerEvent = Record<string, any>;
 type RuntimeEnv = Partial<Record<string, unknown>> & {
   ANALYTICS_CONTROL_PLANE_URL?: string;
@@ -123,31 +111,6 @@ function getAnonymousId(): string | undefined {
   return generated;
 }
 
-function getSyntheticContext(): { marker?: string; family?: string } {
-  if (!isBrowser) return {};
-  let marker: string | undefined;
-  try {
-    const params = new URLSearchParams(window.location.search || '');
-    const explicit = String(params.get('appraisily_synthetic') || '').trim().toLowerCase();
-    if (explicit in SYNTHETIC_MARKER_FAMILIES) {
-      marker = explicit;
-    } else if (params.get('appraisily_qa') === '1') {
-      marker = 'synthetic_browser';
-    }
-    if (marker) {
-      window.sessionStorage.setItem(QA_MARKER_STORAGE_KEY, marker);
-    } else {
-      const stored = String(window.sessionStorage.getItem(QA_MARKER_STORAGE_KEY) || '').trim().toLowerCase();
-      if (stored in SYNTHETIC_MARKER_FAMILIES) marker = stored;
-    }
-  } catch {
-    // ignore
-  }
-  return marker
-    ? { marker, family: SYNTHETIC_MARKER_FAMILIES[marker as keyof typeof SYNTHETIC_MARKER_FAMILIES] }
-    : {};
-}
-
 function getControlPlaneEndpoint(): string {
   return (
     firstNonEmpty(readRuntimeEnv(), [
@@ -225,7 +188,7 @@ function sendControlPlaneEvent(event: string, params: Record<string, any> = {}) 
       ...(synthetic.marker ? { synthetic: synthetic.marker, synthetic_family: synthetic.family } : {}),
     },
     payload: {
-      page_location: window.location.href,
+      page_location: new URL(getPagePath(), window.location.origin).toString(),
       page_title: document.title,
       page_path: getPagePath(),
       ...params,
@@ -271,21 +234,19 @@ export function pushToDataLayer(payload: DataLayerEvent) {
     return;
   }
 
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push(payload);
-
   const eventName = typeof payload.event === 'string' ? payload.event.trim() : '';
-  if (!eventName) {
-    return;
-  }
-
   const rest = { ...payload };
   delete rest.event;
   if (eventName === 'page_view') {
     recordSurfaceArrival(rest);
-    return;
+  } else if (eventName) {
+    sendControlPlaneEvent(eventName, rest);
   }
-  sendControlPlaneEvent(eventName, rest);
+
+  if (isSyntheticTelemetrySession()) return;
+
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push(payload);
 }
 
 /**

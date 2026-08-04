@@ -15,6 +15,7 @@ const posthogSource = fs.readFileSync(path.join(root, 'src/lib/posthog.ts'), 'ut
 const analyticsSource = fs.readFileSync(path.join(root, 'src/utils/analytics.ts'), 'utf8');
 const analyticsTrackerSource = fs.readFileSync(path.join(root, 'src/components/AnalyticsTracker.tsx'), 'utf8');
 const posthogTrackerSource = fs.readFileSync(path.join(root, 'src/components/PosthogTracker.tsx'), 'utf8');
+const syntheticTrafficSource = fs.readFileSync(path.join(root, 'src/utils/syntheticTraffic.ts'), 'utf8');
 const failures = [];
 
 if (source.includes('data-appraisily-directory-sample-proof="1"\n        role="link"')) {
@@ -38,6 +39,31 @@ for (const snippet of [
   if (!locationSource.includes(snippet)) {
     failures.push(`The location empty state must include ${JSON.stringify(snippet)}.`);
   }
+}
+for (const snippet of [
+  "const QA_MARKER_STORAGE_KEY = 'appraisily_qa_marker'",
+  "params.get('appraisily_synthetic')",
+  "params.get('appraisily_qa') === '1'",
+  'export function isSyntheticTelemetrySession()',
+]) {
+  if (!syntheticTrafficSource.includes(snippet)) {
+    failures.push(`Directory synthetic traffic contract must include ${JSON.stringify(snippet)}.`);
+  }
+}
+if (!analyticsSource.includes('if (isSyntheticTelemetrySession()) return;')) {
+  failures.push('The data-layer adapter must exclude marked synthetic sessions.');
+}
+if (analyticsSource.includes('page_location: window.location.href')) {
+  failures.push('First-party directory envelopes must not retain raw query strings or fragments.');
+}
+if (!analyticsTrackerSource.includes('isLikelyBot() || isSyntheticTelemetrySession()')) {
+  failures.push('The GTM tracker must exclude bots and marked synthetic sessions.');
+}
+if (!analyticsTrackerSource.includes("const pageViewKey = location.pathname || '/'")) {
+  failures.push('Google page_view fields must omit query strings and fragments.');
+}
+if (!posthogSource.includes('isLikelyBot() || isSyntheticTelemetrySession()')) {
+  failures.push('Direct PostHog initialization must exclude bots and marked synthetic sessions.');
 }
 for (const misleadingPromise of [
   'Looking for art-specific appraisers in {cityName}?',
@@ -138,9 +164,6 @@ if (analyticsSource.indexOf('const cookieValue = readCookie(ANONYMOUS_ID_KEY)') 
   failures.push('Directory identity must adopt the shared cookie before local storage.');
 }
 for (const snippet of [
-  "const QA_MARKER_STORAGE_KEY = 'appraisily_qa_marker'",
-  "params.get('appraisily_synthetic')",
-  "params.get('appraisily_qa') === '1'",
   'synthetic_family: synthetic.family',
   'is_synthetic: true',
 ]) {

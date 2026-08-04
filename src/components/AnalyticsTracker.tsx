@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { GOOGLE_TAG_MANAGER_ID } from '../config/site';
 import { derivePageContext, pushToDataLayer, recordSurfaceArrival } from '../utils/analytics';
+import { isSyntheticTelemetrySession } from '../utils/syntheticTraffic';
 
 const isBrowser = typeof window !== 'undefined';
 
@@ -35,7 +36,7 @@ export function AnalyticsTracker() {
     }
 
     const context = derivePageContext(location.pathname);
-    const pageViewKey = `${location.pathname}${location.search}${location.hash}`;
+    const pageViewKey = location.pathname || '/';
     if (emittedPageViewRef.current === pageViewKey) {
       return;
     }
@@ -43,7 +44,7 @@ export function AnalyticsTracker() {
 
     const payload: Record<string, unknown> = {
       event: 'page_view',
-      page_location: window.location.href,
+      page_location: new URL(pageViewKey, window.location.origin).toString(),
       page_path: pageViewKey,
       page_title: document.title,
       page_type: context.pageType,
@@ -58,7 +59,7 @@ export function AnalyticsTracker() {
       payload.appraiser_slug = context.appraiserSlug;
     }
 
-    if (isLikelyBot()) {
+    if (isLikelyBot() || isSyntheticTelemetrySession()) {
       recordSurfaceArrival(payload);
       return;
     }
@@ -78,7 +79,7 @@ export function AnalyticsTracker() {
     return null;
   }
 
-  if (isLikelyBot()) {
+  if (isLikelyBot() || isSyntheticTelemetrySession()) {
     return null;
   }
 
