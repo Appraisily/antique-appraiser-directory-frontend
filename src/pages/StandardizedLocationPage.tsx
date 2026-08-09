@@ -83,6 +83,7 @@ const STRIKING_DISTANCE_CITY_SLUGS = [
   'tampa',
   'richmond',
   'new-orleans',
+  'raleigh',
   'saskatoon',
   'moncton'
 ] as const;
@@ -105,9 +106,21 @@ const LOW_CTR_PRIORITY_CITY_SLUGS = [
   'milwaukee',
   'orlando',
   'philadelphia',
+  'pittsburgh',
+  'raleigh',
   'richmond',
   'seattle',
   'tucson',
+] as const;
+
+const PRIORITY_LOCAL_SEO_CITY_SLUGS = [
+  'philadelphia',
+  'wichita',
+  'new-orleans',
+  'raleigh',
+  'baltimore',
+  'pittsburgh',
+  'chicago',
 ] as const;
 
 type LocationSeoOverride = {
@@ -500,6 +513,7 @@ const LOCATION_INTERNAL_LINK_TARGETS: Partial<
   'las-vegas': ['phoenix', 'los-angeles', 'denver'],
   jacksonville: ['tampa', 'orlando', 'miami'],
   pittsburgh: ['cleveland', 'columbus', 'philadelphia'],
+  raleigh: ['charlotte', 'richmond', 'charleston'],
   tampa: ['orlando', 'jacksonville', 'miami'],
   richmond: ['baltimore', 'charlotte', 'raleigh'],
   'new-orleans': ['houston', 'baton-rouge', 'jacksonville']
@@ -541,12 +555,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Kansas City specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
   },
   chicago: {
-    title: 'Chicago Antique & Art Appraisal Options | Local and Online',
+    title: 'Chicago Antique Appraisers Near You | Signed Online Reports',
     description:
-      'Review the currently listed Chicago-area appraisal option for antiques, art, estates, insurance, and donations, or upload photos for an online report.',
-    h1: 'Chicago Antique & Art Appraisal Options',
+      'Compare Chicago antique and art appraisers near you for estates, insurance, and donations, or upload photos for a paid signed online report.',
+    h1: 'Chicago Antique & Art Appraisals',
     heroDescription:
-      'Review the currently listed Chicago-area provider and confirm its location, credentials, scope, fees, and availability directly, or start an online report.'
+      'Review the currently listed Chicago-area option and confirm credentials and availability directly, or upload photos to Appraisily for a paid signed report for estate, insurance, donation, or resale documentation.'
   },
   tucson: {
     title: 'Antique Appraisers Near Me in Tucson | Compare Local Experts & Art Appraisals',
@@ -605,12 +619,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Find Louisville specialists for antique, art, and tax-related valuations, then choose local in-person or faster online appraisal.'
   },
   baltimore: {
-    title: 'Baltimore Antique Appraisers | Furniture, Maryland Estates & Art',
+    title: 'Baltimore Antique Appraisers | Maryland Furniture Appraisal',
     description:
-      'Compare Baltimore antique appraisers for Maryland estates, antique furniture, silver, art, donation, insurance, and online appraisal options.',
-    h1: 'Baltimore Antique Appraisers for Furniture, Estates & Art',
+      'Compare Baltimore and Maryland antique-furniture appraisers for estates, insurance, and donations, or start a paid signed online report from photos.',
+    h1: 'Baltimore Antique & Art Appraisers',
     heroDescription:
-      'Compare Baltimore specialists for antique furniture, fine art, silver, estate, insurance, donation, and personal-property needs, then choose local or online appraisal support.'
+      'Compare current Baltimore-area listings for antique furniture, art, estates, and personal property. Confirm local credentials and availability directly, or upload photos to Appraisily for a paid signed report.'
   },
   ottawa: {
     title: 'Ottawa Antique & Art Appraisers | ON Estate, Insurance & Donation',
@@ -701,12 +715,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Sacramento appraisers for antiques and art valuation, then choose local appointments or faster online appraisal.'
   },
   philadelphia: {
-    title: 'Philadelphia Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    title: 'Philadelphia, PA Antique Appraisers | Local & Online Reports',
     description:
-      'Compare Philadelphia antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
+      'Compare Philadelphia antique and art appraisers for estates, insurance, donation, furniture, and personal property—or start a paid online report from photos.',
     h1: 'Philadelphia Antique Appraisers & Art Appraisal Services',
     heroDescription:
-      'Compare Philadelphia specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+      'Compare current Philadelphia-area listings for antiques, furniture, art, and estates. Confirm local credentials and availability directly, or upload photos to Appraisily for a paid professional report.'
   },
   'oklahoma-city': {
     title: 'Oklahoma City Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
@@ -733,12 +747,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Toronto specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
   },
   wichita: {
-    title: 'Wichita Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    title: 'Wichita Antique Appraisers | Vintage Items & Online Reports',
     description:
-      'Compare Wichita antique appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local Kansas experts and online options.',
-    h1: 'Wichita Antique Appraisers & Art Appraisal Services',
+      'Compare Wichita antique appraisers for antiques, vintage items, estates, insurance, and donations. Free screening is a first look; written reports are paid.',
+    h1: 'Wichita Antique Appraisers for Antiques & Vintage Items',
     heroDescription:
-      'Compare Wichita specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
+      'Compare current Wichita-area listings for antiques, vintage items, art, and estates. Appraisily\'s free photo screener gives a first look; a professional written appraisal is a separate paid service.'
   },
   'las-vegas': {
     title: 'Las Vegas Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
@@ -757,12 +771,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Jacksonville specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
   },
   pittsburgh: {
-    title: 'Pittsburgh Antique Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    title: 'Pittsburgh Antique Appraisers Near You | Online Reports',
     description:
-      'Compare Pittsburgh antique appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
-    h1: 'Pittsburgh Antique Appraisers & Art Appraisal Services',
+      'Compare Pittsburgh antique and art appraisers near you for estates, insurance, donations, and personal property—or start a paid online report from photos.',
+    h1: 'Pittsburgh Antique Appraisers Near You',
     heroDescription:
-      'Compare Pittsburgh specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
+      'Compare current Pittsburgh-area listings for antiques, art, estates, and personal property. Confirm local credentials and availability directly, or upload photos to Appraisily for a paid professional report.'
   },
   tampa: {
     title: 'Tampa Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
@@ -781,12 +795,20 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Richmond specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
   },
   'new-orleans': {
-    title: 'New Orleans Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    title: 'New Orleans, LA Antique Appraisers | Local & Online Reports',
     description:
-      'Compare New Orleans antique appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Louisiana experts and online options.',
-    h1: 'New Orleans Antique Appraisers & Art Appraisal Services',
+      'Compare New Orleans and Metairie antique-appraisal options for art, estates, and insurance, or start a paid signed online report from photos.',
+    h1: 'New Orleans, LA Antique & Art Appraisers',
     heroDescription:
-      'Compare New Orleans specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+      'No verified local profile is currently published for New Orleans or Metairie. Review nearby options, or upload photos to Appraisily for a paid signed report for antiques, art, estates, insurance, donation, or personal property.'
+  },
+  raleigh: {
+    title: 'Raleigh, NC Antique Appraisers | Local & Online Options',
+    description:
+      'Review Raleigh antique-appraiser availability and nearby published city pages for estate, furniture, insurance, or personal-property needs, or start a paid online report.',
+    h1: 'Raleigh, NC Antique Appraisers & Nearby Options',
+    heroDescription:
+      'No source-labeled local profile is currently published for Raleigh. Review nearby published city pages, or upload photos to Appraisily for a paid professional report.'
   },
   hamilton: {
     title: 'Hamilton Antique Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
@@ -909,6 +931,10 @@ const LOCATION_SEARCH_THEMES: Record<string, readonly string[]> = {
    'Philadelphia antique appraisers',
    'Philadelphia art appraisal services',
    'antique appraisers Philadelphia PA'
+ ],
+ raleigh: [
+   'Raleigh antique appraisers',
+   'antique appraiser NC'
  ],
  'oklahoma-city': [
    'Oklahoma City antique appraisers',
@@ -1055,6 +1081,14 @@ const LOCATION_SERVICE_INTENTS: Partial<Record<string, readonly LocationServiceI
       ],
     },
   ],
+  chicago: [
+    {
+      heading: 'Antique appraisers near you in Chicago',
+      body:
+        'Use this page to check current Chicago-area listings and verify specialty, credentials, scope, fees, and availability directly. If photos and documentation are sufficient, Appraisily’s regular intake provides a separate professional online appraisal route.',
+      phrases: ['Antique appraisers near me in Chicago', 'Chicago antique appraisers'],
+    },
+  ],
   cincinnati: [
     {
       heading: 'Cincinnati personal-property and tax donation appraisals',
@@ -1095,6 +1129,38 @@ const LOCATION_SERVICE_INTENTS: Partial<Record<string, readonly LocationServiceI
       ],
     },
   ],
+  philadelphia: [
+    {
+      heading: 'Professional antique appraisal options in Philadelphia, PA',
+      body:
+        'Compare the current Philadelphia listing for local inspection needs and confirm qualifications directly. Appraisily’s regular online intake is a separate option when photos, measurements, condition notes, and provenance can support a written report.',
+      phrases: ['Philadelphia antique appraisers', 'Philadelphia PA appraisal options'],
+    },
+  ],
+  pittsburgh: [
+    {
+      heading: 'Antique appraisers near you in Pittsburgh',
+      body:
+        'Review the current Pittsburgh listing for in-person needs and verify its service area and qualifications directly. Use Appraisily’s regular intake when a professional online report can meet the assignment.',
+      phrases: ['Pittsburgh antique appraisers near me', 'Pittsburgh antique appraisers'],
+    },
+  ],
+  raleigh: [
+    {
+      heading: 'Antique appraiser options in Raleigh, NC',
+      body:
+        'Check current Raleigh availability and nearby published city pages. Appraisily’s regular online intake is a separate professional report option when an in-person inspection is not required.',
+      phrases: ['Antique appraiser NC', 'Raleigh antique appraisers'],
+    },
+  ],
+  wichita: [
+    {
+      heading: 'Antique and vintage item appraisals in Wichita',
+      body:
+        'Compare the current Wichita listing or use Appraisily’s regular intake for a professional online report. The free photo screener offers an initial indication only; it is not a professional appraisal or a substitute for required documentation.',
+      phrases: ['Wichita antique appraisers', 'Wichita vintage item appraisals'],
+    },
+  ],
   seattle: [
     {
       heading: 'Seattle art appraisal services and antique appraisers',
@@ -1133,7 +1199,7 @@ export function StandardizedLocationPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedSpecialty, setSelectedSpecialty] = useState<string | null>(null);
-  const primaryCtaUrl = getPrimaryCtaUrl();
+  const primaryCtaUrl = getPrimaryCtaUrl({ service: 'regular' });
 
   const validCitySlug = typeof citySlug === 'string' ? citySlug : '';
   const cityMeta = useMemo(
@@ -1234,11 +1300,16 @@ export function StandardizedLocationPage() {
     if (cityMeta?.name) return cityMeta.name;
     return cityName.split(',')[0]?.trim() || cityName;
   }, [cityMeta, cityName]);
-  const locationSearchThemes = useMemo(
-    () => LOCATION_SEARCH_THEMES[validCitySlug] ?? [],
-    [validCitySlug]
+  const suppressInternalSearchCopy = PRIORITY_LOCAL_SEO_CITY_SLUGS.includes(
+    validCitySlug as (typeof PRIORITY_LOCAL_SEO_CITY_SLUGS)[number]
   );
-  const serviceIntents = LOCATION_SERVICE_INTENTS[validCitySlug] ?? [];
+  const locationSearchThemes = useMemo(
+    () => suppressInternalSearchCopy ? [] : (LOCATION_SEARCH_THEMES[validCitySlug] ?? []),
+    [suppressInternalSearchCopy, validCitySlug]
+  );
+  const serviceIntents = suppressInternalSearchCopy
+    ? []
+    : (LOCATION_SERVICE_INTENTS[validCitySlug] ?? []);
   const locationPath = `/location/${validCitySlug}`;
   const locationCanonicalUrl = useMemo(() => buildSiteUrl(locationPath), [locationPath]);
   const relatedCities = useMemo(() => {

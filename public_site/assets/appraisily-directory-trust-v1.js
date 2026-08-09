@@ -89,8 +89,8 @@
     var title = null;
     var description = null;
     if (path === '/') {
-      title = 'Antique Appraisers Near Me | Check Local Availability by City | Appraisily';
-      description = 'Browse current antique-appraiser listings by city. Verify credentials, scope, fees, service area, and availability directly with each provider.';
+      title = 'Antique Appraisers Near Me | Local & Online Appraisal Options';
+      description = 'Find local antique and furniture appraiser listings by city, compare scope and credentials, or start Appraisily\'s paid online intake for a signed report.';
     } else if (path === '/location/milwaukee/') {
       title = 'Antique Appraisal Options Serving Milwaukee & Nearby Areas';
       description = 'Review the currently listed appraisal option serving Milwaukee and nearby areas, including its Brown Deer location, or start with an online appraisal.';

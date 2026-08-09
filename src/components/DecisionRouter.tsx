@@ -21,9 +21,9 @@ type DecisionRouterProps = {
 const choices = [
   {
     kind: 'signed_report',
-    title: 'Signed report',
-    copy: 'Start a signed report, then upload photos, marks, labels, and notes after secure checkout.',
-    cta: 'Start a signed report',
+    title: 'Online signed report',
+    copy: 'Choose this when photos and documentation are sufficient. After secure checkout, submit photos, marks, labels, and notes for a signed written valuation report.',
+    cta: 'Start a paid online appraisal',
     iconSrc: '/assets/decision-router-report.png',
   },
   {
@@ -36,7 +36,7 @@ const choices = [
   {
     kind: 'local_specialist',
     title: 'Local specialist',
-    copy: 'Find a specialist appraiser near you for in-person review and guidance.',
+    copy: 'Choose a local specialist when the assignment requires an in-person inspection or local expertise.',
     cta: 'Find a local specialist',
     iconSrc: '/assets/decision-router-local.png',
   },

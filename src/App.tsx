@@ -25,29 +25,39 @@ type FeaturedCitySpotlight = {
 
 const FEATURED_CITY_SPOTLIGHTS: readonly FeaturedCitySpotlight[] = [
   {
-    slug: 'des-moines',
-    query: 'Des Moines art appraisals',
-    blurb: 'Check current Des Moines-area availability before deciding between local and online service.'
+    slug: 'philadelphia',
+    query: 'Philadelphia antique appraisers',
+    blurb: 'Compare current Philadelphia listings with a professional online report option.'
+  },
+  {
+    slug: 'wichita',
+    query: 'Wichita antique and vintage item appraisals',
+    blurb: 'Check local availability and distinguish a free photo screen from a professional report.'
+  },
+  {
+    slug: 'new-orleans',
+    query: 'Antique appraisals in New Orleans, LA',
+    blurb: 'Review current local availability or start a written online appraisal.'
+  },
+  {
+    slug: 'raleigh',
+    query: 'Raleigh and North Carolina antique appraisers',
+    blurb: 'Review current Raleigh availability and compare nearby published city pages.'
+  },
+  {
+    slug: 'baltimore',
+    query: 'Baltimore antique furniture appraisal',
+    blurb: 'Match Maryland furniture and estate work to the right report scope.'
+  },
+  {
+    slug: 'pittsburgh',
+    query: 'Pittsburgh antique appraisers near me',
+    blurb: 'Verify the current local listing or choose a professional online report.'
   },
   {
     slug: 'chicago',
-    query: 'Chicago antique appraisers',
-    blurb: 'Check the currently listed Chicago-area options and verify details directly.'
-  },
-  {
-    slug: 'milwaukee',
-    query: 'Antique appraisal Milwaukee',
-    blurb: 'Check the currently listed Milwaukee-area options, including nearby service locations.'
-  },
-  {
-    slug: 'columbus',
-    query: 'Columbus art appraiser',
-    blurb: 'Useful for donation, estate, and personal-property valuation comparisons.'
-  },
-  {
-    slug: 'seattle',
-    query: 'Seattle art appraisal services',
-    blurb: 'Covers Seattle-area antique and art valuation intent with local and online options.'
+    query: 'Antique appraisers near me in Chicago',
+    blurb: 'Check the currently listed Chicago-area option and verify details directly.'
   }
 ] as const;
 
@@ -131,7 +141,11 @@ function App() {
     }
   };
 
-  const primaryCtaUrl = getPrimaryCtaUrl();
+  const primaryCtaUrl = getPrimaryCtaUrl({ service: 'regular' });
+  const homeOnlineAppraisalUrl = getPrimaryCtaUrl({
+    utm_content: 'home_online_conversion_bridge',
+    service: 'regular',
+  });
   const decisionCampaign = 'antique-directory';
   const signedReportUrl = getPrimaryCtaUrl({
     utm_source: 'directory',
@@ -380,8 +394,8 @@ function App() {
   return (
     <>
       <SEO
-        title="Antique Appraisers Near Me — Check Local Availability by City"
-        description="Search current antique-appraiser listings by city for estate, insurance, donation, and personal-property needs. Verify each provider's credentials, scope, fees, and availability directly."
+        title="Antique Appraisers Near Me | Local & Online Options"
+        description="Compare local antique and furniture appraisers by city, or start Appraisily's professional online appraisal intake for a written report."
         schema={[
           generateHomePageSchema(),
           generateServiceSchema(),
@@ -406,10 +420,10 @@ function App() {
                   Independent appraisal directory
                 </span>
                 <h1 className="text-4xl md:text-6xl font-semibold text-foreground leading-[1.08]">
-                  Find <span className="italic text-primary">antique appraiser listings</span> and art valuation options near you
+                  Find <span className="italic text-primary">antique appraisers near you</span> or start online
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl md:max-w-xl mx-auto md:mx-0">
-                  Browse current city listings for donation, estate, insurance, and resale needs. Verify credentials, scope, fees, service area, and availability directly with each provider.
+                  Browse current city listings for estate, insurance, donation, and resale needs. Confirm provider credentials, scope, fees, service area, and availability directly.
                 </p>
 
                 <form
@@ -427,6 +441,32 @@ function App() {
                     Find Appraisers
                   </button>
                 </form>
+
+                <div
+                  data-appraisily-directory-online-conversion-bridge="1"
+                  className="max-w-xl rounded-lg border border-blue-100 bg-blue-50/70 px-4 py-3 text-left"
+                >
+                  <p className="text-sm leading-snug text-slate-700">
+                    Need an in-person inspection or local expertise? Search the directory. When photos and
+                    documentation are sufficient, Appraisily&apos;s paid online appraisal provides a signed written valuation report.
+                  </p>
+                  <a
+                    href={homeOnlineAppraisalUrl}
+                    className="mt-2 inline-flex min-h-11 items-center justify-center rounded-lg bg-slate-950 px-4 py-2.5 text-sm font-bold text-white transition-colors hover:bg-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-300 focus-visible:ring-offset-2"
+                    data-gtm-event="directory_cta"
+                    data-cta-kind="signed_report"
+                    data-gtm-placement="home_online_conversion_bridge"
+                    onClick={() =>
+                      handleDecisionRouterClick(
+                        'signed_report',
+                        'home_online_conversion_bridge',
+                        homeOnlineAppraisalUrl,
+                      )
+                    }
+                  >
+                    Start a paid online appraisal
+                  </a>
+                </div>
 
                 <div className="grid gap-6 pt-8 sm:grid-cols-3">
                   {statsHighlights.map(stat => (
