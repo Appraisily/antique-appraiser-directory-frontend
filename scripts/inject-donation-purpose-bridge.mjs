@@ -32,6 +32,7 @@ const CITY_NAME_OVERRIDES = new Map([
   ['st-paul', 'St. Paul'],
   ['washington-dc', 'Washington, DC'],
 ]);
+const REVIEWED_ZERO_LOCAL_ROUTES = new Set(['indianapolis']);
 
 function escapeHtml(value) {
   return String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -44,6 +45,9 @@ function buildBlock(cityName, citySlug) {
     'https://appraisily.com/qualified-appraisals' +
     `?utm_source=directory&amp;utm_medium=donation_purpose&amp;utm_campaign=${encodeURIComponent(citySlug)}` +
     '&amp;utm_content=donation_report';
+  const localOption = REVIEWED_ZERO_LOCAL_ROUTES.has(citySlug)
+    ? ` for the online option. No ${city} provider profile is currently listed; <a href="/location/" class="font-semibold text-blue-700 underline underline-offset-2 hover:text-blue-800">browse all published locations</a> when an in-person inspection or specific credentials are required.`
+    : ` for the online option, or contact ${indefiniteArticle} ${city} appraiser from the listings below when an in-person inspection or specific credentials are required.`;
   return (
     `<section ${MARKER} aria-labelledby="donation-purpose-heading" class="mb-8 rounded-lg border border-gray-200 bg-gray-50 p-5">` +
     `<h2 id="donation-purpose-heading" class="text-lg font-semibold text-gray-900">Donating an item from ${city}?</h2>` +
@@ -52,8 +56,7 @@ function buildBlock(cityName, citySlug) {
     'contributions require a federal qualified appraisal, which is a specific instrument with its own signer and inspection rules — ' +
     'confirm what yours needs before commissioning any report.</p>' +
     `<p class="mt-3 text-gray-700"><a href="${href}" class="font-semibold text-blue-700 underline underline-offset-2 hover:text-blue-800">` +
-    'See Appraisily&rsquo;s donation appraisal report and what it covers</a> for the online option, or contact ' +
-    `${indefiniteArticle} ${city} appraiser from the listings below when an in-person inspection or specific credentials are required.</p>` +
+    'See Appraisily&rsquo;s donation appraisal report and what it covers</a>' + localOption + '</p>' +
     '</section>\n      '
   );
 }

@@ -22,6 +22,15 @@ import { cities as directoryCities } from '../data/cities.json';
 import nationalServiceIntentCohort from '../../data/national-service-intent-cohort.json';
 import { normalizeAssetUrl } from '../utils/assetUrls';
 
+const hideTinyPlaceholderImage = (target: HTMLImageElement) => {
+  if (target.naturalWidth > 1 || target.naturalHeight > 1) {
+    return;
+  }
+
+  target.style.display = 'none';
+  target.dataset.tinyPlaceholderHidden = 'true';
+};
+
 type DirectoryCity = {
   name: string;
   state: string;
@@ -683,12 +692,12 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Find Minneapolis specialists for antique and art valuation, then choose local in-person appointments or online support.'
   },
   indianapolis: {
-    title: 'Indianapolis Antique Appraisers | Art, Donation & Estate Values',
+    title: 'Indianapolis Appraisal Options | No Local Profile Currently Listed',
     description:
-      'Find Indianapolis antique and art appraisers for donation, estate, insurance, and resale valuation. Compare local providers and online appraisal options.',
-    h1: 'Indianapolis Antique & Art Appraisers',
+      'No local appraiser profile is currently published for Indianapolis. Browse nearby Indiana providers or use Appraisily\'s online photo appraisal options.',
+    h1: 'Indianapolis appraisal options',
     heroDescription:
-      'Review Indianapolis appraisers for art and antiques, then choose the best local or online valuation route for your timeline.'
+      'No local appraiser profile is currently published for Indianapolis. Browse a nearby Indiana directory or use an online photo appraisal.'
   },
   edmonton: {
     title: 'Edmonton Antique Appraisers | Art, Insurance & Estate Values',
@@ -2220,6 +2229,9 @@ export function StandardizedLocationPage() {
                     alt={`${appraiser.name} - Antique Appraiser in ${appraiser.address.city}`}
                     className="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-105"
                     loading="lazy"
+                    onLoad={(e) => {
+                      hideTinyPlaceholderImage(e.currentTarget);
+                    }}
                     onError={(e) => {
                       (e.target as HTMLImageElement).style.display = 'none';
                     }}
@@ -2234,7 +2246,11 @@ export function StandardizedLocationPage() {
 
                 <div className="flex items-center text-sm text-gray-600 mb-2">
                   <MapPin className="h-4 w-4 mr-1 text-gray-400 flex-shrink-0" />
-                  <span className="truncate">{appraiser.address.formatted}</span>
+                  <span className="truncate">
+                    {appraiser.address.formatted ||
+                      [appraiser.address.city, appraiser.address.state].filter(Boolean).join(', ') ||
+                      cityName}
+                  </span>
                 </div>
 
                 {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (

@@ -20,6 +20,7 @@ test('injector derives safe human city names from route slugs and remains idempo
       ['albuquerque', 'Antique &amp; Art Appraisers in Albuquerque, NM', 'Albuquerque', 'an Albuquerque'],
       ['st-john-s', "Antique &amp; Art Appraisers in St. John's, NL", "St. John's", "a St. John's"],
       ['washington-dc', 'Antique &amp; Art Appraisers in Washington, DC', 'Washington, DC', 'a Washington, DC'],
+      ['indianapolis', 'Indianapolis Appraisal Options', 'Indianapolis', null],
     ];
 
     for (const [slug, title] of cases) {
@@ -37,7 +38,12 @@ test('injector derives safe human city names from route slugs and remains idempo
     for (const [slug, _title, cityName, phrase] of cases) {
       const html = fs.readFileSync(path.join(publicDir, 'location', slug, 'index.html'), 'utf8');
       assert.ok(html.includes(`Donating an item from ${cityName}?`), html);
-      assert.ok(html.includes(`contact ${phrase} appraiser`), html);
+      if (phrase) assert.ok(html.includes(`contact ${phrase} appraiser`), html);
+      else {
+        assert.ok(html.includes('No Indianapolis provider profile is currently listed'), html);
+        assert.ok(html.includes('href="/location/"'), html);
+        assert.doesNotMatch(html, /contact an Indianapolis appraiser/);
+      }
       assert.doesNotMatch(html, /&amp;amp;/);
     }
 
