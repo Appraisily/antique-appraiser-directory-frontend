@@ -113,7 +113,9 @@ test('Milwaukee replaces the one-pixel provider image with a disclosed directory
     /appraiser_milwaukee-cedarburg-auction-appraisals-llc_1742202773948_e95lPwg3L\.jpg/,
   );
   assert.ok(
-    document.querySelector('script[src="/assets/location-card-clarity-fix-20260813.js"]'),
+    document.querySelector(
+      'script[src="/assets/location-card-clarity-fix-20260813.js?v=20260814-milwaukee-absolute"]',
+    ),
   );
 });
 
