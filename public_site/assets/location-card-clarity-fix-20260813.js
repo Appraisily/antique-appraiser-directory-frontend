@@ -1,12 +1,47 @@
 (function () {
   'use strict';
 
-  if (window.location.pathname !== '/location/virginia-beach/') return;
+  var pathname = window.location.pathname;
+  var isVirginiaBeach = pathname === '/location/virginia-beach/';
+  var isMilwaukee = pathname === '/location/milwaukee/';
+  if (!isVirginiaBeach && !isMilwaukee) return;
 
   var cityLabel = 'Virginia Beach, Virginia';
+  var milwaukeeProviderSlug = 'cedarburg-auction-appraisals-llc';
+  var milwaukeeIllustration =
+    '/assets/generated-appraiser-profiles/cedarburg-auction-appraisals-llc.svg';
+
+  function repairMilwaukeeCard(card) {
+    var providerLink = card.querySelector(
+      'a[href="/appraiser/' + milwaukeeProviderSlug + '/"]',
+    );
+    if (!(providerLink instanceof HTMLAnchorElement)) return;
+
+    var image = card.querySelector('img');
+    if (image instanceof HTMLImageElement) {
+      image.src = milwaukeeIllustration;
+      image.alt = 'Directory illustration for Cedarburg Auction & Appraisals LLC';
+      image.style.display = '';
+      delete image.dataset.tinyPlaceholderHidden;
+    }
+
+    if (!card.querySelector('[data-directory-illustration-disclosure]')) {
+      var disclosure = document.createElement('p');
+      disclosure.dataset.directoryIllustrationDisclosure = 'true';
+      disclosure.className = 'px-3 py-2 text-xs text-gray-600';
+      disclosure.textContent = 'Directory illustration; not a provider likeness.';
+      var imageShell = image && image.parentElement;
+      if (imageShell) imageShell.insertAdjacentElement('afterend', disclosure);
+    }
+  }
 
   function repairCard(card) {
     if (!(card instanceof HTMLElement)) return;
+
+    if (isMilwaukee) {
+      repairMilwaukeeCard(card);
+      return;
+    }
 
     var image = card.querySelector('img');
     if (image instanceof HTMLImageElement) {

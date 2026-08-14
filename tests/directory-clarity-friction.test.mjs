@@ -112,6 +112,47 @@ test('Milwaukee replaces the one-pixel provider image with a disclosed directory
     providerCard.innerHTML,
     /appraiser_milwaukee-cedarburg-auction-appraisals-llc_1742202773948_e95lPwg3L\.jpg/,
   );
+  assert.ok(
+    document.querySelector('script[src="/assets/location-card-clarity-fix-20260813.js"]'),
+  );
+});
+
+test('Milwaukee reapplies the reviewed illustration after SPA hydration', () => {
+  const brokenImage =
+    'https://assets.appraisily.com/assets/directory/appraiser-images/' +
+    'appraiser_milwaukee-cedarburg-auction-appraisals-llc_1742202773948_e95lPwg3L.jpg';
+  const dom = new JSDOM(
+    `<!doctype html><html><body>
+      <article data-clarity-action="location_appraiser_card">
+        <a href="/appraiser/cedarburg-auction-appraisals-llc/"></a>
+        <div class="relative h-48"><img src="${brokenImage}" alt="Provider"></div>
+        <div class="p-4"><h2>Cedarburg Auction & Appraisals LLC</h2></div>
+      </article>
+    </body></html>`,
+    {
+      runScripts: 'outside-only',
+      url: 'https://antique-appraiser-directory.appraisily.com/location/milwaukee/',
+    },
+  );
+  dom.window.setTimeout = (callback) => {
+    callback();
+    return 0;
+  };
+  dom.window.eval(read('public_site', 'assets', 'location-card-clarity-fix-20260813.js'));
+
+  const card = dom.window.document.querySelector(
+    'article[data-clarity-action="location_appraiser_card"]',
+  );
+  assert.equal(
+    card.querySelector('img')?.getAttribute('src'),
+    '/assets/generated-appraiser-profiles/cedarburg-auction-appraisals-llc.svg',
+  );
+  assert.equal(
+    card.querySelectorAll('[data-directory-illustration-disclosure]').length,
+    1,
+  );
+  assert.match(card.textContent, /Directory illustration; not a provider likeness/);
+  dom.window.close();
 });
 
 test('location card source keeps the whole card navigable and hides tiny loaded placeholders', () => {
