@@ -13,7 +13,7 @@
 
   function repairMilwaukeeCard(card) {
     var providerLink = card.querySelector(
-      'a[href="/appraiser/' + milwaukeeProviderSlug + '/"]',
+      'a[href$="/appraiser/' + milwaukeeProviderSlug + '/"]',
     );
     if (!(providerLink instanceof HTMLAnchorElement)) return;
 

@@ -124,7 +124,7 @@ test('Milwaukee reapplies the reviewed illustration after SPA hydration', () => 
   const dom = new JSDOM(
     `<!doctype html><html><body>
       <article data-clarity-action="location_appraiser_card">
-        <a href="/appraiser/cedarburg-auction-appraisals-llc/"></a>
+        <a href="https://antique-appraiser-directory.appraisily.com/appraiser/cedarburg-auction-appraisals-llc/"></a>
         <div class="relative h-48"><img src="${brokenImage}" alt="Provider"></div>
         <div class="p-4"><h2>Cedarburg Auction & Appraisals LLC</h2></div>
       </article>
