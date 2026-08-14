@@ -96,6 +96,24 @@ test('Virginia Beach repairs the tiny provider image and missing city after SPA 
   dom.window.close();
 });
 
+test('Milwaukee replaces the one-pixel provider image with a disclosed directory illustration', () => {
+  const document = readDocument('public_site', 'location', 'milwaukee', 'index.html');
+  const providerCard = document.querySelector(
+    '#local-appraisers a[href="/appraiser/cedarburg-auction-appraisals-llc/"]',
+  );
+
+  assert.ok(providerCard);
+  assert.equal(
+    providerCard.querySelector('img')?.getAttribute('src'),
+    '/assets/generated-appraiser-profiles/cedarburg-auction-appraisals-llc.svg',
+  );
+  assert.match(providerCard.textContent, /Directory illustration; not a provider likeness/);
+  assert.doesNotMatch(
+    providerCard.innerHTML,
+    /appraiser_milwaukee-cedarburg-auction-appraisals-llc_1742202773948_e95lPwg3L\.jpg/,
+  );
+});
+
 test('location card source keeps the whole card navigable and hides tiny loaded placeholders', () => {
   const source = read('src', 'pages', 'StandardizedLocationPage.tsx');
 
