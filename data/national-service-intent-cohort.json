@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "readiness": {
-    "insurance": false,
+    "insurance": true,
     "taxDeduction": false
   },
   "destinations": {
@@ -49,14 +49,14 @@
       "canonical": "https://antique-appraiser-directory.appraisily.com/location/philadelphia/",
       "robots": "index, follow",
       "h1": "Philadelphia Antique Appraisers &amp; Art Appraisal Services",
-      "targets": ["antiques"]
+      "targets": ["antiques", "insurance"]
     },
     {
       "path": "location/chicago/index.html",
       "canonical": "https://antique-appraiser-directory.appraisily.com/location/chicago/",
       "robots": "index, follow",
       "h1": "Chicago Antique &amp; Art Appraisals",
-      "targets": ["art", "antiques"]
+      "targets": ["art", "antiques", "insurance"]
     },
     {
       "path": "location/baltimore/index.html",
@@ -70,14 +70,14 @@
       "canonical": "https://antique-appraiser-directory.appraisily.com/location/kansas-city/",
       "robots": "index, follow",
       "h1": "Kansas City Antique Appraisers &amp; Art Appraisal Services",
-      "targets": ["art", "antiques"]
+      "targets": ["art", "antiques", "insurance"]
     },
     {
       "path": "location/des-moines/index.html",
       "canonical": "https://antique-appraiser-directory.appraisily.com/location/des-moines/",
       "robots": "index, follow",
       "h1": "Des Moines Antique &amp; Art Appraisals",
-      "targets": ["art"]
+      "targets": ["art", "insurance"]
     },
     {
       "path": "location/boston/index.html",
@@ -91,7 +91,35 @@
       "canonical": "https://antique-appraiser-directory.appraisily.com/location/new-york/",
       "robots": "index, follow",
       "h1": "New York Antique Appraisers &amp; Art Appraisal Services",
-      "targets": ["art", "antiques"]
+      "targets": ["art", "antiques", "insurance"]
+    },
+    {
+      "path": "location/denver/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/denver/",
+      "robots": "",
+      "h1": "Denver Antique Appraisers &amp; Art Appraisal Options",
+      "targets": ["art", "antiques", "insurance"]
+    },
+    {
+      "path": "location/el-paso/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/el-paso/",
+      "robots": "index, follow",
+      "h1": "Antique &amp; Art Appraisers in El Paso, Texas",
+      "targets": ["art", "antiques", "insurance"]
+    },
+    {
+      "path": "location/omaha/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/omaha/",
+      "robots": "noindex, follow",
+      "h1": "Antique &amp; Art Appraisers in Omaha, Nebraska",
+      "targets": ["art", "antiques", "insurance"]
+    },
+    {
+      "path": "location/cincinnati/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/cincinnati/",
+      "robots": "index, follow",
+      "h1": "Cincinnati Personal Property Appraisers for Tax Donation &amp; Antiques",
+      "targets": ["art", "antiques", "insurance"]
     }
   ]
 }

@@ -39,10 +39,10 @@ type DirectoryCity = {
   longitude?: number;
 };
 
-type NationalServiceTarget = 'art' | 'antiques';
+type NationalServiceTarget = 'art' | 'antiques' | 'insurance';
 
 function isNationalServiceTarget(value: string): value is NationalServiceTarget {
-  return value === 'art' || value === 'antiques';
+  return value === 'art' || value === 'antiques' || value === 'insurance';
 }
 
 function isDisplayableSpecialty(specialty: string): boolean {
@@ -2350,7 +2350,9 @@ export function StandardizedLocationPage() {
                 ? 'Choose the appraisal route that fits your item'
                 : nationalServiceTargets[0] === 'art'
                   ? 'Need an online art appraisal?'
-                  : 'Need an online antique appraisal?'}
+                  : nationalServiceTargets[0] === 'insurance'
+                    ? 'Need an online insurance appraisal?'
+                    : 'Need an online antique appraisal?'}
             </h2>
             <p className="mt-3 text-gray-700 leading-relaxed">
               {locationData.appraisers.length > 0
