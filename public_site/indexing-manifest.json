@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-27T21:24:33.903Z",
+  "generatedAt": "2026-08-17T07:03:06.679Z",
   "origin": "https://antique-appraiser-directory.appraisily.com",
-  "sourceSitemapUrls": 423,
-  "retainedSitemapUrls": 423,
+  "sourceSitemapUrls": 418,
+  "retainedSitemapUrls": 418,
   "counts": {
-    "keep-indexable": 423
+    "keep-indexable": 418
   },
   "records": [
     {
@@ -2089,31 +2089,6 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/location/wichita/appraisal-guide/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/open-to-the-public/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
-      "classification": "keep-indexable",
-      "reasons": []
-    },
-    {
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
       "classification": "keep-indexable",
       "reasons": []
     },

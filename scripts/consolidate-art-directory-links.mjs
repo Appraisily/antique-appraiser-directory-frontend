@@ -96,11 +96,6 @@ const publishedLocationPaths = new Set(
     .filter((url) => /^\/location\/[^/]+\/$/.test(url.pathname))
     .map((url) => url.pathname),
 );
-for (const slug of PROFILE_SLUGS) {
-  const target = `${ANTIQUE_ORIGIN}/appraiser/${slug}/`;
-  if (!publishedUrls.has(target)) throw new Error(`Missing migrated profile in sitemap: ${target}`);
-}
-
 function destinationFor(source) {
   const parsed = new URL(source.replace(/&amp;/g, '&'));
   const pathname = parsed.pathname.endsWith('/') ? parsed.pathname : `${parsed.pathname}/`;
@@ -113,7 +108,7 @@ function destinationFor(source) {
   }
   const profileMatch = pathname.match(/^\/appraiser\/([^/]+)\/$/);
   if (profileMatch && PROFILE_SLUGS.has(profileMatch[1])) {
-    return `${ANTIQUE_ORIGIN}${pathname}`;
+    return `${ART_ORIGIN}${pathname}`;
   }
   throw new Error(`No reviewed consolidation destination for ${source}`);
 }

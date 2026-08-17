@@ -6,7 +6,7 @@
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
-    "appraisers": 244,
+    "appraisers": 239,
     "locations": 86
   },
   "feeds": {
@@ -128,8 +128,8 @@
     {
       "slug": "able-auctions-asset-valuation-division",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/able-auctions-asset-valuation-division/",
-      "name": "Able Auctions – Asset Valuation Division",
-      "description": "Able Auctions – Asset Valuation Division has a limited directory listing for Langley, BC. Confirm current details directly with the business.",
+      "name": "Able Auctions \u2013 Asset Valuation Division",
+      "description": "Able Auctions \u2013 Asset Valuation Division has a limited directory listing for Langley, BC. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_kelowna-able-auctions-asset-valuation-division_1742202691842_hqOIZYGOn.jpg",
       "website": "https://www.ableauctions.ca/",
       "address": {
@@ -231,24 +231,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/aether-estate-services/"
-      }
-    },
-    {
-      "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
-      "name": "AFP Art Consulting, LLC",
-      "description": "AFP Art Consulting is a Boston fine-art appraisal and consulting firm offering USPAP-aligned appraisals, research, advisory, and collection management.",
-      "website": "https://afpartconsulting.com/",
-      "address": {
-        "city": "Boston",
-        "region": "MA",
-        "country": "US"
-      },
-      "serviceType": "Fine-art appraisal services",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
-        "verifiedAt": "2026-07-27"
       }
     },
     {
@@ -428,8 +410,8 @@
     {
       "slug": "american-gem-registry-neil-beaty-cgja",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/american-gem-registry-neil-beaty-cgja/",
-      "name": "American Gem Registry – Neil Beaty",
-      "description": "American Gem Registry – Neil Beaty CGJA has a limited directory listing for Arvada, CO. Confirm current details directly with the business.",
+      "name": "American Gem Registry \u2013 Neil Beaty",
+      "description": "American Gem Registry \u2013 Neil Beaty CGJA has a limited directory listing for Arvada, CO. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_denver-american-gem-registry-neil-beaty-cgja_1742201370744_SZWS1VM_2.jpg",
       "website": "https://americangemregistry.com/",
       "address": {
@@ -819,8 +801,8 @@
     {
       "slug": "artifactual-history",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/artifactual-history/",
-      "name": "Artifactual History® Appraisal",
-      "description": "Artifactual History® Appraisal has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
+      "name": "Artifactual History\u00ae Appraisal",
+      "description": "Artifactual History\u00ae Appraisal has a limited directory listing for Washington, DC. Confirm current details directly with the business.",
       "image": "https://images.squarespace-cdn.com/content/v1/55f6394ee4b0304fcdd75b4a/1442228759573-QY8FH0ZNLM474BUTFJCN/favicon.ico?format=100w",
       "website": "https://www.artifactualhistory.com/",
       "address": {
@@ -1425,8 +1407,8 @@
     {
       "slug": "coinfully-specialty-numismatic-appraiser",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/coinfully-specialty-numismatic-appraiser/",
-      "name": "Coinfully – Specialty Numismatic Appraiser",
-      "description": "Coinfully – Specialty Numismatic Appraiser has a limited directory listing for Charlotte, NC. Confirm current details directly with the business.",
+      "name": "Coinfully \u2013 Specialty Numismatic Appraiser",
+      "description": "Coinfully \u2013 Specialty Numismatic Appraiser has a limited directory listing for Charlotte, NC. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_charlotte-coinfully-specialty-numismatic-appraiser_1742201126891_gfEfb_wFu.jpg",
       "website": "https://coinfully.com/",
       "address": {
@@ -1767,8 +1749,8 @@
     {
       "slug": "dorothe-rosen-designer-goldsmith",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/dorothe-rosen-designer-goldsmith/",
-      "name": "Dorothée Rosen Designer Goldsmith",
-      "description": "Dorothée Rosen Designer Goldsmith has a limited directory listing for Halifax, NS. Confirm current details directly with the business.",
+      "name": "Doroth\u00e9e Rosen Designer Goldsmith",
+      "description": "Doroth\u00e9e Rosen Designer Goldsmith has a limited directory listing for Halifax, NS. Confirm current details directly with the business.",
       "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_halifax-dorothe-rosen-designer-goldsmith_1742201604309_VmairVJ8G.jpg",
       "website": "https://dorotheerosen.ca/contact/",
       "address": {
@@ -2248,24 +2230,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/harvest-estate-and-appraisal-services/"
-      }
-    },
-    {
-      "slug": "heidi-vaughan-ma-isa-am",
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
-      "name": "Heidi Vaughan Fine Art",
-      "description": "Heidi Vaughan Fine Art is a Houston art gallery and advisory that provides fine-art appraisals for insurance, estates, donations, and equitable distribution.",
-      "website": "https://heidivaughanfineart.com/about",
-      "address": {
-        "city": "Houston",
-        "region": "TX",
-        "country": "US"
-      },
-      "serviceType": "Fine-art appraisal services",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/heidi-vaughan-ma-isa-am/",
-        "verifiedAt": "2026-07-27"
       }
     },
     {
@@ -3022,24 +2986,6 @@
       }
     },
     {
-      "slug": "open-to-the-public",
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/open-to-the-public/",
-      "name": "Open to the Public",
-      "description": "Open to the Public is a Los Angeles fine-art appraisal and consulting firm specializing in postwar and contemporary art and photography.",
-      "website": "https://opentothepublic.art/",
-      "address": {
-        "city": "Los Angeles",
-        "region": "CA",
-        "country": "US"
-      },
-      "serviceType": "Fine-art appraisal services",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/open-to-the-public/",
-        "verifiedAt": "2026-07-27"
-      }
-    },
-    {
       "slug": "pacific-gem-lab-certified-jewelry-appraisals",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/pacific-gem-lab-certified-jewelry-appraisals/",
       "name": "Pacific Gem Lab - Certified Jewelry Appraisals & Brokering",
@@ -3593,24 +3539,6 @@
       }
     },
     {
-      "slug": "sarah-ann-wilson-art-services",
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
-      "name": "Wilson Art Services, LLC",
-      "description": "Wilson Art Services is a Philadelphia fine-art appraisal and consulting practice offering confidential appraisals, collection planning, and advisory services.",
-      "website": "https://www.wilsonartservices.com/",
-      "address": {
-        "city": "Philadelphia",
-        "region": "PA",
-        "country": "US"
-      },
-      "serviceType": "Fine-art appraisal services",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/sarah-ann-wilson-art-services/",
-        "verifiedAt": "2026-07-27"
-      }
-    },
-    {
       "slug": "sarasota-appraisal-services",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/sarasota-appraisal-services/",
       "name": "Sarasota Antique Appraisals",
@@ -3824,24 +3752,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/spokane-fine-art-and-appraisal/"
-      }
-    },
-    {
-      "slug": "st-lifer-art-inc-international-art-appraiser",
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
-      "name": "St. Lifer Art, Inc.",
-      "description": "St. Lifer Art is a New York fine-art appraisal firm specializing in nineteenth-, twentieth-, and twenty-first-century paintings, prints, photography, posters, and sculpture.",
-      "website": "https://stliferart.com/",
-      "address": {
-        "city": "New York",
-        "region": "NY",
-        "country": "US"
-      },
-      "serviceType": "Fine-art appraisal services",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/st-lifer-art-inc-international-art-appraiser/",
-        "verifiedAt": "2026-07-27"
       }
     },
     {
@@ -4810,11 +4720,11 @@
       "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
-          "name": "Dorothée Rosen Designer Goldsmith",
+          "name": "Doroth\u00e9e Rosen Designer Goldsmith",
           "url": "https://antique-appraiser-directory.appraisily.com/appraiser/dorothe-rosen-designer-goldsmith/",
           "slug": "dorothe-rosen-designer-goldsmith",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_halifax-dorothe-rosen-designer-goldsmith_1742201604309_VmairVJ8G.jpg",
-          "description": "Dorothée Rosen Designer Goldsmith has a limited directory listing for Halifax, NS. Confirm current details directly with the business.",
+          "description": "Doroth\u00e9e Rosen Designer Goldsmith has a limited directory listing for Halifax, NS. Confirm current details directly with the business.",
           "publicRouteAvailable": true
         }
       ],

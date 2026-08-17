@@ -3,9 +3,9 @@
   "policyVersion": 1,
   "summary": {
     "changedProfiles": 1061,
-    "indexable": 244,
-    "suppressed": 817,
-    "appraiserIndexEntries": 244
+    "indexable": 239,
+    "suppressed": 822,
+    "appraiserIndexEntries": 239
   },
   "providers": [
     {
@@ -166,7 +166,7 @@
     },
     {
       "slug": "2-doyle-dc-mid-atlantic-auctions-appraisals",
-      "name": "2 DOYLE – DC / Mid Atlantic Auctions & Appraisals",
+      "name": "2 DOYLE \u2013 DC / Mid Atlantic Auctions & Appraisals",
       "publicationStatus": "under_review",
       "reason": "unresolved",
       "sourceUrl": "",
@@ -179,7 +179,7 @@
     },
     {
       "slug": "2-fontaines-auction-gallery",
-      "name": "2. Fontaine’s Auction Gallery",
+      "name": "2. Fontaine\u2019s Auction Gallery",
       "publicationStatus": "under_review",
       "reason": "needs_review",
       "sourceUrl": "",
@@ -470,7 +470,7 @@
     },
     {
       "slug": "able-auctions-asset-valuation-division",
-      "name": "Able Auctions – Asset Valuation Division",
+      "name": "Able Auctions \u2013 Asset Valuation Division",
       "publicationStatus": "limited",
       "reason": "direct_match",
       "sourceUrl": "https://www.ableauctions.ca/",
@@ -860,7 +860,7 @@
     },
     {
       "slug": "american-gem-registry-neil-beaty-cgja",
-      "name": "American Gem Registry – Neil Beaty CGJA",
+      "name": "American Gem Registry \u2013 Neil Beaty CGJA",
       "publicationStatus": "limited",
       "reason": "direct_match",
       "sourceUrl": "https://americangemregistry.com/",
@@ -1432,7 +1432,7 @@
     },
     {
       "slug": "appraiseitnow-remote-in-person-options",
-      "name": "AppraiseItNow – Remote & In-Person Options",
+      "name": "AppraiseItNow \u2013 Remote & In-Person Options",
       "publicationStatus": "under_review",
       "reason": "direct_match",
       "sourceUrl": "",
@@ -1745,7 +1745,7 @@
     },
     {
       "slug": "artifactual-history",
-      "name": "Artifactual History® Appraisal",
+      "name": "Artifactual History\u00ae Appraisal",
       "publicationStatus": "limited",
       "reason": "direct_match",
       "sourceUrl": "https://www.artifactualhistory.com/",
@@ -3592,7 +3592,7 @@
     },
     {
       "slug": "coinfully-specialty-numismatic-appraiser",
-      "name": "Coinfully – Specialty Numismatic Appraiser",
+      "name": "Coinfully \u2013 Specialty Numismatic Appraiser",
       "publicationStatus": "limited",
       "reason": "direct_match",
       "sourceUrl": "https://coinfully.com/",
@@ -4325,7 +4325,7 @@
     },
     {
       "slug": "dorothe-rosen-designer-goldsmith",
-      "name": "Dorothée Rosen Designer Goldsmith",
+      "name": "Doroth\u00e9e Rosen Designer Goldsmith",
       "publicationStatus": "limited",
       "reason": "direct_match",
       "sourceUrl": "https://dorotheerosen.ca/contact/",
@@ -7561,7 +7561,7 @@
     },
     {
       "slug": "la-mine-dor-jewellers",
-      "name": "La Mine d’Or Jewellers",
+      "name": "La Mine d\u2019Or Jewellers",
       "publicationStatus": "under_review",
       "reason": "missing_website",
       "sourceUrl": "",
@@ -10137,7 +10137,7 @@
     },
     {
       "slug": "paul-prince-collector-vehicle-appraiser",
-      "name": "Paul Prince – Collector Vehicle Appraiser",
+      "name": "Paul Prince \u2013 Collector Vehicle Appraiser",
       "publicationStatus": "under_review",
       "reason": "unresolved",
       "sourceUrl": "",
@@ -10658,7 +10658,7 @@
     },
     {
       "slug": "prestige-estate-services-boston-office",
-      "name": "Prestige Estate Services – Boston Office",
+      "name": "Prestige Estate Services \u2013 Boston Office",
       "publicationStatus": "under_review",
       "reason": "direct_match",
       "sourceUrl": "",
@@ -10684,7 +10684,7 @@
     },
     {
       "slug": "prestige-estate-services-san-antonio-team",
-      "name": "Prestige Estate Services – San Antonio Team",
+      "name": "Prestige Estate Services \u2013 San Antonio Team",
       "publicationStatus": "under_review",
       "reason": "unresolved",
       "sourceUrl": "",
@@ -12215,8 +12215,8 @@
     {
       "slug": "sarah-ann-wilson-art-services",
       "name": "Wilson Art Services, LLC",
-      "publicationStatus": "verified",
-      "reason": "manual_official_website_review",
+      "publicationStatus": "under_review",
+      "reason": "canonical_on_art_directory",
       "sourceUrl": "https://www.wilsonartservices.com/",
       "sourceType": "official_business_website",
       "verifiedAt": "2026-07-15",
@@ -12230,11 +12230,12 @@
         "appraisal_use_cases",
         "qualification"
       ],
-      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
       "sourceUrls": [
         "https://www.wilsonartservices.com/"
       ],
-      "canonicalProviderId": "provider:wilson-art-services"
+      "canonicalProviderId": "provider:wilson-art-services",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/"
     },
     {
       "slug": "sarasota-appraisal-services",
@@ -14504,8 +14505,8 @@
     {
       "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
       "name": "AFP Art Consulting, LLC",
-      "publicationStatus": "verified",
-      "reason": "manual_official_website_review",
+      "publicationStatus": "under_review",
+      "reason": "canonical_on_art_directory",
       "sourceUrl": "https://afpartconsulting.com/",
       "sourceType": "official_business_website",
       "verifiedAt": "2026-07-15",
@@ -14519,19 +14520,20 @@
         "appraisal_use_cases",
         "qualification"
       ],
-      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
       "canonicalProviderId": "provider:afp-art-consulting",
       "sourceUrls": [
         "https://afpartconsulting.com/",
         "https://afpartconsulting.com/bio",
         "https://afpartconsulting.com/art-consulting-services"
-      ]
+      ],
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/"
     },
     {
       "slug": "heidi-vaughan-ma-isa-am",
       "name": "Heidi Vaughan Fine Art",
-      "publicationStatus": "verified",
-      "reason": "manual_official_website_review",
+      "publicationStatus": "under_review",
+      "reason": "canonical_on_art_directory",
       "sourceUrl": "https://heidivaughanfineart.com/about",
       "sourceType": "official_business_website",
       "verifiedAt": "2026-07-15",
@@ -14545,18 +14547,19 @@
         "appraisal_use_cases",
         "qualification"
       ],
-      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
       "canonicalProviderId": "provider:heidi-vaughan-ma-am",
       "sourceUrls": [
         "https://heidivaughanfineart.com/about",
         "https://heidivaughanfineart.com/gallery-team"
-      ]
+      ],
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/"
     },
     {
       "slug": "open-to-the-public",
       "name": "Open to the Public",
-      "publicationStatus": "verified",
-      "reason": "manual_official_website_review",
+      "publicationStatus": "under_review",
+      "reason": "canonical_on_art_directory",
       "sourceUrl": "https://opentothepublic.art/",
       "sourceType": "official_business_website",
       "verifiedAt": "2026-07-15",
@@ -14570,19 +14573,20 @@
         "appraisal_use_cases",
         "qualification"
       ],
-      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/open-to-the-public/",
       "canonicalProviderId": "provider:open-to-the-public",
       "sourceUrls": [
         "https://opentothepublic.art/",
         "https://opentothepublic.art/about/",
         "https://opentothepublic.art/art-appraisals/"
-      ]
+      ],
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/"
     },
     {
       "slug": "st-lifer-art-inc-international-art-appraiser",
       "name": "St. Lifer Art, Inc.",
-      "publicationStatus": "verified",
-      "reason": "manual_official_website_review",
+      "publicationStatus": "under_review",
+      "reason": "canonical_on_art_directory",
       "sourceUrl": "https://stliferart.com/",
       "sourceType": "official_business_website",
       "verifiedAt": "2026-07-15",
@@ -14596,13 +14600,14 @@
         "appraisal_use_cases",
         "qualification"
       ],
-      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
       "canonicalProviderId": "provider:st-lifer-fine-art",
       "sourceUrls": [
         "https://stliferart.com/",
         "https://stliferart.com/about-the-appraiser/",
         "https://stliferart.com/appraisals/appraisal-services/"
-      ]
+      ],
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/"
     }
   ]
 }
