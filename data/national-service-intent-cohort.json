@@ -120,6 +120,27 @@
       "robots": "index, follow",
       "h1": "Cincinnati Personal Property Appraisers for Tax Donation &amp; Antiques",
       "targets": ["art", "antiques", "insurance"]
+    },
+    {
+      "path": "location/fort-worth/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/fort-worth/",
+      "robots": "index, follow",
+      "h1": "Antique &amp; Art Appraisers in Fort Worth, Texas",
+      "targets": ["art", "antiques", "insurance"]
+    },
+    {
+      "path": "location/dallas/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/dallas/",
+      "robots": "noindex, follow",
+      "h1": "Antique &amp; Art Appraisers in Dallas, Texas",
+      "targets": ["art", "antiques", "insurance"]
+    },
+    {
+      "path": "location/arlington/index.html",
+      "canonical": "https://antique-appraiser-directory.appraisily.com/location/arlington/",
+      "robots": "index, follow",
+      "h1": "Antique &amp; Art Appraisers in Arlington, Texas",
+      "targets": ["art", "antiques", "insurance"]
     }
   ]
 }
