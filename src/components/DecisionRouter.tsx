@@ -1,8 +1,15 @@
 import React from 'react';
 import { ChevronRight, ShieldCheck } from 'lucide-react';
 
-export const DECISION_ROUTER_VARIANT = 'bw_icons_v1';
+export const DECISION_ROUTER_VARIANT = 'intent_jobs_v1';
 export const DECISION_ROUTER_ICON_SET = 'custom_20260514';
+
+type OccasionLink = {
+  kind: string;
+  href: string;
+  label: string;
+  detail: string;
+};
 
 type DecisionRouterProps = {
   signedReportUrl: string;
@@ -12,6 +19,9 @@ type DecisionRouterProps = {
   professionalSampleUrl: string;
   instantSampleUrl: string;
   campaign: string;
+  inheritedUrl?: string;
+  insuranceUrl?: string;
+  donationUrl?: string;
   className?: string;
   onCtaClick?: (ctaKind: string, placement: string, destination: string) => void;
   onLocalClick?: (event: React.MouseEvent<HTMLAnchorElement>) => void;
@@ -21,24 +31,24 @@ type DecisionRouterProps = {
 const choices = [
   {
     kind: 'signed_report',
-    title: 'Online signed report',
-    copy: 'Choose this when photos and documentation are sufficient. After secure checkout, submit photos, marks, labels, and notes for a signed written valuation report.',
+    title: 'Need a signed report without a visit',
+    copy: 'Choose this when photos and documentation are sufficient. After checkout, submit photos, marks, labels, and notes for a signed written valuation report.',
     cta: 'Start a paid online appraisal',
     iconSrc: '/assets/decision-router-report.png',
   },
   {
-    kind: 'screener',
-    title: 'Free screener',
-    copy: 'Use Screener for a first-pass category, evidence, and next-step read.',
-    cta: 'Try the free screener',
-    iconSrc: '/assets/decision-router-screener.png',
-  },
-  {
     kind: 'local_specialist',
-    title: 'Local specialist',
-    copy: 'Choose a local specialist when the assignment requires an in-person inspection or local expertise.',
+    title: 'Need someone in this city',
+    copy: 'Choose a local specialist when the assignment requires an in-person inspection or local expertise. Confirm credentials, scope, fees, and availability directly.',
     cta: 'Find a local specialist',
     iconSrc: '/assets/decision-router-local.png',
+  },
+  {
+    kind: 'screener',
+    title: 'Not sure which report you need',
+    copy: 'Use a first look for category, evidence, and the next step. This is not a signed appraisal.',
+    cta: 'Try a first look',
+    iconSrc: '/assets/decision-router-screener.png',
   },
 ] as const;
 
@@ -48,6 +58,9 @@ export function DecisionRouter({
   localHref,
   localLabel,
   professionalSampleUrl,
+  inheritedUrl,
+  insuranceUrl,
+  donationUrl,
   campaign,
   className = '',
   onCtaClick,
@@ -61,6 +74,32 @@ export function DecisionRouter({
     screener: screenerUrl,
     local_specialist: localHref,
   };
+  const occasions: OccasionLink[] = [
+    inheritedUrl
+      ? {
+          kind: 'inherited',
+          href: inheritedUrl,
+          label: 'Inherited an object',
+          detail: 'Get a usable signed report without a house visit.',
+        }
+      : null,
+    insuranceUrl
+      ? {
+          kind: 'insurance',
+          href: insuranceUrl,
+          label: 'Need it for insurance',
+          detail: 'Replacement-value documentation for coverage or claims.',
+        }
+      : null,
+    donationUrl
+      ? {
+          kind: 'donation',
+          href: donationUrl,
+          label: 'Donating an item',
+          detail: 'See the donation report and what it covers.',
+        }
+      : null,
+  ].filter((item): item is OccasionLink => Boolean(item));
 
   React.useEffect(() => {
     if (!onRouterView || hasTrackedViewRef.current) return;
@@ -98,17 +137,18 @@ export function DecisionRouter({
     <section
       ref={routerRef}
       data-appraisily-directory-decision-router="1"
+      data-appraisily-directory-intent-chooser="1"
       data-router-variant={DECISION_ROUTER_VARIANT}
       data-icon-set={DECISION_ROUTER_ICON_SET}
       className={`scroll-mt-24 rounded-xl border border-slate-200 bg-white p-6 shadow-[0_18px_44px_rgba(15,23,42,0.07)] md:p-8 ${className}`}
     >
       <div className="max-w-3xl">
-        <p className="text-sm font-bold uppercase tracking-[0.12em] text-slate-500">Choose your next step</p>
+        <p className="text-sm font-bold uppercase tracking-[0.12em] text-slate-500">Choose the next step</p>
         <h2 className="mt-3 text-[1.75rem] font-bold leading-tight text-slate-950 md:text-4xl">
-          Match the appraisal path to the decision you need to make
+          What do you need from this page?
         </h2>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-slate-700 md:text-lg">
-          Use this directory when local or specialist review matters.
+          Use this directory when an in-person inspection or local expertise matters. Use Appraisily when photos and documentation are sufficient for a signed written valuation report.
         </p>
       </div>
 
@@ -161,6 +201,26 @@ export function DecisionRouter({
         })}
       </div>
 
+      {occasions.length > 0 ? (
+        <div className="mt-6 grid grid-cols-1 gap-3 md:grid-cols-3">
+          {occasions.map((occasion) => (
+            <a
+              key={occasion.kind}
+              href={occasion.href}
+              className="block rounded-lg border border-slate-200 bg-slate-50 p-4 text-inherit no-underline transition-colors hover:bg-white hover:border-slate-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300 focus-visible:ring-offset-2"
+              data-gtm-event="directory_cta"
+              data-cta-kind={occasion.kind}
+              data-gtm-placement="intent_occasion"
+              data-gtm-campaign={campaign}
+              onClick={() => onCtaClick?.(occasion.kind, 'intent_occasion', occasion.href)}
+            >
+              <p className="font-bold text-slate-950">{occasion.label}</p>
+              <p className="mt-1 text-sm leading-relaxed text-slate-600">{occasion.detail}</p>
+            </a>
+          ))}
+        </div>
+      ) : null}
+
       <div
         data-appraisily-directory-sample-proof="1"
         className="mt-6 rounded-lg border border-slate-200 bg-slate-50 p-4 md:flex md:items-center md:justify-between md:gap-5"
@@ -170,9 +230,9 @@ export function DecisionRouter({
             <ShieldCheck className="h-7 w-7" aria-hidden="true" />
           </div>
           <div>
-            <h3 className="font-bold text-slate-950">Proof you can trust</h3>
+            <h3 className="font-bold text-slate-950">See a sample signed report</h3>
             <p className="mt-1 text-sm leading-relaxed text-slate-600">
-              Sample reports, credentials, and how our process works.
+              Proof of the written deliverable, before you choose a local listing or an online report.
             </p>
           </div>
         </div>

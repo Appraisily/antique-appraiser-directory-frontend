@@ -35,6 +35,7 @@ package scripts and operator runbooks call them directly.
 - `repair-faq-schema.mjs`: regenerates FAQ JSON-LD from visible FAQ sections and removes unsupported FAQ claims.
 - `repair-short-mobile-compositing.mjs`: applies the 390x500 solid-nav/hero fallback for Chromium compositing stability.
 - `repair-internal-location-links.mjs`: repairs links to missing location/profile routes without creating thin pages.
+- `inject-donation-purpose-bridge.mjs` and `inject-directory-intent-chooser.mjs`: targeted marked-section patches on city/hub HTML, not full-page rewrites.
 - `check-images.js`, `check-image-coverage.js`: legacy image diagnostics.
 
 ## Removed Build Path

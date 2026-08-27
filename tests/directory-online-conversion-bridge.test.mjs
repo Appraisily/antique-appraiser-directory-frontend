@@ -86,7 +86,7 @@ test('hydrated home retains the same claims, destination builder, and event conv
     assert.ok(appSource.includes(snippet), `missing hydrated-home contract: ${snippet}`);
   }
 
-  assert.match(routerSource, /Online signed report/);
+  assert.match(routerSource, /Need a signed report without a visit/);
   assert.match(routerSource, /requires an in-person inspection or local expertise/);
   assert.match(routerSource, /Start a paid online appraisal/);
 });

@@ -1526,6 +1526,9 @@ export function StandardizedLocationPage() {
   // screener/regular flow. This also gives /qualified-appraisals topically
   // relevant inbound links, which it otherwise lacks almost entirely.
   const donationReportUrl = `https://appraisily.com/qualified-appraisals?utm_source=directory&utm_medium=donation_purpose&utm_campaign=${decisionCampaign}&utm_content=donation_report`;
+  const inheritedUrl = `https://appraisily.com/inherited-objects?utm_source=directory&utm_medium=intent_chooser&utm_campaign=${decisionCampaign}&utm_content=inherited`;
+  const insuranceUrl = `https://appraisily.com/insurance?utm_source=directory&utm_medium=intent_chooser&utm_campaign=${decisionCampaign}&utm_content=insurance`;
+  const donationChooserUrl = `https://appraisily.com/qualified-appraisals?utm_source=directory&utm_medium=intent_chooser&utm_campaign=${decisionCampaign}&utm_content=donation`;
 
   const generateLocationFaqSchema = () => {
     const baseFaqs = [
@@ -2095,6 +2098,9 @@ export function StandardizedLocationPage() {
           localLabel="Find a local specialist"
           professionalSampleUrl={professionalSampleUrl}
           instantSampleUrl={instantSampleUrl}
+          inheritedUrl={inheritedUrl}
+          insuranceUrl={insuranceUrl}
+          donationUrl={donationChooserUrl}
           campaign={decisionCampaign}
           className="mb-8"
           onCtaClick={handleDecisionRouterClick}

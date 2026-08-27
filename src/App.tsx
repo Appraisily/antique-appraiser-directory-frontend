@@ -157,6 +157,9 @@ function App() {
   const screenerUrl = `https://appraisily.com/screener?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=screener`;
   const professionalSampleUrl = `https://appraisily.com/sample-reports/professional?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=sample_professional`;
   const instantSampleUrl = `https://appraisily.com/sample-reports/instant?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=sample_instant`;
+  const inheritedUrl = `https://appraisily.com/inherited-objects?utm_source=directory&utm_medium=intent_chooser&utm_campaign=${decisionCampaign}&utm_content=inherited`;
+  const insuranceUrl = `https://appraisily.com/insurance?utm_source=directory&utm_medium=intent_chooser&utm_campaign=${decisionCampaign}&utm_content=insurance`;
+  const donationUrl = `https://appraisily.com/qualified-appraisals?utm_source=directory&utm_medium=intent_chooser&utm_campaign=${decisionCampaign}&utm_content=donation`;
 
   const totalCities = cities.length;
   const totalStates = new Set(cities.map(city => city.state)).size;
@@ -448,7 +451,7 @@ function App() {
                 >
                   <p className="text-sm leading-snug text-slate-700">
                     Need an in-person inspection or local expertise? Search the directory. When photos and
-                    documentation are sufficient, Appraisily&apos;s paid online appraisal provides a signed written valuation report.
+                    documentation are sufficient, Appraisily&apos;s paid online appraisal provides a signed written valuation report. Inherited, insurance, and donation jobs use a different report path.
                   </p>
                   <a
                     href={homeOnlineAppraisalUrl}
@@ -466,6 +469,12 @@ function App() {
                   >
                     Start a paid online appraisal
                   </a>
+                  <div className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-sm font-semibold text-blue-800">
+                    <a href={inheritedUrl} onClick={() => handleDecisionRouterClick('inherited', 'home_online_conversion_bridge', inheritedUrl)}>Inherited an object</a>
+                    <a href={insuranceUrl} onClick={() => handleDecisionRouterClick('insurance', 'home_online_conversion_bridge', insuranceUrl)}>Need it for insurance</a>
+                    <a href={donationUrl} onClick={() => handleDecisionRouterClick('donation', 'home_online_conversion_bridge', donationUrl)}>Donating an item</a>
+                    <a href={professionalSampleUrl} onClick={() => handleDecisionRouterClick('sample_report', 'home_online_conversion_bridge', professionalSampleUrl)}>See a sample signed report</a>
+                  </div>
                 </div>
 
                 <div className="grid gap-6 pt-8 sm:grid-cols-3">
@@ -515,6 +524,9 @@ function App() {
               localLabel="Find a local specialist"
               professionalSampleUrl={professionalSampleUrl}
               instantSampleUrl={instantSampleUrl}
+              inheritedUrl={inheritedUrl}
+              insuranceUrl={insuranceUrl}
+              donationUrl={donationUrl}
               campaign={decisionCampaign}
               onCtaClick={handleDecisionRouterClick}
               onRouterView={handleDecisionRouterView}
@@ -575,9 +587,9 @@ function App() {
             {featuredCitySpotlights.length > 0 && (
               <div className="mb-10 rounded-3xl border border-blue-100 bg-white p-6 shadow-sm">
                 <div className="max-w-3xl">
-                  <h3 className="text-2xl font-semibold text-gray-900">Most searched antique appraisal cities</h3>
+                  <h3 className="text-2xl font-semibold text-gray-900">Browse antique appraisal cities</h3>
                   <p className="mt-2 text-gray-600">
-                    These city pages align with the strongest &quot;near me&quot; and city-level searches currently gaining traction, so they are the best starting point if you want local antique or art appraisal options fast.
+                    Use a city page when you need local listings for that city. Generic near-me searches should start on this directory hub, then move to a city only after you pick one.
                   </p>
                 </div>
                 <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-5">
