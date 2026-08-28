@@ -70,6 +70,12 @@ test('injector places a job-language chooser above listings and stays idempotent
     assert.match(indianapolis, /href="\/location\/"/);
     assert.match(indianapolis, /Browse published locations/);
 
+    const locationIndex = fs.readFileSync(path.join(publicDir, 'location/index.html'), 'utf8');
+    assert.match(locationIndex, /data-gtm-event="directory_cta"/);
+    assert.match(locationIndex, /data-cta-kind="inherited"/);
+    assert.match(locationIndex, /data-cta-kind="signed_report"/);
+    assert.match(locationIndex, /data-gtm-placement="intent_occasion"/);
+
     const check = runInjector(publicDir, '--check');
     assert.equal(check.status, 0, check.stderr);
     assert.equal(JSON.parse(check.stdout).changedFiles, 0);
@@ -102,4 +108,17 @@ test('live home keeps local listings first and adds occasion paths', () => {
   assert.match(text, /Need it for insurance/);
   assert.match(text, /Donating an item/);
   assert.match(text, /See a sample signed report/);
+});
+
+test('live location index chooser links carry directory_cta attributes', () => {
+  const html = fs.readFileSync(path.join(repoRoot, 'public_site/location/index.html'), 'utf8');
+  const document = new JSDOM(html).window.document;
+  const chooser = document.querySelector('[data-appraisily-directory-intent-chooser="1"]');
+  assert.ok(chooser);
+  const links = [...chooser.querySelectorAll('a[data-gtm-event="directory_cta"]')];
+  assert.equal(links.length, 5);
+  assert.deepEqual(
+    links.map((link) => link.getAttribute('data-cta-kind')),
+    ['inherited', 'insurance', 'donation', 'sample_report', 'signed_report'],
+  );
 });

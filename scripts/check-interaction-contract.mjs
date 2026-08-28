@@ -17,7 +17,7 @@ const analyticsTrackerSource = fs.readFileSync(path.join(root, 'src/components/A
 const posthogTrackerSource = fs.readFileSync(path.join(root, 'src/components/PosthogTracker.tsx'), 'utf8');
 const syntheticTrafficSource = fs.readFileSync(path.join(root, 'src/utils/syntheticTraffic.ts'), 'utf8');
 const staticBootstrapSource = fs.readFileSync(
-  path.join(root, 'public_site/assets/appraisily-directory-telemetry-20260804-v1.js'),
+  path.join(root, 'public_site/assets/appraisily-directory-telemetry-20260828-v1.js'),
   'utf8',
 );
 const nginxSource = fs.readFileSync(path.join(root, 'nginx.conf'), 'utf8');
@@ -183,13 +183,15 @@ for (const snippet of [
   "return kind === 'posthog' || (vendorExcluded && Boolean(kind))",
   "data-appraisily-telemetry-owner",
   "cleanParams.journey_id = journeyId",
+  "click_owner: 'directory_static_bootstrap'",
+  "document.addEventListener('click', onDirectoryCtaClick, true)",
 ]) {
   if (!staticBootstrapSource.includes(snippet)) {
     failures.push(`Canonical static telemetry bootstrap must include ${JSON.stringify(snippet)}.`);
   }
 }
 if (!nginxSource.includes(
-  "sub_filter '<head>' '<head><script src=\"/assets/appraisily-directory-telemetry-20260804-v1.js\"",
+  "sub_filter '<head>' '<head><script src=\"/assets/appraisily-directory-telemetry-20260828-v1.js\"",
 )) {
   failures.push('Nginx must inject the governed telemetry bootstrap before legacy page scripts.');
 }

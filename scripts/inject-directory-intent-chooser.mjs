@@ -177,17 +177,24 @@ function buildHomeSupplement(campaign) {
   );
 }
 
+function indexLink(label, href, kind, placement) {
+  return (
+    `<a href="${href}" data-gtm-event="directory_cta" data-cta-kind="${kind}" data-gtm-placement="${placement}">` +
+    `${label}</a>`
+  );
+}
+
 function buildLocationIndexSupplement(campaign) {
   return (
     `<section ${MARKER} class="card" aria-labelledby="intent-chooser-heading" style="margin-top:16px;">` +
     '<h2 id="intent-chooser-heading" style="margin:0 0 10px;font-size:18px;">What do you need from this directory?</h2>' +
     '<p style="margin:0 0 12px;">Pick a city when you need a local specialist. Use Appraisily when photos and documentation are sufficient for a signed written report.</p>' +
     '<p style="display:flex;flex-wrap:wrap;gap:12px;margin:0;">' +
-    `<a href="${taggedUrl('/inherited-objects', campaign, 'inherited')}">Inherited an object</a>` +
-    `<a href="${taggedUrl('/insurance', campaign, 'insurance')}">Need it for insurance</a>` +
-    `<a href="${taggedUrl('/qualified-appraisals', campaign, 'donation')}">Donating an item</a>` +
-    `<a href="${taggedUrl('/sample-reports/professional', campaign, 'sample_report')}">See a sample signed report</a>` +
-    `<a href="${taggedUrl('/start', campaign, 'signed_report', '&amp;service=regular')}">Start a paid online appraisal</a>` +
+    indexLink('Inherited an object', taggedUrl('/inherited-objects', campaign, 'inherited'), 'inherited', 'intent_occasion') +
+    indexLink('Need it for insurance', taggedUrl('/insurance', campaign, 'insurance'), 'insurance', 'intent_occasion') +
+    indexLink('Donating an item', taggedUrl('/qualified-appraisals', campaign, 'donation'), 'donation', 'intent_occasion') +
+    indexLink('See a sample signed report', taggedUrl('/sample-reports/professional', campaign, 'sample_report'), 'sample_report', 'sample_proof') +
+    indexLink('Start a paid online appraisal', taggedUrl('/start', campaign, 'signed_report', '&amp;service=regular'), 'signed_report', 'intent_chooser') +
     '</p>' +
     '</section>'
   );
