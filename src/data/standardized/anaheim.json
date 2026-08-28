@@ -68,6 +68,69 @@
       }
     },
     {
+      "id": "anaheim-oc-jewelry-appraisers",
+      "name": "OC Jewelry Appraisers",
+      "slug": "oc-jewelry-appraisers",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5a6bae5ad55b41bea2fcfe7c/1517009897129-ZXFB3NI2XCBACKFSITVQ/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Anaheim",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Anaheim, CA"
+      },
+      "contact": {
+        "phone": "9498805141",
+        "email": "ocjewelryappraisers@gmail.com",
+        "website": "https://www.ocjewelryappraisers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "OC Jewelry Appraisers offers antique and personal property appraisal services serving Anaheim, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://www.ocjewelryappraisers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.ocjewelryappraisers.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJ59BAcsvf3IAR6LwXJBGZDMg",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
+    },
+    {
       "id": "anaheim-reilly-clark-fine-art-and-appraisals",
       "name": "Reilly Clark Fine Art & Appraisals",
       "slug": "reilly-clark-fine-art-and-appraisals",

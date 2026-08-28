@@ -1,6 +1,68 @@
 {
   "appraisers": [
     {
+      "id": "manchester-chamberlain-antiques",
+      "name": "Chamberlain Antiques, Auctioneers, and Estate Services",
+      "slug": "chamberlain-antiques",
+      "imageUrl": "https://chamberlainantiques.com/wp-content/uploads/nh-auctioneers-license-150x150.png",
+      "address": {
+        "street": "",
+        "city": "Manchester",
+        "state": "NH",
+        "zip": "",
+        "formatted": "Manchester, NH"
+      },
+      "contact": {
+        "phone": "603-769-3390",
+        "email": "",
+        "website": "https://chamberlainantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Chamberlain Antiques, Auctioneers, and Estate Services offers antique and personal property appraisal services serving Manchester, NH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://chamberlainantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://chamberlainantiques.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJgx6HH_vJ44kRoX4Z0bqSqjM",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
+    },
+    {
       "id": "manchester-devin-moisan-auctioneers-inc-antiques-auctions-and-appraisals",
       "name": "Devin Moisan Auctioneers, Inc.",
       "slug": "devin-moisan-auctioneers-inc-antiques-auctions-and-appraisals",

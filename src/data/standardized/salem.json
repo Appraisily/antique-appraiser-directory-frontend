@@ -1,0 +1,66 @@
+{
+  "appraisers": [
+    {
+      "id": "salem-kilgore-auctioneers-and-appraisers-llc",
+      "name": "Kilgore Auctioneers and Appraisers LLC",
+      "slug": "kilgore-auctioneers-and-appraisers-llc",
+      "imageUrl": "https://kilgoreauctioneers.com/wp-content/uploads/2025/04/logo.png",
+      "address": {
+        "street": "",
+        "city": "Salem",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Salem, OR"
+      },
+      "contact": {
+        "phone": "9712397021",
+        "email": "",
+        "website": "https://kilgoreauctioneers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Kilgore Auctioneers and Appraisers LLC offers antique and personal property appraisal services serving Salem, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://kilgoreauctioneers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://kilgoreauctioneers.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJ4edReFdi84ARV5tGNg83wsk",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
+    }
+  ]
+}

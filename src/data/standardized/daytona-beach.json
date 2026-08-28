@@ -67,6 +67,68 @@
           "direct phone found"
         ]
       }
+    },
+    {
+      "id": "daytona-beach-jeanne-hawk-fine-jewelry-appraisals-llc",
+      "name": "Jeanne Hawk Fine Jewelry Appraisals Daytona",
+      "slug": "jeanne-hawk-fine-jewelry-appraisals-llc",
+      "imageUrl": "https://hawkjewelryappraisals.com/wp-content/uploads/2016/12/hawk_Favicon.png",
+      "address": {
+        "street": "",
+        "city": "Daytona Beach",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Daytona Beach, FL"
+      },
+      "contact": {
+        "phone": "404-840-126420",
+        "email": "",
+        "website": "https://hawkjewelryappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Jeanne Hawk Fine Jewelry Appraisals Daytona offers antique and personal property appraisal services serving Daytona Beach, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://hawkjewelryappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://hawkjewelryappraisals.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJg1QKgH_b5ogRCHsVMZsVW3Q",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
     }
   ]
 }

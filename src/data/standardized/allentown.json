@@ -1,0 +1,66 @@
+{
+  "appraisers": [
+    {
+      "id": "allentown-chaikowsky-jewelry-appraisals-llc",
+      "name": "Chaikowsky Jewelry Appraisals",
+      "slug": "chaikowsky-jewelry-appraisals-llc",
+      "imageUrl": "https://chaikowskyjewelryappraisals.com/wp-content/uploads/2024/12/Screenshot-2024-11-26-101801-2.jpg",
+      "address": {
+        "street": "",
+        "city": "Allentown",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Allentown, PA"
+      },
+      "contact": {
+        "phone": "+16103322777",
+        "email": "idgems@verizon.net",
+        "website": "https://chaikowskyjewelryappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Chaikowsky Jewelry Appraisals offers antique and personal property appraisal services serving Allentown, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://chaikowskyjewelryappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://chaikowskyjewelryappraisals.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJtbrGUlE-xIkRTEaMKGWHsgk",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
+    }
+  ]
+}

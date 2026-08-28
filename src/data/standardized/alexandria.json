@@ -1,0 +1,64 @@
+{
+  "appraisers": [
+    {
+      "id": "alexandria-ken-farmer-llc",
+      "name": "Ken Farmer | Art, Antiques Advisor, Appraiser",
+      "slug": "ken-farmer-llc",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/57cf1b75197aea734bbf4439/1473191023863-GLEEGKFYQ2XMC0SHDL4X/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Alexandria",
+        "state": "VA",
+        "zip": "",
+        "formatted": "Alexandria, VA"
+      },
+      "contact": {
+        "phone": "(540) 731-1604",
+        "email": "jane@kenfarmerllc.com",
+        "website": "https://www.kenfarmerllc.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Ken Farmer | Art, Antiques Advisor, Appraiser offers antique and personal property appraisal services serving Alexandria, VA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://www.kenfarmerllc.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.kenfarmerllc.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJg2YYoOV3tIkRvfVPis0rxrM",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
+    }
+  ]
+}

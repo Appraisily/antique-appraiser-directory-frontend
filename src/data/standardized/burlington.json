@@ -1,0 +1,129 @@
+{
+  "appraisers": [
+    {
+      "id": "burlington-merrill-s-auctioneers-and-appraisers",
+      "name": "Merrill's Auctioneers & Appraisers",
+      "slug": "merrill-s-auctioneers-and-appraisers",
+      "imageUrl": "https://irp.cdn-website.com/a2a33114/dms3rep/multi/Logo-v2_0.png",
+      "address": {
+        "street": "",
+        "city": "Burlington",
+        "state": "VT",
+        "zip": "",
+        "formatted": "Burlington, VT"
+      },
+      "contact": {
+        "phone": "802-878-2625",
+        "email": "info@merrillsauction.com",
+        "website": "https://www.merrillsauction.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Merrill's Auctioneers & Appraisers offers antique and personal property appraisal services serving Burlington, VT. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://www.merrillsauction.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.merrillsauction.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJm1762sh5ykwR6sC3MTUweUc",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
+    },
+    {
+      "id": "burlington-vermont-gem-lab",
+      "name": "Vermont Gem Lab Custom Jewelry Design",
+      "slug": "vermont-gem-lab",
+      "imageUrl": "https://www.vermontgemlab.com/cdn/shop/files/VGL_BlueGreen_Custom_Portfolio_Logo_XTRA_SMALL_7ddcbf14-640c-4ec2-94a3-b6b2d904910c.png?v=1710341854&width=500",
+      "address": {
+        "street": "",
+        "city": "Burlington",
+        "state": "VT",
+        "zip": "",
+        "formatted": "Burlington, VT"
+      },
+      "contact": {
+        "phone": "802.862.6600",
+        "email": "",
+        "website": "https://www.vermontgemlab.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Vermont Gem Lab Custom Jewelry Design offers antique and personal property appraisal services serving Burlington, VT. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://www.vermontgemlab.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.vermontgemlab.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJOwLylPZ6ykwRNyrRNrOEMwA",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
+    }
+  ]
+}

@@ -71,6 +71,67 @@
           "direct phone found"
         ]
       }
+    },
+    {
+      "id": "cedar-rapids-jackson-s-international-auctioneers-and-appraisers",
+      "name": "Jackson's International Auctioneers",
+      "slug": "jackson-s-international-auctioneers-and-appraisers",
+      "imageUrl": "https://jacksonsauction.com/assets/img/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Cedar Rapids",
+        "state": "IA",
+        "zip": "",
+        "formatted": "Cedar Rapids, IA"
+      },
+      "contact": {
+        "phone": "3192772256",
+        "email": "info@jacksonsauction.com",
+        "website": "https://jacksonsauction.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jackson's International Auctioneers offers antique and personal property appraisal services serving Cedar Rapids, IA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://jacksonsauction.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://jacksonsauction.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJv0fNQyGr-ocRBlWTXXb1GmI",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
     }
   ]
 }

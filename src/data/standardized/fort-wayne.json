@@ -1,0 +1,64 @@
+{
+  "appraisers": [
+    {
+      "id": "fort-wayne-j-carman-inc-fine-art-advisory-and-appraisals",
+      "name": "J Carman Inc. Fine Art Advisory and Appraisals",
+      "slug": "j-carman-inc-fine-art-advisory-and-appraisals",
+      "imageUrl": "http://www.appraisingfineart.com/uploads/3/7/8/2/37827577/screenshot-2019-11-16-12-40-59_orig.png",
+      "address": {
+        "street": "",
+        "city": "Fort Wayne",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Fort Wayne, IN"
+      },
+      "contact": {
+        "phone": "501.744.8049",
+        "email": "",
+        "website": "http://www.appraisingfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "J Carman Inc. Fine Art Advisory and Appraisals offers antique and personal property appraisal services serving Fort Wayne, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: http://www.appraisingfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.appraisingfineart.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJK4Fy4ja70ocRdDo5CRzze1Q",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
+    }
+  ]
+}

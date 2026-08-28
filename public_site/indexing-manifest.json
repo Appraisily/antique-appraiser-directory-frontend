@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-17T07:03:06.679Z",
+  "generatedAt": "2026-08-28T10:48:21.796Z",
   "origin": "https://antique-appraiser-directory.appraisily.com",
-  "sourceSitemapUrls": 418,
-  "retainedSitemapUrls": 418,
+  "sourceSitemapUrls": 432,
+  "retainedSitemapUrls": 432,
   "counts": {
-    "keep-indexable": 418
+    "keep-indexable": 432
   },
   "records": [
     {
@@ -2094,6 +2094,76 @@
     },
     {
       "url": "https://antique-appraiser-directory.appraisily.com/methodology/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/cal-coast-jewelry-appraisers/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/chaikowsky-jewelry-appraisals-llc/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/j-carman-inc-fine-art-advisory-and-appraisals/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/oc-jewelry-appraisers/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jackson-s-international-auctioneers-and-appraisers/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jeanne-hawk-fine-jewelry-appraisals-llc/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/jewelry-appraisal-crofton-annapolis-md-liberty-gem-and-jewelry-appraisals/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/merrill-s-auctioneers-and-appraisers/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/chamberlain-antiques/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/kilgore-auctioneers-and-appraisers-llc/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/cordier-auctions/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/ken-farmer-llc/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/pook-and-pook-inc/",
+      "classification": "keep-indexable",
+      "reasons": []
+    },
+    {
+      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/vermont-gem-lab/",
       "classification": "keep-indexable",
       "reasons": []
     }

@@ -1,0 +1,68 @@
+{
+  "appraisers": [
+    {
+      "id": "harrisburg-cordier-auctions",
+      "name": "Cordier Auctions",
+      "slug": "cordier-auctions",
+      "imageUrl": "https://www.cordierauction.com/wp-content/uploads/2023/05/423225241_919906920135665_7323975184603461278_n-150x150.jpg",
+      "address": {
+        "street": "",
+        "city": "Harrisburg",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Harrisburg, PA"
+      },
+      "contact": {
+        "phone": "+17177318662",
+        "email": "support@domain.com",
+        "website": "https://www.cordierauction.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Cordier Auctions offers antique and personal property appraisal services serving Harrisburg, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://www.cordierauction.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.cordierauction.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJB4ZXBvvAyIkRCwHJA64x73U",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
+    }
+  ]
+}

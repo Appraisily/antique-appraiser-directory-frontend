@@ -2,10 +2,12 @@
   "generatedAt": "2026-07-26T18:51:58.734Z",
   "policyVersion": 1,
   "summary": {
-    "changedProfiles": 1061,
-    "indexable": 239,
+    "changedProfiles": 1075,
+    "indexable": 253,
     "suppressed": 822,
-    "appraiserIndexEntries": 239
+    "appraiserIndexEntries": 253,
+    "verified": 0,
+    "limited": 253
   },
   "providers": [
     {
@@ -593,6 +595,33 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/afa-fine-art/",
       "canonicalProviderId": "provider:afa-fine-art"
+    },
+    {
+      "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
+      "name": "AFP Art Consulting, LLC",
+      "publicationStatus": "under_review",
+      "reason": "canonical_on_art_directory",
+      "sourceUrl": "https://afpartconsulting.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+      "canonicalProviderId": "provider:afp-art-consulting",
+      "sourceUrls": [
+        "https://afpartconsulting.com/",
+        "https://afpartconsulting.com/bio",
+        "https://afpartconsulting.com/art-consulting-services"
+      ],
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/"
     },
     {
       "slug": "albuquerque-albuquerque-antique-appraisals",
@@ -2970,6 +2999,19 @@
       "canonicalProviderId": "provider:burns-auction-appraisal"
     },
     {
+      "slug": "cal-coast-jewelry-appraisers",
+      "name": "Cal Coast Jewelry Appraisers",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://calcoastjewelryappraisers.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/cal-coast-jewelry-appraisers/",
+      "canonicalProviderId": "provider:cal-coast-jewelry-appraisers"
+    },
+    {
       "slug": "calgary-antique-appraisals",
       "name": "Calgary Antique Appraisals",
       "publicationStatus": "under_review",
@@ -3197,6 +3239,32 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/certified-personal-property-appraiser/",
       "canonicalProviderId": "provider:personal-property-appraisal-group"
+    },
+    {
+      "slug": "chaikowsky-jewelry-appraisals-llc",
+      "name": "Chaikowsky Jewelry Appraisals",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://chaikowskyjewelryappraisals.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/chaikowsky-jewelry-appraisals-llc/",
+      "canonicalProviderId": "provider:chaikowsky-jewelry-appraisals-llc"
+    },
+    {
+      "slug": "chamberlain-antiques",
+      "name": "Chamberlain Antiques, Auctioneers, and Estate Services",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://chamberlainantiques.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/chamberlain-antiques/",
+      "canonicalProviderId": "provider:chamberlain-antiques"
     },
     {
       "slug": "charles-bell-real-estate-appraisals",
@@ -3818,6 +3886,19 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/constantine-fine-art-services/",
       "canonicalProviderId": "provider:constantine-fine-art-services"
+    },
+    {
+      "slug": "cordier-auctions",
+      "name": "Cordier Auctions",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://www.cordierauction.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/cordier-auctions/",
+      "canonicalProviderId": "provider:cordier-auctions"
     },
     {
       "slug": "cowley-abbott-auctioneers-appraisers",
@@ -5874,6 +5955,32 @@
       "canonicalProviderId": "provider:hearts-and-arrows-jewelry-appraisals"
     },
     {
+      "slug": "heidi-vaughan-ma-isa-am",
+      "name": "Heidi Vaughan Fine Art",
+      "publicationStatus": "under_review",
+      "reason": "canonical_on_art_directory",
+      "sourceUrl": "https://heidivaughanfineart.com/about",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+      "canonicalProviderId": "provider:heidi-vaughan-ma-am",
+      "sourceUrls": [
+        "https://heidivaughanfineart.com/about",
+        "https://heidivaughanfineart.com/gallery-team"
+      ],
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/"
+    },
+    {
       "slug": "heirloom-estates-llc-919-323-7524",
       "name": "Heirloom Estates, LLC",
       "publicationStatus": "limited",
@@ -6874,6 +6981,19 @@
       "canonicalProviderId": "provider:ja-baker"
     },
     {
+      "slug": "j-carman-inc-fine-art-advisory-and-appraisals",
+      "name": "J Carman Inc. Fine Art Advisory and Appraisals",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "http://www.appraisingfineart.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/j-carman-inc-fine-art-advisory-and-appraisals/",
+      "canonicalProviderId": "provider:j-carman-inc-fine-art-advisory-and-appraisals"
+    },
+    {
       "slug": "j-e-carleton-jewelry-appraisals",
       "name": "J. E. Carleton Appraisals",
       "publicationStatus": "limited",
@@ -6904,6 +7024,19 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/j-s-english-appraisals/",
       "canonicalProviderId": "provider:j-s-english-appraisals"
+    },
+    {
+      "slug": "jackson-s-international-auctioneers-and-appraisers",
+      "name": "Jackson's International Auctioneers",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://jacksonsauction.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/jackson-s-international-auctioneers-and-appraisers/",
+      "canonicalProviderId": "provider:jackson-s-international-auctioneers-and-appraisers"
     },
     {
       "slug": "jacksonville-always-buying-antiques-yours-truly",
@@ -7016,6 +7149,19 @@
       "canonicalProviderId": "provider:jewelry-appraisal-services"
     },
     {
+      "slug": "jeanne-hawk-fine-jewelry-appraisals-llc",
+      "name": "Jeanne Hawk Fine Jewelry Appraisals Daytona",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://hawkjewelryappraisals.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/jeanne-hawk-fine-jewelry-appraisals-llc/",
+      "canonicalProviderId": "provider:jeanne-hawk-fine-jewelry-appraisals-llc"
+    },
+    {
       "slug": "jennifer-l-strasbaugh-fine-arts-appraising",
       "name": "Jennifer L. Strasbaugh, Fine Arts Appraising",
       "publicationStatus": "under_review",
@@ -7053,6 +7199,19 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/jewellery-plus/",
       "canonicalProviderId": "provider:jewellery-plus"
+    },
+    {
+      "slug": "jewelry-appraisal-crofton-annapolis-md-liberty-gem-and-jewelry-appraisals",
+      "name": "Liberty Gem and Jewelry Appraisals",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://www.libertygemandjewelryappraisals.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/jewelry-appraisal-crofton-annapolis-md-liberty-gem-and-jewelry-appraisals/",
+      "canonicalProviderId": "provider:jewelry-appraisal-crofton-annapolis-md-liberty-gem-and-jewelry-appraisals"
     },
     {
       "slug": "jewelry-appraisal-gemstone-appraisal-boston-norwell",
@@ -7362,6 +7521,19 @@
       "canonicalProviderId": "provider:kelowna-taylors-fine-collectables-ltd"
     },
     {
+      "slug": "ken-farmer-llc",
+      "name": "Ken Farmer | Art, Antiques Advisor, Appraiser",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://www.kenfarmerllc.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/ken-farmer-llc/",
+      "canonicalProviderId": "provider:ken-farmer-llc"
+    },
+    {
       "slug": "kennedy-brothers-auctions-estate-appraisals",
       "name": "Kennedy Brothers Auctions",
       "publicationStatus": "limited",
@@ -7389,6 +7561,19 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/key-features/",
       "canonicalProviderId": "provider:listing-not-currently-verified"
+    },
+    {
+      "slug": "kilgore-auctioneers-and-appraisers-llc",
+      "name": "Kilgore Auctioneers and Appraisers LLC",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://kilgoreauctioneers.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/kilgore-auctioneers-and-appraisers-llc/",
+      "canonicalProviderId": "provider:kilgore-auctioneers-and-appraisers-llc"
     },
     {
       "slug": "kingston-antiquecarvaluation-professionals",
@@ -8621,6 +8806,19 @@
       "canonicalProviderId": "provider:memphis-memphis-antique-appraisals"
     },
     {
+      "slug": "merrill-s-auctioneers-and-appraisers",
+      "name": "Merrill's Auctioneers & Appraisers",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://www.merrillsauction.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/merrill-s-auctioneers-and-appraisers/",
+      "canonicalProviderId": "provider:merrill-s-auctioneers-and-appraisers"
+    },
+    {
       "slug": "mesa-antique",
       "name": "Mesa Antique & Collectible",
       "publicationStatus": "limited",
@@ -9603,6 +9801,19 @@
       "canonicalProviderId": "provider:oakland-oakland-antique-appraisals"
     },
     {
+      "slug": "oc-jewelry-appraisers",
+      "name": "OC Jewelry Appraisers",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://www.ocjewelryappraisers.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/oc-jewelry-appraisers/",
+      "canonicalProviderId": "provider:oc-jewelry-appraisers"
+    },
+    {
       "slug": "oklahoma city-heritage-valuations-oklahoma-city",
       "name": "oklahoma city-heritage-valuations-oklahoma-city",
       "publicationStatus": "under_review",
@@ -9783,6 +9994,33 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/omaha-prestige-estate-services/",
       "canonicalProviderId": "provider:omaha-prestige-estate-services"
+    },
+    {
+      "slug": "open-to-the-public",
+      "name": "Open to the Public",
+      "publicationStatus": "under_review",
+      "reason": "canonical_on_art_directory",
+      "sourceUrl": "https://opentothepublic.art/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/open-to-the-public/",
+      "canonicalProviderId": "provider:open-to-the-public",
+      "sourceUrls": [
+        "https://opentothepublic.art/",
+        "https://opentothepublic.art/about/",
+        "https://opentothepublic.art/art-appraisals/"
+      ],
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/"
     },
     {
       "slug": "oriental-rug-cleaning-co",
@@ -10483,6 +10721,19 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/pmr-jewelry-evaluations/",
       "canonicalProviderId": "provider:pmr-jewelry-evaluations"
+    },
+    {
+      "slug": "pook-and-pook-inc",
+      "name": "Pook and Pook Auctioneers and Appraisers",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://pookandpook.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/pook-and-pook-inc/",
+      "canonicalProviderId": "provider:pook-and-pook-inc"
     },
     {
       "slug": "portland-antique-appraisals",
@@ -12716,6 +12967,33 @@
       "canonicalProviderId": "provider:st-john-s-antique-appraisals"
     },
     {
+      "slug": "st-lifer-art-inc-international-art-appraiser",
+      "name": "St. Lifer Art, Inc.",
+      "publicationStatus": "under_review",
+      "reason": "canonical_on_art_directory",
+      "sourceUrl": "https://stliferart.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-07-15",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+      "canonicalProviderId": "provider:st-lifer-fine-art",
+      "sourceUrls": [
+        "https://stliferart.com/",
+        "https://stliferart.com/about-the-appraiser/",
+        "https://stliferart.com/appraisals/appraisal-services/"
+      ],
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/"
+    },
+    {
       "slug": "st-louis-antique-appraisals",
       "name": "St. Louis Antique Appraisals",
       "publicationStatus": "under_review",
@@ -14024,6 +14302,19 @@
       "canonicalProviderId": "provider:veritas-fine-art-appraisals-consulting-5683"
     },
     {
+      "slug": "vermont-gem-lab",
+      "name": "Vermont Gem Lab Custom Jewelry Design",
+      "publicationStatus": "limited",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "https://www.vermontgemlab.com/",
+      "sourceType": "business_website",
+      "verifiedAt": "2026-08-28",
+      "verifiedBy": "places-recycle-20260828",
+      "claimScope": [],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/vermont-gem-lab/",
+      "canonicalProviderId": "provider:vermont-gem-lab"
+    },
+    {
       "slug": "victoria-berchard-apraisal-services",
       "name": "victoria-berchard-apraisal-services",
       "publicationStatus": "under_review",
@@ -14501,113 +14792,6 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/worthmore-jewelers/",
       "canonicalProviderId": "provider:worthmore-jewelers"
-    },
-    {
-      "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
-      "name": "AFP Art Consulting, LLC",
-      "publicationStatus": "under_review",
-      "reason": "canonical_on_art_directory",
-      "sourceUrl": "https://afpartconsulting.com/",
-      "sourceType": "official_business_website",
-      "verifiedAt": "2026-07-15",
-      "verifiedBy": "manual_official_website_review",
-      "claimScope": [
-        "identity",
-        "website",
-        "primary_location",
-        "fine_art_services",
-        "specialties",
-        "appraisal_use_cases",
-        "qualification"
-      ],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
-      "canonicalProviderId": "provider:afp-art-consulting",
-      "sourceUrls": [
-        "https://afpartconsulting.com/",
-        "https://afpartconsulting.com/bio",
-        "https://afpartconsulting.com/art-consulting-services"
-      ],
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/"
-    },
-    {
-      "slug": "heidi-vaughan-ma-isa-am",
-      "name": "Heidi Vaughan Fine Art",
-      "publicationStatus": "under_review",
-      "reason": "canonical_on_art_directory",
-      "sourceUrl": "https://heidivaughanfineart.com/about",
-      "sourceType": "official_business_website",
-      "verifiedAt": "2026-07-15",
-      "verifiedBy": "manual_official_website_review",
-      "claimScope": [
-        "identity",
-        "website",
-        "primary_location",
-        "fine_art_services",
-        "specialties",
-        "appraisal_use_cases",
-        "qualification"
-      ],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
-      "canonicalProviderId": "provider:heidi-vaughan-ma-am",
-      "sourceUrls": [
-        "https://heidivaughanfineart.com/about",
-        "https://heidivaughanfineart.com/gallery-team"
-      ],
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/"
-    },
-    {
-      "slug": "open-to-the-public",
-      "name": "Open to the Public",
-      "publicationStatus": "under_review",
-      "reason": "canonical_on_art_directory",
-      "sourceUrl": "https://opentothepublic.art/",
-      "sourceType": "official_business_website",
-      "verifiedAt": "2026-07-15",
-      "verifiedBy": "manual_official_website_review",
-      "claimScope": [
-        "identity",
-        "website",
-        "primary_location",
-        "fine_art_services",
-        "specialties",
-        "appraisal_use_cases",
-        "qualification"
-      ],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/open-to-the-public/",
-      "canonicalProviderId": "provider:open-to-the-public",
-      "sourceUrls": [
-        "https://opentothepublic.art/",
-        "https://opentothepublic.art/about/",
-        "https://opentothepublic.art/art-appraisals/"
-      ],
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/"
-    },
-    {
-      "slug": "st-lifer-art-inc-international-art-appraiser",
-      "name": "St. Lifer Art, Inc.",
-      "publicationStatus": "under_review",
-      "reason": "canonical_on_art_directory",
-      "sourceUrl": "https://stliferart.com/",
-      "sourceType": "official_business_website",
-      "verifiedAt": "2026-07-15",
-      "verifiedBy": "manual_official_website_review",
-      "claimScope": [
-        "identity",
-        "website",
-        "primary_location",
-        "fine_art_services",
-        "specialties",
-        "appraisal_use_cases",
-        "qualification"
-      ],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
-      "canonicalProviderId": "provider:st-lifer-fine-art",
-      "sourceUrls": [
-        "https://stliferart.com/",
-        "https://stliferart.com/about-the-appraiser/",
-        "https://stliferart.com/appraisals/appraisal-services/"
-      ],
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/"
     }
   ]
 }

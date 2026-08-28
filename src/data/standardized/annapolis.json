@@ -1,0 +1,68 @@
+{
+  "appraisers": [
+    {
+      "id": "annapolis-jewelry-appraisal-crofton-annapolis-md-liberty-gem-and-jewelry-appraisals",
+      "name": "Liberty Gem and Jewelry Appraisals",
+      "slug": "jewelry-appraisal-crofton-annapolis-md-liberty-gem-and-jewelry-appraisals",
+      "imageUrl": "https://irp.cdn-website.com/7e04dda8/site_favicon_16_1775494190661.ico",
+      "address": {
+        "street": "",
+        "city": "Annapolis",
+        "state": "MD",
+        "zip": "",
+        "formatted": "Annapolis, MD"
+      },
+      "contact": {
+        "phone": "443-584-6033",
+        "email": "",
+        "website": "https://www.libertygemandjewelryappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Liberty Gem and Jewelry Appraisals offers antique and personal property appraisal services serving Annapolis, MD. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://www.libertygemandjewelryappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.libertygemandjewelryappraisals.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJvfIcxSF2cEkRJ82v6ZX9d3I",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "appraisers": [
+    {
+      "id": "temecula-cal-coast-jewelry-appraisers",
+      "name": "Cal Coast Jewelry Appraisers",
+      "slug": "cal-coast-jewelry-appraisers",
+      "imageUrl": "https://calcoastjewelryappraisers.com/wp-content/uploads/2022/08/cropped-ocean-blue-favicon-32x32.png",
+      "address": {
+        "street": "",
+        "city": "Temecula",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Temecula, CA"
+      },
+      "contact": {
+        "phone": "+17605046343",
+        "email": "info@ccjappraisers.com",
+        "website": "https://calcoastjewelryappraisers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Cal Coast Jewelry Appraisers offers antique and personal property appraisal services serving Temecula, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://calcoastjewelryappraisers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://calcoastjewelryappraisers.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJs_PCyA9y3IARQX0OdEX8bDE",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
+    }
+  ]
+}

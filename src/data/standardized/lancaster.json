@@ -68,6 +68,67 @@
           "direct phone found"
         ]
       }
+    },
+    {
+      "id": "lancaster-pook-and-pook-inc",
+      "name": "Pook and Pook Auctioneers and Appraisers",
+      "slug": "pook-and-pook-inc",
+      "imageUrl": "https://pookandpook.com/wp-content/uploads/2023/03/pook-logo-small.png",
+      "address": {
+        "street": "",
+        "city": "Lancaster",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Lancaster, PA"
+      },
+      "contact": {
+        "phone": "(610) 269-4040",
+        "email": "info@pookandpook.com",
+        "website": "https://pookandpook.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique and personal property appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Antique appraisal services",
+          "Estate valuations",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pook and Pook Auctioneers and Appraisers offers antique and personal property appraisal services serving Lancaster, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-08-28. Source: https://pookandpook.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-08-28",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://pookandpook.com/",
+          "verifiedAt": "2026-08-28",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "placeId": "ChIJkfWQHpT1xokRKvJ8tr3po70",
+        "source": "places_website_enrichment",
+        "recycledAt": "2026-08-28"
+      }
     }
   ]
 }
