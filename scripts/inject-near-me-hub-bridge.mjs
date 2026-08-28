@@ -12,7 +12,9 @@
  * already link /antique-appraiser-near-me from the hero, so the city-page
  * bridge carries the other three; appraisal-guide subpages (87 in the
  * sitemap) carried no hub links at all, so their bridge carries
- * antique + art + online.
+ * antique + art + online. The two national leftover pages
+ * `/art-appraisers-near-me/` and `/antique-appraisers-near-me/` already
+ * rank for the head queries and previously had zero hub votes.
  *
  * This operates on `public_site`, not `src/` — same convention as
  * inject-donation-purpose-bridge.mjs. The block is static-only (the hydrating
@@ -35,6 +37,8 @@ const CITY_ANCHOR_RES = [
   /<section[^>]*>\s*<h2[^>]*>\s*Frequently asked questions/i,
 ];
 const GUIDE_ANCHOR_RE = /<section[^>]*>\s*<h2[^>]*>\s*Related city guides/i;
+const NATIONAL_ANCHOR_RE =
+  /<section class="card section">\s*<h2[^>]*>\s*What to compare before you book/i;
 
 const HUBS = {
   antique: {
@@ -61,6 +65,20 @@ const HUBS = {
 
 const CITY_HUB_KEYS = ['art', 'online', 'insurance'];
 const GUIDE_HUB_KEYS = ['antique', 'art', 'online'];
+const NATIONAL_PAGES = [
+  {
+    relPath: ['art-appraisers-near-me', 'index.html'],
+    slug: 'art-appraisers-near-me',
+    hubKeys: CITY_HUB_KEYS,
+    content: 'national-art',
+  },
+  {
+    relPath: ['antique-appraisers-near-me', 'index.html'],
+    slug: 'antique-appraisers-near-me',
+    hubKeys: GUIDE_HUB_KEYS,
+    content: 'national-antique',
+  },
+];
 
 function hubLink(key, citySlug, content) {
   const hub = HUBS[key];
@@ -87,12 +105,37 @@ function buildBlock(citySlug, hubKeys, content) {
   );
 }
 
-function injectInto(html, citySlug, anchorRes, hubKeys, content) {
+function nationalHubCard(key, citySlug, content) {
+  const hub = HUBS[key];
+  const href =
+    `${hub.href}?utm_source=directory&amp;utm_medium=near_me_bridge` +
+    `&amp;utm_campaign=${encodeURIComponent(citySlug)}&amp;utm_content=${content}`;
+  return (
+    '<article class="city-card">' +
+    `<h3>${hub.label}</h3>` +
+    `<p>${hub.detail}</p>` +
+    `<a href="${href}" data-analytics-event="directory_near_me_bridge_click" data-analytics-destination="${key}" ` +
+    'data-analytics-location="near-me-hub-bridge">Open the decision guide</a>' +
+    '</article>'
+  );
+}
+
+function buildNationalBlock(citySlug, hubKeys, content) {
+  return (
+    `<section ${MARKER} class="card section" aria-labelledby="near-me-hub-bridge-heading">` +
+    '<h2 id="near-me-hub-bridge-heading" style="margin-top: 0;">Deciding between a local visit and an online report?</h2>' +
+    '<p style="margin: 0 0 16px; color: #1c1917; line-height: 1.7;">These short decision guides explain when photos are enough for a signed appraisal and when an in-person specialist is the better path.</p>' +
+    `<div class="grid">${hubKeys.map((key) => nationalHubCard(key, citySlug, content)).join('')}</div>` +
+    '</section>\n\n      '
+  );
+}
+
+function injectInto(html, citySlug, anchorRes, hubKeys, content, blockBuilder = buildBlock) {
   const stripped = html.replace(BLOCK_RE, '');
   for (const anchorRe of anchorRes) {
     const match = stripped.match(anchorRe);
     if (!match) continue;
-    const block = buildBlock(citySlug, hubKeys, content);
+    const block = blockBuilder(citySlug, hubKeys, content);
     return { html: stripped.replace(anchorRe, `${block}${match[0]}`), missingAnchor: false };
   }
   return { html, missingAnchor: true };
@@ -141,6 +184,19 @@ async function main() {
       hubKeys: GUIDE_HUB_KEYS,
       content: 'guide',
       id: `${entry.name}/appraisal-guide`,
+      blockBuilder: buildBlock,
+    });
+  }
+
+  for (const page of NATIONAL_PAGES) {
+    targets.push({
+      filePath: path.join(options.publicDir, ...page.relPath),
+      slug: page.slug,
+      anchorRes: [NATIONAL_ANCHOR_RE],
+      hubKeys: page.hubKeys,
+      content: page.content,
+      id: page.slug,
+      blockBuilder: buildNationalBlock,
     });
   }
 
@@ -158,6 +214,7 @@ async function main() {
       target.anchorRes,
       target.hubKeys,
       target.content,
+      target.blockBuilder || buildBlock,
     );
     if (missingAnchor) {
       skippedNoAnchor += 1;
