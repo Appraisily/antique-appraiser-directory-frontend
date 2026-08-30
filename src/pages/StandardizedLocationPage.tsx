@@ -9,7 +9,7 @@ import {
   DecisionRouter,
 } from '../components/DecisionRouter';
 import { generateLocationSchema } from '../utils/schemaGenerators';
-import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
+import { SITE_URL, buildSiteUrl, getLocationShareImageAlt, getLocationShareImageUrl, getPrimaryCtaUrl } from '../config/site';
 import {
   hasPlaceholderName,
   isPlaceholderAbout,
@@ -1948,6 +1948,8 @@ export function StandardizedLocationPage() {
           schema={[generateBreadcrumbSchema()]}
           path={locationPath}
           pageUrl={locationCanonicalUrl}
+          ogImage={getLocationShareImageUrl(validCitySlug)}
+          ogImageAlt={getLocationShareImageAlt(cityName)}
         />
         <a
           href="#main-content"
@@ -2011,6 +2013,8 @@ export function StandardizedLocationPage() {
         ]}
         path={locationPath}
         pageUrl={locationCanonicalUrl}
+        ogImage={getLocationShareImageUrl(validCitySlug)}
+        ogImageAlt={getLocationShareImageAlt(cityName)}
         geoCity={citySearchName}
         geoRegion={cityMeta?.state || 'US'}
         geoPosition={cityMeta?.latitude && cityMeta?.longitude ? `${cityMeta.latitude};${cityMeta.longitude}` : undefined}

@@ -18,6 +18,7 @@ interface SEOProps {
   schema?: Record<string, unknown> | Record<string, unknown>[];
   canonicalUrl?: string;
   ogImage?: string;
+  ogImageAlt?: string;
   ogType?: string;
   twitterCard?: string;
   author?: string;
@@ -47,6 +48,7 @@ export function SEO({
   schema, 
   canonicalUrl,
   ogImage = DEFAULT_OG_IMAGE,
+  ogImageAlt,
   ogType = 'website',
   twitterCard = 'summary_large_image',
   author = 'Appraisily',
@@ -156,6 +158,7 @@ export function SEO({
       {ogImageUrl && <meta property="og:image" content={ogImageUrl} />}
       {ogImageUrl && <meta property="og:image:width" content="1200" />}
       {ogImageUrl && <meta property="og:image:height" content="630" />}
+      {ogImageUrl && ogImageAlt && <meta property="og:image:alt" content={ogImageAlt} />}
       <meta property="og:site_name" content={SITE_NAME} />
       <meta property="og:locale" content={ogLocale} />
       {publishedDate && <meta property="article:published_time" content={publishedDate} />}
@@ -180,6 +183,7 @@ export function SEO({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       {ogImageUrl && <meta name="twitter:image" content={ogImageUrl} />}
+      {ogImageUrl && ogImageAlt && <meta name="twitter:image:alt" content={ogImageAlt} />}
       <meta name="twitter:site" content={SITE_TWITTER_HANDLE} />
       {author && <meta name="twitter:creator" content={SITE_TWITTER_HANDLE} />}
       

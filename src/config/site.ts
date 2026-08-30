@@ -8,6 +8,10 @@ export const SITE_DESCRIPTION =
   'Compare local antique and furniture appraisers by city, or start Appraisily\'s professional online appraisal intake for a written report.';
 export const SITE_TWITTER_HANDLE = '@appraisily';
 export const DEFAULT_OG_IMAGE = BRAND_LOGO_URL;
+
+export function getLocationShareImagePath(slug: string): string {
+  return `/assets/og/location-${slug}.jpg`;
+}
 export const PARENT_SITE_URL = 'https://appraisily.com';
 const BASE_CTA_URL = `${PARENT_SITE_URL}/start`;
 const DEFAULT_CTA_PARAMS = {
@@ -87,6 +91,14 @@ export function getPrimaryCtaUrl(extraParams: Record<string, string> = {}): stri
 }
 
 export const CTA_URL = BASE_CTA_URL;
+
+export function getLocationShareImageUrl(slug: string): string {
+  return buildSiteUrl(getLocationShareImagePath(slug));
+}
+
+export function getLocationShareImageAlt(cityName: string): string {
+  return `Antique appraisers in ${cityName}`;
+}
 
 /**
  * Builds a canonical URL for this site, ensuring we never leak container ports

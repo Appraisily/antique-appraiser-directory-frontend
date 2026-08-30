@@ -7,6 +7,8 @@ The Antique Appraiser Directory does not generate or upload profile images durin
 - Shared content assets must use verified URLs under `https://assets.appraisily.com`.
 - Small interface assets may be packaged with the site.
 - Appraiser records without a reviewed, owned image use `https://assets.appraisily.com/assets/directory/placeholder.jpg`.
+- City share cards are branded 1200x630 JPEGs at `public_site/assets/og/location-{slug}.jpg`. They are not portraits. Do not set city `og:image` to a listing photo, generated profile SVG, or `placeholder.jpg`.
+- Generate cards with `python3 scripts/generate-location-og-images.py --write`, then `node scripts/repair-location-sharing-metadata.mjs --write`. `--check` verifies; it does not generate.
 - Do not infer a first-party URL by stripping or replacing another provider's host. Verify the final URL returns `200`, non-empty bytes, and an `image/*` content type before adding it.
 
 ## Publishing contract
