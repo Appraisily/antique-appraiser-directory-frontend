@@ -54,3 +54,23 @@ test('injector derives safe human city names from route slugs and remains idempo
     fs.rmSync(publicDir, { recursive: true, force: true });
   }
 });
+
+test('reviewed local-first page preserves its exact bridge below the provider result', () => {
+  const publicDir = fs.mkdtempSync(path.join(os.tmpdir(), 'donation-local-first-'));
+  try {
+    const directory = path.join(publicDir, 'location', 'wichita');
+    fs.mkdirSync(directory, { recursive: true });
+    const file = path.join(directory, 'index.html');
+    fs.writeFileSync(file, '<main><section id="local-appraisers">Current result</section></main>');
+    assert.equal(runInjector(publicDir, '--write').status, 0);
+    const html = fs.readFileSync(file, 'utf8');
+    const block = html.match(/<section data-appraisily-donation-purpose-bridge[\s\S]*?<\/section>\s*/)[0];
+    assert.match(block, /listings on this page/);
+    fs.writeFileSync(file, html.replace(block, '').replace('</main>', `${block}</main>`));
+    assert.equal(runInjector(publicDir, '--check').status, 0);
+    fs.writeFileSync(file, fs.readFileSync(file, 'utf8').replace('qualified-appraisals?', 'broken?'));
+    assert.equal(runInjector(publicDir, '--check').status, 1, 'malformed bridge must still fail');
+  } finally {
+    fs.rmSync(publicDir, { recursive: true, force: true });
+  }
+});

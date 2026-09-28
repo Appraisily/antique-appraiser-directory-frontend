@@ -724,9 +724,9 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Sacramento appraisers for antiques and art valuation, then choose local appointments or faster online appraisal.'
   },
   philadelphia: {
-    title: 'Philadelphia, PA Antique Appraisers | Local & Online Reports',
+    title: 'Philadelphia Antique Appraisal | McCarty & Online Options',
     description:
-      'Compare Philadelphia antique and art appraisers for estates, insurance, donation, furniture, and personal property—or start a paid online report from photos.',
+      'Find McCarty Antiques in Chestnut Hill for art, antique, estate, and insurance evaluations. Review official services and compare a paid online report.',
     h1: 'Philadelphia Antique Appraisers & Art Appraisal Services',
     heroDescription:
       'Compare current Philadelphia-area listings for antiques, furniture, art, and estates. Confirm local credentials and availability directly, or upload photos to Appraisily for a paid professional report.'
@@ -756,9 +756,9 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Toronto specialists for antique and art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
   },
   wichita: {
-    title: 'Wichita Antique Appraisers | Vintage Items & Online Reports',
+    title: 'Wichita Antique Appraisal | Art of Estates & Online Options',
     description:
-      'Compare Wichita antique appraisers for antiques, vintage items, estates, insurance, and donations. Free screening is a first look; written reports are paid.',
+      'See Art of Estates for Wichita antiques, fine art, and collections. Check service scope and contact details, or compare a paid online appraisal from photos.',
     h1: 'Wichita Antique Appraisers for Antiques & Vintage Items',
     heroDescription:
       'Compare current Wichita-area listings for antiques, vintage items, art, and estates. Appraisily\'s free photo screener gives a first look; a professional written appraisal is a separate paid service.'
@@ -780,9 +780,9 @@ const LOCATION_SEO_OVERRIDES: Partial<
       'Compare Jacksonville specialists for antique and art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
   },
   pittsburgh: {
-    title: 'Pittsburgh Antique Appraisers Near You | Online Reports',
+    title: 'Pittsburgh Antique & Art Appraisal | Local Options',
     description:
-      'Compare Pittsburgh antique and art appraisers near you for estates, insurance, donations, and personal property—or start a paid online report from photos.',
+      'Review Concept Art Gallery for Pittsburgh artwork and collection appraisals. Check its art-focused scope, contact the gallery, or compare an online report.',
     h1: 'Pittsburgh Antique Appraisers Near You',
     heroDescription:
       'Compare current Pittsburgh-area listings for antiques, art, estates, and personal property. Confirm local credentials and availability directly, or upload photos to Appraisily for a paid professional report.'

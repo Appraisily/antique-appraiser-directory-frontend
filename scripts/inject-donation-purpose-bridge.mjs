@@ -32,7 +32,8 @@ const CITY_NAME_OVERRIDES = new Map([
   ['st-paul', 'St. Paul'],
   ['washington-dc', 'Washington, DC'],
 ]);
-const REVIEWED_ZERO_LOCAL_ROUTES = new Set(['indianapolis']);
+const REVIEWED_ZERO_LOCAL_ROUTES = new Set(['indianapolis', 'raleigh', 'des-moines']);
+const REVIEWED_LOCAL_FIRST_ROUTES = new Set(['wichita', 'philadelphia', 'pittsburgh']);
 
 function escapeHtml(value) {
   return String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -47,7 +48,7 @@ function buildBlock(cityName, citySlug) {
     '&amp;utm_content=donation_report';
   const localOption = REVIEWED_ZERO_LOCAL_ROUTES.has(citySlug)
     ? ` for the online option. No ${city} provider profile is currently listed; <a href="/location/" class="font-semibold text-blue-700 underline underline-offset-2 hover:text-blue-800">browse all published locations</a> when an in-person inspection or specific credentials are required.`
-    : ` for the online option, or contact ${indefiniteArticle} ${city} appraiser from the listings below when an in-person inspection or specific credentials are required.`;
+    : ` for the online option, or contact ${indefiniteArticle} ${city} appraiser from the listings ${REVIEWED_LOCAL_FIRST_ROUTES.has(citySlug) ? 'on this page' : 'below'} when an in-person inspection or specific credentials are required.`;
   return (
     `<section ${MARKER} aria-labelledby="donation-purpose-heading" class="mb-8 rounded-lg border border-gray-200 bg-gray-50 p-5">` +
     `<h2 id="donation-purpose-heading" class="text-lg font-semibold text-gray-900">Donating an item from ${city}?</h2>` +
@@ -116,6 +117,9 @@ async function main() {
       continue;
     }
     const block = buildBlock(cityNameFrom(stripped, entry.name), entry.name);
+    // Reviewed local-first pages retain the complete bridge after the result.
+    // Validate its exact contents without forcing it ahead of the local option.
+    if (REVIEWED_LOCAL_FIRST_ROUTES.has(entry.name) && html.match(BLOCK_RE)?.[0].trim() === block.trim()) continue;
     const rewritten = stripped.replace(ANCHOR_RE, `${block}<section id="local-appraisers"`);
     if (rewritten === html) continue;
     changed += 1;

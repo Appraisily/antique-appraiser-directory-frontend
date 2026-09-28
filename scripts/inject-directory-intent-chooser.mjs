@@ -33,7 +33,7 @@ const CITY_NAME_OVERRIDES = new Map([
   ['st-paul', 'St. Paul'],
   ['washington-dc', 'Washington, DC'],
 ]);
-const REVIEWED_ZERO_LOCAL_ROUTES = new Set(['indianapolis']);
+const REVIEWED_ZERO_LOCAL_ROUTES = new Set(['indianapolis', 'raleigh', 'des-moines']);
 
 function escapeHtml(value) {
   return String(value)

@@ -3,13 +3,13 @@
 
   var pages = {
     '/location/philadelphia/': {
-      title: 'Philadelphia, PA Antique Appraisers | Local & Online Reports',
-      description: 'Compare Philadelphia antique and art appraisers for estates, insurance, donation, furniture, and personal property—or start a paid online report from photos.',
+      title: 'Philadelphia Antique Appraisal | McCarty & Online Options',
+      description: 'Find McCarty Antiques in Chestnut Hill for art, antique, estate, and insurance evaluations. Review official services and compare a paid online report.',
       h1: 'Philadelphia Antique Appraisers & Art Appraisal Services'
     },
     '/location/wichita/': {
-      title: 'Wichita Antique Appraisers | Vintage Items & Online Reports',
-      description: 'Compare Wichita antique appraisers for antiques, vintage items, estates, insurance, and donations. Free screening is a first look; written reports are paid.',
+      title: 'Wichita Antique Appraisal | Art of Estates & Online Options',
+      description: 'See Art of Estates for Wichita antiques, fine art, and collections. Check service scope and contact details, or compare a paid online appraisal from photos.',
       h1: 'Wichita Antique Appraisers for Antiques & Vintage Items'
     },
     '/location/new-orleans/': {
@@ -30,8 +30,8 @@
       h1: 'Baltimore Antique & Art Appraisers'
     },
     '/location/pittsburgh/': {
-      title: 'Pittsburgh Antique Appraisers Near You | Online Reports',
-      description: 'Compare Pittsburgh antique and art appraisers near you for estates, insurance, donations, and personal property—or start a paid online report from photos.',
+      title: 'Pittsburgh Antique & Art Appraisal | Local Options',
+      description: 'Review Concept Art Gallery for Pittsburgh artwork and collection appraisals. Check its art-focused scope, contact the gallery, or compare an online report.',
       h1: 'Pittsburgh Antique Appraisers Near You'
     },
     '/location/chicago/': {
