@@ -67,6 +67,28 @@ function readDocument(relativePath) {
   return { html, document: new JSDOM(html).window.document };
 }
 
+for (const slug of ['chicago', 'baltimore']) {
+  test(`${slug} first-screen pilot shows the local listing before the separate online report`, () => {
+    const { document } = readDocument(`location/${slug}/index.html`);
+    const hero = document.querySelector('#root section');
+    const actions = [...hero.querySelectorAll('div.flex.flex-wrap.gap-3 a')];
+    assert.equal(actions.length, 2);
+    assert.equal(actions[0].getAttribute('href'), '#local-appraisers');
+    assert.match(actions[0].textContent, /See the .* listing/);
+    assert.equal(new URL(actions[1].href).pathname, '/start');
+    assert.equal(new URL(actions[1].href).searchParams.get('utm_campaign'), slug);
+    assert.equal(new URL(actions[1].href).searchParams.get('service'), 'regular');
+    assert.match(hero.textContent, /separate online signed report/);
+    assert.match(hero.textContent, /not a signed appraisal/);
+    const screenerLink = hero.querySelector('a[href^="https://appraisily.com/screener?"]');
+    assert.ok(screenerLink);
+    assert.equal(new URL(screenerLink.href).searchParams.get('utm_medium'), 'hero');
+    assert.equal(new URL(screenerLink.href).searchParams.get('utm_content'), 'free_screener');
+    assert.ok(hero.querySelector('a[href^="https://appraisily.com/sample-reports/professional?"]'));
+    assert.ok(document.querySelector('#local-appraisers a[href^="/appraiser/"]'));
+  });
+}
+
 test('directory home routes near-me visitors to the measured city cohort and paid intake', () => {
   const { document } = readDocument('index.html');
   const bodyText = document.body.textContent.replace(/\s+/g, ' ').trim();
