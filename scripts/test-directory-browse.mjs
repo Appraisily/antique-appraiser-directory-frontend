@@ -13,6 +13,9 @@ for (const page of ['appraiser', 'location']) {
   const d = dom.window.document;
   const rows = [...d.querySelectorAll('[data-browse-item]')];
   const expected = page === 'appraiser' ? feed.length : art ? 78 : 101;
+  for (const link of d.querySelectorAll('a[data-cta-kind="signed_report"]')) {
+    assert.ok(new URL(link.href).searchParams.get('utm_source'), 'Report handoffs retain an explicit source');
+  }
   assert.equal(rows.length, expected);
   const urls = rows.map(row => row.querySelector('a').getAttribute('href'));
   assert.equal(new Set(urls).size, expected, 'No duplicate destinations');
