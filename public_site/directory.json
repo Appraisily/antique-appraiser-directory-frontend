@@ -6,7 +6,7 @@
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
-    "appraisers": 258,
+    "appraisers": 254,
     "locations": 86
   },
   "feeds": {
@@ -4263,57 +4263,6 @@
       }
     },
     {
-      "slug": "duwamps-appraisals",
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/duwamps-appraisals/",
-      "name": "Duwamps Appraisals",
-      "description": "Duwamps Appraisals has a limited directory listing for Seattle, WA. Confirm current details directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
-      "address": {
-        "city": "Seattle",
-        "region": "WA",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/duwamps-appraisals/"
-      }
-    },
-    {
-      "slug": "charles-pharr-certified-appraiser",
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/charles-pharr-certified-appraiser/",
-      "name": "Charles Pharr Certified Art & Antique Appraiser",
-      "description": "Charles Pharr Certified Art & Antique Appraiser has a limited directory listing for Atlanta, GA. Confirm current details directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
-      "address": {
-        "city": "Atlanta",
-        "region": "GA",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/charles-pharr-certified-appraiser/"
-      }
-    },
-    {
-      "slug": "aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser",
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser/",
-      "name": "Aaron Art and Antiques Appraisal Services",
-      "description": "Aaron Art and Antiques Appraisal Services has a limited directory listing for Atlanta, GA. Confirm current details directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
-      "address": {
-        "city": "Atlanta",
-        "region": "GA",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser/"
-      }
-    },
-    {
       "slug": "gary-germer-and-associates",
       "url": "https://antique-appraiser-directory.appraisily.com/appraiser/gary-germer-and-associates/",
       "name": "Gary Germer & Associates",
@@ -4328,23 +4277,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/gary-germer-and-associates/"
-      }
-    },
-    {
-      "slug": "worthwise-art-and-antiques-appraisers",
-      "url": "https://antique-appraiser-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
-      "name": "WorthWise Art and Antiques Appraisers",
-      "description": "WorthWise Art and Antiques Appraisers has a limited directory listing for Denver, CO. Confirm current details directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
-      "address": {
-        "city": "Denver",
-        "region": "CO",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/worthwise-art-and-antiques-appraisers/"
       }
     }
   ],
@@ -5848,5 +5780,5 @@
       }
     }
   ],
-  "count": null
+  "count": 254
 }
