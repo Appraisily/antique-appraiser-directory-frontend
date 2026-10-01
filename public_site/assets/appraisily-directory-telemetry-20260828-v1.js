@@ -295,11 +295,39 @@
     return params;
   }
 
+  function stampHandoff(link) {
+    try {
+      var target = new URL(readDomAttr(link, 'href'), window.location.origin);
+      if (target.protocol !== 'https:' ||
+          ['appraisily.com', 'articles.appraisily.com'].indexOf(target.hostname) < 0) return;
+      var kind = surfaceContract().app === 'art_appraiser_directory_frontend' ? 'art_directory' : 'antique_directory';
+      if (target.searchParams.get('utm_source') === 'directory') target.searchParams.set('utm_source', kind);
+      target.searchParams.set('seo_site', kind);
+      target.searchParams.set('ref_path', canonicalPath(window.location.pathname));
+      target.searchParams.set('journey_id', journeyId);
+      if (synthetic.marker) target.searchParams.set('appraisily_synthetic', synthetic.marker);
+      link.setAttribute('href', target.toString());
+    } catch (_error) {
+      // Leave unrelated links and unsupported DOM nodes intact.
+    }
+  }
+
+  // Stamp all owned handoffs, including older unannotated links and new-tab clicks.
+  function stampHandoffs() {
+    if (typeof document.querySelectorAll !== 'function') return;
+    document.querySelectorAll('a[href]').forEach(stampHandoff);
+  }
+  stampHandoffs();
+  if (document.readyState === 'loading' && typeof document.addEventListener === 'function') {
+    document.addEventListener('DOMContentLoaded', stampHandoffs, { once: true });
+  }
+
   function onDirectoryCtaClick(event) {
     try {
       if (!event || (typeof event.button === 'number' && event.button !== 0)) return;
       var link = closestDirectoryCta(event.target);
       if (!link) return;
+      stampHandoff(link);
       sendFirstParty('directory_cta', directoryCtaClickParams(link), true);
     } catch (_error) {
       // Click telemetry must never interrupt navigation.
