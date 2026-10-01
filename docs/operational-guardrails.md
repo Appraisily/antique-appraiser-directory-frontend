@@ -15,6 +15,8 @@ This repo uses the same deployment discipline as the art directory.
   with `seo_site`, `ref_path`, and the shared `journey_id`. Generic directory
   UTMs become `antique_directory`; explicit acquisition tags remain intact.
   Synthetic markers follow the handoff; provider links and local anchors stay intact.
+  Deferred page scripts that replace links are observed and the same tags are
+  restored idempotently before navigation.
 
 - Do not publish through npm, GitHub Actions, Netlify, or repo-local scripts.
 - Do not use npm commands or scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.

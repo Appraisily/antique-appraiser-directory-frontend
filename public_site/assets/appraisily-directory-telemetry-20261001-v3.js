@@ -306,7 +306,7 @@
       target.searchParams.set('ref_path', canonicalPath(window.location.pathname));
       target.searchParams.set('journey_id', journeyId);
       if (synthetic.marker) target.searchParams.set('appraisily_synthetic', synthetic.marker);
-      link.setAttribute('href', target.toString());
+      if (readDomAttr(link, 'href') !== target.toString()) link.setAttribute('href', target.toString());
     } catch (_error) {
       // Leave unrelated links and unsupported DOM nodes intact.
     }
@@ -320,6 +320,20 @@
   stampHandoffs();
   if (document.readyState === 'loading' && typeof document.addEventListener === 'function') {
     document.addEventListener('DOMContentLoaded', stampHandoffs, { once: true });
+  }
+  // Legacy page patches replace links after DOM ready. Keep their owned handoffs
+  // tagged too; the equality check above makes our own mutations idempotent.
+  if (window.MutationObserver) {
+    new window.MutationObserver(function (mutations) {
+      mutations.forEach(function (mutation) {
+        if (mutation.type === 'attributes' && mutation.target.tagName === 'A') stampHandoff(mutation.target);
+        else Array.prototype.forEach.call(mutation.addedNodes || [], function (node) {
+          if (node.nodeType !== 1) return;
+          if (node.tagName === 'A') stampHandoff(node);
+          if (typeof node.querySelectorAll === 'function') node.querySelectorAll('a[href]').forEach(stampHandoff);
+        });
+      });
+    }).observe(document.documentElement || document, { childList: true, subtree: true, attributes: true, attributeFilter: ['href'] });
   }
 
   function onDirectoryCtaClick(event) {
