@@ -2,12 +2,12 @@
   "generatedAt": "2026-07-26T18:51:58.734Z",
   "policyVersion": 1,
   "summary": {
-    "changedProfiles": 1075,
-    "indexable": 253,
-    "suppressed": 822,
-    "appraiserIndexEntries": 253,
+    "changedProfiles": 1080,
+    "indexable": 258,
+    "suppressed": 819,
+    "appraiserIndexEntries": 258,
     "verified": 0,
-    "limited": 253
+    "limited": 258
   },
   "providers": [
     {
@@ -418,13 +418,17 @@
     {
       "slug": "aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser",
       "name": "Aaron Art and Antiques Appraisal Services",
-      "publicationStatus": "under_review",
-      "reason": "unresolved_cross_host_identity_or_primary_location_conflict",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
+      "publicationStatus": "limited",
+      "reason": "website_backed_limited_publication_2026-10-01",
+      "sourceUrl": "http://www.aaronappraisalservices.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-10-01",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location"
+      ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser/",
       "canonicalProviderId": "provider:aaron-art-and-antiques-appraisal-services"
     },
@@ -3282,13 +3286,17 @@
     {
       "slug": "charles-pharr-certified-appraiser",
       "name": "Charles Pharr Certified Art & Antique Appraiser",
-      "publicationStatus": "under_review",
-      "reason": "unresolved_cross_host_identity_or_primary_location_conflict",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
+      "publicationStatus": "limited",
+      "reason": "website_backed_limited_publication_2026-10-01",
+      "sourceUrl": "https://certified-appraiser.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-10-01",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location"
+      ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/charles-pharr-certified-appraiser/",
       "canonicalProviderId": "provider:charles-pharr-certified-art-antique-appraiser"
     },
@@ -4462,13 +4470,17 @@
     {
       "slug": "duwamps-appraisals",
       "name": "Duwamps Appraisals",
-      "publicationStatus": "under_review",
-      "reason": "unresolved_cross_host_identity_or_primary_location_conflict",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
+      "publicationStatus": "limited",
+      "reason": "website_backed_limited_publication_2026-10-01",
+      "sourceUrl": "https://www.duwampsartappraisals.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-10-01",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location"
+      ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/duwamps-appraisals/",
       "canonicalProviderId": "provider:duwamps-appraisals"
     },
@@ -14792,6 +14804,40 @@
       ],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/worthmore-jewelers/",
       "canonicalProviderId": "provider:worthmore-jewelers"
+    },
+    {
+      "slug": "gary-germer-and-associates",
+      "name": "Gary Germer & Associates",
+      "publicationStatus": "limited",
+      "reason": "website_backed_limited_publication_2026-10-01",
+      "sourceUrl": "https://www.garygermer.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-10-01",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/gary-germer-and-associates/",
+      "canonicalProviderId": "provider:gary-germer-and-associates"
+    },
+    {
+      "slug": "worthwise-art-and-antiques-appraisers",
+      "name": "WorthWise Art and Antiques Appraisers",
+      "publicationStatus": "limited",
+      "reason": "website_backed_limited_publication_2026-10-01",
+      "sourceUrl": "https://worthwiseappraisers.com/",
+      "sourceType": "official_business_website",
+      "verifiedAt": "2026-10-01",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location"
+      ],
+      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
+      "canonicalProviderId": "provider:worthwise-art-and-antiques-appraisers"
     }
   ]
 }
