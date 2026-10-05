@@ -18,6 +18,12 @@ This repo uses the same deployment discipline as the art directory.
   Deferred page scripts that replace links are observed and the same tags are
   restored idempotently before navigation.
 
+- Sitemap-listed online-appraisal and local-provider links must carry
+  `data-gtm-event="directory_cta"`. The shared static bootstrap remains the
+  single click-event owner; HTML annotations do not add another transport.
+  `tests/directory-click-coverage.test.mjs` checks the published cohort and
+  the Chicago hero/provider-card regression before the static build gate.
+
 - Do not publish through npm, GitHub Actions, Netlify, or repo-local scripts.
 - Do not use npm commands or scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
 - Individual profile and city page content may only change through direct, reviewed HTML edits.
