@@ -51,18 +51,27 @@ for (const slug of MIGRATED_SLUGS) {
   }
   if (!nginx.includes(slug)) failures.push(`missing antique nginx 301 for ${slug}`);
 }
-if (!appraiserIndex.includes(`https://${ART_ORIGIN}/`)) {
-  failures.push('appraiser index is missing the restored Art directory handoff');
+// The Art host was retired on 2026-10-09 and 301s to this directory.
+// Served HTML must link reviewed fine-art specialists here, not to Art.
+if (!appraiserIndex.includes('href="/art-appraisers-near-me/"')) {
+  failures.push('appraiser index is missing the fine-art specialists handoff');
 }
-if (appraiserIndex.includes('retired Art Appraisers Directory')) {
-  failures.push('appraiser index still describes the Art host as retired');
+const retiredHostLinks = [];
+for (const filename of await walk(PUBLIC_DIR)) {
+  const relative = path.relative(PUBLIC_DIR, filename);
+  // Unserved leftovers: nginx 301s these profile routes before the files.
+  if (MIGRATED_SLUGS.some((slug) => relative.startsWith(`appraiser/${slug}/`))) continue;
+  if (!relative.endsWith('.html')) continue;
+  if ((await fs.readFile(filename, 'utf8')).includes(`href="https://${ART_ORIGIN}`)) retiredHostLinks.push(relative);
 }
+if (retiredHostLinks.length) failures.push(`links to the retired Art host remain in ${retiredHostLinks.join(', ')}`);
 
 console.log(JSON.stringify({
   ok: failures.length === 0,
   artOrigin: ART_ORIGIN,
   scannedFiles: (await walk(PUBLIC_DIR)).length,
   migratedProfiles: MIGRATED_SLUGS.length,
+  retiredHostLinks,
   obsoleteModules,
   failures,
 }, null, 2));
