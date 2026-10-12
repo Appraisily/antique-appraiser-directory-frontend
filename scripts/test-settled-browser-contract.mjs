@@ -43,6 +43,12 @@ const FOCAL = {
       { selector: 'a[data-gtm-cta="request_appraisal"][data-gtm-surface="contact_sidebar"]', destinationPrefix: 'https://appraisily.com/start', gtm_cta: 'request_appraisal' },
     ],
   },
+  // Fine-art specialist website links (02c169e9) use the provider-contact pattern.
+  '/location/los-angeles/': {
+    clicks: [
+      { selector: 'a[data-gtm-surface="fine_art_specialist"]', destinationPrefix: 'https://', cta_kind: 'provider_contact', placement: 'fine_art_specialist' },
+    ],
+  },
   '/location/albuquerque/': {
     clicks: [
       { selector: 'a[data-cta-kind="signed_report"][data-gtm-placement="intent_chooser"]', destinationPrefix: 'https://appraisily.com/start', cta_kind: 'signed_report' },
@@ -129,10 +135,10 @@ async function clickCheck(session, click) {
   if (ctas.length && payload.click_owner !== 'directory_static_bootstrap') failures.push(`click owner ${payload.click_owner}`);
   if (ctas.length && click.destination && payload.destination !== click.destination) failures.push(`destination ${payload.destination}`);
   if (ctas.length && click.destinationPrefix && !String(payload.destination).startsWith(click.destinationPrefix)) failures.push(`destination ${payload.destination}`);
-  for (const key of ['gtm_cta', 'cta_kind']) if (click[key] && payload[key] !== click[key]) failures.push(`${key} ${payload[key]}`);
+  for (const key of ['gtm_cta', 'cta_kind', 'placement']) if (click[key] && payload[key] !== click[key]) failures.push(`${key} ${payload[key]}`);
   if (ctas.length && payload.qa_marker !== 'synthetic_browser') failures.push('synthetic QA marker missing from click payload');
   if (!local(location)) failures.push(`page navigated away to ${location}`);
-  return { selector: click.selector, events: events.map((event) => ({ event: event.event, owner: event.payload?.click_owner, destination: event.payload?.destination, cta_kind: event.payload?.cta_kind, gtm_cta: event.payload?.gtm_cta })), failures };
+  return { selector: click.selector, events: events.map((event) => ({ event: event.event, owner: event.payload?.click_owner, destination: event.payload?.destination, cta_kind: event.payload?.cta_kind, placement: event.payload?.placement, gtm_cta: event.payload?.gtm_cta })), failures };
 }
 
 async function visit(session, javascript, viewport, route, initial, browserBase) {

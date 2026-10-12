@@ -73,6 +73,25 @@ test('every class the authored cohort HTML uses is compiled by a stylesheet it l
   assert.deepEqual([...new Set(missing)].slice(0, 10), [], `${missing.length} uncompiled authored classes`);
 });
 
+test('fine-art specialist website links carry the provider-contact click kind and placement', () => {
+  let checked = 0;
+  for (const route of routes) {
+    const dom = new JSDOM(read(route));
+    try {
+      for (const link of dom.window.document.querySelectorAll('a[data-gtm-surface^="fine_art_"]')) {
+        checked += 1;
+        const surface = link.getAttribute('data-gtm-surface');
+        assert.equal(link.getAttribute('data-gtm-event'), 'directory_cta', `${route} ${link.href}`);
+        assert.equal(link.getAttribute('data-cta-kind'), 'provider_contact', `${route} ${link.href}: click kind missing`);
+        assert.equal(link.getAttribute('data-gtm-placement'), surface, `${route} ${link.href}: placement missing`);
+      }
+    } finally {
+      dom.window.close();
+    }
+  }
+  assert.equal(checked, 24, 'ten city sections plus the fourteen /art-appraisers-near-me/ links');
+});
+
 test('A-Coin negative fixture keeps the limited listing and the provider website distinct from Appraisily', () => {
   const route = '/appraiser/a-coin-and-stamp-gallery-estate-appraisal/';
   const html = read(route);

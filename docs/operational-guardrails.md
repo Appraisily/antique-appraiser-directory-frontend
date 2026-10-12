@@ -34,6 +34,10 @@ This repo uses the same deployment discipline as the art directory.
   off. Authored utility classes the legacy stylesheet never compiled live in
   `/assets/directory-authored-utilities-20261012.css`.
 
+- Fine-art specialist website links use the provider-contact pattern:
+  `data-cta-kind="provider_contact"` and `data-gtm-placement` equal to their
+  `data-gtm-surface`.
+
 - Do not publish through npm, GitHub Actions, Netlify, or repo-local scripts.
 - Do not use npm commands or scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
 - Individual profile and city page content may only change through direct, reviewed HTML edits.
