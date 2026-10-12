@@ -38,6 +38,16 @@ This repo uses the same deployment discipline as the art directory.
   `data-cta-kind="provider_contact"` and `data-gtm-placement` equal to their
   `data-gtm-surface`.
 
+- Sitemap pages without their own topbar carry one static site header
+  (`scripts/inject-directory-site-header.mjs`, checked in the build): logo and
+  "Antique Directory" to `/`, Browse cities to `/location/`, and Start to
+  `appraisily.com/start` with `utm_source=directory&utm_medium=header` and the
+  page's own campaign slug. Both links carry `directory_cta`, a
+  `data-cta-kind` (`navigation` / `signed_report`) and
+  `data-gtm-placement="header"`. Edit the injector, then rerun it with
+  `--write`; do not hand-edit the block. Chicago and Baltimore are held until
+  the choice-pilot read (todo `directory-choice-day28-20261026`).
+
 - Do not publish through npm, GitHub Actions, Netlify, or repo-local scripts.
 - Do not use npm commands or scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
 - Individual profile and city page content may only change through direct, reviewed HTML edits.

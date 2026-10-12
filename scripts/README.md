@@ -36,6 +36,7 @@ package scripts and operator runbooks call them directly.
 - `repair-short-mobile-compositing.mjs`: applies the 390x500 solid-nav/hero fallback for Chromium compositing stability.
 - `repair-internal-location-links.mjs`: repairs links to missing location/profile routes without creating thin pages.
 - `inject-donation-purpose-bridge.mjs` and `inject-directory-intent-chooser.mjs`: targeted marked-section patches on city/hub HTML, not full-page rewrites.
+- `inject-directory-site-header.mjs`: the marked static site header (logo, Browse cities, Start) on sitemap pages without their own header. It is idempotent and checked in the build. The topbar hubs keep their own header, and Chicago/Baltimore are held until the pilot read. It touches only the marked header block and its marked style, never page content.
 - `check-images.js`, `check-image-coverage.js`: legacy image diagnostics.
 
 ## Removed Build Path

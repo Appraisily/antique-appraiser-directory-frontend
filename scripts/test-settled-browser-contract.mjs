@@ -13,6 +13,7 @@
 //
 //   node scripts/test-settled-browser-contract.mjs --mode focal
 //   node scripts/test-settled-browser-contract.mjs --mode sweep --receipt out.json
+//   node scripts/test-settled-browser-contract.mjs --mode static   # the other header-bearing pages
 //   node scripts/test-settled-browser-contract.mjs --mode sweep --routes /location/denver/
 //   node scripts/test-settled-browser-contract.mjs --mode focal --base https://antique-appraiser-directory.appraisily.com
 import { execFile, execFileSync } from 'node:child_process';
@@ -22,6 +23,7 @@ import path from 'node:path';
 import process from 'node:process';
 import { JSDOM } from 'jsdom';
 import { captureDocument, clickAnnotationFailures, documentParityFailures } from './settled-document-contract.mjs';
+import { headerTargets } from './inject-directory-site-header.mjs';
 
 const repoRoot = path.resolve(import.meta.dirname, '..');
 const origin = 'https://antique-appraiser-directory.appraisily.com';
@@ -34,13 +36,19 @@ for (let index = 2; index < process.argv.length; index += 2) {
   if (!key || value === undefined) throw new Error(`Unknown or incomplete argument: ${flag}`);
   options[key] = ['publicDir', 'receipt', 'artifactDir'].includes(key) ? path.resolve(value) : key === 'concurrency' ? Number(value) : key === 'routes' ? value : value.replace(/\/$/, '');
 }
-if (!['focal', 'sweep'].includes(options.mode)) throw new Error('--mode must be focal or sweep');
+if (!['focal', 'sweep', 'static'].includes(options.mode)) throw new Error('--mode must be focal, sweep or static');
 
+// Static site header (inject-directory-site-header.mjs): one directory_cta per click.
+const HEADER_CLICKS = [
+  { selector: 'header[data-appraisily-directory-site-header] a.adh-start', destinationPrefix: 'https://appraisily.com/start', cta_kind: 'signed_report', placement: 'header' },
+  { selector: 'header[data-appraisily-directory-site-header] a.adh-browse', destination: '/location/', cta_kind: 'navigation', placement: 'header' },
+];
 const FOCAL = {
   '/appraiser/a-coin-and-stamp-gallery-estate-appraisal/': {
     clicks: [
       { selector: 'a[data-gtm-cta="website"][data-gtm-surface="contact_card"]', destination: 'https://www.a-coin.com/', gtm_cta: 'website' },
       { selector: 'a[data-gtm-cta="request_appraisal"][data-gtm-surface="contact_sidebar"]', destinationPrefix: 'https://appraisily.com/start', gtm_cta: 'request_appraisal' },
+      ...HEADER_CLICKS,
     ],
   },
   // Fine-art specialist website links (02c169e9) use the provider-contact pattern.
@@ -53,12 +61,16 @@ const FOCAL = {
     clicks: [
       { selector: 'a[data-cta-kind="signed_report"][data-gtm-placement="intent_chooser"]', destinationPrefix: 'https://appraisily.com/start', cta_kind: 'signed_report' },
       { selector: 'a[data-cta-kind="screener"][data-gtm-placement="intent_chooser"]', destinationPrefix: 'https://appraisily.com/screener', cta_kind: 'screener' },
+      ...HEADER_CLICKS,
     ],
   },
 };
 const cohort = JSON.parse(fs.readFileSync(path.join(repoRoot, 'tests/fixtures/legacy-client-module-cohort.json'), 'utf8')).routes;
 // --routes a,b narrows either mode to named cohort routes (for re-checking one document).
-const routes = (options.mode === 'focal' ? Object.keys(FOCAL) : cohort)
+// static: the already-static sitemap pages that also carry the site header.
+const staticRoutes = () => headerTargets(fs.readFileSync(path.join(options.publicDir, 'sitemap.xml'), 'utf8'))
+  .filter((route) => !cohort.includes(route));
+const routes = ({ focal: Object.keys(FOCAL), sweep: cohort, static: options.mode === 'static' ? staticRoutes() : [] }[options.mode])
   .filter((route) => !options.routes || options.routes.split(',').includes(route));
 const viewports = [{ width: 1365, height: 900 }, { width: 390, height: 844 }, { width: 320, height: 844 }];
 const socketDir = fs.mkdtempSync(path.join(os.tmpdir(), 'antique-parity-browser-'));
@@ -118,6 +130,9 @@ function focalFailures(route, initial, settled) {
 }
 
 async function clickCheck(session, click) {
+  // The bootstrap drops a second click of the same kind on a page within
+  // 1.5s (event|path|cta_kind). Space the test clicks past that window.
+  await browser(session, true, 'wait', '1600');
   await browser(session, true, 'network', 'requests', '--clear');
   await browser(session, true, 'eval', `(() => { const node = document.querySelector(${JSON.stringify(click.selector)}); if (!node) return false; node.scrollIntoView({ block: 'center' }); return true; })()`)
     .then((data) => { if (data.result !== true) throw new Error(`click target missing: ${click.selector}`); });

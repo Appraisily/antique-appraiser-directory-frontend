@@ -37,6 +37,8 @@ test('all sitemap-listed online-appraisal and local-profile anchors have click a
     const dom = new JSDOM(html);
     try {
       for (const link of dom.window.document.querySelectorAll('a[href]')) {
+        // Same-page fragments (the header skip link, in-page jumps) are not profile navigations.
+        if (link.getAttribute('href').startsWith('#')) continue;
         const destination = new URL(link.getAttribute('href'), url);
         const isOnlineAppraisal = destination.origin === 'https://appraisily.com' && destination.pathname === '/start';
         const isLocalProfile = destination.origin === origin && /^\/appraiser\/[^/]+\/$/.test(destination.pathname);

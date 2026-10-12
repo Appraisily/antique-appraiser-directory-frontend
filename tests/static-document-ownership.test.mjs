@@ -92,6 +92,47 @@ test('fine-art specialist website links carry the provider-contact click kind an
   assert.equal(checked, 24, 'ten city sections plus the fourteen /art-appraisers-near-me/ links');
 });
 
+test('pages without their own header carry exactly one static site header; held and topbar pages do not', async () => {
+  const { headerTargets } = await import('../scripts/inject-directory-site-header.mjs');
+  const targets = headerTargets(sitemap);
+  assert.equal(targets.length, 426);
+  for (const route of ['/location/chicago/', '/location/baltimore/', '/location/', '/methodology/', '/get-listed/', '/antique-appraisers-near-me/', '/art-appraisers-near-me/']) {
+    assert.ok(!targets.includes(route), `${route} must keep its current header state`);
+    assert.doesNotMatch(read(route), /data-appraisily-directory-site-header/, `${route} must not carry the injected header`);
+  }
+  for (const route of targets) {
+    // The charset must stay inside the first 1024 bytes (nginx adds ~120 bytes at <head>).
+    assert.ok(read(route).search(/<meta charset=/i) < 900, `${route}: charset declaration pushed late`);
+    const dom = new JSDOM(read(route), { url: `${origin}${route}` });
+    try {
+      const document = dom.window.document;
+      const headers = document.querySelectorAll('header[data-appraisily-directory-site-header]');
+      assert.equal(headers.length, 1, `${route}: one site header`);
+      const header = headers[0];
+      assert.equal(header.nextElementSibling?.id, 'root', `${route}: header sits directly before #root`);
+      assert.equal(header.querySelectorAll('h1,h2,h3,h4,h5,h6').length, 0, `${route}: header has no heading`);
+      assert.equal(document.querySelectorAll('h1').length, 1, `${route}: one H1`);
+      const logo = header.querySelector('.adh-brand img');
+      assert.deepEqual([logo.getAttribute('alt'), logo.getAttribute('width'), logo.getAttribute('height')], ['Appraisily', '32', '32']);
+      assert.equal(header.querySelector('.adh-brand').getAttribute('href'), '/');
+      const browse = header.querySelector('a.adh-browse');
+      const start = header.querySelector('a.adh-start');
+      assert.equal(browse.getAttribute('href'), '/location/');
+      const target = new URL(start.getAttribute('href'));
+      assert.equal(`${target.origin}${target.pathname}`, 'https://appraisily.com/start');
+      assert.equal(target.searchParams.get('utm_source'), 'directory');
+      assert.equal(target.searchParams.get('utm_medium'), 'header');
+      for (const [link, kind] of [[browse, 'navigation'], [start, 'signed_report']]) {
+        assert.equal(link.getAttribute('data-gtm-event'), 'directory_cta', `${route}: header link tracked`);
+        assert.equal(link.getAttribute('data-cta-kind'), kind);
+        assert.equal(link.getAttribute('data-gtm-placement'), 'header');
+      }
+    } finally {
+      dom.window.close();
+    }
+  }
+});
+
 test('A-Coin negative fixture keeps the limited listing and the provider website distinct from Appraisily', () => {
   const route = '/appraiser/a-coin-and-stamp-gallery-estate-appraisal/';
   const html = read(route);
