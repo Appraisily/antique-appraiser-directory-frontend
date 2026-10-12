@@ -49,17 +49,28 @@ const STYLE =
   'background:#292521;color:#fff;font-size:14px;font-weight:500;text-decoration:none;box-shadow:0 1px 2px rgba(0,0,0,.08)}' +
   '.adh-start:hover{background:#44403c}' +
   '.adh+#root>.mt-16:first-child{margin-top:0}' +
+  // Shell wrap rules: long authored source URLs and raw specialty tokens must
+  // not widen 320px phones. They only break where a word would overflow.
+  '#root a[href^="http"],#root li>span{overflow-wrap:anywhere}' +
   '@media (min-width:640px){.adh-inner{padding:0 24px}}' +
   '@media (min-width:1024px){.adh-inner{padding:0 32px}}' +
   '@media (max-width:380px){.adh-inner{gap:8px}.adh-nav{gap:6px}.adh-brand span{max-width:5.5em;font-size:15px}.adh-start{padding:0 12px}}' +
   '</style>';
 
-function startHref(campaign) {
+function startHref(campaign, regular) {
   return 'https://appraisily.com/start?utm_source=directory&amp;utm_medium=header' +
-    (campaign ? `&amp;utm_campaign=${encodeURIComponent(campaign)}` : '') + '&amp;utm_content=start';
+    (campaign ? `&amp;utm_campaign=${encodeURIComponent(campaign)}` : '') + '&amp;utm_content=start' +
+    (regular ? '&amp;service=regular' : '');
 }
 
-export function buildHeader(campaign) {
+// Pages whose own Start links all route to the regular paid service (the
+// reviewed priority cities) keep that route on the header Start too.
+export function pageRoutesRegular(html) {
+  const starts = [...html.matchAll(/href="https:\/\/appraisily\.com\/start\?([^"]*)"/g)];
+  return starts.length > 0 && starts.every((match) => /(?:^|&amp;|&)service=regular(?:&|$)/.test(match[1]));
+}
+
+export function buildHeader(campaign, regular = false) {
   return (
     `<header ${MARKER} class="adh">` +
     '<a class="adh-skip" href="#root">Skip to main content</a>' +
@@ -67,7 +78,7 @@ export function buildHeader(campaign) {
     '<a class="adh-brand" href="/"><img src="/assets/appraisily-logo-monogram-64.png" alt="Appraisily" width="32" height="32"><span>Antique Directory</span></a>' +
     '<nav class="adh-nav" aria-label="Directory">' +
     '<a class="adh-browse" href="/location/" data-gtm-event="directory_cta" data-cta-kind="navigation" data-gtm-placement="header">Browse cities</a>' +
-    `<a class="adh-start" href="${startHref(campaign)}" data-gtm-event="directory_cta" data-cta-kind="signed_report" data-gtm-placement="header">Start</a>` +
+    `<a class="adh-start" href="${startHref(campaign, regular)}" data-gtm-event="directory_cta" data-cta-kind="signed_report" data-gtm-placement="header">Start</a>` +
     '</nav></div></header>\n'
   );
 }
@@ -94,7 +105,7 @@ export function injectHeader(html) {
   // bytes); other gates own the end of head (the visible-FAQ schema stays last).
   const charset = base.match(/<meta charset="[^"]*">/i);
   if (!charset) return null;
-  return base.replace(charset[0], `${charset[0]}${STYLE}`).replace(ROOT, `${buildHeader(campaign)}${ROOT}`);
+  return base.replace(charset[0], `${charset[0]}${STYLE}`).replace(ROOT, `${buildHeader(campaign, pageRoutesRegular(base))}${ROOT}`);
 }
 
 export function headerTargets(sitemapXml) {

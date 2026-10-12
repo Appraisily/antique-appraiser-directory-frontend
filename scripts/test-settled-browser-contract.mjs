@@ -162,10 +162,11 @@ async function visit(session, javascript, viewport, route, initial, browserBase)
   await browser(session, javascript, 'open', `${browserBase}${route}?appraisily_qa=1`);
   await browser(session, javascript, 'wait', javascript ? '1500' : '300');
   const settled = (await browser(session, javascript, 'eval', `(${captureDocument.toString()})(document, ${JSON.stringify(origin)})`)).result;
-  const layout = (await browser(session, javascript, 'eval', '({scriptsRan: window.__appraisilyDirectoryTelemetryV1 === true, scrollWidth: document.documentElement.scrollWidth, h1Visible: !!document.querySelector("h1")?.getClientRects().length, qa: (() => { try { return sessionStorage.getItem("appraisily_qa_marker"); } catch { return null; } })()})')).result;
+  const layout = (await browser(session, javascript, 'eval', '({innerWidth: window.innerWidth, scriptsRan: window.__appraisilyDirectoryTelemetryV1 === true, scrollWidth: document.documentElement.scrollWidth, h1Visible: !!document.querySelector("h1")?.getClientRects().length, qa: (() => { try { return sessionStorage.getItem("appraisily_qa_marker"); } catch { return null; } })()})')).result;
   row.settled = { title: settled.title, canonicals: settled.canonicals.length, descriptions: settled.descriptions.length, h1: settled.h1, providerEntities: settled.providerEntities.length, schemaTypes: settled.schemaTypes, moduleScripts: settled.moduleScripts, spaRoots: settled.spaRoots, interactiveControls: settled.interactiveControls, anchors: settled.anchors.length };
   row.layout = layout;
   if (layout.scriptsRan !== javascript) row.failures.push({ category: 'mode', detail: `JavaScript ${javascript ? 'did not run' : 'ran while disabled'}` });
+  if (layout.innerWidth !== viewport.width) row.failures.push({ category: 'harness', detail: `viewport ${layout.innerWidth}px, expected ${viewport.width}px` });
   if (layout.scrollWidth > viewport.width + 1) row.failures.push({ category: 'layout', detail: `horizontal overflow ${layout.scrollWidth}px` });
   if (!layout.h1Visible) row.failures.push({ category: 'layout', detail: 'H1 not visible' });
   if (javascript && layout.qa !== 'synthetic_browser') row.failures.push({ category: 'click-annotation', detail: 'synthetic QA marker missing' });
@@ -268,14 +269,17 @@ try {
         .then(() => browser(session, javascript, 'eval', 'window.__probe === true'));
       if (probe.result !== javascript) throw new Error(`JavaScript mode probe failed for ${session}`);
       if (javascript) await browser(session, true, 'network', 'route', collector, '--body', '{}');
-      let width = 0;
       while (queue.length) {
         const { viewport, route } = queue.shift();
-        if (viewport.width !== width) { await browser(session, javascript, 'set', 'viewport', String(viewport.width), String(viewport.height)); width = viewport.width; }
         let row;
         // A CLI/daemon failure under load is retried once; contract failures are never retried.
         for (let attempt = 1; attempt <= 2 && !row; attempt += 1) {
-          try { row = await visit(session, javascript, viewport, route, initial.get(route), browserBase); if (attempt > 1) row.retried = true; }
+          try {
+            // Set the viewport on every visit: a restarted browser daemon falls back to its default window.
+            await browser(session, javascript, 'set', 'viewport', String(viewport.width), String(viewport.height));
+            row = await visit(session, javascript, viewport, route, initial.get(route), browserBase);
+            if (attempt > 1) row.retried = true;
+          }
           catch (error) {
             if (attempt === 2) row = { route, javascript, width: viewport.width, ok: false, failures: [{ category: 'harness', detail: error.message }] };
             else await new Promise((resolve) => setTimeout(resolve, 2000));
