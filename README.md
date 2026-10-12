@@ -52,6 +52,10 @@ npm run serve:static
 # Run lint checks
 npm run lint
 
+# Compare authored and settled documents in a real browser (isolated nginx, no external hosts)
+npm run test:settled-browser -- --mode focal
+npm run test:settled-browser -- --mode sweep --receipt /tmp/antique-settled-sweep.json
+
 ```
 
 ## VPS Static Publish (recommended)

@@ -30,7 +30,7 @@ test('customer browse and search surfaces use the route-backed city list', () =>
   assert.equal(publishedCities.length, 101);
 });
 
-test('canonical static entry pages load the current route-safe application bundle', () => {
+test('static entry pages never load a stale bundle, and published city pages keep their authored HTML', () => {
   const publicRoot = path.join(repoRoot, 'public_site');
   const pending = [publicRoot];
   const stale = [];
@@ -52,5 +52,7 @@ test('canonical static entry pages load the current route-safe application bundl
     path.join(publicRoot, 'location/los-angeles/index.html'),
     'utf8'
   );
-  assert.match(losAngeles, /\/assets\/index-Lwn3tpy2\.js/);
+  // The legacy client app replaced authored metadata and content after load
+  // (Antique A01/A02); published pages now ship the reviewed HTML only.
+  assert.doesNotMatch(losAngeles, /\/assets\/index-[\w-]+\.js/);
 });

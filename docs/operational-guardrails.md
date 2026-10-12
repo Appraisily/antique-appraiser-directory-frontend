@@ -24,6 +24,16 @@ This repo uses the same deployment discipline as the art directory.
   `tests/directory-click-coverage.test.mjs` checks the published cohort and
   the Chicago hero/provider-card regression before the static build gate.
 
+- Published sitemap documents ship their reviewed static HTML only. They must
+  not load the legacy client app (`/assets/index-*.js`): it replaced authored
+  content after load, added a second title/canonical/description and provider
+  schema, removed provider website links and rendered unsupported trust claims.
+  `tests/static-document-ownership.test.mjs` gates this in the build, and
+  `npm run test:settled-browser -- --mode focal|sweep` compares authored and
+  settled documents in a real browser at 1365/390/320px with JavaScript on and
+  off. Authored utility classes the legacy stylesheet never compiled live in
+  `/assets/directory-authored-utilities-20261012.css`.
+
 - Do not publish through npm, GitHub Actions, Netlify, or repo-local scripts.
 - Do not use npm commands or scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
 - Individual profile and city page content may only change through direct, reviewed HTML edits.

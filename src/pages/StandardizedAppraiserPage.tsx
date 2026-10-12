@@ -368,7 +368,8 @@ export function StandardizedAppraiserPage() {
   }
 
   const seoTitle = `${appraiser.name} - Antique Appraiser in ${appraiser.address.city} | Expert Antique Valuation Services`;
-  const seoDescription = `Get professional antique appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
+  // Directory data does not establish certification or review verification.
+  const seoDescription = `${appraiser.name} has a directory listing for ${appraiser.address.city}. Confirm current services and qualifications directly with the business.`;
   const citySlug = appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
   const fallbackAbout = (() => {
     const parts = [
