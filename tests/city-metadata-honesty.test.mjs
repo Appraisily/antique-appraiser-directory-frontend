@@ -77,13 +77,14 @@ test('city metadata promises only what the page shows, and stated counts match l
       if (!facts.providers && !COMPARE_OWNED_BY_SCRIPT.has(route) && /\bcompar(?:e|es|ing|ison)\b/i.test(meta.text)) fail('metadata promises comparison with no listed provider');
       if (/\bcertified\b/i.test(meta.text) || meta.schema.some((item) => [].concat(item.keywords || []).some((keyword) => /certified/i.test(keyword)))) fail('metadata claims certification');
       const stated = [
-        ...[...meta.text.matchAll(/\b(\d+) (?:antique appraiser )?listings?\b/gi)].map((match) => Number(match[1])),
+        ...[...meta.text.matchAll(/\b(\d+) (?:antique (?:and art )?appraiser )?listings?\b/gi)].map((match) => Number(match[1])),
         ...[...facts.text.matchAll(/(?:Directory profiles|Listed providers) \((\d+)\)/g)].map((match) => Number(match[1])),
         ...[...facts.text.matchAll(/This page (?:currently )?lists (\d+|no) (?:local )?provider/g)].map((match) => countOf(match[1])),
         ...meta.schema.filter((item) => item['@type'] === 'ItemList' && 'numberOfItems' in item).map((item) => item.numberOfItems),
       ];
       for (const count of stated) if (count !== facts.profiles) fail(`states ${count} providers, links ${facts.profiles}`);
       if (/\(\d+ verified, \d+ listed\)/.test(facts.text)) fail('in-body verified/listed count');
+      if (facts.profiles && /\bno local (?:antique )?listings? yet\b/i.test(meta.text)) fail('metadata says no local listing on a page that links one');
     } finally {
       dom.window.close();
     }
