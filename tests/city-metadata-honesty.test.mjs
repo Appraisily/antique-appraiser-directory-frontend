@@ -167,3 +167,9 @@ test('no published page shows raw snake_case data codes as visible text', () => 
   }
   assert.deepEqual(failures, [], `${failures.length} pages show raw codes:\n${failures.slice(0, 10).join('\n')}`);
 });
+
+test('no published guide promises a comparison heading', () => {
+  const failures = guides.filter((route) =>
+    /<h2[^>]*>\d+\) Compare providers in /.test(fs.readFileSync(path.join(publicRoot, route, 'index.html'), 'utf8')));
+  assert.deepEqual(failures, [], `${failures.length} guides still say "Compare providers": ${failures.slice(0, 6).join(', ')}`);
+});
