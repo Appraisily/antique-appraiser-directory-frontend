@@ -369,9 +369,9 @@
       },
       "expertise": {
         "specialties": [
-          "fine_art_or_gallery_related",
-          "antique_decorative_arts_personal_property_or_estate_contents",
-          "jewelry_gem_watch"
+          "Fine art and gallery work",
+          "Antiques, decorative arts and estate contents",
+          "Jewelry, gems and watches"
         ],
         "certifications": [],
         "services": [

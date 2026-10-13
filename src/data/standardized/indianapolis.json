@@ -1327,9 +1327,9 @@
       },
       "expertise": {
         "specialties": [
-          "antique_decorative_arts_personal_property_or_estate_contents",
-          "real_estate_property_appraisal",
-          "business_equipment_or_inventory"
+          "Antiques, decorative arts and estate contents",
+          "Real estate appraisal",
+          "Business equipment and inventory"
         ],
         "certifications": [],
         "services": [
@@ -1405,8 +1405,8 @@
       },
       "expertise": {
         "specialties": [
-          "rare_books_manuscripts_archives",
-          "real_estate_property_appraisal"
+          "Rare books, manuscripts and archives",
+          "Real estate appraisal"
         ],
         "certifications": [],
         "services": [

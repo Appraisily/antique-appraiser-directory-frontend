@@ -111,3 +111,59 @@ test('city guides state the provider count their city page actually links', () =
   }
   assert.deepEqual(failures, [], `${failures.length} guide count mismatches:\n${failures.slice(0, 10).join('\n')}`);
 });
+
+// Visible copy follows the same rules: the city hero may not promise fees the
+// page does not show, or comparison without at least two listed options.
+const HERO_OWNED_ELSEWHERE = new Set(['/location/denver/', '/location/des-moines/']); // left alone by request
+
+test('city heroes promise only what the page shows', () => {
+  const failures = [];
+  for (const route of cities) {
+    if (PILOT_HOLD.has(route) || HERO_OWNED_ELSEWHERE.has(route)) continue;
+    const dom = load(route);
+    try {
+      const document = dom.window.document;
+      const facts = cityFacts(document);
+      const hero = document.querySelector('#root h1')?.nextElementSibling;
+      const text = hero?.tagName === 'P' ? hero.textContent.replace(/\s+/g, ' ').trim() : '';
+      if (!facts.showsFees && /\bfees?\b/i.test(text)) failures.push(`${route}: hero promises fees`);
+      if (facts.providers < 2 && /\bcompar(?:e|es|ing|ison)\b/i.test(text)) failures.push(`${route}: hero promises comparison with ${facts.providers} listed`);
+      if (/…$/.test(text)) failures.push(`${route}: hero is truncated`);
+    } finally {
+      dom.window.close();
+    }
+  }
+  assert.deepEqual(failures, [], `${failures.length} hero promises:\n${failures.slice(0, 12).join('\n')}`);
+});
+
+test('guides for cities with no listing do not promise providers to compare', () => {
+  const failures = [];
+  for (const route of guides) {
+    const city = route.replace(/appraisal-guide\/$/, '');
+    const dom = load(city);
+    let profilesLinked;
+    try { profilesLinked = cityFacts(dom.window.document).profiles; } finally { dom.window.close(); }
+    if (profilesLinked) continue;
+    const html = fs.readFileSync(path.join(publicRoot, route, 'index.html'), 'utf8');
+    if (/<h2[^>]*>\d+\) Compare providers in /.test(html)) failures.push(`${route}: "Compare providers" heading`);
+    if (/Ask each provider about/.test(html)) failures.push(`${route}: "Ask each provider" with no provider listed`);
+  }
+  assert.deepEqual(failures, [], `${failures.length} guide promises:\n${failures.slice(0, 10).join('\n')}`);
+});
+
+test('no published page shows raw snake_case data codes as visible text', () => {
+  const failures = [];
+  for (const route of urls) {
+    const dom = load(route);
+    try {
+      const root = dom.window.document.body.cloneNode(true);
+      root.querySelectorAll('script, style, noscript').forEach((node) => node.remove());
+      for (const link of root.querySelectorAll('a[href]')) if (/^https?:/.test(link.textContent.trim())) link.remove();
+      const codes = root.textContent.match(/(?<![\w/.@?&=%-])[a-z0-9]+(?:_[a-z0-9]+){1,}(?![\w/.@])/g) || [];
+      if (codes.length) failures.push(`${route}: ${[...new Set(codes)].join(', ')}`);
+    } finally {
+      dom.window.close();
+    }
+  }
+  assert.deepEqual(failures, [], `${failures.length} pages show raw codes:\n${failures.slice(0, 10).join('\n')}`);
+});
