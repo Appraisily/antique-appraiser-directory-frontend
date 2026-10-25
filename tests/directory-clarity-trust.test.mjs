@@ -25,6 +25,10 @@ test('homepage source and canonical HTML avoid unsupported certification and sca
   assert.match(footer, /Confirm provider credentials, scope, fees, availability, and report timing directly/);
   assert.match(html, /Local &amp; Online Appraisal Options/);
   assert.match(html, /appraisily-directory-trust-v1\.js\?v=20260803b/);
+  assert.match(html, /About this directory:<\/strong> An Appraisily directory of independent third-party listings/);
+  assert.match(html, /href="\/get-listed\/">Corrections and listing support<\/a>/);
+  assert.match(html, /href="https:\/\/appraisily\.com\/privacy">Privacy<\/a>/);
+  assert.match(html, /href="https:\/\/appraisily\.com\/terms">Terms<\/a>/);
 });
 
 test('thin and empty city pages state their actual listing depth', () => {
