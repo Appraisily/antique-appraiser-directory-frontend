@@ -2,9 +2,9 @@
   "generatedAt": "2026-07-26T18:51:58.734Z",
   "policyVersion": 1,
   "summary": {
-    "changedProfiles": 1076,
+    "changedProfiles": 1070,
     "indexable": 254,
-    "suppressed": 822,
+    "suppressed": 816,
     "appraiserIndexEntries": 254,
     "verified": 0,
     "limited": 254
@@ -1862,19 +1862,6 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/ashleigh-caroline-associates-inc/",
       "canonicalProviderId": "provider:caroline-ashleigh-associates"
-    },
-    {
-      "slug": "asianpersian-decorative-arts",
-      "name": "Fine Art Appraisal + Services",
-      "publicationStatus": "under_review",
-      "reason": "needs_review",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/asianpersian-decorative-arts/",
-      "canonicalProviderId": "provider:fine-art-appraisal-services"
     },
     {
       "slug": "aspen-2-antique-appraisers",
@@ -4992,19 +4979,6 @@
       "canonicalProviderId": "provider:fidelity-estate-services"
     },
     {
-      "slug": "fine-art-archives",
-      "name": "Fine Art Appraisal + Services",
-      "publicationStatus": "under_review",
-      "reason": "needs_review",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fine-art-archives/",
-      "canonicalProviderId": "provider:fine-art-appraisal-services"
-    },
-    {
       "slug": "fine-art-concierge",
       "name": "Fine Art Concierge",
       "publicationStatus": "under_review",
@@ -5376,19 +5350,6 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fredericton-jardine-auctioneers-inc/",
       "canonicalProviderId": "provider:fredericton-jardine-auctioneers"
-    },
-    {
-      "slug": "fredericton-kelly-juhaszfine-art-appraisalservices",
-      "name": "fredericton-kelly-juhaszfine-art-appraisalservices",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/fredericton-kelly-juhaszfine-art-appraisalservices/",
-      "canonicalProviderId": "provider:fredericton-kelly-juhaszfine-art-appraisalservices"
     },
     {
       "slug": "fredericton-liz-isaac-appraisals",
@@ -7479,19 +7440,6 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/kathleen-doyle-antiquestor-2238/",
       "canonicalProviderId": "provider:kathleen-doyle-antiquestor-2238"
-    },
-    {
-      "slug": "kelly-juhaszfine-art-appraisalservices",
-      "name": "kelly-juhaszfine-art-appraisalservices",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/kelly-juhaszfine-art-appraisalservices/",
-      "canonicalProviderId": "provider:kelly-juhaszfine-art-appraisalservices"
     },
     {
       "slug": "kelowna-able-auctions-asset-valuation-division",
@@ -13987,19 +13935,6 @@
       "canonicalProviderId": "provider:toledo-toledo-antique-appraisals"
     },
     {
-      "slug": "toronto-asianpersian-decorative-arts",
-      "name": "toronto-asianpersian-decorative-arts",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/toronto-asianpersian-decorative-arts/",
-      "canonicalProviderId": "provider:toronto-asianpersian-decorative-arts"
-    },
-    {
       "slug": "toronto-canadian-indigenous-historical-works",
       "name": "toronto-canadian-indigenous-historical-works",
       "publicationStatus": "under_review",
@@ -14011,19 +13946,6 @@
       "claimScope": [],
       "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/toronto-canadian-indigenous-historical-works/",
       "canonicalProviderId": "provider:toronto-canadian-indigenous-historical-works"
-    },
-    {
-      "slug": "toronto-fine-art-archives",
-      "name": "toronto-fine-art-archives",
-      "publicationStatus": "under_review",
-      "reason": "missing_website",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/toronto-fine-art-archives/",
-      "canonicalProviderId": "provider:toronto-fine-art-archives"
     },
     {
       "slug": "transitions-estate-services-inc",

@@ -1,0 +1,58 @@
+{
+  "policyVersion": 1,
+  "updatedAt": "2026-10-25",
+  "records": [
+    {
+      "id": "fine-art-appraisal-services-non-affiliation-20261025",
+      "status": "terminal",
+      "effectiveDate": "2026-10-25",
+      "reason": "official_non_affiliation_notice",
+      "notice": {
+        "publishedAt": "2025-09-17",
+        "url": "https://www.fineartappraisalandservices.com/news-1/not-affiliated-with-online-appraisal-service"
+      },
+      "routing": {
+        "httpStatus": 410,
+        "routes": [
+          "/appraiser/kelly-juhaszfine-art-appraisalservices/",
+          "/appraiser/asianpersian-decorative-arts/",
+          "/appraiser/fine-art-archives/",
+          "/appraiser/fredericton-kelly-juhaszfine-art-appraisalservices/",
+          "/appraiser/toronto-asianpersian-decorative-arts/",
+          "/appraiser/toronto-fine-art-archives/"
+        ]
+      },
+      "publication": {
+        "publishIdentity": false,
+        "removeGeneratedArtifacts": true,
+        "retainRawResearchAsNonPublishableEvidence": true,
+        "republishWithoutDocumentedConsent": false
+      },
+      "sourceRecords": [
+        {
+          "file": "src/data/standardized/fredericton.json",
+          "slug": "kelly-juhaszfine-art-appraisalservices"
+        },
+        {
+          "file": "src/data/standardized/toronto.json",
+          "slug": "asianpersian-decorative-arts"
+        },
+        {
+          "file": "src/data/standardized/toronto.json",
+          "slug": "fine-art-archives"
+        }
+      ],
+      "generatedAssets": [
+        "public_site/assets/generated-appraiser-profiles/kelly-juhaszfine-art-appraisalservices.svg",
+        "public_site/assets/generated-appraiser-profiles/asianpersian-decorative-arts.svg",
+        "public_site/assets/generated-appraiser-profiles/fine-art-archives.svg",
+        "public_site/assets/fredericton-Bq60K4pr.js",
+        "public_site/assets/fredericton-CqE0ynsR.js",
+        "public_site/assets/fredericton-DBGAJOqY.js",
+        "public_site/assets/toronto-BP4zCqVO.js",
+        "public_site/assets/toronto-CB6OL1n_.js",
+        "public_site/assets/toronto-CqmnsCET.js"
+      ]
+    }
+  ]
+}

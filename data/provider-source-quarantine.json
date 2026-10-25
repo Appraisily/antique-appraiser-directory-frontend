@@ -14,7 +14,8 @@
     "suspicious_name": 13,
     "zip_state_mismatch": 7,
     "generic_or_invalid_website": 5,
-    "placeholder_address": 1
+    "placeholder_address": 1,
+    "official_non_affiliation_notice": 3
   },
   "quarantine": [
     {
@@ -7699,8 +7700,8 @@
       "slug": "kelly-juhaszfine-art-appraisalservices",
       "name": "Kelly Juhasz（Fine Art Appraisal＆Services）",
       "sourceFile": "fredericton.json",
-      "publicationStatus": "under_review",
-      "identityPublicationStatus": "under_review",
+      "publicationStatus": "not_published",
+      "identityPublicationStatus": "not_published",
       "findings": [
         {
           "code": "repeated_review_across_providers",
@@ -7751,8 +7752,14 @@
           "code": "credential_missing_provenance",
           "field": "expertise.certifications",
           "value": "USPAP Compliant"
+        },
+        {
+          "code": "official_non_affiliation_notice",
+          "field": "identity",
+          "value": "See governed terminal takedown registry."
         }
-      ]
+      ],
+      "terminalDispositionId": "fine-art-appraisal-services-non-affiliation-20261025"
     },
     {
       "slug": "liz-isaac-appraisals",
@@ -23158,8 +23165,8 @@
       "slug": "asianpersian-decorative-arts",
       "name": "Asian/Persian Decorative Arts",
       "sourceFile": "toronto.json",
-      "publicationStatus": "under_review",
-      "identityPublicationStatus": "under_review",
+      "publicationStatus": "not_published",
+      "identityPublicationStatus": "not_published",
       "findings": [
         {
           "code": "repeated_review_across_providers",
@@ -23225,8 +23232,14 @@
           "code": "credential_missing_provenance",
           "field": "expertise.certifications",
           "value": "USPAP-compliant"
+        },
+        {
+          "code": "official_non_affiliation_notice",
+          "field": "identity",
+          "value": "See governed terminal takedown registry."
         }
-      ]
+      ],
+      "terminalDispositionId": "fine-art-appraisal-services-non-affiliation-20261025"
     },
     {
       "slug": "canadian-indigenous-historical-works",
@@ -23291,8 +23304,8 @@
       "slug": "fine-art-archives",
       "name": "Fine Art & Archives",
       "sourceFile": "toronto.json",
-      "publicationStatus": "under_review",
-      "identityPublicationStatus": "under_review",
+      "publicationStatus": "not_published",
+      "identityPublicationStatus": "not_published",
       "findings": [
         {
           "code": "review_missing_provenance",
@@ -23333,8 +23346,14 @@
           "code": "credential_missing_provenance",
           "field": "expertise.certifications",
           "value": "USPAP-compliant"
+        },
+        {
+          "code": "official_non_affiliation_notice",
+          "field": "identity",
+          "value": "See governed terminal takedown registry."
         }
-      ]
+      ],
+      "terminalDispositionId": "fine-art-appraisal-services-non-affiliation-20261025"
     },
     {
       "slug": "aj-yuen-appraisals",
@@ -25394,5 +25413,6 @@
         }
       ]
     }
-  ]
+  ],
+  "reviewedAt": "2026-10-25"
 }
