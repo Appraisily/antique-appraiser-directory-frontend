@@ -161,7 +161,7 @@ function buildBlock(page) {
     .join('');
   return `${START}
     <section class="bg-emerald-50/70 border border-emerald-100 rounded-xl p-6 shadow-sm space-y-3" data-appraisily-gsc-location-refresh="static">
-      <p class="text-sm font-semibold uppercase tracking-wide text-emerald-700">Search demand snapshot</p>
+      <p class="text-sm font-semibold uppercase tracking-wide text-emerald-700">Local and online options</p>
       <h2 class="text-2xl font-semibold text-gray-900">${escapeHtml(page.heading)}</h2>
       <p class="text-gray-700 leading-relaxed">${escapeHtml(page.body)}</p>
       <div class="flex flex-wrap gap-2">${phraseLinks}</div>

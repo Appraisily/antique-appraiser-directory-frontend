@@ -146,7 +146,7 @@ test('A-Coin negative fixture keeps the limited listing and the provider website
   const website = state.anchors.filter((anchor) => anchor.destination === 'https://www.a-coin.com/');
   assert.equal(website.length, 2, 'both native provider website links stay in the document');
   assert.ok(website.some((anchor) => anchor.text === 'Visit official website' && anchor.tracking.includes('data-gtm-cta=website')));
-  const appraisily = state.anchors.find((anchor) => anchor.text === 'Request an Appraisal');
+  const appraisily = state.anchors.find((anchor) => anchor.text === 'Get an online appraisal from Appraisily');
   assert.equal(appraisily?.destination, 'https://appraisily.com/start');
   assert.ok(appraisily.tracking.includes('data-gtm-cta=request_appraisal'));
   assert.equal(state.moduleScripts.length, 0);

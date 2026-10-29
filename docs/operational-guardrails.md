@@ -38,6 +38,23 @@ This repo uses the same deployment discipline as the art directory.
   `data-cta-kind="provider_contact"` and `data-gtm-placement` equal to their
   `data-gtm-surface`.
 
+- Sitemap-listed Screener links carry `directory_cta`, `data-cta-kind="screener"`
+  and `data-gtm-placement` equal to their `utm_medium`. Every outbound link on a
+  sitemap profile carries `directory_cta` with `data-cta-kind="provider_website"`
+  (the provider's own site) or `provider_source` (a third-party source such as
+  BBB or MapQuest) and a placement (`contact_card`, `profile_image`,
+  `profile_sources`, `profile_body`). `tests/directory-click-coverage.test.mjs`
+  gates both (2026-10-29).
+
+- The profile button that opens `appraisily.com/start` reads "Get an online
+  appraisal from Appraisily"; it never reads as a request to the provider.
+
+- Visible copy is customer copy. `tests/visitor-copy-hygiene.test.mjs` fails
+  the build on internal SEO/planning wording (GSC, impressions, keyword intent,
+  noindex, ranking, etc.) on any public page, on empty "Profile unavailable"
+  cards (no profile link, phone, email or website), and on do-not-publish
+  quarantine names in city pages, hubs, feeds or sitemaps.
+
 - Sitemap pages without their own topbar carry one static site header
   (`scripts/inject-directory-site-header.mjs`, checked in the build): logo and
   "Antique Directory" to `/`, Browse cities to `/location/`, and Start to

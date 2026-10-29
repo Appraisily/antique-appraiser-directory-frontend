@@ -122,7 +122,7 @@ function focalFailures(route, initial, settled) {
     if (official.length < 2) add(`expected both native a-coin.com website links, found ${official.length}`);
     if (!official.some((anchor) => anchor.text === 'Visit official website' && anchor.tracking.includes('data-gtm-cta=website'))) add('labelled official website action missing');
     if (!settled.anchors.some((anchor) => anchor.destination === 'https://www.a-coin.com/estate-services/')) add('reviewed source link missing');
-    if (!settled.anchors.some((anchor) => anchor.text === 'Request an Appraisal' && anchor.destination === 'https://appraisily.com/start')) add('separate Appraisily action missing');
+    if (!settled.anchors.some((anchor) => anchor.text === 'Get an online appraisal from Appraisily' && anchor.destination === 'https://appraisily.com/start')) add('separate Appraisily action missing');
     if (settled.providerEntities.length !== 1 || settled.providerEntities[0].type !== 'ProfessionalService') add(`expected one ProfessionalService, found ${JSON.stringify(settled.providerEntities)}`);
     if (!settled.mainText.includes('Limited directory listing. Confirm provider details on the official website before engagement.')) add('limited-listing disclaimer missing');
   }

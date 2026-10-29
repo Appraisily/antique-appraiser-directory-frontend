@@ -55,3 +55,47 @@ test('all sitemap-listed online-appraisal and local-profile anchors have click a
   assert.ok(checked > 200, 'the check must cover the published link cohort, not only Chicago');
   assert.equal(missing.length, 0, `${missing.length} untracked links: ${missing.slice(0, 8).join('; ')}`);
 });
+
+// Screener handoffs and provider links were the untracked remainder after the
+// 2026-10-05 repair (cp-2026-10-29-directory-cleanup-and-link-tags). Same
+// single-owner bootstrap: HTML annotations only, no second emitter.
+const PROVIDER_KINDS = new Set(['provider_website', 'provider_source', 'provider_contact']);
+
+test('every sitemap Appraisily start/screener link and every profile provider link carries a kind and placement', () => {
+  const sitemap = fs.readFileSync(path.join(publicRoot, 'sitemap.xml'), 'utf8');
+  const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => new URL(match[1]));
+  const missing = [];
+  const counts = { start: 0, screener: 0, provider: 0 };
+  for (const url of urls) {
+    const isProfile = /^\/appraiser\/[^/]+\/$/.test(url.pathname);
+    const dom = new JSDOM(fs.readFileSync(path.join(publicRoot, url.pathname, 'index.html'), 'utf8'));
+    try {
+      for (const link of dom.window.document.querySelectorAll('a[href]')) {
+        const href = link.getAttribute('href');
+        if (href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) continue;
+        const destination = new URL(href, url);
+        const appraisily = destination.hostname === 'appraisily.com' || destination.hostname.endsWith('.appraisily.com');
+        const route = destination.pathname.replace(/\/$/, '');
+        let kind;
+        if (destination.hostname === 'appraisily.com' && route === '/start') kind = 'start';
+        else if (destination.hostname === 'appraisily.com' && route === '/screener') kind = 'screener';
+        else if (isProfile && !appraisily && /^https?:$/.test(destination.protocol)) kind = 'provider';
+        else continue;
+        counts[kind] += 1;
+        const label = `${url.pathname} -> ${destination.host}${destination.pathname}`;
+        if (link.getAttribute('data-gtm-event') !== 'directory_cta') missing.push(`${label} (no directory_cta)`);
+        if (kind === 'start') continue;
+        if (!link.getAttribute('data-gtm-placement')) missing.push(`${label} (no placement)`);
+        const ctaKind = link.getAttribute('data-cta-kind');
+        if (kind === 'screener' && ctaKind !== 'screener') missing.push(`${label} (kind ${ctaKind})`);
+        if (kind === 'provider' && !PROVIDER_KINDS.has(ctaKind)) missing.push(`${label} (kind ${ctaKind})`);
+      }
+    } finally {
+      dom.window.close();
+    }
+  }
+  assert.ok(counts.screener > 400, `screener links checked: ${counts.screener}`);
+  assert.ok(counts.provider > 800, `provider links checked: ${counts.provider}`);
+  assert.ok(counts.start > 900, `start links checked: ${counts.start}`);
+  assert.equal(missing.length, 0, `${missing.length} untagged links: ${missing.slice(0, 8).join('; ')}`);
+});
