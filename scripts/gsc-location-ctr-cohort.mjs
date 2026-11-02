@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SEARCH_ANALYTICS_SCRIPT = '/srv/repos/tools/search-console-inspector/search-analytics.mjs';
 const DEFAULT_PROPERTY = 'sc-domain:appraisily.com';
-const DEFAULT_OUTPUT_DIR = `/srv/manager/automation/seo/${new Date().toISOString().slice(0, 10)}-location-ctr-cohort`;
+const DEFAULT_OUTPUT_DIR = `/srv/runtime/seo/${new Date().toISOString().slice(0, 10)}-location-ctr-cohort`;
 
 const PRIORITY_SLUGS = [
   'des-moines',
