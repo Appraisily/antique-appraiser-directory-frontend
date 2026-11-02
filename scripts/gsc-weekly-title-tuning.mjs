@@ -42,7 +42,7 @@ function parseArgs(argv) {
     rowLimit: 25000,
     minImpressions: 8,
     maxPosition: 30,
-    outputDir: `/srv/manager/seo/${new Date().toISOString().slice(0, 10)}-location-title-tuning`,
+    outputDir: `/srv/manager/automation/seo/${new Date().toISOString().slice(0, 10)}-location-title-tuning`,
   };
 
   while (args.length) {
