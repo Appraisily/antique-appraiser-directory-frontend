@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const skipEnvCheck = process.env.SKIP_ENV_CHECK === '1';
-const envGovernanceScript = path.resolve(__dirname, '../../../env-governance/run-check.mjs');
+const envGovernanceScript = path.resolve(__dirname, '../../../tools/env-governance/run-check.mjs');
 const args = ['--schema', 'frontends/antique-appraiser-directory-frontend'];
 
 if (skipEnvCheck) {
