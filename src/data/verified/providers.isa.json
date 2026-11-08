@@ -885,42 +885,6 @@
   },
   {
     "locationSlug": "san-francisco",
-    "slug": "san-francisco-perri-guthrie",
-    "name": "Perri Guthrie",
-    "website": "",
-    "phone": "(214) 460-3503",
-    "address": {
-      "city": "Woodside",
-      "region": "CA",
-      "country": "US"
-    },
-    "specialties": [
-      "Art",
-      "Paintings - 20th Century",
-      "Photography - 20th Century",
-      "Prints - Modern & Contemporary",
-      "Sculpture - Contemporary",
-      "Art - 20th Century",
-      "Drawings - 20th Century",
-      "Paintings - Contemporary American",
-      "Sculpture",
-      "Sculpture - Modern"
-    ],
-    "services": [
-      "Equitable Distribution",
-      "Estate Evaluations",
-      "Insurance Claims",
-      "Non-Cash Charitable Donations"
-    ],
-    "verification": {
-      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/169/perri-guthrie",
-      "verifiedAt": "2026-01-05",
-      "sourceType": "ISA directory",
-      "notes": "Imported from ISA Find an Appraiser directory (San Francisco CA)."
-    }
-  },
-  {
-    "locationSlug": "san-francisco",
     "slug": "san-francisco-niels-dahl-jensen",
     "name": "Niels Dahl-Jensen",
     "website": "",
@@ -952,42 +916,6 @@
       "verifiedAt": "2026-01-05",
       "sourceType": "ISA directory",
       "notes": "Imported from ISA Find an Appraiser directory (San Francisco CA)."
-    }
-  },
-  {
-    "locationSlug": "san-jose",
-    "slug": "san-jose-perri-guthrie",
-    "name": "Perri Guthrie",
-    "website": "",
-    "phone": "(214) 460-3503",
-    "address": {
-      "city": "Woodside",
-      "region": "CA",
-      "country": "US"
-    },
-    "specialties": [
-      "Art",
-      "Paintings - 20th Century",
-      "Photography - 20th Century",
-      "Prints - Modern & Contemporary",
-      "Sculpture - Contemporary",
-      "Art - 20th Century",
-      "Drawings - 20th Century",
-      "Paintings - Contemporary American",
-      "Sculpture",
-      "Sculpture - Modern"
-    ],
-    "services": [
-      "Equitable Distribution",
-      "Estate Evaluations",
-      "Insurance Claims",
-      "Non-Cash Charitable Donations"
-    ],
-    "verification": {
-      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/169/perri-guthrie",
-      "verifiedAt": "2026-01-05",
-      "sourceType": "ISA directory",
-      "notes": "Imported from ISA Find an Appraiser directory (San Jose CA)."
     }
   },
   {
