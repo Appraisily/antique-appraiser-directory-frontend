@@ -1,0 +1,16 @@
+{
+  "description": "City pages left out of the 2026-11-11 metadata pass (CTR pass 2). Ending an exclusion is a data change: remove the entry, run scripts/apply-directory-metadata-pass2.mjs --write, review the diff.",
+  "checkedAt": "2026-11-11",
+  "excluded": [
+    { "slug": "chicago", "reason": "Measured local-first choice pilot; untouched until its day-28 read is written", "source": "cp-2026-09-28-directory-choice-pilot; todo directory-choice-day28-20261026; tests/city-metadata-honesty.test.mjs PILOT_HOLD", "until": "pilot read written" },
+    { "slug": "baltimore", "reason": "Measured local-first choice pilot; untouched until its day-28 read is written", "source": "cp-2026-09-28-directory-choice-pilot; todo directory-choice-day28-20261026; tests/city-metadata-honesty.test.mjs PILOT_HOLD", "until": "pilot read written" },
+    { "slug": "philadelphia", "reason": "Title and description pinned by the GSC priority refresh and re-applied by its page script", "source": "tests/gsc-priority-directory-refresh.test.mjs; assets/gsc-priority-directory-refresh-20260809.js (8096332a)", "until": "that refresh is changed by its owner" },
+    { "slug": "wichita", "reason": "Title and description pinned by the GSC priority refresh and re-applied by its page script", "source": "tests/gsc-priority-directory-refresh.test.mjs; assets/gsc-priority-directory-refresh-20260809.js (8096332a)", "until": "that refresh is changed by its owner" },
+    { "slug": "new-orleans", "reason": "Title and description pinned by the GSC priority refresh and re-applied by its page script", "source": "tests/gsc-priority-directory-refresh.test.mjs; tests/city-metadata-honesty.test.mjs COMPARE_OWNED_BY_SCRIPT", "until": "that refresh is changed by its owner" },
+    { "slug": "raleigh", "reason": "Title and description pinned by the GSC priority refresh and re-applied by its page script", "source": "tests/gsc-priority-directory-refresh.test.mjs", "until": "that refresh is changed by its owner" },
+    { "slug": "pittsburgh", "reason": "Title and description pinned by the GSC priority refresh and re-applied by its page script", "source": "tests/gsc-priority-directory-refresh.test.mjs", "until": "that refresh is changed by its owner" },
+    { "slug": "des-moines", "reason": "Metadata owned by its own inline title script; left alone by request", "source": "tests/city-metadata-honesty.test.mjs COMPARE_OWNED_BY_SCRIPT", "until": "owner request" },
+    { "slug": "houston", "reason": "Held state checked in the build", "source": "scripts/check-houston-held-state.mjs", "until": "hold lifted" },
+    { "slug": "indianapolis", "reason": "noindex page; title pinned by a Clarity friction test", "source": "tests/directory-clarity-friction.test.mjs", "until": "page indexed again" }
+  ]
+}

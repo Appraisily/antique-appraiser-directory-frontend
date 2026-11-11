@@ -65,6 +65,17 @@ This repo uses the same deployment discipline as the art directory.
   `--write`; do not hand-edit the block. Chicago and Baltimore are held until
   the choice-pilot read (todo `directory-choice-day28-20261026`).
 
+- City and "near me" hub titles/descriptions (CTR pass 2, 2026-11-11) come
+  from `scripts/lib/directory-metadata.mjs`, with counts read from the page
+  itself (`scripts/lib/city-page-facts.mjs`). Like the injectors, edit the
+  builder and run `node scripts/apply-directory-metadata-pass2.mjs --write`
+  (metadata copies only, never body content), then review the diff. Held or
+  script-owned pages are listed with source and end in
+  `data/directory-ctr-pass2-exclusions.json`; ending a hold is a data change.
+  `tests/directory-ctr-pass2.test.mjs` gates both, plus the whole-card browse
+  links (`/assets/directory-browse-v2.css`) and the intent chooser's local
+  card, which follows the page's listing count.
+
 - Do not publish through npm, GitHub Actions, Netlify, or repo-local scripts.
 - Do not use npm commands or scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
 - Individual profile and city page content may only change through direct, reviewed HTML edits.

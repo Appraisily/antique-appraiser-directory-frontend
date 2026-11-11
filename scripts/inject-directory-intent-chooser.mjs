@@ -15,8 +15,10 @@
  *   node scripts/inject-directory-intent-chooser.mjs --write
  */
 import fs from 'node:fs/promises';
+import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import process from 'node:process';
+import { cityPageFacts, readSitemapProfiles } from './lib/city-page-facts.mjs';
 
 const MARKER = 'data-appraisily-directory-intent-chooser="1"';
 const BLOCK_RE =
@@ -78,19 +80,44 @@ function occasionLink(label, detail, href, kind) {
   );
 }
 
-function buildCityBlock(cityName, citySlug) {
+/**
+ * The local card follows what the page lists (CTR pass 2, 2026-11-11). On pages
+ * with no linked provider profile, "Jump to local listings" landed on an empty
+ * box: Clarity's dead clicks on zero-listing city pages. Those pages now get the
+ * reviewed "browse published locations" card, or a jump to the listed
+ * fine-art specialist when there is one.
+ */
+const PASS2_EXCLUSIONS_FILE = new URL('../data/directory-ctr-pass2-exclusions.json', import.meta.url);
+// Held or script-owned pages keep the card they had before this pass.
+export const HELD_CITY_SLUGS = new Set(
+  JSON.parse(readFileSync(PASS2_EXCLUSIONS_FILE, 'utf8')).excluded.map((entry) => entry.slug),
+);
+
+export function localCardState(citySlug, facts) {
+  if (REVIEWED_ZERO_LOCAL_ROUTES.has(citySlug)) return 'none';
+  if (HELD_CITY_SLUGS.has(citySlug)) return 'listings';
+  if (!facts || !Number.isInteger(facts.listings)) return 'listings';
+  if (facts.listings > 0) return 'listings';
+  return facts.specialists > 0 ? 'specialists' : 'none';
+}
+
+function buildCityBlock(cityName, citySlug, facts) {
   const city = escapeHtml(cityName);
   const campaign = citySlug;
-  const localHref = REVIEWED_ZERO_LOCAL_ROUTES.has(citySlug) ? '/location/' : '#local-appraisers';
-  const localTitle = REVIEWED_ZERO_LOCAL_ROUTES.has(citySlug)
-    ? 'Need someone nearby'
-    : `Need someone in ${city}`;
-  const localCopy = REVIEWED_ZERO_LOCAL_ROUTES.has(citySlug)
-    ? 'No local profile is currently published here. Browse published cities, or use a signed online report when photos are enough.'
-    : `Compare current ${city} listings. Confirm credentials, scope, fees, and availability directly.`;
-  const localCta = REVIEWED_ZERO_LOCAL_ROUTES.has(citySlug)
-    ? 'Browse published locations'
-    : 'Jump to local listings';
+  const state = localCardState(citySlug, facts);
+  const specialistWord = facts?.specialists === 1 ? 'specialist' : 'specialists';
+  const localHref = { none: '/location/', specialists: '#fine-art-specialists', listings: '#local-appraisers' }[state];
+  const localTitle = state === 'none' ? 'Need someone nearby' : `Need someone in ${city}`;
+  const localCopy = {
+    none: 'No local profile is currently published here. Browse published cities, or use a signed online report when photos are enough.',
+    specialists: `No local antique profile is published for ${city} yet; the listed fine-art ${specialistWord} may help with paintings, prints and sculpture. Confirm credentials, scope, fees, and availability directly.`,
+    listings: `Compare current ${city} listings. Confirm credentials, scope, fees, and availability directly.`,
+  }[state];
+  const localCta = {
+    none: 'Browse published locations',
+    specialists: `See the listed ${specialistWord}`,
+    listings: 'Jump to local listings',
+  }[state];
   const signedHref = taggedUrl('/start', campaign, 'signed_report', '&amp;service=regular');
   const screenerHref = taggedUrl('/screener', campaign, 'screener');
   const sampleHref = taggedUrl('/sample-reports/professional', campaign, 'sample_report');
@@ -220,9 +247,10 @@ function stripChooser(html) {
   return html.replace(BLOCK_RE, '');
 }
 
-function injectCityHtml(html, citySlug) {
+export function injectCityHtml(html, citySlug, profiles = new Set()) {
   const stripped = stripChooser(html);
-  const block = buildCityBlock(titleCaseSlug(citySlug), citySlug);
+  const facts = cityPageFacts(stripped, profiles, `/location/${citySlug}/`);
+  const block = buildCityBlock(titleCaseSlug(citySlug), citySlug, facts);
   if (DONATION_RE.test(stripped)) {
     return stripped.replace(DONATION_RE, `${block}$&`);
   }
@@ -248,6 +276,14 @@ async function maybeWrite(filePath, nextHtml, currentHtml, write) {
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   const locationRoot = path.join(options.publicDir, 'location');
+  // Without a sitemap (test fixtures) no profile can be counted; pages without
+  // #root keep the listings card, as before this pass.
+  let profiles = new Set();
+  try {
+    profiles = readSitemapProfiles(options.publicDir);
+  } catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+  }
   const entries = await fs.readdir(locationRoot, { withFileTypes: true });
   let changed = 0;
   let skippedNoAnchor = 0;
@@ -264,7 +300,7 @@ async function main() {
       continue;
     }
     total += 1;
-    const result = await maybeWrite(filePath, injectCityHtml(html, entry.name), html, options.write);
+    const result = await maybeWrite(filePath, injectCityHtml(html, entry.name, profiles), html, options.write);
     if (result.skipped) {
       skippedNoAnchor += 1;
       missing.push(entry.name);
@@ -313,7 +349,9 @@ async function main() {
   }
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+}
