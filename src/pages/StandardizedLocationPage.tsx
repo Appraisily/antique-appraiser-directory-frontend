@@ -1569,7 +1569,7 @@ export function StandardizedLocationPage() {
         name: 'How does an online appraisal work?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Submit clear photos, measurements, and any provenance. Our experts review the item and deliver a written valuation report online.'
+          text: 'One clear photo of the front is all we need to start. Optional, but helpful: back, signature or label close-up, size, and anything you know (artist, where it came from). You receive a signed written report online.'
         }
       },
       {
@@ -1585,7 +1585,7 @@ export function StandardizedLocationPage() {
         name: 'What should I prepare before requesting an appraisal?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Provide multiple photos (front, back, details, marks), dimensions, condition notes, and any history or purchase information.'
+          text: 'One clear photo of the front is enough to start. Optional, but helpful: back, signature or label close-ups, size, condition notes, and any history or purchase information.'
         }
       },
       {
@@ -1852,11 +1852,11 @@ export function StandardizedLocationPage() {
     },
     {
       question: 'How does an online appraisal work?',
-      answer: 'Share photos, measurements, and any provenance. Our experts review the item and deliver a written valuation.',
+      answer: 'One clear photo of the front is all we need to start. Optional, but helpful: back, signature or label close-up, size, and anything you know (artist, where it came from). You receive a signed written report.',
     },
     {
       question: 'What should I prepare before requesting an appraisal?',
-      answer: 'Multiple photos, condition notes, dimensions, and any labels, signatures, or purchase history help the most.',
+      answer: 'One clear photo of the front is enough to start. Optional, but helpful: back, signature or label close-ups, size, condition notes, and any purchase history.',
     },
     {
       question: 'Can I still use a local appraiser?',
@@ -2613,7 +2613,7 @@ export function StandardizedLocationPage() {
                 <p className="font-semibold text-gray-900 mb-2">Appraisily online</p>
                 <ul className="space-y-2 text-gray-600">
                   <li>No appointment required</li>
-                  <li>Submit photos and details from anywhere</li>
+                  <li>One clear photo of the front is all we need to start</li>
                   <li>Faster turnaround for most items</li>
                 </ul>
               </a>

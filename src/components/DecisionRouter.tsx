@@ -32,7 +32,7 @@ const choices = [
   {
     kind: 'signed_report',
     title: 'Need a signed report without a visit',
-    copy: 'Choose this when photos and documentation are sufficient. After checkout, submit photos, marks, labels, and notes for a signed written valuation report.',
+    copy: 'Choose this when an online report is enough. After checkout, one clear photo of the front is all we need to start; a back, signature or label close-up, the size and anything you know are optional, but helpful.',
     cta: 'Start a paid online appraisal',
     iconSrc: '/assets/decision-router-report.png',
   },
