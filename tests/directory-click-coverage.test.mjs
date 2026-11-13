@@ -94,8 +94,9 @@ test('every sitemap Appraisily start/screener link and every profile provider li
       dom.window.close();
     }
   }
-  assert.ok(counts.screener > 400, `screener links checked: ${counts.screener}`);
+  // 13 Nov: the city "Learn more" CTA row (a duplicate screener link) was cut and 18 guides left the sitemap.
+  assert.ok(counts.screener > 300, `screener links checked: ${counts.screener}`);
   assert.ok(counts.provider > 800, `provider links checked: ${counts.provider}`);
-  assert.ok(counts.start > 900, `start links checked: ${counts.start}`);
+  assert.ok(counts.start > 800, `start links checked: ${counts.start}`); // 13 Nov: learn-more paid CTA cut, 18 guides out of the sitemap
   assert.equal(missing.length, 0, `${missing.length} untagged links: ${missing.slice(0, 8).join('; ')}`);
 });

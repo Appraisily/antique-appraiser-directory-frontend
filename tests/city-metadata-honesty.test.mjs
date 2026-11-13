@@ -15,7 +15,11 @@ const sitemap = fs.readFileSync(path.join(publicRoot, 'sitemap.xml'), 'utf8');
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => new URL(match[1]).pathname);
 const profiles = new Set(urls.filter((route) => /^\/appraiser\/[^/]+\/$/.test(route)));
 const cities = urls.filter((route) => /^\/location\/[^/]+\/$/.test(route));
-const guides = urls.filter((route) => /^\/location\/[^/]+\/appraisal-guide\/$/.test(route));
+// The 18 zero-impression guides left the sitemap (noindex, follow; texto-repetido 13 Nov) but are
+// still served, so their statements are still checked.
+const noindexGuides = JSON.parse(fs.readFileSync(path.join(repoRoot, 'data/zero-impression-guides-20261113.json'), 'utf8'))
+  .guides.map((entry) => `/location/${entry.slug}/appraisal-guide/`);
+const guides = [...urls.filter((route) => /^\/location\/[^/]+\/appraisal-guide\/$/.test(route)), ...noindexGuides];
 // Measured choice pilot (todo directory-choice-day28-20261026): untouched until its read.
 const PILOT_HOLD = new Set(['/location/chicago/', '/location/baltimore/']);
 // Comparison wording whose owner is a page script, not the HTML: an open

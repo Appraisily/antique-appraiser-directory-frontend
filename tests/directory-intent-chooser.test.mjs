@@ -56,8 +56,8 @@ test('injector places a job-language chooser above listings and stays idempotent
     const wichitaListings = wichita.indexOf('id="local-appraisers"');
     assert.ok(wichitaChooser !== -1 && wichitaChooser < wichitaDonation);
     assert.ok(wichitaDonation < wichitaListings);
-    assert.match(wichita, /Need a signed report without a visit/);
-    assert.match(wichita, /Need someone in Wichita/);
+    assert.match(wichita, /Start a paid online appraisal/);
+    assert.match(wichita, /Next step in Wichita/);
     assert.match(wichita, /inherited-objects/);
     assert.match(wichita, /\/insurance\?/);
     assert.match(wichita, /qualified-appraisals/);

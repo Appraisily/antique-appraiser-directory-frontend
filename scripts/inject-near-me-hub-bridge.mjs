@@ -105,6 +105,32 @@ function buildBlock(citySlug, hubKeys, content) {
   );
 }
 
+// Repeated-text step 2 (13 Nov 2026): on city pages the bridge keeps its three hub links
+// (link equity, same UTM and analytics attributes) without the card descriptions.
+// Held pages (choice pilot Chicago/Baltimore, Houston held state) keep the full block;
+// appraisal guides and the national pages are unchanged.
+export const FULL_CITY_BRIDGE_SLUGS = new Set(['chicago', 'baltimore', 'houston']);
+
+function compactHubLink(key, citySlug, content) {
+  const hub = HUBS[key];
+  const href =
+    `${hub.href}?utm_source=directory&amp;utm_medium=near_me_bridge` +
+    `&amp;utm_campaign=${encodeURIComponent(citySlug)}&amp;utm_content=${content}`;
+  return (
+    `<a class="text-blue-700 underline underline-offset-2" href="${href}" data-analytics-event="directory_near_me_bridge_click" ` +
+    `data-analytics-destination="${key}" data-analytics-location="near-me-hub-bridge">${hub.label}</a>`
+  );
+}
+
+export function buildCompactCityBlock(citySlug, hubKeys, content) {
+  return (
+    `<section ${MARKER} aria-labelledby="near-me-hub-bridge-heading" class="py-6 border-t border-gray-200">` +
+    '<h2 id="near-me-hub-bridge-heading" class="text-lg font-semibold text-gray-900 mb-2">Local visit or online report?</h2>' +
+    `<p class="text-gray-700">Decision guides: ${hubKeys.map((key) => compactHubLink(key, citySlug, content)).join(' · ')}</p>` +
+    '</section>\n\n    '
+  );
+}
+
 function nationalHubCard(key, citySlug, content) {
   const hub = HUBS[key];
   const href =
@@ -176,6 +202,7 @@ async function main() {
       hubKeys: CITY_HUB_KEYS,
       content: 'hub',
       id: entry.name,
+      blockBuilder: FULL_CITY_BRIDGE_SLUGS.has(entry.name) ? buildBlock : buildCompactCityBlock,
     });
     targets.push({
       filePath: path.join(locationRoot, entry.name, 'appraisal-guide', 'index.html'),

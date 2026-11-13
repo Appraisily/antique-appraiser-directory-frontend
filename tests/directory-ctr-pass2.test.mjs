@@ -146,5 +146,5 @@ test('localCardState follows the page counts and keeps held pages unchanged', ()
   assert.match(empty, /Browse published locations/);
   const listed = injectCityHtml(page('<a href="/appraiser/x/">X</a>'), 'testville', new Set(['/appraiser/x/']));
   assert.match(listed, /href="#local-appraisers"[^>]*data-cta-kind="local_specialist"/);
-  assert.match(listed, /Compare current Testville listings/);
+  assert.match(listed, /See the 1 Testville listing/);
 });
