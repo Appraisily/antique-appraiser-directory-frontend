@@ -128,7 +128,9 @@ test('FA2 and FA4: location FAQs and provider advice ask for one front photo; ex
           // non-JSON payloads are checked elsewhere
         }
       }
-      for (const answer of [FA2_NEW, FA4_FAQ_NEW]) {
+      // 13 Nov (repeated text, step 2): the generic "What should I prepare" question (FA4 FAQ) was cut
+      // from the city FAQs; the Appraisily one-photo answer (FA2) stays.
+      for (const answer of [FA2_NEW]) {
         if (!visible.includes(answer)) failures.push(`${route}: visible FAQ missing "${answer.slice(0, 30)}..."`);
         if (!schemaAnswers.includes(answer)) failures.push(`${route}: FAQPage JSON-LD missing "${answer.slice(0, 30)}..."`);
       }
@@ -138,7 +140,7 @@ test('FA2 and FA4: location FAQs and provider advice ask for one front photo; ex
   }
   assert.deepEqual(failures.slice(0, 10), []);
   assert.equal(counts.fa2, 99, 'FA2 FAQ on 99 location pages (101 minus the 2 held pilot pages)');
-  assert.equal(counts.faqNew, 99);
+  assert.equal(counts.faqNew, 1, 'the "What should I prepare" FAQ left the trimmed city pages (texto-repetido 13 Nov); only held Houston keeps it');
   assert.equal(counts.adviceNew, 97);
   assert.equal(counts.held, 2, 'held pilot pages (Chicago, Baltimore) stay untouched until their read is written');
 });

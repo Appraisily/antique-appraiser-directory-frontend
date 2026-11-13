@@ -95,7 +95,7 @@ test('fine-art specialist website links carry the provider-contact click kind an
 test('pages without their own header carry exactly one static site header; held and topbar pages do not', async () => {
   const { headerTargets } = await import('../scripts/inject-directory-site-header.mjs');
   const targets = headerTargets(sitemap);
-  assert.equal(targets.length, 426);
+  assert.equal(targets.length, 408, "426 minus the 18 noindex guides (texto-repetido 13 Nov)");
   for (const route of ['/location/chicago/', '/location/baltimore/', '/location/', '/methodology/', '/get-listed/', '/antique-appraisers-near-me/', '/art-appraisers-near-me/']) {
     assert.ok(!targets.includes(route), `${route} must keep its current header state`);
     assert.doesNotMatch(read(route), /data-appraisily-directory-site-header/, `${route} must not carry the injected header`);

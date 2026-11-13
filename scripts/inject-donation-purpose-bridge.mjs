@@ -34,6 +34,8 @@ const CITY_NAME_OVERRIDES = new Map([
 ]);
 const REVIEWED_ZERO_LOCAL_ROUTES = new Set(['indianapolis', 'raleigh', 'des-moines']);
 const REVIEWED_LOCAL_FIRST_ROUTES = new Set(['wichita', 'philadelphia', 'pittsburgh']);
+// Held pages keep the full bridge (choice pilot Chicago/Baltimore, Houston held state).
+const FULL_BRIDGE_SLUGS = new Set(['chicago', 'baltimore', 'houston']);
 
 function escapeHtml(value) {
   return String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -49,6 +51,17 @@ function buildBlock(cityName, citySlug) {
   const localOption = REVIEWED_ZERO_LOCAL_ROUTES.has(citySlug)
     ? ` for the online option. No ${city} provider profile is currently listed; <a href="/location/" class="font-semibold text-blue-700 underline underline-offset-2 hover:text-blue-800">browse all published locations</a> when an in-person inspection or specific credentials are required.`
     : ` for the online option, or contact ${indefiniteArticle} ${city} appraiser from the listings ${REVIEWED_LOCAL_FIRST_ROUTES.has(citySlug) ? 'on this page' : 'below'} when an in-person inspection or specific credentials are required.`;
+  if (!FULL_BRIDGE_SLUGS.has(citySlug)) {
+    // Repeated-text step 2 (13 Nov 2026): the generic donation paragraph is cut; the
+    // city heading, the donation link and the page's local option stay.
+    return (
+      `<section ${MARKER} aria-labelledby="donation-purpose-heading" class="mb-8 rounded-lg border border-gray-200 bg-gray-50 p-4">` +
+      `<h2 id="donation-purpose-heading" class="text-base font-semibold text-gray-900">Donating an item from ${city}?</h2>` +
+      `<p class="mt-1 text-gray-700"><a href="${href}" class="font-semibold text-blue-700 underline underline-offset-2 hover:text-blue-800">` +
+      'See Appraisily&rsquo;s donation appraisal report and what it covers</a>' + localOption + '</p>' +
+      '</section>\n      '
+    );
+  }
   return (
     `<section ${MARKER} aria-labelledby="donation-purpose-heading" class="mb-8 rounded-lg border border-gray-200 bg-gray-50 p-5">` +
     `<h2 id="donation-purpose-heading" class="text-lg font-semibold text-gray-900">Donating an item from ${city}?</h2>` +

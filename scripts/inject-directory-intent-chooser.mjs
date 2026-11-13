@@ -101,7 +101,54 @@ export function localCardState(citySlug, facts) {
   return facts.specialists > 0 ? 'specialists' : 'none';
 }
 
+// Repeated-text step 2 (13 Nov 2026): city pages get a short chooser whose words are the
+// page's own (city, listing count); the long card copy stays only on held pages
+// (choice pilot Chicago/Baltimore, Houston held state).
+export const FULL_CHOOSER_SLUGS = new Set(['chicago', 'baltimore', 'houston']);
+
+function chooserLink(label, href, kind, placement, primary = false) {
+  const style = primary
+    ? 'inline-flex min-h-[44px] items-center rounded-lg bg-slate-950 px-4 py-2 text-sm font-bold text-white no-underline'
+    : 'inline-flex min-h-[44px] items-center rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-950 no-underline';
+  return `<a class="${style}" href="${href}" data-gtm-event="directory_cta" data-cta-kind="${kind}" data-gtm-placement="${placement}">${label}</a>`;
+}
+
+function inlineLink(label, href, kind, placement) {
+  return `<a class="font-semibold text-blue-700 underline underline-offset-2" href="${href}" data-gtm-event="directory_cta" data-cta-kind="${kind}" data-gtm-placement="${placement}">${label}</a>`;
+}
+
+export function buildCompactCityBlock(cityName, citySlug, facts) {
+  const city = escapeHtml(cityName);
+  const campaign = citySlug;
+  const state = localCardState(citySlug, facts);
+  const n = facts?.listings;
+  const specialistWord = facts?.specialists === 1 ? 'specialist' : 'specialists';
+  const localHref = { none: '/location/', specialists: '#fine-art-specialists', listings: '#local-appraisers' }[state];
+  const localCta = {
+    none: 'Browse published locations',
+    specialists: `See the listed fine-art ${specialistWord}`,
+    listings: Number.isInteger(n) && n > 0 ? `See the ${n} ${city} listing${n === 1 ? '' : 's'}` : 'Jump to local listings',
+  }[state];
+  return (
+    `<section ${MARKER} aria-labelledby="intent-chooser-heading" class="mb-8 rounded-xl border border-slate-200 bg-white p-5">` +
+    `<h2 id="intent-chooser-heading" class="text-xl font-bold text-slate-950">Next step in ${city}</h2>` +
+    '<div class="mt-3 flex flex-wrap gap-2">' +
+    chooserLink('Start a paid online appraisal', taggedUrl('/start', campaign, 'signed_report', '&amp;service=regular'), 'signed_report', 'intent_chooser', true) +
+    chooserLink(localCta, localHref, 'local_specialist', 'intent_chooser') +
+    chooserLink('Try a first look (not an appraisal)', taggedUrl('/screener', campaign, 'screener'), 'screener', 'intent_chooser') +
+    '</div>' +
+    '<p class="mt-3 text-sm text-slate-700">By need: ' +
+    inlineLink('inherited', taggedUrl('/inherited-objects', campaign, 'inherited'), 'inherited', 'intent_occasion') + ' · ' +
+    inlineLink('insurance', taggedUrl('/insurance', campaign, 'insurance'), 'insurance', 'intent_occasion') + ' · ' +
+    inlineLink('donation', taggedUrl('/qualified-appraisals', campaign, 'donation'), 'donation', 'intent_occasion') + ' · ' +
+    inlineLink('sample signed report', taggedUrl('/sample-reports/professional', campaign, 'sample_report'), 'sample_report', 'sample_proof') +
+    '</p>' +
+    '</section>\n      '
+  );
+}
+
 function buildCityBlock(cityName, citySlug, facts) {
+  if (!FULL_CHOOSER_SLUGS.has(citySlug)) return buildCompactCityBlock(cityName, citySlug, facts);
   const city = escapeHtml(cityName);
   const campaign = citySlug;
   const state = localCardState(citySlug, facts);

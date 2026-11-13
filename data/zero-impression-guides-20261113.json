@@ -1,0 +1,24 @@
+{
+  "description": "City appraisal guides set to noindex,follow and left out of sitemap.xml (repeated-text step 2, 13 Nov 2026). Rule: 0 Search Console impressions over 90 days (sc-domain:appraisily.com, page dimension, 2026-08-13..2026-11-10, full export of 26,620 rows, uncapped; step-1 file coordination/artistas/texto-repetido-20261113/data/gsc-page-90d.json via data/population.csv) AND the guide links 0 appraiser profiles in the served HTML (public_site = live release 20261112220114-48c259e55501). URLs, titles, canonicals and internal links stay. Ending an entry is a data change: remove it, run scripts/apply-texto-repetido-20261113.mjs --write and npm run seo:indexing-manifest, review the diff.",
+  "checkedAt": "2026-11-13",
+  "guides": [
+    { "slug": "albuquerque", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "aspen", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "cincinnati", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 1 },
+    { "slug": "edmonton", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "hartford", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "honolulu", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 1 },
+    { "slug": "kelowna", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 1 },
+    { "slug": "long-beach", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "milwaukee", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 1 },
+    { "slug": "montreal", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "nashville", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "new-york", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 1 },
+    { "slug": "rochester", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "saskatoon", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "st-louis", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "thunder-bay", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "vancouver", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 0 },
+    { "slug": "washington-dc", "impressions90d": 0, "guideAppraiserLinks": 0, "cityPageListings": 1 }
+  ]
+}
