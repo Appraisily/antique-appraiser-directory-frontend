@@ -1577,7 +1577,7 @@ export function StandardizedLocationPage() {
         name: 'How fast is the online appraisal turnaround?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Turnaround is typically faster than scheduling an in-person visit. Timing varies by item type and complexity.'
+          text: 'Appraisily delivers the signed report within 24 hours of receiving your photos.'
         }
       },
       {
@@ -2614,7 +2614,7 @@ export function StandardizedLocationPage() {
                 <ul className="space-y-2 text-gray-600">
                   <li>No appointment required</li>
                   <li>One clear photo of the front is all we need to start</li>
-                  <li>Faster turnaround for most items</li>
+                  <li>Delivered within 24 hours of receiving your photos</li>
                 </ul>
               </a>
             </div>
