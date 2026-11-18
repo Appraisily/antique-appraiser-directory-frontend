@@ -88,7 +88,9 @@ test('FA1: every profile decision router names the $59 and routes insurance and 
       dom.window.close();
     }
   }
-  assert.equal(routers, 358, `decision routers found: ${routers}`);
+  // 357 since 18 Nov 2026: the under_review profile borsheims-fine-jewelry-gifts now uses the neutral
+  // "Profile unavailable" pattern (unsourced-claims-20261118), which has no decision router.
+  assert.equal(routers, 357, `decision routers found: ${routers}`);
   assert.deepEqual(failures.slice(0, 10), []);
 });
 
