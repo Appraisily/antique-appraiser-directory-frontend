@@ -131,24 +131,61 @@ test('under_review, rejected and retired profiles publish no credential, years o
   assert.deepEqual(failures, []);
 });
 
-test('limited and verified profiles attribute credential and years statements to their source', () => {
+// A credential (ISA/ASA/AAA/CAPP/USPAP, certified, accredited, member of, ...) may appear on a limited/verified
+// profile only as a member listing: a "Member listing:" (or "Source:"/"Sources:") line that links the
+// association's own public entry for that appraiser. Attribution to the business's own website is not enough
+// (seo decision 18 Nov 2026). Business names and URLs are exempt.
+const MEMBER_ASSOC_LINK = /href="https?:\/\/([a-z0-9-]+\.)?(isa-appraisers\.org|appraisersassociation\.org|appraisers\.org|najaappraisers\.com)\/[^"]+"/i;
+const memberListing = (item) => /^(Member listing|Source|Sources)\s*:/i.test(item.text) && MEMBER_ASSOC_LINK.test(item.inner);
+const noUrls = (value) => value.replace(/https?:\/\/\S+/g, ' ');
+const businessMasked = (value, names) => names.filter(Boolean).sort((a, b) => b.length - a.length)
+  .reduce((acc, n) => masked(acc, n), noUrls(value));
+const JSONLD_TEXT_SKIP = new Set(['name', 'url', 'sameAs', 'image', 'item', '@type', '@context', '@id', 'logo']);
+function jsonLdTexts(html) {
+  const out = [];
+  const walk = (value, key) => {
+    if (Array.isArray(value)) value.forEach((child) => walk(child, key));
+    else if (value && typeof value === 'object') for (const [k, child] of Object.entries(value)) walk(child, k);
+    else if (typeof value === 'string' && !JSONLD_TEXT_SKIP.has(key)) out.push({ key, value });
+  };
+  for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    try { walk(JSON.parse(match[1]), ''); } catch { /* the indexing contract owns parse errors */ }
+  }
+  return out;
+}
+
+test('limited and verified profiles: credentials only as member listings; years and licence attributed to their source', () => {
   const failures = [];
   for (const record of records.values()) {
     if (!['limited', 'verified'].includes(record.publicationStatus)) continue;
     const file = path.join(PUB, 'appraiser', record.slug, 'index.html');
     const html = fs.readFileSync(file, 'utf8');
     const name = profileName(html);
+    const names = [name, record.name];
     const qualification = (record.claimScope || []).includes('qualification');
     for (const key of jsonLdKeys(html)) if (CONTACT_KEYS.has(key)) failures.push(`${record.slug}: JSON-LD ${key}`);
+    for (const { key, value } of jsonLdTexts(html)) {
+      if (CRED.test(businessMasked(value, names))) failures.push(`${record.slug}: credential in JSON-LD ${key} "${value.slice(0, 90)}"`);
+    }
+    // Titles and descriptions (incl. og/twitter copies) may name a credential only when the page carries its member listing.
+    const hasMemberListing = bodyElements(html).some(memberListing);
+    const heads = [html.match(/<title>([^<]*)<\/title>/)?.[1] || '',
+      ...[...html.matchAll(/<meta (?:name|property)="(?:description|og:title|og:description|twitter:title|twitter:description)" content="([^"]*)"/g)].map((m) => m[1])];
+    for (const head of heads) {
+      if (!hasMemberListing && CRED.test(businessMasked(decode(head), names))) failures.push(`${record.slug}: credential in title/description "${decode(head).slice(0, 90)}"`);
+    }
     for (const item of bodyElements(html)) {
-      if (/^(Source|Sources|Official website|Website)\s*:/.test(item.text) || ASSOC_LINK.test(item.inner)) continue;
+      if (!memberListing(item) && CRED.test(businessMasked(item.text, names))) {
+        failures.push(`${record.slug}: credential outside a member listing "${item.text.slice(0, 90)}"`);
+      }
+      if (/^(Member listing|Source|Sources|Official website|Website)\s*:/i.test(item.text) || ASSOC_LINK.test(item.inner)) continue;
       for (const sentence of sentences(item.text)) {
-        const value = masked(sentence, name);
+        const value = businessMasked(sentence, names);
         for (const [label, rx] of [['phone', PHONE], ['email', EMAIL], ['street', STREET]]) {
           if (rx.test(value)) failures.push(`${record.slug}: ${label} "${sentence.slice(0, 90)}"`);
         }
         if (qualification) continue;
-        for (const [label, rx] of [['credential', CRED], ['years', YEARS], ['licence', LICENCE]]) {
+        for (const [label, rx] of [['years', YEARS], ['licence', LICENCE]]) {
           if (rx.test(value) && !attributed(sentence, name)) failures.push(`${record.slug}: unattributed ${label} "${sentence.slice(0, 90)}"`);
         }
       }
